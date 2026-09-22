@@ -1,0 +1,34 @@
+# Internal project context and local discussion/runtime state
+/.codex/
+/.superpowers/
+AGENTS.md
+CONTEXT.md
+
+# macOS and editor metadata
+.DS_Store
+.idea/
+.vscode/
+
+# Local runtimes and generated artifacts
+.venv/
+**/.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+*.pid
+dist/
+build/
+
+# Secrets, local authentication, and session material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.token
+*.session
