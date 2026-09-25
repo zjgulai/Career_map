@@ -1,0 +1,22 @@
+{
+  "英文名称": "dummy-dataset",
+  "中文名称": "待补：dummy-dataset",
+  "一句话作用": "按指定字段与分布造出一批假数据，供测试、演示或评测在没有真实数据时使用。触发词：测试数据生成、dummy-dataset、按指定字段与分布造出一批假数据，供测试、演示或评测在没有真实数据时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要按指定字段与分布造出一批假数据，供测试、演示或评测在没有真实数据时使用。触发词：测试数据生成、dummy-dataset、按指定字段与分布造出一批假数据，供测试、演示或评测在没有真实数据时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02538-dummy-dataset-6b71c1ac",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/dummy-dataset/SKILL.md",
+  "relative_path": "lute/.dsh/skills/dummy-dataset/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "26d67c9a96654386c4373becfa9ba013649c282e6ee1e48f41fe561e2985269a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

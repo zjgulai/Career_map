@@ -1,0 +1,22 @@
+{
+  "英文名称": "html",
+  "中文名称": "单页 HTML 开发",
+  "一句话作用": "专门设计、生成和修改可直接在浏览器中打开的 HTML 页面。交付物以独立 .html 文件为主，可包含内联或本地 CSS、JavaScript，支持页面布局、视觉样式、交互效果、响应式适配、组件设计和内容展示。适用于静态网页、单页展示、活动页、原型页、HTML 模板及页面片段。不处理前后端工程、应用框架、服务端接口、数据库、用户系统、构建部署或运营数据。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:22+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要专门设计、生成和修改可直接在浏览器中打开的 HTML 页面。交付物以独立 .html 文件为主，可包含内联或本地 CSS、JavaScript，支持页面布局、视觉样式、交互效果、响应式适配、组件设计和内容展示。适用于静态网页、单页展示、活动页、原型页、HTML 模板及页面片段。不处理前后端工程、应用框架、服务端接口、数据库、用户系统、构建部署或运营数据。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06574-html-60c03c6f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/html/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/html/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e142f83a9176d4a10e84e39d0830d96004ffb0ab4ce66573a63030938fc1792",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

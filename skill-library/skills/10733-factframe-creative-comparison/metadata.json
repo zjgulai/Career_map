@@ -1,0 +1,22 @@
+{
+  "英文名称": "factframe-creative-comparison",
+  "中文名称": "待补：factframe-creative-comparison",
+  "一句话作用": "Inspect, design, or change FactFrame read-only Creative Comparison, compare-bound Decision Briefs, typed external evidence packages, subject binding, and comparison UI projections. Use for comparing immutable Script Ver…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T04:10:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Inspect, design, or change FactFrame read-only Creative Comparison, compare-bound Decision Briefs, typed external evidence packages, subject binding, and comparison UI projections. Use for comparing immutable Script Ver…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10733-factframe-creative-comparison-7fbf2836",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/factframe-creative-comparison/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/factframe-creative-comparison/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6d8545249d53d3371415cb87bf68a89a7b1b506d5be575e5163bde97a2a185fe",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

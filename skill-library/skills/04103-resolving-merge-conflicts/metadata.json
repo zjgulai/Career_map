@@ -1,0 +1,22 @@
+{
+  "英文名称": "resolving-merge-conflicts",
+  "中文名称": "待补：resolving-merge-conflicts",
+  "一句话作用": "消解进行中的 git 合并/变基冲突。触发词：合并冲突消解、resolving-merge-conflicts、消解进行中的 git 合并/变基冲突。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要消解进行中的 git 合并/变基冲突。触发词：合并冲突消解、resolving-merge-conflicts、消解进行中的 git 合并/变基冲突。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04103-resolving-merge-conflicts-9072fb61",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/resolving-merge-conflicts/SKILL.md",
+  "relative_path": "lute/.dsh/skills/resolving-merge-conflicts/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a2c2bb7b58f8db07598b14f4c0f14141929b7d33834cb3b7a1419c54c7602e4b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

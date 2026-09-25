@@ -1,0 +1,22 @@
+{
+  "英文名称": "wxz-cli",
+  "中文名称": "万小智 AI 建站命令行工具",
+  "一句话作用": "万小智 (Wan Xiao Zhi) AI 建站平台 CLI 工具。用于通过自然语言对话创建、预览和部署网站。 Triggers: \"wxz\", \"万小智\", \"建站\", \"website builder\", \"chat start\", \"deploy\", \"preview\", \"domain bind\", \"code tree\", \"sandbox\", \"灵感值\", \"inspiration\", \"发布网站\", \"对话建站\"",
+  "关键输入": "wxz login",
+  "关键输出": "wxz login --ak LTAI... --sk abc... --role-arn arn... --no-browser",
+  "最新更新时间": "2026-09-19T03:38:27+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要使用 wxz CLI 或万小智产品时遇到的常见业务、功能、操作问题，详见本技能目录下的 FAQ.md。该文件整理了阿里云帮助中心「常见问题」章节的完整内容，并补充了 CLI 使用中的高频问题。时，用它产出或更新：wxz login --ak LTAI... --sk abc... --role-arn arn... --no-browser",
+  "skill_id": "04677-wxz-cli-819feb16",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/wxz-cli/1.0.10/skills/wxz-cli/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/wxz-cli/1.0.10/skills/wxz-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f6ae723cbee5af523c09e2aff80a89761f00933c05d9d64e7ae42ab69cfce06e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

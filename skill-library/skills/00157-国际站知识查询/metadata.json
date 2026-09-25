@@ -1,0 +1,22 @@
+{
+  "英文名称": "国际站知识查询",
+  "中文名称": "待补：国际站知识查询",
+  "一句话作用": "检索国际站官方 FAQ/知识库，回答平台经营规则、操作指引、服务政策和后台使用问题。 覆盖入驻、建站发品、营销商机、数据、生意助手、信保订单、资金/发票、物流、一达通、Alibaba.com Pay、金融、安全网规/禁售、买家服务、半托管、无忧退等知识场景；不执行具体业务操作或实时数据查询。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要检索国际站官方 FAQ/知识库，回答平台经营规则、操作指引、服务政策和后台使用问题。 覆盖入驻、建站发品、营销商机、数据、生意助手、信保订单、资金/发票、物流、一达通、Alibaba.com Pay、金融、安全网规/禁售、买家服务、半托管、无忧退等知识场景；不执行具体业务操作或实时数据查询。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00157-skill-04cb5cba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-cco-rag/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-cco-rag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "59a62275368e0ae922a736a7e898316fcef42e1d5dc56842c060bbea379db730",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

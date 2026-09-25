@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-onboarding-merchant",
+  "中文名称": "待补：shopify-onboarding-merchant",
+  "一句话作用": "Set up and connect a Shopify store from your AI assistant. Use when the user wants to: set up my Shopify store, connect my store, install Shopify plugin, get started with Shopify, manage my store, add products to my sto…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Constraint Limit ----------------------------- -------------------------------------- Variants per product 100 Options per product 3 (e.g., Size, Color, Material)",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Set up and connect a Shopify store from your AI assistant. Use when the user wants to: set up my Shopify store, connect my store, install Shopify plugin, get started with Shopify, manage my store, add products to my sto…时，用它产出或更新：Constraint Limit ---------…",
+  "skill_id": "01026-shopify-onboarding-merchant-b9c14396",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-onboarding-merchant/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-onboarding-merchant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b7a30d0c177ed3f21f7b45bd1747c42f4d9aa21e6166eb9801560c57ae88b1ce",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

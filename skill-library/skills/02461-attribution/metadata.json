@@ -1,0 +1,22 @@
+{
+  "英文名称": "attribution",
+  "中文名称": "待补：attribution",
+  "一句话作用": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. 边界：归因模型/MMM/增量实验走本技能；事件埋点与 UTM 走 analyt…",
+  "关键输入": "- 归因模型、MMM 与增量实验，厘清哪个渠道真在驱动营收。",
+  "关键输出": "Deliver an attribution readout , not a data dump: See references/output-readout-template.md",
+  "最新更新时间": "2026-09-08T00:49:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 归因模型、MMM 与增量实验，厘清哪个渠道真在驱动营收。时，用它产出或更新：Deliver an attribution readout , not a data dump: See references/output-readout-template.md",
+  "skill_id": "02461-attribution-89ecca73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "196a34ecf311c53aa09cc6c57e3d0e06fedb5be29798b0018555e5724c81299c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

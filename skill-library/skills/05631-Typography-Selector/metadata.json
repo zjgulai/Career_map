@@ -1,0 +1,22 @@
+{
+  "英文名称": "Typography Selector",
+  "中文名称": "待补：Typography Selector",
+  "一句话作用": "Browse and select fonts from Google Fonts or curated pairings. Use to find the perfect typography for a design project.",
+  "关键输入": "\\\\\\html Headline Body text goes here. code example \\\\\\",
+  "关键输出": "Provide selected typography in this format:",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要\\\\\\html Headline Body text goes here. code example \\\\\\时，用它产出或更新：Provide selected typography in this format:",
+  "skill_id": "05631-typography-selector-a1c19d39",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-design-pro/skills/typography-selector/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-design-pro/skills/typography-selector/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2471c94c0ad17bd6ed2b57862c8bde9f47065dcb236a74bf07598c0cbdfe74de",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

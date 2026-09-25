@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-drone-uav-last-mile-delivery",
+  "中文名称": "无人机末端配送调度 最后一公里的路径规划",
+  "一句话作用": "触发词：无人机配送、末端配送调度、郊区急送、无人机路径规划、仓库内取货。何时不用：常规订单交给快递承运商比选用「承运商动态选择」，只算物流成本率与空运海运取舍用「经济性分析」；本技能只判断哪些货能用无人机飞、怎么飞。安全边界：航线须先过 FAA/CAAC 认证、实时禁飞区与远程 ID 校验，模型不直接下发飞行指令，方案须人工与合规复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨境运营面临\"郊区最后一公里配送成本高达12元/件且急需品时效慢\"——无人机调度规划降低配送成本至3元/件，30分钟配送留存率+15%，规模化后年化ROI约125万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03079-p2s-drone-uav-last-mile-delivery-b59abebd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-drone-uav-last-mile-delivery/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-drone-uav-last-mile-delivery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "563a3827dd96691b4fc23d2713dd74d36d90d58dba5139ba51f85a221715d9de",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

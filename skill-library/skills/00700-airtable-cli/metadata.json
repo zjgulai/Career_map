@@ -1,0 +1,22 @@
+{
+  "英文名称": "airtable-cli",
+  "中文名称": "待补：airtable-cli",
+  "一句话作用": "Lists bases, reads and writes records, manages tables and fields, filters and searches data in Airtable via the airtable-mcp CLI. Use when the task involves Airtable data or the user mentions airtable-mcp, bases, tables…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Default output is formatted JSON to stdout. Status messages go to stderr. - --json on tools gives a JSON array of {name, title, access}. - -q / --quiet suppresses stderr status messages (cache warnings, etc). - --output raw returns the raw server response t…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Lists bases, reads and writes records, manages tables and fields, filters and searches data in Airtable via the airtable-mcp CLI. Use when the task involves Airtable data or the user mentions airtable-mcp, bases, tables…时，用它产出或更新：- Default output is format…",
+  "skill_id": "00700-airtable-cli-53328662",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/airtable/skills/airtable-cli/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/airtable/skills/airtable-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c7aa197e1f14866cba1ff25e8365b46e08b6ec8f828ebee14e18bd9468da788",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

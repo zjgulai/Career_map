@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-safety-audit",
+  "中文名称": "待补：code-safety-audit",
+  "一句话作用": "扫描代码安全漏洞，检测依赖漏洞、密钥泄露和OWASP安全模式。当用户提到安全扫描、漏洞检测、依赖审计、密钥泄露、API key、OWASP、npm audit、pip-audit或SQL注入/XSS等关键词时触发。",
+  "关键输入": "参数 说明 默认值 --- --- --- TARGET 扫描目标目录 当前目录 --mode MODE 扫描模式：all、deps、secrets、owasp all --format FORMAT 输出格式：text、json text --output FILE 输出文件路径 stdout --severity LEVEL 最低报告级别：low、medium、high、critical low",
+  "关键输出": "python3 scripts/security scan.py --format json --output report.json .",
+  "最新更新时间": "2026-09-14T00:09:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要扫描代码安全漏洞，检测依赖漏洞、密钥泄露和OWASP安全模式。当用户提到安全扫描、漏洞检测、依赖审计、密钥泄露、API key、OWASP、npm audit、pip-audit或SQL注入/XSS等关键词时触发。时，用它产出或更新：python3 scripts/security scan.py --format json --output report.json .",
+  "skill_id": "10559-code-safety-audit-601d742c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/code-safety-audit/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/code-safety-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c24d228c25f0777ccd7395627e27076327e830405309755aae9771e08cfc5b7e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

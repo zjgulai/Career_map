@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-privacy-coppa-compliance",
+  "中文名称": "儿童隐私合规（母婴 App网站数据采集法律限制）",
+  "一句话作用": "触发词：COPPA、儿童隐私、家长可核实同意、SDK合规审查、母婴App合规。何时不用：通用 GDPR/CCPA 采集架构改造时用「Privacy-Compliant Data Collection GDPR/CCPA」；做去标识化协作分析用数据洁净室类技能。安全边界：合规结论不构成法律意见，须法务与 FTC 认可的安全港项目确认；不得为规避 COPPA 伪造年龄门槛或弱化家长同意。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要法务合规团队面临\"母婴App在美国市场违反COPPA儿童隐私法面临FTC处罚\"——COPPA合规自动审查将违规SDK识别率提升至95%，年化防范FTC罚款（单次可达百万美元）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03623-p2s-privacy-coppa-compliance-f6994860",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-privacy-coppa-compliance/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-privacy-coppa-compliance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2df9c625176edc72cfb03616caad2c461e72f9356179e79802bf17cbd19baa31",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

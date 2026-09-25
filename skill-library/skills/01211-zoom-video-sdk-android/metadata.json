@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-video-sdk-android",
+  "中文名称": "待补：zoom-video-sdk-android",
+  "一句话作用": "Zoom Video SDK for Android native apps. Use when building custom Android video experiences with full UI control, session tokens, raw media options, and event-driven participant state.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:40+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Zoom Video SDK for Android native apps. Use when building custom Android video experiences with full UI control, session tokens, raw media options, and event-driven participant state.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01211-zoom-video-sdk-android-9ceee094",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/android/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/android/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "adc586cea7405a5b2a4b1e92caaa093d4a0f318bbc70b379a21ea74f929f6e10",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

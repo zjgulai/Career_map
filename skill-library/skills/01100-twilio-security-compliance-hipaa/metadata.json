@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-security-compliance-hipaa",
+  "中文名称": "待补：twilio-security-compliance-hipaa",
+  "一句话作用": "Configure Twilio accounts for HIPAA compliance. Covers BAA requirements, HIPAA Project designation (self-service and support), eligible services list, per-product requirements (Voice, SMS, ConversationRelay, Conversatio…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Configure Twilio accounts for HIPAA compliance. Covers BAA requirements, HIPAA Project designation (self-service and support), eligible services list, per-product requirements (Voice, SMS, ConversationRelay, Conversatio…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01100-twilio-security-compliance-hipaa-15d4dd39",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-security-compliance-hipaa/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-security-compliance-hipaa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e5ec753e5e7ce8ff43e069f2514c7136385b88d23aabb05ca86db250187802f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

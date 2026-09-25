@@ -1,0 +1,22 @@
+{
+  "英文名称": "启发评估",
+  "中文名称": "启发评估",
+  "一句话作用": "产品设计套件入口 C：改版项目体验走查。当用户是设计师要对已上线产品做改版、诊断、找用户体验问题、启发式评估时，第一个该启动的 Skill。改版项目占企业内项目 30-40%，对团队设计师是常见场景。 与 product-management（产品管理）套件互补，服务不同角色： - 用户是设计师做体验走查 / 找用户体验问题 / 启发式评估 → 用本 Skill ✅ - 用户是产品经理做竞品对比分析 → 请用 product-mana…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成 Audit 后， 同时 做两件事： 1. 会话内输出 （marker 之间放裸 JSON，不要嵌套 ``json 代码块）： 2. 写入项目文件 ：spark-output/context/audit.json（目录不存在时先创建） 3. 额外保存 Markdown 报告 ：spark-output/audit/[project-slug].md`，含完整 findings + 机会点矩阵 + 截图标注（如有）。",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要产品设计套件入口 C：改版项目体验走查。当用户是设计师要对已上线产品做改版、诊断、找用户体验问题、启发式评估时，第一个该启动的 Skill。改版项目占企业内项目 30-40%，对团队设计师是常见场景。 与 product-management（产品管理）套件互补，服务不同角色： - 用户是设计师做体验走查 / 找用户体验问题 / 启发式评估 → 用本 Skill ✅ - 用户是产品经理做竞品对比分析 → 请用 product-mana…时，用它产出或更新：完成 Audit 后， 同时 做两件事： 1. 会话…",
+  "skill_id": "04587-skill-5d1d8d69",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/audit/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cc234b267d4f741978f5528b7a5625ce32b0fa216583701d52c538d17c9cd7e1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

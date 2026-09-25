@@ -1,0 +1,22 @@
+{
+  "英文名称": "rust-rebuilder",
+  "中文名称": "待补：rust-rebuilder",
+  "一句话作用": "Plan and execute incremental project rewrites to Rust with architecture mapping, parity verification, idiomatic Rust guidance, dependency preflight checks, and GitHub upstream synchronization. Use when users ask to port…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "在每次执行中输出以下内容，避免“只给代码不讲迁移依据”： - Rewrite Scope：本轮重写的模块、接口和非目标范围。 - Equivalence Strategy：行为对齐方式（黄金测试、对拍、协议回放）。 - Rust Design Decisions：所有权、生命周期、错误模型、并发模型选择。 - Risk Register：已识别陷阱、触发条件、监控指标、回退方案。 - Upstream Sync Notes：与原仓库分叉点、增量 commit、对应重写任务。",
+  "最新更新时间": "2026-09-19T03:58:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Plan and execute incremental project rewrites to Rust with architecture mapping, parity verification, idiomatic Rust guidance, dependency preflight checks, and GitHub upstream synchronization. Use when users ask to port…时，用它产出或更新：在每次执行中输出以下内容，避免“只给代码不讲迁移依据…",
+  "skill_id": "05074-rust-rebuilder-ec7bd08d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/rust-rebuilder/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/rust-rebuilder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ea2219a0fec864281df3e28466e5270b25ca2169162fdd1334b1b8f80d31956",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

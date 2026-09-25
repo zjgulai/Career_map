@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-return-value-recovery-auction",
+  "中文名称": "退货价值回收竞价 二手翻新零部件捐赠的最优处置价格发现机制",
+  "一句话作用": "触发词：退货处置、回收率、处置渠道选择、二手翻新定价、退货竞价。何时不用：判定退货件品相等级本身用「退货品质分级引擎」，决定退货件走哪条运输线路用「退货批量逆向路由」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要逆向物流面临\"退货一律当废品处理30%回收率\"——最优渠道选择将回收率从30%提升至55%，年化退货额50万×25%提升=多回收12.5万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11508-p2s-return-value-recovery-auction-24bf4fae",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-return-value-recovery-auction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-return-value-recovery-auction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2179cce1b5f0dc2d579b30d49bb45357084d17aeda06763f65ecdfc2ee36710",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

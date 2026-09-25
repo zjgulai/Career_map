@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-lifecycle-stage",
+  "中文名称": "待补：p2s-product-lifecycle-stage",
+  "一句话作用": "触发词：生命周期阶段、进入时机、换代预警、BSR 趋势、成长与衰退。何时不用：只需品类容量数字用「Market Size Estimation」；要在品类之间排机会优先级用「品类机会评分引擎」。安全边界：时序长度不足时必须输出数据不足而非猜测；阶段标签只是判断依据，退出与换代动作由业务决策层执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：考虑进入 baby UV-C sterilizer 品类，不知道该品类处于哪个 PLC 阶段，是该现在进还是已经过了最佳时机时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03644-p2s-product-lifecycle-stage-6b5c2e12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-product-lifecycle-stage/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-product-lifecycle-stage/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6beaf782c357d5b41e7ade2e8e95308d35365032d0fd6456d9fc1f192104253b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

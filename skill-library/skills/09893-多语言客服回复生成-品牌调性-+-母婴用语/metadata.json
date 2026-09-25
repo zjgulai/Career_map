@@ -1,0 +1,22 @@
+{
+  "英文名称": "多语言客服回复生成（品牌调性 + 母婴用语）",
+  "中文名称": "待补：多语言客服回复生成（品牌调性 + 母婴用语）",
+  "一句话作用": "在已确认非安全升级类工单、需生成首响或跟进回复草稿时调用；须符合品牌调性，且不含医疗承诺或违规宣称。",
+  "关键输入": "- safety-flag-detector = SAFE TO ASSIST 或已人工解除升级。 - 政策摘要 ：退换货窗口、保修、寄回地址规则（可粘贴）。 - 语言 与 渠道字符限制 （如聊天 500 字）。",
+  "关键输出": "- draft reply lang tone human review flags - 可选 EN + 用户语言 双语版本。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在已确认非安全升级类工单、需生成首响或跟进回复草稿时调用；须符合品牌调性，且不含医疗承诺或违规宣称。时，用它产出或更新：- draft reply lang tone human review flags - 可选 EN + 用户语言 双语版本。",
+  "skill_id": "09893-skill-ce15673b",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/reply-generator-multilingual/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/reply-generator-multilingual/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a0bbd77fd72ad3dec5d26ab9f61a71c8b0ede2198ed5658fd85569768c4a72de",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

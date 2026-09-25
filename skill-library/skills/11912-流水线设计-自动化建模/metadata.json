@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-automl-pipeline-design",
+  "中文名称": "流水线设计 自动化建模",
+  "一句话作用": "触发词：AutoML流水线、TPE超参搜索、自动算法选择、MAPE改善、模型自动导出。何时不用：样本量过小或特征不稳定时不适用；只对单一模型做精细调参用贝叶斯超参搜索。安全边界：搜索到的策略若涉及定价等业务动作须加业务约束（如价格下限），预测结果不得直接当作定价决策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据科学家面临\"每个新预测任务都要重新手工搜索超参模型选择耗时数天\"——Optuna TPE贝叶斯搜索将模型调优时间从3天压缩至4小时，准确率提升7%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11912-p2s-automl-pipeline-design-a10cc429",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-automl-pipeline-design/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-automl-pipeline-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "065f12e60aeb15bc0f5eba30be9eb82cb0cc500b8bdb11fadf92bd41a26483a8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

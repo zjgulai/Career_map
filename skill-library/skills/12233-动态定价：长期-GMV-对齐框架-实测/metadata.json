@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-aigp-llm-dynamic-pricing",
+  "中文名称": "动态定价：长期 GMV 对齐框架（实测）",
+  "一句话作用": "触发词：动态定价、长期价值、旺季定价、竞品跟价、折扣锚点。何时不用：只看单次竞品调价跟不跟用「竞品价格监测」；本技能优化的是跨周期的 GMV 与品牌溢价。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务痛点：吸奶器年度销量呈强季节性（Q3-Q4 旺季 GMV 占全年 65%），且 Momcozy 经常在大促前一周大幅降价抢占位次时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12233-p2s-aigp-llm-dynamic-pricing-cd70e516",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-aigp-llm-dynamic-pricing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-aigp-llm-dynamic-pricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "386153c2c801014d2cc6a055a73f5cb791ae4ef096d6afb6794933536ada7de7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

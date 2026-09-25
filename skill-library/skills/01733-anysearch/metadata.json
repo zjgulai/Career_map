@@ -1,0 +1,22 @@
+{
+  "英文名称": "anysearch",
+  "中文名称": "待补：anysearch",
+  "一句话作用": "Real-time search engine supporting web search, vertical domain search, parallel batch search, and URL content extraction.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "search \"query\" --max results 5",
+  "最新更新时间": "2026-05-27T14:31:23+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Real-time search engine supporting web search, vertical domain search, parallel batch search, and URL content extraction.时，用它产出或更新：search \"query\" --max results 5",
+  "skill_id": "01733-anysearch-4e348e02",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/anysearch/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/anysearch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "13addc85f022739a719f53375ba07f455337df3563c771723e336caf428518c5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

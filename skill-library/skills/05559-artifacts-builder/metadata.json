@@ -1,0 +1,22 @@
+{
+  "英文名称": "artifacts-builder",
+  "中文名称": "待补：artifacts-builder",
+  "一句话作用": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "To build powerful frontend claude.ai artifacts, follow these steps: 1. Initialize the frontend repo using scripts/init-artifact.sh 2. Develop your artifact by editing the generated code 3. Bundle all code into a single HTML file using scripts/bundle-artifact.…",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "document-processing",
+  "解决具体问题": "当需要Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or…时，用它产出或更新：To build powerful frontend…",
+  "skill_id": "05559-artifacts-builder-51eb2b9c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/artifacts-builder/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/artifacts-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "017f29afa95e7165bac8330d062d2c6890dde6ef8551c7d8926826e019d53b29",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-repo",
+  "中文名称": "待补：glab-repo",
+  "一句话作用": "管理 GitLab 仓库和项目，包括克隆、创建、Fork、归档、查看、更新、删除、搜索、转移和成员管理。适用于管理仓库生命周期、Fork 项目、克隆仓库、搜索项目、管理协作者或配置仓库设置等场景。触发关键词：repository、repo、project、clone、fork、创建仓库、搜索项目、协作者。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "glab repo clone group/api-project glab repo list glab repo list --member Only where you're a member glab repo list --mine Only repos you own",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理 GitLab 仓库和项目，包括克隆、创建、Fork、归档、查看、更新、删除、搜索、转移和成员管理。适用于管理仓库生命周期、Fork 项目、克隆仓库、搜索项目、管理协作者或配置仓库设置等场景。触发关键词：repository、repo、project、clone、fork、创建仓库、搜索项目、协作者。时，用它产出或更新：glab repo clone group/api-project glab repo list glab repo list --member Only where you're a…",
+  "skill_id": "10610-glab-repo-50bc0353",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-repo/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-repo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5d6a230c75763fce01ecadde311ad8b50d78d705300d1b466e355b847664d073",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

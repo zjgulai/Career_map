@@ -1,0 +1,22 @@
+{
+  "英文名称": "apify-mcp",
+  "中文名称": "网页抓取 · 业务指引",
+  "一句话作用": "Apify MCP 工具：搜索与调用 Apify Store 的 Actor 完成网页抓取、数据提取与自动化任务；预置网页转 Markdown（web-fetch）与网页搜索抓取（rag-web-browser）。触发词：Apify、apify、Actor、调用 Actor。何时不用：不涉及 Apify 的普通网页浏览（用浏览器工具）；跨境选品 SKU 校验（用 cross-border-selection）；只设计采集字段不执行采集…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-09T21:15:47+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Apify MCP 工具：搜索与调用 Apify Store 的 Actor 完成网页抓取、数据提取与自动化任务；预置网页转 Markdown（web-fetch）与网页搜索抓取（rag-web-browser）。触发词：Apify、apify、Actor、调用 Actor。何时不用：不涉及 Apify 的普通网页浏览（用浏览器工具）；跨境选品 SKU 校验（用 cross-border-selection）；只设计采集字段不执行采集…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02459-apify-mcp-34b3f611",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/apify-mcp/SKILL.md",
+  "relative_path": "lute/.dsh/skills/apify-mcp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fda45d30286be750bdf6fe07680c5283894d6c068c7b0ae3f7fd2d562349ad99",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

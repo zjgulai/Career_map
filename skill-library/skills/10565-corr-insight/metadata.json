@@ -1,0 +1,22 @@
+{
+  "英文名称": "corr-insight",
+  "中文名称": "待补：corr-insight",
+  "一句话作用": "计算变量间的Pearson或Spearman相关矩阵、偏相关分析，并自动识别因混淆变量导致的伪相关。当用户需要检查数据相关性、计算相关系数、进行偏相关分析，或提及伪相关、spurious correlation、混淆变量等关键词时触发。",
+  "关键输入": "参数 缩写 必填 默认值 说明 ------ ------ ------ -------- ------ input — 是 — 输入文件路径（CSV/TSV/Excel/JSON） --features -f 否 全部数值列 要分析的列名，逗号分隔 --method -m 否 all 相关系数类型：all / pearson / spearman --alpha -a 否 0.05 显著性水平",
+  "关键输出": "python3 scripts/correlation explorer.py data.csv -o result.json",
+  "最新更新时间": "2026-09-14T00:09:46+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要计算变量间的Pearson或Spearman相关矩阵、偏相关分析，并自动识别因混淆变量导致的伪相关。当用户需要检查数据相关性、计算相关系数、进行偏相关分析，或提及伪相关、spurious correlation、混淆变量等关键词时触发。时，用它产出或更新：python3 scripts/correlation explorer.py data.csv -o result.json",
+  "skill_id": "10565-corr-insight-8097a47d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/corr-insight/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/corr-insight/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e56e4f8ce8d7b063250151bc4a6974953451a2f37365780ca7152eb6193a2279",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

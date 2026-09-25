@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-theme-craft",
+  "中文名称": "待补：shopify-theme-craft",
+  "一句话作用": "Theme decoration craft — banner / hero / announcement bar conventions, category-to-style strategy, style-pack section recipes, external theme-source intake, template/demo sanitization, Horizon-theme Liquid section patte…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Theme decoration craft — banner / hero / announcement bar conventions, category-to-style strategy, style-pack section recipes, external theme-source intake, template/demo sanitization, Horizon-theme Liquid section patte…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00262-shopify-theme-craft-6c20de54",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-theme-craft/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-theme-craft/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f6a4b9a384faa99bdb01b4f621b8affcaaa6bb57282e0d397aadc93a1cc32a01",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

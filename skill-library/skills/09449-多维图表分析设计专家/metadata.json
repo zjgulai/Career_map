@@ -1,0 +1,22 @@
+{
+  "英文名称": "mckinsey-ppt-multidim-chart-expert",
+  "中文名称": "多维图表分析设计专家",
+  "一句话作用": "Use when users need a chart strategy expert for PPT pages with complex trade-offs, such as multi-metric storytelling, combo charts, attribution waterfalls, growth-driver visuals, or uncertainty about chart selection for…",
+  "关键输入": "业务问题 / 需求 推荐图表类型 引用 Skill ----------------- -------------- ------------ 同时看规模与增长率、销售额与增速 柱状图+折线图（双轴） combination-chart 结构占比 + 某维度对比 柱状图+饼图/环形图 combination-chart 累计贡献 + 趋势 面积图+折线图 combination-chart",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-13T13:30:02+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要业务问题 / 需求 推荐图表类型 引用 Skill ----------------- -------------- ------------ 同时看规模与增长率、销售额与增速 柱状图+折线图（双轴） combination-chart 结构占比 + 某维度对比 柱状图+饼图/环形图 combination-chart 累计贡献 + 趋势 面积图+折线图 combination-chart时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09449-mckinsey-ppt-multidim-chart-expert-d5fa960f",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/mckinsey_ppt/skills/00-expert-entry/mckinsey-ppt-multidim-chart-expert/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/mckinsey_ppt/skills/00-expert-entry/mckinsey-ppt-multidim-chart-expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "789ce304ea61b9410671b7a9efa51bef9f9e2f59f3df5df19ac47655e1515fa7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

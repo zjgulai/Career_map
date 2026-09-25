@@ -1,0 +1,22 @@
+{
+  "英文名称": "build-deepseek-harness-plugin",
+  "中文名称": "构建 DeepSeek Harness 插件",
+  "一句话作用": "创建、改造、迁移、评审、调试和发布 DeepSeek Harness 可安装组合包。涉及 Cordis 装配、官方插件替换、Web Client bundle、Slot（含 sidebar / shell.overlay / settings.plugin.item）、Theme Token、本地化、Settings、Credentials、Typert Remote、改 schema 后界面不更新、GitHub 安装、依赖告警或加载…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T10:43:22+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要创建、改造、迁移、评审、调试和发布 DeepSeek Harness 可安装组合包。涉及 Cordis 装配、官方插件替换、Web Client bundle、Slot（含 sidebar / shell.overlay / settings.plugin.item）、Theme Token、本地化、Settings、Credentials、Typert Remote、改 schema 后界面不更新、GitHub 安装、依赖告警或加载…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02478-build-deepseek-harness-plugin-7184e851",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/build-deepseek-harness-plugin/SKILL.md",
+  "relative_path": "lute/.dsh/skills/build-deepseek-harness-plugin/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "110c6ca48ac3b20c1ac4d0d2a2facf94b55f010c92f5985483c667c2105d6bea",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

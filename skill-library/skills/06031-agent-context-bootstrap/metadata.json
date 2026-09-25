@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-context-bootstrap",
+  "中文名称": "待补：agent-context-bootstrap",
+  "一句话作用": "Bootstrap repo-local agent context for Codex and other coding agents. Use when setting up AGENTS.md, docs/agents, issue tracker rules, triage labels, domain docs, ADR locations, validation commands, or skill usage instr…",
+  "关键输入": "- Existing AGENTS.md, CLAUDE.md, .codex/, .cursor/, CONTEXT.md, CONTEXT-MAP.md, and docs files. - README.md, package files, validation scripts, CI workflows, issue templates, labels, and .github/. - docs/adr/, architecture docs, domain docs, and existing docs…",
+  "关键输出": "Return: 1. Files inspected 2. Context added or proposed 3. Existing instructions preserved 4. Validation result 5. Follow-up decisions needed",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- A repository lacks AGENTS.md or agent-facing docs. - The user wants Codex, Claude Code, Cursor, or another agent to follow local workflow rules. - A repo needs issue tracker notes, triage labels, domain docs, ADR loca…时，用它产出或更新：Return: 1. Files inspected…",
+  "skill_id": "06031-agent-context-bootstrap-8b02531f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/agent-context-bootstrap/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/agent-context-bootstrap/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d58a05a8a9a5738fed7a673718cdeef6bc0024928fa42e1627faef1bc7c235d2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

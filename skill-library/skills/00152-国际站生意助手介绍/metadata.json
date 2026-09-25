@@ -1,0 +1,22 @@
+{
+  "英文名称": "生意助手介绍",
+  "中文名称": "国际站生意助手介绍",
+  "一句话作用": "国际站生意助手功能介绍与使用引导，专用于新用户首发任务或用户询问助手能力的场景。 固定输出生意助手核心能力介绍文案，并通过追问引导用户发起首条业务 Query，提升用户激活转化；不处理已明确的具体业务任务。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "触发本 Skill 后，以下 body 部分必须从 [BODY START] 到 [BODY END] 之间的内容原样输出，不做任何修改、不跳过任何段落： [BODY START] 国际站生意助手 Agent ，以独立Agent形式运行于工作台。从选品、发品、广告诊断、管理店铺、查物流到防风险等，只需一个指令，自主规划、拆解任务、交付结果，轻松搞定生意全链路。 覆盖生意经营 7大实战场景 ，助您在全球贸易中抢占先机： 1. 深度洞察与选品 🔍 - 价值：交叉验证站内趋势与社媒热度，锁定\"天选爆品\"。",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要国际站生意助手功能介绍与使用引导，专用于新用户首发任务或用户询问助手能力的场景。 固定输出生意助手核心能力介绍文案，并通过追问引导用户发起首条业务 Query，提升用户激活转化；不处理已明确的具体业务任务。时，用它产出或更新：触发本 Skill 后，以下 body 部分必须从 [BODY START] 到 [BODY END] 之间的内容原样输出，不做任何修改、不跳过任何段落： [BODY START] 国际站生意助手 Agent ，以独立Agent形式运行于工作台。从选品、发品、广告诊断、管理店铺、查物流…",
+  "skill_id": "00152-skill-5832dc01",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-assistant-intro/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-assistant-intro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c67c378ddf8ebd07cf3d06edaa0c3d242f9318448dcb6dd615a14784c6dd49d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

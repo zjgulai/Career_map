@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-arena-execution",
+  "中文名称": "前车之鉴·目标与执行竞技场",
+  "一句话作用": "目标与执行竞技场：三个对立角色（心理比对架构师/执行意图设计师/块状重启教练）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：目标定得很漂亮，就是推不动、计划赶不上变化，改了三版还是废纸、忙了一整天，重要的事纹丝未动、目标定了推不动、flag 必倒。何时不用：团队迭代排期 → sprint-plan；个人待办优先级 → prioritization-frameworks。安全边界：拖延若伴随抑郁/焦虑症状（持续…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要目标与执行竞技场：三个对立角色（心理比对架构师/执行意图设计师/块状重启教练）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：目标定得很漂亮，就是推不动、计划赶不上变化，改了三版还是废纸、忙了一整天，重要的事纹丝未动、目标定了推不动、flag 必倒。何时不用：团队迭代排期 → sprint-plan；个人待办优先级 → prioritization-frameworks。安全边界：拖延若伴随抑郁/焦虑症状（持续…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04272-xmind-arena-execution-b7882760",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-arena-execution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-arena-execution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e9c958f90ecace8969965bb0e9c01572e227c786462ab8794d0d942a015fb4c3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

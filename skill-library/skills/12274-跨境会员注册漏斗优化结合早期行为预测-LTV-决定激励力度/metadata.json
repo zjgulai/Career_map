@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-border-member-onboarding-optimization",
+  "中文名称": "跨境会员注册漏斗优化结合早期行为预测 LTV 决定激励力度",
+  "一句话作用": "触发词：注册漏斗优化、早期LTV预测、注册激励分层、会员注册流失、跨境注册转化。何时不用：只做页面级全链路旅程诊断与流失节点定位时用「用户旅程分析」；只做会员体系结构与权益分层设计时用「会员体系结构最优设计」。安全边界：注册与行为数据含手机号等个人信息，跨境存储与使用须满足目标市场的数据保护要求；把手机号改为可选的合规判断需人工与法务复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境运营团队面临\"东南亚注册漏斗流失67%、不知道该给哪些新注册用户更高激励\"——分市场漏斗优化+早期LTV预测动态激励年化新增CLV约14万元、激励成本节省20-30%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12274-p2s-cross-border-member-onboarding-optimization-757374c9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-border-member-onboarding-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-border-member-onboarding-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "03686a2065debb31c9f751b9e88fe4e496802491a15565e04f02129aedcb6af4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

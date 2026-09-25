@@ -1,0 +1,22 @@
+{
+  "英文名称": "xiaohongshu-topic-analysis",
+  "中文名称": "小红书选题分析",
+  "一句话作用": "当用户需要做小红书选题、xhs内容选题、rednote笔记选题策划、爆款角度拆解、内容方向规划或选题素材整理时使用。面向内容运营、品牌调研和创作者。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:51:34+08:00",
+  "业务场景": "数据分析",
+  "解决具体问题": "当需要当用户需要做小红书选题、xhs内容选题、rednote笔记选题策划、爆款角度拆解、内容方向规划或选题素材整理时使用。面向内容运营、品牌调研和创作者。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05185-xiaohongshu-topic-analysis-07083e1e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/xiaohongshu-topic-analysis/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/xiaohongshu-topic-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8f6726d0a82e78b2ae2e8cdc554bc7c36e94e3d3e97c061c82dbe3759aa1e1a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

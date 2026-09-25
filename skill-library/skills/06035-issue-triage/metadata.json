@@ -1,0 +1,22 @@
+{
+  "英文名称": "issue-triage",
+  "中文名称": "待补：issue-triage",
+  "一句话作用": "Triage repository issues through a maintainer decision tree. Use when the user asks to classify issues, apply labels, identify missing information, mark ready-for-agent work, split vague reports, or clean up an issue in…",
+  "关键输入": "- Issue title, body, comments, labels, assignees, linked PRs, and project state. - Repository docs, contribution rules, issue templates, and label conventions. - Live tracker data when the user asks for real issue changes.",
+  "关键输出": "Return: 1. Triage decision 2. Category 3. Readiness state 4. Suggested labels 5. Missing information 6. Draft response 7. Recommended next action",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks to triage GitHub, GitLab, Linear, or markdown issues. - An inbox needs labels, status, duplicate detection, or missing information checks. - A vague issue needs to be split into smaller work items.时，用它产出或更新：Return: 1. Triage decision 2. Cat…",
+  "skill_id": "06035-issue-triage-0cfe4070",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/issue-triage/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/issue-triage/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da2929d8266762c7ae90ea123245fc0a5681b22269f9b260433d99e5df65c4ff",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

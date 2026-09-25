@@ -1,0 +1,22 @@
+{
+  "英文名称": "marketing-psychology",
+  "中文名称": "待补：marketing-psychology",
+  "一句话作用": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral scienc…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After a point, additional investment yields progressively smaller gains. Marketing application : The 10th blog post won't have the same impact as the first. Know when to diversify rather than double down.",
+  "最新更新时间": "2026-09-21T17:35:19+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral scienc…时，用它产出或更新：After a point, additional…",
+  "skill_id": "00021-marketing-psychology-10289f08",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-12471462U1788237-8A8E75-5976-D5C7B4/agent-core/skills/marketing-psychology/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-12471462U1788237-8A8E75-5976-D5C7B4/agent-core/skills/marketing-psychology/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b3c677e48263395de9e8e1a465bd679a338455f9722b3603aa7141d66a45391f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

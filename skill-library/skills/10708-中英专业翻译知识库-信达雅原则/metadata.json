@@ -1,0 +1,22 @@
+{
+  "英文名称": "xindaya-translator",
+  "中文名称": "中英专业翻译知识库（信达雅原则）",
+  "一句话作用": "提供专业的中英双向翻译，遵循信达雅原则，并包含回译验证和质量检查清单。覆盖学术论文、商务文书、技术文档和法律合同四大领域，提供专业术语对照与句式转换模板。当用户提出翻译请求，例如“翻译”、“translate”、“中翻英”、“英翻中”，或提及具体场景如“学术翻译”、“论文翻译”、“商务翻译”、“合同翻译”、“技术翻译”、“法律翻译”，或使用“帮我翻译这段话”、“translate this paragraph”等短语时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "对于每次翻译任务，Agent 应按以下格式输出：",
+  "最新更新时间": "2026-09-14T00:06:07+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要提供专业的中英双向翻译，遵循信达雅原则，并包含回译验证和质量检查清单。覆盖学术论文、商务文书、技术文档和法律合同四大领域，提供专业术语对照与句式转换模板。当用户提出翻译请求，例如“翻译”、“translate”、“中翻英”、“英翻中”，或提及具体场景如“学术翻译”、“论文翻译”、“商务翻译”、“合同翻译”、“技术翻译”、“法律翻译”，或使用“帮我翻译这段话”、“translate this paragraph”等短语时触发。时，用它产出或更新：对于每次翻译任务，Agent 应按以下格式输出：",
+  "skill_id": "10708-xindaya-translator-86e75ae6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/xindaya-translator/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/xindaya-translator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c5f92a5b073ed2df6c9075b7f83dac89ddbb7447f7bdcdc2639b03a997838532",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

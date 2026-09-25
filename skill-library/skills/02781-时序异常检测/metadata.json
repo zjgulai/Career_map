@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-argos-agentic-anomaly-detection",
+  "中文名称": "时序异常检测",
+  "一句话作用": "触发词：时序异常检测、规则自动生成、误报抑制、可解释告警、多平台指标监控、F1提升。何时不用：要检测数据或概念分布漂移而非指标越界时用「数据漂移检测」；要做评论情感趋势异常触发时用「评论情感增长触发」。安全边界：Agent 生成的检测代码严禁在生产直接执行，必须在沙箱内运行并设执行超时、白名单 API、禁用危险内置函数；异常告警不得直接触发下单、改价等资金或库存动作，须人工确认。",
+  "关键输入": "输入 ：历史时序指标数据（如分平台、分 SKU 的每日销量、广告 ROI、退货率），带时间戳与维度字段，外加阈值或业务基线配置；粒度为指标 × 平台 × SKU × 日。 输出 ：可解释的异常检测规则（含 F1 评分与语法校验状态）、验证集评估结果与实时异常告警；供运营与数据团队定位并跟进异常。",
+  "关键输出": "输入 ：历史时序指标数据（如分平台、分 SKU 的每日销量、广告 ROI、退货率），带时间戳与维度字段，外加阈值或业务基线配置；粒度为指标 × 平台 × SKU × 日。 输出 ：可解释的异常检测规则（含 F1 评分与语法校验状态）、验证集评估结果与实时异常告警；供运营与数据团队定位并跟进异常。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：时序异常检测、规则自动生成、误报抑制、可解释告警、多平台指标监控、F1提升。何时不用：要检测数据或概念分布漂移而非指标越界时用「数据漂移检测」；要做评论情感趋势异常触发时用「评论情感增长触发」。安全边界：Agent 生成的检测代码严禁在生产直接执行，必须在沙箱内运行并设执行超时、白名单 API、禁用危险内置函数；异常告警不得直接触发下单、改价等资金或库存动作，须人工确认。时，用它产出或更新：输入 ：历史时序指标数据（如分平台、分 SKU 的每日销量、广告 ROI、退货率），带时间戳与维度字段，外加阈…",
+  "skill_id": "02781-p2s-argos-agentic-anomaly-detection-dff8e1fc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-argos-agentic-anomaly-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-argos-agentic-anomaly-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e12d0591912f9a861d2b051e5858f7ed9ec040b607e28cda44e039d9d9630a3d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

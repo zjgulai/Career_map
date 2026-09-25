@@ -1,0 +1,22 @@
+{
+  "英文名称": "bestseller-pattern-decoder",
+  "中文名称": "待补：bestseller-pattern-decoder",
+  "一句话作用": "- Deconstructs the success patterns of Amazon Best Sellers — pricing sweet spots, image composition, title keyword structures, and A+ content narrative logic. Use when analyzing top 1% performers in any Amazon category…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T15:32:00+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- Deconstructs the success patterns of Amazon Best Sellers — pricing sweet spots, image composition, title keyword structures, and A+ content narrative logic. Use when analyzing top 1% performers in any Amazon category…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10917-bestseller-pattern-decoder-4394349f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/pre-81/bestseller-pattern-decoder/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/pre-81/bestseller-pattern-decoder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e69147b18fdd442f0ec3f5d040ce84d01917beba91ace35121924ec06fb0dd1c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

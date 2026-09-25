@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-generative-audience-llm-auction",
+  "中文名称": "无 Cookie 生成式受众定向 原生广告拍卖",
+  "一句话作用": "触发词：生成式受众、零样本画像、LLM 原生广告、无 Cookie 定向、意图推断、实时出价。何时不用：用户已授权且可用传统 ID 定向时不必上生成式链路；出价与库存撮合需要确定性执行时仍走传统竞价系统。安全边界：查询文本属个人信息，画像推断不得用于敏感属性歧视，广告内容需符合广告法、不臆造功效。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要匿名访客（未授权追踪）向 AI 助手提问穿搭，传统推荐因无 Cookie 完全失效，品牌白白流失高意图实时流量 - 数据要求：用户自然语言查询文本 + SKU 库（含品类、场景标签、图片描述）+ 广告主实时出价 - GenAI 方案： - 用户问：\"我下周去海边参加婚礼，梨形身材，有什么建议时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03164-p2s-generative-audience-llm-auction-713f2b30",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-generative-audience-llm-auction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-generative-audience-llm-auction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7805c6b7d181e407ab52267af429784230030b2e6dda15fe8d753095dad05bdf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

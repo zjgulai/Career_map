@@ -1,0 +1,22 @@
+{
+  "英文名称": "get-available-resources",
+  "中文名称": "待补：get-available-resources",
+  "一句话作用": "This skill should be used at the start of any computationally intensive scientific task to detect and report available system resources (CPU cores, GPUs, memory, disk space). It creates a JSON file with resource informa…",
+  "关键输入": "Use this skill proactively before any computationally intensive task: - Before data analysis : Determine if datasets can be loaded into memory or require out-of-core processing - Before model training : Check if GPU acc…",
+  "关键输出": "The skill generates a .codebuddy resources.json file in the current working directory containing:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Use this skill proactively before any computationally intensive task: - Before data analysis : Determine if datasets can be loaded into memory or require out-of-core processing - Before model training : Check if GPU acc…时，用它产出或更新：The skill generates a .cod…",
+  "skill_id": "05736-get-available-resources-89b8bd8b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/get-available-resources/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/get-available-resources/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "524fa2971e6765326dbbb90febc32ff26c08e5a26a0f254b2d8fc6c9c49bb304",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

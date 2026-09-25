@@ -1,0 +1,22 @@
+{
+  "英文名称": "tech-debt-audit",
+  "中文名称": "待补：tech-debt-audit",
+  "一句话作用": "Thorough, file-cited technical debt audit across 9 dimensions using AST-grep (tree-sitter), grep, language-native tooling, and optionally CodeGraph knowledge graph. Produces TECH DEBT AUDIT.md with severity, effort esti…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Write results to TECH DEBT AUDIT.md in the repo root with: 1. Executive Summary — 3-5 sentences: overall health, worst dimension, quick wins count 2. Mental Model — the repo's architecture in 1 paragraph (what it does, stack, module boundaries) 3. Findings Ta…",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Thorough, file-cited technical debt audit across 9 dimensions using AST-grep (tree-sitter), grep, language-native tooling, and optionally CodeGraph knowledge graph. Produces TECH DEBT AUDIT.md with severity, effort esti…时，用它产出或更新：Write results to TECH DEBT…",
+  "skill_id": "01651-tech-debt-audit-e9abec57",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/tech-debt-audit/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/tech-debt-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39530a6d8bef1c1b9d1d2a22f5a86ead4d7b472c3c092275ffad7c58d1ecc763",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

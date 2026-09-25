@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-scraping-plan-designer",
+  "中文名称": "待补：web-scraping-plan-designer",
+  "一句话作用": "当用户有一个网页或页面样本、需要设计低维护成本的数据采集方案（采集字段设计、指标字典、自动化采集PRD）时使用。触发词：网页采集方案设计、网页采集方案、采集字段设计、指标字典、网页自动化采集、采集PRD、评论页采集、页面字段分析、数据审计。缺不可推定的关键材料（账号/文件/数值）才追问；可依行业惯例或品牌既定风格推定的，标注假设后继续，绝不编造数据。何时不用：单纯的文案改写、纯代码调试、没有网页或页面样本的空泛方案、直接执行网页交互或…",
+  "关键输入": "当用户有以下需求且提供了页面样本（或至少知道目标页面类型）时触发： - 需要基于真实网页设计采集字段体系 - 需要对页面做字段审计和可采性判断 - 需要输出指标字典和采集PRD - 需要设计自动化采集流程（翻页/去重/断点续采/质量审计） 若用户缺页面样本或未说明采集目的，先追问澄清再设计，不凭空列字段。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当用户有以下需求且提供了页面样本（或至少知道目标页面类型）时触发： - 需要基于真实网页设计采集字段体系 - 需要对页面做字段审计和可采性判断 - 需要输出指标字典和采集PRD - 需要设计自动化采集流程（翻页/去重/断点续采/质量审计） 若用户缺页面样本或未说明采集目的，先追问澄清再设计，不凭空列字段。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04251-web-scraping-plan-designer-fb8a5add",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/web-scraping-plan-designer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/web-scraping-plan-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b522fbe53648001f79d9108fd1c3a7c88224c38106f8f3bb2fc76acdb3c87cc8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

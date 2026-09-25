@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-negotiation-llm-agent",
+  "中文名称": "驱动供应商谈判智能体 结构化采购谈判自动化与议价策略优化",
+  "一句话作用": "触发词：供应商谈判、BATNA、锚定报价、谈判话术、让步信号。何时不用：需要买卖双方 Agent 自主来回议价并留存审计记录用「采购谈判多Agent」，只算 MOQ 与账期联合成本用「MOQ与账期联动优化」。安全边界：谈判建议与话术须标注仅供参考并经人工审核后发出，合同条款仍须法务预审。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购谈判凭经验价格几乎不降——BATNA分析+锚定策略将采购成本降低5-9%，年采购额¥500万的卖家年化节省¥25-40万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03881-p2s-supplier-negotiation-llm-agent-a36da516",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supplier-negotiation-llm-agent/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supplier-negotiation-llm-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "70bd8d22375c5ebcf8110edf971cda1412f16c7ea3f80cdf322dd5a444b5b4ec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

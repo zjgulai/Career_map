@@ -1,0 +1,22 @@
+{
+  "英文名称": "research-synthesis",
+  "中文名称": "证据综合与审查",
+  "一句话作用": "拿到经核验的文献清单后，按主题聚类、建 MECE taxonomy、逐节综合、交叉对比、检测矛盾、自对抗审查，产出一份结构化的综合分析。是doubao-academic-researcher管线的第二阶段，负责从一组论文到一份有判断的综述的转化。",
+  "关键输入": "- 若输入缺少 [SCOUT HANDOFF]，只输出：BLOCKED: NEED SCOUT HANDOFF - 若 [SCOUT HANDOFF] 中缺少 ready for synthesis: yes，只输出：BLOCKED: NEED SCOUT REDO - 若文献清单缺少核验状态或角色标签，只输出：BLOCKED: NEED SCOUT REDO - 若只拿到研究话题、没有经核验文献清单，只输出：BLOCKED: NEED SCOUT REDO",
+  "关键输出": "- Coverage / Citation 不通过时，不得输出 handoff；只输出：BLOCKED: NEED SCOUT SUPPLEMENT - Angle / Taxonomy / Calibration / Weaving 未清，或自对抗审查仍有重大未解时，不得输出 handoff；只输出：BLOCKED: NEED SYNTHESIS REWORK。这个 code 表示“保留当前文献清单，重做本阶段综合”，不是回退到 scout。 - 只有 6 维门禁全部 CLEAR 且自对抗审查通过时，才能在输出…",
+  "最新更新时间": "2026-09-10T16:27:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要拿到经核验的文献清单后，按主题聚类、建 MECE taxonomy、逐节综合、交叉对比、检测矛盾、自对抗审查，产出一份结构化的综合分析。是doubao-academic-researcher管线的第二阶段，负责从一组论文到一份有判断的综述的转化。时，用它产出或更新：- Coverage / Citation 不通过时，不得输出 handoff；只输出：BLOCKED: NEED SCOUT SUPPLEMENT - Angle / Taxonomy / Calibration / Weaving 未清，或自…",
+  "skill_id": "06361-research-synthesis-c3e5b8d5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/sub-skills/research-synthesis/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/sub-skills/research-synthesis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be7d88c841b3360a737b3d68745d4b985fed42b9aa657d9d5b4946dbdfce3c77",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

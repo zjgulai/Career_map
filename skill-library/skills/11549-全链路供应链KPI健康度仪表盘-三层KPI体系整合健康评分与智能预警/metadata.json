@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-kpi-health-dashboard",
+  "中文名称": "全链路供应链KPI健康度仪表盘 三层KPI体系整合健康评分与智能预警",
+  "一句话作用": "触发词：供应链 KPI、健康度评分、指标恶化预警、OTIF、缺货率。何时不用：只诊断库存分层与库龄用「库存分层」，只跟单票履约进度用「履约跟踪」；本技能做的是全链路多 KPI 的汇总评分与预警。安全边界：预警只做提示与路由，指标口径与目标值须各 KPI 负责人确认后生效，模型不改业务系统数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要运营团队只看GMV，14个关键KPI中有8个在悄悄恶化却无人知晓——三层KPI健康评分(0-100分)将供应链状态实时可视化，年化防损$5-7万，是所有供应链工具的\"元监控\"时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11549-p2s-supply-chain-kpi-health-dashboard-61c22a59",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supply-chain-kpi-health-dashboard/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supply-chain-kpi-health-dashboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "73e7f74778dbf2cce074c254880b57c7a0d2511036ac2ea0dc454ca73c68d340",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

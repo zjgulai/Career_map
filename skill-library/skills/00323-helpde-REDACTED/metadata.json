@@ -1,0 +1,22 @@
+{
+  "英文名称": "helpde[REDACTED]",
+  "中文名称": "待补：helpde[REDACTED]",
+  "一句话作用": "Connect your customer support helpdesk to your ecommerce platform to surface real-time order data and automate VIP routing for faster issue resolution.",
+  "关键输入": "For a robust integration, ensure your context API provides these fields: - Customer Identity : Email (normalized), Phone, CRM ID. - Purchase Summary : Lifetime Value (LTV), Order Count, Average Order Value (AOV), Segment Name. - Order Detail : Order ID, Fulfi…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:28+08:00",
+  "业务场景": "customer-crm",
+  "解决具体问题": "当需要- When support agents repeatedly ask customers for order numbers that already exist in your database. - When implementing custom sidebar apps (Zendesk Sunshine, Intercom Canvas) to show order details. - When automating…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00323-helpde-redacted-df0f2937",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/helpdesk-order-integration/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/helpdesk-order-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6534f2b47820d9c50627532576826d7bf6fc0830cc354e74c91bae6f8f5e2eb6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-knowledge-graph-auto-update",
+  "中文名称": "知识图谱增量更新与一致性维护",
+  "一句话作用": "触发词：图谱自动更新、新鲜度保障、来源可信度、冲突消解、关系自动维护。何时不用：只处理时序事实的时间衰减时用知识图谱增量更新技能；只做增量刷新的流水线调度与回滚时用图谱增量更新流水线技能。安全边界：爬取类数据源须遵守平台条款，实体消解错误会污染图谱，须保留人工复核队列兜底。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据工程师面临\"知识图谱因手动维护滞后导致推荐链路使用过期关系\"——增量更新自动化将图谱新鲜度从T+3提升至T+0.5，年化减少推荐质量损耗增收20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03294-p2s-knowledge-graph-auto-update-6dd3bf59",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-knowledge-graph-auto-update/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-knowledge-graph-auto-update/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af4417204b0209abc23156d88f9ee60826a2eb0c6395278752ec709f63ac9d31",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

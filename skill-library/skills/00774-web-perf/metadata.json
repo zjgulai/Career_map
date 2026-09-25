@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-perf",
+  "中文名称": "待补：web-perf",
+  "一句话作用": "Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (FCP, LCP, TBT, CLS, Speed Index), identifies render-blocking resources, network dependency chains, layout shifts, caching issues, and accessi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Present findings as: 1. Core Web Vitals Summary - Table with metric, value, and rating (good/needs-improvement/poor) 2. Top Issues - Prioritized list of problems with estimated impact (high/medium/low) 3. Recommendations - Specific, actionable fixes with code…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (FCP, LCP, TBT, CLS, Speed Index), identifies render-blocking resources, network dependency chains, layout shifts, caching issues, and accessi…时，用它产出或更新：Present findings as: 1. Co…",
+  "skill_id": "00774-web-perf-f07c2f46",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/cloudflare/skills/web-perf/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/cloudflare/skills/web-perf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "746b3490d401c8020900f0a62ece846c22d3df15782ee843c082acfa89f26703",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

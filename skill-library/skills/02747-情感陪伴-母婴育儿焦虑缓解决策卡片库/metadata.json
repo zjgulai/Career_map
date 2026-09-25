@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-humanities-healing-cards",
+  "中文名称": "情感陪伴 母婴育儿焦虑缓解决策卡片库",
+  "一句话作用": "触发词：育儿焦虑疏导、情感陪伴、焦虑类型识别、疗愈卡片、客服响应提速。何时不用：面向儿童的隐私合规审查时用「Privacy COPPA Compliance」；广告与话术伦理自查用「AI Consumer Wellbeing Ethics」。安全边界：不做医疗诊断或用药建议，涉及婴儿健康与心理危机必须引导就医或求助专业机构；不存储可识别母婴身份的健康信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要场景：跨境创业者/运营人员面对不确定性时，用 AI 技术的哲理类比获得心理支持与灵感时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02747-p2s-ai-humanities-healing-cards-e729c631",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ai-humanities-healing-cards/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ai-humanities-healing-cards/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07453f8c5d35f321e30a9599b3747b81745307e2934cecf9e42fd043fa89f5bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

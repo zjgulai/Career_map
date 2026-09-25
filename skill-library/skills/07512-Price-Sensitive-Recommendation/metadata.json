@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Price-Sensitive-Recommendation",
+  "中文名称": "待补：Price Sensitive Recommendation",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 52.8, \"best\": 69.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:51:29.036103\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 58.8, \"best\": 82.0, \"mutated\": \"D6 cod…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-05T19:00:28+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 52.8, \"best\": 69.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:51:29.036103\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 58.8, \"best\": 82.0, \"mutated\": \"D6 cod…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07512-skill-price-sensitive-recommendation-84abfd8d",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Price-Sensitive-Recommendation.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Price-Sensitive-Recommendation.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "f484741190ac0516566f5817d45a6a90cd9b49c24dfad0bbc1fdcb62abe03ca7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-main-image",
+  "中文名称": "极睿商品主图生成",
+  "一句话作用": "根据用户主动选择的商品素材与明确要求，生成一套电商商品主图。",
+  "关键输入": "创建任务前一次性检查并分组询问所有缺失或冲突信息： - productImages 必须为用户主动选择的 1–5 张商品图；referenceImages 最多 5 张。附件不可访问或数量超限时，请用户重新选择，不得自行挑选或静默丢弃。 - productCategory 必填，必须由用户确认，不得从图片或商品名称擅自推断。 - generationStyle 与 referenceImages 至少提供一项。用户没有参考图时应确认文字风格；已有参考图时不得额外编造风格要求。 - imageCount 必须是 5…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要当用户明确提出“商品主图”“电商主图”“白底主图”“主图套图”等生成需求时使用本 Skill。商品详情页长图应交给商品详情页 Skill，KOC 拼图应交给 KOC 种草 Skill。用户只是在咨询能力、参数、费用或方案时，不得创建任务；只有用户明确要求开始生成后才能执行。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05283-product-main-image-1d479dd8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/infimind-ecommerce-image/skills/product-main-image/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/infimind-ecommerce-image/skills/product-main-image/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "794917190924e72f035cb452c05481a38c9a1b3c66bf419826397291b214b50a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

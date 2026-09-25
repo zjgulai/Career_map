@@ -1,0 +1,22 @@
+{
+  "英文名称": "detail-page",
+  "中文名称": "极睿电商详情页生成",
+  "一句话作用": "根据用户提供的商品素材与真实要求，生成电商商品详情页长图。",
+  "关键输入": "创建任务前一次性检查并分组询问所有缺失或冲突信息： - productImages 必须为 1–5 张；referenceImages 最多 5 张。超量时请用户选择，不得静默丢弃。 - productCategory 必填，必须由用户确认，不得从图片或商品名擅自推断。 - generationStyle 与 referenceImages 至少提供一项。 - imageCount 允许 5–10，默认 5。 - 默认 language 为 简体中文、aspectRatio 为 3:4、resolution 为…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要当用户明确提出“电商详情页”“商品详情页”或“详情页长图”生成需求时使用本 Skill。仅在用户明确要求开始生成后创建任务；如果用户只是咨询能力、费用、输入要求或方案建议，只回答问题，不创建任务。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05281-detail-page-24bdc3b6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/infimind-ecommerce-image/skills/detail-page/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/infimind-ecommerce-image/skills/detail-page/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8b111bf281958cda8255619e1a4ccdefc033b495457d31162747ef7129d9f0b5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

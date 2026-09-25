@@ -1,0 +1,22 @@
+{
+  "英文名称": "头程与尾程物流方案比价（FBA 入仓 / KA 直送 / 多式联运）",
+  "中文名称": "待补：头程与尾程物流方案比价（FBA 入仓 / KA 直送 / 多式联运）",
+  "一句话作用": "当已有补货量与仓配约束、需比较海运/空运/铁路/卡派等路径的时效、成本与风险时调用；输出供决策报告与 PO 附件。",
+  "关键输入": "- fba-capacity-planner 或等价批次表；或明确 KA 直送 需求。 - 货好日期 、 起运港/集货地 、 目的港/FC ；北美与欧洲 关税/VAT 责任 边界声明。",
+  "关键输出": "- 表：batch id option mode est cost range ETA risk recommended - 附件清单 ：PO/Booking 所需字段列表。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当已有补货量与仓配约束、需比较海运/空运/铁路/卡派等路径的时效、成本与风险时调用；输出供决策报告与 PO 附件。时，用它产出或更新：- 表：batch id option mode est cost range ETA risk recommended - 附件清单 ：PO/Booking 所需字段列表。",
+  "skill_id": "09934-fba-ka-ad8272c9",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/logistics-route-optimizer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/logistics-route-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "350de2d8f0aaafe5f5a93ddc4ab88128405a984412ff7d0c4e000b8262549e6e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

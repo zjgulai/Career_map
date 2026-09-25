@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-organic-paid-rank-synergy-model",
+  "中文名称": "自然排名与广告排名协同效应建模 用 Panel DiD 量化广告飞轮 ROI",
+  "一句话作用": "触发词：广告飞轮、自然排名溢出、Panel DiD、增量分析、广告真实 ROI、平行趋势。何时不用：只算直接归因 ROAS 或关键词效率时用投放诊断；本卡量化广告对自然排名的滞后溢出，要求面板数据与平行趋势假设。安全边界：不得据此推断或操纵平台排名算法，结论仅用于自家预算决策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营总监面临\"广告烧了钱但自然排名没有长期增长飞轮\"——Panel DiD量化广告飞轮溢出ROI，自然流量长期贡献度年化提升$14.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03568-p2s-organic-paid-rank-synergy-model-9b5fe5d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-organic-paid-rank-synergy-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-organic-paid-rank-synergy-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e4fda840761e4392395d97c58bc20da0f04970bc42273f9203e3f4dfdb02ce1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

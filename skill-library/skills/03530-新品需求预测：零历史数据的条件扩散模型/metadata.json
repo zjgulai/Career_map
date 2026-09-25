@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-new-product-demand-cold-start",
+  "中文名称": "新品需求预测：零历史数据的条件扩散模型",
+  "一句话作用": "触发词：冷启动、全新品类、相似品检索、价格因子、分位数备货。何时不用：有强类比 SKU 只需类比估量时用「Bass 上市前预测」类技能；要按关联品比例联动补货时用「协整 VECM」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要UV-C+蒸汽双模消毒器等全新品类没有历史销售数据，工厂 MOQ 1000 件备少黑五缺货备多 Q1 压库——协同过滤迁移学习将首批备货预测误差从 ±60% 压缩至 ±25%，避免压库金额 20-50 万元/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03530-p2s-new-product-demand-cold-start-1d6860f2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-new-product-demand-cold-start/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-new-product-demand-cold-start/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "179fd65e3886fc7652dc2d62ae61516f48f782adeadea1a9670ff9b33bd91a9d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-auth",
+  "中文名称": "待补：glab-auth",
+  "一句话作用": "管理 GitLab CLI 认证，包括登录/登出、检查认证状态、切换账户以及配置 Docker 镜像仓库访问。适用于首次设置 glab、排查认证问题、切换 GitLab 实例/账户或配置 Docker 从 GitLab 镜像仓库拉取镜像。触发关键词：auth、login、logout、认证、凭证、token、Docker 镜像仓库。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理 GitLab CLI 认证，包括登录/登出、检查认证状态、切换账户以及配置 Docker 镜像仓库访问。适用于首次设置 glab、排查认证问题、切换 GitLab 实例/账户或配置 Docker 从 GitLab 镜像仓库拉取镜像。触发关键词：auth、login、logout、认证、凭证、token、Docker 镜像仓库。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10589-glab-auth-d5953969",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-auth/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-auth/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30e2063c94a05d0f4d6bc3da1e1cc5bb235f5470620551c86e9e0cf9eecbf5c2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

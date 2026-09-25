@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Bayesian-AB-Testing",
+  "中文名称": "待补：Bayesian AB Testing",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip high score\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T01:17:45.284415\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:17:45+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip high score\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T01:17:45.284415\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06855-skill-bayesian-ab-testing-0af4574e",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Bayesian-AB-Testing.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Bayesian-AB-Testing.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "c8508357343101f6af0212dbc7d77ad40ad43bb3f686a239117b2d7c49ea8657",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

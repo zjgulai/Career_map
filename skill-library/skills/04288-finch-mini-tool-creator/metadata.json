@@ -1,0 +1,22 @@
+{
+  "英文名称": "finch-mini-tool-creator",
+  "中文名称": "待补：finch-mini-tool-creator",
+  "一句话作用": "Guide for developing, debugging, installing, and publishing Finch mini tools (also shown in the app UI and to Chinese-speaking users as \"Finch 小程序\" / mini program — the same extension mechanism under a different display…",
+  "关键输入": "Choose a local MCP server when: - The tool set is large and most tools are rarely used together. - The feature wraps an external service that already has an MCP SDK. - You want Finch to load tools on demand rather than…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:18:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Choose a local MCP server when: - The tool set is large and most tools are rarely used together. - The feature wraps an external service that already has an MCP SDK. - You want Finch to load tools on demand rather than…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04288-finch-mini-tool-creator-0a634285",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.finch/skills/finch-mini-tool-creator/SKILL.md",
+  "relative_path": "lute/.finch/skills/finch-mini-tool-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de189a481412808bb8c3a62badf7d5e1c65755617fc9320f8b004de4ae84c2fd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

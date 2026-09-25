@@ -1,0 +1,22 @@
+{
+  "英文名称": "nges-data-360",
+  "中文名称": "重楼数据洞察与分析",
+  "一句话作用": "NGES/重楼平台通用数据洞察与分析能力（只读）。根据用户的业务问题，自动分析涉及的元数据对象与字段（通过 MCP 实时查询元数据），结合用户角色（医药代表 Rep、地区经理 DSM、大区经理 RSM 等）确定数据范围（含下属团队），构造重楼 GQL（类 GraphQL）查询语句拉取并解读数据。当用户想分析拜访（visit/visit item）、会议（events meeting）、用户行为（user behavior detail…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "不要只甩数字。把结果翻译成业务结论：指出关键数值、对比/排名、异常点，必要时给一句可执行建议。 必要时生成图表 ：当结果呈现趋势、排名/对比、占比时，可视化比文字更直观——折线看变化、柱状比高低、饼图看构成。用脚本 ${SKILL DIR}/scripts/render chart.py（SKILL DIR=本 skill 根目录）把结果渲染成自包含 HTML 图表，再把路径告知用户预览。作图前记得把枚举 value 翻成中文 label、金额（×100）还原为元。单值或两三行的小结果用文字/表格即可，不必强行作…",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要NGES/重楼平台通用数据洞察与分析能力（只读）。根据用户的业务问题，自动分析涉及的元数据对象与字段（通过 MCP 实时查询元数据），结合用户角色（医药代表 Rep、地区经理 DSM、大区经理 RSM 等）确定数据范围（含下属团队），构造重楼 GQL（类 GraphQL）查询语句拉取并解读数据。当用户想分析拜访（visit/visit item）、会议（events meeting）、用户行为（user behavior detail…时，用它产出或更新：不要只甩数字。把结果翻译成业务结论：指出关键数值、对…",
+  "skill_id": "05382-nges-data-360-570155cc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencent-health-nges/skills/nges-data-360/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencent-health-nges/skills/nges-data-360/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af4a76e208934343565fd56caf8991578e382ad99d30ffe5c1b96e399bea3204",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

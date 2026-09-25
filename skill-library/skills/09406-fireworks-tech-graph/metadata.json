@@ -1,0 +1,22 @@
+{
+  "英文名称": "fireworks-tech-graph",
+  "中文名称": "待补：fireworks-tech-graph",
+  "一句话作用": "Use when the user wants to create any technical diagram - architecture, data flow, flowchart, sequence, agent/memory, or concept map - and export as SVG+PNG. Trigger on: \"画图\" \"帮我画\" \"生成图\" \"做个图\" \"架构图\" \"流程图\" \"可视化一下\" \"出图\" \"…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Spacing : - Same-layer nodes: 80px horizontal, 120px vertical between layers - Canvas margins: 40px minimum, 60px between node edges - Snap to 8px grid: horizontal 120px intervals, vertical 120px intervals Arrow Labels (CRITICAL): - Offset-first (default): pl…",
+  "最新更新时间": "2026-06-04T17:13:09+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when the user wants to create any technical diagram - architecture, data flow, flowchart, sequence, agent/memory, or concept map - and export as SVG+PNG. Trigger on: \"画图\" \"帮我画\" \"生成图\" \"做个图\" \"架构图\" \"流程图\" \"可视化一下\" \"出图\" \"…时，用它产出或更新：Spacing : - Same-layer nod…",
+  "skill_id": "09406-fireworks-tech-graph-4e1ff348",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/scm/.agents/skills/fireworks-tech-graph/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/scm/.agents/skills/fireworks-tech-graph/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4441e5544e66446ede3c980f74168a81a0a42b0dfe121c85a7447ed1ed284251",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

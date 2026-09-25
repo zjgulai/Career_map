@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-shop-content-commerce-funnel",
+  "中文名称": "内容电商漏斗建模 短视频直播下单三段式转化率优化",
+  "一句话作用": "触发词：内容电商漏斗、短视频转直播转化、TikTok Shop 转化诊断、漏斗瓶颈定位、内容预算分配、优化杠杆排序。何时不用：要在搜索链路上拆展示→点击→加购→购买用「Search-Funnel-Attribution」；要跨平台分配广告预算用「Multi-Platform-Ad-Budget-Allocator」；本技能只诊断内容电商六阶段漏斗的漏损。安全边界：内容不得涉及医疗功效宣传，母婴类目须符合平台审核与跨境电商合规要求；预算…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要TikTok Shop运营面临\"短视频和直播都在做但不知道哪个环节流失最多\"——Markov Chain三段式漏斗将关键流失环节定位精度提升至91%，GMV转化率提升23%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12431-p2s-tiktok-shop-content-commerce-funnel-f2698920",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-tiktok-shop-content-commerce-funnel/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-tiktok-shop-content-commerce-funnel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fa1008f2be4f0c2a637fa0a1aa5002920a180b2c6b6d895687199e62000f50ca",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

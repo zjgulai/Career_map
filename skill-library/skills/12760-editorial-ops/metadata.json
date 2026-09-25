@@ -1,0 +1,22 @@
+{
+  "英文名称": "editorial-ops",
+  "中文名称": "待补：editorial-ops",
+  "一句话作用": "Use when planning multi-channel editorial calendars, enforcing publishing cadences, and coordinating distribution workflows across GTM teams.",
+  "关键输入": "- Building or refreshing quarterly editorial roadmaps tied to GTM objectives. - Translating thought-leadership pillars into weekly blog, newsletter, and social programming. - Auditing production capacity, approvals, and…",
+  "关键输出": "1. Quarterly editorial roadmap (themes, owners, launch dates). 2. Weekly status packet summarizing highlights, KPIs, blockers, and next five actions. 3. Distribution checklist signed by Marketing Director + Sales counterpart to ensure coverage.",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Building or refreshing quarterly editorial roadmaps tied to GTM objectives. - Translating thought-leadership pillars into weekly blog, newsletter, and social programming. - Auditing production capacity, approvals, and…时，用它产出或更新：1. Quarterly editorial roa…",
+  "skill_id": "12760-editorial-ops-e2bbf430",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/content-marketing/skills/editorial-ops/SKILL.md",
+  "relative_path": "lute/project/skills/content-marketing/skills/editorial-ops/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5a3aa1597bfb679e485af33b45358809059f07880f4558cbf7543dfa9a89892b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

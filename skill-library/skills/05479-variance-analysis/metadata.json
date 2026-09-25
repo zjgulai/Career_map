@@ -1,0 +1,22 @@
+{
+  "英文名称": "variance-analysis",
+  "中文名称": "待补：variance-analysis",
+  "一句话作用": "Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-period changes, revenue or expense variances, or preparing variance commen…",
+  "关键输入": "- Actual vs Budget: Annual performance measurement, compensation decisions, board reporting. Budget is set at the beginning of the year and typically not changed. - Actual vs Forecast: Operational management, identifyin…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Actual vs Budget: Annual performance measurement, compensation decisions, board reporting. Budget is set at the beginning of the year and typically not changed. - Actual vs Forecast: Operational management, identifyin…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05479-variance-analysis-8f2f60cb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/variance-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/variance-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ebfe7448e7c0c2eb6a67eeb943c3f588bfb95122c5926f6ecc31759b66a56de9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

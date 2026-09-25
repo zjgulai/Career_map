@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-logistics-assistant-buyer",
+  "中文名称": "待补：alibaba-logistics-assistant-buyer",
+  "一句话作用": "MUST read before any other Owner or tool on the same turn for current shipping, freight, or delivery-cost facts, even inside product/supplier search, comparison, inquiry, quotation, negotiation, or order planning. Cover…",
+  "关键输入": "Every call that includes task input must be self-contained. Re-scan the active current conversation and encode all logistics-relevant trusted context under these labels, in this order: Apply these rules while building the ledger: - Copy the latest buyer messa…",
+  "关键输出": "Treat data.result as immutable business output. Preserve its language, order, headings, labels, paragraphs, table columns, every table row, provider names, prices, transit times, modes, import-charge fields, buyer-provided information, AI-assumed information,…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要MUST read before any other Owner or tool on the same turn for current shipping, freight, or delivery-cost facts, even inside product/supplier search, comparison, inquiry, quotation, negotiation, or order planning. Cover…时，用它产出或更新：Treat data.result as immut…",
+  "skill_id": "00087-alibaba-logistics-assistant-buyer-066d2983",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-logistics-assistant-buyer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-logistics-assistant-buyer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "36286207455e87f1bc6a5139ddeaa6c71ba14c09a75194e235eb5236bd3db105",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "kol-hunter-candidate-screen",
+  "中文名称": "候选人选人环节契约",
+  "一句话作用": "深链星探（KOL Hunter）产品的选人环节：把达人池按六维口径打成可排序的分，分档为「主推 / 测试 / 排除」并给出可谈判的理由。触发词：选人环节、候选名单、六维分、主推测试排除。何时不用：合作后的效果复盘（用 p2s-kol-roi-causal-attribution）；深度画像（用本产品 kol profile 环节）。安全边界：只做合作前筛选，不代替合同与合规审查。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "只输出符合 schemas/candidate-list.json 的 JSON。字段名、枚举值以 schema 为准， 不要自创字段 ，不要输出解释性前后文。每行候选必须带：六维分、总分、分级、预估 ROI、一句话理由、下一步动作。",
+  "最新更新时间": "2026-09-12T10:56:37+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要深链星探（KOL Hunter）产品的选人环节：把达人池按六维口径打成可排序的分，分档为「主推 / 测试 / 排除」并给出可谈判的理由。触发词：选人环节、候选名单、六维分、主推测试排除。何时不用：合作后的效果复盘（用 p2s-kol-roi-causal-attribution）；深度画像（用本产品 kol profile 环节）。安全边界：只做合作前筛选，不代替合同与合规审查。时，用它产出或更新：只输出符合 schemas/candidate-list.json 的 JSON。字段名、枚举值以 schem…",
+  "skill_id": "10796-kol-hunter-candidate-screen-affc28c4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/KOL-Hunter/skills/kol-hunter-candidate-screen/SKILL.md",
+  "relative_path": "lute/project/KOL-Hunter/skills/kol-hunter-candidate-screen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "380aa860c20d5d38e35c2e8ff0b3502b9a95cfb96b446ed89d46ed52d0b42fa8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

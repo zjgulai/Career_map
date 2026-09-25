@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-md-refactor",
+  "中文名称": "指令文件重构",
+  "一句话作用": "把臃肿的 AGENTS.md、CLAUDE.md 按渐进式披露重构：找矛盾、留必需、归类、建链接文件结构、标可删除项，把根文件压到 50 行以内。触发词：重构 AGENTS.md、CLAUDE.md 太长、拆分 agent 指令、渐进式披露、指令文件整理、agent-md-refactor。何时不用：用在已有指令文件已经臃肿、要做结构拆分时；从零学怎么写 agent 文档用 writing-for-agents，README 这类项目…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "重构完成后，逐项核对： 1. 根文件极简 —— 50 行以内，只放通用信息 2. 链接可用 —— 被引用的文件都存在 3. 没有矛盾 —— 指令彼此一致 4. 内容可执行 —— 每条指令都足够具体 5. 覆盖完整 —— 没有指令丢失（被标为可删除的除外） 6. 文件自洽 —— 每个被链接的文件都能独立读懂 ---",
+  "最新更新时间": "2026-09-15T18:27:31+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要把臃肿的 AGENTS.md、CLAUDE.md 按渐进式披露重构：找矛盾、留必需、归类、建链接文件结构、标可删除项，把根文件压到 50 行以内。触发词：重构 AGENTS.md、CLAUDE.md 太长、拆分 agent 指令、渐进式披露、指令文件整理、agent-md-refactor。何时不用：用在已有指令文件已经臃肿、要做结构拆分时；从零学怎么写 agent 文档用 writing-for-agents，README 这类项目…时，用它产出或更新：重构完成后，逐项核对： 1. 根文件极简 —— 50…",
+  "skill_id": "11029-agent-md-refactor-26fe3d13",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/agent-md-refactor/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/agent-md-refactor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "426924066b473c81f53049a3f4011b42a50de929f2ab350568499980e935af2a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

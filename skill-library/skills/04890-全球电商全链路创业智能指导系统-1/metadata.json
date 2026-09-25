@@ -1,0 +1,22 @@
+{
+  "英文名称": "global-ecommerce-intelligence",
+  "中文名称": "全球电商全链路创业智能指导系统 1",
+  "一句话作用": "全球电商全链路创业智能指导系统。覆盖电商选品、平台合规、定价、利润、跨境物流税务、评价分析、竞品监控、Listing优化、PPC广告、库存管理、税费试算与价格监控。当对话涉及跨境电商创业、选品打分、平台规则/违禁词、定价与利润测算、跨境出海方案、评价情感分析、竞品盯价、Listing/PPC/库存优化、税费合规、新手入门指导、TikTok内容电商等任一主题时使用。集成19个可执行工具（本地计算、离线可用；实时汇率/税率为联网增强），含…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:52:16+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要全球电商全链路创业智能指导系统。覆盖电商选品、平台合规、定价、利润、跨境物流税务、评价分析、竞品监控、Listing优化、PPC广告、库存管理、税费试算与价格监控。当对话涉及跨境电商创业、选品打分、平台规则/违禁词、定价与利润测算、跨境出海方案、评价情感分析、竞品盯价、Listing/PPC/库存优化、税费合规、新手入门指导、TikTok内容电商等任一主题时使用。集成19个可执行工具（本地计算、离线可用；实时汇率/税率为联网增强），含…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04890-global-ecommerce-intelligence-d96ffbaa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/global-ecommerce-intelligence/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/global-ecommerce-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "426bbaa3247820a36fa162a3d0917a0677103a777e073e759818ff859cf8b0bc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

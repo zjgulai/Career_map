@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-docre-document-level-relation-extraction",
+  "中文名称": "待补：p2s-docre-document-level-relation-extraction",
+  "一句话作用": "触发词：文档级关系抽取、跨句关系、实体图、证据句、合规文档解析。何时不用：要按问题逐步决定检索时机时用「DeepRAG 逐步检索」，要检测内部知识与外部知识冲突时用「知识冲突检测」。安全边界：抽取结果必须保留原文证据句，不得脱离出处直接当作合规结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规团队面临\"FDA 200页文件跨句关系人工梳理需2天\"——文档级关系抽取（GREP/ACL2025）将合规文档处理提速96倍至30分钟，跨句关系覆盖率从40%提升至85%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12537-p2s-docre-document-level-relation-extraction-49798941",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-docre-document-level-relation-extraction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-docre-document-level-relation-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "80313842da9c7fc4bdefdcf5ddd2dbb74d24db75bb116cdb2c7981bb7c15d03a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

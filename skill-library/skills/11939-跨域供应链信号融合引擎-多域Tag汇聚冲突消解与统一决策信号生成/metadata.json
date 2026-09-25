@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-domain-supply-chain-signal-fusion",
+  "中文名称": "跨域供应链信号融合引擎 多域Tag汇聚冲突消解与统一决策信号生成",
+  "一句话作用": "触发词：跨域信号融合、标签冲突消解、风险叠加、统一决策信号、多域扫描。何时不用：只看单一域原始指标时用该域的诊断技能；要把预测结果写成可查询标签时用预测型标签引擎技能。安全边界：融合规则须保留单域原始信号与出处，不得只输出融合结论而丢掉可追溯性。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要供应链团队面临\"各域Tag孤岛，单域看风险medium却跨域组合成critical\"——5域加权融合引擎将断货预警准确率提升60%，Black Friday前识别23个隐性高风险SKU，提前行动避免50万元损失时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11939-p2s-cross-domain-supply-chain-signal-fusion-762dcd15",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-domain-supply-chain-signal-fusion/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-domain-supply-chain-signal-fusion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "89689ab3bc3cc67460ea2ee86138855c3efce94b3c0b77342bd2aab0e59383e9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

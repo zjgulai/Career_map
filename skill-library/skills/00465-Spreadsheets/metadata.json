@@ -1,0 +1,22 @@
+{
+  "英文名称": "Spreadsheets",
+  "中文名称": "待补：Spreadsheets",
+  "一句话作用": "Use skill when user requests to create, modify, analyze, visualize, or work with spreadsheet files (.xlsx, .xls, .csv, .tsv) or Google Sheets with formulas, formatting, charts, tables, and recalculation. Do not use for…",
+  "关键输入": "- Author spreadsheet with @oai/artifact-tool JS and only load workspace dependencies executables/dependencies, never repo-local deps. If unavailable, check ~/.cache/codex-runtimes/codex-primary-runtime/dependencies/. Never modify dependency directories. - In…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-06T12:17:27+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Example Do Don't --- --- --- A1. Simple action tracker Use one Actions tab with owner, due date, status and the requested totals above the table. Add Cover, Readme, Inputs, Dashboard and Checks tabs around a small task…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00465-spreadsheets-c23592b1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/spreadsheets/skills/spreadsheets/SKILL.md",
+  "relative_path": "lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/spreadsheets/skills/spreadsheets/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d5d9e4b1863527e2577106e324815cc5c498bd9d8af304ad2f210c2ede985b39",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

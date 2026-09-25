@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-video-sdk-windows",
+  "中文名称": "待补：zoom-video-sdk-windows",
+  "一句话作用": "Zoom Video SDK for Windows - C++ integration for video sessions, raw audio/video capture, screen sharing, recording, and real-time communication",
+  "关键输入": "Best for : Standard applications, clean video quality, ease of implementation The SDK renders video directly to your HWND. No YUV conversion needed . Advantages : - ✅ Best quality - SDK uses optimized, hardware-accelera…",
+  "关键输出": "→ Video Rendering - Subscribe in onUserVideoStatusChanged",
+  "最新更新时间": "2026-09-17T16:31:40+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Best for : Standard applications, clean video quality, ease of implementation The SDK renders video directly to your HWND. No YUV conversion needed . Advantages : - ✅ Best quality - SDK uses optimized, hardware-accelera…时，用它产出或更新：→ Video Rendering - Subscr…",
+  "skill_id": "01220-zoom-video-sdk-windows-7fd4d1fd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/windows/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/windows/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ba5eb8e759b88c8c1092c567e5eccb179aab8ee5e4eb00d1e0f11f2484ba750e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

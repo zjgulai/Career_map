@@ -1,0 +1,22 @@
+{
+  "英文名称": "electron-app-dev",
+  "中文名称": "桌面应用开发专家",
+  "一句话作用": "Electron桌面应用开发专家。精通electron-vite、TypeScript、React、IPC通信、窗口管理、原生功能集成等Electron全栈开发技术。 适用场景： - 创建electron-vite + TypeScript + React项目 - 实现安全的IPC通信 - 窗口管理（创建、控制、多窗口、状态持久化） - 原生功能（系统托盘、菜单、通知、文件对话框） - electron-builder打包分发 - 自…",
+  "关键输入": "症状： 开发环境正常，打包后白屏 原因： 协议问题或路径错误",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:49+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要症状： 开发环境正常，打包后白屏 原因： 协议问题或路径错误时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04848-electron-app-dev-7cd9f3b2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/electron-app-dev/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/electron-app-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9c0989a39ea371a5668c62ec01763cb85464d11a800528596e35f0ba2845c2c7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

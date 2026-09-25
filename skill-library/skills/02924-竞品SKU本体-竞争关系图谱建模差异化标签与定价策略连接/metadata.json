@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-competitor-sku-ontology",
+  "中文名称": "竞品SKU本体 竞争关系图谱建模差异化标签与定价策略连接",
+  "一句话作用": "触发词：竞品本体、竞争关系图谱、价格位置、差异化标签、SKU 对标。何时不用：要监测竞品上新动向用「Competitor Product Intelligence」；要融合多源数据建属性图谱用「KG Data Fusion Pipeline」。安全边界：竞品价格为公开数据、不得用于价格协同；标签判断需人工复核，不得作为对外贬损竞品的依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"竞品价格变动要1周后才知道\"——竞品本体实时监控将价格响应从1周→实时，抓住提价窗口年化增收5-8万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02924-p2s-competitor-sku-ontology-7ef9afaf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-competitor-sku-ontology/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-competitor-sku-ontology/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9455649892bdfac9e6c814bcd3ea8bdf47c925edee50bfe0337ab1f884f5d17",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

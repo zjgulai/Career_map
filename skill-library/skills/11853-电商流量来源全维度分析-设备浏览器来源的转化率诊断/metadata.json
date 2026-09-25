@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-traffic-source-analysis",
+  "中文名称": "电商流量来源全维度分析 - 设备浏览器来源的转化率诊断",
+  "一句话作用": "触发词：流量来源分析、渠道质量分、桑基图、设备浏览器维度、无效渠道、转化诊断。何时不用：跨渠道预算如何重分配用多触点归因那张卡；要诊断站内流量来源质量、给每个来源打质量分时用本卡。安全边界：会话级数据须去标识化处理，遵守平台与隐私政策，不得将会话数据用于个体追踪。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要投放经理面临流量来源说不清——流量分析将无效渠道占比从30%降到12%，年化省20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11853-p2s-traffic-source-analysis-ee291531",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-traffic-source-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-traffic-source-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "00423a28ac185a6ef04af4d467b8f625b274e7a6237fc302945cbe4512e1de58",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

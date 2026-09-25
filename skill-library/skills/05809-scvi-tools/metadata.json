@@ -1,0 +1,22 @@
+{
+  "英文名称": "scvi-tools",
+  "中文名称": "待补：scvi-tools",
+  "一句话作用": "Deep generative models for single-cell omics. Use when you need probabilistic batch correction (scVI), transfer learning, differential expression with uncertainty, or multi-modal integration (TOTALVI, MultiVI). Best for…",
+  "关键输入": "Use this skill when: - Analyzing single-cell RNA-seq data (dimensionality reduction, batch correction, integration) - Working with single-cell ATAC-seq or chromatin accessibility data - Integrating multimodal data (CITE…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use this skill when: - Analyzing single-cell RNA-seq data (dimensionality reduction, batch correction, integration) - Working with single-cell ATAC-seq or chromatin accessibility data - Integrating multimodal data (CITE…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05809-scvi-tools-69f24ea6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/scvi-tools/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/scvi-tools/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7435fe7a26691be6c7b3d6f56c766657680d7913615d287385db55d4e7d4c7af",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

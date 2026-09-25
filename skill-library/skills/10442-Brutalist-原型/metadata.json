@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-proto-brutalist",
+  "中文名称": "Brutalist 原型",
+  "一句话作用": "Swiss industrial-print 风: 单字 grotesque、巨数字、ASCII 装饰",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要Swiss industrial-print 风: 单字 grotesque、巨数字、ASCII 装饰时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10442-web-proto-brutalist-d02f3ce7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/web-proto-brutalist/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/web-proto-brutalist/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "936ef363d407ba2c441d30a46138fa1fea1c2043ee2005da7439e13d4f532b91",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-channel-saturation-curve",
+  "中文名称": "渠道饱和曲线建模）",
+  "一句话作用": "触发词：渠道饱和、边际 ROI、Hill 曲线、加预算衰减、预算上限、渐进加预算实验。何时不用：预算从未变动、缺少多档位历史数据时无法拟合曲线；要判断渠道的因果增量时用地理级实验。安全边界：使用渠道级投放数据即可，不涉及用户级隐私，也不得基于曲线结论对外承诺平台流量结果。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Facebook 月预算从 $5 万加到 $8 万后，ROAS 从 3.2 掉到 2.1时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11640-p2s-channel-saturation-curve-2c67b38b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-channel-saturation-curve/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-channel-saturation-curve/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b572473c3ff8f5e52edc60283ee8fa0f7e42068265ff6bd74e403b6dabd12a11",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

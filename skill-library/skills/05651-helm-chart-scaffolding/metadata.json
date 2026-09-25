@@ -1,0 +1,22 @@
+{
+  "英文名称": "helm-chart-scaffolding",
+  "中文名称": "待补：helm-chart-scaffolding",
+  "一句话作用": "Design, organize, and manage Helm charts for templating and packaging Kubernetes applications with reusable configurations. Use when creating Helm charts, packaging Kubernetes applications, or implementing templated dep…",
+  "关键输入": "Use this skill when you need to: - Create new Helm charts from scratch - Package Kubernetes applications for distribution - Manage multi-environment deployments with Helm - Implement templating for reusable Kubernetes m…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Use this skill when you need to: - Create new Helm charts from scratch - Package Kubernetes applications for distribution - Manage multi-environment deployments with Helm - Implement templating for reusable Kubernetes m…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05651-helm-chart-scaffolding-a5d631cb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/helm-chart-scaffolding/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/helm-chart-scaffolding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "08d6e5114d24c682ae03e886f9fc8e602d9d91edf087da5cbb856de5fba68555",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

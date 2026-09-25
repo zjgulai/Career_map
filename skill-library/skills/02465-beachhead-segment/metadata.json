@@ -1,0 +1,22 @@
+{
+  "英文名称": "beachhead-segment",
+  "中文名称": "待补：beachhead-segment",
+  "一句话作用": "从多个候选细分市场中选出最容易先赢下的一个，作为后续扩张的跳板。触发词：滩头市场选择、beachhead-segment、从多个候选细分市场中选出最容易先赢下的一个，作为后续扩张的跳板。",
+  "关键输入": "Use $ARGUMENTS to pass: - Product description and capabilities - Initial market research and validation data - Potential segment options - Constraints and limitations - Timeline and resource constraints - Current customer data or feedback",
+  "关键输出": "A beachhead segment analysis including: - Top 3-5 recommended segments with scoring - Primary beachhead segment recommendation - Pain point validation and evidence - Willingness to pay assessment and pricing guidance - Realistic market share and revenue proje…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要- Choosing a first market for your product - Targeting an initial customer segment - Planning initial market entry strategy - Deciding where to focus limited resources - Validating GTM assumptions with early adopters时，用它产出或更新：A beachhead segment analysis i…",
+  "skill_id": "02465-beachhead-segment-88bf7673",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/beachhead-segment/SKILL.md",
+  "relative_path": "lute/.dsh/skills/beachhead-segment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8009942d0f78fa1126380f31abbdb6161d5be17148095f8294f538cff0634a7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

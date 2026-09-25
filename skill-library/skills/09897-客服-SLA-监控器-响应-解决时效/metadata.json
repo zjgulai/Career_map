@@ -1,0 +1,22 @@
+{
+  "英文名称": "客服 SLA 监控器（响应/解决时效）",
+  "中文名称": "待补：客服 SLA 监控器（响应/解决时效）",
+  "一句话作用": "当客服响应或解决时长接近或超过阈值时，输出预警与资源调整建议。",
+  "关键输入": "- 工单生命周期明细 - 响应/解决 SLA 阈值",
+  "关键输出": "表：工单 当前状态 已耗时 SLA阈值 风险等级 建议动作",
+  "最新更新时间": "2026-03-22T01:35:26+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当客服响应或解决时长接近或超过阈值时，输出预警与资源调整建议。时，用它产出或更新：表：工单 当前状态 已耗时 SLA阈值 风险等级 建议动作",
+  "skill_id": "09897-sla-a7cb0a42",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/sla-monitor/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/sla-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb65a5cb45793ae10b33490e92f1fb83521fd55b0eb969f9a9591433bbf5fbcf",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

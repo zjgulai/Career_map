@@ -1,0 +1,22 @@
+{
+  "英文名称": "seekdb-build",
+  "中文名称": "待补：seekdb-build",
+  "一句话作用": "Build SeekDB binaries and installation packages from source for one or more target platforms (macOS, Linux, Android cross-compile, Windows native, Python wheel). Handles argument parsing, target-aware dependency initial…",
+  "关键输入": "- Extract platform, action(s), and options from $ARGUMENTS. - If no platform given, detect via uname -s: Darwin → mac, Linux → linux. - If no action given, default to release (compile only). - Default version: beta. Default release: today's date as YYYYMMDD.",
+  "关键输出": "After each action: - Print success or failure (exit code). - Print artifact path(s) and file sizes (ls -lh). - If init failed → abort, report error, do not proceed to make. - If make failed after successful init → suggest re-running with --init (marker may be…",
+  "最新更新时间": "2026-09-19T03:38:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build SeekDB binaries and installation packages from source for one or more target platforms (macOS, Linux, Android cross-compile, Windows native, Python wheel). Handles argument parsing, target-aware dependency initial…时，用它产出或更新：After each action: - Print…",
+  "skill_id": "04564-seekdb-build-dbab1c96",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/seekdb/build/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/seekdb/build/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "374b3a030aa6e6cb39ccf3eb792c853e09f441c2a0e800bb40eb128764850bbd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

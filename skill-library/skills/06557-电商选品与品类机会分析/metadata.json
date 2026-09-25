@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-product-selection",
+  "中文名称": "电商选品与品类机会分析",
+  "一句话作用": "电商选品与品类机会分析技能。根据商家的预算、目标平台、货源优势，按\"市场需求×竞争度×利润空间×季节性×复购率\"五维打分，输出3-5个候选品类及切入建议。适用于新手不知道卖什么、老商家想拓新品类、想判断某个品值不值得进货的场景。",
+  "关键输入": "向用户收集以下关键信息（缺什么问什么）： 1. 预算范围 ：可投入的资金量级（如 5 万、10 万、50 万） 2. 目标平台 ：抖音、淘宝、拼多多、亚马逊、快手、小红书等 3. 货源优势 ：是否有自有工厂、产业带资源、或只能从 1688 等渠道拿货 4. 经验背景 ：是否已有电商经验、擅长哪个类目 5. 特殊偏好 ：是否偏好轻小件、高复购、季节性品类等",
+  "关键输出": "为用户输出以下内容： 1. 3-5 个候选品类 ，每个品类包含： - 五维评分表（雷达图式描述） - 综合推荐指数（加权总分） - 机会点 ：该品类当前存在哪些市场空白或差异化机会 - 风险点 ：该品类的主要坑和注意事项 - 建议切入的细分方向 ：不要泛泛推荐大类，给出具体的细分赛道（如\"宠物用品\"→\"猫用智能饮水机\"） 2. 优先级排序 ：根据用户的具体情况（预算/平台/货源），给出推荐优先级 3. 下一步行动建议 ：选定品类后的选品渠道、首批备货量建议等",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "其他待归类",
+  "解决具体问题": "当需要- 新手卖家不知道该卖什么产品 - 老商家想拓展新品类 - 想判断某个品类是否值得进货 - 有工厂/货源优势，想知道适合上哪些平台的哪些品时，用它产出或更新：为用户输出以下内容： 1. 3-5 个候选品类 ，每个品类包含： - 五维评分表（雷达图式描述） - 综合推荐指数（加权总分） - 机会点 ：该品类当前存在哪些市场空白或差异化机会 - 风险点 ：该品类的主要坑和注意事项 - 建议切入的细分方向 ：不要泛泛推荐大类，给出具体的细分赛道（如\"宠物用品\"→\"猫用智能饮水机\"） 2. 优先级排序 ：根据用户的…",
+  "skill_id": "06557-doubao-product-selection-f5f7f51c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-product-selection/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-product-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3555b11e030b6abee48814f97cc2d6c6c75ec05236a874c188208b788da58c09",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

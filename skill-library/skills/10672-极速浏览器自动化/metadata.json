@@ -1,0 +1,22 @@
+{
+  "英文名称": "rust-browser-pilot",
+  "中文名称": "极速浏览器自动化",
+  "一句话作用": "基于 Rust 的高性能浏览器自动化工具，通过 Chrome DevTools 协议直接驱动浏览器，执行 DOM 提取、页面截图、表单填写、会话管理和站点地图分析等操作。启动速度和内存效率远超 Puppeteer 与 Selenium，非常适合网页抓取、自动化测试和需要复杂交互的场景。当用户需要自动化浏览器任务、提及网页抓取、自动化测试、DOM 提取、页面截图、表单填写、会话管理、站点地图分析，或比较 Puppeteer/Seleni…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:06:23+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要基于 Rust 的高性能浏览器自动化工具，通过 Chrome DevTools 协议直接驱动浏览器，执行 DOM 提取、页面截图、表单填写、会话管理和站点地图分析等操作。启动速度和内存效率远超 Puppeteer 与 Selenium，非常适合网页抓取、自动化测试和需要复杂交互的场景。当用户需要自动化浏览器任务、提及网页抓取、自动化测试、DOM 提取、页面截图、表单填写、会话管理、站点地图分析，或比较 Puppeteer/Seleni…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10672-rust-browser-pilot-3db1fa78",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/rust-browser-pilot/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/rust-browser-pilot/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c8b7b7539f8552c393b06d126fd4785b4414856734614c674ecc6c51893625e5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-membership-churn-early-warning-graph",
+  "中文名称": "图神经网络会员流失预警比行为序列早 15-30 天识别风险",
+  "一句话作用": "触发词：图神经网络、社群关系、流失预警、关系衰减、中心性、提前干预。何时不用：只有个体行为数据、没有会员间关系数据时用常规流失预测；要利用社群与互动关系把预警提前 15–30 天时用本卡。安全边界：关系图只能用平台内可授权的互动与购买关系，不得抓取私人社交关系或敏感属性，图数据须脱敏存储。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要会员运营面临\"RFM流失预警太滞后（用户已45天未购买）、挽留成本高\"——动态图神经网络从社群关系衰减提前15-20天识别高风险用户，干预成本从25元降至15元，年化节省约4.8万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03433-p2s-membership-churn-early-warning-graph-8831ed63",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-membership-churn-early-warning-graph/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-membership-churn-early-warning-graph/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "75dda01becfeb813efbbb8c6e023008525e1eac2b329484af9e425b0f61e2d0e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

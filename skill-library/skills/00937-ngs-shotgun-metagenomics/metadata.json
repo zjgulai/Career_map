@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-shotgun-metagenomics",
+  "中文名称": "待补：ngs-shotgun-metagenomics",
+  "一句话作用": "Kick off public shotgun metagenomics QC, host-depletion, taxonomic profiling, and functional profiling workflows using nf-core/taxprofiler, Kraken2, Bracken, MetaPhlAn, and HUMAnN.",
+  "关键输入": "Confirm: - paired-end or single-end reads - host organism and host-depletion requirement - target outputs: taxonomic profile, functional profile, assembly, binning, or QC only - preferred database family, if any - database paths or permission to download larg…",
+  "关键输出": "The local FASTQ package always writes visualizations/index.html and visualizations/visualization manifest.json. With only FASTQs, this is a read-QC/readiness bundle. Provide existing --kraken-report, --bracken-table, --humann-pathabundance, or --humann-genefa…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Kick off public shotgun metagenomics QC, host-depletion, taxonomic profiling, and functional profiling workflows using nf-core/taxprofiler, Kraken2, Bracken, MetaPhlAn, and HUMAnN.时，用它产出或更新：The local FASTQ package always writes visualizations/index.html an…",
+  "skill_id": "00937-ngs-shotgun-metagenomics-14e02980",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-shotgun-metagenomics/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-shotgun-metagenomics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e17b2e52275d360980a7f7a37a1c452796f359bb546edca1b53744e07d4943dc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

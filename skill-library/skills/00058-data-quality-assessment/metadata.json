@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-quality-assessment",
+  "中文名称": "待补：data-quality-assessment",
+  "一句话作用": "Assess whether datasets are trustworthy for analysis, modeling, dashboards, or pipelines; and validate finished analyses before sharing. Use for data quality checks (grain, freshness, nulls, duplicates, schema drift, jo…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Two complementary capabilities: (1) assess whether a dataset is trustworthy enough for its intended use, and (2) validate a finished analysis before it is shared with stakeholders.",
+  "最新更新时间": "2026-09-12T16:24:30+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Assess whether datasets are trustworthy for analysis, modeling, dashboards, or pipelines; and validate finished analyses before sharing. Use for data quality checks (grain, freshness, nulls, duplicates, schema drift, jo…时，用它产出或更新：Two complementary capabili…",
+  "skill_id": "00058-data-quality-assessment-0f7f9b9c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-74471462U1788279-8A8E75-0949-3A5374/agent-core/skills/data-quality-assessment/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-74471462U1788279-8A8E75-0949-3A5374/agent-core/skills/data-quality-assessment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9c259236f0cfd5184bc439b65bb846c7c4687a9e078dff532b4206a977f5d877",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

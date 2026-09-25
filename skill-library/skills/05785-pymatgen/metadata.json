@@ -1,0 +1,22 @@
+{
+  "英文名称": "pymatgen",
+  "中文名称": "待补：pymatgen",
+  "一句话作用": "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science.",
+  "关键输入": "lattice = Lattice.from parameters(a=3.84, b=3.84, c=3.84, alpha=120, beta=90, gamma=60) coords = [[0, 0, 0], [0.75, 0.5, 0.75]] struct = Structure(lattice, [\"Si\", \"Si\"], coords)",
+  "关键输出": "python scripts/structure analyzer.py structure.cif --symmetry --export json",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要This skill should be used when: - Working with crystal structures or molecular systems in materials science - Converting between structure file formats (CIF, POSCAR, XYZ, etc.) - Analyzing symmetry, space groups, or coo…时，用它产出或更新：python scripts/structure a…",
+  "skill_id": "05785-pymatgen-b2b36c4d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pymatgen/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pymatgen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c02e14f0de5119d792f8450d1265b89ff93f4ad2f41b7b48c0b9fe91a81e6e98",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

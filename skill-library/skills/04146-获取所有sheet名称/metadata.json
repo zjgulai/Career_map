@@ -1,0 +1,22 @@
+{
+  "英文名称": "large-file-conditional-formatting",
+  "中文名称": "获取所有sheet名称",
+  "一句话作用": "根据Excel总行数自动切换Parquet加速读取，计算特定维度的时间序列平均值，并使用openpyxl输出带有条件格式（如低于均值标绿）和自定义样式的分析报告。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "result data = { '时间维度': time labels, '指标数值': target values numeric, '是否低于平均值': [v < avg value for v in target values numeric] } result df = pd.DataFrame(result data) from openpyxl import Workbook from openpyxl.styles import PatternFill, Font, Alignment, Borde…",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要根据Excel总行数自动切换Parquet加速读取，计算特定维度的时间序列平均值，并使用openpyxl输出带有条件格式（如低于均值标绿）和自定义样式的分析报告。时，用它产出或更新：result data = { '时间维度': time labels, '指标数值': target values numeric, '是否低于平均值': [v < avg value for v in target values numeric] } result df = pd.DataFrame(result data)…",
+  "skill_id": "04146-large-file-conditional-formatting-127b31e9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-cell-coloring/threshold-cell-coloring/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-cell-coloring/threshold-cell-coloring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "539ded0021ba3acf2fdc758bd65ead3f303e3e023019c2a3ad021be56bd9168c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mtl-churn-ltv-joint-prediction",
+  "中文名称": "流失预测与LTV联合建模",
+  "一句话作用": "触发词：多任务学习、联合建模、流失与 LTV、优先级排序、共享表征、挽留名单。何时不用：只做单一任务时用对应的流失或 LTV 单卡；要同时输出流失概率与 LTV、并按加权合成触达优先级时用本卡。安全边界：行为数据采集须符合同意机制，触达须提供退出选项，不得基于模型结果做歧视性处置。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据科学家面临\"流失预测和LTV预测分开建模两个模型都不够准\"——MTL联合建模将两个任务准确率各提升15%，年化增收$7.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11746-p2s-mtl-churn-ltv-joint-prediction-a3bf1fb0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-mtl-churn-ltv-joint-prediction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-mtl-churn-ltv-joint-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2d10c2259af2577167a5a874552574703ac2518031a5bab3b83b2833232c523",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

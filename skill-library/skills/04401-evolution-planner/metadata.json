@@ -1,0 +1,22 @@
+{
+  "英文名称": "evolution-planner",
+  "中文名称": "待补：evolution-planner",
+  "一句话作用": "Architecture evolution planning. Use when the user needs to compare current and target architecture, explain decisions and tradeoffs, plan migration slices, sequence modernization work, or turn ADRs and target-state gap…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "These artifacts capture the current/target gap, architecture decisions, migration slices, and roadmap evidence. - architecture-evolution.dot dsl mmd: source diagram for the proposed architecture change path or target-state evolution. - current-vs-target.dsl d…",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Architecture evolution planning. Use when the user needs to compare current and target architecture, explain decisions and tradeoffs, plan migration slices, sequence modernization work, or turn ADRs and target-state gap…时，用它产出或更新：These artifacts capture th…",
+  "skill_id": "04401-evolution-planner-f421953b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/evolution-planner/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/evolution-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "317b1c47869fd040a358ee8bf6cdbfa59891da8726458fc0240fbc901ab6b399",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

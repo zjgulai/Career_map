@@ -1,0 +1,22 @@
+{
+  "英文名称": "build-chatgpt-app",
+  "中文名称": "待补：build-chatgpt-app",
+  "一句话作用": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compat…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When using this skill to scaffold code, produce output in this order unless the user asks otherwise: - For direct scaffold requests, do not stop at the plan: give the brief plan, then create the files immediately. 1. Primary app archetype chosen and why 2. To…",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compat…时，用它产出或更新：When using this skill to s…",
+  "skill_id": "01474-build-chatgpt-app-63b6330d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/openai-developers/1dc19589/skills/build-chatgpt-app/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/openai-developers/1dc19589/skills/build-chatgpt-app/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b4ba5e0847e9b56b327da4e7546f5f0bf3325f54d6d21fc119b320bc2c898a53",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

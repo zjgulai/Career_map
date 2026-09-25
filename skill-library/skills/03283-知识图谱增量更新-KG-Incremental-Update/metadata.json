@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-incremental-update",
+  "中文名称": "知识图谱增量更新（KG Incremental Update）",
+  "一句话作用": "触发词：知识图谱增量更新、时序三元组、时间衰减、冲突消解、事实有效期。何时不用：需要做本体版本升级与依赖通知时用本体版本管理技能；只做变更检测的流水线调度时用图谱增量更新流水线技能。安全边界：旧三元组不得硬删除，须按时间衰减保留有效期，图谱变更须留审计记录。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：亚马逊 Prime Day 期间，价格每 10 分钟可能变化时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03283-p2s-kg-incremental-update-c817b224",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-kg-incremental-update/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-kg-incremental-update/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f63468986c10c235b34f169f6f7bda339452084242e9060e6bd1594cb93971b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

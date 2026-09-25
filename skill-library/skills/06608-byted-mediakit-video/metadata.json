@@ -1,0 +1,22 @@
+{
+  "英文名称": "byted-mediakit-video",
+  "中文名称": "待补：byted-mediakit-video",
+  "一句话作用": "面向视频文件的智能处理、媒资理解、画质治理与画质检测、抽帧、隐私保护、字幕与水印处理、精彩片段与高光拆条分析生成、剧情结构化与剧本整理、场景与语义分段、画面文字识别、视频转码转封装及人像或绿幕抠像等目标。若对象和目标族已明确属于视频增强、视频分析理解、视频内容结构化、视频字幕识别或擦除、视频隐私脱敏、视频媒资探测或分发适配，但具体能力不确定，可先加载本 Skill 探索；若只说有视频而未说明业务目标，应先澄清。明确要裁剪、拼接、叠加字…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要面向视频文件的智能处理、媒资理解、画质治理与画质检测、抽帧、隐私保护、字幕与水印处理、精彩片段与高光拆条分析生成、剧情结构化与剧本整理、场景与语义分段、画面文字识别、视频转码转封装及人像或绿幕抠像等目标。若对象和目标族已明确属于视频增强、视频分析理解、视频内容结构化、视频字幕识别或擦除、视频隐私脱敏、视频媒资探测或分发适配，但具体能力不确定，可先加载本 Skill 探索；若只说有视频而未说明业务目标，应先澄清。明确要裁剪、拼接、叠加字…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06608-byted-mediakit-video-eb1f0a5d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-video/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-video/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1455fd9759c1efc392578cd57c3cee5792bfe1c72ebeac9378265136a8e6c2a4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

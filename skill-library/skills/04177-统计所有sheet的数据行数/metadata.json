@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-sheet-reading-and-analysis",
+  "中文名称": "统计所有sheet的数据行数",
+  "一句话作用": "用于读取多工作表Excel文件，动态评估数据量以启用Parquet大文件优化，并执行正则清洗、分类汇总、线性拟合及生成带格式的图表与结果文件。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要用于读取多工作表Excel文件，动态评估数据量以启用Parquet大文件优化，并执行正则清洗、分类汇总、线性拟合及生成带格式的图表与结果文件。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04177-multi-sheet-reading-and-analysis-7480ed61",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-reading/multi-sheet-reading/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-reading/multi-sheet-reading/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0f860c163543f23079b91ec210b1f3341a07822ecb51ecb885f59eb52bc3cb98",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

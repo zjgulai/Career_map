@@ -1,0 +1,22 @@
+{
+  "英文名称": "dotnet-best-practices",
+  "中文名称": "待补：dotnet-best-practices",
+  "一句话作用": "Ensure .NET/C code meets best practices for the solution/project.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:42+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Ensure .NET/C code meets best practices for the solution/project.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04823-dotnet-best-practices-8d6ee136",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dotnet-best-practices/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dotnet-best-practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3181f44dfc866313c96cd784a7f003b4b109836a6f02648f95b3323e73e85d62",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

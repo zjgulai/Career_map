@@ -1,0 +1,22 @@
+{
+  "英文名称": "ilya-sutskever-perspective",
+  "中文名称": "思维操作系统",
+  "一句话作用": "Ilya Sutskever的思维框架与表达方式。基于12段一手对话、9篇学术论文、10小时宣誓证词、 27篇推荐阅读清单和14个权威二手来源的深度调研， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用Ilya的视角分析AI技术方向、安全策略、研究品味。 当用户提到「用Ilya的视角」「Ilya会怎么看」「Ilya模式」「ilya perspective」 「sutskever perspective…",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体模型/公司/论文/技术进展/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象的AI哲学、研究品味、安全原则 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体技术案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训…",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是我基于真实信息做出的判断。",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体模型/公司/论文/技术进展/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象的AI哲学、研究品味、安全原则 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体技术案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训…时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然…",
+  "skill_id": "09254-ilya-sutskever-perspective-da05ca44",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/ilya-sutskever-perspective/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/ilya-sutskever-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1c7328eceb45f40484c1e1c8eed48167e8d75ddff85ffc57ac4188472f968f90",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "component-refactoring",
+  "中文名称": "待补：component-refactoring",
+  "一句话作用": "Refactor high-complexity React components in Dify frontend. Use when pnpm analyze-component --json shows complexity 50 or lineCount 300, when the user asks for code splitting, hook extraction, or complexity reduction, o…",
+  "关键输入": "- Hook extraction : web/app/components/app/configuration/hooks/ - Component splitting : web/app/components/app/configuration/ - Service hooks : web/service/use- .ts - Workflow patterns : web/app/components/workflow/hook…",
+  "关键输出": "pnpm refactor-component --json",
+  "最新更新时间": "2026-09-19T03:49:08+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Hook extraction : web/app/components/app/configuration/hooks/ - Component splitting : web/app/components/app/configuration/ - Service hooks : web/service/use- .ts - Workflow patterns : web/app/components/workflow/hook…时，用它产出或更新：pnpm refactor-component --…",
+  "skill_id": "04783-component-refactoring-06ef1dd8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/component-refactoring/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/component-refactoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "996349b0b799095aeaa7781bc9646d032f054edd85a7c90ea67b49f3334c98ad",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

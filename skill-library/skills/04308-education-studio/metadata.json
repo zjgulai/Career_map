@@ -1,0 +1,22 @@
+{
+  "英文名称": "education-studio",
+  "中文名称": "待补：education-studio",
+  "一句话作用": "Turn a topic, question, lesson recording, transcript, or course material into a lesson plan, exercises, handout, courseware, or educational video. Not for generic editing without a teaching goal.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Default output order: 1. Teaching brief : audience, objectives, duration, format, assumptions; 2. Content structure : modules/segments and their purposes; 3. Full deliverable : lesson plan, script, exercise set, courseware outline, or processed material;",
+  "最新更新时间": "2026-09-17T01:02:43+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Turn a topic, question, lesson recording, transcript, or course material into a lesson plan, exercises, handout, courseware, or educational video. Not for generic editing without a teaching goal.时，用它产出或更新：Default output order: 1. Teaching brief : audience,…",
+  "skill_id": "04308-education-studio-ca56a4fe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/education-studio/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/education-studio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2ca2b0802101bc373b7d0a67d9f591fe68966a1dbfc4265133a9d02b2f61d71",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

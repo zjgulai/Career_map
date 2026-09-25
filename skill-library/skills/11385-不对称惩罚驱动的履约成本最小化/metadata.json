@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fba-cost-forecast-adjustment",
+  "中文名称": "不对称惩罚驱动的履约成本最小化",
+  "一句话作用": "触发词：不对称成本、分位数偏移、缺货惩罚、紧急空运、补货预测调整。何时不用：要定分级备货档位用「需求分位数预测」，要按精度口径评估预测用「预测准确率MAPE体系」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴吸奶器 Q4 补货用对称均值预测，欠载紧急空运成本是海运6倍，35% 的补货周期都要付出额外代价——不对称惩罚预测调整（CPP L/CPP H）将补货预测自动偏移至第 75 分位数，欠载概率从 35% 降至 15%，100 SKU 规模年化净节省 10-30 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11385-p2s-fba-cost-forecast-adjustment-10c7d8fc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-fba-cost-forecast-adjustment/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-fba-cost-forecast-adjustment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad8c08505581074fb8340906349eac4422bac58cca1ec4a450cbe01d4ed18061",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-vip-tier-upgrade-action",
+  "中文名称": "超阈值自动触发VIP等级升级与礼遇通知",
+  "一句话作用": "触发词：VIP自动升级、LTV阈值、等级状态机、礼遇通知、幂等升级、留存提升。何时不用：要重新设计等级数量与门槛本身用「会员等级结构设计」；要做权益成本与 CLV 测算同样属结构设计而非本技能。安全边界：升级动作必须幂等，避免重复发放权益；权益兑现须有 SLA 与公开口径，用户可随时退出分层计划，行为数据处理须符合隐私授权与数据最小化要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"高价值用户未被及时识别和激励\"——LTV触阈自动晋级将VIP用户12月留存率从61%提升至79%，年化保护GMV80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04002-p2s-vip-tier-upgrade-action-8c494a41",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-vip-tier-upgrade-action/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-vip-tier-upgrade-action/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f200e5221a5ec16380ff983f81cf63c2b930c5137a770444c16c38481bbf5d88",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

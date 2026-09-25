@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-contract-amendment",
+  "中文名称": "补充协议起草：整体法律状态优先",
+  "一句话作用": "用于在已签原协议基础上，依据用户提供的新情况起草补充协议、变更协议或终止协议。先重建主体、标的、资金、条件、时间和文件构成的整体法律状态，再在用户明确授权范围内成文。仅处理既有协议的派生修改；不用于全新合同起草、既有合同风险审查、一般法律咨询或纯 Word 排版与纯文件处理，纯文档编辑改用 lark-doc。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T16:27:36+08:00",
+  "业务场景": "其他待归类",
+  "解决具体问题": "当需要用于在已签原协议基础上，依据用户提供的新情况起草补充协议、变更协议或终止协议。先重建主体、标的、资金、条件、时间和文件构成的整体法律状态，再在用户明确授权范围内成文。仅处理既有协议的派生修改；不用于全新合同起草、既有合同风险审查、一般法律咨询或纯 Word 排版与纯文件处理，纯文档编辑改用 lark-doc。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06374-doubao-contract-amendment-cd926635",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-contract-amendment/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-contract-amendment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cb0a86cca82796ce311bf49d593a3f24607278757d60da51cc715df6565b2750",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

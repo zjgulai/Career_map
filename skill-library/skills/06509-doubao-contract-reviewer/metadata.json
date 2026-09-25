@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-contract-reviewer",
+  "中文名称": "待补：doubao-contract-reviewer",
+  "一句话作用": "doubao-contract-reviewer 是面向大众用户的合同审查 Skill，适合在豆包/豆包 Turbo 中审查各类合同。用户上传合同或询问“帮我审合同、合同有没有问题、这份合同能不能签、合同风险、合同把关、legal review”时必须使用。本 Skill 强制输出比裸跑更有用的结构化审查：先判断我方立场，再按交易模块识别风险，区分“必改风险 / 可争取优化项 / 形式完善项”，并给出可直接替换或补充的修改文本。适用于…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "审查意见必须分为三层。不要把所有问题混在一个列表里。",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要doubao-contract-reviewer 是面向大众用户的合同审查 Skill，适合在豆包/豆包 Turbo 中审查各类合同。用户上传合同或询问“帮我审合同、合同有没有问题、这份合同能不能签、合同风险、合同把关、legal review”时必须使用。本 Skill 强制输出比裸跑更有用的结构化审查：先判断我方立场，再按交易模块识别风险，区分“必改风险 / 可争取优化项 / 形式完善项”，并给出可直接替换或补充的修改文本。适用于…时，用它产出或更新：审查意见必须分为三层。不要把所有问题混在一个列表里。",
+  "skill_id": "06509-doubao-contract-reviewer-c957ad0f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-contract-reviewer/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-contract-reviewer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "470a0d2a922ea10c573615e0235f208d0c6baf588ab2f3f1e6b37fafd28e35d9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

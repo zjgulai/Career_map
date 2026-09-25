@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-viral-marketing-model",
+  "中文名称": "病毒式传播建模：K 因子裂变增长的量化设计",
+  "一句话作用": "触发词：K 因子、老带新设计、奖励结构、增长曲线、病毒系数。何时不用：已有推荐关系数据、要精算单个用户价值来定价时用网络价值归因技能；本技能做的是推荐计划的整体增长设计。安全边界：奖励规则须明示条件与上限，避免虚假宣传与刷单套利。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌想设计老带新推荐计划但不知道奖励多少合适也不清楚K因子——K因子量化每个用户带来的新用户数并找到最优奖励结构，K从0.2提升到0.5后月新增用户提升50%年化低成本增长15-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11865-p2s-viral-marketing-model-439dc2ce",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-viral-marketing-model/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-viral-marketing-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca15143a51bc07efde76a7b7e77f601ff277f37d4c0156ac906c2559062bde50",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

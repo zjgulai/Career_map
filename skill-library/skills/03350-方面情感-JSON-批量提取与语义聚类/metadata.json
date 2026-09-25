@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-review-structured-extraction",
+  "中文名称": "方面情感 JSON 批量提取与语义聚类",
+  "一句话作用": "触发词：评论结构化抽取、方面情感、JSON批量提取、语义聚类、差评维度排行、跨SKU热力矩阵。何时不用：要判断差评由哪次改动造成用「因果VOC归因」；要做事件框架与论元抽取用「语义角色标注事件抽取」。安全边界：提取结果须保留原始评论证据片段并建立人工复审机制（卡页口径要求人工复审确保准确率不低于 95%）；用户隐私数据处理须符合 GDPR 与个人信息保护法，不得因模型偏见不公正过滤特定用户评价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴运营每季度面对 3 万条吸奶器评论却无从下手——LLM JSON 批量提取将评论结构化时间压缩至 2 小时，自动生成 Top10 差评维度排行，年化节省人力约 18 万元并加速产品迭代 4 周时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03350-p2s-llm-review-structured-extraction-e37dead6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-review-structured-extraction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-review-structured-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "60452079848a4f653ccb446a63ce4447b8c4786bfdf75bb0976bc56acc0602f5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

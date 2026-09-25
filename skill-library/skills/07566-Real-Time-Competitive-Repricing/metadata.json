@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Real-Time-Competitive-Repricing",
+  "中文名称": "待补：Real Time Competitive Repricing",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 81.0, \"best\": 81.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:31:39.187420\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:31:39+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 81.0, \"best\": 81.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:31:39.187420\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07566-skill-real-time-competitive-repricing-2e34d193",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Real-Time-Competitive-Repricing.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Real-Time-Competitive-Repricing.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d671d52b0ee6488d2a5c35db9a2cb12debb31a948cce20a656fe797452ba8a3d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

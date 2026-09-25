@@ -1,0 +1,22 @@
+{
+  "英文名称": "user-stories",
+  "中文名称": "待补：user-stories",
+  "一句话作用": "以角色、诉求与价值的三段式描述需求，并补齐验收标准以便开发直接接手。触发词：用户故事撰写、user-stories、以角色、诉求与价值的三段式描述需求，并补齐验收标准以便开发直接接手。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Complete set of user stories for the feature - Each story includes title, description, design link, and 4-6 acceptance criteria - Stories are independent and can be developed in any order - Stories are sized for one sprint cycle - Stories reference related…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要以角色、诉求与价值的三段式描述需求，并补齐验收标准以便开发直接接手。触发词：用户故事撰写、user-stories、以角色、诉求与价值的三段式描述需求，并补齐验收标准以便开发直接接手。时，用它产出或更新：- Complete set of user stories for the feature - Each story includes title, description, design link, and 4-6 acceptance criteria - Stories are independen…",
+  "skill_id": "04237-user-stories-275791d9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/user-stories/SKILL.md",
+  "relative_path": "lute/.dsh/skills/user-stories/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1c2001a781162eb83db45143e7bd6f68ebfcf1fa44ecd73d4f4866b650c7bb60",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

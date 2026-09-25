@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-trade-after-sales-refund-submit",
+  "中文名称": "待补：alibaba-icbu-trade-after-sales-refund-submit",
+  "一句话作用": "Alibaba.com Trade After-Sales Refund Submit Skill. Executes quick-refund submission only after the guide skill returned actionType=submit in aw and buyer explicitly confirmed. Typical utterances: - Confirm refund - Subm…",
+  "关键输入": "Parameter Type Required Acquisition Strategy --- --- --- --- orderId string yes From guide skill result (orderId field) reasonId integer yes Use defaultReasonId from scenario result; otherwise use buyer-confirmed reason amount.cent integer yes Must exactly eq…",
+  "关键输出": "- On success: confirm refund submission with issue ID and estimated processing time. - After success: suggest buyer can check refund status via the after-sales status query skill. - On failure: explain the issue in plain language based on reasonCode; never ex…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba.com Trade After-Sales Refund Submit Skill. Executes quick-refund submission only after the guide skill returned actionType=submit in aw and buyer explicitly confirmed. Typical utterances: - Confirm refund - Subm…时，用它产出或更新：- On success: confirm refu…",
+  "skill_id": "00079-alibaba-icbu-trade-after-sales-refund-submit-08e37c6d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-after-sales-refund-submit/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-after-sales-refund-submit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9cb6bc84c488e74b873b0db8cbd1457e475887c3e0aa41dd7a05f8cb71a47e9d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

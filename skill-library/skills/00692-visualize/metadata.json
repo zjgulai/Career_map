@@ -1,0 +1,22 @@
+{
+  "英文名称": "visualize",
+  "中文名称": "待补：visualize",
+  "一句话作用": "Create visualizations and interactive tools directly in conversation. Proactively use to show how something works; explore 'what happens when', 'what changes', or 'help me understand'; compare or inspect; create simulat…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T15:33:09+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Create visualizations and interactive tools directly in conversation. Proactively use to show how something works; explore 'what happens when', 'what changes', or 'help me understand'; compare or inspect; create simulat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00692-visualize-889ad9cf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/visualize/skills/visualize/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/visualize/skills/visualize/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b595a97b177137e0c2fe92cbc47a7ba637343608602ace9366f36bc475b34d80",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

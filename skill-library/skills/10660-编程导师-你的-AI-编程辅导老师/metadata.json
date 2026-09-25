@@ -1,0 +1,22 @@
+{
+  "英文名称": "programming-tutor",
+  "中文名称": "编程导师 - 你的 AI 编程辅导老师",
+  "一句话作用": "全能 AI 编程导师，通过互动课程、代码审查、苏格拉底式调试引导、算法练习、项目指导等方式系统化教授编程，支持 Python 和 JavaScript。当用户想学习编程语言、调试代码、理解算法与数据结构、审查代码质量、学习设计模式、准备编程面试、了解工程最佳实践，或从零构建项目、辅导编程作业时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:17+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要全能 AI 编程导师，通过互动课程、代码审查、苏格拉底式调试引导、算法练习、项目指导等方式系统化教授编程，支持 Python 和 JavaScript。当用户想学习编程语言、调试代码、理解算法与数据结构、审查代码质量、学习设计模式、准备编程面试、了解工程最佳实践，或从零构建项目、辅导编程作业时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10660-programming-tutor-8e45cc9d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/programming-tutor/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/programming-tutor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ed739c4172b8c2a3673ed2d4746d95d6fc068a3e35fc7bd8717917aaf9b0879a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

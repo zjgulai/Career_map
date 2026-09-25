@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-maseval-system-evaluation",
+  "中文名称": "系统级 MAS 评估：Framework 影响与模型影响同等重要",
+  "一句话作用": "触发词：MAS系统评估、framework选型、全因子实验、效应量、协调逻辑对比。何时不用：没有统一任务集与评分标准时不适用；只评单个Agent版本能力走Agent能力评估基准。安全边界：评估用任务数据须脱敏，结论只覆盖被比较的framework与模型组合，不外推到未测配置。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要质检经理面临多Agent效果难量化——MASEval将人工抽检工时40小时降到12小时，年化省13万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12038-p2s-maseval-system-evaluation-44782afa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-maseval-system-evaluation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-maseval-system-evaluation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3a552dbd123711e389b87faa56a187dd4e4853dbda8c6e6d477804d7d35b1adf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

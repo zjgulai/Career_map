@@ -1,0 +1,22 @@
+{
+  "英文名称": "earnings-preview",
+  "中文名称": "待补：earnings-preview",
+  "一句话作用": "Build pre-earnings analysis with estimate models, scenario frameworks, and key metrics to watch. Use before a company reports quarterly earnings to prepare positioning notes, set up bull/bear scenarios, and identify wha…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "One-page earnings preview with: - Company, quarter, earnings date - Consensus estimates table - Key metrics to watch (ranked by importance) - Bull/base/bear scenario table - Catalyst checklist - Trading setup: recent stock performance, implied move from optio…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build pre-earnings analysis with estimate models, scenario frameworks, and key metrics to watch. Use before a company reports quarterly earnings to prepare positioning notes, set up bull/bear scenarios, and identify wha…时，用它产出或更新：One-page earnings preview…",
+  "skill_id": "05463-earnings-preview-3a0272d5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/earnings-preview/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/earnings-preview/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a30d383a6f1c06b732b4d34e422dd2ff18f6340db67229a3347d057d52697f33",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

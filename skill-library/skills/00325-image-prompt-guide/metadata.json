@@ -1,0 +1,22 @@
+{
+  "英文名称": "image-prompt-guide",
+  "中文名称": "待补：image-prompt-guide",
+  "一句话作用": "Prompt engineering and tool routing for AI image generation and editing. Use for: creative generation, product photo editing, e-commerce platform image sets, marketing posters and banners (promo/sale, shop banner, exhib…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. Labels appear exactly as written in Step B, in ascending order, each on its own line/paragraph; no empty label. 2. All tier-required blocks are present; no non-schema label was invented (in particular no Use case: and no Acceptance checks: inside the promp…",
+  "最新更新时间": "2026-09-21T17:35:29+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Prompt engineering and tool routing for AI image generation and editing. Use for: creative generation, product photo editing, e-commerce platform image sets, marketing posters and banners (promo/sale, shop banner, exhib…时，用它产出或更新：1. Labels appear exactly a…",
+  "skill_id": "00325-image-prompt-guide-01d1d9ea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/image-prompt-guide/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/image-prompt-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a14e427f751ba28826b2a12c43162bf9f5f072aa96d13cd2992b08abb6f222ee",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

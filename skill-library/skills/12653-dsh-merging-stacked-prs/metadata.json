@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-merging-stacked-prs",
+  "中文名称": "待补：dsh-merging-stacked-prs",
+  "一句话作用": "Use when landing a stack of dependent GitHub PRs (A ← B ← C, where each bases on the one below) onto master, merging a PR whose base is another open PR's branch, or whenever a request mentions \"stacked PRs\", \"PR stack\",…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T11:00:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when landing a stack of dependent GitHub PRs (A ← B ← C, where each bases on the one below) onto master, merging a PR whose base is another open PR's branch, or whenever a request mentions \"stacked PRs\", \"PR stack\",…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12653-dsh-merging-stacked-prs-addde6fc",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-merging-stacked-prs/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-merging-stacked-prs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7b45f7c56f741e725d369887396f582f65d131c775ae58861d7835ca892bfcd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

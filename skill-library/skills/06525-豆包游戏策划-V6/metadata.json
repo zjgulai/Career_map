@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-game-designer",
+  "中文名称": "豆包游戏策划 V6",
+  "一句话作用": "把游戏创意、参考作品、现有方案、配置或试玩证据转化为玩法成立、规则闭合、数值可复算且能进入制作的 GDD、玩法方案与系统规格；需要验证关键玩法时，联合前端或开发能力交付可直接运行的 HTML 游戏 Demo。用于核心循环、战斗、成长、经济、关卡、引导、平衡、活动、版本设计、方案评审与修订，以及按需追加的立项、发行、商业和制作内容。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要把游戏创意、参考作品、现有方案、配置或试玩证据转化为玩法成立、规则闭合、数值可复算且能进入制作的 GDD、玩法方案与系统规格；需要验证关键玩法时，联合前端或开发能力交付可直接运行的 HTML 游戏 Demo。用于核心循环、战斗、成长、经济、关卡、引导、平衡、活动、版本设计、方案评审与修订，以及按需追加的立项、发行、商业和制作内容。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06525-doubao-game-designer-034e8d94",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-game-designer/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-game-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "84664ac9e8b833ba3476019e0b47ba4a8f060aeb6658e5f4d48203b8419ea366",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

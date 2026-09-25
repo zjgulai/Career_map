@@ -1,0 +1,22 @@
+{
+  "英文名称": "sci-paper-cn",
+  "中文名称": "待补：sci-paper-cn",
+  "一句话作用": "按 CVPR、ICCV、NeurIPS、ICML、ACL、ICLR 等顶级会议惯例撰写、排版与呈现科研论文的结构化指南。覆盖全流程：分章节起草、图表设计、LaTeX 排版、叙事逻辑与投稿前打磨。适用于撰写、修改或将手稿排版成 camera-ready 或预印本 PDF。",
+  "关键输入": "When producing a full paper reproduction or draft, the output MUST include:",
+  "关键输出": "Format Default Notes -------- --------- ------- PDF Yes Primary target for camera-ready submission via LaTeX DOCX Yes For collaborative drafting and advisor review PPTX Yes For oral-presentation slide decks derived from paper",
+  "最新更新时间": "2026-09-14T00:06:22+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要按 CVPR、ICCV、NeurIPS、ICML、ACL、ICLR 等顶级会议惯例撰写、排版与呈现科研论文的结构化指南。覆盖全流程：分章节起草、图表设计、LaTeX 排版、叙事逻辑与投稿前打磨。适用于撰写、修改或将手稿排版成 camera-ready 或预印本 PDF。时，用它产出或更新：Format Default Notes -------- --------- ------- PDF Yes Primary target for camera-ready submission via LaTeX DO…",
+  "skill_id": "10674-sci-paper-cn-6be4c3fe",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/sci-paper-cn/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/sci-paper-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "910b4bf9540db95716ce9156e9ebf55a137c99baed815e36aa9e75dd8cc13c0c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

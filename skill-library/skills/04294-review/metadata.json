@@ -1,0 +1,22 @@
+{
+  "英文名称": "review",
+  "中文名称": "待补：review",
+  "一句话作用": "Run a reviewer subagent against uncommitted local changes, a named branch, or a GitHub PR. Local and branch modes write a review file plus a summary to disk. PR mode posts the findings as a PENDING GitHub review for the…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "The post-processing differs between local/branch mode (write summary to disk) and PR mode (post pending review to GitHub).",
+  "最新更新时间": "2026-05-16T12:09:44+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run a reviewer subagent against uncommitted local changes, a named branch, or a GitHub PR. Local and branch modes write a review file plus a summary to disk. PR mode posts the findings as a PENDING GitHub review for the…时，用它产出或更新：The post-processing differ…",
+  "skill_id": "04294-review-9335d0af",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.grok/bundled/skills/review/SKILL.md",
+  "relative_path": "lute/.grok/bundled/skills/review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2b1140894e8eda1b181481d9d6f00ada4fc9834f9f79c463500238e7d148101",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

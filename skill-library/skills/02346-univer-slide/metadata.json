@@ -1,0 +1,22 @@
+{
+  "英文名称": "univer-slide",
+  "中文名称": "待补：univer-slide",
+  "一句话作用": "Create, redesign, edit, inspect, lint, export, and review Univer Slide Units through DSH tools and the Lite Interface. Use proactively for presentations, slide decks, pages, SVG-authored layouts, shapes, text, images, t…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-29T19:01:14+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Create, redesign, edit, inspect, lint, export, and review Univer Slide Units through DSH tools and the Lite Interface. Use proactively for presentations, slide decks, pages, SVG-authored layouts, shapes, text, images, t…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02346-univer-slide-248cb822",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop/node_modules/dsh-univer-office/skills/univer-slide/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop/node_modules/dsh-univer-office/skills/univer-slide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8b24e3fb8d24546a5199d5c65fabb7245c50145f9a0113a5aa7377a389ad3baf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

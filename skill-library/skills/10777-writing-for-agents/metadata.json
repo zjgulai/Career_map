@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-for-agents",
+  "中文名称": "待补：writing-for-agents",
+  "一句话作用": "为 agent 编写文档。适用于创建或编辑 skills，或修改 AGENTS.md 或 CLAUDE.md 时。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要为 agent 编写文档。适用于创建或编辑 skills，或修改 AGENTS.md 或 CLAUDE.md 时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10777-writing-for-agents-661977ee",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/writing-for-agents/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/writing-for-agents/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "987eb9402fcbfc18a9d808997d512b7c4f4bfd2a0a21530aaea6f381d9a1bfb7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

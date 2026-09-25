@@ -1,0 +1,22 @@
+{
+  "英文名称": "expo-tailwind-setup",
+  "中文名称": "待补：expo-tailwind-setup",
+  "一句话作用": "Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00826-expo-tailwind-setup-c765eca1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/expo/skills/expo-tailwind-setup/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/expo/skills/expo-tailwind-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6abfc223a376571e0ee84014b3b474a3f2828ac2ebcde59c5c2b6b4bc802e233",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

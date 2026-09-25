@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-powered-user-profiling",
+  "中文名称": "知识图谱驱动的用户画像：产品知识增强推荐",
+  "一句话作用": "触发词：知识图谱画像、跨品类推荐、产品属性关联、标签覆盖率、语义增强偏好。何时不用：只做价值分层或人群标签生成用 RFM、Persona 类技能，本技能把产品知识图谱与用户行为图融合来做偏好与推荐。安全边界：用户行为与购买数据须脱敏，产品属性与认证信息须来自可核验来源，推荐理由不得使用健康功效表述。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户运营面临画像碎片化——知识图谱画像将标签覆盖率提40%，年化增收15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11715-p2s-kg-powered-user-profiling-82331532",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-kg-powered-user-profiling/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-kg-powered-user-profiling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "baeaf36444217bd35875a9624b4c13007871b0cac62df62d80ec120654c4354a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

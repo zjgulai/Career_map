@@ -1,0 +1,22 @@
+{
+  "英文名称": "relational-database-web-cloudbase",
+  "中文名称": "待补：relational-database-web-cloudbase",
+  "一句话作用": "Use when building frontend Web apps that talk to CloudBase Relational Database via @cloudbase/js-sdk – provides the canonical init pattern so you can then use Supabase-style queries from the browser.",
+  "关键输入": "Use this skill whenever you need to access CloudBase Relational Database from a browser app (React, Vue, vanilla JS) using @cloudbase/js-sdk. Use it when you need to: - Initialize CloudBase Relational Database on the fr…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill whenever you need to access CloudBase Relational Database from a browser app (React, Vue, vanilla JS) using @cloudbase/js-sdk. Use it when you need to: - Initialize CloudBase Relational Database on the fr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05883-relational-database-web-cloudbase-d1fcc83b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/relational-database-web/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/relational-database-web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d72496d2717bd113b2f89b105c1f5789b33b264e34c8153bfacee5cea483260a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

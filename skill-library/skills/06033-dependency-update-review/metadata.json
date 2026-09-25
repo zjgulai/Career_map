@@ -1,0 +1,22 @@
+{
+  "英文名称": "dependency-update-review",
+  "中文名称": "待补：dependency-update-review",
+  "一句话作用": "Review dependency updates, package manager changes, lockfile diffs, version bumps, and dependency risk. Use when the user asks whether dependency updates are safe, wants to upgrade packages, or needs a dependency PR rev…",
+  "关键输入": "- Manifest files, lockfiles, package-manager config, and runtime version files. - Changelogs or release notes for direct dependency major updates. - CI results, test coverage, and code paths using upgraded packages.",
+  "关键输出": "Return: 1. Dependency change summary 2. Risk assessment 3. Required migration notes 4. Targeted validation 5. Blocking concerns 6. Recommended next action",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- A PR updates dependencies or lockfiles. - The user asks whether an upgrade is safe. - Package manager, runtime version, or dependency policy changes need review.时，用它产出或更新：Return: 1. Dependency change summary 2. Risk assessment 3. Required migration notes…",
+  "skill_id": "06033-dependency-update-review-a58a92fe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/dependency-update-review/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/dependency-update-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb87e3367851491d7a929c443219219a6fd0ba33a8b84353951bc2d55aeb156e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

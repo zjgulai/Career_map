@@ -1,0 +1,22 @@
+{
+  "英文名称": "adobe-create-social-variations",
+  "中文名称": "待补：adobe-create-social-variations",
+  "一句话作用": "Resize, crop, or export any image or video into platform-ready social media assets using Adobe Creative Cloud tools. Use this skill when a user wants to prepare a photo, image, or video for one or more social platforms…",
+  "关键输入": "Input Supported Notes ----------------------------- --------------- -----------------------------------------------------------------------------------",
+  "关键输出": "Only suggest same-ratio resizes. Cross-ratio resizes (e.g. 16:9 → 9:16) produce black bars and are algorithmically penalised on TikTok and Instagram Reels. If a user asks for a cross-ratio resize, explain the limitation and offer same-ratio alternatives inste…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Resize, crop, or export any image or video into platform-ready social media assets using Adobe Creative Cloud tools. Use this skill when a user wants to prepare a photo, image, or video for one or more social platforms…时，用它产出或更新：Only suggest same-ratio res…",
+  "skill_id": "00696-adobe-create-social-variations-35607628",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/adobe/skills/adobe-create-social-variations/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/adobe/skills/adobe-create-social-variations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2404147b9a05f7d759d8a7c0c51af06f9841ad55025395a887d27429be6d63d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "churn-prevention",
+  "中文名称": "待补：churn-prevention",
+  "一句话作用": "Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or re…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When you ask for... You get... -------------------- ----------- \"Design a cancel flow\" 5-stage flow diagram (text) with copy for each stage, save offer map, and confirmation email template \"Audit my cancel flow\" Scorecard (0-100) with gaps, save rate benchmar…",
+  "最新更新时间": "2026-06-14T13:31:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or re…时，用它产出或更新：When you ask for... You ge…",
+  "skill_id": "06176-churn-prevention-586f60a7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/churn-prevention/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/churn-prevention/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fc29b6e4d431c057349c436d2bad786d117008907e86b3ed0312d0f8b304c6ea",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

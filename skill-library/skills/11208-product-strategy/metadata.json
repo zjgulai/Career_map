@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-strategy",
+  "中文名称": "待补：product-strategy",
+  "一句话作用": "Create a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a produc…",
+  "关键输入": "- Product description and current positioning - Market context, competitors, and customer insights - Company resources, constraints, and priorities - Any relevant business or market data",
+  "关键输出": "1. Define the vision and aspirational impact 2. Identify 2-3 target market segments with their JTBD 3. Establish cost positioning (low cost vs. premium value) 4. Develop value propositions for each segment 5. List explicit trade-offs (what we won't do) 6. Set…",
+  "最新更新时间": "2026-09-16T00:17:00+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Create a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a produc…时，用它产出或更新：1. Define the vision and a…",
+  "skill_id": "11208-product-strategy-9dec8fcf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/product-strategy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/product-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "50d4bfe62ae71a321271a491148e8dca4715a6a7550f82ffba2ded06f036d5b8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

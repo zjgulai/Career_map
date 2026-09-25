@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-churn-revenue-impact",
+  "中文名称": "用户流失的财务损失量化与 P影响分析",
+  "一句话作用": "触发词：流失损失量化、LTV 计算、CAC 沉没、留存 ROI、订阅套餐。何时不用：要算退款率对利润的影响用「退款率财务影响」；要算推荐位带来的增量交易用「推荐系统财务归因」。安全边界：结论只作留存投入决策的财务依据，不用于对用户差别定价或歧视性策略。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要流失率 4% 看起来\"正常\"但实际年损失超 ¥100 万——显性收入损失+沉没 CAC 完整量化显示 1% 流失改善等效 6-8 个新客获取价值，最低门槛财务桥梁时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12521-p2s-churn-revenue-impact-c4a755a7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-churn-revenue-impact/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-churn-revenue-impact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ac297168d98189d97bf85a3c352bd6377b3c3b4382df721bb24e0d37eda655ee",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "excalidraw-diagram-generator",
+  "中文名称": "待补：excalidraw-diagram-generator",
+  "一句话作用": "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system architecture\", \"create a mind map\", or \"generate an Excali…",
+  "关键输入": "- Clear description of what should be visualized - Identification of key entities, steps, or concepts - Understanding of relationships or flow between elements",
+  "关键输出": "Structure the complete Excalidraw file:",
+  "最新更新时间": "2026-04-22T17:50:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when users request: - \"Create a diagram showing...\" - \"Make a flowchart for...\" - \"Visualize the process of...\" - \"Draw the system architecture of...\" - \"Generate a mind map about...\" - \"Create an Excalid…时，用它产出或更新：Structure the complete Exc…",
+  "skill_id": "09279-excalidraw-diagram-generator-0f4bf372",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/projects/report02/.cursor/skills/excalidraw-diagram-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/projects/report02/.cursor/skills/excalidraw-diagram-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "255688d0a0568c2cc6d80cc267b89899babee446d0cf6bdc72b36b90a44833dc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

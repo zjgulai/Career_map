@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rtb-multi-objective-bidding",
+  "中文名称": "实时竞价多目标优化：广告出价的帕累托前沿策略",
+  "一句话作用": "触发词：多目标出价、帕累托前沿、旺季增长、动态权重、RTB、预算约束。何时不用：单目标 ROAS 下的关键词调价用常规投放诊断；需要在大促前后切换增长与回收目标时用本卡。安全边界：出价上限与预算约束须人工确认，不得绕过平台出价规则或用敏感属性做定向。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要黑五期间单一ROAS目标限制出价导致曝光量不足错失旺季增长窗口——多目标帕累托优化在旺季自动切换到增长模式（最大化曝光/新客）淡季切换效率模式（最大化ROAS），年化GMV增益20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03757-p2s-rtb-multi-objective-bidding-f4459b4f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-rtb-multi-objective-bidding/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-rtb-multi-objective-bidding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6232194c66e2cd616c38cebf105a3467bf0855cb1fd46ad12a9ac1d150fbf7b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-xskill-multimodal-self-improvement",
+  "中文名称": "多模态 Agent 双流自进化：经验技能协同积累",
+  "一句话作用": "触发词：多模态自进化、经验流、技能流、主图审核、图像哈希。何时不用：纯文本 Agent 的经验积累走「技能自进化终身学习」；技能注册与加载走「技能注册表」。安全边界：积累所用图片与素材须为自有或已授权，不得引入竞品未授权素材。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务问题：婴儿奶粉主图审核 Agent 每次处理新品时独立工作，无法积累\"什么样的主图点击率高\"的视觉经验时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04047-p2s-xskill-multimodal-self-improvement-6d6708e6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-xskill-multimodal-self-improvement/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-xskill-multimodal-self-improvement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2c6c74e881ece7aee6fe0b2f1efacbd4ecfce1f6f3856ef9ea2c01350ae6f0a9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

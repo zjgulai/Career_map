@@ -1,0 +1,22 @@
+{
+  "英文名称": "subscriptions",
+  "中文名称": "待补：subscriptions",
+  "一句话作用": "Set up real-time event streams with async generator subscriptions using .subscription(async function () { yield }). SSE via httpSubscriptionLink is recommended over WebSocket. Use tracked(id, data) from @trpc/server for…",
+  "关键输入": "When a WebSocket reconnects, subscriptions re-send the original input parameters. There is no hook to re-evaluate inputs on reconnect, which can cause stale data. Consider using tracked() with lastEventId to mitigate this. Source: https://github.com/trpc/trpc…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-22T11:43:55+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Set up real-time event streams with async generator subscriptions using .subscription(async function () { yield }). SSE via httpSubscriptionLink is recommended over WebSocket. Use tracked(id, data) from @trpc/server for…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10181-subscriptions-cb85333c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/ai_product_select/node_modules/@trpc/server/skills/subscriptions/SKILL.md",
+  "relative_path": "lute/project/Agent/product/ai_product_select/node_modules/@trpc/server/skills/subscriptions/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "44d1ff428e60d2602215c3b87cf3cd75914fbc286efdc83717469405cda764e2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

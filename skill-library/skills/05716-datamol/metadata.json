@@ -1,0 +1,22 @@
+{
+  "英文名称": "datamol",
+  "中文名称": "待补：datamol",
+  "一句话作用": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, paral…",
+  "关键输入": "Issue : Molecule parsing fails - Solution : Use dm.standardize smiles() first or try dm.fix mol() Issue : Memory errors with clustering - Solution : Use dm.pick diverse() instead of full clustering for large sets",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Issue : Molecule parsing fails - Solution : Use dm.standardize smiles() first or try dm.fix mol() Issue : Memory errors with clustering - Solution : Use dm.pick diverse() instead of full clustering for large sets时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05716-datamol-a913f6b6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/datamol/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/datamol/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b35cc495880977ce0ac169056f6685c4e21f1ac3990637cab1497cbe8d6c37da",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

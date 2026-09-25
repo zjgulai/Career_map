@@ -1,0 +1,22 @@
+{
+  "英文名称": "douyinvideo2text-ai",
+  "中文名称": "抖音内容提取总结",
+  "一句话作用": "将视频转为文字与结构化文案的技能。当用户提出\"视频转文字 / 视频提取文案 / 视频转稿 / 字幕提取 / 视频总结 / 视频内容分析 / 会议纪要 / 课程拆解 / 直播复盘 / 采访整理 / 短视频二创脚本 / 口播稿 / 小红书文案 / 抖音文案 / 公众号文案\"等需求时使用。支持本地视频文件与抖音、小红书等平台视频链接，调用千问大模型自动转写并剔除语气词、口误与重复内容，并可通过自定义 Prompt 生成总结、改写、金句提取、…",
+  "关键输入": "参数 别名 说明 是否必填 -------------------- ---- --------------------------------------------------- ------------------ --file -F 视频链接（抖音/小红书等公网 URL）或本地视频文件路径 与 --id 二选一",
+  "关键输出": "node scripts/video2text/index.js --file \"/path/to/your/video.mp4\" --prompt \"请用三个要点总结这个视频的核心内容\"",
+  "最新更新时间": "2026-09-19T03:51:55+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 实时 / 直播流转写 ：不支持，仅处理已完成的点播视频或本地文件。 - 加密 / 会员专属 / 需登录才能播放的链接 ：可能无法解析，建议先下载再用 --file 传本地路径。 - 纯音乐 / 无人声视频 ：无说话内容，转写价值低，建议改用音乐识别类工具。 - 批量处理 ：原生命令单次一个视频，可用 shell 循环调用（注意控制并发）。 - 计费以服务端实际解析时长为准 ，详见第11节。时，用它产出或更新：node scripts/video2text/index.js --file \"/path/t…",
+  "skill_id": "04840-douyinvideo2text-ai-9e325b05",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/douyinvideo2text-ai/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/douyinvideo2text-ai/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a3dab5d77c144487cb40e5da8b3006e60e6a741a4b81dc28f7a02885ea74b7b4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

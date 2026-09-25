@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-triggered-inventory-signal",
+  "中文名称": "触发库存信号（差评激增供应链预警）",
+  "一句话作用": "触发词：差评预警、差评激增、批次质量预警、VOC 监控、暂停出库。何时不用：要从退货记录反推批次与供应商多层根因用「退货根因归因图谱」，要自动派改善任务用「客诉聚类」类技能。安全边界：暂停出库与启动质检仅为建议，须人工确认后由仓库执行，模型不直接冻结库存。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链团队面临\"差评激增是批次质量问题但发现滞后导致大量问题产品流出\"——VOC异常触发供应链预警将问题批次发现时间从2周缩短至3天，年化减少质量召回损失30-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04027-p2s-voc-triggered-inventory-signal-47a87d5f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voc-triggered-inventory-signal/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voc-triggered-inventory-signal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f9db78fffc867c3f553e45aca29c306af7bbdbcbbc4182d432e1147e6a0bed1a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-brandfusion-multi-agent",
+  "中文名称": "品牌无缝植入视频）",
+  "一句话作用": "触发词：品牌植入、Logo 保真、品牌色准确、多智能体协同、视频返工率。何时不用：素材本身没有品牌元素要求时用通用视频生成技能；多市场批量版本用多市场品牌视频生成技能。安全边界：品牌素材须为自有或已授权，不得使用他人商标与品牌资产做未授权植入。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要创意总监面临品牌素材风格不统一——BrandFusion将返工率从24%降到8%，年化省12万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11623-p2s-brandfusion-multi-agent-b73ec532",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-brandfusion-multi-agent/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-brandfusion-multi-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "691d9c4b6bee7a29cf949c2612b1b0ca8abada27be76332b583275d08db178e0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "notion-sdk-patterns",
+  "中文名称": "待补：notion-sdk-patterns",
+  "一句话作用": "Apply production-ready @notionhq/client SDK patterns for TypeScript and Python. Use when implementing Notion integrations, building database queries with filters and sorts, handling pagination, constructing rich text bl…",
+  "关键输入": "- Node.js 18+ with @notionhq/client v2.x installed, or Python 3.9+ with notion-client - A Notion integration token (NOTION TOKEN) from notion.so/my-integrations - Target databases/pages shared with the integration (Share Invite select your integration)",
+  "关键输出": "The Notion API returns at most 100 results per request. Use cursor-based pagination to retrieve all records. Cursor-based pagination: Reusable pagination helper (generic): Read block children (page content): Append blocks to a page: Rich text with annotations…",
+  "最新更新时间": "2026-09-19T03:57:51+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Apply production-ready @notionhq/client SDK patterns for TypeScript and Python. Use when implementing Notion integrations, building database queries with filters and sorts, handling pagination, constructing rich text bl…时，用它产出或更新：The Notion API returns at…",
+  "skill_id": "04983-notion-sdk-patterns-3dc3ee33",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/notion-sdk-patterns/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/notion-sdk-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "53cde52089d2ddeeca021d73541850c6dd0b8a5e985e57196d3af65415a75a61",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

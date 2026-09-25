@@ -1,0 +1,22 @@
+{
+  "英文名称": "deep-reading-analyst",
+  "中文名称": "待补：deep-reading-analyst",
+  "一句话作用": "Comprehensive framework for deep analysis of articles, papers, and long-form content using 10+ thinking models (SCQA, 5W2H, critical thinking, inversion, mental models, first principles, systems thinking, six thinking h…",
+  "关键输入": "[Structured extraction with page/paragraph numbers]",
+  "关键输出": "Generate based on user goal:",
+  "最新更新时间": "2026-09-19T03:49:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Comprehensive framework for deep analysis of articles, papers, and long-form content using 10+ thinking models (SCQA, 5W2H, critical thinking, inversion, mental models, first principles, systems thinking, six thinking h…时，用它产出或更新：Generate based on user goa…",
+  "skill_id": "04801-deep-reading-analyst-01e00596",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/deep-reading-analyst/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/deep-reading-analyst/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "afebad75f8a7c89c693cc82cc05f2bb680494de28f50cda4d1e9e0b68af85aec",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

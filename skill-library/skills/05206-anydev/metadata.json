@@ -1,0 +1,22 @@
+{
+  "英文名称": "anydev",
+  "中文名称": "待补：anydev",
+  "一句话作用": "使用 anydev(云研发) 的 CLI 命令为用户查询模板、查询仓库、创建环境、查询状态、查看日志、开启 SSH、调整云研发环境配置、锁定环境和部署项目到云研发环境。只要用户提到 anydev 云研发、创建环境、查模板、选模板、选仓库、查状态、查日志、开启 SSH、部署、发布、调整云研发环境配置、锁定环境、上传文件到环境，都应该使用这个 skill。",
+  "关键输入": "执行 any dev 相关命令前，默认要求用户已完成 any login。",
+  "关键输出": "执行 any dev env template query 后，优先关注这些字段： - templateUid：模板唯一标识 - templateName：模板名称 - serverType：模板类型，重点区分 cvm/gpu/vm - templateType：系统模板或个人模板等 - imageUrl：镜像 - startCommand：启动命令 - languages：语言版本 - vsCodePlugins：推荐插件 - 预置仓库与分支 - 预置区域 - 预置机型/配置",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要下面这些场景直接使用这个 skill： - 用户说\"帮我创建环境\" - 用户给出 templateUid 或模板分享链接，希望创建环境 - 用户想先查询某个模板详情、确认模板配置是否可创建 - 用户希望指定代码仓库或分支创建环境 - 用户想查询环境创建状态或失败日志 - 用户明确要求开启云研发SSH - 用户说\"部署到环境\"、\"发布项目\"、\"上传文件到环境\" - 用户想在远端环境执行命令 - 用户想修改环境名称 - 用户想调整云研发配置时，用它产出或更新：执行 any dev env template qu…",
+  "skill_id": "05206-anydev-3da51b02",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/anydev/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/anydev/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7c674ca47366b630c6b184d9a4d2d33cdff99216f9aa4f9247e9e56626127be",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

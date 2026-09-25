@@ -1,0 +1,22 @@
+{
+  "英文名称": "scispark",
+  "中文名称": "待补：scispark",
+  "一句话作用": "Generate evidence-tracked research ideas through an arXiv-based, skill-native Scispark workflow. Use when Codex needs to turn a research keyword, question, paper set, Zotero/library material, or arXiv results into struc…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Report: - output directory - stages completed - literature search route and status - evidence count and threshold level - top hypotheses - final idea path - limitations and next search/refinement step For quick requests, stop at Stage 3 and say which later st…",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate evidence-tracked research ideas through an arXiv-based, skill-native Scispark workflow. Use when Codex needs to turn a research keyword, question, paper set, Zotero/library material, or arXiv results into struc…时，用它产出或更新：Report: - output directory…",
+  "skill_id": "04645-scispark-c80181c1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/scispark/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/scispark/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa24c2c68047c9c432be4d18ffe8d1339675595e948a47261358200b4ea1009b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

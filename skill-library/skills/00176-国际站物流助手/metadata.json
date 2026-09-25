@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-logistics-assistant",
+  "中文名称": "国际站物流助手",
+  "一句话作用": "国际站物流助手 Skill，覆盖运费试算、物流线路查询等物流服务。 当用户提到运费查询、运费计算、shipping cost、freight cost、物流费用、发货费用、发货到某国家、商品能不能运、最便宜运输方式、最快物流等物流相关话题时使用；即使用户只是简单问\"运费多少\"或\"怎么发货到XX\"也应触发。 典型话术（有商品）：商品17777111177771运到美国能运吗？/ 商品...20件运到美国运费多少？/ 商品链接(aliba…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要国际站物流助手 Skill，覆盖运费试算、物流线路查询等物流服务。 当用户提到运费查询、运费计算、shipping cost、freight cost、物流费用、发货费用、发货到某国家、商品能不能运、最便宜运输方式、最快物流等物流相关话题时使用；即使用户只是简单问\"运费多少\"或\"怎么发货到XX\"也应触发。 典型话术（有商品）：商品17777111177771运到美国能运吗？/ 商品...20件运到美国运费多少？/ 商品链接(aliba…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00176-alibaba-global-logistics-assistant-7f22fe2e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-logistics-assistant/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-logistics-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f1a45f7aa79becda88cfd6204755af433509a13cd2476191efbebb7d94faebfd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-write-zh-stem",
+  "中文名称": "理工与医学学科写作专项",
+  "一句话作用": "paper-write-zh内部的理工与医学正文写作参考，仅在中文正文写作流程已命中后按学科分支读取，不作为独立入口。用于选择学科结构、方法可复现规则、实验证据链、图表要求、报告规范、术语规范和正文写作过程中的学科约束，避免套用通用模板。人文社科与法学读取paper-write-zh-hss；独立提纲或纯语言润色转paper-shape。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要paper-write-zh内部的理工与医学正文写作参考，仅在中文正文写作流程已命中后按学科分支读取，不作为独立入口。用于选择学科结构、方法可复现规则、实验证据链、图表要求、报告规范、术语规范和正文写作过程中的学科约束，避免套用通用模板。人文社科与法学读取paper-write-zh-hss；独立提纲或纯语言润色转paper-shape。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06618-paper-write-zh-stem-080f7569",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/stem/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/stem/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63e0821dc69098f20aa31ee94e18516d6750473b6968bad6a73c8211cc15471e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

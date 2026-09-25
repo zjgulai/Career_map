@@ -1,0 +1,22 @@
+{
+  "英文名称": "dependency-upgrade",
+  "中文名称": "待补：dependency-upgrade",
+  "一句话作用": "Manage major dependency version upgrades with compatibility analysis, staged rollout, and comprehensive testing. Use when upgrading framework versions, updating major dependencies, or managing breaking changes in librar…",
+  "关键输入": "- Upgrading major framework versions - Updating security-vulnerable dependencies - Modernizing legacy dependencies - Resolving dependency conflicts - Planning incremental upgrade paths - Testing compatibility matrices -…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Upgrading major framework versions - Updating security-vulnerable dependencies - Modernizing legacy dependencies - Resolving dependency conflicts - Planning incremental upgrade paths - Testing compatibility matrices -…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05624-dependency-upgrade-9031172e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/framework-migration/skills/dependency-upgrade/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/framework-migration/skills/dependency-upgrade/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "467079afe93fc912768c5662034f9d60dfaa005045aa0be930f3811185509223",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

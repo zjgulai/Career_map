@@ -1,0 +1,22 @@
+{
+  "英文名称": "readdy",
+  "中文名称": "待补：readdy",
+  "一句话作用": "This skill should be used when the user asks to \"create a website\", \"generate a website\", \"build a website\", \"modify a website\", \"update my Readdy project\", \"preview my website\", \"delete a project\", \"list my projects\" o…",
+  "关键输入": "An API Key is required. If you don't have one, obtain it at: https://readdy.ai/user/api-key Configure the API Key (one-time setup): API Key is stored in ~/.openclaw/readdy.json (file permissions 0600). The script reads it internally — no need to pass it on th…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"create a website\", \"generate a website\", \"build a website\", \"modify a website\", \"update my Readdy project\", \"preview my website\", \"delete a project\", \"list my projects\" o…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05047-readdy-c8a2a2c7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/readdy/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/readdy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1585c40a5c33b885ed12f82913d54ec11b8b9ba5734ef88b578f029820f7b847",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "kimi-skills-finder",
+  "中文名称": "待补：kimi-skills-finder",
+  "一句话作用": "帮助用户搜索和发现Skills。当用户有意寻找、搜索技能，或需要技能解决特定问题时使用。触发词包括“查找技能”、“搜索技能”、“寻找技能”，或者用户描述问题并请求技能推荐时。也会在用户询问可用技能或技能发现时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After searching all sources, provide a clear summary: - If found: Present the skill and explain how to use it - If not found: Inform the user that no matching skill was found across all sources, and suggest: - Creating a custom skill for their specific need -…",
+  "最新更新时间": "2026-09-14T00:05:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要帮助用户搜索和发现Skills。当用户有意寻找、搜索技能，或需要技能解决特定问题时使用。触发词包括“查找技能”、“搜索技能”、“寻找技能”，或者用户描述问题并请求技能推荐时。也会在用户询问可用技能或技能发现时触发。时，用它产出或更新：After searching all sources, provide a clear summary: - If found: Present the skill and explain how to use it - If not found: Inform the us…",
+  "skill_id": "10640-kimi-skills-finder-8d13acf2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/kimi-skills-finder/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/kimi-skills-finder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66721a39beb38fa288588a7cd24c14193746704f758fa38a86e02625c4dc117a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

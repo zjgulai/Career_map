@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tool-description-audit",
+  "中文名称": "描述质量审核 六维 Smell 扫描与动态路由",
+  "一句话作用": "触发词：工具描述审核、MCP工具质量、Smell扫描、参数说明、示例补全。何时不用：工具描述没问题、只需决定调不调用时用工具调用决策技能；工具还没接入注册表时用工具自动发现技能。安全边界：审核结论只用于改进描述与路由，不得据此删除或改写生产工具的对外契约。",
+  "关键输入": "输入 ：MCP 工具的描述原文（名称、用途、参数、约束、示例、副作用、返回格式），粒度到单个工具。 输出 ：工具描述六维评分表与 smell 清单（缺使用指南、未声明限制、示例问题等）及改写建议，供工具维护者与 Agent 路由使用。",
+  "关键输出": "输入 ：MCP 工具的描述原文（名称、用途、参数、约束、示例、副作用、返回格式），粒度到单个工具。 输出 ：工具描述六维评分表与 smell 清单（缺使用指南、未声明限制、示例问题等）及改写建议，供工具维护者与 Agent 路由使用。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要触发词：工具描述审核、MCP工具质量、Smell扫描、参数说明、示例补全。何时不用：工具描述没问题、只需决定调不调用时用工具调用决策技能；工具还没接入注册表时用工具自动发现技能。安全边界：审核结论只用于改进描述与路由，不得据此删除或改写生产工具的对外契约。时，用它产出或更新：输入 ：MCP 工具的描述原文（名称、用途、参数、约束、示例、副作用、返回格式），粒度到单个工具。 输出 ：工具描述六维评分表与 smell 清单（缺使用指南、未声明限制、示例问题等）及改写建议，供工具维护者与 Agent 路由使用。",
+  "skill_id": "12155-p2s-tool-description-audit-76f0facc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tool-description-audit/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tool-description-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2624d66e231a1daf5b79bac07ded99dcede8dce7c2b86f6113f1d6a2e6c867ef",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

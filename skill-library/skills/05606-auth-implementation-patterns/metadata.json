@@ -1,0 +1,22 @@
+{
+  "英文名称": "auth-implementation-patterns",
+  "中文名称": "待补：auth-implementation-patterns",
+  "一句话作用": "Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging secu…",
+  "关键输入": "- Implementing user authentication systems - Securing REST or GraphQL APIs - Adding OAuth2/social login - Implementing role-based access control (RBAC) - Designing session management - Migrating authentication systems -…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Implementing user authentication systems - Securing REST or GraphQL APIs - Adding OAuth2/social login - Implementing role-based access control (RBAC) - Designing session management - Migrating authentication systems -…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05606-auth-implementation-patterns-a576b856",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/auth-implementation-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/auth-implementation-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bbc8c8de4a53d0c99146bb56492b0842a7f049d234cf5628481bc16e5637901b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

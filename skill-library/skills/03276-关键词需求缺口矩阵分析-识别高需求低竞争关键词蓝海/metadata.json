@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-keyword-demand-gap-analysis",
+  "中文名称": "关键词需求缺口矩阵分析 识别高需求低竞争关键词蓝海",
+  "一句话作用": "触发词：需求缺口矩阵、蓝海词、高需求低竞争、机会分排序、ACoS 优化。何时不用：要基于竞品排名找竞品有而自己没有的词时用「竞品关键词缺口分析」；要从评论语料挖词时用「评论关键词挖掘 SEO」。安全边界：只输出机会词与优先级建议，不代改 Listing。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要选品负责人面临\"关键词研究全靠感觉竞争激烈蓝海找不到\"——双维度缺口矩阵将高价值低竞争关键词发现效率提升5倍，年化流量成本降低$8.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03276-p2s-keyword-demand-gap-analysis-29eb958b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-keyword-demand-gap-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-keyword-demand-gap-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0be464049417058fe30f30e6f2549ed934455a2c2e0c078dca1c8ae00f180004",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

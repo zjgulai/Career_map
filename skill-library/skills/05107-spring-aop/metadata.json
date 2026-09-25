@@ -1,0 +1,22 @@
+{
+  "英文名称": "spring-aop",
+  "中文名称": "待补：spring-aop",
+  "一句话作用": "Spring AOP (Aspect-Oriented Programming) per Spring Boot 3.x. Copre @Aspect, pointcut expressions, @Around/@Before/@After advice, custom annotations, logging, security, caching, e transaction patterns. Usa per cross-cut…",
+  "关键输入": "Issue Possible Cause Solution ------- --------------- ---------- Aspect not executing Bean not Spring-managed Ensure class has @Component Self-invocation doesn't trigger Internal call bypasses proxy Use self-injection",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:45+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Issue Possible Cause Solution ------- --------------- ---------- Aspect not executing Bean not Spring-managed Ensure class has @Component Self-invocation doesn't trigger Internal call bypasses proxy Use self-injection时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05107-spring-aop-90b046d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spring-aop/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spring-aop/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4eac2aa0f997b41ca3dc1e2bf44785ae99b0335f3bbb8947b95d69a5da10e490",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "weaver-oa-api",
+  "中文名称": "泛微Ecology E9 OA API调用指南",
+  "一句话作用": "泛微Ecology E9 OA系统流程API和建模API调用指南。涵盖Workflow SOAP/HTTP/REST接口（创建流程、提交审批、退回、转发、查询待办/已办）、建模引擎ModeDateService SOAP接口（建模数据CRUD+分页查询）、JSP HTTP端点（ModeOperation/ModeDataOperation）、认证机制（IP白名单+userId、SSO Token、Session）。适用于需要与泛微OA…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:49+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要泛微Ecology E9 OA系统流程API和建模API调用指南。涵盖Workflow SOAP/HTTP/REST接口（创建流程、提交审批、退回、转发、查询待办/已办）、建模引擎ModeDateService SOAP接口（建模数据CRUD+分页查询）、JSP HTTP端点（ModeOperation/ModeDataOperation）、认证机制（IP白名单+userId、SSO Token、Session）。适用于需要与泛微OA…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05169-weaver-oa-api-54c7b4b3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/weaver-oa-api/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/weaver-oa-api/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0fed8992d24ea54832b903fa47247a9eb136ae66c09ed3b06d3d097c5ea16e2f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

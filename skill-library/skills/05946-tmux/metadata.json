@@ -1,0 +1,22 @@
+{
+  "英文名称": "tmux",
+  "中文名称": "待补：tmux",
+  "一句话作用": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+  "关键输入": "- Literal sends: tmux -S \"$SOCKET\" send-keys -t target -l -- \"$cmd\" - Control keys: tmux -S \"$SOCKET\" send-keys -t target C-c",
+  "关键输出": "- Capture recent: tmux -S \"$SOCKET\" capture-pane -p -J -t target -S -200 - Wait for prompts: {baseDir}/scripts/wait-for-text.sh -t session:0.0 -p 'pattern'",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.时，用它产出或更新：- Capture recent: tmux -S \"$SOCKET\" capture-pane -p -J -t target -S -200 - Wait for prompts: {baseDir}/scripts/wait-for-text.sh -t session:0.0 -p 'pa…",
+  "skill_id": "05946-tmux-f0189b6e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/tmux/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/tmux/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7663eecfcbb8d6b7c8f91e4a60261d7ceabbaa8bf4d1c1c2e0327f28bd5e7db3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

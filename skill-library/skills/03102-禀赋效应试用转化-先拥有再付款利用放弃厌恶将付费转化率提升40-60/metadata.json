@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-endowment-effect-trial-conversion",
+  "中文名称": "禀赋效应试用转化 先拥有再付款利用放弃厌恶将付费转化率提升40-60",
+  "一句话作用": "触发词：禀赋效应、免费试用、试用终止时机、生存分析、放弃厌恶。何时不用：要优化落地页元素组合用「独立站落地页 CRO」；要按购买意图概率分档触达用「购买意图预测」。安全边界：试用与退款条款须真实无隐藏费用，到期与清空提示不得写成威胁；触达须在用户同意范围内，话术先小流量验证再全量。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要增长负责人面临\"免费试用转化率低不知道什么时候结束免费期成功率最高\"——禀赋效应KM生存分析找到最优试用终止时机，付费转化率提升40-60%，年化$9.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03102-p2s-endowment-effect-trial-conversion-a12dec51",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-endowment-effect-trial-conversion/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-endowment-effect-trial-conversion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3a6058c414a0f67c102624d5ff8e43f7e96a79193b69d70708b0b707f578fdfc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

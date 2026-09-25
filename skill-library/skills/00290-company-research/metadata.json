@@ -1,0 +1,22 @@
+{
+  "英文名称": "company-research",
+  "中文名称": "待补：company-research",
+  "一句话作用": "Company research using Exa search. Finds company info, competitors, news, tweets, financials, LinkedIn profiles, builds company lists. Use when researching companies, doing competitor analysis, market research, or build…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Return: 1) Results (structured list; one company per row) 2) Sources (URLs; 1-line relevance each) 3) Notes (uncertainty/conflicts)",
+  "最新更新时间": "2026-09-21T17:35:24+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Company research using Exa search. Finds company info, competitors, news, tweets, financials, LinkedIn profiles, builds company lists. Use when researching companies, doing competitor analysis, market research, or build…时，用它产出或更新：Return: 1) Results (struct…",
+  "skill_id": "00290-company-research-2d87c104",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/company-research/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/company-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da22180d89ed6ff90db77cedf752f09092718366fb7642c880d6f6431e9444c6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

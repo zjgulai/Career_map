@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-regulatory-update-impact-dispatcher",
+  "中文名称": "法规变更影响品类自动分发合规更新任务",
+  "一句话作用": "触发词：法规变更、影响映射、工单分发、生效日倒排、品类匹配、合规响应。何时不用：要把新规影响传播到 SKU/市场标签层时用「法规变更影响传播引擎」，只核验认证单证字段时用「GCC/CPC 文档验证」。安全边界：分发对象与截止日期须经合规负责人确认，本技能只生成待办，不代替认证申报与下架动作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规负责人面临\"法规更新后品类影响识别滞后\"——自动匹配受影响SKU并分发任务将合规响应时间从2周缩短至当天，年化减少超期下架风险3-5次时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03710-p2s-regulatory-update-impact-dispatcher-a08606d4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-regulatory-update-impact-dispatcher/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-regulatory-update-impact-dispatcher/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "282d2fa3c4431918432073473825841a15b22e12fddd43e54ce109ed924a004a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

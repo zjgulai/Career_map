@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill优化器",
+  "中文名称": "优化器",
+  "一句话作用": "读取 lute-skills-eval 生成的结构化评估报告，执行自动修复和人机协作优化。触发词：Skill优化器、优化 skill、改进 skill、修复 skill、修复 skill 问题、skill 优化、skill 提升、skill 重构、执行优化、根据评估报告优化、提升 skill 评分。何时不用：没有评估报告、只需简单格式调整、需要完全重写 Skill。 斜杠点名调用（/Skill优化器）时无条件加载本技能并追问材料，不因…",
+  "关键输入": "评估报告至少包含 skill info、eval info、scores、issues 和 optimization plan。每个 issue 必须能映射到 auto fixable 或 manual review，并标明影响分值、修复动作和风险。",
+  "关键输出": "执行验证： 1. 运行 lute-skills-eval 重新评估 2. 对比优化前后评分 3. 确认是否达到目标分数 4. 输出优化报告",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 已有 lute-skills-eval 生成的 YAML 评估报告，需要执行优化 - 需要提升 Skill 评分（目标 = 85分） - 需要自动修复 Schema 合规性问题 - 需要补全标准目录结构 - 需要系统性修复 Skill 问题时，用它产出或更新：执行验证： 1. 运行 lute-skills-eval 重新评估 2. 对比优化前后评分 3. 确认是否达到目标分数 4. 输出优化报告",
+  "skill_id": "10466-skill-fe489a53",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/Skill优化器/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/Skill优化器/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "9893613ec5471797021f049762191a0816dc8a916a11cc54a5a99f1cbdc87176",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

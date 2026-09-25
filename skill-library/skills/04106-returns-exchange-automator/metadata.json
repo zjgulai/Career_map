@@ -1,0 +1,22 @@
+{
+  "英文名称": "returns-exchange-automator",
+  "中文名称": "待补：returns-exchange-automator",
+  "一句话作用": "- Design and automate end-to-end return and exchange workflows. Implement self-service RMA portals, dynamic routing for inspections, and automated refund/credit issuance while mitigating return fraud. 触发词：退货自动化、换货自动化、自动…",
+  "关键输入": "- International Returns: Customs duties often cannot be recovered easily. Consider a \"Refund without Return\" policy for international orders under $50 to save on cross-border logistics costs. - \"Damaged in Transit\": Req…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:05:28+08:00",
+  "业务场景": "fulfillment-shipping",
+  "解决具体问题": "当需要- International Returns: Customs duties often cannot be recovered easily. Consider a \"Refund without Return\" policy for international orders under $50 to save on cross-border logistics costs. - \"Damaged in Transit\": Req…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04106-returns-exchange-automator-5405b20a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/returns-exchange-automator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/returns-exchange-automator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "203cbfb6b163cb6bdb9dc5ee58b6b29d518302e45268d307c2c0fba38b7cca2d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

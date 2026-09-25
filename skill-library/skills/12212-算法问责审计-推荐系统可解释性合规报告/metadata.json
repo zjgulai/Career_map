@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-algorithmic-accountability-audit",
+  "中文名称": "算法问责审计（推荐系统可解释性合规报告）",
+  "一句话作用": "触发词：算法问责、推荐偏见检测、合规报告、价格歧视排查、特征权重披露。何时不用：生成面向监管条款的可解释性报告时用「XAI Regulatory Compliance」；面向消费者的解释话术用「AI Transparency Explanation」。安全边界：报告含算法细节，须法务审查后定向披露；避免过度透明泄露商业机密，也不得以保密为由隐瞒偏见结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要法务团队面临\"EU AI法案要求推荐系统可解释性报告但缺乏工具\"——算法问责审计自动生成合规报告，年化防范欧盟罚款风险30-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12212-p2s-algorithmic-accountability-audit-3fc29b8e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/未归类（矩阵空白）/p2s-algorithmic-accountability-audit/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/未归类（矩阵空白）/p2s-algorithmic-accountability-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0428c72d5618470502885a7d0254cae5e283d87e489ab9d21894d7e9a3601084",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

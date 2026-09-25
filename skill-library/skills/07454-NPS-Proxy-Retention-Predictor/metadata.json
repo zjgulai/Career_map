@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-NPS-Proxy-Retention-Predictor",
+  "中文名称": "待补：NPS Proxy Retention Predictor",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 70.0, \"best\": 70.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T02:06:08.615053\"} {\"round\": 0, \"status\": \"discard\", \"score\": 70.0, \"best\": 73.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-05T19:36:41+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 70.0, \"best\": 70.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T02:06:08.615053\"} {\"round\": 0, \"status\": \"discard\", \"score\": 70.0, \"best\": 73.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07454-skill-nps-proxy-retention-predictor-9c9806fe",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-NPS-Proxy-Retention-Predictor.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-NPS-Proxy-Retention-Predictor.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "785466069b147339e82541c3b9789b1a91de77c7b7598b3250c19bd6696bec9d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-AI-Explainability-Consumer-Trust",
+  "中文名称": "待补：AI Explainability Consumer Trust",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T02:53:35.514999\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T17:53:35+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T02:53:35.514999\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06801-skill-ai-explainability-consumer-trust-1db4d523",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-AI-Explainability-Consumer-Trust.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-AI-Explainability-Consumer-Trust.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "3a8f273f2034911687db5598376486b2a819df9562f172d778025523f4fa7d83",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-order-routing-intelligence-engine",
+  "中文名称": "智能订单路由引擎 多约束订单履约路径优化与实时分配决策",
+  "一句话作用": "触发词：订单路由、多仓发货、时效成本权衡、负载均衡。何时不用：只有一个发货仓时路由无意义；只做物流商比价与线路选择用物流方案类技能。安全边界：路由结果不得违反平台承诺时效，并需满足商品信息与编码合规要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要订单团队面临\"3个仓库该从哪发货靠经验判断\"——多约束评分矩阵(时效×成本×可靠性)将SLA达成率从91%提升至97%，仓库负载均衡减少OOS率2-3pp时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11479-p2s-order-routing-intelligence-engine-f7f53bb2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-order-routing-intelligence-engine/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-order-routing-intelligence-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9fa1b9bc5becb3c5351cac638edc28945593887be9fc789897da3bf5bf118efb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

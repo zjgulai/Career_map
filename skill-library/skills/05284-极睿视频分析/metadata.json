@@ -1,0 +1,22 @@
+{
+  "英文名称": "infimind-video-analysis",
+  "中文名称": "极睿视频分析",
+  "一句话作用": "对用户主动提供的视频执行结构化拆解，安全创建分析任务、跟踪状态并交付脚本、风格、卖点和可复用提示词。",
+  "关键输入": "1. 确认用户希望分析的具体视频和用途，例如商品复盘、品牌审核或提示词提取。 2. 本地视频必须是用户在当前对话中主动选择的文件；远程地址必须是可安全读取的公网 HTTP/HTTPS URL。不要猜测本地路径。 3. 检查视频是否可访问、是否为服务支持的格式；不上传无关文件，不尝试读取当前任务以外的目录。 4. 若视频可能包含未授权的第三方作品、人物、商标或敏感内容，先说明使用边界并请用户确认其有权处理。 5. 调用 get user info 检查 Token、账户和积分。失败时停止，不创建分析任务。 6. 确…",
+  "关键输出": "完成后按服务真实返回值依次整理： 1. 视频脚本 script 2. 视觉与叙事风格 style 3. 卖点话术 sellingPoints 4. 爆款结构 viralFormula 5. 可复用生成提示词 generatedPrompt 字段为空时明确写“本次分析未返回该字段”。可以在保留原始 generatedPrompt 的前提下，把商品、人群、卖点和场景替换成清晰占位符，但必须标注这是后续整理，不是工具原始输出。",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要- 拆解商品视频的脚本结构、镜头节奏和卖点表达。 - 分析品牌视频的视觉风格、叙事方式和传播结构。 - 从已有视频提取可复用但不照搬具体人物或品牌的生成提示词。 - 跟踪当前对话中已经创建的视频分析任务。 - 将分析结果整理为后续创作的结构化输入。时，用它产出或更新：完成后按服务真实返回值依次整理： 1. 视频脚本 script 2. 视觉与叙事风格 style 3. 卖点话术 sellingPoints 4. 爆款结构 viralFormula 5. 可复用生成提示词 generatedPrompt 字段…",
+  "skill_id": "05284-infimind-video-analysis-eba09ac2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/infimind-video/skills/infimind-video-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/infimind-video/skills/infimind-video-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "82e86184dc9f74b6059c5db49c68ab9c728c5a61ff40d8e184216ba28350e1fb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

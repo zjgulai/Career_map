@@ -1,0 +1,22 @@
+{
+  "英文名称": "subagent-driven-development",
+  "中文名称": "待补：subagent-driven-development",
+  "一句话作用": "Use when executing implementation plans with independent tasks in the current session",
+  "关键输入": "vs. Executing Plans (parallel session): - Same session (no context switch) - Fresh subagent per task (no context pollution) - Two-stage review after each task: spec compliance first, then code quality - Faster iteration…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-02T10:50:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要vs. Executing Plans (parallel session): - Same session (no context switch) - Fresh subagent per task (no context pollution) - Two-stage review after each task: spec compliance first, then code quality - Faster iteration…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09351-subagent-driven-development-b18ca779",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/subagent-driven-development/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/subagent-driven-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "081ad3869e55c80bf8f890b4768a90c0e8057daf94b1b6fadebfc85ea5b8304a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

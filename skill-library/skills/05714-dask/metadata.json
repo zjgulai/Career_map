@@ -1,0 +1,22 @@
+{
+  "英文名称": "dask",
+  "中文名称": "待补：dask",
+  "一句话作用": "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration wi…",
+  "关键输入": "This skill should be used when: - Process datasets that exceed available RAM - Scale pandas or NumPy operations to larger datasets - Parallelize computations for performance improvements - Process multiple files efficie…",
+  "关键输出": "result = z.compute()",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要This skill should be used when: - Process datasets that exceed available RAM - Scale pandas or NumPy operations to larger datasets - Parallelize computations for performance improvements - Process multiple files efficie…时，用它产出或更新：result = z.compute()",
+  "skill_id": "05714-dask-ca3f8ee3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/dask/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/dask/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "34f01ad470256b811890c47732af6aeeb03a6d91b1aabf53d7e826bbb69f930d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

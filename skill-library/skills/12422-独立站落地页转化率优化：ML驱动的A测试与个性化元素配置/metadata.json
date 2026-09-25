@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-shopify-landing-page-cro",
+  "中文名称": "独立站落地页转化率优化：ML驱动的A测试与个性化元素配置",
+  "一句话作用": "触发词：落地页优化、贝叶斯优化、元素组合、A/B 测试、ROAS 提升。何时不用：要测 Amazon Listing 主图与标题用「Listing 转化率 A/B 测试优化器」；要按认知负荷改信息架构用「认知负荷 UX 优化器」。安全边界：试用与折扣条款须清晰无隐藏费用，社会证明（如选择人数）须有真实数据支撑不可虚构；Cookie 与测试脚本须符合用户同意要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当独立站落地页转化率徘徊在2%以下时，贝叶斯优化可在2000次点击内从243种元素组合中找到最优配置，CVR提升50-150%，等效将广告ROAS翻倍——而无需增加任何广告预算。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12422-p2s-shopify-landing-page-cro-7336e3ac",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-shopify-landing-page-cro/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-shopify-landing-page-cro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9fabf4252b1f03bc9ddddba056465b5027b5357c2febaaf8317333172cf235d2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "to-tickets",
+  "中文名称": "规格 示踪弹任务",
+  "一句话作用": "将规格说明或计划拆分为示踪弹式垂直切片任务，每个任务声明阻塞关系。当用户说\"拆任务\"\"分ticket\"\"to-tickets\"\"拆成工单\"或spec已就绪准备拆分时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "任务写入 .scratch/ /tickets/ 目录，每个任务一个文件： 每个任务文件格式：",
+  "最新更新时间": "2026-09-19T03:37:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要将规格说明或计划拆分为示踪弹式垂直切片任务，每个任务声明阻塞关系。当用户说\"拆任务\"\"分ticket\"\"to-tickets\"\"拆成工单\"或spec已就绪准备拆分时触发。时，用它产出或更新：任务写入 .scratch/ /tickets/ 目录，每个任务一个文件： 每个任务文件格式：",
+  "skill_id": "04503-to-tickets-52d42782",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/grillme-matt/0.1.0/skills/to-tickets/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/grillme-matt/0.1.0/skills/to-tickets/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4ff51ecec7140b880f326c43db059e65ca5d66a539a74fafb224eeb9790a2d21",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

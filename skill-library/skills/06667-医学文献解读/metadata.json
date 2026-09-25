@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-medical-literature-interpretation",
+  "中文名称": "医学文献解读",
+  "一句话作用": "医学文献解读 Skill。用户上传或提供医学论文、指南等资料的片段、网页链接、DOI、aka 文件链接、PDF、表格或图片，并要求解读、总结、分析、问答或对比时使用；先阅读内容并判断是否属于医学文献。面向医学领域文献资料，对已给定的一篇或一组医学论文、指南的 PDF、网页、摘要、段落、表格或图片进行总结、问答、逐篇解读、横向比较及方法学评价。需主动检索或扩展文献时改用 doubao-medical-literature-search；…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "用户明确要求制作 PPT、幻灯片、课件或演示文稿时，直接使用 lark-ppt。 其余请求按以下优先级选择 response mode=quick answer full report： 1. 用户主动选择或明确点名本 Skill，使用 full report。 2. 用户只说“解读、介绍、看看这篇/这几篇”等泛化请求，且已有可用全文或较完整文章，使用 full report。 3. 用户明确要求“深入解读、完整解读、完整报告、图文并茂、批判性评价、创建文档”，使用 full report。只说 Journal…",
+  "最新更新时间": "2026-09-16T11:25:01+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要医学文献解读 Skill。用户上传或提供医学论文、指南等资料的片段、网页链接、DOI、aka 文件链接、PDF、表格或图片，并要求解读、总结、分析、问答或对比时使用；先阅读内容并判断是否属于医学文献。面向医学领域文献资料，对已给定的一篇或一组医学论文、指南的 PDF、网页、摘要、段落、表格或图片进行总结、问答、逐篇解读、横向比较及方法学评价。需主动检索或扩展文献时改用 doubao-medical-literature-search；…时，用它产出或更新：用户明确要求制作 PPT、幻灯片、课件或演示文稿时，…",
+  "skill_id": "06667-doubao-medical-literature-interpretation-78605ddf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-medical-literature-interpretation/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-medical-literature-interpretation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "91a2e22ec5af7cb9b300cd13d1607acb50422700b205a59e49420dfb0716a6da",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

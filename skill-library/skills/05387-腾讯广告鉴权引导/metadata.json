@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencentads-auth",
+  "中文名称": "腾讯广告鉴权引导",
+  "一句话作用": "腾讯营销（原腾讯广告）技能鉴权凭证管理技能，负责检查 APIKEY 是否有效，当腾讯营销(tencent-ads)系列技能返回认证错误时引导用户提供 APIKEY 并保存(⚠️重要提醒⚠️：腾讯营销 APIKEY 必须通过该技能保存)，所有 tencent-ads 技能共享。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要腾讯营销（原腾讯广告）技能鉴权凭证管理技能，负责检查 APIKEY 是否有效，当腾讯营销(tencent-ads)系列技能返回认证错误时引导用户提供 APIKEY 并保存(⚠️重要提醒⚠️：腾讯营销 APIKEY 必须通过该技能保存)，所有 tencent-ads 技能共享。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05387-tencentads-auth-fdc52182",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-auth/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-auth/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a08e94ff9a6dc71ed6a7d9945c3f6e3b67f614c26333b0d8141fd4565ac8c99",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

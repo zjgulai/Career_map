@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-new",
+  "中文名称": "新建 Godot 游戏项目（Skill 自执行版）",
+  "一句话作用": "仅当 godot-deploy 已完成（${WORKSPACE}/godot-editor 存在）且需要 新建 一个游戏项目目录 时激活：用户说「再做一个 / 另一个游戏 / 新建游戏 / new game」，或被 godot-dev 在场景 1/2 让位过来。负责模板推断、复制 templates/ → ${WORKSPACE}/ 、注入 addons/godot mcp、 覆盖写 ${WORKSPACE}/active-game.…",
+  "关键输入": "从用户原话提取： 参数 默认 / 推断规则 ------ ---------------- projectName 优先用户显式给出；否则按下表推断；最后兜底 my-game template 优先用户显式指定；否则按下表推断；推不出来就 empty（4.23.md 要求）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仅当 godot-deploy 已完成（${WORKSPACE}/godot-editor 存在）且需要 新建 一个游戏项目目录 时激活：用户说「再做一个 / 另一个游戏 / 新建游戏 / new game」，或被 godot-dev 在场景 1/2 让位过来。负责模板推断、复制 templates/ → ${WORKSPACE}/ 、注入 addons/godot mcp、 覆盖写 ${WORKSPACE}/active-game.…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05917-godot-new-82224d96",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-new/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-new/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93a3d41645b20ca717d26b59bd7ba4043fb9abc2879f69a73aea4ab3cdad2fdb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "work-report-writer",
+  "中文名称": "待补：work-report-writer",
+  "一句话作用": "把零散工作记录与 git 提交整理成周报或月报，支持数据导向、叙事型与 OKR 对齐三种风格。触发词：写周报、周报、月报、工作总结、迭代总结、work-report-writer。何时不用：同一件事要给不同层级出不同版本时用 audience-adapter；会议过程记录用 meeting-minutes。",
+  "关键输入": "向用户确认以下参数（如用户已在初始请求中明确，可跳过确认）： 参数 选项 默认值 --- --- --- 报告类型 周报 / 月报 周报 报告风格 数据导向 / 叙事型 / OKR 对齐 数据导向 时间范围 自定义日期 最近 7 天（周报）或 30 天（月报） 输出语言 中文 / 英文 中文 汇报对象 直属领导 / 团队 / 跨部门 直属领导",
+  "关键输出": "- 输出格式为 Markdown - 报告直接输出到对话中，用户可自行复制 - 如果用户要求保存到文件，写入用户指定的路径 - 时间范围在报告标题中明确标注",
+  "最新更新时间": "2026-09-15T11:05:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- [问题1] ：描述 → 影响 → 当前应对方案 - [问题2] ：...时，用它产出或更新：- 输出格式为 Markdown - 报告直接输出到对话中，用户可自行复制 - 如果用户要求保存到文件，写入用户指定的路径 - 时间范围在报告标题中明确标注",
+  "skill_id": "04257-work-report-writer-6c310742",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/work-report-writer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/work-report-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1df11315111bcb86d41b28d2c32254d3fc29a9795c75171131be8dc82bd20d36",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

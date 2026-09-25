@@ -1,0 +1,22 @@
+{
+  "英文名称": "grammar-of-graphics-and-declarative-visualization",
+  "中文名称": "待补：grammar-of-graphics-and-declarative-visualization",
+  "一句话作用": "Build data visualizations with declarative grammars. Use when the user needs Vega-Lite, Vega, Observable Plot, or grammar-of-graphics reasoning, especially for tabular charts that do not require bespoke rendering.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Explain why the chosen grammar fits better than bespoke rendering. - Keep the spec readable enough to be reused, embedded, or translated across stacks. - Call out when the declarative path is reaching its limits and a lower-level skill should take over. - C…",
+  "最新更新时间": "2026-09-17T09:36:42+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build data visualizations with declarative grammars. Use when the user needs Vega-Lite, Vega, Observable Plot, or grammar-of-graphics reasoning, especially for tabular charts that do not require bespoke rendering.时，用它产出或更新：- Explain why the chosen grammar…",
+  "skill_id": "01456-grammar-of-graphics-and-declarative-visualization-a48f2c79",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/grammar-of-graphics-and-declarative-visualization/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/grammar-of-graphics-and-declarative-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0bec7b4ae2a2a3eda9ad462370ffb642dad4d520b5380cea36fe67c5bab5cbfd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "async-python-patterns",
+  "中文名称": "待补：async-python-patterns",
+  "一句话作用": "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications. Use when building async APIs, concurrent systems, or I/O-bound applications requiring non-blocking operations.",
+  "关键输入": "- Building async web APIs (FastAPI, aiohttp, Sanic) - Implementing concurrent I/O operations (database, file, network) - Creating web scrapers with concurrent requests - Developing real-time applications (WebSocket serv…",
+  "关键输出": "result = async function()",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- Building async web APIs (FastAPI, aiohttp, Sanic) - Implementing concurrent I/O operations (database, file, network) - Creating web scrapers with concurrent requests - Developing real-time applications (WebSocket serv…时，用它产出或更新：result = async function()",
+  "skill_id": "05683-async-python-patterns-23e45de3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/python-development/skills/async-python-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/python-development/skills/async-python-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7384a4ef4be9a0cbcee5090ec6580e7d436c638adf1daa9cefaafb3cb67eca70",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

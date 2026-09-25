@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hmmcb-cross-channel-bidding",
+  "中文名称": "跨渠道广告竞价 MARL：CPC 约束下最大化总点击（美团真实 A",
+  "一句话作用": "触发词：跨渠道竞价、CPC约束、MARL双层决策、预算分配层、渠道智能体。何时不用：只投单一渠道时不适用；问题若只是渠道预算比例或日内节奏，走预算分配与节奏控制技能。安全边界：只输出分层决策参数（预算分配与出价设置建议），实际竞价由各平台侧执行，不得绕过平台竞价政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴 DTC 品牌（如储奶袋/吸奶器）同时在 Google Ads（搜索意图强）、Meta（品牌认知+再营销）、TikTok Shop（内容种草+购买）三个渠道投放时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11701-p2s-hmmcb-cross-channel-bidding-0acfe9d0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-hmmcb-cross-channel-bidding/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-hmmcb-cross-channel-bidding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "05a46a5efa5808be18a8842f1086530c63ee47a43fc9780f50ad80272c443086",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

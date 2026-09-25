@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-storefront-validate",
+  "中文名称": "待补：shopify-storefront-validate",
+  "一句话作用": "Shopify storefront/theme validation protocol. Use when an assistant or auditor must inspect a running local theme-dev preview, verify a dev-theme admin preview (?preview theme id=), post-publish storefront, or pre-launc…",
+  "关键输入": "- Target URL from the original task/context for a public-page diagnostic. It is sufficient without store domain or theme id; record observed redirects without treating them as proof of a specific theme. - store domain: verified canonical .myshopify.com for re…",
+  "关键输出": "Choose the final validation mode before checking. Optional local preflight below does not replace that mode's acceptance evidence: mode Use when Base URL --- --- --- admin preview Final validation of a dev/unpublished theme, including preview-only delivery ht…",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Shopify storefront/theme validation protocol. Use when an assistant or auditor must inspect a running local theme-dev preview, verify a dev-theme admin preview (?preview theme id=), post-publish storefront, or pre-launc…时，用它产出或更新：Choose the final validatio…",
+  "skill_id": "00261-shopify-storefront-validate-2be9a9b8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-storefront-validate/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-storefront-validate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af663d4df25a0922568402daa780aabca3015c07f8bcbe5e546351fa2f0d79bb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

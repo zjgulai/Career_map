@@ -1,0 +1,22 @@
+{
+  "英文名称": "system-modeler",
+  "中文名称": "待补：system-modeler",
+  "一句话作用": "Current architecture modeling. Use when the user wants to understand what a system, repository, platform, or product architecture is today by building an evidence-backed system model from code, docs, configs, and servic…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "These artifacts capture the current-state system model, supporting evidence, and architecture understanding for the inspected project. Write all diagram source files to disk — do NOT inline the full content in the chat. Reference file paths in the response. -…",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Current architecture modeling. Use when the user wants to understand what a system, repository, platform, or product architecture is today by building an evidence-backed system model from code, docs, configs, and servic…时，用它产出或更新：These artifacts capture th…",
+  "skill_id": "04407-system-modeler-5ee49244",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/system-modeler/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/system-modeler/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "40ad0ce03af33f2909df856ad1de66b44923beefc1cef827bc17cedd9784da72",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-vetter",
+  "中文名称": "待补：skill-vetter",
+  "一句话作用": "Security-first skill vetting for AI agents. Use before installing any skill from community, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns.",
+  "关键输入": "- Before installing any skill from community marketplaces - Before running skills from GitHub repos - When evaluating skills shared by other agents - Anytime you're asked to install unknown code",
+  "关键输出": "After vetting, produce this report:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Before installing any skill from community marketplaces - Before running skills from GitHub repos - When evaluating skills shared by other agents - Anytime you're asked to install unknown code时，用它产出或更新：After vetting, produce this report:",
+  "skill_id": "05942-skill-vetter-3803b698",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/skill-vetter/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/skill-vetter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "909146e6fd4b923a5bd6b24996ee01fed5bacde0c5b9b260af311c594f4b508e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

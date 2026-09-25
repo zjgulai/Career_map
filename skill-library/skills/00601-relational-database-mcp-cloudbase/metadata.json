@@ -1,0 +1,22 @@
+{
+  "英文名称": "relational-database-mcp-cloudbase",
+  "中文名称": "待补：relational-database-mcp-cloudbase",
+  "一句话作用": "[Deprecated] This is the required documentation for agents operating on the CloudBase Relational Database through MCP. It defines the canonical SQL management flow with queryMysqlDatabase, manageMysqlDatabase, queryPerm…",
+  "关键输入": "Use this skill when an agent needs to operate on CloudBase Relational Database via MCP tools , for example: - Inspecting or querying SQL data - Provisioning MySQL for an environment - Destroying MySQL for an environment",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use this skill when an agent needs to operate on CloudBase Relational Database via MCP tools , for example: - Inspecting or querying SQL data - Provisioning MySQL for an environment - Destroying MySQL for an environment时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00601-relational-database-mcp-cloudbase-3a245360",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.agents/skills/relational-database-mcp-cloudbase/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.agents/skills/relational-database-mcp-cloudbase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7fc16060daa4f8d214c5e05626a3770c4914bd7cec1a33b052a1e90f429695a2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

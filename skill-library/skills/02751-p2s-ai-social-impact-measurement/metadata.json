@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-social-impact-measurement",
+  "中文名称": "待补：p2s-ai-social-impact-measurement",
+  "一句话作用": "触发词：社会影响量化、劳动替代率、算法公平指标、隐私风险评分、三轨评估。何时不用：只做模型可解释性报告时用「AI Transparency Explanation」；ESG 供应链披露用「Responsible AI Supply Chain Disclosure」。安全边界：评估涉及人群属性数据须聚合与去标识化，不得用于个体画像或差别待遇；结论对外披露前须法务复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI团队面临无法量化算法对就业/公平影响——社会影响量化框架将合规风险识别率提升至92%，规避监管处罚风险年化价值80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02751-p2s-ai-social-impact-measurement-65b7052c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ai-social-impact-measurement/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ai-social-impact-measurement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cbff9c63c8ca1c9cfd6f6082ab4cf313fe584fa51fbaf741831372efde29830c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

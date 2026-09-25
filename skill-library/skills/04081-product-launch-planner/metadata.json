@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-launch-planner",
+  "中文名称": "待补：product-launch-planner",
+  "一句话作用": "- Orchestrate multi-phase product launches using pre-launch waitlists, tiered early access, and coordinated multi-channel marketing to maximize day-one velocity and long-term momentum. 触发词：新品发布、产品上市策划、发布预热、候补名单、分层首发。",
+  "关键输入": "- New Category Entry: When launching a product in a category where you have no existing customers. - Line Extension: When adding a new variant or model to a successful existing line. - Limited Drops: When inventory is c…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:49:03+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- New Category Entry: When launching a product in a category where you have no existing customers. - Line Extension: When adding a new variant or model to a successful existing line. - Limited Drops: When inventory is c…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04081-product-launch-planner-d5c84ec8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/product-launch-planner/SKILL.md",
+  "relative_path": "lute/.dsh/skills/product-launch-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ecde68dd2472c2150a3bb8cc26d48dc1bf547c33330bd430d715d6e9e1c60c39",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-brand-penetration-modeling",
+  "中文名称": "品牌渗透率建模：Bass 扩散 跨市场品牌增长预测",
+  "一句话作用": "触发词：品牌渗透率、Bass 扩散、跨市场参数迁移、销量预测曲线、备货与投放节奏。何时不用：要判断的是单品在目标市场能不能卖的适配性时用「跨市场产品适配性预测」；要做五维就绪度裁决时用「多市场拓展就绪度评分」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌进入德国市场不知道应该备货多少第一年广告应该大投还是稳步——贝叶斯Bass扩散从美国迁移先验预测德国渗透曲线，备货决策准确度提升30-40%，年化减少备货失误10-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12247-p2s-brand-penetration-modeling-77f11037",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-brand-penetration-modeling/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-brand-penetration-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d71b73056205a85c024884f2b3fff7ed20e1181d12eea44fd157e6a7a2d0599a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

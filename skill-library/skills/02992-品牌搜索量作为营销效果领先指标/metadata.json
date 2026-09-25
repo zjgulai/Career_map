@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-platform-brand-search-volume",
+  "中文名称": "品牌搜索量作为营销效果领先指标",
+  "一句话作用": "触发词：品牌搜索量、早期信号、营销效果速判、搜索增量、投放预警。何时不用：要算活动整体时序增效用合成控制或时序因果技能，要评估达人层级的真实回报用 KOL 因果归因技能，本技能用品牌词搜索量做早期信号。安全边界：搜索量与平台后台数据须按平台条款与授权方式获取，不得用爬取方式获取受限数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要营销效果要等 7 天 ROAS 才知道——品牌搜索量作为领先指标在 24 小时内预示 GMV 变化，Bayesian Causal Impact 精确量化每次营销事件的增量搜索效应时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02992-p2s-cross-platform-brand-search-volume-09e45fce",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-platform-brand-search-volume/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-platform-brand-search-volume/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d985f274ab17c1d1a9749810c0a4c8dfc850be9179b0e2a22e6843e07882400",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

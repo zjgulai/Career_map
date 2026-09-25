@@ -1,0 +1,22 @@
+{
+  "英文名称": "texlive-runtime-installer",
+  "中文名称": "待补：texlive-runtime-installer",
+  "一句话作用": "Detect existing TeX Live or MacTeX first, then optionally install a Codex-managed full TeX Live runtime only when no existing TeX Live installation is detected.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-28T01:54:35+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Detect existing TeX Live or MacTeX first, then optionally install a Codex-managed full TeX Live runtime only when no existing TeX Live installation is detected.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00690-texlive-runtime-installer-19564b99",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/latex/skills/texlive-runtime-installer/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/latex/skills/texlive-runtime-installer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c88de54e8b1370d9f04551e1bd4ba31c8bd7843143456bc78d2b05803751afa4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-entity-resolution-kg-dedup",
+  "中文名称": "实体消歧与去重（Entity Resolution",
+  "一句话作用": "触发词：实体消歧、跨源去重、SKU统一、阻塞与LSH、相似度融合、规范名合并。何时不用：要在线上做跨平台 SKU 与编码的查询映射时用「产品知识图谱查询」；要做标签一致性与统一标识同步时用「SKU统一标识与标签同步」。安全边界：合并阈值与权重设定必须留痕可回溯，低于阈值的候选一律不自动合并；多语言名与别名数据须来自授权渠道，不得引入未经授权的个人信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务背景：某母婴出海品牌同时运营亚马逊、独立站、天猫国际三个渠道，SKU 数据由不同团队维护，同一款\"Spectra S1 双边电动吸奶器\"在三个平台分别叫： - Amazon：Spectra - S1 Plus Electric Breast Pump - 独立站：Spectra S1+ 双边吸奶器 - 天猫：贝瑞克S1Plus吸奶器双边电动时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11970-p2s-entity-resolution-kg-dedup-ba4b2f1a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-entity-resolution-kg-dedup/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-entity-resolution-kg-dedup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6552075d3809e45c00cbe4e7987c23c3c122cf3d658a28421f8cf4d69e5452f0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

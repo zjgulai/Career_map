@@ -1,0 +1,22 @@
+{
+  "英文名称": "meeting-recap",
+  "中文名称": "会议记录结构化纪要 SOP",
+  "一句话作用": "将会议录音文字稿、笔记或聊天记录等原始材料整理为结构化会议纪要，自动提取议题、讨论要点、结论以及包含负责人与截止日期的行动项。当用户提供会议素材并提及会议记录、纪要、meeting minutes、会议总结、行动项、整理会议或会后跟踪等关键词时触发。",
+  "关键输入": "目标 ：确认原始素材类型，补全缺失的元信息。 步骤 ： 1. 识别素材类型 ，向用户确认： - 语音转文字稿（ASR transcript） - 手工笔记 - IM 聊天记录（飞书/Slack/微信群） - 混合素材 2. 提取或询问元信息 （以下字段均为必填）： 字段 说明 示例 ------ ------ ------ 会议名称 本次会议的主题名 Q2 产品评审会 日期 YYYY-MM-DD 格式 2026-04-14 时间 HH:MM-HH:MM 14:00-15:30",
+  "关键输出": "目标 ：将所有提取结果组装为完整纪要。 输出模板 ：",
+  "最新更新时间": "2026-09-14T00:05:30+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要（Phase 4 内容）时，用它产出或更新：目标 ：将所有提取结果组装为完整纪要。 输出模板 ：",
+  "skill_id": "10650-meeting-recap-a29c99da",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/meeting-recap/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/meeting-recap/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5b9d73acccd8b13eaa83cb0fadb3a9b086fb9b02f42f9ea7c84223fbc93e5d9e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

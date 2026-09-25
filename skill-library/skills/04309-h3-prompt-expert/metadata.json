@@ -1,0 +1,22 @@
+{
+  "英文名称": "h3-prompt-expert",
+  "中文名称": "待补：h3-prompt-expert",
+  "一句话作用": "Turn video ideas, assets, keyframes, references, or edit requests into official MiniMax H3 prompts. Use for H3 prompt writing or rewriting; not for other models, full scripts, or long-form planning.",
+  "关键输入": "Evaluate both the text request and every provided reference. Decide whether the current inputs are enough for the expected output. For each provided reference, state internally and, when asking the user, explicitly state: - what requirement it satisfies: iden…",
+  "关键输出": "Choose the matching official H3 structure. Do not use the old creator-friendly Chinese section template. For T2VA / I2VA / FL2VA / L2VA, follow the selected mode reference and usually write: For all-purpose multimodal reference, follow references/modes-all-pu…",
+  "最新更新时间": "2026-09-19T21:30:15+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Turn video ideas, assets, keyframes, references, or edit requests into official MiniMax H3 prompts. Use for H3 prompt writing or rewriting; not for other models, full scripts, or long-form planning.时，用它产出或更新：Choose the matching official H3 structure. Do no…",
+  "skill_id": "04309-h3-prompt-expert-339b379e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/h3-prompt-expert/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/h3-prompt-expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63291904e5c4992abb85a9d5756829ee8ee884801cc7b92df8059a2200ea4e42",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

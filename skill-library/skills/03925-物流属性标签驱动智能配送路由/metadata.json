@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-optimized-logistics-routing",
+  "中文名称": "物流属性标签驱动智能配送路由",
+  "一句话作用": "触发词：危品发货、承运商资质、温控配送、超规大件、标签路由。何时不用：要核对报关资料用「关务资料检查」，要横向比较承运商报价用「采购比价」；本技能只按 SKU 标签过滤合规渠道并选路由。安全边界：危品与温控渠道资质须以承运商能力数据库实时核对，SKU 危品与尺寸属性完整度须达 98%，模型不下单、不改标签。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要物流负责人面临\"危品品类和温控商品每次发货都要人工核查承运商资质耗时且易出错\"——标签规则引擎自动过滤合规承运商将物流合规核查从人工1小时压缩至自动秒级，年化节省物流合规损失75万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03925-p2s-tag-optimized-logistics-routing-7bf6129b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tag-optimized-logistics-routing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tag-optimized-logistics-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "927970c36c3985c2ecbcb221c42a4cd930e2c48ae82195739ac16dc5bafe470f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

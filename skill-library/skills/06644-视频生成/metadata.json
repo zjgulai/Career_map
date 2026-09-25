@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-creative-video",
+  "中文名称": "视频生成",
+  "一句话作用": "当用户需要通用视频生成、视频创作、视频提示词规划或文生/图生视频时使用，包括创意视频、产品广告、商品广告、UGC口播/带货/信息流视频、marketing/TVC风格广告、企业宣传片、商务视频、品牌形象片、产品功能介绍、带旁白视频，以及带 ref/参考素材的视频生成。禁止用于短剧创作、剧情脚本、分集剧情、角色扮演故事或影视叙事创作；此类需求应调用 doubao-creative-drama。仅当用户明确要求把短剧/剧情素材改造成普通视…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 人物类 ：若视频中具体人物需出镜时，优先检索可靠人物图。素材和工具条件适合时，人物参考图必须作为 person ref/ref images 输入，并在确认摘要说明。 - 知识类 ：已核实知识可作为 knowledge ref，通过 source map 保留来源，并可改写为台词/旁白；最终台词仍需用户确认。 - 混合类 ：人物图与知识文本分别路由，是否采用取决于用户需求、素材可靠性和工具能力。以上均为注意点，不是生成硬门控。",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要当用户需要通用视频生成、视频创作、视频提示词规划或文生/图生视频时使用，包括创意视频、产品广告、商品广告、UGC口播/带货/信息流视频、marketing/TVC风格广告、企业宣传片、商务视频、品牌形象片、产品功能介绍、带旁白视频，以及带 ref/参考素材的视频生成。禁止用于短剧创作、剧情脚本、分集剧情、角色扮演故事或影视叙事创作；此类需求应调用 doubao-creative-drama。仅当用户明确要求把短剧/剧情素材改造成普通视…时，用它产出或更新：- 人物类 ：若视频中具体人物需出镜时，优先检索可靠…",
+  "skill_id": "06644-doubao-creative-video-f7bc133e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-creative-video/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-creative-video/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23655c38d29bfeb80d0cac9782ce56a85d922299a59cfa4ebe418bb7514ad6ec",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

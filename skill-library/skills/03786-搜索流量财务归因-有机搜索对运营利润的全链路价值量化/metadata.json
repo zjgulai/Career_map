@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-revenue-attribution",
+  "中文名称": "搜索流量财务归因 有机搜索对运营利润的全链路价值量化",
+  "一句话作用": "触发词：搜索价值量化、倾向得分匹配、LTV 溢价、辅助转化、预算决策。何时不用：要算推荐位带来的增量用「推荐系统财务归因」；要用双重差分评估干预净效应用「双重差分因果估计」。安全边界：用户级数据须聚合脱敏后使用，遵守平台开发者协议与隐私法规；匹配质量不足时结论须标注不确定。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CFO面临\"SEO年投80万无法量化净利润贡献导致预算被质疑\"——PSM去偏搜索LTV因果归因生成P&L级ROI，使SEO预算决策优化年化影响约100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03786-p2s-search-revenue-attribution-0fccf469",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-search-revenue-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-search-revenue-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fa3edf399bdcd4598009eabf8626e15470f0f834764e55631e16b4b9f978ea98",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

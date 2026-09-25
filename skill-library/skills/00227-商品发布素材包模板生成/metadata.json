@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-package-template",
+  "中文名称": "商品发布素材包模板生成",
+  "一句话作用": "当用户需要生成商品发布素材包、发品资料模板或未填写的商品信息表时使用。根据商品名称、类目 ID、类目名称或类目路径，为用户选择的平台确定叶子类目，并生成包含未填写商品信息表和空素材目录的 ZIP 压缩包。不生成实际素材，不解析或填写已有模板，也不创建或执行商品发布任务。",
+  "关键输入": "平台 内部标识 --- --- 淘宝 taobao 天猫 tmall 京东 jd 抖音 dy 拼多多 pdd 1688 1688 平台必须以用户在本次任务中明确提供或确认的选择为准 ，不得根据登录账号、当前店铺、历史任务或其他 Skill 上下文推断。 - 用户未明确指定平台时，必须使用交互式提问工具，问题固定为“请选择要生成模板的平台（可多选）”。 必须启用多选参数（如 multiSelect: true），不得使用单选 ；选项按“支持平台”表的顺序提供：淘宝、天猫、京东、抖音、拼多多、1688、全部平台。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要当用户需要生成商品发布素材包、发品资料模板或未填写的商品信息表时使用。根据商品名称、类目 ID、类目名称或类目路径，为用户选择的平台确定叶子类目，并生成包含未填写商品信息表和空素材目录的 ZIP 压缩包。不生成实际素材，不解析或填写已有模板，也不创建或执行商品发布任务。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00227-product-package-template-5c297f0a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/product-package-template/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/product-package-template/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d44644c75ef613ebae158be081330eb944fce23371b2226381cc3481390a3ab",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

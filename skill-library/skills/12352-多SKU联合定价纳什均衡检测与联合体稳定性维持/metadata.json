@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-pricing-coalition-stability",
+  "中文名称": "多SKU联合定价纳什均衡检测与联合体稳定性维持",
+  "一句话作用": "触发词：联合定价稳定性、纳什均衡检测、背叛收益、Shapley 值分配、价格护栏、防价格战。何时不用：只需生成联合定价方案与利润分配用「MAS多SKU定价联盟博弈」；单 SKU 连续调价用「Skill-Dynamic-Pricing-RL-Controller」；多 Agent 补货/广告/客服编排用「多 Agent 电商运营自动化」；跨市场合规编排用「Skill-MAS-Compliance-Multi-Market-Orchest…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临4个关联SKU各自为战频繁降价导致整体毛利率从22%跌至14%——Shapley值公平分配防止背叛激励，联合定价使毛利率回升至20%，年化GMV $500,000规模毛利保护$30,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12352-p2s-mas-pricing-coalition-stability-846a16a4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-mas-pricing-coalition-stability/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-mas-pricing-coalition-stability/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d767c7d2781ccfbcd796debae46a71b6e11a2c9a9a5d79a157a96db1252da298",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

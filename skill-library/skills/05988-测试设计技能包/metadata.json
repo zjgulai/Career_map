@@ -1,0 +1,22 @@
+{
+  "英文名称": "testbuddy-skill",
+  "中文名称": "测试设计技能包",
+  "一句话作用": "TestBuddy 测试设计技能包。当用户想要：(1) 生成测试框架/模块/场景/测试点/用例；(2) 根据 TAPD 需求或缺陷链接生成测试内容；(3) 根据任意文本（PRD/接口文档/代码/表格/功能描述）生成测试用例；(4) 打开/跳转到脑图、测试设计、TestBuddy 页面；(5) 进行测试设计、需求分析、缺陷分析时，使用本技能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要TestBuddy 测试设计技能包。当用户想要：(1) 生成测试框架/模块/场景/测试点/用例；(2) 根据 TAPD 需求或缺陷链接生成测试内容；(3) 根据任意文本（PRD/接口文档/代码/表格/功能描述）生成测试用例；(4) 打开/跳转到脑图、测试设计、TestBuddy 页面；(5) 进行测试设计、需求分析、缺陷分析时，使用本技能。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05988-testbuddy-skill-56fd112a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/testbuddy/skills/testbuddy-skill/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/testbuddy/skills/testbuddy-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c1dce0fcc56b56f69b4890d4009166af06956d3091fef131253743ff5a7d72cb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

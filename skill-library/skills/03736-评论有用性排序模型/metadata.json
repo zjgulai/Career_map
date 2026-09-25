@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-helpfulness-ranking-model",
+  "中文名称": "评论有用性排序模型",
+  "一句话作用": "触发词：评论排序模型、A+ 素材、TOP 评论筛选、属性覆盖、素材提炼。何时不用：只要产品页展示排序用「评论有用性预测」；本技能是从海量评论中抽内容素材。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌运营面临\"2000条评论中人工筛选优质评论做A+素材耗时20h且主观随机\"——评论有用性自动排序从2000条中精准提取TOP50高参考价值评论，A+内容转化率提升11%，年化增量GMV约79万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03736-p2s-review-helpfulness-ranking-model-0023c05f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-review-helpfulness-ranking-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-review-helpfulness-ranking-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1721739c20a0b1d4017af6c782c8c80feb0e841aa5eafabca94041b6e4bc763d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

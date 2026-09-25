@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-market-size-estimation",
+  "中文名称": "待补：p2s-market-size-estimation",
+  "一句话作用": "触发词：市场规模、TAM/SAM/SOM、蒙特卡洛、搜索量校准、进入决策。何时不用：只需给多个品类做机会排序时用「品类机会评分引擎」；要判断品类处于生命周期哪个阶段用「Product Lifecycle Stage」。安全边界：结论必须带区间与置信说明，不得把点估计对外承诺；Trends 校准误差与锚点选择须一并披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要战略经理面临市场容量拍脑袋——Market Size将TAM误差30%压到12%，年化省22万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03393-p2s-market-size-estimation-a899a2b5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-market-size-estimation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-market-size-estimation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "070bc97f3410695c035ae53718b8f989d265b4a931cf21c52cbaf9f3cfa74f65",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

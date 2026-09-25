@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-workflow-templates",
+  "中文名称": "跨境电商工作流模板库",
+  "一句话作用": "跨境电商 MAS 工作流模板库 — 12 个可直接执行的编排模板。 覆盖 4 大场景域（业务运营/组织管理/经营分析/增长洞察）， 每个模板含：触发条件→节点链路→核心节点定义→条件分支→跨工作流链接。 基于 hermes-skills 的 335+ skill、171 个 installed skill 的编排层。 模板可直接通过子代理（delegate task）启动独立运行。适用场景还包括：一键执行、自动化流程、工作流编排、帮我…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境电商 MAS 工作流模板库 — 12 个可直接执行的编排模板。 覆盖 4 大场景域（业务运营/组织管理/经营分析/增长洞察）， 每个模板含：触发条件→节点链路→核心节点定义→条件分支→跨工作流链接。 基于 hermes-skills 的 335+ skill、171 个 installed skill 的编排层。 模板可直接通过子代理（delegate task）启动独立运行。适用场景还包括：一键执行、自动化流程、工作流编排、帮我…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09550-ecommerce-workflow-templates-c6dff68a",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/ecommerce-workflow-templates/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/ecommerce-workflow-templates/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "46023a5e04f77912ef8c500484819743820bf281a4aa14d6b396d0942eb6af5f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

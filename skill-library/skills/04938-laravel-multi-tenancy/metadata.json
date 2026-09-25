@@ -1,0 +1,22 @@
+{
+  "英文名称": "laravel-multi-tenancy",
+  "中文名称": "待补：laravel-multi-tenancy",
+  "一句话作用": "Multi-tenant application architecture patterns. Use when working with multi-tenant systems, tenant isolation, or when user mentions multi-tenancy, tenants, tenant scoping, tenant isolation, multi-tenant.",
+  "关键输入": "Use multi-tenancy when: - Building SaaS applications with complete data isolation - Each customer needs their own database - Compliance requires strict data separation Don't use when: - Simple user segmentation is suffi…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:40+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Use multi-tenancy when: - Building SaaS applications with complete data isolation - Each customer needs their own database - Compliance requires strict data separation Don't use when: - Simple user segmentation is suffi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04938-laravel-multi-tenancy-881918ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/laravel-multi-tenancy/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/laravel-multi-tenancy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af019558332980560d6246a73f204961f2921161c12a920a75346828e6d8c21f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

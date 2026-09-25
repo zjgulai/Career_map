@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-commodity-futures-cost-baseline",
+  "中文名称": "大宗商品期货驱动的竞品成本底线穿透 (Commodity Futures Arbitrage)",
+  "一句话作用": "触发词：成本底线、期货反推、价格战预警、竞品定价、BOM 成本。何时不用：要挖竞品评论里的产品机会用「Review Pain-Point Mining」；要做品类间机会排序用「品类机会评分引擎」。安全边界：成本为反推估算而非竞品真实财务数据，不得对外披露或作为价格协同依据；预警只提供信息，不执行调价动作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链总监陷入对手定价不明的同质化困境——引入大宗商品期货与航运指数反推竞品真实BOM成本底线，当对手售价跌破盈亏平衡点时发出\"失血速杀\"红色预警，反直觉保持原价等待对手现金流失血退市，年化避免无效价格战损失8-15万美元。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11252-p2s-commodity-futures-cost-baseline-22b42563",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-commodity-futures-cost-baseline/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-commodity-futures-cost-baseline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af88473ac8f13aba011a51fc56be0eef5716471d63c112a013ad11b0e20ffff0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

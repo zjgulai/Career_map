@@ -1,0 +1,22 @@
+{
+  "英文名称": "cordis-plugin-development",
+  "中文名称": "待补：cordis-plugin-development",
+  "一句话作用": "Create, modify, debug, or extend dynamic Cordis Plugins, including Host Services and Events, Client Slot and theme UI, Package-private Client-to-Host calls, dynamic Tools, version updates, approval failures, and runtime…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T05:17:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create, modify, debug, or extend dynamic Cordis Plugins, including Host Services and Events, Client Slot and theme UI, Package-private Client-to-Host calls, dynamic Tools, version updates, approval failures, and runtime…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12666-cordis-plugin-development-14e165a0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/dsh-community-market/node_modules/@deepseek-ai/dsh-agent-presets/presets/cordis/skills/cordis-plugin-development/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/dsh-community-market/node_modules/@deepseek-ai/dsh-agent-presets/presets/cordis/skills/cordis-plugin-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "01811d3ee9c03a466abae12d54d229e7de7bd74ca6b730c54ce9d5e696b294aa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

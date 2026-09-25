@@ -1,0 +1,22 @@
+{
+  "英文名称": "spec-kit",
+  "中文名称": "待补：spec-kit",
+  "一句话作用": "Use GitHub Spec Kit for Spec-Driven Development. Initialize projects, create specifications, and build software using the /speckit. slash commands. Supports Claude Code, GitHub Copilot, Gemini CLI, and Codebuddy.",
+  "关键输入": "- OS: Linux, macOS, Windows (PowerShell supported) - AI Agent: Claude Code, GitHub Copilot, Gemini CLI, or Codebuddy CLI - Package Manager: uv - Python: 3.11+ - Git: Any recent version ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use GitHub Spec Kit for Spec-Driven Development. Initialize projects, create specifications, and build software using the /speckit. slash commands. Supports Claude Code, GitHub Copilot, Gemini CLI, and Codebuddy.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05104-spec-kit-618f7ac8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spec-kit/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spec-kit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1041e81f6eb7616fee9c7b03319791e90abe70092a74ff27eb39fa7835a72a8e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

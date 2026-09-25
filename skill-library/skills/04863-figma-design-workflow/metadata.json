@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-design-workflow",
+  "中文名称": "待补：figma-design-workflow",
+  "一句话作用": "Generate Figma mockups from wrangler specifications with hierarchical file structure and approval tracking",
+  "关键输入": "Auto-trigger scenarios: - Specification contains UI requirements (pages, screens, components) - Implementation plan creation for frontend work - User explicitly requests mockups or design review Manual invocation:",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:50:24+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Auto-trigger scenarios: - Specification contains UI requirements (pages, screens, components) - Implementation plan creation for frontend work - User explicitly requests mockups or design review Manual invocation:时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04863-figma-design-workflow-5535ead6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/figma-design-workflow/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/figma-design-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1de22c202b84ed0d88ccae0700ffbe06102d52e230505f2870347e253cb74f75",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

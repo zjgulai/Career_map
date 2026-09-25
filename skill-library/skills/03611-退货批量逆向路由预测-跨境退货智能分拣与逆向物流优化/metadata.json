@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-predictive-batch-returns-routing",
+  "中文名称": "退货批量逆向路由预测 跨境退货智能分拣与逆向物流优化",
+  "一句话作用": "触发词：逆向路由、退货集散点、退货概率预测、批量逆向物流、退货分拣。何时不用：只算退货率 KPI 与成本侵蚀用「分国退货率KPI」，已定品相只比处置渠道回收价用「退货价值回收竞价」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨境卖家面临高退货率（15-25%）——退货概率预测+批量逆向路由将逆向物流成本从$15/件降至$5/件，年化节省$24万（月均2000件退货规模）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03611-p2s-predictive-batch-returns-routing-8589bd45",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-predictive-batch-returns-routing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-predictive-batch-returns-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7af2ad613491296cadcb778adbd2f8956b26289910d8f4e4edb5a09facf8c881",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-category-management",
+  "中文名称": "跨境电商品类管理 Skill",
+  "一句话作用": "跨境电商品类管理Skill。提供ABC分析、帕累托分析、品类分层管理，帮助优化产品组合，提升整体盈利能力。 触发条件: 1. 用户提到\"品类管理\"、\"ABC分析\"、\"帕累托分析\" 2. 用户需要\"产品分层\"、\"SKU优化\" 3. 用户询问\"哪些产品贡献最大\" 4. 用户需要\"库存分类\"、\"产品组合优化\" 输出内容: - ABC分类结果表 - 帕累托分析图 - 品类策略矩阵 - 产品组合优化建议",
+  "关键输入": "产品数据格式 : 字段说明 : 字段 说明 用途 ------ ------ ------ sku SKU编码 唯一标识 product name 产品名称 识别产品 category 品类 分类分析 sales amount 销售额 ABC分析 sales quantity 销量 周转分析 profit 利润额 盈利分析 inventory turnover 库存周转率 效率分析",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-03T21:17:38+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商品类管理Skill。提供ABC分析、帕累托分析、品类分层管理，帮助优化产品组合，提升整体盈利能力。 触发条件: 1. 用户提到\"品类管理\"、\"ABC分析\"、\"帕累托分析\" 2. 用户需要\"产品分层\"、\"SKU优化\" 3. 用户询问\"哪些产品贡献最大\" 4. 用户需要\"库存分类\"、\"产品组合优化\" 输出内容: - ABC分类结果表 - 帕累托分析图 - 品类策略矩阵 - 产品组合优化建议时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09418-cbec-category-management-1ca7c627",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/04-product-analysis/category-management/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/04-product-analysis/category-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d4e9a7191d088c0e878c740e6db284169b7c06fcc2e65d11822f59bd69a188d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

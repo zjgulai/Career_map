@@ -1,0 +1,22 @@
+{
+  "英文名称": "grill-plan",
+  "中文名称": "待补：grill-plan",
+  "一句话作用": "Relentlessly question a plan, design, migration, release, or repo maintenance proposal until assumptions, risks, constraints, and decision branches are clear. Use when the user wants to be grilled before implementation…",
+  "关键输入": "- Inspect the plan, issue, PR, design doc, repo constraints, validation commands, and approval boundaries. - Explore code or docs directly when a question can be answered from local evidence.",
+  "关键输出": "Return: 1. Restated objective 2. Highest-risk assumption 3. Focused questions 4. Decision branches 5. Tightened plan or blockers",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks to be grilled, challenged, or questioned before implementation. - A migration, release, architecture change, or repo maintenance plan has unclear constraints. - The user wants decision branches clarified…时，用它产出或更新：Return: 1. Restated object…",
+  "skill_id": "06028-grill-plan-61e5fa46",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/productivity/grill-plan/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/productivity/grill-plan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dccc8b38b11e4e9eb8340dd8aa57f405f96a465da3c683f59535ad08ea92dde4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "dataset-health-audit",
+  "中文名称": "待补：dataset-health-audit",
+  "一句话作用": "执行数据质量检查，对CSV/Excel/TSV/JSON等表格数据进行12个维度的全面审计，输出质量评分、问题详情和修复建议。当用户需要进行数据质量检测、查看缺失值、重复行、异常值、格式问题、类型混淆，或提及数据质量、质检、数据清洗前检查、异常值检测、格式校验、空值、数据健康度、质量评分等关键词时触发。",
+  "关键输入": "参数 缩写 必填 默认值 说明 ------ ------ ------ -------- ------ input — 是 — 输入文件路径（CSV/TSV/Excel/JSON） --output -o 否 标准输出 输出 JSON 报告路径 --id-columns -id 否 自动检测 应唯一的列名，逗号分隔 --date-columns -dc 否 自动检测 日期类型的列名，逗号分隔",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要执行数据质量检查，对CSV/Excel/TSV/JSON等表格数据进行12个维度的全面审计，输出质量评分、问题详情和修复建议。当用户需要进行数据质量检测、查看缺失值、重复行、异常值、格式问题、类型混淆，或提及数据质量、质检、数据清洗前检查、异常值检测、格式校验、空值、数据健康度、质量评分等关键词时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10569-dataset-health-audit-c4872ae8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/dataset-health-audit/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/dataset-health-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0fe6832a0fae7cbb17bc1dd3b48b5e1a0c741319ec491d1dac3e370927a9a03d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

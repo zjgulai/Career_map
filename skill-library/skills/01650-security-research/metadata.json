@@ -1,0 +1,22 @@
+{
+  "英文名称": "security-research",
+  "中文名称": "待补：security-research",
+  "一句话作用": "Team Mode security research skill. Orchestrates 3 vulnerability hunters and 2 PoC engineers to audit a codebase in parallel, prove exploitability, classify root causes, and calibrate severity by actual exploitability. U…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Team Mode security research skill. Orchestrates 3 vulnerability hunters and 2 PoC engineers to audit a codebase in parallel, prove exploitability, classify root causes, and calibrate severity by actual exploitability. U…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01650-security-research-87e60003",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/security-research/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/security-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3110b1ce31999ba534211fe98e387437dbeff0aac7a79400f5713a5e5b3b1a7a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

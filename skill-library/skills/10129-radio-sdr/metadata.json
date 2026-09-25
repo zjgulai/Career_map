@@ -1,0 +1,22 @@
+{
+  "英文名称": "radio-sdr",
+  "中文名称": "待补：radio-sdr",
+  "一句话作用": "Use for authorized RF/SDR security research including signal identification, replay feasibility study in shielded labs, and wireless protocol analysis outside classic Wi-Fi.",
+  "关键输入": "- 无线遥控/传感器等非 Wi-Fi RF（授权） - ADS-B/遥控等协议研究（合法接收） - 与 wifi-wireless 分工：本 skill 偏 SDR 通用 RF ；Wi-Fi 攻防走 R29",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- 无线遥控/传感器等非 Wi-Fi RF（授权） - ADS-B/遥控等协议研究（合法接收） - 与 wifi-wireless 分工：本 skill 偏 SDR 通用 RF ；Wi-Fi 攻防走 R29时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10129-radio-sdr-25cbc6e4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/radio-sdr/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/radio-sdr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2bd539bcea3cc477b15e2583634aff9f9497cd55d826443960979e945d4cad07",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

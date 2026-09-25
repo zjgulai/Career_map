@@ -1,0 +1,22 @@
+{
+  "英文名称": "vue-composable-creator",
+  "中文名称": "待补：vue-composable-creator",
+  "一句话作用": "Create vue composable creator operations. Auto-activating skill for Frontend Development. Triggers on: vue composable creator, vue composable creator Part of the Frontend Development skill category. Use when working wit…",
+  "关键输入": "- Relevant development environment configured - Access to necessary tools and services - Basic understanding of frontend development concepts",
+  "关键输出": "- Generated configurations and code - Best practice recommendations - Validation results",
+  "最新更新时间": "2026-09-19T03:48:56+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要This skill activates automatically when you: - Mention \"vue composable creator\" in your request - Ask about vue composable creator patterns or best practices - Need help with frontend skills covering react, vue, css, ac…时，用它产出或更新：- Generated configurations…",
+  "skill_id": "05168-vue-composable-creator-abe2dd10",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/vue-composable-creator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/vue-composable-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "12c07251ca07c84d05726b6990b9655467078a43db028fc5b279f2c35085dcf5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

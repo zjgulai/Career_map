@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-account-health-proactive-monitor",
+  "中文名称": "账号健康主动监控：从被动处罚到提前预防",
+  "一句话作用": "触发词：账号健康监控、主动预警、环比恶化、广告联动、旺季体检。何时不用：只需要阈值型多指标预警曲线用「账号健康预警系统」；要算账号间关联风险用「账号关联检测」。安全边界：联动建议只给到广告与库存调整方向，实际调预算须人工确认；健康判定依赖 Seller Central 报表完整性，数据有缺口时不得当作健康结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要去年黑五账号ODR从0.6%升至1.2%接到Amazon警告广告暂停48小时损失15万但事前无任何预警——账号健康主动监控提前7-14天发现趋势恶化并联动降低广告预算年化避免封号损失30-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12227-p2s-account-health-proactive-monitor-8e1cd8e0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-account-health-proactive-monitor/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-account-health-proactive-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4e468a84bfc973a56f85d2d032f690b56aae108273d0565531afcb379e91c309",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sc-causal-dag-e2e-attribution",
+  "中文名称": "供应链端到端因果DAG归因框架 算法实现缺货根因30分钟诊断",
+  "一句话作用": "触发词：缺货根因、因果归因、因果DAG、异常诊断、根因分析。何时不用：需要量化供需缺口并分配有限库存时用供需缺口分析与优先级分配；需要追踪在途延误与预警时用在途库存追踪与全链路可视化。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要缺货/异常根因靠人工多系统排查耗时2天且易误判——Amazon PC算法+SCM端到端因果DAG将根因诊断→30分钟自动归因，准确率提升45%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03764-p2s-sc-causal-dag-e2e-attribution-6f314022",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sc-causal-dag-e2e-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sc-causal-dag-e2e-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6fbc45cd014e9c33481e21c7c6c29291b0e656448d8b3a6ec75ffd295bffd877",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

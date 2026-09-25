@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-data-lineage-tracking",
+  "中文名称": "供应链数据血缘追踪 从原始数据到Tag决策的全链路溯源与影响分析",
+  "一句话作用": "触发词：供应链血缘、标签溯源、影响分析、审计报告、决策依据。何时不用：面向推荐模型做法规级数据来源证明走数据血缘追踪；只是比对多系统数字一致性走跨系统对账。安全边界：须满足 GDPR、CSRD 等监管对可追溯性的要求，审计报告须保留完整来源链证据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临\"AI补货触发后不知道数据来源\"——血缘图谱将数据问题排查从2天→5分钟，满足EU AI Act可解释性合规要求时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12136-p2s-supply-chain-data-lineage-tracking-9e209785",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-supply-chain-data-lineage-tracking/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-supply-chain-data-lineage-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b7164c9a211fd017a0509f8eba0344ac0d30beffbfb9de11dcb388c7ea08de89",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

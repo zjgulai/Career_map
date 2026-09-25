@@ -1,0 +1,22 @@
+{
+  "英文名称": "modsearch",
+  "中文名称": "待补：modsearch",
+  "一句话作用": "Plug-in web search, X (Twitter) search, and page fetch for models without native web access. Use whenever the task needs current information, external facts, source links, posts from X, or the content of a specific URL,…",
+  "关键输入": "Run every modsearch command through the launcher bundled with this skill. Replace with the directory this SKILL.md lives in: The launcher finds a working way to run modsearch and forwards your arguments to it unchanged. It tries, in order: a compatible modsea…",
+  "关键输出": "results is always an array, even for a single source, so the shape never changes. source is the corpus the evidence actually came from, requestedSource is what was asked for, engine names who answered, and status is ok, degraded, or unavailable. Read status b…",
+  "最新更新时间": "2026-09-10T00:11:07+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Plug-in web search, X (Twitter) search, and page fetch for models without native web access. Use whenever the task needs current information, external facts, source links, posts from X, or the content of a specific URL,…时，用它产出或更新：results is always an array…",
+  "skill_id": "02105-modsearch-d20d2b64",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh-2010-eval/profiles/desktop/node_modules/@liustack/modsearch/skills/modsearch/SKILL.md",
+  "relative_path": "lute/.dsh-2010-eval/profiles/desktop/node_modules/@liustack/modsearch/skills/modsearch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "865ef1011161aee6543d98d0c8d7cc3ab09c241c8d51c606218d6facfea55891",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

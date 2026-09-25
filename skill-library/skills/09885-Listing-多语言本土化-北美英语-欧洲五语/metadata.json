@@ -1,0 +1,22 @@
+{
+  "英文名称": "Listing 多语言本土化（北美英语 / 欧洲五语）",
+  "中文名称": "待补：Listing 多语言本土化（北美英语 / 欧洲五语）",
+  "一句话作用": "在已有英文或源文案草稿后，将标题/五点/描述/A+ 模块转为目标市场语言并统一母婴专业术语；不替代合规扫描与法务终审。",
+  "关键输入": "- 输入来自 listing-bulk-generator 或等价结构化草稿。 - 指定目标：NA（英语优化）或 EU（DE/EN/FR/IT/ES 中哪些语种）。 - 维护 术语表 （如吸力档位、防回流、静音）各语标准译法；可放在 docs/ 或本 Skill 附录。",
+  "关键输出": "- 按 module lang text locked facts notes - 术语表 diff ：本次新增或修改的词条。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在已有英文或源文案草稿后，将标题/五点/描述/A+ 模块转为目标市场语言并统一母婴专业术语；不替代合规扫描与法务终审。时，用它产出或更新：- 按 module lang text locked facts notes - 术语表 diff ：本次新增或修改的词条。",
+  "skill_id": "09885-listing-5cab6926",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/multilingual-localizer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/multilingual-localizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "84937658b9ef70ace3b4a81e5d8d8efd86a444a53bcec339d492f110cd78cac0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-xhs-white",
+  "中文名称": "白底杂志风 Deck",
+  "一句话作用": "纯白 + 顶部彩虹 bar + 渐变文字 + 马卡龙软卡片 + 黑底 pill",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要纯白 + 顶部彩虹 bar + 渐变文字 + 马卡龙软卡片 + 黑底 pill时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10314-deck-xhs-white-b0e4ef4e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/deck-xhs-white/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/deck-xhs-white/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a8002edb04b2a6af015a5b5bed2025ec3493e5547cc8c1f51415fcf2443fa22a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

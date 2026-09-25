@@ -1,0 +1,22 @@
+{
+  "英文名称": "competition-pcap-protocol",
+  "中文名称": "待补：competition-pcap-protocol",
+  "一句话作用": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for packet capture analysis, session reconstruction, application-protocol decoding, stream reassembly, beacon timing, and packet-to-process co…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for packet capture analysis, session reconstruction, application-protocol decoding, stream reassembly, beacon timing, and packet-to-process co…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02042-competition-pcap-protocol-c263a178",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-pcap-protocol/SKILL.md",
+  "relative_path": "lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-pcap-protocol/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "18285bb445a87a31548e482b74a6251b0136af68c68d65842cd4314fec5c893f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

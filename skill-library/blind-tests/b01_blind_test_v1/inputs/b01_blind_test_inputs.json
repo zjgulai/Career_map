@@ -1,0 +1,834 @@
+{
+  "protocol_id": "B01-BLIND-01",
+  "created_on": "2026-09-23",
+  "sample_classification": "全量合成的独立盲测输入包",
+  "input_boundary": "本文件不含预期标签。不得以本包形成消费者、市场、产品或经营结论。",
+  "reviews": [
+    {
+      "record_id": "BR001",
+      "input_type": "D01",
+      "coverage_family": "噪音",
+      "challenge": "直接正向",
+      "text": "The motor stayed quiet through an afternoon nap.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR002",
+      "input_type": "D01",
+      "coverage_family": "噪音",
+      "challenge": "直接负向",
+      "text": "This pump is loud enough to interrupt a phone call.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR003",
+      "input_type": "D01",
+      "coverage_family": "噪音",
+      "challenge": "局部否定",
+      "text": "It is not noisy in the nursery.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR004",
+      "input_type": "D01",
+      "coverage_family": "噪音",
+      "challenge": "转折与双方面",
+      "text": "The pump stays quiet, but the suction feels weak by the end.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR005",
+      "input_type": "D01",
+      "coverage_family": "吸力",
+      "challenge": "直接正向",
+      "text": "Suction remained strong through a twenty-minute session.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR006",
+      "input_type": "D01",
+      "coverage_family": "吸力",
+      "challenge": "新措辞负向",
+      "text": "The suction faded before I was finished.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR007",
+      "input_type": "D01",
+      "coverage_family": "吸力",
+      "challenge": "局部否定",
+      "text": "The suction is not weak when the cup is full.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR008",
+      "input_type": "D01",
+      "coverage_family": "吸力",
+      "challenge": "转折与双方面",
+      "text": "Strong suction saves time, although charging is slow overnight.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR009",
+      "input_type": "D01",
+      "coverage_family": "充电",
+      "challenge": "直接正向",
+      "text": "The battery lasted through two commutes without a recharge.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR010",
+      "input_type": "D01",
+      "coverage_family": "充电",
+      "challenge": "直接负向",
+      "text": "Battery life dies before lunch on a normal workday.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR011",
+      "input_type": "D01",
+      "coverage_family": "充电",
+      "challenge": "局部否定",
+      "text": "Charging is not slow with the supplied cable.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR012",
+      "input_type": "D01",
+      "coverage_family": "充电",
+      "challenge": "转折与近义表达",
+      "text": "The battery lasts, but the USB connection is difficult to reach.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR013",
+      "input_type": "D01",
+      "coverage_family": "尺寸重量",
+      "challenge": "直接正向",
+      "text": "The small body fits easily into my travel pouch.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR014",
+      "input_type": "D01",
+      "coverage_family": "尺寸重量",
+      "challenge": "直接负向",
+      "text": "It feels bulky in a small work bag.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR015",
+      "input_type": "D01",
+      "coverage_family": "尺寸重量",
+      "challenge": "局部否定",
+      "text": "The pump is not heavy once it is clipped on.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR016",
+      "input_type": "D01",
+      "coverage_family": "尺寸重量",
+      "challenge": "转折与双方面",
+      "text": "The compact size is helpful, but the flange presses too hard.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR017",
+      "input_type": "D01",
+      "coverage_family": "舒适度",
+      "challenge": "直接正向",
+      "text": "The soft flange stayed comfortable throughout the session.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR018",
+      "input_type": "D01",
+      "coverage_family": "舒适度",
+      "challenge": "直接负向",
+      "text": "My skin felt sore after a short session.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR019",
+      "input_type": "D01",
+      "coverage_family": "舒适度",
+      "challenge": "局部否定",
+      "text": "The flange is not uncomfortable once I use the right size.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR020",
+      "input_type": "D01",
+      "coverage_family": "舒适度",
+      "challenge": "转折与双方面",
+      "text": "The fit is comfortable, but the sound is still loud in meetings.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR021",
+      "input_type": "D01",
+      "coverage_family": "易用性",
+      "challenge": "直接正向",
+      "text": "Setup was simple before my first workday.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR022",
+      "input_type": "D01",
+      "coverage_family": "易用性",
+      "challenge": "直接负向",
+      "text": "Assembly is complicated when I have to clean it quickly.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR023",
+      "input_type": "D01",
+      "coverage_family": "易用性",
+      "challenge": "局部否定",
+      "text": "The instructions are not difficult to follow.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR024",
+      "input_type": "D01",
+      "coverage_family": "易用性",
+      "challenge": "转折与任务变化",
+      "text": "The guide is clear, but replacing the valve is difficult.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR025",
+      "input_type": "D01",
+      "coverage_family": "价格",
+      "challenge": "直接正向",
+      "text": "The price feels fair for something I use every day.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR026",
+      "input_type": "D01",
+      "coverage_family": "价格",
+      "challenge": "直接负向",
+      "text": "It is expensive for a pump with only one cup.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR027",
+      "input_type": "D01",
+      "coverage_family": "价格",
+      "challenge": "局部否定",
+      "text": "The price is not unreasonable after the discount.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR028",
+      "input_type": "D01",
+      "coverage_family": "价格",
+      "challenge": "转折与双价格词",
+      "text": "The value is good, but replacement cups cost too much.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR029",
+      "input_type": "D01",
+      "coverage_family": "客服",
+      "challenge": "直接正向",
+      "text": "Customer support was helpful when I needed a replacement part.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR030",
+      "input_type": "D01",
+      "coverage_family": "客服",
+      "challenge": "直接负向",
+      "text": "Customer service ignored my email for three days.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR031",
+      "input_type": "D01",
+      "coverage_family": "客服",
+      "challenge": "局部否定",
+      "text": "Support was not slow once I included the order number.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR032",
+      "input_type": "D01",
+      "coverage_family": "客服",
+      "challenge": "转折与双方面",
+      "text": "Support replied quickly, but delivery still arrived late.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR033",
+      "input_type": "D01",
+      "coverage_family": "物流",
+      "challenge": "直接正向",
+      "text": "Shipping was fast and the box arrived safely.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR034",
+      "input_type": "D01",
+      "coverage_family": "物流",
+      "challenge": "直接负向",
+      "text": "The package arrived late with no useful update.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR035",
+      "input_type": "D01",
+      "coverage_family": "物流",
+      "challenge": "局部否定",
+      "text": "Delivery was not delayed this time.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR036",
+      "input_type": "D01",
+      "coverage_family": "物流",
+      "challenge": "转折与双方面",
+      "text": "The package arrived early, but customer support could not answer a billing question.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR037",
+      "input_type": "D01",
+      "coverage_family": "未知主题",
+      "challenge": "词典外防漏",
+      "text": "Milk leaked when I bent to pick up a toy.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR038",
+      "input_type": "D01",
+      "coverage_family": "未知主题",
+      "challenge": "词典外防漏",
+      "text": "One quick turn caused a spill on my shirt.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR039",
+      "input_type": "D01",
+      "coverage_family": "未知主题",
+      "challenge": "应用与记录",
+      "text": "I need an app that remembers each pumping session.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR040",
+      "input_type": "D01",
+      "coverage_family": "未知主题",
+      "challenge": "显示与记录",
+      "text": "The screen should show how much milk I collected today.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR041",
+      "input_type": "D01",
+      "coverage_family": "未知主题",
+      "challenge": "清洁维护",
+      "text": "Cleaning the tiny valves takes longer than expected.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR042",
+      "input_type": "D01",
+      "coverage_family": "未知主题",
+      "challenge": "储存卫生",
+      "text": "I would like a case that keeps the parts sterile between trips.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR043",
+      "input_type": "D01",
+      "coverage_family": "未知主题",
+      "challenge": "保障条款",
+      "text": "The warranty wording is hard to understand before buying.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR044",
+      "input_type": "D01",
+      "coverage_family": "未知主题",
+      "challenge": "位置反馈",
+      "text": "I cannot tell whether the cup is aligned correctly from the mirror.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR045",
+      "input_type": "D01",
+      "coverage_family": "跨方面组合",
+      "challenge": "同向双方面",
+      "text": "The compact design is easy to pack, and the battery lasts all day.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR046",
+      "input_type": "D01",
+      "coverage_family": "跨方面组合",
+      "challenge": "转折双方面",
+      "text": "The quiet motor is nice, but the price still feels expensive.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR047",
+      "input_type": "D01",
+      "coverage_family": "跨方面组合",
+      "challenge": "双局部正向",
+      "text": "It is not loud, and the setup is simple after one practice run.",
+      "sample_classification": "合成盲测评论"
+    },
+    {
+      "record_id": "BR048",
+      "input_type": "D01",
+      "coverage_family": "跨方面组合",
+      "challenge": "转折双方面",
+      "text": "The pump is lightweight, yet the suction is too weak for me.",
+      "sample_classification": "合成盲测评论"
+    }
+  ],
+  "search_signals": [
+    {
+      "record_id": "BQ001",
+      "input_type": "D02",
+      "coverage_family": "比较意图",
+      "challenge": "比较基线",
+      "month": "2026-11",
+      "query": "best wearable pump for travel",
+      "volume_proxy": 5200,
+      "click_proxy": 0.41,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ002",
+      "input_type": "D02",
+      "coverage_family": "比较意图",
+      "challenge": "比较连接词",
+      "month": "2026-11",
+      "query": "wearable pump vs traditional pump",
+      "volume_proxy": 4700,
+      "click_proxy": 0.38,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ003",
+      "input_type": "D02",
+      "coverage_family": "比较意图",
+      "challenge": "比较与尺寸",
+      "month": "2026-11",
+      "query": "better breast pump for small bags",
+      "volume_proxy": 3600,
+      "click_proxy": 0.45,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ004",
+      "input_type": "D02",
+      "coverage_family": "比较意图",
+      "challenge": "比较优先级",
+      "month": "2026-11",
+      "query": "top quiet pump alternatives",
+      "volume_proxy": 4100,
+      "click_proxy": 0.35,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ005",
+      "input_type": "D02",
+      "coverage_family": "比较意图",
+      "challenge": "比较与属性",
+      "month": "2026-11",
+      "query": "compare wearable pumps with long battery",
+      "volume_proxy": 3900,
+      "click_proxy": 0.49,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ006",
+      "input_type": "D02",
+      "coverage_family": "比较意图",
+      "challenge": "场景不改比较",
+      "month": "2026-11",
+      "query": "best pump alternative for office",
+      "volume_proxy": 4300,
+      "click_proxy": 0.46,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ007",
+      "input_type": "D02",
+      "coverage_family": "问题意图",
+      "challenge": "阈值等于门槛",
+      "month": "2026-11",
+      "query": "wearable pump suction weak",
+      "volume_proxy": 4000,
+      "click_proxy": 0.28,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ008",
+      "input_type": "D02",
+      "coverage_family": "问题意图",
+      "challenge": "阈值低于门槛",
+      "month": "2026-11",
+      "query": "wearable pump suction weak",
+      "volume_proxy": 3999,
+      "click_proxy": 0.28,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ009",
+      "input_type": "D02",
+      "coverage_family": "问题意图",
+      "challenge": "词典外问题",
+      "month": "2026-11",
+      "query": "breast pump leaks when bending",
+      "volume_proxy": 6100,
+      "click_proxy": 0.31,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ010",
+      "input_type": "D02",
+      "coverage_family": "问题意图",
+      "challenge": "舒适度问题",
+      "month": "2026-11",
+      "query": "wearable pump hurts after twenty minutes",
+      "volume_proxy": 4500,
+      "click_proxy": 0.39,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ011",
+      "input_type": "D02",
+      "coverage_family": "问题意图",
+      "challenge": "低量级边界",
+      "month": "2026-11",
+      "query": "pump battery drains during commute",
+      "volume_proxy": 3800,
+      "click_proxy": 0.33,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ012",
+      "input_type": "D02",
+      "coverage_family": "问题意图",
+      "challenge": "噪音问题",
+      "month": "2026-11",
+      "query": "pump noise too loud for calls",
+      "volume_proxy": 7200,
+      "click_proxy": 0.26,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ013",
+      "input_type": "D02",
+      "coverage_family": "功能意图",
+      "challenge": "明确操作任务",
+      "month": "2026-11",
+      "query": "how to clean a wearable pump",
+      "volume_proxy": 5400,
+      "click_proxy": 0.52,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ014",
+      "input_type": "D02",
+      "coverage_family": "功能意图",
+      "challenge": "更换任务",
+      "month": "2026-11",
+      "query": "wearable pump flange replacement instructions",
+      "volume_proxy": 4200,
+      "click_proxy": 0.48,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ015",
+      "input_type": "D02",
+      "coverage_family": "功能意图",
+      "challenge": "卫生任务",
+      "month": "2026-11",
+      "query": "how to sterilize pump parts",
+      "volume_proxy": 4600,
+      "click_proxy": 0.51,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ016",
+      "input_type": "D02",
+      "coverage_family": "功能意图",
+      "challenge": "安装任务",
+      "month": "2026-11",
+      "query": "install wearable pump collection cup",
+      "volume_proxy": 3500,
+      "click_proxy": 0.47,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ017",
+      "input_type": "D02",
+      "coverage_family": "功能意图",
+      "challenge": "问题词与任务冲突",
+      "month": "2026-11",
+      "query": "clean noisy wearable pump",
+      "volume_proxy": 4300,
+      "click_proxy": 0.44,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ018",
+      "input_type": "D02",
+      "coverage_family": "功能意图",
+      "challenge": "问题词与任务冲突",
+      "month": "2026-11",
+      "query": "how to replace a weak pump valve",
+      "volume_proxy": 4050,
+      "click_proxy": 0.5,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ019",
+      "input_type": "D02",
+      "coverage_family": "导航意图",
+      "challenge": "政策查找",
+      "month": "2026-11",
+      "query": "wearable pump return policy",
+      "volume_proxy": 5100,
+      "click_proxy": 0.55,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ020",
+      "input_type": "D02",
+      "coverage_family": "导航意图",
+      "challenge": "订单状态",
+      "month": "2026-11",
+      "query": "wearable pump shipping status",
+      "volume_proxy": 4800,
+      "click_proxy": 0.58,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ021",
+      "input_type": "D02",
+      "coverage_family": "导航意图",
+      "challenge": "服务入口",
+      "month": "2026-11",
+      "query": "wearable pump customer service phone number",
+      "volume_proxy": 3300,
+      "click_proxy": 0.61,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ022",
+      "input_type": "D02",
+      "coverage_family": "导航意图",
+      "challenge": "保障入口",
+      "month": "2026-11",
+      "query": "pump warranty claim page",
+      "volume_proxy": 2900,
+      "click_proxy": 0.57,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ023",
+      "input_type": "D02",
+      "coverage_family": "导航意图",
+      "challenge": "订单跟踪",
+      "month": "2026-11",
+      "query": "wearable pump order tracking",
+      "volume_proxy": 3600,
+      "click_proxy": 0.54,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ024",
+      "input_type": "D02",
+      "coverage_family": "导航意图",
+      "challenge": "零件订单状态",
+      "month": "2026-11",
+      "query": "replacement cup shipping status",
+      "volume_proxy": 3100,
+      "click_proxy": 0.59,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ025",
+      "input_type": "D02",
+      "coverage_family": "属性意图",
+      "challenge": "静音属性",
+      "month": "2026-11",
+      "query": "quiet wearable pump",
+      "volume_proxy": 6800,
+      "click_proxy": 0.42,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ026",
+      "input_type": "D02",
+      "coverage_family": "属性意图",
+      "challenge": "续航属性",
+      "month": "2026-11",
+      "query": "hands free breast pump with long battery life",
+      "volume_proxy": 5900,
+      "click_proxy": 0.43,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ027",
+      "input_type": "D02",
+      "coverage_family": "属性意图",
+      "challenge": "尺寸属性",
+      "month": "2026-11",
+      "query": "portable pump for small bag",
+      "volume_proxy": 4400,
+      "click_proxy": 0.46,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ028",
+      "input_type": "D02",
+      "coverage_family": "属性意图",
+      "challenge": "形态属性",
+      "month": "2026-11",
+      "query": "wireless double wearable pump",
+      "volume_proxy": 4100,
+      "click_proxy": 0.4,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ029",
+      "input_type": "D02",
+      "coverage_family": "属性意图",
+      "challenge": "配件属性",
+      "month": "2026-11",
+      "query": "wearable pump flange size",
+      "volume_proxy": 3700,
+      "click_proxy": 0.52,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ030",
+      "input_type": "D02",
+      "coverage_family": "属性意图",
+      "challenge": "充电属性",
+      "month": "2026-11",
+      "query": "usb charge wearable pump",
+      "volume_proxy": 3500,
+      "click_proxy": 0.47,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ031",
+      "input_type": "D02",
+      "coverage_family": "优先级碰撞",
+      "challenge": "比较优先于问题词",
+      "month": "2026-11",
+      "query": "best pump for leaking while traveling",
+      "volume_proxy": 6300,
+      "click_proxy": 0.32,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ032",
+      "input_type": "D02",
+      "coverage_family": "优先级碰撞",
+      "challenge": "任务优先于问题词",
+      "month": "2026-11",
+      "query": "how to clean a pump that leaks",
+      "volume_proxy": 5500,
+      "click_proxy": 0.37,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ033",
+      "input_type": "D02",
+      "coverage_family": "优先级碰撞",
+      "challenge": "导航优先于问题词",
+      "month": "2026-11",
+      "query": "return policy for a noisy pump",
+      "volume_proxy": 4900,
+      "click_proxy": 0.49,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ034",
+      "input_type": "D02",
+      "coverage_family": "优先级碰撞",
+      "challenge": "属性与否定问题",
+      "month": "2026-11",
+      "query": "silent pump that does not leak",
+      "volume_proxy": 4050,
+      "click_proxy": 0.34,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ035",
+      "input_type": "D02",
+      "coverage_family": "阈值边界",
+      "challenge": "高于门槛一条",
+      "month": "2026-11",
+      "query": "wearable pump loud during commute",
+      "volume_proxy": 4001,
+      "click_proxy": 0.25,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ036",
+      "input_type": "D02",
+      "coverage_family": "阈值边界",
+      "challenge": "低于门槛两条",
+      "month": "2026-11",
+      "query": "wearable pump loud during commute",
+      "volume_proxy": 3998,
+      "click_proxy": 0.25,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ037",
+      "input_type": "D02",
+      "coverage_family": "阈值边界",
+      "challenge": "点击率不改准入",
+      "month": "2026-11",
+      "query": "pump battery drains during commute",
+      "volume_proxy": 4000,
+      "click_proxy": 0.66,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ038",
+      "input_type": "D02",
+      "coverage_family": "阈值边界",
+      "challenge": "点击率不替代量级",
+      "month": "2026-11",
+      "query": "pump battery drains during commute",
+      "volume_proxy": 3999,
+      "click_proxy": 0.12,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ039",
+      "input_type": "D02",
+      "coverage_family": "阈值边界",
+      "challenge": "词典外问题等于门槛",
+      "month": "2026-11",
+      "query": "wearable pump leaks after bending",
+      "volume_proxy": 4000,
+      "click_proxy": 0.3,
+      "sample_classification": "合成盲测搜索表达"
+    },
+    {
+      "record_id": "BQ040",
+      "input_type": "D02",
+      "coverage_family": "阈值边界",
+      "challenge": "词典外问题低于门槛",
+      "month": "2026-11",
+      "query": "wearable pump leaks after bending",
+      "volume_proxy": 3999,
+      "click_proxy": 0.3,
+      "sample_classification": "合成盲测搜索表达"
+    }
+  ]
+}

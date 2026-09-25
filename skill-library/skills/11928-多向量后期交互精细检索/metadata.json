@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-colbertv2-multi-vector-late-interaction",
+  "中文名称": "多向量后期交互精细检索",
+  "一句话作用": "触发词：多向量检索、后期交互、MaxSim打分、长尾复杂查询、细粒度属性匹配。何时不用：文档与查询都很短、单向量检索已足够时不必要；多语言统一召回走多语言嵌入技能。安全边界：只做检索打分不生成答案，多向量索引占用存储更大，上线前须评估存储与延迟预算。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据分析师面临\"单向量检索在长尾复杂查询上精度不足\"——ColBERT token级MaxSim将Recall@10从DPR的72%提升至89%，接近Cross-encoder精度但速度快100x时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11928-p2s-colbertv2-multi-vector-late-interaction-00924a1c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-colbertv2-multi-vector-late-interaction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-colbertv2-multi-vector-late-interaction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cc538dfb06f3f754136f5b7f2913e6e1926fe169b49241b68ee4cd8d5aa8c22b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

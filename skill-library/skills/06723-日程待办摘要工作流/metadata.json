@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-workflow-standup-report",
+  "中文名称": "日程待办摘要工作流",
+  "一句话作用": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。",
+  "关键输入": "仅支持 user 身份 。所需 calendar、task 域 token 由 agent 平台注入。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- \"今天有什么安排\" / \"今天的日程和待办\" - \"明天有什么会\" / \"明日日程与未完成任务\" - \"帮我看看今天要做什么\" / \"早报摘要\" - \"开工摘要\" / \"standup report\" - \"这周还有哪些安排\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06723-lark-workflow-standup-report-5f51a572",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/lark-workflow-standup-report/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/lark-workflow-standup-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "440b82f9701721734457b8b5c550f055112d112518d67888af0b40182808b5d9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-skill-lifecycle-design",
+  "中文名称": "全生命周期与方法论底座",
+  "一句话作用": "触发词：技能生命周期、能力契约、触发条件、下线淘汰、元数据建模。何时不用：技能优先级排序走「ROI 优先级排名」；技能自动演化与验证走「技能协同演化」。安全边界：生命周期元数据须与实际能力一致，不得为通过评估虚报效果指标。",
+  "关键输入": "输入 ：需现有技能卡内容（卡页示例 80 篇以上）、实际调用日志与错误案例（误用、用错时机），技能卡级粒度。 输出 ：产出带四元组 header 的技能卡与生命周期阶段标签、无效技能下线清单（卡页记录无效 Skill 下线率提升 60%），供 Agent 选技能与知识管理团队维护。",
+  "关键输出": "输入 ：需现有技能卡内容（卡页示例 80 篇以上）、实际调用日志与错误案例（误用、用错时机），技能卡级粒度。 输出 ：产出带四元组 header 的技能卡与生命周期阶段标签、无效技能下线清单（卡页记录无效 Skill 下线率提升 60%），供 Agent 选技能与知识管理团队维护。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：技能生命周期、能力契约、触发条件、下线淘汰、元数据建模。何时不用：技能优先级排序走「ROI 优先级排名」；技能自动演化与验证走「技能协同演化」。安全边界：生命周期元数据须与实际能力一致，不得为通过评估虚报效果指标。时，用它产出或更新：输入 ：需现有技能卡内容（卡页示例 80 篇以上）、实际调用日志与错误案例（误用、用错时机），技能卡级粒度。 输出 ：产出带四元组 header 的技能卡与生命周期阶段标签、无效技能下线清单（卡页记录无效 Skill 下线率提升 60%），供 Agent 选技能与知识管…",
+  "skill_id": "03829-p2s-skill-lifecycle-design-2b458ba4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-skill-lifecycle-design/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-skill-lifecycle-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c78dedba5e2065df634a14e7897069fae84b42281ca3b2b8251e5bf615d2ee2f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "track-findings",
+  "中文名称": "待补：track-findings",
+  "一句话作用": "Track validated Codex Security findings in Linear, Jira, GitHub issues, or draft GitHub security advisories. Use it for one finding or an explicitly selected batch of up to 25 findings tracked as Linear, Jira, or GitHub…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Summarize completed, reused, blocked, failed, uncertain, and unprocessed findings in ordinary prose or a table. Include canonical issue or advisory URLs only after readback. Keep mutable tracking state outside the sealed scan bundle. After successful readback…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Track validated Codex Security findings in Linear, Jira, GitHub issues, or draft GitHub security advisories. Use it for one finding or an explicitly selected batch of up to 25 findings tracked as Linear, Jira, or GitHub…时，用它产出或更新：Summarize completed, reuse…",
+  "skill_id": "00788-track-findings-23c99e35",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/codex-security/skills/track-findings/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/codex-security/skills/track-findings/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e3726e86ef0df509f1a635961f268e1bf04a4622a83e21c1d079f546cc61dcb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

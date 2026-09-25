@@ -1,0 +1,22 @@
+{
+  "英文名称": "understand-chat",
+  "中文名称": "待补：understand-chat",
+  "一句话作用": "Use when you need to ask questions about a codebase or understand code using a knowledge graph",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-28T01:00:43+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use when you need to ask questions about a codebase or understand code using a knowledge graph时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05196-understand-chat-a85f2fed",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.understand-anything/repo/understand-anything-plugin/skills/understand-chat/SKILL.md",
+  "relative_path": "lute/.understand-anything/repo/understand-anything-plugin/skills/understand-chat/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f1da70e0849ec2f3005fc232a95ab5f4b1c09cc062ced13945ce8516ca0e5f7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llmlingua-context-compression",
+  "中文名称": "大语言模型上下文压缩",
+  "一句话作用": "触发词：上下文压缩、token降本、大促成本控制、长文档喂入、困惑度过滤。何时不用：上下文本来就很短时压缩收益有限；检索不到对的文档时用精排或分层检索，而非压缩。安全边界：压缩只做 token 级重组、不删除原始数据，须保留完整审计链路，不得借压缩规避留痕。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要工程团队面临大促期间Agent调用成本激增——LLMLingua压缩率80%，大促API成本从¥5万/天→¥1万/天，年化节省48万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03358-p2s-llmlingua-context-compression-95b1aec8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llmlingua-context-compression/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llmlingua-context-compression/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e114535ba2ca2dd5b8e3495d834182a5315d7aebd0f8054165b07994847362d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

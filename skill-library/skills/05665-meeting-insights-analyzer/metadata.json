@@ -1,0 +1,22 @@
+{
+  "英文名称": "meeting-insights-analyzer",
+  "中文名称": "待补：meeting-insights-analyzer",
+  "一句话作用": "Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportun…",
+  "关键输入": "- Analyzing your communication patterns across multiple meetings - Getting feedback on your leadership and facilitation style - Identifying when you avoid difficult conversations - Understanding your speaking habits and…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Analyzing your communication patterns across multiple meetings - Getting feedback on your leadership and facilitation style - Identifying when you avoid difficult conversations - Understanding your speaking habits and…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05665-meeting-insights-analyzer-31239ef1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/meeting-insights-analyzer/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/meeting-insights-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c639c0fc10a84225ba117ec5561f8cca1325c8d739fd0ac169b5a6dca6a0d071",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "digital-forensics",
+  "中文名称": "待补：digital-forensics",
+  "一句话作用": "Use for authorized digital forensics including memory dumps, disk timelines, PCAP investigation, artifact triage, and IR evidence preservation.",
+  "关键输入": "- 内存转储分析（Volatility 2/3） - 磁盘/ E01 / 落地文件时间线 - PCAP 溯源与协议还原（可联合 protocol-reverse/） - 主机伪影：Prefetch、Shimcache、Event Log、浏览器历史 - 应急响应 IOC 提炼（联合 malware-analysis/ / threat-hunting/）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- 内存转储分析（Volatility 2/3） - 磁盘/ E01 / 落地文件时间线 - PCAP 溯源与协议还原（可联合 protocol-reverse/） - 主机伪影：Prefetch、Shimcache、Event Log、浏览器历史 - 应急响应 IOC 提炼（联合 malware-analysis/ / threat-hunting/）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10106-digital-forensics-167b96c9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/digital-forensics/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/digital-forensics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e07f637660fc59b2ddb6ebe3c4f8e0c9f6df9ed16990ed81d5f5e8212837dd0d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

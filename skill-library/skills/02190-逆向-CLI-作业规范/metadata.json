@@ -1,0 +1,22 @@
+{
+  "英文名称": "apk-reverse",
+  "中文名称": "逆向 CLI 作业规范",
+  "一句话作用": "在 CLI 环境下做 Android APK 逆向时使用。适用于 APK 解包、Java 反编译、smali 修改、重打包、Frida 动态 Hook，以及按需切换到 so/native 分析。优先使用本机已安装的 jadx、apktool、frida、adb、ida-reverse、radare2。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "最终至少说明： - 入口组件与关键类 - 关键逻辑在 Java、smali 还是 .so - 已确认的敏感点：登录、签名、root、SSL、WebView、JNI - 如果做了 patch，说明改了什么 - 如果做了 Hook，说明 Hook 了哪个类/方法/导出函数",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要在 CLI 环境下做 Android APK 逆向时使用。适用于 APK 解包、Java 反编译、smali 修改、重打包、Frida 动态 Hook，以及按需切换到 so/native 分析。优先使用本机已安装的 jadx、apktool、frida、adb、ida-reverse、radare2。时，用它产出或更新：最终至少说明： - 入口组件与关键类 - 关键逻辑在 Java、smali 还是 .so - 已确认的敏感点：登录、签名、root、SSL、WebView、JNI - 如果做了 patch，…",
+  "skill_id": "02190-apk-reverse-0a6291ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/apk-reverse/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/apk-reverse/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b23baecde8396b0d0b2f599e4ee1b9ec5663b97bae335624626620635fcacd3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

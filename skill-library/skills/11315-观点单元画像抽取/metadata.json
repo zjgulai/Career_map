@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-topicimpact",
+  "中文名称": "观点单元画像抽取",
+  "一句话作用": "触发词：p2s-topicimpact。Skill Card: TopicImpact Opinion Unit Extraction",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:13+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-topicimpact。Skill Card: TopicImpact Opinion Unit Extraction时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11315-p2s-topicimpact-67f32776",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-topicimpact/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-topicimpact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "33a2924abbd935ff082455cec746ec47a18bcda3d25bd337634a2c8ab9b9512b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

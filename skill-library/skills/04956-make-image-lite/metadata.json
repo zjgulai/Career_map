@@ -1,0 +1,22 @@
+{
+  "英文名称": "make-image-lite",
+  "中文名称": "待补：make-image-lite",
+  "一句话作用": "Fast, one-call image generation for chat-based end users of an app: turn a short request into a good-enough, shareable image in a single Qwen-Image call — no design ceremony. Use when a user in a chat/app sends somethin…",
+  "关键输入": "- Nothing to install. The API client is bundled at $HOME/.qoder/skills/make-image-lite/scripts/qwen image.py — Python 3.7+, standard library only, no pip packages. - Credentials live in credentials.json in this skill directory (mode 600), configured once, man…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:51:54+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Fast, one-call image generation for chat-based end users of an app: turn a short request into a good-enough, shareable image in a single Qwen-Image call — no design ceremony. Use when a user in a chat/app sends somethin…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04956-make-image-lite-a0c9a735",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/make-image-lite/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/make-image-lite/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b70d001be65b11c0571bcb038bf05208c91979e2670834195eeab54d777f123",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

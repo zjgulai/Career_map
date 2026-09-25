@@ -1,0 +1,22 @@
+{
+  "英文名称": "playwright-mcp",
+  "中文名称": "待补：playwright-mcp",
+  "一句话作用": "Browser automation via Playwright MCP server. Navigate websites, click elements, fill forms, extract data, take screenshots, and perform full browser automation workflows.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "--output-dir ./playwright-output --save-trace --save-video 1280x720",
+  "最新更新时间": "2026-09-19T03:50:03+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Browser automation via Playwright MCP server. Navigate websites, click elements, fill forms, extract data, take screenshots, and perform full browser automation workflows.时，用它产出或更新：--output-dir ./playwright-output --save-trace --save-video 1280x720",
+  "skill_id": "05012-playwright-mcp-893e7745",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/playwright-mcp/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/playwright-mcp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "179b2b6335aa2e3c1ba5a7796a44e648655161a40ee17cc8c5d3ac0411ea20e2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

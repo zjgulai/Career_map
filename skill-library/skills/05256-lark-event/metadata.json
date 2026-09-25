@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-event",
+  "中文名称": "待补：lark-event",
+  "一句话作用": "Lark/Feishu real-time event listening / subscribing / consuming: stream events as NDJSON via lark-cli event consume (covers IM messages/reactions/chat changes, Approval status changes, Task updates, VC meeting started/j…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Lark/Feishu real-time event listening / subscribing / consuming: stream events as NDJSON via lark-cli event consume (covers IM messages/reactions/chat changes, Approval status changes, Task updates, VC meeting started/j…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05256-lark-event-ddec2369",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-event/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-event/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "37a53e919b24d494624a519c7d34b40f2fd6613d080ada8cc90bf59fd3442aea",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

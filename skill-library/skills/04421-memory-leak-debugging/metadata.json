@@ -1,0 +1,22 @@
+{
+  "英文名称": "memory-leak-debugging",
+  "中文名称": "待补：memory-leak-debugging",
+  "一句话作用": "Diagnoses and resolves memory leaks in JavaScript/Node.js applications. Use when a user reports high memory usage, OOM errors, or wants to capture, compare, or inspect heap snapshots with Chrome DevTools MCP memory tool…",
+  "关键输入": "Advanced memory debugging tools (compare heapsnapshots, get heapsnapshot details, etc.) are only available when the server is started with the --memoryDebugging flag. First check if these tools are available; if not, try to read the MCP configuration file to…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:06+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Diagnoses and resolves memory leaks in JavaScript/Node.js applications. Use when a user reports high memory usage, OOM errors, or wants to capture, compare, or inspect heap snapshots with Chrome DevTools MCP memory tool…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04421-memory-leak-debugging-156f27cc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/chrome-devtools-mcp/1.9.0/skills/memory-leak-debugging/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/chrome-devtools-mcp/1.9.0/skills/memory-leak-debugging/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "895127ac55a3f2c4e0ca9be496e84165eee6408637c2bcc5516d69170a8de80e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

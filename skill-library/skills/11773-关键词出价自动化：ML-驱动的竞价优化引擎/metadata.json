@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ppc-keyword-bid-automation",
+  "中文名称": "关键词出价自动化：ML 驱动的竞价优化引擎",
+  "一句话作用": "触发词：PPC出价自动化、贝叶斯CVR、Thompson采样、目标ACOS、长尾词提价。何时不用：关键词点击量过低导致置信度低时不自动调价；按转化率偏差做单次检验调价走关键词出价自动调整器。安全边界：出价须受最低与最高出价约束，自动化改价须获平台广告API授权并保留变更记录。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Amazon PPC 200个关键词每周手动调价4小时规则不一致导致ACOS偏高15%——贝叶斯Thompson采样每日自动更新所有关键词出价，ACOS降低15-25%年化节省广告费25-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11773-p2s-ppc-keyword-bid-automation-54830dd9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ppc-keyword-bid-automation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ppc-keyword-bid-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "55aa91a852b89450861296119cd2f59c2294c540168eaab18a8cc03e219a41d1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

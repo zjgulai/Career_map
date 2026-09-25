@@ -1,0 +1,22 @@
+{
+  "英文名称": "创意工坊视频生成",
+  "中文名称": "视频生成路由技能",
+  "一句话作用": "统一调度视频生成能力，包含商品场景视频和多分镜视频生成两大子能力，覆盖商品场景视频、图片生成视频、文生视频和多分镜视频。 根据具体需求路由到对应子能力；不处理图片生成、视频后期剪辑或商品发布。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要统一调度视频生成能力，包含商品场景视频和多分镜视频生成两大子能力，覆盖商品场景视频、图片生成视频、文生视频和多分镜视频。 根据具体需求路由到对应子能力；不处理图片生成、视频后期剪辑或商品发布。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00201-skill-7260761a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-video-generation/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-video-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cbd0461c2bfc8b499010393d9fa8450d1381a7055c7be5d63354100099ccd412",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

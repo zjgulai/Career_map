@@ -1,0 +1,22 @@
+{
+  "英文名称": "playbook-generator",
+  "中文名称": "待补：playbook-generator",
+  "一句话作用": "paper2skills Playbook 生成器，扫描 Skill 卡片与 Skills Graph，生成带目录、搜索、领域页、工作流页、Skill 详情页、智能体广场（12个本地计算引擎）和智能体报告页的静态 HTML 使用手册。当需要发布或更新项目 Playbook 文档站时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- playbook/index.html：总览 Dashboard - playbook/agents.html：智能体广场（12个本地计算引擎，无需外部 API） - playbook/agent-report.html：智能体报告（localStorage 持久化，预置24条种子报告） - playbook/domains/ .html：领域页（22个） - playbook/topics/ .html：主题页 - playbook/workflows/ .html：工作流页 - playbook/skil…",
+  "最新更新时间": "2026-06-11T16:21:47+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要paper2skills Playbook 生成器，扫描 Skill 卡片与 Skills Graph，生成带目录、搜索、领域页、工作流页、Skill 详情页、智能体广场（12个本地计算引擎）和智能体报告页的静态 HTML 使用手册。当需要发布或更新项目 Playbook 文档站时使用。时，用它产出或更新：- playbook/index.html：总览 Dashboard - playbook/agents.html：智能体广场（12个本地计算引擎，无需外部 API） - playbook/agent-r…",
+  "skill_id": "07874-playbook-generator-b7413429",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/paper2skills-skills/playbook-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/paper2skills-skills/playbook-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "644e9da15bc5fa8b4ef63ddfa26d79eefc4f8ae9852439e2a30f993720ee3d25",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

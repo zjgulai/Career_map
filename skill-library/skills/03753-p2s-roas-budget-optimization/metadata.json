@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-roas-budget-optimization",
+  "中文名称": "待补：p2s-roas-budget-optimization",
+  "一句话作用": "触发词：边际ROAS、花费收入曲线、预算再分配、决策反转、渠道升降预算。何时不用：各渠道花费档位过少导致曲线拟合不可靠时不适用；只看边际ROAS不看毛利率时改用MMM预算利润对齐。安全边界：只产出分配方案与预估，不执行平台预算变更，削减渠道时须与投放负责人确认。",
+  "关键输入": "输入 ：各渠道历史花费与对应收入的成对数据（需覆盖多个花费档位以拟合曲线）与总预算约束；数据口径需与渠道后台对账一致。 输出 ：各渠道的花费-收入曲线参数、当前平均 ROAS 与边际 ROAS、建议动作（增加、维持、削减）与再分配后的整体 ROAS 预估，供媒体经理决策。",
+  "关键输出": "输入 ：各渠道历史花费与对应收入的成对数据（需覆盖多个花费档位以拟合曲线）与总预算约束；数据口径需与渠道后台对账一致。 输出 ：各渠道的花费-收入曲线参数、当前平均 ROAS 与边际 ROAS、建议动作（增加、维持、削减）与再分配后的整体 ROAS 预估，供媒体经理决策。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：边际ROAS、花费收入曲线、预算再分配、决策反转、渠道升降预算。何时不用：各渠道花费档位过少导致曲线拟合不可靠时不适用；只看边际ROAS不看毛利率时改用MMM预算利润对齐。安全边界：只产出分配方案与预估，不执行平台预算变更，削减渠道时须与投放负责人确认。时，用它产出或更新：输入 ：各渠道历史花费与对应收入的成对数据（需覆盖多个花费档位以拟合曲线）与总预算约束；数据口径需与渠道后台对账一致。 输出 ：各渠道的花费-收入曲线参数、当前平均 ROAS 与边际 ROAS、建议动作（增加、维持、削减）与再分配…",
+  "skill_id": "03753-p2s-roas-budget-optimization-5f51b25a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-roas-budget-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-roas-budget-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3a6644a38b562f07683f06827035c10876ad412e435a8c0da35b023fc58fbd12",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

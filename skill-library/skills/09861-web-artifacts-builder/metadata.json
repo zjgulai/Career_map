@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-artifacts-builder",
+  "中文名称": "待补：web-artifacts-builder",
+  "一句话作用": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "To build powerful frontend claude.ai artifacts, follow these steps: 1. Initialize the frontend repo using scripts/init-artifact.sh 2. Develop your artifact by editing the generated code 3. Bundle all code into a single HTML file using scripts/bundle-artifact.…",
+  "最新更新时间": "2026-03-25T23:10:46+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or…时，用它产出或更新：To build powerful frontend…",
+  "skill_id": "09861-web-artifacts-builder-0c9e2b9e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills-temp/claude skills/skills/web-artifacts-builder/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills-temp/claude skills/skills/web-artifacts-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "81c5002c6643b0de7b8710b00e7a9038daa6fb9b68d59870ee6adb12da8d10f8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-identity-fragmentation-debiasing",
+  "中文名称": "身份碎片化纠偏）",
+  "一句话作用": "触发词：身份碎片化、跨端断链、分层聚合、Cohort 纠偏、渠道被低估、曝光购买对应。何时不用：完全没有任何用户或 cohort 关联字段时无法纠偏；要判断渠道的增量效果时用实验方法。安全边界：用户标识需哈希处理，cohort 层聚合不得输出个体明细，数据使用须在隐私政策覆盖范围内。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：女装独立站通过 Instagram（手机端）大量投放信息流广告时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03229-p2s-identity-fragmentation-debiasing-7efeb221",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-identity-fragmentation-debiasing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-identity-fragmentation-debiasing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9902708c7ce32cb7f78c5c05984c5df7e182aec48f67c52a890ea68dd85bf728",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

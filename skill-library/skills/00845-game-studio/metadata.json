@@ -1,0 +1,22 @@
+{
+  "英文名称": "game-studio",
+  "中文名称": "待补：game-studio",
+  "一句话作用": "Route early browser-game work. Use when the user needs stack selection and workflow planning across design, implementation, assets, and playtesting before moving to a specialist skill.",
+  "关键输入": "- \"Help me prototype a browser tactics game.\" - \"I need a Phaser-based action game loop with a HUD and menus.\" - \"I want a Three.js exploration demo with WebGL lighting and browser-safe UI.\" - \"I want a React-based 3D c…",
+  "关键输出": "- For planning requests, return a game-specific plan with stack choice, gameplay loop, UI surface, asset workflow, and test approach. - For implementation requests, keep the chosen stack obvious in the file structure and code boundaries. - For mixed requests,…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- \"Help me prototype a browser tactics game.\" - \"I need a Phaser-based action game loop with a HUD and menus.\" - \"I want a Three.js exploration demo with WebGL lighting and browser-safe UI.\" - \"I want a React-based 3D c…时，用它产出或更新：- For planning requests, r…",
+  "skill_id": "00845-game-studio-677ca40e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/game-studio/skills/game-studio/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/game-studio/skills/game-studio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "87c32773f787b338064e3b7cf5e237a46b5c12e9ffe082927349ebb9584fd15b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

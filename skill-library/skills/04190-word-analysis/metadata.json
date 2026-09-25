@@ -1,0 +1,22 @@
+{
+  "英文名称": "word-analysis",
+  "中文名称": "待补：word-analysis",
+  "一句话作用": "Word (.docx/.doc) 文档全量解析。覆盖：正文/段落文本提取、表格数据提取、高亮/颜色格式读取、多文件汇总对比、嵌入图片转 caption。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Word (.docx/.doc) 文档全量解析。覆盖：正文/段落文本提取、表格数据提取、高亮/颜色格式读取、多文件汇总对比、嵌入图片转 caption。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04190-word-analysis-1f12b3ad",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-non-spreadsheet-analysis/capability/word-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-non-spreadsheet-analysis/capability/word-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7d512e2169960abba095d3d449f8806241827f63e3e89ffcaf5fd731c40a4fa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

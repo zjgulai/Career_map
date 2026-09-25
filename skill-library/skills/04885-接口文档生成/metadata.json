@@ -1,0 +1,22 @@
+{
+  "英文名称": "generate-api-docs",
+  "中文名称": "接口文档生成",
+  "一句话作用": "根据 Java Controller 源码生成 Markdown 接口文档，包含接口名称、请求方式(GET/POST/PUT/DELETE)、请求路径、请求头(token)、请求 Body/Query 参数表(字段名/类型/备注/是否必填)、返回 JSON 示例、错误码说明，适配服务端(若依 AjaxResult)与客户端后端(ApiResponse)两种响应结构。Use when 用户要求生成接口文档、API 文档、接口清单，或需要…",
+  "关键输入": "参数来源 位置 必填判断 --- --- --- @RequestBody XxxRequest Body(JSON) DTO 字段上有 @NotNull/@NotBlank/@NotEmpty 校验的必填；无校验注解的看代码空值分支 @RequestParam String x Query 默认必填；required=false 或有 defaultValue 可选 @PathVariable Path 必填 @RequestParam(\"file\") MultipartFile Body(form-data)…",
+  "关键输出": "- 一个模块一个文件：docs/api/ .md，文件开头放接口目录（Markdown 锚点跳转） - 返回 JSON 示例的值用贴近业务的中文示例（药品名、单号、科室等），不要用 \"test\"/\"xxx\" - 已存在同名文档时，只更新涉及的接口段落，保留其余内容，并在文件头部更新修改时间",
+  "最新更新时间": "2026-09-19T03:53:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要根据 Java Controller 源码生成 Markdown 接口文档，包含接口名称、请求方式(GET/POST/PUT/DELETE)、请求路径、请求头(token)、请求 Body/Query 参数表(字段名/类型/备注/是否必填)、返回 JSON 示例、错误码说明，适配服务端(若依 AjaxResult)与客户端后端(ApiResponse)两种响应结构。Use when 用户要求生成接口文档、API 文档、接口清单，或需要…时，用它产出或更新：- 一个模块一个文件：docs/api/ .md，文…",
+  "skill_id": "04885-generate-api-docs-3d5bf0ff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/generate-api-docs/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/generate-api-docs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39cbd9e8a70b14901c3c149a19d8fb0671f53746632ba6dcc4f6c96376b5f46b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

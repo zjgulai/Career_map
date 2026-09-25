@@ -1,0 +1,22 @@
+{
+  "英文名称": "playwright-cli",
+  "中文名称": "待补：playwright-cli",
+  "一句话作用": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "By default, snapshot saves output to files in .playwright-cli/ directory (not stdout). To read snapshot results, you MUST cat the output file:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications,…时，用它产出或更新：By default, snapshot saves…",
+  "skill_id": "05974-playwright-cli-c669576c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/playwright-cli/skills/playwright-cli/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/playwright-cli/skills/playwright-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6862a7203b9ae7313b5ed7366519a71ebd5e0fa7205e9822468a7475b5b32e3a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

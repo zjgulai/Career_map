@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-FraudSquad-LLM-Review-Detection",
+  "中文名称": "待补：FraudSquad LLM Review Detection",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 56.8, \"best\": 83.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:39:58.586633\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:39:58+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 56.8, \"best\": 83.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:39:58.586633\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07136-skill-fraudsquad-llm-review-detection-6b3ba45c",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-FraudSquad-LLM-Review-Detection.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-FraudSquad-LLM-Review-Detection.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "909fd68bf615e5ac2b1187357e6e5dea930e2005c3d848a08777d0e19176cf5d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

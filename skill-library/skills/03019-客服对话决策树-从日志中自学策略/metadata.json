@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-customer-journey-decision-tree",
+  "中文名称": "客服对话决策树 - 从日志中自学策略",
+  "一句话作用": "触发词：客服决策树、退换货工单、对话策略自学、工单自动分流、客服话术边界。何时不用：只是要评审文案质量时用 LLM-as-Judge；需要跨库取数或精确数值查询时用表检索/Text2SQL 类技能。安全边界：涉及健康或医疗建议的叶节点必须附非医学建议声明并保留转人工与专家通道，不得给出诊断或用药结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴出海电商客服 70% 工单是\"退换货咨询\"(尺码错、漏发、过敏等),人工处理成本高,响应慢时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03019-p2s-customer-journey-decision-tree-db20eff2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-customer-journey-decision-tree/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-customer-journey-decision-tree/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2e409c049f7a4c67c8b36098f6a305bd5c3982ccc8de2fa7cee8ded45c5f0a6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

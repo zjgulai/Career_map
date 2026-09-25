@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-journal-format",
+  "中文名称": "待补：doubao-journal-format",
+  "一句话作用": "用于对学术论文类 Word/DOCX 文档进行期刊、学校、会议或课程要求的格式排版与修复。当用户需要把论文原稿套用.docx 模板或明确格式规则、或提到论文排版、期刊投稿格式、学位论文格式、会议论文模板、时使用；如果同一请求同时包含论文 Word 排版和任何非排版任务，必须先停止并询问用户选择“只做格式排版”还是“作为复合任务拆分处理”，在用户明确选择前不得执行排版。不用于论文写作、润色、降重、翻译、代写、文献检索、补引用、验证引用、…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When formatting succeeds, return only the final .docx as the main deliverable. In the final response: - First, briefly say that formatting is complete. - Do not describe successfully applied formatting, style-transfer details, granular fallback properties, or…",
+  "最新更新时间": "2026-09-12T03:26:22+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要用于对学术论文类 Word/DOCX 文档进行期刊、学校、会议或课程要求的格式排版与修复。当用户需要把论文原稿套用.docx 模板或明确格式规则、或提到论文排版、期刊投稿格式、学位论文格式、会议论文模板、时使用；如果同一请求同时包含论文 Word 排版和任何非排版任务，必须先停止并询问用户选择“只做格式排版”还是“作为复合任务拆分处理”，在用户明确选择前不得执行排版。不用于论文写作、润色、降重、翻译、代写、文献检索、补引用、验证引用、…时，用它产出或更新：When formatting succeeds,…",
+  "skill_id": "06530-doubao-journal-format-00892d95",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-journal-format/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-journal-format/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3e781741ab49df20aba81333a6c764ea397b7e816ad083e2e70fb277d8e84a2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

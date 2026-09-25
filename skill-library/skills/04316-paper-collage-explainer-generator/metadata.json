@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-collage-explainer-generator",
+  "中文名称": "待补：paper-collage-explainer-generator",
+  "一句话作用": "Turn narration, opinions, or abstract ideas into paper-collage stills and stop-motion clips with tactile SFX and optional assembly. Not for presenter ads, editable layers, or prompt-only work.",
+  "关键输入": "For each line, concept, story, or topic, extract: - Core meaning: what the viewer should understand - Emotion: calm, urgent, ironic, surprising, absurd, clarifying, reflective, mysterious, or playful - Action verb: open, connect, leak, archive, compress, spli…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:02:41+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use this Skill when the user wants: - A short script line turned into a visual-metaphor collage animation - A simple story or literary topic explained through collage B-roll - Editorial paper-collage animation for narra…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04316-paper-collage-explainer-generator-b0625c82",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/paper-collage-explainer-generator/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/paper-collage-explainer-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca764d3500280ca3e4f1530b3fd459cc8f69ee484b959ca7f3a7a90f3ee867be",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

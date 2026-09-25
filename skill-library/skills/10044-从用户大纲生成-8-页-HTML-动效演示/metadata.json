@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-motion-deck",
+  "中文名称": "从用户大纲生成 8 页 HTML 动效演示",
+  "一句话作用": "当用户提供一段演示文稿主题、内容大纲或会议材料，希望生成结构完整、视觉突出、每页有动画的 HTML 演示文稿时使用；从新内容生成 8 页单文件 HTML，不生成 pptx，也不改写已有案例。",
+  "关键输入": "以下输入足以直接开始，不再追问： - 明确的演示主题； - 3 个以上核心内容点，或一段能拆出 3 个以上要点的正文； - 可以判断的大致受众或使用场景。 只有缺少演示主题或完全没有可拆分内容时，才使用 ask user question 一次补齐。用户未指定页数时固定 8 页；未指定视觉模板时按本 Skill 规则推荐默认模板。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T03:52:28+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当用户提供一段演示文稿主题、内容大纲或会议材料，希望生成结构完整、视觉突出、每页有动画的 HTML 演示文稿时使用；从新内容生成 8 页单文件 HTML，不生成 pptx，也不改写已有案例。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10044-dsh-motion-deck-b2a71177",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/dsh-motion-deck-studio/skills/dsh-motion-deck/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/dsh-motion-deck-studio/skills/dsh-motion-deck/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ead026bd93af52f25491724563bab09b929ec62c354a11043b4848ed69059bb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inclusive-design-accessibility-ai",
+  "中文名称": "包容性设计AI（无障碍母婴产品推荐与界面优化）",
+  "一句话作用": "触发词：无障碍审计、WCAG 合规、对比度检查、屏幕阅读器、可用性验证。何时不用：要审计 AI 助手自身的安全红线用「Responsible AI Red Teaming」；要检查推荐与定价算法的群体公平性用「AI 算法偏见审计」。安全边界：自动扫描结论不能替代人工无障碍审计与法律意见，合规评分不得当作免责依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要设计团队面临\"母婴App被视障用户投诉无障碍缺失面临ADA诉讼风险\"——WCAG合规扫描识别95%无障碍问题，年化防范法律诉讼风险20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03236-p2s-inclusive-design-accessibility-ai-c80a49ff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-inclusive-design-accessibility-ai/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-inclusive-design-accessibility-ai/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f26f08133ed402afbf992468db91a9ef51e6b5fb9cbf0894b4aedfd309fa14ea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-adaptive-reorder-point-kalman",
+  "中文名称": "自适应补货点 Kalman 版 让 ROP 随市场需求动态漂移",
+  "一句话作用": "触发词：补货点自适应、动态补货点、安全库存漂移、需求突变补货、ROP 调整。何时不用：要跨场景借用历史补货经验做冷启动补货用「补货决策记忆」类技能，要做库存分层与库龄归因用「库存分层」。安全边界：须设 ROP 单日变化率上限（如不超过 20%）防止补货订单剧烈波动，模型不直接下单。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要补货负责人面临\"固定补货点在旺季缺货淡季积压无法跟随需求漂移\"——Kalman自适应ROP将补货点误差降低40%，年化避免断货和积压损失$9.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02693-p2s-adaptive-reorder-point-kalman-fd8c2f73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-adaptive-reorder-point-kalman/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-adaptive-reorder-point-kalman/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8a10f8ac7e23fff15abd2beafbde09bb8165da5bafd2e1f7b42f0eac7e456e57",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

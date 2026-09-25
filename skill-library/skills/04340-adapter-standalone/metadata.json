@@ -1,0 +1,22 @@
+{
+  "英文名称": "adapter-standalone",
+  "中文名称": "待补：adapter-standalone",
+  "一句话作用": "Mount tRPC on Node.js built-in HTTP server with createHTTPServer() from @trpc/server/adapters/standalone, createHTTPHandler() for custom http.createServer, createHTTP2Handler() for HTTP/2 with TLS. Configure basePath to…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:24:57+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Mount tRPC on Node.js built-in HTTP server with createHTTPServer() from @trpc/server/adapters/standalone, createHTTPHandler() for custom http.createServer, createHTTP2Handler() for HTTP/2 with TLS. Configure basePath to…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04340-adapter-standalone-ac41ce2d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.npm/_npx/28bb5da791664809/node_modules/@trpc/server/skills/adapter-standalone/SKILL.md",
+  "relative_path": "lute/.npm/_npx/28bb5da791664809/node_modules/@trpc/server/skills/adapter-standalone/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8b067f34fe2c350cd35ee0f402bef57d8309d31f68ca632f1fdeb0a7fe60ef9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

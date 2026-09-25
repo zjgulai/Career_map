@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Causal-SEO-Search-Attribution",
+  "中文名称": "待补：Causal SEO Search Attribution",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T05:08:44.836449\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T20:08:44+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T05:08:44.836449\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06908-skill-causal-seo-search-attribution-a7858ac7",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Causal-SEO-Search-Attribution.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Causal-SEO-Search-Attribution.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "26425d132626bf44bf1fcc9d8f3282161828482176a09fc5e87e3eb45b3130b0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

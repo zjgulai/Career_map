@@ -1,0 +1,22 @@
+{
+  "英文名称": "viral-content-decomposition",
+  "中文名称": "待补：viral-content-decomposition",
+  "一句话作用": "Decompose an accepted ReferenceBundle into a timed, evidence-linked DecompositionMap covering hook, tension, proof, experience, visual/audio/text grammar, CTA, claims, and unknowns; use before pattern abstraction or scr…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-23T00:49:26+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Decompose an accepted ReferenceBundle into a timed, evidence-linked DecompositionMap covering hook, tension, proof, experience, visual/audio/text grammar, CTA, claims, and unknowns; use before pattern abstraction or scr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10764-viral-content-decomposition-f96a194f",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/viral-content-decomposition/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/viral-content-decomposition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "116c64141997c6a3fe5c52c8e0e176976d9864dd108a987803682b932056b3e6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

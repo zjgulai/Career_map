@@ -1,0 +1,22 @@
+{
+  "英文名称": "ic-memo",
+  "中文名称": "待补：ic-memo",
+  "一句话作用": "Draft a structured investment committee memo for PE deal approval. Synthesizes due diligence findings, financial analysis, and deal terms into a professional IC-ready document. Use when preparing for investment committe…",
+  "关键输入": "Collect from the user (or from prior analysis in the session): - Company overview and business description - Industry/market context - Historical financials (3-5 years) - Management assessment - Deal terms (price, structure, financing) - Due diligence finding…",
+  "关键输出": "- Default: Word document (.docx) with professional formatting - Alternative: Markdown for quick review - Include tables for financials and returns, not just prose",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Draft a structured investment committee memo for PE deal approval. Synthesizes due diligence findings, financial analysis, and deal terms into a professional IC-ready document. Use when preparing for investment committe…时，用它产出或更新：- Default: Word document (…",
+  "skill_id": "05524-ic-memo-7b0a5681",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/ic-memo/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/ic-memo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62ab741880a946ab3e738b1f1514cb44b4e8b4f8b1d2e7b42c1e1ba5fcbb417f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

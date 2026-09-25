@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Temu-Consignment-Analytics",
+  "中文名称": "待补：Temu Consignment Analytics",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 92.0, \"best\": 92.0, \"ts\": \"2026-07-04T04:58:28.025382\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:58:28+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 92.0, \"best\": 92.0, \"ts\": \"2026-07-04T04:58:28.025382\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07773-skill-temu-consignment-analytics-ad438ead",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Temu-Consignment-Analytics.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Temu-Consignment-Analytics.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "53838d3a03289203b7b9d27759c6ce6a8a925e6e0b7a2f3adc21684335022ccc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

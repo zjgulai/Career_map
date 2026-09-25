@@ -1,0 +1,22 @@
+{
+  "英文名称": "fyopen-lawsearch",
+  "中文名称": "法研·法律法规检索",
+  "一句话作用": "法研·法律法规检索 MCP Skill。涉及「法律法规」「法条」「法规条文」「民法典」「现行有效法规」等关键词时使用。支持自然语言获取精准、现行有效的法规条文，将高质量、海量的法规知识库无缝接入 AI 应用与工作流。",
+  "关键输入": "- 查询中国大陆现行有效的法律法规条文 - 通过自然语言描述获取相关法规依据 - 精确引用某部法律的特定条款（如\"民法典第一千零八十四条\"） - 法律咨询、合规检查、合同审查时寻找权威法规依据",
+  "关键输出": "1. 不凭记忆答法条 ——即使模型\"记得\"，也必须先调用工具拿到真实原文 2. 时效性标注 ——返回结果中若含已废止/已修改法规，必须显式提示 3. 空结果不编造 ——工具返回为空时如实告知\"未检索到相关条文\"，并建议用户换关键词或换角度重试 4. 不替代律师 ——本服务提供资料检索与研究辅助，不构成法律意见；涉及具体案件处理建议咨询执业律师",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- 查询中国大陆现行有效的法律法规条文 - 通过自然语言描述获取相关法规依据 - 精确引用某部法律的特定条款（如\"民法典第一千零八十四条\"） - 法律咨询、合规检查、合同审查时寻找权威法规依据时，用它产出或更新：1. 不凭记忆答法条 ——即使模型\"记得\"，也必须先调用工具拿到真实原文 2. 时效性标注 ——返回结果中若含已废止/已修改法规，必须显式提示 3. 空结果不编造 ——工具返回为空时如实告知\"未检索到相关条文\"，并建议用户换关键词或换角度重试 4. 不替代律师 ——本服务提供资料检索与研究辅助，不构…",
+  "skill_id": "05275-fyopen-lawsearch-4033831b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/fyopen-lawsearch/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/fyopen-lawsearch/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "215d071e8cebad85197175e1d6140b3059939abd8df302f0aa600a0271736b97",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

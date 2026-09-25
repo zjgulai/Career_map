@@ -1,0 +1,22 @@
+{
+  "英文名称": "buddy-sings",
+  "中文名称": "待补：buddy-sings",
+  "一句话作用": "Use when user wants their Claude Code pet (/buddy) to sing a song. Triggers on any request that combines the concept of their Claude Code buddy, pet, or companion with singing or music. Supports multilingual triggers —…",
+  "关键输入": "- mmx CLI (required for music generation): Install: Authenticate (first time only): Get your API key from MiniMax Platform. - Audio player (for playback — at least one of): - mpv (recommended — interactive controls: space = pause, q = quit)",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when user wants their Claude Code pet (/buddy) to sing a song. Triggers on any request that combines the concept of their Claude Code buddy, pet, or companion with singing or music. Supports multilingual triggers —…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10711-buddy-sings-011887bd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/buddy-sings/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/buddy-sings/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "83006e66236079fdeba978a80c0d2178109cf7780de058a541f8453ba0180a50",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

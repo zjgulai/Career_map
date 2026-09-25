@@ -1,0 +1,22 @@
+{
+  "英文名称": "dev-progress-governor",
+  "中文名称": "待补：dev-progress-governor",
+  "一句话作用": "govern execution hygiene for software projects. use when the user wants help enforcing git commit discipline, deciding whether work is ready to commit, generating commit messages, updating progress logs, summarizing com…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Use this format unless the user requests another:",
+  "最新更新时间": "2026-09-19T04:11:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要govern execution hygiene for software projects. use when the user wants help enforcing git commit discipline, deciding whether work is ready to commit, generating commit messages, updating progress logs, summarizing com…时，用它产出或更新：Use this format unless the…",
+  "skill_id": "04806-dev-progress-governor-eb1ba94a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dev-progress-governor/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dev-progress-governor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6ac67d7827769408eebb70f5fee6464f24609184d0b76620e01345c0455484a8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

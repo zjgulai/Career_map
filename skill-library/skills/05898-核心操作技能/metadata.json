@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-core",
+  "中文名称": "核心操作技能",
+  "一句话作用": "Godot 4 核心操作技能。提供场景、节点、脚本的基础 MCP 工具调用能力。 当用户的工作区包含 Godot 项目（存在 project.godot 文件）时自动激活。",
+  "关键输入": "调用任何工具前，确认： 1. Godot Editor 已打开 2. 底部状态栏显示 MCP: Listening on port 9080",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Godot 4 核心操作技能。提供场景、节点、脚本的基础 MCP 工具调用能力。 当用户的工作区包含 Godot 项目（存在 project.godot 文件）时自动激活。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05898-godot-core-3256bf1e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-0-foundation/godot-core/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-0-foundation/godot-core/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "141945711daae1d500ba2f4928d522784495636f12fec6be3f5d17a7ac7a4d2b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

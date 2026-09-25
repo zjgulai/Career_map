@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-root-cause-analysis-agent",
+  "中文名称": "待补：p2s-root-cause-analysis-agent",
+  "一句话作用": "触发词：根因分析、转化率骤降、假设生成、证据取证、监控闭环。何时不用：已有指标因果拓扑要秒级路径溯源时用「ProRCA」；只要指标漂移告警本身时用运行监测类技能。安全边界：Agent 只做查询取证与结论输出，不得自行执行修复或变更线上配置。",
+  "关键输入": "输入 ：异常事件描述（指标、发生时间、幅度）、可查询的证据源（页面加载、支付成功率、流量来源、SKU 库存、竞品价格）与查询接口。 输出 ：假设清单、每条假设的证据与判定结论、最终根因与建议动作；供业务负责人快速处置。",
+  "关键输出": "输入 ：异常事件描述（指标、发生时间、幅度）、可查询的证据源（页面加载、支付成功率、流量来源、SKU 库存、竞品价格）与查询接口。 输出 ：假设清单、每条假设的证据与判定结论、最终根因与建议动作；供业务负责人快速处置。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：根因分析、转化率骤降、假设生成、证据取证、监控闭环。何时不用：已有指标因果拓扑要秒级路径溯源时用「ProRCA」；只要指标漂移告警本身时用运行监测类技能。安全边界：Agent 只做查询取证与结论输出，不得自行执行修复或变更线上配置。时，用它产出或更新：输入 ：异常事件描述（指标、发生时间、幅度）、可查询的证据源（页面加载、支付成功率、流量来源、SKU 库存、竞品价格）与查询接口。 输出 ：假设清单、每条假设的证据与判定结论、最终根因与建议动作；供业务负责人快速处置。",
+  "skill_id": "03755-p2s-root-cause-analysis-agent-bd820b8c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-root-cause-analysis-agent/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-root-cause-analysis-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d520d5fdf2dd122108c3dabfe5ce200d79a1c625d2cc5080f0bc56315f2a9759",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-order-splitting-merging-optimizer",
+  "中文名称": "订单拆合单优化器 多仓多渠道场景下拆单合单的成本-时效平衡决策",
+  "一句话作用": "触发词：拆单、合单、多仓发货、运费优化、多包裹客诉。何时不用：要查看已发包裹走到哪了用「履约跟踪」，要处理配送失败与到货异常用「到货异常追踪」；本技能只决定这一单怎么拆、怎么合。安全边界：拆单会改变客户收到的包裹数与平台时效承诺，高风险方案须先核对平台政策与客户体验，模型不直接改单。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要多仓运营面临\"多包裹发货增加运费和客户差评\"——智能拆合单减少10%运费支出，同一客户合并发货减少Split-delivery差评时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03566-p2s-order-splitting-merging-optimizer-3b90045f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-order-splitting-merging-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-order-splitting-merging-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b5a687fea83b2a4591e7fe64a13efc4682272c413e011974c3df078e3438b918",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

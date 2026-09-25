@@ -1,0 +1,22 @@
+{
+  "英文名称": "geo-database",
+  "中文名称": "待补：geo-database",
+  "一句话作用": "Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), retrieve SOFT/Matrix files, for transcriptomics and expression analysis.",
+  "关键输入": "This skill should be used when searching for gene expression datasets, retrieving experimental data, downloading raw and processed files, querying expression profiles, or integrating GEO data into computational analysis…",
+  "关键输出": "de results = pd.DataFrame(results)",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when searching for gene expression datasets, retrieving experimental data, downloading raw and processed files, querying expression profiles, or integrating GEO data into computational analysis…时，用它产出或更新：de results = pd.DataFrame(…",
+  "skill_id": "05734-geo-database-64ec52d1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/geo-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/geo-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f65512baa4d9b57f2574848437668e68faefcf32ed465cc09e93e4b03599cfca",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

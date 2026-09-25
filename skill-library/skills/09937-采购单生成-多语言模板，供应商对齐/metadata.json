@@ -1,0 +1,22 @@
+{
+  "英文名称": "采购单生成（多语言模板，供应商对齐）",
+  "中文名称": "待补：采购单生成（多语言模板，供应商对齐）",
+  "一句话作用": "在补货决策已书面/系统批准后，将批次与 SKU 行生成标准采购单（中/英/德等），便于发送供应商与留档；不自动发送除非对接系统。",
+  "关键输入": "- 已批准 的补货决策（来自 replenishment-decision-report 或 ERP 审批流）。 - 供应商主数据： 名称、税号、联系人、币种、MOQ、交期默认天数 。",
+  "关键输出": "- PO header lines incoterms payment ship to version - 变更记录 ：v0.1 草稿 / 正式版标记。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在补货决策已书面/系统批准后，将批次与 SKU 行生成标准采购单（中/英/德等），便于发送供应商与留档；不自动发送除非对接系统。时，用它产出或更新：- PO header lines incoterms payment ship to version - 变更记录 ：v0.1 草稿 / 正式版标记。",
+  "skill_id": "09937-skill-fdfac166",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/purchase-order-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/purchase-order-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f3d0ff492a40762c59d79ab92b4d6dc9ac27ce943b92ce63e9a2e955cd43b57",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

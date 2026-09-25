@@ -1,0 +1,22 @@
+{
+  "英文名称": "phaser-2d-game",
+  "中文名称": "待补：phaser-2d-game",
+  "一句话作用": "Implement 2D browser games with Phaser. Use when the user wants a Phaser, TypeScript, and Vite stack for scenes, gameplay systems, cameras, sprite animation, and DOM-overlay HUD patterns.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Implement 2D browser games with Phaser. Use when the user wants a Phaser, TypeScript, and Vite stack for scenes, gameplay systems, cameras, sprite animation, and DOM-overlay HUD patterns.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00847-phaser-2d-game-a0e94b6a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/game-studio/skills/phaser-2d-game/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/game-studio/skills/phaser-2d-game/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f740df62cb4c6c0f7f5457be4f860d9d163f4cd1df78326c5a61de03d9d7efb8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-uplift-intervention-priority-queue",
+  "中文名称": "加权排序生成有限促销资源干预执行队列",
+  "一句话作用": "触发词：干预队列、增量与价值加权、资源约束、分层触达、负效应过滤、发券名单。何时不用：要单独估个体效应本身用「因果提升模型」或「X-Learner 异质处理效应」；要在分群间分预算用「个性化促销定向」。安全边界：本技能承载的是排序与筛选规则，不是执行器；发券与触达由模型外的确定性控制层执行，用户数据处理须符合个人信息保护要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要促销运营面临\"618前500张优惠券随机分发给1500名候选用户导致增量GMV损失\"——Uplift×LTV加权排序将同等预算下增量GMV提升40-70%，单次大促多产出$2000-4000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12436-p2s-uplift-intervention-priority-queue-5e72830c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-uplift-intervention-priority-queue/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-uplift-intervention-priority-queue/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0fba0e1a7f29e3fedf52dd931a3329d753d5aef3d7718f38181b9da8e0002eee",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

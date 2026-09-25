@@ -1,0 +1,22 @@
+{
+  "英文名称": "需求优先级排序",
+  "中文名称": "需求优先级排序",
+  "一句话作用": "输入需求列表，用RICE/ICE/MoSCoW/Kano模型辅助排序，输出优先级矩阵和Sprint规划建议。 内置框架选择决策树——根据数据充分度和决策场景自动推荐最适合的排序框架。 连接~~Notion后可将排序决策记录写入团队知识库。 当用户说\"需求排序\"、\"优先级\"、\"RICE\"、\"ICE\"、\"需求排期\"、\"MoSCoW\"、\"排backlog\"、 \"sprint规划\"、\"需求取舍\"、\"迭代规划\"、\"backlog排序\"、\"需求评…",
+  "关键输入": "字段 必填 说明 ------ ------ ------ 需求列表 是 需求名称+简要描述，至少3个。可直接引用 /用户反馈分析 的痛点排序结果或 /PRD生成 的需求列表作为输入 排序框架 否 RICE/ICE/MoSCoW/Kano，未指定则自动推荐 业务目标 否 当前核心目标（增长/留存/营收/效率），影响权重分配 资源约束 否 本Sprint/季度可用的开发资源（人天或Story Points）",
+  "关键输出": "RICE排序结果表 ： 排名 需求 R(触达) I(影响) C(信心) E(工作量) RICE Score 建议 ----- ------ --------- --------- --------- ---------- ----------- ------ 1 {需求名} {数字} {0.25-3} {50-100%} {人月} {分数} 本期必做 四象限分析（影响 x 工作量） ： 象限 影响 工作量 策略 需求列表",
+  "最新更新时间": "2026-09-19T03:38:51+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要输入需求列表，用RICE/ICE/MoSCoW/Kano模型辅助排序，输出优先级矩阵和Sprint规划建议。 内置框架选择决策树——根据数据充分度和决策场景自动推荐最适合的排序框架。 连接~~Notion后可将排序决策记录写入团队知识库。 当用户说\"需求排序\"、\"优先级\"、\"RICE\"、\"ICE\"、\"需求排期\"、\"MoSCoW\"、\"排backlog\"、 \"sprint规划\"、\"需求取舍\"、\"迭代规划\"、\"backlog排序\"、\"需求评…时，用它产出或更新：RICE排序结果表 ： 排名 需求 R(触达) I(…",
+  "skill_id": "04621-skill-b8157623",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/需求优先级排序/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/需求优先级排序/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6c4fdb01fdb43f7a1cc971bbbb9db1bbb89b6385db43c039493bc37908756eb4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

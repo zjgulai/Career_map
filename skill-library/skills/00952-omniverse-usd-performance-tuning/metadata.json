@@ -1,0 +1,22 @@
+{
+  "英文名称": "omniverse-usd-performance-tuning",
+  "中文名称": "待补：omniverse-usd-performance-tuning",
+  "一句话作用": "Top-level workflow skill for USD performance diagnosis and optimization. Use for slow loading, high memory, low FPS, or 'optimize my scene' requests; delegates auth/runtime setup to Phase 0 owners.",
+  "关键输入": "- Stage path or enough context to identify the target asset. - User goal: diagnosis only, validation, profiling, or processor execution. - Runtime availability status from setup-usd-performance-tuning when not already known. - Permission status for in-place m…",
+  "关键输出": "Return a plan or status summary that names the selected entry skill, uses ready to plan for generic optimization requests, includes the full milestone chain through optimization-report, and labels profile phases as profile-stage:baseline and profile-stage:aft…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this workflow for broad performance asks such as slow loading, high memory, low FPS, GPU crashes, conversion-quality triage, or generic requests to optimize a USD scene.时，用它产出或更新：Return a plan or status summary that names the selected entry skill, uses…",
+  "skill_id": "00952-omniverse-usd-performance-tuning-c0d4d589",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/omniverse-usd-performance-tuning/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/omniverse-usd-performance-tuning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a1d9c582aed12c00711b6b9d3151ba24397cb73d899f4723aa2486098e1c5e5a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "TikTok 带货全片脚本（安全场景 + 合规声明位）",
+  "中文名称": "待补：TikTok 带货全片脚本（安全场景 + 合规声明位）",
+  "一句话作用": "当需要基于 Hook 与产品事实生成整支带货视频的完整脚本（分镜、口播、字幕、必填安全提示位）且将用于 TikTok Shop/信息流投放时调用；须再经 ftc-gdpr-compliance-checker 与平台政策。",
+  "关键输入": "- 已有 Hook （来自 tiktok-hook-writer）或 platform-formatter 中的 TikTok 字段摘要。 - 产品 使用安全要点 来自说明书事实层（禁止疗效宣称）。 - 目标市场语言与 ad / 赞助披露 格式已知。",
+  "关键输出": "- Script v1：分镜表 T 画面 口播 字幕 音效/贴纸 - 单页拍摄清单 ：道具、婴儿/模特授权占位。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要基于 Hook 与产品事实生成整支带货视频的完整脚本（分镜、口播、字幕、必填安全提示位）且将用于 TikTok Shop/信息流投放时调用；须再经 ftc-gdpr-compliance-checker 与平台政策。时，用它产出或更新：- Script v1：分镜表 T 画面 口播 字幕 音效/贴纸 - 单页拍摄清单 ：道具、婴儿/模特授权占位。",
+  "skill_id": "09916-tiktok-eeb516e4",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/operations-execute/tiktok-script-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/operations-execute/tiktok-script-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad3147cfe057dae26d434e654b367fbfd0aa7073efb7825b34dca796538efa23",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

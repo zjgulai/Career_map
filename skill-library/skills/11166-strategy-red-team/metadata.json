@@ -1,0 +1,22 @@
+{
+  "英文名称": "strategy-red-team",
+  "中文名称": "待补：strategy-red-team",
+  "一句话作用": "Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does. Steelmans then attacks each claim, ranks failure modes by impact × likelihood × cheapness-to-test, and returns the chea…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:17:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does. Steelmans then attacks each claim, ranks failure modes by impact × likelihood × cheapness-to-test, and returns the chea…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11166-strategy-red-team-b4f711e1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/strategy-red-team/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/strategy-red-team/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3758fcf6f2f2653721c9d58586f7816e17d47d4723b54a5d3457a6641d2663fc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

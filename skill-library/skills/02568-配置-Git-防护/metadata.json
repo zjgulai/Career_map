@@ -1,0 +1,22 @@
+{
+  "英文名称": "git-guardrails-claude-code",
+  "中文名称": "配置 Git 防护",
+  "一句话作用": "git 操作护栏（防危险操作）。触发词：Git 操作护栏、git-guardrails-claude-code、git 操作护栏（防危险操作）。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要git 操作护栏（防危险操作）。触发词：Git 操作护栏、git-guardrails-claude-code、git 操作护栏（防危险操作）。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02568-git-guardrails-claude-code-99623fcf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/git-guardrails-claude-code/SKILL.md",
+  "relative_path": "lute/.dsh/skills/git-guardrails-claude-code/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "888a8c2da560e37762034f25ef147e618db55f5debfcf23eb3d0630a4fa32faf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

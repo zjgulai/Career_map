@@ -1,0 +1,22 @@
+{
+  "英文名称": "understand-figma",
+  "中文名称": "待补：understand-figma",
+  "一句话作用": "Analyze a Figma file via the Figma REST API and generate an interactive design knowledge graph (pages, screens, components, component sets, instances, design tokens) with a kind:\"design\" dashboard.",
+  "关键输入": "- FIGMA TOKEN environment variable — a Figma personal access token (create one at https://www.figma.com/settings). If it is missing, STOP and tell the user: Set a Figma token first: create one at figma.com/settings, then export FIGMA [REDACTED] - Node ≥ 22, p…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-28T00:57:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Analyze a Figma file via the Figma REST API and generate an interactive design knowledge graph (pages, screens, components, component sets, instances, design tokens) with a kind:\"design\" dashboard.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00404-understand-figma-0d68c1cd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.agents/skills.disabled/understand-figma/SKILL.md",
+  "relative_path": "lute/.agents/skills.disabled/understand-figma/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8f76ffb75250a265d609d597c218d1884e220618065240748f2256ef10c475d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

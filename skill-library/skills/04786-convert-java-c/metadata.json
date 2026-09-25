@@ -1,0 +1,22 @@
+{
+  "英文名称": "convert-java-c",
+  "中文名称": "待补：convert-java-c",
+  "一句话作用": "Convert Java code to idiomatic C. Use when migrating Java projects to C, translating Java patterns to idiomatic C, or refactoring Java codebases for performance, minimal runtime dependencies, and systems programming. Ex…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:32+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Convert Java code to idiomatic C. Use when migrating Java projects to C, translating Java patterns to idiomatic C, or refactoring Java codebases for performance, minimal runtime dependencies, and systems programming. Ex…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04786-convert-java-c-c9fa6c2a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/convert-java-c/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/convert-java-c/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af426375c4e1452d81355be230535b06d8b94812cd04e58d11f6acbd66451caf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "hyperplan",
+  "中文名称": "待补：hyperplan",
+  "一句话作用": "Adversarial multi-agent planning skill. Self-orchestrates 5 hostile category members (unspecified-low, unspecified-high, deep, ultrabrain, artistry) via team-mode for ruthless cross-critique debate, distills only the de…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要Adversarial multi-agent planning skill. Self-orchestrates 5 hostile category members (unspecified-low, unspecified-high, deep, ultrabrain, artistry) via team-mode for ruthless cross-critique debate, distills only the de…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01644-hyperplan-c23256ca",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/hyperplan/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/hyperplan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b38e6ffd37188d8711cef4af00fa62576101ea0600ae10e504b6cc777881bde",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

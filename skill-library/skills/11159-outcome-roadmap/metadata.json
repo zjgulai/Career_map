@@ -1,0 +1,22 @@
+{
+  "英文名称": "outcome-roadmap",
+  "中文名称": "待补：outcome-roadmap",
+  "一句话作用": "Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:55+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11159-outcome-roadmap-aedd464e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/outcome-roadmap/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/outcome-roadmap/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d2da8f82f4cbe4c8d06593765e2fbb94913676e9a65663b7da9e53c9a0082c8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

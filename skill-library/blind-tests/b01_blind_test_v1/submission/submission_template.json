@@ -1,0 +1,31 @@
+{
+  "protocol_id": "B01-BLIND-01",
+  "submission_state": "待独立执行人填写",
+  "independent_evaluator_reference": "",
+  "executed_at": "",
+  "input_sha256": "独立运行器会自动写入，不应手填。",
+  "candidate_hashes": {
+    "D01": "",
+    "D02": ""
+  },
+  "d01_outputs": [
+    {
+      "record_id": "BR001",
+      "tuples": [
+        [
+          "方面",
+          "positive_or_negative"
+        ]
+      ]
+    }
+  ],
+  "d02_outputs": [
+    {
+      "record_id": "BQ001",
+      "intent": "",
+      "sentiment": "",
+      "opportunity_rule_hit": false
+    }
+  ],
+  "submission_note": "提交者不得将本模板中的示例行留在正式提交中。"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "mixpanel-headless-setup",
+  "中文名称": "待补：mixpanel-headless-setup",
+  "一句话作用": "This skill installs mixpanel headless, pandas, numpy, matplotlib, seaborn, networkx, anytree, scipy (and pyarrow on Python 3.11+), then verifies Mixpanel credentials. It should be invoked when setting up a new environme…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要This skill installs mixpanel headless, pandas, numpy, matplotlib, seaborn, networkx, anytree, scipy (and pyarrow on Python 3.11+), then verifies Mixpanel credentials. It should be invoked when setting up a new environme…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00920-mixpanel-headless-setup-0811aa5c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/mixpanel-headless/skills/setup/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/mixpanel-headless/skills/setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1724fbfb68297f4fc40c8685bb31934be0efc8f550617242c85df035ebfff6fc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

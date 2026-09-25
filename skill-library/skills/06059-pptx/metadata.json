@@ -1,0 +1,22 @@
+{
+  "英文名称": "pptx",
+  "中文名称": "待补：pptx",
+  "一句话作用": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx o…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:22:08+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx o…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06059-pptx-0ad5f0d4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/finchnest/.finch/skills/pptx/SKILL.md",
+  "relative_path": "lute/finchnest/.finch/skills/pptx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7ff03e2c85b636f55232a6b1555f5dd90216b7a1a359ab289d8364e6acbc6a0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

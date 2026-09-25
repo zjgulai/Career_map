@@ -1,0 +1,22 @@
+{
+  "英文名称": "hmdb-database",
+  "中文名称": "待补：hmdb-database",
+  "一句话作用": "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification.",
+  "关键输入": "This skill should be used when performing metabolomics research, clinical chemistry, biomarker discovery, or metabolite identification tasks.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when performing metabolomics research, clinical chemistry, biomarker discovery, or metabolite identification tasks.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05741-hmdb-database-8abd3b73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/hmdb-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/hmdb-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f33e6d38a921d9d2e1f476e87c002be263d30703c1c33296b6d0fd16cd7ee577",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

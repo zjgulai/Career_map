@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Search-Term-Negative-Optimization",
+  "中文名称": "待补：Search Term Negative Optimization",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:13:04.565336\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T20:13:04+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:13:04.565336\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07651-skill-search-term-negative-optimization-659195d9",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Search-Term-Negative-Optimization.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Search-Term-Negative-Optimization.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "0d9b0f9d63ee3d75f13df85fbbcd4aacbc925a8a13d1f3be76d6fdc9e15181d6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

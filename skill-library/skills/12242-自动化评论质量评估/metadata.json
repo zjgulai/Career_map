@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-autoqual-review-quality-assessment",
+  "中文名称": "自动化评论质量评估",
+  "一句话作用": "触发词：评论质量、水评识别、可解释打分、高质量评论置顶、评论排序。何时不用：为 A+ 素材批量抽优质评论用「评论有用性排序模型」；本技能侧重质量特征发现与水评标记。安全边界：只做排序与标记，不修改或删除真实评论，误判需人工复核兜底。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Amazon Listing 中 40% 评论是\"好用\"\"五星\"等无信息量水评，买家无法获得真实决策信息——LLM Agent 自动发现可解释质量特征、轻量分类器打分排序，高质量评论置顶提升转化率 0.2-0.5%，年化 GMV 增量 20-100 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12242-p2s-autoqual-review-quality-assessment-f650cecb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-autoqual-review-quality-assessment/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-autoqual-review-quality-assessment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16c69ff41cee39970f509262a64282561698a7cb262e0b87f0260452643770e3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

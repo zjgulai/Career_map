@@ -1,0 +1,22 @@
+{
+  "英文名称": "airflow-dag-patterns",
+  "中文名称": "待补：airflow-dag-patterns",
+  "一句话作用": "Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs.",
+  "关键输入": "- Creating data pipeline orchestration with Airflow - Designing DAG structures and dependencies - Implementing custom operators and sensors - Testing Airflow DAGs locally - Setting up Airflow in production - Debugging f…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Creating data pipeline orchestration with Airflow - Designing DAG structures and dependencies - Implementing custom operators and sensors - Testing Airflow DAGs locally - Setting up Airflow in production - Debugging f…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05601-airflow-dag-patterns-a3069502",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/data-engineering/skills/airflow-dag-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/data-engineering/skills/airflow-dag-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "264854636e92133015cc269f638e8ab16ac3f1c789880fb0d4647d72db9464e6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

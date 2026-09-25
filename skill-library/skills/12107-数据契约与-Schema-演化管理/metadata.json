@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-schema-evolution-data-contract",
+  "中文名称": "数据契约与 Schema 演化管理",
+  "一句话作用": "触发词：数据契约、Schema演化、向后兼容、兼容层注入、多市场字段合并。何时不用：上游完全无文档、需要先从样本推断出结构时用 Schema 自动推断技能；只做本体版本升级与依赖通知时用本体版本管理技能。安全边界：契约上线初期须用警告模式灰度，不得直接用严格模式阻塞上游发布，契约文件不得写入敏感字段明文。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据工程师面临\"上游数据字段变更导致下游ML管道静默失败\"——数据契约将字段变更导致的pipeline故障减少80%，年化减少数据质量事故维护成本20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12107-p2s-schema-evolution-data-contract-4ec4ba3c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-schema-evolution-data-contract/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-schema-evolution-data-contract/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7901848070730b3e62bf199240d7f440e0a70e6edca308147d93cb13586da2e3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

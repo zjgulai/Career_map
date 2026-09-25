@@ -1,0 +1,22 @@
+{
+  "英文名称": "summarize",
+  "中文名称": "待补：summarize",
+  "一句话作用": "Summarize or transcribe URLs, YouTube/videos, podcasts, articles, transcripts, PDFs, and local files.",
+  "关键输入": "Use this skill immediately when the user asks any of: - “use summarize.sh” - “what’s this link/video about?” - “summarize this URL/article” - “transcribe this YouTube/video” (best-effort transcript extraction; no yt-dlp…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:02:57+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use this skill immediately when the user asks any of: - “use summarize.sh” - “what’s this link/video about?” - “summarize this URL/article” - “transcribe this YouTube/video” (best-effort transcript extraction; no yt-dlp…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06134-summarize-a93582c9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/summarize/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/summarize/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "80cc11fe09b55e0ccd936a9b7f4dbb2820ff9d9480a4d5941c763fbe6e0e8903",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

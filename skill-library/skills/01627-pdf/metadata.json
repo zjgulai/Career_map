@@ -1,0 +1,22 @@
+{
+  "英文名称": "pdf",
+  "中文名称": "待补：pdf",
+  "一句话作用": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as reportlab, pdfplumber, and pypdf for gen…",
+  "关键输入": "- Read or review PDF content where layout and visuals matter. - Create PDFs programmatically with reliable formatting. - Validate final rendering before delivery.",
+  "关键输出": "- Use tmp/pdfs/ for intermediate files; delete when done. - Write final artifacts under output/pdf/ when working in this repo. - Keep filenames stable and descriptive.",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Read or review PDF content where layout and visuals matter. - Create PDFs programmatically with reliable formatting. - Validate final rendering before delivery.时，用它产出或更新：- Use tmp/pdfs/ for intermediate files; delete when done. - Write final artifacts un…",
+  "skill_id": "01627-pdf-58a06dc6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/pdf/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/pdf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

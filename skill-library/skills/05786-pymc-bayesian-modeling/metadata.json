@@ -1,0 +1,22 @@
+{
+  "英文名称": "pymc-bayesian-modeling",
+  "中文名称": "待补：pymc-bayesian-modeling",
+  "一句话作用": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
+  "关键输入": "This skill should be used when: - Building Bayesian models (linear/logistic regression, hierarchical models, time series, etc.) - Performing MCMC sampling or variational inference - Conducting prior/posterior predictive…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要This skill should be used when: - Building Bayesian models (linear/logistic regression, hierarchical models, time series, etc.) - Performing MCMC sampling or variational inference - Conducting prior/posterior predictive…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05786-pymc-bayesian-modeling-c9cf6919",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pymc/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pymc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8fa35d3247c77c5880e7ee1f4a41ffa98a670752dd358ad426f5a4e9f7a47d7c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

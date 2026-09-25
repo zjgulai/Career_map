@@ -1,0 +1,22 @@
+{
+  "英文名称": "circleci-cli",
+  "中文名称": "待补：circleci-cli",
+  "一句话作用": "Operate and troubleshoot CircleCI using the CircleCI CLI. Use when users ask to authenticate CLI access, inspect pipeline/workflow/job status, validate configuration locally, rerun pipelines/jobs, trigger pipelines, or…",
+  "关键输入": "- Repository path and target branch - CircleCI project slug (if needed) - Whether objective is inspect, rerun, trigger, or validate - Required token/auth state and org permissions",
+  "关键输出": "Provide: 1. Commands run and purpose. 2. Key outputs (pipeline/workflow/job ids, status, failing step). 3. Actions taken (rerun/trigger/validate) and why. 4. Remaining blockers and next recommended CLI command.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Operate and troubleshoot CircleCI using the CircleCI CLI. Use when users ask to authenticate CLI access, inspect pipeline/workflow/job status, validate configuration locally, rerun pipelines/jobs, trigger pipelines, or…时，用它产出或更新：Provide: 1. Commands run an…",
+  "skill_id": "00766-circleci-cli-a724acbf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/circleci/skills/cli/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/circleci/skills/cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a30a850365b8fb271cdfacd86bd8c9052f681e5a67bd9aa7a88d9bfa6569cbed",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

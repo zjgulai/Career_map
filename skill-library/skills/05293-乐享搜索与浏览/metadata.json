@@ -1,0 +1,22 @@
+{
+  "英文名称": "lexiang-search",
+  "中文名称": "乐享搜索与浏览",
+  "一句话作用": "乐享知识库搜索与内容阅读。当用户提到「乐享」「知识库」「lexiang」并包含搜索/查找/阅读意图时使用。典型触发：「帮我找一下…」「搜索一下…」「查一下有没有…」「看看这个知识库里有什么」「找找关于 XX 的文档」「读一下这个页面」「打开这个链接」。也适用于用户提供 lexiangla.com 链接、/pages/、/spaces/ 路径需要读取内容的场景。支持实体召回（搜索 space、entry、team）、RAG 切片召回（语…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "链接拼接规则见 base/SKILL.md（{domain} 来源、三级域名判断、company from 获取优先级）。 根据返回的 target type 拼接路径部分（搜索独有）： target type 路径格式 ------------- ---------- kb page /pages/ kb file / kb video /teams/ /docs/ ---",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要乐享知识库搜索与内容阅读。当用户提到「乐享」「知识库」「lexiang」并包含搜索/查找/阅读意图时使用。典型触发：「帮我找一下…」「搜索一下…」「查一下有没有…」「看看这个知识库里有什么」「找找关于 XX 的文档」「读一下这个页面」「打开这个链接」。也适用于用户提供 lexiangla.com 链接、/pages/、/spaces/ 路径需要读取内容的场景。支持实体召回（搜索 space、entry、team）、RAG 切片召回（语…时，用它产出或更新：链接拼接规则见 base/SKILL.md（{dom…",
+  "skill_id": "05293-lexiang-search-c68a901a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/search/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d1b25cab1100ca84fc32291136a672eadd01755a16ecc5e5cc83d5f8344fc55a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

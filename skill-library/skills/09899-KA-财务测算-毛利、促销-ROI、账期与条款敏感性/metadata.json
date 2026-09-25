@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 财务测算（毛利、促销 ROI、账期与条款敏感性）",
+  "中文名称": "待补：KA 财务测算（毛利、促销 ROI、账期与条款敏感性）",
+  "一句话作用": "在提案已有多语言初稿后，对条款组合进行财务建模：毛利率、滚动费用、促销 ROI、账期资金占用；输出供买手谈判与内部审批，属战略（含财务）域。",
+  "关键输入": "- multilingual-localizer-ka 后已定稿的 商业条款占位 或谈判草稿。 - 成本 ：出厂价、到岸分摊、KA 扣点、物流、预计退货损耗。 - 销量假设 ：Base / Upside / Downside 三档。",
+  "关键输出": "- 假设表 P&L 摘要 敏感性图（文字描述） 谈判优先级 - 红线 ：列明不可突破项（需财务签字）。",
+  "最新更新时间": "2026-03-25T17:18:43+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在提案已有多语言初稿后，对条款组合进行财务建模：毛利率、滚动费用、促销 ROI、账期资金占用；输出供买手谈判与内部审批，属战略（含财务）域。时，用它产出或更新：- 假设表 P&L 摘要 敏感性图（文字描述） 谈判优先级 - 红线 ：列明不可突破项（需财务签字）。",
+  "skill_id": "09899-ka-roi-800a9761",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/ka-financial-model/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/ka-financial-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "14e2e7c1f51d54bab619bcbcdc4643bf7d1fac861ec41bcfc7479e1c581c8d29",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

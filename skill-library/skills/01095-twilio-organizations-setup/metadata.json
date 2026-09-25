@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-organizations-setup",
+  "中文名称": "待补：twilio-organizations-setup",
+  "一句话作用": "Set up and manage Twilio Organizations for centralized account and user governance. Covers the Organization Account Subaccount hierarchy, roles (Owner/Admin/Standard), managed vs independent accounts, domain registratio…",
+  "关键输入": "Dimension Organization (Managed Accounts) Subaccounts ----------- ---------------------------------- ------------- Management Console UI + Organizations API REST API (/2010-04-01/Accounts) Billing Independent per accoun…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Dimension Organization (Managed Accounts) Subaccounts ----------- ---------------------------------- ------------- Management Console UI + Organizations API REST API (/2010-04-01/Accounts) Billing Independent per accoun…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01095-twilio-organizations-setup-22b426ff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-organizations-setup/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-organizations-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6358ae1d05ccebb8cf48c736e0e68133602372a7aa1e5a1527a757912faff5b3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

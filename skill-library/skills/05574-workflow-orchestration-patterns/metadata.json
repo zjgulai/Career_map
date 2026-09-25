@@ -1,0 +1,22 @@
+{
+  "英文名称": "workflow-orchestration-patterns",
+  "中文名称": "待补：workflow-orchestration-patterns",
+  "一句话作用": "Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed…",
+  "关键输入": "Why Critical (Source: docs.temporal.io/activities): - Activities may execute multiple times - Network failures trigger retries - Duplicate execution must be safe Implementation Strategies : - Idempotency keys (deduplication) - Check-then-act with unique const…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05574-workflow-orchestration-patterns-74567f83",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/workflow-orchestration-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/workflow-orchestration-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c370674fdaa55a363aef43a5ebee1e0eb1c1851ada59b47e65b67c490b98c51",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

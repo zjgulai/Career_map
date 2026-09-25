@@ -1,0 +1,22 @@
+{
+  "英文名称": "optimize-ecommerce-page-conversion",
+  "中文名称": "待补：optimize-ecommerce-page-conversion",
+  "一句话作用": "Diagnose and fix Shopify page conversion problems — Home, Collection, Product Detail Page (PDP), and Promo Landing Pages. Use when traffic is healthy but conversion rate (CR), add-to-cart rate, or cart-to-checkout rate…",
+  "关键输入": "- Store has steady traffic (≥ 500 sessions/week) but CR is below 1.5% (industry benchmark: 2.0–4.0%). - Specific page type shows bounce rate 70% (PDP) or 60% (Home/Collection). - About to launch a paid ads campaign and…",
+  "关键输出": "When invoked, deliver: 1. Review mode and evidence — data-backed or structural; page URLs, observation period/sample size when available, missing evidence, and observed state for each reviewed item 2. Critical issues (red) — observed defects to fix first; con…",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Store has steady traffic (≥ 500 sessions/week) but CR is below 1.5% (industry benchmark: 2.0–4.0%). - Specific page type shows bounce rate 70% (PDP) or 60% (Home/Collection). - About to launch a paid ads campaign and…时，用它产出或更新：When invoked, deliver: 1. R…",
+  "skill_id": "00248-optimize-ecommerce-page-conversion-81db468c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/optimize-ecommerce-page-conversion/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/optimize-ecommerce-page-conversion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "370317f1affe7f74bbe609903803199b68720abb924c48e9184a9807a4a9e9e2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

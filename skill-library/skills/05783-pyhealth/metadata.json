@@ -1,0 +1,22 @@
+{
+  "英文名称": "pyhealth",
+  "中文名称": "待补：pyhealth",
+  "一句话作用": "Comprehensive healthcare AI toolkit for developing, testing, and deploying machine learning models with clinical data. This skill should be used when working with electronic health records (EHR), clinical prediction tas…",
+  "关键输入": "- Large datasets : Deep learning models require sufficient data (thousands of patients) - Data quality : Missing data and coding errors impact performance - Temporal consistency : Ensure train/test split respects temporal ordering when needed",
+  "关键输出": "- External validation : Test on data from different hospitals/systems - Prospective evaluation : Validate in real clinical settings before deployment - Clinical review : Have clinicians review predictions and interpretations - Ethical considerations : Address…",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Invoke this skill when: - Working with healthcare datasets : MIMIC-III, MIMIC-IV, eICU, OMOP, sleep EEG data, medical images - Clinical prediction tasks : Mortality prediction, hospital readmission, length of stay, drug…时，用它产出或更新：- External validation : Te…",
+  "skill_id": "05783-pyhealth-0356d380",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pyhealth/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pyhealth/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9dc4cc26abb38e3c45242d48da857a9e1f20fea7edfb99f8459f31b300223310",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "algorithmic-art",
+  "中文名称": "待补：algorithmic-art",
+  "一句话作用": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems.…",
+  "关键输入": "Seeded Randomness (Art Blocks Pattern) : Parameter Structure - FOLLOW THE PHILOSOPHY : To establish parameters that emerge naturally from the algorithmic philosophy, consider: \"What qualities of this system can be adjusted?\" To design effective parameters, fo…",
+  "关键输出": "Output: 1. Algorithmic Philosophy - As markdown or text explaining the generative aesthetic 2. Single HTML Artifact - Self-contained interactive generative art built from templates/viewer.html (see STEP 0 and next section) The HTML artifact contains everythin…",
+  "最新更新时间": "2026-09-19T04:22:09+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要\"Organic Turbulence\" Philosophy: Chaos constrained by natural law, order emerging from disorder. Algorithmic expression: Flow fields driven by layered Perlin noise. Thousands of particles following vector forces, their…时，用它产出或更新：Output: 1. Algorithmic Phil…",
+  "skill_id": "04285-algorithmic-art-ddf4d1e0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.finch/skills/algorithmic-art/SKILL.md",
+  "relative_path": "lute/.finch/skills/algorithmic-art/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

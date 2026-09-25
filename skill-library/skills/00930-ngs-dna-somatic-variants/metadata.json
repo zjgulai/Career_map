@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-dna-somatic-variants",
+  "中文名称": "待补：ngs-dna-somatic-variants",
+  "一句话作用": "Run or plan tumor-normal, tumor-only, WGS, WES, or cancer-panel somatic variant workflows with pairing, contamination, panel-of-normals, purity, QC, and annotation checks.",
+  "关键输入": "Confirm: - tumor-normal, tumor-only, relapse-baseline, or multi-tumor design - WGS, WES, or panel assay and target BED when applicable - input type and whether reads are already aligned - tumor/normal pairing table and sample identifiers - reference build, kn…",
+  "关键输出": "Produce: - validated pairing/sample sheet - caller/filter settings and reference/resource manifest - QC summary: tumor/normal depth, contamination, duplication, insert size, on-target rate for panels/WES - per-pair review table covering matched-normal state,…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run or plan tumor-normal, tumor-only, WGS, WES, or cancer-panel somatic variant workflows with pairing, contamination, panel-of-normals, purity, QC, and annotation checks.时，用它产出或更新：Produce: - validated pairing/sample sheet - caller/filter settings and refe…",
+  "skill_id": "00930-ngs-dna-somatic-variants-58bcfb2e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-dna-somatic-variants/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-dna-somatic-variants/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b7c01ec7aca4cc40485977ca310015a3e9169c9348fcb9fc3009176ae8e58f5a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

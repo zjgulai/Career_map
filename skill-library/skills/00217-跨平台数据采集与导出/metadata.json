@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-custom-analysis",
+  "中文名称": "跨平台数据采集与导出",
+  "一句话作用": "当用户想把淘宝、天猫、抖店、京东、拼多多或 1688 自家已绑定店铺 的经营数据「抓下来」「爬一下」「拉一份原始表」「导出成 Excel」「只要 xlsx 不要报告」时使用本 Skill，也覆盖固定报告管道之外的自定义主题取数（评价、库存、广告、售后、搜索词、违规、行业对比与跨主题组合）。默认只做只读采集与原始 Excel 规范交付，不生成分析报告；交付后再询问用户是否需要基于本次数据出报告。不适用于非自家经营数据诉求，不修改店铺、商…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 中间运行目录：data/custom-analysis- /，只作为本次运行工作区。 - 标准交付目录：店铺端/ / /自定义分析/ /，由 scripts/spec delivery.py 生成。 - 默认取数交付 ：每店目录只含 assets/（该店原始 .xlsx 字节级全集）与 meta.json， 无 HTML 。 - 可选分析交付 ：用户确认后额外生成一个新的 目录，含 HTML 报告 + assets/ + meta.json；首次取数目录保持不变。",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要当用户想把淘宝、天猫、抖店、京东、拼多多或 1688 自家已绑定店铺 的经营数据「抓下来」「爬一下」「拉一份原始表」「导出成 Excel」「只要 xlsx 不要报告」时使用本 Skill，也覆盖固定报告管道之外的自定义主题取数（评价、库存、广告、售后、搜索词、违规、行业对比与跨主题组合）。默认只做只读采集与原始 Excel 规范交付，不生成分析报告；交付后再询问用户是否需要基于本次数据出报告。不适用于非自家经营数据诉求，不修改店铺、商…时，用它产出或更新：- 中间运行目录：data/custom-analy…",
+  "skill_id": "00217-multi-platform-custom-analysis-2362adc5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-custom-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-custom-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "01f2068311f29cbc2caf40bdf4998dfb6377980272c5eafa5c4598aa27c2a7dd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-video-emotion-resonance-score",
+  "中文名称": "视频情感共鸣评分（母婴内容感动度量化）",
+  "一句话作用": "触发词：情感共鸣评分、情感弧线分析、母婴内容感动度、分享率预测、情绪峰值识别。何时不用：判断内容带货转化效率用内容归因类技能，本技能只量化情感共鸣强度与传播潜力。安全边界：涉用户面部与情绪数据须取得授权并脱敏，不得用于情绪操纵式营销，不得输出个体情绪画像。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容团队面临\"无法量化母婴视频的情感共鸣效果导致爆款难以复制\"——情感弧线分析将高潜力内容识别准确率提升65%，年化通过优化内容投放增加自然流量价值30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11862-p2s-video-emotion-resonance-score-c802719b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-video-emotion-resonance-score/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-video-emotion-resonance-score/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "15c7ef803810750cb0e8d03cf04a83fa3f63f03d61fa7198d667e46d0f50343a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

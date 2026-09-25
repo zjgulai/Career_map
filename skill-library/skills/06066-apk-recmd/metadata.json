@@ -1,0 +1,22 @@
+{
+  "英文名称": "apk-recmd",
+  "中文名称": "待补：apk-recmd",
+  "一句话作用": "gAAAAABqYL4Rwe0 PDwcRsy6vua-8YMPicyMnJifmLvB6msZ37ryvHQKt1pT3dsvsiOOOlIW-6ZKbJltHboRt3o58Q9rKjg6JftCnynw4TgpB1WXBtsBNamRRz5onC vK7bLmQy7d8bomabzZtNAd1tOch NqnGZJBXpsv0xZVieJzEGwRxXnCfvMcdLknhILKPz4yTdLhK-Re69rqk6C7BxMeZ…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-22T20:56:49+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要gAAAAABqYL4Rwe0 PDwcRsy6vua-8YMPicyMnJifmLvB6msZ37ryvHQKt1pT3dsvsiOOOlIW-6ZKbJltHboRt3o58Q9rKjg6JftCnynw4TgpB1WXBtsBNamRRz5onC vK7bLmQy7d8bomabzZtNAd1tOch NqnGZJBXpsv0xZVieJzEGwRxXnCfvMcdLknhILKPz4yTdLhK-Re69rqk6C7BxMeZ…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06066-apk-recmd-6b2c9ccd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/apk-recmd/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/apk-recmd/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2b3f20a44b41924a345c3d470df9ed0b29d5bac61574574c70ab190bb67b9e7d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

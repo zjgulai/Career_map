@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-reliability-patterns",
+  "中文名称": "待补：twilio-reliability-patterns",
+  "一句话作用": "Handle rate limits, retries, and failures when building on Twilio at scale. Covers 429 exponential backoff with jitter, per-number throughput limits, StatusCallback resilience, thin-receiver pattern, and fallback chains…",
+  "关键输入": "- A working Twilio integration (any product) - Understanding of your expected volume (messages/sec, calls/sec) - StatusCallback URLs configured — see twilio-messaging-services, twilio-sms-send-message ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Handle rate limits, retries, and failures when building on Twilio at scale. Covers 429 exponential backoff with jitter, per-number throughput limits, StatusCallback resilience, thin-receiver pattern, and fallback chains…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01098-twilio-reliability-patterns-14ce7121",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-reliability-patterns/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-reliability-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0ca7d88af0b2b04d369c770ec6f39125b488ec0083cad56ed975d7356be635d6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

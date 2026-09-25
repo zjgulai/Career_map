@@ -1,0 +1,22 @@
+{
+  "英文名称": "frontend-security-coder",
+  "中文名称": "待补：frontend-security-coder",
+  "一句话作用": "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns.",
+  "关键输入": "- Client-side validation : Form validation security, input pattern enforcement, data type validation - Allowlist validation : Whitelist-based input validation, predefined value sets, enumeration security - Regular expression security : Safe regex patterns, Re…",
+  "关键输出": "- Safe DOM manipulation : textContent vs innerHTML security, secure element creation and modification - Dynamic content sanitization : DOMPurify integration, HTML sanitization libraries, custom sanitization rules - Context-aware encoding : HTML entity encodin…",
+  "最新更新时间": "2026-09-19T03:48:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Use this agent for : Hands-on frontend security coding, XSS prevention implementation, CSP configuration, secure DOM manipulation, client-side vulnerability fixes - Use security-auditor for : High-level security audit…时，用它产出或更新：- Safe DOM manipulation :…",
+  "skill_id": "04878-frontend-security-coder-e9b096ef",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/frontend-security-coder/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/frontend-security-coder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1840030215ffdd5856c9fc169fb0a8cf0f0c0095eacb755aabaf577846fb3a63",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

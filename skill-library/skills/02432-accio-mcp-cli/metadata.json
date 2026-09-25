@@ -1,0 +1,22 @@
+{
+  "英文名称": "accio-mcp-cli",
+  "中文名称": "待补：accio-mcp-cli",
+  "一句话作用": "- Use the accio-mcp-cli command-line tool to discover, search, and invoke MCP tools (Twitter, Gmail, Notion, Square, Apify, etc.) directly from the terminal. Use when the user asks to call MCP tools via CLI, run accio-m…",
+  "关键输入": "- Always search before guessing tool names. - Most services need a one-time start auth call. - Timeout: 60s (most commands), 24h (call). Use --raw for slow tools. - --help overrides skill content — run accio-mcp-cli --h…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:08:50+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- Always search before guessing tool names. - Most services need a one-time start auth call. - Timeout: 60s (most commands), 24h (call). Use --raw for slow tools. - --help overrides skill content — run accio-mcp-cli --h…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02432-accio-mcp-cli-d197aacb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/accio-mcp-cli/SKILL.md",
+  "relative_path": "lute/.dsh/skills/accio-mcp-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d2289fdf89eb983714163c5dd2c831a24a480b38ded65493e992872cfbc35e28",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

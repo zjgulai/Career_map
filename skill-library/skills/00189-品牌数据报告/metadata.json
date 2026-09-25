@@ -1,0 +1,22 @@
+{
+  "英文名称": "品牌数据报告",
+  "中文名称": "品牌数据报告",
+  "一句话作用": "查询 ICBU 品牌广告核心数据与效果指标，覆盖品牌店铺报告、商品效果、关键词效果、聚量词效果、同行对比、达标率和履约 CPC。 支持多维度下钻、环比同比和事实总结；只做数据播报，不做优化建议或预定操作。",
+  "关键输入": "☢️ 所有 MCP 工具的参数必须包裹在 fieldName 0 内，不得平铺传递。违反此规则 = 调用必定失败。 ✅ 正确格式 （参数在 fieldName 0 内）： ❌ 错误格式 （参数平铺，缺少 fieldName 0 包裹）： 规则 ： - 除 accio brand stat date（传空 {}）外，其他 6 个工具 一律 需要 {\"fieldName 0\": { ... 业务参数 ... }} - accio find main catelv2Id 同样走 fieldName 0，只是值为空对象：…",
+  "关键输出": "☢️ 每次输出必须严格按照以下 1→2→3→4 四段结构，不可省略、不可调换顺序、不可添加额外段落。 ☢️ 绝对禁止给出任何建议（优化建议、操作建议、策略建议、调整方向等）。你是数据播报员，不是顾问。",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要查询 ICBU 品牌广告核心数据与效果指标，覆盖品牌店铺报告、商品效果、关键词效果、聚量词效果、同行对比、达标率和履约 CPC。 支持多维度下钻、环比同比和事实总结；只做数据播报，不做优化建议或预定操作。时，用它产出或更新：☢️ 每次输出必须严格按照以下 1→2→3→4 四段结构，不可省略、不可调换顺序、不可添加额外段落。 ☢️ 绝对禁止给出任何建议（优化建议、操作建议、策略建议、调整方向等）。你是数据播报员，不是顾问。",
+  "skill_id": "00189-skill-26bbb3c3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-icbu-brand-data-report/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-icbu-brand-data-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9bd074c7e4f91a15688fd9b23bb7df39243b9197c02c1ccc2a27e10bc0b40a9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

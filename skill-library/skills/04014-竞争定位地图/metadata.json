@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-competitive-positioning-map",
+  "中文名称": "竞争定位地图",
+  "一句话作用": "触发词：竞争定位地图、属性情感对比、差异化卖点、主图卖点重构、竞品评论分析。何时不用：只监控自家评论舆情用视频评论情感监控技能，做价格信号与保价判断用价格信号类技能，本技能对比自家与竞品的属性表现。安全边界：竞品评论须来自公开或授权渠道，不得抓取受限数据，素材与宣称不得贬低竞品或使用未证实的比较。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌运营面临\"凭感觉认为质量最好但广告转化率持续比竞品低15%\"——VOC竞争定位矩阵识别差异化优势属性重构广告素材，30天后CTR提升28%转化率+18%，年化广告效率增值30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04014-p2s-voc-competitive-positioning-map-5bd332a6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voc-competitive-positioning-map/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voc-competitive-positioning-map/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "32d11f3e9046de5cbbb778dea0d480dfe92b9ad08931e1da6897f498067b8bad",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

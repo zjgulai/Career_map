@@ -1,0 +1,22 @@
+{
+  "英文名称": "ghidra-reverse",
+  "中文名称": "待补：ghidra-reverse",
+  "一句话作用": "Use for free/open reverse engineering with Ghidra (headless or GUI), including decompile, cross-refs, and optional Ghidra MCP workflows when IDA is unavailable.",
+  "关键输入": "- 无 IDA 许可证时的主逆向入口 - 批量 headless 分析 / CI 中反编译 - Ghidra 脚本（Java/Python Jython/PyGhidra）自动化 - 与 binary-diff / patch-diff-exploit 的 ghidriff 联动",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 无 IDA 许可证时的主逆向入口 - 批量 headless 分析 / CI 中反编译 - Ghidra 脚本（Java/Python Jython/PyGhidra）自动化 - 与 binary-diff / patch-diff-exploit 的 ghidriff 联动时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02077-ghidra-reverse-e865d1f3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/ghidra-reverse/SKILL.md",
+  "relative_path": "lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/ghidra-reverse/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f71acac4668b0320ce9f9768bb7cacc200b75140f1bab051982c8c5c3d3869b7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

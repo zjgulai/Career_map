@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-loss-aversion-promotion-design",
+  "中文名称": "损失厌恶促销设计 限时最后3件比立省30元点击率高35",
+  "一句话作用": "触发词：损失厌恶、促销话术、损失框架、稀缺提示、限时文案、点击率提升。何时不用：要决定折扣力度与活动窗口用「闪购定价优化」；要判断促销真实增量用「促销效果因果评估」。安全边界：稀缺与紧迫信息必须真实（建议真实库存少于 5 件才用最后几件的表述），不得虚假宣传或制造不实紧迫感。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要营销负责人面临\"同样的折扣力度不同话术转化率差异高达3倍但不知道哪种最优\"——损失框架A/B测试将促销CTR提升18-35%，年化$3.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12343-p2s-loss-aversion-promotion-design-d9fb3075",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-loss-aversion-promotion-design/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-loss-aversion-promotion-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bfb9b193242ebe954582921243e86b3945fa7169370674c1e2a70951f825da2e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "jury-review",
+  "中文名称": "动态评审团多维评分系统",
+  "一句话作用": "动态评审团多维评分与周期迭代工作流程。根据任务自动生成适合的评审团成员，支持极端评审官加入，形成包围式评审阵势。触发词：评审团、多维评分、迭代优化、代码评审、质量评估、周期迭代、动态评审。",
+  "关键输入": "参数 默认值 说明 ------ -------- ------ max iterations 5 最大迭代次数 accept threshold 80 接受阈值 min improvement 5 最低改进分数 core jury size 4-5 核心评审团人数 extreme jury max 3 极端评审官最大数",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:41+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要动态评审团多维评分与周期迭代工作流程。根据任务自动生成适合的评审团成员，支持极端评审官加入，形成包围式评审阵势。触发词：评审团、多维评分、迭代优化、代码评审、质量评估、周期迭代、动态评审。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04925-jury-review-1dfc629b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/jury-review/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/jury-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1dc6f0b9c3003c7916af0c8d9b3a149b5e7bd5071f8d7f80012d958656378d3a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

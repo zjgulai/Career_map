@@ -1,0 +1,22 @@
+{
+  "英文名称": "python-parallelization",
+  "中文名称": "待补：python-parallelization",
+  "一句话作用": "Transform sequential Python code into parallel/concurrent implementations. Use when asked to parallelize Python code, improve code performance through concurrency, convert loops to parallel execution, or identify parall…",
+  "关键输入": "Always preserve correctness when parallelizing: 1. Identify shared state - variables modified across iterations break parallelism 2. Check dependencies - iteration N depending on N-1 requires sequential execution 3. Handle exceptions - wrap parallel code in t…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Transform sequential Python code into parallel/concurrent implementations. Use when asked to parallelize Python code, improve code performance through concurrency, convert loops to parallel execution, or identify parall…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05033-python-parallelization-d66062df",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/python-parallelization/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/python-parallelization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cade40ed1ab5ae28c52ef8ebeaaf0d72b0323d73aa1886f54f5a995685a48a79",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

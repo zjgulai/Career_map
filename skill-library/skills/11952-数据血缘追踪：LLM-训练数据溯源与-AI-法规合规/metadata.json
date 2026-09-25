@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-data-provenance-lineage",
+  "中文名称": "数据血缘追踪：LLM 训练数据溯源与 AI 法规合规",
+  "一句话作用": "触发词：数据血缘、溯源查询、AI 法规审计、影响分析、决策依据证明。何时不用：要追的是供应链标签与补货决策链路走供应链血缘追踪；只看数据本身对不对走数据质量校验。安全边界：审计场景须能证明数据未包含儿童隐私等敏感信息（GDPR），血缘记录须保留可追溯证据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴跨境电商应用：追踪商品推荐/风控模型的训练数据来源，满足 EU AI Act 等法规审计要求时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11952-p2s-data-provenance-lineage-1ced1295",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-data-provenance-lineage/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-data-provenance-lineage/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4756a80fb3e38ddfc0d7804953e963646498ea20f302608d6507c44466c53139",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

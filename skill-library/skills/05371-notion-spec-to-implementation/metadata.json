@@ -1,0 +1,22 @@
+{
+  "英文名称": "notion-spec-to-implementation",
+  "中文名称": "待补：notion-spec-to-implementation",
+  "一句话作用": "Turns product or tech specs into concrete Notion tasks that Claude code can implement. Breaks down spec pages into detailed implementation plans with clear tasks, acceptance criteria, and progress tracking to guide deve…",
+  "关键输入": "See examples/ for complete workflows: - examples/api-feature.md - API feature implementation - examples/ui-component.md - Frontend component - examples/database-migration.md - Schema changes",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要See examples/ for complete workflows: - examples/api-feature.md - API feature implementation - examples/ui-component.md - Frontend component - examples/database-migration.md - Schema changes时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05371-notion-spec-to-implementation-c6bc6567",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/notion/skills/spec-to-implementation/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/notion/skills/spec-to-implementation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "76c035adf07dba1a05b471194071ae495518c118af1a7541a6faf81701b5d1cb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "html-email-builder",
+  "中文名称": "待补：html-email-builder",
+  "一句话作用": "生成兼容 Gmail/Outlook 等主流邮件客户端 HTML Newsletter，使用 table 布局和 inline CSS 确保渲染一致，支持单栏、双栏、Hero Banner、内容摘要等多种版式。当用户需要制作公司周报、产品公告、营销邮件、活动邀请函或内容摘要邮件，或提及 Newsletter、HTML 邮件、邮件模板、兼容 Outlook 等关键词时触发。",
+  "关键输入": "- 公司内部周报 / 月报 - 产品更新公告 - 营销推广邮件 - 活动邀请函 - 内容摘要 / 文章推荐",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:08:43+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 公司内部周报 / 月报 - 产品更新公告 - 营销推广邮件 - 活动邀请函 - 内容摘要 / 文章推荐时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10625-html-email-builder-0d9bd286",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/html-email-builder/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/html-email-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "db563e82c587c756bc917ee33bf0b01a811b7b1ec52722453a6a178bd4c05d54",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

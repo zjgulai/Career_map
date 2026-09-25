@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-base",
+  "中文名称": "待补：lark-base",
+  "一句话作用": "飞书多维表格（Base）操作：建表、字段、记录、视图、统计、公式/lookup、表单、仪表盘、workflow、角色权限；遇到 Base/多维表格/bitable 或 /base/ 链接时使用。文件导入转 lark-drive，认证/授权转 lark-shared。",
+  "关键输入": "使用本 skill： - 用户明确提到 Base / 多维表格 / bitable，或给出 /base/ 链接。 - 用户要在 Base 内建表、改表、管理字段、写记录、查记录、配视图。 - 用户要在 Base 内做公式字段、lookup 字段、跨表计算、派生指标、筛选聚合、TopN、统计分析。 - 用户要管理 Base 表单、仪表盘、workflow、高级权限或角色。 - 用户要把旧 Base 聚合式命令或旧写法迁移到当前 lark…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要使用本 skill： - 用户明确提到 Base / 多维表格 / bitable，或给出 /base/ 链接。 - 用户要在 Base 内建表、改表、管理字段、写记录、查记录、配视图。 - 用户要在 Base 内做公式字段、lookup 字段、跨表计算、派生指标、筛选聚合、TopN、统计分析。 - 用户要管理 Base 表单、仪表盘、workflow、高级权限或角色。 - 用户要把旧 Base 聚合式命令或旧写法迁移到当前 lark…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05251-lark-base-030187b1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-base/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-base/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aef3c07dbeb11cc87352b217fd3d9868b41f31f0cf3ae3de906e4e8443c4a01e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "gaokao-zhiyuan-assistant",
+  "中文名称": "高考志愿填报助手",
+  "一句话作用": "高考志愿填报的逐步引导助手，帮用户梳理出最适合自己的志愿填报名单。通过对话分阶段进行：收集个人信息与选科，解读感兴趣的专业，探讨城市与院校，产出带“冲稳保”的候选志愿草表，最终生成可直接对照官方系统填报的志愿表与报告；全程产物沉淀为腾讯文档。只要用户提到高考、报志愿、填志愿、选专业、选大学、冲稳保、平行志愿、选科能报什么专业、想去哪个城市或哪所大学等相关话题，就应当使用本技能。本技能只提供分析与建议，绝不替用户做决定；所有数据必须标注…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "唯一权威文案见第二节阶段一开场指令（内联引用块，96–104 行那段四段引用块），AI 真正输出声明 A 时一律照那段原样逐字输出。 为避免双份维护漂移，本处不再重复抄录全文。 挂载位置 ：阶段一第一轮欢迎语 + 流程总览之后、A 卡弹出之前，以引用块呈现；三段段首关键词（ 【AI 辅助说明】 / 【结果动态性说明】 / 【服务使用须知】 ）必须加粗渲染。 仅在阶段一开场出现一次，阶段二、三、四、五不再重复输出本声明。 法务变更须知：若需调整声明 A 文案， 只改第二节内联块 这一处即可，本节无需同步（本节不再持…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要高考志愿填报的逐步引导助手，帮用户梳理出最适合自己的志愿填报名单。通过对话分阶段进行：收集个人信息与选科，解读感兴趣的专业，探讨城市与院校，产出带“冲稳保”的候选志愿草表，最终生成可直接对照官方系统填报的志愿表与报告；全程产物沉淀为腾讯文档。只要用户提到高考、报志愿、填志愿、选专业、选大学、冲稳保、平行志愿、选科能报什么专业、想去哪个城市或哪所大学等相关话题，就应当使用本技能。本技能只提供分析与建议，绝不替用户做决定；所有数据必须标注…时，用它产出或更新：唯一权威文案见第二节阶段一开场指令（内联引用块，96…",
+  "skill_id": "05490-gaokao-zhiyuan-assistant-5bafe3d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/gaokao-advisor/skills/gaokao-zhiyuan-assistant/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/gaokao-advisor/skills/gaokao-zhiyuan-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "35c2b9a846020046a0567ec64b686afa33e0d45b106b36459d0f67ca959304c2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

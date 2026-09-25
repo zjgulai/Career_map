@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-whiteboard",
+  "中文名称": "待补：lark-whiteboard",
+  "一句话作用": "飞书画板：查询和编辑飞书云文档中的画板。支持导出画板为预览图片、导出原始节点结构、使用多种格式更新画板内容。 当用户需要查看画板内容、导出画板图片、编辑画板时使用此 skill。不负责：飞书云文档内容编辑（lark-doc）、文档内嵌电子表格/Base（sheet / lark-base）。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-22T22:51:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要飞书画板：查询和编辑飞书云文档中的画板。支持导出画板为预览图片、导出原始节点结构、使用多种格式更新画板内容。 当用户需要查看画板内容、导出画板图片、编辑画板时使用此 skill。不负责：飞书云文档内容编辑（lark-doc）、文档内嵌电子表格/Base（sheet / lark-base）。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06324-lark-whiteboard-658e436c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/lark-whiteboard/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/lark-whiteboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2f18c6e44f46d5154405120a7de5d08c1384daedc1c3e524078b6c006d60f040",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

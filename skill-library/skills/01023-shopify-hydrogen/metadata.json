@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-hydrogen",
+  "中文名称": "待补：shopify-hydrogen",
+  "一句话作用": "Hydrogen storefront implementation cookbooks. Some of the available recipes are: B2B Commerce, Bundles, Combined Listings, Custom Cart Method, Dynamic Content with Metaobjects, Express Server, Google Tag Manager Integra…",
+  "关键输入": "1. ALWAYS use api:\"hydrogen\" for ALL components below 2. ALWAYS generate complete JSX code examples 3. If asked about \"Media\" or \"MediaFile\" - use api:\"hydrogen\" NOT api:\"storefront\"!",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Hydrogen storefront implementation cookbooks. Some of the available recipes are: B2B Commerce, Bundles, Combined Listings, Custom Cart Method, Dynamic Content with Metaobjects, Express Server, Google Tag Manager Integra…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01023-shopify-hydrogen-d7b36753",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-hydrogen/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-hydrogen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d7f8b77d5ab9f60da30d3fe6ce7c804bce1dbe330076fd96989222d58ddd6b6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-ontology-action-trigger",
+  "中文名称": "供应链本体驱动行动触发 风格Object-Action-Writeback全链路闭环",
+  "一句话作用": "触发词：本体驱动、行动触发、写回闭环、补货工单、供应商切换。何时不用：只做看板分析不做动作时用可视化或分析类技能；要测算补多少货时用补货模拟类技能。安全边界：写回 ERP/WMS 的下单与供应商切换动作必须保留人工审批阈值，不得无审批直连生产系统。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链运营面临\"分析看板有了但还要人工去ERP下单\"——Palantir风格Object-Action-Writeback闭环将补货响应从2天缩短至4小时自动触发，实现分析到行动的完整闭环时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03900-p2s-supply-chain-ontology-action-trigger-cb1d9c57",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supply-chain-ontology-action-trigger/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supply-chain-ontology-action-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90e0821f82dfe382bb3e8a6a4657f4c791f66cc955ba43dd174587ff75ec9cf7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

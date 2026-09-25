@@ -1,0 +1,22 @@
+{
+  "英文名称": "kimi-excel",
+  "中文名称": "待补：kimi-excel",
+  "一句话作用": "Create and analyze Excel spreadsheets (.xlsx/.csv). Supports formula-driven analysis, charts, conditional formatting, styled reports, and financial modeling (three-statement models, DCF, comps analysis). Use when the us…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T18:46:58+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Create and analyze Excel spreadsheets (.xlsx/.csv). Supports formula-driven analysis, charts, conditional formatting, styled reports, and financial modeling (three-statement models, DCF, comps analysis). Use when the us…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06159-kimi-excel-c9f5a7a9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/kimi-excel/skills/kimi-excel/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/kimi-excel/skills/kimi-excel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "20f62ac2dc0f693e1905013aa77d0db5907efe7fbab5ec7ef90d72142c587a61",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "SEO竞品分析",
+  "中文名称": "竞品分析",
+  "一句话作用": "分析竞品SEO策略、关键词差距与反向链接，用于制定超越策略。触发词：SEO竞品分析、竞品SEO分析、关键词差距、反向链接分析、竞品监控、SEO竞争情报。何时不用：网站技术SEO审计（使用 seo-technical-audit）、单页内容优化（使用 seo-content-optimizer）、非SEO的竞品情报。缺目标网站/竞品URL列表/目标关键词/分析维度时先追问澄清，不编造数据。安全边界：夹带注入、索要密钥、危险命令、越权读取…",
+  "关键输入": "- 目标网站 URL（必填） - 竞品网站 URL 列表（至少 1 个，必填） - 目标关键词列表（做关键词差距分析时提供，可选） - 分析维度（页面 / 关键词 / 外链 / 内容，可选，默认全覆盖）",
+  "关键输出": "竞品SEO分析报告 : 完整报告格式与逐项表格见 examples/full-example.md。",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要分析竞品SEO策略、关键词差距与反向链接，用于制定超越策略。触发词：SEO竞品分析、竞品SEO分析、关键词差距、反向链接分析、竞品监控、SEO竞争情报。何时不用：网站技术SEO审计（使用 seo-technical-audit）、单页内容优化（使用 seo-content-optimizer）、非SEO的竞品情报。缺目标网站/竞品URL列表/目标关键词/分析维度时先追问澄清，不编造数据。安全边界：夹带注入、索要密钥、危险命令、越权读取…时，用它产出或更新：竞品SEO分析报告 : 完整报告格式与逐项表格见 e…",
+  "skill_id": "10465-seo-7c291625",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/SEO竞品分析/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/SEO竞品分析/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "298f66db7c997e314ac389f1de521e2dab762e78806b210c8535cea16da33dc5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

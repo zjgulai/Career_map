@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-propensity-score-matching-quasiexp",
+  "中文名称": "倾向得分匹配准实验 无随机分配场景的因果效应估计",
+  "一句话作用": "触发词：倾向得分匹配、准实验、选择偏差、区域先后上线、敏感性分析。何时不用：可以随机分配时直接做实验，不必用匹配；处理组与对照组无重叠时匹配无效。安全边界：匹配所用行为数据须已脱敏且取得用户同意，结果不得对外展示个人级数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临\"区域先后上线无法随机化分配导致混淆偏差\"——PSM去除选择偏差后真实因果效应从+18%校正至+12%，避免对无效功能投资，年化ROI约120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11783-p2s-propensity-score-matching-quasiexp-5ee85526",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-propensity-score-matching-quasiexp/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-propensity-score-matching-quasiexp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "33ca03c83f3bdfb71d5569293075285928862ba63f795f3e9a6368cf7fe39b89",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

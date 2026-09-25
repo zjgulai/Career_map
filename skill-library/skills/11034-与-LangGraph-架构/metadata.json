@@ -1,0 +1,22 @@
+{
+  "英文名称": "langchain-architecture",
+  "中文名称": "与 LangGraph 架构",
+  "一句话作用": "用 LangChain 与 LangGraph 设计 LLM 应用：状态图、记忆、工具集成与测试策略。触发词：LangChain、LangGraph、AI agent、LLM 工作流、对话记忆、工具调用、langchain-architecture。何时不用：不用 LangChain/LangGraph 的 LLM 应用架构不在本技能范围；它给的是这两个框架的落地范式，不是通用的 agent 设计方法论。",
+  "关键输入": "- 构建带工具访问能力的自主 AI agent - 实现复杂的多步 LLM 工作流 - 管理对话记忆与状态 - 把 LLM 与外部数据源和 API 集成 - 创建模块化、可复用的 LLM 应用组件 - 实现文档处理流水线 - 构建生产级 LLM 应用",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T18:27:31+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 构建带工具访问能力的自主 AI agent - 实现复杂的多步 LLM 工作流 - 管理对话记忆与状态 - 把 LLM 与外部数据源和 API 集成 - 创建模块化、可复用的 LLM 应用组件 - 实现文档处理流水线 - 构建生产级 LLM 应用时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11034-langchain-architecture-443a5fc0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/langchain-architecture/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/langchain-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a94e5360714bb31cedf023cdb0b919d00ed21a8866f8dd3dbd449a805eb021c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "codegraph-ast-grep",
+  "中文名称": "待补：codegraph-ast-grep",
+  "一句话作用": "Use when a repo needs CodeGraph plus ast-grep for Codex MCP setup, exploration, impact analysis, structural search, or safe refactor planning.",
+  "关键输入": "- Repository root, monorepo layout, and existing .codex/, .codegraph/, sgconfig.yml, or sgconfig.yaml files. - For setup tasks, available package managers and tool paths. - git status --short before changing any files. - Codex MCP status through /mcp or codex…",
+  "关键输出": "Always return current tool/config state, findings or recommended path, commands run or proposed commands with approval boundaries, validation results, and remaining risk. For setup tasks only, also include user choices needed or received, recommendation trade…",
+  "最新更新时间": "2026-06-14T13:41:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks to set up CodeGraph, ast-grep, or MCP servers for Codex CLI. - A repo needs faster exploration before debugging, refactoring, review, or architecture work. - The task requires finding symbols, callers, c…时，用它产出或更新：Always return current tool…",
+  "skill_id": "06044-codegraph-ast-grep-30a87944",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/skills/codex-operations/codegraph-ast-grep/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/skills/codex-operations/codegraph-ast-grep/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a902224cdbd600d03db22f9288bbb7bfe0c96dccbfb11f8b222a19f668a7342f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

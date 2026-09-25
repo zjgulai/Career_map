@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-annotation-weak-supervision",
+  "中文名称": "进化式多智能体弱监督标注",
+  "一句话作用": "触发词：进化式弱监督、标注函数池、软标签聚合、多语言标注、标注降本。何时不用：数据量小于 1 万条、或任务需要极高精度（如医疗诊断）时不适用；标注规范未定前也不用。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴跨境卖家面临海量多语言评论与工单需标注的成本困境——EvoPool 进化式弱监督框架将 LLM 直接标注 10 万条的 10 万次 API 调用压缩为 50 次，标注速度提升 4500x，年化节省标注人力成本 80-150 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03327-p2s-llm-annotation-weak-supervision-576e4452",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-annotation-weak-supervision/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-annotation-weak-supervision/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "589c9d7ecbd490f7d464c35ca004d411da067a22b37a4b04feb53a5d6bb325d4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

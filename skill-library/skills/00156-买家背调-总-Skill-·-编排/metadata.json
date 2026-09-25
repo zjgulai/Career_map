@@ -1,0 +1,22 @@
+{
+  "英文名称": "买家背调",
+  "中文名称": "买家背调（总 Skill · 编排）",
+  "一句话作用": "交互式买家背调。商家给一条买家线索（公司名/邮箱/官网/Alibaba链接/可选平台buyer id），产出背调风险卡片+可展开报告。 流程：需求澄清→公网搜索背调→AI Judge MCP校准(可选,查不到也能跑)→合并渲染。 当用户要背调买家、核验海外买家身份/风险/采购力、或说\"背调这个客户/买家\"时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "用自带渲染脚本合并 Step2 + Step3，产出卡片文本 + HTML + 完整报告：",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要交互式买家背调。商家给一条买家线索（公司名/邮箱/官网/Alibaba链接/可选平台buyer id），产出背调风险卡片+可展开报告。 流程：需求澄清→公网搜索背调→AI Judge MCP校准(可选,查不到也能跑)→合并渲染。 当用户要背调买家、核验海外买家身份/风险/采购力、或说\"背调这个客户/买家\"时使用。时，用它产出或更新：用自带渲染脚本合并 Step2 + Step3，产出卡片文本 + HTML + 完整报告：",
+  "skill_id": "00156-skill-e32c7b85",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-buyer-bgcheck/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-buyer-bgcheck/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "735491bc557bb55c0286e39e88a7b33e463325742e4f18f0364ad0b52b8e23e2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

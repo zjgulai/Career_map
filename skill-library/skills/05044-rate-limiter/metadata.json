@@ -1,0 +1,22 @@
+{
+  "英文名称": "rate-limiter",
+  "中文名称": "待补：rate-limiter",
+  "一句话作用": "Generate rate limiting configurations using AI. Use when protecting APIs from abuse.",
+  "关键输入": "No install needed. Just run with npx. Node.js 18+ recommended.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:04+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Generate rate limiting configurations using AI. Use when protecting APIs from abuse.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05044-rate-limiter-ec8dd01f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/rate-limiter/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/rate-limiter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "646fe75fca72fa015a79727af0290e6d897b9a690b708b4dd15c2668922d91b8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

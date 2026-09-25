@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nuggetindex-atomic-knowledge-management",
+  "中文名称": "原子知识单元管理 最小事实粒度时效区间生命周期状态的可维护RAG",
+  "一句话作用": "触发词：原子事实、时效区间、生命周期管理、知识更新、事实粒度。何时不用：知识基本不更新、段落粒度已够用时不必改造；要建时序知识图谱走时序图 RAG。安全边界：合规类知识过期会直接导致错误决策，过期单元必须降权或标记失效，不得继续作为当前依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要段落级RAG中一个事实过期整个段落都变得不可信——NuggetIndex将知识分解为原子事实单元并附带时效区间，Nugget Recall提升42%，冲突率降低55%，生成器输入减少64%（2026 arXiv:2604.27306）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12060-p2s-nuggetindex-atomic-knowledge-management-96fc57d9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-nuggetindex-atomic-knowledge-management/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-nuggetindex-atomic-knowledge-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cadf3b96a460f82534c58fa1655eb4e0b1a37ee915cf64be03fb30ef691461f5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-active-context-pruning",
+  "中文名称": "仿生粘菌主动上下文剪枝 自主压缩架构",
+  "一句话作用": "触发词：上下文剪枝、主动压缩、Token降本、相关性排序、长会话工具结果。何时不用：单轮短会话或上下文远未触及上限时不必要；需要跨会话记忆沉淀走Agent记忆类技能。安全边界：剪枝须保留客户身份、品牌与决策依据等关键信息，不得剪掉结论所依赖的证据，准确率须内部评测通过后再放量。",
+  "关键输入": "输入 ：上下文条目列表（每条含内容、token 数、相关性分数），加当前查询，以及最大 token 上限（如 8000）与保留比例（如 0.4）等配置参数；低数据要求，不需要训练数据。 输出 ：剪枝后保留的上下文条目与压缩摘要（说明压缩了几条历史），供 Agent 继续推理，附带 token 消耗与响应延迟的改善幅度。",
+  "关键输出": "输入 ：上下文条目列表（每条含内容、token 数、相关性分数），加当前查询，以及最大 token 上限（如 8000）与保留比例（如 0.4）等配置参数；低数据要求，不需要训练数据。 输出 ：剪枝后保留的上下文条目与压缩摘要（说明压缩了几条历史），供 Agent 继续推理，附带 token 消耗与响应延迟的改善幅度。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：上下文剪枝、主动压缩、Token降本、相关性排序、长会话工具结果。何时不用：单轮短会话或上下文远未触及上限时不必要；需要跨会话记忆沉淀走Agent记忆类技能。安全边界：剪枝须保留客户身份、品牌与决策依据等关键信息，不得剪掉结论所依赖的证据，准确率须内部评测通过后再放量。时，用它产出或更新：输入 ：上下文条目列表（每条含内容、token 数、相关性分数），加当前查询，以及最大 token 上限（如 8000）与保留比例（如 0.4）等配置参数；低数据要求，不需要训练数据。 输出 ：剪枝后保留的上下文条…",
+  "skill_id": "11874-p2s-active-context-pruning-3bd7dce4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-active-context-pruning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-active-context-pruning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "521475ac393a5abadb4ef31ecb376f16f2a37d6c6b8f50dd20801f96aa04738b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

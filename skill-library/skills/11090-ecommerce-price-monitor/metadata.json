@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-price-monitor",
+  "中文名称": "待补：ecommerce-price-monitor",
+  "一句话作用": "当用户需要跨电商平台监控并对比竞品价格、做定价决策时使用。触发词：电商价格监控、跨platform-price-monitor、竞品定价、价格对比、动态定价、跨平台比价。注意：本技能标准名称为「电商价格监控」，与「platform-price-monitor」（实时秒级自动告警）为不同技能，路由时请按全名区分。何时不用：需要复杂成本分析（使用 claude-ecom）；改价工具/自动改价规则配置等后台工具操作；实时秒级自动化价格监控与…",
+  "关键输入": "- 产品标识（ASIN/SKU/链接） - 目标平台列表 - 监控周期",
+  "关键输出": "- 各平台价格对比表 - 价格趋势图 - 定价建议",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 跨平台价格对比 - 竞品定价策略分析 - 价格调整决策支持 - 促销活动效果追踪时，用它产出或更新：- 各平台价格对比表 - 价格趋势图 - 定价建议",
+  "skill_id": "11090-ecommerce-price-monitor-d9cddbdc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ecommerce-price-monitor/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ecommerce-price-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5dad3ed14437f74aaa457a9b6135c7602de7f2f51b3167647501f118e2c83f55",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

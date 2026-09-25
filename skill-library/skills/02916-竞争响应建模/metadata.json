@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-competitive-response-modeling",
+  "中文名称": "竞争响应建模）",
+  "一句话作用": "触发词：竞争响应、份额被抢、反制策略、竞品加投、损失估算、行动组合。何时不用：竞品动作与自身效果无相关时不必建模；只想按阈值自动触发防守动作时用竞品激增防御触发器。安全边界：竞品数据采集须走官方 API 并遵守平台服务条款、不使用爬虫，母婴品类内容需符合广告与质量安全规范。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Momcozy 在美国 Prime Day 前一周突然将吸奶器搜索广告预算翻倍，我们的 impression share 从 22% 跌到 14%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02916-p2s-competitive-response-modeling-0c8e5ced",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-competitive-response-modeling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-competitive-response-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "74a76697e93b75fb35c7b7892d331b317cefe2d2be3cf2b0e814b337d7743c51",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

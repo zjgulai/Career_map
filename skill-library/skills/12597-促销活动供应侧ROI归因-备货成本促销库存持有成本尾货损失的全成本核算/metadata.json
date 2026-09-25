@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-promo-roi-attribution-supply-side",
+  "中文名称": "促销活动供应侧ROI归因 备货成本促销库存持有成本尾货损失的全成本核算",
+  "一句话作用": "触发词：促销真实 ROI、备货持有成本、尾货折价、退货增量、供应侧成本。何时不用：要剥离自然增长评估促销净增量用「促销 ROI 前后对比」；要算广告费对利润的归因用「广告 TACoS 与 P&L 集成」。安全边界：真实 ROI 结论建议仅内部使用，公开披露可能被竞品反推成本结构；清仓折扣不得违反平台最低广告价格政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营团队面临\"大促ROI虚高忽视供应链成本\"——备货持有成本+尾货折价+退货增量三段核算，真实ROI比广告ROI低30-50pp，指导更理性备货决策时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12597-p2s-promo-roi-attribution-supply-side-efce19f3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-promo-roi-attribution-supply-side/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-promo-roi-attribution-supply-side/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d2d8113bafdf66a31195f9b1b627346db0eb1bf72a6371ae45fd5a4ebad7142",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

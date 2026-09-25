@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-neural-architecture-search-nas",
+  "中文名称": "轻量神经网络自动设计（母婴电商边缘部署）",
+  "一句话作用": "触发词：架构搜索、边缘部署、延迟约束、轻量模型。何时不用：没有明确设备延迟约束或图像数据时不必搜索；通用模型已满足精度时直接用成熟架构。安全边界：仓库图像属内部运营数据，训练集不得含可识别个人信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要工程师面临\"仓库WMS终端需要轻量视觉模型但手工设计耗时且次优\"——神经架构搜索自动找到满足设备延迟约束的最优网络，边缘部署后扫描效率提升40%，年化节省仓储人工成本15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03527-p2s-neural-architecture-search-nas-972e4df9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-neural-architecture-search-nas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-neural-architecture-search-nas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c3c19c7d009f1043a904b88268a7b5b6c5b994bc5490718bf9ee2f243c82630",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "lifecycle-marketing-automator",
+  "中文名称": "待补：lifecycle-marketing-automator",
+  "一句话作用": "Map customer journey stages from first visit to loyal advocate with personalized messaging, triggered workflows, and segment-based campaign automation.",
+  "关键输入": "- When moving from \"batch-and-blast\" generic campaigns to behavior-triggered messaging. - When different customer segments are receiving identical, irrelevant emails. - When onboarding new customers and needing a struct…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:19+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- When moving from \"batch-and-blast\" generic campaigns to behavior-triggered messaging. - When different customer segments are receiving identical, irrelevant emails. - When onboarding new customers and needing a struct…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00019-lifecycle-marketing-automator-49627a01",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-12471462U1788237-8A8E75-5976-D5C7B4/agent-core/skills/lifecycle-marketing-automator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-12471462U1788237-8A8E75-5976-D5C7B4/agent-core/skills/lifecycle-marketing-automator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eb718fd794179dafbffc76c7bb3d656eb5430e2161d73e31cf1873d56aade445",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

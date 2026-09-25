@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-negative-keyword-safe-guard",
+  "中文名称": "贝叶斯小样本负关键词安全过滤",
+  "一句话作用": "触发词：否定关键词、废词清洗、无效流量过滤、小样本判词、搜索词报告。何时不用：需要统计显著性批量清洗并联动预算时用搜索词否定优化；样本稀疏、怕误杀时用本卡的贝叶斯小样本判词。安全边界：否定仅基于本店搜索词报告，不得否定品牌词或误伤关联品类词，涉平台政策的词一律人工复核。",
+  "关键输入": "Amazon：Search Term Report（广告管理后台 → 报告 → 搜索词报告） Shopify/Meta：广告词搜索词匹配数据导出",
+  "关键输出": "Amazon：Search Term Report（广告管理后台 → 报告 → 搜索词报告） Shopify/Meta：广告词搜索词匹配数据导出",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告优化师面临无效词烧钱——Negative Keyword将浪费点击率20%压到6%，年化省24万元时，用它产出或更新：Amazon：Search Term Report（广告管理后台 → 报告 → 搜索词报告） Shopify/Meta：广告词搜索词匹配数据导出",
+  "skill_id": "11757-p2s-negative-keyword-safe-guard-e24cf15d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-negative-keyword-safe-guard/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-negative-keyword-safe-guard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d1fddd79a8b88ccc825f8bf41ac2d431b390dc0cf53988f5282539a1d74dcbfd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

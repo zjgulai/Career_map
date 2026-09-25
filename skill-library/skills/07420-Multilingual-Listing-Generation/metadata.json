@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Multilingual-Listing-Generation",
+  "中文名称": "待补：Multilingual Listing Generation",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 70.0, \"best\": 75.0, \"mutated\": \"D4 roi\", \"ts\": \"2026-07-04T04:45:21.416092\"} {\"round\": 0, \"status\": \"patch nothing\", \"score\": 80.0, \"best\": 80.0, \"mutated\": \"none\", \"ts\": \"2026…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T11:56:45+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 70.0, \"best\": 75.0, \"mutated\": \"D4 roi\", \"ts\": \"2026-07-04T04:45:21.416092\"} {\"round\": 0, \"status\": \"patch nothing\", \"score\": 80.0, \"best\": 80.0, \"mutated\": \"none\", \"ts\": \"2026…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07420-skill-multilingual-listing-generation-0777510b",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Multilingual-Listing-Generation.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Multilingual-Listing-Generation.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "1130d4d794bc7021125f4327aab0049abd48a5c96b47e12081ac7a832b8d57e4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

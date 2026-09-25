@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-3d-bin-packing-optimization",
+  "中文名称": "装箱优化：集装箱货架空间利用率最大化",
+  "一句话作用": "触发词：装箱优化、集装箱装载率、海运装柜、装载率提升、货架空间利用。何时不用：要选运输方式与时效方案用「物流方案」，要安排仓内作业与交接协同用「仓储协作」；本技能只算柜内与货架内的空间排布。安全边界：装箱方案须现场核对重量分布与摞放限制后执行，模型不替代实际配载与安全审核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨境卖家海运集装箱人工装载率只有65-70%每次多花一个柜子运费18000元——3D装箱优化算法智能排列商品箱子将利用率提升到85%，全年海运4-6批年化节省集装箱费用10-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11320-p2s-3d-bin-packing-optimization-5c53fe72",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-3d-bin-packing-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-3d-bin-packing-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "42ffb91c76d3942203c8b49cfb373570c0399aade19fa6993ca89d11ae150d53",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

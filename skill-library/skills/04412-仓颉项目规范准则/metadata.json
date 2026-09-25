@@ -1,0 +1,22 @@
+{
+  "英文名称": "cangjie-regulations",
+  "中文名称": "仓颉项目规范准则",
+  "一句话作用": "Cangjie project coding standards and best practices: project structure, naming conventions, formatting, error handling, testing, concurrency, security, documentation, and dependency management.",
+  "关键输入": "- 跨信任边界的数据必须进行校验（G.CHK.01），包括外部输入、文件内容、网络数据。 - 使用 Option 类型和模式匹配安全地处理可能缺失的数据。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:55+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Cangjie project coding standards and best practices: project structure, naming conventions, formatting, error handling, testing, concurrency, security, documentation, and dependency management.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04412-cangjie-regulations-72de61bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/cangjie-skills/1.0.0/skills/cangjie-regulations/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/cangjie-skills/1.0.0/skills/cangjie-regulations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9c00caa101c0a49e8ea78f2d0805a56345f880119c77c1f23ace89b20a17ce08",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

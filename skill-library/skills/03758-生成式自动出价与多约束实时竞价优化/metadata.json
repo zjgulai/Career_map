@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rtb-realtime-bidding-optimization",
+  "中文名称": "生成式自动出价与多约束实时竞价优化",
+  "一句话作用": "触发词：实时竞价、生成式出价、Critics投票、预算提前耗尽、动态出价。何时不用：没有历史竞价日志或平台不开放实时出价接口时不适用；只要按时段做预算节奏控制用预算节奏控制器。安全边界：出价须在平台出价与预算规则内，只产出每次竞价的出价决策，不绕过平台清算与风控规则。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴品牌 Amazon DSP/TikTok 广告按固定 CPA 出价，旺季预算提前耗尽或错过峰值时段——生成式 RTB 自动出价（Decision Transformer + Critics 投票）在预算约束下动态优化每次竞价，ROI 提升 3-5%，黑五大促 GMV 增量 15-20%，年化增量 GMV 30-100 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03758-p2s-rtb-realtime-bidding-optimization-690e7405",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-rtb-realtime-bidding-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-rtb-realtime-bidding-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5cfe8200d6e10ddbc2ac87fa9424b4a8cc115195a0bc4541f3be842a3a655f24",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p3c-code-quality",
+  "中文名称": "代码质量检查测试",
+  "一句话作用": "执行代码质量检查测试，基于阿里巴巴 P3C 规范对代码进行全面检查，包括命名规范、异常处理、并发安全、数据库规范、OOP 规范、安全规约和单元测试规范。Invoke when user needs to verify code quality against P3C standards.",
+  "关键输入": "执行测试时需要提供以下参数： 1. 代码路径 ：要检查的Java源代码文件或目录路径 2. 业务名称 ：用于生成报告路径和文件名 3. 测试内容 ：描述本次测试的具体内容 4. 测试接口/模块名称 ：被测试的接口或模块名称",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-11",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要将检查到的问题按严重程度分类： - 致命问题 ：违反强制规范，可能导致严重后果 - 严重问题 ：违反强制规范，影响代码质量 - 一般问题 ：违反推荐规范，影响代码可维护性 - 轻微问题 ：违反参考规范，属于优化建议时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05001-p3c-code-quality-e1736bbb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/p3c-code-quality/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/p3c-code-quality/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "fe5cd700889211130ac4c1d8db0d9bb00d13f365f17e6bb09f9120533f3523ce",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

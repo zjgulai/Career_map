@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Tax-Evasion-Ri[REDACTED]",
+  "中文名称": "待补：Tax Evasion Ri[REDACTED]",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:41:54.927472\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:41:54+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:41:54.927472\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07770-skill-tax-evasion-ri-redacted-da53ce42",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Tax-Evasion-Risk-Signal-Monitor.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Tax-Evasion-Risk-Signal-Monitor.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "7b9ae37bb4977a289f54555d74ba66e0559d53f970c8f659d6d8cba4193fd35b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "civic-skill",
+  "中文名称": "待补：civic-skill",
+  "一句话作用": "Submit compact CIViC GraphQL requests for cancer variant interpretation schema inspection and targeted evidence retrieval. Use when a user wants concise CIViC summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required field: query or query path - Optional fields: variables, max items, max depth, timeout sec, save raw, raw output path - Common CIViC patterns: - {\"query\":\"query { typename }\"} - {\"query\":\"query { schema { queryTyp…",
+  "关键输出": "- Success returns ok, source, top keys, a compact summary, and raw output path when save raw=true. - Failure returns ok=false with error.code such as invalid json, invalid input, network error, invalid response, or graphql error.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Submit compact CIViC GraphQL requests for cancer variant interpretation schema inspection and targeted evidence retrieval. Use when a user wants concise CIViC summaries时，用它产出或更新：- Success returns ok, source, top keys, a compact summary, and raw output path…",
+  "skill_id": "00876-civic-skill-23bb6075",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/civic-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/civic-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e8921e0f5f494b1e54a52a9414048bde94e1c2d087a1211583ee1730e9db92f8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

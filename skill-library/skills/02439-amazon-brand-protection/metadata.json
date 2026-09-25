@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-brand-protection",
+  "中文名称": "待补：amazon-brand-protection",
+  "一句话作用": "- Protect Amazon brands from listing hijackers, counterfeiters, and policy violations. Use this skill when users report hijackers on their listing, counterfeit products, or need to enroll in Amazon Brand Registry. It al…",
+  "关键输入": "- 用品牌注册与 IP 工具打击跟卖与假货。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:32:56+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 用品牌注册与 IP 工具打击跟卖与假货。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02439-amazon-brand-protection-12295ba6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/amazon-brand-protection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/amazon-brand-protection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "47b1de58430707630cf9f7541923cc1b194ddf684c3d25e708db5758a731fceb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

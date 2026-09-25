@@ -1,0 +1,22 @@
+{
+  "英文名称": "bugly",
+  "中文名称": "质量概览 Skill",
+  "一句话作用": "View the product quality overview",
+  "关键输入": "1. 查看应用的整体质量趋势 2. 对比不同版本之间的质量表现 3. 监控当天质量异常",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要1. 查看应用的整体质量趋势 2. 对比不同版本之间的质量表现 3. 监控当天质量异常时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05210-bugly-2e253c8e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/bugly/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/bugly/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "adcf2150ad813e50b2d750d68291909ab368171a98f5df5c36b996a8eea6a1e2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

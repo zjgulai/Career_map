@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-raglab-research-rag-framework",
+  "中文名称": "研究导向的模块化RAG实验框架",
+  "一句话作用": "触发词：RAG算法对比、实验框架、问答准确率、算法选型。何时不用：只在 RAG 与微调之间做路线取舍时用 RAG vs 微调决策框架；没有标注评估集时先补评估集。安全边界：知识库涉隐私与跨境数据合规，检索过程不得留存或暴露用户个人信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要技术团队面临RAG算法对比实验周期长——RAGLAB标准化框架将实验周期2周→2天，算法选型准确，年化工程效率提升25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11298-p2s-raglab-research-rag-framework-e7916cab",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-raglab-research-rag-framework/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-raglab-research-rag-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e21399f2c148458797fb82a7dec8f6cfe5adbc746d536ea4c8ad83182d64c46",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

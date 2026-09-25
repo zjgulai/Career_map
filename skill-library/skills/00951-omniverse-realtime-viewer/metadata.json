@@ -1,0 +1,22 @@
+{
+  "英文名称": "omniverse-realtime-viewer",
+  "中文名称": "待补：omniverse-realtime-viewer",
+  "一句话作用": "Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents.",
+  "关键输入": "- For a browser viewer request, use the streaming recipe references plus camera, picking, hierarchy, properties, render settings, and stream-status references. - For a local workstation viewer request, use the local or…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- For a browser viewer request, use the streaming recipe references plus camera, picking, hierarchy, properties, render settings, and stream-status references. - For a local workstation viewer request, use the local or…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00951-omniverse-realtime-viewer-c78f58ee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/omniverse-realtime-viewer/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/omniverse-realtime-viewer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6e6a1f7ed10d152be12b7d210e8f7f399c203912985cc8ade684fb18645dc262",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

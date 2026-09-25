@@ -1,0 +1,22 @@
+{
+  "英文名称": "file-search",
+  "中文名称": "待补：file-search",
+  "一句话作用": "gAAAAABqYL4Rb53IWn-k0dAG ZCy-uyVqlo6D1ru -nAtv8mVxW-8bI7-Rpq6YBH9reDDf8w1XkEQO0Fp2 RbzLhPNaNMboOGd0fAfcZuC0cQv6cqpkSzEZicFznuwf2goIlkcrLQX5e0XbJ9gBhlQjJJ-vYcWkr4uJ9bnVto3u1weuio-G2b8Nxklixj ZUIGYrz5hmpT3VbuxvxzJl7DqTjuU…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-22T20:56:49+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要gAAAAABqYL4Rb53IWn-k0dAG ZCy-uyVqlo6D1ru -nAtv8mVxW-8bI7-Rpq6YBH9reDDf8w1XkEQO0Fp2 RbzLhPNaNMboOGd0fAfcZuC0cQv6cqpkSzEZicFznuwf2goIlkcrLQX5e0XbJ9gBhlQjJJ-vYcWkr4uJ9bnVto3u1weuio-G2b8Nxklixj ZUIGYrz5hmpT3VbuxvxzJl7DqTjuU…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06072-file-search-3dedaf53",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/file-search/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/file-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62e548d1d28cbcd1e4a693cc337d76ab9384d22c568579f587517c34985496c2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cs-ticket-intelligence",
+  "中文名称": "客服工单智能分诊：自动分类路由与优先级排序",
+  "一句话作用": "触发词：工单分诊、消息分类、紧急度排序、差评预警、回复模板推荐。何时不用：跨领域多 Agent 路由用「知识图谱引导的 AgentRouter」；本技能做单工单的多维分类与优先级。安全边界：分级与预警仅用于内部处理优先级，买家消息不得用于对外标签化。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要每天50条买家消息手动分类处理需3-4小时且容易遗漏高危差评工单——AI工单分诊1秒完成多维分类（类型/紧急度/情感/差评风险），响应时间8h→2h客服效率提升3-5倍年化节省15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12173-p2s-cs-ticket-intelligence-d4bc9dde",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-cs-ticket-intelligence/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-cs-ticket-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "604672330b198dc9cb0981dc78f56619cc3cbdca295ee594b55a075665bb4e11",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

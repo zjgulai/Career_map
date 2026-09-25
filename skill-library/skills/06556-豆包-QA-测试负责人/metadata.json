@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-product-qa",
+  "中文名称": "豆包 QA 测试负责人",
+  "一句话作用": "将 PRD、原型、网页、接口、代码、测试记录和多轮上下文转成可追踪的 QA 基线、风险用例、执行证据、Bug 与发布判断。适用于 Web/API/App/小程序测试、回归、热修复、测试方案、Bug 复核和 QA 收口。用户指定 Markdown、Office、豆包文档/表格/PPT 或飞书载体时严格服从；未指定时默认创建与内容匹配的豆包在线载体。纯开发实现、纯排版和无测试目标的数据分析不触发。",
+  "关键输入": "清点每个文件、URL、截图、接口定义、执行记录和压缩包，建立 SRC- ；记录实际定位、版本、读取状态与覆盖说明。表格核对全部相关 Sheet，压缩包核对成员，读不到就记录阻塞与最小解锁动作，禁止只看文件名或首个 Sheet。 把需求拆为： 角色/前置 → 触发 → 规则 → 中间状态 → 最终状态 → 可观察结果 → 下游副作用 → 失败行为 建立 REQ- 与风险机制 RM- 。每个 P0/P1 机制必须有独立用例、具体数据和可观察 oracle；P0 写明失败为何阻断发布。设计方法见 coverage-mo…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要将 PRD、原型、网页、接口、代码、测试记录和多轮上下文转成可追踪的 QA 基线、风险用例、执行证据、Bug 与发布判断。适用于 Web/API/App/小程序测试、回归、热修复、测试方案、Bug 复核和 QA 收口。用户指定 Markdown、Office、豆包文档/表格/PPT 或飞书载体时严格服从；未指定时默认创建与内容匹配的豆包在线载体。纯开发实现、纯排版和无测试目标的数据分析不触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06556-doubao-product-qa-730a7915",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-product-qa/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-product-qa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec09d71e4201c2d6f6fce05a4d116a0441ba1ff15f5a69574bf68afe53e05ce8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

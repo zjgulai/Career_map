@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tg-rag-temporal-knowledge-graph",
+  "中文名称": "时序知识图谱RAG 双层时序图增量更新与时间窗口检索",
+  "一句话作用": "触发词：时序知识图谱、时间窗口检索、增量更新、关税政策、知识新鲜度。何时不用：知识本身无时效性时不必建时序图；只做嵌入级衰减走自感知嵌入。安全边界：图谱数据滞后会导致税率与成本测算错误，须建立周期性数据验证与定期重训机制。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要静态知识库的过期答案率高达35%，语义相关不等于时间有效——TG-RAG双层时序图在不重建知识库的前提下实现增量时序更新，过期答案率从35%降至13.3%（2025 arXiv:2510.13590）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12149-p2s-tg-rag-temporal-knowledge-graph-ccbce2fa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tg-rag-temporal-knowledge-graph/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tg-rag-temporal-knowledge-graph/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f36d5c2b2830a0b96a4ede15ba6c189fff03594627801d5db6d7061490431483",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

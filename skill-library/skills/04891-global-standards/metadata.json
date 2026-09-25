@@ -1,0 +1,22 @@
+{
+  "英文名称": "global-standards",
+  "中文名称": "待补：global-standards",
+  "一句话作用": "Project-wide coding standards and conventions specialist. Use PROACTIVELY when writing code, making architectural decisions, or establishing project conventions. Covers coding style, commenting, error handling, validati…",
+  "关键输入": "When to apply: - Validating form inputs on the frontend - Validating API request bodies, query parameters, and headers - Implementing server-side validation logic - Creating validation schemas (Zod, Yup, Pydantic, Joi) - Sanitizing user input to prevent XSS,…",
+  "关键输出": "When to apply: - Validating form inputs on the frontend - Validating API request bodies, query parameters, and headers - Implementing server-side validation logic - Creating validation schemas (Zod, Yup, Pydantic, Joi) - Sanitizing user input to prevent XSS,…",
+  "最新更新时间": "2025-12-23",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Writing code - Ensuring consistency with project standards - Making architectural decisions - Following established patterns - Onboarding - Understanding project conventions - Code review - Checki…时，用它产出或更新：When to apply: - Validatin…",
+  "skill_id": "04891-global-standards-0f505316",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/global-standards/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/global-standards/SKILL.md",
+  "date_source": "frontmatter.updated",
+  "content_hash": "b5a9ab440fa48a29c98b2fd59aaff6a09fd5ae6a4879d89555a96f53ce7d8895",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "gitnexus-refactoring",
+  "中文名称": "待补：gitnexus-refactoring",
+  "一句话作用": "Use when the user wants to rename, extract, split, move, or restructure code safely. Examples: \"Rename this function\", \"Extract this into a module\", \"Refactor this class\", \"Move this to a separate file\"",
+  "关键输入": "- \"Rename this function safely\" - \"Extract this into a module\" - \"Split this service\" - \"Move this to a new file\" - Any task involving renaming, extracting, splitting, or restructuring code",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-02T23:14:16+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- \"Rename this function safely\" - \"Extract this into a module\" - \"Split this service\" - \"Move this to a new file\" - Any task involving renaming, extracting, splitting, or restructuring code时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09272-gitnexus-refactoring-0d934692",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/projects/report02/.agents/skills/gitnexus/gitnexus-refactoring/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/projects/report02/.agents/skills/gitnexus/gitnexus-refactoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6aab994ee0266063245245483ee3280645aca66c0c5e56730ffad3f32ecbbc5c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

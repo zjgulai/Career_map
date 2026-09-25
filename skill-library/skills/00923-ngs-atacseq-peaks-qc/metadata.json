@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-atacseq-peaks-qc",
+  "中文名称": "待补：ngs-atacseq-peaks-qc",
+  "一句话作用": "Run or plan ATAC-seq QC, alignment, TSS enrichment, fragment-size, blacklist, peak-calling, consensus peak, and differential accessibility workflows.",
+  "关键输入": "Confirm: - FASTQ/BAM inputs and paired-end status - organism, genome build, blacklist, and mitochondrial contig names - biological replicates, conditions, batches, and sample metadata - whether the target is QC only, peaks, consensus peaks, bigWigs, or differ…",
+  "关键输出": "Produce: - sample sheet and workflow command/profile - QC summary and failed-sample flags - narrowPeak/BED peak sets, consensus peaks, bigWigs, browser-track manifests, browser-track preview HTML, native QC dashboard/SVG plots, TSS plots, and peak-count matri…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Run or plan ATAC-seq QC, alignment, TSS enrichment, fragment-size, blacklist, peak-calling, consensus peak, and differential accessibility workflows.时，用它产出或更新：Produce: - sample sheet and workflow command/profile - QC summary and failed-sample flags - narro…",
+  "skill_id": "00923-ngs-atacseq-peaks-qc-9edac4fe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-atacseq-peaks-qc/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-atacseq-peaks-qc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d9ff2e1e3798d8b4ae286e0de550acbec9875a3573c51a6bd231292d71df0a6e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

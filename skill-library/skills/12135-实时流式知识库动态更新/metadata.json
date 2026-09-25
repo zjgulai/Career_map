@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-streamingrag-realtime-knowledge",
+  "中文名称": "实时流式知识库动态更新",
+  "一句话作用": "触发词：实时知识库、Streaming-RAG、流式更新、价格同步、断货预警。何时不用：知识天级更新就够、或要评知识库答得准不准时走 RAG 质量评测；只搬运价格字段不进知识库走流式 ETL。安全边界：须符合 GDPR 数据最小化（仅存必要价格字段）与 Amazon API 使用协议，卡页另标注向量漂移 8% 与新品类分布变化风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营团队面临知识库价格信息滞后最长30分钟——流式RAG将知识更新延迟降至<100ms，大促实时定价决策准确，年化GMV保护60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12135-p2s-streamingrag-realtime-knowledge-42760796",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-streamingrag-realtime-knowledge/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-streamingrag-realtime-knowledge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1dbc33e8ba17af55e8454b562460a4ce71dc9f46dd7322c409fe60c847b6f012",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencent-docs-sheetagent",
+  "中文名称": "待补：tencent-docs-sheetagent",
+  "一句话作用": "处理 Excel/xlsx/xls/csv 表格文件的读写、查询、数据分析、公式构造、 图表生成、透视表、行列增删、合并/排序/筛选、格式设置、清洗整理等一切表格操作。 当用户上传、引用或需要创建/编辑/分析任何 .xlsx/.xls/.csv 表格文件时使用。 提供比 openpyxl 更强大的表格处理能力，支持复杂数据分析和可视化。",
+  "关键输入": "若用户只上传了文件但没有给出具体指令，先询问用户希望做什么，得到回复后再调用子代理。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要处理 Excel/xlsx/xls/csv 表格文件的读写、查询、数据分析、公式构造、 图表生成、透视表、行列增删、合并/排序/筛选、格式设置、清洗整理等一切表格操作。 当用户上传、引用或需要创建/编辑/分析任何 .xlsx/.xls/.csv 表格文件时使用。 提供比 openpyxl 更强大的表格处理能力，支持复杂数据分析和可视化。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05545-tencent-docs-sheetagent-e3617d0e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/sheetagent/skills/excel-handler/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/sheetagent/skills/excel-handler/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a830ac4ec90a04a4ae6fc8acc6b5e8f225668c626141c9db00fc6a2ce58049ef",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

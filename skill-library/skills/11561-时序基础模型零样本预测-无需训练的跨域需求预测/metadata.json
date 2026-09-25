@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-time-series-foundation-model-zero-shot",
+  "中文名称": "时序基础模型零样本预测 无需训练的跨域需求预测",
+  "一句话作用": "触发词：零样本、跨域预测、长尾批量、无需训练、预训练模型。何时不用：有充分历史且追求最优精度时用精调模型；只做单款新品零样本预测用「时序基础模型」。安全边界：预测结果不得对外宣传为 AI 保证备货量，内部决策文档需注明置信区间。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要新品运营面临\"仅45天历史数据需求预测MAPE高达38%备货失误严重\"——零样本时序基础模型无需训练直接预测新品需求，MAPE降至23%，年化节省首批积压约180万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11561-p2s-time-series-foundation-model-zero-shot-7d273e5f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-time-series-foundation-model-zero-shot/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-time-series-foundation-model-zero-shot/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5a94fcbde8077cce2f6ba908d168fbf5243889e2f9c1f98ce6f87e52fccd8dc9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

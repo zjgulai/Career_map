@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-causal-inference",
+  "中文名称": "跨境电商因果推断分析",
+  "一句话作用": "跨境电商因果推断分析 - 在无法做A/B测试时，通过分层、匹配、差分等方法推断因果关系，找出关键影响因素",
+  "关键输入": "- 待验证的因果关系：X → Y - 业务背景： - 假设陈述：",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T01:55:30+08:00",
+  "业务场景": "methodology-analysis",
+  "解决具体问题": "当需要- 待验证的因果关系：X → Y - 业务背景： - 假设陈述：时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09434-cbec-causal-inference-c7fa883b",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/13-methodology-analysis/causal-inference/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/13-methodology-analysis/causal-inference/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "759aefcd9d9f524459c279d13a551c781f6da7add85a825cc2e0aec32ac25800",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

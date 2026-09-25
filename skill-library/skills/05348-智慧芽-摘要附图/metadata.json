@@ -1,0 +1,22 @@
+{
+  "英文名称": "linkfox-zhihuiya-abstract-image",
+  "中文名称": "智慧芽-摘要附图",
+  "一句话作用": "通过专利ID或公开号从智慧芽专利数据库获取专利摘要附图。当用户提到专利摘要附图、专利图纸、专利示意图、专利图片、摘要附图检索、专利图片查询、patent abstract images, patent drawings, patent illustrations, PatSnap, abstract image lookup时触发此技能。即使用户未明确说\"摘要附图\"，只要其需要查看专利文件中的图纸或示意图，也应触发此技能。",
+  "关键输入": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- patentId string 否 最长 60000 专利ID（专利id和公开号两个参数必须要有一个，如果两个都存在，会优先使用专利id），多个用英文逗号隔开，上限100条 patentNumber string 否 最长 60000 公开公告号（专利id和公开号两个参数必须要有一个，如果两个都存在，会优先使用专利id），多个用英文逗号隔开，上限100条",
+  "关键输出": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- data array 否 专利列表 type string 否 渲染的样式 total integer 否 记录数 columns array 否 渲染的列 costToken integer 否 消耗token",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要当用户意图与“智慧芽-摘要附图”匹配，或需要以下能力时使用本工具：工具中文名：智慧芽-摘要附图 描述：可以通过输入专利ID或专利公开号查询具体某条专利的摘要附图信息。包含：摘要附图图片号、摘要附图图片下载路径。 关键词：智慧芽,摘要,附图 调用前应先确认所有必填参数。涉及站点、国家、日期、语言、ASIN、SKU、图片或 URL 时，应使用用户提供的信息，不要擅自虚构真实业务标识。时，用它产出或更新：字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- data array 否 专…",
+  "skill_id": "05348-linkfox-zhihuiya-abstract-image-86b819b6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-zhihuiya-abstract-image/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-zhihuiya-abstract-image/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66028a056282c48a8c556131980f339ee7b3cbd535bc8f9993daa6d7daceb967",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

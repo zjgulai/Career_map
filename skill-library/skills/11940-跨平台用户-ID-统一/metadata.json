@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-platform-user-identity-resolution",
+  "中文名称": "跨平台用户 ID 统一",
+  "一句话作用": "触发词：身份图谱、概率匹配、跨平台归因、LTV 打通、置信阈值。何时不用：只用邮箱哈希做确定性匹配时用轻量身份统一技能；需要图结构的进一步补全用三层匹配技能，本技能管确定性加概率性两层与图谱沉淀。安全边界：只处理邮件或手机哈希，跨平台 ID 关联须有用户同意（GDPR Art.4(11)）；概率匹配误报会污染图谱，置信阈值取 0.85 以上。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据工程师面临\"同一用户在Amazon/TikTok/独立站无法识别导致营销浪费\"——跨平台用户ID统一将重复触达率降低45%，年化节省广告预算20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11940-p2s-cross-platform-user-identity-resolution-85d7a914",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-platform-user-identity-resolution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-platform-user-identity-resolution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "407f37116adce8af49fb4a61480afa7d8fdee98cf7238743b5c184133c15a694",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

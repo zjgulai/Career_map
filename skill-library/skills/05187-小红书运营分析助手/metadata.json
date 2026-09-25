@@ -1,0 +1,22 @@
+{
+  "英文名称": "xiaohongshu-yunying-zhushou",
+  "中文名称": "小红书运营分析助手",
+  "一句话作用": "一站式小红书运营工具，融合选题灵感、数据分析模块。支持爆款标题、热点选题、粉丝分析等，覆盖小红书运营数据获取场景。用户提到小红书/xhs/rednote 且需要查数据、做选题、竞品监控、KOL筛选、评论舆情分析时调用；给关键词或链接即可，无需登录账号",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:52:12+08:00",
+  "业务场景": "数据分析",
+  "解决具体问题": "当需要一站式小红书运营工具，融合选题灵感、数据分析模块。支持爆款标题、热点选题、粉丝分析等，覆盖小红书运营数据获取场景。用户提到小红书/xhs/rednote 且需要查数据、做选题、竞品监控、KOL筛选、评论舆情分析时调用；给关键词或链接即可，无需登录账号时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05187-xiaohongshu-yunying-zhushou-1c9c3af3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/xiaohongshu-yunying-zhushou/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/xiaohongshu-yunying-zhushou/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ac15f43a15c0ee5adbb8f73a8dcd5a78db552af6e0eeaa231c92c17c508c34c9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

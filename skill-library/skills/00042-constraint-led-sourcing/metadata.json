@@ -1,0 +1,22 @@
+{
+  "英文名称": "constraint-led-sourcing",
+  "中文名称": "待补：constraint-led-sourcing",
+  "一句话作用": "Build a concrete product or supplier shortlist with links, images and required specifications; carry exclusions and novelty requirements across \"find more\" turns. Use for requested counts, source factories, exact materi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T16:24:28+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Build a concrete product or supplier shortlist with links, images and required specifications; carry exclusions and novelty requirements across \"find more\" turns. Use for requested counts, source factories, exact materi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00042-constraint-led-sourcing-6224e3ed",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/constraint-led-sourcing/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/constraint-led-sourcing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bfac20477d4642c736c2f78682ed004ce144776e08e620813b2319ecef23963f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

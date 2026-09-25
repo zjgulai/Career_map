@@ -1,0 +1,22 @@
+{
+  "英文名称": "jupyter-notebook",
+  "中文名称": "待补：jupyter-notebook",
+  "一句话作用": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (.ipynb) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script new notebook.py to generate a clean star…",
+  "关键输入": "- Create a new .ipynb notebook from scratch. - Convert rough notes or scripts into a structured notebook. - Refactor an existing notebook to be more reproducible and skimmable. - Build experiments or tutorials that will…",
+  "关键输出": "- Use tmp/jupyter-notebook/ for intermediate files; delete when done. - Write final artifacts under output/jupyter-notebook/ when working in this repo. - Use stable, descriptive filenames (for example, ablation-temperature.ipynb).",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Create a new .ipynb notebook from scratch. - Convert rough notes or scripts into a structured notebook. - Refactor an existing notebook to be more reproducible and skimmable. - Build experiments or tutorials that will…时，用它产出或更新：- Use tmp/jupyter-notebook…",
+  "skill_id": "01618-jupyter-notebook-1189a416",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/jupyter-notebook/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/jupyter-notebook/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

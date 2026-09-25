@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-multi-objective-recommendation",
+  "中文名称": "待补：p2s-mas-multi-objective-recommendation",
+  "一句话作用": "触发词：p2s-mas-multi-objective-recommendation。MAS多目标推荐",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：p2s-mas-multi-objective-recommendation。MAS多目标推荐时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "03413-p2s-mas-multi-objective-recommendation-0f06b2d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mas-multi-objective-recommendation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mas-multi-objective-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "22a0aee304eeb001c07f1e3f872ab320f36971819a2abc33d452f31af5aba581",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

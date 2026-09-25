@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-multi-sheet-threshold-analysis",
+  "中文名称": "待补：excel-multi-sheet-threshold-analysis",
+  "一句话作用": "统计多Sheet Excel总行数并根据规模选择处理策略，提取特定维度信息进行去重统计，并生成摘要与明细报表。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "output summary path = 'summary report.xlsx' output detail path = 'detail list.xlsx' summary df.to excel(output summary path, index=False) detail df.to excel(output detail path, index=False) print(f\"统计摘要已保存: {output summary path}\") print(f\"详细清单已保存: {output det…",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要统计多Sheet Excel总行数并根据规模选择处理策略，提取特定维度信息进行去重统计，并生成摘要与明细报表。时，用它产出或更新：output summary path = 'summary report.xlsx' output detail path = 'detail list.xlsx' summary df.to excel(output summary path, index=False) detail df.to excel(output detail path, index=False) p…",
+  "skill_id": "04155-excel-multi-sheet-threshold-analysis-6e9b3338",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/duplicate-removal/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/duplicate-removal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4e635016ea259f3dea95621f51aa127c276fce12d63c0d788829e88aa733a99c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "reviewer-2-simulator",
+  "中文名称": "待补：reviewer-2-simulator",
+  "一句话作用": "Critiques your paper draft as a skeptical reviewer would. Use when asked to review a paper draft, find weaknesses in a paper, prepare for peer review, anticipate reviewer criticism, or stress-test research before submis…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- [ ] Claims supported by evidence? - [ ] Alternative explanations considered? - [ ] Limitations acknowledged? - [ ] Failure cases shown? Common issues: - Overclaiming from marginal improvements - Ignoring results that don't fit narrative - No discussion of w…",
+  "最新更新时间": "2026-09-19T03:49:27+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Critiques your paper draft as a skeptical reviewer would. Use when asked to review a paper draft, find weaknesses in a paper, prepare for peer review, anticipate reviewer criticism, or stress-test research before submis…时，用它产出或更新：- [ ] Claims supported by…",
+  "skill_id": "05060-reviewer-2-simulator-8171c821",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/reviewer-2-simulator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/reviewer-2-simulator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d9455c27d8329e1139ff9d89aa558b3c8e87c91ab2aaa2a791b4abcac99f059",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

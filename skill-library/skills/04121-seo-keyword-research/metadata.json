@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo-keyword-research",
+  "中文名称": "待补：seo-keyword-research",
+  "一句话作用": "- Discover high-value keywords, classify search intent, and build topic clusters to drive organic traffic and AI visibility (GEO). 边界：找词与搜索意图分类；对标竞品走 seo-competitor-analysis 触发词：SEO关键词研究、关键词挖掘、搜索意图分类、话题集群、GEO优化、内容排期。",
+  "关键输入": "- 挖掘高价值关键词、意图分类与主题簇。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:21:44+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 挖掘高价值关键词、意图分类与主题簇。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04121-seo-keyword-research-7b994602",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/seo-keyword-research/SKILL.md",
+  "relative_path": "lute/.dsh/skills/seo-keyword-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4f3664dbb348f8c03877e23c7f38e8ce44aacb7b8488381cf5cbd2c3ab015475",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

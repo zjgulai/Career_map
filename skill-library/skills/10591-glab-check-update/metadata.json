@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-check-update",
+  "中文名称": "待补：glab-check-update",
+  "一句话作用": "检查 glab CLI 更新并查看最新版本信息。适用于检查 glab 是否为最新版本或查找可用更新。触发词：更新 glab、检查版本、glab 版本、CLI 更新。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要检查 glab CLI 更新并查看最新版本信息。适用于检查 glab 是否为最新版本或查找可用更新。触发词：更新 glab、检查版本、glab 版本、CLI 更新。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10591-glab-check-update-788a6589",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-check-update/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-check-update/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1141dce5175d5ed6cef25e159f0321c70b439d005804a51a8c24beef3b9f2b5b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

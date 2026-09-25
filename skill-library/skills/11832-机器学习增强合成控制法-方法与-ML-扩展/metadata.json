@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-synthetic-control-ml-enhanced",
+  "中文名称": "机器学习增强合成控制法 方法与 ML 扩展",
+  "一句话作用": "触发词：合成控制、ML增强、算法冲击、政策评估、安慰剂检验。何时不用：控制单元少于5个或预处理期不足干预期3倍时权重不稳；能构造可比对照时DiD更简单。安全边界：仅使用汇总的类目/市场级时序数据，不使用个体用户数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Amazon A9 算法更新后销量异动无法区分算法影响与季节性导致策略误判——引入 ML 增强合成控制法（Doudchenko & Imbens），算法冲击净效应估计置信区间精度 95%，策略响应准确率大幅提升。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11832-p2s-synthetic-control-ml-enhanced-18b970f5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-synthetic-control-ml-enhanced/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-synthetic-control-ml-enhanced/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6090b5a09db45a18b288eb3f09475dac9569395b907d292557faab93681a4a58",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

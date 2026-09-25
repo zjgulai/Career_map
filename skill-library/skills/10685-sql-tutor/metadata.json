@@ -1,0 +1,22 @@
+{
+  "英文名称": "sql-tutor",
+  "中文名称": "待补：sql-tutor",
+  "一句话作用": "帮助用户编写和优化 SQL 查询，包括将自然语言转换为 SQL、提供查询优化建议以及解读 EXPLAIN 执行计划。当用户需要 SQL 相关帮助时触发，例如直接请求“自然语言转SQL”、“帮我优化这条SQL”、“解释一下这个执行计划”，或提及关键词如 NL2SQL、SQL优化、慢查询、索引建议、全表扫描、SQL调优，以及支持 SQLite 和 PostgreSQL 数据库时。",
+  "关键输入": "参数 必填 默认值 说明 ------ ------ -------- ------ --db-type 否 sqlite 数据库类型：sqlite 或 postgres --db-path schema/explain 时（SQLite） — SQLite 数据库文件路径 --dsn schema/explain 时（PostgreSQL） — PostgreSQL 连接串",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:09+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要帮助用户编写和优化 SQL 查询，包括将自然语言转换为 SQL、提供查询优化建议以及解读 EXPLAIN 执行计划。当用户需要 SQL 相关帮助时触发，例如直接请求“自然语言转SQL”、“帮我优化这条SQL”、“解释一下这个执行计划”，或提及关键词如 NL2SQL、SQL优化、慢查询、索引建议、全表扫描、SQL调优，以及支持 SQLite 和 PostgreSQL 数据库时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10685-sql-tutor-82b86665",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/sql-tutor/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/sql-tutor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8a0d689c01b1755acebc2b4fd0cf66366a63b167f713d649883b75dd5b19234",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "lexiang-files",
+  "中文名称": "乐享文件上传管理",
+  "一句话作用": "乐享知识库文件上传与下载管理。当用户提到「乐享」「知识库」「lexiang」并包含文件上传/下载意图时使用。典型触发：「上传文件到乐享」「传个 PDF」「把这个文件放到知识库」「上传附件」「同步文件夹」「传文件到乐享」「下载这个文件」「帮我把本地的 Word/Excel/图片上传到乐享」。适用于 PDF、Word、Excel、图片、压缩包等二进制文件的上传和下载场景。支持三步文件上传（申请→PUT上传→确认）、文件详情查询、文件下载。…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要乐享知识库文件上传与下载管理。当用户提到「乐享」「知识库」「lexiang」并包含文件上传/下载意图时使用。典型触发：「上传文件到乐享」「传个 PDF」「把这个文件放到知识库」「上传附件」「同步文件夹」「传文件到乐享」「下载这个文件」「帮我把本地的 Word/Excel/图片上传到乐享」。适用于 PDF、Word、Excel、图片、压缩包等二进制文件的上传和下载场景。支持三步文件上传（申请→PUT上传→确认）、文件详情查询、文件下载。…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05292-lexiang-files-a073e4bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/files/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/files/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e82261838e9f235742ff9f54e01112e277941b9832437b441692eadeac3f20ef",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "test-cases",
+  "中文名称": "待补：test-cases",
+  "一句话作用": "This skill should be used when generating comprehensive test cases from PRD documents or user requirements. Triggers when users request test case generation, QA planning, test scenario creation, or need structured test…",
+  "关键输入": "First, identify the source of requirements: 1. If user provides a file path to a PRD, read it using the Read tool 2. If user describes requirements verbally, capture them 3. If requirements are unclear or incomplete, use AskUserQuestion to clarify: - What are…",
+  "关键输出": "Write the test cases to tests/ -test-cases.md where is derived from: - The feature name from the PRD - The user's specified name - A sanitized version of the requirement title Use the Write tool to create the file with the structured test cases.",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Trigger this skill when: - User provides a PRD or requirements document and requests test cases - User asks to \"generate test cases\", \"create test scenarios\", or \"plan QA\" - User mentions testing coverage for a feature…时，用它产出或更新：Write the test cases to tes…",
+  "skill_id": "05972-test-cases-f92f6f49",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/test-cases/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/test-cases/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d811d47337fae5fd282adddfe34182da69d7e717f44a82e340de7f1d8c9f10e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

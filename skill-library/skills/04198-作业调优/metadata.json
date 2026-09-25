@@ -1,0 +1,22 @@
+{
+  "英文名称": "spark-optimization",
+  "中文名称": "作业调优",
+  "一句话作用": "用分区、AQE、广播 join 与内存调参优化慢 Spark 作业，减少 shuffle 与数据倾斜。触发词：Spark 优化、spark-optimization、用分区、AQE、广播 join 与内存调参优化慢 Spark 作业，减少 shuffle 与数据倾斜。",
+  "关键输入": "- 优化运行缓慢的 Spark 作业 - 调整内存与 executor 配置 - 落地高效的分区策略 - 排查 Spark 性能问题 - 为大数据集扩展 Spark 管线 - 减少 shuffle 与数据倾斜",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 优化运行缓慢的 Spark 作业 - 调整内存与 executor 配置 - 落地高效的分区策略 - 排查 Spark 性能问题 - 为大数据集扩展 Spark 管线 - 减少 shuffle 与数据倾斜时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04198-spark-optimization-b4fd1fd7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/spark-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/spark-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d128afe0251d0c09072a227ac87b03a6add273074ba9c2d9c99aae108ba43dc5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

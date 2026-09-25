@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cascade-deployment-time-learning",
+  "中文名称": "案例推理部署时学习：Contextual Bandit 无参数自适应",
+  "一句话作用": "触发词：部署时学习、案例推理、上下文老虎机、广告素材、首投成功率。何时不用：靠记忆层在线适应规则走「梯度无关持续学习」；从失败轨迹巩固策略走「对比反思与自我巩固」。安全边界：案例库只能使用自有原创素材，复用第三方文案与素材前须确认授权。",
+  "关键输入": "发布经理面临上线后策略失配——CASCADE将部署失败率8%降到2%，年化省19万元",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要发布经理面临上线后策略失配——CASCADE将部署失败率8%降到2%，年化省19万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11919-p2s-cascade-deployment-time-learning-5db831f9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cascade-deployment-time-learning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cascade-deployment-time-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "920ae03f0165367e5cde3ee01427170cd3529671f2318dfcd49821f7e222ae29",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

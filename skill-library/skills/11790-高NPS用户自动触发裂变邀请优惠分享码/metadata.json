@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-referral-viral-loop-trigger",
+  "中文名称": "高NPS用户自动触发裂变邀请优惠分享码",
+  "一句话作用": "触发词：裂变触发、NPS 门槛、分享码、老带新、推荐奖励发放。何时不用：要设计奖励额度与 K 因子结构时用病毒传播建模技能；本技能负责把高满意度老客挑出来触发裂变邀请。安全边界：不得在平台店铺内诱导站外分享；分享码优惠须标明有效期与新用户限制，并配防刷规则。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要增长负责人面临\"高满意度用户未被转化为传播节点\"——NPS 8+复购≥2次自动触发裂变邀请将老带新转化率提升至8%，年化新增GMV70万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11790-p2s-referral-viral-loop-trigger-1bab5b2d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-referral-viral-loop-trigger/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-referral-viral-loop-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93696f0daded50260d0e6c840e3ef3ee5830cc1b70acfe52145e9acb87697049",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

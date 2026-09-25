@@ -1,0 +1,22 @@
+{
+  "英文名称": "sox-testing",
+  "中文名称": "待补：sox-testing",
+  "一句话作用": "Generate SOX sample selections, testing workpapers, and control assessments. Use when planning quarterly or annual SOX 404 testing, pulling a sample for a control (revenue, P2P, ITGC, close), building a testing workpape…",
+  "关键输入": "- control-area — The control area to test: - revenue-recognition — Revenue cycle controls (order-to-cash) - procure-to-pay or p2p — Procurement and AP controls (purchase-to-pay) - payroll — Payroll processing and compensation controls - financial-close — Peri…",
+  "关键输出": "Provide: 1. Control matrix for the selected area 2. Sample selections with methodology documentation 3. Testing workpaper templates with pre-populated test steps 4. Results documentation template 5. Deficiency evaluation framework (if exceptions are identifie…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate SOX sample selections, testing workpapers, and control assessments. Use when planning quarterly or annual SOX 404 testing, pulling a sample for a control (revenue, P2P, ITGC, close), building a testing workpape…时，用它产出或更新：Provide: 1. Control matrix…",
+  "skill_id": "05478-sox-testing-7519a3fc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/sox-testing/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/sox-testing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5e5939a070a25d9696b27aaec6c20e64084e6f58637994b2f7ec92744074ea23",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

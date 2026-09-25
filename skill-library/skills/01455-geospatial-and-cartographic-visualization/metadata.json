@@ -1,0 +1,22 @@
+{
+  "英文名称": "geospatial-and-cartographic-visualization",
+  "中文名称": "待补：geospatial-and-cartographic-visualization",
+  "一句话作用": "Design geospatial and cartographic visualizations. Use when the user needs help deciding whether to use a map, choosing projections or basemaps, building choropleths or symbol maps, or implementing thematic maps, slippy…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Explain why a map is or is not justified. - State the recommended basemap or substrate, required contextual layers, thematic data layers, and any unresolved questions before choosing the implementation stack. - Call out projection, area, and normalization t…",
+  "最新更新时间": "2026-09-17T09:36:42+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Design geospatial and cartographic visualizations. Use when the user needs help deciding whether to use a map, choosing projections or basemaps, building choropleths or symbol maps, or implementing thematic maps, slippy…时，用它产出或更新：- Explain why a map is or…",
+  "skill_id": "01455-geospatial-and-cartographic-visualization-2e5f5c17",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/geospatial-and-cartographic-visualization/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/geospatial-and-cartographic-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "18f5cf852b8a2d635a8198ba0b7da69118860d66c9755ef3108d476bfa8be0ee",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

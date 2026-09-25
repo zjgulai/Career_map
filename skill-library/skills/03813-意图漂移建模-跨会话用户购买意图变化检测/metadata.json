@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-session-intent-shift",
+  "中文名称": "意图漂移建模 - 跨会话用户购买意图变化检测",
+  "一句话作用": "触发词：意图漂移、意图树、路径语义标签、跨会话意图、探索型比价型。何时不用：只做页面级漏斗流失定量定位时用「用户旅程分析」；只做旅程序列原型聚类与流失风险名单时用「客户旅程序列原型检测」。安全边界：跨会话行为与商品偏好属个人信息，须获授权并去标识化后建模，标签仅用于流量结构理解与合规触达。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务问题：桑基图展示了页面间流量（如\"首页→分类页→PDP→加购→支付\"），但缺少\"为什么用户走这条路\"的语义信息时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03813-p2s-session-intent-shift-55c62795",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-session-intent-shift/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-session-intent-shift/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "660d054976188f5877685052b46d19b878625217fbfaa96a88964845d7be924a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

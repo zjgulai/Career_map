@@ -1,0 +1,22 @@
+{
+  "英文名称": "dev-workflow-assistant",
+  "中文名称": "开发流程助手",
+  "一句话作用": "从零开始构建项目的全生命周期开发流程管理。整合需求分析、技术方案设计、 模块化开发、代码审查、代码→需求追溯映射和交付验收的完整工作流。 本技能仅负责「从零新建」，不处理存量项目变更： 本技能触发（greenfield 新建）： - 从零开始 / 从零开发 / 从零搭建 / 从零构建 - 新建项目 / 创建项目 / 搭建项目 / 构建一个新XX - 做一个XX应用 / 开发一个新XX系统 / 帮我建一个XX - 快速原型 / 做个 d…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "目标 ：完成最终交付，确保满足所有需求。 交付清单 ： - [ ] 所有功能需求已实现并通过测试 - [ ] 代码注释完整且准确 - [ ] 技术文档齐全（架构、API、部署） - [ ] MODULE MAPPING.md 覆盖所有代码文件 - [ ] 用户操作手册 - [ ] 已知问题和技术债务清单（仅复杂项目） 结构化交付报告 （必须包含）：",
+  "最新更新时间": "2026-09-19T03:52:46+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要从零开始构建项目的全生命周期开发流程管理。整合需求分析、技术方案设计、 模块化开发、代码审查、代码→需求追溯映射和交付验收的完整工作流。 本技能仅负责「从零新建」，不处理存量项目变更： 本技能触发（greenfield 新建）： - 从零开始 / 从零开发 / 从零搭建 / 从零构建 - 新建项目 / 创建项目 / 搭建项目 / 构建一个新XX - 做一个XX应用 / 开发一个新XX系统 / 帮我建一个XX - 快速原型 / 做个 d…时，用它产出或更新：目标 ：完成最终交付，确保满足所有需求。 交付清单…",
+  "skill_id": "04808-dev-workflow-assistant-f65cf86b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dev-workflow-assistant/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dev-workflow-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e529b0a933488e015e363f265b83297f5a52f8a3698c764765b26804ca626fa1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

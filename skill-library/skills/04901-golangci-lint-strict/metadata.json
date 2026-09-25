@@ -1,0 +1,22 @@
+{
+  "英文名称": "golangci-lint-strict",
+  "中文名称": "待补：golangci-lint-strict",
+  "一句话作用": "Use this skill to install and use the upstream powerman/golangci-lint-strict config for an exact golangci-lint version by fetching the versioned config file unchanged.",
+  "关键输入": "- Install exact version using the standard config filename (agent resolves the activated skill directory path): - bash \" /assets/install-strict-config.sh\" 2.10.1 .golangci.yml - Run lint (auto-detects .golangci.yml):",
+  "关键输出": "- Provide the exact fetch command/script invocation and the selected upstream version. - Explicitly state that the config was installed as .golangci.yml (or note the custom path if the user requested one). - If an existing config was detected, explicitly note…",
+  "最新更新时间": "2026-09-19T04:12:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Install exact version using the standard config filename (agent resolves the activated skill directory path): - bash \" /assets/install-strict-config.sh\" 2.10.1 .golangci.yml - Run lint (auto-detects .golangci.yml):时，用它产出或更新：- Provide the exact fetch comm…",
+  "skill_id": "04901-golangci-lint-strict-f1a343e4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/golangci-lint-strict/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/golangci-lint-strict/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c5f2dd6c717c39515631da0a1571cbb609df4b75acc35b55054e98a7238eccad",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

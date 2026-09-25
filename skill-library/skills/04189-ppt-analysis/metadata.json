@@ -1,0 +1,22 @@
+{
+  "英文名称": "ppt-analysis",
+  "中文名称": "待补：ppt-analysis",
+  "一句话作用": "PPT (.pptx/.ppt) 全量解析。覆盖：所有 slide 文本/表格/图表提取、嵌入图片 caption、纯图片 slide 渲染识别、数据标签提取。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要PPT (.pptx/.ppt) 全量解析。覆盖：所有 slide 文本/表格/图表提取、嵌入图片 caption、纯图片 slide 渲染识别、数据标签提取。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04189-ppt-analysis-01633ffe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-non-spreadsheet-analysis/capability/ppt-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-non-spreadsheet-analysis/capability/ppt-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d93099069252469a239ed9a339e56f1dea68e79f415b92eb857fb4966982d61c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

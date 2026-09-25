@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-federated-learning-privacy",
+  "中文名称": "联邦学习隐私保护 跨数据孤岛的协作训练框架",
+  "一句话作用": "触发词：联邦学习、跨数据孤岛、FedAvg、非独立同分布、梯度共享。何时不用：多家独立站联合做推荐场景时用「Federated Cross-Seller Recommendation」；做端侧加噪推荐时用「差分隐私推荐系统」。安全边界：共享梯度也需数据处理协议；梯度泄漏可能重建原始数据，须配合安全聚合与差分隐私；涉儿童数据须额外授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境团队面临\"多国站点数据GDPR禁止合并无法联合建模\"——FedAvg联邦训练使德国/日本站个性化提升15-20%，合规合作成本零，年化ROI约150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12544-p2s-federated-learning-privacy-847e6493",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-federated-learning-privacy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-federated-learning-privacy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7be90458725012a5a6fd180d0f0626332883b6ce55154b4b76ae7c06c19f015d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-game-foundations",
+  "中文名称": "待补：web-game-foundations",
+  "一句话作用": "Set browser-game architecture before implementation. Use when the user needs engine choice, simulation and render boundaries, input model, asset organization, or save/debug/performance strategy.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Set browser-game architecture before implementation. Use when the user needs engine choice, simulation and render boundaries, input model, asset organization, or save/debug/performance strategy.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00852-web-game-foundations-d6c15aa2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/game-studio/skills/web-game-foundations/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/game-studio/skills/web-game-foundations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ef35c1954fa07d10673c1a5a7749656319494fd0675dd2be9671e2dd3cbd7e1b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

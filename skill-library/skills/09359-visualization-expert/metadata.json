@@ -1,0 +1,22 @@
+{
+  "英文名称": "visualization-expert",
+  "中文名称": "待补：visualization-expert",
+  "一句话作用": "Chart selection and data visualization guidance for effective data communication. Use when: creating visualizations, choosing chart types, designing dashboards, or when user mentions data visualization, charts, graphs,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Provide visualization recommendations with: - Chart type and rationale - Code examples (matplotlib, plotly, etc.) - Design best practices - Interpretation guidance --- Created for data visualization and chart selection",
+  "最新更新时间": "2026-06-02T10:50:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Chart selection and data visualization guidance for effective data communication. Use when: creating visualizations, choosing chart types, designing dashboards, or when user mentions data visualization, charts, graphs,…时，用它产出或更新：Provide visualization recom…",
+  "skill_id": "09359-visualization-expert-0191bb2c",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/visualization-expert/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/visualization-expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7cf80d5352cd2df5b80e8be04379086456c7bc23700bd3456639de03a1625b0b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "finishing-a-development-branch",
+  "中文名称": "收尾一个开发分支",
+  "一句话作用": "实现完成后的分支收尾：跑全量测试、探测仓库或 worktree 环境，再选本地合并、开 PR 或保留。触发词：分支收尾、finishing-a-development-branch、实现完成后的分支收尾：跑全量测试、探测仓库或 worktree 环境，再选本地合并、开 PR 或保留。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "git branch -d",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要实现完成后的分支收尾：跑全量测试、探测仓库或 worktree 环境，再选本地合并、开 PR 或保留。触发词：分支收尾、finishing-a-development-branch、实现完成后的分支收尾：跑全量测试、探测仓库或 worktree 环境，再选本地合并、开 PR 或保留。时，用它产出或更新：git branch -d",
+  "skill_id": "02562-finishing-a-development-branch-6908bfea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/finishing-a-development-branch/SKILL.md",
+  "relative_path": "lute/.dsh/skills/finishing-a-development-branch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eab7370a78e0ab84aff37fc35c80892475a0122f18b733b1a5dca0d3bc4c12e4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

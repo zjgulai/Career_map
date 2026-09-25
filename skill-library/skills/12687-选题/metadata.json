@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-选题",
+  "中文名称": "选题",
+  "一句话作用": "This skill should be used when the user asks to \"筛选论文\", \"选择论文\", \"搜索论文\", \"找paper\", \"论文选题\", \"arXiv搜索\". Selects high-quality academic papers from ArXiv based on business requirements for cross-border e-commerce application…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:48:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"筛选论文\", \"选择论文\", \"搜索论文\", \"找paper\", \"论文选题\", \"arXiv搜索\". Selects high-quality academic papers from ArXiv based on business requirements for cross-border e-commerce application…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12687-paper-242827d7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/paper_to_skills/paper2skills-skills/paper-选题/SKILL.md",
+  "relative_path": "lute/project/paper_to_skills/paper2skills-skills/paper-选题/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a3be853731c35ba04d56e336ea6127af8df8283c1ea6906b7b7f8eb41fe5ceec",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-graph-okb-design-sc",
+  "中文名称": "供应链操作知识库OKB图谱设计 双层架构与CDC实时同步策略",
+  "一句话作用": "触发词：供应链图谱、OKB、多跳遍历、断供影响、CDC 同步。何时不用：只需几张表的常规报表或单跳查询时不用；本技能面向供应商到在途订单的多跳关系遍历与实时变更同步。安全边界：图谱承载供应商与采购数据，属商业敏感，访问须最小权限；CDC 同步不得把生产库凭证写进图服务。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应商断供影响链分析需要3层SQL JOIN耗时30分钟且容易漏查——Neo4j+Delta双层OKB将多跳BOM遍历从分钟级→2秒，供应商替代方案秒级发现时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11988-p2s-graph-okb-design-sc-e6fc0ee9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-graph-okb-design-sc/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-graph-okb-design-sc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dab2e612ba59ed7a1c6242a8a6dd18977a7425bde45874d1f079f2c7d50366c5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

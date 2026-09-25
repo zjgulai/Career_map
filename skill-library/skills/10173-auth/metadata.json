@@ -1,0 +1,22 @@
+{
+  "英文名称": "auth",
+  "中文名称": "待补：auth",
+  "一句话作用": "Implement JWT/cookie authentication and authorization in tRPC using createContext for user extraction, t.middleware with opts.next({ ctx }) for context narrowing to non-null user, protectedProcedure base pattern, client…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-22T11:43:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Implement JWT/cookie authentication and authorization in tRPC using createContext for user extraction, t.middleware with opts.next({ ctx }) for context narrowing to non-null user, protectedProcedure base pattern, client…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10173-auth-7a23669f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/ai_product_select/node_modules/@trpc/server/skills/auth/SKILL.md",
+  "relative_path": "lute/project/Agent/product/ai_product_select/node_modules/@trpc/server/skills/auth/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3476d96f8a2f1d3b53841bdf8c6fdbc4e0a8bb3ca83757253550d11919c4af85",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

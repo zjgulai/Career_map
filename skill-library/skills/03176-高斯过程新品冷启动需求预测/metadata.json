@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gp-new-product-demand",
+  "中文名称": "高斯过程新品冷启动需求预测",
+  "一句话作用": "触发词：高斯过程、小样本预测、新品冷启动、置信区间、分位补货。何时不用：有充足历史销量的常规预测用「Agent时序预测」，稀疏零膨胀需求用「GP+Tweedie间歇需求预测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链面临\"新品冷启动期<50个数据点预测精度极差\"——高斯过程回归在小样本下给出带置信区间的预测，首批备货准确率从±40%提升至±20%，年化节省15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03176-p2s-gp-new-product-demand-5b295e10",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-gp-new-product-demand/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-gp-new-product-demand/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2245c47adae8feac01275e16b7f3f88990af311e9065f162207cfa4db9dec4de",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

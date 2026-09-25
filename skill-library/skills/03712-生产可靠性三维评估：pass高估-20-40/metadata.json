@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-reliabilitybench-agent-reliability",
+  "中文名称": "生产可靠性三维评估：pass高估 20-40",
+  "一句话作用": "触发词：可靠性评估、一致性pass@k、鲁棒性扰动、故障注入、上线门禁、三维曲面。何时不用：要定位感知/规划/执行阶段短板用「Agent阶段评估」；要评估工具调用效率用「MCP工具使用评估」；实验性探索阶段不要用，过早引入会拖慢迭代。安全边界：扰动与故障注入必须在隔离的 staging 环境执行，严禁在生产链路注入限流、超时等故障。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴跨境供应链 MAS（Multi-Agent System）在 staging 环境测试通过率达 95%，运营团队想上线，但历史经验表明生产环境与测试差距很大时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03712-p2s-reliabilitybench-agent-reliability-2653e30e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-reliabilitybench-agent-reliability/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-reliabilitybench-agent-reliability/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "87c2d3f5699dcd168369ec15cc17cfac012455d1942f976eb5bde83574096fce",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

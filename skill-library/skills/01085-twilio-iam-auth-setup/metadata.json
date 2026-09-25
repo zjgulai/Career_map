@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-iam-auth-setup",
+  "中文名称": "待补：twilio-iam-auth-setup",
+  "一句话作用": "Set up and manage Twilio authentication credentials: Auth Tokens, API keys (Standard, Main, Restricted), Access Tokens for client-side SDKs, and credential rotation. Use this skill as a prerequisite foundation before ma…",
+  "关键输入": "- Twilio account — see twilio-account-setup if you don't have one - Access to the Twilio Console ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Set up and manage Twilio authentication credentials: Auth Tokens, API keys (Standard, Main, Restricted), Access Tokens for client-side SDKs, and credential rotation. Use this skill as a prerequisite foundation before ma…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01085-twilio-iam-auth-setup-2a287217",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-iam-auth-setup/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-iam-auth-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "76639649f7563496b0b102f9f21fd000b47ec061eb9b0d64704532fc2f0a804a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

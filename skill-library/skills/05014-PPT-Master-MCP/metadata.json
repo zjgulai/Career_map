@@ -1,0 +1,22 @@
+{
+  "英文名称": "PPT Master MCP",
+  "中文名称": "待补：PPT Master MCP",
+  "一句话作用": "AI 驱动的 PPT 生成工具，通过执行 python-pptx 代码自动创建专业 PowerPoint 演示文稿",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "列出 output 目录中所有已生成的 PPT 文件，按修改时间倒序排列。无参数。",
+  "最新更新时间": "2026-09-19T03:49:10+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要AI 驱动的 PPT 生成工具，通过执行 python-pptx 代码自动创建专业 PowerPoint 演示文稿时，用它产出或更新：列出 output 目录中所有已生成的 PPT 文件，按修改时间倒序排列。无参数。",
+  "skill_id": "05014-ppt-master-mcp-c5579b55",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/PPT-Master-MCP/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/PPT-Master-MCP/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4ae6f106ff0fe77cc92c6a64bf085943211ac8ce9ad71ff500d204744b5d4e42",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

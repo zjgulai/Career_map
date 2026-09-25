@@ -1,0 +1,22 @@
+{
+  "英文名称": "schema-alignment",
+  "中文名称": "待补：schema-alignment",
+  "一句话作用": "Detect and report drift between database schema and code data models. Works with SQLAlchemy, Django ORM, Prisma, TypeORM, and other ORMs. Generic across any project.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "/ai-dev-kit:check-schema --output=alignment-report.md",
+  "最新更新时间": "2026-09-19T03:48:52+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Detect and report drift between database schema and code data models. Works with SQLAlchemy, Django ORM, Prisma, TypeORM, and other ORMs. Generic across any project.时，用它产出或更新：/ai-dev-kit:check-schema --output=alignment-report.md",
+  "skill_id": "05078-schema-alignment-15ee3725",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/schema-alignment/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/schema-alignment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d4f79a6af28cc3db20a07348a31aed45ab83178c4203b577068077f220a5707",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

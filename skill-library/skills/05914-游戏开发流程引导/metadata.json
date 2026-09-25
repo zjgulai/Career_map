@@ -1,0 +1,22 @@
+{
+  "英文名称": "game-dev-workflow",
+  "中文名称": "游戏开发流程引导",
+  "一句话作用": "游戏开发流程引导技能（策划阶段）。 强前置：仅当工作区根目录已存在 project.godot 且 godot-editor/ 已包含 Godot .exe 时才可激活 。引导用户按「策划 → 开发 → 测试」顺序完成游戏。如果工作区是空的、或缺少 project.godot / 缺少 Godot 编辑器， 绝对不要启动本技能 ，必须先调用 godot-setup（或走 project-init 路由）完成环境装配， 环境就绪后再进入…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要游戏开发流程引导技能（策划阶段）。 强前置：仅当工作区根目录已存在 project.godot 且 godot-editor/ 已包含 Godot .exe 时才可激活 。引导用户按「策划 → 开发 → 测试」顺序完成游戏。如果工作区是空的、或缺少 project.godot / 缺少 Godot 编辑器， 绝对不要启动本技能 ，必须先调用 godot-setup（或走 project-init 路由）完成环境装配， 环境就绪后再进入…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05914-game-dev-workflow-c3e7312d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-3-orchestrators/game-planning/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-3-orchestrators/game-planning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "982c46b875f00037f003fc9b7e8b8176ebfdfe45e7362de5282fae9864a361e1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

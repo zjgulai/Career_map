@@ -1,0 +1,22 @@
+{
+  "英文名称": "android-jetpack",
+  "中文名称": "待补：android-jetpack",
+  "一句话作用": "Jetpack: Room, Navigation, WorkManager, DataStore, CameraX, Hilt injection, Paging 3",
+  "关键输入": "Use this skill when building Android apps that need persistent storage (e.g., Room for SQLite), navigation between screens (e.g., Navigation Component), scheduled tasks (e.g., WorkManager), secure preferences (e.g., Dat…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:09+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Use this skill when building Android apps that need persistent storage (e.g., Room for SQLite), navigation between screens (e.g., Navigation Component), scheduled tasks (e.g., WorkManager), secure preferences (e.g., Dat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04714-android-jetpack-538fb167",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/android-jetpack/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/android-jetpack/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04728b6af4d4e1021e239ab4e2852f0fc0db9874102f77fecd825d7ac8beb8f8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

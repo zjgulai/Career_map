@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dense-retrieval-ecommerce-semantic-search",
+  "中文名称": "面向电商的稠密检索与语义排序",
+  "一句话作用": "触发词：电商语义检索、双编码器召回、结构化过滤、交叉编码器重排、搜索命中率。何时不用：要覆盖精确型号与字面查询时用「稀疏+稠密混合检索」；只做推荐解释时用「可解释推荐」。安全边界：无。",
+  "关键输入": "输入 ：商品描述文本（标题 + Bullet Points + 描述）、结构化属性表（价格、评分、品牌、适用年龄、材质等）、用户搜索日志（用于微调 embedding）；粒度为 商品 / 查询。 输出 ：语义召回结果与结构化过滤后的候选集、交叉编码器重排序后的最终排序（卡页口径命中率 62%→86%）；供电商搜索服务与搜索运营使用。",
+  "关键输出": "输入 ：商品描述文本（标题 + Bullet Points + 描述）、结构化属性表（价格、评分、品牌、适用年龄、材质等）、用户搜索日志（用于微调 embedding）；粒度为 商品 / 查询。 输出 ：语义召回结果与结构化过滤后的候选集、交叉编码器重排序后的最终排序（卡页口径命中率 62%→86%）；供电商搜索服务与搜索运营使用。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：电商语义检索、双编码器召回、结构化过滤、交叉编码器重排、搜索命中率。何时不用：要覆盖精确型号与字面查询时用「稀疏+稠密混合检索」；只做推荐解释时用「可解释推荐」。安全边界：无。时，用它产出或更新：输入 ：商品描述文本（标题 + Bullet Points + 描述）、结构化属性表（价格、评分、品牌、适用年龄、材质等）、用户搜索日志（用于微调 embedding）；粒度为 商品 / 查询。 输出 ：语义召回结果与结构化过滤后的候选集、交叉编码器重排序后的最终排序（卡页口径命中率 62%→86%）；供电…",
+  "skill_id": "03059-p2s-dense-retrieval-ecommerce-semantic-search-59ce11c7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dense-retrieval-ecommerce-semantic-search/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dense-retrieval-ecommerce-semantic-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b01d5154485ed8618dfcd676cbd1eace39ff9cc7f15a61cefaa24eaed1a9e10",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

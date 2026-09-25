@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-simplifier",
+  "中文名称": "待补：code-simplifier",
+  "一句话作用": "Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. This skill should be used after implementing features or bug fixes to clean up code, when refactoring for rea…",
+  "关键输入": "- After implementing a feature or bug fix, to clean up the resulting code - When code has grown overly complex and needs simplification - When the user requests code cleanup, simplification, or readability improvements…",
+  "关键输出": "After the subagent completes: 1. Review the changes for correctness 2. Run tests to verify functionality is preserved: npm run test:unit 3. Run the linter to verify code quality: npm run lint --- Converted and distributed by TomeVault — claim your Tome and ma…",
+  "最新更新时间": "2026-09-19T03:52:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- After implementing a feature or bug fix, to clean up the resulting code - When code has grown overly complex and needs simplification - When the user requests code cleanup, simplification, or readability improvements…时，用它产出或更新：After the subagent complete…",
+  "skill_id": "04778-code-simplifier-a220c7eb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/code-simplifier/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/code-simplifier/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "734b8d8dbbd970a2cc8ee4eabf01bc4e5c7957cb0cf95a504bf12df0d7a5bba3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

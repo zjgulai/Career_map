@@ -1,0 +1,22 @@
+{
+  "英文名称": "frontend-agent",
+  "中文名称": "前端开发专家 (Frontend Developer Agent)",
+  "一句话作用": "前端开发专家 - React/Vue/Angular、UI 实现、性能优化",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要前端开发专家 - React/Vue/Angular、UI 实现、性能优化时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04873-frontend-agent-07575f01",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/frontend-agent/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/frontend-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2565b77ac7628f7ead6d8486ac4927e082c38a4634aeeeedf985d769926e36a0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

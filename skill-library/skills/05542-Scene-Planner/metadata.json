@@ -1,0 +1,22 @@
+{
+  "英文名称": "Scene Planner",
+  "中文名称": "待补：Scene Planner",
+  "一句话作用": "Creates detailed video storyboards and scene breakdowns for Remotion video generation. Analyzes user requirements, determines video type, selects appropriate template, and outputs structured scene plans with visual spec…",
+  "关键输入": "Extract the following from user input:",
+  "关键输出": "Generate a structured markdown storyboard document:",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Creates detailed video storyboards and scene breakdowns for Remotion video generation. Analyzes user requirements, determines video type, selects appropriate template, and outputs structured scene plans with visual spec…时，用它产出或更新：Generate a structured mark…",
+  "skill_id": "05542-scene-planner-8ada5d68",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/remotion-video-generator/skills/scene-planner/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/remotion-video-generator/skills/scene-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6395c1936f60d9c29a76f85c4de5693db66a62eeb33bd8fe1acee155b88efa0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

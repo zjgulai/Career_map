@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ito-three-phase-health-tracking",
+  "中文名称": "备货前中后三阶段健康度追踪 库存周转全周期过程KPI与干预决策闭环",
+  "一句话作用": "触发词：三阶段追踪、备货健康指数、BHI预警、过程KPI、旺季备货监控、五色灯干预。何时不用：只做一次周转分析时用「库存周转率优化」；大促前算缺口与空运 ROI 时用「大促前盘货」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要团队只看月末DOI结果指标发现问题已太晚——ITO备货前中后三阶段过程KPI（目标DOI设定/BHI备货健康指数/五色灯评分）将库存干预从月末亡羊补牢提前至备货过程中实时预警，旺季缺货率从18%降至7%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03268-p2s-ito-three-phase-health-tracking-ecb0a163",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ito-three-phase-health-tracking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ito-three-phase-health-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23890ea20408431354e1c0799eb16a25b3dbff7fc68863dda833dff829a4e274",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

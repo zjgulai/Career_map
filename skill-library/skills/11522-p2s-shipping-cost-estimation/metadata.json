@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-shipping-cost-estimation",
+  "中文名称": "待补：p2s-shipping-cost-estimation",
+  "一句话作用": "触发词：p2s-shipping-cost-estimation。Skill-Shipping-Cost-Estimation",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:13+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-shipping-cost-estimation。Skill-Shipping-Cost-Estimation时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11522-p2s-shipping-cost-estimation-660aa0ce",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-shipping-cost-estimation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-shipping-cost-estimation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c30a81cc9f1e3596aa145db285692b44779abbadb97e6ef86c2cddc835ac99b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

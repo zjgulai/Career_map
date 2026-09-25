@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-retention-automator",
+  "中文名称": "待补：customer-retention-automator",
+  "一句话作用": "- Design and automate lifecycle campaigns to reduce churn using behavioral triggers, tiered incentives, and predictive timing. 边界：现有客户的防流失日常自动化；召回已流失客户走 customer-winback-automator 【需Klaviyo】 触发词：客户留存、防流失自动化、复购率提升、留存自动化、…",
+  "关键输入": "- When your Repeat Purchase Rate is below 25% for consumable goods or 15% for durable goods. - When a high percentage of customers (e.g., 70%) never make a second purchase. - When you need to protect margins by identify…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:05:28+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- When your Repeat Purchase Rate is below 25% for consumable goods or 15% for durable goods. - When a high percentage of customers (e.g., 70%) never make a second purchase. - When you need to protect margins by identify…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02520-customer-retention-automator-ed54beba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/customer-retention-automator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/customer-retention-automator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6dd2ce28d48ab30e07fce765457865a39664552d44f58e7ff632cbad7efd28f9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

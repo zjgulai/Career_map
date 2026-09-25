@@ -1,0 +1,22 @@
+{
+  "英文名称": "summarize-meeting",
+  "中文名称": "待补：summarize-meeting",
+  "一句话作用": "把会议转写或散记整理成含决议、行动项、负责人与截止日的结构化纪要。触发词：会议纪要提炼、summarize-meeting、把会议转写或散记整理成含决议、行动项、负责人与截止日的结构化纪要。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要把会议转写或散记整理成含决议、行动项、负责人与截止日的结构化纪要。触发词：会议纪要提炼、summarize-meeting、把会议转写或散记整理成含决议、行动项、负责人与截止日的结构化纪要。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04208-summarize-meeting-64fc57cc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/summarize-meeting/SKILL.md",
+  "relative_path": "lute/.dsh/skills/summarize-meeting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e699a6f9132e7de148082429335ec29bbcf73c55d16747ca60b6c80c02c42e1a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "eva-skill",
+  "中文名称": "待补：eva-skill",
+  "一句话作用": "Submit compact EVA REST requests for species metadata and archived variant lookups. Use when a user wants concise European Variation Archive summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common EVA patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Submit compact EVA REST requests for species metadata and archived variant lookups. Use when a user wants concise European Variation Archive summaries时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, and either compact records or…",
+  "skill_id": "00884-eva-skill-a4de5abe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/eva-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/eva-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "048ce0a313717ce7965383a32ae7804c5cca6bd88241b513b60766888f22aafd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

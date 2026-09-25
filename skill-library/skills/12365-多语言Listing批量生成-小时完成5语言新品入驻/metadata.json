@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multilingual-listing-generation",
+  "中文名称": "多语言Listing批量生成 小时完成5语言新品入驻",
+  "一句话作用": "触发词：多语言 Listing、小语种上新、Few-shot 生成、站点字数约束、本地化。何时不用：客服会话的多语翻译用「多语言客服翻译」；本技能产出各站点的 Listing 文案。安全边界：译文须经母语与合规复核，不得沿用未获认证的资质或功效宣称。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境运营面临\"新品进入德国日本市场人工翻译需2周且成本高\"——LLM Few-shot多语言生成将5语言Listing制作从14天压缩至1小时，单SKU节省$1,200时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12365-p2s-multilingual-listing-generation-cbda1f5a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-multilingual-listing-generation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-multilingual-listing-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "54cef7929236a3a567ccb562b88639777c6326688a6ea86d06054569736d59d8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

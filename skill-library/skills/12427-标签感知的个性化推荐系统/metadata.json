@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-enhanced-personalized-recommendation",
+  "中文名称": "标签感知的个性化推荐系统",
+  "一句话作用": "触发词：标签推荐、适龄约束、标签过滤、混合推荐、新品冷启动。何时不用：要用图像与文本多模态融合推荐用「多模态产品推荐」；要按知识图谱属性做跨品类推荐用「知识图谱增强推荐 CoLaKG」。安全边界：标签不得用于基于儿童年龄的广告定向，只能用于商品匹配；宝宝月龄等标签采集须明确告知并取得同意，标签置信度不足时不得作为强约束。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要推荐算法工程师面临\"推荐系统不知道商品的品类合规约束导致不适龄产品被推给错误用户\"——标签约束过滤+协同过滤Hybrid将推荐精准度提升41%，客诉率降低35%，年化价值50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12427-p2s-tag-enhanced-personalized-recommendation-c5329a54",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-tag-enhanced-personalized-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-tag-enhanced-personalized-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cde69c1e69ce22451a0143226719e02c8671c226746f1eee2152a71450e6c882",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

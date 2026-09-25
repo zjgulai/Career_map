@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-willingness-to-pay-estimation",
+  "中文名称": "支付意愿估计 从MNL参数推导用户真实WTP分布",
+  "一句话作用": "触发词：支付意愿、WTP 分布、选择模型、价格上限、最优定价区间、用户分层。何时不用：要从评论里读价格信号用「评论价格信号分析」；要做价格形式实验用「心理定价 A/B 测试」。安全边界：不得基于健康、收入等敏感类别直接定价，须用行为代理变量并遵守平台反歧视与隐私政策。",
+  "关键输入": "定价负责人面临\"不知道目标用户的真实最高支付意愿只能靠A/B测试盲目探索\"——WTP估计将差异化定价上限量化为具体区间，价格优化年化增益$6.8万",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要定价负责人面临\"不知道目标用户的真实最高支付意愿只能靠A/B测试盲目探索\"——WTP估计将差异化定价上限量化为具体区间，价格优化年化增益$6.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12445-p2s-willingness-to-pay-estimation-2a662832",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-willingness-to-pay-estimation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-willingness-to-pay-estimation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a3828d4c115387c5bb2ded621ced0fdae0b5a3c343ab80ad20f7a17fcfcb31d5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

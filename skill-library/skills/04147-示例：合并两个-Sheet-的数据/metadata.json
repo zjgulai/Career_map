@@ -1,0 +1,22 @@
+{
+  "英文名称": "top-value-coloring",
+  "中文名称": "示例：合并两个 Sheet 的数据",
+  "一句话作用": "根据数据规模动态选择处理策略，对多表数据进行合并、统计筛选，并利用 openpyxl 实现关键指标的自动化样式高亮与格式化导出。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "from openpyxl import Workbook from openpyxl.styles import Font, PatternFill, Alignment, Border, Side output path = 'analysis report.xlsx'",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要根据数据规模动态选择处理策略，对多表数据进行合并、统计筛选，并利用 openpyxl 实现关键指标的自动化样式高亮与格式化导出。时，用它产出或更新：from openpyxl import Workbook from openpyxl.styles import Font, PatternFill, Alignment, Border, Side output path = 'analysis report.xlsx'",
+  "skill_id": "04147-top-value-coloring-10cd3891",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-cell-coloring/top-value-coloring/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-cell-coloring/top-value-coloring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8dce83c3b9e8cd025aeb97b6f206beb139f4fa7504b453df0814a0484ff6e29a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

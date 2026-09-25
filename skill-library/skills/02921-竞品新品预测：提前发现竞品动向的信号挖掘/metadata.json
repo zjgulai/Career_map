@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-competitor-new-product-detection",
+  "中文名称": "竞品新品预测：提前发现竞品动向的信号挖掘",
+  "一句话作用": "触发词：竞品新品预警、信号融合、专利信号、CPC 异动、提前备货。何时不用：要看竞品已上线的新 SKU 与跟进方向用「Competitor Product Intelligence」；要 7×24 监控价格与 Listing 变动用「多 Agent 竞品情报系统」。安全边界：专利与社媒信号须经合规接口获取，不得抓取非公开数据；预警是概率信号，不得据此对竞品做公开指控。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要竞品上市后才发现已经晚了2-4周——多源信号（专利/关键词竞价/社交媒体）综合预警比竞品上市提前4-8周发出预警，提前准备备货和广告防御策略年化保护GMV 15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02921-p2s-competitor-new-product-detection-ac5edc9c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-competitor-new-product-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-competitor-new-product-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bf4da66b05582f5c72a7c1259943cae686694c80afa87185e47f92d5467d6109",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

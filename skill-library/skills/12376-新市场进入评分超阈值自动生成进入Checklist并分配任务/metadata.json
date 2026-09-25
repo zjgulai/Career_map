@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-new-market-entry-readiness-gate",
+  "中文名称": "新市场进入评分超阈值自动生成进入Checklist并分配任务",
+  "一句话作用": "触发词：市场进入门控、就绪度阈值、进入 Checklist、任务分配、决策提速。何时不用：只需五维加权总分与 GO/WAIT/NO-GO 裁决、不需要 Checklist 与任务分派时用「多市场拓展就绪度评分」。安全边界：本技能产出评分规则与 Checklist 契约，注册、认证、备货等动作由对应团队在模型外执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CEO面临\"新市场进入决策缺乏系统性评估框架\"——自动生成市场进入清单并量化就绪度评分将新市场首年盈亏平衡周期缩短4个月时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12376-p2s-new-market-entry-readiness-gate-5f109f4e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-new-market-entry-readiness-gate/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-new-market-entry-readiness-gate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6e5ed8e225456d981159d241a0db4ce023326727230d92ec09506a749927c56",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-generate-design",
+  "中文名称": "待补：figma-generate-design",
+  "一句话作用": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take t…",
+  "关键输入": "- Figma MCP server must be connected - The target Figma file must have a published design system with components (or access to a team library) - User must provide a target Figma file (URL or fileKey). If they don't have one yet, invoke /figma-create-new-file…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take t…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01292-figma-generate-design-55292386",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-generate-design/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-generate-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e8370840f983df0639c7c78048d80693113ddd59668bfe0c4f79d6c621d1b19",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

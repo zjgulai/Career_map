@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-contract-drafting",
+  "中文名称": "待补：doubao-contract-drafting",
+  "一句话作用": "直接起草中国大陆商业合同并生成无批注、无颜色、中文字体正确的可编辑 Word 文件。适用于采购、服务、营销、工程施工、软件许可、SaaS、委托开发、联合研发、知识产权、租赁、数据处理和保密等场景；读取题干及附件后完成交易信息拆解、风险识别、起草方标准条款与默认商业参数填充、合同生成与交付校验。涉及跨境交易、境外法域或境外争议解决安排时，需升级并要求复核。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T16:27:36+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要直接起草中国大陆商业合同并生成无批注、无颜色、中文字体正确的可编辑 Word 文件。适用于采购、服务、营销、工程施工、软件许可、SaaS、委托开发、联合研发、知识产权、租赁、数据处理和保密等场景；读取题干及附件后完成交易信息拆解、风险识别、起草方标准条款与默认商业参数填充、合同生成与交付校验。涉及跨境交易、境外法域或境外争议解决安排时，需升级并要求复核。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06375-doubao-contract-drafting-7425ef5f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-contract-drafting/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-contract-drafting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c235edc12afe6b037abf134e182ef9e49b6120aee0dbfc8cc50f044a98330a44",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

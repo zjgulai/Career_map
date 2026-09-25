@@ -1,0 +1,22 @@
+{
+  "英文名称": "minimax-xlsx",
+  "中文名称": "待补：minimax-xlsx",
+  "一句话作用": "Open, create, read, analyze, edit, or validate Excel/spreadsheet files (.xlsx, .xlsm, .csv, .tsv). Use when the user asks to create, build, modify, analyze, read, validate, or format any Excel spreadsheet, financial mod…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Open, create, read, analyze, edit, or validate Excel/spreadsheet files (.xlsx, .xlsm, .csv, .tsv). Use when the user asks to create, build, modify, analyze, read, validate, or format any Excel spreadsheet, financial mod…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10722-minimax-xlsx-1ee541c9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/minimax-xlsx/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/minimax-xlsx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4ffb70af6ccd00e90c3b14516d50a850ae0f2f1807a01d326aa1393e0067dd41",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

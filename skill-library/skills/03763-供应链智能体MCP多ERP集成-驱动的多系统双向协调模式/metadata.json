@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sc-agent-mcp-erp-integration",
+  "中文名称": "供应链智能体MCP多ERP集成 驱动的多系统双向协调模式",
+  "一句话作用": "触发词：MCP集成、多ERP对接、跨系统采购、双向协调、接口契约、采购自动化。何时不用：要评测 Agent 的工具调用效率用「MCP工具使用评估」；要做采购权限策略与扩权审批用「最小权限Agent框架」。安全边界：跨系统写操作（创建 PO、预约入库槽位）必须受金额与目标对象约束并留完整审计日志，超阈值须人工审批；各系统凭证不得落在 Agent 侧，须由中介层签发临时凭证。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要SAP/Oracle/WMS多套ERP系统碎片化集成导致Agent只能分析不能执行——MCP统一协议将采购自动化率30%→80%，采购周期2天→5分钟时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03763-p2s-sc-agent-mcp-erp-integration-df37fc03",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sc-agent-mcp-erp-integration/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sc-agent-mcp-erp-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fcf28a46e9971fca4949088892659fe15ba67c4d93c65def9be11ba2fe0758bf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

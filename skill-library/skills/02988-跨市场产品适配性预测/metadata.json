@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-market-product-transfer",
+  "中文名称": "跨市场产品适配性预测）",
+  "一句话作用": "触发词：跨市场适配性、市场偏差分析、爆款复制、选品风险提示、偏好关键词。何时不用：要做新市场五维就绪度裁决时用「多市场拓展就绪度评分」；要预测渗透曲线与备货节奏时用「品牌渗透率建模」。安全边界：只给适配性评分与偏差分析，不含合规取证与物流落地核查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要一款吸奶器在京东月销 5000+ 台（¥399），需要判断是否引入 Amazon US（$59.99）、Amazon DE（€54.99）、Amazon UK（£49.99）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02988-p2s-cross-market-product-transfer-abdc6960",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-market-product-transfer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-market-product-transfer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "48c01dd537c0542e915f8da180131838a784d1e1f7fa92c44da26c71d2d78dd3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "attack-chain",
+  "中文名称": "待补：attack-chain",
+  "一句话作用": "Use for authorized multi-stage attack-path planning and orchestration when a task spans reconnaissance, initial access, privilege escalation, lateral movement, or impact assessment. Route single-stage tasks directly to…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use for authorized multi-stage attack-path planning and orchestration when a task spans reconnaissance, initial access, privilege escalation, lateral movement, or impact assessment. Route single-stage tasks directly to…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02191-attack-chain-1edfad06",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/attack-chain/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/attack-chain/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "96c94609fdd5c7d9ce552128db50316ca800ba27c202e6619380cd6494a09d37",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

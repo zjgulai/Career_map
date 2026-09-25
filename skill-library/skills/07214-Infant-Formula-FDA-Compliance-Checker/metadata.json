@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Infant-Formula-FDA-Compliance-Checker",
+  "中文名称": "待补：Infant Formula FDA Compliance Checker",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 75.0, \"best\": 75.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:50:01.625769\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 87.0, \"best\": 87.0, \"mutated\": \"none\", \"ts\": \"202…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T11:55:23+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 75.0, \"best\": 75.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:50:01.625769\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 87.0, \"best\": 87.0, \"mutated\": \"none\", \"ts\": \"202…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07214-skill-infant-formula-fda-compliance-checker-5c97cdd5",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Infant-Formula-FDA-Compliance-Checker.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Infant-Formula-FDA-Compliance-Checker.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "6515707c7124dfb6cd3502e92879b856d6c3e65a4b34a775f4e8d940c5dbe735",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

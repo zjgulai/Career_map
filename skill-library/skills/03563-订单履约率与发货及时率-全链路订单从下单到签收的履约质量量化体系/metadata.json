@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-order-fulfillment-rate-dispatch-timeliness",
+  "中文名称": "订单履约率与发货及时率 全链路订单从下单到签收的履约质量量化体系",
+  "一句话作用": "触发词：履约率、发货及时率、ODR、履约漏斗、账号健康。何时不用：需要按阶段拆解交付周期定位瓶颈时用订单交付周期OTD全链路分解；需要分渠道统计订单异常类型时用订单准确率与异常处理KPI。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要ODR从0.8%升至1.5%险触Amazon封号红线却不知根因——完整履约漏斗（4层质量门：库存满足→及时发货→配送成功→无争议）+ SKU级缺陷热点识别，精准保护账号健康时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03563-p2s-order-fulfillment-rate-dispatch-timeliness-34728d5d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-order-fulfillment-rate-dispatch-timeliness/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-order-fulfillment-rate-dispatch-timeliness/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ba06c73f10e96354f65b57c66b3e649cf196316f9e9fbff9ddb858898f141c39",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

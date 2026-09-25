@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecom-inventory-forecaster",
+  "中文名称": "库存预测与补货建议",
+  "一句话作用": "库存预测与补货建议 — 基于销售历史、季节性、Lead Time 做库存预测，输出补货建议和断货风险等级",
+  "关键输入": "- 日常补货决策 ：哪些 SKU 需要补、补多少、什么时候下单 - 旺季前备货 ：Prime Day、黑五、圣诞季前的安全库存评估 - 断货预警 ：识别即将断货的高风险 SKU，提前触发补货流程 - 供应商交期评估 ：Lead Time 波动时，动态调整安全库存水位 - 库存周转优化 ：识别滞销 SKU，减少资金占用",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 日常补货决策 ：哪些 SKU 需要补、补多少、什么时候下单 - 旺季前备货 ：Prime Day、黑五、圣诞季前的安全库存评估 - 断货预警 ：识别即将断货的高风险 SKU，提前触发补货流程 - 供应商交期评估 ：Lead Time 波动时，动态调整安全库存水位 - 库存周转优化 ：识别滞销 SKU，减少资金占用时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09548-ecom-inventory-forecaster-7a2464cf",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/ecom-inventory-forecaster/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/ecom-inventory-forecaster/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39bc5d837db80d2b484416f6f6534b46b27be611d73126521f8aeb1863755c96",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

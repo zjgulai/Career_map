@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-stack",
+  "中文名称": "待补：glab-stack",
+  "一句话作用": "管理堆叠式合并请求（Stacked MR），用于复杂的多部分变更。适用于创建有依赖关系的 MR、管理 MR 堆栈或处理多层变更。触发词：stack、堆叠式 MR、依赖 MR、MR 堆栈、堆叠变更。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理堆叠式合并请求（Stacked MR），用于复杂的多部分变更。适用于创建有依赖关系的 MR、管理 MR 堆栈或处理多层变更。触发词：stack、堆叠式 MR、依赖 MR、MR 堆栈、堆叠变更。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10617-glab-stack-c2f5a1d2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-stack/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-stack/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "75b33cd2b60b406b1f68f9f6dfa197584c9eca476e117d480f347d7f3d9d00d5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

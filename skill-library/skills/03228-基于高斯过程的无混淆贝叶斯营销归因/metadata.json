@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-identified-bayesian-mmm",
+  "中文名称": "基于高斯过程的无混淆贝叶斯营销归因",
+  "一句话作用": "触发词：MMM诊断、贝叶斯MMM、饱和与混淆、ROAS可信度、实验处方。何时不用：各渠道已有充足随机实验可直接读增量时不用诊断；本技能用于只有平稳投放数据、先判断ROAS可不可信。安全边界：遵守个人信息保护规范与平台API条款，数据处理需建立数据处理协议（DPA）。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要CMO 拿到内部 MMM 报告，显示\"TikTok ROAS 极高远未饱和，建议把 Meta 预算砍半全移给 TikTok\"时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03228-p2s-identified-bayesian-mmm-f1cd13ba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-identified-bayesian-mmm/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-identified-bayesian-mmm/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "68d1793abe2d6d10226ce7f9eb0b1bdb898d598f801d4d34720ac9a958903acc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

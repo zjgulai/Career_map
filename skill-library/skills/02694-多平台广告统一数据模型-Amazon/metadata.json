@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-advertising-api-unified-schema",
+  "中文名称": "多平台广告统一数据模型（Amazon",
+  "一句话作用": "触发词：广告数据统一Schema、跨平台字段对齐、多平台广告报表、归因窗口统一、广告数据模型。何时不用：只解读单一平台的字段含义或做单平台报表时，用该平台自身的投放诊断技能；要在口径已统一后判断某渠道该加还是该减预算时，用广告归因与投放诊断类技能。安全边界：各平台 API 密钥只在授权范围内使用，跨平台数据传输须加密并遵守平台数据使用协议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告分析师面临\"Amazon/Meta/TikTok广告数据字段不一致跨平台分析极难\"——统一Schema Adapter将跨平台数据整合时间从5天/月压缩至4小时/月时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02694-p2s-advertising-api-unified-schema-cfb0a2dc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-advertising-api-unified-schema/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-advertising-api-unified-schema/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "15d8a164cf845dd63400aab3c7651e7e4c26e8e1adb37446e8b471afb6d9f341",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

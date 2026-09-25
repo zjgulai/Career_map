@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitor-analysis",
+  "中文名称": "待补：competitor-analysis",
+  "一句话作用": "Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or…",
+  "关键输入": "Your task is to analyze the competitive landscape for $ARGUMENTS in the [market/industry segment] (if specified). Conduct web research to identify direct competitors. If the user provides market research, competitor data, pricing sheets, feature comparisons,…",
+  "关键输出": "Market Overview & Definition - Market size and growth trends - Primary customer segments and use cases - Key success factors in this market - Market dynamics and competitive intensity Competitive Set Summary - 5 primary direct competitors identified - Market…",
+  "最新更新时间": "2026-09-16T00:16:47+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or…时，用它产出或更新：Market Overview & Definiti…",
+  "skill_id": "11177-competitor-analysis-f6bd1aee",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/competitor-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/competitor-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e627fc7fba96f223ad9f8fd23c6033a429cc28f9e9ce2d672854c6851810c2b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

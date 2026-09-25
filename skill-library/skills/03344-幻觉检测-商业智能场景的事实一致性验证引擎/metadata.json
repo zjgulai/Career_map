@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-hallucination-detection-bi",
+  "中文名称": "幻觉检测 商业智能场景的事实一致性验证引擎",
+  "一句话作用": "触发词：幻觉检测、事实一致性、BI 报表核验、数字对账、来源分级。何时不用：要评知识库检索与回答质量走 RAG 评测；要做论文级原子声明核查走声明级核查流水线。安全边界：检测结果不可直接对外公开（如 AI 报告含多少幻觉会引发舆论风险），判为错误的关键决策数字须触发人工复核而非自动拦截。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要DataAgent运营面临\"AI日报数字偶发错误损害工具可信度\"——多层事实核查使幻觉检测TPR达82%，避免月均3-5起决策失误，年化预防损失约200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03344-p2s-llm-hallucination-detection-bi-718b62df",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-hallucination-detection-bi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-hallucination-detection-bi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da6c3b41fbb1e3ebf9ab4aa85b9ed701f06a3a8b87c85cdc223bfd8f287ff609",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-location-order-router",
+  "中文名称": "待补：multi-location-order-router",
+  "一句话作用": "Design and implement a robust order lifecycle engine that manages multi-warehouse routing, split shipments, and backorder queues across complex fulfillment networks",
+  "关键输入": "- When scaling from a single warehouse to a distributed fulfillment network (Multiple 3PLs or own warehouses). - When implementing \"Ship from Store\" or \"BOPIS\" (Buy Online, Pick Up In Store) strategies. - When managing…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:31+08:00",
+  "业务场景": "business-operations",
+  "解决具体问题": "当需要- When scaling from a single warehouse to a distributed fulfillment network (Multiple 3PLs or own warehouses). - When implementing \"Ship from Store\" or \"BOPIS\" (Buy Online, Pick Up In Store) strategies. - When managing…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00343-multi-location-order-router-c2f00820",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/multi-location-order-router/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/multi-location-order-router/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f05b42489a7525a51c3d1ac00f176d1a20305064cebaafe9ca7792685f876fef",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

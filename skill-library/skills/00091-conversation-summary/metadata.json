@@ -1,0 +1,22 @@
+{
+  "英文名称": "conversation-summary",
+  "中文名称": "待补：conversation-summary",
+  "一句话作用": "Summarize buyer-seller IM history for every supplier referenced in the current request when the buyer asks what was discussed, agreed, changed, remains open, or should happen next. Read each supplier independently throu…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. Give each supplier a separate section, using supplierName when available. Never combine facts, agreements, gaps, or negotiation stages across suppliers. 2. Start each section with its actual message count, date range, and visible duration. 3. When a result…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Summarize buyer-seller IM history for every supplier referenced in the current request when the buyer asks what was discussed, agreed, changed, remains open, or should happen next. Read each supplier independently throu…时，用它产出或更新：1. Give each supplier a se…",
+  "skill_id": "00091-conversation-summary-b2eae8ee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/conversation-summary/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/conversation-summary/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fa24a49a6e4b1a10f7a9531b578068088cb109115eaff6975827387823dfb09b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

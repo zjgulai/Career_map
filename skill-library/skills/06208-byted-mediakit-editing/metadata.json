@@ -1,0 +1,22 @@
+{
+  "英文名称": "byted-mediakit-editing",
+  "中文名称": "待补：byted-mediakit-editing",
+  "一句话作用": "面向音频、视频或图片素材组成成片的编辑制作目标，适用于时间线裁剪与拼接、速度和音量调整、视频滤镜、运镜特效、转场、画面裁切旋转翻转、画面叠加、字幕压制、动图截取、淡入淡出、音视频提取与合流、音频混合、文字滚屏成片、图转视频以及多画面空间组合等操作。若用户要给视频添加滤镜效果，或对象和目标族已明确是对现有素材做剪辑、合成、叠加、混合或成片编排，但具体做法不确定，可先加载本 Skill 探索。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-22T22:51:28+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要面向音频、视频或图片素材组成成片的编辑制作目标，适用于时间线裁剪与拼接、速度和音量调整、视频滤镜、运镜特效、转场、画面裁切旋转翻转、画面叠加、字幕压制、动图截取、淡入淡出、音视频提取与合流、音频混合、文字滚屏成片、图转视频以及多画面空间组合等操作。若用户要给视频添加滤镜效果，或对象和目标族已明确是对现有素材做剪辑、合成、叠加、混合或成片编排，但具体做法不确定，可先加载本 Skill 探索。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06208-byted-mediakit-editing-d4dbcbc4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-editing/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-editing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f031c4a8514bd6c09d2858a2d55098289f3a00a03de1078fc3faa5a2c8d0ee3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

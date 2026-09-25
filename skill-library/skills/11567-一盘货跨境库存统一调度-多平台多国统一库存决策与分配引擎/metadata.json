@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-unified-cross-border-inventory-dispatch",
+  "中文名称": "一盘货跨境库存统一调度 多平台多国统一库存决策与分配引擎",
+  "一句话作用": "触发词：一盘货、跨境库存调度、多平台统一分配、聚合采购、池化安全库存。何时不用：按渠道优先级分单防超卖用「全渠道订单编排」；同一市场内多渠道池化用「多渠道库存池化」。安全边界：跨国调拨须符合目的地海关与进口规定，库存不得虚标。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要三渠道各自备货造成A平台缺货B平台积压的荒诞并存——统一库存池优化将跨渠道缺货率从18%降至5%，总库存减少22%，年化价值$17万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11567-p2s-unified-cross-border-inventory-dispatch-29c3c465",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-unified-cross-border-inventory-dispatch/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-unified-cross-border-inventory-dispatch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e977e4b2e41a1f46eea294572e6695adf8654e3f7787eca8b0f13505eca0805c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

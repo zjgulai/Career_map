@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-vc-agent",
+  "中文名称": "待补：lark-vc-agent",
+  "一句话作用": "飞书视频会议会中能力：用于让应用机器人真实加入或离开正在进行的会议，并读取当前身份可见的会中事件、发送会中文本消息或会中表情。适用于用户询问正在开的会议发生了什么、谁在发言、是否共享内容，或需要发现当前可读的进行中会议 ID。不负责已结束会议搜索、参会人快照、纪要、逐字稿或录制查询，这些使用 lark-vc 技能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:19+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要飞书视频会议会中能力：用于让应用机器人真实加入或离开正在进行的会议，并读取当前身份可见的会中事件、发送会中文本消息或会中表情。适用于用户询问正在开的会议发生了什么、谁在发言、是否共享内容，或需要发现当前可读的进行中会议 ID。不负责已结束会议搜索、参会人快照、纪要、逐字稿或录制查询，这些使用 lark-vc 技能。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04525-lark-vc-agent-46ef9a5c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/lark/0.1.0/skills/lark-vc-agent/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/lark/0.1.0/skills/lark-vc-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7f2df2bc5472b162044dac8132a1a48a1008bb6aa264189443f01dc83af1d2f8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

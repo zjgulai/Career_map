@@ -1,0 +1,22 @@
+{
+  "英文名称": "appkit-interop",
+  "中文名称": "待补：appkit-interop",
+  "一句话作用": "Bridge macOS SwiftUI into AppKit narrowly. Use when implementing representables, reaching NSWindow or panels, handling menus, or using the responder chain.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Provide: - the exact SwiftUI limitation being crossed - the smallest recommended bridge type - the data-flow boundary between SwiftUI and AppKit - the lifecycle or validation risks to watch",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Bridge macOS SwiftUI into AppKit narrowly. Use when implementing representables, reaching NSWindow or panels, handling menus, or using the responder chain.时，用它产出或更新：Provide: - the exact SwiftUI limitation being crossed - the smallest recommended bridge typ…",
+  "skill_id": "00720-appkit-interop-e2de9fa2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/appkit-interop/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/appkit-interop/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c91be82e30340ed9c929270f102965da3d67bcf509eecf8bf207c8a679fd3b6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

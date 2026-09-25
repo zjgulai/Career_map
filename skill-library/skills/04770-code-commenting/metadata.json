@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-commenting",
+  "中文名称": "待补：code-commenting",
+  "一句话作用": "Comprehensive code commenting methodology for Python projects. Use when user asks to add comments, annotations, or documentation to Python code files. Provides structured approach with module docstrings, class/function…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:14+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Comprehensive code commenting methodology for Python projects. Use when user asks to add comments, annotations, or documentation to Python code files. Provides structured approach with module docstrings, class/function…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04770-code-commenting-dfe846b5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/code-commenting/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/code-commenting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a14387b20176edf3769d9ca07b70456dab25bf1b98832e48621293a97c4f893d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

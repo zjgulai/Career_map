@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-arena-framing",
+  "中文名称": "前车之鉴·问题界定竞技场",
+  "一句话作用": "问题界定竞技场：三个对立角色（追问界定师/信息完备检查官/边界划界师）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：问题一团乱麻，不知道从哪里下手、团队讨论半天才发现，每个人嘴里说的是不同的问题、需求只有一句话，扔过来就要拆成可执行的任务、问题一团乱麻、大家其实在解不同的题。何时不用：问题界定清楚了、要追复发性根因 → xmind-arena-rootcause；要收集产品需求写成文档 → create-pr…",
+  "关键输入": "三角色认知对抗协议：三个角色 各自用不同方法独立分析同一问题 → 找出结论间的张力 → 交集=高可信结论，冲突=真实盲区 。这不是头脑风暴，是结构化的对抗验证。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要三角色认知对抗协议：三个角色 各自用不同方法独立分析同一问题 → 找出结论间的张力 → 交集=高可信结论，冲突=真实盲区 。这不是头脑风暴，是结构化的对抗验证。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04273-xmind-arena-framing-0a29b313",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-arena-framing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-arena-framing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d9642ae999baf1ecb3e66c00cffc261f3c4173fb66fa50c3679d70b3049ae34d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

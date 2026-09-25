@@ -1,0 +1,22 @@
+{
+  "英文名称": "opentargets-skill",
+  "中文名称": "待补：opentargets-skill",
+  "一句话作用": "Submit compact Open Targets Platform GraphQL requests for target, disease, drug, variant, study, and search data, including associated-disease datasource heatmap matrices. Use when a user wants concise Open Targets summ…",
+  "关键输入": "- Read one JSON object from stdin. - Required field: query or query path - Optional fields: variables, max items, max depth, timeout sec, save raw, raw output path - Common Open Targets patterns: - {\"query\":\"query { typename }\"} - {\"query\":\"query searchAny($q…",
+  "关键输出": "- Success returns ok, source, top keys, a compact summary, and raw output path when save raw=true. - Failure returns ok=false with error.code such as invalid json, invalid input, network error, invalid response, or graphql error.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact Open Targets Platform GraphQL requests for target, disease, drug, variant, study, and search data, including associated-disease datasource heatmap matrices. Use when a user wants concise Open Targets summ…时，用它产出或更新：- Success returns ok, sour…",
+  "skill_id": "00901-opentargets-skill-da1c4ce8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/opentargets-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/opentargets-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5aef99e217f6a6781dcb5f6e325e2d5f3fcba59c09e5618ff881da417a95d40",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

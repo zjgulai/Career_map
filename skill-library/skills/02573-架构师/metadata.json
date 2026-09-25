@@ -1,0 +1,22 @@
+{
+  "英文名称": "graphql-architect",
+  "中文名称": "架构师",
+  "一句话作用": "按领域建模设计 GraphQL schema，覆盖联邦图、DataLoader 防 N+1 与订阅安全。触发词：GraphQL 接口设计、graphql-architect、按领域建模设计 GraphQL schema，覆盖联邦图、DataLoader 防 N+1 与订阅安全。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要按领域建模设计 GraphQL schema，覆盖联邦图、DataLoader 防 N+1 与订阅安全。触发词：GraphQL 接口设计、graphql-architect、按领域建模设计 GraphQL schema，覆盖联邦图、DataLoader 防 N+1 与订阅安全。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02573-graphql-architect-4eb50389",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/graphql-architect/SKILL.md",
+  "relative_path": "lute/.dsh/skills/graphql-architect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "776575456b5382bbe19154373775d2bd532cba84cbba9d29afc59b627c9a4ddb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

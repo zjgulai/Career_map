@@ -1,0 +1,22 @@
+{
+  "英文名称": "chart-gen",
+  "中文名称": "图表图片生成器",
+  "一句话作用": "用 Node 版 Vega-Lite 渲染、Sharp 输出 PNG 或 SVG 图表图片，含折线、柱状、K 线与热力图。触发词：生成图表、画个趋势图、做个柱状图、图表图片、导出 PNG、chart-gen。何时不用：要可交互的网页图表或整页报告用 lieflat-charts；文档内的结构关系图用 markdown-mermaid-writing。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:40+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用 Node 版 Vega-Lite 渲染、Sharp 输出 PNG 或 SVG 图表图片，含折线、柱状、K 线与热力图。触发词：生成图表、画个趋势图、做个柱状图、图表图片、导出 PNG、chart-gen。何时不用：要可交互的网页图表或整页报告用 lieflat-charts；文档内的结构关系图用 markdown-mermaid-writing。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02486-chart-gen-14d3288d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/chart-gen/SKILL.md",
+  "relative_path": "lute/.dsh/skills/chart-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "82f867b7044572526b763ae12ad714f170754c169d423f4fbbe538e049e80c9e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

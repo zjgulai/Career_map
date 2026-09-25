@@ -1,0 +1,22 @@
+{
+  "英文名称": "市场可行性审计",
+  "中文名称": "市场可行性审计",
+  "一句话作用": "判断新品方向是否值得进入，在风险、利润、品类生命周期和品牌能力匹配之间做严格裁决。当用户对一个明确的「产品方向 / 品类」询问「该不该进 / 值不值得做 / 能不能做 / 会不会太晚 / 有没有优势 / 进入时机」时触发。触发词：市场可行性审计、可行性分析、Go/No-Go、风险筛查、市场可行性、产品评估、进入裁决、进入前裁决、进入时机、该不该进、值不值得做、能不能做、专属机会、hard risk、risk screening、fea…",
+  "关键输入": "- 用户带来一个或多个新品方向，要求判断「该不该进 / 值不值得做 / 能不能做」 - 用户要求 Go/No-Go 裁决、进入前风险硬筛、可行性审计 - 用户需要把「市场机会」与「Momcozy 专属机会」区分开 - 用户说「评估一下」「审计」「这个方向能做吗」等过短/模糊提示词，只要语义指向产品方向判断，也应触发，然后追问澄清",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-04",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用户带来一个或多个新品方向，要求判断「该不该进 / 值不值得做 / 能不能做」 - 用户要求 Go/No-Go 裁决、进入前风险硬筛、可行性审计 - 用户需要把「市场机会」与「Momcozy 专属机会」区分开 - 用户说「评估一下」「审计」「这个方向能做吗」等过短/模糊提示词，只要语义指向产品方向判断，也应触发，然后追问澄清时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10452-skill-dae00a41",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/4-Skills/市场可行性审计/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/4-Skills/市场可行性审计/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "b44338c6c3c676523c1d52495e8f735b396f612708627da2bdb50a8a96a80f70",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

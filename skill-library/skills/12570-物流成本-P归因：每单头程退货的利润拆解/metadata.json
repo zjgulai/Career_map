@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-cost-pl-attribution",
+  "中文名称": "物流成本 P归因：每单头程退货的利润拆解",
+  "一句话作用": "触发词：物流成本归因、五层成本拆解、真实净利润、退货成本分摊、隐性亏损 SKU。何时不用：只看 FBA 账单内部各层费用用「FBA 费用瀑布归因」；只算退款率本身的财务影响用「退款率财务影响」。安全边界：头程与退货成本须按批次真实分摊，不得为美化毛利率手工调整分摊口径。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要母婴卖家月度账面毛利22%但实际某款婴儿枕头退货率18%、真实净利润为负——物流成本五层ABC拆解（L1货值到L5退货）到SKU粒度，发现隐性亏损SKU并停止无效广告，年化节省3-8万美元并优化退货成本时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12570-p2s-logistics-cost-pl-attribution-d98cb235",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-logistics-cost-pl-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-logistics-cost-pl-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88d173b00764f8349695f084e917ae4de27e7f60f0159fa639c27fa17ca947b3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

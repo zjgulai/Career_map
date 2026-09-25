@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-responsible-ai-red-teaming",
+  "中文名称": "负责任AI红队测试 母婴AI助手的安全边界系统化审计",
+  "一句话作用": "触发词：红队测试、安全审计、越狱检测、医疗越界、上线前评估。何时不用：检查界面无障碍合规用「Inclusive Design Accessibility AI」；检查推荐与定价算法的群体公平性用「AI 算法偏见审计」。安全边界：红队无法穷举所有攻击向量，须同时部署实时有害内容检测；测试用例与报告属内部文档，不对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI团队面临\"母婴客服AI上线前不知道是否会给出错误医疗建议或被越狱\"——系统化红队测试将医疗越界ASR从23%降至5%，避免法律风险 100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03717-p2s-responsible-ai-red-teaming-b3815b73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-responsible-ai-red-teaming/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-responsible-ai-red-teaming/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f436d85b90b28f5a71424d9bd508ebc286d18eae0b68ef7905a56b6225406524",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

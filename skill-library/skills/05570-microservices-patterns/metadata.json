@@ -1,0 +1,22 @@
+{
+  "英文名称": "microservices-patterns",
+  "中文名称": "待补：microservices-patterns",
+  "一句话作用": "Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing microservices.",
+  "关键输入": "- Decomposing monoliths into microservices - Designing service boundaries and contracts - Implementing inter-service communication - Managing distributed data and transactions - Building resilient distributed systems -…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- Decomposing monoliths into microservices - Designing service boundaries and contracts - Implementing inter-service communication - Managing distributed data and transactions - Building resilient distributed systems -…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05570-microservices-patterns-5d1a830e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/microservices-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/microservices-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "67b282290c34b2d1e27b3a8570a6330690eeba16515bb71cd3910e3cc01b3c06",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

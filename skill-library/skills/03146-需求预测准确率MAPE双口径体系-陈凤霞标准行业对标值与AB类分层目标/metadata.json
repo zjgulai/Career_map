@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-forecast-mape-minmax-accuracy-system",
+  "中文名称": "需求预测准确率MAPE双口径体系 陈凤霞标准行业对标值与AB类分层目标",
+  "一句话作用": "触发词：预测准确率、MAPE、MinMax口径、BIAS诊断、行业对标。何时不用：评估人工加减码是否有益用「预测偏差加减码检测」，做模型验证策略用「交叉验证策略」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链计划员面临\"不知道预测够不够好\"——陈凤霞行业标准线(M-1 MAPE 65%/MinMax 70%)让团队首次有量化基准，BIAS+8%高估消除后年化减少库存占用30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03146-p2s-forecast-mape-minmax-accuracy-system-1c734456",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-forecast-mape-minmax-accuracy-system/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-forecast-mape-minmax-accuracy-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04c1409bd7d97a42395025981a56a3bb72899ddbae30535d1643a3a85241c6cc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "init-deep",
+  "中文名称": "待补：init-deep",
+  "一句话作用": "(builtin) Initialize hierarchical AGENTS.md knowledge base",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Merge: bash + LSP/codegraph + existing + explore findings. Mark \"discovery\" as completed. ---",
+  "最新更新时间": "2026-06-23T19:48:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要(builtin) Initialize hierarchical AGENTS.md knowledge base时，用它产出或更新：Merge: bash + LSP/codegraph + existing + explore findings. Mark \"discovery\" as completed. ---",
+  "skill_id": "00489-init-deep-837f7d47",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/dist/skills/init-deep/SKILL.md",
+  "relative_path": "lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/dist/skills/init-deep/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e91afd9d818564e2c65483d01cb2b3d5a6e64fe2484e54009812ae1d3cce10fa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

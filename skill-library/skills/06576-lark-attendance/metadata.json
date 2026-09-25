@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-attendance",
+  "中文名称": "待补：lark-attendance",
+  "一句话作用": "飞书考勤打卡：查询自己的考勤打卡记录",
+  "关键输入": "调用任何 API 时，以下参数 必须自动填充，禁止向用户询问 ： 参数 固定值 说明 ------ -------- ------------------------------------ employee type \"employee no\" employee type始终等于\"employee no\" user ids []（空数组） user ids始终等于[]",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要飞书考勤打卡：查询自己的考勤打卡记录时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06576-lark-attendance-d6d9dd99",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/lark-attendance/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/lark-attendance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c762e56b9df2a8a132cd9d93f831a2d2ff254a4bfe0f3d9e60ce913ceb7af095",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

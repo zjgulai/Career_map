@@ -1,0 +1,22 @@
+{
+  "英文名称": "aliexpress-supplier-evaluator",
+  "中文名称": "待补：aliexpress-supplier-evaluator",
+  "一句话作用": "- Evaluate B2C suppliers on global platforms like AliExpress or Temu for reliability, shipping costs, and product authenticity. 触发词：速卖通供应商评估、海外供应商评估、供应商可靠性、落地成本计算、跨境采购防骗、Temu选品评估。",
+  "关键输入": "Trigger this skill when a user is sourcing products from overseas B2C platforms (e.g., AliExpress, DHgate, Temu) for personal use, resale, or dropshipping. Use it to audit vendor reliability, calculate true landed costs…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Trigger this skill when a user is sourcing products from overseas B2C platforms (e.g., AliExpress, DHgate, Temu) for personal use, resale, or dropshipping. Use it to audit vendor reliability, calculate true landed costs…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02438-aliexpress-supplier-evaluator-7519222a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/aliexpress-supplier-evaluator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/aliexpress-supplier-evaluator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "47d1fb5e4231e7b4d00862ac9a55b38091a31196f7013eae19aa0a601d5529e1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

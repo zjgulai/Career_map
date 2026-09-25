@@ -1,0 +1,22 @@
+{
+  "英文名称": "wecomcli-todo",
+  "中文名称": "企业微信待办事项管理技能",
+  "一句话作用": "企业微信待办事项管理技能，支持创建待办、更新待办、更改用户在待办中的状态、获取待办列表、批量获取待办详情、删除待办。在用户说\"帮我创建一个待办\"、\"把这个任务分派给张三\"、\"标记待办完成\"、\"接受/拒绝这个待办\"、\"把我在这个待办里的状态改成已完成\"、\"删掉那个待办\"、\"帮我建个提醒\"、\"更新一下待办内容\"、\"把提醒时间改到下周\"、\"看看这个待办的详情\"、\"待办分派给谁了\"、\"看看我有哪些待办\"、\"列一下我最近的待办\"等需要对待办进行…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要企业微信待办事项管理技能，支持创建待办、更新待办、更改用户在待办中的状态、获取待办列表、批量获取待办详情、删除待办。在用户说\"帮我创建一个待办\"、\"把这个任务分派给张三\"、\"标记待办完成\"、\"接受/拒绝这个待办\"、\"把我在这个待办里的状态改成已完成\"、\"删掉那个待办\"、\"帮我建个提醒\"、\"更新一下待办内容\"、\"把提醒时间改到下周\"、\"看看这个待办的详情\"、\"待办分派给谁了\"、\"看看我有哪些待办\"、\"列一下我最近的待办\"等需要对待办进行…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05404-wecomcli-todo-9855243a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-todo/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-todo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e46aa97e4b45c89f77e7e135d2372cbbd306e91a1e33ea99690dd49843b80367",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

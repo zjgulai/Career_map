@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-finance-risk-tag",
+  "中文名称": "供应链金融风险标签 融资依赖度信用评级现金流压力的综合风险画像",
+  "一句话作用": "触发词：供应链金融风险、融资依赖度、信用评级、现金流压力、资金链预警。何时不用：做供应商三维合规尽调时用供应链合规尽职调查；做供应商多维断供风险评分时用供应商风险评分。安全边界：财务数据仅限授权人员访问并按需脱敏，不得用于对外信用承诺或替代正式尽职调查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CFO面临\"不知道供应商是否面临资金链断裂风险\"——金融风险三维画像（流动性/杠杆/现金）提前3-6个月预警，防止供应商断供损失20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03895-p2s-supply-chain-finance-risk-tag-e8dcc823",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supply-chain-finance-risk-tag/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supply-chain-finance-risk-tag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8901eb906a52ff291e77cecdfedf10b20d277842a01baae8a64d7c00c26b1e1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-brand-defense-search-strategy",
+  "中文名称": "品牌词防守策略 品牌词投放防竞品截流与自然排名协同",
+  "一句话作用": "触发词：品牌词防守、竞品截流、品牌词 CTR、防守出价、ACOS 控制、自然排名协同。何时不用：还没有品牌搜索量或品牌未备案时先做品牌建设；要判断竞品加投造成的因果损失时用竞争响应建模。安全边界：关键词与文案不得堆砌或违反平台 listing 规范，品牌防御工具需在品牌备案前提下使用，多账户操作需规避关联风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌运营面临\"竞品在品牌词上截流、品牌词CTR从35%跌至22%\"——防守策略将品牌词流量保护率恢复至90%+，广告ROI达10-30倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02826-p2s-brand-defense-search-strategy-e8986f1c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-brand-defense-search-strategy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-brand-defense-search-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0c648ad8294def77b56badd3ef27e5578c187486045574fb78ba49294b40f2fa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

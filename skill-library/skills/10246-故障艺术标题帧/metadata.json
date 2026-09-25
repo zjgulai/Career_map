@@ -1,0 +1,22 @@
+{
+  "英文名称": "frame-glitch-title",
+  "中文名称": "故障艺术标题帧",
+  "一句话作用": "数字故障 / 像散偏移 / 数据腐败标题, 适合视频转场 / cyberpunk hero",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:27+08:00",
+  "业务场景": "video",
+  "解决具体问题": "当需要数字故障 / 像散偏移 / 数据腐败标题, 适合视频转场 / cyberpunk hero时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10246-frame-glitch-title-45945214",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/frame-glitch-title/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/frame-glitch-title/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "31133676d2a66875b5369e91ce67bc6efc3410c4df9c7cdba673c3ef9414c9a6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

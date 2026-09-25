@@ -1,0 +1,22 @@
+{
+  "英文名称": "FTC 广告披露 + GDPR 数据使用（营销物料门禁）",
+  "中文名称": "待补：FTC 广告披露 + GDPR 数据使用（营销物料门禁）",
+  "一句话作用": "当营销物料（短视频脚本、达人 Brief、广告文案）定稿前需做北美 FTC 广告披露与欧洲 GDPR/营销同意相关的高层级检查时调用；不替代律师意见或 DPIA。",
+  "关键输入": "- 完整 待审物料 + 发布渠道/地区 。 - 已知 商业关系 （自有/赞助/联盟）。 - 若含 用户故事或画像 ，说明数据收集方式（勾选/表单/截图授权）。",
+  "关键输出": "- status: PASS FIX BLOCK - 表：条款/主题 风险 市场 建议修改 责任方(营销/法务) - BLOCK 时列出 解锁条件 （如补充披露句、删除未授权证言）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当营销物料（短视频脚本、达人 Brief、广告文案）定稿前需做北美 FTC 广告披露与欧洲 GDPR/营销同意相关的高层级检查时调用；不替代律师意见或 DPIA。时，用它产出或更新：- status: PASS FIX BLOCK - 表：条款/主题 风险 市场 建议修改 责任方(营销/法务) - BLOCK 时列出 解锁条件 （如补充披露句、删除未授权证言）。",
+  "skill_id": "09909-ftc-gdpr-8f5d0717",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/ftc-gdpr-compliance-checker/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/ftc-gdpr-compliance-checker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "289741d19d0498ea22e5d2d81a96d97045979360db2889f197c4f9f88d99ccd6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

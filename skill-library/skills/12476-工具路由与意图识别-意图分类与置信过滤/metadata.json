@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-tool-selection-router",
+  "中文名称": "工具路由与意图识别 意图分类与置信过滤",
+  "一句话作用": "触发词：工具路由、意图识别、置信过滤、工具选择、澄清问句。何时不用：要在技能库里找该用哪个方法论时用「业务问题→Skill 检索」，要做技能间图谱推理时用「知识图谱技能管理」。安全边界：只做内部工具调度，不处理用户个人数据，不涉及价格操纵、虚假评价等受限操作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要智能体运营面临\"Multi-Tool Agent工具路由错误率32%、无效API调用占40%成本\"——意图分类+置信过滤将工具选择准确率从68%提升至91%，年化节省API成本24万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12476-p2s-llm-tool-selection-router-5f254d18",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-tool-selection-router/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-tool-selection-router/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da5e488c0c5765b0502a06bb295e76e7e2388af25ac015fa678c650fbb675cdc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

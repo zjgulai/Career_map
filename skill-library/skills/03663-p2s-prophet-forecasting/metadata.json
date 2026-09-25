@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-prophet-forecasting",
+  "中文名称": "待补：p2s-prophet-forecasting",
+  "一句话作用": "触发词：Prophet、节假日效应、季节性预测、置信区间、备货方案。何时不用：需要多变量协变量与注意力解释时用「TFT 多水平预测」；要剥离节日脉冲做增长率修正时用「节日峰值分解」。安全边界：无。",
+  "关键输入": "输入 ：过去 2 年周销量（含日期）、节假日日历、预测跨度；粒度：SKU×周。 输出 ：未来 16 周预测、趋势与季节分解、95% 置信区间及乐观/悲观两套备货方案，供向供应商提前备货使用。",
+  "关键输出": "输入 ：过去 2 年周销量（含日期）、节假日日历、预测跨度；粒度：SKU×周。 输出 ：未来 16 周预测、趋势与季节分解、95% 置信区间及乐观/悲观两套备货方案，供向供应商提前备货使用。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：Prophet、节假日效应、季节性预测、置信区间、备货方案。何时不用：需要多变量协变量与注意力解释时用「TFT 多水平预测」；要剥离节日脉冲做增长率修正时用「节日峰值分解」。安全边界：无。时，用它产出或更新：输入 ：过去 2 年周销量（含日期）、节假日日历、预测跨度；粒度：SKU×周。 输出 ：未来 16 周预测、趋势与季节分解、95% 置信区间及乐观/悲观两套备货方案，供向供应商提前备货使用。",
+  "skill_id": "03663-p2s-prophet-forecasting-79360d70",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-prophet-forecasting/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-prophet-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9710b6e107d3b91306afc21eeb0f1865bb0f3aacc8a0d5d4420df372744b6f95",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

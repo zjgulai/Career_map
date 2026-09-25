@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-doc",
+  "中文名称": "权威经验",
+  "一句话作用": "文档全场景处理：本地 Office Word（.docx/.doc）与在线文档（飞书、豆包 的 /docs、/docx、/wiki 链接）的阅读、创建和编辑。不处理 PDF、Sheet、Slide、Excel、PowerPoint、Base 表内操作。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-22T22:51:27+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要文档全场景处理：本地 Office Word（.docx/.doc）与在线文档（飞书、豆包 的 /docs、/docx、/wiki 链接）的阅读、创建和编辑。不处理 PDF、Sheet、Slide、Excel、PowerPoint、Base 表内操作。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06314-lark-doc-83de410c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/lark-doc/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/lark-doc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d0d9ae2e02cfde648e595d854f5d043495581608dc29e37d8c793e1614241ce4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

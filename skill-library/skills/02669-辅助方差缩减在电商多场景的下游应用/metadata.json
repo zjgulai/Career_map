@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ab-variance-downstream",
+  "中文名称": "辅助方差缩减在电商多场景的下游应用",
+  "一句话作用": "触发词：文本协变量、LLM嵌入、方差缩减、实验提速、小流量。何时不用：协变量都是结构化数字且历史数据齐全时用标准CUPED即可。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要小卖家流量不足导致 A/B 实验需要 6 周才显著——AI 文本协变量将方差缩减 25%，实验周期从 6 周压缩至 4.5 周，每年多跑 2-3 轮测试，年化 GMV 增量 ¥30-80 万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02669-p2s-ab-variance-downstream-aab0630b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ab-variance-downstream/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ab-variance-downstream/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "06861d2678b5cce16deb9537e8d7048bc4b99ce91687840427eda9d5b93afd87",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "audience-adapter",
+  "中文名称": "待补：audience-adapter",
+  "一句话作用": "向上汇报与跨部门沟通助手，根据受众角色（CEO、VP、技术负责人或运营）自动调整信息粒度、语言风格和侧重点，生成邮件、汇报要点或文档。当用户提到向上汇报、跨部门沟通、stakeholder update、executive summary、管理层汇报、给老板/VP/CEO写邮件简报、技术团队同步、运营侧对齐、写汇报材料或项目进展同步时触发。",
+  "关键输入": "- 问题1 ：描述 → 对目标的影响 → 需要的资源/决策 - 问题2 ：...",
+  "关键输出": "- 按用户选择的输出形式生成内容 - 输出后询问用户是否需要调整语气、补充信息或转换为其他受众版本 - 如果同一内容需要发送给多个不同受众，可以一次生成多个版本",
+  "最新更新时间": "2026-09-14T00:05:38+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- 问题1 ：描述 → 对目标的影响 → 需要的资源/决策 - 问题2 ：...时，用它产出或更新：- 按用户选择的输出形式生成内容 - 输出后询问用户是否需要调整语气、补充信息或转换为其他受众版本 - 如果同一内容需要发送给多个不同受众，可以一次生成多个版本",
+  "skill_id": "10544-audience-adapter-b1517e19",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/audience-adapter/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/audience-adapter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "47f9c57bfb496e34dadea79ad1f45c439ccb30c28fbda108ba888a8e67326322",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

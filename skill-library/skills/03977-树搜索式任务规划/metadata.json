@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tree-of-thoughts-planning",
+  "中文名称": "树搜索式任务规划",
+  "一句话作用": "触发词：树搜索规划、多路径探索、方案比选、回溯、设计决策。何时不用：促销等参数化情景对比用「供应链 What-If 情景分析引擎」；单步或线性即可回答的任务不必用本技能。安全边界：路径评估由 LLM 打分，关键方案必须人工复核后再落地，不得仅凭搜索得分决策。",
+  "关键输入": "输入 ：现有基础资料与约束条件（如现有标签体系字典、评论样本、层级与数量约束），以及初始决策点与目标判据。 输出 ：探索出的候选方案路径、各路径评估分数与推荐方案；供设计或计划负责人决策。",
+  "关键输出": "输入 ：现有基础资料与约束条件（如现有标签体系字典、评论样本、层级与数量约束），以及初始决策点与目标判据。 输出 ：探索出的候选方案路径、各路径评估分数与推荐方案；供设计或计划负责人决策。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：树搜索规划、多路径探索、方案比选、回溯、设计决策。何时不用：促销等参数化情景对比用「供应链 What-If 情景分析引擎」；单步或线性即可回答的任务不必用本技能。安全边界：路径评估由 LLM 打分，关键方案必须人工复核后再落地，不得仅凭搜索得分决策。时，用它产出或更新：输入 ：现有基础资料与约束条件（如现有标签体系字典、评论样本、层级与数量约束），以及初始决策点与目标判据。 输出 ：探索出的候选方案路径、各路径评估分数与推荐方案；供设计或计划负责人决策。",
+  "skill_id": "03977-p2s-tree-of-thoughts-planning-42d06a21",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tree-of-thoughts-planning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tree-of-thoughts-planning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4864182524e25ddaf2db4eedc31e5fbe9b1dba7eca5f001ee26009dc80f5cec4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

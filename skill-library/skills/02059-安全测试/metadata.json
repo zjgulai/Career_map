@@ -1,0 +1,22 @@
+{
+  "英文名称": "api-security",
+  "中文名称": "安全测试",
+  "一句话作用": "Use for authorized security assessment of REST, GraphQL, WebSocket, or SOAP APIs, including discovery, authentication, authorization, rate-limit, and CI/CD testing.",
+  "关键输入": "- REST API 安全测试（OpenAPI/Swagger 驱动或盲测） - GraphQL 安全审计（内省、批查询、别名过载） - WebSocket 安全测试 - JWT / OAuth 2.0 认证测试 - BOLA/IDOR/BFLA 授权漏洞检测 - API 限速绕过与 DoS 测试",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- REST API 安全测试（OpenAPI/Swagger 驱动或盲测） - GraphQL 安全审计（内省、批查询、别名过载） - WebSocket 安全测试 - JWT / OAuth 2.0 认证测试 - BOLA/IDOR/BFLA 授权漏洞检测 - API 限速绕过与 DoS 测试时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02059-api-security-34267308",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/api-security/SKILL.md",
+  "relative_path": "lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/api-security/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ba41791abf3b05daac8726acbba996445be30cf718a756cd8fb99cb27d9861e9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

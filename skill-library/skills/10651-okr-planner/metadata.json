@@ -1,0 +1,22 @@
+{
+  "英文名称": "okr-planner",
+  "中文名称": "待补：okr-planner",
+  "一句话作用": "OKR 制定/拆解/复盘教练。当用户提到以下场景时触发：OKR、目标管理、关键结果、OKR制定、OKR拆解、OKR复盘、OKR检查、OKR对齐、季度目标、objectives and key results、目标拆解、KR制定、OKR评分、OKR改进。即使用户只是说'帮我写个OKR''这个OKR写得好不好''帮我复盘一下这个季度的OKR''目标怎么拆解'，也应触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "好的 KR 必须满足 SMART+原则 ： 原则 说明 检查方式 ------ ------ ---------- Specific（具体） 明确衡量什么 能否一句话说清楚测什么？ Measurable（可衡量） 有明确的数值或状态 能否用数据判断是否完成？ Ambitious（有挑战） 需要努力才能达成（建议达成率预期 60-70%） 是不是轻松就能做到？ Relevant（相关） 直接支撑对应的 Objective 完成这个 KR 是否推进了 O？",
+  "最新更新时间": "2026-09-14T00:05:28+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要OKR 制定/拆解/复盘教练。当用户提到以下场景时触发：OKR、目标管理、关键结果、OKR制定、OKR拆解、OKR复盘、OKR检查、OKR对齐、季度目标、objectives and key results、目标拆解、KR制定、OKR评分、OKR改进。即使用户只是说'帮我写个OKR''这个OKR写得好不好''帮我复盘一下这个季度的OKR''目标怎么拆解'，也应触发。时，用它产出或更新：好的 KR 必须满足 SMART+原则 ： 原则 说明 检查方式 ------ ------ ---------- Spec…",
+  "skill_id": "10651-okr-planner-501d08f7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/okr-planner/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/okr-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c3ef7986dcac5bdafedf261b1e2823eca8ddd5dd0a1762573cad56cb474b68d3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

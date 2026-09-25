@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper2skills-ui-audit",
+  "中文名称": "待补：paper2skills-ui-audit",
+  "一句话作用": "paper2skills Playbook UI 质量审计 + 精细化迭代 SOP。 触发场景：「UI 审计」「卡片有问题」「检查页面质量」「Playwright 验证」 「卡片高度不一致」「hover 有问题」。封装了 3 天内重复 3 次的卡片修复循环。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "指标 通过标准 ------ --------- maxRowHeightVariance = 0 （同行卡片完全等高） brokenImgs = 0 hover textDecoration none（无下划线） ---",
+  "最新更新时间": "2026-06-10T11:06:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要paper2skills Playbook UI 质量审计 + 精细化迭代 SOP。 触发场景：「UI 审计」「卡片有问题」「检查页面质量」「Playwright 验证」 「卡片高度不一致」「hover 有问题」。封装了 3 天内重复 3 次的卡片修复循环。时，用它产出或更新：指标 通过标准 ------ --------- maxRowHeightVariance = 0 （同行卡片完全等高） brokenImgs = 0 hover textDecoration none（无下划线） ---",
+  "skill_id": "01896-paper2skills-ui-audit-9a0d040d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/paper2skills-ui-audit/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/paper2skills-ui-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5b8dc53dcb6fe7cdfcf302ece75f1a4171dc55babdb08a0046da2d9b3f22ed7a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

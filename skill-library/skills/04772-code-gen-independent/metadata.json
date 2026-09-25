@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-gen-independent",
+  "中文名称": "待补：code-gen-independent",
+  "一句话作用": "Use when confused about types at runtime. Use when trying to use instanceof with interfaces. Use when type errors don't prevent JavaScript output.",
+  "关键输入": "- Confused why code runs despite type errors - Trying to check types at runtime - Using instanceof with interfaces - Expecting types to affect runtime behavior",
+  "关键输出": "Type errors are like warnings - they don't stop compilation.",
+  "最新更新时间": "2026-09-19T03:55:31+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Confused why code runs despite type errors - Trying to check types at runtime - Using instanceof with interfaces - Expecting types to affect runtime behavior时，用它产出或更新：Type errors are like warnings - they don't stop compilation.",
+  "skill_id": "04772-code-gen-independent-65e95c90",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/code-gen-independent/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/code-gen-independent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e294107ceb78b263d85f79d336ffed38f7fe51ab30c8f75291a1a7211320ab3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-website",
+  "中文名称": "待补：create-website",
+  "一句话作用": "Website creation capabilities. Use when the user wants to create a new website from scratch. Capabilities : 1. Create Website - Generate a complete HTML website directly from requirements When to use : - User requests t…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "The final deliverable is a single HTML file containing the complete website. Capability Output ------------ -------- Create Website Single index.html file with inline CSS/JS The HTML file should be: - Self-contained (no external dependencies except CDN resour…",
+  "最新更新时间": "2026-09-21T17:35:25+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Website creation capabilities. Use when the user wants to create a new website from scratch. Capabilities : 1. Create Website - Generate a complete HTML website directly from requirements When to use : - User requests t…时，用它产出或更新：The final deliverable is a…",
+  "skill_id": "00297-create-website-3997255d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/create-website/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/create-website/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "124d1621ff341ebbc93c032ba7fe5dcd8e81c1656e7e2d5250ac9c7660c342e3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

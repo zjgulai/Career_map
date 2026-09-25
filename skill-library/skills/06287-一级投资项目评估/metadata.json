@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-private-company",
+  "中文名称": "一级投资项目评估",
+  "一句话作用": "评估一级市场、私募股权或创业项目的初步投资价值，基于BP、Deck、财务和访谈资料输出Screening Report、投资逻辑、红旗、情景、尽调缺口和初步建议。用于项目初筛、是否进入下一轮尽调或是否安排首次会议。不要替代完整尽调、法律意见或正式IC审批。",
+  "关键输入": "关键输入未知时，被禁止的是\"替用户假设一个值\"，不是\"给出可执行内容\"。把结论改写为以该未知量为自变量的分档表： 档位 触发条件（未知量取值区间） 该档下的动作方向与优先顺序 该档被推翻的信号 分档表给方向、顺序和取舍理由，不给依赖该未知量的精确金额或比例。结尾列出\"补齐哪几项后可给精确值\"，最多5项，每项写清为什么需要它。",
+  "关键输出": "无附件自然问答只交付正文：不创建文件、不修脚本Schema、不输出内部过程。以下五条优先于本文件其余内容。约束的是\"数字怎么归位、怎么标注\"，不是\"少写内容\"；不得用减少分析深度的方式满足本节。",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要问题再短、看起来再简单，也必须先联网核验以下四类，然后才能写结论： - 主体身份：是否仍独立存在、上市/退市/被收购/私有化/更名、交易所与证券代码； - 规则身份：政策、法规、条款是否已由发布机关正式发布，以及生效日； - 期间口径：报告期、单位、币种、as-of； - 冲突：同一字段搜到两个不同值时两个都写出，不擅自择一。 复杂度路由只决定篇幅和槽位数量，不决定是否核验。未通过核验的主体或规则不得进入结论段和摘要段，只能进\"待核清…时，用它产出或更新：无附件自然问答只交付正文：不创建文件、不修脚本Sch…",
+  "skill_id": "06287-doubao-private-company-471226f5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-private-company/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-private-company/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ea176be98d6e3e727ac6166e188a591d481ef63d0eb2c9dc03aed026e83837f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

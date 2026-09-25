@@ -1,0 +1,22 @@
+{
+  "英文名称": "boltz-protein-screen",
+  "中文名称": "待补：boltz-protein-screen",
+  "一句话作用": "Screen existing protein binders with Boltz. Use when ranking a supplied protein, peptide, antibody, nanobody, or binder library against a target. Not for designing new proteins or screening small molecules.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Rank from results/index.jsonl after download-results; use references/results.md for local file layout and metric meanings.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Screen existing protein binders with Boltz. Use when ranking a supplied protein, peptide, antibody, nanobody, or binder library against a target. Not for designing new proteins or screening small molecules.时，用它产出或更新：Rank from results/index.jsonl after down…",
+  "skill_id": "00706-boltz-protein-screen-64db2fd5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-protein-screen/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-protein-screen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0bb22295439ee40e6543b0a18e917c406ac4b4b8a30a422e7d118635a7c771b8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

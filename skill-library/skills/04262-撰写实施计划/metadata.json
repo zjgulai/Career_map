@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-plans",
+  "中文名称": "撰写实施计划",
+  "一句话作用": "把已批准的规格拆成假设执行者零上下文的实施计划：逐个任务写明文件、接口、测试代码与提交步骤。触发词：实施计划撰写、writing-plans、把已批准的规格拆成假设执行者零上下文的实施计划：逐个任务写明文件、接口、测试代码与提交步骤。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要把已批准的规格拆成假设执行者零上下文的实施计划：逐个任务写明文件、接口、测试代码与提交步骤。触发词：实施计划撰写、writing-plans、把已批准的规格拆成假设执行者零上下文的实施计划：逐个任务写明文件、接口、测试代码与提交步骤。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04262-writing-plans-b913418b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/writing-plans/SKILL.md",
+  "relative_path": "lute/.dsh/skills/writing-plans/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d53ac69525a565328a6462b81505a3d7680fc753d81288233622cdde6bb67c3b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

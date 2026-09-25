@@ -1,0 +1,22 @@
+{
+  "英文名称": "validate-branch",
+  "中文名称": "待补：validate-branch",
+  "一句话作用": "Run local validation checks on the current branch before shipping. Use when the user says \"validate\", \"check branch\", \"am I good\", \"run tests\", \"preflight\", \"is this ready\", or wants to verify their branch passes all ch…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Report one of: - PASS — all 3 checks passed, branch is ready - FAIL — which check failed, the error output, and a one-line suggestion",
+  "最新更新时间": "2026-05-14T21:03:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run local validation checks on the current branch before shipping. Use when the user says \"validate\", \"check branch\", \"am I good\", \"run tests\", \"preflight\", \"is this ready\", or wants to verify their branch passes all ch…时，用它产出或更新：Report one of: - PASS — al…",
+  "skill_id": "01905-validate-branch-cba6101d",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.agents/skills/validate-branch/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.agents/skills/validate-branch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9641d6db6db9858e1ba2cf2fbdcedf65d114cea69811c2f542f95afaaaaf20cb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

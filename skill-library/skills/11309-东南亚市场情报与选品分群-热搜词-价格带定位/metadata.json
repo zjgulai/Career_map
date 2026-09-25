@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-shopee-lazada-sea-market-intelligence",
+  "中文名称": "东南亚市场情报与选品分群 热搜词 价格带定位",
+  "一句话作用": "触发词：东南亚选品、价格带定位、Shopee、Lazada、市场分群。何时不用：估算品类整体容量用「Market Size Estimation」；判断品类所处生命周期阶段用「Product Lifecycle Stage」。安全边界：Shopee 反爬协议禁止未授权自动化抓取，须用官方 API 或合规数据供应商；只收集公开商品信息，不采集用户个人数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要东南亚选品负责人面临\"不知道Shopee哪个国家哪个价格带最有机会\"——K-means市场聚类将最优价格带定位精度提升至87%，新品首月GMV超预期35%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11309-p2s-shopee-lazada-sea-market-intelligence-59aed0e6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-shopee-lazada-sea-market-intelligence/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-shopee-lazada-sea-market-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f5f4ebe830023c8717a73a1c90be6f08f83eb3c5d756fdbe2d666fc1083717e6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

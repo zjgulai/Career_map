@@ -1,0 +1,22 @@
+{
+  "英文名称": "research",
+  "中文名称": "待补：research",
+  "一句话作用": "对照高可信一手来源调研问题，并把发现保存为仓库中的 Markdown 文件。适用于用户想调研主题、收集文档或 API 事实，或把阅读工作委托给后台代理时。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-27T15:45:07+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要对照高可信一手来源调研问题，并把发现保存为仓库中的 Markdown 文件。适用于用户想调研主题、收集文档或 API 事实，或把阅读工作委托给后台代理时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12804-research-ca725d4b",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/.agents/skills/research/SKILL.md",
+  "relative_path": "lute/project/VOA/.agents/skills/research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d0fc6af2608d9f2ca5e3140c50bd8f1c4bd4dde0f37478a9146c7aa406c2b63",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

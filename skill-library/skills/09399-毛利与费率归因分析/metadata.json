@@ -1,0 +1,22 @@
+{
+  "英文名称": "momcozy-margin-analysis",
+  "中文名称": "毛利与费率归因分析",
+  "一句话作用": "Use when users ask to run or update Momcozy margin and fee attribution analysis for 专题01/专题02, including 毛利率归因、前台后台成本拆解、Amazon vs 独立站对比、专题一专题二刷新, or P1口径复盘. Not for Sheet⑤⑥⑦⑧ 购物篮分析 or Gamma Prompt generation.",
+  "关键输入": "- 用户要更新 Momcozy 毛利率、毛利额、费率归因。 - 用户提到专题01/专题02、前台成本/后台成本、Amazon vs 独立站。 - 用户需要重跑分析并刷新文档、图表、汇报页。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-31T22:54:26+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 用户要更新 Momcozy 毛利率、毛利额、费率归因。 - 用户提到专题01/专题02、前台成本/后台成本、Amazon vs 独立站。 - 用户需要重跑分析并刷新文档、图表、汇报页。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09399-momcozy-margin-analysis-08eca99b",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/momcozy-margin-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/momcozy-margin-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "89d6ccfb13e3f7a921e3b2f32ce76348eb1d8e1344db682b4e74e237470bf6e3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

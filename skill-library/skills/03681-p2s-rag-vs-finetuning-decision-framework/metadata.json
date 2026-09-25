@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rag-vs-finetuning-decision-framework",
+  "中文名称": "待补：p2s-rag-vs-finetuning-decision-framework",
+  "一句话作用": "触发词：RAG选型、微调取舍、知识库问答、技术路线评估。何时不用：技术路线已定、只需评测检索或生成效果时用算法评估类评测技能；评估排序推荐系统的微小改进用交叉实验类技能。安全边界：涉医学与法规条目的合规知识库，选型结论只作技术建议，合规口径必须由人工与法务复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI工程师面临\"不知道该用RAG还是微调，两套方案都尝试耗时2个月\"——RAG vs微调决策框架从数据动态性/长尾覆盖/推理成本三维量化评估，选型决策时间从2个月压缩至3天，避免错误技术路线时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03681-p2s-rag-vs-finetuning-decision-framework-09f1b6cb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-rag-vs-finetuning-decision-framework/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-rag-vs-finetuning-decision-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66d833259085bc706f3f4355462bf42cf19ac806de5ad3f87a171f7180de1847",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

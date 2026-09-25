@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-ecommerce-proposal",
+  "中文名称": "电商活动策划专家",
+  "一句话作用": "电商活动策划专家。用于生成、改写、优化完整电商活动策划方案，并默认交付一份已经本地落地、可用浏览器打开验证的 HTML 网页版方案。覆盖淘宝/天猫、抖音电商、京东、得物、拼多多、小红书、Amazon、TikTok Shop、Shopee、Lazada、eBay、Shopify/独立站等平台的节点大促、店铺活动、平台活动、直播间活动、品类活动、品牌日、上新、清仓、会员复购、内容种草到成交、站内外联动与跨境电商活动。若用户只要商品标题/详…",
+  "关键输入": "出现以下技能不适用或需求不明时，不输出完整方案，用 1-2 句话承接并简要说明本技能核心职能，引导用户使用本技能交互；不强行编造活动类型、平台或交付物。 - 不需要完整活动方案，只要单条广告语、单张海报、生成图片、商品标题、详情页文案、商品主图/详情图、评论区话术、口播稿。 - 需要营销或活动方案，但不是电商平台、电商店铺、电商直播、跨境电商等非电商场景。 - 只做数据清洗、财务核算、法律合规判断、技术开发实现，且与电商活动策划无关。…",
+  "关键输出": "交付前过一遍以下红线，详细清单见对应参考文件，不在主 Skill 中重复展开： 1. 成品是否落成一份排版清晰、可浏览器打开验证的 HTML 网页版方案，同时包含正文、图片与表格，并按实际数据配置必要图表。 2. 是否形成从背景与目标、人群、货品、促销机制、流量、店铺运营、预算、履约保障到复盘闭环的连续策略主线，并体现各平台角色、用户路径与转化机制的差异。 3. 价格、折扣、库存、销量、预算、日期、平台资源位、历史数据、品牌素材、产品图和专业结论是否均有可靠依据，未编造数字、链接或功效。 4. 定量目标是否完成品…",
+  "最新更新时间": "2026-09-12T03:26:22+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要出现以下技能不适用或需求不明时，不输出完整方案，用 1-2 句话承接并简要说明本技能核心职能，引导用户使用本技能交互；不强行编造活动类型、平台或交付物。 - 不需要完整活动方案，只要单条广告语、单张海报、生成图片、商品标题、详情页文案、商品主图/详情图、评论区话术、口播稿。 - 需要营销或活动方案，但不是电商平台、电商店铺、电商直播、跨境电商等非电商场景。 - 只做数据清洗、财务核算、法律合规判断、技术开发实现，且与电商活动策划无关。…时，用它产出或更新：交付前过一遍以下红线，详细清单见对应参考文件，不在主…",
+  "skill_id": "06522-doubao-ecommerce-proposal-a9c31521",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-ecommerce-proposal/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-ecommerce-proposal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fb895dd895b6150ac7d0833b62dd8146093ba559f0f7a603d859575dbb92b7fe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "humanizer-zh",
+  "中文名称": "去除 AI 写作痕迹",
+  "一句话作用": "去除文本中的AI生成痕迹，使其读起来更自然、更像真人书写。基于维基百科的\"AI写作特征\"指南，具体检测并修复夸大的象征意义、宣传性语言、以-ing结尾的肤浅分析、模糊归因、破折号过度使用、三段式法则、AI词汇、否定式排比、过多连接词等模式。当用户请求润色、编辑文本，或提及去除AI痕迹、让文本更人性化、听起来不像AI写的等需求时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "提供： 1. 重写后的文本 2. 所做更改的简要总结（如果有帮助，可选） ---",
+  "最新更新时间": "2026-09-14T00:05:58+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要去除文本中的AI生成痕迹，使其读起来更自然、更像真人书写。基于维基百科的\"AI写作特征\"指南，具体检测并修复夸大的象征意义、宣传性语言、以-ing结尾的肤浅分析、模糊归因、破折号过度使用、三段式法则、AI词汇、否定式排比、过多连接词等模式。当用户请求润色、编辑文本，或提及去除AI痕迹、让文本更人性化、听起来不像AI写的等需求时触发。时，用它产出或更新：提供： 1. 重写后的文本 2. 所做更改的简要总结（如果有帮助，可选） ---",
+  "skill_id": "10628-humanizer-zh-ef964970",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/humanizer-zh/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/humanizer-zh/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d5425a0570f8ba1883d43348b8c97b95e0c336188bd49cc60871ac0179cbecf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

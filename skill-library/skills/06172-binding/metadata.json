@@ -1,0 +1,22 @@
+{
+  "英文名称": "binding",
+  "中文名称": "待补：binding",
+  "一句话作用": "Use when creating, reading, validating, repairing, deleting, or troubleshooting Daimon Blueprint automation widget Bindings between Automation artifact results and Widget data slots and submit events.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Automation.update and Widget.update revalidate related Bindings. Inspect revalidatedBindings in the update response before running or enabling automatic work. Writing index.html or another Widget workspace resource does not call Widget.update, so it does not…",
+  "最新更新时间": "2026-09-17T18:46:45+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when creating, reading, validating, repairing, deleting, or troubleshooting Daimon Blueprint automation widget Bindings between Automation artifact results and Widget data slots and submit events.时，用它产出或更新：Automation.update and Widget.update revalidate…",
+  "skill_id": "06172-binding-35896a9b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/binding/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/binding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a45e83d4afac1a68d42041bf8c2ef9a7b9a9d228810b8960cddbbfdd2b949b6f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-demand-driven-kb-construction",
+  "中文名称": "需求驱动知识库构建 失败即信号：用任务失败驱动最小化知识摄入",
+  "一句话作用": "触发词：需求驱动知识库、失败驱动摄入、最小知识集、知识缺口、知识溯源。何时不用：已有成体系文档要做分块入库时用语义分块技能；只维护图谱实体变更时用图谱增量更新技能。安全边界：摄入实体须标注来源与创建周期，不得把未经验证的推断当作合规结论写入知识库。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要传统预先规划知识库耗时3个月且充满无用冗余——DDC让Agent在真实任务中失败，用失败信号驱动最小化摄入，20-30个问题周期后知识库收敛，覆盖所有真正需要的知识（零冗余）（2025 arXiv:2603.14057）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03052-p2s-demand-driven-kb-construction-09b87723",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-demand-driven-kb-construction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-demand-driven-kb-construction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f56c52580b7665f61865064065eafa20dcc0215aec333f7d901396f68979a593",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-latent-class-demand-segmentation",
+  "中文名称": "潜在类别需求分群 算法自动发现购买决策者类型",
+  "一句话作用": "触发词：潜在类别、价格弹性、人群分群、差异化定价。何时不用：行为序列跨度不足、样本量过小时参数不稳；只按最近购买时间做 RFM 分层时用常规分群方法。安全边界：行为数据需匿名化，差异化定价不得基于画像直接展示不同价格，应通过优惠券或促销码间接实现。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户运营面临\"RFM分群维度太少无法区分不同定价敏感度的消费者\"——潜在类别模型自动发现3-5类购买决策者，差异化策略年化增收$5.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03306-p2s-latent-class-demand-segmentation-aa703504",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-latent-class-demand-segmentation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-latent-class-demand-segmentation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "db6b7e156200c9c6249aac38dd3da4033ae5eb820039f2f8f71ca9419c103d25",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

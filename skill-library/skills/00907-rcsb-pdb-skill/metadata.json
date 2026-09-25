@@ -1,0 +1,22 @@
+{
+  "英文名称": "rcsb-pdb-skill",
+  "中文名称": "待补：rcsb-pdb-skill",
+  "一句话作用": "Submit compact RCSB PDB requests for core metadata, Search API queries, and FASTA downloads. Use when a user wants concise RCSB summaries; save raw JSON or FASTA only on request.",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common RCSB patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records, a compact summary, or text head. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact RCSB PDB requests for core metadata, Search API queries, and FASTA downloads. Use when a user wants concise RCSB summaries; save raw JSON or FASTA only on request.时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, a…",
+  "skill_id": "00907-rcsb-pdb-skill-3725235a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/rcsb-pdb-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/rcsb-pdb-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c0a7afd0df983192e791d3ee8a9938b6e4050f74683c4d9ff0775b78665dde61",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

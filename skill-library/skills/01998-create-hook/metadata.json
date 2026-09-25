@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-hook",
+  "中文名称": "待补：create-hook",
+  "一句话作用": "Create Cursor hooks. Use when you want to create a hook, write hooks.json, add hook scripts, or automate behavior around agent events.",
+  "关键输入": "Before you write anything, determine: 1. Scope : Should this be a project hook or a user hook? 2. Trigger : Which event should run the hook? 3. Behavior : Should it audit, deny/allow, rewrite input, inject context, or continue a workflow? 4. Implementation :…",
+  "关键输出": "Use the event's supported output fields only. - preToolUse: can return permission, user message, agent message, and updated input - postToolUse: can return additional context; for MCP tools it can also return updated mcp tool output - subagentStart: can retur…",
+  "最新更新时间": "2026-05-16T16:33:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Cursor watches hooks.json and reloads on save - If hooks still do not load, restart Cursor - Double-check relative paths: - project hooks - relative to the project root - user hooks - relative to ~/.cursor/ - If the h…时，用它产出或更新：Use the event's supported…",
+  "skill_id": "01998-create-hook-c18a1c37",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cursor/skills-cursor/create-hook/SKILL.md",
+  "relative_path": "lute/.cursor/skills-cursor/create-hook/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28bfa0c6cd13fa0167c72512fca0da2c6fc24b6eea67c5307bf1ef2bedca61a6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

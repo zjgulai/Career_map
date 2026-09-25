@@ -1,0 +1,22 @@
+{
+  "英文名称": "openai-api-troubleshooting",
+  "中文名称": "待补：openai-api-troubleshooting",
+  "一句话作用": "Use when an OpenAI API request fails and Codex needs to classify the likely cause, explain the next step, and route to the right follow-up. Covers common runtime failures such as blocked outbound network access, invalid…",
+  "关键输入": "Use this skill for runtime OpenAI API failures after a request has already been made. Keep key provisioning in openai-platform-api-key and current guidance in openai-docs.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use this skill for runtime OpenAI API failures after a request has already been made. Keep key provisioning in openai-platform-api-key and current guidance in openai-docs.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01476-openai-api-troubleshooting-ed9f50a6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/openai-developers/1dc19589/skills/openai-api-troubleshooting/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/openai-developers/1dc19589/skills/openai-api-troubleshooting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9fb4e152430c2f0475d1d14ce61b413267d322af9c032f2affb64698ca562662",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

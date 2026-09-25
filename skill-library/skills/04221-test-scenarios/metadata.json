@@ -1,0 +1,22 @@
+{
+  "英文名称": "test-scenarios",
+  "中文名称": "待补：test-scenarios",
+  "一句话作用": "从正常流程、边界条件与异常分支出发，列出可执行的测试场景与预期结果。触发词：测试场景编写、test-scenarios、从正常流程、边界条件与异常分支出发，列出可执行的测试场景与预期结果。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Comprehensive test scenarios for each acceptance criterion - Clear test objectives aligned with user story intent - Detailed step-by-step test actions - Observable expected outcomes after each step - Edge case and error scenario coverage - Ready for QA team…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要从正常流程、边界条件与异常分支出发，列出可执行的测试场景与预期结果。触发词：测试场景编写、test-scenarios、从正常流程、边界条件与异常分支出发，列出可执行的测试场景与预期结果。时，用它产出或更新：- Comprehensive test scenarios for each acceptance criterion - Clear test objectives aligned with user story intent - Detailed step-by-step test actions…",
+  "skill_id": "04221-test-scenarios-d7adecbb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/test-scenarios/SKILL.md",
+  "relative_path": "lute/.dsh/skills/test-scenarios/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "83196ad7d3e04c1b0d5c19d43733adf6190507baadab7d634bec5056b76c98f5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

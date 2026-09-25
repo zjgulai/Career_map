@@ -1,0 +1,22 @@
+{
+  "英文名称": "ui-designer",
+  "中文名称": "待补：ui-designer",
+  "一句话作用": "Extract design systems from reference UI images and generate implementation-ready UI design prompts. Use when users provide UI screenshots/mockups and want to create consistent designs, generate design systems, or build…",
+  "关键输入": "Request from user: - Reference images directory : Path to folder containing UI screenshots/mockups - Project idea file : Document describing the product concept and goals - Existing PRD (optional): If PRD already exists, skip Step 3",
+  "关键输出": "- Save design system with descriptive filename (based on image dir name) - Save final prompt with timestamp for version tracking - Keep all outputs in documents/ directory for easy reference - Preserve intermediate outputs for iteration",
+  "最新更新时间": "2026-09-19T03:46:46+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- User provides UI screenshots, mockups, or design references - Need to extract color palettes, typography, spacing from existing designs - Want to generate design system documentation from visual examples - Building MV…时，用它产出或更新：- Save design system with…",
+  "skill_id": "05142-ui-designer-3269c0f9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ui-designer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ui-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f6a8eb5e20c9c291546eed3e106d2272ad36d08564f45fbedfbfc21a25a3609b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

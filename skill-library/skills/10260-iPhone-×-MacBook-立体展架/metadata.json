@@ -1,0 +1,22 @@
+{
+  "英文名称": "mockup-device-3d",
+  "中文名称": "iPhone × MacBook 立体展架",
+  "一句话作用": "iPhone + MacBook 仿 GLTF 静态展架, 屏幕内嵌真实 HTML 内容, 玻璃镜头折射, 360° 转盘构图",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:27+08:00",
+  "业务场景": "product",
+  "解决具体问题": "当需要iPhone + MacBook 仿 GLTF 静态展架, 屏幕内嵌真实 HTML 内容, 玻璃镜头折射, 360° 转盘构图时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10260-mockup-device-3d-4de32762",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/mockup-device-3d/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/mockup-device-3d/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be0040976e3b405c6e800ec23f061a6c89c76c44ecd29957f712f00696daf9f6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

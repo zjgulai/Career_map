@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-short-video-thumbnail-ctr-predictor",
+  "中文名称": "封面图CTR预测（AB测试前AI预评估）",
+  "一句话作用": "触发词：封面 CTR 预测、封面优选、AB 前预评估、点击率预估、素材预筛。何时不用：封面还没定稿、要做的是内容创意而非封面选择时不用；封面已上线只需跟踪投放效果用投放诊断类技能。安全边界：仅使用自有业务数据，不得用未授权的第三方素材或个人数据做训练与推断。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要内容团队面临\"封面图选择靠主观判断导致CTR低于竞品\"——AI封面CTR预测将最优封面识别准确率提升70%，CTR平均提升15-25%，年化广告费用效率提升20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03823-p2s-short-video-thumbnail-ctr-predictor-7f278f57",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-short-video-thumbnail-ctr-predictor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-short-video-thumbnail-ctr-predictor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4ab22e5666a540168b32d15e91dcc3add8af3193b2a61fcaa7cbab44c1765383",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

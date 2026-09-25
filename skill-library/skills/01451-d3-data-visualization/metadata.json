@@ -1,0 +1,22 @@
+{
+  "英文名称": "d3-data-visualization",
+  "中文名称": "待补：d3-data-visualization",
+  "一句话作用": "Build custom data visualizations with D3. Use when the user needs SVG or DOM-based charts, rich annotation, domain-native contextual backgrounds, data joins, custom scales or interactions, scroll-driven SVG scene states…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Explain why D3 is the right rendering layer. - Keep chart structure semantic and inspectable. - Provide export paths for SVG or PNG when needed. - Pair interaction with obvious annotation and reset controls. - For mobile, state the touch target policy, hove…",
+  "最新更新时间": "2026-09-17T09:36:42+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build custom data visualizations with D3. Use when the user needs SVG or DOM-based charts, rich annotation, domain-native contextual backgrounds, data joins, custom scales or interactions, scroll-driven SVG scene states…时，用它产出或更新：- Explain why D3 is the ri…",
+  "skill_id": "01451-d3-data-visualization-0479f739",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/d3-data-visualization/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/d3-data-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1c735a00399eef9f63774f692a13c024380a331a44b1076ba72d440510f22b8f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rdd-regression-discontinuity-design",
+  "中文名称": "断点回归设计 利用政策阈值识别因果效应",
+  "一句话作用": "触发词：断点回归、阈值效应、会员门槛、密度检验、心理定价。何时不用：处理不由明确阈值规则分配时RDD不适用；用户可操控阈值指标时RDD失效。安全边界：策略调整（如降低门槛、改价）前需检查是否触及平台最低资质与定价要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营团队面临\"会员门槛策略效果无法区分因果效应与选择偏差\"——RDD在阈值处精确识别7.76%的真实复购率提升，年化GMV增量约120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03688-p2s-rdd-regression-discontinuity-design-87d627fc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-rdd-regression-discontinuity-design/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-rdd-regression-discontinuity-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4c987db46f6d00e5c68a903fad74236452a11320cae86baf8e9af75c3751a572",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

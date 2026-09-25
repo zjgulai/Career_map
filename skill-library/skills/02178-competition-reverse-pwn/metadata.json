@@ -1,0 +1,22 @@
+{
+  "英文名称": "competition-reverse-pwn",
+  "中文名称": "待补：competition-reverse-pwn",
+  "一句话作用": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for reverse engineering, malware, DFIR, firmware, pwnable, and native exploit challenges. Use when the user asks to reverse a binary, unpack a…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for reverse engineering, malware, DFIR, firmware, pwnable, and native exploit challenges. Use when the user asks to reverse a binary, unpack a…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02178-competition-reverse-pwn-f5fbe9ea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-reverse-pwn/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-reverse-pwn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c8f622721f626346dec67fd1f25c41527f0a51f226c7ad71ed9d3ac1184fc5a8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

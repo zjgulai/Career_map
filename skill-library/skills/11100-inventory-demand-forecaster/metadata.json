@@ -1,0 +1,22 @@
+{
+  "英文名称": "inventory-demand-forecaster",
+  "中文名称": "待补：inventory-demand-forecaster",
+  "一句话作用": "当用户需要进行库存预测、安全库存计算、补货规划或大促备货时使用。触发词：库存预测、安全库存、补货计划、备货规划、需求预测、库存预警、demand forecast、safety stock、reorder point、inventory planning。何时不用：供应商准入评估（使用supplier-evaluation）、物流路线规划（使用international-shipping-customs）、无历史销量数据。缺关键数据（…",
+  "关键输入": "- 用户需要基于历史销售数据做需求预测 - 用户需要计算安全库存水平（含服务水平目标、补货周期） - 用户需要制定补货计划（ROP、EOQ、补货时点） - 用户需要做大促备货规划（618/双11/Prime Day） - 用户需要做库存健康诊断与滞销预警 - 用户需要做季节性库存规划",
+  "关键输出": "见 references/forecast-example.md。",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用户需要基于历史销售数据做需求预测 - 用户需要计算安全库存水平（含服务水平目标、补货周期） - 用户需要制定补货计划（ROP、EOQ、补货时点） - 用户需要做大促备货规划（618/双11/Prime Day） - 用户需要做库存健康诊断与滞销预警 - 用户需要做季节性库存规划时，用它产出或更新：见 references/forecast-example.md。",
+  "skill_id": "11100-inventory-demand-forecaster-dc66c1cd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/inventory-demand-forecaster/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/inventory-demand-forecaster/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f29cd9866e430dffbb02c3443951a3de57e2610872aab1173d14778bbbb77647",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "poster-hero",
+  "中文名称": "营销海报",
+  "一句话作用": "竖版海报 / 朋友圈分享图, 强视觉冲击",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要竖版海报 / 朋友圈分享图, 强视觉冲击时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10425-poster-hero-444a63d5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/poster-hero/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/poster-hero/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b473ff517b34de31e0c114de0f3a6a7dffee99035c478740940373ecf298a4be",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

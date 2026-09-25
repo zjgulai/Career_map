@@ -1,0 +1,22 @@
+{
+  "英文名称": "fp-backend",
+  "中文名称": "待补：fp-backend",
+  "一句话作用": "Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection",
+  "关键输入": "- You are building or refactoring a Node.js or Deno backend with fp-ts. - The task involves dependency injection, service composition, or typed backend errors with ReaderTaskEither. - You need functional backend archite…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:58+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- You are building or refactoring a Node.js or Deno backend with fp-ts. - The task involves dependency injection, service composition, or typed backend errors with ReaderTaskEither. - You need functional backend archite…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04872-fp-backend-963a661a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/fp-backend/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/fp-backend/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30f26059a6f998925d42c18f1394c4acaa92d9ce0f2af99ab89a84ad683f71b0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

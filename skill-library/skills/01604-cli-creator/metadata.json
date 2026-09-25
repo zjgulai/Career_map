@@ -1,0 +1,22 @@
+{
+  "英文名称": "cli-creator",
+  "中文名称": "待补：cli-creator",
+  "一句话作用": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01604-cli-creator-5383b97e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/cli-creator/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/cli-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "24058eabf0aafce6def3fb937ac93cbe3fa341c653c658dc589edb77f73d6152",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

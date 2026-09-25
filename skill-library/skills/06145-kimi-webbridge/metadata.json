@@ -1,0 +1,22 @@
+{
+  "英文名称": "kimi-webbridge",
+  "中文名称": "待补：kimi-webbridge",
+  "一句话作用": "Kimi WebBridge lets AI control the user's real browser — navigate, click, type, read, screenshot, and interact with any website using the user's actual login sessions. Use this skill whenever the user wants to interact…",
+  "关键输入": "fill (selector = CSS or @e ref, plus the value) works on / (returns mode: \"value\") and on [contenteditable] rich editors — ProseMirror, TipTap, Lexical, Slate, Quill, etc. (returns mode: \"contenteditable\"), firing the right input events so the page reacts.",
+  "关键输出": "curl ... -d '{\"action\":\"screenshot\",\"args\":{\"format\":\"jpeg\",\"quality\":60}}' curl ... -d '{\"action\":\"screenshot\",\"args\":{\"selector\":\"@e123\"}}'",
+  "最新更新时间": "2026-09-17T18:47:06+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Kimi WebBridge lets AI control the user's real browser — navigate, click, type, read, screenshot, and interact with any website using the user's actual login sessions. Use this skill whenever the user wants to interact…时，用它产出或更新：curl ... -d '{\"action\":\"scr…",
+  "skill_id": "06145-kimi-webbridge-b57c3a5d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/plugin-packages/kimi-webbridge/skills/kimi-webbridge/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/plugin-packages/kimi-webbridge/skills/kimi-webbridge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3e4885be37b1720691eab9a42553a411ae0b6df189e9b28c8720799155bfba8c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

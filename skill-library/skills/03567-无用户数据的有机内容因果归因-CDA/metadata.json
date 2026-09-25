@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-organic-content-causal-attribution",
+  "中文名称": "无用户数据的有机内容因果归因 (CDA)",
+  "一句话作用": "触发词：有机内容归因、品牌词搜索、聚合数据、因果发现、KOL种草。何时不用：有用户级触点日志时用多触点归因类技能，不必用聚合数据做因果发现。安全边界：使用平台官方API与聚合数据，需签署数据处理协议（DPA）。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要每月 15 万 KOL 种草投入但不知道有没有带来 Amazon 品牌词搜索增长——CDA 框架仅用聚合曝光数据推断各渠道因果贡献（无需用户 ID），砍掉无效内容投入，年化节省 54 万元以上时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03567-p2s-organic-content-causal-attribution-6b148cb3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-organic-content-causal-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-organic-content-causal-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d994b7779bc6fd76225503291e9caefcd766854bf47fec0aa4e9e95d203ae85",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

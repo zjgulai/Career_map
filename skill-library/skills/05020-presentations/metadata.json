@@ -1,0 +1,22 @@
+{
+  "英文名称": "presentations",
+  "中文名称": "待补：presentations",
+  "一句话作用": "Create slide presentations in multiple formats: Marp (Markdown, default), Beamer (LaTeX), Jupyter Notebook slides, and PowerPoint (python-pptx). Supports scientific, business, and developer content with math, code, char…",
+  "关键输入": "Before generating slides, determine: 1. Topic and audience — what is the presentation about and who is it for? 2. Format — use Marp unless user specifies otherwise or content suggests a better fit 3. Slide count — ask if not specified; default to ~10-15 slide…",
+  "关键输出": "npx @marp-team/marp-cli@latest --pdf --allow-local-files slides.md",
+  "最新更新时间": "2026-09-19T03:56:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- User asks to create a presentation, slide deck, or talk - User wants to convert a paper, report, outline, or notes into slides - User requests a specific format: Beamer, Marp, Jupyter slides, or PowerPoint - User asks…时，用它产出或更新：npx @marp-team/marp-cli@la…",
+  "skill_id": "05020-presentations-b256952f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/presentations/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/presentations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f4e76aec074cec0c6679f545cbf318d87456340bf479fc558055ef03b588100a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

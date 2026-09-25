@@ -1,0 +1,22 @@
+{
+  "英文名称": "deep-research",
+  "中文名称": "待补：deep-research",
+  "一句话作用": "Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like \"what is X\", \"explain X\", \"compare X and Y\", \"research X\", or before content generation tasks. Provides systematic mul…",
+  "关键输入": "Always load this skill when:",
+  "关键输出": "Ensure comprehensive coverage by seeking diverse information types: Information Type Purpose Example Searches ----------------- --------- ------------------ Facts & Data Concrete evidence \"statistics\", \"data\", \"numbers\", \"market size\" Examples & Cases Real-wo…",
+  "最新更新时间": "2026-05-25T22:03:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Always load this skill when:时，用它产出或更新：Ensure comprehensive coverage by seeking diverse information types: Information Type Purpose Example Searches ----------------- --------- ------------------ Facts & Data Concrete evidence \"statistics\", \"data\", \"numbers…",
+  "skill_id": "06103-deep-research-40000fa3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/deep-research/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/deep-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04712f4daa7937cc1f8dabc1a086a9549e670eb3fa3f1a8d30abdc3ea8b31a79",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

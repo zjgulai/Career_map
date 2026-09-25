@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-driven-growth-opportunity-scorer",
+  "中文名称": "跨竞品评论选品机会评分 从未满足需求到量化机会得分",
+  "一句话作用": "触发词：未满足需求、竞品评论、机会得分、切入价格带、选品研究。何时不用：只看自家差评排改进优先级时用「VOC 产品迭代信号提取」；要判断品类整体容量时用「Market Size Estimation」。安全边界：评论抓取须遵守平台条款与 robots.txt、禁止大规模爬虫；产出报告不得直接引用评论原文。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要选品负责人面临\"新品方向不确定\"——跨竞品评论机会评分将选品研究周期从3个月→3天，每个新品节省试错成本50-150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03733-p2s-review-driven-growth-opportunity-scorer-4d3c276a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-review-driven-growth-opportunity-scorer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-review-driven-growth-opportunity-scorer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e327b9b93354eb89d2ad8a6371333fac24b6088ae435cf6c68b39e00e46a4308",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

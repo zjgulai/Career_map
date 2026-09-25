@@ -1,0 +1,22 @@
+{
+  "英文名称": "quality-verify-integration",
+  "中文名称": "待补：quality-verify-integration",
+  "一句话作用": "Verifies components are integrated into the system, not just created. Detects orphaned code (exists but never imported). Use BEFORE marking features complete, moving ADRs to completed/, or claiming integration work done…",
+  "关键输入": "MANDATORY before: - Moving ADR to 3 completed/ - Marking todo tasks complete for integration work - Claiming a feature is \"done\" or \"working\" - Creating a PR for integration changes",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:53+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要MANDATORY before: - Moving ADR to 3 completed/ - Marking todo tasks complete for integration work - Claiming a feature is \"done\" or \"working\" - Creating a PR for integration changes时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05042-quality-verify-integration-3803f58c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/quality-verify-integration/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/quality-verify-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28dab59bff70dc0b19868c98bd670332d9a35f685355cf5409d290c3158810a2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

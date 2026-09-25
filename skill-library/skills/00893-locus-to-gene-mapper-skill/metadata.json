@@ -1,0 +1,22 @@
+{
+  "英文名称": "locus-to-gene-mapper-skill",
+  "中文名称": "待补：locus-to-gene-mapper-skill",
+  "一句话作用": "Map GWAS loci to ranked candidate genes using a deterministic multi-skill chain (EFO - GWAS - coordinates - Open Targets L2G/coloc - eQTL - burden/coding context), with reproducible tables and optional figures. Use when…",
+  "关键输入": "Provide at least one anchor source: - trait query (string), for example chronic obstructive pulmonary disease - efo id (string), for example EFO 0000341 - seed rsids (list[string]), for example [\"rs1873625\", \"rs7903146\"]",
+  "关键输出": "Always return: 1. locus to gene mapping.json 2. locus to gene summary.md",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Map GWAS loci to ranked candidate genes using a deterministic multi-skill chain (EFO - GWAS - coordinates - Open Targets L2G/coloc - eQTL - burden/coding context), with reproducible tables and optional figures. Use when…时，用它产出或更新：Always return: 1. locus to…",
+  "skill_id": "00893-locus-to-gene-mapper-skill-a92dbf17",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/locus-to-gene-mapper-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/locus-to-gene-mapper-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c2684539386bfff8281793ff4b845b038cc3a13f1f98bdf27d095697ffdbbd81",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

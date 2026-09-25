@@ -1,0 +1,22 @@
+{
+  "英文名称": "idea-generation",
+  "中文名称": "待补：idea-generation",
+  "一句话作用": "Systematic stock screening and investment idea sourcing. Combines quantitative screens, thematic research, and pattern recognition to surface new long and short ideas. Use when looking for new ideas, running screens, or…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Shortlist of 5-10 ideas with one-page summaries - Screening criteria and methodology documented - Comparison table across all ideas - Prioritized list: which ideas to research first",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Systematic stock screening and investment idea sourcing. Combines quantitative screens, thematic research, and pattern recognition to surface new long and short ideas. Use when looking for new ideas, running screens, or…时，用它产出或更新：- Shortlist of 5-10 ideas…",
+  "skill_id": "05464-idea-generation-f9534a79",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/idea-generation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/idea-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e5f49f0f513fc434bb3448c8a942f6f99f66457e425a65b9375bb230922e9a45",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

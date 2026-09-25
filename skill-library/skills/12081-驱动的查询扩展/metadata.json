@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-query2doc-query-expansion",
+  "中文名称": "驱动的查询扩展",
+  "一句话作用": "触发词：查询扩展、伪文档、口语化查询、备货查询、召回率提升。何时不用：查询本身规范且与文档同语言时普通检索即可；要跨语言检索时用假设文档方法。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临知识库关键词稀疏查询召回率低——Query2Doc将召回率从52%→81%，用户找到有效答案比例+35%，年化运营效率提升30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12081-p2s-query2doc-query-expansion-38048523",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-query2doc-query-expansion/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-query2doc-query-expansion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1820e4d1e9c9f883f57e6d0c20e93f50b3f0605214d60c16fb3cf9846a5c69c6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

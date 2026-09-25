@@ -1,0 +1,22 @@
+{
+  "英文名称": "laravel-caching-strategies",
+  "中文名称": "待补：laravel-caching-strategies",
+  "一句话作用": "Best practices for Laravel caching including cache patterns, tags, atomic locks, flexible cache, and cache invalidation strategies.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:42+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Best practices for Laravel caching including cache patterns, tags, atomic locks, flexible cache, and cache invalidation strategies.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04937-laravel-caching-strategies-b0001704",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/laravel-caching-strategies/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/laravel-caching-strategies/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df23da48b4446fd8d6b73e1b8e9a19eb6b4018c35c5205c48485cc1d4596f465",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

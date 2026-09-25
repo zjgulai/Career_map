@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bge-m3-multilingual-embedding",
+  "中文名称": "待补：p2s-bge-m3-multilingual-embedding",
+  "一句话作用": "触发词：多语言嵌入、统一语义空间、跨语言检索、单一模型替代、商品推荐召回。何时不用：只有单一语言、或已有成熟单语模型且成本可接受时不必要；需要 token 级精细匹配走多向量后期交互检索。安全边界：只输出嵌入与排序结果，不负责翻译与本地化文案质量，跨语言一致性须先验证再上线。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据工程师面临多语言知识库维护四套模型成本高——BGE-M3单套替代四套，月成本¥7200→¥1800，年化节省64.8万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11915-p2s-bge-m3-multilingual-embedding-a8b2a8f8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-bge-m3-multilingual-embedding/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-bge-m3-multilingual-embedding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "14a409f994b010472f9af4a9671111349e0e499da41d98ebcf11d0186b898691",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

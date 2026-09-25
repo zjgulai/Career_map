@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-eu-ai-act-compliance-framework",
+  "中文名称": "合规框架 高风险AI系统的透明度与问责制",
+  "一句话作用": "触发词：EU AI Act、风险分级、高风险系统、合规审计、透明度要求。何时不用：只生成可解释性监管报告时用「XAI Regulatory Compliance」；儿童数据隐私审查用「Privacy COPPA Compliance」。安全边界：合规结论不构成法律意见，须法务或外部顾问确认；不得为降低风险等级而隐瞒儿童或健康等敏感数据使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规团队面临EU AI Act高风险系统注册要求——透明度框架将合规审计周期从45天压缩至12天，规避罚款风险最高3000万欧元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03110-p2s-eu-ai-act-compliance-framework-f9692eb9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-eu-ai-act-compliance-framework/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-eu-ai-act-compliance-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3782f5a281330f36df0fb2846c82d8862891e01142f5cde9e5b12579efc835d4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

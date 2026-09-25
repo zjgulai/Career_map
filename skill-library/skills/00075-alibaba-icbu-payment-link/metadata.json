@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-payment-link",
+  "中文名称": "待补：alibaba-icbu-payment-link",
+  "一句话作用": "【Payment SubAgent internal handler — main Agent MUST route payment requests to buyer-payment-intent first】 Keywords 支付链接/付款链接/支付地址/收银台地址/payment url/payment link/checkout url. Alibaba.com Payment Link Skill. Given an or…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Use the raw MCP cashierUrl after trimming surrounding whitespace. Do not construct a derived URL. - On success (Chinese): 已为您生成订单 {orderId} 的支付入口（{cashierAccessMode}）：💳 立即支付\\n追踪号：{cashierOrderNo} - On success (English): Payment entry generated for order {orde…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要【Payment SubAgent internal handler — main Agent MUST route payment requests to buyer-payment-intent first】 Keywords 支付链接/付款链接/支付地址/收银台地址/payment url/payment link/checkout url. Alibaba.com Payment Link Skill. Given an or…时，用它产出或更新：Use the raw MCP cashierUrl…",
+  "skill_id": "00075-alibaba-icbu-payment-link-6877f03b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-payment-link/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-payment-link/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93776b4245b3519ed47eeaa2d5cf445400298c91cba62024977ca49f52a1da9d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

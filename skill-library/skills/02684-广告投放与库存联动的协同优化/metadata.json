@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ad-spend-inventory-sync",
+  "中文名称": "广告投放与库存联动的协同优化",
+  "一句话作用": "触发词：广告库存联动、预算分配、缺货风险、可发货量约束、大促调控。何时不用：补多少货的采购决策归供应链补货技能；本技能只在广告预算如何在 SKU 间分配上作答。安全边界：库存数据延迟过久可能导致超卖，须设置数据新鲜度门槛；不得操纵出价频率或违反平台广告政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴品牌大促前加大广告投放却因库存不足导致缺货差评——广告-库存联动优化将广告预算分配与 FBA 可发货量硬绑定，将缺货率从 12% 降至 4%，年化减少缺货损失 20-60 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02684-p2s-ad-spend-inventory-sync-3c6253b3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ad-spend-inventory-sync/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ad-spend-inventory-sync/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62022fd49d2739682ce2f3c804f7891933cb9b28704839924fca71bd21cd8f9c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

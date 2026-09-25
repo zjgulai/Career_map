@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-safety-concern-signal-extraction",
+  "中文名称": "安全隐患信号提取",
+  "一句话作用": "触发词：安全隐患信号、评论分级、P0预警、召回关键词、准入核对。何时不用：品类级召回风险预测用「投诉召回风险预测」；来料检验合格率统计用「供应商来料质量KPI」。安全边界：只做信号分级与预警，不得据此直接下架或对外答复消费者，处置须走合规流程。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴卖家面临\"800条月评论中安全投诉被淹没在好评里客服发现时已有5条1星\"——三级安全信号自动提取将P0预警响应从72h压缩至4h，预防CPSC投诉升级账号价值保护超200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03759-p2s-safety-concern-signal-extraction-58dafc77",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-safety-concern-signal-extraction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-safety-concern-signal-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8dd62ab9df425fecc444046231d6df66398d3d26f95d1e5cde891db721e44b37",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

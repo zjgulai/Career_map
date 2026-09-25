@@ -1,0 +1,1421 @@
+{
+  "trial_id": "B01-TRIAL-02",
+  "title": "B01 候选适配器受控复测：可穿戴吸奶器使用阶段需求证据",
+  "created_at": "2026-09-23",
+  "sample_classification": "人工标注的合成受控复测样本",
+  "labeling_boundary": "标注由本轮测试设计者定义，尚非独立盲评；所有数据均为合成文本和合成量级。",
+  "business_question": "在不触碰真实消费者或经营数据的前提下，D01 与 D02 的候选修复能否正确保留局部语义、问题/属性边界和未覆盖主题？",
+  "scope": "本轮只检验候选适配器对 60 条评论和 48 条购买前搜索表达的合成标注是否一致。它不测模型泛化、真实数据接入、样本代表性、市场规模或业务价值。",
+  "non_conclusions": [
+    "不代表真实消费者偏好、市场规模、品牌、品类问题或需求优先级。",
+    "不构成产品定义、功能改版、投入优先级、投放、采购、发布、岗位任命或业务授权。",
+    "不证明候选适配器在独立盲测、真实语言、真实数据质量或生产运行中可靠。"
+  ],
+  "baseline": {
+    "trial_id": "B01-TRIAL-01",
+    "d01_exact": "14/24（58.3%）",
+    "d02_exact": "15/18（83.3%）",
+    "meaning": "原始只读实现的失败基线；本轮不修改该实现。"
+  },
+  "d01_config": {
+    "source_skill_id": "04011-p2s-voc-aspect-sentiment-extraction-6afb1dae",
+    "original_read_only": "/Users/lute/.dsh/skills/p2s-voc-aspect-sentiment-extraction/references/implementation.py",
+    "candidate_implementation": "skill-library/candidates/b01_trial_02/controlled_d01_adapter.py",
+    "method": "ControlledLocalABSA：按方面、按分句、按邻近意见词的局部窗口；词典外主题保留未知。"
+  },
+  "d02_config": {
+    "source_skill_id": "03791-p2s-search-voc-signal-loop-4a0bf819",
+    "original_read_only": "/Users/lute/.dsh/skills/p2s-search-voc-signal-loop/references/implementation.py",
+    "candidate_implementation": "skill-library/candidates/b01_trial_02/controlled_d02_adapter.py",
+    "method": "比较、问题、功能、属性、导航的显式优先级；office/work 不单独视为功能意图。",
+    "opportunity_threshold": 4000
+  },
+  "semantic_exact_match_threshold": 0.9,
+  "reviews": [
+    {
+      "id": "R001",
+      "rating": 2,
+      "submitted_on": "2026-07-03",
+      "language": "en",
+      "text": "The noise is loud enough that I would not use it beside a sleeping baby.",
+      "expected_tuples": [
+        [
+          "噪音",
+          "negative"
+        ]
+      ],
+      "fixture_note": "否定词不应错误翻转远处 loud。"
+    },
+    {
+      "id": "R002",
+      "rating": 5,
+      "submitted_on": "2026-07-05",
+      "language": "en",
+      "text": "It is quiet and discreet enough for a shared office. I love the compact size.",
+      "expected_tuples": [
+        [
+          "噪音",
+          "positive"
+        ],
+        [
+          "尺寸重量",
+          "positive"
+        ]
+      ],
+      "fixture_note": "同句多方面正向表达。"
+    },
+    {
+      "id": "R003",
+      "rating": 2,
+      "submitted_on": "2026-07-07",
+      "language": "en",
+      "text": "The suction feels weak after fifteen minutes, although the battery is good.",
+      "expected_tuples": [
+        [
+          "吸力",
+          "negative"
+        ],
+        [
+          "充电",
+          "positive"
+        ]
+      ],
+      "fixture_note": "转折两方面。"
+    },
+    {
+      "id": "R004",
+      "rating": 5,
+      "submitted_on": "2026-07-09",
+      "language": "en",
+      "text": "Strong suction helped me finish quickly and the charging cable is easy to use.",
+      "expected_tuples": [
+        [
+          "吸力",
+          "positive"
+        ],
+        [
+          "充电",
+          "positive"
+        ]
+      ],
+      "fixture_note": "关键词前后的局部正向词。"
+    },
+    {
+      "id": "R005",
+      "rating": 2,
+      "submitted_on": "2026-07-11",
+      "language": "en",
+      "text": "The flange fit was uncomfortable and painful by the end of the session.",
+      "expected_tuples": [
+        [
+          "舒适度",
+          "negative"
+        ]
+      ],
+      "fixture_note": "舒适度负面。"
+    },
+    {
+      "id": "R006",
+      "rating": 5,
+      "submitted_on": "2026-07-13",
+      "language": "en",
+      "text": "The flange fit is comfortable and the small pump is portable for travel.",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "positive"
+        ],
+        [
+          "舒适度",
+          "positive"
+        ]
+      ],
+      "fixture_note": "舒适度与尺寸正面。"
+    },
+    {
+      "id": "R007",
+      "rating": 2,
+      "submitted_on": "2026-07-15",
+      "language": "en",
+      "text": "Battery life is poor and charging is slow during a busy workday.",
+      "expected_tuples": [
+        [
+          "充电",
+          "negative"
+        ]
+      ],
+      "fixture_note": "slow 仅在电池语境中生效。"
+    },
+    {
+      "id": "R008",
+      "rating": 5,
+      "submitted_on": "2026-07-17",
+      "language": "en",
+      "text": "Battery life is great. It lasts a full workday and charging is fast.",
+      "expected_tuples": [
+        [
+          "充电",
+          "positive"
+        ]
+      ],
+      "fixture_note": "fast 仅在电池语境中生效。"
+    },
+    {
+      "id": "R009",
+      "rating": 2,
+      "submitted_on": "2026-07-19",
+      "language": "en",
+      "text": "Setup was complicated and the instructions made assembly difficult.",
+      "expected_tuples": [
+        [
+          "易用性",
+          "negative"
+        ]
+      ],
+      "fixture_note": "多词同一方面。"
+    },
+    {
+      "id": "R010",
+      "rating": 5,
+      "submitted_on": "2026-07-21",
+      "language": "en",
+      "text": "The setup is easy and simple even when I am tired.",
+      "expected_tuples": [
+        [
+          "易用性",
+          "positive"
+        ]
+      ],
+      "fixture_note": "易用性正面。"
+    },
+    {
+      "id": "R011",
+      "rating": 2,
+      "submitted_on": "2026-07-23",
+      "language": "en",
+      "text": "The price feels expensive for something that still makes a loud sound.",
+      "expected_tuples": [
+        [
+          "噪音",
+          "negative"
+        ],
+        [
+          "价格",
+          "negative"
+        ]
+      ],
+      "fixture_note": "价格与噪音负面。"
+    },
+    {
+      "id": "R012",
+      "rating": 5,
+      "submitted_on": "2026-07-25",
+      "language": "en",
+      "text": "It is worth the price because it is quiet and easy to use.",
+      "expected_tuples": [
+        [
+          "噪音",
+          "positive"
+        ],
+        [
+          "易用性",
+          "positive"
+        ],
+        [
+          "价格",
+          "positive"
+        ]
+      ],
+      "fixture_note": "三方面正面。"
+    },
+    {
+      "id": "R013",
+      "rating": 2,
+      "submitted_on": "2026-07-27",
+      "language": "en",
+      "text": "Customer service was slow to respond when I asked for help.",
+      "expected_tuples": [
+        [
+          "客服",
+          "negative"
+        ]
+      ],
+      "fixture_note": "客服响应慢不应映射为物流。"
+    },
+    {
+      "id": "R014",
+      "rating": 5,
+      "submitted_on": "2026-07-29",
+      "language": "en",
+      "text": "Customer support was fast and helpful when I needed a replacement part.",
+      "expected_tuples": [
+        [
+          "客服",
+          "positive"
+        ]
+      ],
+      "fixture_note": "客服响应快不应映射为物流。"
+    },
+    {
+      "id": "R015",
+      "rating": 2,
+      "submitted_on": "2026-07-31",
+      "language": "en",
+      "text": "The package arrived late and delivery updates were poor.",
+      "expected_tuples": [
+        [
+          "物流",
+          "negative"
+        ]
+      ],
+      "fixture_note": "物流负面。"
+    },
+    {
+      "id": "R016",
+      "rating": 5,
+      "submitted_on": "2026-08-02",
+      "language": "en",
+      "text": "Shipping was fast and the package arrived in good condition.",
+      "expected_tuples": [
+        [
+          "物流",
+          "positive"
+        ]
+      ],
+      "fixture_note": "物流正面。"
+    },
+    {
+      "id": "R017",
+      "rating": 2,
+      "submitted_on": "2026-08-04",
+      "language": "en",
+      "text": "Milk leaked from the cup after I bent down to pick up a toy.",
+      "expected_tuples": [],
+      "fixture_note": "词典外防漏问题保留未知。"
+    },
+    {
+      "id": "R018",
+      "rating": 2,
+      "submitted_on": "2026-08-06",
+      "language": "en",
+      "text": "One sudden movement caused a spill, and I had to change my shirt.",
+      "expected_tuples": [],
+      "fixture_note": "词典外防漏问题保留未知。"
+    },
+    {
+      "id": "R019",
+      "rating": 3,
+      "submitted_on": "2026-08-08",
+      "language": "en",
+      "text": "It is quiet but the suction is weak, so my experience is mixed.",
+      "expected_tuples": [
+        [
+          "吸力",
+          "negative"
+        ],
+        [
+          "噪音",
+          "positive"
+        ]
+      ],
+      "fixture_note": "转折后不应把正负互相抵消。"
+    },
+    {
+      "id": "R020",
+      "rating": 4,
+      "submitted_on": "2026-08-10",
+      "language": "en",
+      "text": "The compact size is great, but the flange fit is not comfortable for a long session.",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "positive"
+        ],
+        [
+          "舒适度",
+          "negative"
+        ]
+      ],
+      "fixture_note": "局部否定只作用 comfortable。"
+    },
+    {
+      "id": "R021",
+      "rating": 3,
+      "submitted_on": "2026-08-12",
+      "language": "en",
+      "text": "The pump works for me, but I need a clearer way to track each session.",
+      "expected_tuples": [],
+      "fixture_note": "会话记录词典外保留未知。"
+    },
+    {
+      "id": "R022",
+      "rating": 4,
+      "submitted_on": "2026-08-14",
+      "language": "en",
+      "text": "I want an app that marks the session as complete.",
+      "expected_tuples": [],
+      "fixture_note": "应用与会话记录不误报易用性。"
+    },
+    {
+      "id": "R023",
+      "rating": 1,
+      "submitted_on": "2026-08-16",
+      "language": "en",
+      "text": "The sound is noisy and the suction power is weak. I regret the purchase.",
+      "expected_tuples": [
+        [
+          "吸力",
+          "negative"
+        ],
+        [
+          "噪音",
+          "negative"
+        ]
+      ],
+      "fixture_note": "power 不应误路由为充电。"
+    },
+    {
+      "id": "R024",
+      "rating": 5,
+      "submitted_on": "2026-08-18",
+      "language": "en",
+      "text": "Quiet, powerful, comfortable and easy. This made commuting much easier.",
+      "expected_tuples": [
+        [
+          "吸力",
+          "positive"
+        ],
+        [
+          "噪音",
+          "positive"
+        ],
+        [
+          "舒适度",
+          "positive"
+        ],
+        [
+          "易用性",
+          "positive"
+        ]
+      ],
+      "fixture_note": "短句多方面正面。"
+    },
+    {
+      "id": "R025",
+      "rating": 5,
+      "submitted_on": "2026-08-20",
+      "language": "en",
+      "text": "The pump is not loud, and the suction is strong.",
+      "expected_tuples": [
+        [
+          "吸力",
+          "positive"
+        ],
+        [
+          "噪音",
+          "positive"
+        ]
+      ],
+      "fixture_note": "紧邻否定翻转 loud。"
+    },
+    {
+      "id": "R026",
+      "rating": 2,
+      "submitted_on": "2026-08-22",
+      "language": "en",
+      "text": "The pump is not quiet; the noise is loud during calls.",
+      "expected_tuples": [
+        [
+          "噪音",
+          "negative"
+        ]
+      ],
+      "fixture_note": "紧邻否定翻转 quiet。"
+    },
+    {
+      "id": "R027",
+      "rating": 5,
+      "submitted_on": "2026-08-24",
+      "language": "en",
+      "text": "Charging is not slow at all, and the battery lasts long.",
+      "expected_tuples": [
+        [
+          "充电",
+          "positive"
+        ]
+      ],
+      "fixture_note": "紧邻否定翻转 slow。"
+    },
+    {
+      "id": "R028",
+      "rating": 2,
+      "submitted_on": "2026-08-26",
+      "language": "en",
+      "text": "The battery drains before lunch, even when I charge it overnight.",
+      "expected_tuples": [
+        [
+          "充电",
+          "negative"
+        ]
+      ],
+      "fixture_note": "电池耗尽负面。"
+    },
+    {
+      "id": "R029",
+      "rating": 5,
+      "submitted_on": "2026-08-28",
+      "language": "en",
+      "text": "The battery lasts long and charging is fast.",
+      "expected_tuples": [
+        [
+          "充电",
+          "positive"
+        ]
+      ],
+      "fixture_note": "充电正面。"
+    },
+    {
+      "id": "R030",
+      "rating": 2,
+      "submitted_on": "2026-08-30",
+      "language": "en",
+      "text": "It feels heavy and bulky in a work bag.",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "negative"
+        ]
+      ],
+      "fixture_note": "尺寸重量负面。"
+    },
+    {
+      "id": "R031",
+      "rating": 5,
+      "submitted_on": "2026-09-01",
+      "language": "en",
+      "text": "The small, lightweight design is portable for travel.",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "positive"
+        ]
+      ],
+      "fixture_note": "尺寸重量正面。"
+    },
+    {
+      "id": "R032",
+      "rating": 2,
+      "submitted_on": "2026-09-03",
+      "language": "en",
+      "text": "The flange is sore after a short session.",
+      "expected_tuples": [
+        [
+          "舒适度",
+          "negative"
+        ]
+      ],
+      "fixture_note": "舒适度负面。"
+    },
+    {
+      "id": "R033",
+      "rating": 5,
+      "submitted_on": "2026-09-05",
+      "language": "en",
+      "text": "The soft flange stays comfortable throughout the session.",
+      "expected_tuples": [
+        [
+          "舒适度",
+          "positive"
+        ]
+      ],
+      "fixture_note": "舒适度正面。"
+    },
+    {
+      "id": "R034",
+      "rating": 2,
+      "submitted_on": "2026-09-07",
+      "language": "en",
+      "text": "Assembly is difficult without help.",
+      "expected_tuples": [
+        [
+          "易用性",
+          "negative"
+        ]
+      ],
+      "fixture_note": "help 不应单独触发客服。"
+    },
+    {
+      "id": "R035",
+      "rating": 5,
+      "submitted_on": "2026-09-09",
+      "language": "en",
+      "text": "The setup guide is clear and easy to follow.",
+      "expected_tuples": [
+        [
+          "易用性",
+          "positive"
+        ]
+      ],
+      "fixture_note": "说明清晰、易用。"
+    },
+    {
+      "id": "R036",
+      "rating": 2,
+      "submitted_on": "2026-09-11",
+      "language": "en",
+      "text": "Customer service ignored my request for a replacement part.",
+      "expected_tuples": [
+        [
+          "客服",
+          "negative"
+        ]
+      ],
+      "fixture_note": "客服未响应。"
+    },
+    {
+      "id": "R037",
+      "rating": 5,
+      "submitted_on": "2026-09-13",
+      "language": "en",
+      "text": "Support replied quickly and gave a helpful answer.",
+      "expected_tuples": [
+        [
+          "客服",
+          "positive"
+        ]
+      ],
+      "fixture_note": "客服快速响应。"
+    },
+    {
+      "id": "R038",
+      "rating": 2,
+      "submitted_on": "2026-09-15",
+      "language": "en",
+      "text": "Shipping was delayed for a week.",
+      "expected_tuples": [
+        [
+          "物流",
+          "negative"
+        ]
+      ],
+      "fixture_note": "物流延迟。"
+    },
+    {
+      "id": "R039",
+      "rating": 5,
+      "submitted_on": "2026-09-17",
+      "language": "en",
+      "text": "Delivery arrived early and the package was safe.",
+      "expected_tuples": [
+        [
+          "物流",
+          "positive"
+        ]
+      ],
+      "fixture_note": "物流提前到达。"
+    },
+    {
+      "id": "R040",
+      "rating": 2,
+      "submitted_on": "2026-09-19",
+      "language": "en",
+      "text": "This price is too high for the build quality.",
+      "expected_tuples": [
+        [
+          "价格",
+          "negative"
+        ]
+      ],
+      "fixture_note": "价格负面。"
+    },
+    {
+      "id": "R041",
+      "rating": 5,
+      "submitted_on": "2026-09-21",
+      "language": "en",
+      "text": "The cost is affordable for a daily-use pump.",
+      "expected_tuples": [
+        [
+          "价格",
+          "positive"
+        ]
+      ],
+      "fixture_note": "价格正面。"
+    },
+    {
+      "id": "R042",
+      "rating": 5,
+      "submitted_on": "2026-09-23",
+      "language": "en",
+      "text": "The noise is quiet. The flange is comfortable for a full session.",
+      "expected_tuples": [
+        [
+          "噪音",
+          "positive"
+        ],
+        [
+          "舒适度",
+          "positive"
+        ]
+      ],
+      "fixture_note": "跨句两方面。"
+    },
+    {
+      "id": "R043",
+      "rating": 2,
+      "submitted_on": "2026-09-25",
+      "language": "en",
+      "text": "The sound is noisy. The fit hurts after ten minutes.",
+      "expected_tuples": [
+        [
+          "噪音",
+          "negative"
+        ],
+        [
+          "舒适度",
+          "negative"
+        ]
+      ],
+      "fixture_note": "跨句两方面负面。"
+    },
+    {
+      "id": "R044",
+      "rating": 3,
+      "submitted_on": "2026-09-27",
+      "language": "en",
+      "text": "The suction is powerful, however battery life is poor.",
+      "expected_tuples": [
+        [
+          "吸力",
+          "positive"
+        ],
+        [
+          "充电",
+          "negative"
+        ]
+      ],
+      "fixture_note": "however 转折。"
+    },
+    {
+      "id": "R045",
+      "rating": 3,
+      "submitted_on": "2026-09-29",
+      "language": "en",
+      "text": "The suction is weak; the size is compact.",
+      "expected_tuples": [
+        [
+          "吸力",
+          "negative"
+        ],
+        [
+          "尺寸重量",
+          "positive"
+        ]
+      ],
+      "fixture_note": "分号两方面。"
+    },
+    {
+      "id": "R046",
+      "rating": 5,
+      "submitted_on": "2026-10-01",
+      "language": "en",
+      "text": "The device is easy to clean.",
+      "expected_tuples": [
+        [
+          "易用性",
+          "positive"
+        ]
+      ],
+      "fixture_note": "功能词不影响评论方面。"
+    },
+    {
+      "id": "R047",
+      "rating": 2,
+      "submitted_on": "2026-10-03",
+      "language": "en",
+      "text": "The device is difficult to clean.",
+      "expected_tuples": [
+        [
+          "易用性",
+          "negative"
+        ]
+      ],
+      "fixture_note": "功能词不影响评论方面。"
+    },
+    {
+      "id": "R048",
+      "rating": 3,
+      "submitted_on": "2026-10-05",
+      "language": "en",
+      "text": "The value is worth it, but delivery was late.",
+      "expected_tuples": [
+        [
+          "价格",
+          "positive"
+        ],
+        [
+          "物流",
+          "negative"
+        ]
+      ],
+      "fixture_note": "转折不互相污染。"
+    },
+    {
+      "id": "R049",
+      "rating": 3,
+      "submitted_on": "2026-10-07",
+      "language": "en",
+      "text": "The price is expensive, but customer support was helpful.",
+      "expected_tuples": [
+        [
+          "价格",
+          "negative"
+        ],
+        [
+          "客服",
+          "positive"
+        ]
+      ],
+      "fixture_note": "价格与客服相反方向。"
+    },
+    {
+      "id": "R050",
+      "rating": 5,
+      "submitted_on": "2026-10-09",
+      "language": "en",
+      "text": "The pump is silent during calls.",
+      "expected_tuples": [
+        [
+          "噪音",
+          "positive"
+        ]
+      ],
+      "fixture_note": "silent 正面。"
+    },
+    {
+      "id": "R051",
+      "rating": 1,
+      "submitted_on": "2026-10-11",
+      "language": "en",
+      "text": "The pump wakes everyone because it is loud.",
+      "expected_tuples": [
+        [
+          "噪音",
+          "negative"
+        ]
+      ],
+      "fixture_note": "loud 负面。"
+    },
+    {
+      "id": "R052",
+      "rating": 5,
+      "submitted_on": "2026-10-13",
+      "language": "en",
+      "text": "The fit is not painful after a full session.",
+      "expected_tuples": [
+        [
+          "舒适度",
+          "positive"
+        ]
+      ],
+      "fixture_note": "紧邻否定翻转 painful。"
+    },
+    {
+      "id": "R053",
+      "rating": 2,
+      "submitted_on": "2026-10-15",
+      "language": "en",
+      "text": "The fit is not comfortable after a full session.",
+      "expected_tuples": [
+        [
+          "舒适度",
+          "negative"
+        ]
+      ],
+      "fixture_note": "紧邻否定翻转 comfortable。"
+    },
+    {
+      "id": "R054",
+      "rating": 1,
+      "submitted_on": "2026-10-17",
+      "language": "en",
+      "text": "The battery is dead before lunch.",
+      "expected_tuples": [
+        [
+          "充电",
+          "negative"
+        ]
+      ],
+      "fixture_note": "电池失效。"
+    },
+    {
+      "id": "R055",
+      "rating": 5,
+      "submitted_on": "2026-10-19",
+      "language": "en",
+      "text": "The battery remains strong all day.",
+      "expected_tuples": [
+        [
+          "充电",
+          "positive"
+        ]
+      ],
+      "fixture_note": "电池表现正面。"
+    },
+    {
+      "id": "R056",
+      "rating": 2,
+      "submitted_on": "2026-10-21",
+      "language": "en",
+      "text": "The delivery package arrived damaged.",
+      "expected_tuples": [
+        [
+          "物流",
+          "negative"
+        ]
+      ],
+      "fixture_note": "物流损坏。"
+    },
+    {
+      "id": "R057",
+      "rating": 5,
+      "submitted_on": "2026-10-23",
+      "language": "en",
+      "text": "The package arrived safely and shipping was fast.",
+      "expected_tuples": [
+        [
+          "物流",
+          "positive"
+        ]
+      ],
+      "fixture_note": "物流安全及时。"
+    },
+    {
+      "id": "R058",
+      "rating": 3,
+      "submitted_on": "2026-10-25",
+      "language": "en",
+      "text": "The instructions are complicated, although customer support is responsive.",
+      "expected_tuples": [
+        [
+          "易用性",
+          "negative"
+        ],
+        [
+          "客服",
+          "positive"
+        ]
+      ],
+      "fixture_note": "同句转折，两个方面。"
+    },
+    {
+      "id": "R059",
+      "rating": 5,
+      "submitted_on": "2026-10-27",
+      "language": "en",
+      "text": "The price is reasonable and the setup is simple.",
+      "expected_tuples": [
+        [
+          "易用性",
+          "positive"
+        ],
+        [
+          "价格",
+          "positive"
+        ]
+      ],
+      "fixture_note": "价格与易用性正面。"
+    },
+    {
+      "id": "R060",
+      "rating": 2,
+      "submitted_on": "2026-10-29",
+      "language": "en",
+      "text": "It leaked when I bent over, and I need session history in the app.",
+      "expected_tuples": [],
+      "fixture_note": "两个未覆盖主题都必须保留未知。"
+    }
+  ],
+  "search_signals": [
+    {
+      "query_id": "Q001",
+      "month": "2026-07",
+      "query": "wearable breast pump leaking milk",
+      "volume_proxy": 6200,
+      "click_proxy": 0.14,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "防漏问题型。"
+    },
+    {
+      "query_id": "Q002",
+      "month": "2026-08",
+      "query": "quiet breast pump office",
+      "volume_proxy": 5400,
+      "click_proxy": 0.31,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "安静场景，非痛点。"
+    },
+    {
+      "query_id": "Q003",
+      "month": "2026-09",
+      "query": "wearable pump suction too weak",
+      "volume_proxy": 4900,
+      "click_proxy": 0.1,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "吸力问题。"
+    },
+    {
+      "query_id": "Q004",
+      "month": "2026-10",
+      "query": "hands free breast pump spill",
+      "volume_proxy": 4500,
+      "click_proxy": 0.12,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "防漏问题。"
+    },
+    {
+      "query_id": "Q005",
+      "month": "2026-07",
+      "query": "comfortable wearable pump flange",
+      "volume_proxy": 3800,
+      "click_proxy": 0.22,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "舒适度属性。"
+    },
+    {
+      "query_id": "Q006",
+      "month": "2026-08",
+      "query": "wearable breast pump cleaning",
+      "volume_proxy": 3200,
+      "click_proxy": 0.25,
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "fixture_note": "功能型。"
+    },
+    {
+      "query_id": "Q007",
+      "month": "2026-09",
+      "query": "wearable breast pump leaking milk",
+      "volume_proxy": 6500,
+      "click_proxy": 0.13,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "重复月份的防漏问题。"
+    },
+    {
+      "query_id": "Q008",
+      "month": "2026-10",
+      "query": "silent breast pump work office",
+      "volume_proxy": 5900,
+      "click_proxy": 0.29,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "work/office 是场景，非功能词。"
+    },
+    {
+      "query_id": "Q009",
+      "month": "2026-07",
+      "query": "wearable pump suction too weak",
+      "volume_proxy": 5300,
+      "click_proxy": 0.09,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "重复月份的吸力问题。"
+    },
+    {
+      "query_id": "Q010",
+      "month": "2026-08",
+      "query": "hands free breast pump spill",
+      "volume_proxy": 4700,
+      "click_proxy": 0.11,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "重复月份的防漏问题。"
+    },
+    {
+      "query_id": "Q011",
+      "month": "2026-09",
+      "query": "wearable pump flange size",
+      "volume_proxy": 4100,
+      "click_proxy": 0.19,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "尺寸属性。"
+    },
+    {
+      "query_id": "Q012",
+      "month": "2026-10",
+      "query": "best wearable breast pump",
+      "volume_proxy": 7600,
+      "click_proxy": 0.35,
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "fixture_note": "比较型。"
+    },
+    {
+      "query_id": "Q013",
+      "month": "2026-07",
+      "query": "wearable breast pump leaking milk",
+      "volume_proxy": 6800,
+      "click_proxy": 0.12,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "重复月份的防漏问题。"
+    },
+    {
+      "query_id": "Q014",
+      "month": "2026-08",
+      "query": "quiet breast pump office",
+      "volume_proxy": 5600,
+      "click_proxy": 0.3,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "场景属性。"
+    },
+    {
+      "query_id": "Q015",
+      "month": "2026-09",
+      "query": "wearable pump suction too weak",
+      "volume_proxy": 5100,
+      "click_proxy": 0.1,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "重复月份的吸力问题。"
+    },
+    {
+      "query_id": "Q016",
+      "month": "2026-10",
+      "query": "hands free breast pump spill",
+      "volume_proxy": 4800,
+      "click_proxy": 0.1,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "重复月份的防漏问题。"
+    },
+    {
+      "query_id": "Q017",
+      "month": "2026-07",
+      "query": "wearable breast pump battery life",
+      "volume_proxy": 3900,
+      "click_proxy": 0.24,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "续航属性。"
+    },
+    {
+      "query_id": "Q018",
+      "month": "2026-08",
+      "query": "breast pump return policy",
+      "volume_proxy": 2900,
+      "click_proxy": 0.18,
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "fixture_note": "政策导航。"
+    },
+    {
+      "query_id": "Q019",
+      "month": "2026-09",
+      "query": "how to clean wearable breast pump",
+      "volume_proxy": 3300,
+      "click_proxy": 0.21,
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "fixture_note": "明确使用任务。"
+    },
+    {
+      "query_id": "Q020",
+      "month": "2026-10",
+      "query": "wearable breast pump how to use",
+      "volume_proxy": 3700,
+      "click_proxy": 0.2,
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "fixture_note": "明确使用任务。"
+    },
+    {
+      "query_id": "Q021",
+      "month": "2026-07",
+      "query": "quiet wearable breast pump night shift",
+      "volume_proxy": 4300,
+      "click_proxy": 0.18,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "场景属性。"
+    },
+    {
+      "query_id": "Q022",
+      "month": "2026-08",
+      "query": "silent breast pump meetings",
+      "volume_proxy": 4100,
+      "click_proxy": 0.21,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "场景属性。"
+    },
+    {
+      "query_id": "Q023",
+      "month": "2026-09",
+      "query": "wearable pump leaking while bending",
+      "volume_proxy": 5200,
+      "click_proxy": 0.11,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "防漏问题。"
+    },
+    {
+      "query_id": "Q024",
+      "month": "2026-10",
+      "query": "breast pump flange pain after use",
+      "volume_proxy": 4600,
+      "click_proxy": 0.12,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "舒适度问题。"
+    },
+    {
+      "query_id": "Q025",
+      "month": "2026-07",
+      "query": "wearable pump uncomfortable fit",
+      "volume_proxy": 4400,
+      "click_proxy": 0.14,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "舒适度问题。"
+    },
+    {
+      "query_id": "Q026",
+      "month": "2026-08",
+      "query": "breast pump suction weak after 10 minutes",
+      "volume_proxy": 4900,
+      "click_proxy": 0.1,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "吸力问题。"
+    },
+    {
+      "query_id": "Q027",
+      "month": "2026-09",
+      "query": "breast pump battery life long",
+      "volume_proxy": 3900,
+      "click_proxy": 0.23,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "续航属性。"
+    },
+    {
+      "query_id": "Q028",
+      "month": "2026-10",
+      "query": "wearable breast pump charge usb c",
+      "volume_proxy": 3600,
+      "click_proxy": 0.22,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "充电属性。"
+    },
+    {
+      "query_id": "Q029",
+      "month": "2026-07",
+      "query": "compare wearable breast pump models",
+      "volume_proxy": 6100,
+      "click_proxy": 0.28,
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "fixture_note": "比较型。"
+    },
+    {
+      "query_id": "Q030",
+      "month": "2026-08",
+      "query": "wearable pump vs standard pump",
+      "volume_proxy": 5800,
+      "click_proxy": 0.27,
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "fixture_note": "比较型。"
+    },
+    {
+      "query_id": "Q031",
+      "month": "2026-09",
+      "query": "breast pump replacement parts",
+      "volume_proxy": 3100,
+      "click_proxy": 0.19,
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "fixture_note": "配件动作任务。"
+    },
+    {
+      "query_id": "Q032",
+      "month": "2026-10",
+      "query": "breast pump return policy",
+      "volume_proxy": 3000,
+      "click_proxy": 0.17,
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "fixture_note": "政策导航。"
+    },
+    {
+      "query_id": "Q033",
+      "month": "2026-07",
+      "query": "portable breast pump size guide",
+      "volume_proxy": 4200,
+      "click_proxy": 0.2,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "尺寸属性。"
+    },
+    {
+      "query_id": "Q034",
+      "month": "2026-08",
+      "query": "hands free breast pump office quiet",
+      "volume_proxy": 5100,
+      "click_proxy": 0.24,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "office 不等于功能。"
+    },
+    {
+      "query_id": "Q035",
+      "month": "2026-09",
+      "query": "wearable breast pump sound too loud",
+      "volume_proxy": 4700,
+      "click_proxy": 0.11,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "噪音问题。"
+    },
+    {
+      "query_id": "Q036",
+      "month": "2026-10",
+      "query": "noisy wearable breast pump",
+      "volume_proxy": 4500,
+      "click_proxy": 0.13,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "噪音问题。"
+    },
+    {
+      "query_id": "Q037",
+      "month": "2026-07",
+      "query": "hands free pump spill while walking",
+      "volume_proxy": 4300,
+      "click_proxy": 0.12,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "防漏问题。"
+    },
+    {
+      "query_id": "Q038",
+      "month": "2026-08",
+      "query": "breast pump leak after bending",
+      "volume_proxy": 5000,
+      "click_proxy": 0.11,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "防漏问题。"
+    },
+    {
+      "query_id": "Q039",
+      "month": "2026-09",
+      "query": "best quiet wearable breast pump",
+      "volume_proxy": 7000,
+      "click_proxy": 0.33,
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "fixture_note": "比较优先于属性词。"
+    },
+    {
+      "query_id": "Q040",
+      "month": "2026-10",
+      "query": "wearable breast pump cleaning instructions",
+      "volume_proxy": 3400,
+      "click_proxy": 0.2,
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "fixture_note": "功能优先于属性词。"
+    },
+    {
+      "query_id": "Q041",
+      "month": "2026-07",
+      "query": "electric breast pump double",
+      "volume_proxy": 5200,
+      "click_proxy": 0.22,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "结构属性。"
+    },
+    {
+      "query_id": "Q042",
+      "month": "2026-08",
+      "query": "breast pump shipping status",
+      "volume_proxy": 2800,
+      "click_proxy": 0.16,
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "fixture_note": "订单状态导航。"
+    },
+    {
+      "query_id": "Q043",
+      "month": "2026-09",
+      "query": "wearable breast pump breast shield size",
+      "volume_proxy": 3900,
+      "click_proxy": 0.2,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "尺寸属性。"
+    },
+    {
+      "query_id": "Q044",
+      "month": "2026-10",
+      "query": "painful breast pump flange",
+      "volume_proxy": 4700,
+      "click_proxy": 0.12,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "舒适度问题。"
+    },
+    {
+      "query_id": "Q045",
+      "month": "2026-07",
+      "query": "breast pump strong suction",
+      "volume_proxy": 4400,
+      "click_proxy": 0.24,
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "fixture_note": "能力属性而非痛点。"
+    },
+    {
+      "query_id": "Q046",
+      "month": "2026-08",
+      "query": "wearable breast pump battery drains fast",
+      "volume_proxy": 4600,
+      "click_proxy": 0.15,
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "fixture_note": "续航问题。"
+    },
+    {
+      "query_id": "Q047",
+      "month": "2026-09",
+      "query": "how to sterilize wearable pump",
+      "volume_proxy": 3200,
+      "click_proxy": 0.19,
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "fixture_note": "明确使用任务。"
+    },
+    {
+      "query_id": "Q048",
+      "month": "2026-10",
+      "query": "wearable breast pump customer service",
+      "volume_proxy": 2700,
+      "click_proxy": 0.18,
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "fixture_note": "服务入口导航。"
+    }
+  ]
+}

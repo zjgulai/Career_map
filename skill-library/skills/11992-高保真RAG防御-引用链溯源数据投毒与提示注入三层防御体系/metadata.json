@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-high-fidelity-rag-defense",
+  "中文名称": "高保真RAG防御 引用链溯源数据投毒与提示注入三层防御体系",
+  "一句话作用": "触发词：RAG 防御、引用链验证、数据投毒、提示注入、幻觉拦截。何时不用：知识库完全封闭、没有任何外部写入通道时，投毒防御的必要性下降；本技能面向内容会持续新增的 RAG 系统。安全边界：无法验证的声明必须显式标注为未验证并转人工；第三方核查接口不得回传业务数据用于训练。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要AI合规助手给出错误的FDA认证流程导致申报失败损失8000美元——NASA级三层防御（输入清洗+数据投毒检测+引用链验证）将合规决策错误率从8%降至0.5%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11992-p2s-high-fidelity-rag-defense-4fb23a20",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-high-fidelity-rag-defense/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-high-fidelity-rag-defense/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c96d616aa2f825433ad54dacf91658629295cc5ed07efd5d561f326b9a03b00",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

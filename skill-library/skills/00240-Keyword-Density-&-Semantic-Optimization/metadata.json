@@ -1,0 +1,22 @@
+{
+  "英文名称": "Keyword Density & Semantic Optimization",
+  "中文名称": "待补：Keyword Density & Semantic Optimization",
+  "一句话作用": "Comprehensive keyword optimization covering density analysis, semantic keyword expansion, cannibalization detection, intent matching, and strategic keyword-to-page mapping.",
+  "关键输入": "本技能为分析型技能（无专属脚本）：先用 CLI 取回页面内容，再按上文的密度 / LSI / 蚕食 / 意图规则进行分析。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要本技能为分析型技能（无专属脚本）：先用 CLI 取回页面内容，再按上文的密度 / LSI / 蚕食 / 意图规则进行分析。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00240-keyword-density-semantic-optimization-88925a23",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/seo-keyword-optimization/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/seo-keyword-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "116b3d8d249c01832005a82f484b182e9c294fb0e9b3c79faf88adbaa5f6d7d6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

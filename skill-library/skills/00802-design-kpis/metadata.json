@@ -1,0 +1,22 @@
+{
+  "英文名称": "design-kpis",
+  "中文名称": "待补：design-kpis",
+  "一句话作用": "Design KPI frameworks, metric definitions, targets, guardrails, and measurement plans for product or business decisions. Use when success metrics, drivers, guardrails, targets, or the measurement approach need to be def…",
+  "关键输入": "Use $analyze-data-quality first when the task is to reconcile existing metrics, dashboards, tables, owners, or sources of truth. Return to this skill only when the user asks to define the metric going forward, redesign…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use $analyze-data-quality first when the task is to reconcile existing metrics, dashboards, tables, owners, or sources of truth. Return to this skill only when the user asks to define the metric going forward, redesign…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00802-design-kpis-99af1846",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/data-analytics/skills/design-kpis/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/data-analytics/skills/design-kpis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fcefdecacd1d64f847fbb7c45e93a6bd49c679dff66b8966ebc74c4dc39b8f21",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "onboarding",
+  "中文名称": "超级设计工坊",
+  "一句话作用": "First-run interview that learns how the design team actually works and writes the plugin's QODERWORK.md. Use on first install, when QODERWORK.md is missing or contains [PLACEHOLDER] markers, or when the user says 'set u…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "快速选择题： - 文件命名：kebab-case / camelCase / 中文+日期 - 项目目录命名：{频道}-{场景}-{日期} / {case-id} / 自定义 - 设计稿版本：v1.0 递增 / 日期版本 / 其他 - 产出存放位置：本地目录路径 + 是否同步钉钉文档 将答案写入 命名规范 和 输出目录偏好 段。",
+  "最新更新时间": "2026-09-19T03:38:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要First-run interview that learns how the design team actually works and writes the plugin's QODERWORK.md. Use on first install, when QODERWORK.md is missing or contains [PLACEHOLDER] markers, or when the user says 'set u…时，用它产出或更新：快速选择题： - 文件命名：kebab-case /…",
+  "skill_id": "04656-onboarding-0221c6ce",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/onboarding/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/onboarding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "155033dc44ed5cd790cf7d99900f14f304ec2d785d7d0356cfd898bf92c112ce",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

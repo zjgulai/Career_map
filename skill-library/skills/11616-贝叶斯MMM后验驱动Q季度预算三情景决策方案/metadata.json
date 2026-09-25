@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bayesian-mmm-scenario-action-plan",
+  "中文名称": "贝叶斯MMM后验驱动Q季度预算三情景决策方案",
+  "一句话作用": "触发词：MMM三情景、P10P50P90、渠道占比护栏、有效样本量、Q+1预算决策。何时不用：只需按分位数做简单比例分配、不带渠道占比上下限护栏时用贝叶斯MMM行动方案生成器；还没有后验样本时先做后验估计。安全边界：输出仅为预算决策建议，不直接改平台预算；渠道占比与保底比例属业务护栏，须由决策人确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要营销总监面临\"贝叶斯MMM后验完成但Q+1预算方案停留在拍脑袋阶段\"——P10/P50/P90三情景自动分配将季度GMV提升12-18%，年化多产出GMV约60-120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11616-p2s-bayesian-mmm-scenario-action-plan-44a4b5bc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-bayesian-mmm-scenario-action-plan/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-bayesian-mmm-scenario-action-plan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3ea7b63365e4861a90d582db8cd9861e7f94dfbe74edbc2e15218fee7718c518",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

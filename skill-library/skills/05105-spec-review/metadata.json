@@ -1,0 +1,22 @@
+{
+  "英文名称": "spec-review",
+  "中文名称": "待补：spec-review",
+  "一句话作用": "How to verify implementation against OpenSpec artifacts",
+  "关键输入": "File Required Purpose ------ ---------- --------- {specs path}/design.md Yes Requirements and scenarios to verify {specs path}/tasks.md Yes Completion checklist {specs path}/proposal.md Optional Original intent reference",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要How to verify implementation against OpenSpec artifacts时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05105-spec-review-3facb270",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spec-review/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spec-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c39b8b0742ca7acb66d9f24cce197392d4541decab9f1dc637dd383cb7a636e3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

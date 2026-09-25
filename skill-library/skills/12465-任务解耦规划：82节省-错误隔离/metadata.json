@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dag-ta[REDACTED]",
+  "中文名称": "任务解耦规划：82节省 错误隔离",
+  "一句话作用": "触发词：DAG 解耦、任务分解、错误隔离、局部重算、Token 节省。何时不用：运行时动态增删节点用「Dynamic DAG Orchestration」；按任务形态自动选拓扑用「任务自适应拓扑路由」。安全边界：节点间必须传结构化中间结果，禁止用「约 500 件」这类自然语言模糊值传递关键数值。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务场景：Amazon FBA 补货决策，需要综合需求预测、安全库存、MOQ 约束三路计算时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12465-p2s-dag-ta-redacted-68ce30e1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-dag-task-decomposition-planning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-dag-task-decomposition-planning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fac622d794b05fe4f0afe12d44e62327fc6cfbc51fc9f6c6d26e814ff4e86b66",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

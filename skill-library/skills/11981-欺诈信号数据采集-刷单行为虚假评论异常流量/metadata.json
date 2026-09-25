@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fraud-signal-collection",
+  "中文名称": "欺诈信号数据采集（刷单行为虚假评论异常流量）",
+  "一句话作用": "触发词：欺诈信号采集、刷单识别、虚假评论、Bot流量、证据包整理。何时不用：事件已确认、要执行处置流程时走安全事件处理流程；只做评论情感分析时用情感 ML 管道技能。安全边界：采集只针对公开或已授权数据，不得侵入他人系统或获取个人信息，举报材料须基于可核验证据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要风控分析师面临欺诈线索散乱——欺诈信号采集将线索覆盖率提38%，年化省12万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11981-p2s-fraud-signal-collection-cc06125e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-fraud-signal-collection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-fraud-signal-collection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88bece3a00e8c9e6cab3d21394e772b9ea11273922c887c893a482c5ab26cb22",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

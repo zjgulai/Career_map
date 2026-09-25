@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ltv-cac-acquisition-gate",
+  "中文名称": "比率触发渠道获客自动暂停或扩投",
+  "一句话作用": "触发词：LTV/CAC门控、渠道暂停、渠道扩投、新客样本门控、品牌保底预算。何时不用：新客量低于最小样本时不评估该渠道；需要按分位数做保守与乐观双侧判断时走LTV预算开闸熔断器。安全边界：暂停后须保留品牌最低预算并设观察天数后复评，不得一次性永久关停渠道。",
+  "关键输入": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-12T10:58:29+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要增长团队面临\"渠道LTV/CAC低效但预算未暂停导致亏损获客\"——LTV/CAC门控自动暂停低效渠道扩投高效渠道，整体获客效率提升25%，年化节省$50,000时，用它产出或更新：（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11231-p2s-ltv-cac-acquisition-gate-000ea6be",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-ltv-cac-acquisition-gate/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-ltv-cac-acquisition-gate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2ca9c7b94ce276dfbbb0b7f5e902db490caa7fd5e96a543f8799dd4aac5017ed",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

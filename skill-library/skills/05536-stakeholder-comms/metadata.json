@@ -1,0 +1,22 @@
+{
+  "英文名称": "stakeholder-comms",
+  "中文名称": "待补：stakeholder-comms",
+  "一句话作用": "Draft stakeholder updates tailored to audience — executives, engineering, customers, or cross-functional partners. Use when writing weekly status updates, monthly reports, launch announcements, risk communications, or d…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Draft stakeholder updates tailored to audience — executives, engineering, customers, or cross-functional partners. Use when writing weekly status updates, monthly reports, launch announcements, risk communications, or d…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05536-stakeholder-comms-e7a24a02",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/stakeholder-comms/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/stakeholder-comms/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a46aaa7bb2183ece264cc89504a6f736079b4e8a1014e045ef80a92bc838c2b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "gantt-chart-visualization",
+  "中文名称": "待补：gantt-chart-visualization",
+  "一句话作用": "Design, critique, route, and implement Gantt charts and schedule visualizations. Use when the user mentions Gantt charts, project schedules, roadmaps with task spans, milestones, dependencies, predecessors, critical pat…",
+  "关键输入": "- Project schedules with tasks that have start and finish dates. - Work breakdown structures, phases, releases, epics, construction schedules, manufacturing plans, implementation plans, launch plans, and migration cutov…",
+  "关键输出": "- State whether Gantt is the primary recommendation or name the better alternative. - State whether the source is planned schedule data, actual lifecycle data, a roadmap snapshot, a resource calendar, or a static visual artifact. - Identify which fields are t…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Project schedules with tasks that have start and finish dates. - Work breakdown structures, phases, releases, epics, construction schedules, manufacturing plans, implementation plans, launch plans, and migration cutov…时，用它产出或更新：- State whether Gantt is t…",
+  "skill_id": "00742-gantt-chart-visualization-63999a26",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/gantt-chart-visualization/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/gantt-chart-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a0dab154479273473e298ce1790226a493aee0ca92f6c75caab1f3f1e375d299",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

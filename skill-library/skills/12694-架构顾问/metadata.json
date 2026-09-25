@@ -1,0 +1,22 @@
+{
+  "英文名称": "clickhouse-architecture-advisor",
+  "中文名称": "架构顾问",
+  "一句话作用": "按工作负载形态给出 ClickHouse 架构决策：摄取、时序分区、富化 join 与预聚合。触发词：ClickHouse 架构、ClickHouse 选型、实时摄取、时序分区、预聚合、OLAP 建模、clickhouse-architecture-advisor。何时不用：非 ClickHouse 的通用数仓选型或其它列存引擎不在本技能范围，它假定引擎已定为 ClickHouse 并按工作负载给架构决策。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "按这样的结构组织回答：",
+  "最新更新时间": "2026-09-21T02:31:18+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要按工作负载形态给出 ClickHouse 架构决策：摄取、时序分区、富化 join 与预聚合。触发词：ClickHouse 架构、ClickHouse 选型、实时摄取、时序分区、预聚合、OLAP 建模、clickhouse-architecture-advisor。何时不用：非 ClickHouse 的通用数仓选型或其它列存引擎不在本技能范围，它假定引擎已定为 ClickHouse 并按工作负载给架构决策。时，用它产出或更新：按这样的结构组织回答：",
+  "skill_id": "12694-clickhouse-architecture-advisor-8a6f729f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Sanbao/repository-snapshot/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/clickhouse-architecture-advisor/SKILL.md",
+  "relative_path": "lute/project/Sanbao/repository-snapshot/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/clickhouse-architecture-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "653abdcacd9313c248df11a58a408474d93cdd457f06162d4ccacbf356de6ca3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

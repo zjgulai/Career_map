@@ -1,0 +1,22 @@
+{
+  "英文名称": "trend-stage-timing-analyzer",
+  "中文名称": "待补：trend-stage-timing-analyzer",
+  "一句话作用": "- Determines whether a product is in early growth, peak momentum, or saturation by analyzing ad libraries (TikTok, Facebook), Google Trends, and marketplace traction. Use when validating product timing for Shopify, DTC,…",
+  "关键输入": "Before any analysis, capture user inputs and state assumptions for any missing data. This step is mandatory . User inputs extracted - Pull from the user message or $ARGUMENTS: product name or niche, region, platform (e.g. Shopify, DTC), and any other explicit…",
+  "关键输出": "The final stage classification must be consistent across at least 2 of 3 signal sources (ads, trends, marketplace). If signals conflict, flag as \"Mixed Signals — Further Research Needed\". ---",
+  "最新更新时间": "2026-09-13T20:33:22+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Determines whether a product is in early growth, peak momentum, or saturation by analyzing ad libraries (TikTok, Facebook), Google Trends, and marketplace traction. Use when validating product timing for Shopify, DTC,…时，用它产出或更新：The final stage classifica…",
+  "skill_id": "02379-trend-stage-timing-analyzer-e6f4723a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/scratch/tree-0077/packages/capabilities/dsh-overseas-skills/backup/pre-81/trend-stage-timing-analyzer/SKILL.md",
+  "relative_path": "lute/.dsh/scratch/tree-0077/packages/capabilities/dsh-overseas-skills/backup/pre-81/trend-stage-timing-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "654e183df0c12c4a07d448dad8d0662953806de7bf0fe3c41b662dc9f2b85ab6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

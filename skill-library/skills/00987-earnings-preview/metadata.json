@@ -1,0 +1,22 @@
+{
+  "英文名称": "earnings-preview",
+  "中文名称": "待补：earnings-preview",
+  "一句话作用": "Use when preparing full pre-earnings preview reports with executive summary, expectation bar, guidance credibility, KPI dashboard, scenarios, and call questions. Do not use after results or for short summaries unless th…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when preparing full pre-earnings preview reports with executive summary, expectation bar, guidance credibility, KPI dashboard, scenarios, and call questions. Do not use after results or for short summaries unless th…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00987-earnings-preview-36d14839",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/earnings-preview/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/earnings-preview/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f83a7e594b79dd174030a00c940cd4cf28f4eaf6b2636450a8a67e95411d22d5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

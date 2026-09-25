@@ -1,0 +1,22 @@
+{
+  "英文名称": "business-model",
+  "中文名称": "待补：business-model",
+  "一句话作用": "Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.",
+  "关键输入": "- Product or service description - Target customer(s) and market - Current business operations or assumptions - Competitive context or industry dynamics",
+  "关键输出": "1. Identify and profile customer segments 2. Define the core value proposition(s) 3. Map customer relationships and channels 4. List key activities and resources 5. Identify key partners 6. Outline cost structure 7. Define revenue streams 8. Ensure all 9 bloc…",
+  "最新更新时间": "2026-09-16T00:16:46+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.时，用它产出或更新：1. Identify and profile customer segments 2. Define the core value…",
+  "skill_id": "11202-business-model-6569011f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/business-model/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/business-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "515621fd8a41ecba5b7234d0d9e1e50185ba33805c4dd170b66364281f84acc8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

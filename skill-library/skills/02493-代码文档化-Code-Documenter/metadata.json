@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-documenter",
+  "中文名称": "代码文档化（Code Documenter）",
+  "一句话作用": "补 docstring 与 JSDoc、生成 OpenAPI 规格与文档站、写用户指南，并校验示例可编译，产出覆盖率报告。触发词：代码文档化、code-documenter、补 docstring 与 JSDoc、生成 OpenAPI 规格与文档站、写用户指南，并校验示例可编译，产出覆盖率报告。",
+  "关键输入": "适用于任何涉及代码文档、API 规格或面向开发者的指南的任务。具体子主题见下面的参考表。",
+  "关键输出": "视任务提供： 1. 代码文档： 带文档的源文件 ＋ 覆盖率报告 2. API 文档： OpenAPI 规格 ＋ 门户配置 3. 文档站： 站点配置 ＋ 内容结构 ＋ 构建说明 4. 指南／教程： 带示例与配图的结构化 Markdown",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要适用于任何涉及代码文档、API 规格或面向开发者的指南的任务。具体子主题见下面的参考表。时，用它产出或更新：视任务提供： 1. 代码文档： 带文档的源文件 ＋ 覆盖率报告 2. API 文档： OpenAPI 规格 ＋ 门户配置 3. 文档站： 站点配置 ＋ 内容结构 ＋ 构建说明 4. 指南／教程： 带示例与配图的结构化 Markdown",
+  "skill_id": "02493-code-documenter-65f8d0eb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/code-documenter/SKILL.md",
+  "relative_path": "lute/.dsh/skills/code-documenter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8f51e1f5de674dbaf718ea81de4b4163b75de6628fd368b8c9c64ba4b7c6d309",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

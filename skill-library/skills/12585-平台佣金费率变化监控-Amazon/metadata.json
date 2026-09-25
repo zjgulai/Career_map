@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-platform-commission-fee-tracker",
+  "中文名称": "平台佣金费率变化监控（Amazon",
+  "一句话作用": "触发词：费率变化监控、佣金调整、网页 diff、PnL 重算、利润转负预警。何时不用：要监控税务阈值与申报义务用「税务风险信号监控」；要审内容侧合规用「视频合规预筛」。安全边界：抓取平台费率页须遵守平台条款与爬虫规则，不绕过反爬；费率变更结论须以平台官方公告复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"平台佣金费率变化未被及时感知导致SKU悄然亏损\"——费率变化自动监控将感知时间从14天缩短至2小时，年化避免因费率上涨忽视导致的利润侵蚀10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12585-p2s-platform-commission-fee-tracker-b63f62c5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-platform-commission-fee-tracker/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-platform-commission-fee-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ebdaa2788697e0906cc23f927dfb2de7dac58d4a4550d1f4ea8e23edf515b1f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

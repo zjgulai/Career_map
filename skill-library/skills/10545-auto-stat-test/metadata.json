@@ -1,0 +1,22 @@
+{
+  "英文名称": "auto-stat-test",
+  "中文名称": "待补：auto-stat-test",
+  "一句话作用": "自动执行统计检验，根据数据特征（组数、正态性、配对设计）智能选择 t 检验、卡方检验、ANOVA、Mann-Whitney U 等合适方法，并输出包含 p 值、效应量和通俗中文解读的完整报告。当用户需要进行假设检验、组间比较、显著性分析，或提及 t 检验、卡方、方差分析、p 值、配对检验、非参数检验等关键词时触发。",
+  "关键输入": "参数 缩写 必填 默认值 说明 ------ ------ ------ -------- ------ input — 是 — 输入文件路径（CSV/TSV/Excel/JSON） --group -g 模式一 — 分组变量列名 --value -v 模式一 — 数值/分类变量列名 --col1 — 模式二 — 配对检验第 1 个变量列名 --col2 — 模式二 — 配对检验第 2 个变量列名",
+  "关键输出": "python3 scripts/statistical test suite.py data.csv -g treatment -v score -o result.json",
+  "最新更新时间": "2026-09-14T00:09:49+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要自动执行统计检验，根据数据特征（组数、正态性、配对设计）智能选择 t 检验、卡方检验、ANOVA、Mann-Whitney U 等合适方法，并输出包含 p 值、效应量和通俗中文解读的完整报告。当用户需要进行假设检验、组间比较、显著性分析，或提及 t 检验、卡方、方差分析、p 值、配对检验、非参数检验等关键词时触发。时，用它产出或更新：python3 scripts/statistical test suite.py data.csv -g treatment -v score -o result.json",
+  "skill_id": "10545-auto-stat-test-355199a8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/auto-stat-test/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/auto-stat-test/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4e32c985d755fec28a5e9c183e4e5ce78e27d577cc4b3f851a0444cb1b6d89bc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

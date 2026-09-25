@@ -1,0 +1,22 @@
+{
+  "英文名称": "ui-ux-pro-max",
+  "中文名称": "待补：ui-ux-pro-max",
+  "一句话作用": "AI-powered UI/UX design intelligence with 57 UI styles, 95+ color palettes, 56 font pairings, 25 chart types, and 100+ industry-specific reasoning rules across 12 tech stacks. Use when designing, building, creating, imp…",
+  "关键输入": "Python 3.x is required (no external dependencies). Check if installed: ---",
+  "关键输出": "The --design-system flag supports two output formats:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI-powered UI/UX design intelligence with 57 UI styles, 95+ color palettes, 56 font pairings, 25 chart types, and 100+ industry-specific reasoning rules across 12 tech stacks. Use when designing, building, creating, imp…时，用它产出或更新：The --design-system flag s…",
+  "skill_id": "05860-ui-ux-pro-max-c65670ad",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/ui-ux-pro-max-skill/skills/ui-ux-pro-max/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/ui-ux-pro-max-skill/skills/ui-ux-pro-max/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "22562ff68db2d263956deede4f2c8b9040da0c9e404f052498508d0aa92b902c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

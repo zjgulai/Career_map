@@ -1,0 +1,22 @@
+{
+  "英文名称": "reactome-database",
+  "中文名称": "待补：reactome-database",
+  "一句话作用": "Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, expression analysis, for systems biology studies.",
+  "关键输入": "For overrepresentation analysis: - Plain text list of identifiers (one per line) - OR single column in TSV format For expression analysis: - TSV format with mandatory header row starting with \" \" - Column 1: identifiers - Columns 2+: numeric expression values",
+  "关键输出": "Analysis results can be visualized in the Reactome Pathway Browser by constructing URLs with the analysis token:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Performing pathway enrichment analysis on gene or protein lists - Analyzing gene expression data to identify relevant biological pathways - Querying specific pathway information, reacti…时，用它产出或更新：Analysis results can be vi…",
+  "skill_id": "05795-reactome-database-e2423ab6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/reactome-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/reactome-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5fe2b31cf0258bb4e221363f96fbb9ac1f8c2da8bc2dfba932e932079f75231b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

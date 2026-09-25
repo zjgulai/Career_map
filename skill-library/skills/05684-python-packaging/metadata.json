@@ -1,0 +1,22 @@
+{
+  "英文名称": "python-packaging",
+  "中文名称": "待补：python-packaging",
+  "一句话作用": "Create distributable Python packages with proper project structure, setup.py/pyproject.toml, and publishing to PyPI. Use when packaging Python libraries, creating CLI tools, or distributing Python code.",
+  "关键输入": "- Creating Python libraries for distribution - Building command-line tools with entry points - Publishing packages to PyPI or private repositories - Setting up Python project structure - Creating installable packages wi…",
+  "关键输出": "build/ dist/ .egg-info/ .egg .eggs/",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Creating Python libraries for distribution - Building command-line tools with entry points - Publishing packages to PyPI or private repositories - Setting up Python project structure - Creating installable packages wi…时，用它产出或更新：build/ dist/ .egg-info/ .e…",
+  "skill_id": "05684-python-packaging-805cd3e2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/python-development/skills/python-packaging/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/python-development/skills/python-packaging/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "58082e4b1e32ba36e8bdac8c2f9c534282b8f426fd3f8ac40f485dce43521ee8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

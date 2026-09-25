@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-tres-format",
+  "中文名称": "资源文件格式规范",
+  "一句话作用": "Godot .tres 资源文件格式规范。让 AI 能够直接读写 Godot 资源文件（材质、环境、物理材质、渐变、曲线、样式盒、着色器、动画、粒子等）。当需要创建或修改 .tres 文件时使用此 Skill。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Godot .tres 资源文件格式规范。让 AI 能够直接读写 Godot 资源文件（材质、环境、物理材质、渐变、曲线、样式盒、着色器、动画、粒子等）。当需要创建或修改 .tres 文件时使用此 Skill。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05959-godot-tres-format-2d03c2ac",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-tres-format/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-tres-format/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8b8749bd63ec32e5c7422ee57203830a4dbce06897fcdcae551c5c90a15e98e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 应收账款与账期预警（多币种对账）",
+  "中文名称": "待补：KA 应收账款与账期预警（多币种对账）",
+  "一句话作用": "当需按 KA 客户/发票维度跟踪应收、账期、逾期与对账差异时调用；输出供战略（含财务）与渠道对买手/财务结算；不替代会计记账。",
+  "关键输入": "- ERP 或导出： 发票号、币种、金额、到期日、已付、扣款原因码 。 - 合同账期 （净 X 天）与 争议联系人 。",
+  "关键输出": "- 表：invoice customer due open aging bucket owner next action - 周报摘要 ：3 条。",
+  "最新更新时间": "2026-03-25T17:18:43+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需按 KA 客户/发票维度跟踪应收、账期、逾期与对账差异时调用；输出供战略（含财务）与渠道对买手/财务结算；不替代会计记账。时，用它产出或更新：- 表：invoice customer due open aging bucket owner next action - 周报摘要 ：3 条。",
+  "skill_id": "09898-ka-39e93b8d",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/ka-ar-tracker/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/ka-ar-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88bc053c0214262e4258cadaa56b45df67fb227be0d2cb31ec1100a5e4ca8c64",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

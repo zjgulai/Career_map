@@ -1,0 +1,22 @@
+{
+  "英文名称": "input-system",
+  "中文名称": "输入系统技能",
+  "一句话作用": "输入系统技能。管理游戏输入映射、支持键盘/手柄/触屏多种输入方式， 提供输入缓冲、连招检测等高级功能。",
+  "关键输入": "管理游戏输入，支持多种输入设备和高级输入处理。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要输入系统技能。管理游戏输入映射、支持键盘/手柄/触屏多种输入方式， 提供输入缓冲、连招检测等高级功能。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05905-input-system-0c00897f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-2-modules/input-system/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-2-modules/input-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a75468f771f00078d22d6450bd8dae47c01f100bc89fca2a4e15b562790dd721",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

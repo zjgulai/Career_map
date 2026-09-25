@@ -1,0 +1,22 @@
+{
+  "英文名称": "国际站商机雷达",
+  "中文名称": "国际站商机雷达",
+  "一句话作用": "搜索国际站及站外公开 RFQ，查询 RFQ/报价详情、报价历史和报价权益，并支持 RFQ 定时巡检。只处理 RFQ 数据域；不生成报价草稿，不处理询盘、聊天或公网买家背调。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "A/B 搜索（含 Hybrid）有有效 items 后，才读取 references/delivery-draft.md。不要预读 JSON Schema、legacy renderer 或异常模板；Draft 最小骨架足够正常提交。 仅当用户明确要求“优质/值得报价/排序/店铺匹配”，或结果包含需要比较的复杂买家信号时，额外读取 references/recommend-strategy.md。普通查询用 Draft 简要排序。",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要搜索国际站及站外公开 RFQ，查询 RFQ/报价详情、报价历史和报价权益，并支持 RFQ 定时巡检。只处理 RFQ 数据域；不生成报价草稿，不处理询盘、聊天或公网买家背调。时，用它产出或更新：A/B 搜索（含 Hybrid）有有效 items 后，才读取 references/delivery-draft.md。不要预读 JSON Schema、legacy renderer 或异常模板；Draft 最小骨架足够正常提交。 仅当用户明确要求“优质/值得报价/排序/店铺匹配”，或结果包含需要比较的复杂买家信号…",
+  "skill_id": "00203-skill-1c4a2905",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-rfq-discovery/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-rfq-discovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04ad131603b39285bae760223f28c1e64ca2080dfbef709451016e4ae8a6a21b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

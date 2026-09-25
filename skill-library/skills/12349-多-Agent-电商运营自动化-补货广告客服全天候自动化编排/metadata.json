@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-ecommerce-ops-automation",
+  "中文名称": "多 Agent 电商运营自动化 补货广告客服全天候自动化编排",
+  "一句话作用": "触发词：运营自动化、多 Agent 编排、补货自动化、广告降 ACoS、事件驱动、人工审批门控。何时不用：只设计人工审批门控用「Skill-Human-in-Loop-Approval-Gate-Tag」；多 Agent 共识决策用「Skill-MAS-Consensus-Mechanism」；广告与搜索专项优化用「Skill-MAS-Search-Optimization」；只做事后复盘不做执行用「大促后复盘KPI体系」。安全边界：…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营总监面临\"补货/广告调价/Listing更新每天耗费团队大量重复性工作时间\"——事件驱动MAS编排将日常运营自动化率提升至73%，年化价值$10.3万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12349-p2s-mas-ecommerce-ops-automation-a5a8b3ad",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-mas-ecommerce-ops-automation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-mas-ecommerce-ops-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ffd704ab75d9b08d9bb2749cc152c34ca960b15812050b1fccb4ccce67c09ade",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

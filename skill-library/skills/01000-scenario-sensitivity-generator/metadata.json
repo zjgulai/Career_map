@@ -1,0 +1,22 @@
+{
+  "英文名称": "scenario-sensitivity-generator",
+  "中文名称": "待补：scenario-sensitivity-generator",
+  "一句话作用": "Use when turning a public-equity base case, model, thesis, event, or catalyst into scenario skew, sensitivity, breakpoint, and PM action-threshold analysis. Do not use for first-pass model builds, credit-security valuat…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Full scenario report: default route for substantive reusable scenario analysis, an explicit HTML scenario report, or a sourced discrete-event success/delay/break overlay. Produce a polished standalone HTML scenario report following ../../shared/html-artifac…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when turning a public-equity base case, model, thesis, event, or catalyst into scenario skew, sensitivity, breakpoint, and PM action-threshold analysis. Do not use for first-pass model builds, credit-security valuat…时，用它产出或更新：- Full scenario report: de…",
+  "skill_id": "01000-scenario-sensitivity-generator-babbc611",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/scenario-sensitivity-generator/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/scenario-sensitivity-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5a554f29d983d5140fbe29fc71e81d3c27391cc28eb109bfc14746ab32cc8eb6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

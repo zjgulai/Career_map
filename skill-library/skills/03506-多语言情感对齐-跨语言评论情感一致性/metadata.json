@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multilingual-sentiment-alignment",
+  "中文名称": "多语言情感对齐（跨语言评论情感一致性）",
+  "一句话作用": "触发词：多语言情感对齐、跨市场对比、评分文化偏差、语言偏置校正、本地化洞察、翻译质控。何时不用：只处理单一语言评论用「评论结构化抽取」；要做评论真伪判定用「评论真伪裁决」。安全边界：翻译处理后数据不得含个人信息（GDPR 口径）；机器翻译质量会直接影响情感准确率，稀缺语言结果须标注不确定性并人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临\"不同语言市场评分文化差异导致无法真实对比各市场用户满意度\"——多语言情感校准将跨市场情感对比准确率提升70%，年化发现真实本地化痛点价值15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03506-p2s-multilingual-sentiment-alignment-6955f71f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multilingual-sentiment-alignment/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multilingual-sentiment-alignment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "203991b36676d7a99075d416cfb223f21a598344f798c5017bdb84eee73d478f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "setup-matt-pocock-skills",
+  "中文名称": "待补：setup-matt-pocock-skills",
+  "一句话作用": "为此仓库配置 engineering skills——设置其 issue tracker、triage labels 词汇与 domain docs 布局。在首次使用其他 engineering skills 前运行一次。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要为此仓库配置 engineering skills——设置其 issue tracker、triage labels 词汇与 domain docs 布局。在首次使用其他 engineering skills 前运行一次。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10755-setup-matt-pocock-skills-5cee99ed",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/setup-matt-pocock-skills/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/setup-matt-pocock-skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "69aa2f4c770191bf947cc0b5aa8160cd79ade351ae70f4aac5a7fe25db18fc56",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

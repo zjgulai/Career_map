@@ -1,0 +1,22 @@
+{
+  "英文名称": "review-work",
+  "中文名称": "待补：review-work",
+  "一句话作用": "Post-implementation review orchestrator. Launches 5 parallel background sub-agents: Oracle (goal/constraint verification), Oracle (code quality), Oracle (security), unspecified-high (hands-on QA execution), unspecified-…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "OUTPUT FORMAT: PASS or FAIL HIGH / MEDIUM / LOW 1-3 sentence overall assessment Total scenarios: N P0: X tested, Y passed P1: X tested, Y passed P2: X tested, Y passed",
+  "最新更新时间": "2026-06-23T19:48:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Post-implementation review orchestrator. Launches 5 parallel background sub-agents: Oracle (goal/constraint verification), Oracle (code quality), Oracle (security), unspecified-high (hands-on QA execution), unspecified-…时，用它产出或更新：OUTPUT FORMAT: PASS or FAI…",
+  "skill_id": "00544-review-work-9b722563",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/packages/shared-skills/skills/review-work/SKILL.md",
+  "relative_path": "lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/packages/shared-skills/skills/review-work/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1b153a25610662088bc4ca46636d093366d03ad6d4a4937d664e73846f7a9ccb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

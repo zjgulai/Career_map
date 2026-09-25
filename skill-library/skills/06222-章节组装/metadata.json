@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-write-zh-chapters",
+  "中文名称": "章节组装",
+  "一句话作用": "paper-write-zh内部的中文正文组装参考，仅在中文正文写作流程已命中后使用，不作为独立入口。用于起草、续写、扩写或实质性修订单段、单章、多章及整篇正文，并把结构、证据、表格、公式和图占位组装进.workflow/paper draft.md，服从Makefile三态验收。独立提纲或纯语言润色转paper-shape。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "开始写作前先看 .workflow/meta.json；只有 needs citation=yes 时才读取 .workflow/source pool.md。不要在章节文件里重新发明任务状态。 必须锁定五个字段：章节在全文中的功能、可用材料、Draft/Final、证据来源、交付范围。信息不足时写“待确认/待补”，不补写成事实。 涉及引用时，本文件只消费已核验来源：中文来源来自 literature-search，综述合成来自 literature-review，证据落句来自 evidence-driven-w…",
+  "最新更新时间": "2026-09-10T17:00:47+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要paper-write-zh内部的中文正文组装参考，仅在中文正文写作流程已命中后使用，不作为独立入口。用于起草、续写、扩写或实质性修订单段、单章、多章及整篇正文，并把结构、证据、表格、公式和图占位组装进.workflow/paper draft.md，服从Makefile三态验收。独立提纲或纯语言润色转paper-shape。时，用它产出或更新：开始写作前先看 .workflow/meta.json；只有 needs citation=yes 时才读取 .workflow/source pool.md。不要…",
+  "skill_id": "06222-paper-write-zh-chapters-a6f9019e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/writing-chapters/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/writing-chapters/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2901257c02f181bd5b24896be4419da0de31593bc1258ab2b3f674028a7bd782",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

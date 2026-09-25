@@ -1,0 +1,22 @@
+{
+  "英文名称": "video-compare-tool",
+  "中文名称": "视频画质对比工具",
+  "一句话作用": "对比两个视频的压缩质量，计算画质指标（PSNR、SSIM），并生成包含逐帧视觉对比的交互式 HTML 报告。当用户需要评估压缩效果、比较视频画质，或提及“视频对比”、“压缩分析”、“压缩前后对比”等关键词时触发。",
+  "关键输入": "以下场景可使用此技能： - 对比原始视频和压缩后的视频 - 分析视频压缩的画质和效率 - 评估编码器性能或码率变化的影响 - 用户提到\"视频对比\"、\"视频画质\"、\"压缩分析\"或\"压缩前后对比\"",
+  "关键输出": "python3 scripts/compare.py original.mp4 compressed.mp4 -o report.html",
+  "最新更新时间": "2026-09-14T00:06:59+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要以下场景可使用此技能： - 对比原始视频和压缩后的视频 - 分析视频压缩的画质和效率 - 评估编码器性能或码率变化的影响 - 用户提到\"视频对比\"、\"视频画质\"、\"压缩分析\"或\"压缩前后对比\"时，用它产出或更新：python3 scripts/compare.py original.mp4 compressed.mp4 -o report.html",
+  "skill_id": "10697-video-compare-tool-dc932b96",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/video-compare-tool/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/video-compare-tool/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d6ce7899f402a4b1b8ce8137754c0d7336859effd3455f547d8a93375ca5655",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

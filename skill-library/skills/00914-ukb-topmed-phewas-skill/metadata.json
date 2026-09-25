@@ -1,0 +1,22 @@
+{
+  "英文名称": "ukb-topmed-phewas-skill",
+  "中文名称": "待补：ukb-topmed-phewas-skill",
+  "一句话作用": "Fetch compact UKB-TOPMed PheWAS summaries for single variants by accepting rsID, GRCh37, or GRCh38 input and resolving to the required GRCh38 query. Use when a user wants concise UKB-TOPMed association results for one v…",
+  "关键输入": "- Read one JSON object from stdin, or a single JSON string containing the variant. - Required input: exactly one of rsid, grch37, grch38, or variant - Optional fields: max results, save raw, raw output path, timeout sec - Common patterns: - {\"grch38\":\"10:1129…",
+  "关键输出": "- Success returns ok, source, input, query variant, max results applied, association count, association count total, truncated, associations, variant, variant url, raw output path, and warnings. - Use raw output path when save raw=true.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Fetch compact UKB-TOPMed PheWAS summaries for single variants by accepting rsID, GRCh37, or GRCh38 input and resolving to the required GRCh38 query. Use when a user wants concise UKB-TOPMed association results for one v…时，用它产出或更新：- Success returns ok, sour…",
+  "skill_id": "00914-ukb-topmed-phewas-skill-a0c00b73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ukb-topmed-phewas-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ukb-topmed-phewas-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "809a1b3a70c6ed08d8640bd28449c35c9c5d337a2c32cfebd7947183f7f6308a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

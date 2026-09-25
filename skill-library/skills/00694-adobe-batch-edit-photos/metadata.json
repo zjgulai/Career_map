@@ -1,0 +1,22 @@
+{
+  "英文名称": "adobe-batch-edit-photos",
+  "中文名称": "待补：adobe-batch-edit-photos",
+  "一句话作用": "Apply consistent photo adjustments across a set of images so they look like they were edited together. Use this skill whenever the user says \"make my photos look cohesive\", \"give all these the same style\", \"apply a warm…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "All pipeline tools return: Read results[N].outputUrl. On success: false → see Error Handling. ---",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Apply consistent photo adjustments across a set of images so they look like they were edited together. Use this skill whenever the user says \"make my photos look cohesive\", \"give all these the same style\", \"apply a warm…时，用它产出或更新：All pipeline tools return:…",
+  "skill_id": "00694-adobe-batch-edit-photos-941f5a55",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/adobe/skills/adobe-batch-edit-photos/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/adobe/skills/adobe-batch-edit-photos/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "062112a424340bef585f0c3aed9a484721ff4b200044883dd0bdb1dd7599642c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

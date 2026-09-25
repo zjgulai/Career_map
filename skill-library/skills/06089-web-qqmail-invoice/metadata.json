@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-qqmail-invoice",
+  "中文名称": "待补：web-qqmail-invoice",
+  "一句话作用": "gAAAAABqYL4R3GoyK7HzqvSJ9kxuaNrhBA8TdGiXiZwPwphF3J VnDWfxmZvrb70KMbjmm3wCRjIWIP-arS JfBwkOAEDnpIyr7DtR5cbHIJDgdEOkvncwISjBiXu85gjqTJweucJdHJe0Dv4xLwZ0u-QSQD50a144NTFE4L1k-S9uKcV261jUpwi6H7lmdjOr3oDITrTq-rL-KhC bbXelF2N4…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-22T20:56:49+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要gAAAAABqYL4R3GoyK7HzqvSJ9kxuaNrhBA8TdGiXiZwPwphF3J VnDWfxmZvrb70KMbjmm3wCRjIWIP-arS JfBwkOAEDnpIyr7DtR5cbHIJDgdEOkvncwISjBiXu85gjqTJweucJdHJe0Dv4xLwZ0u-QSQD50a144NTFE4L1k-S9uKcV261jUpwi6H7lmdjOr3oDITrTq-rL-KhC bbXelF2N4…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06089-web-qqmail-invoice-3a890050",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/web-qqmail-invoice/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/web-qqmail-invoice/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d6ea7676679211c230c19d575625a874ea2115d285dbe701a805ae1cd28687cb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-product-deep-dive",
+  "中文名称": "待补：alibaba-global-product-deep-dive",
+  "一句话作用": "Deep-dive product selection powered by Amazon market data (Jungle Scout) and Alibaba supply data. Analyzes demand, competition, pricing, and compliance across 8 dimensions, delivers ranked product recommendations with F…",
+  "关键输入": "See references/subquestion templates.md for full template library, anomaly detection rules, per-type examples, and detailed good/bad examples. Every sub-question MUST satisfy ALL 5 criteria : Data-Premised (start with a specific number from indicators), Cross…",
+  "关键输出": "Execute AFTER Step 6.",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Question Type Example (EN) Example (ZH) -------------- ------------- ------------- Market Opportunity \"Find blue ocean opportunities in Home & Kitchen\" \"Find blue ocean in Home & Kitchen\" Competitive Analysis \"Analyze c…时，用它产出或更新：Execute AFTER Step 6.",
+  "skill_id": "00177-alibaba-global-product-deep-dive-75e14af3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-deep-dive/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-deep-dive/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "50a24ad06058d98aeec11b87af439e8780f48ada152d6d87cbe767a4ec62993f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

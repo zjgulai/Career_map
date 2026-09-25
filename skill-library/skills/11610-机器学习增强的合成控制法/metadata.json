@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-augmented-synthetic-control-ml",
+  "中文名称": "机器学习增强的合成控制法",
+  "一句话作用": "触发词：合成控制、新市场增量、跨市场对照、安慰剂检验、偏差修正。何时不用：单个站点内的活动增效用时序因果技能，判断达人层级回报用 KOL 因果归因技能，本技能用多市场加权构造反事实来评估市场准入。安全边界：跨市场数据须聚合到市场层级、不含个人信息，结论须附安慰剂检验与捐赠池质量说明，不得只报点估计。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"新市场准入后销量增长无法分离自然趋势与真实效果\"——ASCM双重修正SCM偏差从3.5%降至0.8%，年化减少市场扩张错误决策损失约80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11610-p2s-augmented-synthetic-control-ml-39105953",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-augmented-synthetic-control-ml/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-augmented-synthetic-control-ml/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9132a2b8a8015a67ca79df15f7afba8e631998d18bff11a52c1e6918965ed48a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

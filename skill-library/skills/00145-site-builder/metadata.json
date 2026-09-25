@@ -1,0 +1,22 @@
+{
+  "英文名称": "site-builder",
+  "中文名称": "待补：site-builder",
+  "一句话作用": "Orchestrate Accio website and app creation, redesign, extension, local preview, site publish, and Supabase-backed features. Route reference replication and Canvas design into mutually exclusive branches, then coordinate…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Orchestrate Accio website and app creation, redesign, extension, local preview, site publish, and Supabase-backed features. Route reference replication and Canvas design into mutually exclusive branches, then coordinate…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00145-site-builder-4011b221",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/site-builder/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/site-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a10e62daa5cc9b6338a0cbcac845bc5ada1a451ccff815bd62bf938a370f583e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

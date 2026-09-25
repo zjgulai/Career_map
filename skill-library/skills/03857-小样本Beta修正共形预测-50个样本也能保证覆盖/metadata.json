@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ssbc-small-sample-conformal",
+  "中文名称": "小样本Beta修正共形预测 - 50个样本也能保证覆盖",
+  "一句话作用": "触发词：小样本校准、共形预测、覆盖保证、区间可信度、预算决策置信。何时不用：要做的是把推荐结果讲清楚（可解释推荐）而不是给区间覆盖保证时用「可解释推荐」。安全边界：只保证区间覆盖概率，不提升底层模型精度，也不作因果断言。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：日本市场刚上线，只收集了50条带标签的转化数据做校准时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03857-p2s-ssbc-small-sample-conformal-61327f03",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ssbc-small-sample-conformal/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ssbc-small-sample-conformal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6456885e265e3c20be92b12931cb5ccb19c881fff4d355026a4e64574692931f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

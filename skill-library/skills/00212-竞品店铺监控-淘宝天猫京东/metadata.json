@@ -1,0 +1,22 @@
+{
+  "英文名称": "store-monitor",
+  "中文名称": "竞品店铺监控（淘宝天猫京东）",
+  "一句话作用": "当用户要监控竞品店铺的上新或销量榜时使用本 Skill，典型触发表达：\"监控这个店铺\"\"看下竞品店铺上新了什么\"\"盯一下这个店的销量榜\"\"这家店最近有没有调价\"。输入为一条店铺链接，支持淘宝/天猫、1688（普通旺铺与工厂店）、京东（任意店铺形态）；形态识别、URL 归一化与排序动线由本 Skill 自动完成。产出商品清单 CSV 与监控看板 HTML，并与上一轮做上新、下架与变价比对。只采集公开店铺页面，不登录店铺后台。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "成功时输出 JSON，必读字段： 字段 含义 --- --- ok / code ok=true 且 code=STORE MONITOR COLLECTED 才算成功 storeName / platform / host 店铺名、平台（淘宝/天猫/1688/京东）、店铺域名 shape classic（淘宝经典分页）/ spa（淘宝下滑加载）/ spa2（淘宝新版下滑加载，价格不可解析）/ shop（1688 普通旺铺）/ factory（1688 工厂店）/ jdmshop（京东手机版店铺页）；jdsear…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当用户要监控竞品店铺的上新或销量榜时使用本 Skill，典型触发表达：\"监控这个店铺\"\"看下竞品店铺上新了什么\"\"盯一下这个店的销量榜\"\"这家店最近有没有调价\"。输入为一条店铺链接，支持淘宝/天猫、1688（普通旺铺与工厂店）、京东（任意店铺形态）；形态识别、URL 归一化与排序动线由本 Skill 自动完成。产出商品清单 CSV 与监控看板 HTML，并与上一轮做上新、下架与变价比对。只采集公开店铺页面，不登录店铺后台。时，用它产出或更新：成功时输出 JSON，必读字段： 字段 含义 --- --- ok…",
+  "skill_id": "00212-store-monitor-8280a562",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/ecommerce-search/store-monitor/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/ecommerce-search/store-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2848589aec0b3c54678d18d5316f7eab607f4579959e2b61960f77e31791f33",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

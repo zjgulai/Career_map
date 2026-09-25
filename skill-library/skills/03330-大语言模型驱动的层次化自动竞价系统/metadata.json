@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-autobidding-mas",
+  "中文名称": "大语言模型驱动的层次化自动竞价系统",
+  "一句话作用": "触发词：自动竞价、LLM 智能体、少样本出价、大促调价、ACOS 目标、推理链。何时不用：历史数据充足且出价稳健时用统计型自动竞价；需要秒级高频调价时用规则引擎。安全边界：自动决策链路需可追溯并满足平台对自动化决策的披露要求，出价调整受预算与频次约束且缺少人工兜底时不得全自动执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投放经理面临出价规则人工盯盘——AutoBidding MAS将ACOS 32%压到26%，年化省30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03330-p2s-llm-autobidding-mas-7c2870a8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-autobidding-mas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-autobidding-mas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "002849c186acdc32f02c9b96a9cb69fb2f550a787d9a31ea7be4df4d5ee3fa5a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

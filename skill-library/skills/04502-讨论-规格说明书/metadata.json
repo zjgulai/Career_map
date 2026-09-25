@@ -1,0 +1,22 @@
+{
+  "英文名称": "to-spec",
+  "中文名称": "讨论 规格说明书",
+  "一句话作用": "将当前对话和代码库理解综合为一份规格说明书（Spec），不再重新访谈。当用户说\"写spec\"\"出规格\"\"整理成文档\"\"to-spec\"或对话已对齐想落笔时触发。",
+  "关键输入": "- 已经通过 grill-with-docs 或充分讨论达成了共识 - 如果 CONTEXT.md 存在，使用其中的规范术语",
+  "关键输出": "将规格说明书写入 docs/specs/ 目录（不存在则创建），文件名格式： docs/specs/YYYY-MM-DD-简短描述.md",
+  "最新更新时间": "2026-09-19T03:37:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要将当前对话和代码库理解综合为一份规格说明书（Spec），不再重新访谈。当用户说\"写spec\"\"出规格\"\"整理成文档\"\"to-spec\"或对话已对齐想落笔时触发。时，用它产出或更新：将规格说明书写入 docs/specs/ 目录（不存在则创建），文件名格式： docs/specs/YYYY-MM-DD-简短描述.md",
+  "skill_id": "04502-to-spec-5f4746d4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/grillme-matt/0.1.0/skills/to-spec/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/grillme-matt/0.1.0/skills/to-spec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5614ad6d1d465473a77801148bfca49ed4cb1cd61d1aa280972e3ae3755876c7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

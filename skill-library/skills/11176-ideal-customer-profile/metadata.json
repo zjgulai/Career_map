@@ -1,0 +1,22 @@
+{
+  "英文名称": "ideal-customer-profile",
+  "中文名称": "待补：ideal-customer-profile",
+  "一句话作用": "Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are.",
+  "关键输入": "Use $ARGUMENTS to pass: - Research data (surveys, interviews, transcripts) - Customer success/metrics data - Product usage analytics - Sales activity and win/loss data - Existing customer database - Competitive intelligence",
+  "关键输出": "A comprehensive ICP definition including: - Firmographic profile (company size, industry, location) - Behavioral profile (buying patterns, adoption style) - Complete JTBD mapping (functional, emotional, social jobs) - Top 5-7 pain points and specific needs -…",
+  "最新更新时间": "2026-09-16T00:16:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Defining ICP from product-market fit survey data - Targeting high-value customer segments - Analyzing customer success and expansion patterns - Prioritizing sales and marketing efforts - Evaluating new customer opport…时，用它产出或更新：A comprehensive ICP defini…",
+  "skill_id": "11176-ideal-customer-profile-43cdbf90",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-go-to-market/skills/ideal-customer-profile/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-go-to-market/skills/ideal-customer-profile/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d434df786db2290efb575f1d219c7e19650e7a7e3df9a5f4b82b0bd0d2ce298",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-marketing-material-review",
+  "中文名称": "营销素材审核",
+  "一句话作用": "营销素材审核。当用户上传待审核的广告宣传语、营销海报、社交媒体推广文案、直播话术等营销素材时，从虚假宣传、夸大宣传、绝对化用语、比较广告、引证数据真实准确性、价格违规、有奖营销、知识产权、风险行业违规宣传（如金融、医疗、三品一械、教育等特殊监管行业）、数据对外披露、不当承诺或表达等维度开展全面审查与风险扫描，对违规点归类、逐条分析判断并直接给出修改建议。当用户提到\"营销素材审核\"\"广告文案合规审查\"\"宣传语合规\"\"看看这段宣传/文案有…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "以 一份飞书文档 形式输出完整报告（模板见下文「输出报告模板」）。",
+  "最新更新时间": "2026-09-10T17:00:47+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要营销素材审核。当用户上传待审核的广告宣传语、营销海报、社交媒体推广文案、直播话术等营销素材时，从虚假宣传、夸大宣传、绝对化用语、比较广告、引证数据真实准确性、价格违规、有奖营销、知识产权、风险行业违规宣传（如金融、医疗、三品一械、教育等特殊监管行业）、数据对外披露、不当承诺或表达等维度开展全面审查与风险扫描，对违规点归类、逐条分析判断并直接给出修改建议。当用户提到\"营销素材审核\"\"广告文案合规审查\"\"宣传语合规\"\"看看这段宣传/文案有…时，用它产出或更新：以 一份飞书文档 形式输出完整报告（模板见下文「输出…",
+  "skill_id": "06268-doubao-marketing-material-review-ec25643c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-marketing-material-review/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-marketing-material-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea43fee468f304d009879ee9ea15680dcd2c4b5b6583ece0b5b8e9846e041869",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

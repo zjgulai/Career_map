@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-dpa-drafter",
+  "中文名称": "数据处理协议起草技能",
+  "一句话作用": "DPA数据处理协议专业起草；当用户需要起草数据处理协议、DPA协议、数据委托处理协议、数据共同处理协议或数据对外提供协议时使用。仅做数据合规类协议起草，通用商务合同或非数据类合同请改用对应 skill",
+  "关键输入": "- 触发：用户需要起草DPA协议、数据委托处理协议、数据共同处理协议或数据对外提供协议。 - 也触发：用户已有DPA草稿要求优化或修改（按第三步分析后提出修改建议并输出修订版）。 - 不触发：通用商务合同、合同审查、非数据类合同 → 改用对应 skill。 边界 ：三方协议拆分为多组双边关系分别起草；默认输出中文（如需双语先中后英）；标准DPA建议3000-6000字。",
+  "关键输出": "DPA正文之后应输出附件清单，并对每个附件提供框架性内容（非空壳标题）： 常见附件 应输出的框架内容 --------- ---------------- 附件一：处理活动清单 表头（活动编号/名称、处理角色、数据类别、数据主体范围、保存期限、法律依据），已知活动填入，未知标【待补】 附件二：最低安全措施 至少列出6-8项类别（访问控制、加密、日志审计、漏洞管理、备份恢复、人员管理、物理安全、应急响应），每项写控制目标而非写死实现细节（扫描频率、修复时限、具体认证或算法等乙方系统未知项标【待补】），并注明乙方可采…",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 触发：用户需要起草DPA协议、数据委托处理协议、数据共同处理协议或数据对外提供协议。 - 也触发：用户已有DPA草稿要求优化或修改（按第三步分析后提出修改建议并输出修订版）。 - 不触发：通用商务合同、合同审查、非数据类合同 → 改用对应 skill。 边界 ：三方协议拆分为多组双边关系分别起草；默认输出中文（如需双语先中后英）；标准DPA建议3000-6000字。时，用它产出或更新：DPA正文之后应输出附件清单，并对每个附件提供框架性内容（非空壳标题）： 常见附件 应输出的框架内容 ---------…",
+  "skill_id": "06519-doubao-dpa-drafter-7dfa2a62",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-dpa-drafter/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-dpa-drafter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cb54b7fda92c65d8f4df88641734d9bb162bedeb1511659904fdf1649e517d39",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

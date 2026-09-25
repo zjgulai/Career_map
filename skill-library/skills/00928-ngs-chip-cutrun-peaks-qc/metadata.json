@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-chip-cutrun-peaks-qc",
+  "中文名称": "待补：ngs-chip-cutrun-peaks-qc",
+  "一句话作用": "Run or plan ChIP-seq, CUT&RUN, or CUT&Tag QC, control handling, spike-in, peak calling, broad-vs-narrow target selection, replicate, bigWig, and differential binding workflows.",
+  "关键输入": "Confirm: - assay: ChIP-seq, CUT&RUN, or CUT&Tag - target class: transcription factor, histone mark, chromatin regulator, or custom target - FASTQ/BAM inputs and paired-end status - input DNA, IgG, no-antibody, or spike-in controls - organism, genome build, bl…",
+  "关键输出": "Produce: - assay/target/control manifest - command/profile and sample sheet - QC summary with replicate/control status - peaks, bigWigs, browser-track manifests, browser-track preview HTML, native QC dashboard/SVG plots, consensus peaks, and count matrix when…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Run or plan ChIP-seq, CUT&RUN, or CUT&Tag QC, control handling, spike-in, peak calling, broad-vs-narrow target selection, replicate, bigWig, and differential binding workflows.时，用它产出或更新：Produce: - assay/target/control manifest - command/profile and sample…",
+  "skill_id": "00928-ngs-chip-cutrun-peaks-qc-0501fbca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-chip-cutrun-peaks-qc/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-chip-cutrun-peaks-qc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4718713903b0d22deab18ab4de0725e98efaa61e7bb504bd0ee0965cb00a601c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

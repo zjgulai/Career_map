@@ -1,0 +1,22 @@
+{
+  "英文名称": "logger-gen",
+  "中文名称": "待补：logger-gen",
+  "一句话作用": "Set up structured logging for any framework. Use when configuring logging.",
+  "关键输入": "No install needed. Just run with npx. Node.js 18+ recommended. Needs OPENAI API KEY environment variable.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Set up structured logging for any framework. Use when configuring logging.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04951-logger-gen-6f3f6c57",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/logger-gen/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/logger-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1eb60836c777f3af90ebb3ad0b4338cd108d9d1233e9259b6a415510264c1eee",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

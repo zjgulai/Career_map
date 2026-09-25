@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-epr-auto-calculator",
+  "中文名称": "扩展生产者责任自动费用测算 欧盟英国法国合规",
+  "一句话作用": "触发词：EPR 费用测算、包装申报、德国 VerpackG、法国 CITEO、英国 PPT。何时不用：要做 VAT/GST 税率分类与申报用「VAT/GST 申报自动化」；要监控税务阈值与申报义务用「税务风险信号监控」。安全边界：费率表与注册截止日期须以官方系统为准，测算结果不构成申报承诺；不得漏报或低报包装投放量。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规团队面临\"进入欧盟市场手动计算EPR费用耗时且错误率高\"——EPR费用自动测算将计算错误率从12%降至0.5%且节省90%人工时，年化节省合规运营成本15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12539-p2s-epr-auto-calculator-5a25067b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-epr-auto-calculator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-epr-auto-calculator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b22b9b3e61ed837abaee8685df634f8b8fdacc79872b9346f61f4f579fd737d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

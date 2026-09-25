@@ -1,0 +1,22 @@
+{
+  "英文名称": "content-breakdown",
+  "中文名称": "待补：content-breakdown",
+  "一句话作用": "Deep content breakdown expert (enhanced version). Supports Xiaohongshu/Bilibili/Douyin. For Bilibili videos, includes \"danmaku peak analysis\" and \"keyframe visual verification\" capabilities. Five-dimensional analysis: C…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. Structured Report : Includes deep analysis across all five dimensions above. 2. Visual Evidence : Describe keyframe visuals (e.g.: At 4:05 a T0 soy sauce fried rice appears, triggering a danmaku peak). 3. File Saving : Report must be saved to output/breakd…",
+  "最新更新时间": "2026-09-21T17:35:24+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Deep content breakdown expert (enhanced version). Supports Xiaohongshu/Bilibili/Douyin. For Bilibili videos, includes \"danmaku peak analysis\" and \"keyframe visual verification\" capabilities. Five-dimensional analysis: C…时，用它产出或更新：1. Structured Report : Inc…",
+  "skill_id": "00293-content-breakdown-069db084",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/content-breakdown/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/content-breakdown/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d914e8cd3e7a539cedc37ce4dc6e2e491cfe56415c804c6ff920fcea52d506a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

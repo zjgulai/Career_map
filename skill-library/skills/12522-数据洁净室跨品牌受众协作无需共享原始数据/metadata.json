@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cleanroom-audience-collaboration",
+  "中文名称": "数据洁净室跨品牌受众协作无需共享原始数据",
+  "一句话作用": "触发词：数据洁净室、受众重叠分析、跨品牌协作、哈希匹配、隐私联合查询。何时不用：跨机构联合训练模型时用「联邦学习隐私保护」；做端侧加噪的个性化推荐时用「差分隐私推荐系统」。安全边界：只做去标识化联合统计，禁止交换或导出原始用户名单；须有双方数据处理协议与合法授权基础。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数字营销团队面临\"想与内容平台共分析受众但GDPR禁止共享用户数据、媒体规划无法做受众重叠验证\"——数据洁净室K匿名性+差分隐私联合分析在数据不出本地前提下完成受众重叠分析，规避最高4%全球营收的合规罚款风险时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12522-p2s-cleanroom-audience-collaboration-2e5cd1cc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-cleanroom-audience-collaboration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-cleanroom-audience-collaboration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d1754ad84e526f838a179f3420c741cba8aade0a0b94bcebe0d91258b5201b5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

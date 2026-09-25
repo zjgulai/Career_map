@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kol-roi-causal-attribution",
+  "中文名称": "因果归因（网红达人投放效果的真实增量测算）",
+  "一句话作用": "触发词：达人投放复盘、增量回报、匹配对照、预算重配、达人分层排序。何时不用：只看视频内容特征的转化贡献用内容归因类技能，估计活动整体时序增效用合成控制或时序因果技能，本技能算单个达人的真实增量回报。安全边界：用户级匹配与实验数据须在平台授权范围内使用并脱敏，不得把平台随机实验数据挪作他用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要月 KOL 投放 30 万元，naive 归因显示 ROAS 3.5，但无法区分「因 KOL 才购买」和「本来就会买顺路点了链接」——PSM+DiD 因果归因将头部 KOL iROAS 从 4.2 修正为 1.8，将 30 万预算转向腰部 KOL 后年化增量 GMV 提升 44%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11717-p2s-kol-roi-causal-attribution-2fe2d734",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-kol-roi-causal-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-kol-roi-causal-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f5b0de5e44cba8cee44017a3865ff49016b8817a012344ffb4e0cd40ff801d3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

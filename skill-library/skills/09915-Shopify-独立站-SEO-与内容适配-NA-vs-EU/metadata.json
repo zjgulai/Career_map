@@ -1,0 +1,22 @@
+{
+  "英文名称": "Shopify 独立站 SEO 与内容适配（NA vs EU）",
+  "中文名称": "待补：Shopify 独立站 SEO 与内容适配（NA vs EU）",
+  "一句话作用": "当需要为 DTC 独立站优化集合页/博客/产品页的 SEO 要素（标题、meta、结构化数据占位、hreflang 思路）并区分北美与欧洲搜索习惯时调用；不替代技术 SEO 爬网与 Core Web Vitals 工程排障。",
+  "关键输入": "- 已有 keyword-matrix-builder 或调研词表； 一国一策略 ，禁止混用关键词语言。 - 已知 Shopify 主题/SEO 插件 能力边界（可标「需开发」）。 - 产品合规宣称与 Listing 一致（引用 ERP/合规 Skill）。",
+  "关键输出": "- 每 URL 一行表：URL PrimaryKW Title Meta H1 Notes - 附录 ：与亚马逊 Listing 的 canonical 冲突 检查项。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当需要为 DTC 独立站优化集合页/博客/产品页的 SEO 要素（标题、meta、结构化数据占位、hreflang 思路）并区分北美与欧洲搜索习惯时调用；不替代技术 SEO 爬网与 Core Web Vitals 工程排障。时，用它产出或更新：- 每 URL 一行表：URL PrimaryKW Title Meta H1 Notes - 附录 ：与亚马逊 Listing 的 canonical 冲突 检查项。",
+  "skill_id": "09915-shopify-seo-na-vs-eu-24c8dd5f",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/operations-execute/shopify-seo-optimizer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/operations-execute/shopify-seo-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "286d6ae0cd5ccc03ec419b42aab7c264a792dafcd54d65e8020ccf1fe738c22b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

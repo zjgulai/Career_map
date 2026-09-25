@@ -1,0 +1,22 @@
+{
+  "英文名称": "string-skill",
+  "中文名称": "待补：string-skill",
+  "一句话作用": "Submit compact STRING API requests for network, interaction partner, and enrichment endpoints. Use when a user wants concise STRING summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common STRING patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact STRING API requests for network, interaction partner, and enrichment endpoints. Use when a user wants concise STRING summaries时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, and either compact records or a compac…",
+  "skill_id": "00912-string-skill-ea211de0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/string-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/string-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d4bfc8c609cef61f683505f139a913cb9fb9b4d5cff3ee644c73f8e339ee9332",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

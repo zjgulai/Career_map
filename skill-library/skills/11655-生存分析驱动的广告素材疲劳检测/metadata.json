@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-creative-fatigue-detection",
+  "中文名称": "生存分析驱动的广告素材疲劳检测",
+  "一句话作用": "触发词：素材疲劳、CTR 衰减、路径签名、投放诊断、下线时机。何时不用：新素材还没跑量、没有多日 CTR 序列时无法判断疲劳，效果预估应改用素材预测类技能。安全边界：只使用投放平台自身的真实表现数据，不得为规避平台规则伪造或选择性剔除数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：某母婴品牌在 Meta Ads 投放婴儿奶瓶广告，上线 5 款素材（主图+短视频各类型）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11655-p2s-creative-fatigue-detection-2fb2e13b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-creative-fatigue-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-creative-fatigue-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a36e93abdbb4718d8c68c360840c252f7f2a2857986c4a90a3621abd7341ce2e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

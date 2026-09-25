@@ -1,0 +1,22 @@
+{
+  "英文名称": "convert-file",
+  "中文名称": "待补：convert-file",
+  "一句话作用": "Convert any data file to another format: CSV, Parquet, JSON, Excel, GeoJSON, and more. Use when the user says \"convert to parquet\", \"save as xlsx\", \"export as JSON\", \"make this a CSV\", \"turn into parquet\", or any variat…",
+  "关键输入": "Input : $0. If it's a bare filename (no /), resolve to a full path with find \"$PWD\" -name \"$0\" -not -path ' /.git/ ' 2 /dev/null head -1. Output : If $1 is provided, use it as the output path. If not, default to the same stem as the input with a .parquet exte…",
+  "关键输出": "Input : $0. If it's a bare filename (no /), resolve to a full path with find \"$PWD\" -name \"$0\" -not -path ' /.git/ ' 2 /dev/null head -1. Output : If $1 is provided, use it as the output path. If not, default to the same stem as the input with a .parquet exte…",
+  "最新更新时间": "2026-09-19T03:38:16+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Convert any data file to another format: CSV, Parquet, JSON, Excel, GeoJSON, and more. Use when the user says \"convert to parquet\", \"save as xlsx\", \"export as JSON\", \"make this a CSV\", \"turn into parquet\", or any variat…时，用它产出或更新：Input : $0. If it's a bare…",
+  "skill_id": "04480-convert-file-6765ebbe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/convert-file/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/convert-file/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f60b4b0c136e71047d3b956b4359cf45eb716b6a0ef0f381b94a4eba1a3a738b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

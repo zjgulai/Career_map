@@ -1,0 +1,22 @@
+{
+  "英文名称": "debug-zoom-integration",
+  "中文名称": "待补：debug-zoom-integration",
+  "一句话作用": "Use when isolating failures.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Most likely failing layer - Ranked hypotheses - Short fix plan - Verification steps",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when isolating failures.时，用它产出或更新：- Most likely failing layer - Ranked hypotheses - Short fix plan - Verification steps",
+  "skill_id": "01183-debug-zoom-integration-ca822605",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/debug-zoom-integration/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/debug-zoom-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "633317eed3fa49d38649edc105d08e7c46f7fb58457a264d7a20ad5365a97e57",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

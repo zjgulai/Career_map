@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-FActScore-Claim-Verification-Pipeline",
+  "中文名称": "待补：FActScore Claim Verification Pipeline",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T02:13:22.854577\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T17:13:22+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T02:13:22.854577\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07112-skill-factscore-claim-verification-pipeline-5ab6f902",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-FActScore-Claim-Verification-Pipeline.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-FActScore-Claim-Verification-Pipeline.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "409e7444895d98ae44b186e26ee52aa34915d167b9f2b005ac33d205985887b9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

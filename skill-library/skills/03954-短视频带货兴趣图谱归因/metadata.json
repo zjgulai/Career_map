@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-shop-content-attribution",
+  "中文名称": "短视频带货兴趣图谱归因",
+  "一句话作用": "触发词：内容带货归因、帧级内容元素、延迟归因窗口、兴趣图谱、素材效率对比。何时不用：只做视频特征与转化的相关性排序用短视频内容归因技能，评估达人真实增量用 KOL 因果归因技能，本技能解决长决策周期下的内容元素级归因。安全边界：曝光与转化数据须按用户 ID 关联后脱敏，遵守平台数据使用条款，不得用于跨平台个体追踪。",
+  "关键输入": "TikTok 后台导出：曝光用户 ID、视频 ID、时间戳、互动行为 帧级标注：使用 CV 模型（CLIP）对视频帧自动标注内容元素类型 转化事件：TikTok Shop 后台的订单数据与用户 ID 关联",
+  "关键输出": "TikTok 后台导出：曝光用户 ID、视频 ID、时间戳、互动行为 帧级标注：使用 CV 模型（CLIP）对视频帧自动标注内容元素类型 转化事件：TikTok Shop 后台的订单数据与用户 ID 关联",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要短视频运营面临内容带货说不清——内容归因将素材误判率21%压到7%，年化省23万元时，用它产出或更新：TikTok 后台导出：曝光用户 ID、视频 ID、时间戳、互动行为 帧级标注：使用 CV 模型（CLIP）对视频帧自动标注内容元素类型 转化事件：TikTok Shop 后台的订单数据与用户 ID 关联",
+  "skill_id": "03954-p2s-tiktok-shop-content-attribution-eab993c1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tiktok-shop-content-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tiktok-shop-content-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "826e5f12ecac7953ca01a2b64bff98707a552716fd83dea74ac2c64400196335",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

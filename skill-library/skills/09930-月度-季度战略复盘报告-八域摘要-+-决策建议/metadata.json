@@ -1,0 +1,22 @@
+{
+  "英文名称": "月度/季度战略复盘报告（八域摘要 + 决策建议）",
+  "中文名称": "待补：月度/季度战略复盘报告（八域摘要 + 决策建议）",
+  "一句话作用": "当需要把各职能域关键指标与异常汇总成一份给 CGO/管理层的复盘稿（非执行细项）时调用；建议与 cross-domain-trigger-hub 输出联用。",
+  "关键输入": "- 各域 输入摘要 （可粘贴：合规状态、货盘等级分布、渠道 GMV、供应链断货风险、客服安全事件数等）。 - 时间范围： 月度 或 季度 明确。",
+  "关键输出": "- Executive Summary - Domain sections A–H - Decisions - Appendix metrics（可选）",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要把各职能域关键指标与异常汇总成一份给 CGO/管理层的复盘稿（非执行细项）时调用；建议与 cross-domain-trigger-hub 输出联用。时，用它产出或更新：- Executive Summary - Domain sections A–H - Decisions - Appendix metrics（可选）",
+  "skill_id": "09930-skill-b0841ffb",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/strategy-insight/strategic-review-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/strategy-insight/strategic-review-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d6b21017aa5964ef0f60bf0db481f2986109e3522afd0a0ba85d56d70a8dfd6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-documenter",
+  "中文名称": "待补：code-documenter",
+  "一句话作用": "Use when adding docstrings, creating API documentation, or building documentation sites. Invoke for OpenAPI/Swagger specs, JSDoc, doc portals, tutorials, user guides.",
+  "关键输入": "- Adding docstrings to functions and classes - Creating OpenAPI/Swagger documentation - Building documentation sites (Docusaurus, MkDocs, VitePress) - Documenting APIs with framework-specific patterns - Creating interac…",
+  "关键输出": "Depending on the task, provide: 1. Code Documentation: Documented files + coverage report 2. API Docs: OpenAPI specs + portal configuration 3. Doc Sites: Site configuration + content structure + build instructions 4. Guides/Tutorials: Structured markdown with…",
+  "最新更新时间": "2026-09-19T03:55:55+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Adding docstrings to functions and classes - Creating OpenAPI/Swagger documentation - Building documentation sites (Docusaurus, MkDocs, VitePress) - Documenting APIs with framework-specific patterns - Creating interac…时，用它产出或更新：Depending on the task, pro…",
+  "skill_id": "04771-code-documenter-d8626a9a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/code-documenter/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/code-documenter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a39c3e8eed779dab657e544767a0891dcb89f12115d8a4abf80680360641444e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

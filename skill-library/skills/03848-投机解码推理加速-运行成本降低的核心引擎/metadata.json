@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-speculative-decoding-agent",
+  "中文名称": "投机解码推理加速 运行成本降低的核心引擎",
+  "一句话作用": "触发词：投机解码、草稿模型、推理加速、接受率、延迟瓶颈。何时不用：显存与并发瓶颈走「KV-Cache 优化」；模型量化与蒸馏走「模型服务优化」。安全边界：草稿模型不得改变输出语义，接受率过低时必须退回标准解码。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要工程团队面临\"Agent推理延迟8秒无法支持大促实时决策\"——投机解码将目标模型延迟降低50%以上，大促SKU监控覆盖率从10%提升至30%，年化避免断货损失50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03848-p2s-speculative-decoding-agent-3eae13bc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-speculative-decoding-agent/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-speculative-decoding-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b05bd2dc3a5cfce8eacf7ddf781df3ff0f7f785a0832203fd7a36321556a44eb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

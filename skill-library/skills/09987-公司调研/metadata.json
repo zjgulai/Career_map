@@ -1,0 +1,22 @@
+{
+  "英文名称": "公司调研",
+  "中文名称": "公司调研",
+  "一句话作用": "当用户需要对一家具名公司做公司级调研、尽职调查或融资估值核查时使用：给出公司画像、融资历程、估值逻辑、团队治理、业务与竞争优势、风险与负面、近期动态，产出可追溯、可交叉验证、带 confidence 标注的研究报告。触发词：公司调研、尽职调查、融资估值、公司画像、投资者尽调、BD尽调。何时不用：产品选品（用 产品调研矩阵）、市场进入 Go/No-Go（用 市场可行性审计）、Amazon 类目调研（用 亚马逊Sorftime调研）、SE…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Executive Summary，回答“它是谁 / 当前状态 / 为什么现在值得关注”。 - Results，按字段表输出 value、source、tier、quote、confidence。 - Analysis，按目标深度选择 SWOT、Five Forces、BMC、PEST 或 value chain。 - Insights，每条使用“事实 - 推理 - 结论 - 影响”。 - Sources，列出可追溯引用和 source tier。 - Notes，列出冲突、缺口、反向观点和二次核实项。",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当用户需要对一家具名公司做公司级调研、尽职调查或融资估值核查时使用：给出公司画像、融资历程、估值逻辑、团队治理、业务与竞争优势、风险与负面、近期动态，产出可追溯、可交叉验证、带 confidence 标注的研究报告。触发词：公司调研、尽职调查、融资估值、公司画像、投资者尽调、BD尽调。何时不用：产品选品（用 产品调研矩阵）、市场进入 Go/No-Go（用 市场可行性审计）、Amazon 类目调研（用 亚马逊Sorftime调研）、SE…时，用它产出或更新：- Executive Summary，回答“它是谁…",
+  "skill_id": "09987-skill-38af691a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/公司调研/SKILL.md",
+  "relative_path": "lute/project/81-Skills/公司调研/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "c9a9b6c8c8812757a20d5e1c4781c2000ddbe05578b4ec6f312647c04e59aea1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

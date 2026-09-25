@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-driven-user-behavior-analytics",
+  "中文名称": "实时行为事件流标签化与动态用户画像",
+  "一句话作用": "触发词：实时画像、行为事件打标、高意图捕获、动态标签、漏斗诊断。何时不用：只需离线价值分层用 RFM 类技能，判断渠道真实增量用增量分析类技能，本技能把行为事件流实时转成可用标签与画像。安全边界：埋点采集须在隐私政策范围内并取得营销授权，折扣表述须有价格对比依据，触达频次须受控。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据分析师面临\"用户行为事件流无法实时更新用户画像分析总是滞后\"——流式标签打标+实时OLAP将用户画像更新延迟从T+1降至秒级，精细化运营效率年化提升63万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11838-p2s-tag-driven-user-behavior-analytics-a9c5e608",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tag-driven-user-behavior-analytics/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tag-driven-user-behavior-analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f7f3e179d619121d26cc7b3f679be358285896325c8b333bc678df1046f342f9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

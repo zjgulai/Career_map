@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-marketing-context",
+  "中文名称": "待补：product-marketing-context",
+  "一句话作用": "- When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' or wants to avoid repeating fo…",
+  "关键输入": "- Core challenge customers face before finding you - Why current solutions fall short - What it costs them (time, money, opportunities) - Emotional tension (stress, fear, doubt)",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:05:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Core challenge customers face before finding you - Why current solutions fall short - What it costs them (time, money, opportunities) - Emotional tension (stress, fear, doubt)时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04083-product-marketing-context-351b554f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/product-marketing-context/SKILL.md",
+  "relative_path": "lute/.dsh/skills/product-marketing-context/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2151b1b6c556e14e956a3e92de00a861f1c2f820e130983498103dd7264b4cd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

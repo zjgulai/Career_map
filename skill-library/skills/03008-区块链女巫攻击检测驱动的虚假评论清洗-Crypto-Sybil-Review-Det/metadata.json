@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-crypto-anomaly-review-fraud",
+  "中文名称": "区块链女巫攻击检测驱动的虚假评论清洗 (Crypto Sybil Review Detection)",
+  "一句话作用": "触发词：女巫攻击、虚假评论、句法指纹、证据包、平台申诉。何时不用：评论样本量很小、没有可对比账号群时，先人工核查更划算；本技能面向有组织刷评的批量模式识别。安全边界：证据包只能用于平台举报与申诉，不得用于公开指控或报复性操作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌方惨遭竞品虚假评论攻击导致BSR排名坍塌——引入区块链女巫攻击(Sybil Attack)检测算法识别对手刷单的句法指纹与时间模式异常，生成精准举报证据包向Amazon提交，一次性清退黑帽竞品的虚假评分，恢复20-40%流量下跌。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03008-p2s-crypto-anomaly-review-fraud-ac4adcf5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-crypto-anomaly-review-fraud/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-crypto-anomaly-review-fraud/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8b749145f068fa2e7af70597401c6541fd2b23c2f091b8fa097ea5f1b29b3ba4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

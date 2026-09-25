@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-optimization",
+  "中文名称": "待补：code-optimization",
+  "一句话作用": "Optimize code performance through iterative improvements (max 2 rounds). Benchmark execution time and memory usage, compare against baseline implementations, and generate detailed optimization reports. Supports C++, Pyt…",
+  "关键输入": "Use this skill when users need to: - Optimize existing code to achieve better performance than standard library implementations - Benchmark and measure code execution time and memory usage - Iteratively improve code per…",
+  "关键输出": "./topk benchmark python3 optimization benchmark.py",
+  "最新更新时间": "2026-09-19T03:52:48+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use this skill when users need to: - Optimize existing code to achieve better performance than standard library implementations - Benchmark and measure code execution time and memory usage - Iteratively improve code per…时，用它产出或更新：./topk benchmark python3 o…",
+  "skill_id": "04773-code-optimization-fc78e72c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/code-optimization/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/code-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "10564ac4c0c2ee07d9dc070b015bce0eec9fd1b97556d650a07336bc9111040c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

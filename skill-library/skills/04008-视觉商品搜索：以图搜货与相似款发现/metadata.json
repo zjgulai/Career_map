@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-visual-product-search",
+  "中文名称": "视觉商品搜索：以图搜货与相似款发现",
+  "一句话作用": "触发词：以图搜货、视觉商品搜索、CLIP向量检索、相似款发现、竞品同款查找、视觉差异化。何时不用：只做文字侧语义检索用「稠密检索电商语义搜索」；要生成或优化 Listing 文案用「Listing AI 文案」；只做多模态商品属性理解而不做检索用「多模态商品理解」。安全边界：竞品图片仅用于内部分析与差异化定位，不得直接复制进自有 Listing 主图，避免侵权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户在社交媒体看到竞品同款想找相似但更便宜的款式文字搜索效果差——CLIP视觉搜索让用户上传图片直接找相似商品，搜索转化率提升8-15%同时帮助卖家发现视觉差异化空间年化增益10-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04008-p2s-visual-product-search-824d2406",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-visual-product-search/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-visual-product-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6d7f3a50f505e6e2f75704e74b7b19e80d06dcf2d5d9a1eae1b4224aff635c79",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

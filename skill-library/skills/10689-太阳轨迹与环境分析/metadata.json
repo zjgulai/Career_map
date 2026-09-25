@@ -1,0 +1,22 @@
+{
+  "英文名称": "sunlight-analysis",
+  "中文名称": "太阳轨迹与环境分析",
+  "一句话作用": "生成太阳轨迹图，计算实时太阳位置，分析建筑阴影投射范围与全年日照时数，并提供热舒适度评估，适用于建筑设计与场地环境分析。当用户询问太阳位置、请求绘制太阳轨迹、分析建筑阴影、计算全年日照时间、评估热舒适度或进行地形阴影分析时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:04+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要生成太阳轨迹图，计算实时太阳位置，分析建筑阴影投射范围与全年日照时数，并提供热舒适度评估，适用于建筑设计与场地环境分析。当用户询问太阳位置、请求绘制太阳轨迹、分析建筑阴影、计算全年日照时间、评估热舒适度或进行地形阴影分析时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10689-sunlight-analysis-aec54d7e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/sunlight-analysis/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/sunlight-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b915db07f053bc3fe65345049d5ba1691cbbf125f3dc95d14ee6b03ada10e44d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

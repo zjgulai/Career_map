@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-aim-rm-llm-inventory-mas-memory",
+  "中文名称": "多 Agent 库存管理：历史经验相似匹配",
+  "一句话作用": "触发词：多仓补货、历史经验匹配、冷启动补货、补货决策记忆、大促备货。何时不用：只算单个 SKU 的动态补货点用「补货点自适应」类技能，只做库存分层与库龄归因用「库存分层」。安全边界：补货量为建议值，下单、调拨与改库存账须人工复核后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓储运营面临多仓补货记忆断层——AIM-RM将漏补货率2.8%压到0.9%，年化节省18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11327-p2s-aim-rm-llm-inventory-mas-memory-16deaa5e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-aim-rm-llm-inventory-mas-memory/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-aim-rm-llm-inventory-mas-memory/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f456c2052bdbcc1fb1835250327a91b377fb68af387dcf9a756e168628683875",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sensitivity-analysis-causal",
+  "中文名称": "因果推断中的敏感性分析（Rosenbaum Bounds）",
+  "一句话作用": "触发词：敏感性分析、未观测混淆、混淆临界强度、匹配稳健性、结论可信度。何时不用：需要在不做随机实验时给出效果区间下界用部分识别技能，面向会员或达人投放的稳健性解读与汇报用 Rosenbaum 敏感性分析技能，本技能是匹配结论的通用鲁棒性验证步骤。安全边界：不得只报点估计而隐去稳健性结论，未通过检验的结论不得当作既定事实使用。",
+  "关键输入": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-12T10:58:29+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据科学家面临\"因果推断结论是否对未观测混淆变量敏感无法判断\"——Rosenbaum敏感性分析将结论可信度从\"假设无混淆\"提升为带有敏感性边界的稳健证明，年化降低错误决策风险节省30-50万元时，用它产出或更新：（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11232-p2s-sensitivity-analysis-causal-25b3a054",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-sensitivity-analysis-causal/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-sensitivity-analysis-causal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "817dced5a22077b870686b41c3ea2bf5eeaa5cc9ff8526ce11dc0e8437b3968d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

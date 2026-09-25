@@ -1,0 +1,22 @@
+{
+  "英文名称": "datacommons-client",
+  "中文名称": "待补：datacommons-client",
+  "一句话作用": "Work with Data Commons, a platform providing programmatic access to public statistical data from global sources. Use this skill when working with demographic data, economic indicators, health statistics, environmental d…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Work with Data Commons, a platform providing programmatic access to public statistical data from global sources. Use this skill when working with demographic data, economic indicators, health statistics, environmental d…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05715-datacommons-client-5e21598d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/datacommons-client/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/datacommons-client/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "582eae21dc5f99d4a2c7959984086c838c5d5a3faef3b606af2632205e87e0cf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

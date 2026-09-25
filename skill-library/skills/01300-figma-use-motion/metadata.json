@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-use-motion",
+  "中文名称": "待补：figma-use-motion",
+  "一句话作用": "Motion / animation context for the use figma MCP tool — animating Figma nodes via manual keyframes, animation styles, easing, and timeline duration. Load alongside figma-use whenever a task involves adding, editing, or…",
+  "关键输入": "Load this skill whenever a use figma task involves: - Adding, editing, or removing keyframes on a node (manualKeyframeTracks, applyManualKeyframeTrack, removeManualKeyframeTrack). - Animating fill or stroke colors over…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Load this skill whenever a use figma task involves: - Adding, editing, or removing keyframes on a node (manualKeyframeTracks, applyManualKeyframeTrack, removeManualKeyframeTrack). - Animating fill or stroke colors over…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01300-figma-use-motion-3def39ec",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-use-motion/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-use-motion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d74fa8c9435a5260f8a61e3a8fbf11c068f940ae3423e9be2efde8b5e785d78c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

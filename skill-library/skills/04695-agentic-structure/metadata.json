@@ -1,0 +1,22 @@
+{
+  "英文名称": "agentic-structure",
+  "中文名称": "待补：agentic-structure",
+  "一句话作用": "Collaborative programming framework for production-ready development. Use when starting features, writing code, handling security/errors, adding comments, discussing requirements, or encountering knowledge gaps. Applies…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:15+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Collaborative programming framework for production-ready development. Use when starting features, writing code, handling security/errors, adding comments, discussing requirements, or encountering knowledge gaps. Applies…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04695-agentic-structure-2f9b6a9c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/agentic-structure/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/agentic-structure/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b6bf17775d538b2f2ba9d7276e114c5a42e7c29c6f70addb3e36abf982c9a899",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

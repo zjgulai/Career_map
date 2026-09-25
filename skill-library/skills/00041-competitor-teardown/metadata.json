@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitor-teardown",
+  "中文名称": "待补：competitor-teardown",
+  "一句话作用": "Tear down a competing Amazon ASIN or brand: revenue, price history, keyword footprint, share of voice, and where it is weak. 用于给出竞品 ASIN/品牌，问能不能打、怎么差异化。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- An empty data[] is a successful call with no records ( observed empty ) — it is not proof of zero demand or a dead competitor. Cross-check the ASIN, brand spelling, marketplace, and filters before concluding anything, and say \"no records returned,\" not \"no…",
+  "最新更新时间": "2026-09-12T16:24:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Tear down a competing Amazon ASIN or brand: revenue, price history, keyword footprint, share of voice, and where it is weak. 用于给出竞品 ASIN/品牌，问能不能打、怎么差异化。时，用它产出或更新：- An empty data[] is a successful call with no records ( observed empty ) — it is not proof of…",
+  "skill_id": "00041-competitor-teardown-e7281771",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/competitor-teardown/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/competitor-teardown/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bde53c5736c266b1d14c27a653c0c5a47691450edbb0f9368c93d41719ab5570",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "track-management",
+  "中文名称": "待补：track-management",
+  "一句话作用": "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations.",
+  "关键输入": "- Creating new feature, bug, or refactor tracks - Writing or reviewing spec.md files - Creating or updating plan.md files - Managing track lifecycle from creation to completion - Understanding track status markers and c…",
+  "关键输出": "- [ ] Criterion 1: Specific, testable condition - [ ] Criterion 2: Specific, testable condition - [ ] Criterion 3: Specific, testable condition",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Creating new feature, bug, or refactor tracks - Writing or reviewing spec.md files - Creating or updating plan.md files - Managing track lifecycle from creation to completion - Understanding track status markers and c…时，用它产出或更新：- [ ] Criterion 1: Specifi…",
+  "skill_id": "05598-track-management-3373876b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/conductor/skills/track-management/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/conductor/skills/track-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cd33d9687f5903283b167950261f559946d891399197a5edc9fa5e18282e8bac",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

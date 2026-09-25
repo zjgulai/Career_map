@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hs-code-auto-classification",
+  "中文名称": "编码自动分类 跨境关税智能核算引擎",
+  "一句话作用": "触发词：HS编码分类、BERT归类、关税核算、报关归类、低置信转人工。何时不用：新品快速获取候选编码与税率参考时用 HS 关税编码自动分类；需要按批次做清关风险评分时用清关多维风险评分。安全边界：置信度低于阈值的疑难单据必须转人工复核，商品描述涉商业机密时须本地部署并做数据脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要物流团队面临HS编码人工分类错误率高达12%——BERT自动分类将准确率提升至97%，年化节省关税纠纷损失38万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03216-p2s-hs-code-auto-classification-4f929c73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-hs-code-auto-classification/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-hs-code-auto-classification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a78ff4b511c455a0806e46f2f7c9648a1f322fe7202fecbc41d4d25775b38a5b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

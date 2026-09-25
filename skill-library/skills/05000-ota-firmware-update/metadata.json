@@ -1,0 +1,22 @@
+{
+  "英文名称": "ota-firmware-update",
+  "中文名称": "待补：ota-firmware-update",
+  "一句话作用": "Over-the-air firmware update implementation expertise for embedded systems. Expert skill for delta updates, image signing, update protocols, partition management, and rollback mechanisms.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:32+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Over-the-air firmware update implementation expertise for embedded systems. Expert skill for delta updates, image signing, update protocols, partition management, and rollback mechanisms.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05000-ota-firmware-update-650110c3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ota-firmware-update/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ota-firmware-update/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b0c1fe092cf20d1052f2e4ba37f10970272dd420f40783bbef84cd49a5c873e1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

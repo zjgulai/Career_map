@@ -1,0 +1,22 @@
+{
+  "英文名称": "dingtalk-mail",
+  "中文名称": "钉钉邮箱 Skill",
+  "一句话作用": "钉钉邮箱读写、搜索、回复与转发。Use when 用户说发邮件/查邮件/回邮件/转发邮件/未读邮件/邮件搜索/邮箱附件。一句话发邮件时先用 dingtalk-contact 解析并确认收件人，再由本 skill 发送；不做钉钉消息（走 dingtalk-chat）、紧急通知（走 dingtalk-misc）。命令前缀：dws mail。",
+  "关键输入": "CRITICAL — 执行任何 dws 操作前，MUST 先用 Read 工具完整读取 dingtalk-shared。 该轻量文件包含全局执行契约、安全底线及 shared references 的按需加载导航；不要预加载其全部 references。 命令参考：mail.md。复杂搜索、附件、批量处理、草稿等多步邮件场景参考：09-mail.md。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:21+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要钉钉邮箱读写、搜索、回复与转发。Use when 用户说发邮件/查邮件/回邮件/转发邮件/未读邮件/邮件搜索/邮箱附件。一句话发邮件时先用 dingtalk-contact 解析并确认收件人，再由本 skill 发送；不做钉钉消息（走 dingtalk-chat）、紧急通知（走 dingtalk-misc）。命令前缀：dws mail。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04472-dingtalk-mail-82b945d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-mail/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-mail/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a0b036343e224fd840781048d6bdaa3e0d34ad719786e2b68e1995a9d8765c4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-cultural-content-adaptation",
+  "中文名称": "跨文化内容自动适配 文化距离量化与内容风格迁移",
+  "一句话作用": "触发词：跨文化内容适配、文化距离量化、多市场文案、文案风格迁移、Hofstede维度、本地化提效。何时不用：要识别文化禁忌与监管敏感词用「文化感知内容本地化」；要做跨语言关键词语义匹配用「跨文化营销适配」；要做平台 Listing 多语言生成用「多语言 Listing 生成」。安全边界：适配不得触发目标国广告法与母婴产品宣称限制；文化维度是统计均值，方案上线前须经人工与合规复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境运营面临\"多市场文案靠人工本地化、每季度人工成本2万元/市场\"——文化距离量化适配将本地化效率提升30倍，年化节省本地化成本8-15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12276-p2s-cross-cultural-content-adaptation-7f03ee03",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-cultural-content-adaptation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-cultural-content-adaptation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e6417dde9444705fc8f5f9d9e240a8053f95209f7955a4b7f58bda4b451033b3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

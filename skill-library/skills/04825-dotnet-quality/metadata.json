@@ -1,0 +1,22 @@
+{
+  "英文名称": "dotnet-quality",
+  "中文名称": "待补：dotnet-quality",
+  "一句话作用": ".NET code quality with Roslyn analyzers, StyleCop, and dotnet format. Covers linting, formatting, and best practices for C /.NET. USE WHEN: user works with \"C \", \".NET\", \"ASP.NET Core\", asks about \"Roslyn analyzers\", \"S…",
+  "关键输入": "Issue Likely Cause Solution ------- -------------- ---------- Analyzer not running Package not installed Add to .csproj Too many warnings First-time enable Suppress and fix incrementally Format changes on build Differen…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:11+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Issue Likely Cause Solution ------- -------------- ---------- Analyzer not running Package not installed Add to .csproj Too many warnings First-time enable Suppress and fix incrementally Format changes on build Differen…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04825-dotnet-quality-0bee716e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dotnet-quality/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dotnet-quality/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a99cb35fbef7bc92505a5fd4b120baa52d8d87b5a90b43437a03c44c5f7acf93",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cosmic-database",
+  "中文名称": "待补：cosmic-database",
+  "一句话作用": "Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication.",
+  "关键输入": "This skill should be used when: - Downloading cancer mutation data from COSMIC - Accessing the Cancer Gene Census for curated cancer gene lists - Retrieving mutational signature profiles - Querying structural variants,…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Downloading cancer mutation data from COSMIC - Accessing the Cancer Gene Census for curated cancer gene lists - Retrieving mutational signature profiles - Querying structural variants,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05713-cosmic-database-68a0c886",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/cosmic-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/cosmic-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eeb4e5380d20836829c7ca5e6137c5b4d3f9c2db2754371fce3981cd009d8820",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

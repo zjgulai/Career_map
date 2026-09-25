@@ -1,0 +1,22 @@
+{
+  "英文名称": "design-handoff",
+  "中文名称": "待补：design-handoff",
+  "一句话作用": "Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sheet covering layout, design tokens, component props, interaction states, responsive breakpoints, edge cases,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sheet covering layout, design tokens, component props, interaction states, responsive breakpoints, edge cases,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05450-design-handoff-611f8ef8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/design-to-code/skills/design-handoff/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/design-to-code/skills/design-handoff/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "38f1efc807928030654218443ad07f6a37ac82de6b4d627a03113a3568d787b7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "validate-before-you-source",
+  "中文名称": "待补：validate-before-you-source",
+  "一句话作用": "Validate real Amazon demand before sourcing: demand score, realistic monthly sales range, and scenario-based first-order quantity. 用于已有具体产品想法，问值不值得做、能不能下单、首单备多少。",
+  "关键输入": "You need at least one of: - A product idea / keyword — e.g. \"collapsible silicone dog bowl\". Best when the user is describing something they want to make. - A seed competitor ASIN — e.g. \"B0CP9Z56SW\". Best when they're looking at a specific listing; derive th…",
+  "关键输出": "- An empty data[] is a successful call with no records ( observed empty ) — it is not proof of zero demand. Cross-check the keyword, marketplace, and filters before concluding anything, and say \"no records returned,\" not \"no demand.\" - Tool errors (permission…",
+  "最新更新时间": "2026-09-12T16:24:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- forbidden marketplace — the account behind the tools isn't authorized for that marketplace; pick one it covers. - invalid asin on a seed ASIN — invalid/unsupported ASIN or insufficient rank data; use the idea/keyword…时，用它产出或更新：- An empty data[] is a succ…",
+  "skill_id": "00050-validate-before-you-source-cf746042",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/validate-before-you-source/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/validate-before-you-source/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "190ec3674a3c39dd4b20e3e86641f9bdb25f746642396bd3ec6949ed8f0e8527",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

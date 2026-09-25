@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-baby-food-allergen-label-validator",
+  "中文名称": "婴儿食品过敏原标签验证器 九大过敏原自动合规校验",
+  "一句话作用": "触发词：过敏原标签、九大过敏原、别名库、Contains 声明、交叉污染、FDA 召回。何时不用：要核婴儿配方奶粉 21 CFR Part 107 标签时用「婴儿配方奶粉 FDA 合规检查器」，要核欧盟化学物质限制时用「REACH 化学品合规」。安全边界：只做标签文本校验，不代替第三方检测与 FDA 申报，误识别率约 0.8% 须保留人工抽检。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要质控经理面临\"婴儿辅食含芝麻油但未知FASTER Act 2023新增芝麻为第9大必报过敏原\"——NLP别名库验证将漏报过敏原检出率提升至95%+，防止FDA强制召回损失约50-200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12515-p2s-baby-food-allergen-label-validator-d8fb5f48",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-baby-food-allergen-label-validator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-baby-food-allergen-label-validator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd4cb655ce89fb2d3ff6b6717ba24c56b4c94bf5d69fe356aa4d5c9f50e3b64c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

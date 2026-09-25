@@ -1,0 +1,22 @@
+{
+  "英文名称": "supersourcing",
+  "中文名称": "待补：supersourcing",
+  "一句话作用": "Use before Owner Skills when the buyer delegates full-auto procurement or two or more connected procurement capabilities in one objective, selects auto-run after search, or resumes an active SuperSourcing plan.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Use before Owner Skills when the buyer delegates full-auto procurement or two or more connected procurement capabilities in one objective, selects auto-run after search, or resumes an active SuperSourcing plan.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00104-supersourcing-c5fb5db5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/supersourcing/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/supersourcing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "262b02084520e5a9abee2ae565ef08acf69b3b51f652f2594347af951b314dc1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

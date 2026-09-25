@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-unit-economics-decomposition",
+  "中文名称": "单位经济拆解（每单CAC贡献毛利全链路）",
+  "一句话作用": "触发词：单位经济、每单贡献毛利、CAC、LTV、亏损SKU识别。何时不用：只算 Temu 单一托管模式的利润时用「Temu 全托管/半托管利润分析」；只推演关税情景对毛利的影响时用「关税冲击利润压力测试」。安全边界：只用自有经营数据，涉及用户维度的指标须脱敏，不得含个人身份信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务团队面临\"不知道每单真实贡献毛利导致高频亏损SKU持续运营\"——单位经济全链路拆解将亏损SKU识别准确率提升90%，年化优化SKU组合提升整体毛利30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03983-p2s-unit-economics-decomposition-6940d564",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-unit-economics-decomposition/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-unit-economics-decomposition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a9a9baa54550d562898fddd317186f784cc1590f0afc0e7c197e0c2f2296917b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

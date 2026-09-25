@@ -1,0 +1,22 @@
+{
+  "英文名称": "Zotero",
+  "中文名称": "待补：Zotero",
+  "一句话作用": "Use Zotero Desktop from Codex to enable/probe the local API, search a local Zotero library, list items/collections/tags, export BibTeX, insert citation keys into LaTeX or Markdown drafts, read indexed full text when req…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- For inventory/search, return title, creators, year, Zotero item key, and BibTeX key when available. - Explain the two-key distinction when relevant: Zotero item keys like PXW99EKT are not the same as exported BibTeX keys like vaswani attention 2023. - For .…",
+  "最新更新时间": "2026-09-17T16:31:40+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Use Zotero Desktop from Codex to enable/probe the local API, search a local Zotero library, list items/collections/tags, export BibTeX, insert citation keys into LaTeX or Markdown drafts, read indexed full text when req…时，用它产出或更新：- For inventory/search, re…",
+  "skill_id": "01228-zotero-666640e5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zotero/skills/zotero/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zotero/skills/zotero/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2053f1c8a7dc93265e9e68d51007627e6111567372057607636c2c74f1ab8f72",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

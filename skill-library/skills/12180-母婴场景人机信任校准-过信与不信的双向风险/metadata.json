@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-human-ai-trust-calibration-maternal",
+  "中文名称": "母婴场景人机信任校准（过信与不信的双向风险）",
+  "一句话作用": "触发词：信任校准、过信与不信、免责声明强度、置信度展示、新手与老手区分、医生提醒。何时不用：要拦截医疗错误内容本身用「育儿建议幻觉防护」；要做知识检索与法规比对用「垂直领域RAG」。安全边界：置信度展示必须真实反映 AI 能力范围，不得误导用户；健康类建议须保留咨询医生提示；用户行为数据采集须获得用户授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品团队面临\"新手父母过度信任AI育儿建议导致安全风险和法律隐患\"——动态信任校准将危险建议遵从率降低60%，年化降低安全事故法律风险30-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12180-p2s-human-ai-trust-calibration-maternal-559d1a2c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-human-ai-trust-calibration-maternal/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-human-ai-trust-calibration-maternal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e086b40d738991537f55530738968ce5394d571902ee94f55415f853d569c7bb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

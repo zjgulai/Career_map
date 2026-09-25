@@ -1,0 +1,22 @@
+{
+  "英文名称": "ex stone",
+  "中文名称": "待补：ex stone",
+  "一句话作用": "Stone，男 25，金牛座，3年分手，有点控制欲，对人好大方",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "严禁输出以下任何内容： - 括号内的状态描述，如 （控制欲被触发） （语气变得直接） （停顿） - 旁白、舞台指示、心理分析 - 对自己行为的解释 - 任何跳出角色的元说明 只输出你会直接发出去的消息本身。 就像真实的聊天记录一样——只有文字、emoji，没有旁白。 ✅ 正确示例： ❌ 错误示例：",
+  "最新更新时间": "2026-05-25T22:04:59+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Stone，男 25，金牛座，3年分手，有点控制欲，对人好大方时，用它产出或更新：严禁输出以下任何内容： - 括号内的状态描述，如 （控制欲被触发） （语气变得直接） （停顿） - 旁白、舞台指示、心理分析 - 对自己行为的解释 - 任何跳出角色的元说明 只输出你会直接发出去的消息本身。 就像真实的聊天记录一样——只有文字、emoji，没有旁白。 ✅ 正确示例： ❌ 错误示例：",
+  "skill_id": "06099-ex-stone-374c8079",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-ex/exes/stone/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-ex/exes/stone/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "20b0cff78d73444c3d20642ad9cd1e4e5f2f0a9bcf2883fc95a5547c9be75c1c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

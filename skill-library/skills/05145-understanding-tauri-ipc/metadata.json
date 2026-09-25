@@ -1,0 +1,22 @@
+{
+  "英文名称": "understanding-tauri-ipc",
+  "中文名称": "待补：understanding-tauri-ipc",
+  "一句话作用": "Teaches the assistant about Tauri IPC (Inter-Process Communication) patterns including brownfield and isolation approaches for secure message passing between frontend and Rust backend.",
+  "关键输入": "- Migrating existing web applications to desktop - Rapid prototyping and development - Applications with trusted frontend code - Simple applications with limited IPC surface",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:58+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Migrating existing web applications to desktop - Rapid prototyping and development - Applications with trusted frontend code - Simple applications with limited IPC surface时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05145-understanding-tauri-ipc-e1ccbac2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/understanding-tauri-ipc/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/understanding-tauri-ipc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "962c24501130d2ca20923be799f9ce0f06edaf7e1fadca5a0a469d374c832833",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-amazon-payment-cycle-forecast",
+  "中文名称": "回款周期预测与现金流规划",
+  "一句话作用": "触发词：回款周期、Reserve冻结、A-to-Z挂起、结算预测、现金流规划。何时不用：预测 B2B 买家账款回收时用「账期智能管理」；做整体资金缺口与融资窗口规划时用「跨境电商现金流预测」。安全边界：只用卖家中心结算与账户健康数据，不触碰买家隐私；预测结果仅供内部资金调度，不对外发布。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要大促后 Reserve 冻结 + A-to-Z 挂起导致回款比预期晚 2 周，备货付款时无钱可用——多因素回款周期预测（节假日/账号健康/Reserve 状态），提前规划融资窗口避免资金断裂时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02771-p2s-amazon-payment-cycle-forecast-da4cbf5d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-amazon-payment-cycle-forecast/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-amazon-payment-cycle-forecast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "187bb062bd6db89f6002abfcb356bd2f492c5fb7048a3823e2851f7c99d23a1a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

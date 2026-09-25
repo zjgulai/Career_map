@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-vectordb-production-engineering",
+  "中文名称": "待补：p2s-vectordb-production-engineering",
+  "一句话作用": "触发词：向量数据库、召回率、分片策略、P99 延迟、多模态检索。何时不用：单机索引参数调优走「HNSW 向量索引工程」；嵌入维度压缩走「Matryoshka 表示学习」。安全边界：商品图像与文本向量须来自授权数据，不得写入用户 PII。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要工程团队面临\"向量数据库召回质量随数据增长到千万量级后断崖下降\"——向量DB生产工程从索引参数/分片策略/ANN算法三层优化，千万级Recall@10从62%提升至88%，查询P99延迟降至80ms以内时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03996-p2s-vectordb-production-engineering-bcd01a47",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-vectordb-production-engineering/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-vectordb-production-engineering/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "38a0d359b49c663e9dbee10c721e6062c4daed465a8f6ca360c662e80b25f54d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

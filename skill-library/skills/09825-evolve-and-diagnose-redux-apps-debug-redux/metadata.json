@@ -1,0 +1,22 @@
+{
+  "英文名称": "evolve-and-diagnose-redux-apps/debug-redux-toolkit-apps",
+  "中文名称": "待补：evolve-and-diagnose-redux-apps/debug-redux-toolkit-apps",
+  "一句话作用": "Use this when debugging duplicate requests, stale cache behavior, broad subscriptions, selector churn, serializability warnings, or other Redux Toolkit and RTK Query bugs. Covers a practical event - reducer - selector -…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "If invalidation did not visibly refetch, check whether anything was still subscribed to that cache entry.",
+  "最新更新时间": "2026-07-11T20:45:38+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use this when debugging duplicate requests, stale cache behavior, broad subscriptions, selector churn, serializability warnings, or other Redux Toolkit and RTK Query bugs. Covers a practical event - reducer - selector -…时，用它产出或更新：If invalidation did not vi…",
+  "skill_id": "09825-evolve-and-diagnose-redux-apps-debug-redux-toolkit-apps-65e8e3c9",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/Reddit_VOC/ref/UI/momcozy-reddit-workbench/node_modules/@reduxjs/toolkit/skills/evolve-and-diagnose-redux-apps/debug-redux-toolkit-apps/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/Reddit_VOC/ref/UI/momcozy-reddit-workbench/node_modules/@reduxjs/toolkit/skills/evolve-and-diagnose-redux-apps/debug-redux-toolkit-apps/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a39ffa45df60759661417051dde2f7fd0b1cb7039071c4e155e903b9b3645da",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

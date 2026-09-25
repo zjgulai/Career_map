@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel",
+  "中文名称": "技能",
+  "一句话作用": "Excel 操作。数据处理、公式、表格操作。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Excel 操作。数据处理、公式、表格操作。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04855-excel-1f29a61a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/excel/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/excel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6110382403524c40d53105202cefe17aa7741dfb7fe368e7e1375e86dd2f21c4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

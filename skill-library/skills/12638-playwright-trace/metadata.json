@@ -1,0 +1,22 @@
+{
+  "英文名称": "playwright-trace",
+  "中文名称": "待补：playwright-trace",
+  "一句话作用": "Inspect Playwright trace files from the command line — list actions, view requests, console, errors, snapshots and screenshots.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "npx playwright trace action",
+  "最新更新时间": "2026-08-30T01:54:58+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Inspect Playwright trace files from the command line — list actions, view requests, console, errors, snapshots and screenshots.时，用它产出或更新：npx playwright trace action",
+  "skill_id": "12638-playwright-trace-588dbb4c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/surfaces/dsh-agent-team-gui-local/node_modules/.pnpm/playwright-core@1.62.1/node_modules/playwright-core/lib/tools/skills/playwright-trace/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/surfaces/dsh-agent-team-gui-local/node_modules/.pnpm/playwright-core@1.62.1/node_modules/playwright-core/lib/tools/skills/playwright-trace/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df85506bfa8a445c961efa1ac244cca733667b717711bcc99c1f93994c29d5dc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

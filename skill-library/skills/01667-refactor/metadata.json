@@ -1,0 +1,22 @@
+{
+  "英文名称": "refactor",
+  "中文名称": "待补：refactor",
+  "一句话作用": "Intelligent refactor command. Triggers: refactor, refactoring, cleanup, restructure, extract, simplify, modernize.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "\\\\\\ background output(task id=\"[agent 1 id]\") background output(task id=\"[agent 2 id]\") ... \\\\\\ Mark phase-1 as completed after all results collected. ---",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Intelligent refactor command. Triggers: refactor, refactoring, cleanup, restructure, extract, simplify, modernize.时，用它产出或更新：\\\\\\ background output(task id=\"[agent 1 id]\") background output(task id=\"[agent 2 id]\") ... \\\\\\ Mark phase-1 as completed after all…",
+  "skill_id": "01667-refactor-f0665428",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/dist/skills/refactor/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/dist/skills/refactor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "31bd5c62f1b9075552768362b1a413b74e1f8f0bb1f78c6ff49e16d6e8f7b988",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

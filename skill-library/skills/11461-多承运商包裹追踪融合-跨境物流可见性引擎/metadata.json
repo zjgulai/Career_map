@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multicarrier-parcel-tracking-fusion",
+  "中文名称": "多承运商包裹追踪融合 跨境物流可见性引擎",
+  "一句话作用": "触发词：多承运商、轨迹融合、物流可见性、异常预警、承诺时效优化。何时不用：需要把轨迹做成可视化与客服答复素材时用 AR 物流可视化；需要基于轨迹异常识别欺诈时用物流轨迹欺诈信号。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要客服团队面临跨境包裹查询效率低——多承运商融合追踪将异常件主动预警率提升至94%，客诉率降低45%，年化节省人工18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11461-p2s-multicarrier-parcel-tracking-fusion-da09e10c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-multicarrier-parcel-tracking-fusion/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-multicarrier-parcel-tracking-fusion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "51829d86391df595cdbe300e20466f0229fd4e535cd68e6cb3d58091e25669a4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

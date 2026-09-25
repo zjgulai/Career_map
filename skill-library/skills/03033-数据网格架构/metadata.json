@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-data-mesh-ecommerce",
+  "中文名称": "数据网格架构",
+  "一句话作用": "触发词：数据网格、数据产品、指标契约、联邦治理、域自治。何时不用：数据团队规模小、只是几张表口径打架时先用数据契约与数据目录；本技能是组织加架构的双重变革，不适合小团队起步。安全边界：联邦治理必须统一 PII 标记与访问审计，各域不得各自解读 GDPR；域边界未评审前不要复制数据产品。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据平台团队面临\"各部门数据孤岛导致跨域分析效率低下\"——数据网格架构将跨域数据请求响应时间从5天降至4小时，年化提升数据驱动决策效率节省30-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03033-p2s-data-mesh-ecommerce-a7a733c9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-data-mesh-ecommerce/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-data-mesh-ecommerce/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b93291ccf30e7bf80f78ff75f9fc6786005f29924bfde2004270a426deaab10",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

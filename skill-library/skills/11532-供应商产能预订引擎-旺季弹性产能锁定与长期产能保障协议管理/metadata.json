@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-capacity-booking-engine",
+  "中文名称": "供应商产能预订引擎 旺季弹性产能锁定与长期产能保障协议管理",
+  "一句话作用": "触发词：产能预订、旺季锁产能、软硬期权、情景分析。何时不用：没有可用需求分布或情景假设时无法计算；已有确定订单、只需在工厂间分配时用多工厂分配类技能。安全边界：预订量与条款建议须人工核对后再对外承诺。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购面临\"旺季前竞争对手抢光工厂产能导致断货\"——双期权策略(硬预订+软期权)提前锁定产能，防止旺季断货损失35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11532-p2s-supplier-capacity-booking-engine-8c0082d5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supplier-capacity-booking-engine/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supplier-capacity-booking-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d2e3f7fa22f65b7e7490df7b5c496fe77a7b5527426ec3285957ef2bc2a21fa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

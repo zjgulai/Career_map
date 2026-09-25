@@ -1,0 +1,22 @@
+{
+  "英文名称": "kimi-design-skill",
+  "中文名称": "待补：kimi-design-skill",
+  "一句话作用": "Use when generating, modifying, or reviewing Kimi-style Web UI, and draft Kimi-style Mobile UI. This skill applies Kimi design principles, design tokens, and platform-specific component rules with progressive disclosure.",
+  "关键输入": "- Principles take precedence over tokens. When a token value contradicts a principle (e.g., a color fails contrast under Quiet Utility, or a typography size breaks Platform Fit), follow the principle and record the token gap. Both principles.md and tokens.jso…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T17:52:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use when generating, modifying, or reviewing Kimi-style Web UI, and draft Kimi-style Mobile UI. This skill applies Kimi design principles, design tokens, and platform-specific component rules with progressive disclosure.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06184-kimi-design-skill-98ff94a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/kimi-design-skill/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/kimi-design-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f50c710dd940f9b0e9a8815d2991beee19076ff1cb6c555e25a4ae66e3c3637",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

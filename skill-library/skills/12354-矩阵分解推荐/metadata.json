@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-matrix-factorization",
+  "中文名称": "矩阵分解推荐)",
+  "一句话作用": "触发词：矩阵分解、协同过滤、隐因子、召回、复购推荐。何时不用：行为数据稀疏到矩阵分解训不动时用「对比学习序列推荐」；要按商品属性图做零样本推荐用「图基础模型推荐」。安全边界：隐因子与用户向量属个人信息衍生数据，须脱敏存储并按授权范围使用，不得对外输出或用于站外投放。",
+  "关键输入": "输入 ：用户—商品交互矩阵（购买或评分记录，卡页示例为 3 个站点 120 万活跃用户、1200 件 SKU、半年 280 万条购买记录，并按 70% 历史与最近 30 天 30% 切分）；粒度为用户 × 商品。 输出 ：每个用户的 Top-N 推荐列表与召回率、CTR、复购率、覆盖率等评估指标；供推荐工程上线召回层并做效果对比。",
+  "关键输出": "输入 ：用户—商品交互矩阵（购买或评分记录，卡页示例为 3 个站点 120 万活跃用户、1200 件 SKU、半年 280 万条购买记录，并按 70% 历史与最近 30 天 30% 切分）；粒度为用户 × 商品。 输出 ：每个用户的 Top-N 推荐列表与召回率、CTR、复购率、覆盖率等评估指标；供推荐工程上线召回层并做效果对比。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：矩阵分解、协同过滤、隐因子、召回、复购推荐。何时不用：行为数据稀疏到矩阵分解训不动时用「对比学习序列推荐」；要按商品属性图做零样本推荐用「图基础模型推荐」。安全边界：隐因子与用户向量属个人信息衍生数据，须脱敏存储并按授权范围使用，不得对外输出或用于站外投放。时，用它产出或更新：输入 ：用户—商品交互矩阵（购买或评分记录，卡页示例为 3 个站点 120 万活跃用户、1200 件 SKU、半年 280 万条购买记录，并按 70% 历史与最近 30 天 30% 切分）；粒度为用户 × 商品。 输出 ：每个…",
+  "skill_id": "12354-p2s-matrix-factorization-70524e74",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-matrix-factorization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-matrix-factorization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "73d64eb37d7e4585c9d7f32f51670a66aa7a579bcf07c96e1dcf7e7afa248c59",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

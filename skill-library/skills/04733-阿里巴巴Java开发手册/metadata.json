@@ -1,0 +1,22 @@
+{
+  "英文名称": "ataopro-alibaba-java-coding-guidelines",
+  "中文名称": "阿里巴巴Java开发手册",
+  "一句话作用": "阿里巴巴Java开发手册（阿里开发规范），用于代码规范检查和指导开发。当用户需要检查Java代码是否符合阿里开发规范时调用此技能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-02-20",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要阿里巴巴Java开发手册（阿里开发规范），用于代码规范检查和指导开发。当用户需要检查Java代码是否符合阿里开发规范时调用此技能。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04733-ataopro-alibaba-java-coding-guidelines-feb3f4d7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ataopro-alibaba-java-coding-guidelines/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ataopro-alibaba-java-coding-guidelines/SKILL.md",
+  "date_source": "frontmatter.date",
+  "content_hash": "c3b44929d74e9630dc98b5ff301291ef8c06627eb94be09246227e14c8efeadc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper2skills-ps-override",
+  "中文名称": "待补：paper2skills-ps-override",
+  "一句话作用": "为 paper2skills Skill 卡片批量生成业务导向的 problem solved 句， 写入 skill ps override.yaml。触发场景：「写业务语言」「ps override」 「problem solved 重写」「WARN dup ps」「新增 Skill 的业务描述」。 封装了 3 天内重复添加 ~30 条的固定写作流程。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-10T11:07:49+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要为 paper2skills Skill 卡片批量生成业务导向的 problem solved 句， 写入 skill ps override.yaml。触发场景：「写业务语言」「ps override」 「problem solved 重写」「WARN dup ps」「新增 Skill 的业务描述」。 封装了 3 天内重复添加 ~30 条的固定写作流程。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01895-paper2skills-ps-override-bff9cc5a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/paper2skills-ps-override/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/paper2skills-ps-override/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7bb30d825c26c0530e379d879ed639d7325aa166d0c29daf75c6a30915709f84",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

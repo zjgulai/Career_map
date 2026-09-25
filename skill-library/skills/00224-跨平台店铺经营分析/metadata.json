@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-store-analysis-new",
+  "中文名称": "跨平台店铺经营分析",
+  "一句话作用": "当用户需要分析淘宝、天猫、抖店、京东、拼多多或 1688 店铺的整体经营状况时使用本 Skill。典型场景：查看店铺经营数据、生成经营周报/月报、分析 GMV/流量/订单/转化趋势、对比多平台或多店铺经营表现、导出经营原始数据。只要用户诉求涉及“店铺经营分析、经营报告、周报/月报、GMV、流量、订单、转化”等内容，无论单平台还是多平台、单店铺还是多店铺，即应加载本 Skill。用户在店铺相关诉求中附带任何 URL 时，URL 输入完全…",
+  "关键输入": "- 归一前先整段移除店铺相关 URL；平台、店铺名、商品/分类范围只取 Router plan 和 URL 之外的用户文本，禁止回访 URL 补全信息。 - 平台未指定时属于平台意图不明确：必须先 ask user(mode=\"form\") 只问平台（选项为 taobao,tmall,doudian,jd,pdd,1688 对应的平台名并附「全部平台」，允许多选），拿到答复后再发起账号发现；禁止未追问就默认全平台。 - 平台别名：淘宝/千牛、天猫/Tmall、抖店/抖音/罗盘、京东/京麦、拼多多/PDD、1688…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要当用户需要分析淘宝、天猫、抖店、京东、拼多多或 1688 店铺的整体经营状况时使用本 Skill。典型场景：查看店铺经营数据、生成经营周报/月报、分析 GMV/流量/订单/转化趋势、对比多平台或多店铺经营表现、导出经营原始数据。只要用户诉求涉及“店铺经营分析、经营报告、周报/月报、GMV、流量、订单、转化”等内容，无论单平台还是多平台、单店铺还是多店铺，即应加载本 Skill。用户在店铺相关诉求中附带任何 URL 时，URL 输入完全…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00224-multi-platform-store-analysis-new-32c397f9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-store-analysis-new/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-store-analysis-new/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "947bd02a1dd2d8ebab84f870fe5c6dd95a5ecc9f8fa5c83514b3535b5f98b7b5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

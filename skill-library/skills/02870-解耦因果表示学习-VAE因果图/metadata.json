@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-representation-disentangle",
+  "中文名称": "解耦因果表示学习（VAE因果图）",
+  "一句话作用": "触发词：解耦表示学习、因果因子提取、因子效应估计、评论多因子归因、可识别性验证。何时不用：要做的是源域到目标域的特征对齐迁移时用「因果表示学习跨域迁移」；要学环境不变潜变量做跨市场迁移时用「因果表示学习」。安全边界：因子语义须由领域专家验证，结论不可直接当上线模型。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据科学家面临\"特征空间中因果因子与混淆因子纠缠导致模型跨市场泛化性差\"——解耦因果表示学习将跨市场模型迁移性能提升30%，年化减少新市场模型重训练成本15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02870-p2s-causal-representation-disentangle-103d2759",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-representation-disentangle/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-representation-disentangle/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be685c5292a24c87edd9f07c1f6e9dfeddacbf017d4fd4df8fa0735e76f5ba62",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

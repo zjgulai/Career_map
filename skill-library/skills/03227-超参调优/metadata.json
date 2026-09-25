@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hyperparameter-optimization",
+  "中文名称": "超参调优）",
+  "一句话作用": "触发词：超参调优、Optuna、贝叶斯优化、网格搜索、加权损失、销量预测。何时不用：模型结构选型或特征工程问题不要用调参掩盖；要在给定模型上按业务损失（如库存成本）搜出更优超参时用本卡。安全边界：调参须在固定验证集与业务约束下进行，不得用测试集反复试参造成过拟合，业务损失函数须经业务确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要默认参数的 XGBoost 流失预测 AUC=0.78，希望通过超参调优提升到 0.82+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03227-p2s-hyperparameter-optimization-258a84e2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-hyperparameter-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-hyperparameter-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "038125326f680db42a810a534752efc46cca58a5b71ae85a1a22553c511f3775",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

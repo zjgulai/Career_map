@@ -1,0 +1,22 @@
+{
+  "英文名称": "github-gem-seeker",
+  "中文名称": "现成方案猎手",
+  "一句话作用": "先搜 GitHub 上经久经考验的开源项目而不是自己写，按 stars 与维护度分四级选型并直接解决问题。触发词：找开源方案、GitHub 搜索、别重复造轮子、选开源库、gem seeker、github-gem-seeker。何时不用：用于问题通用、开源已有成熟解的场景；需求本身不清晰或属于业务专有逻辑时先澄清需求，装插件与做安装前评估用 dsh-plugin-acquire。",
+  "关键输入": "这一步才是重点。 装上工具，用它解决用户真正的问题： 1. 安装选定的工具（pip、npm、apt 或直接下载） 2. 用用户的输入 / 文件把它跑起来 3. 把结果交付给用户 4. 需要时排障 —— 反复迭代直到解决",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T15:30:52+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要这一步才是重点。 装上工具，用它解决用户真正的问题： 1. 安装选定的工具（pip、npm、apt 或直接下载） 2. 用用户的输入 / 文件把它跑起来 3. 把结果交付给用户 4. 需要时排障 —— 反复迭代直到解决时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10984-github-gem-seeker-597e7750",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-ddc7a3f1/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/github-gem-seeker/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-ddc7a3f1/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/github-gem-seeker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "213c17352a62f5974e75c7c8db3d464c673a2649bf150c7438d43d8c38e0974a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

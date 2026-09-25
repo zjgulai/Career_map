@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-speculative-rag",
+  "中文名称": "推测性检索加速框架",
+  "一句话作用": "触发词：推测性检索、RAG 延迟、高并发、草稿模型、吞吐提升。何时不用：同批查询重复导致的慢走「语义缓存 RAG 加速」；向量检索索引本身慢走「HNSW 向量索引工程」。安全边界：小模型草稿答案必须经大模型或校验规则验证后才能返回，不得直接对客输出未经验证的内容。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要工程团队面临大促高并发知识库响应延迟800ms导致体验差——Speculative-RAG将延迟降至320ms(-60%)，大促期间系统不崩溃，年化保护GMV约80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12126-p2s-speculative-rag-7e350714",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-speculative-rag/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-speculative-rag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e42b7e9aac00a57a583e484ee35796e3f76bfd979b0d824de7bb72be017bca97",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-geo-holdout-experiment",
+  "中文名称": "实验 地理区域控制实验消除网络效应偏差",
+  "一句话作用": "触发词：Geo实验、地理对照、DMA配对、增量测量、平台归因高估。何时不用：能做用户级随机分流时用A/B实验设计（更省成本、灵敏度更高）。安全边界：仅用聚合地区数据、不涉个人标识；控制组不投放前须确认平台条款（Meta允许Brand Lift、TikTok需白名单）。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要市场团队面临\"平台归因虚高23%实际增量仅11%导致广告预算严重误分配\"——Geo地理控制实验揭示真实增量，年化优化广告预算效率约100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03167-p2s-geo-holdout-experiment-5106799f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-geo-holdout-experiment/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-geo-holdout-experiment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8487ccfb72b032a1686cfc948985afaddeadd491ce0a9740ba67aceda923232b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

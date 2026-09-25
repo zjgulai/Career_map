@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-signal-uncertainty-quantification-sc",
+  "中文名称": "供应链信号不确定性量化 从点预测到区间估计支撑置信度分层决策",
+  "一句话作用": "触发词：不确定性量化、预测区间、共形预测、置信分层、覆盖率校准。何时不用：已有置信度分数但系统性偏高、只需校准时用置信度校准技能；只要一个采购数量、不需要风险区间时用补货与库存类技能。安全边界：区间只反映模型不确定性，不替代安全库存与合规判据，高风险品类须用更高覆盖级别并人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要决策者面临\"AI给出建议但不知道置信度导致盲目执行\"——Conformal Prediction量化不确定性为可靠区间，高置信度自动执行、低置信度升级审核，减少错误决策50%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12116-p2s-signal-uncertainty-quantification-sc-33518690",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-signal-uncertainty-quantification-sc/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-signal-uncertainty-quantification-sc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f97659b13fe21b88ba6d670717fa11e890a2e5c8439b1fa68486f7edae90596e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "supply-chain-security",
+  "中文名称": "待补：supply-chain-security",
+  "一句话作用": "Use for software supply-chain security assessment covering SBOM, SCA, CI/CD pipelines, container images, build integrity, dependency provenance, and vulnerability reachability.",
+  "关键输入": "- 软件供应链安全评估 - 开源依赖漏洞扫描与验证 - CI/CD 管道安全审计 - 容器镜像安全分析 - 第三方组件合规审查 - 构建产物溯源与完整性验证",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 软件供应链安全评估 - 开源依赖漏洞扫描与验证 - CI/CD 管道安全审计 - 容器镜像安全分析 - 第三方组件合规审查 - 构建产物溯源与完整性验证时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02098-supply-chain-security-27cfcc02",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/supply-chain-security/SKILL.md",
+  "relative_path": "lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/supply-chain-security/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "21071161959f58aadfec2a0c6ccb4bdec6837af3df34fcaa988c7e6ccae42a33",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

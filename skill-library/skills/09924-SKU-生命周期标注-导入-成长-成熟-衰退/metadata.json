@@ -1,0 +1,22 @@
+{
+  "英文名称": "SKU 生命周期标注（导入/成长/成熟/衰退）",
+  "中文名称": "待补：SKU 生命周期标注（导入/成长/成熟/衰退）",
+  "一句话作用": "当已有销量时间序列或周度销量斜率、需将 SKU 标注为导入/成长/成熟/衰退以驱动归因或退场策略时调用；依赖 ERP 或报表数据。",
+  "关键输入": "- 至少 12 周 周销量或等价的日聚合；促销大促周需标注或剔除。 - 与 sku-health-scanner 使用同一 SKU 键 与 市场维度 。",
+  "关键输出": "- 表：sku market phase confidence key metrics notes - 摘要 ：各阶段 SKU 数量与 GMV 占比（若提供金额字段）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要当已有销量时间序列或周度销量斜率、需将 SKU 标注为导入/成长/成熟/衰退以驱动归因或退场策略时调用；依赖 ERP 或报表数据。时，用它产出或更新：- 表：sku market phase confidence key metrics notes - 摘要 ：各阶段 SKU 数量与 GMV 占比（若提供金额字段）。",
+  "skill_id": "09924-sku-dee4653b",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/product-manage/sku-lifecycle-classifier/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/product-manage/sku-lifecycle-classifier/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "81d22226cf5b869f5b9332746fa8a240c27ecf6909634b5794613a8d2c567357",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

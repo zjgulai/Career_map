@@ -1,0 +1,22 @@
+{
+  "英文名称": "cocoloop",
+  "中文名称": "管理器",
+  "一句话作用": "一个更快速、更安全的 Skill 管理器，用于安装、管理、更新和卸载 Skills。优先使用当用户需要安装 skill、更新 skill、卸载 skill、管理 skills 或进行 skill 安全检查时。支持通过 URL、名称搜索、GitHub 等多种方式定位并安装 skills，集成 BSS 安全认证系统。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:42:08+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要一个更快速、更安全的 Skill 管理器，用于安装、管理、更新和卸载 Skills。优先使用当用户需要安装 skill、更新 skill、卸载 skill、管理 skills 或进行 skill 安全检查时。支持通过 URL、名称搜索、GitHub 等多种方式定位并安装 skills，集成 BSS 安全认证系统。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02492-cocoloop-0b285dfc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/cocoloop/SKILL.md",
+  "relative_path": "lute/.dsh/skills/cocoloop/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07898572311d0f1655cdb32d76ef43aad9a9b45609eabf2f74a594d966e27673",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

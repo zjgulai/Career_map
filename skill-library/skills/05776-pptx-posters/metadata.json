@@ -1,0 +1,22 @@
+{
+  "英文名称": "pptx-posters",
+  "中文名称": "待补：pptx-posters",
+  "一句话作用": "Create research posters using HTML/CSS that can be exported to PDF or PPTX. Use this skill ONLY when the user explicitly requests PowerPoint/PPTX poster format. For standard research posters, use latex-posters instead.…",
+  "关键输入": "⚠️ ALL text within AI-generated visualizations MUST be poster-readable. When generating graphics for posters, you MUST include font size specifications in EVERY prompt. Poster graphics are viewed from 4-6 feet away, so text must be LARGE. MANDATORY prompt req…",
+  "关键输出": "python scripts/generate schematic.py \"POSTER FORMAT for A0. SIMPLE bar chart with ONLY 3 bars: BASELINE (70%), EXISTING (85%), OURS (95%). GIANT percentages ON bars (120pt+). NO axis, NO legend. 50% white space.\" -o figures/results.png",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要ONLY use this skill when: - User explicitly requests \"PPTX poster\", \"PowerPoint poster\", or \"PPT poster\" - User specifically asks for HTML-based poster - User needs to edit poster in PowerPoint after creation - LaTeX is…时，用它产出或更新：python scripts/generate sc…",
+  "skill_id": "05776-pptx-posters-e0c98452",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pptx-posters/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pptx-posters/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5e3ce780aa762a5f6be8642d4e247eb12d0aa4a98098d43e81ffce863d816fd1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

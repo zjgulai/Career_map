@@ -1,0 +1,8 @@
+{
+  "protocol_id": "B01-BLIND-01",
+  "lock_state": "独立金标已锁定",
+  "gold_sha256": "填写拟议金标复核并定稿后的 SHA-256。",
+  "independent_reviewer_reference": "填写未参与本轮候选实现和原有标签设计的复核责任标识。",
+  "locked_at": "填写锁定时间，例如 2026-09-23T16:00:00+08:00。",
+  "lock_note": "独立复核人确认金标版本、歧义处理记录和固定门槛后再创建实际 gold_label_lock.json。"
+}

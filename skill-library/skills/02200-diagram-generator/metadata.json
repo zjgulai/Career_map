@@ -1,0 +1,22 @@
+{
+  "英文名称": "diagram-generator",
+  "中文名称": "待补：diagram-generator",
+  "一句话作用": "generate, refine, validate, and render diagrams from natural language, notes, code snippets, schemas, tables, or existing diagram source. use for flowcharts, swimlanes, sequence diagrams, state diagrams, er diagrams, cl…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Always provide editable source unless the user explicitly asks only for an image. - Default to a single best diagram. Offer alternatives only when genuinely useful. - Prefer stable, simple syntax over fancy features that may not render in older Mermaid/Plan…",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要generate, refine, validate, and render diagrams from natural language, notes, code snippets, schemas, tables, or existing diagram source. use for flowcharts, swimlanes, sequence diagrams, state diagrams, er diagrams, cl…时，用它产出或更新：- Always provide editable…",
+  "skill_id": "02200-diagram-generator-4e17ccde",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/diagram-generator/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/diagram-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ed02e5d9f08db6c8648d8311bab7a45af14751b5e594a9b37240878dd72de0c7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

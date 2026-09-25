@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudflare-workers",
+  "中文名称": "待补：cloudflare-workers",
+  "一句话作用": "Comprehensive guide for building serverless applications with Cloudflare Workers. Use when developing Workers, configuring bindings, implementing runtime APIs, testing Workers, using Wrangler CLI, deploying to productio…",
+  "关键输入": "Use this skill when: - Creating new Cloudflare Workers applications - Configuring Worker bindings (D1, KV, R2, Durable Objects, etc.) - Implementing Worker runtime APIs (fetch, cache, HTMLRewriter, WebSockets) - Writing…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Creating new Cloudflare Workers applications - Configuring Worker bindings (D1, KV, R2, Durable Objects, etc.) - Implementing Worker runtime APIs (fetch, cache, HTMLRewriter, WebSockets) - Writing…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04768-cloudflare-workers-e70404c3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/cloudflare-workers/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/cloudflare-workers/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "177b2c7b89888bca0fdfc0dee6da16c31d33cc5afdaeabbff196573ae2951ea2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

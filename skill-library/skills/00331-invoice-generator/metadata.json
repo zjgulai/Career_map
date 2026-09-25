@@ -1,0 +1,22 @@
+{
+  "英文名称": "invoice-generator",
+  "中文名称": "待补：invoice-generator",
+  "一句话作用": "Automate the generation of tax-compliant, branded PDF invoices for B2B and B2C orders, ensuring sequential numbering and legal data retention.",
+  "关键输入": "Many jurisdictions (e.g., Germany - GoBD, France) require invoices to be archived in an unalterable format (WORM - Write Once, Read Many) for 6 to 10 years . Ensure your storage solution (e.g., AWS S3 with Object Lock or a dedicated document management system…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:29+08:00",
+  "业务场景": "payments-checkout",
+  "解决具体问题": "当需要- When customers repeatedly request invoices for their accounting departments. - When building B2B ecommerce workflows where net-terms or bank transfers require a formal \"Request for Payment.\" - When complying with EU V…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00331-invoice-generator-65a17698",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/invoice-generator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/invoice-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2c9065c34a0a6bb3be27674e02a1e8b532d25cf866492a35fb1b9e701e281ccc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

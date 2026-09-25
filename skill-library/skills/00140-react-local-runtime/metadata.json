@@ -1,0 +1,22 @@
+{
+  "英文名称": "react-local-runtime",
+  "中文名称": "待补：react-local-runtime",
+  "一句话作用": "Create, extend, build, run, and inspect local React/Vite projects using scripts/site.js without MCP. Local preview is Vite-only; api/ route verification happens in the target backend/runtime environment after site publi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When reporting a local preview URL in a user-facing response: - Render it as an explicit Markdown link and use only the exact URL returned by the preview operation as the link destination. - Match the user's current conversation language and tone for the link…",
+  "最新更新时间": "2026-09-18T02:00:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create, extend, build, run, and inspect local React/Vite projects using scripts/site.js without MCP. Local preview is Vite-only; api/ route verification happens in the target backend/runtime environment after site publi…时，用它产出或更新：When reporting a local pre…",
+  "skill_id": "00140-react-local-runtime-31518da6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/react-local-runtime/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/react-local-runtime/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f77e14f6dea5fe254e5d4e933e0e991de990bb8b32e7fd758a0d4b7120d699c4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

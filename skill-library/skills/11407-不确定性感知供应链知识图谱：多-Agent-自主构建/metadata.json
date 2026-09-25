@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-helicase-supply-chain-kg-mas",
+  "中文名称": "不确定性感知供应链知识图谱：多 Agent 自主构建",
+  "一句话作用": "触发词：多跳溯源、供应商调研、不确定性评分、图谱构建。何时不用：只需一级供应商信息时不必用多 Agent 调查，常规检索即可；不需要沉淀图谱的一次性调研也不适用。安全边界：仅使用公开数据源，不采集非公开数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：母婴品牌（奶粉/辅食）需追踪\"原料→供应商→工厂→认证机构\"多跳关系，人工调研一家供应商需 3-5 天，百家供应商无法覆盖时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11407-p2s-helicase-supply-chain-kg-mas-7592ec4d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-helicase-supply-chain-kg-mas/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-helicase-supply-chain-kg-mas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cef2c3c0550f487bbdb93260c454cdcc597cc327f7cd8ee19676fd5054b81029",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

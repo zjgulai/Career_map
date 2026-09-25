@@ -1,0 +1,22 @@
+{
+  "英文名称": "inspect-dropbox-file",
+  "中文名称": "待补：inspect-dropbox-file",
+  "一句话作用": "Inspect a Dropbox file or folder by checking metadata, shared links, and file content when needed. Use when the user asks what a file is, whether it is shared, when it changed, what access links exist, or asks to read/a…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Summarize only the details relevant to the user request. Include: - Name and path - File or folder type - Size and modified time when available - Sharing/link status when relevant, including whether shared-link pagination is complete - Version-history limitat…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Inspect a Dropbox file or folder by checking metadata, shared links, and file content when needed. Use when the user asks what a file is, whether it is shared, when it changed, what access links exist, or asks to read/a…时，用它产出或更新：Summarize only the details…",
+  "skill_id": "00816-inspect-dropbox-file-0ba8f6be",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/dropbox/skills/inspect-dropbox-file/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/dropbox/skills/inspect-dropbox-file/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de44c9809c8d498823ed5130f49494de9b161c85812bd741aaf709b0861dcf9f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

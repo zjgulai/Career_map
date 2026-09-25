@@ -1,0 +1,22 @@
+{
+  "英文名称": "funding-digest",
+  "中文名称": "待补：funding-digest",
+  "一句话作用": "Generate a polished one-page PowerPoint slide summarizing key takeaways from recent funding rounds and notable capital markets activity across a user's watched sectors or companies. Use this skill when the user asks for…",
+  "关键输入": "Trigger on any of these patterns: - \"Give me a deal flow digest for this week\" - \"Weekly funding recap for [sector]\" - \"What deals closed in [sector/companies] recently?\" - \"Transaction roundup\" or \"deal roundup\" - \"Cap…",
+  "关键输出": "If get rounds of funding from identifiers returns empty for a company you expect to have data: 1. Try the legal entity name or company id. Brand names usually work, but some don't. See the alias table in references/sector-seeds.md for known mismatches. Common…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Trigger on any of these patterns: - \"Give me a deal flow digest for this week\" - \"Weekly funding recap for [sector]\" - \"What deals closed in [sector/companies] recently?\" - \"Transaction roundup\" or \"deal roundup\" - \"Cap…时，用它产出或更新：If get rounds of funding f…",
+  "skill_id": "05548-funding-digest-45a90339",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/spglobal/skills/funding-digest/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/spglobal/skills/funding-digest/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fb8deac493b39d2a7449725091c6e7c982d184a9c2c69327da4cff60489e951b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

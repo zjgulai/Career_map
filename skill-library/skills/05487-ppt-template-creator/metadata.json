@@ -1,0 +1,22 @@
+{
+  "英文名称": "ppt-template-creator",
+  "中文名称": "待补：ppt-template-creator",
+  "一句话作用": "Creates self-contained PPT template SKILLS (not presentations) from user-provided PowerPoint templates. Use ONLY when a user wants to create a reusable skill from their template. For creating actual presentations, use t…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Generate a sample presentation to validate the skill works. Save it alongside the skill for reference.",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Creates self-contained PPT template SKILLS (not presentations) from user-provided PowerPoint templates. Use ONLY when a user wants to create a reusable skill from their template. For creating actual presentations, use t…时，用它产出或更新：Generate a sample presenta…",
+  "skill_id": "05487-ppt-template-creator-e93ad5cd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/ppt-template-creator/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/ppt-template-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a117a538e70a2cf4f242a923b57651db15e2f945191352207bfd9d0464db6ef9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

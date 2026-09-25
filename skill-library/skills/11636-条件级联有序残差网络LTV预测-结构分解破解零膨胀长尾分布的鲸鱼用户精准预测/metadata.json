@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cc-or-net-ltv-prediction",
+  "中文名称": "条件级联有序残差网络LTV预测 结构分解破解零膨胀长尾分布的鲸鱼用户精准预测",
+  "一句话作用": "触发词：LTV 预测、鲸鱼用户、零膨胀长尾、分桶回归、用户分层、有序残差。何时不用：用 BG/NBD 判断用户是否还活跃用 BTYD 那张卡；要在零膨胀长尾分布下精准预测高价值用户 LTV 时用本卡。安全边界：不得基于敏感属性或地域做差异化定价，VIP 权益仅可私域触达，平台禁止对 VIP 公开不同价格。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要传统LTV模型在零膨胀长尾分布上鲸鱼用户预测MAPE高达60%因为低LTV用户梯度淹没高价值信号——CC-OR-Net结构分解（有序排名+桶内回归+P99+增强）在3亿用户真实数据上全面超越SOTA，鲸鱼用户识别率从40%提升至75%（2026 arXiv:2601.10176）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11636-p2s-cc-or-net-ltv-prediction-a0b1f620",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-cc-or-net-ltv-prediction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-cc-or-net-ltv-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "64c072d563c4508a5994a328480e5223db92da8ad2ddca6e06342679e0d08cbd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

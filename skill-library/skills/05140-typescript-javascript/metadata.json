@@ -1,0 +1,22 @@
+{
+  "英文名称": "typescript-javascript",
+  "中文名称": "待补：typescript-javascript",
+  "一句话作用": "TypeScript and JavaScript development standards for modern web and Node.js development. Covers strict TypeScript configuration, type safety patterns, ESM modules, async/await, testing with Jest/Vitest, and security best…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:09+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要TypeScript and JavaScript development standards for modern web and Node.js development. Covers strict TypeScript configuration, type safety patterns, ESM modules, async/await, testing with Jest/Vitest, and security best…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05140-typescript-javascript-e0b86f5d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/typescript-javascript/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/typescript-javascript/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0633a50fe396060d016d87d600a5ff58a9c3c3eb074a5bd9dedd9a013fe3e6a6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

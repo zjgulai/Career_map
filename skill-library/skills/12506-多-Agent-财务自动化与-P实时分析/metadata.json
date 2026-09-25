@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-finance-autopilot",
+  "中文名称": "多 Agent 财务自动化与 P实时分析",
+  "一句话作用": "触发词：财务自动化、P&L 实时分析、多 Agent 周报、差异归因、三平台汇总。何时不用：只做单月 SKU 级成本拆解用「SKU 级 P&L 归因 Agent」；只看广告费与利润关系用「广告 TACoS 与 P&L 集成」。安全边界：Agent 只产出分析与建议，付款、报税与调价动作须人工确认；财务数据不得外传第三方模型。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要财务专员每周手工汇总三平台数据耗时 3 小时且错误率高——FinRobot 多 Agent CoA 架构将 P&L 周报自动化，处理时间降低 40%、错误率降低 94%，年化节省 ¥8-20 万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12506-p2s-agent-finance-autopilot-b5fa528d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-agent-finance-autopilot/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-agent-finance-autopilot/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "317dbcb668ec32d477889e38f6471f9aa544f180c0a2b0170dc6b42c40b69a58",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

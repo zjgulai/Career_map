@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-semantic-chunking-strategy",
+  "中文名称": "语义分块策略 管道的基础层",
+  "一句话作用": "触发词：语义分块、RAG 分块、详情页切分、话题边界检测、检索片段切块。何时不用：知识已入库、要评检索命中与回答质量时走数据质量侧的 RAG 质量评测；要判断知识是否过期走知识时效类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴出海电商的 Amazon Listing 商品详情页通常包含多个话题段落：产品特性（Safety Features）、使用说明（How to Use）、注意事项（Warnings）、规格参数（Specifications）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12114-p2s-semantic-chunking-strategy-09db127b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-semantic-chunking-strategy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-semantic-chunking-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "586c1e63951535069d9205dac1527f0a1d5f3a1e2d44796438f823e584761584",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

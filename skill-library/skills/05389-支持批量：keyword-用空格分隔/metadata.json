@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencentads-delivery-smart-create",
+  "中文名称": "支持批量：keyword 用空格分隔",
+  "一句话作用": "专用于创建智投(AIM+)营销单元（原广告组）的 SDK 化技能。当用户意图涉及智投、AIM+、艾米、智能投放、自动投放、小店智投、smart delivery 的 创建 场景时，使用本技能。覆盖场景：小店艾米、商品艾米、线索艾米、内容艾米、APP艾米(游戏/阅读/AI应用)、小游戏跑量、爆剧跑量、小说智投、全域通、视频号直播智投等。本技能通过专用脚本（而非全局 CLI 工具）调用 API，脚本已处理复杂分支、字段过滤和数据转换。",
+  "关键输入": "脚本调用格式为 node scripts/ .mjs ' '，但 JSON 参数的引号包裹方式因操作系统/终端而异 ，传递不当会导致 JSON.parse 报错（如 Expected property name or '}' in JSON at position 1）。 终端环境 正确写法 说明 --------- --------- ------ Linux / macOS (Bash/Zsh) node scripts/xxx.mjs '{\"key\":\"value\"}' ✅ 单引号包裹，内部双引号原样保留",
+  "关键输出": "node scripts/get-targeting-lookup.mjs '{\"type\":\"device\",\"keyword\":\"华为\"}' { \"results\": [ {\"id\": 440000, \"name\": \"广东省\", \"level\": \"province\", \"city level\": 4} ] } { \"results\": [ {\"id\": 10001, \"name\": \"华为 Mate 60\"}, {\"id\": 10002, \"name\": \"华为 P60\"} ] }",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要专用于创建智投(AIM+)营销单元（原广告组）的 SDK 化技能。当用户意图涉及智投、AIM+、艾米、智能投放、自动投放、小店智投、smart delivery 的 创建 场景时，使用本技能。覆盖场景：小店艾米、商品艾米、线索艾米、内容艾米、APP艾米(游戏/阅读/AI应用)、小游戏跑量、爆剧跑量、小说智投、全域通、视频号直播智投等。本技能通过专用脚本（而非全局 CLI 工具）调用 API，脚本已处理复杂分支、字段过滤和数据转换。时，用它产出或更新：node scripts/get-targeting-lo…",
+  "skill_id": "05389-tencentads-delivery-smart-create-97b6b7b8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-delivery-smart-create/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-delivery-smart-create/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7f61a5e4d3cea402784d57e5b5a279270996a486616756bb8896d6341bd93a9a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

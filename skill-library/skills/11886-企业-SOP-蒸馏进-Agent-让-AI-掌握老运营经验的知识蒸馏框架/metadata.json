@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-knowledge-distillation-sop",
+  "中文名称": "企业 SOP 蒸馏进 Agent 让 AI 掌握老运营经验的知识蒸馏框架",
+  "一句话作用": "触发词：SOP 蒸馏、老运营经验、案例库、新人上手、经验流失。何时不用：把整套流程编译进模型权重走「工作流编译」；技能自动生成与演化走「技能自演化萃取」。安全边界：定价等敏感领域的历史数据须脱敏，Agent 建议不得直接触发自动调价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营总监面临\"老运营的经验在人员流动时大量流失AI助手不具备领域专业知识\"——SOP蒸馏流水线将老运营经验固化进Agent，新人上手时间从3个月压缩至2周，年化价值$5.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11886-p2s-agent-knowledge-distillation-sop-91eadf78",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-knowledge-distillation-sop/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-knowledge-distillation-sop/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b39aba30871fdd09948fecde49a95cded2d98161615c035212298f8217fa7794",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

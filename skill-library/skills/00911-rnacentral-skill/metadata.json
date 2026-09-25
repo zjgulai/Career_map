@@ -1,0 +1,22 @@
+{
+  "英文名称": "rnacentral-skill",
+  "中文名称": "待补：rnacentral-skill",
+  "一句话作用": "Submit compact RNAcentral API requests for RNA entry browsing, single-entry lookup, and cross-reference retrieval. Use when a user wants concise RNAcentral summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common RNAcentral patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Submit compact RNAcentral API requests for RNA entry browsing, single-entry lookup, and cross-reference retrieval. Use when a user wants concise RNAcentral summaries时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, and either com…",
+  "skill_id": "00911-rnacentral-skill-76db877a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/rnacentral-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/rnacentral-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb530921e7c9b6ae092fd9d1ea9f1cfa0862a83df59c883c99ac9c5c02556768",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "latchbio-integration",
+  "中文名称": "待补：latchbio-integration",
+  "一句话作用": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
+  "关键输入": "This skill should be used when encountering any of the following scenarios: Workflow Development: - \"Create a Latch workflow for RNA-seq analysis\" - \"Deploy my pipeline to Latch\" - \"Convert my Nextflow pipeline to Latch\"",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要This skill should be used when encountering any of the following scenarios: Workflow Development: - \"Create a Latch workflow for RNA-seq analysis\" - \"Deploy my pipeline to Latch\" - \"Convert my Nextflow pipeline to Latch\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05748-latchbio-integration-85a3e4cf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/latchbio-integration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/latchbio-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f4466b83ba9807f1007fd9e6996923a95637f071fb307e07960f12b861e69c6d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

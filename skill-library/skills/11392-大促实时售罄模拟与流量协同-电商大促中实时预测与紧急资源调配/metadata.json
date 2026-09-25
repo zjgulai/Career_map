@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-flash-sale-realtime-sellthrough-forecast",
+  "中文名称": "大促实时售罄模拟与流量协同 电商大促中实时预测与紧急资源调配",
+  "一句话作用": "触发词：大促实时监控、售罄模拟、流量协同、广告出价调整、滞销干预。何时不用：活动前的备货量预测用「LLM事件感知预测」，活动后的库存修正用「退货率时序预测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要大促爆款提前售罄或滞销品无人干预——Bayesian实时售罄模拟+流量协同将大促GMV提升$3.5万/次，年化两次大促防损$7-11万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11392-p2s-flash-sale-realtime-sellthrough-forecast-8fa8ec71",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-flash-sale-realtime-sellthrough-forecast/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-flash-sale-realtime-sellthrough-forecast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a647c0885b051b6b5759cf3c0978d0199c5c38bcd0500bea723e2158659f3bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

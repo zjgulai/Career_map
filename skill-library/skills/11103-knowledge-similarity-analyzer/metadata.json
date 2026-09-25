@@ -1,0 +1,22 @@
+{
+  "英文名称": "knowledge-similarity-analyzer",
+  "中文名称": "待补：knowledge-similarity-analyzer",
+  "一句话作用": "当用户需要找出知识库中的重复条目、检测知识冲突、判断知识单元是否相关或独立、或做知识融合前的相似度评估时使用。触发词：知识相似度分析器、知识相似度、重复检测、冲突检测、多维相似度、SKU对比、知识去重、知识合并。何时不用：SKU 很少可直接人工审查、只需二值相似判断、无嵌入模型 API、实时性要求高、需要精确语义相似度（应使用semantic-bucketer做标签分组，或用semantic-density-analyzer做密度评估…",
+  "关键输入": "- 知识库去重与合并 - 检测知识冲突（同场景不同输出） - 建立知识单元间的关联 - 知识融合前的相似度评估 - 构建知识图谱的边关系",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 知识库去重与合并 - 检测知识冲突（同场景不同输出） - 建立知识单元间的关联 - 知识融合前的相似度评估 - 构建知识图谱的边关系时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11103-knowledge-similarity-analyzer-e03d4b76",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/knowledge-similarity-analyzer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/knowledge-similarity-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6052344b66fee89297eb4a3de0a73845a5883d88d52aa662376b52e680e078d2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "pricing-strategy",
+  "中文名称": "待补：pricing-strategy",
+  "一句话作用": "Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pric…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:57+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pric…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11207-pricing-strategy-44f3d0fd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/pricing-strategy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/pricing-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "09321c5984f3654077bd58921ec4b7235f47e00caf44445bd2e5a5ed13bcb895",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

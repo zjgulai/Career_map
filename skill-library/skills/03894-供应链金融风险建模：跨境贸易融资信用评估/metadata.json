@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-finance-risk-modeling",
+  "中文名称": "供应链金融风险建模：跨境贸易融资信用评估",
+  "一句话作用": "触发词：供应链金融、信用评分、授信额度测算、账号健康指标、旺季融资。何时不用：比较融资渠道与申请时机时用「Amazon Lending 决策」；做多批次备货融资组合时用「库存融资与供应链金融决策优化」。安全边界：评分仅供内部预评估，不构成授信承诺；不得虚构 GMV 或退款数据用于融资申请。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境卖家备货需要80万但银行不理解Amazon账期融资难——供应链金融信用评分用销售稳定性+账号健康+退款率量化信用等级，A级卖家可申请3倍月GMV授信，旺季融资获批避免缺货损失年化30-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03894-p2s-supply-chain-finance-risk-modeling-454c58a8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supply-chain-finance-risk-modeling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supply-chain-finance-risk-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4931ce18e9a8060df8bf17ae460051a8cd5a656ac8f865515f65096134685662",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

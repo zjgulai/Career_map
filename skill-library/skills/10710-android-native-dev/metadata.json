@@ -1,0 +1,22 @@
+{
+  "英文名称": "android-native-dev",
+  "中文名称": "待补：android-native-dev",
+  "一句话作用": "Android native application development and UI design guide. Covers Material Design 3, Kotlin/Compose development, project configuration, accessibility, and build troubleshooting. Read this before Android native applicat…",
+  "关键输入": "Must provide multi-resolution icons: Directory Size Purpose ----------- ------ --------- mipmap-mdpi 48x48 Baseline mipmap-hdpi 72x72 1.5x mipmap-xhdpi 96x96 2x mipmap-xxhdpi 144x144 3x mipmap-xxxhdpi 192x192 4x",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Android native application development and UI design guide. Covers Material Design 3, Kotlin/Compose development, project configuration, accessibility, and build troubleshooting. Read this before Android native applicat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10710-android-native-dev-19a0b7e2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/android-native-dev/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/android-native-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "043129d00d8fd400fa2ff6a2126471fcf01e83d57ce5749c4c75eb4009e9e909",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-public-company-analysis",
+  "中文名称": "公司分析",
+  "一句话作用": "分析上市公司的商业模式、竞争优势、行业位置、财务质量、估值、风险与投资观点。用于用户要求公司基本面研究、公司深度分析、投资研究或提供公司名称/代码与关注点时。不要用于纯事件影响、批量选股、一级市场项目或个人财富规划。",
+  "关键输入": "关键输入未知时，被禁止的是\"假设一个值\"，不是\"给出可执行内容\"。把结论改写为以该未知量为自变量的分档表： 档位 触发条件（未知量取值区间） 该档下的判断方向与优先顺序 该档被推翻的信号 分档表给方向、顺序和取舍理由。三条硬约束： - 档内不得出现绝对金额，只能出现相对量（占收入比例、倍数区间、增速区间），该约束适用于全文； - 通用默认区间（常见估值倍数中枢、常见利润率水平）本身就是替对象拍数，必须作为分档的自变量出现在\"触发条件\"列； - 结尾列出\"补齐哪几项后可给精确值\"，最多5项，每项写清为什么需要它。",
+  "关键输出": "无附件自然问答只交付正文：不创建文件、不修脚本Schema、不输出内部过程。以下五条优先于本文件其余内容。约束的是\"数字怎么归位、怎么标注\"，不是\"少写内容\"；不得用减少分析深度的方式满足本节。",
+  "最新更新时间": "2026-09-10T16:27:36+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要问题再短、看起来再简单，也必须先联网核验以下四类，然后才能写结论： - 主体身份：是否仍独立存在、上市/退市/被收购/私有化/更名、交易所与证券代码。存在证券代码、存在 IR 页面或能查到财报，都不能证明当前仍在上市；核验来源限定为交易所上市/退市公告、监管公告或要约结果公告，并写明 as-of 日期； - 前提校验：用户表述里隐含的趋势或定性判断（如\"持续加大\"\"仍然是\"\"明显恶化\"），必须先用可核验数据检验方向和幅度，与数据不符时…时，用它产出或更新：无附件自然问答只交付正文：不创建文件、不修脚本Sch…",
+  "skill_id": "06425-doubao-public-company-analysis-3bb80801",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-public-company-analysis/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-public-company-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65a4e5336c64f21e758d48578b3968018c797dd919437680cd3ac52934fa08e3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

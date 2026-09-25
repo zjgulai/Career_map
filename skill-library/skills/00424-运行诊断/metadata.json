@@ -1,0 +1,22 @@
+{
+  "英文名称": "aily-cli-runtime",
+  "中文名称": "运行诊断",
+  "一句话作用": "检查本机 Aily CLI runtime、daemon 与 adapter 的只读运行状态。用户要求自查、诊断安装或确认 adapter 可用性时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-24T12:29:04+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要检查本机 Aily CLI runtime、daemon 与 adapter 的只读运行状态。用户要求自查、诊断安装或确认 adapter 可用性时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00424-aily-cli-runtime-5a175eff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-runtime/SKILL.md",
+  "relative_path": "lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-runtime/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c012fb2985e0d1ac5d6e26ce54c3e76162301b3066415e6c1f08157e0051f270",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

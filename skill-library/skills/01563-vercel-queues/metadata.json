@@ -1,0 +1,22 @@
+{
+  "英文名称": "vercel-queues",
+  "中文名称": "待补：vercel-queues",
+  "一句话作用": "Vercel Queues guidance (public beta) — durable event streaming with topics, consumer groups, retries, and delayed delivery. $0.60/1M ops. Powers Workflow DevKit. Use when building async processing, fan-out patterns, or…",
+  "关键输入": "- Defer expensive work (emails, PDFs, external API calls) - Absorb traffic spikes with controlled processing rate - Guarantee delivery even if function crashes - Fan-out same events to multiple independent pipelines - D…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Defer expensive work (emails, PDFs, external API calls) - Absorb traffic spikes with controlled processing rate - Guarantee delivery even if function crashes - Fan-out same events to multiple independent pipelines - D…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01563-vercel-queues-c7dc2da1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/vercel-queues/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/vercel-queues/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e12371a880cd754359a765a63b5d3d54243c11cc700cae6513e8cc95822f54c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-model-creation",
+  "中文名称": "待补：data-model-creation",
+  "一句话作用": "[Deprecated] Optional advanced tool for complex data modeling. For simple MySQL table creation, use relational-database-tool directly; for PostgreSQL / CloudBase PG schema work, use postgresql-development. New environme…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要[Deprecated] Optional advanced tool for complex data modeling. For simple MySQL table creation, use relational-database-tool directly; for PostgreSQL / CloudBase PG schema work, use postgresql-development. New environme…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05231-data-model-creation-91c8e81c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/data-model-creation/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/data-model-creation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d7d322bc55b907b07874376da5499a89dd193c59a549ef5aec84ab070a83641",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

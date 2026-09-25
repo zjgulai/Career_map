@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-counterfactual-evaluation",
+  "中文名称": "反事实评估 合成控制反事实基线",
+  "一句话作用": "触发词：反事实评估、合成控制、促销增量、虚拟基线、净效果拆解。何时不用：干预尚未执行、还能随机分组时用实验设计类技能；单纯要测广告地区增量用Geo Holdout。安全边界：只做事后分析、不参与定价或价格干预，使用聚合销量数据、不引入个人身份信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据科学家面临\"无法量化如果不做这个促销销量会如何基线难以确定\"——合成控制反事实框架将促销净增量归因准确率从±30%提升至±8%，ROI决策置信度大幅提升时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11653-p2s-counterfactual-evaluation-9ce1d426",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-counterfactual-evaluation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-counterfactual-evaluation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b622ea5d380167703d3ceef6366bb96af521e97bb31b3c467ef9f8b8198e90f4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

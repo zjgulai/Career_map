@@ -1,0 +1,22 @@
+{
+  "英文名称": "peace-workflow",
+  "中文名称": "评审迭代工作流",
+  "一句话作用": "和平之种 HTML 游戏的评审迭代工作流。自动发送文件、启动评审团评审、根据评审改进代码、生成新版本。触发词：peace workflow、和平工作流、HTML评审迭代、代码评审流程、自动迭代改进。使用场景：(1) 需要对 HTML 文件进行评审改进 (2) 需要启动多轮迭代优化 (3) 需要发送文件并获取评审反馈。",
+  "关键输入": "参数 默认值 说明 ------ -------- ------ max iterations 3 最大迭代次数 accept threshold 80 接受阈值 version prefix peace 文件名前缀",
+  "关键输出": "使用 message 工具发送新版本文件，附带改进说明。",
+  "最新更新时间": "2026-09-19T04:12:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要和平之种 HTML 游戏的评审迭代工作流。自动发送文件、启动评审团评审、根据评审改进代码、生成新版本。触发词：peace workflow、和平工作流、HTML评审迭代、代码评审流程、自动迭代改进。使用场景：(1) 需要对 HTML 文件进行评审改进 (2) 需要启动多轮迭代优化 (3) 需要发送文件并获取评审反馈。时，用它产出或更新：使用 message 工具发送新版本文件，附带改进说明。",
+  "skill_id": "05004-peace-workflow-044e7b85",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/peace-workflow/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/peace-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7ddf5438610dda9d2275386d95a062a43231d09e8ee452b5d7ddaaee15b70db9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

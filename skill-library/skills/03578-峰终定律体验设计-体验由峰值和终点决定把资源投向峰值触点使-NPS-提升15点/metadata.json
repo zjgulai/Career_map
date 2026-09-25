@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-peak-end-rule-customer-experience",
+  "中文名称": "峰终定律体验设计 体验由峰值和终点决定把资源投向峰值触点使 NPS 提升15点",
+  "一句话作用": "触发词：峰终定律、触点情感评分、负峰消除、终点强化、NPS提升、预算投向。何时不用：要做评论内容维度分析而非旅程触点分析时不适用；要做留存预测用「评论语言特征留存预测」。安全边界：旅程情感与行为数据采集须按隐私政策明示告知并取得明确同意；涉及儿童信息须按跨境电商数据出境与儿童信息保护要求特殊处理。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户体验负责人面临\"品牌体验预算分散在所有触点效果远低于预期\"——峰终定律将预算集中在峰值和终点触点，NPS提升15点复购率+18%，年化$7.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03578-p2s-peak-end-rule-customer-experience-be2bae3a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-peak-end-rule-customer-experience/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-peak-end-rule-customer-experience/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a0576b9d618048e1da0b9d3c1dca122e99ab1de64d23110fc42d5471715180e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

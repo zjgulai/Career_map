@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mtl-multi-objective-ad-optimization",
+  "中文名称": "广告多目标联合优化 排名曝光 Pareto 最优分配",
+  "一句话作用": "触发词：多目标优化、Pareto 前沿、ROAS 与排名、品牌曝光、权重配置、大促卡位。何时不用：只有单一目标时用单目标优化；需要秒级竞价决策时用自动竞价类技能。安全边界：权重配置需符合平台广告政策，不得为冲排名使用违规手段，大促期调整须在预算约束内进行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要广告优化师面临\"ROAS/自然排名/品牌曝光三个目标无法联合优化只能顾此失彼\"——多目标MTL Pareto最优解将综合效益提升23%，年化$8.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03463-p2s-mtl-multi-objective-ad-optimization-5adb89a3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mtl-multi-objective-ad-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mtl-multi-objective-ad-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6c4da5408286e79610303e6a5c3eacba0c79f271f0f14b53a588709eeb06c64e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

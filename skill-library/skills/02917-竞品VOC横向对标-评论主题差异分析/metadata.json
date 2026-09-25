@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-competitive-voc-benchmarking",
+  "中文名称": "竞品VOC横向对标（评论主题差异分析）",
+  "一句话作用": "触发词：竞品对标、评论主题差异、竞争图谱、差异化优势、雷达图。何时不用：要从未满足需求算选品机会得分用「跨竞品评论选品机会评分」；要把竞品差评转成新品机会分用「VOC-New-Product-Gap-Scoring」。安全边界：只使用竞品公开评论数据、不涉及商业机密；评论者不代表全体用户，解读须标注样本偏差。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要产品团队面临\"不知道自有品牌在哪些维度优于竞品哪些落后\"——竞品VOC横向对标将差异化机会识别准确率提升60%，年化指导产品迭代价值20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02917-p2s-competitive-voc-benchmarking-0ca86796",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-competitive-voc-benchmarking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-competitive-voc-benchmarking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "21ff463bcacd5d17cc69a445edb2c05452350b812ebf1a9cda1051783bf4c28b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

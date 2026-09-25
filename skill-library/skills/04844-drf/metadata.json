@@ -1,0 +1,22 @@
+{
+  "英文名称": "drf",
+  "中文名称": "待补：drf",
+  "一句话作用": "Django REST Framework scaffolding best practices, and gotchas.",
+  "关键输入": "DRF does not optimize queries automatically. Missing select related() or prefetch related() will silently destroy performance.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:28+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要DRF does not optimize queries automatically. Missing select related() or prefetch related() will silently destroy performance.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04844-drf-b8eefb82",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/drf/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/drf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a337b8d206f9484698a1a2969f79ad12fa25065fd119a64bfcef8d40c2218d3b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

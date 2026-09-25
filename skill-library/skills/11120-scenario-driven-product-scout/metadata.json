@@ -1,0 +1,22 @@
+{
+  "英文名称": "scenario-driven-product-scout",
+  "中文名称": "待补：scenario-driven-product-scout",
+  "一句话作用": "从真实生活场景、身份迁移和反直觉时刻中发现新产品机会。当用户提及\"场景选品侦察\"、\"场景选品\"、\"产品发现\"、\"场景机会\"、\"礼品机会\"、\"生活方式场景\"，或英文 scenario product discovery、product discovery、lifestyle scenario、gift opportunity、identity transition 时使用。何时不用：传统节日选品表、市场进入可行性/利润/规模测算、纯搜索…",
+  "关键输入": "- 用户要从生活场景/身份迁移/反直觉时刻中发现新产品机会 - 用户要挖掘非节日的礼品机会或生活方式场景机会 - 用户已给出品牌或品类上下文，要探索延伸新品方向 - 用户要对场景机会做渠道适配评估（Amazon vs DTC） - 用户要为母婴礼品做 bundle 组合与内容故事方向 - 用户要用品牌能力矩阵（五维）评估机会的协同性",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 用户要从生活场景/身份迁移/反直觉时刻中发现新产品机会 - 用户要挖掘非节日的礼品机会或生活方式场景机会 - 用户已给出品牌或品类上下文，要探索延伸新品方向 - 用户要对场景机会做渠道适配评估（Amazon vs DTC） - 用户要为母婴礼品做 bundle 组合与内容故事方向 - 用户要用品牌能力矩阵（五维）评估机会的协同性时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11120-scenario-driven-product-scout-a2e04b59",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/scenario-driven-product-scout/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/scenario-driven-product-scout/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2ed0b80cd832708dae6448842a696f4bf1b26ea90ecdd6d2ad8ad3e470d670e1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

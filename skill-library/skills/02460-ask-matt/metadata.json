@@ -1,0 +1,22 @@
+{
+  "英文名称": "ask-matt",
+  "中文名称": "待补：ask-matt",
+  "一句话作用": "技能路由器：根据处境推荐本技能集内合适的技能/流程。触发词：技能路由顾问、ask-matt、技能路由器：根据处境推荐本技能集内合适的技能/流程。",
+  "关键输入": "/setup-matt-pocock-skills ：在第一次跑工程流程之前运行，用来配置其他技能所假定的议题跟踪器、分类标签和文档布局。自定义议题跟踪器同样可用。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要技能路由器：根据处境推荐本技能集内合适的技能/流程。触发词：技能路由顾问、ask-matt、技能路由器：根据处境推荐本技能集内合适的技能/流程。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02460-ask-matt-3d7a52ac",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/ask-matt/SKILL.md",
+  "relative_path": "lute/.dsh/skills/ask-matt/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90e0158dd3989a60d850937b17ad5ac41352707f55531ea6dbf92a43f10d7ca6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

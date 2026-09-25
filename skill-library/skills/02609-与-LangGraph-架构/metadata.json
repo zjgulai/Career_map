@@ -1,0 +1,22 @@
+{
+  "英文名称": "langchain-architecture",
+  "中文名称": "与 LangGraph 架构",
+  "一句话作用": "用 LangChain 与 LangGraph 搭建 LLM 应用：状态图、对话记忆、工具集成与测试策略全流程。触发词：LangChain 架构设计、langchain-architecture、用 LangChain 与 LangGraph 搭建 LLM 应用：状态图、对话记忆、工具集成与测试策略全流程。",
+  "关键输入": "- 构建带工具访问能力的自主 AI agent - 实现复杂的多步 LLM 工作流 - 管理对话记忆与状态 - 把 LLM 与外部数据源和 API 集成 - 创建模块化、可复用的 LLM 应用组件 - 实现文档处理流水线 - 构建生产级 LLM 应用",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 构建带工具访问能力的自主 AI agent - 实现复杂的多步 LLM 工作流 - 管理对话记忆与状态 - 把 LLM 与外部数据源和 API 集成 - 创建模块化、可复用的 LLM 应用组件 - 实现文档处理流水线 - 构建生产级 LLM 应用时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02609-langchain-architecture-ddf723b0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/langchain-architecture/SKILL.md",
+  "relative_path": "lute/.dsh/skills/langchain-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5bb33d0e9a3a9e2015f21d966554f56f18b3a7e9c549929f5a18261a2ac4843f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

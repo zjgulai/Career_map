@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-creator-roi-attribution",
+  "中文名称": "达人直播ROI归因 分离主播效应与流量效应",
+  "一句话作用": "触发词：达人归因、倾向得分匹配、主播效应、流量效应拆分、达人价值评分。何时不用：没有直播间流量来源字段时无法拆分效应；纯自然流量结构分析不用本技能。安全边界：用户行为数据须匿名化并已获授权；平台用户级数据不得导出至第三方。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌负责人面临\"达人带货的ROI里不知道多少是主播影响力多少是投流效果\"——倾向得分匹配将主播净贡献与流量效果精确拆分，年化广告预算优化$7.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11847-p2s-tiktok-creator-roi-attribution-3c4e1d96",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tiktok-creator-roi-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tiktok-creator-roi-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "67c20d6cab8560df5a28073478881a036dfaf7b961dc2c617f44a94893571977",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

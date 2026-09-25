@@ -1,0 +1,22 @@
+{
+  "英文名称": "Presentations",
+  "中文名称": "待补：Presentations",
+  "一句话作用": "Read, create or edit PowerPoint or Google Slides decks. Use for presentation, slide deck, PowerPoint, PPT, PPTX, or Google Slides requests.",
+  "关键输入": "Follow the requested design. Use the user's template, reference, branding and layout instructions before any defaults in this skill. Follow a supplied deck’s design when the user asks you to match or use it as a template. If the user supplies a deck only as a…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-06T12:17:27+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Read, create or edit PowerPoint or Google Slides decks. Use for presentation, slide deck, PowerPoint, PPT, PPTX, or Google Slides requests.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00463-presentations-2724f8d5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/presentations/skills/presentations/SKILL.md",
+  "relative_path": "lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/presentations/skills/presentations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b40a55cd7747ed101498889b1dbb63f05aae478d44af96423657888e33b48ae",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

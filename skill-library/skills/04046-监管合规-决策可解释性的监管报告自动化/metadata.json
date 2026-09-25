@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-xai-regulatory-compliance",
+  "中文名称": "监管合规 决策可解释性的监管报告自动化",
+  "一句话作用": "触发词：XAI合规、监管报告、特征贡献度、歧视排查、个体解释接口。何时不用：面向内部与用户的解释话术生成时用「AI Transparency Explanation」；算法问责报告用「Algorithmic Accountability Audit」。安全边界：合规结论须法务复核后提交；不得为通过审查而调整解释口径或隐瞒受保护属性的影响。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI团队面临\"欧盟AI法案要求推荐/定价系统提供可解释性违规罚款最高7%营业额\"——XAI合规自动审计满足EU AI Act Article 13，年化避免法律风险约70万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04046-p2s-xai-regulatory-compliance-cc18f871",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-xai-regulatory-compliance/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-xai-regulatory-compliance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f4efc0df7c3d4ec1ab0d514279356b93975da1dac45f60697ce877e3d74e7d10",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

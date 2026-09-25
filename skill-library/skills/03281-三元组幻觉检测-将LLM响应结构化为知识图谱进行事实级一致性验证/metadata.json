@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-hallucination-detection",
+  "中文名称": "三元组幻觉检测 将LLM响应结构化为知识图谱进行事实级一致性验证",
+  "一句话作用": "触发词：三元组幻觉检测、知识图谱比对、事实一致性、合规回答核验、幻觉分类。何时不用：要核对报表数字与数据库是否一致走 BI 幻觉检测；要评整体 RAG 检索质量走 RAG 评测。安全边界：检测准确率受知识库覆盖面与更新及时性限制，模型误判可能误伤正常信息，判为编造的结论须经人工确认后再使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要让LLM自己评判LLM的错误准确率极低——将响应分解为KG三元组进行一致性验证比SelfCheckGPT准确率高+16%、F1高+20%，且成本低10倍（2025 arXiv:2512.23547）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03281-p2s-kg-hallucination-detection-f6729d9b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-kg-hallucination-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-kg-hallucination-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62d65eb646c25249942c67336198bda52f1d17109c96f5b0154361783b47edd0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

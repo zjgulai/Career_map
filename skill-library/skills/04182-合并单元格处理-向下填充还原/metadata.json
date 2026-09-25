@@ -1,0 +1,22 @@
+{
+  "英文名称": "chart-embedded-export",
+  "中文名称": "合并单元格处理 (向下填充还原)",
+  "一句话作用": "从结构化数据中提取分类分布执行清洗与统计，生成多维度交叉分析、高分辨率对比图表及包含下载链接的完整分析报告，适用于大文件处理与嵌入式可视化场景。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "output excel path = 'analysis result.xlsx' df.to excel(output excel path, index=False)",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要从结构化数据中提取分类分布执行清洗与统计，生成多维度交叉分析、高分辨率对比图表及包含下载链接的完整分析报告，适用于大文件处理与嵌入式可视化场景。时，用它产出或更新：output excel path = 'analysis result.xlsx' df.to excel(output excel path, index=False)",
+  "skill_id": "04182-chart-embedded-export-f7e618bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-result-export/chart-embedded-export/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-result-export/chart-embedded-export/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "73bebfb64c8cd0dd7e18cbb4d9a2d4fa72244f8b14a70182ee41ac4be0be3d6f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

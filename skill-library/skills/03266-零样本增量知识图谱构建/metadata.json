@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-itext2kg-schema-free-kg-induction",
+  "中文名称": "零样本增量知识图谱构建",
+  "一句话作用": "触发词：零样本建图、增量三元组、自动抽取、图谱连通、幻觉控制。何时不用：要求严格 Schema 与强一致的核心主数据不要用本技能直接落库；本技能适合探索性、可增量合并的图谱。安全边界：大模型输出须做幻觉校验，低置信产物不得直接进生产图谱；示例中的 API Key 必须换成宿主注入的凭证。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要知识库运营面临\"知识图谱边全靠人工维护双括号链接无法规模化\"——iText2KG零样本自动抽取三元组将图谱边数从11643条扩展至25000+，人工构建成本降低95%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03266-p2s-itext2kg-schema-free-kg-induction-743f14b7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-itext2kg-schema-free-kg-induction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-itext2kg-schema-free-kg-induction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9827fc013f097c0234ddb986536bb7c5a2971947914431cc87fb4619bf55210b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

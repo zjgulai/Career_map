@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-crosslingual-semantic-alignment",
+  "中文名称": "待补：p2s-crosslingual-semantic-alignment",
+  "一句话作用": "触发词：p2s-crosslingual-semantic-alignment。跨语言语义结构对齐",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-crosslingual-semantic-alignment。跨语言语义结构对齐时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "03005-p2s-crosslingual-semantic-alignment-8a068bb1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-crosslingual-semantic-alignment/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-crosslingual-semantic-alignment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a047f359d68d42533bf77dde009c68d310bfca2a57b5a5b14bf11d68407d6f53",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

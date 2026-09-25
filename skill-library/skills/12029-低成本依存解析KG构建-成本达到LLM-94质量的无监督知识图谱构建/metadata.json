@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-low-cost-dependency-kg-construction",
+  "中文名称": "低成本依存解析KG构建 成本达到LLM 94质量的无监督知识图谱构建",
+  "一句话作用": "触发词：低成本建图、依存句法、三元组抽取、无监督、增量摄入。何时不用：文本口语化、规则句式少时不要期待同等质量，需深层语义抽取用大模型抽取类技能；本技能对合规条款与产品规格这类规则文本效果最好。安全边界：符合《跨境电商商品信息规范》GB/T 35273；供应商数据采集需获得明确授权，建议补充数据安全协议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要LLM构建知识图谱成本高阻止大多数团队落地——依存句法解析提取三元组达到LLM方案94%质量，成本仅1/10，无需GPU无需标注数据（2025 arXiv:2507.03226）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12029-p2s-low-cost-dependency-kg-construction-bc553372",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-low-cost-dependency-kg-construction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-low-cost-dependency-kg-construction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8eb6c1ebf47dafb0a2e949ce88a1e95c5777f874c45a51bda6b30064f6b61a18",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

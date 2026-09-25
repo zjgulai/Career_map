@@ -1,0 +1,22 @@
+{
+  "英文名称": "zenstack-authenticated-db-params",
+  "中文名称": "待补：zenstack-authenticated-db-params",
+  "一句话作用": "Fix TypeScript circular reference errors when passing ZenStack authenticated database client as function parameter. Use when: (1) TypeScript error \"TS2502: 'db' is referenced directly or indirectly in its own type annot…",
+  "关键输入": "When creating utility functions that need to accept an authenticated ZenStack database client (to enforce access control policies), TypeScript throws circular reference errors if you try to use ReturnType directly in th…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-01-24",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要When creating utility functions that need to accept an authenticated ZenStack database client (to enforce access control policies), TypeScript throws circular reference errors if you try to use ReturnType directly in th…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05191-zenstack-authenticated-db-params-1f73ab12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/zenstack-authenticated-db-params/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/zenstack-authenticated-db-params/SKILL.md",
+  "date_source": "frontmatter.date",
+  "content_hash": "e6f5393533b0e7c931abb1473c43384c6a179f0cb1b6dc1835abe81f81db8864",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

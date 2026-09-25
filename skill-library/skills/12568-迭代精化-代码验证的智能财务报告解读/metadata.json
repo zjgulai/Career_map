@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-financial-report-analyst",
+  "中文名称": "迭代精化 代码验证的智能财务报告解读",
+  "一句话作用": "触发词：财务报告解读、多平台汇总、数值验证、三层归因、账单口径对齐。何时不用：要多 Agent 分工做部门责任归因用「多智能体 P&L 协同」；要标准化月度归因报告叙事用「多步推理 BI 归因」。安全边界：财务数据外发前须脱敏，敏感数据禁止传输外部系统；数值须经代码验证并留审计日志，模型不直接下财务结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨境母婴 CFO 面临 Amazon/TikTok/银行三平台账单手工汇总需 3 天——迭代精化 + Python 数值验证 Agent 将月度 P&L 汇总压缩至 30 分钟，误差率从手工 5-10% 降至 <2%，年化节省财务人力成本 10-30 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12568-p2s-llm-financial-report-analyst-3c3d0c55",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-llm-financial-report-analyst/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-llm-financial-report-analyst/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30c40889bb10b2146c1fe825c3bbdf2947348e2feba159dc15e9bb87bf2526d6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

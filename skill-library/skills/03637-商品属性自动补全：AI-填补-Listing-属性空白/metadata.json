@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-attribute-completion",
+  "中文名称": "商品属性自动补全：AI 填补 Listing 属性空白",
+  "一句话作用": "触发词：属性补全、Listing 属性、字段空白、置信度填充、上架提效。何时不用：品类属性模板还没确定、需要先定义字段时用本体或 Tag Schema 类技能；本技能填的是已有模板下的空值。安全边界：低置信度取值必须标注待人工确认，不得自动写入平台后台。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要新款吸奶器需要填写42个属性字段人工填写1.5小时但30-40%属性空白导致搜索排名下降——AI从标题/要点/图片自动提取属性值5分钟完成，属性完整度60%提升到90%搜索曝光增加20-35%年化15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03637-p2s-product-attribute-completion-0ae2b30d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-product-attribute-completion/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-product-attribute-completion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "46f16937d5b53f222f076d5fd220df7b78acfab6536719f770e438b2c5c869d2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

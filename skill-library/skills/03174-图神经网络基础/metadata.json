@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gnn-foundations",
+  "中文名称": "图神经网络基础）",
+  "一句话作用": "触发词：图神经网络、共购图、节点嵌入、组合推荐、关联发现。何时不用：只在表格上加工与筛选特征时用特征工程/特征选择；要处理多类型节点与边的图时用异构图模型。安全边界：供应商与用户数据采集需获得书面授权，嵌入结果不得对外披露个体用户信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要GCN 学习节点嵌入→发现\"硅胶法兰\"和\"乳头霜\"在嵌入空间接近（同一用户群购买），但传统协同过滤未能捕获——因为这两个产品没有共同购买者但有相似的购买者画像时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03174-p2s-gnn-foundations-aaf3300b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-gnn-foundations/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-gnn-foundations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "410fd627f50ecacb15faad9c8bd953c9229ae3b0007e4b0dd59f8e6726c4d29f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

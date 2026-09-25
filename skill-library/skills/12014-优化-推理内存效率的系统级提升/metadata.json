@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kv-cache-optimization-agent",
+  "中文名称": "优化 推理内存效率的系统级提升",
+  "一句话作用": "触发词：KV-Cache、前缀缓存、PagedAttention、显存瓶颈、并发推理。何时不用：整体模型量化与蒸馏走「模型服务优化」；单次生成速度提升走「投机解码」。安全边界：不同用户请求不得共享携带用户信息的 KV Cache；需要精确引用早期上下文的任务不得启用 KV 压缩。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要工程团队面临\"21个Agent共享相同System Prompt但每次都重复计算浪费大量资源\"——PagedAttention Prefix Sharing后第2次起速度提升3-5倍，年化节省GPU成本约45万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12014-p2s-kv-cache-optimization-agent-0d0a1dea",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-kv-cache-optimization-agent/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-kv-cache-optimization-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fc56359635f26c218f0552dbe77fa51ba46235e5e5cadfc3fab993348d9e54ea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

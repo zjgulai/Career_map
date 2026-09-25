@@ -1,0 +1,22 @@
+{
+  "英文名称": "marketing-writer",
+  "中文名称": "营销文案写作",
+  "一句话作用": "撰写或优化各类页面（如首页、落地页、定价页、功能页、关于页、产品页）的营销文案，专注于提升转化效果，产出包括标题、行动号召、价值主张、标语、首屏内容等关键元素。当用户请求撰写文案、优化页面、提升转化率，或直接提及“落地页文案”、“首页标题”、“CTA优化”、“价值主张”等关键词时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "撰写文案时，请提供：",
+  "最新更新时间": "2026-09-14T00:08:36+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要撰写或优化各类页面（如首页、落地页、定价页、功能页、关于页、产品页）的营销文案，专注于提升转化效果，产出包括标题、行动号召、价值主张、标语、首屏内容等关键元素。当用户请求撰写文案、优化页面、提升转化率，或直接提及“落地页文案”、“首页标题”、“CTA优化”、“价值主张”等关键词时触发。时，用它产出或更新：撰写文案时，请提供：",
+  "skill_id": "10649-marketing-writer-301f8e0e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/marketing-writer/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/marketing-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9001541e42f519f81d252845c791ecf958eed3e7f58af92797f45349c200d03e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

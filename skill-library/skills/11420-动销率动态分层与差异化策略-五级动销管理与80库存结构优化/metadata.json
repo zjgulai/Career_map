@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-turnover-abc-classification",
+  "中文名称": "动销率动态分层与差异化策略 五级动销管理与80库存结构优化",
+  "一句话作用": "触发词：库存分层、ABCDE 分类、动销率、清仓优先级、补货频次调整。何时不用：要算每次具体补多少货用「补货模拟」，要预测未来销量用「需求预测」；本技能只做分层与差异化策略。安全边界：清仓与补货频次调整须人工确认后执行，模型不直接下架商品或改价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营团队面临\"精力分散平均用力\"——ABCDE五级差异化管理将AB类补货从月改为双周，断货减少50%年化增量销售15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11420-p2s-inventory-turnover-abc-classification-6214cf12",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-inventory-turnover-abc-classification/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-inventory-turnover-abc-classification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2569708d80e843386d1a094c1c0c2893aacc5c8ec068b1d567c56c74867950b8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

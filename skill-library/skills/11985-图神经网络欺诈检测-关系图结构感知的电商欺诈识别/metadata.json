@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gnn-fraud-detection",
+  "中文名称": "图神经网络欺诈检测 关系图结构感知的电商欺诈识别",
+  "一句话作用": "触发词：欺诈团伙、图传播、关系边、种子扩散、团伙召回。何时不用：没有已知欺诈种子账号、或账号间没有共享设备与地址数据时，图传播无从扩散；本技能靠关系网把团伙补全。安全边界：共享 IP 不能作为封号的唯一依据，需多因子确认；用户行为追踪须符合隐私法规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要风控团队面临\"欺诈团伙通过设备/地址/IP共享组织刷单但传统规则只能发现15%\"——图神经网络传播使团伙召回率从15%提升至72%，年化减少欺诈损失约80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11985-p2s-gnn-fraud-detection-3687d8c2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-gnn-fraud-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-gnn-fraud-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c7d922173f240e7e58bb2d307f3e7666a989334399e004323da68b6f03f03e20",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

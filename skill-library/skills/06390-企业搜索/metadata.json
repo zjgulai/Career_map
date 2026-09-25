@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-enterprise-search",
+  "中文名称": "企业搜索）",
+  "一句话作用": "判断是否调用 enterprise agentic search 工具前，必须先完整读取 doubao-enterprise-search skill。适用场景包括：用户本轮输入包含 [企业知识] 或 doubao-enterprise-search 的 Skill 调用标记；问题明确或高度可能依赖企业内部资料、内部口径、内部系统、业务背景、历史讨论、协作记录、制度流程、员工权益、差旅报销，或内部产品、项目、客户、业务数据及非飞书通讯…",
+  "关键输入": "按以下步骤依次判断： 前置步骤：多轮上下文预处理 先检查第 3 章的多轮上下文（本轮是否承接上一轮唯一主题、是否发生来源切换），补全本轮意图和来源方向。注意：多轮预处理不直接决定调用 enterprise agentic search 工具，是否调用仍由后续步骤判断。 步骤 1：判断入口类型（见 1.1） - 显式入口（本轮输入包含 [企业知识] 或 doubao-enterprise-search 的 Skill 调用标记）→ 信息…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T10:24:35+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要按以下步骤依次判断： 前置步骤：多轮上下文预处理 先检查第 3 章的多轮上下文（本轮是否承接上一轮唯一主题、是否发生来源切换），补全本轮意图和来源方向。注意：多轮预处理不直接决定调用 enterprise agentic search 工具，是否调用仍由后续步骤判断。 步骤 1：判断入口类型（见 1.1） - 显式入口（本轮输入包含 [企业知识] 或 doubao-enterprise-search 的 Skill 调用标记）→ 信息…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06390-doubao-enterprise-search-4900d5d5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-enterprise-search/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-enterprise-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b3debd379756b89075bc2b8c878956415597661360ddc4d6cd283ab341264a55",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

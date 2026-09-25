@@ -1,0 +1,22 @@
+{
+  "英文名称": "scikit-bio",
+  "中文名称": "待补：scikit-bio",
+  "一句话作用": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
+  "关键输入": "This skill should be used when the user: - Works with biological sequences (DNA, RNA, protein) - Needs to read/write biological file formats (FASTA, FASTQ, GenBank, Newick, BIOM, etc.) - Performs sequence alignments or…",
+  "关键输出": "pcoa results.write('ordination.txt') results = skbio.OrdinationResults.read('ordination.txt')",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要This skill should be used when the user: - Works with biological sequences (DNA, RNA, protein) - Needs to read/write biological file formats (FASTA, FASTQ, GenBank, Newick, BIOM, etc.) - Performs sequence alignments or…时，用它产出或更新：pcoa results.write('ordinat…",
+  "skill_id": "05806-scikit-bio-00b7c0e4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/scikit-bio/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/scikit-bio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0eb39bbc66d52c2aac358f37825aab6d4a44ba41396b006486d8fae5654771f4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

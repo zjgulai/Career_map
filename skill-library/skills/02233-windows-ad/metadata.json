@@ -1,0 +1,22 @@
+{
+  "英文名称": "windows-ad",
+  "中文名称": "待补：windows-ad",
+  "一句话作用": "Use for authorized Active Directory and Windows identity attacks including Kerberos, AD CS, BloodHound paths, NTLM relay, and domain privilege escalation research.",
+  "关键输入": "- 域渗透、Kerberoasting、AS-REP、委派 - AD CS（ESC1–ESC8 等）证书攻击 - BloodHound / SharpHound 攻击路径 - NTLM Relay / Coercer 强制认证 - 本地提权到域路径（Potato 等作为跳板）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- 域渗透、Kerberoasting、AS-REP、委派 - AD CS（ESC1–ESC8 等）证书攻击 - BloodHound / SharpHound 攻击路径 - NTLM Relay / Coercer 强制认证 - 本地提权到域路径（Potato 等作为跳板）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02233-windows-ad-f3deec09",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/windows-ad/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/windows-ad/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5670e104212f7ca2b86bd7585df70e3850cd163fc5faed586f4412c88691cc5c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

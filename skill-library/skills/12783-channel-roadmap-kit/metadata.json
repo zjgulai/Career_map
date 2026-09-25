@@ -1,0 +1,22 @@
+{
+  "英文名称": "channel-roadmap-kit",
+  "中文名称": "待补：channel-roadmap-kit",
+  "一句话作用": "Template system for building quarterly social channel roadmaps with KPIs and experiments.",
+  "关键输入": "- Updating quarterly or monthly channel strategies. - Aligning stakeholders on goals, KPIs, and experimentation focus. - Communicating trade-offs on budget, bandwidth, and channel mix.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Updating quarterly or monthly channel strategies. - Aligning stakeholders on goals, KPIs, and experimentation focus. - Communicating trade-offs on budget, bandwidth, and channel mix.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12783-channel-roadmap-kit-e16a3501",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/social-media-marketing/skills/channel-roadmap-kit/SKILL.md",
+  "relative_path": "lute/project/skills/social-media-marketing/skills/channel-roadmap-kit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9683c1647d651f23fa59293183ba45ddb6068d4701e71b00141647981f94c327",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

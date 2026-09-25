@@ -1,0 +1,22 @@
+{
+  "英文名称": "MCP Integration",
+  "中文名称": "待补：MCP Integration",
+  "一句话作用": "This skill should be used when the user asks to \"add MCP server\", \"integrate MCP\", \"configure MCP in plugin\", \"use .mcp.json\", \"set up Model Context Protocol\", \"connect external service\", mentions \"${CODEBUDDY PLUGIN RO…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- [ ] MCP configuration is valid JSON - [ ] Server URL is correct and accessible - [ ] Required environment variables documented - [ ] Tools appear in /mcp output - [ ] Authentication works (OAuth or tokens) - [ ] Tool calls succeed from commands - [ ] Error…",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"add MCP server\", \"integrate MCP\", \"configure MCP in plugin\", \"use .mcp.json\", \"set up Model Context Protocol\", \"connect external service\", mentions \"${CODEBUDDY PLUGIN RO…时，用它产出或更新：- [ ] MCP configuration is…",
+  "skill_id": "05978-mcp-integration-4eaf7fac",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "85cdbc7df76c0d260455b86d14a18a0ef21bad04b0a140ea18e179bf7f638d2b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

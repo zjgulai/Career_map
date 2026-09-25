@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-desktop-diagnostics",
+  "中文名称": "待补：dsh-desktop-diagnostics",
+  "一句话作用": "Diagnose and fix DSH Desktop (DeepSeek Harness) startup failures, plugin incompatibilities, and functional bugs (加载更早/输入框/侧边栏/复制按钮/IM机器人/上下文溢出等). Covers recovery-mode entry, missing services/exports, rc-vs-alpha version…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 先 macos-harness doctor 看权限； 授权对象是 DSH Desktop 应用本身 （agent 的 bash 由 Electron 主进程派生，TCC 责任跟随应用而非终端）。 - mac.ax.query(app=..., text=..., search key=\"AXValueSearchKey\") 找元素 → mac.ax.perform(idx, \"AXPress\") 触发（绕过命中测试，适合验证逻辑链）。 - mac.click(x, y, coordinate space=\"…",
+  "最新更新时间": "2026-09-13T13:59:25+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Diagnose and fix DSH Desktop (DeepSeek Harness) startup failures, plugin incompatibilities, and functional bugs (加载更早/输入框/侧边栏/复制按钮/IM机器人/上下文溢出等). Covers recovery-mode entry, missing services/exports, rc-vs-alpha version…时，用它产出或更新：- 先 macos-harness doctor 看…",
+  "skill_id": "02534-dsh-desktop-diagnostics-46f0c9fd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/dsh-desktop-diagnostics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/dsh-desktop-diagnostics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "67d3933e5ff23f756b84fb7286cb8317e556246b6d55c8d6f0cf24ef1df23309",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

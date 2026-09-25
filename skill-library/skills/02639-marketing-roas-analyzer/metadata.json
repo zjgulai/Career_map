@@ -1,0 +1,22 @@
+{
+  "英文名称": "marketing-roas-analyzer",
+  "中文名称": "待补：marketing-roas-analyzer",
+  "一句话作用": "- Track and analyze marketing spend across all channels with ROAS calculation, incrementality testing, and budget reallocation based on true profitability. 触发词：ROAS分析、广告花费分析、营销预算分配、渠道效率、增量测试。",
+  "关键输入": "- When managing marketing budgets across multiple platforms (Meta, Google, TikTok, Amazon Ads). - When wanting to identify which channels generate the most profitable customers. - When platform-reported ROAS seems infla…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:57:17+08:00",
+  "业务场景": "data-analytics",
+  "解决具体问题": "当需要- When managing marketing budgets across multiple platforms (Meta, Google, TikTok, Amazon Ads). - When wanting to identify which channels generate the most profitable customers. - When platform-reported ROAS seems infla…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02639-marketing-roas-analyzer-6fac86ff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/marketing-roas-analyzer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/marketing-roas-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1e46eb5c81a30a5309cbe3357cce1a3fb6390ae68bd30db5cc094ad159c8f725",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

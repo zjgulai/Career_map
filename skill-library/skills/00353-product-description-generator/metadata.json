@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-description-generator",
+  "中文名称": "待补：product-description-generator",
+  "一句话作用": "Generate SEO-optimized product descriptions for e-commerce platforms (Amazon, Shopify, eBay, Etsy). Create compelling, conversion-focused copy with keywords, features, benefits, and calls-to-action. Use when creating pr…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate SEO-optimized product descriptions for e-commerce platforms (Amazon, Shopify, eBay, Etsy). Create compelling, conversion-focused copy with keywords, features, benefits, and calls-to-action. Use when creating pr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00353-product-description-generator-41570e93",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/product-description-generator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/product-description-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8b45ec3a9e6a5937737e16dbdf247c838f27dbf96cdc71e5e6c4258fbcfc7bff",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

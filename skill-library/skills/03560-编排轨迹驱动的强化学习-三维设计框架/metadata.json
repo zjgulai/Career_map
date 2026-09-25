@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-orchestration-trace-rl",
+  "中文名称": "编排轨迹驱动的强化学习 三维设计框架",
+  "一句话作用": "触发词：编排轨迹、强化学习、credit 分配、动态生成子 Agent、工单分级。何时不用：不想训练、只用规则选拓扑用「任务自适应拓扑路由」；要可靠调度与失败恢复用「MAS Orchestrator」。安全边界：策略上线前必须人工审核动作空间与话术边界，不得让强化学习决策绕过合规话术或审批环节。",
+  "关键输入": "输入 ：完整编排轨迹历史（含生成、委派、通信、聚合、停止决策的时序记录）、每步结果与最终业务结果（用于奖励计算）；卡页口径下数据要求高。 输出 ：训练后的编排策略与 credit 分配结果（各 Agent 与步骤对团队奖励的贡献）；供 MAS 编排器上线使用。",
+  "关键输出": "输入 ：完整编排轨迹历史（含生成、委派、通信、聚合、停止决策的时序记录）、每步结果与最终业务结果（用于奖励计算）；卡页口径下数据要求高。 输出 ：训练后的编排策略与 credit 分配结果（各 Agent 与步骤对团队奖励的贡献）；供 MAS 编排器上线使用。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：编排轨迹、强化学习、credit 分配、动态生成子 Agent、工单分级。何时不用：不想训练、只用规则选拓扑用「任务自适应拓扑路由」；要可靠调度与失败恢复用「MAS Orchestrator」。安全边界：策略上线前必须人工审核动作空间与话术边界，不得让强化学习决策绕过合规话术或审批环节。时，用它产出或更新：输入 ：完整编排轨迹历史（含生成、委派、通信、聚合、停止决策的时序记录）、每步结果与最终业务结果（用于奖励计算）；卡页口径下数据要求高。 输出 ：训练后的编排策略与 credit 分配结果（各 A…",
+  "skill_id": "03560-p2s-orchestration-trace-rl-10fc7061",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-orchestration-trace-rl/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-orchestration-trace-rl/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65da99436a590914827190cca7c41d361bff139ef829253eb254ad98ee0d9966",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

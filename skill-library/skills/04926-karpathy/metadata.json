@@ -1,0 +1,22 @@
+{
+  "英文名称": "karpathy",
+  "中文名称": "待补：karpathy",
+  "一句话作用": "Coding principles for simplicity, clarity, and surgical precision. Use when you want Claude to think before coding, keep solutions minimal, make surgical changes, and define verifiable success criteria. Triggers on: kar…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:44+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Coding principles for simplicity, clarity, and surgical precision. Use when you want Claude to think before coding, keep solutions minimal, make surgical changes, and define verifiable success criteria. Triggers on: kar…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04926-karpathy-ae27aee1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/karpathy/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/karpathy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4057f78e8ff79ea20b72090f1719d5279b709cf17c9684cf8e1e8954552f6a9e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

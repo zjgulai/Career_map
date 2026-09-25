@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-co-evolutionary-skill-verification",
+  "中文名称": "自动演化与验证 双 LLM 协同优化",
+  "一句话作用": "触发词：技能演化、双 LLM 协同、回归验证、跨模型迁移、SOP 质检。何时不用：技能注册与动态加载走「技能注册表」；技能全生命周期治理走「技能生命周期设计」。安全边界：演化与验证须在隔离沙箱中执行，生成方与验证方不得共享上下文造成互相迁就。",
+  "关键输入": "输入 ：需每个场景的 oracle ground-truth 样本（卡页示例 30-100 个每场景）、现有 SOP 与执行环境，场景级粒度；卡页称技术门槛高，需多 LLM session 编排与沙箱隔离。 输出 ：产出经双 LLM 验证的技能包与验证结果（是否通过、反馈、评分）、场景接入周期与质量改进数据（卡页记录 1-2 周降至 2 天、+18pp 至 +40pp、跨模型迁移 +36 至 +44pp），供技能团队发布。",
+  "关键输出": "输入 ：需每个场景的 oracle ground-truth 样本（卡页示例 30-100 个每场景）、现有 SOP 与执行环境，场景级粒度；卡页称技术门槛高，需多 LLM session 编排与沙箱隔离。 输出 ：产出经双 LLM 验证的技能包与验证结果（是否通过、反馈、评分）、场景接入周期与质量改进数据（卡页记录 1-2 周降至 2 天、+18pp 至 +40pp、跨模型迁移 +36 至 +44pp），供技能团队发布。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：技能演化、双 LLM 协同、回归验证、跨模型迁移、SOP 质检。何时不用：技能注册与动态加载走「技能注册表」；技能全生命周期治理走「技能生命周期设计」。安全边界：演化与验证须在隔离沙箱中执行，生成方与验证方不得共享上下文造成互相迁就。时，用它产出或更新：输入 ：需每个场景的 oracle ground-truth 样本（卡页示例 30-100 个每场景）、现有 SOP 与执行环境，场景级粒度；卡页称技术门槛高，需多 LLM session 编排与沙箱隔离。 输出 ：产出经双 LLM 验证的技能包与验…",
+  "skill_id": "02899-p2s-co-evolutionary-skill-verification-4b28e8be",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-co-evolutionary-skill-verification/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-co-evolutionary-skill-verification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b945cd1cc0b68c3d6a6cc29ee513fa2e23ec7a8d25b51b2f223b64db3904b291",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

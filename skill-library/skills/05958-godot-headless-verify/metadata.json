@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-headless-verify",
+  "中文名称": "待补：godot-headless-verify",
+  "一句话作用": "Run Godot in headless mode to verify a project — quick load tests (\"does this scene still instantiate?\"), cache/UID cache repair (\"editor shows red errors but game runs fine\"), and batch resource operations. Use this sk…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When : about to ship, want to confirm export presets still work.",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run Godot in headless mode to verify a project — quick load tests (\"does this scene still instantiate?\"), cache/UID cache repair (\"editor shows red errors but game runs fine\"), and batch resource operations. Use this sk…时，用它产出或更新：When : about to ship, want…",
+  "skill_id": "05958-godot-headless-verify-efe90589",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-headless-verify/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-headless-verify/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b1a7cc2e0c19ab2feadf613c085b06c79138118d09a2d7e1ab1bc131b6ef8feb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

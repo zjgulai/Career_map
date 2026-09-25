@@ -1,0 +1,22 @@
+{
+  "英文名称": "llm-security",
+  "中文名称": "安全测试",
+  "一句话作用": "Use for authorized security assessment of LLM applications and AI agents, including prompt injection, tool abuse, RAG exposure, memory poisoning, and model supply-chain risks.",
+  "关键输入": "- LLM 应用安全测试（ChatBot、RAG、Code Assistant） - AI Agent 安全审计（工具调用、记忆持久化、多智能体通信） - Prompt 注入测试（直接 + 间接） - 模型供应链安全评估 - 红队 AI 系统攻击模拟",
+  "关键输出": "LLM 输出可能被下游系统直接消费： 下游 测试 ------ ------ 浏览器/DOM XSS via 在生成内容中 数据库 SQL 注入在生成的查询中 Shell/OS 命令注入 (cat file; cat /etc/hosts) API 调用 SSRF、越权请求",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- LLM 应用安全测试（ChatBot、RAG、Code Assistant） - AI Agent 安全审计（工具调用、记忆持久化、多智能体通信） - Prompt 注入测试（直接 + 间接） - 模型供应链安全评估 - 红队 AI 系统攻击模拟时，用它产出或更新：LLM 输出可能被下游系统直接消费： 下游 测试 ------ ------ 浏览器/DOM XSS via 在生成内容中 数据库 SQL 注入在生成的查询中 Shell/OS 命令注入 (cat file; cat /etc/hosts)…",
+  "skill_id": "02083-llm-security-83203d3b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/llm-security/SKILL.md",
+  "relative_path": "lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/llm-security/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "141ef901d5a070ddcd633f1a07717ba1b4eb8bbe0db4dd2f44429d65d1aece39",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

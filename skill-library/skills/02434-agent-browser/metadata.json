@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-browser",
+  "中文名称": "待补：agent-browser",
+  "一句话作用": "浏览器自动化操作：打开页面、点击/填表/勾选/悬停、抓取页面文本与属性、截图/PDF、等待元素、多会话隔离、Cookie 与状态保存、网络拦截。触发词：浏览器自动化、网页操作、打开网页、页面抓取、网页截图、点击填表、浏览器填表、网页文本提取。何时不用：需要人工视觉分析的复杂页面（用内置浏览器工具）。Headless browser automation CLI (accessibility tree snapshots + ref-b…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:53:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要浏览器自动化操作：打开页面、点击/填表/勾选/悬停、抓取页面文本与属性、截图/PDF、等待元素、多会话隔离、Cookie 与状态保存、网络拦截。触发词：浏览器自动化、网页操作、打开网页、页面抓取、网页截图、点击填表、浏览器填表、网页文本提取。何时不用：需要人工视觉分析的复杂页面（用内置浏览器工具）。Headless browser automation CLI (accessibility tree snapshots + ref-b…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02434-agent-browser-6edc606c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/agent-browser/SKILL.md",
+  "relative_path": "lute/.dsh/skills/agent-browser/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dd718cf015fde9387a466c16e2ef337599cca55597579bb159ecb7f06918d6ed",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

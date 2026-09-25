@@ -1,0 +1,22 @@
+{
+  "英文名称": "executive-briefing-kit",
+  "中文名称": "待补：executive-briefing-kit",
+  "一句话作用": "Framework for packaging competitive updates into executive-ready narratives 触发词：高管简报、竞品情报汇报、董事会汇报、高管叙事、竞品动态摘要。",
+  "关键输入": "- Preparing board/ELT updates on competitive threats and market shifts. - Summarizing key intel for quarterly business reviews or deal war rooms. - Aligning cross-functional leaders on immediate actions + investments.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:32:56+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Preparing board/ELT updates on competitive threats and market shifts. - Summarizing key intel for quarterly business reviews or deal war rooms. - Aligning cross-functional leaders on immediate actions + investments.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02558-executive-briefing-kit-50598f16",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/executive-briefing-kit/SKILL.md",
+  "relative_path": "lute/.dsh/skills/executive-briefing-kit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fb26aca367adf1fccc50393589d1c9e250dc2d94e6ed60b97ce4a873f84ee719",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

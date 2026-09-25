@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-flexible-supply-chain-small-batch-agile",
+  "中文名称": "柔性供应链小单快返 模式敏捷采购与快速响应算法",
+  "一句话作用": "触发词：小单快返、柔性供应链、新品试销、最优首批量、追单决策、快反供应商。何时不用：需求稳定的老品按补货点下单时用「安全库存与补货策略」；处理采购延误与取消时走「订单协调」的异常处置。安全边界：追单节奏与急单溢价须落在已签的供应商框架协议内，不做无授权的产能锁定。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要大批量备货导致季度积压$8万而爆款缺货——Newsvendor最优小批量+Bayesian追单将积压从$8万降至$2万，爆款断货率从45%降至12%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03142-p2s-flexible-supply-chain-small-batch-agile-f35244e0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-flexible-supply-chain-small-batch-agile/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-flexible-supply-chain-small-batch-agile/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f01ab76969c71d4d9dfe85a7a6ed5a6e488a7f75f400cf0e9d08ffb3a473a7fe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-product-iteration-signal-extractor",
+  "中文名称": "产品迭代信号提取 从差评到优先级排序的产品改进需求清单",
+  "一句话作用": "触发词：差评优先级、改进清单、迭代方向、痛点排序、改进建议抽取。何时不用：要输出带 ROI 排序的行动链用「MAA 评论到行动决策」；要跨竞品找未满足需求与机会得分用「Review Pain-Point Mining」。安全边界：仅使用公开评论数据，改进建议内部闭环、不对外披露优先级排序，也不把评论内容反向识别到个人。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品团队面临\"千条差评不知从哪改起\"——优先级评分将差评分析时间从1周→2小时，精准修复后星级提升0.2-0.3星年化增收50-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11317-p2s-voc-product-iteration-signal-extractor-71f44153",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-voc-product-iteration-signal-extractor/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-voc-product-iteration-signal-extractor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "46db6b7613abb1da1f426e5de0bbcda2636e224c17450319f6d98b4ea38e2fca",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

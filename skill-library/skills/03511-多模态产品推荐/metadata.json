@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multimodal-product-rec",
+  "中文名称": "多模态产品推荐",
+  "一句话作用": "触发词：多模态推荐、图像特征、图文融合、评论信号、视觉匹配。何时不用：要按商品标签约束做推荐用「标签感知个性化推荐」；要按商品属性图做零样本推荐用「图基础模型推荐」。安全边界：用户评论须在平台 ToS 允许范围内使用，不得用于训练商业模型；图像质量不达标（低分辨率主图）时不得作为推荐依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"纯文本推荐重复率高、用户反馈老是推一样的\"——视觉+文本+UGC门控融合将首页CTR提升28%、新品发现率提升40%，年化SEO增量价值约60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03511-p2s-multimodal-product-rec-9c5529df",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multimodal-product-rec/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multimodal-product-rec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ccb95032c5c5d2d266e76a21ea17ffcca133dda37ed6259f06d2c37fe993f045",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

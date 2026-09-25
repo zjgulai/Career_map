@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-visualization",
+  "中文名称": "统一可视化",
+  "一句话作用": "当回答涉及趋势、占比、比较、流程、机制、因果、架构、关系、时间线、状态机、算法步骤、参数变化、原图证据，或用户明确要求图表、图解、标注、动态/交互演示时使用。优先用 ECharts、确定性 HTML/SVG 或原图叠加；不承接地图、附件交付、海报、头像、写实图片和艺术插画。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要当回答涉及趋势、占比、比较、流程、机制、因果、架构、关系、时间线、状态机、算法步骤、参数变化、原图证据，或用户明确要求图表、图解、标注、动态/交互演示时使用。优先用 ECharts、确定性 HTML/SVG 或原图叠加；不承接地图、附件交付、海报、头像、写实图片和艺术插画。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06703-doubao-visualization-b2e00b42",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-visualization/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b522429e1efe5e66a6435f15af2739e94b4d1d513eafb4d91232a175d3201af",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

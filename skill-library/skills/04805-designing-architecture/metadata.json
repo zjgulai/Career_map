@@ -1,0 +1,22 @@
+{
+  "英文名称": "designing-architecture",
+  "中文名称": "待补：designing-architecture",
+  "一句话作用": "Designs software architecture and selects appropriate patterns for projects. Use when designing systems, choosing architecture patterns, structuring projects, making technical decisions, or when asked about microservice…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After selecting an architecture, validate against: If validation fails, reconsider the pattern selection or adjust the implementation approach.",
+  "最新更新时间": "2026-09-19T03:48:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Designs software architecture and selects appropriate patterns for projects. Use when designing systems, choosing architecture patterns, structuring projects, making technical decisions, or when asked about microservice…时，用它产出或更新：After selecting an archite…",
+  "skill_id": "04805-designing-architecture-9a12ae38",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/designing-architecture/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/designing-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "add751c726123d6a7526f7e777b5f053ca666dd47a8f0bd2bad58f2a1827d74f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

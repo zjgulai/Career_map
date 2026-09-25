@@ -1,0 +1,22 @@
+{
+  "英文名称": "get-tsconfig",
+  "中文名称": "待补：get-tsconfig",
+  "一句话作用": "Find, parse, and query tsconfig.json files — extends resolution, file matching, path alias resolution. Use when reading tsconfig.json, checking if a file belongs to a tsconfig, resolving TypeScript path aliases, or work…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T11:07:37+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Find, parse, and query tsconfig.json files — extends resolution, file matching, path alias resolution. Use when reading tsconfig.json, checking if a file belongs to a tsconfig, resolving TypeScript path aliases, or work…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09942-get-tsconfig-bcea3a58",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/pnpm/store/v11/links/@/get-tsconfig/5.0.0-beta.5/716c1534f9dba320e52d0470c80d62c35f4c03e691b402424502bde9aa869d50/node_modules/get-tsconfig/skills/get-tsconfig/SKILL.md",
+  "relative_path": "lute/Library/pnpm/store/v11/links/@/get-tsconfig/5.0.0-beta.5/716c1534f9dba320e52d0470c80d62c35f4c03e691b402424502bde9aa869d50/node_modules/get-tsconfig/skills/get-tsconfig/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "13d1bbc1af7f7176fc598678defb29aecae0d3cd55d308474edc0a21f8fed89c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

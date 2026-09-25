@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-auto-tagging-pipeline-rule-ml-llm",
+  "中文名称": "三层自动打标流水线 规则引擎分类器抽取的混合置信度打标体系",
+  "一句话作用": "触发词：自动打标、规则引擎、混合置信度、SKU标签、人工复核队列。何时不用：只需要从描述中抽取结构化字段时用统一信息抽取技能；只把评论转成情感特征时用情感 ML 管道技能。安全边界：低置信标签必须进入人工复核队列，不得直接用于结算、合规声明等高风险用途。",
+  "关键输入": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-12T10:58:29+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据团队面临\"500个SKU打标需要1周人工\"——规则+ML+LLM三层流水线将覆盖率从30%提升至97%，人工审核量从100%降至3%，节省标注成本4万元/年时，用它产出或更新：（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11219-p2s-auto-tagging-pipeline-rule-ml-llm-1f91ea1f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-auto-tagging-pipeline-rule-ml-llm/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-auto-tagging-pipeline-rule-ml-llm/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df59c9c8cf83aef72386051e2b3e441b03dffeb3d47be4c3c6568305ef5e4f6b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

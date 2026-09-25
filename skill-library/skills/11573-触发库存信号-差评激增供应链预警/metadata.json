@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-triggered-inventory-signal",
+  "中文名称": "触发库存信号（差评激增供应链预警）",
+  "一句话作用": "触发词：差评预警、差评激增、批次质量预警、VOC 监控、暂停出库。何时不用：要从退货记录反推批次与供应商多层根因用「退货根因归因图谱」，要自动派改善任务用「客诉聚类」类技能。安全边界：暂停出库与启动质检仅为建议，须人工确认后由仓库执行，模型不直接冻结库存。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链团队面临\"差评激增是批次质量问题但发现滞后导致大量问题产品流出\"——VOC异常触发供应链预警将问题批次发现时间从2周缩短至3天，年化减少质量召回损失30-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11573-p2s-voc-triggered-inventory-signal-59425b83",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-voc-triggered-inventory-signal/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-voc-triggered-inventory-signal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b908c4bcc702f9a37a5189f8f30cf4c7fb29e5581cbbbc0c4ff9f2dc6fa23e50",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

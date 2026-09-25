@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-push-notification-decision-transformer",
+  "中文名称": "推送通知优化 多目标时机预测",
+  "一句话作用": "触发词：推送时机、Decision Transformer、月龄内容、疲劳控制、取关率、触达节奏。何时不用：只需按固定规则定时推送时不必上模型；要在多目标（转化、疲劳、取关）之间权衡推送时机与内容时用本卡。安全边界：推送须获授权并提供关闭入口，须设频率上限；不得基于儿童健康或敏感信息定向，禁止夜间打扰。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临推送打开率持续下滑——Transformer决策引擎将推送CTR从2.1%提升至5.8%，年化增收42万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11785-p2s-push-notification-decision-transformer-a6ec9574",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-push-notification-decision-transformer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-push-notification-decision-transformer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4c1d555d314c66238b7337de1a2c2be7c942a7fa25011d4f3a9aed79fda2901c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

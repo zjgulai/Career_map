@@ -1,0 +1,22 @@
+{
+  "英文名称": "pptx-generator",
+  "中文名称": "待补：pptx-generator",
+  "一句话作用": "Generate, edit, and read PowerPoint presentations. Create from scratch with PptxGenJS (cover, TOC, content, section divider, summary slides), edit existing PPTX via XML workflows, or extract text with markitdown. Trigge…",
+  "关键输入": "Search to understand user requirements — topic, audience, purpose, tone, content depth.",
+  "关键输出": "---",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate, edit, and read PowerPoint presentations. Create from scratch with PptxGenJS (cover, TOC, content, section divider, summary slides), edit existing PPTX via XML workflows, or extract text with markitdown. Trigge…时，用它产出或更新：---",
+  "skill_id": "10723-pptx-generator-847d57dc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/pptx-generator/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/pptx-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6eeb36239fdef35ab133ca462e1ec4674cb96dd9c5cd63da39c29151899bda10",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

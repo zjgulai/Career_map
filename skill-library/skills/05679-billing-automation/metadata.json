@@ -1,0 +1,22 @@
+{
+  "英文名称": "billing-automation",
+  "中文名称": "待补：billing-automation",
+  "一句话作用": "Build automated billing systems for recurring payments, invoicing, subscription lifecycle, and dunning management. Use when implementing subscription billing, automating invoicing, or managing recurring payment systems.",
+  "关键输入": "- Implementing SaaS subscription billing - Automating invoice generation and delivery - Managing failed payment recovery (dunning) - Calculating prorated charges for plan changes - Handling sales tax, VAT, and GST - Pro…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- Implementing SaaS subscription billing - Automating invoice generation and delivery - Managing failed payment recovery (dunning) - Calculating prorated charges for plan changes - Handling sales tax, VAT, and GST - Pro…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05679-billing-automation-1e3bf5ed",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/payment-processing/skills/billing-automation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/payment-processing/skills/billing-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8cfd13532ef4573539de5b3404c5cb794e9988c96f54c158de37da91ff91caf",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

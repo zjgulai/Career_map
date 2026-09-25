@@ -1,0 +1,22 @@
+{
+  "英文名称": "save-system",
+  "中文名称": "存档系统技能",
+  "一句话作用": "存档系统技能。管理游戏进度的保存和加载，支持多存档槽、自动保存、云存档等功能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要存档系统技能。管理游戏进度的保存和加载，支持多存档槽、自动保存、云存档等功能。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05907-save-system-fc425f6f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-2-modules/save-system/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-2-modules/save-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fbe23feae202a33cc8b14937746d52a282de2c0ab5ba2658b6d3a2631478953e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

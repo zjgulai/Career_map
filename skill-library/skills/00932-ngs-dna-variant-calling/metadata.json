@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-dna-variant-calling",
+  "中文名称": "待补：ngs-dna-variant-calling",
+  "一句话作用": "Dispatch WGS, WES, or targeted DNA variant requests to germline, somatic, or UMI-panel skills, then plan public nf-core/sarek, GATK4, DeepVariant, samtools, or bcftools workflows.",
+  "关键输入": "Confirm: - data type: WGS, WES, or panel - sample model: germline single sample, cohort, trio, tumor-only, or tumor-normal - input type: FASTQ, BAM, or CRAM - organism and reference genome - known-sites resources for BQSR, if required - target BED for WES or…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Dispatch WGS, WES, or targeted DNA variant requests to germline, somatic, or UMI-panel skills, then plan public nf-core/sarek, GATK4, DeepVariant, samtools, or bcftools workflows.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00932-ngs-dna-variant-calling-8cfc7f94",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-dna-variant-calling/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-dna-variant-calling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e0e6be347bd672114e18c15dcd1d50ac6e94f76932325d9e706261283c3a1b2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

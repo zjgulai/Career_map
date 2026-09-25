@@ -1,0 +1,22 @@
+{
+  "英文名称": "scrollytelling-and-parallax-data-visualization",
+  "中文名称": "待补：scrollytelling-and-parallax-data-visualization",
+  "一句话作用": "Design and implement parallax scrolling and scrollytelling data visualizations. Use when the user asks for parallax scrolling, scrollytelling, scroll-driven timelines, sticky graphics, Scrollama, ScrollTrigger, ScrollTi…",
+  "关键输入": "- A timeline, map, chart, 3D scene, video, or illustrated substrate needs staged reveal while the reader scrolls. - The story benefits from a linear author-led path before optional reader exploration. - A sticky graphic…",
+  "关键输出": "- State whether scrollytelling is justified and what would be lost in a simpler format. - Name the scrollytelling technique and the reader's path through scenes. - Provide a scene contract with trigger/progress ranges and static fallbacks. - For Codex image-g…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- A timeline, map, chart, 3D scene, video, or illustrated substrate needs staged reveal while the reader scrolls. - The story benefits from a linear author-led path before optional reader exploration. - A sticky graphic…时，用它产出或更新：- State whether scrollytel…",
+  "skill_id": "00748-scrollytelling-and-parallax-data-visualization-930a4966",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/scrollytelling-and-parallax-data-visualization/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/scrollytelling-and-parallax-data-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "edfcb78d543d4d80d470f390446d65951179d07e13ada03cdd4bc3d77678eafe",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

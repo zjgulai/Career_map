@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agrs-aspect-guided-review-summarization",
+  "中文名称": "属性引导评论摘要 - 大规模零幻觉 Review 摘要 pipeline",
+  "一句话作用": "触发词：评论摘要、属性情感提取、零幻觉摘要、多市场评论汇总、季度评论复盘。何时不用：只需要给单条评论打情感或做客诉分诊时用「Tag-Driven VOC 信号路由」；要输出改进建议与优先级清单时用「MAA 评论到行动决策」。安全边界：遵守 Amazon 开发者协议，禁止转售原始评论或用于竞品分析；评论需脱敏，不得据评论内容反向识别个人。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题:Momcozy 在 Amazon US/DE 同时销售紫外线消毒器,每季度 1-2 万条评论,人工汇总需要 2-3 个产品经理 × 1 周;管理层季度复盘和供应链/产品团队迭代输入严重滞后 - 数据要求:Amazon Review API 季度评论数据(评论文本 + 评分 + 市场标记) - AGRS 配置: - ABSA 提取每条评论的 ≤5 个 aspect-sentiment 对(如 `disinfection effe时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输…",
+  "skill_id": "02734-p2s-agrs-aspect-guided-review-summarization-48147f03",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agrs-aspect-guided-review-summarization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agrs-aspect-guided-review-summarization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f8b03ddeef33097d3b88f0a6db91622a861cb4bf6ad8f51059f8cde9eb740f2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

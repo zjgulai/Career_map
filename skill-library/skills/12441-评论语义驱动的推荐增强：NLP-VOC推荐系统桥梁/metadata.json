@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-driven-recommendation-signal",
+  "中文名称": "评论语义驱动的推荐增强：NLP-VOC推荐系统桥梁",
+  "一句话作用": "触发词：VOC、评论方面情感、偏好向量、个性化重排、退货率。何时不用：要用商品评论做多模态融合推荐用「多模态产品推荐」；要按会话图预测下一件商品用「SR-GNN 会话推荐」。安全边界：评论数据用于推荐须符合平台 ToS 与授权范围；方面情感只作偏好信号，不得曲解评论原意用于夸大宣传。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要推荐系统对静音敏感用户推了嘈杂的热销吸奶器导致退货率高——方面情感向量注入协同过滤将静音型产品从第8位升至第2位，推荐CVR提升8-15%，年化GMV增益20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12441-p2s-voc-driven-recommendation-signal-2a842d54",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-voc-driven-recommendation-signal/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-voc-driven-recommendation-signal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8aa5da92ae9db6a269452c104d2035f4ecafde9711b62fa573510ff60a8e1550",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

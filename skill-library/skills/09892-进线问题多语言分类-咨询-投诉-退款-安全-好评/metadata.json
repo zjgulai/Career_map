@@ -1,0 +1,22 @@
+{
+  "英文名称": "进线问题多语言分类（咨询/投诉/退款/安全/好评）",
+  "中文名称": "待补：进线问题多语言分类（咨询/投诉/退款/安全/好评）",
+  "一句话作用": "当收到英/德/法/意/西/阿等语言的客服工单或邮件、需先分类与打优先级以便路由时调用； 安全类永远最高优先级 。",
+  "关键输入": "- 原始文本粘贴；若为图片/OCR，标注 可信度 。 - 时区 ：用户所在市场（影响 SLA 表述）。",
+  "关键输出": "- JSON 或表：ticket id lang category urgency safety suspected route next - 摘要一句 供主管扫读。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当收到英/德/法/意/西/阿等语言的客服工单或邮件、需先分类与打优先级以便路由时调用； 安全类永远最高优先级 。时，用它产出或更新：- JSON 或表：ticket id lang category urgency safety suspected route next - 摘要一句 供主管扫读。",
+  "skill_id": "09892-skill-9f06e214",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/inquiry-classifier-multilingual/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/inquiry-classifier-multilingual/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d62e93bed70373d7a3ca39094d1a3f00b8fff84da51171b661081ce02d84c192",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

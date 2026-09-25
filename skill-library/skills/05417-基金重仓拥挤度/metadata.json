@@ -1,0 +1,22 @@
+{
+  "英文名称": "fund-crowding",
+  "中文名称": "基金重仓拥挤度",
+  "一句话作用": "用于基金重仓股拥挤度分析，聚焦机构行为、拥挤交易、风险管理、组合研究。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户想判断某只基金重仓股到底是\"机构共识优质资产\"，还是\"已经过度拥挤、稍有不及预期就容易踩踏\"的标的。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于基金重仓股拥挤度分析，聚焦机构行为、拥挤交易、风险管理、组合研究。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户想判断某只基金重仓股到底是\"机构共识优质资产\"，还是\"已经过度拥挤、稍有不及预期就容易踩踏\"的标的。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05417-fund-crowding-9f719b49",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/fund-crowding/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/fund-crowding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3dcf8a1cfe785874a44161972e5d3fa25c7db8272f7352aadc434b3e8eb5032",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

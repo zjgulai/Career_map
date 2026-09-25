@@ -1,0 +1,22 @@
+{
+  "英文名称": "aiq-deploy",
+  "中文名称": "待补：aiq-deploy",
+  "一句话作用": "Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.",
+  "关键输入": "Users need: - Access to clone or update https://github.com/NVIDIA-AI-Blueprints/aiq. - Git available in the shell. - One deployment runtime: - Docker Engine with Docker Compose v2 for the default durable local deployment. - Python 3.11+ and uv for local proce…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00943-aiq-deploy-ee655c3d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/aiq-deploy/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/aiq-deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9bfad6034823422b564c0ff3ff7d462eef237fec129f4f5fb1c027f625bc2b9f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

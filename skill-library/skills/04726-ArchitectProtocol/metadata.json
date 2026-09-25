@@ -1,0 +1,22 @@
+{
+  "英文名称": "ArchitectProtocol",
+  "中文名称": "待补：ArchitectProtocol",
+  "一句话作用": "A strict 6-phase development protocol for software architecture, product design, and QA.",
+  "关键输入": "- Objective : Understand the \"why\" and \"what\". - Actions : - Analyze the request for completeness. - Ask clarifying questions (target audience, main purpose, technical constraints, context of use). - Output : Summary of…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Objective : Understand the \"why\" and \"what\". - Actions : - Analyze the request for completeness. - Ask clarifying questions (target audience, main purpose, technical constraints, context of use). - Output : Summary of…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04726-architectprotocol-c632307e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ArchitectProtocol/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ArchitectProtocol/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da0cca4fbad33cb3a63b62a5ed7cf7a9f1c155a5d9b862fcc2d21bb93e3f7f19",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

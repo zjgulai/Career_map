@@ -1,0 +1,22 @@
+{
+  "英文名称": "voc-to-content-bridge",
+  "中文名称": "待补：voc-to-content-bridge",
+  "一句话作用": "VOC (Voice of Customer) 洞察→内容策略的桥接 skill。 将 customer-feedback-analysis 输出的 VOC 信号（痛点/称赞/竞品信号/安全告警）转换为内容策略输入。 核心能力：痛点→钩子映射、称赞→放大方向、竞品差距→差异化角度、安全告警→危机回应内容。 输出格式与 multi-scenario-pipeline-design 的 content strategy input 兼容。…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要VOC (Voice of Customer) 洞察→内容策略的桥接 skill。 将 customer-feedback-analysis 输出的 VOC 信号（痛点/称赞/竞品信号/安全告警）转换为内容策略输入。 核心能力：痛点→钩子映射、称赞→放大方向、竞品差距→差异化角度、安全告警→危机回应内容。 输出格式与 multi-scenario-pipeline-design 的 content strategy input 兼容。…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09554-voc-to-content-bridge-06ea46bf",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/voc-to-content-bridge/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/voc-to-content-bridge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c71f7ec05f2e6c67606adbcf1acf098515443bc0b84a8e363a2edba9b7633193",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

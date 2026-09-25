@@ -1,0 +1,22 @@
+{
+  "英文名称": "meeting-prep",
+  "中文名称": "待补：meeting-prep",
+  "一句话作用": "Use when creating Public Equity Investing meeting prep briefs. Do not use for private diligence, IB, FP&A, legal, or scheduling-only tasks.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when creating Public Equity Investing meeting prep briefs. Do not use for private diligence, IB, FP&A, legal, or scheduling-only tasks.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00995-meeting-prep-3921ec28",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/meeting-prep/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/meeting-prep/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b5abfc59b96501ca460bb1626767a893506e1f572c1fb5e3664249e2f1d10f7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-payment-result-detail",
+  "中文名称": "待补：alibaba-icbu-payment-result-detail",
+  "一句话作用": "【Payment SubAgent internal handler — main Agent MUST route payment requests to buyer-payment-intent first】 Keywords 支付失败原因/错误码/为什么支付失败/到账时间/退款多久/汇率/error code/payment error/why failed/when will I receive/refund time/pro…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Fine-grained explanation layer on top of the payment-status Skill. After payment-status resolves a bucket (and optionally paymentMethod / errorCode / refundType), this Skill answers the buyer's \"why / when / how long / what next\" follow-up questions. Upstream…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要【Payment SubAgent internal handler — main Agent MUST route payment requests to buyer-payment-intent first】 Keywords 支付失败原因/错误码/为什么支付失败/到账时间/退款多久/汇率/error code/payment error/why failed/when will I receive/refund time/pro…时，用它产出或更新：Fine-grained explanation l…",
+  "skill_id": "00076-alibaba-icbu-payment-result-detail-bcda2331",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-payment-result-detail/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-payment-result-detail/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "57f5cf910823a4f710a2c9e29f7abc0abaa552e6d43a7e8c1d900866188dc049",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

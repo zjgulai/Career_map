@@ -1,0 +1,22 @@
+{
+  "英文名称": "auth-wechat-miniprogram",
+  "中文名称": "待补：auth-wechat-miniprogram",
+  "一句话作用": "CloudBase WeChat Mini Program native authentication guide. This skill should be used when users need mini program identity handling, OPENID/UNIONID access, or wx.cloud auth behavior in projects where login is native and…",
+  "关键输入": "Use this skill for WeChat Mini Program (小程序) authentication in a CloudBase project. Use it when you need to: - Implement identity-aware WeChat Mini Program flows with CloudBase - Access user identity (openid, unionid) i…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill for WeChat Mini Program (小程序) authentication in a CloudBase project. Use it when you need to: - Implement identity-aware WeChat Mini Program flows with CloudBase - Access user identity (openid, unionid) i…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05218-auth-wechat-miniprogram-6babe0bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/auth-wechat-miniprogram/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/auth-wechat-miniprogram/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a1adbc3d3ec903c7866cca44a6ab78dcaf83a97d142f1e0dad5fad8a3bd2df67",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

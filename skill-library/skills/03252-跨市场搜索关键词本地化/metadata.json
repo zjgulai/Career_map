@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-international-search-localization",
+  "中文名称": "跨市场搜索关键词本地化",
+  "一句话作用": "触发词：关键词本地化、跨语言语义相似度、LABSE、本地搜索词、Autocomplete挖掘、词库迁移。何时不用：要做季节性峰值词轮换排期用「季节性关键词轮换策略」；要找竞品覆盖缺口用「竞品关键词缺口分析」；要做长尾词挖掘用「长尾关键词挖掘」；要改写文案内容用「跨文化内容自动适配」。安全边界：词库须符合目标国消费者权益保护法与平台搜索政策，避免关键词堆砌导致限流，落地前经母语与合规复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨市场运营面临\"直译关键词本地搜索量很低\"——语义迁移本地化将德语市场自然搜索点击率提升3倍，年化增收25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03252-p2s-international-search-localization-12505499",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-international-search-localization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-international-search-localization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3abdb76d2090e6632615765123c4f6e497677a859103ac1d662991a999566cb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

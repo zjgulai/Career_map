@@ -1,0 +1,22 @@
+{
+  "英文名称": "ai-model-web",
+  "中文名称": "待补：ai-model-web",
+  "一句话作用": "Use this skill when a browser/Web app (React, Vue, Next, Nuxt, static sites, SPAs, dashboards, AI chat UI, 页面, 前端, 网页) needs AI models via @cloudbase/js-sdk. Default routing for Web/frontend AI — call directly from the…",
+  "关键输入": "Use this skill for calling AI models in browser/Web applications via @cloudbase/js-sdk. 🧭 Runtime-plane default for Web. Any time the user's request is framed around a page, a Web app, the frontend, React/Vue/Next/Nuxt,…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill for calling AI models in browser/Web applications via @cloudbase/js-sdk. 🧭 Runtime-plane default for Web. Any time the user's request is framed around a page, a Web app, the frontend, React/Vue/Next/Nuxt,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00638-ai-model-web-c23427b2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.codebuddy/skills/ai-model-web/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.codebuddy/skills/ai-model-web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6fc0a24ee3402663e6522f204feac5aac95473dda49361e80f5eb64e022a1913",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

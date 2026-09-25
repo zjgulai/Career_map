@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-novel-writing",
+  "中文名称": "网文小说创作 Skill",
+  "一句话作用": "用于网文小说创作、改写、续写、诊断、卖点包装、市场调查和编辑视角分析。当用户需要写或优化开篇、第一章、前三章、章节正文、大纲、设定、人设、CP、情节桥段、简介、导语、投稿文，或要求分析相似网文、研究题材市场、拆解公开作品、模拟网文编辑审稿、制定连载规划时使用。适用于女频、男频、短篇、长篇、爽文、甜宠、悬疑、玄幻、末世、无限流等网文任务。不用于范文批量入库、小说素材库维护、小红书运营或非小说类写作任务。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要用于网文小说创作、改写、续写、诊断、卖点包装、市场调查和编辑视角分析。当用户需要写或优化开篇、第一章、前三章、章节正文、大纲、设定、人设、CP、情节桥段、简介、导语、投稿文，或要求分析相似网文、研究题材市场、拆解公开作品、模拟网文编辑审稿、制定连载规划时使用。适用于女频、男频、短篇、长篇、爽文、甜宠、悬疑、玄幻、末世、无限流等网文任务。不用于范文批量入库、小说素材库维护、小红书运营或非小说类写作任务。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06277-doubao-novel-writing-3c9ea859",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-novel-writing/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-novel-writing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b88d8fa4feb3a04efd096a71d998f3b80dc7077903190dc81e6349b388fb9ac8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "memory-widget",
+  "中文名称": "待补：memory-widget",
+  "一句话作用": "Use when the user wants to SEE their own memory/vault as a visual widget - a dashboard, calendar, table, tag gallery, or relationship graph of the people/projects/concepts you remember about them. Triggers: '把我的记忆做成 das…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T17:52:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use when the user wants to SEE their own memory/vault as a visual widget - a dashboard, calendar, table, tag gallery, or relationship graph of the people/projects/concepts you remember about them. Triggers: '把我的记忆做成 das…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06189-memory-widget-2c037369",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/memory-widget/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/memory-widget/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fe36b7dad43a3edab1763c2650866075d2026f514eebde8f61046b64cf0253d0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

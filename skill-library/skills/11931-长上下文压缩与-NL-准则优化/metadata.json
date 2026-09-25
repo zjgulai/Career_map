@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-context-compression",
+  "中文名称": "长上下文压缩与 NL 准则优化",
+  "一句话作用": "触发词：长上下文压缩、历史摘要、观察压缩、准则优化、长对话客服降本。何时不用：单轮短会话或上下文未超模型窗口时不必要；只按相关性剪枝单轮工具结果用主动上下文剪枝。安全边界：压缩不得丢掉订单、物流与规格等关键事实，压缩准则须用成功与失败轨迹校准后再上线。",
+  "关键输入": "输入 ：跨境客服的历史对话（常为 10-30 轮）、多次接口返回的原始数据（订单、物流、产品规格，单个可能 5000 以上 token），以及每个场景 50-200 对成功轨迹与失败轨迹标注用于校准准则。 输出 ：压缩后的观察序列与历史摘要（保留最近若干轮加系统级摘要），以及长对话的推理成本与首响时延改善幅度，供长流程 Agent 在受限上下文窗口内继续推理。",
+  "关键输出": "输入 ：跨境客服的历史对话（常为 10-30 轮）、多次接口返回的原始数据（订单、物流、产品规格，单个可能 5000 以上 token），以及每个场景 50-200 对成功轨迹与失败轨迹标注用于校准准则。 输出 ：压缩后的观察序列与历史摘要（保留最近若干轮加系统级摘要），以及长对话的推理成本与首响时延改善幅度，供长流程 Agent 在受限上下文窗口内继续推理。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：长上下文压缩、历史摘要、观察压缩、准则优化、长对话客服降本。何时不用：单轮短会话或上下文未超模型窗口时不必要；只按相关性剪枝单轮工具结果用主动上下文剪枝。安全边界：压缩不得丢掉订单、物流与规格等关键事实，压缩准则须用成功与失败轨迹校准后再上线。时，用它产出或更新：输入 ：跨境客服的历史对话（常为 10-30 轮）、多次接口返回的原始数据（订单、物流、产品规格，单个可能 5000 以上 token），以及每个场景 50-200 对成功轨迹与失败轨迹标注用于校准准则。 输出 ：压缩后的观察序列与历史摘要…",
+  "skill_id": "11931-p2s-context-compression-1ee1935e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-context-compression/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-context-compression/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c47c511716ff66cee1ddd7812322d266e8d22b3c41a40edb7cec896684bfbb1f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

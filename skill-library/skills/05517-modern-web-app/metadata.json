@@ -1,0 +1,22 @@
+{
+  "英文名称": "modern-web-app",
+  "中文名称": "待补：modern-web-app",
+  "一句话作用": "Tools for building modern React webapps with TypeScript, Tailwind CSS and shadcn/ui. Best suited for applications with complex UI components and state management.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "bash scripts/init-webapp.sh \"My Website\" ./my-project cd ./app or your custom directory",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Tools for building modern React webapps with TypeScript, Tailwind CSS and shadcn/ui. Best suited for applications with complex UI components and state management.时，用它产出或更新：bash scripts/init-webapp.sh \"My Website\" ./my-project cd ./app or your custom direct…",
+  "skill_id": "05517-modern-web-app-0853c927",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/modern-webapp/skills/modern-web-app/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/modern-webapp/skills/modern-web-app/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "51a7c5d3daee3c3b72eb69d58cb7c4db6767356d9c43eb306cfc6040c9a85692",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-proto-soft",
+  "中文名称": "Apple Soft 原型",
+  "一句话作用": "Apple 调: 银/奶 canvas + 双层斜面卡片 + button-in-button + spring",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要Apple 调: 银/奶 canvas + 双层斜面卡片 + button-in-button + spring时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10444-web-proto-soft-2e33852c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/web-proto-soft/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/web-proto-soft/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "899079747ea9941d44e092dd0ea7588951663b24537820b22a5b7aabb149e97d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

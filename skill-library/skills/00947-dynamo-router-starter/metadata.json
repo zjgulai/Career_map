@@ -1,0 +1,22 @@
+{
+  "英文名称": "dynamo-router-starter",
+  "中文名称": "待补：dynamo-router-starter",
+  "一句话作用": "Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-runner for recipe deployment and troubleshoot for failure d…",
+  "关键输入": "- Python 3.10+ with the dynamo package importable (python3 -m dynamo.frontend --help works). - For Kubernetes runs: kubectl configured with access to the target namespace and a deployed Dynamo recipe. - Network reachability to the frontend service (port-forwa…",
+  "关键输出": "Return: - mode selected and why - local command or Kubernetes env patch - frontend service or URL - smoke-test result - any limitation, such as approximate KV mode or missing worker KV events - next command to run for a fuller comparison",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Local KV-routed frontend on port 8000, then smoke-test it: Kubernetes-deployed frontend reachable via port-forward: Equivalent through the agent protocol:时，用它产出或更新：Return: - mode selected and why - local command or Kubernetes env patch - frontend service o…",
+  "skill_id": "00947-dynamo-router-starter-4e762e28",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/dynamo-router-starter/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/dynamo-router-starter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1274a47bcd28c5086c26ce1a10f2b2e6c4a28b1b3fa9599ad2c4d1cb6ba67728",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

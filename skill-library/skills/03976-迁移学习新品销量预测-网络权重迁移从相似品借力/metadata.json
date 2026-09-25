@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-transfer-learning-new-product-forecast",
+  "中文名称": "迁移学习新品销量预测 网络权重迁移从相似品借力",
+  "一句话作用": "触发词：迁移学习、相似品借力、权重微调、新品备货、冷启动。何时不用：只需共享编码器快速冷启动时用「MTL 冷启动」；要按相似品分位数做概率备货时用「新品需求冷启动」。安全边界：仅使用内部历史数据，不抓取 Amazon 实时销售数据；预测结果仅用于内部备货决策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要选品运营面临新品上市零历史数据困境——迁移学习将相似品知识迁移到新品，将首批备货预测误差从±50%缩小至±20%，年化减少滞销断货损失200-600万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03976-p2s-transfer-learning-new-product-forecast-501d9761",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-transfer-learning-new-product-forecast/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-transfer-learning-new-product-forecast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4045c420ecf2cf2a1bcaff24472476c966e410c38b7fa1f636b57853d05c22c3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

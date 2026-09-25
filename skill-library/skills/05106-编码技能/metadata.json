@@ -1,0 +1,22 @@
+{
+  "英文名称": "spreadjs-dev-skill",
+  "中文名称": "编码技能",
+  "一句话作用": "用于编写、调试、审查 SpreadJS（葡萄城表格 / GrapeCity）前端电子表格组件的代码。覆盖工作簿/工作表/单元格、数据绑定、公式与自定义函数、Excel/CSV/SJS 导入导出、样式与条件格式、图表与形状、筛选排序、打印与 PDF、设计器 Designer、以及 React/Vue/Angular 集成。触发关键词：SpreadJS、葡萄城表格、表格控件、电子表格、GC.Spread.Sheets、Workbook、W…",
+  "关键输入": "以下 24 个 Demo 位于 references/ 目录，每个对应一个高频问题，含可运行代码与解题思路。所有 Demo 共用根目录的一个 node modules ，运行方式： 表中「在线参考」为 SpreadJS 官方 Demo/文档，用于核实细节。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:08+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要以下 24 个 Demo 位于 references/ 目录，每个对应一个高频问题，含可运行代码与解题思路。所有 Demo 共用根目录的一个 node modules ，运行方式： 表中「在线参考」为 SpreadJS 官方 Demo/文档，用于核实细节。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05106-spreadjs-dev-skill-db8e98f4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spreadjs-dev-skill/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spreadjs-dev-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5613810ea05be6c051305ad16a9cfec347933286268d436b4387c5ffba91d03a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-analysis-workflows",
+  "中文名称": "待补：data-analysis-workflows",
+  "一句话作用": "Comprehensive data analysis workflows including answering data questions, exploring datasets, writing SQL queries, creating visualizations, building dashboards, and validating analyses. Use when conducting data analysis…",
+  "关键输入": "Determine: - Purpose : Executive overview, operational monitoring, deep-dive analysis, team reporting - Audience : Who will use this dashboard? - Key metrics : What numbers matter most? - Dimensions : What should users be able to filter or slice by?",
+  "关键输出": "Compare results to expectations: - Magnitude : Are numbers in the right ballpark? - Direction : Do trends match known business context? - Consistency : Do related metrics tell the same story? If something looks off: - Recheck the query - Look for data quality…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Answer Data Questions : User has a specific question to answer - Explore Datasets : Encountering a new table or dataset - Write SQL : Need to generate queries for manual execution - Create Visualizations : Need charts…时，用它产出或更新：Compare results to expecta…",
+  "skill_id": "05439-data-analysis-workflows-0fb31462",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/data/skills/data-analysis-workflows/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/data/skills/data-analysis-workflows/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a597c09765c6586504aecc6a69ae8dfc325dd459920abd5eb7e0b22d4952f93",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

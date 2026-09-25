@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-order-promise-date-calculation",
+  "中文名称": "动态承诺交期计算 基于实时库存的订单交货承诺日期引擎",
+  "一句话作用": "触发词：承诺交期、ATP、CTP、可承诺量、可靠性标签、批量承诺。何时不用：要在途与到货异常预警用「到货异常追踪」；补货量决策用「自动补货决策」。安全边界：承诺日期对外可见，须以真实可用量与前置期为依据，不得为转化率虚报交期。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"承诺交期不准导致大量差评\"——ATP/CTP引擎将承诺准确率从70%提升至92%，减少30%因交期不准导致的退款时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11478-p2s-order-promise-date-calculation-2e41603f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-order-promise-date-calculation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-order-promise-date-calculation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "03493874b5ff708c8a23a3e5c7cd8ebfe1e3c8f31ab4e20fd56b0db3540dc75d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

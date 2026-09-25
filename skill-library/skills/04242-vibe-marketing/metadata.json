@@ -1,0 +1,22 @@
+{
+  "英文名称": "vibe-marketing",
+  "中文名称": "待补：vibe-marketing",
+  "一句话作用": "- Apply 'Vibe Coding' principles to marketing: describe outcomes, iterate via AI, and prioritize speed and human edge over perfection. 触发词：氛围营销、vibe marketing、氛围感文案、AI 辅助营销、快速迭代营销。",
+  "关键输入": "- 用「氛围式」方式快速生成、测试并迭代营销内容。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:08:50+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用「氛围式」方式快速生成、测试并迭代营销内容。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04242-vibe-marketing-75a9a51b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/vibe-marketing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/vibe-marketing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "672660f6ffac41e95f18a9f75c1b70ea39af054e40438940f6202f9be4fe0c15",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

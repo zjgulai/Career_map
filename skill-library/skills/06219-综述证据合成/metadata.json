@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-write-zh-literature-review",
+  "中文名称": "综述证据合成",
+  "一句话作用": "paper-write-zh内部的论文内文献综述写作参考，仅在中文正文写作流程已命中且已有可核验来源后使用，不作为独立入口。用于把用户已有或prepare阶段已核验的真实文献组织成研究脉络、分歧、缺口及连续的文献综述、研究现状、related work或review article正文，并写入.workflow/paper draft.md。需要独立执行系统检索、纳排、去重、质量评价和证据综合时转/doubao-literature-…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要paper-write-zh内部的论文内文献综述写作参考，仅在中文正文写作流程已命中且已有可核验来源后使用，不作为独立入口。用于把用户已有或prepare阶段已核验的真实文献组织成研究脉络、分歧、缺口及连续的文献综述、研究现状、related work或review article正文，并写入.workflow/paper draft.md。需要独立执行系统检索、纳排、去重、质量评价和证据综合时转/doubao-literature-…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06219-paper-write-zh-literature-review-f143fe5f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/literature-review/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/literature-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90aeb2ae8df60e217cf0708a5f5d89cb328a4b8d9e044003abcfa14aa852b850",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

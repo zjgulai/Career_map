@@ -1,0 +1,22 @@
+{
+  "英文名称": "pre-mortem",
+  "中文名称": "待补：pre-mortem",
+  "一句话作用": "假设计划已经失败，倒推出可能导致失败的原因并提前安排应对措施。触发词：事前风险演练、pre-mortem、假设计划已经失败，倒推出可能导致失败的原因并提前安排应对措施。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要假设计划已经失败，倒推出可能导致失败的原因并提前安排应对措施。触发词：事前风险演练、pre-mortem、假设计划已经失败，倒推出可能导致失败的原因并提前安排应对措施。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04073-pre-mortem-821dbca2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/pre-mortem/SKILL.md",
+  "relative_path": "lute/.dsh/skills/pre-mortem/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7f5d800d3dddd3bbcefd986939899a36b0ea9874a7a575d3dc29e7c04ff731b0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

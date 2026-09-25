@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ucb-ldp-dynamic-pricing",
+  "中文名称": "上下文动态定价）",
+  "一句话作用": "触发词：在线学习定价、上下文选价、候选价选择、实时报价、反馈闭环、隐私保护。何时不用：按库存窗口定价用「EMSR-b 边际库存定价」；需要理论 Regret 保证的上下文定价用「最优上下文定价」。安全边界：个性化报价须满足隐私与反价格歧视合规，展示价与结算价必须一致且可解释。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要独立站每天面对来自北美高净值用户（iPhone + 5分钟停留）和东南亚价格敏感用户（安卓 + 10秒跳出）的混合流量时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12435-p2s-ucb-ldp-dynamic-pricing-a0638a1c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-ucb-ldp-dynamic-pricing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-ucb-ldp-dynamic-pricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23a71553bbb58b0042448889afe013ee319ea6dc7624a69f7c548f09510590cf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

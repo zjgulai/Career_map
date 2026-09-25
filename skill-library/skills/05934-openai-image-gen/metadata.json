@@ -1,0 +1,22 @@
+{
+  "英文名称": "openai-image-gen",
+  "中文名称": "待补：openai-image-gen",
+  "一句话作用": "Batch-generate images via OpenAI Images API. Random prompt sampler + index.html gallery.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- .png images - prompts.json (prompt file mapping) - index.html (thumbnail gallery)",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Batch-generate images via OpenAI Images API. Random prompt sampler + index.html gallery.时，用它产出或更新：- .png images - prompts.json (prompt file mapping) - index.html (thumbnail gallery)",
+  "skill_id": "05934-openai-image-gen-e2d27c66",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/openai-image-gen/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/openai-image-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "394642792074604535160037259af51153a75925e0ef08e92fd7d2be59fba052",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

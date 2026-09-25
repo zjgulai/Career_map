@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-arena-evaluate",
+  "中文名称": "前车之鉴·决策评估竞技场",
+  "一句话作用": "决策评估竞技场：三个对立角色（维度设计师/时间旅行者/参照点审计师）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：有几个可行选项摆在桌上，需要做有依据的系统比较和推荐、要选供应商 / 技术方案 / 招聘候选人，怕拍脑袋，需要可辩护的评估过程、评估标准定好了，但不确定有没有漏掉关键维度、几个方案怎么选、要一个有依据的推荐。何时不用：纠结、情绪推翻结论、内耗型 → xmind-arena-decision（那是急…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要决策评估竞技场：三个对立角色（维度设计师/时间旅行者/参照点审计师）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：有几个可行选项摆在桌上，需要做有依据的系统比较和推荐、要选供应商 / 技术方案 / 招聘候选人，怕拍脑袋，需要可辩护的评估过程、评估标准定好了，但不确定有没有漏掉关键维度、几个方案怎么选、要一个有依据的推荐。何时不用：纠结、情绪推翻结论、内耗型 → xmind-arena-decision（那是急…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04271-xmind-arena-evaluate-2a64f932",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-arena-evaluate/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-arena-evaluate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8a644ed8199f860ee9f02a3a86d67d44a38d6deb02e51b94e1ba9ffc807f16d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

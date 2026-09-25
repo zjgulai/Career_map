@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill: GEO Site Auditor",
+  "中文名称": "待补：Skill: GEO Site Auditor",
+  "一句话作用": "Lightweight website audit + content generation for GEO optimization. No heavy scripts — uses web fetch + LLM analysis.",
+  "关键输入": "- User provides a URL and wants GEO optimization suggestions - User wants to understand why their site isn't being cited by AI - User wants AI-optimized articles targeting specific queries - User wants to improve their…",
+  "关键输出": "- Audit summary in chat (score table + recommendations) - Optional: Markdown article file saved to data/outputs/[brand] [date]/content drafts/",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- User provides a URL and wants GEO optimization suggestions - User wants to understand why their site isn't being cited by AI - User wants AI-optimized articles targeting specific queries - User wants to improve their…时，用它产出或更新：- Audit summary in chat (sc…",
+  "skill_id": "00236-skill-geo-site-auditor-8afde8c3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-site-auditor/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-site-auditor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d276761426ccc48bed3d2de4004c0f1b42ad763542970b93f6b390a0e18a95f9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

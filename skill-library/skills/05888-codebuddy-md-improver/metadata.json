@@ -1,0 +1,22 @@
+{
+  "英文名称": "codebuddy-md-improver",
+  "中文名称": "待补：codebuddy-md-improver",
+  "一句话作用": "Audit and improve CODEBUDDY.md files in repositories. Use when user asks to check, audit, update, improve, or fix CODEBUDDY.md files. Scans for all CODEBUDDY.md files, evaluates quality against templates, outputs qualit…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "ALWAYS output the quality report BEFORE making any updates. Format:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Audit and improve CODEBUDDY.md files in repositories. Use when user asks to check, audit, update, improve, or fix CODEBUDDY.md files. Scans for all CODEBUDDY.md files, evaluates quality against templates, outputs qualit…时，用它产出或更新：ALWAYS output the quality…",
+  "skill_id": "05888-codebuddy-md-improver-c3ede65d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/codebuddy-md-management/skills/codebuddy-md-improver/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/codebuddy-md-management/skills/codebuddy-md-improver/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "53eacd1512f3536626cc98975f129639d88e15809165951bf355ca471a85a582",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Color Curator",
+  "中文名称": "待补：Color Curator",
+  "一句话作用": "Browse and select color palettes from Coolors or curated fallbacks. Use to find the perfect color palette for a design project.",
+  "关键输入": "Users can also provide: - Hex codes directly: \"Use ff6b35 as primary\" - Color descriptions: \"I want a forest green and cream palette\" - Reference: \"Match these colors from my logo\" ---",
+  "关键输出": "Provide the selected palette in this format:",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Browse and select color palettes from Coolors or curated fallbacks. Use to find the perfect color palette for a design project.时，用它产出或更新：Provide the selected palette in this format:",
+  "skill_id": "05626-color-curator-0673a1a7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-design-pro/skills/color-curator/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-design-pro/skills/color-curator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "21ffe18670a1a5dbdd72bc4da06f8f790bf02953c0d3cb8c52ae086a40f6c207",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

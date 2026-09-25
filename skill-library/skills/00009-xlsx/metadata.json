@@ -1,0 +1,22 @@
+{
+  "英文名称": "xlsx",
+  "中文名称": "待补：xlsx",
+  "一句话作用": "Comprehensive spreadsheet creation, editing, and analysis. Use when working with spreadsheets (.xlsx, .xlsm, .xls, .csv, .tsv, etc) for: (1) Creating new spreadsheets, (2) Modify existing spreadsheets while preserving f…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:19+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Comprehensive spreadsheet creation, editing, and analysis. Use when working with spreadsheets (.xlsx, .xlsm, .xls, .csv, .tsv, etc) for: (1) Creating new spreadsheets, (2) Modify existing spreadsheets while preserving f…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00009-xlsx-7c5acded",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/DID-82AD6B-2282AD6BU1788235-3083-266C1C/agent-core/skills/xlsx/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/DID-82AD6B-2282AD6BU1788235-3083-266C1C/agent-core/skills/xlsx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a46d770dfabb32cbdae122a88d4006fb6a34c38c8d783e807e284b29a7b24173",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

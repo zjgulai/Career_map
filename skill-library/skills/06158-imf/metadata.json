@@ -1,0 +1,22 @@
+{
+  "英文名称": "imf",
+  "中文名称": "待补：imf",
+  "一句话作用": "IMF provides global macroeconomic data through the World Economic Outlook database, including historical statistics and forecasts for GDP growth, inflation, government debt, unemployment, trade balances, and other indic…",
+  "关键输入": "- Cross-country comparison of GDP growth, inflation, unemployment, government debt, current account, trade balance, or other macroeconomic indicators. - Historical macroeconomic trend analysis and World Economic Outlook…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T18:47:09+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- Cross-country comparison of GDP growth, inflation, unemployment, government debt, current account, trade balance, or other macroeconomic indicators. - Historical macroeconomic trend analysis and World Economic Outlook…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06158-imf-aaaaf549",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/imf/skills/imf/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/imf/skills/imf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ee2c0b3d564ccf54f8e139ef3fd1a00eff993a2fe684dd99993fa187c0deb1c8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

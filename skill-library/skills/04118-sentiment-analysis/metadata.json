@@ -1,0 +1,22 @@
+{
+  "英文名称": "sentiment-analysis",
+  "中文名称": "待补：sentiment-analysis",
+  "一句话作用": "对用户评论、访谈或工单文本判断情绪倾向，汇总出不满集中的主题与强度。触发词：反馈情感分析、sentiment-analysis、对用户评论、访谈或工单文本判断情绪倾向，汇总出不满集中的主题与强度。",
+  "关键输入": "Your task is to analyze user feedback data for $ARGUMENTS and identify market segments with associated sentiment insights. If the user provides CSV files, PDFs, survey responses, review data, social listening reports, or other feedback sources, read and analy…",
+  "关键输出": "For each identified segment: Segment Profile - Name/identifier and common characteristics - User count or proportion in feedback dataset - Primary use case or context Jobs-to-be-Done - Core job this segment is trying to accomplish - Associated desired outcomes",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要对用户评论、访谈或工单文本判断情绪倾向，汇总出不满集中的主题与强度。触发词：反馈情感分析、sentiment-analysis、对用户评论、访谈或工单文本判断情绪倾向，汇总出不满集中的主题与强度。时，用它产出或更新：For each identified segment: Segment Profile - Name/identifier and common characteristics - User count or proportion in feedback dataset - Primary u…",
+  "skill_id": "04118-sentiment-analysis-3cd79415",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sentiment-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sentiment-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ba48a750496875a1f0b71427d8089e041b569dca046d5a2bddb2bc2598e51c5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

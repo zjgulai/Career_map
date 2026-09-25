@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fdc-rdc-inventory-allocation",
+  "中文名称": "前置仓选品与库存分配端到端学习",
+  "一句话作用": "触发词：前置仓选品、FDC分配、本地履约率、仓容约束、库存水位。何时不用：仓间调拨再平衡用「多仓库存再平衡」；单仓补货量用「自动补货决策」。安全边界：SKU 级城市销量须去标识化，分配策略不得基于地域或人群做歧视性定价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要6 个城市前置仓手工决定 SKU 选品导致爆款本地断货、滞销品占用仓位——多任务端到端学习联合优化选品与库存分配，本地履约率从 65% 提升到 80%+、配送时效从 5 天压缩到 2 天时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03128-p2s-fdc-rdc-inventory-allocation-9b4bef73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-fdc-rdc-inventory-allocation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-fdc-rdc-inventory-allocation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d5b21e4a2097fc4c57d708467245d9cdb5655f77b3d67fa94f9d4a1254a362d3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

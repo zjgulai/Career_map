@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-repurchase-trigger-timing-model",
+  "中文名称": "生存分析驱动的最佳复购触达时间窗预测",
+  "一句话作用": "触发词：复购时点预测、触达时间窗、生存分析、危险率曲线、尺码升级提醒。何时不用：要决定『给谁发券、发多大』时用优惠券增量（Uplift）类技能；本技能只回答复购触达的最佳时间窗。安全边界：不涉及姓名/地址/支付等敏感信息；须设最小触达间隔与每月频率上限，避免用户投诉退订。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要私域运营面临\"复购提醒发出去但时机不对打扰用户开率极低\"——Weibull生存分析将复购提醒精准时间窗CTR从8%提升至29%，年化增收$3.7万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03715-p2s-repurchase-trigger-timing-model-28e388fa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-repurchase-trigger-timing-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-repurchase-trigger-timing-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d470020ebbdeed835083bac5f69fe080c101f9d1e402fd9da77d4379e6eb9451",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "architecture-communicator",
+  "中文名称": "待补：architecture-communicator",
+  "一句话作用": "Architecture communication and stakeholder view design. Use when the user needs to explain architecture to executives, product, business, engineering, operations, security, or delivery teams by tailoring scope, language…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "These artifacts capture the audience-specific communication plan, selected views, reading notes, and delivery-ready explanation for the architecture model. - architecture-communication-plan.md: audience, decision context, message hierarchy, and chosen explana…",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Architecture communication and stakeholder view design. Use when the user needs to explain architecture to executives, product, business, engineering, operations, security, or delivery teams by tailoring scope, language…时，用它产出或更新：These artifacts capture th…",
+  "skill_id": "04395-architecture-communicator-97762d8e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/architecture-communicator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/architecture-communicator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9523867b444e60db68483b28fc2f2e42741a85fc92e479f7a26de999f4864303",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

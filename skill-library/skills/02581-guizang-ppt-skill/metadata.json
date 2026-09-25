@@ -1,0 +1,22 @@
+{
+  "英文名称": "guizang-ppt-skill",
+  "中文名称": "待补：guizang-ppt-skill",
+  "一句话作用": "生成单文件 HTML 的横向翻页 PPT，提供电子杂志风与瑞士国际主义风两套模板。触发词：做个 PPT、网页 PPT、杂志风 PPT、瑞士风、演示文稿、guizang-ppt-skill。何时不用：大段表格与图表叠加的场合不合适；要印刷级 PDF 版面用 minimax-pdf。",
+  "关键输入": "合适的场景 ： - 线下分享 / 行业内部讲话 / 私享会 - AI 新产品发布 / demo day - 带有强烈个人风格的演讲 - 需要\"一次做完，不用翻页工具\"的网页版 slides 不合适的场景 ： - 大段表格数据、图表叠加（用常规 PPT） - 培训课件（信息密度不够） - 需要多人协作编辑（这是静态 HTML）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:40+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要合适的场景 ： - 线下分享 / 行业内部讲话 / 私享会 - AI 新产品发布 / demo day - 带有强烈个人风格的演讲 - 需要\"一次做完，不用翻页工具\"的网页版 slides 不合适的场景 ： - 大段表格数据、图表叠加（用常规 PPT） - 培训课件（信息密度不够） - 需要多人协作编辑（这是静态 HTML）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02581-guizang-ppt-skill-71b0fec8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/guizang-ppt-skill/SKILL.md",
+  "relative_path": "lute/.dsh/skills/guizang-ppt-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ab588004fc0db78c0c0e604b3b44243b4afbad89931c8b3a821c6d855d42008",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

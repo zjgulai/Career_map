@@ -1,0 +1,22 @@
+{
+  "英文名称": "gwas-database",
+  "中文名称": "待补：gwas-database",
+  "一句话作用": "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic epidemiology and polygenic risk scores.",
+  "关键输入": "When using GWAS Catalog data, cite: - Sollis E, et al. (2023) The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource. Nucleic Acids Research. PMID: 37953337 - Include access date and version when available - Cite original studies when discussing sp…",
+  "关键输出": "for assoc in associations.get(' embedded', {}).get('associations', []): variant = assoc.get('rsId') pvalue = assoc.get('pvalue') risk allele = assoc.get('strongestAllele') print(f\"{variant}: p={pvalue}, risk allele={risk allele}\") import requests variant = \"r…",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when queries involve: - Genetic variant associations : Finding SNPs associated with diseases or traits - SNP lookups : Retrieving information about specific genetic variants (rs IDs) - Trait/di…时，用它产出或更新：for assoc in associations.…",
+  "skill_id": "05739-gwas-database-80141485",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/gwas-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/gwas-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bca9f54d3bcdc40aac0203acb689ee43df355f1f900c88ca4245c2c2e0bc5ea3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "langchain-architecture",
+  "中文名称": "待补：langchain-architecture",
+  "一句话作用": "Design LLM applications using the LangChain framework with agents, memory, and tool integration patterns. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows.",
+  "关键输入": "- Building autonomous AI agents with tool access - Implementing complex multi-step LLM workflows - Managing conversation memory and state - Integrating LLMs with external data sources and APIs - Creating modular, reusab…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- Building autonomous AI agents with tool access - Implementing complex multi-step LLM workflows - Managing conversation memory and state - Integrating LLMs with external data sources and APIs - Creating modular, reusab…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05657-langchain-architecture-e2f58b8b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/langchain-architecture/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/langchain-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d894345767739ee7aada07f560c83b68b536aa87d17402a6ceceff2c80592c0c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

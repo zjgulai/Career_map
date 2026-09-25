@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-visualization",
+  "中文名称": "统一可视化",
+  "一句话作用": "当回答涉及趋势、占比、比较、流程、机制、因果、架构、关系、时间线、状态机、算法步骤、参数变化、原图证据，或用户要求图表、图解、信息图、标注、动态/交互演示时使用。优先用 ECharts、确定性 HTML/SVG 或原图叠加；不承接海报、头像、壁纸、写实图片和艺术插画创作。",
+  "关键输入": "满足以下任一条件时进入可视化规划： - 用户明确要求图表、图解、信息图、流程图、关系图、时间线、结构图、标注、动画或交互。 - 内容包含趋势、占比、排行、分布、相关性或多指标对比。 - 内容包含可准确枚举的阶段、步骤、模块、角色、层级、因果、状态或连接关系。 - 答案依赖用户原图中的对象、位置、数量、区域、路径、匹配或差异。 - 参数变化、算法过程、状态迁移、物理过程或动态几何需要观察过程。 以下情况不使用： - 简短事实、确认、普通…",
+  "关键输出": "- 先给核心结论，再给可视化和必要解读。 - 说明数据来源、事实口径、示例属性或“示意”性质。 - 原图证据优先于数据图表；数据图表优先于辅助知识图解。 - HTML/SVG 初始静态状态必须可读，核心答案不依赖 hover 或脚本。 - 外部库、图片或脚本失败时保留文字和静态主结构，不能空白。 - 工具或资源不可用时说明限制，不猜测私有接口，不绕过鉴权。",
+  "最新更新时间": "2026-09-22T22:51:27+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要满足以下任一条件时进入可视化规划： - 用户明确要求图表、图解、信息图、流程图、关系图、时间线、结构图、标注、动画或交互。 - 内容包含趋势、占比、排行、分布、相关性或多指标对比。 - 内容包含可准确枚举的阶段、步骤、模块、角色、层级、因果、状态或连接关系。 - 答案依赖用户原图中的对象、位置、数量、区域、路径、匹配或差异。 - 参数变化、算法过程、状态迁移、物理过程或动态几何需要观察过程。 以下情况不使用： - 简短事实、确认、普通…时，用它产出或更新：- 先给核心结论，再给可视化和必要解读。 - 说明数…",
+  "skill_id": "06306-doubao-visualization-9a65b6ad",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-visualization/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4513aaec60beab8d893f016b199c64ca4501f8384ffc54353437da1d4c14f86f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

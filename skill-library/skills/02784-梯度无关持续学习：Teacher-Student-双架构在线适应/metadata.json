@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-atlas-gradient-free-continual",
+  "中文名称": "梯度无关持续学习：Teacher-Student 双架构在线适应",
+  "一句话作用": "触发词：持续学习、无需重训、在线适应、经验记忆、灾难性遗忘。何时不用：靠历史案例检索做部署时适应走「案例推理部署时学习」；从失败轨迹做自我巩固走「对比反思与自我巩固」。安全边界：策略规则由运营显式编辑与确认，不得让系统静默改写生效策略。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要痛点：婴儿奶粉旺季/淡季需求波动大，固定规则备货导致缺货或积压，重新微调模型成本高时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02784-p2s-atlas-gradient-free-continual-dc544fe5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-atlas-gradient-free-continual/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-atlas-gradient-free-continual/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d65d2842c5a503c21c6dbfaec7aa2df75a9adbc3fb47b449e8e68429e757c9d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

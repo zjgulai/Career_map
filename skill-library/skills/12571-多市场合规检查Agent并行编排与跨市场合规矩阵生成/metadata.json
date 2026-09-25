@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-compliance-multi-market-orchestrator",
+  "中文名称": "多市场合规检查Agent并行编排与跨市场合规矩阵生成",
+  "一句话作用": "触发词：多市场检查、并行 Agent、最严标准、合规矩阵、整改清单、旺季上架。何时不用：要把要求沉淀成统一矩阵与差异分析时用「多市场合规矩阵本体」，只做单市场认证路径时用「AI 产品安全认证」。安全边界：输出为检查结论与整改清单，上架放行与整改执行由责任人与控制层完成。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境运营面临美国/欧盟/英国合规串行检查耗时7天延误旺季上架——并行Agent编排最严标准聚合将检查时间压缩至1天，旺季提前6天入仓年化多产出GMV约$54,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12571-p2s-mas-compliance-multi-market-orchestrator-a6f8f636",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-mas-compliance-multi-market-orchestrator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-mas-compliance-multi-market-orchestrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7635ac9ec757f9b2927752dc0e3b440fbdca907d0b0c8e3e655bdd077998afa1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-deepseek-r1-rag-reasoning",
+  "中文名称": "推理增强 逐步推理驱动的自主检索决策",
+  "一句话作用": "触发词：合规查询、多条件判断、推理链检索、政策库比对、准入核对。何时不用：只查单一事实（如某 ASIN 的 BSR）时用结构化查询或表检索更直接；不需要可解释性时普通检索更省成本。安全边界：输出是合规判断辅助而非法律结论，必须保留推理链与检索出处并留人工复核，自动决策需满足可解释性要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要技术团队面临RAG幻觉率高达18%——DeepSeek-R1推理增强将幻觉率降至3%，复杂合规决策准确率+34%，年化避免错误决策损失60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03048-p2s-deepseek-r1-rag-reasoning-95534ce2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-deepseek-r1-rag-reasoning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-deepseek-r1-rag-reasoning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "34635f1030677a515901cb0e5827dbc8a01e7dfa5ed2f6d4a0c523f22eaa3c41",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

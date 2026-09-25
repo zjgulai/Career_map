@@ -1,0 +1,22 @@
+{
+  "英文名称": "humanizer",
+  "中文名称": "待补：humanizer",
+  "一句话作用": "Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive \"Signs of AI writing\" guide. Detects and fixes patte…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Words to watch: I hope this helps, Of course!, Certainly!, You're absolutely right!, Would you like..., let me know, here is a... Problem: Text meant as chatbot correspondence gets pasted as content. Before: Here is an overview of the French Revolution. I hop…",
+  "最新更新时间": "2026-05-25T22:01:16+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive \"Signs of AI writing\" guide. Detects and fixes patte…时，用它产出或更新：Words to watch: I hope thi…",
+  "skill_id": "06115-humanizer-7cd74ea2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/humanizer/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/humanizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7ce483d368e430185b707611ce82ef4206021da28cf306d75d4b64f1167416f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

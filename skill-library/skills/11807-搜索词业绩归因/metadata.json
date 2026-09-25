@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-query-performance-attribution",
+  "中文名称": "搜索词业绩归因",
+  "一句话作用": "触发词：搜索词业绩、Query Value Score、SQP 报告、帕累托分析、高价值词、ACOS 优化。何时不用：要按统计显著性批量否定废词时用搜索词否定优化；要从 SQP 报告快速找出贡献 80% 价值的高价值词并排序时用本卡。安全边界：关键词优化须避免虚假宣传与堆砌，母婴品类需满足相应产品标准声明要求，不得篡改搜索词数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告负责人面临\"SQP报告数据庞大无法快速提取高价值词\"——自动归因分析将高价值词发现效率提升10倍，ACOS平均降低18%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11807-p2s-search-query-performance-attribution-0fa91619",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-search-query-performance-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-search-query-performance-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "198eb82acddea724a7e29ffba144fb94c50b98ec78d6085e5b360f3d27fa4905",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

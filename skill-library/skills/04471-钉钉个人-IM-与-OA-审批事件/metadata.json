@@ -1,0 +1,22 @@
+{
+  "英文名称": "dingtalk-event",
+  "中文名称": "钉钉个人 IM 与 OA 审批事件",
+  "一句话作用": "钉钉个人 IM 与 OA 审批事件长连接监听。Use when 用户说监听消息/@我/某人/某群/全部消息、已读/撤回/reaction、群成员加入/群成员退出/群状态变化，或监听审批任务创建/完成/转交、审批实例发起/终止/完成。命令前缀：dws event。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 正常消费固定使用当前用户 OAuth 身份、--flatten 和 NDJSON；stdout 只输出事件，stderr 输出订阅、ready、退出和错误状态。 - 单事件 ready：[event] ready event key= bus pid= subscribe id= 。 - 多事件先逐条输出 subscription，全部就绪后输出 [event] ready event count= bus pid= 。必须等待 ready，不用 sleep 猜测。",
+  "最新更新时间": "2026-09-19T03:39:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要钉钉个人 IM 与 OA 审批事件长连接监听。Use when 用户说监听消息/@我/某人/某群/全部消息、已读/撤回/reaction、群成员加入/群成员退出/群状态变化，或监听审批任务创建/完成/转交、审批实例发起/终止/完成。命令前缀：dws event。时，用它产出或更新：- 正常消费固定使用当前用户 OAuth 身份、--flatten 和 NDJSON；stdout 只输出事件，stderr 输出订阅、ready、退出和错误状态。 - 单事件 ready：[event] ready event…",
+  "skill_id": "04471-dingtalk-event-1023b57e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-event/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-event/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "26970367b36703e1a083b93806315451ffad7e476db13e5604ddd7f33a4f0087",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

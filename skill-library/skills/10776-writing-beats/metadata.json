@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-beats",
+  "中文名称": "待补：writing-beats",
+  "一句话作用": "Writing, exploit——把原始素材组装成一段节拍旅程，在某个 beat 依赖一个术语之前先把它 grounded。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Writing, exploit——把原始素材组装成一段节拍旅程，在某个 beat 依赖一个术语之前先把它 grounded。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10776-writing-beats-51433bbc",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/writing-beats/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/writing-beats/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e3d9504dceacae75374ab30b526dbc691d681a569eb54c34ada24939dd5768b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

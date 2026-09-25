@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-course-module",
+  "中文名称": "课程 / 培训 Deck",
+  "一句话作用": "暖纸背景 + Playfair, 左侧学习目标常驻, 含 MCQ 自测页",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:26+08:00",
+  "业务场景": "education",
+  "解决具体问题": "当需要暖纸背景 + Playfair, 左侧学习目标常驻, 含 MCQ 自测页时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10218-deck-course-module-7a848abf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-course-module/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-course-module/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a0ff8f73ec5850745246d1d0a63e35867d0067381032671424d7642418d81311",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

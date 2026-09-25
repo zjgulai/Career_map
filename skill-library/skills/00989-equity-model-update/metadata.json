@@ -1,0 +1,22 @@
+{
+  "英文名称": "equity-model-update",
+  "中文名称": "待补：equity-model-update",
+  "一句话作用": "Safely update public-company Excel model copies from source-to-model maps; emits XLSX as the hero artifact and CSV/log/manifest as support. Do not use for pure earnings notes or broad workbook audits.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Lead with the workbook artifact when a model was supplied. Include model implication, changed cells, blocked cells, source/data-quality note, comparison table when available, KPI/model-driver dashboard, source map, change log, tie-out checklist, and post-prin…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Safely update public-company Excel model copies from source-to-model maps; emits XLSX as the hero artifact and CSV/log/manifest as support. Do not use for pure earnings notes or broad workbook audits.时，用它产出或更新：Lead with the workbook artifact when a model w…",
+  "skill_id": "00989-equity-model-update-be4b337a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/equity-model-update/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/equity-model-update/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ded00506f532132ce755431f2fb8fb5e1e4df78b869c6216add8d3aebb41d820",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "simplify-codebase",
+  "中文名称": "待补：simplify-codebase",
+  "一句话作用": "Simplification audit or authorized codebase simplification whose stated objective is to remove accidental complexity. Use for evidence-backed deletion or consolidation of dead code, duplicate state, redundant APIs or la…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For a survey, report coverage, ranked proof records, rejected or unresolved high-value leads, and the next fact needed for each uncertainty. When a visual companion was requested or confirmed, report its status and cleanup-map Finding deep links separately. K…",
+  "最新更新时间": "2026-09-04T15:13:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Simplification audit or authorized codebase simplification whose stated objective is to remove accidental complexity. Use for evidence-backed deletion or consolidation of dead code, duplicate state, redundant APIs or la…时，用它产出或更新：For a survey, report cover…",
+  "skill_id": "11214-simplify-codebase-75c1a788",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/simplify-codebase/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/simplify-codebase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2d5555a878f71b0a260ba4f8edfbe7cf92090e16fabd88b88a829d6146d4e66",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

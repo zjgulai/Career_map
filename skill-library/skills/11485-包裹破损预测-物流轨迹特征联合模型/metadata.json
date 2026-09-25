@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-parcel-damage-prediction",
+  "中文名称": "包裹破损预测（物流轨迹特征联合模型）",
+  "一句话作用": "触发词：包裹破损、破损预测、高风险包裹、主动处理、退货成本。何时不用：需要识别虚假签收与刷单轨迹时用物流轨迹欺诈信号；需要做冷链温度合规监控时用冷链温控全程监测。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要物流团队面临\"大件母婴产品破损导致高退货率但无法提前预警\"——物流轨迹破损预测将高风险包裹识别准确率提升到75%，年化节省退货处理成本20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11485-p2s-parcel-damage-prediction-015532a5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-parcel-damage-prediction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-parcel-damage-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c170ffc28ca2901af67402696305e573acd5ebcdd56250c8d7d6db002deef0d9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

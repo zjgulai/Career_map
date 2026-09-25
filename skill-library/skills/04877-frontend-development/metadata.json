@@ -1,0 +1,22 @@
+{
+  "英文名称": "frontend-development",
+  "中文名称": "待补：frontend-development",
+  "一句话作用": "Multi-framework frontend development. Frameworks: React 18+ (Suspense, hooks, TanStack), Vue 3 (Composition API, Pinia, Nuxt), Svelte 5 (Runes, SvelteKit), Angular (Signals, standalone). Common: TypeScript, state manage…",
+  "关键输入": "- Creating components or pages in React, Vue, Svelte, or Angular - Building new features with framework-specific patterns - Implementing state management (Pinia, Zustand, stores, signals) - Setting up routing (TanStack…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:48:28+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Creating components or pages in React, Vue, Svelte, or Angular - Building new features with framework-specific patterns - Implementing state management (Pinia, Zustand, stores, signals) - Setting up routing (TanStack…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04877-frontend-development-e3aabcc8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/frontend-development/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/frontend-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "45a93998f7b25a0eece88249181832bdf307c3ac9abd11425fdd16a8609ebf04",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multicurrency-fx-hedging",
+  "中文名称": "跨境卖家多货币外汇风险对冲",
+  "一句话作用": "触发词：多币种对冲、逐单敞口、远期分层锁汇、EUR敞口、汇率保护比例。何时不用：只做单一币种敞口计量时用「外汇敞口测量」；想用采销匹配零成本对冲时用「自然对冲策略」。安全边界：只给锁汇比例与工具建议，不代下单；外汇对冲须满足真实贸易原则并按监管要求备案。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要EUR/CNY 汇率波动 5% 对应欧洲站月利润损失 7500 欧元以上，完全未对冲——逐单外汇暴露计算 + 远期合约分层对冲，保护 55-70% 汇率风险敞口，年化减少汇率损失 5-20 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03498-p2s-multicurrency-fx-hedging-8ccd5526",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multicurrency-fx-hedging/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multicurrency-fx-hedging/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3e14219b417107278cb4a43b2c8325f9b51f3f3e3f0507618f7ee0c148b2e5f3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

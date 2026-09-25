@@ -1,0 +1,22 @@
+{
+  "英文名称": "cuopt-user-rules",
+  "中文名称": "待补：cuopt-user-rules",
+  "一句话作用": "Base rules for end users calling NVIDIA cuOpt (routing/LP/MILP/QP/install/server). Not for cuOpt internals — use cuopt-developer for those.",
+  "关键输入": "Before generating examples, ask about data: 1. Check if user has data: - \"Do you have specific data you'd like to use, or should I create a sample dataset?\" - \"Can you share the format of your input data?\" 2. If using synthesized data: - State clearly: \"I'll…",
+  "关键输出": "After providing a solution, guide the user to verify: - Status check : Is it Optimal / FeasibleFound / SUCCESS? - Constraint satisfaction : Are all constraints met? - Objective value : Is it reasonable for the problem? Always end with a Result summary that in…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- cuopt-examples repo - Google Colab notebooks时，用它产出或更新：After providing a solution, guide the user to verify: - Status check : Is it Optimal / FeasibleFound / SUCCESS? - Constraint satisfaction : Are all constraints met? - Objective value : Is it reasonabl…",
+  "skill_id": "00945-cuopt-user-rules-c0173c2e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/cuopt-user-rules/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/cuopt-user-rules/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f642b4e8953c02c31e99ebe0289cd4ff9fbb64aede1f25c80ec4730e82740596",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

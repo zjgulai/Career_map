@@ -1,0 +1,22 @@
+{
+  "英文名称": "rust-systems",
+  "中文名称": "待补：rust-systems",
+  "一句话作用": "Rust systems programming patterns including ownership, traits, async runtime, error handling, and unsafe guidelines",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Rust systems programming patterns including ownership, traits, async runtime, error handling, and unsafe guidelines时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05075-rust-systems-ea5c105d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/rust-systems/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/rust-systems/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3ee78fff12ee0513a946857fe020fd1a51d79ad3d2d772797d129d1ab798b49a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

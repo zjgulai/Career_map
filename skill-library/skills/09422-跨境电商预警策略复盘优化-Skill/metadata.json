@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-alert-optimization",
+  "中文名称": "跨境电商预警策略复盘优化 Skill",
+  "一句话作用": "跨境电商预警策略复盘优化Skill。提供误报/漏报分析、阈值调优建议、复盘周期管理、案例库沉淀，支持预警策略持续优化。 触发条件: 1. 用户提到\"预警优化\"、\"告警调优\"、\"阈值调整\" 2. 用户询问\"误报率太高怎么办\"、\"漏报怎么处理\" 3. 用户需要\"复盘分析\"、\"策略优化\" 4. 用户提到\"案例库\"、\"根因沉淀\" 输出内容: - 误报/漏报统计分析 - 阈值调优建议 - 复盘周期管理方案 - 典型根因案例库",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T00:18:52+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境电商预警策略复盘优化Skill。提供误报/漏报分析、阈值调优建议、复盘周期管理、案例库沉淀，支持预警策略持续优化。 触发条件: 1. 用户提到\"预警优化\"、\"告警调优\"、\"阈值调整\" 2. 用户询问\"误报率太高怎么办\"、\"漏报怎么处理\" 3. 用户需要\"复盘分析\"、\"策略优化\" 4. 用户提到\"案例库\"、\"根因沉淀\" 输出内容: - 误报/漏报统计分析 - 阈值调优建议 - 复盘周期管理方案 - 典型根因案例库时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09422-cbec-alert-optimization-0964311b",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/07-monitoring-analysis/alert-optimization/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/07-monitoring-analysis/alert-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0633ca66276f5514859301d15f11d2ff65c82c871b6cb70f9dca94fe994afd8f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

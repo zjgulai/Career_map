@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dynamic-carrier-selection-tag-driven",
+  "中文名称": "驱动动态承运商选择引擎 基于实时标签的末程承运商智能匹配与成本优化",
+  "一句话作用": "触发词：承运商选择、动态切换承运商、偏远区域附加费、大促运力切换、发货选商。何时不用：要排工厂到货代的首公里集货路线用「首公里取货」，要按邮编分区拆末程成本用「末程分区成本精算」；本技能只做逐单在多家承运商之间比选。安全边界：切换建议须经系统与人工复核后再下发，模型不直接改单改价，并须保留标签抽检以控制漂移。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要物流团队面临\"固定承运商导致偏远区域附加费浪费\"——基于实时Tag动态承运商选择比静态规则便宜15-20%，大促期间自动切换避免SLA违约时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11379-p2s-dynamic-carrier-selection-tag-driven-9fffb3a7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-dynamic-carrier-selection-tag-driven/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-dynamic-carrier-selection-tag-driven/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a65387d832907b08fc3f8ea25b9629f0974cc5e04a330b229b9a23331c80662a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "工单分析",
+  "中文名称": "工单分析",
+  "一句话作用": "产品设计套件深挖工具。当用户是设计师拿到一堆客服工单 / 应用商店评论 / 社群反馈 / 内嵌反馈表单数据，想从海量散乱反馈里提炼出\"高频体验问题 + 受影响的页面 / 流程\"时启动的 Skill。与 Probe（用户访谈）形成互补——Probe 是主动深挖少量样本，Signal 是被动整理海量样本。 与 product-management（产品管理）套件互补，服务不同角色： - 用户是设计师要从工单 / 评论里找体验卡点、流程断点…",
+  "关键输入": "- 反馈 < 10 条 ：输出逐条详细解读，不做统计分析（样本太少无统计意义） - 无渠道 / 时间信息 ：正常分析，但标注\"缺少来源和时间信息，建议补充\" - 混杂多语言 ：按语言分组分别分析 - 单一渠道数据 ：正常分析，但标注\"单一数据源，建议补充其他渠道做交叉验证\" - 反馈过短或灌水多 ：先清洗，如清洗后剩余 < 10 条则建议补充数据 ---",
+  "关键输出": "完成 Signal 后， 同时 做两件事： 1. 写盘 ：spark-output/context/signal.json（目录不存在先创建） 2. 会话内输出紧凑 marker （不重复输出完整 JSON）： 3. 降级 fallback ：若写盘失败（chat-only 平台），输出完整 JSON marker 作为唯一持久化通道",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要产品设计套件深挖工具。当用户是设计师拿到一堆客服工单 / 应用商店评论 / 社群反馈 / 内嵌反馈表单数据，想从海量散乱反馈里提炼出\"高频体验问题 + 受影响的页面 / 流程\"时启动的 Skill。与 Probe（用户访谈）形成互补——Probe 是主动深挖少量样本，Signal 是被动整理海量样本。 与 product-management（产品管理）套件互补，服务不同角色： - 用户是设计师要从工单 / 评论里找体验卡点、流程断点…时，用它产出或更新：完成 Signal 后， 同时 做两件事： 1. 写…",
+  "skill_id": "04610-skill-d0221f1f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/signal/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/signal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3ff46eecc858549e3ea3e547b1a6c90afb35f4611ea2f9dfcf6d51b005f70d49",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

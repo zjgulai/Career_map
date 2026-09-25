@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-star",
+  "中文名称": "观点语句排序",
+  "一句话作用": "触发词：p2s-star。Skill Card: StaR-观点语句排序",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:13+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-star。Skill Card: StaR-观点语句排序时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11311-p2s-star-8796e503",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-star/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-star/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b435b41dccc2c73d869b59bfce619754c4e66eeb76475f0cffdc5d7a8195594f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

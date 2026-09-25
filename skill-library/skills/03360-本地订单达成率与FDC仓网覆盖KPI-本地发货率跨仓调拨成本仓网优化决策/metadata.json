@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-local-order-fulfillment-rate-fdc",
+  "中文名称": "本地订单达成率与FDC仓网覆盖KPI 本地发货率跨仓调拨成本仓网优化决策",
+  "一句话作用": "触发词：本地发货率、仓网覆盖、FDC、跨仓调拨、分仓策略。何时不用：需要监控多仓在架率口径与分仓缺货时用在架率多仓SKU矩阵；需要做配送时效与体验权衡时用 B2C配送时效与体验KPI。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要供应链规划者面临\"跨仓发货成本高且时效差\"——本地率75-80%最优区间+FDC覆盖ROI决策，本地率每提升1pp节省持有成本约千万量级时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03360-p2s-local-order-fulfillment-rate-fdc-503ed1de",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-local-order-fulfillment-rate-fdc/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-local-order-fulfillment-rate-fdc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a0024ca73c02255540c2a8966fc92d28ae9ff0c1546253ead4e232c799aa45b3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

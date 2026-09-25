@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-consumer-wellbeing-ethics",
+  "中文名称": "消费者福祉与 AI 伦理：母婴场景",
+  "一句话作用": "触发词：消费者福祉、暗模式检测、情绪化定向、AI身份披露、广告合规。何时不用：面向儿童的数据合规审查时用「Privacy COPPA Compliance」；算法可解释性监管报告用「XAI Regulatory Compliance」。安全边界：不得利用父母焦虑做情绪劫持或伪造专家背书；AI 生成内容与 KOL 合作须显著标注，违规风险须交法务复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规负责人面临内容伤害用户信任——伦理筛查将投诉率从6%降到1%，年化省10万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02739-p2s-ai-consumer-wellbeing-ethics-5cc6bea4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ai-consumer-wellbeing-ethics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ai-consumer-wellbeing-ethics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b91789d367379c1d8ca51a063d3f0a29fb5e944e3fd66e0bb5156fce3f4b43a8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

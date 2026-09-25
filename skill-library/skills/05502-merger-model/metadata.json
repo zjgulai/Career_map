@@ -1,0 +1,22 @@
+{
+  "英文名称": "merger-model",
+  "中文名称": "待补：merger-model",
+  "一句话作用": "Build accretion/dilution analysis for M&A transactions. Models pro forma EPS impact, synergy sensitivities, and purchase price allocation. Use when evaluating a potential acquisition, preparing merger consequences analy…",
+  "关键输入": "Acquirer: - Company name, current share price, shares outstanding - LTM and NTM EPS (GAAP and adjusted) - P/E multiple - Pre-tax cost of debt, tax rate - Cash on balance sheet, existing debt Target: - Company name, current share price, shares outstanding (if…",
+  "关键输出": "- Excel workbook with: - Assumptions tab - Sources & uses - Pro forma income statement - Accretion/dilution summary - Sensitivity tables - Breakeven analysis - One-page merger consequences summary for pitch book",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Build accretion/dilution analysis for M&A transactions. Models pro forma EPS impact, synergy sensitivities, and purchase price allocation. Use when evaluating a potential acquisition, preparing merger consequences analy…时，用它产出或更新：- Excel workbook with: - A…",
+  "skill_id": "05502-merger-model-8180ee5f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/merger-model/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/merger-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c4f758d64ad3818061cbe7200bb503510d80107f08a4f4d6ec444e709d99961f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

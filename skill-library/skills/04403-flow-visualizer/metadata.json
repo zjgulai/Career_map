@@ -1,0 +1,22 @@
+{
+  "英文名称": "flow-visualizer",
+  "中文名称": "待补：flow-visualizer",
+  "一句话作用": "Architecture flow analysis. Use when the user needs to understand how business actions, service calls, events, data, files, or state move through a system, including sync/async boundaries, ownership, latency, failure pa…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "These artifacts capture the confirmed flow source, main path, alternatives, evidence, and risks. - flow.dot mmd puml: source diagram for the overall business, service, event, or data flow. - flow-main.dot puml mmd: focused view of the confirmed main path, exc…",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Architecture flow analysis. Use when the user needs to understand how business actions, service calls, events, data, files, or state move through a system, including sync/async boundaries, ownership, latency, failure pa…时，用它产出或更新：These artifacts capture th…",
+  "skill_id": "04403-flow-visualizer-51c1d679",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/flow-visualizer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/flow-visualizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "72ded5208b4076a39a2884176ed307f0d572e7bd9b5c069e5b25e054b8ebf303",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

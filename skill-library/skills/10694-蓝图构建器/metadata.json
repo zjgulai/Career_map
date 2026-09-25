@@ -1,0 +1,22 @@
+{
+  "英文名称": "ui-blueprint",
+  "中文名称": "蓝图构建器",
+  "一句话作用": "从参考 UI 截图或设计稿中提取完整的设计系统，生成包含配色、字体、组件和间距规范的设计文档，并最终产出可直接用于实现、风格一致的 MVP 界面提示词。当用户提供 UI 截图并希望提取设计规范、构建设计系统文档、或需要基于参考风格创建新界面时触发。",
+  "关键输入": "向用户索取： - 参考图片目录 ：包含 UI 截图/设计稿的文件夹路径 - 项目创意文档 ：描述产品概念和目标的文档 - 已有 PRD （可选）：如果 PRD 已存在，跳过第三步",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:06:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 用户提供了 UI 截图、设计稿或设计参考图 - 需要从现有设计中提取配色方案、字体排版、间距规范 - 希望基于视觉示例生成设计系统文档 - 构建需要匹配参考风格的 MVP 界面 - 需要按照统一设计原则创建多套 UI 方案时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10694-ui-blueprint-95e0bea2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/ui-blueprint/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/ui-blueprint/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7dd75e095149f8b5da48c718051d02601627aa891e239a4144d14a72ebce99af",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

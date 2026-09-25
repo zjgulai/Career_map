@@ -1,0 +1,22 @@
+{
+  "英文名称": "sheet",
+  "中文名称": "表格全场景处理技能（sheet）",
+  "一句话作用": "表格全场景（本地 Excel/CSV 与飞书/doubao 在线表格）：创建、读写、分析、计算、建模、语义处理、可视化与美化。若用户上传附件、提供表格链接/token，或要求任何表格操作，必须加载。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- JSON 类入参分三类： 复合 JSON = 深层嵌套对象（--print-schema 可查）； 简单 JSON = 一二维标量数组； 非 JSON 文本 = 原样文本（如 CSV）。--print-schema 只对复合 JSON flag 有效。 - envelope ：所有 shortcut 返回统一外层 {ok, identity, data, ...}；写操作不会自动回读，校验自行调用 + -list / + -get / +cells-get。",
+  "最新更新时间": "2026-09-21T10:24:36+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要表格全场景（本地 Excel/CSV 与飞书/doubao 在线表格）：创建、读写、分析、计算、建模、语义处理、可视化与美化。若用户上传附件、提供表格链接/token，或要求任何表格操作，必须加载。时，用它产出或更新：- JSON 类入参分三类： 复合 JSON = 深层嵌套对象（--print-schema 可查）； 简单 JSON = 一二维标量数组； 非 JSON 文本 = 原样文本（如 CSV）。--print-schema 只对复合 JSON flag 有效。 - envelope ：所有 sho…",
+  "skill_id": "06466-sheet-f7c509bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/sheet/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/sheet/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "386ddd947294f256ed820720305dbd56b71ddfbea9a2a23c3b306121e0ecd7ff",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

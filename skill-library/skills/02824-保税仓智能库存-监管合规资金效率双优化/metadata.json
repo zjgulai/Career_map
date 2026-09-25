@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bonded-warehouse-inventory-intelligence",
+  "中文名称": "保税仓智能库存 监管合规资金效率双优化",
+  "一句话作用": "触发词：保税仓库存、完税时机、资金占用、库存周转、监管证书预警。何时不用：需要做保税区申报字段核对与纠错时用保税区合规自动化；需要做多SKU库存尾部风险组合优化时用CVaR库存风险组合。安全边界：完税与转仓申报须按监管要求由持证人员执行；证书有效期与检验检疫结论以官方记录为准，不得据模型结论推迟法定处置。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要财务团队面临保税仓资金占用高——智能库存模型将转仓时机精准度提升40%，年化资金占用成本节省61万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02824-p2s-bonded-warehouse-inventory-intelligence-b73b597d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-bonded-warehouse-inventory-intelligence/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-bonded-warehouse-inventory-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9af189e466f9c823cdaff490cfe185fb4d0f5f7d115414620ea073bd09e728c4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ex example liuzhimin",
+  "中文名称": "待补：ex example liuzhimin",
+  "一句话作用": "Zhimin Liu（유지민 / Karina），女 23-27，分手，白羊☀，ISFP 3w2，回避型依恋",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:04:59+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Zhimin Liu（유지민 / Karina），女 23-27，分手，白羊☀，ISFP 3w2，回避型依恋时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06098-ex-example-liuzhimin-11f1a488",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-ex/exes/example_liuzhimin/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-ex/exes/example_liuzhimin/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "663e89a74a4f18378eb7aff01a8182f3c67167f26138950a6673d56c5c66b675",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

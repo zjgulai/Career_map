@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-ethics-fairness-audit",
+  "中文名称": "公平性审计 推荐定价广告系统偏差溯源与修复",
+  "一句话作用": "触发词：公平性审计、偏差溯源、再校准、Equal Opportunity、推荐定价广告。何时不用：只做欧洲推荐系统合规交付用「AI 算法偏见审计」；专门审动态定价歧视用「算法定价公平性审计」。安全边界：受保护属性标签须匿名化并限定用途；修复会带来业务指标损失，须评估可接受度，不得输出承诺性合规结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规负责人面临\"AI推荐系统是否对不同用户群体存在隐性歧视无法验证\"——DP/EO公平性指标审计将算法偏差识别率提升至96%，提前规避FTC监管风险时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11240-p2s-ai-ethics-fairness-audit-3816de55",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-ai-ethics-fairness-audit/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-ai-ethics-fairness-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ee7bc7a160ab2c3506b3672fd3f843a0d97211d58e8a1d2732a7179731b9186",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rag-enhanced-data-analysis",
+  "中文名称": "增强数据分析）",
+  "一句话作用": "触发词：RAG 增强分析、历史报告检索、根因分析、案例复用、实时验证。何时不用：只按固定模板出报表、不需要历史结论佐证时不必用；要核查报告真假走幻觉检测。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要\"为什么德国站吸奶器转化率下降\"→ RAG 检索到上月分析\"德国站转化率下降是因为欧元贬值导致价格上涨 8%\"→本次发现同样模式→自动引用历史结论+实时数据验证时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12083-p2s-rag-enhanced-data-analysis-2f718aea",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-rag-enhanced-data-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-rag-enhanced-data-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "12599bce7310bbd5ec11b211239639e5c5d6515e002e5b4fe0c99f2e39a16298",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

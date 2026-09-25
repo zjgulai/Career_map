@@ -1,0 +1,22 @@
+{
+  "英文名称": "x-mastery-mentor",
+  "中文名称": "运营导师 · 思维操作系统",
+  "一句话作用": "$10K/hr级X/Twitter运营导师。基于Nicolas Cole、Dickie Bush、Sahil Bloom、Justin Welsh、 Dan Koe、Alex Hormozi六位顶级创作者的方法论 + X开源算法深度分析 + AI/科技赛道专精策略， 提炼6个核心心智模型、10条决策启发式、完整的选题-写作-增长操作手册。 通用方法论为底座，AI/科技赛道为专精。 当用户提到「X运营」「推特」「Twitter」「怎么写…",
+  "关键输入": "收到问题后，先判断类型，加载对应reference： 用户问题类型 执行场景 按需加载 ------------ --------- --------- 怎么写推文/Thread → 场景A writing-workshop.md + algorithm-niche.md 不知道发什么/没灵感 → 场景B writing-workshop.md + mental-models-heuristics.md",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要收到问题后，先判断类型，加载对应reference： 用户问题类型 执行场景 按需加载 ------------ --------- --------- 怎么写推文/Thread → 场景A writing-workshop.md + algorithm-niche.md 不知道发什么/没灵感 → 场景B writing-workshop.md + mental-models-heuristics.md时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09263-x-mastery-mentor-e564b1e9",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/x-mastery-mentor/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/x-mastery-mentor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "60719a17b3950262187de3bb207b0ad5d8c5fed77fedcd58a379de5673ca00f5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-splade-learned-sparse-retrieval",
+  "中文名称": "学习式稀疏检索与语义倒排索引",
+  "一句话作用": "触发词：稀疏检索、语义倒排、同义词召回、中英混合查询、供应商搜索。何时不用：需要稠密向量语义匹配时用向量检索；只做查询改写时用查询扩展。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"中英混合查询或同义词搜索召回失效\"——SPLADE学习式稀疏检索使跨语言场景召回率提升22%，无需向量数据库直接复用Elasticsearch时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12127-p2s-splade-learned-sparse-retrieval-062736af",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-splade-learned-sparse-retrieval/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-splade-learned-sparse-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea63c004532440e7afa6de096a6a8459cfc9ab29d5d0d39d144fdaadfb660356",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "kpi-dashboard-design",
+  "中文名称": "待补：kpi-dashboard-design",
+  "一句话作用": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use when building business dashboards, selecting metrics, or designing data visualization layouts.",
+  "关键输入": "- Designing executive dashboards - Selecting meaningful KPIs - Building real-time monitoring displays - Creating department-specific metrics views - Improving existing dashboard layouts - Establishing metric governance",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Designing executive dashboards - Selecting meaningful KPIs - Building real-time monitoring displays - Creating department-specific metrics views - Improving existing dashboard layouts - Establishing metric governance时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05581-kpi-dashboard-design-38b0b868",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e773dcb0945a308c161a308e1368715eda01b96b94262695b6c4c5ca2c90667",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

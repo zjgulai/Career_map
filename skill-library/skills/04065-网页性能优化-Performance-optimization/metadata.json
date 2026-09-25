@@ -1,0 +1,22 @@
+{
+  "英文名称": "performance",
+  "中文名称": "网页性能优化（Performance optimization）",
+  "一句话作用": "按真实用户指标定位瓶颈后动手优化：关键渲染路径、图片与字体、缓存、运行时与三方脚本，逐项附可直接套用的代码模式。触发词：网页性能优化、performance、按真实用户指标定位瓶颈后动手优化：关键渲染路径、图片与字体、缓存、运行时与三方脚本，逐项附可直接套用的代码模式。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要按真实用户指标定位瓶颈后动手优化：关键渲染路径、图片与字体、缓存、运行时与三方脚本，逐项附可直接套用的代码模式。触发词：网页性能优化、performance、按真实用户指标定位瓶颈后动手优化：关键渲染路径、图片与字体、缓存、运行时与三方脚本，逐项附可直接套用的代码模式。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04065-performance-26930ce0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/performance/SKILL.md",
+  "relative_path": "lute/.dsh/skills/performance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7bb31e06583b27152026aec6dcad0937b78d491eea40b0b012b22554b764fa3c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

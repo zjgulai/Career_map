@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-decision-outcome-closed-loop-learning",
+  "中文名称": "供应链决策结果闭环学习 从执行结果到模型改进的Palantir决策飞轮",
+  "一句话作用": "触发词：决策闭环、结果回流、倾向得分、双稳健估计、策略迭代。何时不用：只需给决策加审批留痕时用人工审批门控技能；只校准置信度分数时用置信度校准技能。安全边界：决策日志只含业务数据、不得包含个人隐私信息，模型更新须保留回滚与对照，避免过拟合放大偏差。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营负责人面临决策学不会复盘——闭环学习将策略迭代周期从30天缩到7天，年化增利20万元时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "03042-p2s-decision-outcome-closed-loop-learning-dd9b2c8a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-decision-outcome-closed-loop-learning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-decision-outcome-closed-loop-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "037135e7b76a1d86e2e71f923bb56225a9d35e1db80b3ab10983d074415e4172",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "postmortem-writing",
+  "中文名称": "待补：postmortem-writing",
+  "一句话作用": "Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documents, or improving incident response processes.",
+  "关键输入": "- Conducting post-incident reviews - Writing postmortem documents - Facilitating blameless postmortem meetings - Identifying root causes and contributing factors - Creating actionable follow-up items - Building organiza…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Conducting post-incident reviews - Writing postmortem documents - Facilitating blameless postmortem meetings - Identifying root causes and contributing factors - Creating actionable follow-up items - Building organiza…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05643-postmortem-writing-4ca8b854",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/incident-response/skills/postmortem-writing/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/incident-response/skills/postmortem-writing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "99a18e3550339948d7eed7fc1de112298c84dc31bae5f241d11871857398d5bc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

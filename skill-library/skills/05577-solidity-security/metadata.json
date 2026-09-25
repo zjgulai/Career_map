@@ -1,0 +1,22 @@
+{
+  "英文名称": "solidity-security",
+  "中文名称": "待补：solidity-security",
+  "一句话作用": "Master smart contract security best practices to prevent common vulnerabilities and implement secure Solidity patterns. Use when writing smart contracts, auditing existing contracts, or implementing security measures fo…",
+  "关键输入": "- Writing secure smart contracts - Auditing existing contracts for vulnerabilities - Implementing secure DeFi protocols - Preventing reentrancy, overflow, and access control issues - Optimizing gas usage while maintaini…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- Writing secure smart contracts - Auditing existing contracts for vulnerabilities - Implementing secure DeFi protocols - Preventing reentrancy, overflow, and access control issues - Optimizing gas usage while maintaini…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05577-solidity-security-52551cb9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/blockchain-web3/skills/solidity-security/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/blockchain-web3/skills/solidity-security/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "57c4e951a20c847bb7e094ce27085f850592def77d33cb74808038ae0209a109",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "loop-me",
+  "中文名称": "待补：loop-me",
+  "一句话作用": "在这个工作区中，就我想构建的工作流规格访谈我。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要在这个工作区中，就我想构建的工作流规格访谈我。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10749-loop-me-4c6046c6",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/loop-me/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/loop-me/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bc71db2d12a36fa3cba101769b90b16151dee337f0ecc84e7a00b568908a9c6d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "content-to-skill",
+  "中文名称": "待补：content-to-skill",
+  "一句话作用": "将任意来源材料转换为可执行、结构化的 Codex Skill 包。当用户提供文本、笔记、文档、PDF、转录稿、视频、课程、文章、仓库、工作流、聊天记录或粗略想法，并要求将其变成 Skill、SKILL.md、Skill 脚手架、可复用 agent 工作流、操作型提示词或结构化能力时使用。也适用于“把内容变成 skill”“文档转 skill”“视频转 skill”“课程转 skill”“工作流沉淀成 skill”或“从资料生成可执行…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T02:22:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要将任意来源材料转换为可执行、结构化的 Codex Skill 包。当用户提供文本、笔记、文档、PDF、转录稿、视频、课程、文章、仓库、工作流、聊天记录或粗略想法，并要求将其变成 Skill、SKILL.md、Skill 脚手架、可复用 agent 工作流、操作型提示词或结构化能力时使用。也适用于“把内容变成 skill”“文档转 skill”“视频转 skill”“课程转 skill”“工作流沉淀成 skill”或“从资料生成可执行…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06010-content-to-skill-6839539b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/Codex/2026-09-01/1-post-md-2-md-3-12/work/content-zh-optimized.X7g6Of/SKILL.md",
+  "relative_path": "lute/Documents/Codex/2026-09-01/1-post-md-2-md-3-12/work/content-zh-optimized.X7g6Of/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bbee6652e7cbe9adf49c9d8f856d241b9942cde57582c610f20242c0745701ef",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

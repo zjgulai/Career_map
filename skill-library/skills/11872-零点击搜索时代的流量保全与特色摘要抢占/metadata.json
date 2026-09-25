@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-zero-click-search-optimization",
+  "中文名称": "零点击搜索时代的流量保全与特色摘要抢占",
+  "一句话作用": "触发词：零点击搜索、特色摘要抢占、FAQ 结构化标记、AI 摘要引用、品牌问答页。何时不用：投放素材与渠道增量归因用增量分析类技能，本技能只做搜索侧内容结构与品牌实体优化。安全边界：问答内容不得编造资质、认证与功效表述，涉 BPA、安全标准等宣称须有事实依据与检测支撑。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要60% 的搜索零点击结束但品牌曝光为零——FAQ Schema 标记+权威内容结构将 AI Overview 引用概率提升 3.2×，把零点击流量损失转化为品牌认知收益时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11872-p2s-zero-click-search-optimization-4a54efff",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-zero-click-search-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-zero-click-search-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "86aaf8ee7a9632c2ec1ab670aeab2a2812bcc4c3e726cc29869eb33e2617eed8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

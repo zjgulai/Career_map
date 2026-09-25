@@ -1,0 +1,22 @@
+{
+  "英文名称": "kuaishou-assistant",
+  "中文名称": "快手数据助手 (KuaiShou Assistant)",
+  "一句话作用": "快手数据助手、快手热榜、快手内容研究、作品研究、作品详情、评论分析、评论回复分析、达人数据和达人作品。覆盖 Kuaishou / Kwai short-video research，来自 GuaiKei 社媒数据助手。",
+  "关键输入": "执行前先收集足够输入，避免无效调用。",
+  "关键输出": "执行完成后，优先返回： - 本次执行的目标 - 关键参数 - 结构化 JSON 结果（含 status：success / empty / error） - 如果有必要，再补充一小段摘要说明 适合继续衔接的后续动作包括：选题汇总、高赞视频对比、评论观点聚类、竞品内容风格总结、博主发文节奏分析、报告与表格生成。",
+  "最新更新时间": "2026-09-19T03:51:49+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要本章帮助你自行判断「是不是用错了」以及「报错时怎么处理」。结构化结果都带 status 和 error code 字段，下游请 先按 status 分支 ，再参考 error code。时，用它产出或更新：执行完成后，优先返回： - 本次执行的目标 - 关键参数 - 结构化 JSON 结果（含 status：success / empty / error） - 如果有必要，再补充一小段摘要说明 适合继续衔接的后续动作包括：选题汇总、高赞视频对比、评论观点聚类、竞品内容风格总结、博主发文节奏分析、报告与表格生…",
+  "skill_id": "04934-kuaishou-assistant-185297d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/kuaishou-assistant/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/kuaishou-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f22e1e58c5a97b24accd171fdda77dcf69c1d1efa1b02399776d6de03568051e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

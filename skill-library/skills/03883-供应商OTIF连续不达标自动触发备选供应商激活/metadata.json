@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-performance-alert-action",
+  "中文名称": "供应商OTIF连续不达标自动触发备选供应商激活",
+  "一句话作用": "触发词：供应商预警、OTIF不达标、备选供应商激活、交期履约、绩效告警。何时不用：只做月度绩效打分与趋势观察、不出告警动作时用供应商绩效积分卡；只做新供应商准入与证书到期监控时用供应商准入认证KPI。安全边界：备选供应商激活前必须通过质检验证（首批次质检合格率达标），预警与订单转移须保留人工复核环节。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购负责人面临\"供应商交期持续不达标影响发货\"——OTIF<85%连续3周自动激活备选供应商将交期履约率从82%提升至94%，年化减少缺货损失30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03883-p2s-supplier-performance-alert-action-58b4579d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supplier-performance-alert-action/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supplier-performance-alert-action/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f70fe645182c9f251b18b22648aea1f455bf62ccafad5ce82922ae31e45471e3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

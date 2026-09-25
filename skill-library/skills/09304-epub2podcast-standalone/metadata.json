@@ -1,0 +1,22 @@
+{
+  "英文名称": "epub2podcast-standalone",
+  "中文名称": "待补：epub2podcast-standalone",
+  "一句话作用": "可独立运行的 standalone 版 EPUB2Podcast：用户只需下载当前项目本身，即可在本地把 EPUB 转成 Smart Slide + 双人中文音频 + 最终 MP4 视频播客。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-05T01:33:41+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要可独立运行的 standalone 版 EPUB2Podcast：用户只需下载当前项目本身，即可在本地把 EPUB 转成 Smart Slide + 双人中文音频 + 最终 MP4 视频播客。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09304-epub2podcast-standalone-f4ca880d",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/draco-content/epub2podcast/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/draco-content/epub2podcast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4988327a324be9f844b192e43fecefed619de8246243efff4bf65ba54683fa0e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

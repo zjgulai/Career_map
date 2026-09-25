@@ -1,0 +1,22 @@
+{
+  "英文名称": "ln-624-code-quality-auditor",
+  "中文名称": "待补：ln-624-code-quality-auditor",
+  "一句话作用": "Checks cyclomatic complexity, nesting, long methods, god classes, method signatures, O(n²), N+1 queries, constants management. Returns findings.",
+  "关键输入": "MANDATORY READ: Load shared/references/audit worker core contract.md. Receives contextStore with: tech stack, best practices, principles, codebase root, output dir. Domain-aware: Supports domain mode + current domain (see audit output schema.md domain-aware-w…",
+  "关键输出": "MANDATORY READ: Load shared/references/audit worker core contract.md and shared/templates/audit worker report template.md. Write report to {output dir}/624-quality-{domain}.md (or 624-quality.md in global mode) with category: \"Code Quality\" and checks: cyclom…",
+  "最新更新时间": "2026-09-19T04:12:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Checks cyclomatic complexity, nesting, long methods, god classes, method signatures, O(n²), N+1 queries, constants management. Returns findings.时，用它产出或更新：MANDATORY READ: Load shared/references/audit worker core contract.md and shared/templates/audit worker…",
+  "skill_id": "04948-ln-624-code-quality-auditor-49b9bcab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ln-624-code-quality-auditor/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ln-624-code-quality-auditor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e100dfa0056bdbefa3ffbea57aed4feeb53c3806c9b2de05333ad349f21e1824",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

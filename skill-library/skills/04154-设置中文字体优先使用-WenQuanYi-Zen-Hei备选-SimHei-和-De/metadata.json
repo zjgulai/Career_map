@@ -1,0 +1,22 @@
+{
+  "英文名称": "trend-analysis",
+  "中文名称": "设置中文字体优先使用 WenQuanYi Zen Hei备选 SimHei 和 DejaVu Sans",
+  "一句话作用": "基于多维度数据进行分级评估与趋势预测，通过设定差异化增长率计算预测值，并生成对比可视化图表，适用于绩效评估、目标设定等场景。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "if growth rate total 0.1: conclusion = \"整体趋势向好，预计实现显著增长。\" elif growth rate total 0: conclusion = \"整体呈温和增长态势。\" else: conclusion = \"整体面临压力，需重点关注低绩效部分。\" print(f\"趋势结论：{conclusion}\")",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要基于多维度数据进行分级评估与趋势预测，通过设定差异化增长率计算预测值，并生成对比可视化图表，适用于绩效评估、目标设定等场景。时，用它产出或更新：if growth rate total 0.1: conclusion = \"整体趋势向好，预计实现显著增长。\" elif growth rate total 0: conclusion = \"整体呈温和增长态势。\" else: conclusion = \"整体面临压力，需重点关注低绩效部分。\" print(f\"趋势结论：{conclusion}\")",
+  "skill_id": "04154-trend-analysis-e98405e2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-analysis/trend-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-analysis/trend-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "12565195014959e913ee26ba369bb928aec2ce37549887573a2265165ab739c5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

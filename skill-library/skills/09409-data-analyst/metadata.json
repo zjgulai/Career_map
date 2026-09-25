@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-analyst",
+  "中文名称": "待补：data-analyst",
+  "一句话作用": "SQL, pandas, and statistical analysis expertise for data exploration and insights. Use when: analyzing data, writing SQL queries, using pandas, performing statistical analysis, or when user mentions data analysis, SQL,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Provide SQL queries and pandas code with: - Clear comments - Example results - Performance considerations - Interpretation of findings --- Created for data analysis and SQL/pandas workflows",
+  "最新更新时间": "2026-03-03T23:29:31+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要SQL, pandas, and statistical analysis expertise for data exploration and insights. Use when: analyzing data, writing SQL queries, using pandas, performing statistical analysis, or when user mentions data analysis, SQL,…时，用它产出或更新：Provide SQL queries and pan…",
+  "skill_id": "09409-data-analyst-cbc1c775",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/00-data-foundation/data-analyst/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/00-data-foundation/data-analyst/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "144e82457e8861ae540138f9d0168e1eb7c56761bc8db541733d448cb7cb3e1e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "swot-analysis",
+  "中文名称": "待补：swot-analysis",
+  "一句话作用": "梳理自身优势与劣势以及外部机会与威胁，交叉组合出可选的行动方向。触发词：内外态势分析、swot-analysis、梳理自身优势与劣势以及外部机会与威胁，交叉组合出可选的行动方向。",
+  "关键输入": "- Product description and current state - Competitive landscape and market context - Company capabilities, resources, and constraints - Market trends and industry dynamics - Customer feedback or usage data (optional)",
+  "关键输出": "1. Identify 5-7 strengths (be honest about competitive advantages) 2. List 5-7 weaknesses (avoid minimizing; focus on addressable gaps) 3. Map 5-7 opportunities (prioritize by market size and alignment) 4. Flag 5-7 threats (assess probability and impact) 5. C…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要梳理自身优势与劣势以及外部机会与威胁，交叉组合出可选的行动方向。触发词：内外态势分析、swot-analysis、梳理自身优势与劣势以及外部机会与威胁，交叉组合出可选的行动方向。时，用它产出或更新：1. Identify 5-7 strengths (be honest about competitive advantages) 2. List 5-7 weaknesses (avoid minimizing; focus on addressable gaps) 3. Map 5-7 opportunit…",
+  "skill_id": "04213-swot-analysis-7900984d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/swot-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/swot-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2f824d00633c2977d5937f1f8bb7a733106290a88906d42825597003b84077ce",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

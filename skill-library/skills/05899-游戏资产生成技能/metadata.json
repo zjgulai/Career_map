@@ -1,0 +1,22 @@
+{
+  "英文名称": "asset-generator",
+  "中文名称": "游戏资产生成技能",
+  "一句话作用": "游戏资产生成技能。调用外部 AI 服务生成 3D 模型、贴图、音效等资产， 并自动导入到 Godot 项目中。",
+  "关键输入": "1. 确保已配置相应服务的 API Key（见 external-api skill） 2. 确保项目目录结构已初始化 ---",
+  "关键输出": "- 成功：「✓ 已生成 [描述] 并导入到 [resPath]，剩余额度：XX」 - 失败：「✗ 生成失败：[错误原因]，已自动退还额度」",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要游戏资产生成技能。调用外部 AI 服务生成 3D 模型、贴图、音效等资产， 并自动导入到 Godot 项目中。时，用它产出或更新：- 成功：「✓ 已生成 [描述] 并导入到 [resPath]，剩余额度：XX」 - 失败：「✗ 生成失败：[错误原因]，已自动退还额度」",
+  "skill_id": "05899-asset-generator-cc6ff4d4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-1-generators/asset-generator/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-1-generators/asset-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9613e04fa28154e8cb7035868105f53d936ea9dc42d18176507d049cb813680e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

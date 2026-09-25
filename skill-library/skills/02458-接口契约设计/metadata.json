@@ -1,0 +1,22 @@
+{
+  "英文名称": "api-designer",
+  "中文名称": "接口契约设计）",
+  "一句话作用": "设计 REST 与 GraphQL 接口：资源建模、端点与 OpenAPI 3.1 契约、分页、错误响应与版本演进策略。触发词：接口契约设计、api-designer、设计 REST 与 GraphQL 接口：资源建模、端点与 OpenAPI 3.1 契约、分页、错误响应与版本演进策略。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要设计 REST 与 GraphQL 接口：资源建模、端点与 OpenAPI 3.1 契约、分页、错误响应与版本演进策略。触发词：接口契约设计、api-designer、设计 REST 与 GraphQL 接口：资源建模、端点与 OpenAPI 3.1 契约、分页、错误响应与版本演进策略。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02458-api-designer-ffa2138e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/api-designer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/api-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8895a060b50f2661e20fa006605a8fc0a02cfafb35642b5442fad7390901a59f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

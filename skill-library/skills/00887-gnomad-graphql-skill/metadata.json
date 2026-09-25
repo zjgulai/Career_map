@@ -1,0 +1,22 @@
+{
+  "英文名称": "gnomad-graphql-skill",
+  "中文名称": "待补：gnomad-graphql-skill",
+  "一句话作用": "Submit compact gnomAD GraphQL requests for frequency, gene constraint, and variant context queries. Use when a user wants concise gnomAD summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required field: query or query path - Optional fields: variables, max items, max depth, timeout sec, save raw, raw output path - Common gnomAD patterns: - {\"query\":\"query { meta { clinvar release date } }\"}",
+  "关键输出": "- Success returns ok, source, top keys, a compact summary, and raw output path when save raw=true. - Failure returns ok=false with error.code such as invalid json, invalid input, network error, invalid response, or graphql error.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact gnomAD GraphQL requests for frequency, gene constraint, and variant context queries. Use when a user wants concise gnomAD summaries时，用它产出或更新：- Success returns ok, source, top keys, a compact summary, and raw output path when save raw=true. -…",
+  "skill_id": "00887-gnomad-graphql-skill-3a406dac",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/gnomad-graphql-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/gnomad-graphql-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b7ce8805296f9e000a68121da35ed4d6a989e0fcdca51fba9de8c6584e7c848d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

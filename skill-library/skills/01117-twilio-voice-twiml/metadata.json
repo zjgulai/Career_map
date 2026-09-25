@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-voice-twiml",
+  "中文名称": "待补：twilio-voice-twiml",
+  "一句话作用": "Build voice call logic using TwiML (Twilio Markup Language). Covers the core verbs (Say, Play, Gather, Dial, Record, Conference), generating TwiML with Python and Node.js SDKs, and a complete inbound call IVR example. U…",
+  "关键输入": "- Twilio account with a voice-capable phone number — New to Twilio? See twilio-account-setup - Webhook endpoint returning TwiML with Content-Type: text/xml - SDK (for programmatic generation): pip install twilio / npm install twilio ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build voice call logic using TwiML (Twilio Markup Language). Covers the core verbs (Say, Play, Gather, Dial, Record, Conference), generating TwiML with Python and Node.js SDKs, and a complete inbound call IVR example. U…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01117-twilio-voice-twiml-d3a353ed",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-voice-twiml/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-voice-twiml/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "60d5495a42a9132ac29138362208b2c87027eec79a4d2b4dc521b32ff4dcdec8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

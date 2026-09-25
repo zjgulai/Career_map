@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-ex",
+  "中文名称": "前任创建器",
+  "一句话作用": "从聊天记录创建前任的数字人格 Skill。 支持微信/iMessage/截图/直接粘贴文本导入，自动分析说话风格、情感模式和冲突行为， 生成可持续进化的六层 Persona Skill，支持追加记录、对话纠正和版本回滚。 触发命令：/create-ex 新建，/list-exes 列出所有，/move-on {slug} 删除。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:04:59+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要从聊天记录创建前任的数字人格 Skill。 支持微信/iMessage/截图/直接粘贴文本导入，自动分析说话风格、情感模式和冲突行为， 生成可持续进化的六层 Persona Skill，支持追加记录、对话纠正和版本回滚。 触发命令：/create-ex 新建，/list-exes 列出所有，/move-on {slug} 删除。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06100-create-ex-7a2c4c36",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-ex/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-ex/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "364bafcaf422b1716f48735425fa14d299a9df6a59400e09bce9e120a011a9e2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

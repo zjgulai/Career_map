@@ -1,0 +1,22 @@
+{
+  "英文名称": "dynamic-large-file-parquet-analysis",
+  "中文名称": "待补：dynamic-large-file-parquet-analysis",
+  "一句话作用": "动态统计Excel总行数，当数据量过大（≥10000行）时自动转换为Parquet格式加速读取，并对指定目标列进行条件筛选、分类汇总与结果导出，适用于超大体积Excel文件的快速读取与统计分析。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "result df.to excel(output path, index=False)",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要动态统计Excel总行数，当数据量过大（≥10000行）时自动转换为Parquet格式加速读取，并对指定目标列进行条件筛选、分类汇总与结果导出，适用于超大体积Excel文件的快速读取与统计分析。时，用它产出或更新：result df.to excel(output path, index=False)",
+  "skill_id": "04186-dynamic-large-file-parquet-analysis-81a92023",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-table-styling/table-theme-styling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-table-styling/table-theme-styling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2bdd1b059471820644ccc67b88126510db7796db7fdc936204fbf7f9a33bf913",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

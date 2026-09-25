@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nonitem-page-path-modeling",
+  "中文名称": "非商品页路径建模 - 导航页在用户旅程中的转化贡献",
+  "一句话作用": "触发词：非商品页路径、导航页贡献权重、页面类型序列、桑基图节点、Next-Item预测。何时不用：只做页面级漏斗流失节点定位时用「用户旅程分析」；只按设备、浏览器、来源做转化诊断时用「电商流量来源全维度分析」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴独立站（如 Momcozy/Graco 品牌站）的首页、分类页（奶瓶/奶粉/童车）、搜索页在转化漏斗中起什么作用时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03538-p2s-nonitem-page-path-modeling-6ef0d7f0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-nonitem-page-path-modeling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-nonitem-page-path-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7adbcc2ec07811a95cae4fc57153b179f4690f87bdaa6a02742a88521fa349c7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

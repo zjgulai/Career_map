@@ -1,0 +1,22 @@
+{
+  "英文名称": "dotnet-reverse",
+  "中文名称": "逆向作业规范",
+  "一句话作用": ".NET / C 二进制逆向。当目标是 .NET assembly（PE 头含 CLR、.exe/.dll 托管程序）、C 编译产物（含 NativeAOT）、红队 Sharp 工具（Rubeus / SharpHound / SharpHound 等）、.NET 混淆程序（ConfuserEx / SmartAssembly / Babel / Eazfuscator）、.NET loader / info-stealer / 套壳…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要.NET / C 二进制逆向。当目标是 .NET assembly（PE 头含 CLR、.exe/.dll 托管程序）、C 编译产物（含 NativeAOT）、红队 Sharp 工具（Rubeus / SharpHound / SharpHound 等）、.NET 混淆程序（ConfuserEx / SmartAssembly / Babel / Eazfuscator）、.NET loader / info-stealer / 套壳…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10108-dotnet-reverse-11c7df23",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/dotnet-reverse/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/dotnet-reverse/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "12154b4dd685e9fa4cf3c1912e1582cfaa1a2996dce95fee4c563a2d6c120dd7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-demand-sensing",
+  "中文名称": "库存需求感知：实时信号融合驱动智能补货",
+  "一句话作用": "触发词：需求感知、多信号融合、搜索趋势、广告 CTR、提前补货。何时不用：只有销量单信号、无外部领先信号时用「卡尔曼滤波需求状态追踪」；要做大促与基线拆分时用「大促需求分解」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要吸奶器旺季等到销量上升才补货Lead Time 45天导致旺季缺货两周——搜索趋势+广告CTR多信号感知比纯销量触发提前7-14天补货，旺季缺货减少40-60%年化GMV保护25-65万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03255-p2s-inventory-demand-sensing-258c242a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-inventory-demand-sensing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-inventory-demand-sensing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "11a77e5ec059bedc02cdbee90947d036a9d19cda2f049e4ce6005c7efe62b2d3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

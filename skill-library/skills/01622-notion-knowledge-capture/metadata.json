@@ -1,0 +1,22 @@
+{
+  "英文名称": "notion-knowledge-capture",
+  "中文名称": "待补：notion-knowledge-capture",
+  "一句话作用": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
+  "关键输入": "- reference/ — database schemas and templates (e.g., team-wiki-database.md, how-to-guide-database.md, faq-database.md, decision-log-database.md, documentation-database.md, learning-database.md, database-best-practices.m…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- reference/ — database schemas and templates (e.g., team-wiki-database.md, how-to-guide-database.md, faq-database.md, decision-log-database.md, documentation-database.md, learning-database.md, database-best-practices.m…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01622-notion-knowledge-capture-08f877fd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/notion-knowledge-capture/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/notion-knowledge-capture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

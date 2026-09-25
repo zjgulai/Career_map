@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-promo-stocktaking-sop-automation",
+  "中文名称": "大促盘货S流程自动化 备货追踪预案生成与紧急补货闭环",
+  "一句话作用": "触发词：大促备货、盘货追踪、S&OP自动化、紧急补货、备货缺口。何时不用：需要按月做需求供应对齐的常规 S&OP 会议时用S&OP销售与运营计划协同；需要为促销峰值做运力与爆仓预测时用大促物流爆仓预测。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要大促备货靠拍脑袋年均缺货+积压损失$15万——双路预测收敛+8周备货追踪+紧急补货触发将备货准确率从40%提升至75%，年化节省$11万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03653-p2s-promo-stocktaking-sop-automation-ad3c8b80",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-promo-stocktaking-sop-automation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-promo-stocktaking-sop-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5c695dd9390db19ed13764f4a6cb90ab26711cc4bb5e20af38856ae4e9ddae31",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

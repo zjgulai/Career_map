@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-reverse-logistics-disposition-optimization",
+  "中文名称": "逆向物流全链路处置决策 退货质检分流二次销售与价值最大化",
+  "一句话作用": "触发词：逆向处置、价值回收率、退货分流路径、退货质检分级、大促退货处理。何时不用：只比处置渠道回收报价用「退货价值回收竞价」，只做品相定级用「退货品质分级引擎」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要退货被当成纯损失扔给FBA系统随机处置只回收35%价值——质检分级+最优路径规划将价值回收率提升至60%，月额外回收$2700，年化$3.24万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11512-p2s-reverse-logistics-disposition-optimization-0b7df0d4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-reverse-logistics-disposition-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-reverse-logistics-disposition-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b96fc3bb02079260966fec38a7b399e84ff37fd176a0d09cffdbf38d5554b15f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

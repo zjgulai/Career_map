@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-graphrag-knowledge-enhanced-retrieval",
+  "中文名称": "知识图谱增强检索生成",
+  "一句话作用": "触发词：知识图谱检索、关系推理问答、商品对比、配件推荐、答案溯源。何时不用：只要关键词匹配 FAQ 时用基础检索加精排；要跨长文档做全局摘要层检索时用分层检索。安全边界：无。",
+  "关键输入": "输入 ：商品知识图谱（实体：商品、品牌、价格、材质、功能；关系：配套购买、同类竞品、适用人群、使用场景）、用户行为数据（购买、浏览、评价）与客服历史问答记录。 输出 ：结构化上下文与答案：商品对比结论、基于配套关系的配件推荐、结合购买历史的个性化回答，并附图谱路径便于溯源，供客服与推荐场景使用。",
+  "关键输出": "输入 ：商品知识图谱（实体：商品、品牌、价格、材质、功能；关系：配套购买、同类竞品、适用人群、使用场景）、用户行为数据（购买、浏览、评价）与客服历史问答记录。 输出 ：结构化上下文与答案：商品对比结论、基于配套关系的配件推荐、结合购买历史的个性化回答，并附图谱路径便于溯源，供客服与推荐场景使用。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：知识图谱检索、关系推理问答、商品对比、配件推荐、答案溯源。何时不用：只要关键词匹配 FAQ 时用基础检索加精排；要跨长文档做全局摘要层检索时用分层检索。安全边界：无。时，用它产出或更新：输入 ：商品知识图谱（实体：商品、品牌、价格、材质、功能；关系：配套购买、同类竞品、适用人群、使用场景）、用户行为数据（购买、浏览、评价）与客服历史问答记录。 输出 ：结构化上下文与答案：商品对比结论、基于配套关系的配件推荐、结合购买历史的个性化回答，并附图谱路径便于溯源，供客服与推荐场景使用。",
+  "skill_id": "11989-p2s-graphrag-knowledge-enhanced-retrieval-69b7766a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-graphrag-knowledge-enhanced-retrieval/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-graphrag-knowledge-enhanced-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8174a4aff088b8e22e7c5c8fafdcadaf0c06a4ba224e700535fb39250ecd6bdb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

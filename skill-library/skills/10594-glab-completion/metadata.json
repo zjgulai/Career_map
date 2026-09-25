@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-completion",
+  "中文名称": "待补：glab-completion",
+  "一句话作用": "为 bash、zsh、fish 或 PowerShell 生成 shell 补全脚本。适用于为你的 shell 设置 glab 自动补全。触发词：completion、自动补全、shell 补全、Tab 补全。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要为 bash、zsh、fish 或 PowerShell 生成 shell 补全脚本。适用于为你的 shell 设置 glab 自动补全。触发词：completion、自动补全、shell 补全、Tab 补全。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10594-glab-completion-546beb06",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-completion/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-completion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d130742c64312ace6a5dba34bf6cee02a4ef1eccf4eb324f769f373e2ce3b13",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

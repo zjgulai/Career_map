@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skill 聚类矩阵</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./clusters.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">MECE 聚类矩阵</p>
+        <h1>从 Skill 到三宝候选能力</h1>
+      </div>
+      <div class="stats" id="stats"></div>
+    </header>
+    <section class="controls">
+      <label class="search"><span>搜索聚类</span><input id="q" type="search" placeholder="搜索价值、问题、能力、Preset、代表技能..." /></label>
+      <label><span>候选层级</span><select id="level"><option value="">全部层级</option></select></label>
+      <label><span>Preset</span><select id="preset"><option value="">全部 Preset</option></select></label>
+      <label><span>业务价值</span><select id="value"><option value="">全部价值</option></select></label>
+      <label><span>问题类型</span><select id="problem"><option value="">全部问题</option></select></label>
+    </section>
+    <section class="result-meta">
+      <span id="count"></span>
+      <span><a href="../skill_cluster_matrix.xlsx">打开聚类 Excel</a> · <a href="./index.html">返回 Skill 清单</a></span>
+    </section>
+    <section class="cluster-table" id="clusters"></section>
+  </main>
+  <script src="./cluster-data.js"></script>
+  <script src="./clusters.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "英文名称": "latex-doctor",
+  "中文名称": "待补：latex-doctor",
+  "一句话作用": "Detect bundled Tectonic plus TeX Live or MacTeX availability, report missing LaTeX tools, and run small compile smoke tests when possible.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Summarize: - detector status - Tectonic path and smoke-test result when available - detected TeX bin directory - TEXMFROOT when available - missing required or recommended tools - TeX Live smoke-test result when a compile was attempted",
+  "最新更新时间": "2026-08-28T01:54:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Detect bundled Tectonic plus TeX Live or MacTeX availability, report missing LaTeX tools, and run small compile smoke tests when possible.时，用它产出或更新：Summarize: - detector status - Tectonic path and smoke-test result when available - detected TeX bin directo…",
+  "skill_id": "00689-latex-doctor-58f447f9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/latex/skills/latex-doctor/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/latex/skills/latex-doctor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "efe5d17d731a49c5cbea4528e3773ea6ced8c03dd9b79fe1ff397c0627809f62",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

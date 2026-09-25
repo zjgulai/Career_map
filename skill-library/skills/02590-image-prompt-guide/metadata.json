@@ -1,0 +1,22 @@
+{
+  "英文名称": "image-prompt-guide",
+  "中文名称": "待补：image-prompt-guide",
+  "一句话作用": "Prompt engineering and tool routing for AI image generation and editing: creative generation, product photo editing, e-commerce image sets, and specialized scenes (white background, watermark cleanup, HD upscale, resize…",
+  "关键输入": "- AI 生图/修图提示词与工具路由，覆盖电商套图等场景。",
+  "关键输出": "This gate is global and mandatory for every scene. It applies to every image edit / image generate call regardless of which reference built the prompt — whether the prompt came from a reference's own template (white background, selling point, text editing, pr…",
+  "最新更新时间": "2026-09-08T00:49:03+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- AI 生图/修图提示词与工具路由，覆盖电商套图等场景。时，用它产出或更新：This gate is global and mandatory for every scene. It applies to every image edit / image generate call regardless of which reference built the prompt — whether the prompt came from a reference's own template (white b…",
+  "skill_id": "02590-image-prompt-guide-f5544936",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/image-prompt-guide/SKILL.md",
+  "relative_path": "lute/.dsh/skills/image-prompt-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5e1587585b69fc5eddae7acb6d2a9df2482914eea6fb0902de163d85d7ce4a23",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

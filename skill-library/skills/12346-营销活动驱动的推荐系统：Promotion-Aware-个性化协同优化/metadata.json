@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-marketing-driven-recommendation",
+  "中文名称": "营销活动驱动的推荐系统：Promotion-Aware 个性化协同优化",
+  "一句话作用": "触发词：营销感知推荐、促销排序、预算利用率、折扣响应、双目标优化、促销池。何时不用：只按用户价格舒适度排序用「价格感知个性化推荐」；按个体弹性推折扣用「价格感知推荐」。安全边界：展示的促销信息须与真实状态一致（价格、时间窗、库存），不得展示已失效或不存在的折扣。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "MMM 的输出（各渠道 ROI 系数）可作为 DECE 中的收益权重初值 PRME 学到的价格弹性曲线，可反馈到 MMM 的价格模型验证 两者共享营销日历配置，避免信号漂移",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：母婴品类 Amazon Prime Day 期间，运营团队准备了 200 个参与促销的 SKU（折扣率 15%-50%），需要对不同用户展示「最可能因折扣购买」的商品组合，而非单纯推热销榜时，用它产出或更新：MMM 的输出（各渠道 ROI 系数）可作为 DECE 中的收益权重初值 PRME 学到的价格弹性曲线，可反馈到 MMM 的价格模型验证 两者共享营销日历配置，避免信号漂移",
+  "skill_id": "12346-p2s-marketing-driven-recommendation-60b2407c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-marketing-driven-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-marketing-driven-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7665cc0ba6b22e0cbcd7ec43c143a211c02e061891d89858066986e54b0ea219",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

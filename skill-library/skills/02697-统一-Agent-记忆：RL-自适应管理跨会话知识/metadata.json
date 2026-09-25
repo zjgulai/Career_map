@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agemem-unified-agent-memory",
+  "中文名称": "统一 Agent 记忆：RL 自适应管理跨会话知识",
+  "一句话作用": "触发词：LTM与STM统一、记忆即动作、跨会话知识、TTL过期管理、报表洞察压缩。何时不用：单次会话即可完成、无需跨会话积累时不适用；只做结构化记忆节点与图谱走A-MEM记忆系统。安全边界：记忆条目须支持过期清理避免陈旧结论长期生效，写入内容涉及客户数据时须脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：广告 Agent 每次启动都是\"空白大脑\"，无法记住上周/上月哪些关键词 ROAS 高、竞品在哪些词上加价、大促节点的效果规律时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02697-p2s-agemem-unified-agent-memory-8bb80fa0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agemem-unified-agent-memory/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agemem-unified-agent-memory/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ee1ae6f1953412d303635e832015abc6a0aef4dd745a2f8673cc67deb54abf24",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

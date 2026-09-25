@@ -1,0 +1,22 @@
+{
+  "英文名称": "lexiang-connectors",
+  "中文名称": "乐享外部数据源导入",
+  "一句话作用": "乐享知识库外部数据源导入：腾讯会议录制导入与 iWiki 文档迁移。当用户提到「乐享」「知识库」「lexiang」并包含会议录制/会议纪要/导入会议/iWiki/迁移文档意图时使用。典型触发：「把会议录制导入到乐享」「导入腾讯会议」「把昨天的会议记录保存到知识库」「搜一下我的会议录制」「把 iWiki 的文档迁移到乐享」「导入 iwiki.woa.com 的页面」。支持腾讯会议录制搜索、导入、详情查看、重新导入，以及 iWiki 文档…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要乐享知识库外部数据源导入：腾讯会议录制导入与 iWiki 文档迁移。当用户提到「乐享」「知识库」「lexiang」并包含会议录制/会议纪要/导入会议/iWiki/迁移文档意图时使用。典型触发：「把会议录制导入到乐享」「导入腾讯会议」「把昨天的会议记录保存到知识库」「搜一下我的会议录制」「把 iWiki 的文档迁移到乐享」「导入 iwiki.woa.com 的页面」。支持腾讯会议录制搜索、导入、详情查看、重新导入，以及 iWiki 文档…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05291-lexiang-connectors-db622d5c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/connectors/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/connectors/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "95a6e76fd385e8ffac61f829c6fdf060de2fe296294f2d2c334b0b6592d0ff38",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

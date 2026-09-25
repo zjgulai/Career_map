@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo-controller",
+  "中文名称": "待补：seo-controller",
+  "一句话作用": "统筹技术审计、内容优化、竞品分析、multilingual-seo与GEO五大模块，为跨境电商独立站提供完整SEO整合方案。触发词：SEO主控、SEO优化、SEO方案、SEO整合、网站优化、搜索优化、SEO strategy、SEO optimization、SEO audit、site audit、SEO planning、search engine optimization、SEO整体规划、搜索排名提升、自然流量诊断。何时不用：①…",
+  "关键输入": "当用户意图满足以下条件之一时，由本协调器（seo-main-hub）统筹： 1. 多模块 SEO 需求 ：同时涉及技术审计 + 内容优化 + 竞品分析 + 多语言 + GEO 中的两个及以上模块； 2. 整体性 SEO 目标 ：用户要求\"完整 SEO 方案 / 全面网站优化 / 自然流量提升 / 搜索排名整体提升 / SEO 整合\"； 3. 不确定该用哪个模块 ：用户描述了 SEO 问题但未指明具体子模块，且需要跨模块诊断；",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:38+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要当用户意图满足以下条件之一时，由本协调器（seo-main-hub）统筹： 1. 多模块 SEO 需求 ：同时涉及技术审计 + 内容优化 + 竞品分析 + 多语言 + GEO 中的两个及以上模块； 2. 整体性 SEO 目标 ：用户要求\"完整 SEO 方案 / 全面网站优化 / 自然流量提升 / 搜索排名整体提升 / SEO 整合\"； 3. 不确定该用哪个模块 ：用户描述了 SEO 问题但未指明具体子模块，且需要跨模块诊断；时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04120-seo-controller-3349985f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/seo-controller/SKILL.md",
+  "relative_path": "lute/.dsh/skills/seo-controller/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "adf747e69e14b050061bd079d72ab267c0a171ef54115423ddd56f396488095b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

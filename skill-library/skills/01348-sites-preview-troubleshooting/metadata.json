@@ -1,0 +1,22 @@
+{
+  "英文名称": "sites-preview-troubleshooting",
+  "中文名称": "待补：sites-preview-troubleshooting",
+  "一句话作用": "Diagnose and recover failed supervised sites-preview sessions after sites-building. Applies only to the managed-linux execution profile, not portable previews.",
+  "关键输入": "Managed-linux only. This skill diagnoses the supervised sites-preview runtime. For portable preview issues, follow Portable preview instead. Use this skill only after sites-building has prepared the checkout and its age…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Managed-linux only. This skill diagnoses the supervised sites-preview runtime. For portable preview issues, follow Portable preview instead. Use this skill only after sites-building has prepared the checkout and its age…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01348-sites-preview-troubleshooting-441a1dbb",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/sites/0.1.70/skills/sites-preview-troubleshooting/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/sites/0.1.70/skills/sites-preview-troubleshooting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8d2cb0731ed0c46888f2e455b23a7114b209c66ac3708e6502b0f280065938e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "design-to-code-workflows",
+  "中文名称": "工作流程",
+  "一句话作用": "将 Figma 设计和截图转换为生产就绪的代码组件，内置无障碍性支持",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要将 Figma 设计和截图转换为生产就绪的代码组件，内置无障碍性支持时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05452-design-to-code-workflows-9284257c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/design-to-code/skills/design-to-code-workflows/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/design-to-code/skills/design-to-code-workflows/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c767e431a397246334737074b6f519002bff7db0e897f3cd82f7cf1f5cf04538",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

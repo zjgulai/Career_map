@@ -1,0 +1,22 @@
+{
+  "英文名称": "analyze-feature-requests",
+  "中文名称": "待补：analyze-feature-requests",
+  "一句话作用": "把零散的功能请求归并成需求主题，并按证据强度排出处理顺序。触发词：功能请求分析、analyze-feature-requests、把零散的功能请求归并成需求主题，并按证据强度排出处理顺序。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要把零散的功能请求归并成需求主题，并按证据强度排出处理顺序。触发词：功能请求分析、analyze-feature-requests、把零散的功能请求归并成需求主题，并按证据强度排出处理顺序。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02454-analyze-feature-requests-5b72f477",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/analyze-feature-requests/SKILL.md",
+  "relative_path": "lute/.dsh/skills/analyze-feature-requests/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4cf1a07dc98e17fe22c74a59f441ea3192ccd62870cdc52c658d83bacd9ba1c1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

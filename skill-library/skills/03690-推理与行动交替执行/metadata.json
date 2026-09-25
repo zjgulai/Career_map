@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-react-reasoning-acting",
+  "中文名称": "推理与行动交替执行",
+  "一句话作用": "触发词：推理与行动交替、工具调用、补货决策、动态定价、Agent范式。何时不用：任务不需要外部信息时纯推理即可；要多智能体分工协作时用 MAS 架构类技能。安全边界：补货与调价属执行器动作，须设人工审批阈值，不得让 Agent 无审批直接改价或下采购单。",
+  "关键输入": "输入 ：实时库存数据（卡页示例 FBA 仓与海外仓）、过去 90 天销售趋势（日/周维度）、竞品价格（示例 Top 5 竞品实时价格）与供应链数据（示例供应商交期 25-35 天、海运周期 18 天）。 输出 ：带推理轨迹的结论与动作建议：卡页示例把断货从每季度 2 次降到 0 次（年化减少损失 32 万元）、仓储费年化节省 4.8 万元、动态定价带来平均售价提升 4.2%（年化增加毛利 8.5 万元）。",
+  "关键输出": "输入 ：实时库存数据（卡页示例 FBA 仓与海外仓）、过去 90 天销售趋势（日/周维度）、竞品价格（示例 Top 5 竞品实时价格）与供应链数据（示例供应商交期 25-35 天、海运周期 18 天）。 输出 ：带推理轨迹的结论与动作建议：卡页示例把断货从每季度 2 次降到 0 次（年化减少损失 32 万元）、仓储费年化节省 4.8 万元、动态定价带来平均售价提升 4.2%（年化增加毛利 8.5 万元）。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要原文:\"Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes prevalent issues of hallucination and error propagation in chain-of-thought reasoning by interacting with a simple Wikipedi…时，用它产出或更新：输入 ：实时库存数据（卡页示例 FBA 仓与海外仓）…",
+  "skill_id": "03690-p2s-react-reasoning-acting-947c656c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-react-reasoning-acting/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-react-reasoning-acting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "91690831a01edadf6fcdb93ab1fa66631d06beb5bd70edb7e4b5dc343e62658a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

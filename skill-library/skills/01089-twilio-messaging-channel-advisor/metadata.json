@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-messaging-channel-advisor",
+  "中文名称": "待补：twilio-messaging-channel-advisor",
+  "一句话作用": "Planning skill that helps the developer pick the right Twilio messaging channel — SMS, MMS, RCS, or WhatsApp — for a given use case. Qualifies intent across content type, geography, use case (marketing / notifications /…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When you recommend a channel, include: 1. Primary channel and why it fits 2. Fallback channel (if applicable) and how to configure it 3. Next skill to invoke (usually twilio-send-message for the send, twilio-messaging-services for pool / fallback setup)",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Planning skill that helps the developer pick the right Twilio messaging channel — SMS, MMS, RCS, or WhatsApp — for a given use case. Qualifies intent across content type, geography, use case (marketing / notifications /…时，用它产出或更新：When you recommend a chann…",
+  "skill_id": "01089-twilio-messaging-channel-advisor-9b2d4377",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-messaging-channel-advisor/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-messaging-channel-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7f477b14b94a36fbfb21c7eac2083fd68c3b09de195b481ba36b404afaa395af",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "attribution",
+  "中文名称": "待补：attribution",
+  "一句话作用": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions \"attrib…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Deliver an attribution readout , not a data dump:",
+  "最新更新时间": "2026-09-03T14:44:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions \"attrib…时，用它产出或更新：Deliver an attribution rea…",
+  "skill_id": "12743-attribution-1d57eb67",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/attribution/SKILL.md",
+  "relative_path": "lute/project/skills/attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eccc43eb93fed8fa871205fc441830ee020bcfce8b78a645e6e679c3f6099ac6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

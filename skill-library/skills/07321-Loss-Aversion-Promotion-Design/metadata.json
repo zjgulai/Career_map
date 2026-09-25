@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Loss-Aversion-Promotion-Design",
+  "中文名称": "待补：Loss Aversion Promotion Design",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 90.0, \"best\": 90.0, \"ts\": \"2026-07-04T04:10:08.316854\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:10:08+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 90.0, \"best\": 90.0, \"ts\": \"2026-07-04T04:10:08.316854\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07321-skill-loss-aversion-promotion-design-8a0d40d7",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Loss-Aversion-Promotion-Design.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Loss-Aversion-Promotion-Design.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "bf047a27d5258ad64d1518549eb45a6d2fd7eb0a963775556761a4075d8ab645",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

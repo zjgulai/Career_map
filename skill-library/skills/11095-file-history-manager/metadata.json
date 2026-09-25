@@ -1,0 +1,22 @@
+{
+  "英文名称": "file-history-manager",
+  "中文名称": "待补：file-history-manager",
+  "一句话作用": "当用户需要恢复文件、查看历史版本、回退到之前的状态或创建备份点时使用。 触发词：恢复文件、找回历史版本、回退到之前、文件历史、备份列表、撤销修改、restore file、revert to previous、file history、backup list。 何时不用：文件在 Git 仓库中且已提交（优先用 git checkout）、需恢复整个会话所有文件、文件从未被编辑过、数据库/系统级恢复、恢复浏览器或聊天记录。 Use wh…",
+  "关键输入": "- 需要回退到文件的某个历史版本 - 误删除或误覆盖文件需要找回 - 想查看文件变更历史 - 关键修改前手动创建备份点 - 批量备份项目文件",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 需要回退到文件的某个历史版本 - 误删除或误覆盖文件需要找回 - 想查看文件变更历史 - 关键修改前手动创建备份点 - 批量备份项目文件时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11095-file-history-manager-cc1db094",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/file-history-manager/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/file-history-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f0b2b9aa6a76c9a219f22986c5cbb5438fa829f72d5ee01ef2edee211d0361f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

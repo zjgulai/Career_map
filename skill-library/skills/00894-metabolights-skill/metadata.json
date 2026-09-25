@@ -1,0 +1,22 @@
+{
+  "英文名称": "metabolights-skill",
+  "中文名称": "待补：metabolights-skill",
+  "一句话作用": "Submit compact MetaboLights requests for study discovery and study-level metabolomics metadata. Use when a user wants concise MetaboLights summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common MetaboLights patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Submit compact MetaboLights requests for study discovery and study-level metabolomics metadata. Use when a user wants concise MetaboLights summaries时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, and either compact records or a…",
+  "skill_id": "00894-metabolights-skill-d696c144",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/metabolights-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/metabolights-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6db4ef1475b8ce2cad7a02311e9d675b0d8ac63712b6095d19cbd18d884da3b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

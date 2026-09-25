@@ -1,0 +1,22 @@
+{
+  "英文名称": "路线图更新",
+  "中文名称": "路线图更新",
+  "一句话作用": "汇总迭代状态、评估里程碑进度、记录优先级变更，输出路线图更新报告和下一步规划建议。 支持从~~项目管理（Linear）自动拉取项目状态。 当用户说\"路线图\"、\"Roadmap\"、\"版本规划\"、\"迭代计划\"、\"里程碑\"、 \"迭代状态\"、\"版本进度\"、\"Sprint回顾\"、\"迭代周报\"、\"延期分析\"时触发。",
+  "关键输入": "字段 必填 说明 ------ ------ ------ 迭代状态 是 当前迭代的任务完成情况（手动输入或从 Linear 自动拉取） 路线图范围 否 本季度/本半年/本年，默认\"本季度\" 变更事项 否 需要调整优先级或时间线的事项及原因 依赖信息 否 跨团队依赖、技术依赖的当前状态",
+  "关键输出": "如果连接了~~Notion： 1. 将路线图更新报告写入团队知识库 如果未连接： 1. 以Markdown格式输出完整报告",
+  "最新更新时间": "2026-09-19T03:38:51+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要汇总迭代状态、评估里程碑进度、记录优先级变更，输出路线图更新报告和下一步规划建议。 支持从~~项目管理（Linear）自动拉取项目状态。 当用户说\"路线图\"、\"Roadmap\"、\"版本规划\"、\"迭代计划\"、\"里程碑\"、 \"迭代状态\"、\"版本进度\"、\"Sprint回顾\"、\"迭代周报\"、\"延期分析\"时触发。时，用它产出或更新：如果连接了~~Notion： 1. 将路线图更新报告写入团队知识库 如果未连接： 1. 以Markdown格式输出完整报告",
+  "skill_id": "04620-skill-a6543436",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/路线图更新/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/路线图更新/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f1a441e64e9abefcff6676eb33072b4fe8caf056d94df322ae2470cdd77236bb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

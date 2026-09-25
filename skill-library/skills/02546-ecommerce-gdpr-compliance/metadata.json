@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-gdpr-compliance",
+  "中文名称": "待补：ecommerce-gdpr-compliance",
+  "一句话作用": "- Implement GDPR compliance for ecommerce including cookie consent, Subject Access Requests (SAR), right to erasure, and data processing agreements. 触发词：GDPR 合规、Cookie 同意、数据主体访问请求、被遗忘权、数据处理协议、电商隐私合规。",
+  "关键输入": "- When launching a store or marketing campaign targeting EU, EEA, or UK customers. - When adding new tracking pixels (Meta, TikTok, Google) or third-party apps that process customer data. - When a customer submits a for…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:24:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- When launching a store or marketing campaign targeting EU, EEA, or UK customers. - When adding new tracking pixels (Meta, TikTok, Google) or third-party apps that process customer data. - When a customer submits a for…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02546-ecommerce-gdpr-compliance-ea4b18cc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/ecommerce-gdpr-compliance/SKILL.md",
+  "relative_path": "lute/.dsh/skills/ecommerce-gdpr-compliance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3bc2366c59a32e2d7405197939dea29dac11cd6bec41ff2fa43ad12677641f9d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

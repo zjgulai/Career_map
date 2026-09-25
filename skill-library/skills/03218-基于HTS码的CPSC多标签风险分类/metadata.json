@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hts-code-risk-classifier",
+  "中文名称": "基于HTS码的CPSC多标签风险分类",
+  "一句话作用": "触发词：HTS 码、CPSC 风险分类、多标签、eFiling 义务、前缀树匹配、分级清单。何时不用：要把申报字段填进 eFiling 表时用「CPSC eFiling 字段映射」，要核认证文档完整性时用「GCC/CPC 文档验证」。安全边界：分类结果须人工复审后才用于上架决策，误分类概率约 2-3%。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要卖家面临\"不知道500个SKU中哪些触发CPSC eFiling义务\"——HTS前缀树多标签分类将全量SKU风险扫描从3天→30分钟，年化避免FBA拒收损失50-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03218-p2s-hts-code-risk-classifier-776e4288",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-hts-code-risk-classifier/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-hts-code-risk-classifier/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5324859360818cd5fce8e85b85fc39bd842259245dcb039e2a7c1e22480176e0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

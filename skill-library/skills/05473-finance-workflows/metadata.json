@@ -1,0 +1,22 @@
+{
+  "英文名称": "finance-workflows",
+  "中文名称": "待补：finance-workflows",
+  "一句话作用": "Comprehensive finance workflows including income statements, journal entries, reconciliations, SOX testing, and variance analysis",
+  "关键输入": "For all workflows, users can provide data by: 1. Pasting directly : Copy/paste data from spreadsheets or other sources 2. Uploading files : Attach Excel, CSV, or PDF files containing financial data 3. Manual entry : Type in key figures and details in conversa…",
+  "关键输出": "Provide: 1. Formatted income statement with comparisons 2. Key metrics summary 3. Material variance listing with investigation flags 4. Suggested follow-up questions for unexplained variances ---",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Comprehensive finance workflows including income statements, journal entries, reconciliations, SOX testing, and variance analysis时，用它产出或更新：Provide: 1. Formatted income statement with comparisons 2. Key metrics summary 3. Material variance listing with inve…",
+  "skill_id": "05473-finance-workflows-c4d3fcfe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/finance-workflows/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/finance-workflows/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4078b20c7043483b4e0d37edc89cb1767ab5e60987ceb4dc71875317e2cd5e8f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

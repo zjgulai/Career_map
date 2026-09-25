@@ -1,0 +1,22 @@
+{
+  "英文名称": "nano-banana-image",
+  "中文名称": "待补：nano-banana-image",
+  "一句话作用": "独立的 Nano Banana 2 / Gemini 3.1 Flash Image 图片生成 skill。支持单图、批量、workflow、JSON Prompt Mode、飞书上传；不依赖文章封面生成流程。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-05T01:33:33+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要独立的 Nano Banana 2 / Gemini 3.1 Flash Image 图片生成 skill。支持单图、批量、workflow、JSON Prompt Mode、飞书上传；不依赖文章封面生成流程。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09308-nano-banana-image-fb680898",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/draco-content/nano-banana-image/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/draco-content/nano-banana-image/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a53df5f8461a4c8bcc1fec5eed634660d4694cd7a76b708fd6b05cc06be8cd70",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

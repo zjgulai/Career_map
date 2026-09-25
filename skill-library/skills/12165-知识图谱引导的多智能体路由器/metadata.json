@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentrouter-kg-guided",
+  "中文名称": "知识图谱引导的多智能体路由器",
+  "一句话作用": "触发词：多智能体路由、知识图谱路由、跨领域工单、复合投诉分派、Agent 调度。何时不用：单领域标准工单分类用「CS 工单智能分诊」；本技能解决跨领域复合投诉该交给哪个 Agent。安全边界：路由依据仅用于内部分派，工单与买家数据不得对外输出。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要大促高峰期每日 5 万条跨领域工单，正确路由率从 61% → 82%，每天减少约 10,500 条二次转单 - 单条转单处理成本约 5 元，节约运营成本 5.25 万元/天；年化 1900 万元 - 用户 CSAT 评分从 3.8 → 4.3（满分 5），复购意愿提升可观时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12165-p2s-agentrouter-kg-guided-609ee5ef",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-agentrouter-kg-guided/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-agentrouter-kg-guided/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d1cbc6e3bc79b92442aabf1dea204be9df10fafc3aff7be387c83994a246cf70",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

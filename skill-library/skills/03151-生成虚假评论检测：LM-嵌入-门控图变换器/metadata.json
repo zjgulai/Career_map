@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fraudsquad-llm-review-detection",
+  "中文名称": "生成虚假评论检测：LM 嵌入 门控图变换器",
+  "一句话作用": "触发词：AI 刷评、语言模型嵌入、门控图变换器、欺诈概率、刷评团伙。何时不用：评论量不足五十条或完全没有可疑样本时半监督训练不成立，先人工核查；本技能面向大模型批量生成的高质量评论。安全边界：检测结果用于内部清洗与举报队列，不得自动删评或对用户报复；评论数据须脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：竞品通过 ChatGPT 批量生成高质量 5 星好评（语言自然流畅、细节丰富），注入自家 listing 的同时给我们的 listing 刷低评，导致： 1. 竞品 BSR 飙升 → 抢占 Featured Offer 2. 我们 listing 评分下降 → 转化率下滑 10-25% 3. Amazon 算法降权 → 广告 CVR 下降时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03151-p2s-fraudsquad-llm-review-detection-5b5b6ccd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-fraudsquad-llm-review-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-fraudsquad-llm-review-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cc472c7564e35a385add6146aba8105312caab0feb564f87172b35b06297db30",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

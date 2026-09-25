@@ -1,0 +1,22 @@
+{
+  "英文名称": "saas-metrics-coach",
+  "中文名称": "待补：saas-metrics-coach",
+  "一句话作用": "SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC, NRR, or asks how their SaaS business is doing.",
+  "关键输入": "If not already provided, ask for these in a single grouped request: - Revenue: current MRR, MRR last month, expansion MRR, churned MRR - Customers: total active, new this month, churned this month - Costs: sales and marketing spend, gross margin % Work with p…",
+  "关键输出": "Always use this exact structure:",
+  "最新更新时间": "2026-06-14T13:31:19+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Example 1 — Partial data Input: \"MRR is $80k, we have 200 customers, about 3 cancel each month.\" Expected output: Calculates ARPA ($400), monthly churn (1.5%), ARR ($960k), LTV estimate. Flags CAC and growth rate as mis…时，用它产出或更新：Always use this exact stru…",
+  "skill_id": "06195-saas-metrics-coach-e0fb4b1f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/saas-metrics-coach/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/saas-metrics-coach/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ef194e4f20a5d72823444418372974d6bf7a01a75b9fe5ceb6fb7277806d6415",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

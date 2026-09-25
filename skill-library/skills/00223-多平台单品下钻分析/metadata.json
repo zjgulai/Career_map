@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-single-product-analysis",
+  "中文名称": "多平台单品下钻分析",
+  "一句话作用": "对淘宝、抖店、京东、拼多多和 1688 自家店铺中用户明确指定的 1–10 个商品 ID 做经营下钻，并为每个商品生成 HTML 报告。商品 ID 是必要触发条件；商品 URL、标题关键词、泛化“分析这个商品”或自动 Top 商品不能触发本 Skill，未指定商品 ID 时必须走 multi-platform-product-analysis 拉取商品列表。淘宝提供瓴羊深度维度，1688 逐商品直接下载单品分析导出并提供日粒度趋势，其…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 中间工作区：data/single-product-analysis- - /，仅存中间结果、日志、raw data 和报告模型。 - 中间 HTML 只存于上述工作区的隐藏 .staging/report/；正式交付成功后仍保留，但不进入 present files。 - 每个目标商品必须生成独立的 单品分析报告- .html；目标数大于 1 时额外生成 批量商品诊断报告.html，其卡片链接到同目录详情页。 - 交付目录：店铺端/ / /单品分析/ /，包含主报告、同目录详情 HTML、assets/ 原…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要对淘宝、抖店、京东、拼多多和 1688 自家店铺中用户明确指定的 1–10 个商品 ID 做经营下钻，并为每个商品生成 HTML 报告。商品 ID 是必要触发条件；商品 URL、标题关键词、泛化“分析这个商品”或自动 Top 商品不能触发本 Skill，未指定商品 ID 时必须走 multi-platform-product-analysis 拉取商品列表。淘宝提供瓴羊深度维度，1688 逐商品直接下载单品分析导出并提供日粒度趋势，其…时，用它产出或更新：- 中间工作区：data/single-produc…",
+  "skill_id": "00223-multi-platform-single-product-analysis-869332d6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-single-product-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-single-product-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16f8220e6e1b3aa487dfd53d51348348431f6ced706aebc1072e4b825bc9bb8e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

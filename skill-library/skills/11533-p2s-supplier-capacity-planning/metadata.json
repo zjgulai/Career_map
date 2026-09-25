@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-capacity-planning",
+  "中文名称": "待补：p2s-supplier-capacity-planning",
+  "一句话作用": "触发词：产能缺口、多供应商分单、Pareto取舍、滚动排产。何时不用：缺少供应商延误率或可靠性数据时无法做 Pareto 取舍；只锁定旺季弹性产能用产能预订类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：吸奶器工厂月产能 5,000 件，8-10 月三个月需求分别为 6,500/8,000/4,000 件，总缺口 3,500 件时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11533-p2s-supplier-capacity-planning-c2eb6427",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supplier-capacity-planning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supplier-capacity-planning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "51548407e6a81e8bd8ea52ff56c61aa2e0d06a20732fa8d4e91538f6d214d93e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

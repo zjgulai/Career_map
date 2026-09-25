@@ -1,0 +1,22 @@
+{
+  "英文名称": "llm-evaluation",
+  "中文名称": "待补：llm-evaluation",
+  "一句话作用": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluatio…",
+  "关键输入": "- Measuring LLM application performance systematically - Comparing different models or prompts - Detecting performance regressions before deployment - Validating improvements from prompt changes - Building confidence in…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Measuring LLM application performance systematically - Comparing different models or prompts - Detecting performance regressions before deployment - Validating improvements from prompt changes - Building confidence in…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05658-llm-evaluation-0215ec15",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/llm-evaluation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/llm-evaluation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b37039b062cd5d977ab66863cd74b493686a5ec2d25b04178a0032df4c6c2b59",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

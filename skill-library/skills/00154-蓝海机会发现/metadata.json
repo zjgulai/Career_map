@@ -1,0 +1,22 @@
+{
+  "英文名称": "蓝海机会发掘",
+  "中文名称": "蓝海机会发现",
+  "一句话作用": "分析供需错配、发现高潜力低竞争品类，给出差异化路径和国际站发品策略。 支持两种模式：跨平台对比（国际站供给 vs Amazon/Temu/SHEIN/TikTok Shop/Shopee/1688/eBay/AliExpress/Lazada 外部需求）和国际站原生蓝海。 品类词是执行前提：优先取 query 品类词，其次取主营品类画像，两者都拿不到时才向用户追问确认；不处理纯热销榜、市场全景或 1688 找同款，也不做单品 8 维深…",
+  "关键输入": "- 用户要低竞争、供需错配的蓝海品类机会与发品策略：跨平台对比（国际站供给 vs Amazon/Temu/SHEIN/TikTok Shop/Shopee/1688/eBay/AliExpress/Lazada 外部需求）或国际站原生蓝海两种模式。 - 品类词是执行前提：优先取 query 品类词，其次取主营品类画像，两者都拿不到时才向用户追问确认。 不适用（改用其他 skill）： - 只想看热销、爆品、TopN 或某平台卖什么火，…",
+  "关键输出": "⛔ 九步终止 ：① 写报告 → ② 生成追问段 → ③ 追问段写入报告末尾 → ④ XLSX + HTML 导出 → ⑤ 自检验收 → ⑥ 收尾文件：manifest.json → direct answer.md → ⑦ 一次 present files 交付 → ⑧ 输出 summary（含追问段） → ⑨ 立即终止 。 各步的字段规范、闸门与降级标注以 references/output-pipeline.md 为准（本行只列时序，不重定义）。",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 用户要低竞争、供需错配的蓝海品类机会与发品策略：跨平台对比（国际站供给 vs Amazon/Temu/SHEIN/TikTok Shop/Shopee/1688/eBay/AliExpress/Lazada 外部需求）或国际站原生蓝海两种模式。 - 品类词是执行前提：优先取 query 品类词，其次取主营品类画像，两者都拿不到时才向用户追问确认。 不适用（改用其他 skill）： - 只想看热销、爆品、TopN 或某平台卖什么火，…时，用它产出或更新：⛔ 九步终止 ：① 写报告 → ② 生成追问段 →…",
+  "skill_id": "00154-skill-4d9699a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-blue-ocean-finder/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-blue-ocean-finder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2205b72b005ed52d98dbcc25cca44b8a53858144f3570fcb48db5b10ebec5f99",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

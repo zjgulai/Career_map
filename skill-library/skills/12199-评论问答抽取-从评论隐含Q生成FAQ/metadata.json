@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-qa-extraction",
+  "中文名称": "评论问答抽取（从评论隐含Q生成FAQ）",
+  "一句话作用": "触发词：评论问答抽取、隐含问答、FAQ生成、问答区补充、高频问题排序、转化率提升。何时不用：要做评论方面情感与根因分析用「差评根因分析」；要做结构化方面情感批量提取用「评论结构化抽取」。安全边界：FAQ 内容必须来自真实评论，不得捏造；抽取结果须人工复核后再上线，避免把不准确信息变成官方答复。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"Listing问答区稀少导致买家疑虑未解决转化率低\"——评论Q&A自动抽取将FAQ完整度提升5倍，年化减少客服咨询30%节省5-10万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12199-p2s-review-qa-extraction-6c91fa55",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-review-qa-extraction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-review-qa-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b6e4017baf3561228e375b561b17cd9d7d39f13a386e3791a1d77d958ebe031b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

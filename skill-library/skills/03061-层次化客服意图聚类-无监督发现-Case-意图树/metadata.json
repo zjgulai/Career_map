@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dialin-llm-case-intent-clustering",
+  "中文名称": "层次化客服意图聚类 - 无监督发现 Case 意图树",
+  "一句话作用": "触发词：意图聚类、意图树、Case 分拣、安全事件升级、无监督意图发现。何时不用：只要主题聚类不要意图命名用「BERTopic 主题建模」；本技能输出可路由的动宾意图标签。安全边界：过敏、急救等安全类意图命中必须立即人工介入，模型不得自行安抚或给出安全结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要客服主管面临来电诉求归类靠人工——意图聚类将分拣准确率提到92%，年化省9万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03061-p2s-dialin-llm-case-intent-clustering-fbb2edf4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dialin-llm-case-intent-clustering/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dialin-llm-case-intent-clustering/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4695fc93a88e3b4fa3852b6b2c240b65dce6296368cfb75eab0c9c28ef2efbc7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

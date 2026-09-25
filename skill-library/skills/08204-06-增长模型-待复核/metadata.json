@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-LTV-Prediction-BTYD",
+  "中文名称": "待补：LTV Prediction BTYD",
+  "一句话作用": "�} �� �\u0002�\u0001�4 � ��-𵴵v�C�(L?\u0002�֣��1�H]",
+  "关键输入": "论文/研究主题文件；来源位置：paper to skills / paper2skills-vault / 06-增长模型",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-21T10:28:48+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要�} �� �\u0002�\u0001�4 � ��-𵴵v�C�(L?\u0002�֣��1�H]时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "08204-skill-ltv-prediction-btyd-a90e6342",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/paper2skills-vault/06-增长模型/Skill-LTV-Prediction-BTYD.md",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/paper2skills-vault/06-增长模型/Skill-LTV-Prediction-BTYD.md",
+  "date_source": "file_mtime",
+  "content_hash": "150cab9afd6709e8a68915394215942a173513e7954023a893883948461e63fb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

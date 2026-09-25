@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-operating-cash-flow-forecast",
+  "中文名称": "需求预测驱动的运营现金流预测与库存融资优化",
+  "一句话作用": "触发词：运营现金流、13周滚动预测、资金缺口预警、DIO拆解、库存占用现金。何时不用：只做 DIO/DSO/DPO 三角比率诊断时用「供应链营运资金优化」；只做旺季备货缺口的概率模拟时用「营运资金压力测试」。安全边界：只用自有经营数据；融资建议不构成对外承诺，预测结果需人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴跨境卖家账上毛利 22% 但现金流持续紧张，不知道库存占用多少现金、何时需要融资——LSTM+CCC 建模将库存占用现金可视化，提前 6 周预警资金缺口，年化减少紧急融资利差成本 15-40 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03559-p2s-operating-cash-flow-forecast-651410a5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-operating-cash-flow-forecast/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-operating-cash-flow-forecast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d907fccd360eedc40de1eb54f876763e14a04ae44a8c4c35d8ff40c01ea0c29",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

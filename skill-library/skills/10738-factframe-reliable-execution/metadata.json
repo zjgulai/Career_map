@@ -1,0 +1,22 @@
+{
+  "英文名称": "factframe-reliable-execution",
+  "中文名称": "待补：factframe-reliable-execution",
+  "一句话作用": "Design, change, diagnose, or verify FactFrame Jobs, transactional Outbox delivery, Celery redelivery, execution fencing, reconciliation, event timelines, dead-letter recovery, and browser operation recovery. Use for asy…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T04:09:41+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Design, change, diagnose, or verify FactFrame Jobs, transactional Outbox delivery, Celery redelivery, execution fencing, reconciliation, event timelines, dead-letter recovery, and browser operation recovery. Use for asy…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10738-factframe-reliable-execution-0dbeb20a",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/factframe-reliable-execution/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/factframe-reliable-execution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "97e4f28150fa0f745ab1be78ad54235fad782adf3bf3f45ba79a7aec83364919",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "analytics",
+  "中文名称": "待补：analytics",
+  "一句话作用": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters…",
+  "关键输入": "Parameter Purpose Example ----------- --------- --------- utm source Traffic source google, newsletter utm medium Marketing medium cpc, email, social utm campaign Campaign name spring sale utm content Differentiate versions hero cta",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T14:44:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12742-analytics-acdeeb86",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/analytics/SKILL.md",
+  "relative_path": "lute/project/skills/analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3eda97d96b2329daa933b6fdb94bf81aaa1196e3e344e56a8805f972a7438404",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

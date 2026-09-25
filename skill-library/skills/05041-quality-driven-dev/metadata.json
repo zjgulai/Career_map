@@ -1,0 +1,22 @@
+{
+  "英文名称": "quality-driven-dev",
+  "中文名称": "待补：quality-driven-dev",
+  "一句话作用": "Quality-driven development with automatic TDD/DDD methodology selection and TRUST 5 quality framework. Use when building features, refactoring code, fixing bugs, or any coding task that needs structured quality assuranc…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- [ ] Criterion 1 (testable) - [ ] Criterion 2 (testable) - [ ] Criterion 3 (testable)",
+  "最新更新时间": "2026-09-19T03:55:19+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Quality-driven development with automatic TDD/DDD methodology selection and TRUST 5 quality framework. Use when building features, refactoring code, fixing bugs, or any coding task that needs structured quality assuranc…时，用它产出或更新：- [ ] Criterion 1 (testabl…",
+  "skill_id": "05041-quality-driven-dev-b417303a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/quality-driven-dev/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/quality-driven-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "863335418fe096d9dbd6194c767ac3a6d3d069a6838b67acadd9c1544abb4f5e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

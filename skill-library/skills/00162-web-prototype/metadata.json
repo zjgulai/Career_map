@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-prototype",
+  "中文名称": "待补：web-prototype",
+  "一句话作用": "General-purpose desktop web prototype. Single self-contained HTML file built by copying the seed assets/template.html and pasting section layouts from references/layouts.md. Default for any landing / marketing / docs /…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "One sentence before the artifact. Nothing after.",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要General-purpose desktop web prototype. Single self-contained HTML file built by copying the seed assets/template.html and pasting section layouts from references/layouts.md. Default for any landing / marketing / docs /…时，用它产出或更新：One sentence before the art…",
+  "skill_id": "00162-web-prototype-d35a7f95",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-create-website/legokits-canvas/skills/web-prototype/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-create-website/legokits-canvas/skills/web-prototype/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4dcf67f8cd1e0884d1653218c56e3a3342c481c9e621fed90f603febe9311559",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

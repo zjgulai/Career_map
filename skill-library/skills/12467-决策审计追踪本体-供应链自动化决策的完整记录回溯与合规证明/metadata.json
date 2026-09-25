@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-decision-audit-trail-ontology",
+  "中文名称": "决策审计追踪本体 供应链自动化决策的完整记录回溯与合规证明",
+  "一句话作用": "触发词：审计追踪、决策留痕、哈希链、五要素记录、回溯查询、合规证明。何时不用：要判断某个 AI 结论该不该信时用「LLM 输出不确定性量化」，只追数据来源链条时用数据血缘追踪类技能。安全边界：审计记录 append-only 不得改删，供应商与金额等敏感字段按内部权限访问，不对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要AI自动化团队面临\"自动决策无法证明合规合理\"——哈希链审计追踪将合规审查准备从2周→即时查询，防范EU AI Act监管风险时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12467-p2s-decision-audit-trail-ontology-dbb69382",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-decision-audit-trail-ontology/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-decision-audit-trail-ontology/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f7da5307b718475b49c64e563beed4627cbef2bcd8b098b7a8369d42993cf013",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

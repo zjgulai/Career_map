@@ -1,0 +1,22 @@
+{
+  "英文名称": "smart-web-scraper",
+  "中文名称": "网页爬取工具",
+  "一句话作用": "基于 Playwright 智能爬取网页内容，内置绕过 Cloudflare 等反爬机制的能力，提供简单模式和隐身模式两种方案以应对不同反爬强度，输出网页标题、文本内容和截图。当用户需要抓取动态网页、获取被保护网站的数据，或提到爬虫、反爬虫、Cloudflare、网页截图、JavaScript渲染等关键词时触发。",
+  "关键输入": "目标网站 反爬级别 推荐方案 脚本 --------- --------- --------- ------ 普通网站 低 web fetch 工具 无需脚本（内置） 动态网站 中 Playwright 简单模式 scripts/playwright-simple.js Cloudflare 防护网站 高 Playwright 隐身模式 ⭐ scripts/playwright-stealth.js",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:06:13+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要目标网站 反爬级别 推荐方案 脚本 --------- --------- --------- ------ 普通网站 低 web fetch 工具 无需脚本（内置） 动态网站 中 Playwright 简单模式 scripts/playwright-simple.js Cloudflare 防护网站 高 Playwright 隐身模式 ⭐ scripts/playwright-stealth.js时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10680-smart-web-scraper-e64f6a63",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/smart-web-scraper/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/smart-web-scraper/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8234b5008fbbff259a928ef82bb6580f006f50a521c74469c90b2e9ad358186",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

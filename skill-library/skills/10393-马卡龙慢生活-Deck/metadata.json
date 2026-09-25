@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-xhs-pastel",
+  "中文名称": "马卡龙慢生活 Deck",
+  "一句话作用": "奶油底 + 柔光 blob + 马卡龙圆角卡片 + Playfair 斜体序号",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "personal",
+  "解决具体问题": "当需要奶油底 + 柔光 blob + 马卡龙圆角卡片 + Playfair 斜体序号时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10393-deck-xhs-pastel-1f8530e0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/deck-xhs-pastel/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/deck-xhs-pastel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4ccdd7db9dd6910839d5cf05fa2ad4837ce7c2532b019b91c4549f93c3555d49",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

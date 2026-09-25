@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mediation-causal-mechanism-analysis",
+  "中文名称": "待补：p2s-mediation-causal-mechanism-analysis",
+  "一句话作用": "触发词：中介效应、机制分解、NDE、NIE、效果链路。何时不用：只需总效应点估计时用增量或双重稳健估计类技能；要从观测数据发现因果结构时用「PC算法因果发现」。安全边界：中介分析依赖无未观测混杂假设，结论须显式标注识别假设，不得对外宣称未经证实的因果机制。",
+  "关键输入": "输入 ：同时观测干预、中介与结果三类变量的数据（含处理组/对照组标记）与必要控制变量，粒度到用户或订单。 输出 ：总效应、NDE、NIE 及各中介间接效应的排序；供产品与研究团队确定机制与优化重点。",
+  "关键输出": "输入 ：同时观测干预、中介与结果三类变量的数据（含处理组/对照组标记）与必要控制变量，粒度到用户或订单。 输出 ：总效应、NDE、NIE 及各中介间接效应的排序；供产品与研究团队确定机制与优化重点。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：中介效应、机制分解、NDE、NIE、效果链路。何时不用：只需总效应点估计时用增量或双重稳健估计类技能；要从观测数据发现因果结构时用「PC算法因果发现」。安全边界：中介分析依赖无未观测混杂假设，结论须显式标注识别假设，不得对外宣称未经证实的因果机制。时，用它产出或更新：输入 ：同时观测干预、中介与结果三类变量的数据（含处理组/对照组标记）与必要控制变量，粒度到用户或订单。 输出 ：总效应、NDE、NIE 及各中介间接效应的排序；供产品与研究团队确定机制与优化重点。",
+  "skill_id": "12480-p2s-mediation-causal-mechanism-analysis-cd7886e5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-mediation-causal-mechanism-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-mediation-causal-mechanism-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cab5e8577cee828d04b645ac5588b3fe0085145141349db9d24035b20281f484",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-autoskill-lifelong-learning",
+  "中文名称": "经验驱动终身学习：Skill 自进化版本管理",
+  "一句话作用": "触发词：技能自进化、经验积累、版本管理、知识刷新、可审计。何时不用：把 SOP 编译进模型权重走「工作流编译」；技能注册与动态发现走「技能注册表」。安全边界：技能演化过程须留版本与溯源记录，不得覆盖旧版本导致无法回滚。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要培训负责人面临技能卡片更新滞后——AutoSkill将知识刷新周期30天压到7天，年化省15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02801-p2s-autoskill-lifelong-learning-a0358ce7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-autoskill-lifelong-learning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-autoskill-lifelong-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3577eedbf717fec8d4cfbc9ba8edbeff65d5e3dc3f5b492e4c0b24a02c7702a4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

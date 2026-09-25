@@ -1,0 +1,22 @@
+{
+  "英文名称": "external-api",
+  "中文名称": "外部 API 服务调用技能",
+  "一句话作用": "外部 API 服务调用技能。安全管理 API 密钥，调用第三方 AI 服务生成资产。 支持 3D 模型、贴图、音频等资产的 AI 生成。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要外部 API 服务调用技能。安全管理 API 密钥，调用第三方 AI 服务生成资产。 支持 3D 模型、贴图、音频等资产的 AI 生成。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05896-external-api-f6b69ea3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-0-foundation/external-api/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-0-foundation/external-api/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7acdd76a7b834e186c793e3273fd9046c97c783a3d7b3b50313dd5c64592ed9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-user-profile-long-memory",
+  "中文名称": "跨会话用户画像：育儿阶段感知与偏好记忆",
+  "一句话作用": "触发词：跨会话画像、长期记忆、育儿阶段感知、偏好持久化、主动预判推荐。何时不用：只做单次会话推荐或离线分层用 RFM 类技能，本技能维护可持久化的结构化画像并跨会话更新。安全边界：画像存储须遵守个人信息保护要求并支持用户查询与删除，推断出的月龄等属性不得对外披露，不得用于歧视性定价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户上月购买了 Stage 1 奶粉，系统推断宝宝约 2-3 月龄时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11860-p2s-user-profile-long-memory-7c4c8170",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-user-profile-long-memory/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-user-profile-long-memory/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "046ac4a9f0fe8a3ffb419cb4b390dce689dddc38e72dc4cded281da207416822",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

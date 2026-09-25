@@ -1,0 +1,22 @@
+{
+  "英文名称": "biorxiv-database",
+  "中文名称": "待补：biorxiv-database",
+  "一句话作用": "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or con…",
+  "关键输入": "Use this skill when: - Searching for recent preprints in specific research areas - Tracking publications by particular authors - Conducting systematic literature reviews - Analyzing research trends over time periods - R…",
+  "关键输出": "with open('results.json') as f: data = json.load(f) searcher = BioRxivSearcher(verbose=True)",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Searching for recent preprints in specific research areas - Tracking publications by particular authors - Conducting systematic literature reviews - Analyzing research trends over time periods - R…时，用它产出或更新：with open('results.json')…",
+  "skill_id": "05700-biorxiv-database-bdd4c84d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/biorxiv-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/biorxiv-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f098719b2306b82557d4094583d21348fd50aa2718276defb5a2c696c2b7c750",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

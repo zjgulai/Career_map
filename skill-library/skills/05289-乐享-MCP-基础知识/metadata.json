@@ -1,0 +1,22 @@
+{
+  "英文名称": "lexiang-base",
+  "中文名称": "乐享 MCP 基础知识",
+  "一句话作用": "乐享知识库基础规则与数据模型。当需要了解乐享的数据结构、URL规则、写入安全规则、工具发现方式时读取本文档。通常由其他子模块引用，不直接触发。",
+  "关键输入": "Q: 如何选择 Markdown 导入方式？ - file apply upload → PUT → file commit upload：保留原始文件格式，支持版本管理，适合文档归档 - entry import content：转换为 Block 结构，可在线编辑，适合协作场景 Q: Block ID 如何管理？ 客户端传入的 block id 是临时标识，用于在单次调用中建立块间关系。服务端返回实际 ID 映射，后续更新操作使用…",
+  "关键输出": "search kb search(keyword=\"xxx\", mcp fields=\"items.target id,items.title,items.target type\")",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Q: 如何选择 Markdown 导入方式？ - file apply upload → PUT → file commit upload：保留原始文件格式，支持版本管理，适合文档归档 - entry import content：转换为 Block 结构，可在线编辑，适合协作场景 Q: Block ID 如何管理？ 客户端传入的 block id 是临时标识，用于在单次调用中建立块间关系。服务端返回实际 ID 映射，后续更新操作使用…时，用它产出或更新：search kb search(keyword=\"…",
+  "skill_id": "05289-lexiang-base-7ca3c8c4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/base/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/base/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "72fc894b25f33540bded889569d3e7f3a12cfcc8e7b476bb756e61f5c8f90a5e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

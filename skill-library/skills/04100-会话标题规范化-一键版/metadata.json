@@ -1,0 +1,22 @@
+{
+  "英文名称": "rename-conversations",
+  "中文名称": "会话标题规范化（一键版）",
+  "一句话作用": "- 当用户要求批量重命名或规范化 DSH 桌面端所有项目下的会话（对话）标题时使用，目标格式统一为 MMDD｜类型｜主题，可一键批量执行。Use when the user asks to rename conversations, batch rename chats, standardize session titles across workspaces, or mentions 会话标题/对话重命名/规范化标题/整理左侧栏。只…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "只输出 一个两列表（表头严格为）： 原名称 新名称 不要附带解释文字。 必须等用户明确确认后才能进入第 4 步。",
+  "最新更新时间": "2026-09-07T22:16:32+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要- 当用户要求批量重命名或规范化 DSH 桌面端所有项目下的会话（对话）标题时使用，目标格式统一为 MMDD｜类型｜主题，可一键批量执行。Use when the user asks to rename conversations, batch rename chats, standardize session titles across workspaces, or mentions 会话标题/对话重命名/规范化标题/整理左侧栏。只…时，用它产出或更新：只输出 一个两列表（表头严格为）： 原名称 新名称…",
+  "skill_id": "04100-rename-conversations-49cea2b0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/rename-conversations/SKILL.md",
+  "relative_path": "lute/.dsh/skills/rename-conversations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "60bfb87d91c4f80c676b031871457c65dbb5c22620275e7301b2d4829e3759d1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

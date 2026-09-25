@@ -1,0 +1,22 @@
+{
+  "英文名称": "game-playtest",
+  "中文名称": "待补：game-playtest",
+  "一句话作用": "Run browser-game playtests and frontend QA. Use when the user asks for smoke tests, screenshot-based verification, browser automation, HUD or overlay review, or structured issue-finding in a browser game.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run browser-game playtests and frontend QA. Use when the user asks for smoke tests, screenshot-based verification, browser automation, HUD or overlay review, or structured issue-finding in a browser game.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00844-game-playtest-1cbd777e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/game-studio/skills/game-playtest/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/game-studio/skills/game-playtest/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "413f2453c602678962fab62446144f2929fcd5b9239f209c7889cc592d2b5be8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-ppc-campaign-manager",
+  "中文名称": "待补：amazon-ppc-campaign-manager",
+  "一句话作用": "- Plan, structure, and optimize Amazon Sponsored Products, Sponsored Brands, and Sponsored Display ad campaigns. Use this skill whenever the user asks about setting up their first PPC campaign, structuring ads for produ…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T20:33:22+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Plan, structure, and optimize Amazon Sponsored Products, Sponsored Brands, and Sponsored Display ad campaigns. Use this skill whenever the user asks about setting up their first PPC campaign, structuring ads for produ…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02359-amazon-ppc-campaign-manager-2bd90655",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/scratch/tree-0077/packages/capabilities/dsh-overseas-skills/backup/pre-81/amazon-ppc-campaign-manager/SKILL.md",
+  "relative_path": "lute/.dsh/scratch/tree-0077/packages/capabilities/dsh-overseas-skills/backup/pre-81/amazon-ppc-campaign-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ca072eea2df640e23cfd7707fca79ccda5b6c5f8a2e57f8e66288a27b939cce",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

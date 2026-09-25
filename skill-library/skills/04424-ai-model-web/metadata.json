@@ -1,0 +1,22 @@
+{
+  "英文名称": "ai-model-web",
+  "中文名称": "待补：ai-model-web",
+  "一句话作用": "Use this skill when a browser/Web app (React, Vue, Angular, Next, Nuxt, static sites, SPAs, dashboards, AI chat UI) needs AI models via @cloudbase/js-sdk. Default routing for page/页面/Web/前端/frontend/网页/H5 AI — call dire…",
+  "关键输入": "Use this skill for calling AI models in browser/Web applications via @cloudbase/js-sdk. 🧭 Runtime-plane default for Web. Any time the user's request is framed around a page, a Web app, the frontend, React/Vue/Next/Nuxt,…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill for calling AI models in browser/Web applications via @cloudbase/js-sdk. 🧭 Runtime-plane default for Web. Any time the user's request is framed around a page, a Web app, the frontend, React/Vue/Next/Nuxt,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04424-ai-model-web-d3575d32",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/cloudbase/0.2.0/skills/ai-model-web/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/cloudbase/0.2.0/skills/ai-model-web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "217b6f10f2368717e2d1a59a9646e413fb5c8ca89dd802bae4bcd3a226f9fcff",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

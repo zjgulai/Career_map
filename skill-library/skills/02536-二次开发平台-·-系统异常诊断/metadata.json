@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-dev-platform-diagnostics",
+  "中文名称": "二次开发平台 · 系统异常诊断",
+  "一句话作用": "DSH 二次开发平台（LUTE）系统异常诊断：启动白屏、进入恢复模式、插件树加载失败、插件没加载、胶囊卡/卡片样式被破坏、MCP 卡片消失、斜杠补丁失效、profile 副本改动不生效、视觉工具限流等本平台实战案例的判定与修复。触发词：白屏、启动异常、恢复模式、胶囊卡、卡片消失、插件没加载、DSH 异常、系统诊断、诊断一下。何时不用：与 DSH 桌面应用无关的通用软件问题；通用 DSH 机制细节（asar/profile overri…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T01:58:48+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要DSH 二次开发平台（LUTE）系统异常诊断：启动白屏、进入恢复模式、插件树加载失败、插件没加载、胶囊卡/卡片样式被破坏、MCP 卡片消失、斜杠补丁失效、profile 副本改动不生效、视觉工具限流等本平台实战案例的判定与修复。触发词：白屏、启动异常、恢复模式、胶囊卡、卡片消失、插件没加载、DSH 异常、系统诊断、诊断一下。何时不用：与 DSH 桌面应用无关的通用软件问题；通用 DSH 机制细节（asar/profile overri…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02536-dsh-dev-platform-diagnostics-8a8cb8e2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/dsh-dev-platform-diagnostics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/dsh-dev-platform-diagnostics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e8c54e0e9a6b3cc3763ef6efc3d6fbb07880d7d240f37e4e093fd7e68e5b6a1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-overbooking-safety-stock-model",
+  "中文名称": "酒店超售模型迁移到FBA补货安全超备量优化",
+  "一句话作用": "触发词：安全超备量、超售模型、补货延误概率、分档超备率、缺货成本权衡。何时不用：补货延误概率可忽略、只按前置期算安全库存时用「安全库存与补货策略」；要按 P95 阈值自动上调时用「前置期安全库存自动调整」。安全边界：超备率不得违反平台的库存真实性要求，且需设安全库存下限并按期校准。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链负责人面临\"固定安全系数导致要么过备货要么缺货无法适应补货延误\"——超售理论迁移将安全库存准确率提升38%，年化库存成本节省$5.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03572-p2s-overbooking-safety-stock-model-eef3e568",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-overbooking-safety-stock-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-overbooking-safety-stock-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e5760832c3b9e0f8ed9274cef4a4c13471461c6023631171811510412c7b82c2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "北美 / 欧洲经营对比（业绩·结构·效率）",
+  "中文名称": "待补：北美 / 欧洲经营对比（业绩·结构·效率）",
+  "一句话作用": "当需要按同一时间窗对比 NA 与 EU 的营收、毛利、广告效率、库存效率与退货结构，并提炼可迁移策略时调用；用于战略复盘输入，不替代财务关账。",
+  "关键输入": "- 同口径指标已准备：销售、毛利、广告花费、库存周转、退货率等，且币种换算规则已声明。 - 时间窗一致（周/月/季其一），并明确是否含大促周。",
+  "关键输出": "- 表：Metric NA EU Delta Possible driver Suggested action - 摘要：Top 3 差异 Top 3 动作 风险与假设",
+  "最新更新时间": "2026-03-22T00:38:56+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要当需要按同一时间窗对比 NA 与 EU 的营收、毛利、广告效率、库存效率与退货结构，并提炼可迁移策略时调用；用于战略复盘输入，不替代财务关账。时，用它产出或更新：- 表：Metric NA EU Delta Possible driver Suggested action - 摘要：Top 3 差异 Top 3 动作 风险与假设",
+  "skill_id": "09929-skill-1c41b007",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/strategy-insight/north-america-europe-comparison/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/strategy-insight/north-america-europe-comparison/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d47d9c9ff051dfc49b5a7eb3ddc5f69a316ea379394d66b0c87c9292252a7787",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "remove-ai-slops",
+  "中文名称": "待补：remove-ai-slops",
+  "一句话作用": "Remove AI-generated code smells (slop) from branch changes or an explicit file list. Locks behavior with regression tests FIRST, then runs categorized cleanup via parallel deep agents in batches of 5, then verifies with…",
+  "关键输入": "- Default scope : branch diff vs merge-base main (no arguments needed) - Optional scope : explicit file list passed by the caller (e.g., a Ralph workflow's changed-files set)",
+  "关键输出": "---",
+  "最新更新时间": "2026-06-23T19:48:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Remove AI-generated code smells (slop) from branch changes or an explicit file list. Locks behavior with regression tests FIRST, then runs categorized cleanup via parallel deep agents in batches of 5, then verifies with…时，用它产出或更新：---",
+  "skill_id": "00543-remove-ai-slops-974a69ff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/packages/shared-skills/skills/remove-ai-slops/SKILL.md",
+  "relative_path": "lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/packages/shared-skills/skills/remove-ai-slops/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a35312b7079ccbe0cefbbc07ad55465c48a4a48640c8ad3fd7be91fab6493b6f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

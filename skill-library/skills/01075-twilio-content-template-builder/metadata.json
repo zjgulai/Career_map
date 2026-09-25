@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-content-template-builder",
+  "中文名称": "待补：twilio-content-template-builder",
+  "一句话作用": "Create, manage, and send message templates using Twilio's Content API. Covers template creation for WhatsApp, SMS, RCS, and MMS; variable usage; WhatsApp Meta approval; and sending templates via ContentSid. Use this ski…",
+  "关键输入": "- Twilio account — New to Twilio? See twilio-account-setup - For WhatsApp templates: active WhatsApp sender — See twilio-whatsapp-send-message (sandbox) or twilio-whatsapp-manage-senders (production) - Environment variables: - TWILIO ACCOUNT SID - TWILIO AUTH…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create, manage, and send message templates using Twilio's Content API. Covers template creation for WhatsApp, SMS, RCS, and MMS; variable usage; WhatsApp Meta approval; and sending templates via ContentSid. Use this ski…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01075-twilio-content-template-builder-9eb1c4fe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-content-template-builder/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-content-template-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6fdefa277e821f0fc2abf2e29ad1e2e45ce504d606196e47ccccd83fb27e8c29",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

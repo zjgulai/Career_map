@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-logistics-intelligence",
+  "中文名称": "知识图谱物流智能 供应链实体关系图驱动的物流决策",
+  "一句话作用": "触发词：物流知识图谱、发货决策、认证与关税查询、航线推荐、跨境发货规划。何时不用：只做单证齐备性核对与纠错用「关务资料检查」，只按邮编分区拆末程成本用「末程分区成本精算」；本技能把认证、航线、时效、关税串成一次多跳查询。安全边界：关税与认证结论不替代报关行与海关的正式裁定，图谱数据须脱敏并符合数据合规要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要物流团队面临\"跨境发货决策需查4个系统每次45分钟频繁出错\"——物流知识图谱3秒返回认证+路线+关税完整决策包，年化减少报关错误损失约30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03284-p2s-kg-logistics-intelligence-4d2b6672",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-kg-logistics-intelligence/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-kg-logistics-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63e3af15500d322744511fa30ab092fd44f9a4a1792d3481fabf80c34128d768",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

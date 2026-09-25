@@ -1,0 +1,22 @@
+{
+  "英文名称": "papercheck",
+  "中文名称": "待补：papercheck",
+  "一句话作用": "Run no-key citation audits for academic papers using local evidence extraction, bundled TaShan-PaperChecker rules, and the current Codex model. Use when Codex needs to check .docx论文引用合规、正文引文和参考文献是否匹配、引用真实性、引文与上下文相关性、GB/…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When reporting results, include: - command used - input .docx path and generated report/evidence path - whether the result came from evidence extraction, rules engine, or current-model review - high-risk findings: unmatched citations, unused references, weak…",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run no-key citation audits for academic papers using local evidence extraction, bundled TaShan-PaperChecker rules, and the current Codex model. Use when Codex needs to check .docx论文引用合规、正文引文和参考文献是否匹配、引用真实性、引文与上下文相关性、GB/…时，用它产出或更新：When reporting results, in…",
+  "skill_id": "04640-papercheck-daa1ca0e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/papercheck/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/papercheck/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f5d6109f559eba0535111d3c3fd5183b6ca29c8530c9c5ae04e7655329a8ad71",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

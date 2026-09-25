@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-supplier-sourcing",
+  "中文名称": "待补：product-supplier-sourcing",
+  "一句话作用": "- Product sourcing and supplier discovery. Use when the user wants to find products, compare items, search for suppliers, manufacturers, or factories on B2B platforms. Default source is alibaba.com via the product suppl…",
+  "关键输入": "- Product search : User wants to find products, compare, check prices, or view product details (e.g. \"find Bluetooth earbuds\", \"any stainless steel tumblers\"). - Supplier search : User wants to find suppliers, manufactu…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:29:50+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- Product search : User wants to find products, compare, check prices, or view product details (e.g. \"find Bluetooth earbuds\", \"any stainless steel tumblers\"). - Supplier search : User wants to find suppliers, manufactu…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04089-product-supplier-sourcing-40e0ba58",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/product-supplier-sourcing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/product-supplier-sourcing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b3bf52b61aa112300c4ef928c25762c8fdfd97bcdab97d8a4227ab191362654b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

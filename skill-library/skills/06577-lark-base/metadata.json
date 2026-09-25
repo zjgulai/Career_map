@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-base",
+  "中文名称": "待补：lark-base",
+  "一句话作用": "多维表格：可视化表格数据库与业务系统，可搭建台账/进度/项目/订单/客户/排班等业务场景，具备多表联动、多视图看板、表单问卷收集、仪表盘、自动化工作流、表格行列权限，支撑持续运营业务闭环",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "交付物 必须回读 通过条件 - - - Base / Table / Record +table-list、+field-list、必要的 +record-list 表、字段、关联与显式记录数量正确；搭建任务不交付空表 Formula / Lookup +field-get + 有界样例 +record-list 保存表达式正确，已有代表性数据的分支计算正确 View 对应 +view-get- + +record-list --view-id 视图名称、实际设置和展示结果必须一致。例如名称写“本周排班”，就必须…",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要多维表格：可视化表格数据库与业务系统，可搭建台账/进度/项目/订单/客户/排班等业务场景，具备多表联动、多视图看板、表单问卷收集、仪表盘、自动化工作流、表格行列权限，支撑持续运营业务闭环时，用它产出或更新：交付物 必须回读 通过条件 - - - Base / Table / Record +table-list、+field-list、必要的 +record-list 表、字段、关联与显式记录数量正确；搭建任务不交付空表 Formula / Lookup +field-get + 有界样例 +record-…",
+  "skill_id": "06577-lark-base-6f13dbb5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/lark-base/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/lark-base/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9bfc6ed4057138d007eb0294c5c42f75e951a71929b8d21a2cca46213fb039e2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "qingflow-skill",
+  "中文名称": "轻流连接器 Skill",
+  "一句话作用": "轻流无代码平台操作技能 - 创建应用、管理表单数据、处理审批流程、查询和导出数据",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "获取已完成的导出任务结果。",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要轻流无代码平台操作技能 - 创建应用、管理表单数据、处理审批流程、查询和导出数据时，用它产出或更新：获取已完成的导出任务结果。",
+  "skill_id": "05375-qingflow-skill-48ca0a64",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/qingflow/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/qingflow/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dad3f8661e085827ff8d692f6125a451bb77d6ab3da1d24b065b2c692611add7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

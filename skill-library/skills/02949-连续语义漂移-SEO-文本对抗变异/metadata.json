@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-continuous-nlp-seo-morphing",
+  "中文名称": "连续语义漂移 SEO 文本对抗变异",
+  "一句话作用": "触发词：语义漂移、新兴俚语、高熵长尾词、后端 Search Terms、流量红利窗口。何时不用：要从竞品关键词列表算缺口时用「竞品关键词缺口分析」；要从评论语料挖买家真实用词时用「评论关键词挖掘 SEO」。安全边界：扩展词必须与产品真实功能一致，不得堆砌或虚假描述。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营团队躺在固定Listing关键词上等死——引入连续语义漂移追踪与对抗生成式SEO文本变异，每72小时从TikTok/Reddit新兴俚语中自动提取高熵长尾词注入Listing后端，在竞品反应过来之前收割2-4周零广告费的自然搜索流量红利。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02949-p2s-continuous-nlp-seo-morphing-02c6ee5e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-continuous-nlp-seo-morphing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-continuous-nlp-seo-morphing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5b758f9fa5d1eed30b0f7cac2626b20e28b1390ad7cfc3e336b597ec1b303ac6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

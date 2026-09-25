@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-image-product-publish",
+  "中文名称": "国际站图片发品",
+  "一句话作用": "支持海外商家通过上传图片的方式发布商品到 Alibaba.com 国际站（ICBU）。支持单品及多品并行发布。 触发场景： - 用户上传1张或多张图片，并附带\"发品\"、\"上架\"、\"发布商品\"、\"listing\"、\"post product\"、\"publish\"等语义 - 用户明确表示\"帮我用这张图发品\"、\"图片发品\"、\"用图片上架商品\" - 用户上传图片后说\"开始\"、\"继续\"、\"发\"等确认词 - 用户说\"我要发 ICBU\"、\"发国际站…",
+  "关键输入": "调用 ggs ai assistant ability check point： - ability 固定为 ggsAiCopilotImageOptimization - number = 当前需要优化的产品数量 data=false ：enableImageOptimization=false，直接进入 4.3。 data=true ：询问用户是否优化主图： 1. 优化主图后发品 → enableImageOptimization…",
+  "关键输出": "调用 ggs image post task result（传入 taskId）轮询： 约束 值 ------------------------------------ ---------------------- 轮询间隔 10~30 秒 最大轮询次数 30 次",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要调用 ggs ai assistant ability check point： - ability 固定为 ggsAiCopilotImageOptimization - number = 当前需要优化的产品数量 data=false ：enableImageOptimization=false，直接进入 4.3。 data=true ：询问用户是否优化主图： 1. 优化主图后发品 → enableImageOptimization…时，用它产出或更新：调用 ggs image post task res…",
+  "skill_id": "00174-alibaba-global-image-product-publish-481df2e3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-image-product-publish/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-image-product-publish/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "927551d803e1bd3a13b8d617f53a962b5084b4f5fd43a398991626b249e1280a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

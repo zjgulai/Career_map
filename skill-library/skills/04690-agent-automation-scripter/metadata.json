@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-automation-scripter",
+  "中文名称": "待补：agent-automation-scripter",
+  "一句话作用": "Imported specialist agent skill for automation scripter. Use when requests match this domain or role.",
+  "关键输入": "1. Error handling : set -euo pipefail (bash), try/except (Python) 2. Logging : File AND stdout with timestamps 3. Idempotency : Safe to run multiple times 4. Configuration : External config, not hardcoded 5. Lock files : Prevent concurrent execution",
+  "关键输出": "- [ ] Manual execution succeeds - [ ] Errors handled gracefully (force failures to test) - [ ] Logs written correctly - [ ] Idempotent (run twice, same result) - [ ] Alerts/notifications tested - [ ] Timer syntax verified - [ ] File permissions correct - [ ]…",
+  "最新更新时间": "2026-09-19T03:53:11+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when work matches the automation-scripter specialist role.时，用它产出或更新：- [ ] Manual execution succeeds - [ ] Errors handled gracefully (force failures to test) - [ ] Logs written correctly - [ ] Idempotent (run twice, same result) - [ ] Alerts/…",
+  "skill_id": "04690-agent-automation-scripter-961a6fe9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/agent-automation-scripter/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/agent-automation-scripter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "393979697f2618053b5bca53c1f2d097484ad2f70983deb29ca64235b6048f2c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

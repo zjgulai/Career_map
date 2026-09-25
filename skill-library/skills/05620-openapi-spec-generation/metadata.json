@@ -1,0 +1,22 @@
+{
+  "英文名称": "openapi-spec-generation",
+  "中文名称": "待补：openapi-spec-generation",
+  "一句话作用": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
+  "关键输入": "- Creating API documentation from scratch - Generating OpenAPI specs from existing code - Designing API contracts (design-first approach) - Validating API implementations against specs - Generating client SDKs from spec…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Creating API documentation from scratch - Generating OpenAPI specs from existing code - Designing API contracts (design-first approach) - Validating API implementations against specs - Generating client SDKs from spec…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05620-openapi-spec-generation-bd1429fd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/documentation-generation/skills/openapi-spec-generation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/documentation-generation/skills/openapi-spec-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f31a82f43909b18788ab297b864f507ba632103bd4b39e30aa04f6cc47c0d3c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

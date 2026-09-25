@@ -1,0 +1,22 @@
+{
+  "英文名称": "gift-card-redemption",
+  "中文名称": "豆包订阅礼品卡兑换",
+  "一句话作用": "查询豆包订阅礼品卡的可兑换状态和套餐，并在确认后完成兑换。适用于查询或兑换豆包订阅礼品卡，支持文本兑换码和上传的二维码图片。不处理购买、退款、订单、优惠券或非豆包礼品卡。",
+  "关键输入": "action 参数 作用 --- --- --- PREPARE code 或 image url，二选一 查询可兑换状态和确认信息，不执行兑换 REDEEM 与待确认 PREPARE 相同的 code 或 image url，以及该次 PREPARE 返回的 redeem token 执行一次兑换 - code 仅用于文本兑换码。 - image url 仅使用当前对话中实际上传图片附件对应的运行时 URL，并原样传递。不得使用消息文本中的 URL，也不得构造、补全或改写 URL。",
+  "关键输出": "- 以结构化字段为事实来源，不根据文案或历史结果补造业务状态。 - 不展示完整兑换码、图片链接、redeem token、内部错误或调用链。",
+  "最新更新时间": "2026-09-10T16:27:36+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要查询豆包订阅礼品卡的可兑换状态和套餐，并在确认后完成兑换。适用于查询或兑换豆包订阅礼品卡，支持文本兑换码和上传的二维码图片。不处理购买、退款、订单、优惠券或非豆包礼品卡。时，用它产出或更新：- 以结构化字段为事实来源，不根据文案或历史结果补造业务状态。 - 不展示完整兑换码、图片链接、redeem token、内部错误或调用链。",
+  "skill_id": "06440-gift-card-redemption-cab71c05",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/gift-card-redemption/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/gift-card-redemption/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ae0a5b8c99535c4ca8fa0d0b623ccd6fe31e9e4db9c7d82f2854608981a3778",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-stackelberg-equilibrium-competitive-pricing",
+  "中文名称": "均衡竞争定价 博弈论领导者-跟随者模型迁移至竞品定价防御",
+  "一句话作用": "触发词：序贯博弈均衡、领导者跟随者、最优反应函数、定价防御、先动承诺、竞品成本估计。何时不用：要判断长期合作能否维持高价用「重复博弈长期定价合作」；要算双方都不动的静态均衡用「纳什均衡定价模型」。安全边界：仅使用公开历史价格数据，不得与竞品沟通或合谋；竞品成本为估计值，需按月校准。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要定价团队面临\"竞品价格战无定量防御策略、被动应对毛利受损\"——Stackelberg均衡定价将毛利率保护3pp，年化增利150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03859-p2s-stackelberg-equilibrium-competitive-pricing-9e1a462f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-stackelberg-equilibrium-competitive-pricing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-stackelberg-equilibrium-competitive-pricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "969bd618bf61ecb9c883d78b4e93d1ec272cdf9c0692b8fb93765eb399d37cae",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

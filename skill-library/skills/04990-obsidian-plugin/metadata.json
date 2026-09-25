@@ -1,0 +1,22 @@
+{
+  "英文名称": "obsidian-plugin",
+  "中文名称": "待补：obsidian-plugin",
+  "一句话作用": "Create and develop Obsidian plugins from scratch. Use when building a new Obsidian plugin, scaffolding from the sample-plugin-plus template, or developing plugin features. Covers project setup, manifest configuration, T…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create and develop Obsidian plugins from scratch. Use when building a new Obsidian plugin, scaffolding from the sample-plugin-plus template, or developing plugin features. Covers project setup, manifest configuration, T…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04990-obsidian-plugin-8c900e41",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/obsidian-plugin/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/obsidian-plugin/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0435b31621a463fe7fee038e753ae35d056e525689b791075c15adaac8545d55",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

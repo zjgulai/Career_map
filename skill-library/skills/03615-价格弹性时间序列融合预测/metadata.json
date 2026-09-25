@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-price-elasticity-time-series-fusion",
+  "中文名称": "价格弹性时间序列融合预测",
+  "一句话作用": "触发词：弹性融合预测、降价备货、大促销量预测、时序修正、需求量推算、备货准确率。何时不用：只判断要不要打折、不看备货量时用「需求价格弹性估算」；要规划清仓折扣路径用「折扣清仓定价优化」。安全边界：预测为估算值，备货须留安全库存余量，不得直接作为采购或资金承诺。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"黑五计划降价25%需要预测销量确定备货量但纯时序模型不感知价格变化\"——价格弹性融合时序将大促备货准确率提升40%，年化减少缺货损失25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03615-p2s-price-elasticity-time-series-fusion-93e0158f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-price-elasticity-time-series-fusion/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-price-elasticity-time-series-fusion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "84beca5ed9464fb4f277e0de02e75d3a7a77e2673e7fbfeb9b76ad6fbb2d532c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

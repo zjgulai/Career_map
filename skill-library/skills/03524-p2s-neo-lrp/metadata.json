@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-neo-lrp",
+  "中文名称": "待补：p2s-neo-lrp",
+  "一句话作用": "触发词：前置仓选址、选址路径优化、开仓组合、配送路线规划、单票里程优化。何时不用：只优化既有仓的末端路线用路径优化类技能，要规划工厂到分拨中心的多级仓网用多级选址类技能；本技能联合决定开哪些仓与怎么配送。安全边界：开仓与路线结论仅为决策建议，实际建仓、租约与调度下发须人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要履约规划经理面临线路频繁绕路——路径优化将单票配送里程降15%，年化省11万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03524-p2s-neo-lrp-3b23dded",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-neo-lrp/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-neo-lrp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6e28a205c1da833e2fba6a410b8fc0f0cc93f62d0f89149a8e6f5fb21bfd96d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

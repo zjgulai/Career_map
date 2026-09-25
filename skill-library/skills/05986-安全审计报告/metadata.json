@@ -1,0 +1,22 @@
+{
+  "英文名称": "skills-security-check",
+  "中文名称": "安全审计报告",
+  "一句话作用": "腾讯云鼎实验室出品，Skill安全审查工具。对用户指定的skill.md文件及其配套的文档、程序、脚本等进行全面安全审计，确保引用安全",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "按以下格式生成md格式报告：",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要腾讯云鼎实验室出品，Skill安全审查工具。对用户指定的skill.md文件及其配套的文档、程序、脚本等进行全面安全审计，确保引用安全时，用它产出或更新：按以下格式生成md格式报告：",
+  "skill_id": "05986-skills-security-check-b99d6e36",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/skills-security-check/skills/skills-security-check/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/skills-security-check/skills/skills-security-check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90d270891f2edf878576477dfac57b89bdd4ec9b6236041bbdeaacd9309f96bd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

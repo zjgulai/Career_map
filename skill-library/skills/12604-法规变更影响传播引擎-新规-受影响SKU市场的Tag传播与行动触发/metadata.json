@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-regulatory-change-impact-propagation",
+  "中文名称": "法规变更影响传播引擎 新规 受影响SKU市场的Tag传播与行动触发",
+  "一句话作用": "触发词：法规变更、影响传播、BFS 图谱、SKU 打标、行动触发、合规倒计时。何时不用：只要把更新任务派到人和截止日时用「法规变更影响分发」，要建多市场要求矩阵时用「多市场合规矩阵本体」。安全边界：本技能输出标签与行动建议，仓库冻结与清关暂停由控制层执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规团队面临\"新法规出来需要2周人工核查哪些SKU受影响\"——BFS图谱传播10分钟完成全库评估，自动打标并触发合规行动，防止货到港被扣押损失5-15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12604-p2s-regulatory-change-impact-propagation-4070232c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-regulatory-change-impact-propagation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-regulatory-change-impact-propagation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88c610d59cb2dc022a92c8d5a19315bddeee606459981efe06902f54fc7ab41e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

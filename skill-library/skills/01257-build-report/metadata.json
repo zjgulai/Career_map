@@ -1,0 +1,22 @@
+{
+  "英文名称": "build-report",
+  "中文名称": "待补：build-report",
+  "一句话作用": "Build polished analytical reports for executive, product, business, or technical audiences. Use when the task needs a durable narrative answer supported by inspectable evidence.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Build polished analytical reports for executive, product, business, or technical audiences. Use when the task needs a durable narrative answer supported by inspectable evidence.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01257-build-report-2b3b4ca9",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/build-report/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/build-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a464dc6bcda8bf5659ba951a9ccba52020cf9c5d6f5f40e05d0e6a42149b51cf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

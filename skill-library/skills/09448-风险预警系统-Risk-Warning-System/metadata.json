@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-ri[REDACTED]",
+  "中文名称": "风险预警系统 (Risk Warning System)",
+  "一句话作用": "跨境电商风险预警系统技能，用于建立风险监控体系、识别业务风险和制定应对策略。 触发条件: 1. 用户询问\"业务风险有哪些\" 2. 需要建立风险预警体系时 3. 监控指标异常时 4. 制定风险应对策略时 5. 业务连续性规划时 输出内容: - 风险指标监控体系 - 预警规则设计 - 风险应对策略 - 预警触发通知",
+  "关键输入": "数据类型 必需字段 说明 --------- --------- ------ 业务数据 gmv, orders, conversion rate 核心业务指标 运营数据 refund rate, complaint rate 运营质量指标 财务数据 cost rate, gross margin, cash flow 财务健康指标 库存数据 inventory days, stock out rate 库存风险指标",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T19:30:37+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商风险预警系统技能，用于建立风险监控体系、识别业务风险和制定应对策略。 触发条件: 1. 用户询问\"业务风险有哪些\" 2. 需要建立风险预警体系时 3. 监控指标异常时 4. 制定风险应对策略时 5. 业务连续性规划时 输出内容: - 风险指标监控体系 - 预警规则设计 - 风险应对策略 - 预警触发通知时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09448-cbec-ri-redacted-3550a51f",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/19-risk-analysis/risk-warning-system/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/19-risk-analysis/risk-warning-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b437de1d12f058662828478fe8f3c0e7f2300d98513383ed64acc50a366a3c4e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-diffusion-model-product-image",
+  "中文名称": "扩散模型产品图生成：AI 主图替代专业摄影",
+  "一句话作用": "触发词：AI 产品图、白底主图、场景图替换、摄影替代、批量出图。何时不用：需要真实使用效果或平台要求实拍证据的类目不要用生成图；成品图的合规与质量门控用主图评分技能。安全边界：Amazon 主图必须纯白底，场景化生成图只能用于副图或 A+ 页面，误用可能导致 Listing 下架。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要新款吸奶器需要12张产品图专业摄影报价2400美元等7天——Stable Diffusion ControlNet基于一张真实产品照片2小时生成50张候选图，成本降低90%大促前快速迭代年化节省20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11669-p2s-diffusion-model-product-image-a54f97ce",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-diffusion-model-product-image/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-diffusion-model-product-image/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9230cd5a4ac28fc01552fdace7d85e8924b41f0c628ce37330bf1f1743a1942",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

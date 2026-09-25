@@ -1,0 +1,22 @@
+{
+  "英文名称": "dtc-product-selection",
+  "中文名称": "待补：dtc-product-selection",
+  "一句话作用": "Shopify DTC product-selection methodology. Trigger when the user is exploring \"what should I sell on a Shopify / DTC store\", asks for niche discovery, product opportunity scan, or wants to validate a category before sou…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "File Definition of Done If data is missing --- --- --- .workspace/ discovery-brief.md Niche + audience + exclusions present; each field tagged as user-stated or agent-inferred Must exist; no degraded form .workspace/ signals-raw.md One section per data source…",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Shopify DTC product-selection methodology. Trigger when the user is exploring \"what should I sell on a Shopify / DTC store\", asks for niche discovery, product opportunity scan, or wants to validate a category before sou…时，用它产出或更新：File Definition of Done If…",
+  "skill_id": "00247-dtc-product-selection-ed7f0f78",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/dtc-product-selection/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/dtc-product-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d4276ee55fdaa68a07df3bad7ef3d4ef8609e3733c41ab26f6445445d325575d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

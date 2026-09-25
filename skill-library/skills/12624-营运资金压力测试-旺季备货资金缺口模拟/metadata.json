@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-working-capital-stress-test",
+  "中文名称": "营运资金压力测试（旺季备货资金缺口模拟）",
+  "一句话作用": "触发词：营运资金压力测试、旺季备货缺口、现金流模拟、最大缺口时点、供应链融资规划。何时不用：按 DIO/DSO/DPO 做结构性诊断时用「供应链营运资金优化」；排逐周付款与回款时间轴时用「跨境电商现金流预测」。安全边界：只做情景模拟与融资规划，不代申请融资；模拟参数须来自实际经营数据，不得为通过审批美化。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务团队面临\"旺季备货资金需求无法提前预测导致融资不足或断货\"——蒙特卡洛现金流压力测试将资金缺口预测准确率提升70%，年化避免断货机会损失20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12624-p2s-working-capital-stress-test-d9e6f899",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-working-capital-stress-test/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-working-capital-stress-test/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "771f852eb1b9ac6e5c21dffe48d949dcf29d14a2158e4e93c7ed95d150e8d15f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

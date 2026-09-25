@@ -1,0 +1,22 @@
+{
+  "英文名称": "supercharge",
+  "中文名称": "待补：supercharge",
+  "一句话作用": "Weekly codebase hygiene skill that identifies and fixes AI-generated code problems (\"slop\") using Martin Fowler's refactoring techniques. Scans for 15 common issues, prioritizes by severity, and generates superplan-comp…",
+  "关键输入": "- Weekly maintenance on actively developed codebases - Before code review to clean up AI-generated PRs - After major AI-assisted development to reduce accumulated slop - When onboarding to improve readability of unfamil…",
+  "关键输出": "Each agent should return issues in this format: File Line Smell Severity Description ------ ------ ------- ---------- ------------- src/utils.ts 45 Dead Code CRITICAL Unused function oldHelper src/api.ts 102 Deep Nesting HIGH 4 levels of nesting",
+  "最新更新时间": "2026-09-19T03:53:44+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Weekly maintenance on actively developed codebases - Before code review to clean up AI-generated PRs - After major AI-assisted development to reduce accumulated slop - When onboarding to improve readability of unfamil…时，用它产出或更新：Each agent should return i…",
+  "skill_id": "05124-supercharge-772a9874",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/supercharge/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/supercharge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "086c53f9420817b350e93a499273a073e5c85c2197aaa19884f8bc912936d400",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

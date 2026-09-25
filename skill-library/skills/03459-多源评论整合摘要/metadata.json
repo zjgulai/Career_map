@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mos-multi-source-opinion-summary",
+  "中文名称": "多源评论整合摘要",
+  "一句话作用": "触发词：多源评论、跨平台摘要、VOC 整合、平台差异、信号汇总。何时不用：只处理单一平台评论时用「AGRS 属性引导评论摘要」；要从未满足需求算选品机会分用「跨竞品评论选品机会评分」。安全边界：Amazon 评论采集须遵守 robots.txt 与服务条款、禁止批量爬取用于竞品分析；欧盟用户评论须去 PII 匿名化。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨平台 VOC 整合靠人工需 2-3 天，Amazon/TikTok/独立站关注点各异——M-OS 框架同时整合评论文本/产品规格/评分多源，30 分钟生成结构化摘要，月均节省 20-30 人时、关键信号漏报率降低 80%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03459-p2s-mos-multi-source-opinion-summary-f8fd85a2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mos-multi-source-opinion-summary/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mos-multi-source-opinion-summary/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c3b544b0efdf152c64940c9edd2ff2c4a6c8e4dd5746e4cbf3704b75542110d8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

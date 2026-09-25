@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multimodal-product-search",
+  "中文名称": "统一多模态电商搜索与商品匹配",
+  "一句话作用": "触发词：以图搜商品、多模态检索、图文一致、竞品发现、SKU 匹配。何时不用：只做搜索词层面的需求挖掘用「搜索词 VOC 信号闭环」；要构建竞品属性知识图谱用「KG Data Fusion Pipeline」。安全边界：商品图与标题仅用于内部选品检索、不得直接复用竞品素材；抓取价格与排名须遵守平台条款。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要选品分析师看到竞品图但叫不出名字——多模态统一搜索引擎同时理解图文意图，竞品雷达覆盖率提升60%，年化节省调研工时18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11286-p2s-multimodal-product-search-ef038899",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-multimodal-product-search/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-multimodal-product-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "831f405f4d976eebfd442dea820c3e633e4c2777c1bc6ca0794a81a98aa15d1c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

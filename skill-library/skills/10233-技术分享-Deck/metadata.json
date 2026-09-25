@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-tech-sharing",
+  "中文名称": "技术分享 Deck",
+  "一句话作用": "GitHub-dark + JetBrains Mono + 终端代码块, 含 agenda + Q&A",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:26+08:00",
+  "业务场景": "engineering",
+  "解决具体问题": "当需要GitHub-dark + JetBrains Mono + 终端代码块, 含 agenda + Q&A时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10233-deck-tech-sharing-ec97effb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-tech-sharing/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-tech-sharing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0cc5efe285596024d337919ca582827d35c149dee455bb144631ea6357b596e2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

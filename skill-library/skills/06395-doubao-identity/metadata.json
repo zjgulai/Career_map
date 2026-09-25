@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-identity",
+  "中文名称": "待补：doubao-identity",
+  "一句话作用": "当用户询问豆包工作、豆包专业版、豆包会员与付费服务（包含权益、充值、退款、发票、订阅、连续包月/包年比较、学生优惠、录音转写、创作额度等）、平台规则与隐私安全（使用条款、隐私政策、内容安全、客服投诉、聊天记录存储/删除/恢复、数据是否用于训练、个人数据、定位、IP）、记忆功能（用途、可记录内容、查询/删除/清空、开关及生效规则）或记忆认知（为什么记得、知道、忘记、记错个人信息）时，必须先调用Skill，并按其中官方口径回答，不得仅凭模…",
+  "关键输入": "- 用户自然语言问题。 - 可选上下文：用户提供的截图、链接、历史对话或具体豆包功能名称。",
+  "关键输出": "默认使用简洁中文回答： 若官方文档未覆盖：",
+  "最新更新时间": "2026-09-21T10:24:35+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要使用该 Skill 当用户询问： - 豆包会员等级、权益、付费、充值、退款、发票、订阅等会员问题。 - 豆包工作（工作任务模式、豆包工作客户端、技能/连接器/工作伙伴、定时任务、本地电脑/云电脑等）相关问题。 - 使用条款、隐私政策、内容规范、安全规则、客服与投诉渠道相关问题。 - 记忆功能、记忆管理、个人数据、定位、IP、拒绝用于模型训练、保密、聊天记录存储/删除/恢复等隐私与数据处理问题。 - 其他无法明确分类但与豆包产品本身相关…时，用它产出或更新：默认使用简洁中文回答： 若官方文档未覆盖：",
+  "skill_id": "06395-doubao-identity-585109a3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-identity/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-identity/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a58223972562c59b4fc32e28ed284acdaac37f9f05f7c1db628dd1070cf73d2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

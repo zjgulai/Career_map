@@ -1,0 +1,22 @@
+{
+  "英文名称": "emoji-eval",
+  "中文名称": "待补：emoji-eval",
+  "一句话作用": "Evaluate emoji rendering quality in ZenUML diagrams. Renders test cases in both DOM and SVG modes, takes screenshots, and scores emoji visibility, position, spacing, box fit, and decorator coexistence. Reports per-case…",
+  "关键输入": "- Dev server running on http://localhost:8080 (bun dev) - Playwright MCP available for browser automation",
+  "关键输出": "Present results as a markdown report:",
+  "最新更新时间": "2026-05-14T21:03:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- After emoji-related code changes - Before creating a PR that touches emoji rendering - When the user asks to \"evaluate emoji\", \"score emoji rendering\", \"check emoji quality\" - When debugging emoji visual issues时，用它产出或更新：Present results as a markdown repo…",
+  "skill_id": "01908-emoji-eval-b7d3c136",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.claude/skills/emoji-eval/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.claude/skills/emoji-eval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b6f8c7074c75577fe8e8c0c8b36260501bd5520bc58260ad64f02b893b69158c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

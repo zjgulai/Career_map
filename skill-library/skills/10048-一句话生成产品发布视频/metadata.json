@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-launch-video",
+  "中文名称": "一句话生成产品发布视频",
+  "一句话作用": "当用户用一句话要求生成产品发布片、功能预告片、应用宣传片或网站展示视频时使用；从空白目录自动生成简报、设计规范、分镜、HyperFrames 源码和经过验收的 MP4，而不是重渲染仓库内已有案例。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "测试提示中写明“直接完成”时，无需再次等待确认，前台执行： 渲染必须在前台等待退出码。最终只报告真实结果：生成目录、六类源码、中间产物、MP4 路径、编码、画幅、帧率、时长、帧数、音轨和全帧解码结果。",
+  "最新更新时间": "2026-08-30T03:52:28+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要当用户用一句话要求生成产品发布片、功能预告片、应用宣传片或网站展示视频时使用；从空白目录自动生成简报、设计规范、分镜、HyperFrames 源码和经过验收的 MP4，而不是重渲染仓库内已有案例。时，用它产出或更新：测试提示中写明“直接完成”时，无需再次等待确认，前台执行： 渲染必须在前台等待退出码。最终只报告真实结果：生成目录、六类源码、中间产物、MP4 路径、编码、画幅、帧率、时长、帧数、音轨和全帧解码结果。",
+  "skill_id": "10048-product-launch-video-b1ba9b21",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/product-video-director/skills/product-launch-video/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/product-video-director/skills/product-launch-video/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "803f8fa8a148c0232587c28b14c922da808e5aaef579b9ecf3a562aed7690f26",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

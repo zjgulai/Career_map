@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-listing-suppression-detection",
+  "中文名称": "被平台隐藏降权检测（非账号问题）",
+  "一句话作用": "触发词：Listing 压制检测、CUSUM 突变检测、流量解耦、自然流量归零、静默降权。何时不用：要判断的是 ASIN 是否被索引收录时用「索引健康度监控」；要判断的是 Buy Box 是否被跟卖抢走时用「Buy Box 劫持实时监控」。安全边界：只给疑似压制的统计信号，不判定违规条款、不代提交申诉。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：Listing 压制检测、CUSUM 突变检测、流量解耦、自然流量归零、静默降权。何时不用：要判断的是 ASIN 是否被索引收录时用「索引健康度监控」；要判断的是 Buy Box 是否被跟卖抢走时用「Buy Box 劫持实时监控」。安全边界：只给疑似压制的统计信号，不判定违规条款、不代提交申诉。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12331-p2s-listing-suppression-detection-30ef60b4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-listing-suppression-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-listing-suppression-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b2aba0ab1aaeb809f93d3e79b9211637977f932950d8e36a1fc8a1a0cc831a4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

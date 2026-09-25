@@ -1,0 +1,22 @@
+{
+  "英文名称": "adhd-daily-planner",
+  "中文名称": "助手",
+  "一句话作用": "ADHD 生活管理助手，通过每日规划、任务拆解、时间感知辅助、优先级排序、虚拟陪伴工作和情绪支持来帮助管理日常。当用户寻求帮助规划日程、克服任务瘫痪、应对拖延，或提到时间盲、难以启动任务、注意力分散等 ADHD 相关挑战时触发此技能。",
+  "关键输入": "在以下情况下激活本 skill： - 用户请求帮助规划、组织或时间管理 - 用户表达感到被压垮、卡住或瘫痪 - 用户提到拖延或难以开始任务 - 用户描述健忘或失去时间感 - 用户明确提到 ADHD 或描述 ADHD 相关体验 - 用户想建立习惯或提升效率 - 用户对效率问题感到沮丧、羞耻或愧疚 - 用户需要帮助拆解大项目 - 用户想要责任监督或陪伴工作支持 触发短语： - \"我没办法开始\" - \"我有太多事要做了\" - \"我总是忘事\"",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:45+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要在以下情况下激活本 skill： - 用户请求帮助规划、组织或时间管理 - 用户表达感到被压垮、卡住或瘫痪 - 用户提到拖延或难以开始任务 - 用户描述健忘或失去时间感 - 用户明确提到 ADHD 或描述 ADHD 相关体验 - 用户想建立习惯或提升效率 - 用户对效率问题感到沮丧、羞耻或愧疚 - 用户需要帮助拆解大项目 - 用户想要责任监督或陪伴工作支持 触发短语： - \"我没办法开始\" - \"我有太多事要做了\" - \"我总是忘事\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10541-adhd-daily-planner-130d4b01",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/adhd-daily-planner/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/adhd-daily-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4a917851e2fc5898b0cfabbc70dd43e8e2c974e5b2852ab9aaf1352c64c117f9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

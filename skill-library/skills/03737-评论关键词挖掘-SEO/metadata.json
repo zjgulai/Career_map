@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-keyword-mining-seo",
+  "中文名称": "评论关键词挖掘 SEO",
+  "一句话作用": "触发词：评论挖词、买家语言、高分评价词频、词库差集、Listing 改版。何时不用：要从竞品 Listing 文本与搜索建议扩词时用「长尾关键词挖掘」；要按需求-竞争矩阵找蓝海词时用「关键词需求缺口矩阵分析」。安全边界：采集评论须遵守平台数据使用规范，避免关键词堆砌被降权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"关键词研究忽略买家真实搜索语言\"——评论词挖掘将长尾词自然排名数量提升65%，月均自然流量增加8000次时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03737-p2s-review-keyword-mining-seo-67df05a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-review-keyword-mining-seo/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-review-keyword-mining-seo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28e05aabd7b2ea5557bc0adcdf5dd30882c0a5bcb90797597429802fab6b6dae",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

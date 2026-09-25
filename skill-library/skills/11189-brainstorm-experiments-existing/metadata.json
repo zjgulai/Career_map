@@ -1,0 +1,22 @@
+{
+  "英文名称": "brainstorm-experiments-existing",
+  "中文名称": "待补：brainstorm-experiments-existing",
+  "一句话作用": "Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning produc…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:44+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning produc…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11189-brainstorm-experiments-existing-59dd19b6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/brainstorm-experiments-existing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/brainstorm-experiments-existing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d72da1f4f08d5514662d7bad37dfc3ed4ef11fcc5b5ddec6ca5a8ac0e47f45c5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

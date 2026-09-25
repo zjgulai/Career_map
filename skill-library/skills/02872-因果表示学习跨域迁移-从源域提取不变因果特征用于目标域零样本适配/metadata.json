@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-representation-transfer-learning",
+  "中文名称": "因果表示学习跨域迁移 从源域提取不变因果特征用于目标域零样本适配",
+  "一句话作用": "触发词：跨域迁移、CORAL 对齐、域不变特征、小样本冷启动、AUC 提升。何时不用：要学环境不变的因果潜变量时用「因果表示学习」；要做产品级跨市场适配性打分时用「跨市场产品适配性预测」。安全边界：跨域使用用户行为数据须满足 GDPR/CCPA 与目标市场个人信息保护要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要新市场冷启动期模型不准导致广告大量浪费——因果表示迁移从小样本中提取不变因果特征，使日本/欧洲新市场AUC从0.61提升至0.76，节省6-12个月成熟期广告浪费时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02872-p2s-causal-representation-transfer-learning-0a4551c2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-representation-transfer-learning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-representation-transfer-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "073fa1750042b8acb53b694fe072f20b75cab5507c0985bb878067ea91bb4381",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

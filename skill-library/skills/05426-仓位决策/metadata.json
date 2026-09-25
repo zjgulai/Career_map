@@ -1,0 +1,22 @@
+{
+  "英文名称": "position-management",
+  "中文名称": "仓位决策",
+  "一句话作用": "用于仓位决策，聚焦仓位管理、风险控制、交易决策。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户最常见的真实问题不是\"买什么\"，而是\"现在到底该上仓位还是降仓位\"。本技能解决的是总仓位、进攻节奏、试错强度的问题。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于仓位决策，聚焦仓位管理、风险控制、交易决策。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户最常见的真实问题不是\"买什么\"，而是\"现在到底该上仓位还是降仓位\"。本技能解决的是总仓位、进攻节奏、试错强度的问题。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05426-position-management-314189ef",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/position-management/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/position-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2b82fd9feef2fc4ee6f71ab55ce5e4ba21f0430babbbf39a02429521005edb65",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

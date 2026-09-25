@@ -1,0 +1,22 @@
+{
+  "英文名称": "project-intake",
+  "中文名称": "需求冻结与布局判定）",
+  "一句话作用": "Doubao Book Writer 的新项目需求冻结方法论。负责把非虚构长文档的写作目标、素材边界与布局冻结进需求清单，并完成开写前的素材调研。用户要从零新建手册、白皮书、报告、培训材料、人物口述、家谱或资料型书稿时参考此方法论；小说、剧本、网文和虚构创作不进入本流程。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Doubao Book Writer 的新项目需求冻结方法论。负责把非虚构长文档的写作目标、素材边界与布局冻结进需求清单，并完成开写前的素材调研。用户要从零新建手册、白皮书、报告、培训材料、人物口述、家谱或资料型书稿时参考此方法论；小说、剧本、网文和虚构创作不进入本流程。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06238-project-intake-d7f9c224",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-book-writer/sub-skills/project-intake/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-book-writer/sub-skills/project-intake/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "59c61b4544fc65c591b9063d9d5d81902c807388f6d338ab5cfbbdb40c9beed1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

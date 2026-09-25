@@ -1,0 +1,22 @@
+{
+  "英文名称": "pricing-strategy",
+  "中文名称": "待补：pricing-strategy",
+  "一句话作用": "结合价值感知、成本与竞品价格设计价格结构，给出分层与折扣的规则。触发词：定价策略设计、pricing-strategy、结合价值感知、成本与竞品价格设计价格结构，给出分层与折扣的规则。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要结合价值感知、成本与竞品价格设计价格结构，给出分层与折扣的规则。触发词：定价策略设计、pricing-strategy、结合价值感知、成本与竞品价格设计价格结构，给出分层与折扣的规则。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04074-pricing-strategy-4fdb613c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/pricing-strategy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/pricing-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4066483096e5a356990970c9b819d1f3bea7c41680fa73c8928f2ac24053649c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

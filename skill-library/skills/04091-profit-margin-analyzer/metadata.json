@@ -1,0 +1,22 @@
+{
+  "英文名称": "profit-margin-analyzer",
+  "中文名称": "待补：profit-margin-analyzer",
+  "一句话作用": "- Analyze gross and net profit margins across products, channels, and segments. Implement cost attribution models to calculate contribution margin and identify profitability drivers. 触发词：利润率分析、毛利分析、贡献毛利、成本归因、单位经济模型、盈利驱动…",
+  "关键输入": "- Ignoring Payment Fees: Payment processors take ~3% of Gross revenue, not Net. On a low-margin product, this can be 10-15% of your actual profit. - Flat Shipping Assumptions: Shipping a heavy item to Zone 8 (far) vs. Z…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:08:50+08:00",
+  "业务场景": "data-analytics",
+  "解决具体问题": "当需要- Ignoring Payment Fees: Payment processors take ~3% of Gross revenue, not Net. On a low-margin product, this can be 10-15% of your actual profit. - Flat Shipping Assumptions: Shipping a heavy item to Zone 8 (far) vs. Z…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04091-profit-margin-analyzer-9711896e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/profit-margin-analyzer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/profit-margin-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30a7dbc6054ec5a83ebf234b62329d63b39ace2c6e6ba2e94287faf41183cb80",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

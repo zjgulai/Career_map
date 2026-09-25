@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 与线上货盘差异化规划（防渠道冲突）",
+  "中文名称": "待补：KA 与线上货盘差异化规划（防渠道冲突）",
+  "一句话作用": "当需要为同一品牌在线下 KA 与亚马逊/TikTok/独立站之间划分 SKU 组合、包装与定价边界以减少串货与价格冲突时调用；条款与合同须法务与渠道负责人确认。",
+  "关键输入": "- 已有 new-sku-opportunity-scanner 或等价 新品与结构结论 ；KA 侧可有 ka-sell-through-analyzer 摘要。 - 已知 零售商限制 （如包装尺寸、条码体系、是否禁止线上同款）。 - ERP 能区分 渠道字段 或手工映射表。",
+  "关键输出": "- 表：SKU Online role KA role Overlap risk Mitigation Owner - 执行摘要 ：供 ka-jbp-generator 或内部渠道会引用。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要为同一品牌在线下 KA 与亚马逊/TikTok/独立站之间划分 SKU 组合、包装与定价边界以减少串货与价格冲突时调用；条款与合同须法务与渠道负责人确认。时，用它产出或更新：- 表：SKU Online role KA role Overlap risk Mitigation Owner - 执行摘要 ：供 ka-jbp-generator 或内部渠道会引用。",
+  "skill_id": "09920-ka-9d91d658",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/product-manage/ka-vs-online-assortment-planner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/product-manage/ka-vs-online-assortment-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d661d5a2e21c5048eafc6645b735df7fd282ea4ee04353d7146f41532737b2b8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

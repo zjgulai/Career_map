@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-deepanalyze-autonomous-data-science-agent",
+  "中文名称": "自主数据科学Agent",
+  "一句话作用": "触发词：自主数据分析、多平台汇总、异常归因、分析报告生成、数据科学Agent。何时不用：口径固定的看板用 Data-to-Dashboard/NL2Dashboard；只需把问题转成 SQL 时用 Text2SQL。安全边界：代码模板用 exec() 执行模型生成的代码，仅限原型验证；生产必须放进沙箱（容器或受限解释器）并加白名单 API 与执行超时，禁止在业务主机直接执行。",
+  "关键输入": "输入 ：各平台导出的原始 CSV（SKU、销量、销售额、退货、广告 spend 等字段），文件级粒度即可；卡页第 4 段未给字段级规格，落地前需统一字段名与货币单位口径。 输出 ：结构化分析报告：关键发现、数据可视化与可执行建议；卡页示例把每周 4-6 小时的多平台汇总压缩到约 5 分钟，并使报告口径标准化。",
+  "关键输出": "输入 ：各平台导出的原始 CSV（SKU、销量、销售额、退货、广告 spend 等字段），文件级粒度即可；卡页第 4 段未给字段级规格，落地前需统一字段名与货币单位口径。 输出 ：结构化分析报告：关键发现、数据可视化与可执行建议；卡页示例把每周 4-6 小时的多平台汇总压缩到约 5 分钟，并使报告口径标准化。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：自主数据分析、多平台汇总、异常归因、分析报告生成、数据科学Agent。何时不用：口径固定的看板用 Data-to-Dashboard/NL2Dashboard；只需把问题转成 SQL 时用 Text2SQL。安全边界：代码模板用 exec() 执行模型生成的代码，仅限原型验证；生产必须放进沙箱（容器或受限解释器）并加白名单 API 与执行超时，禁止在业务主机直接执行。时，用它产出或更新：输入 ：各平台导出的原始 CSV（SKU、销量、销售额、退货、广告 spend 等字段），文件级粒度即可；卡页第…",
+  "skill_id": "03046-p2s-deepanalyze-autonomous-data-science-agent-ac4afa57",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-deepanalyze-autonomous-data-science-agent/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-deepanalyze-autonomous-data-science-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d2968920e20a89f47638c2b151255ea461ecb26d3dc1f9909027d826cf481e9b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

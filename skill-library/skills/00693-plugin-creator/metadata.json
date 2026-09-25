@@ -1,0 +1,22 @@
+{
+  "英文名称": "plugin-creator",
+  "中文名称": "待补：plugin-creator",
+  "一句话作用": "Create and scaffold plugin directories for Codex with a required .codex-plugin/plugin.json, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to cre…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After editing SKILL.md, run:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create and scaffold plugin directories for Codex with a required .codex-plugin/plugin.json, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to cre…时，用它产出或更新：After editing SKILL.md, ru…",
+  "skill_id": "00693-plugin-creator-1eb5f5bf",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/.agents/skills/plugin-creator/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/.agents/skills/plugin-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d08b48a7ba8a9ac49a693997bc1a3d5282f76d11c5d26759d2eb2d3c439b26f4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

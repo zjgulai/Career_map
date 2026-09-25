@@ -1,0 +1,22 @@
+{
+  "英文名称": "eval-gen",
+  "中文名称": "评估集自动生成器",
+  "一句话作用": "从Agent行为规格书自动生成评估集。与 /agent-spec 配合使用，实现\"规格书→评估集\"的全自动转化。",
+  "关键输入": "- Agent行为规格书（docs/design/agent-spec-{feature}.md）已生成 - 最好在System Prompt初版也生成后再运行（可以额外加入Prompt特有的测试维度）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-03T18:04:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要从Agent行为规格书自动生成评估集。与 /agent-spec 配合使用，实现\"规格书→评估集\"的全自动转化。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09319-eval-gen-f4caa2cc",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_software/skills/eval-gen/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_software/skills/eval-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "edca352d12bcb1af93a9b644289a0b4fbb61a1ffa62c2b10c259c27a16cf8539",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

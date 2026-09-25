@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-memoryos-agent-memory-management",
+  "中文名称": "启发的Agent分级记忆管理",
+  "一句话作用": "触发词：分级记忆、记忆淘汰、长跑Agent、成本恒定、记忆检索准确率。何时不用：会话很短、没有长期运行需求时不必要；要跨会话保留记忆但不需要淘汰策略时用虚拟上下文管理。安全边界：记忆库含经营与客户数据，须支持按遗忘权设置过期时间并加密存储。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Agent工程师面临长期运行记忆膨胀崩溃——MemoryOS三级分级存储使Agent稳定运行12+月，记忆成本恒定，年化保障运营连续性价值50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12044-p2s-memoryos-agent-memory-management-f564f99f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-memoryos-agent-memory-management/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-memoryos-agent-memory-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e5ef54b3bd682cd2674d017b13494882d10882f3b897fb27219d966609f9554",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

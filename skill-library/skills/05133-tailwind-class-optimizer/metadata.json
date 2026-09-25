@@ -1,0 +1,22 @@
+{
+  "英文名称": "tailwind-class-optimizer",
+  "中文名称": "待补：tailwind-class-optimizer",
+  "一句话作用": "Optimize tailwind class optimizer operations. Auto-activating skill for Frontend Development. Triggers on: tailwind class optimizer, tailwind class optimizer Part of the Frontend Development skill category. Use when wor…",
+  "关键输入": "- Relevant development environment configured - Access to necessary tools and services - Basic understanding of frontend development concepts",
+  "关键输出": "- Generated configurations and code - Best practice recommendations - Validation results",
+  "最新更新时间": "2026-09-19T03:55:24+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要This skill activates automatically when you: - Mention \"tailwind class optimizer\" in your request - Ask about tailwind class optimizer patterns or best practices - Need help with frontend skills covering react, vue, css…时，用它产出或更新：- Generated configurations…",
+  "skill_id": "05133-tailwind-class-optimizer-5d1a559f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/tailwind-class-optimizer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/tailwind-class-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b6cfc5918b2db2695e0b89b81d26d6ff15d6b506098ef0f62ca483d813df377",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "退货/换货决策树（平台政策 + 成本与库存）",
+  "中文名称": "待补：退货/换货决策树（平台政策 + 成本与库存）",
+  "一句话作用": "当工单进入退款/退货阶段、需根据平台规则、成本、库存与用户体验给出可执行方案时调用；输出供客服执行与财务备案。",
+  "关键输入": "- 平台 （亚马逊 FBA/FBM、Shopify、KA）与 订单日期 、 类目 （母婴可能涉安全召回例外）。 - 成本 ：退货处理费、残值、运费；无则标区间。 - 战略红线 ：单笔最大让步（可粘贴）。",
+  "关键输出": "- recommended option conditions cost estimate approval needed - 树状附录 （Markdown 嵌套列表）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当工单进入退款/退货阶段、需根据平台规则、成本、库存与用户体验给出可执行方案时调用；输出供客服执行与财务备案。时，用它产出或更新：- recommended option conditions cost estimate approval needed - 树状附录 （Markdown 嵌套列表）。",
+  "skill_id": "09894-skill-b00e0f24",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/return-decision-tree/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/return-decision-tree/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "980d1b7fce8a08374e00a3425293ed22e5a5a0e21fcf684c53ca2ef5583b9bff",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

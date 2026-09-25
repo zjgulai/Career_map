@@ -1,0 +1,22 @@
+{
+  "英文名称": "radare2",
+  "中文名称": "待补：radare2",
+  "一句话作用": "Use this skill whenever the user wants to analyze binaries with radare2/r2 from the command line, including reverse engineering, disassembly, function analysis, strings/import inspection, patching, binary diffing, hex i…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "当用户不是只要命令，而是要你实际分析文件时： - 先给出侦察结果摘要 - 再列出关键证据：字符串、导入、函数、地址 - 最后给出下一步建议或继续深入分析 不要只罗列命令而不解释为什么这么做。",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use this skill whenever the user wants to analyze binaries with radare2/r2 from the command line, including reverse engineering, disassembly, function analysis, strings/import inspection, patching, binary diffing, hex i…时，用它产出或更新：当用户不是只要命令，而是要你实际分析文件时： - 先…",
+  "skill_id": "02223-radare2-a5f2950b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/radare2/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/radare2/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "850c50bae1d59bfcf732f3f452bd19baefac73870a76c95a3aac6e89a4bdffe8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

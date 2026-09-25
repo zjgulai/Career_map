@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sensitivity-analysis-rosenbaum",
+  "中文名称": "敏感性分析 未测量混淆对因果结论的影响量化",
+  "一句话作用": "触发词：混淆临界值、稳健性汇报、匹配结论复核、促销效果验证、结论强度判定。何时不用：需要在不做随机实验时给出效果区间下界用部分识别技能，没有匹配数据、要估整体活动增效用合成控制或时序因果技能，本技能只在已有匹配样本时量化混淆强度。安全边界：不得把未经稳健性检验的结论直接用于续约、扩预算等承诺性决策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要PSM 因果结论因可能存在未测量混淆而被管理层质疑无法通过决策评审——引入 Rosenbaum 敏感性分析量化混淆临界值，Prime 会员促销效果结论获管理层采纳，年化决策信心价值折算提升12%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03807-p2s-sensitivity-analysis-rosenbaum-95e6c594",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sensitivity-analysis-rosenbaum/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sensitivity-analysis-rosenbaum/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cc5206807156c6f13f85f240324d82359d2c362ccf7b1bd5a5d87aabc126bfab",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-compliance-guard",
+  "中文名称": "搜索词合规预扫描 双轨违禁词实时过滤",
+  "一句话作用": "触发词：搜索词合规、违禁词、健康声明、双轨过滤、关键词预审、脚本预审。何时不用：要按平台条款改写整段文案时用「Amazon ToS 合规护栏」，要检测订阅页暗模式时用「Nudge 架构伦理」。安全边界：词库须经法律团队审定，过滤过广会误伤合法关键词，且漏报风险高于误报。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"关键词上架后才发现含违禁宣称导致Listing被下架\"——上架前合规预扫描将违禁词漏报率从22%降至3%，年化避免账号受限保护广告预算50-120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12606-p2s-search-compliance-guard-63b90882",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-search-compliance-guard/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-search-compliance-guard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07848981a26f1a5ca9185f6db46a2f45ded7992f6950096e8fedd4e46d57166f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

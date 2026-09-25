@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-competitor-negative-campaign-detection",
+  "中文名称": "竞品恶意投诉攻击检测（批量举报模式）",
+  "一句话作用": "触发词：恶意差评、批量举报、攻击评分、新账号评论、申诉材料。何时不用：单条差评或真实体验问题不适用，本技能识别的是有组织的批量攻击；需要逐条判断评论真伪时用刷评检测类模型。安全边界：检测结论只能用于平台举报与内部决策，不得用于报复性操作或公开指控。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"Prime Day前2周突然23条1星差评全是新账号文本高度相似但不确定是否是攻击\"——三维度恶意差评攻击检测识别攻击并向Amazon举报，Star Rating恢复保护Prime Day GMV 30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11929-p2s-competitor-negative-campaign-detection-2b3914ca",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-competitor-negative-campaign-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-competitor-negative-campaign-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "add7127a6637673d2079c4314753b52d3ab5a8cec3e72686935121f086a92232",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

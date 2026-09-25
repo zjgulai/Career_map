@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-data-to-dashboard-multi-agent-visualization",
+  "中文名称": "多Agent智能可视化生成",
+  "一句话作用": "触发词：数据看板、多Agent可视化、周报图表、洞察生成、仪表盘自动生成。何时不用：只需把自然语言转成图表时用 NL2Dashboard；需要解释模型为何这样预测时用 SHAP 归因。安全边界：无。",
+  "关键输入": "输入 ：多平台原始经营数据，日粒度订单与 SKU 级明细，含销售额、退货率、广告 spend、转化率、客户留存率等 12+ 指标；卡页第 4 段未给字段级规格，落地前需按数仓表结构对齐字段与口径。 输出 ：一份洞察驱动的可视化看板：折线、柱状、散点、热力、雷达等图表加每条洞察的自然语言描述与置信度，供运营与管理层看数决策。",
+  "关键输出": "输入 ：多平台原始经营数据，日粒度订单与 SKU 级明细，含销售额、退货率、广告 spend、转化率、客户留存率等 12+ 指标；卡页第 4 段未给字段级规格，落地前需按数仓表结构对齐字段与口径。 输出 ：一份洞察驱动的可视化看板：折线、柱状、散点、热力、雷达等图表加每条洞察的自然语言描述与置信度，供运营与管理层看数决策。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：数据看板、多Agent可视化、周报图表、洞察生成、仪表盘自动生成。何时不用：只需把自然语言转成图表时用 NL2Dashboard；需要解释模型为何这样预测时用 SHAP 归因。安全边界：无。时，用它产出或更新：输入 ：多平台原始经营数据，日粒度订单与 SKU 级明细，含销售额、退货率、广告 spend、转化率、客户留存率等 12+ 指标；卡页第 4 段未给字段级规格，落地前需按数仓表结构对齐字段与口径。 输出 ：一份洞察驱动的可视化看板：折线、柱状、散点、热力、雷达等图表加每条洞察的自然语言描述与置…",
+  "skill_id": "03036-p2s-data-to-dashboard-multi-agent-visualization-a763668f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-data-to-dashboard-multi-agent-visualization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-data-to-dashboard-multi-agent-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "37e6d621779248a60a78c9b74d81b2e2f25b27c7534d71447ba25ac80ceef17f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "fbs-connector",
+  "中文名称": "福帮手人机协同连接器",
+  "一句话作用": "福帮手人机协同连接器：身份、场景包、乐包、首值记录和超级合伙人交接。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要福帮手人机协同连接器：身份、场景包、乐包、首值记录和超级合伙人交接。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05247-fbs-connector-96bf9581",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/fbs-connector/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/fbs-connector/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c63f1c280ff299532783c06e41074fa9fb146c19a5c86b00aec68b50fe9076a4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

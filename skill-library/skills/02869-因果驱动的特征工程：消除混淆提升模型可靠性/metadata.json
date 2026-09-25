@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-ml-feature-engineering",
+  "中文名称": "因果驱动的特征工程：消除混淆提升模型可靠性",
+  "一句话作用": "触发词：因果特征工程、混淆变量、特征泄漏、因果DAG、模型可靠性。何时不用：要按口径衡量预测精度用「预测准确率MAPE体系」，做上线后的漂移修正用「自适应预测精准化」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要需求预测模型加入广告花费特征后大促期预测严重失真——因果DAG识别广告花费是混淆变量而非需求原因，去除后大促期预测误差降低30-50%，年化减少备货决策失误10-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02869-p2s-causal-ml-feature-engineering-5c02e882",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-ml-feature-engineering/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-ml-feature-engineering/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1bd1f855a64eba8f359300ad71e1ac197105e537644139f14bcf418d187419af",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

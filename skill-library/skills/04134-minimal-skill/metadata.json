@@ -1,0 +1,22 @@
+{
+  "英文名称": "minimal-skill",
+  "中文名称": "待补：minimal-skill",
+  "一句话作用": "最简 Skill 模板，适用于简单知识型任务（少于 2000 字符）。 当用户需要创建简单 Skill、学习基础结构、理解最小可行 Skill 时使用。 触发词：简单 skill、最小结构、基础模板、快速创建。",
+  "关键输入": "- 学习 Skill 基础结构 - 创建简单知识型 Skill（少于 2000 字符） - 理解最小可行 Skill（MVS） - 快速原型验证 - 单一职责的简单任务",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:36+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 学习 Skill 基础结构 - 创建简单知识型 Skill（少于 2000 字符） - 理解最小可行 Skill（MVS） - 快速原型验证 - 单一职责的简单任务时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04134-minimal-skill-b4fb88b1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/skill-creator/assets/templates/minimal-skill/SKILL.md",
+  "relative_path": "lute/.dsh/skills/skill-creator/assets/templates/minimal-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7c2e580ac735fe0ae4988bd6b55ef83215fd89a2923c488db6d03ffc9ab4feb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

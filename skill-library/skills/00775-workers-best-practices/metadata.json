@@ -1,0 +1,22 @@
+{
+  "英文名称": "workers-best-practices",
+  "中文名称": "待补：workers-best-practices",
+  "一句话作用": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, f…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, f…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00775-workers-best-practices-5a959c03",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/cloudflare/skills/workers-best-practices/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/cloudflare/skills/workers-best-practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "099432ff265ff6080327ef0b392c118b835d2a5bda98a7de07e1afd115ed6458",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-live-stream-highlight-extraction",
+  "中文名称": "直播高光片段自动提取与二次传播内容生产",
+  "一句话作用": "触发词：直播高光、互动峰值、片段提取、二次传播、剪辑自动化。何时不用：没有直播互动数据、只有录屏文件时无法按峰值提取；原创短视频制作不用本技能。安全边界：AI 提取的片段须人工审核，不得含医疗功效宣传等违规内容；虚拟形象内容须标注 AI 生成。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容团队面临\"3小时直播素材无法快速转为短视频\"——互动峰值自动提取将剪辑工时从6h缩短至5分钟，二次发布带来额外GMV贡献15-20%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11721-p2s-live-stream-highlight-extraction-cc2ae3d1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-live-stream-highlight-extraction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-live-stream-highlight-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e542aaa1194bdc429b514e37fa351a47a78e7e1c3c467a2baffc4262cb4ad53f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

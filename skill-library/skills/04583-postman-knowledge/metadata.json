@@ -1,0 +1,22 @@
+{
+  "英文名称": "postman-knowledge",
+  "中文名称": "待补：postman-knowledge",
+  "一句话作用": "Postman concepts and MCP tool guidance. Loaded when working with Postman MCP tools to make better decisions about tool selection and workarounds.",
+  "关键输入": "Goal Approach ------ ---------- Push code changes to Postman Spec Hub + sync (createSpec - syncCollectionWithSpec) Generate an OpenAPI spec from your code Scan the project's routes and write a spec (/postman:generate-sp…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:58+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Goal Approach ------ ---------- Push code changes to Postman Spec Hub + sync (createSpec - syncCollectionWithSpec) Generate an OpenAPI spec from your code Scan the project's routes and write a spec (/postman:generate-sp…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04583-postman-knowledge-15ed208a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/postman/1.3.1/skills/postman-knowledge/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/postman/1.3.1/skills/postman-knowledge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fe498ee9ce4895f59b1c45cd32a6a80027fa9da8f581cc91ea60ce612696e96a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

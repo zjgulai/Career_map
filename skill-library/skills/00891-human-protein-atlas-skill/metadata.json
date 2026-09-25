@@ -1,0 +1,22 @@
+{
+  "英文名称": "human-protein-atlas-skill",
+  "中文名称": "待补：human-protein-atlas-skill",
+  "一句话作用": "Submit compact Human Protein Atlas requests for gene JSON, search downloads, and page-level tissue or cell-line lookups. Use when a user wants concise Human Protein Atlas summaries; save raw JSON or HTML only on request.",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common HPA patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records, a compact summary, or text head. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact Human Protein Atlas requests for gene JSON, search downloads, and page-level tissue or cell-line lookups. Use when a user wants concise Human Protein Atlas summaries; save raw JSON or HTML only on request.时，用它产出或更新：- Success returns ok, sour…",
+  "skill_id": "00891-human-protein-atlas-skill-7e5766ca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/human-protein-atlas-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/human-protein-atlas-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "00e0f52e1d2da3f1c774550673e5b3af0296cbcd550f27b98682cdaf6c945fa3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

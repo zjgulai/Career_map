@@ -1,0 +1,22 @@
+{
+  "英文名称": "immortal-skill",
+  "中文名称": "数字永生",
+  "一句话作用": "通用数字永生框架：从聊天记录、社交媒体、文档等多平台数据中蒸馏任何人的数字分身——支持自己、同事、导师、亲人、伴侣/前任、朋友、公众人物 7 种角色模板，接入国内外 12+ 数据平台。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:04:28+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要通用数字永生框架：从聊天记录、社交媒体、文档等多平台数据中蒸馏任何人的数字分身——支持自己、同事、导师、亲人、伴侣/前任、朋友、公众人物 7 种角色模板，接入国内外 12+ 数据平台。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06121-immortal-skill-cdb3eb8e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/immortal-skill/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/immortal-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "637fece8387fb75b21a18c43ca08e73f78dec85f986f98edf9e9a2abe2746ab3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

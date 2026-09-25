@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-carrier-selection-ml",
+  "中文名称": "承运商智能选择 驱动的跨境配送商优化决策",
+  "一句话作用": "触发词：承运商比价、承运商选择、物流商切换、发货分配、罢工降权。何时不用：要按区域出一张分区路由评分表用「最后一公里选路」类技能，要和承运商谈价签约用「采购比价」；本技能按单票发货推荐承运商。安全边界：承运商切换与运价协议变更须人工确认，模型只输出推荐与备选，不直接改价或代签合同。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要物流团队面临\"惯性选FedEx但UPS在部分航线便宜15%且DHL罢工无法快速切换\"——ML承运商智能选择年化节省物流成本19万+降低客诉节省10万约29万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02852-p2s-carrier-selection-ml-759c9261",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-carrier-selection-ml/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-carrier-selection-ml/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "597724191e7c97bb07e5591abf28b117bbb52736b7e6c535b2bc8f9e4e83e544",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

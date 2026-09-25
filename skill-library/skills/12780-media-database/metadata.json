@@ -1,0 +1,22 @@
+{
+  "英文名称": "media-database",
+  "中文名称": "待补：media-database",
+  "一句话作用": "Use when researching, segmenting, and maintaining journalist/analyst contact lists.",
+  "关键输入": "- Building pitch lists for launches or thought-leadership campaigns. - Cleaning and deduping media contacts after staffing changes. - Tracking interactions, responses, and embargo agreements.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Building pitch lists for launches or thought-leadership campaigns. - Cleaning and deduping media contacts after staffing changes. - Tracking interactions, responses, and embargo agreements.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12780-media-database-76e860ff",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/pr-communications/skills/media-database/SKILL.md",
+  "relative_path": "lute/project/skills/pr-communications/skills/media-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a46d86b156fc8c9c672fb27f380ca1651d0f34f8b92c23074112a6ef3732d5d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

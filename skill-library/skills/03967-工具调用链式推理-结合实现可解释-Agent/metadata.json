@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tool-calling-chain-of-thought",
+  "中文名称": "工具调用链式推理 结合实现可解释 Agent",
+  "一句话作用": "触发词：工具调用、链式推理、Function Calling、多系统查询、可解释 Agent。何时不用：只需单库取数或纯文本问答时不用（那是数据查询类技能）；本技能解决跨广告/销售/竞品等多系统的多跳查询与推理链留痕。安全边界：工具调用须留完整日志以满足审计；代码示例里的 api key 必须改为宿主注入的凭证，不得硬编码。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营输入自然语言问题需跨查广告/销售/竞品三个系统但无法获得可解释推理链——引入工具调用链式推理（Function Calling+CoT），多系统查询从手工4小时→Agent 5分钟完成，推理步骤全程可审计，年化节省分析人时 60%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03967-p2s-tool-calling-chain-of-thought-2040c34b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tool-calling-chain-of-thought/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tool-calling-chain-of-thought/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "891289b1c4424548def3a1829895ab637a7ac2e5cebdcd1a8875c23ead504022",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

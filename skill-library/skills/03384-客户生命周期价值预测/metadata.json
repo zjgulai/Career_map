@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ltv-prediction-btyd",
+  "中文名称": "客户生命周期价值预测",
+  "一句话作用": "触发词：BTYD、BG/NBD、P alive、活跃概率、CLV、沉睡用户。何时不用：要在长尾零膨胀下预测个体 LTV 用 ZILN 那张卡；要区分用户是沉睡还是真流失、避免向已流失用户投预算时用本卡。安全边界：订单级数据须脱敏使用，预测结果不得用于歧视性定价，对外输出只给分群与名单，不含个人标识。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴品牌把「3个月没复购」的用户一律当流失发EDM轰炸，浪费营销预算在已流失用户身上——BG/NBD模型给出每位用户的P alive活跃概率，精准区分沉睡高价值用户与真实流失，复购激活ROI从1.2x提升到3-4x，年化增益30-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03384-p2s-ltv-prediction-btyd-652057bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ltv-prediction-btyd/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ltv-prediction-btyd/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7729ea877956cd2f7e2ff4ee705742deee9c5e9039cb0a7e739072c4d9ca2f52",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

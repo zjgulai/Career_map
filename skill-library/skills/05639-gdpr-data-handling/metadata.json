@@ -1,0 +1,22 @@
+{
+  "英文名称": "gdpr-data-handling",
+  "中文名称": "待补：gdpr-data-handling",
+  "一句话作用": "Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. Use when building systems that process EU personal data, implementing privacy controls, or conducting GDPR comp…",
+  "关键输入": "- Building systems that process EU personal data - Implementing consent management - Handling data subject requests (DSRs) - Conducting GDPR compliance reviews - Designing privacy-first architectures - Creating data pro…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Building systems that process EU personal data - Implementing consent management - Handling data subject requests (DSRs) - Conducting GDPR compliance reviews - Designing privacy-first architectures - Creating data pro…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05639-gdpr-data-handling-d8d73e3a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/hr-legal-compliance/skills/gdpr-data-handling/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/hr-legal-compliance/skills/gdpr-data-handling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bd55121333bee6c3cfccd58a3445c35b5cb49f7d793c6a0c60a95536a123b3c7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-open-slide-canvas",
+  "中文名称": "1920 画布自由 Deck",
+  "一句话作用": "锁死 1920×1080 画布, React 组件级自由组合, 不绑模板",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:26+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要锁死 1920×1080 画布, React 组件级自由组合, 不绑模板时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10225-deck-open-slide-canvas-75b97dcf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-open-slide-canvas/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-open-slide-canvas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3e072c6fcd09e7dfe6bf5d33bf62c9ed55de5fcd4c4e475500ab1c1059a0076e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

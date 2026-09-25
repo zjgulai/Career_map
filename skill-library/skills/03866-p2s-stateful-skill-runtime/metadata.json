@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-stateful-skill-runtime",
+  "中文名称": "待补：p2s-stateful-skill-runtime",
+  "一句话作用": "触发词：p2s-stateful-skill-runtime。Skill-Stateful-Skill-Runtime",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "原文：\"Results: As shown in Table 1, SKILL.state matches or exceeds baseline accuracy across all horizons while maintaining a flat prompt size ($\\sim$1,736–1,905 tokens).\" 出处：2608.26263 §5.2 Experiment 1: Long-Horizon Execution Scaling｜Q23 原文：\"In contrast, histo…",
+  "最新更新时间": "2026-09-13T21:15:37+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：p2s-stateful-skill-runtime。Skill-Stateful-Skill-Runtime时，用它产出或更新：原文：\"Results: As shown in Table 1, SKILL.state matches or exceeds baseline accuracy across all horizons while maintaining a flat prompt size ($\\sim$1,736–1,905 tokens).\" 出处：2608.26263 §5.2…",
+  "skill_id": "03866-p2s-stateful-skill-runtime-3489b046",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-stateful-skill-runtime/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-stateful-skill-runtime/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f5f88cea1120f155bca77f18311c8d070729810056fc3d891389d19ec480d91a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

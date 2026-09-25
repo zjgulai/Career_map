@@ -1,0 +1,22 @@
+{
+  "英文名称": "submission-review",
+  "中文名称": "投稿前审稿",
+  "一句话作用": "投稿前以审稿人视角审一篇已写好的论文，挑出影响录用的硬伤，判断能不能投、还差多少。审查整体逻辑、主张与证据是否对得上、写作语言、图表质量、是否切合目标会场，并评估新颖性和学术价值。每条问题指到原文具体位置，按\"足以拒稿/一审会被点/打磨级\"分轻重。触发于\"帮我审一遍\"\"投稿前看看\"\"能不能投\"。评想法去 idea-evaluate；动手改写润色去 doubao-academic-polish。",
+  "关键输入": "这是整份审查最重要的习惯。你说\"引言不清楚\"是没用的，作者不知道你指哪儿。你得说：引言第二段这句\"……\"，问题在于它和上一段的逻辑断了。 每一条问题，都要引出原文里那句话、那个图名、那个章节 ，让作者一眼能找到。挑不出具体位置的\"问题\"，多半是你的主观感受，不是真问题，别写。 同理，绝不要编造原文里没有的句子来当证据。只引用稿子里真实存在的文字。",
+  "关键输出": "开头先给一句话总览：足以拒稿的几条、一审会被点的几条、打磨级的几条，以及最该先修的三件事。然后按层分组列问题，每条都带着原文证据和具体修法。 呈现给作者的，是干净的、可执行的问题清单，不是一堆流程代号和勾选记录。该指位置就指位置，该给改法就给改法。诚实地说清还差多少，但让作者觉得这一遍审得值，毕竟把没投出去的稿子拿给人挑刺是需要勇气的。 最后给一个明确的投稿建议： 可以投了 / 还需一到两天打磨 / 投之前需要大改 。",
+  "最新更新时间": "2026-09-10T16:27:35+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要这是整份审查最重要的习惯。你说\"引言不清楚\"是没用的，作者不知道你指哪儿。你得说：引言第二段这句\"……\"，问题在于它和上一段的逻辑断了。 每一条问题，都要引出原文里那句话、那个图名、那个章节 ，让作者一眼能找到。挑不出具体位置的\"问题\"，多半是你的主观感受，不是真问题，别写。 同理，绝不要编造原文里没有的句子来当证据。只引用稿子里真实存在的文字。时，用它产出或更新：开头先给一句话总览：足以拒稿的几条、一审会被点的几条、打磨级的几条，以及最该先修的三件事。然后按层分组列问题，每条都带着原文证据和具体修法。 呈…",
+  "skill_id": "06346-submission-review-810c0229",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-evaluator/sub-skills/submission-review/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-evaluator/sub-skills/submission-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "74048b19a8ab0b3e719054f481285819c9a1ffb1d928c28675016b3232a0acee",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

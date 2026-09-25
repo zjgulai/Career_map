@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-deep-learning-recommendation-hi",
+  "中文名称": "待补：p2s-deep-learning-recommendation-hi",
+  "一句话作用": "触发词：异构信息网络、深度学习推荐、多样性提升、长尾曝光、推荐单一。何时不用：要做偏差校正的无偏排序用「去混淆因果推荐」；要做图文多模态融合推荐用「多模态产品推荐」。安全边界：多样性不得以牺牲合规属性为代价，不得把不适龄商品推给错误人群；长尾扶持须设流量上限，避免挤压已验证的爆款转化。",
+  "关键输入": "输入 ：交互数据（用户 ID、商品 ID、交互类型、时间戳）、用户特征（宝宝月龄、地区）与商品特征（类目、品牌）；粒度为单用户 × 一次推荐请求。 输出 ：每位用户的个性化推荐列表（卡页示例 Top-50）与多样性、长尾曝光监控指标；供推荐工程与运营评估结构调整效果。",
+  "关键输出": "输入 ：交互数据（用户 ID、商品 ID、交互类型、时间戳）、用户特征（宝宝月龄、地区）与商品特征（类目、品牌）；粒度为单用户 × 一次推荐请求。 输出 ：每位用户的个性化推荐列表（卡页示例 Top-50）与多样性、长尾曝光监控指标；供推荐工程与运营评估结构调整效果。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：异构信息网络、深度学习推荐、多样性提升、长尾曝光、推荐单一。何时不用：要做偏差校正的无偏排序用「去混淆因果推荐」；要做图文多模态融合推荐用「多模态产品推荐」。安全边界：多样性不得以牺牲合规属性为代价，不得把不适龄商品推给错误人群；长尾扶持须设流量上限，避免挤压已验证的爆款转化。时，用它产出或更新：输入 ：交互数据（用户 ID、商品 ID、交互类型、时间戳）、用户特征（宝宝月龄、地区）与商品特征（类目、品牌）；粒度为单用户 × 一次推荐请求。 输出 ：每位用户的个性化推荐列表（卡页示例 Top-50）…",
+  "skill_id": "12289-p2s-deep-learning-recommendation-hi-99cbb2a2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-deep-learning-recommendation-hi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-deep-learning-recommendation-hi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5a21b869634d47cea86df7c61d1b0fae38e487c5c693c6b304c8e53ede284e4c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

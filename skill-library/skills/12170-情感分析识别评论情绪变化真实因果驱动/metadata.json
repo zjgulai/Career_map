@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-voc-sentiment-attribution",
+  "中文名称": "情感分析识别评论情绪变化真实因果驱动",
+  "一句话作用": "触发词：因果归因、差分中差、方面级情感、差评根因、对照组设计、平行趋势检验。何时不用：只做事件框架抽取与根因分类用「语义角色标注事件抽取」；只做评论结构化方面情感提取用「评论结构化抽取」。安全边界：评论数据使用须遵守平台数据政策，禁止存储用户 PII；对照组必须通过平行趋势检验，假设不成立时只能报相关、不得给出因果结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"差评增加后不知道是包装问题还是物流破损导致\"——DiD+情感因果归因将根因定位准确率从45%提升至88%，年化精准修复节省无效投入20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12170-p2s-causal-voc-sentiment-attribution-fd10bd1b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-causal-voc-sentiment-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-causal-voc-sentiment-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ae9019ddfda594557f5422b81c92503da31210d54cb1009d56723e9faec50474",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

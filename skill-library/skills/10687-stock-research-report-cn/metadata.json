@@ -1,0 +1,22 @@
+{
+  "英文名称": "stock-research-report-cn",
+  "中文名称": "待补：stock-research-report-cn",
+  "一句话作用": "生成国泰海通/海通国际风格的证券研究报告。适用于个股研究、行业跟踪、投资简报等金融文档。触发词：国泰海通、海通国际、行业跟踪、股票研究、证券研究。支持国内与国际双模板。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- PDF (default for final reports) - DOCX (for editable documents) - PPTX (when slide format is explicitly requested)",
+  "最新更新时间": "2026-09-14T00:06:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要生成国泰海通/海通国际风格的证券研究报告。适用于个股研究、行业跟踪、投资简报等金融文档。触发词：国泰海通、海通国际、行业跟踪、股票研究、证券研究。支持国内与国际双模板。时，用它产出或更新：- PDF (default for final reports) - DOCX (for editable documents) - PPTX (when slide format is explicitly requested)",
+  "skill_id": "10687-stock-research-report-cn-2f58748c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/stock-research-report-cn/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/stock-research-report-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1650d7df0d9941d7c1845cd331b44fc8914775ec711e096969f219fa20753db6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

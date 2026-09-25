@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-shaders",
+  "中文名称": "待补：figma-shaders",
+  "一句话作用": "MANDATORY prerequisite — load this skill before calling create shader or update shader. Use when the user asks to create, author, change, fix, or iterate on a shader effect, shader fill, custom effect, custom fill, or p…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要MANDATORY prerequisite — load this skill before calling create shader or update shader. Use when the user asks to create, author, change, fix, or iterate on a shader effect, shader fill, custom effect, custom fill, or p…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01297-figma-shaders-851e2021",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-shaders/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-shaders/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c7e34c5a4eb316cfe84768cb419fe71b3ce840b29561ecd0f90eb402a72e1adf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

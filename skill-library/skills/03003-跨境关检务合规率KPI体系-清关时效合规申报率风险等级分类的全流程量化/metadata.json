@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-crossborder-customs-compliance-rate-kpi",
+  "中文名称": "跨境关检务合规率KPI体系 清关时效合规申报率风险等级分类的全流程量化",
+  "一句话作用": "触发词：关检务KPI、认证完整率、申报准确率、清关时效、多市场合规风险。何时不用：需要按批次做清关扣押风险评分与提前预警时用清关多维风险评分；需要做保税仓入出区申报纠错时用保税区合规自动化。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要UK认证完整率55%随时面临产品下架而团队不知优先级——关检务三维KPI（准入率/申报准确率/清关时效）+ 多市场合规风险评分，提前6周发现隐患避免损失月GMV$10万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03003-p2s-crossborder-customs-compliance-rate-kpi-c16961b8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-crossborder-customs-compliance-rate-kpi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-crossborder-customs-compliance-rate-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ab16698cef48635d98baa911a6786761ec435c4dbb8926df218651e292bf62d1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

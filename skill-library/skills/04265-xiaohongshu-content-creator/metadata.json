@@ -1,0 +1,22 @@
+{
+  "英文名称": "xiaohongshu-content-creator",
+  "中文名称": "待补：xiaohongshu-content-creator",
+  "一句话作用": "- Optimize Xiaohongshu (XHS) content for the CES algorithm with SEO-driven titles, emotional engagement, and AI compliance. 触发词：小红书内容创作、小红书笔记、CES算法、小红书标题优化、小红书种草、小红书文案。",
+  "关键输入": "- 面向 CES 算法的小红书种草内容创作。",
+  "关键输出": "All generated content should follow this structured format: ---",
+  "最新更新时间": "2026-09-08T00:08:50+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 面向 CES 算法的小红书种草内容创作。时，用它产出或更新：All generated content should follow this structured format: ---",
+  "skill_id": "04265-xiaohongshu-content-creator-b23c663a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xiaohongshu-content-creator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xiaohongshu-content-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b4677f3f51811d38413f6f187da76cd30af6ee70d4dba383c9abaa4c5ebd4c2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

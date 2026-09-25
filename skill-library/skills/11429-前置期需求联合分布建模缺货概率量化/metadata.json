@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-lead-time-demand-integration-model",
+  "中文名称": "前置期需求联合分布建模缺货概率量化",
+  "一句话作用": "触发词：前置期需求联合建模、蒙特卡洛缺货概率、安全库存覆盖天数、前置期波动、分位数再订货点。何时不用：前置期稳定、只按固定交期算安全库存时用「安全库存与补货策略」；要单独拟合前置期分布做延误预警时走「提前期分布建模」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境备货运营面临\"前置期28-55天波动大用固定45天安全库存缺货率高达8%\"——联合分布蒙特卡洛建模将缺货率从8%降至2.5%，年化减少缺货损失30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11429-p2s-lead-time-demand-integration-model-6161a8d0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-lead-time-demand-integration-model/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-lead-time-demand-integration-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7ef87a67a043eafa1707572ae7610dc652152db122af84e192733f50bfbf0b38",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

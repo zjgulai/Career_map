@@ -1,0 +1,22 @@
+{
+  "英文名称": "bun-monorepo-vite-elysia-spa",
+  "中文名称": "待补：bun-monorepo-vite-elysia-spa",
+  "一句话作用": "Scaffold or regenerate a Bun fullstack monorepo using official generators only: bun create elysia@latest for backend and bun create vite@latest --template react-ts for SPA frontend, then apply core backend wiring (Bette…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:01+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Scaffold or regenerate a Bun fullstack monorepo using official generators only: bun create elysia@latest for backend and bun create vite@latest --template react-ts for SPA frontend, then apply core backend wiring (Bette…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04754-bun-monorepo-vite-elysia-spa-5566988f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/bun-monorepo-vite-elysia-spa/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/bun-monorepo-vite-elysia-spa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9ca4fbf3b260cb9e276a399a7410a217ce75429a2557c5ffd88caeeaffbc6b2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

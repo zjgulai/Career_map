@@ -1,0 +1,22 @@
+{
+  "英文名称": "inverse-engineering",
+  "中文名称": "待补：inverse-engineering",
+  "一句话作用": "通用逆向工程 Skill。给定任意输入（HTML报告、Skill文件、GitHub仓库、PDF文档、代码快照），AI 按对应的 SOP（A/B/C）自动逆向出：口径缺陷清单、方法论框架、假设链、可复现系统架构、质量门定义，并在 session 结束时自动生成经验复盘文档存入 docs/reverse engineering/experience log/。触发场景：「逆向这个」「从这个报告/仓库/skill 中学习」「这类报告怎么自动…",
+  "关键输入": "在执行任何分析之前，先确定输入类型： 输入特征 InputKind 使用 SOP --------- ----------- --------- HTML/PDF/Markdown 分析报告 html report / pdf document SOP-A SKILL.md / prompt 文件 / 工作流描述 skill file SOP-B GitHub URL / 代码库路径 github repo / codebase snap SOP-C",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-09T19:54:14+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要通用逆向工程 Skill。给定任意输入（HTML报告、Skill文件、GitHub仓库、PDF文档、代码快照），AI 按对应的 SOP（A/B/C）自动逆向出：口径缺陷清单、方法论框架、假设链、可复现系统架构、质量门定义，并在 session 结束时自动生成经验复盘文档存入 docs/reverse engineering/experience log/。触发场景：「逆向这个」「从这个报告/仓库/skill 中学习」「这类报告怎么自动…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10795-inverse-engineering-83282f45",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/inverse_engineer/docs/reverse_engineering/SKILL.md",
+  "relative_path": "lute/project/inverse_engineer/docs/reverse_engineering/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f500ab582c65311408bd8ed6240f02da3a5440d45881160b339752d70d8f57f6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

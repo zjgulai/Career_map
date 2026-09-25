@@ -1,0 +1,22 @@
+{
+  "英文名称": "dtc-brand-recon",
+  "中文名称": "待补：dtc-brand-recon",
+  "一句话作用": "DTC 产品上架前的品牌侦查 SOP：用 Playwright 抓取现有品牌官网（首页 + collection + PDP）， 提取 7 类品牌资产，输出品牌现状报告 + 新 SKU 融入策略。 触发场景：「SOP-B 开始前」「品牌设计之前」「看看这个品牌的风格」「[品牌名] 官网侦查」。 封装了 lesson brand-recon-before-design-existing-vs-greenfield 的完整操作流程。 关键…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "报告文件命名： 【Brand-Recon】{品牌名}-{日期}.md 报告结构：",
+  "最新更新时间": "2026-05-25T17:10:23+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要DTC 产品上架前的品牌侦查 SOP：用 Playwright 抓取现有品牌官网（首页 + collection + PDP）， 提取 7 类品牌资产，输出品牌现状报告 + 新 SKU 融入策略。 触发场景：「SOP-B 开始前」「品牌设计之前」「看看这个品牌的风格」「[品牌名] 官网侦查」。 封装了 lesson brand-recon-before-design-existing-vs-greenfield 的完整操作流程。 关键…时，用它产出或更新：报告文件命名： 【Brand-Recon】{品牌名}…",
+  "skill_id": "01784-dtc-brand-recon-db29bd31",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/dtc-brand-recon/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/dtc-brand-recon/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3774bacd37b7a8ce053a91c705ae0e0017336ad95e18e782940b0b1af3f39f63",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

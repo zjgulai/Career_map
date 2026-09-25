@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-name",
+  "中文名称": "待补：product-name",
+  "一句话作用": "按定位与调性生成一批候选名称，并按易记、可注册与歧义风险做筛选。触发词：产品命名、product-name、按定位与调性生成一批候选名称，并按易记、可注册与歧义风险做筛选。",
+  "关键输入": "- Naming a new product or feature - Rebranding or renaming existing products - Exploring name options before launch - Testing names against brand guidelines - Triggers: product name, name ideas, brand name, naming, what…",
+  "关键输出": "- Share your brand guidelines and tone of voice - Specify target audience and their preferences - Mention competitor names and what you want to differentiate from - Include any naming conventions or patterns used by your company - Share the product's core val…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Naming a new product or feature - Rebranding or renaming existing products - Exploring name options before launch - Testing names against brand guidelines - Triggers: product name, name ideas, brand name, naming, what…时，用它产出或更新：- Share your brand guideli…",
+  "skill_id": "04084-product-name-54a303e9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/product-name/SKILL.md",
+  "relative_path": "lute/.dsh/skills/product-name/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0246939903e1db7e68128529bca310766375acef1de9fa420f73db52bbcea047",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

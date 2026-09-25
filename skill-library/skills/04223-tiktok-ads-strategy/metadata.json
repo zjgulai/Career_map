@@ -1,0 +1,22 @@
+{
+  "英文名称": "tiktok-ads-strategy",
+  "中文名称": "待补：tiktok-ads-strategy",
+  "一句话作用": "- Master TikTok ad campaigns through creative-first testing, Spark Ads optimization, and algorithm-driven bidding strategies. 触发词：TikTok广告、TikTok投流、Spark Ads、TikTok竞价、创意测试、学习期优化。",
+  "关键输入": "- 创意优先的 TikTok 广告测试、Spark Ads 与竞价优化。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:41:02+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 创意优先的 TikTok 广告测试、Spark Ads 与竞价优化。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04223-tiktok-ads-strategy-73920e06",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/tiktok-ads-strategy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/tiktok-ads-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "493ed980b5573b8f068c928409fab14836ff7a2458354844d79209d2f69338d0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

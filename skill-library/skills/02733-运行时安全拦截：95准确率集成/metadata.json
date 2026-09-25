@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agenttrust-runtime-safety-interception",
+  "中文名称": "运行时安全拦截：95准确率集成",
+  "一句话作用": "触发词：运行时安全拦截、危险命令判决、提示注入防护、工具调用风控、越权执行阻断、安全修复建议。何时不用：需要代管密钥或隐藏明文凭证时用「Agent 秘密中介」；需要按角色控制知识库文档可见性时用「知识库RBAC」；需要把执行关进隔离环境而不只是判决时用「Agent 沙箱」。安全边界：本技能工作在工具调用层做语义判决与替代建议，不替代容器/seccomp 等系统调用层隔离，也不改动 Agent 既有权限；BLOCK 判决需人工复核后才可…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规运营面临Agent误触高风险动作——Trust Interception将越权执行率1.8%压到0.2%，年化省30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02733-p2s-agenttrust-runtime-safety-interception-1c5036d1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agenttrust-runtime-safety-interception/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agenttrust-runtime-safety-interception/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "24720b6a5bc60d52a689853647fc0bce9ece3591a94d501336cd5a97d457f6a3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

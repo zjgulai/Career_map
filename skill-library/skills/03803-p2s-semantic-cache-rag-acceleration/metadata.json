@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-semantic-cache-rag-acceleration",
+  "中文名称": "待补：p2s-semantic-cache-rag-acceleration",
+  "一句话作用": "触发词：语义缓存、重复查询、RAG 加速、命中率、API 成本。何时不用：模型服务与显存层面的优化走「模型服务优化」；上下文过长需要压缩走「上下文 Token 压缩」。安全边界：缓存须设 TTL 并标注数据时间戳，库存等强时效数据不得用过期缓存作答。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营每天重复查询相同5-10个核心SKU每次800ms推理耗时——引入语义缓存加速（相似查询复用），重复查询响应时间从 800ms→50ms（降低 94%），LLM API 调用成本减少 40%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03803-p2s-semantic-cache-rag-acceleration-40b90edf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-semantic-cache-rag-acceleration/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-semantic-cache-rag-acceleration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da453173ebb4a50c6e841660e862f568ba858991ee5d6551ac04e93c919c43c8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

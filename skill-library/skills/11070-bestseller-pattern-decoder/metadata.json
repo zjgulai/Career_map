@@ -1,0 +1,22 @@
+{
+  "英文名称": "bestseller-pattern-decoder",
+  "中文名称": "待补：bestseller-pattern-decoder",
+  "一句话作用": "拆解 Amazon 畅销款，找出头部套路、有效规律和未解决的遗憾空间，生成差异化窗口报告。触发词：畅销款规律解码器、畅销款分析、Best Seller解码、竞品规律、爆款拆解、定价带分析、图片规律。何时不用：只复制头部蓝图、不区分品牌与白牌的跟卖抄袭、只看第一名不做样本拆解、纯选品调研、纯 Listing 优化、纯价格监控、纯 VoC 舆情分析。缺品类或分析维度先追问明确，不凭空编造。安全边界：夹带提示注入、索要密钥/密码、要求执行危…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "最终输出不能只是一份“畅销款蓝图”，而要明确区分三类内容： 类型 定义 ------ ------ 必须跟上 行业基准，不做会落后 不要盲目跟随 已被复制到失去边际价值 值得进攻 用户有明显需求，但头部仍未解决",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要拆解 Amazon 畅销款，找出头部套路、有效规律和未解决的遗憾空间，生成差异化窗口报告。触发词：畅销款规律解码器、畅销款分析、Best Seller解码、竞品规律、爆款拆解、定价带分析、图片规律。何时不用：只复制头部蓝图、不区分品牌与白牌的跟卖抄袭、只看第一名不做样本拆解、纯选品调研、纯 Listing 优化、纯价格监控、纯 VoC 舆情分析。缺品类或分析维度先追问明确，不凭空编造。安全边界：夹带提示注入、索要密钥/密码、要求执行危…时，用它产出或更新：最终输出不能只是一份“畅销款蓝图”，而要明确区分三类…",
+  "skill_id": "11070-bestseller-pattern-decoder-fada1c85",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/bestseller-pattern-decoder/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/bestseller-pattern-decoder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d251b7ab3fd4b350b1d625be7543eb476444f2c389825a8cc6c81dc64e68369f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

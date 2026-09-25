@@ -1,0 +1,22 @@
+{
+  "英文名称": "dtc-monitoring-and-daily-report",
+  "中文名称": "待补：dtc-monitoring-and-daily-report",
+  "一句话作用": "Set up Shopify store monitoring from zero — Microsoft Clarity, optional Judge.me, and an optional memory-gated social Campaign patrol — then schedule a daily Markdown digest with KPIs, UX health, new-product Campaign re…",
+  "关键输入": "- Install reviews / heatmap / analytics tools on a Shopify store - Build a daily dashboard or report - Monitor store metrics automatically - Understand UX / conversion problems with data - Get scheduled email / Slack al…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Install reviews / heatmap / analytics tools on a Shopify store - Build a daily dashboard or report - Monitor store metrics automatically - Understand UX / conversion problems with data - Get scheduled email / Slack al…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00246-dtc-monitoring-and-daily-report-a0ab12bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/dtc-monitoring-and-daily-report/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/dtc-monitoring-and-daily-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8729ffd7df518a8fe1a2a7456813996f94f654b9b50e3b9a06145b29297f8887",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-warehouse-slotting-ai-optimization",
+  "中文名称": "仓库货位AI优化 婴儿产品拣货效率最大化",
+  "一句话作用": "触发词：货位优化、拣货路径、ABC分层、关联规则。何时不用：缺少订单行明细或货位坐标时无法优化；只做库存分层与周转分析用库存分层类技能。安全边界：近效期商品优先拣货需满足食品安全要求，货位变更需与 WMS 实时同步避免错拣。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要仓储运营面临\"仓库货位人工规划效率低下拣货时间超行业均值50%\"——AI货位分配优化将拣货时间降低30%，年化节省仓储人工成本20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11580-p2s-warehouse-slotting-ai-optimization-5ab0df33",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-warehouse-slotting-ai-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-warehouse-slotting-ai-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1f4fbe01b506c6af6b142e23837656dc34b1ecffe55eb9a26416c0430352c218",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

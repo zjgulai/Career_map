@@ -1,0 +1,22 @@
+{
+  "英文名称": "品牌调性守护（专业·温暖·可信赖）",
+  "中文名称": "待补：品牌调性守护（专业·温暖·可信赖）",
+  "一句话作用": "当需要在发布前检查营销文案/脚本是否符合「专业+温暖+可信赖」母婴调性、并标出语气偏离与夸大风险时调用；不替代法律合规结论。",
+  "关键输入": "- 已有完整 待检文案 与 目标受众 （如新手妈妈、职场哺乳）。 - 若有 品牌词库 （首选词/禁用词）可一并粘贴。",
+  "关键输出": "- verdict: OK REVISE（若疑似违法宣称标 ESCALATE TO COMPLIANCE） - 表：片段 问题类型 严重度 建议替换 备注",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要在发布前检查营销文案/脚本是否符合「专业+温暖+可信赖」母婴调性、并标出语气偏离与夸大风险时调用；不替代法律合规结论。时，用它产出或更新：- verdict: OK REVISE（若疑似违法宣称标 ESCALATE TO COMPLIANCE） - 表：片段 问题类型 严重度 建议替换 备注",
+  "skill_id": "09905-skill-d2941ae8",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/brand-voice-guardian/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/brand-voice-guardian/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e3031c503fa7e005cba1efff60d6cfe4113df02addabcba5a7327f5a5da070f9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-workflow-meeting-summary",
+  "中文名称": "会议纪要汇总工作流",
+  "一句话作用": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。",
+  "关键输入": "仅支持 user 身份 。执行前确保已授权：",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:19+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- \"帮我整理这周的会议纪要\" / \"总结最近的会议\" / \"生成会议周报\" - \"看看今天开了哪些会\" / \"回顾过去一周开了哪些会\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04529-lark-workflow-meeting-summary-a94f780a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/lark/0.1.0/skills/lark-workflow-meeting-summary/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/lark/0.1.0/skills/lark-workflow-meeting-summary/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "81cb54fef0e81beb619ca4f8168cbef1cb8dcedad816c5dd1ab81a4c6135483a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

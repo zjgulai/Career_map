@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-compliance-ml-risk-scoring",
+  "中文名称": "合规 ML 风险评分：用机器学习量化违规概率",
+  "一句话作用": "触发词：合规风险评分、违规概率、审查排序、SHAP 解释、Listing 审核。何时不用：做标签公平性与偏见检测用「标签公平性与偏见审计」；做低频事件召回优化用「类别不平衡处理」。安全边界：评分只用于排定人工审查优先级，不得据分数自动下架商品或对外认定违规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要35个SKU每月合规审查人力有限不知道应该先审查哪些——ML风险评分输出每个SKU的违规概率将人工审查效率提升3-5倍，主动发现新违规模式避损年化30-120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02925-p2s-compliance-ml-risk-scoring-c0efb703",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-compliance-ml-risk-scoring/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-compliance-ml-risk-scoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3dcfe76461a5c562ff53177948a2169515d406d8e76acd02ebd03de2e2f51624",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

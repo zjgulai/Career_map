@@ -1,0 +1,22 @@
+{
+  "英文名称": "user-segmentation",
+  "中文名称": "待补：user-segmentation",
+  "一句话作用": "按行为与价值把现有用户切成若干群，说明各群特征与应采取的运营重点。触发词：用户分群、user-segmentation、按行为与价值把现有用户切成若干群，说明各群特征与应采取的运营重点。",
+  "关键输入": "Your task is to segment users for $ARGUMENTS based on behavior, jobs-to-be-done, and unmet needs. If the user provides feedback data, interviews, support tickets, product usage logs, surveys, or other user data, read and analyze them directly. Extract behavio…",
+  "关键输出": "For each identified segment (minimum 3): Segment Name & Overview - Clear, descriptive segment identifier - Size: estimated number or percentage of user base - Brief one-sentence characterization Behavioral Characteristics - How this segment uses $ARGUMENTS (p…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要按行为与价值把现有用户切成若干群，说明各群特征与应采取的运营重点。触发词：用户分群、user-segmentation、按行为与价值把现有用户切成若干群，说明各群特征与应采取的运营重点。时，用它产出或更新：For each identified segment (minimum 3): Segment Name & Overview - Clear, descriptive segment identifier - Size: estimated number or percentage of user b…",
+  "skill_id": "04236-user-segmentation-29d28476",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/user-segmentation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/user-segmentation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3634eee9dc874e82b5194929d3ab4d7db8bae1647587b9bb52f205ec8f721197",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

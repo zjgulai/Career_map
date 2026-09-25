@@ -1,0 +1,22 @@
+{
+  "英文名称": "optimize-ecommerce-page-conversion",
+  "中文名称": "待补：optimize-ecommerce-page-conversion",
+  "一句话作用": "- Expert framework for optimizing Shopify store pages (Home, Collection, PDP, Promo) using conversion benchmarks and industry checklists.",
+  "关键输入": "- When store traffic is consistent but conversion rate (CR) is below industry benchmarks. - Before launching major marketing campaigns to ensure the landing page is optimized. - When high bounce rates are observed on sp…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T15:30:52+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- When store traffic is consistent but conversion rate (CR) is below industry benchmarks. - Before launching major marketing campaigns to ensure the landing page is optimized. - When high bounce rates are observed on sp…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11007-optimize-ecommerce-page-conversion-cbf1af8b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-ddc7a3f1/packages/capabilities/dsh-overseas-skills/backup/pre-81/optimize-ecommerce-page-conversion/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-ddc7a3f1/packages/capabilities/dsh-overseas-skills/backup/pre-81/optimize-ecommerce-page-conversion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f891f74fb0f15194e9e1e92c5f9e4bfc7154f5c0c8c49ea1c8cfd8c1274b2672",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

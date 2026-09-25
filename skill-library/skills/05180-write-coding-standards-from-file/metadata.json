@@ -1,0 +1,22 @@
+{
+  "英文名称": "write-coding-standards-from-file",
+  "中文名称": "待补：write-coding-standards-from-file",
+  "一句话作用": "Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt.",
+  "关键输入": "If any of the variable names are passed to prompt as-is, or as a similar but clearly related text value, then override the default variable value with the value passed to prompt.",
+  "关键输出": "Output the coding standards to the prompt instead of creating a file or adding to README. If true, toggle both ${createNewFile} and ${addToREADME} to false.",
+  "最新更新时间": "2026-09-19T04:12:10+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt.时，用它产出或更新：Output the coding standards to the prompt instead of creating a file or adding to README. If true, toggle…",
+  "skill_id": "05180-write-coding-standards-from-file-555eb507",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/write-coding-standards-from-file/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/write-coding-standards-from-file/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4dee1de37bdad7e02f4f9ae60b91324eb6b1f19fcd5122222e2ff88dfda99702",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

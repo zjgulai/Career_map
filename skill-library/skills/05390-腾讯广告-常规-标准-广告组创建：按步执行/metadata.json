@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencentads-delivery-standard-create",
+  "中文名称": "腾讯广告 - 常规(标准)广告组创建：按步执行",
+  "一句话作用": "专用于创建常规(标准)展示营销单元（原广告组）的 SDK 化技能。当用户意图涉及常规投放、标准营销单元创建、CPC/CPM/oCPM/oCPC出价营销单元的 创建 场景时，使用本技能。当用户未明确提到智投关键词或者用户指定了手动版位的，应优先使用本技能。覆盖场景：电商推广、APP下载注册、品牌曝光、销售线索收集、内容变现等常规展示营销单元。本技能通过专用脚本（而非全局 CLI 工具）调用 API，脚本已处理复杂分支、字段过滤和数据转换…",
+  "关键输入": "脚本调用格式为 node scripts/ .mjs ' '，但 JSON 参数的引号包裹方式因操作系统/终端而异 ，传递不当会导致 JSON.parse 报错（如 Expected property name or '}' in JSON at position 1）。 终端环境 正确写法 说明 --------- --------- ------ Linux / macOS (Bash/Zsh) node scripts/xxx.mjs '{\"key\":\"value\"}' ✅ 单引号包裹，内部双引号原样保留",
+  "关键输出": "脚本返回的 match result 已按优先级完成匹配，直接根据 status 处理： match result.status 含义 处理方式 ---------------------- ------ --------- unique match 恰好 1 个 combination 下命中 1 条资产 ✅ 直接使用 matched items[0].combination 作为四元组，matched items[0].asset 作为资产信息。 验证一致性 ：如果用户同时给了营销目标线索（如\"线索收集\"），…",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要专用于创建常规(标准)展示营销单元（原广告组）的 SDK 化技能。当用户意图涉及常规投放、标准营销单元创建、CPC/CPM/oCPM/oCPC出价营销单元的 创建 场景时，使用本技能。当用户未明确提到智投关键词或者用户指定了手动版位的，应优先使用本技能。覆盖场景：电商推广、APP下载注册、品牌曝光、销售线索收集、内容变现等常规展示营销单元。本技能通过专用脚本（而非全局 CLI 工具）调用 API，脚本已处理复杂分支、字段过滤和数据转换…时，用它产出或更新：脚本返回的 match result 已按优先级完成…",
+  "skill_id": "05390-tencentads-delivery-standard-create-d3d7b4b9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-delivery-standard-create/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-delivery-standard-create/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8c85e26903b895bfb55982048236fb7c748ff787197650f235c935d37a4151a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

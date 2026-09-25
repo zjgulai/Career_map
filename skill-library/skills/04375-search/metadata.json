@@ -1,0 +1,22 @@
+{
+  "英文名称": "search",
+  "中文名称": "待补：search",
+  "一句话作用": "Deep research powered by Exa. Use for lead generation, literature reviews, deep dives, competitive analysis, or any query where one search falls short, including phrases like 'research this', 'find everything about', 'f…",
+  "关键输入": "Server: https://mcp.exa.ai/mcp. 1. OAuth (recommended) — client opens auth.exa.ai, user signs in with Google / SSO / email, JWT is attached automatically. No key to copy. 2. API key — if OAuth isn't available, get one at https://dashboard.exa.ai/api-keys and…",
+  "关键输出": "After subagents return: Deduplicate: 1. Collect all results into a single list 2. Remove exact URL duplicates 3. Same entity from different sources: merge fields, keep the most complete/recent data 4. Track: \"Deduplicated X results down to Y unique entries\"",
+  "最新更新时间": "2026-09-17T01:24:42+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Deep research powered by Exa. Use for lead generation, literature reviews, deep dives, competitive analysis, or any query where one search falls short, including phrases like 'research this', 'find everything about', 'f…时，用它产出或更新：After subagents return: De…",
+  "skill_id": "04375-search-561104f4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.npm/_npx/f38053b63df93bd4/node_modules/exa-mcp-server/skills/search/SKILL.md",
+  "relative_path": "lute/.npm/_npx/f38053b63df93bd4/node_modules/exa-mcp-server/skills/search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0aacd119c70b57144e7358c5829061a0d25a734ea29afb668392861250c9e42f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

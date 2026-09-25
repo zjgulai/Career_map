@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-poisonedrag-knowledge-poisoning-defense",
+  "中文名称": "防御 知识库投毒攻击检测与防御",
+  "一句话作用": "触发词：知识库投毒、虚假声明、异常检测、实时告警、合规风险。何时不用：知识库没有外部写入通道、内容全部内部审核过时，投毒风险很低；本技能面向内容会从外部汇入的系统。安全边界：告警与拦截判据是契约产物，下架动作由执行层完成；合规结论须人工复核，不得直接对外发布。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要安全团队面临知识库被竞品植入虚假合规信息——投毒攻击检测将恶意文档识别率达96%，规避合规风险年化保护价值80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12069-p2s-poisonedrag-knowledge-poisoning-defense-9f2d3d12",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-poisonedrag-knowledge-poisoning-defense/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-poisonedrag-knowledge-poisoning-defense/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5cbf476cbd6e397be0010b6f473a7888aaac26269fe0d956a37280efabe0677",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

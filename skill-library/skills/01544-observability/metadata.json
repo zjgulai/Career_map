@@ -1,0 +1,22 @@
+{
+  "英文名称": "observability",
+  "中文名称": "待补：observability",
+  "一句话作用": "Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and monitoring dashboards. Use when ins…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "curl -N -H \"[REDACTED] $VERCEL TOKEN\" \\ \"https://api.vercel.com/v3/deployments/ /events\" \\ --max-time 120 // Programmatic streaming with timeout const controller = new AbortController() const timeout = setTimeout(() = controller.abort(), 60 000) // 60s max",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and monitoring dashboards. Use when ins…时，用它产出或更新：curl -N -H \"[REDACTED] $VE…",
+  "skill_id": "01544-observability-8f9ec77d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/observability/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/observability/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec9869baf54d7aaa65e34685deab4c855c23b2e65a9ed987ba2e9ce2ee0d4c48",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

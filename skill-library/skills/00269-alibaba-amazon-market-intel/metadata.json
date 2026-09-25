@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-amazon-market-intel",
+  "中文名称": "待补：alibaba-amazon-market-intel",
+  "一句话作用": "Amazon market data toolkit powered by Jungle Scout MCP. 6 APIs, 42 sub-modules covering keyword search volume, reverse-ASIN, sales estimates, product database filtering, and brand share of voice. Use when the user asks…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "将分析结果（表格、洞察、关键发现）直接输出在对话中。CSV 文件作为完整数据的参考。 ---",
+  "最新更新时间": "2026-09-21T17:35:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Amazon market data toolkit powered by Jungle Scout MCP. 6 APIs, 42 sub-modules covering keyword search volume, reverse-ASIN, sales estimates, product database filtering, and brand share of voice. Use when the user asks…时，用它产出或更新：将分析结果（表格、洞察、关键发现）直接输出在对话中。C…",
+  "skill_id": "00269-alibaba-amazon-market-intel-1a59c823",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/alibaba-amazon-market-intel/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/alibaba-amazon-market-intel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d6f209079db51a7ed82f8ddeb0aaadda4e8d7f65b19b4ec8ec67e3fe26f4e4f6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

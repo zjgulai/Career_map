@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-cost-lifecycle-kpi",
+  "中文名称": "物流成本前中后生命周期管理KPI 生意前模拟生意中账单生意后分析的三段成本闭环",
+  "一句话作用": "触发词：物流账单核对、费率核对、成本模拟、物流费率、多收费用追回。何时不用：只做单次方案的费率比选用「经济性分析」，要逐笔勾对平台收入与费用入账用「收入与费用核对」；本技能覆盖物流成本生意前模拟、生意中核对、生意后分析三段闭环。安全边界：索赔与账单争议须人工确认后向物流商发起，本技能只出差异清单与方案对比。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要物流账单每月不核对平均损失3-8%（$300-800）且物流方案选择拍脑袋——前中后三段管理（生意前成本模拟/生意中账单核对/生意后按渠道SKU分析），账单核对追回多收+生意前模拟选最优物流方案时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11439-p2s-logistics-cost-lifecycle-kpi-9866fd27",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-logistics-cost-lifecycle-kpi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-logistics-cost-lifecycle-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e557c09b0a80aa10867c325bae350521e5a656bc21668b59f2786a69ff67413b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

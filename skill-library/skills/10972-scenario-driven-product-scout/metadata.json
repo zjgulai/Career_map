@@ -1,0 +1,22 @@
+{
+  "英文名称": "scenario-driven-product-scout",
+  "中文名称": "待补：scenario-driven-product-scout",
+  "一句话作用": "- Discovers product ideas using the \\\"Three Shopping Moments\\\" framework (Calendar / Life / Everyday) combined with 20 differentiation strategies. Generates beginner-friendly product concepts with positioning, keywords,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-23T02:20:00+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要- Discovers product ideas using the \\\"Three Shopping Moments\\\" framework (Calendar / Life / Everyday) combined with 20 differentiation strategies. Generates beginner-friendly product concepts with positioning, keywords,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10972-scenario-driven-product-scout-f5e15fd2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-3bbee86f/packages/capabilities/dsh-overseas-skills/backup/pre-81/scenario-driven-product-scout/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-3bbee86f/packages/capabilities/dsh-overseas-skills/backup/pre-81/scenario-driven-product-scout/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "046fd0b9c5a62e3eea7c026161fb5bbbae477a2df7693f0790e25c4347e5f3b1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

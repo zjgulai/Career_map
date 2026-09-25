@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-first-mile-pickup-route-optimization",
+  "中文名称": "首公里取货路径优化",
+  "一句话作用": "触发词：首公里取货路径、取货排线、多停靠点取货、容量约束路线、取货运费。何时不用：工厂有明确可接受取货时段、要按时间窗与实时就绪时间排线用「首公里取货」；本技能只解容量约束下的多停靠点取货路线。安全边界：路线与降本结论须人工复核后再派车，模型不直接调度司机。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要物流团队面临\"多工厂取货路线重叠导致首公里成本虚高\"——CVRP路径优化节省取货运费40%，年化节省物流成本15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11391-p2s-first-mile-pickup-route-optimization-ee365dc5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-first-mile-pickup-route-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-first-mile-pickup-route-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd5e1c2786efff61c85850e8f687312f83aa363d386a0a094f22ec4c3960dd5e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

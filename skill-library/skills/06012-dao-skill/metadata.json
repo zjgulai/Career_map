@@ -1,0 +1,22 @@
+{
+  "英文名称": "dao-skill",
+  "中文名称": "待补：dao-skill",
+  "一句话作用": "Dao-Sheng-Wan, an Agent Skill meta-designer that returns vague requests to their root and designs, generates, audits, optimizes, prepares for publication, or evolves runnable Skills from evidence. Use when the user want…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T02:22:49+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Dao-Sheng-Wan, an Agent Skill meta-designer that returns vague requests to their root and designs, generates, audits, optimizes, prepares for publication, or evolves runnable Skills from evidence. Use when the user want…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06012-dao-skill-a09ff17f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/Codex/2026-09-01/1-post-md-2-md-3-12/work/dao-en-optimized-r2.fUTBmp/SKILL.md",
+  "relative_path": "lute/Documents/Codex/2026-09-01/1-post-md-2-md-3-12/work/dao-en-optimized-r2.fUTBmp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0efe5ba3ac315dba40dd1a80ce30425325ebe40b4e8af2113d37e910752f3229",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

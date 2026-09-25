@@ -1,0 +1,22 @@
+{
+  "英文名称": "international-shipping-customs",
+  "中文名称": "待补：international-shipping-customs",
+  "一句话作用": "Set up cross-border logistics including HS code classification, duties/taxes (DDP vs DDU) configuration, and customs documentation to ensure seamless global delivery.",
+  "关键输入": "- When expanding from domestic-only sales to international markets. - When offering Delivered Duty Paid (DDP) to show customers the full final cost at checkout and avoid \"bill on delivery\" surprises. - When building a p…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:29+08:00",
+  "业务场景": "fulfillment-shipping",
+  "解决具体问题": "当需要- When expanding from domestic-only sales to international markets. - When offering Delivered Duty Paid (DDP) to show customers the full final cost at checkout and avoid \"bill on delivery\" surprises. - When building a p…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00329-international-shipping-customs-aca1c92b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/international-shipping-customs/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/international-shipping-customs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "09012a0cbd48a8dbb10b0fdbde04bca6976e20781e7728b79fcb480265de1f72",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

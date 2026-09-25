@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fba-fee-intelligence",
+  "中文名称": "费用结构分析与长库龄预警）",
+  "一句话作用": "触发词：FBA 费用分析、长库龄预警、五层费用拆解、费用率异常、LTSF 预警。何时不用：要看费用瀑布各层占比并锁定高费用集群用「FBA 费用瀑布归因」；要算库存持有全口径成本与 EOQ 用「库存持有成本模型」。安全边界：费用率与预警阈值须与最新平台费率表核对，不能据本卡结论直接清货或移仓。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要FBA 月账单 15 万元但不知道哪些 SKU 费用异常——五层费用拆解（头程/仓储/长库龄/移仓/退货）到 SKU 粒度，长库龄 270 天提前预警，年化减少 LTSF 5-20 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12541-p2s-fba-fee-intelligence-734b0148",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-fba-fee-intelligence/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-fba-fee-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6e4b9f56310bbb58f1dd11ac1c5312ca983b9ca95504253f6e05fd23e2126019",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

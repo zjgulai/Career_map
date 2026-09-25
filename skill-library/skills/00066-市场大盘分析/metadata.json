@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-2-market-overview",
+  "中文名称": "市场大盘分析",
+  "一句话作用": "市场大盘分析（模块 A + 模块 B）。生成全球市场规模、CAGR、产地分布、平台需求指数、供需比、星级分布、24个月询盘趋势、飙升子类目、行业宏观驱动因素、近期政策事件。通过 MCP 工具（market detail/seller portrait/market trend/cate rank/crowd insight）与 web search（Fortune Business Insights / Grand View Rese…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "字段 说明 ------ ------ 全球产值 & 平台交易额 该品类全球市场规模及国际站平台体量 主要供给国/产地分布 主要生产国及中国产地省市分布 头部集中度 CR10 前10卖家市场占有率估算 星级分布结构 国际站内1星/2星/3星+商家占比 行业进入门槛评估 资金/认证/供应链/技术壁垒综合评级（低/中/高）",
+  "最新更新时间": "2026-09-12T16:24:26+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要市场大盘分析（模块 A + 模块 B）。生成全球市场规模、CAGR、产地分布、平台需求指数、供需比、星级分布、24个月询盘趋势、飙升子类目、行业宏观驱动因素、近期政策事件。通过 MCP 工具（market detail/seller portrait/market trend/cate rank/crowd insight）与 web search（Fortune Business Insights / Grand View Rese…时，用它产出或更新：字段 说明 ------ ------ 全球产值 &…",
+  "skill_id": "00066-skill-2-market-overview-987e759b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-85471462U1788237-8A8E75-5855-E4100B/agent-core/skills/skill-2-market-overview/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-85471462U1788237-8A8E75-5855-E4100B/agent-core/skills/skill-2-market-overview/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c38c7bc9cf7e319101a1e6834a0fc86c7a08b3784ce1d1c1210aa4b502a267b3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-knowledge-graph-for-skills-management",
+  "中文名称": "知识图谱驱动的技能管理）",
+  "一句话作用": "触发词：技能图谱、学习路径、技能组合推荐、知识缺口、岗位能力。何时不用：只想按一句话找到单个技能时用「业务问题→Skill 检索」，要在 Agent 内部选工具时用「LLM 工具路由」。安全边界：只处理内部技能与成员能力画像，员工能力数据须在授权范围内使用，不对外披露、不用于考核排序。",
+  "关键输入": "输入 ：已有 Skill 卡片（20+ 个，涵盖因果推断、A/B 实验、时间序列、推荐系统、增长模型、NLP 等）及其元数据（领域、难度、业务价值、前置技能、延伸技能）、典型母婴出海业务问题与技能组合的映射库、团队成员的技能掌握程度与岗位职责画像；粒度：技能节点 × 关系 × 人员。 输出 ：个性化学习路径（按当前技能水平排出的学习顺序）、针对具体业务问题的技能组合推荐（如「如何优化吸奶器广告投放」→ Uplift Modeling + 智能归因，「如何预测新品销量」→ TFT + 多层级库存优化）与团队知识缺口…",
+  "关键输出": "输入 ：已有 Skill 卡片（20+ 个，涵盖因果推断、A/B 实验、时间序列、推荐系统、增长模型、NLP 等）及其元数据（领域、难度、业务价值、前置技能、延伸技能）、典型母婴出海业务问题与技能组合的映射库、团队成员的技能掌握程度与岗位职责画像；粒度：技能节点 × 关系 × 人员。 输出 ：个性化学习路径（按当前技能水平排出的学习顺序）、针对具体业务问题的技能组合推荐（如「如何优化吸奶器广告投放」→ Uplift Modeling + 智能归因，「如何预测新品销量」→ TFT + 多层级库存优化）与团队知识缺口…",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要（ 换底正文在此截断 —— 完整卡正文共 816 行，本页内联到第 88 行；其余见 references/full-card.md。 代码围栏已整块移入 references/implementation.py，引文整段见下节。）时，用它产出或更新：输入 ：已有 Skill 卡片（20+ 个，涵盖因果推断、A/B 实验、时间序列、推荐系统、增长模型、NLP 等）及其元数据（领域、难度、业务价值、前置技能、延伸技能）、典型母婴出海业务问题与技能组合的映射库、团队成员的技能掌握程度与岗位职责画像；粒度：技能节…",
+  "skill_id": "03295-p2s-knowledge-graph-for-skills-management-9243c524",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-knowledge-graph-for-skills-management/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-knowledge-graph-for-skills-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "127481e05db12ebc0aa91f70322f9f2812c8762e77f2f5e67c07d7b3052bac25",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "canvas2d-data-visualization",
+  "中文名称": "待补：canvas2d-data-visualization",
+  "一句话作用": "Render data visualizations with Canvas2D. Use when the visualization needs high mark counts, fast redraws, immediate-mode rendering, custom hit testing, or a hybrid Canvas plus SVG or HTML architecture.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Explain why Canvas is better than SVG for the workload. - If SVG could also work, name the interaction, accessibility, and maintenance costs Canvas introduces and why the performance tradeoff is still worth it. - Keep labels and accessibility strategy expli…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Render data visualizations with Canvas2D. Use when the visualization needs high mark counts, fast redraws, immediate-mode rendering, custom hit testing, or a hybrid Canvas plus SVG or HTML architecture.时，用它产出或更新：- Explain why Canvas is better than SVG for…",
+  "skill_id": "00738-canvas2d-data-visualization-115d7294",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/canvas2d-data-visualization/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/canvas2d-data-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "84818b1115021ef92305dd5a602553b7d2980ba5b512a9f356391e3b62798f30",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

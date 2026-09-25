@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-uplift-modeling",
+  "中文名称": "元学习框架)",
+  "一句话作用": "触发词：Uplift 建模、增量效应、优惠券定向、自然购买者识别、X-Learner。何时不用：只预测转化概率、不做增量归因时用常规响应模型；本技能要区分广告敏感型与本来就会买的用户。安全边界：建模用的用户级数据须已获授权并匿名化；投放须遵守平台广告与隐私政策。",
+  "关键输入": "输入 ：用户级实验数据：特征矩阵、干预标志（1=干预，0=对照）、结果变量（转化 0/1 或连续值）。必须同时具备干预组与对照组。 输出 ：每位用户的 Uplift Score 与分群结果（高/低/负增量）、对应的投放或发券建议与预算倾斜方向；供投放与促销团队使用。",
+  "关键输出": "输入 ：用户级实验数据：特征矩阵、干预标志（1=干预，0=对照）、结果变量（转化 0/1 或连续值）。必须同时具备干预组与对照组。 输出 ：每位用户的 Uplift Score 与分群结果（高/低/负增量）、对应的投放或发券建议与预算倾斜方向；供投放与促销团队使用。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：Uplift 建模、增量效应、优惠券定向、自然购买者识别、X-Learner。何时不用：只预测转化概率、不做增量归因时用常规响应模型；本技能要区分广告敏感型与本来就会买的用户。安全边界：建模用的用户级数据须已获授权并匿名化；投放须遵守平台广告与隐私政策。时，用它产出或更新：输入 ：用户级实验数据：特征矩阵、干预标志（1=干预，0=对照）、结果变量（转化 0/1 或连续值）。必须同时具备干预组与对照组。 输出 ：每位用户的 Uplift Score 与分群结果（高/低/负增量）、对应的投放或发券建议与…",
+  "skill_id": "03987-p2s-uplift-modeling-0a47f4f7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-uplift-modeling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-uplift-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7617995e0f9c916dc4ac2ae062c818119dbfbedffd2a3fe22a38b8fcdc06e898",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

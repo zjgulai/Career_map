@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-progent-privilege-control",
+  "中文名称": "最小权限 Agent 框架：SMT 验证 单调约束性",
+  "一句话作用": "触发词：最小权限Agent、策略即代码、SMT验证、扩权审批、单调约束、审计链。何时不用：需要隐藏明文密钥时用「Agent 秘密中介」；需要在工具调用层按命令语义拦危险动作时用「运行时安全拦截」；需要隔离执行环境并支持回滚时用「Agent 沙箱」。安全边界：扩权请求不得由 Agent 自行批准，必须走人工审批并写入完整审计链；策略只允许单调收紧，禁止静默放宽；符号验证层不得被 LLM 层输出绕过。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购 Agent 若获得全量 ERP 权限，一次提示注入攻击即可绕过审批直接下单——最小权限控制为每个 Agent 生成细粒度策略（仅允许创建限额内采购单），权限滥用风险降低 80%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12076-p2s-progent-privilege-control-26237e37",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-progent-privilege-control/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-progent-privilege-control/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6be812abe7d9306813edd7eba63329263983edaf7e9d8df0f0881b823de4091",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

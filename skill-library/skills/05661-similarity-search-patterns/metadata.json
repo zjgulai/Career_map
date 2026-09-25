@@ -1,0 +1,22 @@
+{
+  "英文名称": "similarity-search-patterns",
+  "中文名称": "待补：similarity-search-patterns",
+  "一句话作用": "Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance.",
+  "关键输入": "- Building semantic search systems - Implementing RAG retrieval - Creating recommendation engines - Optimizing search latency - Scaling to millions of vectors - Combining semantic and keyword search",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- Building semantic search systems - Implementing RAG retrieval - Creating recommendation engines - Optimizing search latency - Scaling to millions of vectors - Combining semantic and keyword search时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05661-similarity-search-patterns-27a85317",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/similarity-search-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/similarity-search-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be2052f6291477adc164503af13dbd73dfeba79f77ead03624c45f0b28f8a87a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

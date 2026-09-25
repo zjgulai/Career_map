@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-brand-safety-video-content-filter",
+  "中文名称": "品牌安全视频内容过滤",
+  "一句话作用": "触发词：品牌安全审查、UGC 内容过滤、违规风险分级、宣称合规、审核队列分派。何时不用：要生成或改写内容用脚本生成类技能，本技能只对已有 UGC 与视频文案做风险分级与拦截。安全边界：不得删除或屏蔽用户合法表达，高风险内容必须转人工复核而非自动处罚，规则库须与法务口径一致并定期复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌负责人面临\"UGC内容中出现品牌违规场景\"——语义过滤将品牌违规内容识别率从60%提升至95%，年化规避合规风险10起时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02832-p2s-brand-safety-video-content-filter-4bf0ecd8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-brand-safety-video-content-filter/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-brand-safety-video-content-filter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a75fb031a7e644d91631a612360eb577c2d35393e4f5ed0d5cc63145de8a65d5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

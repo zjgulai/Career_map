@@ -1,0 +1,22 @@
+{
+  "英文名称": "客服反馈洞察提取（VOC → 产品/货盘）",
+  "中文名称": "待补：客服反馈洞察提取（VOC → 产品/货盘）",
+  "一句话作用": "当需从一段时期内的工单与评价中提炼可结构化洞察（质量问题、包装、说明书、竞品对比）并推送给产品与货盘域时调用。",
+  "关键输入": "- 导出 工单文本 （脱敏）或 评价聚合 ；时间窗 ≥14 天 较稳。 - SKU 映射表 （若用户用语不标准）。",
+  "关键输出": "- theme count example quotes redacted sku top severity owner suggested - 行动项 ：进入 sku-health-scanner 或工程变更。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需从一段时期内的工单与评价中提炼可结构化洞察（质量问题、包装、说明书、竞品对比）并推送给产品与货盘域时调用。时，用它产出或更新：- theme count example quotes redacted sku top severity owner suggested - 行动项 ：进入 sku-health-scanner 或工程变更。",
+  "skill_id": "09891-voc-f90614bb",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/feedback-insight-extractor/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/feedback-insight-extractor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c87be5523ca276baaf02efc96c0439370b170b73efa7850163faac3a57cca150",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "update-codeql-query-dataflow-csharp",
+  "中文名称": "待补：update-codeql-query-dataflow-csharp",
+  "一句话作用": "Upgrade C CodeQL queries from legacy (v1) language-specific dataflow API to modern (v2) shared dataflow API while ensuring query result equivalence through test-driven development. Use this skill when modernizing C data…",
+  "关键输入": "- Migrating legacy C queries using DataFlow::Configuration to modern DataFlow::ConfigSig - Updating queries to use the shared dataflow library introduced in 2023 - Modernizing C queries that use deprecated dataflow patt…",
+  "关键输出": "The most important outcome is ensuring the migrated query produces exactly the same results as the original query. Result changes due to query migration alone can cause: - Alert flapping : Issues appearing and disappearing without code changes - False confide…",
+  "最新更新时间": "2026-09-19T03:57:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Migrating legacy C queries using DataFlow::Configuration to modern DataFlow::ConfigSig - Updating queries to use the shared dataflow library introduced in 2023 - Modernizing C queries that use deprecated dataflow patt…时，用它产出或更新：The most important outcome…",
+  "skill_id": "05151-update-codeql-query-dataflow-csharp-298c99f8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/update-codeql-query-dataflow-csharp/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/update-codeql-query-dataflow-csharp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "35599a0b5cb9275ae7a1d14a3e37c3f748697ec3686aefdb9c6d623e8db84078",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

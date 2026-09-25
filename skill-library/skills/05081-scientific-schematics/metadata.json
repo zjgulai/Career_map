@@ -1,0 +1,22 @@
+{
+  "英文名称": "scientific-schematics",
+  "中文名称": "待补：scientific-schematics",
+  "一句话作用": "Create publication-quality scientific diagrams using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Only regenerates if quality is below threshold for your document type. Speci…",
+  "关键输入": "1. Resolution - Vector preferred, or 300+ DPI for raster 2. File format - PDF for LaTeX, SVG for web, PNG as fallback 3. Color space - RGB for digital, CMYK for print (convert if needed) 4. Line weights - Minimum 0.5 pt, typical 1-2 pt 5. Text size - 7-8 pt m…",
+  "关键输出": "print(f\"Final score: {results['final score']}/10\") print(f\"Final image: {results['final image']}\")",
+  "最新更新时间": "2026-09-19T03:50:00+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要This skill should be used when: - Creating neural network architecture diagrams (Transformers, CNNs, RNNs, etc.) - Illustrating system architectures and data flow diagrams - Drawing methodology flowcharts for study desi…时，用它产出或更新：print(f\"Final score: {resu…",
+  "skill_id": "05081-scientific-schematics-2f942524",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/scientific-schematics/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/scientific-schematics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0ffbbb6c89e2a58b5d7fee718ab10db7ac663243eac22adb441722b278bd7da0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "javascript-mastery",
+  "中文名称": "待补：javascript-mastery",
+  "一句话作用": "33+ essential JavaScript concepts every developer should know, inspired by 33-js-concepts.",
+  "关键输入": "Use this skill when: - Explaining JavaScript concepts - Debugging tricky JS behavior - Teaching JavaScript fundamentals - Reviewing code for JS best practices - Understanding language quirks ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:20+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Explaining JavaScript concepts - Debugging tricky JS behavior - Teaching JavaScript fundamentals - Reviewing code for JS best practices - Understanding language quirks ---时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04921-javascript-mastery-a85d3504",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/javascript-mastery/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/javascript-mastery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ed14cfb86d96a3e3db5eabf0bd47c8645af25de1ef633cce26c34a6f78df7d74",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

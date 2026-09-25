@@ -1,0 +1,22 @@
+{
+  "英文名称": "consultation",
+  "中文名称": "待补：consultation",
+  "一句话作用": "Consult for ordinary material architecture, interface, data-model, or explicit advisor, generic-advisor, authorization, challenge, second-opinion, or architecture-review choices; or, when targeted evidence still leaves…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Consult for ordinary material architecture, interface, data-model, or explicit advisor, generic-advisor, authorization, challenge, second-opinion, or architecture-review choices; or, when targeted evidence still leaves…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01238-consultation-19848bdd",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/advisor/1.4.5/skills/consultation/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/advisor/1.4.5/skills/consultation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "edffdb2ac174e6f749a6eed5a0eeb5151f1b4851e8ed3f6cff476b71d96e992c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

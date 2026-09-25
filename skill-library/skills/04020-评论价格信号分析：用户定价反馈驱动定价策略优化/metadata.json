@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-price-signal-analysis",
+  "中文名称": "评论价格信号分析：用户定价反馈驱动定价策略优化",
+  "一句话作用": "触发词：评论价格信号、太贵分析、支付意愿代理、价格阻力、价值感知、降价判断。何时不用：要用实验定量验证价格形式效果用「心理定价 A/B 测试」；要估弹性系数用「需求价格弹性估算」。安全边界：评论数据使用须符合平台条款与个人信息保护要求，不得据此对评论者做歧视性定价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要卖家知道有人说吸奶器\"太贵\"但无法量化这对定价策略意味着什么——WTP代理模型从评论提取价格信号指数，区分真实价格阻力和价值感知不足，避免盲目降价年化保护毛利20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04020-p2s-voc-price-signal-analysis-50b40df0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voc-price-signal-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voc-price-signal-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "333739365ddfac913c355880d44df81f76f50ab96dce2c9613bd73d966f10c97",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

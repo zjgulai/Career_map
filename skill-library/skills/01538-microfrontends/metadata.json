@@ -1,0 +1,22 @@
+{
+  "英文名称": "microfrontends",
+  "中文名称": "待补：microfrontends",
+  "一句话作用": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfrontends, multi-zones, splitting an app across teams, independent deployments, cross-app routing, incr…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfrontends, multi-zones, splitting an app across teams, independent deployments, cross-app routing, incr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01538-microfrontends-a357b204",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/microfrontends/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/microfrontends/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aea264a84984cb809c1d8cc9bc9bde2cee8ec92d1101242d89ce743ac484807e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

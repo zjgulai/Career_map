@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-attestation",
+  "中文名称": "待补：glab-attestation",
+  "一句话作用": "管理 GitLab 软件attestation（证明），用于软件供应链安全，包括制品验证和来源追溯。适用于验证软件制品、管理 attestation 或进行供应链安全工作。触发词：attestation、验证制品、来源追溯、供应链安全。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理 GitLab 软件attestation（证明），用于软件供应链安全，包括制品验证和来源追溯。适用于验证软件制品、管理 attestation 或进行供应链安全工作。触发词：attestation、验证制品、来源追溯、供应链安全。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10588-glab-attestation-20b76f1d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-attestation/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-attestation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "947e029e8b209bb5776144dfa7e7c336bd89f3b2800650f4d2c69c900960c775",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

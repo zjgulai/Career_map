@@ -1,0 +1,22 @@
+{
+  "英文名称": "defi-protocol-templates",
+  "中文名称": "待补：defi-protocol-templates",
+  "一句话作用": "Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.",
+  "关键输入": "- Building staking platforms with reward distribution - Implementing AMM (Automated Market Maker) protocols - Creating governance token systems - Developing lending/borrowing protocols - Integrating flash loan functiona…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- Building staking platforms with reward distribution - Implementing AMM (Automated Market Maker) protocols - Creating governance token systems - Developing lending/borrowing protocols - Integrating flash loan functiona…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05575-defi-protocol-templates-32e090fd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/blockchain-web3/skills/defi-protocol-templates/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/blockchain-web3/skills/defi-protocol-templates/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ac05df0cf5d62f18bd7066050886bbe242836db76feb2d552ee524fc85b64b2b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

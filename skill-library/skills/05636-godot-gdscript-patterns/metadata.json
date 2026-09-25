@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-gdscript-patterns",
+  "中文名称": "待补：godot-gdscript-patterns",
+  "一句话作用": "Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices.",
+  "关键输入": "- Building games with Godot 4 - Implementing game systems in GDScript - Designing scene architecture - Managing game state - Optimizing GDScript performance - Learning Godot best practices",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Building games with Godot 4 - Implementing game systems in GDScript - Designing scene architecture - Managing game state - Optimizing GDScript performance - Learning Godot best practices时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05636-godot-gdscript-patterns-2f9fa3ba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/game-development/skills/godot-gdscript-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/game-development/skills/godot-gdscript-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0046830d8a80a769264b91cd9732d13cfdcd7a099b18baab205f4c2dcc60d8c0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

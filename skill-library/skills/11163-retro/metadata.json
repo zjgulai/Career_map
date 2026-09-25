@@ -1,0 +1,22 @@
+{
+  "英文名称": "retro",
+  "中文名称": "待补：retro",
+  "一句话作用": "Facilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from te…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:17:01+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Facilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from te…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11163-retro-12e0f2ff",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/retro/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/retro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ca1986756ce028a83314d49450ff390c00fce224099ff5678cdc83db0998b03",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

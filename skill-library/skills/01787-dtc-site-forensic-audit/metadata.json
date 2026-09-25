@@ -1,0 +1,22 @@
+{
+  "英文名称": "dtc-site-forensic-audit",
+  "中文名称": "待补：dtc-site-forensic-audit",
+  "一句话作用": "DTC 独立站性能与体验法医诊断 SOP：用 Playwright 实地取证（10 类指标采集）， 输出三段式法医报告（现场 + 物证 + 鉴定），指标口径三轨道设计， 竞品 8 站对标，McKinsey SCQA 叙事重构，GitHub Pages 独立仓部署。 触发场景：「诊断网站」「性能分析」「DTC 站审计」「CRO 分析」「独立站体检」 「网站转化率问题」「LCP 慢」「bounce rate 高」「网站质量评估」。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "每次法医审计完成，产出文件： ---",
+  "最新更新时间": "2026-05-25T18:58:10+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要DTC 独立站性能与体验法医诊断 SOP：用 Playwright 实地取证（10 类指标采集）， 输出三段式法医报告（现场 + 物证 + 鉴定），指标口径三轨道设计， 竞品 8 站对标，McKinsey SCQA 叙事重构，GitHub Pages 独立仓部署。 触发场景：「诊断网站」「性能分析」「DTC 站审计」「CRO 分析」「独立站体检」 「网站转化率问题」「LCP 慢」「bounce rate 高」「网站质量评估」。时，用它产出或更新：每次法医审计完成，产出文件： ---",
+  "skill_id": "01787-dtc-site-forensic-audit-aeab2e5f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/dtc-site-forensic-audit/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/dtc-site-forensic-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f0aa743af672bcc614cc7e8a506125cd5a0c09e1fe3218b4c46d3cd2426e20a7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

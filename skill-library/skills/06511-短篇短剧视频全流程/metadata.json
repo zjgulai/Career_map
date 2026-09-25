@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-creative-drama",
+  "中文名称": "短篇短剧视频全流程",
+  "一句话作用": "当用户提出短篇短剧、动画短片、微电影、剧情视频、AI视频、影视化短片、动态漫、宣传片、预告片等 单集 5-10 分钟以内 的短篇制作需求，或包含\"做个短剧\"、\"拍个微电影\"、\"弄个动画短片\"、\"写个短剧剧本\"、\"画个分镜\"、\"搞个人设/场景资产\"、\"出个关键帧\"、\"写图生视频提示词/Seedance提示词\"等表达时调用。适用于需要按\"规划-剧本-分镜-资产-关键帧-视频生成\"推进完整视频生产流程的短篇场景。 不承接几十集连续短剧、长篇…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "启动或接续项目时，先输出简短规划报告，再读取下一阶段 ref：",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要当用户提出短篇短剧、动画短片、微电影、剧情视频、AI视频、影视化短片、动态漫、宣传片、预告片等 单集 5-10 分钟以内 的短篇制作需求，或包含\"做个短剧\"、\"拍个微电影\"、\"弄个动画短片\"、\"写个短剧剧本\"、\"画个分镜\"、\"搞个人设/场景资产\"、\"出个关键帧\"、\"写图生视频提示词/Seedance提示词\"等表达时调用。适用于需要按\"规划-剧本-分镜-资产-关键帧-视频生成\"推进完整视频生产流程的短篇场景。 不承接几十集连续短剧、长篇…时，用它产出或更新：启动或接续项目时，先输出简短规划报告，再读取下一阶段…",
+  "skill_id": "06511-doubao-creative-drama-c52cc9ee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-creative-drama/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-creative-drama/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8fef9d345f4db41324d7dc018a3e3efd08350ee0f0165635cfd52ad33bcc3c4f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

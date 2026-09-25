@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nash-equilibrium-pricing-model",
+  "中文名称": "纳什均衡定价模型 多卖家竞争价格博弈均衡求解",
+  "一句话作用": "触发词：纳什均衡、价格战、最优响应函数、均衡价格区间、竞品成本推断、跟价策略。何时不用：要靠长期重复博弈维持合作高价用「重复博弈长期定价合作」；要判断领导者该不该先动用「Stackelberg 价格领导策略」。安全边界：均衡计算仅基于公开价格数据，不得与竞品沟通协调价格或形成价格垄断协议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要定价负责人面临\"跟价策略陷入价格战困境所有人利润都在下降\"——纳什均衡计算将脱离囚徒困境的临界价格区间可视化，年化防护利润损失$8.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03520-p2s-nash-equilibrium-pricing-model-1ae456b2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-nash-equilibrium-pricing-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-nash-equilibrium-pricing-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "95757a9574d6aa35653b8b3c6f33e1e3aebb8d7da386aea38a9505a30ab84920",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

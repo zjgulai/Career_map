@@ -1,0 +1,22 @@
+{
+  "英文名称": "tongzhou-fin-research",
+  "中文名称": "同舟金融研究连接器",
+  "一句话作用": "连接公开行情、研报检索、行业图谱与同舟投研材料，支持批量查询与事件窗口分析，为股市研究提供可复核证据。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 输出标题/名称、稳定代码或 ID、数据日期/发布时间、来源类型、关键数值与单位。 - 区分事实、观点、推断和数据缺口；不暴露物理表名、SQL、内部索引、原始日志或鉴权信息。 - 中国市场视觉遵循红涨绿跌；文字含义和数值符号优先于颜色。 - 输出只基于公开信息和实际返回的数据。AI 生成内容可能存在误差，不构成投资建议，也不构成个股推荐。",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要连接公开行情、研报检索、行业图谱与同舟投研材料，支持批量查询与事件窗口分析，为股市研究提供可复核证据。时，用它产出或更新：- 输出标题/名称、稳定代码或 ID、数据日期/发布时间、来源类型、关键数值与单位。 - 区分事实、观点、推断和数据缺口；不暴露物理表名、SQL、内部索引、原始日志或鉴权信息。 - 中国市场视觉遵循红涨绿跌；文字含义和数值符号优先于颜色。 - 输出只基于公开信息和实际返回的数据。AI 生成内容可能存在误差，不构成投资建议，也不构成个股推荐。",
+  "skill_id": "05394-tongzhou-fin-research-4a11bda6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tongzhou-fin-research/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tongzhou-fin-research/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec2d0be2b6913346a8ffaac3a5f1139e7b61bcc4b2394e49cc89efe5f8aa5e2a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

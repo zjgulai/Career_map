@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-pain-point-mining",
+  "中文名称": "竞品差评痛点挖掘）",
+  "一句话作用": "触发词：差评痛点、无监督挖掘、机会评分、差异化切入、竞品评论。何时不用：要结合市场规模权重算新品机会分用「VOC-New-Product-Gap-Scoring」；要确定切入价格带用「跨竞品评论选品机会评分」。安全边界：评论抓取须遵守平台条款与 robots.txt；产出报告不得直接引用评论原文以免版权风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要想进入\"电动吸奶器\"品类，但已有 Momcozy/Medela/Spectra 等强竞品时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03738-p2s-review-pain-point-mining-619f4a80",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-review-pain-point-mining/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-review-pain-point-mining/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "19c1c841d3a774ca7a7074b16a6d0cc136420ba58de2d3dccf4445abebf08012",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "设计走查",
+  "中文名称": "设计走查",
+  "一句话作用": "设计走查（Design Review Checklist）。在设计稿 / 多屏 Flow / 落地页等设计产物完成后、上线或交付前进行自检，逐项发现问题并给出修复建议。 触发关键词：设计走查、design review、自检、/设计走查、走查清单、上线前检查、交付前检查、看一下我的设计有什么问题、检查设计稿、找问题、Vibe Coding 自检。 排除（反向）：仅做无障碍专项检查（用 /无障碍检查）、仅做前端实现还原度（用 /设计验收…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成走查后， 同时 做两件事： 1. 会话内输出 ： 2. 写入项目文件 ：spark-output/context/check.json（目录不存在时先创建） 下游可消费 Skill：QA（前端实现走查时引用）/ Pitch（汇报材料引用）/ Retro（复盘归档）。",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要设计走查（Design Review Checklist）。在设计稿 / 多屏 Flow / 落地页等设计产物完成后、上线或交付前进行自检，逐项发现问题并给出修复建议。 触发关键词：设计走查、design review、自检、/设计走查、走查清单、上线前检查、交付前检查、看一下我的设计有什么问题、检查设计稿、找问题、Vibe Coding 自检。 排除（反向）：仅做无障碍专项检查（用 /无障碍检查）、仅做前端实现还原度（用 /设计验收…时，用它产出或更新：完成走查后， 同时 做两件事： 1. 会话内输出 ：…",
+  "skill_id": "04593-skill-7885985b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/check/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dbaa10d47afc2fabde3f76cf64c2494bc74782b72cf5502d8bccae3d641ffc87",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

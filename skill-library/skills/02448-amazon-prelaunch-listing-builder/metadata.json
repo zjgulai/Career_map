@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-prelaunch-listing-builder",
+  "中文名称": "待补：amazon-prelaunch-listing-builder",
+  "一句话作用": "- Build keyword-optimized Amazon listings (title, bullets, backend search terms) from search-volume data; off-Amazon copy reuses buyer language only. Use for listing copywriting or keyword targeting. 【需Jungle Scout MCP】…",
+  "关键输入": "You need enough to seed good keyword research. Infer what you can from the request; ask concisely for the rest in one batch rather than interrogating. Ask in plain conversation — or use an interactive question tool such as ask user when the host provides one,…",
+  "关键输出": "- An empty data[] is a successful call with no records ( observed empty ) — it is not proof of zero demand. If a tool returns nothing for a seed, say \"no records returned,\" cross-check the seed, marketplace, and filters, and try other seeds — never conclude \"…",
+  "最新更新时间": "2026-09-08T01:21:44+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用搜索量数据构建关键词优化的 Listing。时，用它产出或更新：- An empty data[] is a successful call with no records ( observed empty ) — it is not proof of zero demand. If a tool returns nothing for a seed, say \"no records returned,\" cross-check the seed, marketplace, and filters,…",
+  "skill_id": "02448-amazon-prelaunch-listing-builder-7acb9d8f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/amazon-prelaunch-listing-builder/SKILL.md",
+  "relative_path": "lute/.dsh/skills/amazon-prelaunch-listing-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "01c24d66bfca551072e11a294c3c742ef98991424f92e173a49ca453d6ad51fc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

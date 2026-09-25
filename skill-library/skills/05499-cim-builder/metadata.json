@@ -1,0 +1,22 @@
+{
+  "英文名称": "cim-builder",
+  "中文名称": "待补：cim-builder",
+  "一句话作用": "Structure and draft a Confidential Information Memorandum for sell-side M&A processes. Organizes company information into a professional, investor-ready document with consistent formatting and narrative flow. Use when p…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Word document (.docx) with professional formatting - Separate Excel appendix with detailed financials - Charts and exhibits embedded in the document",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Structure and draft a Confidential Information Memorandum for sell-side M&A processes. Organizes company information into a professional, investor-ready document with consistent formatting and narrative flow. Use when p…时，用它产出或更新：- Word document (.docx) wi…",
+  "skill_id": "05499-cim-builder-465866b6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/cim-builder/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/cim-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2cb7106d02595618631c69a5e60087db1d652901c573750decfb03a4b024487",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

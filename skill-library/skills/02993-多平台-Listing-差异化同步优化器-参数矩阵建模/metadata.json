@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-platform-listing-sync-optimizer",
+  "中文名称": "多平台 Listing 差异化同步优化器 参数矩阵建模",
+  "一句话作用": "触发词：多平台同步、平台参数矩阵、TikTok Shop、Shopee、适配度差距分。何时不用：单平台整体体检用「Listing 健康诊断」；本技能解决同款商品在不同平台的参数适配。安全边界：竞品数据须来自合规工具与公开信息，不得获取平台禁止的数据。",
+  "关键输入": "多平台卖家面临\"同一款品在Amazon和TikTok Shop用同一套Listing效果差很多\"——平台规格矩阵优化将各平台Listing适配度提升至最优参数，整体CTR提升18%",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要多平台卖家面临\"同一款品在Amazon和TikTok Shop用同一套Listing效果差很多\"——平台规格矩阵优化将各平台Listing适配度提升至最优参数，整体CTR提升18%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02993-p2s-cross-platform-listing-sync-optimizer-0e6e1f86",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-platform-listing-sync-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-platform-listing-sync-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e7341051b0adfb61c4dc2684a3f4ca3dd3a9308b65f88fe31faa61d0f78be13",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

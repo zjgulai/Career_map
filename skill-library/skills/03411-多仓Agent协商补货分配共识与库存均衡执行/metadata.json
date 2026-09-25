@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-inventory-consensus-action",
+  "中文名称": "多仓Agent协商补货分配共识与库存均衡执行",
+  "一句话作用": "触发词：多仓协商、优先级拍卖、库存均衡、调拨共识、紧迫度出价。何时不用：只做点对点调拨计算、不涉及多方协商时用「多仓库存再平衡」；跨渠道库存池化用「一盘货库存调度」。安全边界：调拨单据与成本归集须完整留痕，会计处理需与财务确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓储运营面临东仓积压700件西仓缺货800件同时存在的库存失衡——多仓Agent优先级拍卖协商调拨将多仓库存均衡率提升25%，年化减少仓储费+缺货损失约$85,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03411-p2s-mas-inventory-consensus-action-55c27562",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mas-inventory-consensus-action/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mas-inventory-consensus-action/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "acb5c4e606db4da4e892dd2348f8738b571977765fe2596e7fcf591063acea58",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "boltz-protein-design",
+  "中文名称": "待补：boltz-protein-design",
+  "一句话作用": "Design new protein binders with Boltz. Use when generating protein, peptide, antibody, nanobody, or custom binder candidates for a target. Not for screening existing proteins or small molecules.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Rank from results/index.jsonl after download-results; use references/results.md for local file layout, metric meanings, and the designed-binder entity type gotcha.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Design new protein binders with Boltz. Use when generating protein, peptide, antibody, nanobody, or custom binder candidates for a target. Not for screening existing proteins or small molecules.时，用它产出或更新：Rank from results/index.jsonl after download-results…",
+  "skill_id": "00705-boltz-protein-design-cf9234e7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-protein-design/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-protein-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "83973679a755563254467daa535361974e67cf1181e71259be738ecde5b44a73",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-timecma-llm-forecasting",
+  "中文名称": "待补：p2s-timecma-llm-forecasting",
+  "一句话作用": "触发词：TimeCMA、跨模态对齐、事件提示、语义增益、多变量预测。何时不用：没有事件文本、纯数值预测时用常规多变量模型；要做多尺度分解的少样本预测用「LLM-Mixer」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务分析师面临节假日波动难解释——TimeCMA将预测误差降18%，年化省11万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11564-p2s-timecma-llm-forecasting-63d70ed7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-timecma-llm-forecasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-timecma-llm-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "70241a22e4cd4b5d8e34aea6c23af72f1dc148781eeadcdb87821f34ffb311e3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

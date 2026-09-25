@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-contact",
+  "中文名称": "待补：lark-contact",
+  "一句话作用": "飞书 / Lark 通讯录:按姓名 / 邮箱解析成 open id,或按 open id 反查姓名 / 部门 / 邮箱 / 联系方式 / 个人状态 / 签名。当用户提到某人姓名要下一步发消息 / 排日程,或拿到 open id 想查具体信息时使用。不负责部门树遍历、按部门列员工、组织架构图,这类需求走原生 OpenAPI。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要飞书 / Lark 通讯录:按姓名 / 邮箱解析成 open id,或按 open id 反查姓名 / 部门 / 邮箱 / 联系方式 / 个人状态 / 签名。当用户提到某人姓名要下一步发消息 / 排日程,或拿到 open id 想查具体信息时使用。不负责部门树遍历、按部门列员工、组织架构图,这类需求走原生 OpenAPI。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05253-lark-contact-b00b2a13",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-contact/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-contact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f8cd36b6dfddfc4974ec3f796b4163d6511aafabd46f7eeacb2798c647f8f06",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

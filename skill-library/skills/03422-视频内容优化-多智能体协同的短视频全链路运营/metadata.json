@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-video-content-optimization",
+  "中文名称": "视频内容优化 多智能体协同的短视频全链路运营",
+  "一句话作用": "触发词：短视频内容自动化、多智能体内容流水线、选题脚本生成、爆款率提升、内容运营提效。何时不用：只优化开场几秒文案用「TikTok 开头钩子优化」，判断哪些内容特征带来转化用「短视频内容归因」，本技能负责选题到分析的全链路协同。安全边界：AI 生成内容须符合平台社区准则与广告标注要求，不得生成虚假宣传或误导性医疗建议，涉婴儿睡眠安全等敏感话题须人工复核后发布。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要内容团队面临\"TikTok内容每天3小时制作爆款率仅5%无法规模化\"——多智能体自动化内容流水线每日3篇爆款率提升至18%，年化GMV增量约150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03422-p2s-mas-video-content-optimization-c9c0d72b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mas-video-content-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mas-video-content-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "14b9bfedae413a11f339247c4418de7103d465fa74b4e455051b01793806eb42",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

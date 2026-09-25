@@ -1,0 +1,22 @@
+{
+  "英文名称": "lead-research-assistant",
+  "中文名称": "待补：lead-research-assistant",
+  "一句话作用": "Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing p…",
+  "关键输入": "- Finding potential customers or clients for your product/service - Building a list of companies to reach out to for partnerships - Identifying target accounts for sales outreach - Researching companies that match your…",
+  "关键输出": "- Be specific about your product and its unique value - Run from your codebase if applicable for automatic context - Provide context about your ideal customer profile - Specify constraints like industry, location, or company size - Request follow-up research…",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Finding potential customers or clients for your product/service - Building a list of companies to reach out to for partnerships - Identifying target accounts for sales outreach - Researching companies that match your…时，用它产出或更新：- Be specific about your pr…",
+  "skill_id": "05654-lead-research-assistant-3a32aed5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/lead-research-assistant/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/lead-research-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5b6a21b21d4a4bfd3ae0a07746261e0675212c12781e4846a8bb1b1f5386c73f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

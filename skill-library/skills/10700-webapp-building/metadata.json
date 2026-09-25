@@ -1,0 +1,22 @@
+{
+  "英文名称": "webapp-building",
+  "中文名称": "待补：webapp-building",
+  "一句话作用": "Tools for building modern React webapps with TypeScript, Tailwind CSS and shadcn/ui on the local machine. Best suited for applications with complex UI components and state management. If the user mentions building a web…",
+  "关键输入": "- Node.js 20+ and npm (check with node --version) - python3 and unzip",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T23:50:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Tools for building modern React webapps with TypeScript, Tailwind CSS and shadcn/ui on the local machine. Best suited for applications with complex UI components and state management. If the user mentions building a web…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10700-webapp-building-526eaae8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/webapp-building/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/webapp-building/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3095c8359e69ceb4f028d5989aaa8bc5711c353ef7f202894387cb628a3192a0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

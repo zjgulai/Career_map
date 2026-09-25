@@ -1,0 +1,22 @@
+{
+  "英文名称": "c4model",
+  "中文名称": "待补：c4model",
+  "一句话作用": "C4/Structurizr DSL foundation. Use to turn architecture evidence into maintainable C4 system landscape, context, container, and component source artifacts.",
+  "关键输入": "- .structurizr.dsl or inline DSL written by the agent. - Optional workspace name, workspace description, and output directory.",
+  "关键输出": "These artifacts are the maintainable C4 sources and companion notes that explain scope, evidence, assumptions, and reading order. - .dsl / .structurizr.dsl: Structurizr DSL workspace source containing the model, relationships, views, and layout intent.",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- The user explicitly asks for C4, Structurizr, system context, container, component, or Qoder viewer instructions. - A .structurizr.dsl workspace needs to be authored, reviewed, or explained. - System landscape modelin…时，用它产出或更新：These artifacts are the ma…",
+  "skill_id": "04397-c4model-18ea9519",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/c4model/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/c4model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c35cb559197f979b5f915fb59a021e25baef15cdb577ff342c34883ead3ff4b3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

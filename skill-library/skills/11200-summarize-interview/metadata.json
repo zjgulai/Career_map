@@ -1,0 +1,22 @@
+{
+  "英文名称": "summarize-interview",
+  "中文名称": "待补：summarize-interview",
+  "一句话作用": "Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or crea…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Save the summary as a markdown document in the user's workspace. ---",
+  "最新更新时间": "2026-09-16T00:17:04+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or crea…时，用它产出或更新：Save the summary as a mark…",
+  "skill_id": "11200-summarize-interview-654bcc12",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/summarize-interview/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/summarize-interview/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5a2a0c8257f5e2f7ef098d4531acbbcd3087bb07bb87d4cabfe1a97ef1ad037c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

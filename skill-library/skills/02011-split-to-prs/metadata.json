@@ -1,0 +1,22 @@
+{
+  "英文名称": "split-to-prs",
+  "中文名称": "待补：split-to-prs",
+  "一句话作用": "Split current work into small reviewable PRs. Use when the user asks to split a chat, set of changes, branch, or PR.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-16T16:33:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Split current work into small reviewable PRs. Use when the user asks to split a chat, set of changes, branch, or PR.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02011-split-to-prs-1c27d4d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cursor/skills-cursor/split-to-prs/SKILL.md",
+  "relative_path": "lute/.cursor/skills-cursor/split-to-prs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "61e3b94b54457e0f8a850cccf64936a0f5a686f6ad22016d17d30958d2f2b328",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

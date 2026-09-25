@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-insight-product-selection",
+  "中文名称": "待补：market-insight-product-selection",
+  "一句话作用": "Adaptive product-selection methodology built on multi-source signals and \"voice of customer\" (VoC): validate demand, momentum, competitive intensity, and user pain points from reviews/comments to produce a confident sho…",
+  "关键输入": "Cross-source validation : Connect insights from multiple sources to form structured judgments - Example: \"Google Trends shows 2x search growth + Amazon data shows $60-80 trail shoes have high ratings but limited supply + Alibaba shows only X suppliers = blue…",
+  "关键输出": "Text conclusions : Include reasoning chains that connect data to insights. Visual evidence (include whenever possible to enhance user understanding): - Images from search results : When tool results return images with reference IDs, display 3-6 representative…",
+  "最新更新时间": "2026-06-16T16:38:21+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Adaptive product-selection methodology built on multi-source signals and \"voice of customer\" (VoC): validate demand, momentum, competitive intensity, and user pain points from reviews/comments to produce a confident sho…时，用它产出或更新：Text conclusions : Include…",
+  "skill_id": "12823-market-insight-product-selection-0547e9df",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/skills/Accio_Skills/market-insight-product-selection/source/SKILL.md",
+  "relative_path": "lute/project/VOA/skills/Accio_Skills/market-insight-product-selection/source/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "580a91de7d73b1e1b2294f4e5645f3b60daaa13014d084f2fa3ae753a7241cc4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

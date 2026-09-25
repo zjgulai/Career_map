@@ -1,0 +1,22 @@
+{
+  "英文名称": "codex-memory-curator",
+  "中文名称": "待补：codex-memory-curator",
+  "一句话作用": "Audit, review, clean up, and prune Codex memories. Use when the user asks about ~/.codex/memories, stale or noisy memories, memory pollution, cross-repo rule leakage, sensitive memory contents, memory config tuning, cle…",
+  "关键输入": "- Codex home: ${CODEX HOME:-$HOME/.codex} or the user-provided Codex home path. - Memory files under /memories. - Memory config at /config.toml when present. - The current user request and current repo instructions/docs only when needed to verify conflicts.",
+  "关键输出": "Before edits, lead with this report shape:",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- The user asks to review, audit, clean up, prune, rewrite, or remove Codex memories. - The user mentions ~/.codex/memories, stale memories, memory pollution, or memories making Codex worse. - The user wants to decide w…时，用它产出或更新：Before edits, lead with th…",
+  "skill_id": "06045-codex-memory-curator-8465bc0c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/skills/codex-operations/codex-memory-curator/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/skills/codex-operations/codex-memory-curator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "017dc5db83408ff5d3cdefefd0c9b5acc8427acf253133ba731795e83d3b8563",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

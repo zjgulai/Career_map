@@ -1,0 +1,22 @@
+{
+  "英文名称": "thick-client",
+  "中文名称": "待补：thick-client",
+  "一句话作用": "Use for authorized security testing of desktop thick clients including local storage, update channels, IPC, traffic, and client-side trust boundaries.",
+  "关键输入": "- C/S 架构客户端、Electron/Qt/.NET WinForms/WPF - 本地配置/凭证存储、IPC、命名管道 - 客户端强制校验绕过研究（授权） - 自动更新通道与代码签名验证",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- C/S 架构客户端、Electron/Qt/.NET WinForms/WPF - 本地配置/凭证存储、IPC、命名管道 - 客户端强制校验绕过研究（授权） - 自动更新通道与代码签名验证时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10134-thick-client-ff645240",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/thick-client/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/thick-client/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "714f7e2499b52b2f39a9973fbe6aafa2691454c3f36c7a3374b667aa25b2bfb5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

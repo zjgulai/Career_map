@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-discovery-pc-algorithm",
+  "中文名称": "算法因果发现：从观测数据识别销售驱动因果链",
+  "一句话作用": "触发词：因果图发现、PC算法、条件独立性检验、销量驱动因素、因果链识别。何时不用：只需渠道贡献占比与归因报表时用「DataAgent营销归因分析」；样本极少要先用领域知识打底时用「LLM 辅助因果图先验」；要秒级定位告警根因时用「ProRCA 根因溯源」。安全边界：存在未观测混杂变量时不得把图上的边直接当作干预依据，发现的因果边必须用 A/B 实验定期复核后才可用于投放与定价决策。",
+  "关键输入": "输入 ：观测数据表（每列一个变量：广告支出、竞品均价、季节指数、促销标记、KOL 合作数、目标销量），周度或日度粒度，来源为店铺后台 + 广告平台 + 竞品爬虫；卡页口径下 20–100 周即可，变量需先标准化。 输出 ：有向无环因果图（含边方向与关键路径权重）与条件独立性检验结果；供运营与数据团队判断干预节点、确定预算投向。",
+  "关键输出": "输入 ：观测数据表（每列一个变量：广告支出、竞品均价、季节指数、促销标记、KOL 合作数、目标销量），周度或日度粒度，来源为店铺后台 + 广告平台 + 竞品爬虫；卡页口径下 20–100 周即可，变量需先标准化。 输出 ：有向无环因果图（含边方向与关键路径权重）与条件独立性检验结果；供运营与数据团队判断干预节点、确定预算投向。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：因果图发现、PC算法、条件独立性检验、销量驱动因素、因果链识别。何时不用：只需渠道贡献占比与归因报表时用「DataAgent营销归因分析」；样本极少要先用领域知识打底时用「LLM 辅助因果图先验」；要秒级定位告警根因时用「ProRCA 根因溯源」。安全边界：存在未观测混杂变量时不得把图上的边直接当作干预依据，发现的因果边必须用 A/B 实验定期复核后才可用于投放与定价决策。时，用它产出或更新：输入 ：观测数据表（每列一个变量：广告支出、竞品均价、季节指数、促销标记、KOL 合作数、目标销量），周度或…",
+  "skill_id": "12456-p2s-causal-discovery-pc-algorithm-16781747",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-causal-discovery-pc-algorithm/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-causal-discovery-pc-algorithm/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f23f69d4714e9faf820aad5abedc62f1b09f9ed7324b733b411dd8622d65874e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

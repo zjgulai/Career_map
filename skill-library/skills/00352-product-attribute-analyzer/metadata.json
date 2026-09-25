@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-attribute-analyzer",
+  "中文名称": "待补：product-attribute-analyzer",
+  "一句话作用": "Profiles product attributes across top sellers using 3-D tagging (structural/fit, material/process, design elements), calculates sales-weighted market share from real sales data, and outputs quantitative analysis plus p…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For each tag and each dimension, compute and report via a markdown table . This table is a hard prerequisite for Step 4 — never skip it or replace it with a chart . Required table per dimension (output one table per dimension, e.g. \"Structural / Fit Distribut…",
+  "最新更新时间": "2026-09-21T17:35:33+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Profiles product attributes across top sellers using 3-D tagging (structural/fit, material/process, design elements), calculates sales-weighted market share from real sales data, and outputs quantitative analysis plus p…时，用它产出或更新：For each tag and each dime…",
+  "skill_id": "00352-product-attribute-analyzer-afa67a78",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/product-attribute-analyzer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/product-attribute-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "014d985b460fcaf83b1e935afca0fb0808ef8e0dc058589686bbadaf178901c0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

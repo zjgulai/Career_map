@@ -1,0 +1,22 @@
+{
+  "英文名称": "busirocket-typescript-standards",
+  "中文名称": "待补：busirocket-typescript-standards",
+  "一句话作用": "Enforces TypeScript standards for maintainable codebases. Use when creating or refactoring TS/TSX to enforce one-thing-per-file, type conventions, and Next.js special-file export exceptions.",
+  "关键输入": "Use this skill when: - Writing or refactoring .ts / .tsx - Moving inline types into types/ - Enforcing consistent type naming and result shapes - Working in Next.js where special files allow extra exports",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Writing or refactoring .ts / .tsx - Moving inline types into types/ - Enforcing consistent type naming and result shapes - Working in Next.js where special files allow extra exports时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04755-busirocket-typescript-standards-e107bd6a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/busirocket-typescript-standards/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/busirocket-typescript-standards/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8646e78bf9745c1072023b96cba957b884a7886e37f0244601e15bf08c21ed9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

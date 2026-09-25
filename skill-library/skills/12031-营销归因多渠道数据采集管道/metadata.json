@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-marketing-data-pipeline",
+  "中文名称": "营销归因多渠道数据采集管道",
+  "一句话作用": "触发词：营销归因采集、身份拼接、多渠道触点、因果增量、去重归因。何时不用：只做广告字段跨平台统一模型时用广告统一数据模型技能；只处理归因窗口口径差异时用归因窗口统一技能。安全边界：用户标识须哈希化处理并遵守各平台接口条款与隐私政策，不得跨平台明文传输个人信息。",
+  "关键输入": "Meta: facebook-business SDK → AdInsights API TikTok: TikTok for Business API → /reports/integrated/get/ Amazon: Amazon Attribution API → attributionReports Shopify: Webhook → orders/create 事件",
+  "关键输出": "Meta: facebook-business SDK → AdInsights API TikTok: TikTok for Business API → /reports/integrated/get/ Amazon: Amazon Attribution API → attributionReports Shopify: Webhook → orders/create 事件",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：某母婴 DTC 品牌月均广告支出 ¥85 万，分配在 Meta（40%）、TikTok（35%）、Amazon Sponsored（25%）时，用它产出或更新：Meta: facebook-business SDK → AdInsights API TikTok: TikTok for Business API → /reports/integrated/get/ Amazon: Amazon Attribution API → attributionReports Shopify: Webhoo…",
+  "skill_id": "12031-p2s-marketing-data-pipeline-3da668fa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-marketing-data-pipeline/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-marketing-data-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "656847f1a811ae4ef694f89669fc887456a384fef8ff32c10adaacdf8be7277a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

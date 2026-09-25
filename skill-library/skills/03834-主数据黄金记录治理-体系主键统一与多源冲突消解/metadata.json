@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sku-master-data-golden-record",
+  "中文名称": "主数据黄金记录治理 体系主键统一与多源冲突消解",
+  "一句话作用": "触发词：主数据治理、黄金记录、多源冲突、SKU 主键、跨渠道库存。何时不用：只有单一渠道、编码本来就统一时不用；用户身份打通归身份解析类技能，标签体系治理归 Tag Schema 类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"Amazon/Shopify/TikTok/ERP四套SKU编码跨渠道数据孤岛\"——MDM黄金记录将跨渠道库存准确率从74%提升至99%，新品上市从3天降至4小时时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03834-p2s-sku-master-data-golden-record-3ac9e3fc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sku-master-data-golden-record/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sku-master-data-golden-record/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b201a784d12827dc98de9ae2afd0f4a6192f7a95a30650347b0e73e6582bc67d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

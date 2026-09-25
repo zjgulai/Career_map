@@ -1,0 +1,22 @@
+{
+  "英文名称": "collect-files-with-request",
+  "中文名称": "待补：collect-files-with-request",
+  "一句话作用": "Create, inspect, and manage Dropbox file requests for collecting uploads from other people. Use when the user asks to collect files, request uploads, create an upload portal, check a file request, or list existing file…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Return: - File request title - Request URL or identifier - Destination folder - Status - Deadline, if any - Any action the user still needs to take",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create, inspect, and manage Dropbox file requests for collecting uploads from other people. Use when the user asks to collect files, request uploads, create an upload portal, check a file request, or list existing file…时，用它产出或更新：Return: - File request titl…",
+  "skill_id": "00814-collect-files-with-request-0250b751",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/dropbox/skills/collect-files-with-request/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/dropbox/skills/collect-files-with-request/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f9de5fd6848b363b189c860455702db097ebaeae51306d9d06183a362224687d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

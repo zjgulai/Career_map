@@ -1,0 +1,22 @@
+{
+  "英文名称": "spark-best-practices",
+  "中文名称": "待补：spark-best-practices",
+  "一句话作用": "Apache Spark development best practices for application structure, DataFrame API, shuffle optimization, memory tuning, and Structured Streaming",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:10+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Apache Spark development best practices for application structure, DataFrame API, shuffle optimization, memory tuning, and Structured Streaming时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05101-spark-best-practices-f5b5fc42",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spark-best-practices/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spark-best-practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "249bfb909fc76af1238d475101c502ee8086c0b959268f72a5f4bfb665e0a4d6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

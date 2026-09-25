@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-account-fingerprint-risk-scorer",
+  "中文名称": "账号指纹风险评分器 量化多账号关联被检测风险",
+  "一句话作用": "触发词：账号指纹、相似度评分、关联风险量化、开店前评估、隔离复测。何时不用：要在多账号间找出具体共享链路并画关联图时用「账号关联检测」；要监控 ODR/LSR 等指标趋势做健康预警时用「账号健康预警系统」。安全边界：银行路由等敏感字段只存哈希、不存明文；相似度是风险代理指标，不等于平台判定结论，整改后仍须复测确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要多品牌运营总监面临\"两品牌账号被Amazon识别为关联账号的风险等级未知\"——指纹相似度评分将关联风险从定性判断变为0-1量化，提前整改规避封号损失50-300万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02674-p2s-account-fingerprint-risk-scorer-06e969c4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-account-fingerprint-risk-scorer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-account-fingerprint-risk-scorer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0cdd2da350c72991e3f8b348ca282fcac551fad278de39d48df2dbbb31d7bf81",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

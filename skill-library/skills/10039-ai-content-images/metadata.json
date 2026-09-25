@@ -1,0 +1,22 @@
+{
+  "英文名称": "ai-content-images",
+  "中文名称": "待补：ai-content-images",
+  "一句话作用": "将长文拆成 1–10 张图文卡片，保留 12 种视觉风格、8 种布局和 3 套配色。用户提到图文卡片、知识卡片、微信图文、文章可视化、image cards 或要求生成系列信息图时使用。",
+  "关键输入": "在 DSH 中需要确认时调用 ask user question。如果一次要确认多项，合并在同一次调用中；只在该工具不可用时，才退回编号文字问题。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T03:52:28+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要将长文拆成 1–10 张图文卡片，保留 12 种视觉风格、8 种布局和 3 套配色。用户提到图文卡片、知识卡片、微信图文、文章可视化、image cards 或要求生成系列信息图时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10039-ai-content-images-eaa3d0ac",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-content-image-studio/skills/ai-content-images/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-content-image-studio/skills/ai-content-images/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3641b36368e8f5dbe47ad0b088d5f90c98f040c22bab507fdf923468559833e2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

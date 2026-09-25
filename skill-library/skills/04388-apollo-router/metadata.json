@@ -1,0 +1,22 @@
+{
+  "英文名称": "apollo-router",
+  "中文名称": "待补：apollo-router",
+  "一句话作用": "Version-aware guide for configuring and running Apollo Router for federated GraphQL supergraphs. Generates correct YAML for both Router v1.x and v2.x. Use this skill when: (1) setting up Apollo Router to run a supergrap…",
+  "关键输入": "For each selected feature, collect required values. - Use section templates from templates/{version}/sections/ for auth, cors, headers, limits, telemetry, and traffic-shaping. - For Connectors in v2, use templates/v2/sections/connectors.yaml as the source.",
+  "关键输出": "After generating or editing any router.yaml, you MUST: 1. Run validation/checklist.md and report pass/fail for each checklist item. 2. Run router config validate if Router CLI is available. 3. If Router CLI is unavailable, state that explicitly and still comp…",
+  "最新更新时间": "2026-09-19T03:38:00+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Version-aware guide for configuring and running Apollo Router for federated GraphQL supergraphs. Generates correct YAML for both Router v1.x and v2.x. Use this skill when: (1) setting up Apollo Router to run a supergrap…时，用它产出或更新：After generating or editin…",
+  "skill_id": "04388-apollo-router-89de872f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/apollo-graphql/1.0.0/skills/apollo-router/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/apollo-graphql/1.0.0/skills/apollo-router/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7967f39bc15a2ed2b8737eea75823bc073c85ded2d222abd03e3d555210f233",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "secrets-management",
+  "中文名称": "待补：secrets-management",
+  "一句话作用": "Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD environments.",
+  "关键输入": "- Store API keys and credentials - Manage database passwords - Handle TLS certificates - Rotate secrets automatically - Implement least-privilege access",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Store API keys and credentials - Manage database passwords - Handle TLS certificates - Rotate secrets automatically - Implement least-privilege access时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05587-secrets-management-24e2a46e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cicd-automation/skills/secrets-management/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cicd-automation/skills/secrets-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5249d531f059aeefef34ad85462912b0ab21d1f7e895d35c63533da3f685b6a7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

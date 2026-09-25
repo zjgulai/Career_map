@@ -1,0 +1,22 @@
+{
+  "英文名称": "continuous-field-eda",
+  "中文名称": "待补：continuous-field-eda",
+  "一句话作用": "当用户需要对连续型字段做字段质量分析、EDA、分布诊断、异常值识别、预处理建议或建模前字段体检时使用。 触发词：连续型字段分析、EDA、字段质量、字段体检、异常值、偏斜度、峰态、缺失值分析、预处理工作流、字段健康检查。",
+  "关键输入": "本 Skill 可接受以下输入形式：",
+  "关键输出": "每次输出必须至少包含以下六部分： 1. 字段现状 2. 关键统计结论 3. 风险诊断 4. 预处理建议 5. 入模建议 6. 业务解释 如果是多字段场景，应先输出总览，再逐字段展开。 ---",
+  "最新更新时间": "2026-03-26T18:40:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当用户需要对连续型字段做字段质量分析、EDA、分布诊断、异常值识别、预处理建议或建模前字段体检时使用。 触发词：连续型字段分析、EDA、字段质量、字段体检、异常值、偏斜度、峰态、缺失值分析、预处理工作流、字段健康检查。时，用它产出或更新：每次输出必须至少包含以下六部分： 1. 字段现状 2. 关键统计结论 3. 风险诊断 4. 预处理建议 5. 入模建议 6. 业务解释 如果是多字段场景，应先输出总览，再逐字段展开。 ---",
+  "skill_id": "09865-continuous-field-eda-0d25d1e3",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills-temp/数据分析通用级 skills/EDA/continuous-field-eda/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills-temp/数据分析通用级 skills/EDA/continuous-field-eda/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ffa073f1f469d81969bef0563d0844a52bb41dc7b59bf29d4f5303c82372e1dc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

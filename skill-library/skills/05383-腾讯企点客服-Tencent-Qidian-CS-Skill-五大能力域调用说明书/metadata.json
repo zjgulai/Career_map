@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencent-qidian-cs-skill",
+  "中文名称": "腾讯企点客服（Tencent-Qidian-CS）Skill（五大能力域调用说明书）",
+  "一句话作用": "腾讯企点客服（Tencent-Qidian-CS）Connector 的底层调用说明书。覆盖五大能力域——工单管理（新建/修改/查询工单，变更工单状态）、坐席查询（客服状态实时监控、会话监控、员工信息获取）、人工/机器人会话与消息记录查询（人工/大模型机器人/文本机器人会话和消息记录查询）、客服数据报表（满意度/时长/响应度分析、客服数据总览）。定义全部 MCP 工具的用途、参数、返回值、权限位映射、openId 与 cust id…",
+  "关键输入": "下列 4 个接口均为\"会话客服分析\"系列，起止时间为通用必填项；其余字段按各自文档地址核对。 起止时间未给先追问。 返回值通常含 data.metrics（核心指标对象）+ data.list[]（按坐席/天/会话维度的明细），AI 解析时按用户问的维度展示即可。",
+  "关键输出": "把相对时间换算为绝对时间后， 先告诉用户具体日期范围 ，等用户确认或修正，再带入接口参数。模板： 我换算的时间范围是： {开始日期} ~ {结束日期} （{相对说法}，共 {N} 天），对吗？ 例如用户说\"最近 30 天\"，且 date 返回 2026-05-27，必须先回复： 我换算的时间范围是： 2026-04-28 ~ 2026-05-27 （最近 30 天，含今天，共 30 天），对吗？ 确认后再继续。",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要腾讯企点客服（Tencent-Qidian-CS）Connector 的底层调用说明书。覆盖五大能力域——工单管理（新建/修改/查询工单，变更工单状态）、坐席查询（客服状态实时监控、会话监控、员工信息获取）、人工/机器人会话与消息记录查询（人工/大模型机器人/文本机器人会话和消息记录查询）、客服数据报表（满意度/时长/响应度分析、客服数据总览）。定义全部 MCP 工具的用途、参数、返回值、权限位映射、openId 与 cust id…时，用它产出或更新：把相对时间换算为绝对时间后， 先告诉用户具体日期范围…",
+  "skill_id": "05383-tencent-qidian-cs-skill-76cbafe5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencent-qidian-cs/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencent-qidian-cs/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39d4e2de3e0a048b590b6032d1c90775d3281acabe116bc1a00e57eecae967ef",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

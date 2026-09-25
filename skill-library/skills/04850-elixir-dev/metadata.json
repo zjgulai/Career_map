@@ -1,0 +1,22 @@
+{
+  "英文名称": "elixir-dev",
+  "中文名称": "待补：elixir-dev",
+  "一句话作用": "Elixir/Phoenix development companion. Run and interpret mix test, mix credo, mix dialyzer, mix format. Generate modules following OTP conventions: contexts, schemas, GenServers, supervisors, tasks. Debug compilation err…",
+  "关键输入": "Pattern Use When --------- ---------- GenServer Stateful process with sync/async calls (cache, rate limiter, connection pool) Agent Simple state wrapper with no complex logic Task One-off async work, fire-and-forget or…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:37+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Pattern Use When --------- ---------- GenServer Stateful process with sync/async calls (cache, rate limiter, connection pool) Agent Simple state wrapper with no complex logic Task One-off async work, fire-and-forget or…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04850-elixir-dev-e2402fc9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/elixir-dev/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/elixir-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f55f8fe0cf60001eaa44c1baafcb4ffc743df31e6a53b23ac6f865ccdcecbff7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

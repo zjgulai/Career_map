@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-VOC-Aspect-Sentiment-Extraction",
+  "中文名称": "指令微调驱动的方面级情感分析",
+  "一句话作用": "论文 ：InstructABSA: Instruction Tuning for Aspect Based Sentiment Analysis 发表 ：NAACL 2024 桥梁 : 07-NLP-VOC ↔ 14-用户分析 类型 : NLP 工具 GitHub ：https://github.com/kevinscaria/InstructABSA",
+  "关键输入": "论文/研究主题文件；来源位置：paper2skills-vault / 07-NLP-VOC / 00-知识库-Skill卡片",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-11",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要论文 ：InstructABSA: Instruction Tuning for Aspect Based Sentiment Analysis 发表 ：NAACL 2024 桥梁 : 07-NLP-VOC ↔ 14-用户分析 类型 : NLP 工具 GitHub ：https://github.com/kevinscaria/InstructABSA时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "08241-skill-voc-aspect-sentiment-extraction-114ac84f",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/paper2skills-vault/07-NLP-VOC/00-知识库-Skill卡片/Skill-VOC-Aspect-Sentiment-Extraction.md",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/paper2skills-vault/07-NLP-VOC/00-知识库-Skill卡片/Skill-VOC-Aspect-Sentiment-Extraction.md",
+  "date_source": "frontmatter.updated",
+  "content_hash": "e4b575a8043fe8a4edaee5a34c9564e876e8adf3205b43b076fd15ca51a6aeb8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

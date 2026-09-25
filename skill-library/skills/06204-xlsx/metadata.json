@@ -1,0 +1,22 @@
+{
+  "英文名称": "xlsx",
+  "中文名称": "待补：xlsx",
+  "一句话作用": "Create and analyze Excel spreadsheets (.xlsx/.csv). Supports formula-driven analysis, charts, conditional formatting, styled reports, and financial modeling (three-statement models, DCF, comps analysis). Use when the us…",
+  "关键输入": "- Final delivery must contain at least one .xlsx file - Every table must have content, not just headers - Check formula cells returning null — verify referenced cells have values - Arrange row heights and column widths proportionally - All calculations use re…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T17:52:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Create and analyze Excel spreadsheets (.xlsx/.csv). Supports formula-driven analysis, charts, conditional formatting, styled reports, and financial modeling (three-statement models, DCF, comps analysis). Use when the us…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06204-xlsx-61b19d09",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/xlsx/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/xlsx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2065bb64cca8b23ca50708ef4dd551741781ec2cfac13b4473f7c81c9e94c33d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

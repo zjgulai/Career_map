@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-customer-journey-orchestration",
+  "中文名称": "多 Agent 客户旅程编排 从首曝光到复购的全链路 Agent 协作",
+  "一句话作用": "触发词：旅程编排、多 Agent、事件驱动、漏斗修复、复购提醒、全链路。何时不用：单一动作（如一次复购提醒）用对应单点技能即可；要跨认知到复购多个阶段、由多个 Agent 按事件接力时才用本卡。安全边界：站内信不得携带站外链接，须遵守平台消息政策；推送频率须设上限并提供一键退订，不得基于敏感健康数据做预测。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户运营负责人面临\"用户在不同生命周期阶段的运营动作各团队各自为战没有统一编排\"——全旅程4 Agent协作将客户全生命周期运营效率提升3.2倍，年化增收$14.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11738-p2s-mas-customer-journey-orchestration-5fe68d27",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-mas-customer-journey-orchestration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-mas-customer-journey-orchestration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5b277f91d0429913b6737dbcae186f570f0964e8819b649e0f92a6f76d8a7894",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

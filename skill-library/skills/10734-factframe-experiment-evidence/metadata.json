@@ -1,0 +1,22 @@
+{
+  "英文名称": "factframe-experiment-evidence",
+  "中文名称": "待补：factframe-experiment-evidence",
+  "一句话作用": "Plan, inspect, validate, reconcile, or summarize FactFrame Oumomo clean-room experiment evidence, including manifests, Job observations, credit ledgers, artifacts, scorecards, and findings. Use for local experiment evid…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T04:10:48+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Plan, inspect, validate, reconcile, or summarize FactFrame Oumomo clean-room experiment evidence, including manifests, Job observations, credit ledgers, artifacts, scorecards, and findings. Use for local experiment evid…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10734-factframe-experiment-evidence-31c05f1a",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/factframe-experiment-evidence/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/factframe-experiment-evidence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "71c9a5256f1d751f33128f261a6c0703775979876cc5c0c4603d9e6f10fe3bfa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

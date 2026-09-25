@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-return-fraud-detection",
+  "中文名称": "退货欺诈识别：GNN 检测虚假退货与促销滥用",
+  "一句话作用": "触发词：退货欺诈、异常退货率、账号关联、地址聚类、虚假损坏。何时不用：促销券套利与批量注册小号走「促销欺诈检测」；支付环节盗刷的单笔拦截走「异常交易检测」。安全边界：只输出风险评分与证据线索，不代替平台做拒绝退货或封号决定；收货地址与设备指纹须脱敏并限内部风控使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要某款299美元婴儿推车退货率18%但工厂QC合格率99.5%怀疑有组织欺诈却无法证明——账号关联图谱识别共享地址设备的欺诈团伙，拦截30-50%欺诈退货年化节省10-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12098-p2s-return-fraud-detection-2e99d551",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-return-fraud-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-return-fraud-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2339107b1cbddbb67d7a6552fe7e422fe24ec6b6520dae30536ba495ecc69a0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

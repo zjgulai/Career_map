@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 商务多语言适配（英/德/法商务风格）",
+  "中文名称": "待补：KA 商务多语言适配（英/德/法商务风格）",
+  "一句话作用": "在买手提案中文案已定稿后，将执行摘要、条款说明、邮件沟通稿转为目标市场商务用语（英式/美式、德语、法语等），保持数字与法律含义不变；不替代法律翻译。",
+  "关键输入": "- 源稿来自 ka-buyer-proposal-generator 或已定稿中文/英文母稿。 - 明确 目标语言 与 受众 （买手母语/团队工作语）。 - 合同级条款 标为「仅参考译文」，须 external 审阅。",
+  "关键输出": "- 段落ID EN DE FR notes - 单独 邮件模板 ：首封跟进、会议邀请、材料补充。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在买手提案中文案已定稿后，将执行摘要、条款说明、邮件沟通稿转为目标市场商务用语（英式/美式、德语、法语等），保持数字与法律含义不变；不替代法律翻译。时，用它产出或更新：- 段落ID EN DE FR notes - 单独 邮件模板 ：首封跟进、会议邀请、材料补充。",
+  "skill_id": "09884-ka-58d37cb4",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/multilingual-localizer-ka/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/multilingual-localizer-ka/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e564d4d72aa6e35f55d9b83897ae7ec7985d17e4ee00256ba44a282e385341c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

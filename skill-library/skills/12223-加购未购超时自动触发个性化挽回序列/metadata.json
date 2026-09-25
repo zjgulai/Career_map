@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-abandoned-cart-recovery-trigger",
+  "中文名称": "加购未购超时自动触发个性化挽回序列",
+  "一句话作用": "触发词：加购未购、超时触发、挽回序列、定时触达、冷却期。何时不用：要先给弃购用户分型再决定策略用「弃购挽回机器学习」；要给用户算购买意图分档用「购买意图预测」。安全边界：同一用户 24 小时内触达不超过 1 次，支付成功后必须立即终止序列；WhatsApp 营销需显式 opt-in 且消息模板预先审核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"加购未购用户大量流失\"——加购后2h自动触发挽回序列将加购转化率从8%提升至14%，年化增收50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12223-p2s-abandoned-cart-recovery-trigger-d3da0f59",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-abandoned-cart-recovery-trigger/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-abandoned-cart-recovery-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af25423a8635b96516ae1f35fa4ad542f1e2d47723e511e16dcbc14d9da822e0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

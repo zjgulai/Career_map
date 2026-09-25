@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-account-operational-isolation",
+  "中文名称": "多账号操作隔离规范 风险传染模型与安全运营SOP",
+  "一句话作用": "触发词：多账号隔离、风险传染、隔离 SOP、指纹相似度、整改复测。何时不用：要在账号间找共享信号并画关联图用「账号关联检测」；要跨平台判断连坐风险用「跨平台账号关联风险」。安全边界：整改动作涉及网络、设备、人员与财务归属，须由运营负责人决策后执行；隔离方案落地后仍须复测确认相似度下降，不得据单次评估长期放行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境电商COO面临\"一账号被暂停后担心传染至其他品牌店铺\"——风险传染模型将传染概率量化并输出24小时整改SOP，防止多账号连带损失约150-500万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03464-p2s-multi-account-operational-isolation-11d7ab6b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-account-operational-isolation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-account-operational-isolation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0e35595b2dc0805b29db173c8f1df5862f2435de7013cc93f7fd40198fe67318",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

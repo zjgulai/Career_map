@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-design-reviewer",
+  "中文名称": "界面视觉巡检（Web Design Reviewer）",
+  "一句话作用": "用截图逐屏巡检线上或本地页面，再回源码修布局溢出重叠、响应式断点与视觉不一致，产出问题清单与修复前后对照。触发词：界面视觉巡检、web-design-reviewer、用截图逐屏巡检线上或本地页面，再回源码修布局溢出重叠、响应式断点与视觉不一致，产出问题清单与修复前后对照。",
+  "关键输入": "问题 说明 严重度 ------- ------------- ---------- 元素溢出 内容从父元素或视口溢出 高 元素重叠 元素意外互相重叠 高 对齐问题 栅格或 flex 对齐有问题 中 间距不一致 padding/margin 不一致 中 文字被裁切 长文本没有妥善处理 中",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要问题 说明 严重度 ------- ------------- ---------- 元素溢出 内容从父元素或视口溢出 高 元素重叠 元素意外互相重叠 高 对齐问题 栅格或 flex 对齐有问题 中 间距不一致 padding/margin 不一致 中 文字被裁切 长文本没有妥善处理 中时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04249-web-design-reviewer-4cf51b2f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/web-design-reviewer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/web-design-reviewer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "462cdcb7c62b7456c8a358aab196fa4fb823e4a3b3b9106a36c27af09545e39f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

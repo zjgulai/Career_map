@@ -1,0 +1,22 @@
+{
+  "英文名称": "brainstorm-okrs",
+  "中文名称": "待补：brainstorm-okrs",
+  "一句话作用": "把战略意图翻译成一组可衡量的目标与关键结果，并检查目标之间是否对齐。触发词：关键结果共创、brainstorm-okrs、把战略意图翻译成一组可衡量的目标与关键结果，并检查目标之间是否对齐。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要把战略意图翻译成一组可衡量的目标与关键结果，并检查目标之间是否对齐。触发词：关键结果共创、brainstorm-okrs、把战略意图翻译成一组可衡量的目标与关键结果，并检查目标之间是否对齐。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02471-brainstorm-okrs-416abdbb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/brainstorm-okrs/SKILL.md",
+  "relative_path": "lute/.dsh/skills/brainstorm-okrs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65df609fbf724b5c3efb9e537c21b4eccf262c487607b9b2a4fa3690c8e69548",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

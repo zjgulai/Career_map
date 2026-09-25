@@ -1,0 +1,22 @@
+{
+  "英文名称": "k8s-cluster-ops",
+  "中文名称": "技能",
+  "一句话作用": "通过 kubectl 命令行工具管理 Kubernetes 集群，执行查询资源状态、部署应用、查看日志、调试容器、切换上下文和监控集群健康等操作。适用于日常运维、发布和故障排查。当用户询问集群状态、Pod/Deployment信息、查看日志、执行容器命令、切换集群或上下文，或使用 kubectl get/describe/logs/exec/apply 等相关命令短语时触发。",
+  "关键输入": "1. kubectl 二进制文件 已安装并在 PATH 中可用（v1.20+） 2. kubeconfig 文件已配置集群凭证（默认路径：~/.kube/config） 3. 已建立 与 Kubernetes 集群的网络连接",
+  "关键输出": "--output（-o）参数支持多种输出格式： - table — 默认表格格式 - wide — 扩展表格，包含更多列 - json — JSON 格式（可配合 jq 使用） - yaml — YAML 格式 - jsonpath — JSONPath 表达式 - custom-columns — 自定义输出列 - name — 仅显示资源名称 示例：",
+  "最新更新时间": "2026-09-14T00:09:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要通过 kubectl 命令行工具管理 Kubernetes 集群，执行查询资源状态、部署应用、查看日志、调试容器、切换上下文和监控集群健康等操作。适用于日常运维、发布和故障排查。当用户询问集群状态、Pod/Deployment信息、查看日志、执行容器命令、切换集群或上下文，或使用 kubectl get/describe/logs/exec/apply 等相关命令短语时触发。时，用它产出或更新：--output（-o）参数支持多种输出格式： - table — 默认表格格式 - wide — 扩展表格，包含…",
+  "skill_id": "10637-k8s-cluster-ops-d9e97572",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/k8s-cluster-ops/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/k8s-cluster-ops/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a2b96622a9ea2005920d8ef82c4de0b9260ce5069954ae97b521aa7f6066d929",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

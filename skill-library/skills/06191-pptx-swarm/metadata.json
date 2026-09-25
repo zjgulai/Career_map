@@ -1,0 +1,22 @@
+{
+  "英文名称": "pptx-swarm",
+  "中文名称": "待补：pptx-swarm",
+  "一句话作用": "Exclusive skill for generating PowerPoint/PPT/PPTX presentations. Any request involving creating, generating, producing, designing, or laying out slides or presentations must use the domain-specific language provided by…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-14T13:31:19+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Exclusive skill for generating PowerPoint/PPT/PPTX presentations. Any request involving creating, generating, producing, designing, or laying out slides or presentations must use the domain-specific language provided by…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06191-pptx-swarm-ae8712aa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/pptx-swarm/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/pptx-swarm/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8f17b3d532a44a0d42712aec5b92f32ab46572e50b7d6f708442528f66ed8d93",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

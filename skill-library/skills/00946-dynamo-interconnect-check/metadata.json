@@ -1,0 +1,22 @@
+{
+  "英文名称": "dynamo-interconnect-check",
+  "中文名称": "待补：dynamo-interconnect-check",
+  "一句话作用": "Validate that a Dynamo deployment's NIXL/UCX/NCCL interconnect is ready for disaggregated serving over RDMA/NVLink. Use after recipe-runner brings a deployment up (especially disagg/multi-node) to confirm the KV transpo…",
+  "关键输入": "- Python 3.10+ on the operator machine. - kubectl exec access to a worker pod in the target Dynamo deployment. - Read access to the recipe directory (recipes/ / / ). - For node-capability checks: tools like ibstat, nvidia-smi, lsmod available in the worker po…",
+  "关键输出": "Each check returns ok / warn / fail / skipped with a one-line detail, plus a rolled-up verdict on disagg transport readiness. Report: - transport env vars present vs. disagg-critical ones missing - RDMA / GPUDirect / NVLink capability status - whether NIXL re…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- After dynamo-recipe-runner deploys a disagg or multi-node recipe. - Before reporting disagg throughput/latency, so numbers reflect the real transport. - When agg works but disagg is slow, hangs, or returns wrong outpu…时，用它产出或更新：Each check returns ok / wa…",
+  "skill_id": "00946-dynamo-interconnect-check-adcafbfe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/dynamo-interconnect-check/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/dynamo-interconnect-check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "55090c73dcd785d0661458b646d2d84381330ed163c13d2cd590c9c09d373884",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

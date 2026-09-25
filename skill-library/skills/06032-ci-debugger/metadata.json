@@ -1,0 +1,22 @@
+{
+  "英文名称": "ci-debugger",
+  "中文名称": "待补：ci-debugger",
+  "一句话作用": "Diagnose failed CI jobs and build pipelines using small-log, evidence-first debugging. Use when the user shares a failed GitHub Actions, GitLab CI, Vercel, or package-manager build and wants root cause, minimal fix, and…",
+  "关键输入": "- CI provider, workflow/job name, run URL, failed step, and logs. - Package manager output, build artifacts, test reports, and recent diffs. - Repo scripts, workflow YAML, and environment requirements.",
+  "关键输出": "Return: 1. Failing job and step 2. First meaningful error 3. Root cause 4. Minimal fix 5. Validation command 6. Remaining risks",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- A CI, build, deploy, or package-manager job failed. - The user provides logs, a run URL, or asks to inspect CI live. - Long logs need targeted extraction instead of full dumping.时，用它产出或更新：Return: 1. Failing job and step 2. First meaningful error 3. Root…",
+  "skill_id": "06032-ci-debugger-ded39a1b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/ci-debugger/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/ci-debugger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eacb4978834a465814ec7a7fbf7bbf0cc60f5e44d38072c3c9fba68b797ce8d0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-alchemist-weak-supervision",
+  "中文名称": "待补：p2s-alchemist-weak-supervision",
+  "一句话作用": "触发词：p2s-alchemist-weak-supervision。弱监督自动标注 — LLM 生成标注程序",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：p2s-alchemist-weak-supervision。弱监督自动标注 — LLM 生成标注程序时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11241-p2s-alchemist-weak-supervision-4a1e733e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-alchemist-weak-supervision/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-alchemist-weak-supervision/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "87bc4645b5551be4733c15a09a81d65d275ed7b6b6fdca55babc9f00be378c48",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "concurrency-patterns",
+  "中文名称": "待补：concurrency-patterns",
+  "一句话作用": "Implement thread-safe code, mutexes, semaphores, async/await patterns, and concurrent data structures. Use when handling parallel operations, race conditions, or building high-performance concurrent systems.",
+  "关键输入": "- Multi-threaded applications - Parallel data processing - Race condition prevention - Resource pooling - Task coordination - High-performance systems - Async operations - Worker pools",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:53+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Multi-threaded applications - Parallel data processing - Race condition prevention - Resource pooling - Task coordination - High-performance systems - Async operations - Worker pools时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04784-concurrency-patterns-ae9b813b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/concurrency-patterns/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/concurrency-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a0c4b5787e2f965bab4ebd70cb3ad7f97df5e1884101301b2ad254464bf9156",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

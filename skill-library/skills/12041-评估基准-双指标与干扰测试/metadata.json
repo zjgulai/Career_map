@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mcp-tool-use-benchmark",
+  "中文名称": "评估基准 双指标与干扰测试",
+  "一句话作用": "触发词：MCP工具评估、TFS与TEFS、工具选择审计、并行串行效率、干扰测试、模型选型。何时不用：要定位感知/规划/执行阶段短板用「Agent阶段评估」；要评估生产可靠性三维曲面用「Agent可靠性评估」。安全边界：评测必须在沙箱中运行并 mock 外部工具，禁止在评测环境调用生产接口或产生真实下单、扣款等副作用。",
+  "关键输入": "输入 ：领域化测试集（任务、期望工具集、期望步数）、待评测模型的执行轨迹（实际调用的工具与步数、是否成功）、沙箱环境与 mock 工具定义；粒度为单条任务的一次执行轨迹。 输出 ：TFS 与 TEFS 双指标、Token 效率对比表与工具选择审计明细（缺失工具、多余工具、步骤冗余），形成模型选型结论；供技术选型与工具上线前回归测试使用。",
+  "关键输出": "输入 ：领域化测试集（任务、期望工具集、期望步数）、待评测模型的执行轨迹（实际调用的工具与步数、是否成功）、沙箱环境与 mock 工具定义；粒度为单条任务的一次执行轨迹。 输出 ：TFS 与 TEFS 双指标、Token 效率对比表与工具选择审计明细（缺失工具、多余工具、步骤冗余），形成模型选型结论；供技术选型与工具上线前回归测试使用。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：MCP工具评估、TFS与TEFS、工具选择审计、并行串行效率、干扰测试、模型选型。何时不用：要定位感知/规划/执行阶段短板用「Agent阶段评估」；要评估生产可靠性三维曲面用「Agent可靠性评估」。安全边界：评测必须在沙箱中运行并 mock 外部工具，禁止在评测环境调用生产接口或产生真实下单、扣款等副作用。时，用它产出或更新：输入 ：领域化测试集（任务、期望工具集、期望步数）、待评测模型的执行轨迹（实际调用的工具与步数、是否成功）、沙箱环境与 mock 工具定义；粒度为单条任务的一次执行轨迹。 输…",
+  "skill_id": "12041-p2s-mcp-tool-use-benchmark-a21ed3a3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mcp-tool-use-benchmark/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mcp-tool-use-benchmark/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2409e72f6a4c3023604c636aded7cdc32d671acfb3d20eb3d9e98b55f4df27b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

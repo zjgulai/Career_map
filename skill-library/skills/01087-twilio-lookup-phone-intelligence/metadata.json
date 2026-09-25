@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-lookup-phone-intelligence",
+  "中文名称": "待补：twilio-lookup-phone-intelligence",
+  "一句话作用": "Look up phone number intelligence via Twilio Lookup v2 API. Covers number validation, line type detection (mobile/landline/VoIP), SIM swap detection, caller name, identity match, and SMS pumping risk scoring. Use this s…",
+  "关键输入": "- Twilio account (free trial works for basic lookups) — New to Twilio? See twilio-account-setup - Environment variables: - TWILIO ACCOUNT SID - TWILIO AUTH TOKEN — See twilio-iam-auth-setup for credential setup and best practices - SDK: pip install twilio / n…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Look up phone number intelligence via Twilio Lookup v2 API. Covers number validation, line type detection (mobile/landline/VoIP), SIM swap detection, caller name, identity match, and SMS pumping risk scoring. Use this s…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01087-twilio-lookup-phone-intelligence-9a2577a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-lookup-phone-intelligence/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-lookup-phone-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "08f7feb10ae096b497d1d282a5b247fd3a1d6613ef7f97ad42cc48c85c7ed7bd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

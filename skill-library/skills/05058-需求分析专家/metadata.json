@@ -1,0 +1,22 @@
+{
+  "英文名称": "requirements-analysis",
+  "中文名称": "需求分析专家",
+  "一句话作用": "专业需求分析师，通过多轮对话将简短想法转化为详细需求文档。使用此技能当用户需要：(1) 分析和记录需求，(2) 将 EPIC 分解为需求和用户故事，(3) 对多个需求进行优先级排序，(4) 识别利益相关者和依赖关系，(5) 定义验收标准，(6) 创建需求文档。支持单个需求分析、EPIC 分解、MoSCoW/RICE/Kano 等优先级排序方法。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "使用 Given-When-Then 格式：",
+  "最新更新时间": "2026-09-19T03:48:17+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要专业需求分析师，通过多轮对话将简短想法转化为详细需求文档。使用此技能当用户需要：(1) 分析和记录需求，(2) 将 EPIC 分解为需求和用户故事，(3) 对多个需求进行优先级排序，(4) 识别利益相关者和依赖关系，(5) 定义验收标准，(6) 创建需求文档。支持单个需求分析、EPIC 分解、MoSCoW/RICE/Kano 等优先级排序方法。时，用它产出或更新：使用 Given-When-Then 格式：",
+  "skill_id": "05058-requirements-analysis-d27cf349",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/requirements-analysis/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/requirements-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "291844a4b21af6b1c6eef6a2a9f818e3590d638e52ea9906e45f5aeaec9c39e4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

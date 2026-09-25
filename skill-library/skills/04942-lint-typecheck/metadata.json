@@ -1,0 +1,22 @@
+{
+  "英文名称": "lint-typecheck",
+  "中文名称": "待补：lint-typecheck",
+  "一句话作用": "Run ESLint and TypeScript type checking on the frontend codebase. Use when user mentions \"lint\", \"type check\", \"check code\", \"eslint\", \"tsc\", or before committing changes.",
+  "关键输入": "- \"Run lint on the frontend\" - \"Check for type errors\" - \"Validate code before commit\"",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:32+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- \"Run lint on the frontend\" - \"Check for type errors\" - \"Validate code before commit\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04942-lint-typecheck-f27856fa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/lint-typecheck/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/lint-typecheck/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d911c3977915411230e9e9f9969156e9f74b1ff958a32f8b5ab0a85b2c02eb94",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

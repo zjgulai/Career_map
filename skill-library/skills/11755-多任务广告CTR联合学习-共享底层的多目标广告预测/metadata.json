@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-task-ad-ctr-cvr",
+  "中文名称": "多任务广告CTR联合学习 共享底层的多目标广告预测",
+  "一句话作用": "触发词：ESMM、共享底层、CTR CVR 联合、选择偏差、CTCVR、长尾品类。何时不用：点击与购买样本都充足且任务弱相关时单任务模型即可；要判断因果效果时用实验方法。安全边界：不得基于人口统计特征做广告歧视，模型上线需渐进式切量并持续监控指标。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告团队面临\"CTR/CVR/ROAS三模型独立训练长尾品类CVR数据严重不足\"——ESMM整个展示空间联合训练CTCVR精度提升15%，年化ROAS提升约8%节省+增量56万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11755-p2s-multi-task-ad-ctr-cvr-a81f313d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-task-ad-ctr-cvr/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-task-ad-ctr-cvr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ef40b90056602cea4fbfa05ea8223a2d74199a26ca183ae75ab91ee222ab749b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

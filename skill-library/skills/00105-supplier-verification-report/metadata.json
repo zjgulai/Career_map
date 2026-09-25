@@ -1,0 +1,22 @@
+{
+  "英文名称": "supplier-verification-report",
+  "中文名称": "待补：supplier-verification-report",
+  "一句话作用": "Single-supplier due diligence report for Accio Alibaba.com B2B buyers. IMPORTANT: When this skill is triggered, READ THIS FILE FIRST to get exact tool names and parameter formats before making any CLI calls. Tool names:…",
+  "关键输入": "The user may provide a supplier name, a storefront URL, an exact supplier company id / comp id, an exact Alibaba productId / prod id, an Alibaba product URL, or select a supplier/product card. Extract the supplier identifier, then proceed to Step 2. Resolutio…",
+  "关键输出": "Language : Choose requested report language from the user's query/conversation: this is the language the user requested or implicitly expects for the report. Set report language to the same language unless the user explicitly asks for a different final report…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Single-supplier due diligence report for Accio Alibaba.com B2B buyers. IMPORTANT: When this skill is triggered, READ THIS FILE FIRST to get exact tool names and parameter formats before making any CLI calls. Tool names:…时，用它产出或更新：Language : Choose requeste…",
+  "skill_id": "00105-supplier-verification-report-03a0e132",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/supplier-verification-report/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/supplier-verification-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "13fff055c8ce098b2e9e19b6205f12e3aef7d71fc2fe5e55f83a020fa1fb17c8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

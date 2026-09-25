@@ -1,0 +1,22 @@
+{
+  "英文名称": "各市场合规标签内容生成（NA / EU 五语）",
+  "中文名称": "待补：各市场合规标签内容生成（NA / EU 五语）",
+  "一句话作用": "当需要为包装与说明书生成各目标市场法规定位的标签文案草稿（符号、警示语、制造商信息、语言组合）且已具备认证缺口或技术文件要点时调用；印刷前须法务与公告机构确认。",
+  "关键输入": "- 已有 certification-gap-analyzer 或等效 适用法规与符号清单 （CE、MDR、WEEE、电池等按 SKU 实际）。 - 已知 目标销售国 与 标签载体 （彩盒、机身镭雕、说明书折页）。 - 禁止 在无 DoC/技术文件编号时编造公告机构声明。",
+  "关键输出": "- 表：BlockID 市场 语言 正文/符号说明 依据(法规条款占位) ERP字段绑定 状态 - 附 一页签发检查表 （Owner / NB 意见 / 生效批次）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要为包装与说明书生成各目标市场法规定位的标签文案草稿（符号、警示语、制造商信息、语言组合）且已具备认证缺口或技术文件要点时调用；印刷前须法务与公告机构确认。时，用它产出或更新：- 表：BlockID 市场 语言 正文/符号说明 依据(法规条款占位) ERP字段绑定 状态 - 附 一页签发检查表 （Owner / NB 意见 / 生效批次）。",
+  "skill_id": "09886-na-eu-201b461a",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/product-label-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/product-label-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8fffb547ff6d3df8aae09f5c0f6405c36dfa6a17c02961fc42a049ed2e3f62f2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

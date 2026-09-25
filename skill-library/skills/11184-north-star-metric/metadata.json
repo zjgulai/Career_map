@@ -1,0 +1,22 @@
+{
+  "英文名称": "north-star-metric",
+  "中文名称": "待补：north-star-metric",
+  "一句话作用": "Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classify the business game (Attention, Transaction, Productivity) and validate against 7 criteria for an effective North Sta…",
+  "关键输入": "- Defining your company's key metric framework - Setting up a metrics tracking system - Choosing what to measure and optimize for - Evaluating potential North Star candidates - Triggers: North Star metric, north star, k…",
+  "关键输出": "- Provide details about your business model and revenue model - Share your company's vision, mission, or long-term goals - Include current metrics you're tracking - Mention key customer segments and use cases - Describe the primary value you deliver to custom…",
+  "最新更新时间": "2026-09-16T00:16:55+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- Defining your company's key metric framework - Setting up a metrics tracking system - Choosing what to measure and optimize for - Evaluating potential North Star candidates - Triggers: North Star metric, north star, k…时，用它产出或更新：- Provide details about yo…",
+  "skill_id": "11184-north-star-metric-a4a26a89",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-marketing-growth/skills/north-star-metric/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-marketing-growth/skills/north-star-metric/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "00242397486a88bb7e91a1d6c99e29fd51bdc9a1cd5def9771988fb40c195fb8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

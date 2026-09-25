@@ -1,0 +1,22 @@
+{
+  "英文名称": "evolve-and-diagnose-redux-apps/migrate-to-modern-redux",
+  "中文名称": "待补：evolve-and-diagnose-redux-apps/migrate-to-modern-redux",
+  "一句话作用": "Use this when moving a legacy Redux codebase to current RTK patterns. Covers replacing createStore with configureStore, migrating touched reducers to createSlice, codemod-assisted RTK 2 updates, and replacing server-dat…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-30T18:40:22+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this when moving a legacy Redux codebase to current RTK patterns. Covers replacing createStore with configureStore, migrating touched reducers to createSlice, codemod-assisted RTK 2 updates, and replacing server-dat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10191-evolve-and-diagnose-redux-apps-migrate-to-modern-redux-adc67c0e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/ana_caijing/report-site/node_modules/@reduxjs/toolkit/skills/evolve-and-diagnose-redux-apps/migrate-to-modern-redux/SKILL.md",
+  "relative_path": "lute/project/Agent/product/ana_caijing/report-site/node_modules/@reduxjs/toolkit/skills/evolve-and-diagnose-redux-apps/migrate-to-modern-redux/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c7504ced75e75a4cfc7bd91202968f31ec4cab976608f9417026f4421ed643f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

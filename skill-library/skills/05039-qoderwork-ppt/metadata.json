@@ -1,0 +1,22 @@
+{
+  "英文名称": "qoderwork-ppt",
+  "中文名称": "待补：qoderwork-ppt",
+  "一句话作用": "Generate QoderWork-style presentations. Automatically matches 14 templates based on your topic and outputs an editable .pptx file.",
+  "关键输入": "Read rules/content-rules.md (in this skill directory), then convert the user's requirements into a structured content document at output/content.md. - Extract from user input: topic, audience, key points, page count preferences, etc. - Generate a well-structu…",
+  "关键输出": "Create the output directories if they don't exist:",
+  "最新更新时间": "2026-09-19T03:51:32+08:00",
+  "业务场景": "content-creation",
+  "解决具体问题": "当需要Generate QoderWork-style presentations. Automatically matches 14 templates based on your topic and outputs an editable .pptx file.时，用它产出或更新：Create the output directories if they don't exist:",
+  "skill_id": "05039-qoderwork-ppt-c11b1ecb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/qoderwork-ppt/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/qoderwork-ppt/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5e8667a9348cb6cab2ac1dfcf5010540d38fa7d96d4259f95c216b15bee4f663",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

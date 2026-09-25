@@ -1,0 +1,22 @@
+{
+  "英文名称": "cms",
+  "中文名称": "待补：cms",
+  "一句话作用": "Headless CMS integration guidance — Sanity (native Vercel Marketplace), Contentful, DatoCMS, Storyblok, and Builder.io. Covers studio setup, content modeling, preview mode, revalidation webhooks, and Visual Editing. Use…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Configure the webhook in Sanity at Settings → API → Webhooks pointing to https://your-site.vercel.app/api/revalidate.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Headless CMS integration guidance — Sanity (native Vercel Marketplace), Contentful, DatoCMS, Storyblok, and Builder.io. Covers studio setup, content modeling, preview mode, revalidation webhooks, and Visual Editing. Use…时，用它产出或更新：Configure the webhook in S…",
+  "skill_id": "01131-cms-9f5f3610",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/vercel/skills/cms/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/vercel/skills/cms/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d5f22976cb562714110ecd2e358b5123cd12baaffec6d7dc6af086e272b93ff5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

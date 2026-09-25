@@ -1,0 +1,22 @@
+{
+  "英文名称": "docx",
+  "中文名称": "待补：docx",
+  "一句话作用": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', o…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After writing a .docx, render it and look at it: pdftoppm zero-pads page numbers to the width of the page count (page-01.jpg…page-12.jpg).",
+  "最新更新时间": "2026-09-19T04:22:06+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', o…时，用它产出或更新：After writing a .docx, ren…",
+  "skill_id": "06056-docx-29f15d77",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/finchnest/.finch/skills/docx/SKILL.md",
+  "relative_path": "lute/finchnest/.finch/skills/docx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8017469ea95fb7d28225c62daf8e2f3492a7b516fc64c18c28977cbf8980b7fe",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

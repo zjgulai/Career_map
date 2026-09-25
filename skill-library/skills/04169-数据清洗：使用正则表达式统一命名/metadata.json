@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-bar-chart-visualization",
+  "中文名称": "数据清洗：使用正则表达式统一命名",
+  "一句话作用": "读取多工作表Excel文件，自动处理合并单元格与数据清洗，进行交叉分组统计并生成带总计行的结果表，最后绘制支持中英文字体的美化柱状图，适用于多维度数据汇总与可视化分析。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要读取多工作表Excel文件，自动处理合并单元格与数据清洗，进行交叉分组统计并生成带总计行的结果表，最后绘制支持中英文字体的美化柱状图，适用于多维度数据汇总与可视化分析。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04169-excel-bar-chart-visualization-f7a3ff6e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-visualization/bar-chart-visualization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-visualization/bar-chart-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cd2a81a532a94135c7841d1f790c3dcf414fec2946c193ba2767901cdcfe8162",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

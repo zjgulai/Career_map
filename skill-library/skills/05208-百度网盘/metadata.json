@@ -1,0 +1,22 @@
+{
+  "英文名称": "connector-baidu-netdisk",
+  "中文名称": "百度网盘",
+  "一句话作用": "百度网盘文件管理与智能检索。支持浏览、关键词和语义搜索、文件整理、分享链接、容量查询，以及保存文本内容或通过 URL 转存文件。触发关键词：百度网盘、网盘、baidu、netdisk、云盘、文件分享。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要百度网盘文件管理与智能检索。支持浏览、关键词和语义搜索、文件整理、分享链接、容量查询，以及保存文本内容或通过 URL 转存文件。触发关键词：百度网盘、网盘、baidu、netdisk、云盘、文件分享。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05208-connector-baidu-netdisk-ccfc8d49",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/baidu-netdisk/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/baidu-netdisk/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5e01bd1ca56020a7e8f68e1270181580dee0b14893f05cd549f74d66295aa247",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

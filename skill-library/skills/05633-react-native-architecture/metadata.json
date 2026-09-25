@@ -1,0 +1,22 @@
+{
+  "英文名称": "react-native-architecture",
+  "中文名称": "待补：react-native-architecture",
+  "一句话作用": "Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecting React Native projec…",
+  "关键输入": "- Starting a new React Native or Expo project - Implementing complex navigation patterns - Integrating native modules and platform APIs - Building offline-first mobile applications - Optimizing React Native performance…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Starting a new React Native or Expo project - Implementing complex navigation patterns - Integrating native modules and platform APIs - Building offline-first mobile applications - Optimizing React Native performance…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05633-react-native-architecture-bf8e6c20",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-mobile-development/skills/react-native-architecture/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-mobile-development/skills/react-native-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28df2ca73ff9b5ac614dafed2c06201e02c90b6f2a4e0c01ecb70f82f497601a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

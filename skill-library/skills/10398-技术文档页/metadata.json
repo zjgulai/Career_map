@@ -1,0 +1,22 @@
+{
+  "英文名称": "docs-page",
+  "中文名称": "技术文档页",
+  "一句话作用": "三栏文档页: 侧导航 + 正文 + 右 TOC",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "engineering",
+  "解决具体问题": "当需要三栏文档页: 侧导航 + 正文 + 右 TOC时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10398-docs-page-58899f80",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/docs-page/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/docs-page/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0fd23b8a02cb2ec6385a35af22964b48dd5119b47fe48c77f4e64e3baa06b606",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

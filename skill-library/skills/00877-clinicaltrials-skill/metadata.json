@@ -1,0 +1,22 @@
+{
+  "英文名称": "clinicaltrials-skill",
+  "中文名称": "待补：clinicaltrials-skill",
+  "一句话作用": "Submit compact ClinicalTrials.gov API v2 requests for study search, metadata, enums, search areas, and field statistics. Use when a user wants concise ClinicalTrials.gov summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required field: action - Supported actions: studies, metadata, search areas, enums, stats size, field values, field sizes, request - Optional fields: path for action=request, params, max items, max depth, max pages, timeou…",
+  "关键输出": "- action=studies returns pages fetched, next page token, count metadata, and compact records. - Other actions return either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.me…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact ClinicalTrials.gov API v2 requests for study search, metadata, enums, search areas, and field statistics. Use when a user wants concise ClinicalTrials.gov summaries时，用它产出或更新：- action=studies returns pages fetched, next page token, count meta…",
+  "skill_id": "00877-clinicaltrials-skill-a67e8175",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/clinicaltrials-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/clinicaltrials-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c70582cd348eeeb1e15090ace440132f5b490b1aee24ac215505a7d0d3b3922c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

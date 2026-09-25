@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-scraping-automation",
+  "中文名称": "网站爬取与 API 自动化",
+  "一句话作用": "自动化爬取网站数据和 API 接口。当用户需要抓取网页内容、调用 API、解析数据或创建爬虫脚本时使用此技能。",
+  "关键输入": "- \"爬取这个网站的产品信息\" - \"帮我调用这个 API 并解析返回数据\" - \"创建一个脚本定时抓取新闻\" - \"分析这个网站的 API 接口文档\" - \"绕过这个网站的反爬虫限制\"",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:52:36+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- \"爬取这个网站的产品信息\" - \"帮我调用这个 API 并解析返回数据\" - \"创建一个脚本定时抓取新闻\" - \"分析这个网站的 API 接口文档\" - \"绕过这个网站的反爬虫限制\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05172-web-scraping-automation-263e072c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/web-scraping-automation/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/web-scraping-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d93a9538b0725b12a1038df157df252dd9517f812657ca58a85ca3f81831e48",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

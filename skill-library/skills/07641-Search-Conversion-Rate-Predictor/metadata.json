@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Search-Conversion-Rate-Predictor",
+  "中文名称": "待补：Search Conversion Rate Predictor",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T05:11:09.767007\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T20:11:09+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T05:11:09.767007\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07641-skill-search-conversion-rate-predictor-a9e9afb0",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Search-Conversion-Rate-Predictor.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Search-Conversion-Rate-Predictor.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "8a4bd5299dfda3bb3481b29ddd8243088a8d451a82f792f8a838c4e4fbf9da24",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

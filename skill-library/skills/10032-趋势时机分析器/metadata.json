@@ -1,0 +1,22 @@
+{
+  "英文名称": "趋势时机分析器",
+  "中文名称": "趋势时机分析器",
+  "一句话作用": "判断品类或子趋势应该立即进入、延后观察还是避免跟进，结合公开趋势与私有先行指标。触发词：趋势时机分析器、趋势阶段、入场时机、生命周期、什么时候进入、趋势分析。何时不用：选品方向是否值得做、进入或放弃终审、产品概念设计、Listing 撰写、市场调研报告（含市场规模/TAM/SAM/SOM）、竞品策略情报（含竞品分析报告/替代方案矩阵）、产品设计方案（含功能定义/定价策略/渠道规划）。即使消息中出现了「趋势」「搜索量」等词，只要主请求是…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-02",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要判断品类或子趋势应该立即进入、延后观察还是避免跟进，结合公开趋势与私有先行指标。触发词：趋势时机分析器、趋势阶段、入场时机、生命周期、什么时候进入、趋势分析。何时不用：选品方向是否值得做、进入或放弃终审、产品概念设计、Listing 撰写、市场调研报告（含市场规模/TAM/SAM/SOM）、竞品策略情报（含竞品分析报告/替代方案矩阵）、产品设计方案（含功能定义/定价策略/渠道规划）。即使消息中出现了「趋势」「搜索量」等词，只要主请求是…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10032-skill-fe013bc2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/趋势时机分析器/SKILL.md",
+  "relative_path": "lute/project/81-Skills/趋势时机分析器/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "b5dbe8a43a0db97a97cec81cc61d7cb9a79a24a349fbf7a072fd8a1c2f310f5e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

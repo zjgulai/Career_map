@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tagrag-hierarchical-label-kg",
+  "中文名称": "层级标签知识图谱 对象标签链驱动的超高效KG构建与检索",
+  "一句话作用": "触发词：标签链、层级标签、快速建图、增量更新、低成本检索。何时不用：需要开放式语义推理、标签无法枚举覆盖时，用图推理类方案更合适；本技能面向标签可枚举、追求构建与检索速度的场景。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要GraphRAG构建成本极高（LLM全量摘要）导致大多数团队无法负担知识图谱——TagRAG标签链构建速度14.6×、检索1.9×快，平均胜率78.36%，支持实时增量更新（2026 arXiv:2601.05254）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03930-p2s-tagrag-hierarchical-label-kg-b6b90f01",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tagrag-hierarchical-label-kg/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tagrag-hierarchical-label-kg/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e69d7d9880e7b894578ab5abf4184d80b12d97ef3dbc0d3d51830fec7d6fa933",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

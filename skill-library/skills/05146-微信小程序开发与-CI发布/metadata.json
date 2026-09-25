@@ -1,0 +1,22 @@
+{
+  "英文名称": "uni-app-wechat-cicd",
+  "中文名称": "微信小程序开发与 CI发布",
+  "一句话作用": "uni-app 项目微信小程序全流程开发、构建与 CI/CD 发布。当用户提到：开发 uni-app 小程序、用 uni-app 开发微信小程序、uni-app 小程序 CI/CD 发布、小程序上传体验版、自动发布微信小程序、miniprogram-ci 配置、微信小程序自动化发布、GitHub Actions / GitLab CI 部署微信小程序等场景时触发本技能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:24+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要uni-app 项目微信小程序全流程开发、构建与 CI/CD 发布。当用户提到：开发 uni-app 小程序、用 uni-app 开发微信小程序、uni-app 小程序 CI/CD 发布、小程序上传体验版、自动发布微信小程序、miniprogram-ci 配置、微信小程序自动化发布、GitHub Actions / GitLab CI 部署微信小程序等场景时触发本技能。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05146-uni-app-wechat-cicd-e92e4b77",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/uni-app-wechat-cicd/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/uni-app-wechat-cicd/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "25197d9747518aa3efd005632045ed19314145c4bc3706e2df187a113417532f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

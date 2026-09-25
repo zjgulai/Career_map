@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-whatsapp-private-domain-analytics",
+  "中文名称": "多渠道归因与私域触达效率分析",
+  "一句话作用": "触发词：私域归因、Shapley价值、WhatsApp贡献、触点序列、归因窗口。何时不用：只有单一私域渠道时不适用；公域广告渠道归因走多触点归因类技能。安全边界：WhatsApp触达须用户明确opt-in，用户ID须匿名化，不得未经同意把WhatsApp号码与Email直接关联用于分析。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要东南亚运营面临\"WhatsApp私域投入了钱但不知道对复购贡献多少\"——Shapley公平归因将WhatsApp渠道真实ROI透明化，帮助预算决策年化影响$8.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04040-p2s-whatsapp-private-domain-analytics-7f784a73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-whatsapp-private-domain-analytics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-whatsapp-private-domain-analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8f04c93fe6464c466118cec19b86677db8f5c62fcd773ae1f585c8e5f8fe718b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

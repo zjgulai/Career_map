@@ -1,0 +1,22 @@
+{
+  "英文名称": "giiisp-scientific-image-generation",
+  "中文名称": "待补：giiisp-scientific-image-generation",
+  "一句话作用": "使用 Giiisp Imagine 科研图像生成接口，把论文段落、图题、实验流程或机制描述整理成作图简报、生成请求、图片结果和检查记录。适用于论文配图、科研流程图、机制通路图、实验示意图和学术汇报图。",
+  "关键输入": "用户要“画一张科研图”“生成论文配图”“把这段方法做成流程图”“按这张图继续改”时使用本 skill。 不要把它用于纯 SVG 手绘、PPT 排版或普通网页插图。这里的主线是图像生成模型。",
+  "关键输出": "生成或改图时要主动输出有效状态，减少用户等待。进度绑定真实工作流节点，中文请求用中文；每条前缀当前本地时间或已耗时，但正文要保持科研图执行口径：有参数、有判断、有质量标准，不写成后台日志，也不写成陪聊安慰。只增加用户可见进度说明，不改变 Giiisp Imagine 接口、token 读取方式、请求体字段、轮询方式、run 目录规范或检查脚本。 进度文字要专业、短、具体。不要堆内部文件名，也不要把话说得太口语。优先输出用户真正关心的技术信息：图型、画幅、标签约束、参考图角色、生成状态、尺寸/格式、语义复查维度、是…",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户要“画一张科研图”“生成论文配图”“把这段方法做成流程图”“按这张图继续改”时使用本 skill。 不要把它用于纯 SVG 手绘、PPT 排版或普通网页插图。这里的主线是图像生成模型。时，用它产出或更新：生成或改图时要主动输出有效状态，减少用户等待。进度绑定真实工作流节点，中文请求用中文；每条前缀当前本地时间或已耗时，但正文要保持科研图执行口径：有参数、有判断、有质量标准，不写成后台日志，也不写成陪聊安慰。只增加用户可见进度说明，不改变 Giiisp Imagine 接口、token 读取方式、请求体字…",
+  "skill_id": "04637-giiisp-scientific-image-generation-66608484",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/giiisp-scientific-image-generation/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/giiisp-scientific-image-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "27e44acf2707e9d5f867ed0de9c9d102e633c4e69b08fa1c9f0f81d36f100429",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

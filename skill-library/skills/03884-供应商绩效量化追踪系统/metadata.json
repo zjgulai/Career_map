@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-performance-scorecard",
+  "中文名称": "供应商绩效量化追踪系统",
+  "一句话作用": "触发词：供应商积分卡、绩效评分、交货准时率、质量合格率、趋势预警。何时不用：需要连续不达标即触发备选供应商切换动作时用供应商预警与备选激活；需要新建供应商四维画像时用供应商本体能力图谱。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要核心供应商交货准时率悄悄从 97% 降到 88%，没有人发现直到断货损失百万——月度 KPI 积分卡 + 连续下滑趋势预警，提前 2-3 个月识别风险，避免断供损失 30-100 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03884-p2s-supplier-performance-scorecard-f6737f13",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supplier-performance-scorecard/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supplier-performance-scorecard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c199e73153347601b23fb7ad141c04032477043115182f4e7f9286b66faa42eb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

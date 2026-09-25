@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-notifications-alerts-advisor",
+  "中文名称": "待补：twilio-notifications-alerts-advisor",
+  "一句话作用": "Planning skill for transactional notifications, alerts, and reminders. Qualifies the developer's needs across urgency, channel selection, delivery confirmation, and fallback patterns to recommend the right Twilio notifi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After qualifying the developer, recommend:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Planning skill for transactional notifications, alerts, and reminders. Qualifies the developer's needs across urgency, channel selection, delivery confirmation, and fallback patterns to recommend the right Twilio notifi…时，用它产出或更新：After qualifying the devel…",
+  "skill_id": "01093-twilio-notifications-alerts-advisor-18ac1bf7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-notifications-alerts-advisor/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-notifications-alerts-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a36d20421ecaf5fd28eb24ba5235703440b713020b0e73decf810435c30cb5e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

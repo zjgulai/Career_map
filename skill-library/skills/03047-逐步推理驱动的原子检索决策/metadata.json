@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-deeprag-step-by-step-retrieval",
+  "中文名称": "逐步推理驱动的原子检索决策",
+  "一句话作用": "触发词：逐步检索、认证必要性判断、链式推理、检索阈值、机构匹配、申请流程。何时不用：要从长文档抽跨句关系时用「文档级关系抽取」，要修正过期知识库文档时用「Corrective-RAG 纠错检索」。安全边界：认证结论须经人工二审，模型幻觉导致错误建议的概率约 3.2%，不得直接据此下单或申报。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规团队面临多步查询推理链错误传播——DeepRAG逐步检索决策将链式错误率从25%→6%，token消耗-30%，年化合规决策价值65万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03047-p2s-deeprag-step-by-step-retrieval-1d7d0ff9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-deeprag-step-by-step-retrieval/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-deeprag-step-by-step-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c376bbcc89f02064abdf597046073aa42c606481b74d35b5474874c6169c940b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

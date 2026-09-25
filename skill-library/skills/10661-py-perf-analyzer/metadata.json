@@ -1,0 +1,22 @@
+{
+  "英文名称": "py-perf-analyzer",
+  "中文名称": "待补：py-perf-analyzer",
+  "一句话作用": "定位 Python 脚本的性能瓶颈，集成 cProfile、tracemalloc 和 line profiler，一键执行 CPU 热点函数、内存分配或逐行耗时分析，并可输出 JSON 报告。当用户提到优化脚本、分析性能、定位 CPU 或内存热点、进行逐行分析，或询问代码为什么慢、如何加速、内存泄漏等问题时触发。",
+  "关键输入": "参数 说明 默认值 ------ ------ -------- script 要分析的 Python 脚本路径（必填） - script args 传递给目标脚本的参数 无 --mode 分析模式：cpu / memory / line / all cpu --top 显示 Top N 结果 20 --sort CPU 分析排序：cumulative / tottime / calls cumulative",
+  "关键输出": "python scripts/perf profile.py my script.py --output report.json -- --input data.csv --output result.csv",
+  "最新更新时间": "2026-09-14T00:09:16+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要定位 Python 脚本的性能瓶颈，集成 cProfile、tracemalloc 和 line profiler，一键执行 CPU 热点函数、内存分配或逐行耗时分析，并可输出 JSON 报告。当用户提到优化脚本、分析性能、定位 CPU 或内存热点、进行逐行分析，或询问代码为什么慢、如何加速、内存泄漏等问题时触发。时，用它产出或更新：python scripts/perf profile.py my script.py --output report.json -- --input data.csv --o…",
+  "skill_id": "10661-py-perf-analyzer-3dec1cec",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/py-perf-analyzer/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/py-perf-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "26ee753a53de4c321016254dd761ff4d95f2cd9ee925d05115a5e56484ac1efa",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "kami-landing",
+  "中文名称": "待补：kami-landing",
+  "一句话作用": "Produce a print-grade single-page kami (紙 / 纸) document — warm parchment canvas, ink-blue accent, serif at one weight, no italic, no cool grays. The output reads like a professional white paper or studio one-pager, not…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Produce a print-grade single-page kami (紙 / 纸) document — warm parchment canvas, ink-blue accent, serif at one weight, no italic, no cool grays. The output reads like a professional white paper or studio one-pager, not…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00117-kami-landing-3f23dfab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/kami-landing/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/kami-landing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f50310e16eb5e16de9d8cf4b3e08f51ae8029bfec4e5f2e06e778e359d6ec534",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

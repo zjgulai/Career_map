@@ -1,0 +1,22 @@
+{
+  "英文名称": "practical-course-producer",
+  "中文名称": "待补：practical-course-producer",
+  "一句话作用": "Generate and audit evidence-based practical course videos for executable software, research-tool, or AI-assisted workflows with observable real interaction and verification. Use when a user needs a publishable hands-on…",
+  "关键输入": "Collect or locate only what the requested phase needs: - learning goal, audience, target duration, and language; - the real workflow, repository, CLI, browser tool, or source artifacts; - existing recordings, narration, slides, subtitles, or prior audit repor…",
+  "关键输出": "The primary deliverable is a versioned, publishable course video. Produce the smallest set of intermediate artifacts needed to make that video reproducible: 1. Final media: a versioned course video plus short check clips when review is needed. 2. lesson-plan.…",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate and audit evidence-based practical course videos for executable software, research-tool, or AI-assisted workflows with observable real interaction and verification. Use when a user needs a publishable hands-on…时，用它产出或更新：The primary deliverable is…",
+  "skill_id": "04641-practical-course-producer-8b51b886",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/practical-course-producer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/practical-course-producer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a6f4ba279b40e03bb26b86edf70f2eee98e2d7931951172450e2d2357849deb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

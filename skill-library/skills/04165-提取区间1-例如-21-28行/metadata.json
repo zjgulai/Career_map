@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-basic-statistics-and-routing",
+  "中文名称": "提取区间1 (例如 21-28行)",
+  "一句话作用": "对多Sheet Excel文件进行基础统计与，支持按条件筛选计算均值，以及从指定行区间提取数据去重求和，并生成结果文件与下载链接。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "if total rows < 10000: result df = pd.DataFrame([ {'Component Name': name, 'Est. Power (kW)': power} for name, power in unique components.items() ]) total row = pd.DataFrame([{'Component Name': '合计', 'Est. Power (kW)': total power}]) result df = pd.concat([re…",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要对多Sheet Excel文件进行基础统计与，支持按条件筛选计算均值，以及从指定行区间提取数据去重求和，并生成结果文件与下载链接。时，用它产出或更新：if total rows < 10000: result df = pd.DataFrame([ {'Component Name': name, 'Est. Power (kW)': power} for name, power in unique components.items() ]) total row = pd.DataFrame([{'Comp…",
+  "skill_id": "04165-excel-basic-statistics-and-routing-e5edce38",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-statistics/basic-statistics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-statistics/basic-statistics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a4c80985f4a733a5fd82c1e8edd502074905108d0471df88f8346e68d9a35d9c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

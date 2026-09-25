@@ -1,0 +1,22 @@
+{
+  "英文名称": "ad-copywriter",
+  "中文名称": "广告创意",
+  "一句话作用": "广告创意写作与优化技能，覆盖标题、描述、正文及完整广告方案的生成与迭代，适用于Google Ads、Meta、LinkedIn、TikTok、Twitter/X等主流付费广告平台。当用户需要撰写广告文案、进行创意生成、标题撰写，或请求批量生产广告变体、基于数据进行创意测试与效果优化时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:08:37+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要广告创意写作与优化技能，覆盖标题、描述、正文及完整广告方案的生成与迭代，适用于Google Ads、Meta、LinkedIn、TikTok、Twitter/X等主流付费广告平台。当用户需要撰写广告文案、进行创意生成、标题撰写，或请求批量生产广告变体、基于数据进行创意测试与效果优化时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10540-ad-copywriter-6e53698c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/ad-copywriter/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/ad-copywriter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "27662beb23f10caf447816cde72aa321746d65bbca62804d742872033e06b635",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

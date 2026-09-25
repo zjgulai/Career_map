@@ -1,0 +1,22 @@
+{
+  "英文名称": "cohort-analysis",
+  "中文名称": "待补：cohort-analysis",
+  "一句话作用": "按加入时间切分用户群体，对比各群留存曲线与行为差异，定位留存下滑的环节。触发词：同期群留存分析、cohort-analysis、按加入时间切分用户群体，对比各群留存曲线与行为差异，定位留存下滑的环节。",
+  "关键输入": "Example 1: Upload CSV Data Example 2: Describe Data Format Example 3: Feature Adoption Analysis",
+  "关键输出": "1. Include time dimension : Provide data across multiple time periods 2. Define cohort clearly : Make cohort grouping explicit (signup month, feature launch date, etc.) 3. Provide context : Explain product changes, launches, or events during the period",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Example 1: Upload CSV Data Example 2: Describe Data Format Example 3: Feature Adoption Analysis时，用它产出或更新：1. Include time dimension : Provide data across multiple time periods 2. Define cohort clearly : Make cohort grouping explicit (signup month, feature l…",
+  "skill_id": "02496-cohort-analysis-8955951d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/cohort-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/cohort-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e37059aec3aa02ce31a195c7faf06b5d20e9d99f27123f546272c1b9e51af017",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

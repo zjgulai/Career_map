@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-security-audit",
+  "中文名称": "代码安全检查清单",
+  "一句话作用": "基于 OWASP Top 10 (2021) 标准提供代码安全审查，逐项检查 SQL 注入、XSS、SSRF、访问控制、加密失败等常见漏洞，并给出具体的漏洞代码示例与修复方案。当用户需要代码安全审查、安全加固、渗透测试辅助，或提及 OWASP、安全检查、SQL 注入、XSS、代码审计、安全清单等关键词时触发此技能。",
+  "关键输入": "@app.route(\"/api/user\") def get user(): username = request.args.get(\"username\") query = f\"SELECT FROM users WHERE username = '{username}'\" result = db.execute(query) return jsonify(result)",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:10+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- 位置： [文件:行号] - 描述： [问题描述] - 影响： [可能造成的危害] - 修复代码： （直接可用的代码，非描述）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10699-web-security-audit-d9a19bfd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/web-security-audit/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/web-security-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b051c42532d86b386aa8bc9485cd6e5b44081af87eed0f017735e2ef0a2af952",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

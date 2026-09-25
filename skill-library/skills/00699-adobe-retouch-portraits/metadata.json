@@ -1,0 +1,22 @@
+{
+  "英文名称": "adobe-retouch-portraits",
+  "中文名称": "待补：adobe-retouch-portraits",
+  "一句话作用": "Bulk-retouch a folder of portrait photos using Adobe tools — designed for wedding photographers and event photographers who need fast, walk-away batch processing. Use this skill when the user says \"retouch my photos\", \"…",
+  "关键输入": "Adaptive enhancements (mapped to Preset Plan built in Step 0b): - \"All\" → run all four buckets (Adaptive Person + Mood + Toon + Blur BG), plus Whiten Teeth if face detected - \"Enhance Subject\" → apply all presets in the Adaptive Person Presets bucket - \"Mood…",
+  "关键输出": "All pipeline tools return: Output is read from results[N].outputUrl. On success: false see Error Handling. ---",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Bulk-retouch a folder of portrait photos using Adobe tools — designed for wedding photographers and event photographers who need fast, walk-away batch processing. Use this skill when the user says \"retouch my photos\", \"…时，用它产出或更新：All pipeline tools return:…",
+  "skill_id": "00699-adobe-retouch-portraits-5b91f30e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/adobe/skills/adobe-retouch-portraits/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/adobe/skills/adobe-retouch-portraits/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30dd9e57ceae0438f3eadb4734403853dc4bb2ae23e23ca14365a4702ed2a182",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

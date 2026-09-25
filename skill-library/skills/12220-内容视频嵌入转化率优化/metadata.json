@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-a-plus-content-video-embedding",
+  "中文名称": "内容视频嵌入转化率优化",
+  "一句话作用": "触发词：A+ 视频、视频位置优化、PDP 转化、竖版视频、双语字幕。何时不用：图文模块方案用「A+ 内容模板引擎」；本技能只管视频的位置、时长与呈现方式。安全边界：视频内容须真实不得夸大功效，使用 AI 生成内容须按平台要求标注。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"A+内容无视频导致转化率低\"——视频嵌入位置优化将PDP转化率从8%提升至12%，年化增收40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12220-p2s-a-plus-content-video-embedding-468ecc35",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-a-plus-content-video-embedding/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-a-plus-content-video-embedding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8b20d945276278f31b2526949cd009647da7db5efd6d23a7da474092274b0157",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

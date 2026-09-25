@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-scrna-seq",
+  "中文名称": "待补：ngs-scrna-seq",
+  "一句话作用": "Route single-cell or single-nucleus RNA-seq FASTQs to public count-generation workflows and defer post-count matrix QC, annotation, clustering, and UMAP analysis to the embedded scrna-seq-qc skill.",
+  "关键输入": "Confirm: - input type: FASTQ, count matrix, .h5, .h5ad, or .rds - assay: single-cell or single-nucleus - chemistry or barcode/UMI layout - organism and reference - expected cells per sample when available - sample, donor, batch, and channel metadata - desired…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Route single-cell or single-nucleus RNA-seq FASTQs to public count-generation workflows and defer post-count matrix QC, annotation, clustering, and UMAP analysis to the embedded scrna-seq-qc skill.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00936-ngs-scrna-seq-f84da750",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-scrna-seq/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-scrna-seq/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30b8d1d9524a8cd90e7609a8e511299bac4f7543d9d038cfb68c062a6b4ff0ba",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

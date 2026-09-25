@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-issue",
+  "中文名称": "待补：glab-issue",
+  "一句话作用": "创建、查看、更新和管理 GitLab 议题。适用于议题跟踪、缺陷报告、功能请求或任务管理等场景。操作包括创建议题、带过滤器列表、查看详情、添加评论/备注、更新标签/指派人/里程碑、关闭/重新打开以及看板管理。触发关键词：议题、缺陷、任务、工单、功能请求、列出议题、创建议题。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要创建、查看、更新和管理 GitLab 议题。适用于议题跟踪、缺陷报告、功能请求或任务管理等场景。操作包括创建议题、带过滤器列表、查看详情、添加评论/备注、更新标签/指派人/里程碑、关闭/重新打开以及看板管理。触发关键词：议题、缺陷、任务、工单、功能请求、列出议题、创建议题。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10601-glab-issue-9cb81d5e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-issue/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-issue/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d462d123c3e707a20ae02187158b295b6d06115641bca103cadf8c716a538b7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

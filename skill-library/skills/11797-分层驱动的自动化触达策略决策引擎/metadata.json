@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rfm-to-action-policy-engine",
+  "中文名称": "分层驱动的自动化触达策略决策引擎",
+  "一句话作用": "触发词：分群触达策略、自动化发券、策略引擎决策、生命周期动作、每日触达计划。何时不用：只做 RFM 分群本身用 RFM 分群技能，估计优惠券的分群因果效应用 DML 类技能，本技能在分群之上决定发什么、发给谁、发几次。安全边界：触达频次须遵守平台政策与退订要求，不得对沉睡用户无限加大折扣力度，须提供一键退订。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营主管面临\"RFM分群做了但不知道对每群用户该做什么动作\"——ε-greedy策略引擎将分群到自动化触达从2天手工决策压缩至实时触发，复购率提升18%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11797-p2s-rfm-to-action-policy-engine-bf4f6468",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-rfm-to-action-policy-engine/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-rfm-to-action-policy-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a55bec39a2a1fb53fbb6ef659a84b3fce62d7b5e42ded1467799b7340bded6f4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

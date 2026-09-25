@@ -1,0 +1,22 @@
+{
+  "英文名称": "codex-skills-create-skills",
+  "中文名称": "待补：codex-skills-create-skills",
+  "一句话作用": "Use when the user asks to create, revise, review, or publish Agent Skills for Codex or Cursor, or asks about SKILL.md frontmatter, compatibility, add-skill/openskills installation, and skill authoring standards. 触发词：创建…",
+  "关键输入": "- 用户需要创建、修改或发布 Skill（Codex / Cursor）。 - 用户询问 SKILL.md 结构、frontmatter 字段、目录布局或安装方式。 - 用户希望从现有文档/流程提炼成可复用 Skill。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-02T11:15:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 用户需要创建、修改或发布 Skill（Codex / Cursor）。 - 用户询问 SKILL.md 结构、frontmatter 字段、目录布局或安装方式。 - 用户希望从现有文档/流程提炼成可复用 Skill。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09403-codex-skills-create-skills-aec453d2",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/_publish_claude_skills/codex-skills-create-skills/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/_publish_claude_skills/codex-skills-create-skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1c53d200f558df8d01a83fcff28cb8160129f895a9ec2363e5d90ecbfdc31d97",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

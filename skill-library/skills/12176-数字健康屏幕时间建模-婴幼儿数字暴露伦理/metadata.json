@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-digital-wellbeing-screen-time-model",
+  "中文名称": "数字健康屏幕时间建模（婴幼儿数字暴露伦理）",
+  "一句话作用": "触发词：屏幕时间、数字健康评分、婴幼儿使用时长、AAP 合规提醒、替代活动推荐。何时不用：家长使用教学与产品教育内容不属本技能；本技能只按时长与月龄算健康分并给提醒。安全边界：儿童使用数据仅用于个性化提醒、不对外分享，须满足 COPPA 与家长知情同意。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品团队面临\"婴幼儿App无数字健康功能导致家长担忧并卸载\"——AAP指南合规屏幕时间提醒减少卸载率，年化保留用户价值10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12176-p2s-digital-wellbeing-screen-time-model-f64c6e8a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-digital-wellbeing-screen-time-model/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-digital-wellbeing-screen-time-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "123dde769e47f92daba5c924abefe3e1648662b6bebd51db8485c42b0af8b715",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

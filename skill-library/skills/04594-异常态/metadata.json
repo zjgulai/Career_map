@@ -1,0 +1,22 @@
+{
+  "英文名称": "异常态",
+  "中文名称": "异常态",
+  "一句话作用": "异常态设计专项。给定一个 flow 或一组屏，按 6 大状态矩阵（空 / 加载 / 错误 / 边界数据 / 权限 / 离线）主动穷举每屏需要设计的所有状态，输出每个状态的视觉 / 文案 / 交互描述，让设计师不必凭记忆排查异常态、不必等 QA 阶段才发现\"忘了空状态\"。 触发关键词：异常态、空状态、错误态、加载态、边缘状态、edge case、empty state、error state、loading state、状态穷举、状态设…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成 Edge 后， 同时 做两件事： 1. 会话内输出 （marker 之间放裸 JSON，不要嵌套 ``json 代码块）： 2. 写入项目文件 ：spark-output/context/edge.json（目录不存在时先创建） 3. 额外保存 Markdown 报告 ：spark-output/edge/[project-slug].md`，含完整状态矩阵 + 每态设计描述。 下游可消费 Skill： Flow Web / Flow Mobile （设计师可在主流程稿上叠加 Edge 输出的异常态，或直接…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要异常态设计专项。给定一个 flow 或一组屏，按 6 大状态矩阵（空 / 加载 / 错误 / 边界数据 / 权限 / 离线）主动穷举每屏需要设计的所有状态，输出每个状态的视觉 / 文案 / 交互描述，让设计师不必凭记忆排查异常态、不必等 QA 阶段才发现\"忘了空状态\"。 触发关键词：异常态、空状态、错误态、加载态、边缘状态、edge case、empty state、error state、loading state、状态穷举、状态设…时，用它产出或更新：完成 Edge 后， 同时 做两件事： 1. 会话内…",
+  "skill_id": "04594-skill-223faec8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/edge/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/edge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0eaa73b98fd00cfd5cf67fa74f10cc03d0e2a33b7ae91ffd864a91dbcc8bc2d1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

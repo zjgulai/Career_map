@@ -1,0 +1,22 @@
+{
+  "英文名称": "单位经济测算（毛利·ROI·回本周期）",
+  "中文名称": "待补：单位经济测算（毛利·ROI·回本周期）",
+  "一句话作用": "当需要基于采购成本、物流费用、平台佣金与投放成本测算单 SKU 毛利率、ROI 与回本周期时调用。",
+  "关键输入": "- ERP 成本字段（采购、物流、平台费用） - 目标销量与投放预算假设",
+  "关键输出": "表：SKU 毛利 毛利率 ROI 回本周期 关键假设",
+  "最新更新时间": "2026-03-22T01:16:41+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要基于采购成本、物流费用、平台佣金与投放成本测算单 SKU 毛利率、ROI 与回本周期时调用。时，用它产出或更新：表：SKU 毛利 毛利率 ROI 回本周期 关键假设",
+  "skill_id": "09903-roi-8d969d74",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/unit-economics-calculator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/unit-economics-calculator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cd9068fee9fe4af6ed39b42139e0ca733ba9cdffdb620c01ec64ee4ff22422b5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

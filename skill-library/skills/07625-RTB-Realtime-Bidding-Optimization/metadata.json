@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-RTB-Realtime-Bidding-Optimization",
+  "中文名称": "待补：RTB Realtime Bidding Optimization",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 69.8, \"best\": 83.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T03:53:07.689099\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T18:53:07+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 69.8, \"best\": 83.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T03:53:07.689099\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07625-skill-rtb-realtime-bidding-optimization-95d4c1e0",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-RTB-Realtime-Bidding-Optimization.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-RTB-Realtime-Bidding-Optimization.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "f6ecdf523d7d1aa1b96c194fffc08333da7b28383f10274cc97bd9501db680c5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

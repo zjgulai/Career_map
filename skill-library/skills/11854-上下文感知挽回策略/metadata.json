@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tscan",
+  "中文名称": "上下文感知挽回策略",
+  "一句话作用": "触发词：p2s-tscan。Skill: TSCAN上下文感知Uplift - 流失原因到挽回策略",
+  "关键输入": "传统流失预测模型存在的问题： 1. 只预测流失概率 ，不预测 挽回成功率 2. 统一策略 ，不区分流失原因 3. 忽视上下文 ，同一用户在不同生命周期阶段需要不同策略",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:13+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要传统流失预测模型存在的问题： 1. 只预测流失概率 ，不预测 挽回成功率 2. 统一策略 ，不区分流失原因 3. 忽视上下文 ，同一用户在不同生命周期阶段需要不同策略时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11854-p2s-tscan-8c1f106d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tscan/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tscan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c2e6d45470f3c7cfbd1eb7ed358f93a8a13d686f86ff31e1bb063b8371c27124",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-predictive-tag-engine-supply-chain",
+  "中文名称": "预测型标签引擎 将未来风险转化为当前可查询标签的供应链预测打标体系",
+  "一句话作用": "触发词：预测型标签、断货预警、置信度阈值、动作优先级、大促备货。何时不用：只需要未来需求量的数值预测时用需求预测技能；只把不确定性表达成区间时用不确定性量化技能。安全边界：标签须设置信度阈值并建立误报回溯机制，高影响补货决定不得仅凭标签自动执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要补货团队面临\"等到断货才发现已经来不及\"——预测型标签引擎将断货事件从12件/年→3件/年，T-14天提前响应比T-0应急成本低20倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03613-p2s-predictive-tag-engine-supply-chain-116fa6bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-predictive-tag-engine-supply-chain/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-predictive-tag-engine-supply-chain/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d97c421087f90ed726fcae55e193d75396e3cef31f3516afc389c5e30a873e77",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

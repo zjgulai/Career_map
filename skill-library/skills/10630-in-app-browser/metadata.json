@@ -1,0 +1,22 @@
+{
+  "英文名称": "in-app-browser",
+  "中文名称": "待补：in-app-browser",
+  "一句话作用": "Use when a task involves opening, viewing, reading, or interacting with a web page — the built-in browser (right panel) is the default way to open URLs and show pages to the user, even when the user just gives a URL or…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T23:50:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when a task involves opening, viewing, reading, or interacting with a web page — the built-in browser (right panel) is the default way to open URLs and show pages to the user, even when the user just gives a URL or…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10630-in-app-browser-c73e0d5a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/in-app-browser/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/in-app-browser/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3182c7f28b527d47198ba7b6cb66802ad7d0d14748aa8cd056b6139bd58af076",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

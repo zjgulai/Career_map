@@ -1,0 +1,22 @@
+{
+  "英文名称": "客诉处理分流中枢（退货/差评/安全升级）",
+  "中文名称": "待补：客诉处理分流中枢（退货/差评/安全升级）",
+  "一句话作用": "当需要把客服输入按风险与诉求类型分流到退货判定、差评回复或安全升级流程时调用。",
+  "关键输入": "- 已有 inquiry-classifier-multilingual 或人工初筛结果 - 有基础客诉字段（订单、SKU、问题类型、风险标签）",
+  "关键输出": "表：Ticket Route Priority SLA NextSkill Reason",
+  "最新更新时间": "2026-03-22T01:18:18+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要把客服输入按风险与诉求类型分流到退货判定、差评回复或安全升级流程时调用。时，用它产出或更新：表：Ticket Route Priority SLA NextSkill Reason",
+  "skill_id": "09890-skill-891f6184",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/customer-resolution-router/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/customer-resolution-router/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fb26763b7d97f6a390d726331e6137061e3931f2c66a009ca5708d69c7daa052",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

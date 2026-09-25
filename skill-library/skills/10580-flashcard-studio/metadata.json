@@ -1,0 +1,22 @@
+{
+  "英文名称": "flashcard-studio",
+  "中文名称": "待补：flashcard-studio",
+  "一句话作用": "从学习材料（文本、Markdown、笔记）中提取核心知识点，生成符合间隔重复记忆原理的正面问题+反面答案闪卡，输出可直接导入Anki的CSV文件。当用户提到闪卡、Anki、记忆卡片、知识点提取、复习卡片、间隔重复，或需要将学习内容转换成问答对进行复习时触发。",
+  "关键输入": "参数 说明 默认值 --- --- --- --input, -i 输入文件路径 stdin --output, -o 输出 CSV 文件路径 stdout --mode, -m 提取模式：auto（规则提取）或 json（结构化输入） auto --no-tags 不输出 tags 列 包含 tags --separator, -s CSV 分隔符：\\t、;、, Tab",
+  "关键输出": "生成的 CSV 遵循 Anki 导入规范：",
+  "最新更新时间": "2026-09-14T00:07:19+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要从学习材料（文本、Markdown、笔记）中提取核心知识点，生成符合间隔重复记忆原理的正面问题+反面答案闪卡，输出可直接导入Anki的CSV文件。当用户提到闪卡、Anki、记忆卡片、知识点提取、复习卡片、间隔重复，或需要将学习内容转换成问答对进行复习时触发。时，用它产出或更新：生成的 CSV 遵循 Anki 导入规范：",
+  "skill_id": "10580-flashcard-studio-2f6d7030",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/flashcard-studio/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/flashcard-studio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7f5169b306105428b6c49c79685b4618d54ad3ac84d15ea0f3b59f03d5684ab",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

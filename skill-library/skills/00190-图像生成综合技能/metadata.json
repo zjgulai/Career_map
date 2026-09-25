@@ -1,0 +1,22 @@
+{
+  "英文名称": "创意工坊生图",
+  "中文名称": "图像生成综合技能",
+  "一句话作用": "统一调度图像生成和处理能力，覆盖背景消除、去水印、SKU 换色、Logo 贴图、场景图、细节图、清晰度增强、模特图、图片翻译、指令绘图等 10 大能力。 支持任意指令生图、商品图片素材处理；不处理视频或商品发布。",
+  "关键输入": "生成或编辑图像时需确定输出图像的宽高比。 支持的比例： 适用范围： 场景 是否需要 aspect ratio ------ ---------------------- white background 仅支持 1:1；非 1:1 时降级为 simple generation watermark removal 仅支持 1:1；非 1:1 时降级为 simple generation hd upscale 仅支持 1:1；非 1:1 时降级为 simple generation",
+  "关键输出": "1. 原样输出 ：严格按照对应 references 文档中的输出格式输出，不要做任何额外处理。 2. 错误处理与降级交付 ： - 网络错误：自动重试一次。仍失败时，告知具体错误信息并提示用户检查网络后重试。 - 参数错误：提示检查输入参数，明确列出缺失或格式错误的字段。 - 服务错误：提示服务状态，建议稍后重试。 - 工具调用失败：自动重试一次；仍失败时，告知用户\"图片处理服务暂时不可用\"并建议稍后重试，同时返回已成功的其他图片结果（如有）。 - 批量部分失败：以表格形式展示每张图的处理结果，成功的展示图片 U…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要统一调度图像生成和处理能力，覆盖背景消除、去水印、SKU 换色、Logo 贴图、场景图、细节图、清晰度增强、模特图、图片翻译、指令绘图等 10 大能力。 支持任意指令生图、商品图片素材处理；不处理视频或商品发布。时，用它产出或更新：1. 原样输出 ：严格按照对应 references 文档中的输出格式输出，不要做任何额外处理。 2. 错误处理与降级交付 ： - 网络错误：自动重试一次。仍失败时，告知具体错误信息并提示用户检查网络后重试。 - 参数错误：提示检查输入参数，明确列出缺失或格式错误的字段。 - 服…",
+  "skill_id": "00190-skill-27f27399",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-image-generation/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-image-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f8849b0941cf26852f0b57cfd20539d5dfe7c005c97626776886617878709ad",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

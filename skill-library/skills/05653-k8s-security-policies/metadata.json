@@ -1,0 +1,22 @@
+{
+  "英文名称": "k8s-security-policies",
+  "中文名称": "待补：k8s-security-policies",
+  "一句话作用": "Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clusters, implementing network isolation, or enforcing pod security…",
+  "关键输入": "- Implement network segmentation - Configure pod security standards - Set up RBAC for least-privilege access - Create security policies for compliance - Implement admission control - Secure multi-tenant clusters",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- Implement network segmentation - Configure pod security standards - Set up RBAC for least-privilege access - Create security policies for compliance - Implement admission control - Secure multi-tenant clusters时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05653-k8s-security-policies-7f109be5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/k8s-security-policies/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/k8s-security-policies/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a2c3f21b667b15c8716d7d883b75729959635868a8bde2e5477bd9248372ab79",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "artifact-preview",
+  "中文名称": "待补：artifact-preview",
+  "一句话作用": "Render workspace artifacts (pdf/pptx/docx/xlsx/html/png/jpg/txt/zip) into text + page screenshots + thumbnail + multi-page collages, saved under ./.preview/{hash}/. Use Read on the resulting jpg/png files to visually in…",
+  "关键输入": "改完源文件再跑一次 preview render 。输出目录名由文件内容算出来， 所以改过的文件自动落到新目录，旧的预览保留。清理用 preview clean 或 preview clean --all。",
+  "关键输出": "每个子命令在 stdout 输出 一个 JSON 对象，参数写错时也一样： 错误码：FILE NOT FOUND、NOT A FILE、BAD EXT、NOT FOUND（缓存里没有这一项）、 DEP MISSING、BAD ARGS、RENDER FAILED、INTERNAL。 注意区分两件事： 缺依赖导致某种格式出不了图，不算错误 。 这种情况仍然是 ok: true，图片列表为空，原因写在 result.warnings 里。 所以拿到结果先看 warnings，再决定要不要读图。",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要改完源文件再跑一次 preview render 。输出目录名由文件内容算出来， 所以改过的文件自动落到新目录，旧的预览保留。清理用 preview clean 或 preview clean --all。时，用它产出或更新：每个子命令在 stdout 输出 一个 JSON 对象，参数写错时也一样： 错误码：FILE NOT FOUND、NOT A FILE、BAD EXT、NOT FOUND（缓存里没有这一项）、 DEP MISSING、BAD ARGS、RENDER FAILED、INTERNAL。 注…",
+  "skill_id": "06601-artifact-preview-15eedd24",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/artifact-preview/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/artifact-preview/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "817a8a7048436217be451113a7fe00b34cf785ee95024354d4611b8ae3b34d65",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "factframe-momcozy-assets",
+  "中文名称": "待补：factframe-momcozy-assets",
+  "一句话作用": "Inspect, validate, aggregate, publish, or privately verify FactFrame's local Momcozy Asset Bundles, Aggregate Index releases, current manifest, Synthetic CI, and Private Gate. Use for the Momcozy asset evidence plane; s…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Stop when the root is not explicitly approved, the marker mismatches, permissions are broad, a symlink appears, baseline/current diverges, fresh compile blocks, or sources change. Do not auto-repair or update the baseline; baseline changes require separate re…",
+  "最新更新时间": "2026-09-16T04:10:48+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Inspect, validate, aggregate, publish, or privately verify FactFrame's local Momcozy Asset Bundles, Aggregate Index releases, current manifest, Synthetic CI, and Private Gate. Use for the Momcozy asset evidence plane; s…时，用它产出或更新：Stop when the root is not…",
+  "skill_id": "10735-factframe-momcozy-assets-52428361",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/factframe-momcozy-assets/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/factframe-momcozy-assets/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b6c52f7296996c2cff63068a4e1add74eb5468b18cfdeaaefbb5cf5eb4dccfed",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

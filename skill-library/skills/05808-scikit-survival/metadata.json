@@ -1,0 +1,22 @@
+{
+  "英文名称": "scikit-survival",
+  "中文名称": "待补：scikit-survival",
+  "一句话作用": "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Ran…",
+  "关键输入": "Use this skill when: - Performing survival analysis or time-to-event modeling - Working with censored data (right-censored, left-censored, or interval-censored) - Fitting Cox proportional hazards models (standard or pen…",
+  "关键输出": "param grid = {'alpha min ratio': [0.01, 0.001]} cv = GridSearchCV(estimator, param grid, scoring=as concordance index ipcw scorer(), cv=5) cv.fit(X, y)",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Performing survival analysis or time-to-event modeling - Working with censored data (right-censored, left-censored, or interval-censored) - Fitting Cox proportional hazards models (standard or pen…时，用它产出或更新：param grid = {'alpha min r…",
+  "skill_id": "05808-scikit-survival-627653e1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/scikit-survival/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/scikit-survival/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cdd782ee4fb8c73311bdb2fdbc3a1a9353ca005b5910a748b2f464c3c05c106b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

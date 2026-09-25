@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-prelaunch-demand-check",
+  "中文名称": "待补：amazon-prelaunch-demand-check",
+  "一句话作用": "Validate real Amazon demand before sourcing: demand score, realistic monthly sales range, and scenario-based first-order quantity. Use for product ideas: worth doing, and how much to order first.",
+  "关键输入": "You need at least one of: - A product idea / keyword — e.g. \"collapsible silicone dog bowl\". Best when the user is describing something they want to make. - A seed competitor ASIN — e.g. \"B0CP9Z56SW\". Best when they're looking at a specific listing; derive th…",
+  "关键输出": "- An empty data[] is a successful call with no records ( observed empty ) — it is not proof of zero demand. Cross-check the keyword, marketplace, and filters before concluding anything, and say \"no records returned,\" not \"no demand.\" - Tool errors (permission…",
+  "最新更新时间": "2026-09-21T17:35:22+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- forbidden marketplace — the account behind the tools isn't authorized for that marketplace; pick one it covers. - invalid asin on a seed ASIN — invalid/unsupported ASIN or insufficient rank data; use the idea/keyword…时，用它产出或更新：- An empty data[] is a succ…",
+  "skill_id": "00277-amazon-prelaunch-demand-check-52e6e0f2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/amazon-prelaunch-demand-check/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/amazon-prelaunch-demand-check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "514151497f2457c2dd55e754e84f2eb5f471e285f8a6349134118ad12be71c5c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causalrag-knowledge-retrieval",
+  "中文名称": "因果图驱动的检索增强生成",
+  "一句话作用": "触发词：因果检索、根因问答、因果图构建、售后排障、因果链溯源、答非所问纠正。何时不用：只做一般语义相似度问答用「主动检索」；要按角色控制文档可见性用「知识库RBAC」。安全边界：因果链结论必须标注置信度并保留原文出处，低置信链条不得作为唯一处置依据；含用户信息的工单语料须脱敏后再用于建图。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户反馈\"机器转了两圈突然停下并闪红灯\"，传统 FAQ 机器人把所有带\"红灯\"的内容（充电时亮红灯/故障码等）全部返回，答非所问，最终用户申请退货时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02884-p2s-causalrag-knowledge-retrieval-160b1602",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causalrag-knowledge-retrieval/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causalrag-knowledge-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6471edc53401601528fe4000ae31b633d130d30afe7c664ab36e6875c3678046",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

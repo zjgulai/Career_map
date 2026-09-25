@@ -1,0 +1,22 @@
+{
+  "英文名称": "用户研究",
+  "中文名称": "用户研究",
+  "一句话作用": "产品设计套件深挖工具。当用户是设计师想主动做用户研究（访谈 / 可用性测试 / 调研）—— 从规划研究问题、设计访谈大纲、到访谈后做主题归纳与洞察提炼时启动的 Skill。与 Signal（被动整理工单 / 评论）形成互补 —— Probe 是主动深挖少量样本（5-8 人深访），Signal 是被动整理海量样本（100-1000+ 条反馈）。 本 Skill 覆盖用户研究的三阶段全流程：① Plan（研究目标 / 方法选择 / 招募标…",
+  "关键输入": "- 用户说\"我想访谈但不知道问什么\" ：从 frame / scope / 用户目的出发，先生成 5 个研究问题再展开大纲 - 用户没有 frame / scope ：先问 3 个最小问题（\"想研究什么 / 用户是谁 / 想搞清楚什么\"），再启动 Plan - 用户已有访谈记录但没整理 ：跳过 Plan / Conduct，直接进 Synthesize；要求用户提供原始记录（文本 / 转录 / 笔记） - 样本量过少（< 3 人） ：明确告知\"这是探索性信号，不是可靠洞察\"，建议补访谈或转用 Signal",
+  "关键输出": "完成 Probe 后， 同时 做两件事： 1. 写盘 ：spark-output/context/probe.json（目录不存在先创建） 2. 会话内输出紧凑 marker （不重复输出完整 JSON）： 3. 降级 fallback ：若写盘失败（chat-only 平台），输出完整 JSON marker 作为唯一持久化通道",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要按 frame.problem statement 和用户输入，生成 3-5 个 research questions，每个问题： - 是开放式问题（\"为什么 / 如何\"，不是 \"是不是 / 多少\"） - 围绕\"用户的真实场景与动机\"（不是\"用户想要什么功能\"） - 不预设答案（避免引导） Indi Young 提醒 ：\"Don't ask people what they want — ask them what they do.\"…时，用它产出或更新：完成 Probe 后， 同时 做两件事： 1. 写盘…",
+  "skill_id": "04606-skill-fff1ca89",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/probe/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/probe/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0bad11604328244560f57d881884c1264b78c7587493373be8c6d7ff5bb5b5be",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

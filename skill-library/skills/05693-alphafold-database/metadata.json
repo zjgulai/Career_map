@@ -1,0 +1,22 @@
+{
+  "英文名称": "alphafold-database",
+  "中文名称": "待补：alphafold-database",
+  "一句话作用": "Access AlphaFold 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology.",
+  "关键输入": "This skill should be used when working with AI-predicted protein structures in scenarios such as: - Retrieving protein structure predictions by UniProt ID or protein name - Downloading PDB/mmCIF coordinate files for str…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要This skill should be used when working with AI-predicted protein structures in scenarios such as: - Retrieving protein structure predictions by UniProt ID or protein name - Downloading PDB/mmCIF coordinate files for str…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05693-alphafold-database-20e04829",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/alphafold-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/alphafold-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "22cf8d64cb84c10881937b840cbb01d6530787083775ff2066b5a2de9cdd5e82",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "user-stories",
+  "中文名称": "待补：user-stories",
+  "一句话作用": "Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Complete set of user stories for the feature - Each story includes title, description, design link, and 4-6 acceptance criteria - Stories are independent and can be developed in any order - Stories are sized for one sprint cycle - Stories reference related…",
+  "最新更新时间": "2026-09-16T00:17:06+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog…时，用它产出或更新：- Complete set of user sto…",
+  "skill_id": "11169-user-stories-9037d8a1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/user-stories/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/user-stories/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ce89cd81de5a3df7d504380d18c54cec6c59ccdb7fd18cbcb62b6b6183d0a55",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

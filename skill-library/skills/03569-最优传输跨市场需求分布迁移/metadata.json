@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ot-cross-market-demand-transfer",
+  "中文名称": "最优传输跨市场需求分布迁移",
+  "一句话作用": "触发词：最优传输、跨市场迁移、Sinkhorn、新市场预测、分布对齐。何时不用：本市场已有充足历史时不需要迁移；只迁移旺季放大系数时用「旺季模式迁移学习」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链面临\"新市场<3个月数据导致需求预测MAPE达45%\"——最优传输跨市场分布迁移将预测误差降至22%，首季备货节省18-28万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03569-p2s-ot-cross-market-demand-transfer-f41b037d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ot-cross-market-demand-transfer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ot-cross-market-demand-transfer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5527ef8e305beab48365f8ff38d330daa0fa150c9e7142fb94e4e753ea03d18d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

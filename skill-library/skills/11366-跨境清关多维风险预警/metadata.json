@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-customs-clearance-risk-scoring",
+  "中文名称": "跨境清关多维风险预警",
+  "一句话作用": "触发词：清关风险、查验扣押、风险评分、批次预警、合规核查。何时不用：需要按市场维度统计认证完整率与清关时效 KPI 时用跨境关检务合规率KPI；需要自动给出候选 HS 编码与税率时用 HS 关税编码自动分类。安全边界：高分批次只触发证件核查与补充材料流程，退运、销毁等处置须人工决定；不得据分数对外承诺清关结果。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要清关合规团队面临\"婴配粉/CE产品查验扣押率25%、年均8-12次被扣损失20-80万元\"——多维风险评分模型AUC=0.81将高风险批次召回率提升至85%，年化减损20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11366-p2s-customs-clearance-risk-scoring-bd131746",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-customs-clearance-risk-scoring/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-customs-clearance-risk-scoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c5d435f098dccd02dd04f7807d0515499e642d23d882d626618e46630c236c2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "doc-accurate-codegen",
+  "中文名称": "待补：doc-accurate-codegen",
+  "一句话作用": "Generate code that references actual documentation, preventing hallucination bugs. ALWAYS loads docs first, validates against API signatures, and verifies correctness. Use for ANY code generation, API usage, or configur…",
+  "关键输入": "- ALWAYS when generating code - ALWAYS when using APIs - ALWAYS when creating configurations - ALWAYS when implementing features",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- ALWAYS when generating code - ALWAYS when using APIs - ALWAYS when creating configurations - ALWAYS when implementing features时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04818-doc-accurate-codegen-3c19b4bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/doc-accurate-codegen/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/doc-accurate-codegen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa5e6fbaa29a2eb35702059329223bbd82ddfe97cc56d0218e9fb8742e651ea1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

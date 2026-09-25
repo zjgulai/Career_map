@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-real-time-supply-chain-drift-detection",
+  "中文名称": "供应链信号漂移实时检测 从概念漂移到Tag失效预警的在线检测体系",
+  "一句话作用": "触发词：流式漂移检测、Tag失效预警、置信度降级、需求尖峰告警、CUSUM监控、补货暂停。何时不用：只做离线特征分布周期检查用「数据漂移检测」；只做模型指标衰减告警用「模型性能监控」。安全边界：确认漂移后必须同步降级 Tag 置信度并暂停依赖该 Tag 的动作，误报须留人工复核窗口再恢复；若 Tag 用于自动定价，不得违反平台公平定价政策、不得借突发事件抬价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临\"模型准确率悄悄下降但无法感知\"——流式漂移检测将数据质量问题发现从月度审计→5分钟实时预警，防止错误预测导致的断货超卖时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03696-p2s-real-time-supply-chain-drift-detection-e094144e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-real-time-supply-chain-drift-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-real-time-supply-chain-drift-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0614839091f08baeb2eff6f315354404fb3f67646ba32dc75e7e15cc00d5db77",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

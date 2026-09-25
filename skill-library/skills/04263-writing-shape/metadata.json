@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-shape",
+  "中文名称": "待补：writing-shape",
+  "一句话作用": "给草稿定整体结构与叙事弧线，让长文有骨架。触发词：写法·成型、writing-shape、给草稿定整体结构与叙事弧线，让长文有骨架。",
+  "关键输入": "When choosing how to render a block, weigh these tradeoffs out loud with the user, not silently: - Prose vs. list. Prose carries argument; lists carry parallel items. If items aren't truly parallel, prose is better. If they are, a list is faster to scan. - In…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要给草稿定整体结构与叙事弧线，让长文有骨架。触发词：写法·成型、writing-shape、给草稿定整体结构与叙事弧线，让长文有骨架。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04263-writing-shape-0de8bd7c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/writing-shape/SKILL.md",
+  "relative_path": "lute/.dsh/skills/writing-shape/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23c2e0c11754f58091f787c415116d28383d387f9887efa8f79025ba0b3aff47",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

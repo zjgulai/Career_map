@@ -1,0 +1,22 @@
+{
+  "英文名称": "to-spec",
+  "中文名称": "待补：to-spec",
+  "一句话作用": "把当前对话综合为规格并发布到项目 issue tracker。触发词：对话转规格、to-spec、把当前对话综合为规格并发布到项目 issue tracker。",
+  "关键输入": "用户所面临的问题，从用户的视角描述。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户所面临的问题，从用户的视角描述。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04226-to-spec-5f27f78a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/to-spec/SKILL.md",
+  "relative_path": "lute/.dsh/skills/to-spec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ba751d8aa9a91b1eb17e69b564b70bdc64196971e276e0db8b8a7f7d5e65a7fb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

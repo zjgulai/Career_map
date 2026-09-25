@@ -1,0 +1,22 @@
+{
+  "英文名称": "vercel-services",
+  "中文名称": "待补：vercel-services",
+  "一句话作用": "Vercel Services — deploy multiple services within a single Vercel project. Use for monorepo layouts or when combining a backend (Python, Go) with a frontend (Next.js, Vite) in one deployment.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After scaffolding, present the created file structure to the user. After deployment, present the deployment URL (refer to the deployments-cicd skill for details).",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Vercel Services — deploy multiple services within a single Vercel project. Use for monorepo layouts or when combining a backend (Python, Go) with a frontend (Next.js, Vite) in one deployment.时，用它产出或更新：After scaffolding, present the created file structure t…",
+  "skill_id": "01565-vercel-services-62a5d27b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/vercel-services/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/vercel-services/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1638be9f8ff41638bf4eba03d9880abd19ccc027b646ad25cddf429b61e07f45",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

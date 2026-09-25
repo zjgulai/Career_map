@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-maa-review-to-action-decision",
+  "中文名称": "多 Agent 行动建议 - 从评论到产品改进决策链",
+  "一句话作用": "触发词：评论到行动、改进建议、优先级排序、多 Agent 决策、季度复盘。何时不用：只需要属性级摘要本身时用「AGRS 属性引导评论摘要」；只需要把差评按问题打标并分派给团队时用「Tag-Driven VOC 信号路由」。安全边界：改进建议若涉及具体数值（如静音降至 35dB）需第三方检测报告支撑才能对外宣传；评论数据须匿名化并遵守 Amazon 开发者协议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Momcozy M5 吸奶器在美国/德国/中国三市场销售,各市场用户痛点完全不同(美国关注续航便携、德国关注静音认证、中国关注清洗方便). 现有运营复盘只产出\"差评列表\",无法直接驱动产品改进决策——产品经理拿到差评列表还要花 1-2 周二次提炼 - 数据要求:三市场 Amazon Review API + market 标签 - MAA 配置: - 按市场分别聚类(K=5,每市场 5时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11276-p2s-maa-review-to-action-decision-d231d30a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-maa-review-to-action-decision/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-maa-review-to-action-decision/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "db9cc016fc702d0980f664aef8eea75abb88675df4c47af162f95d1889d6794e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

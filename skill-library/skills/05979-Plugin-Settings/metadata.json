@@ -1,0 +1,22 @@
+{
+  "英文名称": "Plugin Settings",
+  "中文名称": "待补：Plugin Settings",
+  "一句话作用": "This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin setti…",
+  "关键输入": "When writing settings files from user input:",
+  "关键输出": "Strict mode enabled for this project. All writes validated against security policies. LEVEL=$(echo \"$FRONTMATTER\" grep '^validation level:' sed 's/validation level: //') case \"$LEVEL\" in strict)",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin setti…时，用它产出或更新：Strict mode enabled for th…",
+  "skill_id": "05979-plugin-settings-2e847f65",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/plugin-settings/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/plugin-settings/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec8bc3cd0089a2119a003e8e8fe9ad7361062fd460a354f5e777990063684c64",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

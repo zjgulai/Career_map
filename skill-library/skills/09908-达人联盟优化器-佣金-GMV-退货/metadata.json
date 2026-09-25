@@ -1,0 +1,22 @@
+{
+  "英文名称": "达人联盟优化器（佣金/GMV/退货）",
+  "中文名称": "待补：达人联盟优化器（佣金/GMV/退货）",
+  "一句话作用": "当达人联盟计划启动或效率下滑时，基于内容表现与退货数据输出达人分层和佣金优化建议。",
+  "关键输入": "- 达人内容表现数据 - 佣金结构与结算数据 - GMV 与退货率数据",
+  "关键输出": "表：达人 内容效率 GMV 退货率 当前佣金 建议佣金 建议动作",
+  "最新更新时间": "2026-03-22T01:33:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当达人联盟计划启动或效率下滑时，基于内容表现与退货数据输出达人分层和佣金优化建议。时，用它产出或更新：表：达人 内容效率 GMV 退货率 当前佣金 建议佣金 建议动作",
+  "skill_id": "09908-gmv-93988f16",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/creator-affiliate-optimizer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/creator-affiliate-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e1c2faaf483f5cbae251846f234ecc858aaa6837e3e1e1c5c38644abf5dbbcdf",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

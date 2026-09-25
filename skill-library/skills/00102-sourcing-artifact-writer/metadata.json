@@ -1,0 +1,22 @@
+{
+  "英文名称": "sourcing-artifact-writer",
+  "中文名称": "待补：sourcing-artifact-writer",
+  "一句话作用": "Canonical path, ownership, content, and write rules for sourcing artifacts in SuperSourcing and standalone flows.",
+  "关键输入": "When an upstream node unlocks Requirements, one call writes requirements.md, updates progress.md, and commits the active Requirements node. Bootstrap Requirements remain part of init.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Canonical path, ownership, content, and write rules for sourcing artifacts in SuperSourcing and standalone flows.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00102-sourcing-artifact-writer-6b561592",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/sourcing-artifact-writer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/sourcing-artifact-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e65b92872b649bd9d1d5bb3463bd268fdfcbfce7be4f3f294e93c7c1f4bc584c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

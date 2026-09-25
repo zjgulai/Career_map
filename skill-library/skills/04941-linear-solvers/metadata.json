@@ -1,0 +1,22 @@
+{
+  "英文名称": "linear-solvers",
+  "中文名称": "待补：linear-solvers",
+  "一句话作用": "Select and configure linear solvers for systems Ax=b in dense and sparse problems. Use when choosing direct vs iterative methods, diagnosing convergence issues, estimating conditioning, selecting preconditioners, or deb…",
+  "关键输入": "- Python 3.8+ - NumPy, SciPy (for matrix operations) - See individual scripts for dependencies",
+  "关键输出": "Script Key Outputs -------- ------------- scripts/solver selector.py recommended, alternatives, notes scripts/convergence diagnostics.py rate, stagnation, recommended action scripts/sparsity stats.py nnz, density, bandwidth, symmetry",
+  "最新更新时间": "2026-09-19T03:55:56+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Select and configure linear solvers for systems Ax=b in dense and sparse problems. Use when choosing direct vs iterative methods, diagnosing convergence issues, estimating conditioning, selecting preconditioners, or deb…时，用它产出或更新：Script Key Outputs -------…",
+  "skill_id": "04941-linear-solvers-6f0849f2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/linear-solvers/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/linear-solvers/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d53444081da9e777aea2661c3393b2405a43a39cd38e07000ced3388fd9174cd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

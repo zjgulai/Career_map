@@ -1,0 +1,22 @@
+{
+  "英文名称": "sales-tax-vat-automator",
+  "中文名称": "待补：sales-tax-vat-automator",
+  "一句话作用": "Automate global sales tax, VAT, and GST compliance across multiple jurisdictions. Implement real-time tax calculation, nexus tracking, and automated filing workflows to ensure audit-ready financial operations.",
+  "关键输入": "- Product Taxability: A \"T-Shirt\" might be tax-exempt in Pennsylvania but taxable in California. Ensure every SKU has a proper Tax Code assigned in your product catalog. - Shipping Taxability: Some states tax shipping;…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:34+08:00",
+  "业务场景": "payments-checkout",
+  "解决具体问题": "当需要- Product Taxability: A \"T-Shirt\" might be tax-exempt in Pennsylvania but taxable in California. Ensure every SKU has a proper Tax Code assigned in your product catalog. - Shipping Taxability: Some states tax shipping;…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00370-sales-tax-vat-automator-53574898",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/sales-tax-vat-automator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/sales-tax-vat-automator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3716ccbfbb16ed4caae5296bdfc297b315de3b135dc2ad575b275610a688c03e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

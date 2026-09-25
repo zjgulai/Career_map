@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multilingual-customer-service-translation",
+  "中文名称": "多语言客服自动翻译与情绪感知保全",
+  "一句话作用": "触发词：多语言客服、情绪感知翻译、VAD 情绪、投诉翻译、意图识别。何时不用：把商品文案本地化成 Listing 用「多语言 Listing 生成」；本技能只处理客服会话的情绪与意图保全。安全边界：买家会话与订单信息须脱敏后使用，情绪判读结果不得用于买家标签化或对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要海外客服面临多语回复慢——多语翻译将首响时长从20分压到3分，年化省14万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03500-p2s-multilingual-customer-service-translation-f4a1fb37",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multilingual-customer-service-translation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multilingual-customer-service-translation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4e15e3c96981b08da1db2f9099401c54869822c79227f77cf91f18b2cf6c27db",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

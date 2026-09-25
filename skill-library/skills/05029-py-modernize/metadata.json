@@ -1,0 +1,22 @@
+{
+  "英文名称": "py-modernize",
+  "中文名称": "待补：py-modernize",
+  "一句话作用": "Modernize Python codebases - migrate pip to uv, upgrade syntax to Python 3.13+, replace deprecated patterns, and update tooling to current best practices.",
+  "关键输入": "Example: Migrate pip to uv Example: Modernize syntax to Python 3.13 Example: Complete modernization",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Example: Migrate pip to uv Example: Modernize syntax to Python 3.13 Example: Complete modernization时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05029-py-modernize-803fd331",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/py-modernize/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/py-modernize/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7219bf401e4dfe949a3745f40ffd80ffaef7eaf1c8f66ed8d57473b25cc0ae27",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "video generation",
+  "中文名称": "待补：video generation",
+  "一句话作用": "Use Video Generation for AI video generation from text with optional public image, video, or audio references; supports multiple ratios, 480p/720p, 4-12 seconds, and local mp4 saving.",
+  "关键输入": "- description (required): detailed text description of the video to generate. - ratio: one of 16:9, 4:3, 1:1, 3:4, 9:16, 21:9. Default 16:9. - resolution: one of 480p, 720p. Default 720p. - duration: integer seconds, range 4-12. Default 5.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T18:47:04+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use Video Generation for AI video generation from text with optional public image, video, or audio references; supports multiple ratios, 480p/720p, 4-12 seconds, and local mp4 saving.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06166-video-generation-84295b4b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/video_generation/skills/video_generation/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/video_generation/skills/video_generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a945167a8a1ce2323c18c840f4862888f1dcb7c432d1b8b0a766e6f492ca0c99",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

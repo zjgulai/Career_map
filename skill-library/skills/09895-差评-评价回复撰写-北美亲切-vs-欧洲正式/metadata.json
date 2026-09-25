@@ -1,0 +1,22 @@
+{
+  "英文名称": "差评/评价回复撰写（北美亲切 vs 欧洲正式）",
+  "中文名称": "待补：差评/评价回复撰写（北美亲切 vs 欧洲正式）",
+  "一句话作用": "当需回复亚马逊/独立站/社媒上的公开评价、尤其是差评时调用；区分北美与欧洲语气，并避免引发法律与平台二次违规。",
+  "关键输入": "- 评价原文 、 星级 、 站点与市场 （NA 偏亲切；EU 不少国家偏正式、少表情）。 - 是否核实订单 ；未核实标「待核实」不写死事实。 - 安全指控 — 先走 safety-flag-detector，不直接发公关稿。",
+  "关键输出": "- public reply lang platform limits escalate if - 内部备注 （不公开）：是否建议联系修改评价。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需回复亚马逊/独立站/社媒上的公开评价、尤其是差评时调用；区分北美与欧洲语气，并避免引发法律与平台二次违规。时，用它产出或更新：- public reply lang platform limits escalate if - 内部备注 （不公开）：是否建议联系修改评价。",
+  "skill_id": "09895-vs-bc26ec97",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/review-response-writer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/review-response-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "35a3ce8abc4fb3a098b3bcf280b4079005498b85160fbe034fd5e78510ab1401",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

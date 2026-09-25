@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-imbalanced-data-handling",
+  "中文名称": "待补：p2s-imbalanced-data-handling",
+  "一句话作用": "触发词：样本不平衡、类别权重、SMOTE、阈值调优、长尾 SKU、召回率。何时不用：指标不达标源于特征或标签问题时不要用重采样掩盖；要在极端不平衡下提升少数类召回与长尾预测精度时用本卡。安全边界：重采样只能用于训练集，验证与测试集必须保持真实分布，结果不得对外披露个体数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要流失率 5%，直接用 XGBoost 训练，Recall 只有 0.3——70% 的流失用户没被识别时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11705-p2s-imbalanced-data-handling-f2979338",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-imbalanced-data-handling/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-imbalanced-data-handling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c2d27a399c229ca7cbc15e70867002d0073961201f815cb56514114f7597f470",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

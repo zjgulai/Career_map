@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-voc-multi-agent-analysis",
+  "中文名称": "多智能体用户声音分析：协作挖掘产品迭代洞察",
+  "一句话作用": "触发词：多智能体分析、评论辩论、迭代方向、多视角洞察、需求分群。何时不用：只要一份属性摘要时用「AGRS 属性引导评论摘要」；只要带 ROI 排序的行动清单时用「MAA 评论到行动决策」。安全边界：多视角结论须保留争议点原文，不得只保留共识；生产环境调用 LLM API 时评论文本需先脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要单LLM分析3000条评论只给出「改进噪音加强吸力」的泛泛结论无法指导具体产品决策——多智能体（产品经理/工程师/营销/UX）并行分析辩论共识，精准输出可执行改进建议并量化预期ROI年化产品迭代价值15-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11281-p2s-mas-voc-multi-agent-analysis-e9e5d78b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-mas-voc-multi-agent-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-mas-voc-multi-agent-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3948bfb6f0cc0714488d4d54460d8bcf8134a765cf2478885a7be1daae86f46f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-time-series-forecasting",
+  "中文名称": "时序预测 智能体驱动的自适应需求预测工作流",
+  "一句话作用": "触发词：模型选型、AutoTS、时序预测工作流、自动诊断、多模型集成。何时不用：模型已定、只需在线纠偏用「自适应预测精准化」，新品无历史销售用「新品冷启动预测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要预测团队面临\"不同产品需要不同时序模型但选型依赖个人经验误差大\"——AutoTS Agent自动诊断模型选型使MAPE从18%降至9%，年化减少积压断货损失约120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02717-p2s-agent-time-series-forecasting-fd1bbd8a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agent-time-series-forecasting/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agent-time-series-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cdb7e8eeb3c788a1698574debf37894ea6683322397de389d4d6b5d5a8968599",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

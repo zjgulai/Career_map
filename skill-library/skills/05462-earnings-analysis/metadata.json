@@ -1,0 +1,22 @@
+{
+  "英文名称": "earnings-analysis",
+  "中文名称": "待补：earnings-analysis",
+  "一句话作用": "Create professional equity research earnings update reports (8-12 pages, 3,000-5,000 words) analyzing quarterly results for companies already under coverage. Fast-turnaround format focusing on beat/miss analysis, key me…",
+  "关键输入": "Use when the user requests: - \"Create an earnings update for [Company] Q3 2024\" - \"Analyze [Company]'s quarterly results\" - \"Post-earnings report for [Company]\" - \"Q1/Q2/Q3/Q4 update for [Company]\" Do NOT use if: - User…",
+  "关键输出": "Primary Deliverable : DOCX report (8-12 pages) File Name : [Company] Q[Quarter] [Year] Earnings Update.docx Example : Nike Q2 FY24 Earnings Update.docx Contents: - Page 1: Summary with rating, price target, key takeaways - Pages 2-3: Detailed results analysis",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when the user requests: - \"Create an earnings update for [Company] Q3 2024\" - \"Analyze [Company]'s quarterly results\" - \"Post-earnings report for [Company]\" - \"Q1/Q2/Q3/Q4 update for [Company]\" Do NOT use if: - User…时，用它产出或更新：Primary Deliverable : DOCX…",
+  "skill_id": "05462-earnings-analysis-01621092",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/earnings-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/earnings-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4db857c27a53141b6ebc38ec9ee7f0020dec59cab084ae6753e53366d118c8ee",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

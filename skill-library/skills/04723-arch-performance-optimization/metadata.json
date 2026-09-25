@@ -1,0 +1,22 @@
+{
+  "英文名称": "arch-performance-optimization",
+  "中文名称": "待补：arch-performance-optimization",
+  "一句话作用": "Use when analyzing and improving performance for database queries, API endpoints, or frontend rendering.",
+  "关键输入": "- Slow API response times - Database query optimization - Frontend rendering issues - Memory usage concerns - Scalability planning",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:28+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Slow API response times - Database query optimization - Frontend rendering issues - Memory usage concerns - Scalability planning时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04723-arch-performance-optimization-ca30a665",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/arch-performance-optimization/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/arch-performance-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "267bdbe31f0d3ff045f3bc7adfbe7eac00178c4e35daeedc2c7fab9f61b4b7c4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

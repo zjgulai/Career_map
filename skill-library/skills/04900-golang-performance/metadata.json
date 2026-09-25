@@ -1,0 +1,22 @@
+{
+  "英文名称": "golang-performance",
+  "中文名称": "待补：golang-performance",
+  "一句话作用": "Go performance optimization techniques including profiling with pprof, memory optimization, concurrency patterns, and escape analysis.",
+  "关键输入": "- When profiling Go applications for CPU or memory issues - When optimizing memory allocations and reducing GC pressure - When implementing efficient concurrency patterns - When analyzing escape analysis results - When…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2025-12-23",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- When profiling Go applications for CPU or memory issues - When optimizing memory allocations and reducing GC pressure - When implementing efficient concurrency patterns - When analyzing escape analysis results - When…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04900-golang-performance-a8d4169e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/golang-performance/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/golang-performance/SKILL.md",
+  "date_source": "frontmatter.updated",
+  "content_hash": "abafa4be0ed0815768f83e8273877e8abd118221dccf6ab08a58561a5fc5e91d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

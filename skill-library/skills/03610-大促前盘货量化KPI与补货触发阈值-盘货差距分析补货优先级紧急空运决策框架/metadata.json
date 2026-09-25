@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-pre-promo-stocktaking-kpi",
+  "中文名称": "大促前盘货量化KPI与补货触发阈值 盘货差距分析补货优先级紧急空运决策框架",
+  "一句话作用": "触发词：大促前盘货、库存缺口、补货优先级、空运ROI、大促触发阈值。何时不用：日常稳态补货用「自动补货决策」；大促中要自动降广告出价护库存时用「大促库存脉冲触发」。安全边界：空运等应急物流支出须按预算与 ROI 阈值人工批准。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要大促备货靠感觉导致爆款缺货35%且次品积压——四要素盘货量化（当前库存/预测件数/差距件数/补货触发阈值）+空运ROI决策矩阵，大促缺货率从35%降至8%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03610-p2s-pre-promo-stocktaking-kpi-d969816b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-pre-promo-stocktaking-kpi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-pre-promo-stocktaking-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "36fdc6e68386d9f7beb7444e3bc44b798948d0707e3b5e73d977baeae387d42a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-萃取",
+  "中文名称": "萃取",
+  "一句话作用": "This skill should be used when the user asks to \"生成skill卡片\", \"萃取论文\", \"论文转skill\", \"生成技能卡片\", \"创建skill\". Uses Master Prompt to convert academic papers into business-ready skill cards.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "测试用例 状态 耗时 --------- ------ ------ test xxx ✅ 1ms",
+  "最新更新时间": "2026-06-09T21:40:31+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"生成skill卡片\", \"萃取论文\", \"论文转skill\", \"生成技能卡片\", \"创建skill\". Uses Master Prompt to convert academic papers into business-ready skill cards.时，用它产出或更新：测试用例 状态 耗时 --------- ------ ------ test xxx ✅ 1ms",
+  "skill_id": "07872-paper-7568ccb2",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/paper2skills-skills/paper-萃取/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/paper2skills-skills/paper-萃取/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b191ad9e2364ba12e7fc02e1978a7cebf34b0e28bc6e615a8152609887658297",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

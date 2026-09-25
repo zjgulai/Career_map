@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hierarchical-product-kg-construction",
+  "中文名称": "层级商品知识图谱自动构建（图片",
+  "一句话作用": "触发词：商品知识图谱、图片萃取属性、品类路径、Flat File、多语种检索。何时不用：单条 Listing 的违规修复用「Listing 合规自动修复」；本技能面向万级 SKU 的属性图谱构建。安全边界：仅使用厂商提供的商品图与描述，供应商信息须脱敏，上架合规责任仍在卖家。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务问题:出海卖家上架 1 万件母婴新品到 Amazon US,需逐 SKU 填写品类路径(Baby Feeding Baby Formula Infant Formula 0-6m)、净重(g)、包装材质、适用月龄等 10+ 个强制属性时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12312-p2s-hierarchical-product-kg-construction-093e30bd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-hierarchical-product-kg-construction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-hierarchical-product-kg-construction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e7816ec928ff5097e82cc0a461bb359b8b3b76c9f37680974234cf5a6f54ba2c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

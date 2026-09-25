@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-caster-context-aware-model-routing",
+  "中文名称": "上下文感知模型路由 任务步骤级强弱LLM动态调度以破解性能-成本铁三角",
+  "一句话作用": "触发词：模型路由、强弱模型调度、步骤级降本、质量成本平衡、延迟优化。何时不用：整体账单治理与语义缓存走「Agent 成本优化」；上下文太长需要压缩走「上下文 Token 压缩」。安全边界：合规、财务等关键决策步骤不得降级到弱模型，路由决策须保留日志以支持审计。",
+  "关键输入": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-12T10:58:29+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用同一个昂贵LLM处理所有Agent任务导致成本失控——CASTER步骤级神经路由将75%低复杂度步骤路由到弱模型，在保持质量的同时降低23-54%成本（2026 arXiv:2601.19793）时，用它产出或更新：（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11221-p2s-caster-context-aware-model-routing-ca717f6e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-caster-context-aware-model-routing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-caster-context-aware-model-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4f7fb6dc570a4453d10efec50e26fc87cbaa92453b8494aa78c9254055f2a789",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

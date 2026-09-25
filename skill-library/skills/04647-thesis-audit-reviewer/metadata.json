@@ -1,0 +1,22 @@
+{
+  "英文名称": "thesis-audit-reviewer",
+  "中文名称": "待补：thesis-audit-reviewer",
+  "一句话作用": "Use this skill when the user asks to review, audit, proofread, or produce a formal evaluation report for a degree thesis, dissertation, academic paper, or thesis PDF/DOCX, especially when they require checklist-based, l…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use this skill when the user asks to review, audit, proofread, or produce a formal evaluation report for a degree thesis, dissertation, academic paper, or thesis PDF/DOCX, especially when they require checklist-based, l…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04647-thesis-audit-reviewer-acbf40c6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/thesis-audit-reviewer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/thesis-audit-reviewer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f5886b0a79d80f64bc151f821e32765c6bdccb2329224336ff9125e9f5da3806",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

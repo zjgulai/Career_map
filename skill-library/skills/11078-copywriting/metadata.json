@@ -1,0 +1,22 @@
+{
+  "英文名称": "copywriting",
+  "中文名称": "待补：copywriting",
+  "一句话作用": "撰写营销文案，覆盖销售文案、品牌故事、产品描述（含电商详情页/Listing文案）和Landing Page文案。触发词：营销文案、文案写作、销售文案、品牌故事、产品描述、landing page文案。何时不用：ad-creative/slogan（用 ad-creative）、任何邮件正文（用 email-automation-flow-builder）、社媒帖子/推文/短视频脚本/内容日历（用 social-content）、co…",
+  "关键输入": "- 为着陆页和销售物料撰写销售文案 - 创作品牌故事与起源叙事 - 为电商撰写产品描述 - 优化着陆页内容以提升转化",
+  "关键输出": "Landing Page首屏文案 : 主标题: \"告别[痛点]，开启[愿景]\" 副标题: \"[产品名]帮助[目标用户]在[时间]内实现[具体结果]，无需[常见障碍]\" CTA按钮: \"立即开始免费试用\" 完整落地页文案范式与多行业销售文案样例见 references/copywriting-frameworks.md；可直接套用的成稿范例见 examples/sales-copy-sample.md。",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- 为着陆页和销售物料撰写销售文案 - 创作品牌故事与起源叙事 - 为电商撰写产品描述 - 优化着陆页内容以提升转化时，用它产出或更新：Landing Page首屏文案 : 主标题: \"告别[痛点]，开启[愿景]\" 副标题: \"[产品名]帮助[目标用户]在[时间]内实现[具体结果]，无需[常见障碍]\" CTA按钮: \"立即开始免费试用\" 完整落地页文案范式与多行业销售文案样例见 references/copywriting-frameworks.md；可直接套用的成稿范例见 examples/sales-c…",
+  "skill_id": "11078-copywriting-7cf20a9c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/copywriting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/copywriting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "055698899eea648784bdeab1ede18a556c7664c1128336877d2bbdfbcc1ddb64",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

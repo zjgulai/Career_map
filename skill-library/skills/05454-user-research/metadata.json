@@ -1,0 +1,22 @@
+{
+  "英文名称": "user-research",
+  "中文名称": "待补：user-research",
+  "一句话作用": "Plan, conduct, and synthesize user research. Trigger with \"user research plan\", \"interview guide\", \"usability test\", \"survey design\", \"research questions\", or when the user needs help with any aspect of understanding th…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Research plan (objectives, methods, timeline, participants) - Interview guide (questions, probes, activities) - Synthesis report (themes, insights, recommendations) - Highlight reel (key quotes and observations)",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Plan, conduct, and synthesize user research. Trigger with \"user research plan\", \"interview guide\", \"usability test\", \"survey design\", \"research questions\", or when the user needs help with any aspect of understanding th…时，用它产出或更新：- Research plan (objective…",
+  "skill_id": "05454-user-research-02593821",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/design-to-code/skills/user-research/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/design-to-code/skills/user-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fa18fc13d0f44aa869102962ef9466417ade726d659465195a40fbcf08cee156",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

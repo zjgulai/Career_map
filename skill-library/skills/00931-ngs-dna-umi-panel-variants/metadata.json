@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-dna-umi-panel-variants",
+  "中文名称": "待补：ngs-dna-umi-panel-variants",
+  "一句话作用": "Run or plan targeted DNA panel variant workflows that use UMIs, duplex consensus reads, molecular barcodes, low-frequency calling, target coverage, and panel-specific QC.",
+  "关键输入": "Confirm: - panel/capture kit name and target BED - UMI layout: inline read, index read, single UMI, duplex UMI, or unknown - whether consensus reads have already been generated - FASTQ/BAM input and pairing convention - reference build and panel-specific anno…",
+  "关键输出": "Produce: - UMI layout and consensus strategy - target BED/resource manifest - raw-depth, molecular-depth, and consensus-depth QC summary - qc/umi postrun summary.tsv for consensus reads, target coverage, variant counts, family size, and duplex fraction - qc/u…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要Run or plan targeted DNA panel variant workflows that use UMIs, duplex consensus reads, molecular barcodes, low-frequency calling, target coverage, and panel-specific QC.时，用它产出或更新：Produce: - UMI layout and consensus strategy - target BED/resource manifest…",
+  "skill_id": "00931-ngs-dna-umi-panel-variants-7abf414f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-dna-umi-panel-variants/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-dna-umi-panel-variants/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ac2bdf3635ec159cd386e2597383a5d89fced4eaf772727b1fa0b5497de6d374",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

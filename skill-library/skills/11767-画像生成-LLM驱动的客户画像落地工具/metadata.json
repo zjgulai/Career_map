@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-personabot-rag-profiling",
+  "中文名称": "画像生成 - LLM驱动的客户画像落地工具",
+  "一句话作用": "触发词：评论画像生成、RAG 画像、需求分群、痛点提炼、画像证据溯源。何时不用：只做购买行为分层用 RFM 类技能，从购买序列推断生命周期阶段用月龄推断技能，本技能从评论文本生成可溯源的人群画像。安全边界：评论数据获取须遵守平台服务条款与授权范围，画像不得用于差异化定价，广告宣称须有实测数据支撑。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Momcozy 在 Amazon US 的 S9/S12 系列累积数万条评论，但产品团队只能依赖人工抽查了解用户诉求，无法识别\"职场背奶妈妈\"与\"新手妈妈\"在痛点上的差异，导致广告文案和详情页对所有人说同样的话，转化率损耗严重 - 数据要求： - Amazon Review 数据（user id、product id、评论文本、评分、时间戳），CSV 格式 - 数量：每 SKU ≥ 50时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11767-p2s-personabot-rag-profiling-096be4c3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-personabot-rag-profiling/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-personabot-rag-profiling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fdcb9efc035e42c6a02585da515af4e92134008288837a846f3912fd847c2d0e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

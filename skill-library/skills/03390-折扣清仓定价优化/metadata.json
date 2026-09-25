@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-markdown-optimization",
+  "中文名称": "折扣清仓定价优化）",
+  "一句话作用": "触发词：清仓定价、折扣阶梯、季末清货、回收价值、残值测算、清仓周期。何时不用：固定窗口的闪购折扣率用「闪购定价优化」；按库存窗口算边际价格用「EMSR-b 边际库存定价」。安全边界：深度打折影响品牌形象与平台权重，须设价格下限与残值底线；折扣标注须真实，不得虚构原价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要S1 吸奶器库存 500 件，成本 $60，原价 $129时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03390-p2s-markdown-optimization-00431db6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-markdown-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-markdown-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a2c4e797dc7a46ccad032f6e05ab8135e2b10a6dbcf4afde269ce84c8dbbb809",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

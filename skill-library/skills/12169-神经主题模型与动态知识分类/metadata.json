@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bertopic-neural-topic-modeling",
+  "中文名称": "神经主题模型与动态知识分类",
+  "一句话作用": "触发词：主题建模、评论聚类、新兴主题发现、知识缺口、主题覆盖率。何时不用：追踪某个已知主题的时间演化用「Review 时序趋势挖掘」；本技能负责发现未知主题簇。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"5000条评论无法快速发现新兴主题和知识缺口\"——BERTopic将VOC主题覆盖率从68%提升至94%，自动发现安全性等预警主题，漏报率下降38%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12169-p2s-bertopic-neural-topic-modeling-b47dfe70",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-bertopic-neural-topic-modeling/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-bertopic-neural-topic-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e8d285fffb732208705001a3b478c283371a92e7c2cfa73901adf4a6131ea147",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

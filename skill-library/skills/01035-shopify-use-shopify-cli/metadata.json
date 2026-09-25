@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-use-shopify-cli",
+  "中文名称": "待补：shopify-use-shopify-cli",
+  "一句话作用": "Choose when the user needs Shopify CLI to run or fix something now: validate app or extension config on disk (shopify.app.toml, shopify.app. .toml, shopify.extension.toml); run or troubleshoot store workflows (shopify s…",
+  "关键输入": "- Upgrade to the latest version: shopify upgrade - Check current version: shopify version - If a command is missing or unrecognized, the user may need to upgrade Shopify CLI to the latest version by running shopify upgr…",
+  "关键输出": "Apply when the user wants to validate shopify.app.toml and extension configs (shopify.extension.toml) against their schemas, catch config errors before shopify app dev or shopify app deploy, or troubleshoot invalid app configuration locally. This workflow doe…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Upgrade to the latest version: shopify upgrade - Check current version: shopify version - If a command is missing or unrecognized, the user may need to upgrade Shopify CLI to the latest version by running shopify upgr…时，用它产出或更新：Apply when the user wants…",
+  "skill_id": "01035-shopify-use-shopify-cli-d0924d2a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-use-shopify-cli/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-use-shopify-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f302efc37c4fb8179f3a90c2714a270fc7b9c5caf9c958cab087edc528a7df24",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

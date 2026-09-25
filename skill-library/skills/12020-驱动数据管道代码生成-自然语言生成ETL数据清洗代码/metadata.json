@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-code-generation-data-pipeline",
+  "中文名称": "驱动数据管道代码生成 自然语言生成ETL数据清洗代码",
+  "一句话作用": "触发词：自然语言生成ETL、代码自修复、运营自助清洗、沙箱执行、多格式入库。何时不用：源数据结构固定、只需语义匹配融合时用语义ETL技能；只需抽取文档表格时用文档智能解析技能。安全边界：生成的代码必须在只读副本沙箱中执行、严禁直接操作生产数据，输出须人工确认后才可使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"Amazon和TikTok报告格式差异需工程师2天手工清洗\"——LLM自动生成ETL代码+自修复执行，处理时间5分钟，年化节省约50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12020-p2s-llm-code-generation-data-pipeline-20b71547",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-code-generation-data-pipeline/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-code-generation-data-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c3fc0e3ce9ef6d7badc514cb66cd3d2b9c53a65c7ccc343374a8be88228118c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

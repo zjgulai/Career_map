@@ -1,0 +1,22 @@
+{
+  "英文名称": "architecting",
+  "中文名称": "待补：architecting",
+  "一句话作用": "Architects new features through the full lifecycle. Use when designing, planning, implementing, or extending features. Triggers on 'new feature', 'design', 'plan', 'implement', 'architect', 'prd', 'spec'.",
+  "关键输入": "- Creating a new feature from scratch - Extending an existing feature with new capabilities - Implementing code based on a finalized design spec",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Creating a new feature from scratch - Extending an existing feature with new capabilities - Implementing code based on a finalized design spec时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04725-architecting-807d78d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/architecting/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/architecting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a66187e38348ec8bb99fa94cec311745ec41ee84f9c789f8aee0e523a528f04a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

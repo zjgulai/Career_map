@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-price-elasticity-estimation",
+  "中文名称": "需求价格弹性估算：跨境 SKU 定价底线测算",
+  "一句话作用": "触发词：价格弹性、打折测算、促销临界点、弹性系数、SKU 底线价、促销 ROI 曲线。何时不用：价格与销量互为因果、内生性严重时用「工具变量 IV 识别价格弹性」；要预测降价后备货量用「价格弹性×时间序列融合预测」。安全边界：弹性估计属内部分析，提价与折扣建议须人工确认，不得用于平台禁止的价格操纵。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴卖家对吸奶器盲目大促打折，不知道该 SKU 弹性是否足够高值得降价——价格弹性工具变量估算（OLS + DiD）给出每个 SKU 的弹性系数，识别哪些SKU可提价哪些不值得促销，年化节省无效促销并增加利润30-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12384-p2s-price-elasticity-estimation-cccd9ebc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-elasticity-estimation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-elasticity-estimation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "10f2ac461dac090a7d176fa64e8e22fce25bbf9b1edf217d3fbe481310f5a6db",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

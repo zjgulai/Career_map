@@ -1,0 +1,22 @@
+{
+  "英文名称": "daimon-widget-cards",
+  "中文名称": "待补：daimon-widget-cards",
+  "一句话作用": "Render Daimon display cards for assistant results. Use automatically when showing local files, images, videos, final generated products, completed deletion lists, existing tool resources, or a Canvas entry point in Daim…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Put a short natural-language summary before cards when helpful. - Keep card count low; use the most specific card type. - Put daimon-product at the end of the response when final deliverables exist. - Do not expose internal ids in natural language when they…",
+  "最新更新时间": "2026-07-25T17:52:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Render Daimon display cards for assistant results. Use automatically when showing local files, images, videos, final generated products, completed deletion lists, existing tool resources, or a Canvas entry point in Daim…时，用它产出或更新：- Put a short natural-lang…",
+  "skill_id": "06181-daimon-widget-cards-51dbf56c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/daimon-widget-cards/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/daimon-widget-cards/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "47e2a6d814d0b8ff8806f6da47727dc63d6d3da03f11500274f57c8aa581e0ec",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

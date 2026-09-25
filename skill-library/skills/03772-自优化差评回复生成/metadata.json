@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-scrable-review-response-generation",
+  "中文名称": "自优化差评回复生成",
+  "一句话作用": "触发词：差评回复、回复草稿生成、RAG 知识库、语气控制、回复质检。何时不用：只给评论排序展示用「评论有用性排序模型」；本技能生成并迭代回复草稿。安全边界：不得虚假承诺赔付或诱导修改评价，回复前须脱敏买家个人信息并遵守当地广告法。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要每天 20-30 条差评需在 48h 内回复否则影响卖家评分，人工团队时差覆盖困难——RAG 检索产品知识库 + LLM 自优化迭代生成专业回复，回复时效 18h→2h、回复率 60%→95%+，ROUGE-L 提升 8.5%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03772-p2s-scrable-review-response-generation-2fb6d182",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-scrable-review-response-generation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-scrable-review-response-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1c9a80330b060643aa2cfe1623ce6c19be5b994ed5ef7f9aab150f9180488c7c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

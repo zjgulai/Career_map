@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ldp-identity-aware-protocol",
+  "中文名称": "身份感知 Agent 通信协议：模型级路由 节省",
+  "一句话作用": "触发词：身份感知路由、Agent身份卡、模型分级路由、Token节省、任务复杂度评估。何时不用：只解决工具如何暴露给模型时用 MCP 与 A2A 协议栈技能；只审计工具描述质量时用工具描述审核技能。安全边界：身份卡中的信任域与权限声明必须与真实授权一致，不得凭身份卡自述放宽权限。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据治理专员面临身份混用难追责——LDP将错绑身份率4%降到0.5%，年化省11万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03308-p2s-ldp-identity-aware-protocol-22c782ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ldp-identity-aware-protocol/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ldp-identity-aware-protocol/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dab2e51a3a69dff633ef328d2b57728ca9b0c3f7e1b8b4d75ec7d2fc9be9572d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

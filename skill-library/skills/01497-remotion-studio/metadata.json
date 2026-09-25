@@ -1,0 +1,22 @@
+{
+  "英文名称": "remotion-studio",
+  "中文名称": "待补：remotion-studio",
+  "一句话作用": "Preview a Remotion video",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Preview a Remotion video时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01497-remotion-studio-490a582a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/remotion/1dc19589/skills/remotion-studio/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/remotion/1dc19589/skills/remotion-studio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a2a615fbca1c1fe8809841a405e296f4131b80e88e3d52754b77c8b7d1eeeda4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

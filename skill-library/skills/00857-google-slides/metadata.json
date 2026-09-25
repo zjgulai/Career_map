@@ -1,0 +1,22 @@
+{
+  "英文名称": "google-slides",
+  "中文名称": "待补：google-slides",
+  "一句话作用": "Route Google Slides authoring requests and derive a design system from a native template or reference deck. Use this skill when the user provides an existing native Google Slides deck as a template, reference, or prior-…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Route Google Slides authoring requests and derive a design system from a native template or reference deck. Use this skill when the user provides an existing native Google Slides deck as a template, reference, or prior-…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00857-google-slides-46c6ba19",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/google-drive/skills/google-slides/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/google-drive/skills/google-slides/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd14974d7c4ea9ff134bcc21cd32b2b1d61eeaa77c6dc757075b07eef6bedbdb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

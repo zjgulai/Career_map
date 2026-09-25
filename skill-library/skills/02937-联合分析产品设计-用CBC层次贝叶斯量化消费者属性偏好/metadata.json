@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-conjoint-analysis-product-design",
+  "中文名称": "联合分析产品设计 用CBC层次贝叶斯量化消费者属性偏好",
+  "一句话作用": "触发词：联合分析、属性权重、CBC 问卷、支付意愿、新品属性组合。何时不用：属性已经定好、只需从差评里排改进优先级时用「VOC 产品迭代信号提取」；还在判断品类值不值得进时用「Blue Ocean Category Discovery」。安全边界：问卷不得暗示即将上市或引导留评，调研结果不得包装成临床证明用于营销素材；结果公开前需评估竞品针对性定价风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要产品负责人面临\"新品属性组合（有机/BPA-free/价格区间）靠感觉定不知道哪个最重要\"——联合分析量化消费者属性权重，新品成功率提升28%，年化节省无效研发投入$4.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02937-p2s-conjoint-analysis-product-design-a5d42ac8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-conjoint-analysis-product-design/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-conjoint-analysis-product-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e5075a84de9464c741e9a294afed1ac7dbcd551890125dd4519a0c1546aa9df1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

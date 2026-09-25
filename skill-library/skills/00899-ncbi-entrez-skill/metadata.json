@@ -1,0 +1,22 @@
+{
+  "英文名称": "ncbi-entrez-skill",
+  "中文名称": "待补：ncbi-entrez-skill",
+  "一句话作用": "Submit compact NCBI Entrez E-Utilities requests for PubMed, Gene, Protein, Nucleotide, PMC metadata, and GEO metadata workflows. Use when a user wants concise Entrez search, fetch, summary, or link results; save raw JSO…",
+  "关键输入": "- Read one JSON object from stdin. - Required field: endpoint - Optional fields: params, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common Entrez patterns: - {\"endpoint\":\"esearch\",\"params\":{\"db\":\"pubmed\",\"term…",
+  "关键输出": "- Success returns ok, source, endpoint metadata, and either compact records, a compact summary, or text head. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact NCBI Entrez E-Utilities requests for PubMed, Gene, Protein, Nucleotide, PMC metadata, and GEO metadata workflows. Use when a user wants concise Entrez search, fetch, summary, or link results; save raw JSO…时，用它产出或更新：- Success returns ok, sour…",
+  "skill_id": "00899-ncbi-entrez-skill-5080258a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ncbi-entrez-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ncbi-entrez-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a0df39c740f481ad8cf613cb3f61603dc321829f8fb7dd11737481118ab9695c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

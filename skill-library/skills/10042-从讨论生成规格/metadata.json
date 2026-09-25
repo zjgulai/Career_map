@@ -1,0 +1,22 @@
+{
+  "英文名称": "to-spec",
+  "中文名称": "从讨论生成规格",
+  "一句话作用": "把已经讨论清楚的产品需求综合为本地可追踪规格，不重新访谈用户，也不依赖外部 Issue 系统。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T03:52:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要把已经讨论清楚的产品需求综合为本地可追踪规格，不重新访谈用户，也不依赖外部 Issue 系统。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10042-to-spec-0d2e63bd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-product-developer/skills/to-spec/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-product-developer/skills/to-spec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7932ec99bedb30cd0c28c5f030d9341e8842a0380cfe3c2fadd5a147396a17d5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

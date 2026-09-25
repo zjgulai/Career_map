@@ -1,0 +1,22 @@
+{
+  "英文名称": "miniprogram-development",
+  "中文名称": "待补：miniprogram-development",
+  "一句话作用": "WeChat Mini Program development skill for building, debugging, previewing, testing, publishing, and optimizing mini program projects. This skill should be used when users ask to create, develop, modify, debug, preview,…",
+  "关键输入": "Use this skill for WeChat Mini Program development when you need to: - Build or modify mini program pages and components - Organize mini program project structure and configuration - Debug, preview, or publish mini prog…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill for WeChat Mini Program development when you need to: - Build or modify mini program pages and components - Organize mini program project structure and configuration - Debug, preview, or publish mini prog…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05233-miniprogram-development-699bdfb2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/miniprogram-development/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/miniprogram-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ecf397a3388f7e12204d59dce1a06b5c5ffdf54f2e71b3caf8583700a397ab4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

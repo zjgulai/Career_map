@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-social-engineering-attack-detection",
+  "中文名称": "社会工程攻击检测钓鱼邮件虚假供应商识别",
+  "一句话作用": "触发词：钓鱼邮件、仿冒官方、虚假供应商、预付款诈骗、欺诈评分。何时不用：已合作供应商的常规准入与绩效评估走「供应商评估」；账号被盗后的权限处置走「访问控制」。安全边界：只输出欺诈评分与核查建议，不得代替人工点击链接或回复可疑邮件，也不得据此自动拉黑供应商。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营团队面临\"伪装Amazon官方邮件诱导账号验证和虚假供应商价格低40%诱导预付款\"——钓鱼邮件+供应商欺诈多维度评分识别攻击，年化减少社会工程攻击损失50-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03839-p2s-social-engineering-attack-detection-05c9a683",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-social-engineering-attack-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-social-engineering-attack-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "666ee235a08a4db588954dfce03c7d437874e8d14170450f84908de0f2094716",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

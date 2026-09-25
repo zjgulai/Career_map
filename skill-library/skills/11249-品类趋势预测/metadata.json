@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-category-trend-forecasting",
+  "中文名称": "品类趋势预测）",
+  "一句话作用": "触发词：品类趋势、搜索量增长、趋势评分、机会窗口。何时不用：只有单平台单日波动、不构成趋势序列时不用本卡；预测单个爆款峰值用流量拐点类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要监测到\"wearable breast pump\"（穿戴式吸奶器）谷歌搜索量过去 6 个月增长 180%（$p<0.01$），BSR 上升 45%，TikTok 话题 wearablepump 播放量 2.3 亿时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11249-p2s-category-trend-forecasting-60157c9a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-category-trend-forecasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-category-trend-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7cb02dd8b8d358c94ec6b8426bf47b9c9fea1ebb1c6acdd72588f238ad2bbcbd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

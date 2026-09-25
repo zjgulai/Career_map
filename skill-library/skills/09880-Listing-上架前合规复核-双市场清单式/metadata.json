@@ -1,0 +1,22 @@
+{
+  "英文名称": "Listing 上架前合规复核（双市场清单式）",
+  "中文名称": "待补：Listing 上架前合规复核（双市场清单式）",
+  "一句话作用": "在「多语言本土化之后」对整套 Listing 做北美/欧洲双轨合规复核，作为进入 A+ 与 platform-formatter 前的门禁；与 listing-compliance-scanner 互补（scanner 偏全文规则扫描，checker 偏清单与一致性）。",
+  "关键输入": "- 已完成 multilingual-localizer 输出或等价终稿。 - 已具备 market-compliance-checker 对该 SKU 市场的 必须项列表 （可摘要）。 - 复杂案例并行运行 listing-compliance-scanner 做全文扫描，本 Skill 负责 发布前 gate 。",
+  "关键输出": "- 结果：PASS FAIL - 表：检查项 证据位置 状态 备注 - FAIL 时 禁止 声明可上架。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在「多语言本土化之后」对整套 Listing 做北美/欧洲双轨合规复核，作为进入 A+ 与 platform-formatter 前的门禁；与 listing-compliance-scanner 互补（scanner 偏全文规则扫描，checker 偏清单与一致性）。时，用它产出或更新：- 结果：PASS FAIL - 表：检查项 证据位置 状态 备注 - FAIL 时 禁止 声明可上架。",
+  "skill_id": "09880-listing-0b8f6320",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/listing-compliance-checker/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/listing-compliance-checker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ffc16f2d54e19db923c9fd093abe3eef569a97c3a63b3c353d3acf77fde2d9ef",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

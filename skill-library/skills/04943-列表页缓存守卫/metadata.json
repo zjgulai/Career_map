@@ -1,0 +1,22 @@
+{
+  "英文名称": "list-cache-guard",
+  "中文名称": "列表页缓存守卫",
+  "一句话作用": "为 Vue 列表页实现 keep-alive 缓存控制：查看详情返回时保留缓存（保留查询条件和分页），切换页签、切换菜单、编辑/操作后返回则清除缓存。列表页按路径判断，详情页通过 sessionStorage catchFlag 反向清除列表缓存。当需要为列表页添加 beforeRouteLeave 缓存控制、或修改现有缓存逻辑时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:07+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要为 Vue 列表页实现 keep-alive 缓存控制：查看详情返回时保留缓存（保留查询条件和分页），切换页签、切换菜单、编辑/操作后返回则清除缓存。列表页按路径判断，详情页通过 sessionStorage catchFlag 反向清除列表缓存。当需要为列表页添加 beforeRouteLeave 缓存控制、或修改现有缓存逻辑时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04943-list-cache-guard-ef282f5f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/list-cache-guard/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/list-cache-guard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "486e43a69756302303d2f248b07c9f7a408afa530a961b9478ac0c9aeea62438",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

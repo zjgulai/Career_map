@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-positioning-multi-dc",
+  "中文名称": "多仓库存定位优化（FBA海外仓自营仓协同）",
+  "一句话作用": "触发词：多仓库存定位、库存分配、海外仓备货、断货与积压、仓间调拨。何时不用：只算单个仓该补多少货用「补货模拟」，只按动销把 SKU 分层用「库存分层」；本技能解决的是货该放在哪个仓。安全边界：模型只输出各仓分配与调拨建议，不直接改动库存、价格或在售状态。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链团队面临\"FBA断货和海外仓积压并存说明多仓库存定位失衡\"——随机库存定位模型优化后断货率降低30%仓储成本降低20%，年化节省25-45万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03259-p2s-inventory-positioning-multi-dc-8f2a057e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-inventory-positioning-multi-dc/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-inventory-positioning-multi-dc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8223a551fb5830d8ed4dc692a40127899ebfffbdede266396c5678c17527e3d4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

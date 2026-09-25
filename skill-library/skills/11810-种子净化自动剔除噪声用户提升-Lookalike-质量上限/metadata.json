@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-seed-quality-optimization-for-lookalike",
+  "中文名称": "种子净化自动剔除噪声用户提升 Lookalike 质量上限",
+  "一句话作用": "触发词：种子净化、Lookalike、孤立森林、代理分类器、数据质量、相似受众。何时不用：跨平台联合建模用联邦学习那张卡；本卡解决种子集混入员工内购、刷单与羊毛党导致效果崩塌的问题。安全边界：清洗规则须可解释并留审计记录，不得基于敏感属性剔除用户，剔除名单不得外泄。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要广告投手面临\"种子集含员工内购/刷单/羊毛党导致Lookalike ROAS从3.2x崩至1.9x\"——三阶段净化将种子纯度从68%提升至94%，ROAS恢复到3.1x，年化增收约7.2万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11810-p2s-seed-quality-optimization-for-lookalike-cc66c11b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-seed-quality-optimization-for-lookalike/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-seed-quality-optimization-for-lookalike/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2c9a670c597cd4fc2f2650ace3bd42afc0c32bcba67952fc1cbf76529f35ccd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

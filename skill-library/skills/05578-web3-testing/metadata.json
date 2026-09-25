@@ -1,0 +1,22 @@
+{
+  "英文名称": "web3-testing",
+  "中文名称": "待补：web3-testing",
+  "一句话作用": "Test smart contracts comprehensively using Hardhat and Foundry with unit tests, integration tests, and mainnet forking. Use when testing Solidity contracts, setting up blockchain test suites, or validating DeFi protocol…",
+  "关键输入": "- Writing unit tests for smart contracts - Setting up integration test suites - Performing gas optimization testing - Fuzzing for edge cases - Forking mainnet for realistic testing - Automating test coverage reporting -…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Writing unit tests for smart contracts - Setting up integration test suites - Performing gas optimization testing - Fuzzing for edge cases - Forking mainnet for realistic testing - Automating test coverage reporting -…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05578-web3-testing-f9849267",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/blockchain-web3/skills/web3-testing/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/blockchain-web3/skills/web3-testing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a79f5af2da83753a1afc08d42ca7861d94c8f883c6b0955c833024ecd26b0537",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

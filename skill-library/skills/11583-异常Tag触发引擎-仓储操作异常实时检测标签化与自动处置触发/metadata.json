@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-wms-exception-action-trigger",
+  "中文名称": "异常Tag触发引擎 仓储操作异常实时检测标签化与自动处置触发",
+  "一句话作用": "触发词：WMS异常、实时检测、Tag触发、自动处置。何时不用：没有实时事件流、只能事后统计时不用本卡；纯 KPI 报表用仓储运营 KPI 类技能。安全边界：暂停波次等动作不得违反平台发货时效承诺，误报可能导致延迟发货与索赔，需保留人工确认缓冲。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓库主管面临\"拣货差错率升高1小时后才被发现\"——WMS异常Tag实时检测+自动暂停波次，将异常响应从1小时降至实时，年化减少补发成本5万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11583-p2s-wms-exception-action-trigger-95517518",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-wms-exception-action-trigger/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-wms-exception-action-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e8d272d849e7b1f0e80074f72dd0f26bc443730bc6db187b0e568ef35e1e65db",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

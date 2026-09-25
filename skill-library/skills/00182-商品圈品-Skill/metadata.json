@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-product-select",
+  "中文名称": "商品圈品 Skill",
+  "一句话作用": "商品圈品/筛选工具，根据用户意图筛选候选商品。 支持通过自然语言描述圈品条件，自动推荐圈品维度组合。 When to use: - 用户需要筛选特定条件的商品（如\"低转化的 3C 商品\"、\"质量分低于 5 分的商品\"） - 用户通过商品 ID 圈品（如\"帮我优化商品 ID 为 123456 的商品\"、\"把这几个商品圈出来：123, 456, 789\"） - 用户指令包含圈品条件 （如\"帮我优化xxx的商品\"、\"优化近 90 天无曝光的…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Action ：使用返回的 fileId，通过 MCP 方式调用 query ai select result 轮询圈品结果 - 轮询策略 ：每 5 秒轮询一次，直到任务完成 - Output ：filePath（沙盒 CSV 下载路径）、totalCount（候选商品数）",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要商品圈品/筛选工具，根据用户意图筛选候选商品。 支持通过自然语言描述圈品条件，自动推荐圈品维度组合。 When to use: - 用户需要筛选特定条件的商品（如\"低转化的 3C 商品\"、\"质量分低于 5 分的商品\"） - 用户通过商品 ID 圈品（如\"帮我优化商品 ID 为 123456 的商品\"、\"把这几个商品圈出来：123, 456, 789\"） - 用户指令包含圈品条件 （如\"帮我优化xxx的商品\"、\"优化近 90 天无曝光的…时，用它产出或更新：- Action ：使用返回的 fileId，通过…",
+  "skill_id": "00182-alibaba-global-product-select-f7b51819",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-select/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-select/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7fdbdbd5f98948a8934259509a182b505756a1e5c9e3f49ba357817a3232843b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

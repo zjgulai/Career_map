@@ -1,0 +1,22 @@
+{
+  "英文名称": "docx",
+  "中文名称": "待补：docx",
+  "一句话作用": "Create, edit, repair, and review Word documents (.docx). Use for docx-js document creation, in-place editing of existing .docx files, comments, tracked changes, and DOCX package validation/auto-repair.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "The validator unzips the DOCX, applies safe repairs, repacks if needed, then reports remaining findings. Treat validate as a mutating repair pass on the final artifact, not a read-only checker. Output contract: - Fixed: deterministic auto-repairs already appl…",
+  "最新更新时间": "2026-07-25T17:52:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create, edit, repair, and review Word documents (.docx). Use for docx-js document creation, in-place editing of existing .docx files, comments, tracked changes, and DOCX package validation/auto-repair.时，用它产出或更新：The validator unzips the DOCX, applies safe r…",
+  "skill_id": "06182-docx-7c5b9ffe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/docx/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/docx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa8600d580d567c8be30e06b21a1d18ae4b4e5bdf3b30b8c0eb5e978999540c1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-agent-connect",
+  "中文名称": "待补：twilio-agent-connect",
+  "一句话作用": "Use when building or integrating Twilio Agent Connect (TAC) to connect third-party LLM agent runtimes with Twilio Voice, Messaging, ConversationRelay, Conversation Memory, Conversation Orchestrator, or Enterprise Knowle…",
+  "关键输入": "- Python SDK : Python 3.10+ - TypeScript SDK : Node.js 22.13+ - Twilio SDK : twilio =9.8.3",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when building or integrating Twilio Agent Connect (TAC) to connect third-party LLM agent runtimes with Twilio Voice, Messaging, ConversationRelay, Conversation Memory, Conversation Orchestrator, or Enterprise Knowle…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01068-twilio-agent-connect-4d91bda0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-agent-connect/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-agent-connect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "92c52901c246e500aa9822d749630b3f8bc30494299c95558e4d4713c500e729",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-store-diagnosis",
+  "中文名称": "待补：alibaba-global-store-diagnosis",
+  "一句话作用": "Alibaba.com store diagnosis for GGS paid sellers (serviceType: hkgs/twgs/tp). Analyzes 4-5 dimensions (Star Rating, Buyer Traffic, Business Opportunities, Product, Trade) to deliver diagnostic conclusions, prioritized a…",
+  "关键输入": "Question Type English Examples 中文示例 -------------- ----------------- --------- Overall store diagnosis \"Give me an overview of my store performance\", \"Check my shop issue\", \"There are any issues in my shop\" \"帮我做个全面店铺诊断\"…",
+  "关键输出": "- Input : Diagnostic conclusions from Step 3 + response mode",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Question Type English Examples 中文示例 -------------- ----------------- --------- Overall store diagnosis \"Give me an overview of my store performance\", \"Check my shop issue\", \"There are any issues in my shop\" \"帮我做个全面店铺诊断\"…时，用它产出或更新：- Input : Diagnostic concl…",
+  "skill_id": "00186-alibaba-global-store-diagnosis-7d63ef56",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-store-diagnosis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-store-diagnosis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8194ba7378ba7fe340126717fe5d45c36ef0e5c07c8fcb3da1cbe2827f137fa3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

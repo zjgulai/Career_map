@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-new-sku-launch-readiness-gate",
+  "中文名称": "新品上市准入门控 从选品到发布的全量检查清单与Tag驱动的上市就绪评估",
+  "一句话作用": "触发词：上市门控、就绪评分、五维检查、阻塞项、上新清单、Tag 驱动评估。何时不用：只想按合规分阈值自动阻断时用「上架前合规门控」，要按品类×市场列测试需求时用「产品安全测试需求映射」。安全边界：门控结论为放行建议，实际发货与上市动作由责任人与控制层执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"新品上市后才发现合规缺失被海关扣押\"——5维门控检查将上市前风险完全暴露，防止货到港扣押损失5-15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12580-p2s-new-sku-launch-readiness-gate-3977efb3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-new-sku-launch-readiness-gate/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-new-sku-launch-readiness-gate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c61aab053800a3b796dccf8942b22dc0b0dedb335923b6ba59e4e51ba05ffc40",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

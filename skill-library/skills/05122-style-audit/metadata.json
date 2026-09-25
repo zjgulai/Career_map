@@ -1,0 +1,22 @@
+{
+  "英文名称": "style-audit",
+  "中文名称": "待补：style-audit",
+  "一句话作用": "Audits code against CI/CD style rules, quality guidelines, and best practices, then rewrites code to meet standards without breaking functionality. Use this skill after functionality validation to ensure code is not jus…",
+  "关键输入": "Use the style-audit skill after functionality validation confirms code works correctly, before code reviews to catch style issues proactively, when preparing code for team collaboration or handoff, or when inheriting co…",
+  "关键输出": "The style audit produces a comprehensive report documenting current quality and improvements made.",
+  "最新更新时间": "2026-09-19T04:11:24+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use the style-audit skill after functionality validation confirms code works correctly, before code reviews to catch style issues proactively, when preparing code for team collaboration or handoff, or when inheriting co…时，用它产出或更新：The style audit produces a…",
+  "skill_id": "05122-style-audit-0b11cf10",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/style-audit/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/style-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fb252bff7fad6909dc7eed2cbba229c954e78ab2c1c58e2cbc8349cc0fcb8942",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

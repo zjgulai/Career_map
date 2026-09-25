@@ -1,0 +1,22 @@
+{
+  "英文名称": "competition-ios-runtime",
+  "中文名称": "待补：competition-ios-runtime",
+  "一句话作用": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for IPA runtime analysis, Frida hooks, Objective-C or Swift method tracing, Keychain inspection, SSL pinning bypass, URL scheme handling, and…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for IPA runtime analysis, Frida hooks, Objective-C or Swift method tracing, Keychain inspection, SSL pinning bypass, URL scheme handling, and…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02265-competition-ios-runtime-4e19dc80",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-ios-runtime/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-ios-runtime/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "11a041d6729a0733fb9813ecbc0753c87c2bf65b07cac6e3b6917a568d020156",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

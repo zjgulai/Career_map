@@ -1,0 +1,22 @@
+{
+  "英文名称": "sn-da-excel-workflow",
+  "中文名称": "待补：sn-da-excel-workflow",
+  "一句话作用": "按步骤编排 Excel 读写、清洗、筛选、分组统计与带格式导出，大文件自动转 Parquet 提速。触发词：分析这个 Excel、表格清洗、数据透视、多 Sheet 汇总、导出报表、sn-da-excel-workflow。何时不用：处理 Word、PDF、PPT 用 sn-da-non-spreadsheet-analysis；核对分析结论是否站得住用 validate-data。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Save filtered/cleaned data as Excel or CSV. Provide download link. → capabilities: - excel-result-export/single-sheet-export - excel-result-export/formatted-export",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要按步骤编排 Excel 读写、清洗、筛选、分组统计与带格式导出，大文件自动转 Parquet 提速。触发词：分析这个 Excel、表格清洗、数据透视、多 Sheet 汇总、导出报表、sn-da-excel-workflow。何时不用：处理 Word、PDF、PPT 用 sn-da-non-spreadsheet-analysis；核对分析结论是否站得住用 validate-data。时，用它产出或更新：Save filtered/cleaned data as Excel or CSV. Provide d…",
+  "skill_id": "04187-sn-da-excel-workflow-68716aec",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "06b3d60342fa17914396e8cbe10223e5bcc18766a68053be8b31d8ea65f0ee07",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

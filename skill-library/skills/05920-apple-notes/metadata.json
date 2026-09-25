@@ -1,0 +1,22 @@
+{
+  "英文名称": "apple-notes",
+  "中文名称": "待补：apple-notes",
+  "一句话作用": "Manage Apple Notes via the memo CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks CodeBuddy Code to add a note, list notes, search notes, or manage note folders.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Manage Apple Notes via the memo CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks CodeBuddy Code to add a note, list notes, search notes, or manage note folders.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05920-apple-notes-e4faeb69",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/apple-notes/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/apple-notes/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d69186587ae9c8095586f02bc99dc9a59e7fb79979b1f0277d5adcaa855a0c22",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "design-qa",
+  "中文名称": "待补：design-qa",
+  "一句话作用": "Orchestrates frontend Design QA against DESIGN.md, SCREEN SPEC.md, Figma/reference images, screenshots, component-library rules, accessibility expectations, and design-debt reports. Use when the user asks whether a UI i…",
+  "关键输入": "Look for these files in the project root first: - DESIGN.md - SCREEN SPEC.md - design.qa.yaml - .design-qa/DESIGN QA REPORT.md - .design-qa/reports/ .json - .design-qa/expected/ .png - .design-qa/actual/ .png - .design-qa/diff/ .png - component library files…",
+  "关键输出": "Use this format unless the user requests another one:",
+  "最新更新时间": "2026-09-19T03:38:45+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Orchestrates frontend Design QA against DESIGN.md, SCREEN SPEC.md, Figma/reference images, screenshots, component-library rules, accessibility expectations, and design-debt reports. Use when the user asks whether a UI i…时，用它产出或更新：Use this format unless the…",
+  "skill_id": "04458-design-qa-0e47ef83",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/design-qa/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/design-qa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4f07bd43b5f489ea25587f11db6b155b1a0179d62e29b353e8a091a4782a70a1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

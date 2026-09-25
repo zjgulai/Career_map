@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencentads-creatives",
+  "中文名称": "腾讯广告 - 创意管理",
+  "一句话作用": "腾讯营销（原腾讯广告）展示广告管理 - 创意管理。用于管理动态创意(dynamic creatives)和创意形式(creative template)，以及素材标签（material labels）。当用户需要创建或管理广告创意（含组件字段填写/审核详情）、或管理素材标签（素材标签查询、新建、更新和素材绑定）时使用此技能。排除搜索创意(search dynamic creatives)。",
+  "关键输入": "脚本调用格式为 node scripts/ .mjs ' '，但 JSON 参数的引号包裹方式因操作系统/终端而异 ，传递不当会导致 JSON.parse 报错（如 Expected property name or '}' in JSON at position 1）。 终端环境 正确写法 说明 --------- --------- ------ Linux / macOS (Bash/Zsh) node scripts/xxx.mjs '{\"key\":\"value\"}' ✅ 单引号包裹，内部双引号原样保留",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要腾讯营销（原腾讯广告）展示广告管理 - 创意管理。用于管理动态创意(dynamic creatives)和创意形式(creative template)，以及素材标签（material labels）。当用户需要创建或管理广告创意（含组件字段填写/审核详情）、或管理素材标签（素材标签查询、新建、更新和素材绑定）时使用此技能。排除搜索创意(search dynamic creatives)。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05388-tencentads-creatives-2ef6143c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-creatives/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-creatives/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fc80c1c697f3ea974660be70e39e3089ae01bab8d9d2695fd041352dcd61806f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

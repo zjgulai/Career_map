@@ -1,0 +1,22 @@
+{
+  "英文名称": "Workbench CLI Expert",
+  "中文名称": "待补：Workbench CLI Expert",
+  "一句话作用": "Help users operate Alibaba Cloud ECS instances — especially those without public IP addresses — using the workbench command-line tool. Core capabilities for Agent workflows: millisecond-level remote command execution (e…",
+  "关键输入": "Error message pattern Exit Code First Action --- --- --- InvalidAccessKeyId / authentication errors 4 Verify AK/SK in ~/.workbench/config.json. Re-run workbench config. profile not found 1 Check profile name with workbe…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:23+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Error message pattern Exit Code First Action --- --- --- InvalidAccessKeyId / authentication errors 4 Verify AK/SK in ~/.workbench/config.json. Re-run workbench config. profile not found 1 Check profile name with workbe…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04379-workbench-cli-expert-079e922f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/alibabacloud-workbench/1.0.1/skills/alibabacloud-workbench-cli/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/alibabacloud-workbench/1.0.1/skills/alibabacloud-workbench-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0588f744025e9f34f211029c1ebc5b4c88224c45b7f57cba5735c92d3455c679",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

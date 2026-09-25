@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencentads-management",
+  "中文名称": "腾讯广告管理（Tencent Ads Management）",
+  "一句话作用": "腾讯营销（原腾讯广告）管理 — 跨账户查询营销单元（原广告）/创意/素材等多层级数据及报表指标；查看营销单元完整配置（定向、出价、转化、版位等）与智能投放项目详情；获取创意列表及组件详情，单创意时自动解析组件并获取图片/视频预览 URL；管理关键词和否定词的增删改查；创建推广内容资产。",
+  "关键输入": "- 需要查看广告的 详细配置 （定向、出价、转化规格、版位、投放时段等），而不仅是基本属性和报表数据 - 需要查看 已删除的广告 信息 - 需要根据 广告名称、状态、创建时间 等条件筛选广告 - 需要获取广告的 定向设置详情 （地域、年龄、性别、设备等） - 需要查看广告的 深度转化规格 、 用户行为数据源 等高级配置",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 需要查看广告的 详细配置 （定向、出价、转化规格、版位、投放时段等），而不仅是基本属性和报表数据 - 需要查看 已删除的广告 信息 - 需要根据 广告名称、状态、创建时间 等条件筛选广告 - 需要获取广告的 定向设置详情 （地域、年龄、性别、设备等） - 需要查看广告的 深度转化规格 、 用户行为数据源 等高级配置时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05392-tencentads-management-6d3bf874",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-management/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d225885fecffacb270551b172f8d498a4277fb608993c06cbc299848557df7e5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

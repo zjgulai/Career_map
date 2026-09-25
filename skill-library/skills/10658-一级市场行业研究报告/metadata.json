@@ -1,0 +1,22 @@
+{
+  "英文名称": "primary-market-research",
+  "中文名称": "一级市场行业研究报告",
+  "一句话作用": "生成专业的一级市场/风险投资（PE/VC）行业研究报告，覆盖TMT、消费、医疗健康、工业等常见赛道，输出深度讨论型（15-25页）或传统行业型（30-60页）的PDF、DOCX或PPTX文档。当用户要求创建行业研究报告、赛道深度研究、市场分析报告、投资备忘录、Best Ideas摘要，或请求分析特定行业、市场趋势、竞争格局及技术图谱时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- PDF（默认） - DOCX - PPTX（仅在明确要求时） 默认输出 ：PDF。如果用户明确要求 DOCX 或 PPTX，则按其要求输出。",
+  "最新更新时间": "2026-09-14T00:06:45+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要生成专业的一级市场/风险投资（PE/VC）行业研究报告，覆盖TMT、消费、医疗健康、工业等常见赛道，输出深度讨论型（15-25页）或传统行业型（30-60页）的PDF、DOCX或PPTX文档。当用户要求创建行业研究报告、赛道深度研究、市场分析报告、投资备忘录、Best Ideas摘要，或请求分析特定行业、市场趋势、竞争格局及技术图谱时触发。时，用它产出或更新：- PDF（默认） - DOCX - PPTX（仅在明确要求时） 默认输出 ：PDF。如果用户明确要求 DOCX 或 PPTX，则按其要求输出。",
+  "skill_id": "10658-primary-market-research-a966b7d2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/primary-market-research/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/primary-market-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad0188c66e4f52b13c2125d43f4def1f72daf8ca808295be18c1def0adefc347",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

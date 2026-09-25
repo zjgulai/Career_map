@@ -1,0 +1,22 @@
+{
+  "英文名称": "gaokao-search",
+  "中文名称": "高考知识库可信检索",
+  "一句话作用": "高考知识库可信检索能力。仅用于检索高考真题、高考作文、全国高校信息、 全国专业信息。分数线、一分一段和位次换算应交给专门分数技能；其他当前未覆盖查询 不由本技能兜底。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "成功： 失败：",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要高考知识库可信检索能力。仅用于检索高考真题、高考作文、全国高校信息、 全国专业信息。分数线、一分一段和位次换算应交给专门分数技能；其他当前未覆盖查询 不由本技能兜底。时，用它产出或更新：成功： 失败：",
+  "skill_id": "05489-gaokao-search-1a295534",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/gaokao-advisor/skills/gaokao-search/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/gaokao-advisor/skills/gaokao-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ddcff6a9f983ff8984080c6e10989f3359e737af6bb8abd4dcf33a21ecea171d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

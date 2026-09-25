@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-trade-after-sales-refund-guide",
+  "中文名称": "待补：alibaba-icbu-trade-after-sales-refund-guide",
+  "一句话作用": "Alibaba.com Trade After-Sales Refund Guide Skill. Handles the full refund pre-check pipeline: eligibility check, reason identification, and scenario recognition. Does NOT submit refunds; prepares an AW confirmation card…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Use markdown and card from parse after sales scenario result when available. - For AW cards: show order ID, scenario, refund amount, method, reason, service fee status, and order closure status per references/refund-card-template.md.",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba.com Trade After-Sales Refund Guide Skill. Handles the full refund pre-check pipeline: eligibility check, reason identification, and scenario recognition. Does NOT submit refunds; prepares an AW confirmation card…时，用它产出或更新：- Use markdown and card fr…",
+  "skill_id": "00078-alibaba-icbu-trade-after-sales-refund-guide-662c6d90",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-after-sales-refund-guide/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-after-sales-refund-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d9e16a997838a4b81e06760b8af861eb440fd681f627d50a9687940228339d54",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

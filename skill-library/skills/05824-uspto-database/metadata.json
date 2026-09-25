@@ -1,0 +1,22 @@
+{
+  "英文名称": "uspto-database",
+  "中文名称": "待补：uspto-database",
+  "一句话作用": "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches.",
+  "关键输入": "This skill should be used when: - Patent Search : Finding patents by keywords, inventors, assignees, classifications, or dates - Patent Details : Retrieving full patent data including claims, abstracts, citations - Trad…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要This skill should be used when: - Patent Search : Finding patents by keywords, inventors, assignees, classifications, or dates - Patent Details : Retrieving full patent data including claims, abstracts, citations - Trad…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05824-uspto-database-ac159f78",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/uspto-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/uspto-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a72521e2e8e4fca48ff0ce0097927aba572ffcdd1dd55dee77568f86ee891e2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

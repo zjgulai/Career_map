@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-prelaunch-demand-check",
+  "中文名称": "待补：amazon-prelaunch-demand-check",
+  "一句话作用": "- Validate real Amazon demand before sourcing: demand score, realistic monthly sales range, and scenario-based first-order quantity. Use for product ideas: worth doing, and how much to order first. 【需Jungle Scout MCP】 触…",
+  "关键输入": "You need at least one of: - A product idea / keyword — e.g. \"collapsible silicone dog bowl\". Best when the user is describing something they want to make. - A seed competitor ASIN — e.g. \"B0CP9Z56SW\". Best when they're looking at a specific listing; derive th…",
+  "关键输出": "See references/troubleshooting.md",
+  "最新更新时间": "2026-09-08T01:05:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要See references/troubleshooting.md时，用它产出或更新：See references/troubleshooting.md",
+  "skill_id": "02446-amazon-prelaunch-demand-check-2aaded72",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/amazon-prelaunch-demand-check/SKILL.md",
+  "relative_path": "lute/.dsh/skills/amazon-prelaunch-demand-check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "06d2813b40609a30a1933df6dfd9ed6be215ba2edfbfa9501637ccfc68769ce5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

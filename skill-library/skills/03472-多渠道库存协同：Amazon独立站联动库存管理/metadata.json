@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-channel-inventory-sync",
+  "中文名称": "多渠道库存协同：Amazon独立站联动库存管理",
+  "一句话作用": "触发词：多渠道库存、库存池、渠道配额、超卖风险、大促分货。何时不用：需要事件驱动实时同步与下单即扣减时用全渠道库存实时同步；需要按优先级分配有限供给时用供需缺口分析与优先级分配。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Amazon独立站TikTok三渠道各自独立备货导致总备货650件但最优只需450件且大促时超卖风险高——统一库存池+蒙特卡洛优化动态分配，总备货量减少20%大促缺货率降低年化节省15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03472-p2s-multi-channel-inventory-sync-ed1292dd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-channel-inventory-sync/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-channel-inventory-sync/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5d8ad07079b45f2db6bf389e80657dd315cc1eb636b8a104a58fdaaf41bd0121",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

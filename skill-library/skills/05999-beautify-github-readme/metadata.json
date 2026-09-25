@@ -1,0 +1,22 @@
+{
+  "英文名称": "beautify-github-readme",
+  "中文名称": "待补：beautify-github-readme",
+  "一句话作用": "Redesign GitHub README homepages or create project-native pure SVG, hybrid SVG-composed PNG/WebP, and opt-in animated GIF assets. Use when a user asks to beautify, redesign, rebrand, visually upgrade, simplify, or audit…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:22:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Redesign GitHub README homepages or create project-native pure SVG, hybrid SVG-composed PNG/WebP, and opt-in animated GIF assets. Use when a user asks to beautify, redesign, rebrand, visually upgrade, simplify, or audit…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05999-beautify-github-readme-898f46cb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/Codex/2026-07-27/s/work/beautify-github-readme-reference/skills/beautify-github-readme/SKILL.md",
+  "relative_path": "lute/Documents/Codex/2026-07-27/s/work/beautify-github-readme-reference/skills/beautify-github-readme/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3854a1ff509d26f44e5e6a7547a3670e1d2733987d6b300ddcc68c1a17aa14b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

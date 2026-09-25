@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-churn-early-warning-signal",
+  "中文名称": "流失预警信号提取 从评论客服文本捕获用户流失早期信号",
+  "一句话作用": "触发词：VOC 流失预警、评论信号、客服工单、流失概率、提前拦截。何时不用：只做评论情感聚合与口碑摘要时用 VOC 摘要类技能；本技能要把文本信号映射成流失风险。安全边界：平台评论用户 ID 不得直接关联订单数据；站内触达可能被判定操纵评论，须走站外渠道。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"用户流失却无预警\"——VOC信号将流失预测窗口从销量下滑后1-2周提前至4-8周，年化挽回留存价值30-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04012-p2s-voc-churn-early-warning-signal-1c3b7fc7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voc-churn-early-warning-signal/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voc-churn-early-warning-signal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c69169f487210ab597b4dd78c58eee0233a4f2770963b84f104af25314aef58",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

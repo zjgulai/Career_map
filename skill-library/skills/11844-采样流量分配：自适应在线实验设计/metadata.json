@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-thompson-sampling-traffic-allocation",
+  "中文名称": "采样流量分配：自适应在线实验设计",
+  "一句话作用": "触发词：流量分配、自适应实验、贝叶斯后验、早停建议、损失转化、在线实验设计。何时不用：需要严格频率派显著性报告时用固定样本 A/B 或序列检验；只有两个方案且样本充足、不在乎实验期损失时用常规 A/B。安全边界：实时展示与点击数据需通过平台 API 或站内工具合规获取，分配决策需遵守平台流量政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要传统A/B实验2周内50%流量给表现更差的方案浪费了大量转化机会——Thompson采样自适应流量分配减少损失转化30-50%同时将实验周期缩短20-40%，年化多发现2-3个增量实验结论时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11844-p2s-thompson-sampling-traffic-allocation-9877c252",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-thompson-sampling-traffic-allocation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-thompson-sampling-traffic-allocation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e4756024867975b2c71fe43953afca2d280f027434e0b766f107cb8dd9ff53b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-platform-ad-budget-allocator",
+  "中文名称": "多平台广告预算最优分配 约束优化最大化跨平台 ROAS",
+  "一句话作用": "触发词：多平台分配、幂函数响应曲线、预算档位拟合、约束优化、GMV增量预测。何时不用：历史预算档位少于6档或每档投放不足1周时不适用；需要按关键词维度调价走PPC出价自动化。安全边界：只产出分配方案与增量预测，不执行平台预算变更；新平台估计须先用小额测试验证再放量。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投手面临\"Amazon/TikTok/Meta三个平台预算靠经验拍脑袋分配ROAS差异大\"——约束优化将多平台总ROAS提升19%，年化广告效率提升$11.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11753-p2s-multi-platform-ad-budget-allocator-54530153",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-platform-ad-budget-allocator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-platform-ad-budget-allocator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a1a30d6f7bf67b00b1242c41eb888bfa4fed306187c6b0be76d78bf6001fc3dd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

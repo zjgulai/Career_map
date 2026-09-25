@@ -1,0 +1,22 @@
+{
+  "英文名称": "margin-reality-check",
+  "中文名称": "待补：margin-reality-check",
+  "一句话作用": "Check whether a product's economics work: supplier quote/landed cost plus live Amazon prices and fees, with fee scenarios and GO/CAUTION/NO-GO. 用于已有成本或供应商报价，问利润够不够。",
+  "关键输入": "You need two things; everything else has a sensible default. 1. Landed cost per unit (required). The all-in cost to get one unit into an Amazon fulfillment center: supplier/FOB price + freight + duty + prep. In a sourcing chat this is usually already known fr…",
+  "关键输出": "Keep it decision-first and tight (this runs in chat, including sourcing flows). Include, in this order: 1. The verdict — GO / CAUTION / NO-GO, prefixed \"Provisional\" whenever the fee basis is a competitor proxy (with the scenario range if the tiers straddle)…",
+  "最新更新时间": "2026-09-12T16:24:28+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- references/jungle scout mcp.md — the js product database query tool, its filters, and the exact response fields used (price, fee breakdown). Read it when adjusting the search or interpreting a field. - No priced comps…时，用它产出或更新：Keep it decision-first and…",
+  "skill_id": "00046-margin-reality-check-7e325abe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/margin-reality-check/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/margin-reality-check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "980203077f8ea455d82f8bca91221c2091cbebd1268e13fa21b98dba662a2c98",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

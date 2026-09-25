@@ -1,0 +1,22 @@
+{
+  "英文名称": "verify-fix",
+  "中文名称": "待补：verify-fix",
+  "一句话作用": "Use only when the user explicitly requests verification that a security fix remediates a reported vulnerability. Do not invoke automatically while implementing fixes, reviewing ordinary code changes, or running tests. D…",
+  "关键输入": "Invoke this skill only for an explicit request to verify a security fix, including a direct $verify-fix invocation. A request to implement a fix or run its tests does not by itself request this skill. For other tasks, f…",
+  "关键输出": "Return exactly one JSON object: - Use fixed only when evidence proves the original security boundary is closed and legitimate behavior remains intact. - Use still vulnerable only when evidence proves the original vulnerable path remains reachable. - Use incon…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Invoke this skill only for an explicit request to verify a security fix, including a direct $verify-fix invocation. A request to implement a fix or run its tests does not by itself request this skill. For other tasks, f…时，用它产出或更新：Return exactly one JSON ob…",
+  "skill_id": "00791-verify-fix-08c10c32",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/codex-security/skills/verify-fix/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/codex-security/skills/verify-fix/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d4530484c7e4c18b6afe7c6527247e96517dce1ebd1bda9d349cd367ecb0ae3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

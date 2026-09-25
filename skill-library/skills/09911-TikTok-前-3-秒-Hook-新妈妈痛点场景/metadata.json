@@ -1,0 +1,22 @@
+{
+  "英文名称": "TikTok 前 3 秒 Hook（新妈妈痛点场景）",
+  "中文名称": "待补：TikTok 前 3 秒 Hook（新妈妈痛点场景）",
+  "一句话作用": "当需要为 TikTok/Reels 类短视频生成前 3 秒 Hook 文案与镜头建议（夜奶、背奶、职场哺乳等场景）且已有信任型 brief 时调用；输出需再经品牌调性与 FTC/GDPR 合规门。",
+  "关键输入": "- 已有 trust-content-generator 产出的模块或等价 brief。 - 已选 语言 （如 EN-US、DE）与 单条视频目标 （认知/转化/引流）。",
+  "关键输出": "- 表：HookID 语言 口播/字幕 镜头 禁用项自查 CTA - 附 推荐排序 ：首选 Hook + 理由（1 句）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要为 TikTok/Reels 类短视频生成前 3 秒 Hook 文案与镜头建议（夜奶、背奶、职场哺乳等场景）且已有信任型 brief 时调用；输出需再经品牌调性与 FTC/GDPR 合规门。时，用它产出或更新：- 表：HookID 语言 口播/字幕 镜头 禁用项自查 CTA - 附 推荐排序 ：首选 Hook + 理由（1 句）。",
+  "skill_id": "09911-tiktok-3-hook-7bcbb3b0",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/tiktok-hook-writer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/tiktok-hook-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4fd7ae5f033dbcd25b94321ddcb5040b36ad65f01809c8fc2d878fc76668323f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

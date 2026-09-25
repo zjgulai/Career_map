@@ -1,0 +1,22 @@
+{
+  "英文名称": "voice-clone",
+  "中文名称": "待补：voice-clone",
+  "一句话作用": "Create a reusable cloned voice from an authorized recording with consent, source review, optional cleanup, language matching, a demo, and quality checks. Not for unauthorized imitation.",
+  "关键输入": "Collect: - An audio recording in a currently supported format. - Confirmation that the user has the right to use the recording and the speaker has authorized cloning. - The intended language and use when known. - Optional preferences for cleanup, demo text, a…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:02:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create a reusable cloned voice from an authorized recording with consent, source review, optional cleanup, language matching, a demo, and quality checks. Not for unauthorized imitation.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04321-voice-clone-482eb14b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/voice-clone/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/voice-clone/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "131538808f3d7f38d5705b6c48fbe418fe0de430311f6f2e48e4979c335d3c19",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

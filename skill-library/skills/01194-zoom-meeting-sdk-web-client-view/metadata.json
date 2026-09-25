@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-meeting-sdk-web-client-view",
+  "中文名称": "待补：zoom-meeting-sdk-web-client-view",
+  "一句话作用": "Zoom Meeting SDK Web - Client View. Full-page Zoom meeting experience with the familiar Zoom interface. Uses ZoomMtg global singleton with callback-based API. Ideal for quick integration with minimal customization. Prov…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Zoom Meeting SDK Web - Client View. Full-page Zoom meeting experience with the familiar Zoom interface. Uses ZoomMtg global singleton with callback-based API. Ideal for quick integration with minimal customization. Prov…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01194-zoom-meeting-sdk-web-client-view-0326f935",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/web/client-view/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/web/client-view/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "20b2f5786da601362d18834da26dcd04e05769911188b05b0b85e7d64bbc5ea1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-causal-scm-attribution",
+  "中文名称": "数据驱动供应链根因归因：DAG",
+  "一句话作用": "触发词：因果归因、DAG、结构因果模型、反事实、干预分析。何时不用：只要相关性层面的环节拆分时用「物流计划三维准确率」；要做时间序列层面的因果建模时用因果时序类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务问题：母婴奶粉 SKU 出现缺货（库存降至 0），损失 GMV 约 8 万元/周时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11545-p2s-supply-chain-causal-scm-attribution-194d2d85",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supply-chain-causal-scm-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supply-chain-causal-scm-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0523e89cd53c8279cde0a762ad88864f1cc73da196420747800ecf266cc14bef",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

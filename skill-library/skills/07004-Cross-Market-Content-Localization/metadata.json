@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Cross-Market-Content-Localization",
+  "中文名称": "待补：Cross Market Content Localization",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 88.0, \"best\": 88.0, \"ts\": \"2026-07-04T04:43:49.474164\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:43:49+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 88.0, \"best\": 88.0, \"ts\": \"2026-07-04T04:43:49.474164\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07004-skill-cross-market-content-localization-03788c13",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Cross-Market-Content-Localization.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Cross-Market-Content-Localization.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "0672e750c366d3fef7f5689324e792a5dc0afdaf8eda2a87fd9ad23f1417369a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

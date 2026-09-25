@@ -1,0 +1,22 @@
+{
+  "英文名称": "evaluate-skill",
+  "中文名称": "待补：evaluate-skill",
+  "一句话作用": "Evaluate a local Codex skill in engineer-friendly terms. Use when the user says \"evaluate this skill\", \"give me an analysis of the game dev skill\", \"audit this skill\", \"why did this score that way\", \"what should I fix f…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Evaluate a local Codex skill in engineer-friendly terms. Use when the user says \"evaluate this skill\", \"give me an analysis of the game dev skill\", \"audit this skill\", \"why did this score that way\", \"what should I fix f…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00966-evaluate-skill-6a24055f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/plugin-eval/skills/evaluate-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/plugin-eval/skills/evaluate-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "92697228260f93c79967607822b0d998f68ce742de9440df51426fb71f2d4d64",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

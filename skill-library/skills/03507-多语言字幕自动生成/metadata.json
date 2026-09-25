@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multilingual-subtitle-auto-generator",
+  "中文名称": "多语言字幕自动生成",
+  "一句话作用": "触发词：多语言字幕、视频字幕生成、SRT 生成、字幕翻译、视频本地化、母婴术语校正。何时不用：要重写 Listing 文案用「Listing 本地化」；把一条视频改成多平台版本用「跨平台视频复用」；只写视频脚本用「AI 产品视频脚本生成」。安全边界：字幕须按专业词汇表人工校对后再发布，不得改动或新增原视频中的功效与认证类宣称。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容团队面临\"多市场字幕翻译周期长成本高\"——AI自动生成将字幕制作时间从3天缩短至30分钟，年化节省翻译费20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03507-p2s-multilingual-subtitle-auto-generator-37a6583c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multilingual-subtitle-auto-generator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multilingual-subtitle-auto-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bbd6ac12be6f31627483feca1bb5fc07617545a7b90eb2519cc965dd793e00dc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

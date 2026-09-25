@@ -1,0 +1,22 @@
+{
+  "英文名称": "Golang Backend Development",
+  "中文名称": "待补：Golang Backend Development",
+  "一句话作用": "Architectural standards and coding practices for the Go backend.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- See references/VALIDATOR INTERFACE.md for examples. - When request parameters require validation, implement a Validator interface pattern. - Use a composable approach (e.g., AllPassValidator) to combine multiple validation rules. - Inject the validator into…",
+  "最新更新时间": "2026-09-19T03:52:50+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Architectural standards and coding practices for the Go backend.时，用它产出或更新：- See references/VALIDATOR INTERFACE.md for examples. - When request parameters require validation, implement a Validator interface pattern. - Use a composable approach (e.g., AllPas…",
+  "skill_id": "04896-golang-backend-development-04ed0463",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Golang-Backend-Development/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Golang-Backend-Development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca0f4aed6a7079507f9244d107384cf68233302ca2ab48d1a05c23ee7c909e49",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

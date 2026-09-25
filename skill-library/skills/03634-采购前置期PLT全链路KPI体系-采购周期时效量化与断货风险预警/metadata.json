@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-procurement-cycle-time-kpi",
+  "中文名称": "采购前置期PLT全链路KPI体系 采购周期时效量化与断货风险预警",
+  "一句话作用": "触发词：采购前置期KPI、PLT分布、阶段瓶颈、P85安全库存、供应商交期可靠性。何时不用：海运延误的分位数预警走「提前期分布建模」；日常补货量计算用「自动补货决策」。安全边界：分析仅使用采购与库存字段，涉及客户需求的数据须脱敏并加密存储。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要采购计划员面临\"PLT均值掩盖风险\"——P85分位点法将安全库存精准化，断货率从18%降至4%，年化减少断货损失15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03634-p2s-procurement-cycle-time-kpi-1aeb9477",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-procurement-cycle-time-kpi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-procurement-cycle-time-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f1434c6d861c6504e854a98bc55846a9369219cb1a695363ed07b3a3c8a3e1fa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

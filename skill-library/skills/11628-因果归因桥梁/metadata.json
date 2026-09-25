@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-attribution-bridge",
+  "中文名称": "因果归因桥梁）",
+  "一句话作用": "触发词：相关性改因果、归因偏差修正、渠道真实贡献、预算重配、内容归因。何时不用：受隐私约束、无用户级数据时做渠道归因用隐私保护因果归因技能，评估达人层级增量用 KOL 因果归因技能，本技能把归因比例从相关性口径换成因果口径。安全边界：不得用相关性归因份额对外汇报渠道贡献，涉用户数据须脱敏并在授权范围内使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要TikTok 内容归因：naive 归因给 45%，因果 ITE 只有 32%——因为 13% 的\"内容驱动购买\"实际上是用户本身的品类偏好驱动的时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11628-p2s-causal-attribution-bridge-d578802c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-causal-attribution-bridge/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-causal-attribution-bridge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c9b032006986fb9d7171df351903345954317acb8dde81550c20a0e3155fbd1f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

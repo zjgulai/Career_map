@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-amazon-a10-algorithm-ranking",
+  "中文名称": "亚马逊搜索排名因子建模与 Listing 可见度优化",
+  "一句话作用": "触发词：A10 排名、排名因子诊断、自然排名下降、外部流量权重、Listing 体检。何时不用：站外引流执行与提速归因用「站外流量加速」；本技能是排名因子诊断与打分。安全边界：仅使用 Amazon 官方业务报告数据，不得使用或模仿竞品的刷单等违规手段。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Listing 排名从第 18 跌到 25 位但不知道哪里出了问题——PP-GLAM 可解释排名模型揭示 A10 外部流量权重大幅提升，针对性优化可将自然排名提升 8-12 位，广告 ACOS 降低 30-40%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12234-p2s-amazon-a10-algorithm-ranking-30b3d5c4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-amazon-a10-algorithm-ranking/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-amazon-a10-algorithm-ranking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "acd962daf7d81b82248991ce897be48bf61a3b4762b32a61a2d41f221b65ff6f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

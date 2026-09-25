@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-agent-skill-composition",
+  "中文名称": "多 Agent 协作 Skill 链式 DAG 编排",
+  "一句话作用": "触发词：技能编排、DAG 拓扑排序、并行串行、接口 Schema、补货优先级报告。何时不用：只做技能检索选取用「Agent Skill 运行时编排器」；做技能学习路径导航用「Skill 依赖路径规划器」。安全边界：技能接口与中间结果 Schema 未对齐前不得上线编排，避免字段错配产出错误业务结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要MAS架构师面临\"多Agent协作时Skill执行顺序混乱依赖关系难以管理\"——DAG拓扑排序将多Skill执行计划生成时间从手工规划2小时压缩至毫秒级自动生成时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03467-p2s-multi-agent-skill-composition-f792a214",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-agent-skill-composition/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-agent-skill-composition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0f2bf6a5c2b7e8e540dcd8205d931e0ba7376d091aad7ade9318148de917d900",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

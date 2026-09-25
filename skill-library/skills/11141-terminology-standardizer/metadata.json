@@ -1,0 +1,22 @@
+{
+  "英文名称": "terminology-standardizer",
+  "中文名称": "待补：terminology-standardizer",
+  "一句话作用": "当用户需要统一多来源数据中的术语表达、合并同义词与标签变体、构建受控词表，或提到\"术语标准化\"、\"术语统一\"、\"标签归一化\"、\"同义词合并\"、\"受控词表\"、\"taxonomy\"、\"terminology normalization\"时使用。 触发词：术语标准化器、术语标准化、术语统一、标签归一化、同义词合并、受控词表、taxonomy、terminology normalization。 何时不用：术语已经高度统一、需要保留原始变体（…",
+  "关键输入": "- 整合多来源知识库时的术语统一 - 解决同义词、变体词问题 - 构建领域受控词表（Controlled Vocabulary） - 多语言术语对齐（中英文统一） - 知识融合前的预处理步骤 - 提升检索效果的语义归一化",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 整合多来源知识库时的术语统一 - 解决同义词、变体词问题 - 构建领域受控词表（Controlled Vocabulary） - 多语言术语对齐（中英文统一） - 知识融合前的预处理步骤 - 提升检索效果的语义归一化时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11141-terminology-standardizer-a6fb13ff",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/terminology-standardizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/terminology-standardizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3cf8f7a88fde0909523208f832a5a3fd4395dc5716ea1e25547ce5ffa48bc978",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

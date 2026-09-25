@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-semantic-cache-rag-acceleration",
+  "中文名称": "待补：p2s-semantic-cache-rag-acceleration",
+  "一句话作用": "触发词：语义缓存、重复查询、RAG 加速、命中率、API 成本。何时不用：模型服务与显存层面的优化走「模型服务优化」；上下文过长需要压缩走「上下文 Token 压缩」。安全边界：缓存须设 TTL 并标注数据时间戳，库存等强时效数据不得用过期缓存作答。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营每天重复查询相同5-10个核心SKU每次800ms推理耗时——引入语义缓存加速（相似查询复用），重复查询响应时间从 800ms→50ms（降低 94%），LLM API 调用成本减少 40%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12113-p2s-semantic-cache-rag-acceleration-7ff8b758",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-semantic-cache-rag-acceleration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-semantic-cache-rag-acceleration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "14d19b595a947bcb8f9c1ded1439ed20ef43a77bc44d68f6d18858168fe4034c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

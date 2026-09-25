@@ -1,0 +1,22 @@
+{
+  "英文名称": "expo-dev-client",
+  "中文名称": "待补：expo-dev-client",
+  "一句话作用": "Build and distribute Expo development clients locally or via TestFlight",
+  "关键输入": "Build fails with signing errors: Clear build cache: Check EAS CLI version:",
+  "关键输出": "tar -xzf build- .tar.gz xcrun simctl install booted ./path/to/App.app",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build fails with signing errors: Clear build cache: Check EAS CLI version:时，用它产出或更新：tar -xzf build- .tar.gz xcrun simctl install booted ./path/to/App.app",
+  "skill_id": "00824-expo-dev-client-e3a88dc6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/expo/skills/expo-dev-client/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/expo/skills/expo-dev-client/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa79e42e9cd96ea92d4e691fb8222145055dec1b868b7defce224a41d8878a5f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

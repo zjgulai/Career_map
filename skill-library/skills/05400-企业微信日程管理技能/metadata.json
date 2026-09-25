@@ -1,0 +1,22 @@
+{
+  "英文名称": "wecomcli-schedule",
+  "中文名称": "企业微信日程管理技能",
+  "一句话作用": "企业微信日程管理技能。适用于用户对企业微信日程的各类管理需求。当用户需要：(1) 查询指定时间范围内的日程列表或获取日程详细信息（标题、时间、地点、参与者等），(2) 创建新日程并设置提醒、参与人等，(3) 修改已有日程的标题、时间、地点等信息或取消日程，(4) 添加或移除日程参与人，(5) 查询多个成员的闲忙状态并分析共同空闲时段以安排会议时使用此技能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要企业微信日程管理技能。适用于用户对企业微信日程的各类管理需求。当用户需要：(1) 查询指定时间范围内的日程列表或获取日程详细信息（标题、时间、地点、参与者等），(2) 创建新日程并设置提醒、参与人等，(3) 修改已有日程的标题、时间、地点等信息或取消日程，(4) 添加或移除日程参与人，(5) 查询多个成员的闲忙状态并分析共同空闲时段以安排会议时使用此技能。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05400-wecomcli-schedule-ec8c0b92",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-schedule/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-schedule/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "954c4428588661e1a5df04f56c2ecd52913b36f93c8692b1d5fd401e4f47acc8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "implement",
+  "中文名称": "待补：implement",
+  "一句话作用": "基于 spec 或 ticket 集合实现一段工作。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要基于 spec 或 ticket 集合实现一段工作。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10747-implement-05bccd5d",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/implement/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/implement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9486ad4ebc3649dfc4462811f51b7af0d3aad468fd3f8c6147a788a7e57af517",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

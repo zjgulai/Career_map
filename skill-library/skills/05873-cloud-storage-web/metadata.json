@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloud-storage-web",
+  "中文名称": "待补：cloud-storage-web",
+  "一句话作用": "Complete guide for CloudBase cloud storage using Web SDK (@cloudbase/js-sdk) - upload, download, temporary URLs, file management, and best practices.",
+  "关键输入": "Parameter Type Required Description ----------- ------ ---------- ------------- cloudPath string Yes Absolute path with filename (e.g., \"folder/file.jpg\") filePath File Yes HTML file input object method \"post\" \\ \"put\" No Upload method (default: \"put\")",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Use this skill for file storage operations in web applications when you need to: - Upload files from web browsers to CloudBase cloud storage - Generate temporary download URLs for stored files - Delete files from cloud…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05873-cloud-storage-web-edff4f1c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/cloud-storage-web/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/cloud-storage-web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "75e8b55fb2c6fa6726eb37682bac56622755533b1cfc15bb404232a1d14afd3b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

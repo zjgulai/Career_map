@@ -1,0 +1,22 @@
+{
+  "英文名称": "fanqie-masterclass",
+  "中文名称": "番茄爆文特训营（Fanqie Masterclass）",
+  "一句话作用": "番茄小说短篇爆款创作完整教学课程。用于教授番茄小说平台创作方法论，包括平台算法认知、标题导语创作、脑洞生成、AI辅助工作流、去AI味润色、多平台变现、海外出海等全套技能。当用户想学习番茄小说创作、提升短篇写作能力、诊断作品问题、生成爆款标题导语大纲、去除AI味、或了解出海变现时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:48:44+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要番茄小说短篇爆款创作完整教学课程。用于教授番茄小说平台创作方法论，包括平台算法认知、标题导语创作、脑洞生成、AI辅助工作流、去AI味润色、多平台变现、海外出海等全套技能。当用户想学习番茄小说创作、提升短篇写作能力、诊断作品问题、生成爆款标题导语大纲、去除AI味、或了解出海变现时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04858-fanqie-masterclass-b475adee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/fanqie-masterclass/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/fanqie-masterclass/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ab757819b339d4de37c05e5ee5d0526b3a16f5eefceb2eb7ab7493ce27396d07",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

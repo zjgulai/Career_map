@@ -1,0 +1,22 @@
+{
+  "英文名称": "国际站商品诊断优化",
+  "中文名称": "国际站商品诊断优化",
+  "一句话作用": "对国际站商品进行优化，涵盖两大场景： 1. 商品详描AI优化：对已有商品的详情页（详描/商详）进行AI升级或装修 2. 商品信息优化与编辑：对标题/价格/SKU/属性/主图/卖点/商详等字段进行 AI 优化或明确值编辑；质量分、零效果品、普通诊断等泛化优化诉求会先识别问题，再生成优化任务 触发场景： - 用户要求优化/升级/装修商品的详情页（如\"帮我优化这个商品的详情页\"、\"升级我的商品详描\"） - 用户要求批量优化/升级多个商品的详…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "链接口径 ：草稿编辑链接 https://post.alibaba.com/product/publish.htm?itemId={productId}&pubAction=draft 只用于 草稿态 商品（待发布/写入失败/发布失败待修改），需要引导用户修改时在表格之外单独给出该链接；发布成功后草稿已消失， 禁止 输出草稿链接，统一透出商品管理页。",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要对国际站商品进行优化，涵盖两大场景： 1. 商品详描AI优化：对已有商品的详情页（详描/商详）进行AI升级或装修 2. 商品信息优化与编辑：对标题/价格/SKU/属性/主图/卖点/商详等字段进行 AI 优化或明确值编辑；质量分、零效果品、普通诊断等泛化优化诉求会先识别问题，再生成优化任务 触发场景： - 用户要求优化/升级/装修商品的详情页（如\"帮我优化这个商品的详情页\"、\"升级我的商品详描\"） - 用户要求批量优化/升级多个商品的详…时，用它产出或更新：链接口径 ：草稿编辑链接 https://post.…",
+  "skill_id": "00196-skill-cbb0284c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-optimization/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ceffba6b516f9b14e180acffa548899ab973c88ea87e50ee3c32e14c791a6b6c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

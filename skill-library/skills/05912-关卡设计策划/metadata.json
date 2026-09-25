@@ -1,0 +1,22 @@
+{
+  "英文名称": "level-design",
+  "中文名称": "关卡设计策划",
+  "一句话作用": "关卡设计策划技能。生成关卡架构、敌人配置、Boss设计、难度曲线等关卡设计文档， 并提供对应的 GDScript 代码模板。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要关卡设计策划技能。生成关卡架构、敌人配置、Boss设计、难度曲线等关卡设计文档， 并提供对应的 GDScript 代码模板。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05912-level-design-97c64928",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-3-orchestrators/game-planning/level-design/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-3-orchestrators/game-planning/level-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fbd781e1ce7179be9a5376e7f4adfebb7c0da5bdaa8d1a44e223dec50a8a1091",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nlp-text-classification",
+  "中文名称": "跨品类零样本评论分类与客服工单智能分流",
+  "一句话作用": "触发词：零样本分类、评论分类、工单分流、跨品类分类、分类 Schema。何时不用：要自动发现未知主题用「BERTopic 主题建模」；本技能是按给定 Schema 做分类。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要客服工单人工分类耗时 4-6 小时/周且跨品类不可复用——LLM 零样本分类将分类一致性从 78% 提升至 93%，新品类 15 分钟投入使用，年化节省人力 ¥6-12 万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12192-p2s-nlp-text-classification-5c4d1993",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-nlp-text-classification/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-nlp-text-classification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "328bdaacbaf7fc07a16dae8d66e8c759dda8ce7ea62cdc99717cede7d16b1f5d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

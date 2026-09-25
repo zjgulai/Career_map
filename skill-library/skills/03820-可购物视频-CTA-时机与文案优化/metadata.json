@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-shoppable-video-cta-optimizer",
+  "中文名称": "可购物视频 CTA 时机与文案优化",
+  "一句话作用": "触发词：CTA 时机、可购物视频、留存曲线、转化率优化、按钮文案。何时不用：没有秒级留存数据时无法定位最佳时机，只能靠 AB 测试穷举；直播间实时节奏优化也不用本技能。安全边界：CTA 文案与折扣信息须真实可兑现，不得使用绝对化用语或虚假促销。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"视频CTA点击率低带货效果差\"——最优呼吁时机预测将视频带货转化率从1.2%提升至2.8%，年化增收60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03820-p2s-shoppable-video-cta-optimizer-51d07478",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-shoppable-video-cta-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-shoppable-video-cta-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3903bcb11a1ff57cf75738a39c76fea89031b38fe0a95c59eb2ba34e32839f1c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

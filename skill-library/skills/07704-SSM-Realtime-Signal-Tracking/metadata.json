@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-SSM-Realtime-Signal-Tracking",
+  "中文名称": "待补：SSM Realtime Signal Tracking",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T01:26:28.047067\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:26:28+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T01:26:28.047067\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07704-skill-ssm-realtime-signal-tracking-a12d5191",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-SSM-Realtime-Signal-Tracking.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-SSM-Realtime-Signal-Tracking.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "970d342cdb51497ec5a13d623bf2edaf6603433149393a165c40b218c1911c61",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

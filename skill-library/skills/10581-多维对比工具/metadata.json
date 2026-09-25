@@ -1,0 +1,22 @@
+{
+  "英文名称": "fund-risk-analyzer",
+  "中文名称": "多维对比工具",
+  "一句话作用": "ETF多维对比工具：基于用户提供的净值CSV数据，自动计算并对比多只ETF或基金的年化收益率、最大回撤、夏普比率，并生成相关性矩阵图表。当用户需要对比基金风险收益、计算年化收益/最大回撤/夏普比率、进行相关性分析，或提到关键词如ETF对比、净值分析、风险收益、波动率、Sharpe Ratio、max drawdown时触发。",
+  "关键输入": "CSV 文件，第一列为日期，后续列为各 ETF 的净值： - 日期列名不限，格式不限（仅用于标注区间） - ETF 列名即为对比报告中的名称 - 缺失值用空白或 NaN 表示，会自动跳过",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:05:48+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 对比多只 ETF 的风险收益特征，辅助资产配置决策 - 分析 ETF 间的相关性，构建低相关的投资组合 - 评估基金经理表现（夏普比率越高越好） - 回测不同资产在特定时间段的表现时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10581-fund-risk-analyzer-e3c36744",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/fund-risk-analyzer/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/fund-risk-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ba96943aa8fc60bb0af3eb09734d22345e7e882d76cd3b6d96548b20bcb50f15",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

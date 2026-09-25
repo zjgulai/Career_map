@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-voice-analyzer",
+  "中文名称": "待补：customer-voice-analyzer",
+  "一句话作用": "- Mines customer reviews into 6 actionable dimensions — personas, scenarios, pros, cons, unmet needs, and buying motives. Use when analyzing Amazon product reviews to identify product flaws, extract high-converting mark…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-23T02:20:00+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Mines customer reviews into 6 actionable dimensions — personas, scenarios, pros, cons, unmet needs, and buying motives. Use when analyzing Amazon product reviews to identify product flaws, extract high-converting mark…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10962-customer-voice-analyzer-22a3fd5c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-3bbee86f/packages/capabilities/dsh-overseas-skills/backup/pre-81/customer-voice-analyzer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-3bbee86f/packages/capabilities/dsh-overseas-skills/backup/pre-81/customer-voice-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ef2ed86052853fbb819b20d703559bbdf74fff8308b281ef762b0cfb003e5789",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

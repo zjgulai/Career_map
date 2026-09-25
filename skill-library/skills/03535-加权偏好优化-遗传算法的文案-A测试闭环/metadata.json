@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nlp-copy-ab-test-optimizer",
+  "中文名称": "加权偏好优化 遗传算法的文案 A测试闭环",
+  "一句话作用": "触发词：文案 A/B、Listing 标题、Thompson Sampling、遗传算法、CTR 优化。何时不用：要测视频素材版本时用「AI 视频素材 A/B 测试」；要做内容与 AI 搜索引用优化时用「GEO 生成式引擎优化」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴运营面临 Amazon Listing 主标题靠拍脑袋、手动 A/B 测试周期 2 周且变体有限——NLP 文案 A/B 闭环系统自动生成 10+ 高质量标题变体并用 Thompson Sampling MAB 快速收敛最优文案，CTR 提升 4-15%，年化增量 GMV 20-80 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03535-p2s-nlp-copy-ab-test-optimizer-a1e2554b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-nlp-copy-ab-test-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-nlp-copy-ab-test-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "77d5a16ec0dc4064c9f5f3451d9f28f6bbd1ea269eec9139243b77cfb0b7651e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

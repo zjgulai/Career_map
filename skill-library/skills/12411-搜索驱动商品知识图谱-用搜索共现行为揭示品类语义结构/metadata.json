@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-driven-product-kg",
+  "中文名称": "搜索驱动商品知识图谱 用搜索共现行为揭示品类语义结构",
+  "一句话作用": "触发词：搜索共现图、图嵌入、关联品类发现、选品关联、词扩展。何时不用：要基于竞品排名找缺口词时用「竞品关键词缺口分析」；要从评论语料挖词时用「评论关键词挖掘 SEO」。安全边界：搜索日志须脱敏并通过官方 API 获取，第三方抓取违反平台 ToS。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据科学家面临\"品类语义结构只能靠人工梳理无法系统化发现搜索意图间的关联\"——搜索词共现图嵌入将品类语义空间构建自动化，选品相关性发现效率提升5倍，年化$4.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12411-p2s-search-driven-product-kg-e3382f70",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-driven-product-kg/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-driven-product-kg/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8da21aff893a9c48a0c01f7bac6d8dc93c69347b8ef73fd4f6d5136257980d27",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

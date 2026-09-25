@@ -1,0 +1,22 @@
+{
+  "英文名称": "giiisp-paper-search-apis",
+  "中文名称": "待补：giiisp-paper-search-apis",
+  "一句话作用": "调用 Giiisp/集思谱论文检索 POST 接口，按用户问题选择 OA 标题摘要检索或 arXiv 摘要、编号、多字段、标题检索。用于论文检索、文献初筛、arXiv 定位、开放论文补充和引用审计。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "普通论文搜索接口是同步 JSON 接口，不要假装它能逐条流式返回。响应时间长时，由调用层把“扩展检索计划”拆成多个可观察步骤，并在每一步发进度事件。 推荐使用 scripts/progressive paper search.py 生成 JSONL 事件，一行一个事件，可直接转成 SSE： 事件顺序： 事件 含义 --- --- search started 搜索开始，包含主检索模式、扩展模式和计划请求数 auth status 报告是否检测到 GIIISP AUTH TOKEN；无 token 时给出 http…",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要调用 Giiisp/集思谱论文检索 POST 接口，按用户问题选择 OA 标题摘要检索或 arXiv 摘要、编号、多字段、标题检索。用于论文检索、文献初筛、arXiv 定位、开放论文补充和引用审计。时，用它产出或更新：普通论文搜索接口是同步 JSON 接口，不要假装它能逐条流式返回。响应时间长时，由调用层把“扩展检索计划”拆成多个可观察步骤，并在每一步发进度事件。 推荐使用 scripts/progressive paper search.py 生成 JSONL 事件，一行一个事件，可直接转成 SSE： 事…",
+  "skill_id": "04636-giiisp-paper-search-apis-4afcc8d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/giiisp-paper-search-apis/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/giiisp-paper-search-apis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9938f75c2dca9b0989dde2f5590a983a01b97d311669fe7fa270a5be761bde8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

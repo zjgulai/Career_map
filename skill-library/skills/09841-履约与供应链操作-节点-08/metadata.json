@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-fulfillment-ops",
+  "中文名称": "履约与供应链操作(节点 08)",
+  "一句话作用": "库存/订单/履约的 AI 操作与自动化(库存同步、海外仓推单、改履约状态)。当用户说\"改库存/补货/履约/发货状态/退款排查\"时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-26T01:41:21+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要库存/订单/履约的 AI 操作与自动化(库存同步、海外仓推单、改履约状态)。当用户说\"改库存/补货/履约/发货状态/退款排查\"时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09841-shopify-fulfillment-ops-cf6331b3",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/shopify/kb/skills/shopify-fulfillment-ops/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/shopify/kb/skills/shopify-fulfillment-ops/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aaa90eb131456f9f8d2625457df00ae773ec7946a51fc8d4803beee8746b2698",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

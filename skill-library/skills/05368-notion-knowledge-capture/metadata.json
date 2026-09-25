@@ -1,0 +1,22 @@
+{
+  "英文名称": "notion-knowledge-capture",
+  "中文名称": "待补：notion-knowledge-capture",
+  "一句话作用": "Transforms conversations and discussions into structured documentation pages in Notion. Captures insights, decisions, and knowledge from chat context, formats appropriately, and saves to wikis or databases with proper o…",
+  "关键输入": "See examples/ for complete workflows: - examples/conversation-to-faq.md - FAQ from Q&A - examples/decision-capture.md - Decision record - examples/how-to-guide.md - How-to from discussion",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要See examples/ for complete workflows: - examples/conversation-to-faq.md - FAQ from Q&A - examples/decision-capture.md - Decision record - examples/how-to-guide.md - How-to from discussion时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05368-notion-knowledge-capture-08d9081a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/notion/skills/knowledge-capture/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/notion/skills/knowledge-capture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "42e8c7634c25c59155ec04c5451da7ca34c5711084c53625fdf37b4af9bf0d19",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

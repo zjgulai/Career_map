@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-attribute-analyzer",
+  "中文名称": "待补：product-attribute-analyzer",
+  "一句话作用": "- Profiles product attributes across top sellers using 3-D tagging (structural/fit, material/process, design elements), calculates sales-weighted market share from real sales data, and outputs quantitative analysis plus…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For each tag and each dimension, compute and report via a markdown table . This table is a hard prerequisite for Step 4 — never skip it or replace it with a chart . Required table per dimension (output one table per dimension, e.g. \"Structural / Fit Distribut…",
+  "最新更新时间": "2026-09-21T02:31:18+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Profiles product attributes across top sellers using 3-D tagging (structural/fit, material/process, design elements), calculates sales-weighted market share from real sales data, and outputs quantitative analysis plus…时，用它产出或更新：For each tag and each dime…",
+  "skill_id": "12720-product-attribute-analyzer-f87c825f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Sanbao/repository-snapshot/packages/capabilities/dsh-overseas-skills/backup/pre-81/product-attribute-analyzer/SKILL.md",
+  "relative_path": "lute/project/Sanbao/repository-snapshot/packages/capabilities/dsh-overseas-skills/backup/pre-81/product-attribute-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df9167d9cc15fbfda38a5736d008cc54563c4dd496e0f77c89fc623ff3a5277a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

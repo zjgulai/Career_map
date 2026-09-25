@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-demo-video-auto-edit",
+  "中文名称": "产品演示视频自动剪辑（婴儿产品使用场景拼接）",
+  "一句话作用": "触发词：自动剪辑、演示视频、模板化出片、批量上新、制作成本压缩。何时不用：需要原创拍摄或复杂叙事创意的视频不用模板化自动剪辑；单条精剪交人工剪辑。安全边界：自动拼接不得使用误导性动画或虚假使用场景；背景音乐与素材须为自有或已授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：自动剪辑、演示视频、模板化出片、批量上新、制作成本压缩。何时不用：需要原创拍摄或复杂叙事创意的视频不用模板化自动剪辑；单条精剪交人工剪辑。安全边界：自动拼接不得使用误导性动画或虚假使用场景；背景音乐与素材须为自有或已授权。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03641-p2s-product-demo-video-auto-edit-af8a20a6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-product-demo-video-auto-edit/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-product-demo-video-auto-edit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "072eecfb86dc0d6d48cebdca676b0ea62c4f96206196bad72d10496bbea5b1cd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

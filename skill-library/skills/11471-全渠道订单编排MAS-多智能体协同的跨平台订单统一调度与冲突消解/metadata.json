@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-omnichannel-order-orchestration-mas",
+  "中文名称": "全渠道订单编排MAS 多智能体协同的跨平台订单统一调度与冲突消解",
+  "一句话作用": "触发词：全渠道订单编排、超卖防御、库存预留、优先级冲突消解、渠道调序。何时不用：只做跨渠道库存调拨用「一盘货库存调度」；单一平台的订单发货走平台自带履约流程。安全边界：牺牲低优先渠道时须按平台政策主动通知并补偿，不得虚假展示库存。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要多平台运营面临\"Amazon/TikTok/Shopify并发下单超卖\"——MAS优先级调度超卖防御将超卖率从5-10%降至0.1%以下，保护Amazon账号安全时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11471-p2s-omnichannel-order-orchestration-mas-1b9842bf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-omnichannel-order-orchestration-mas/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-omnichannel-order-orchestration-mas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "873e722ffa51011c84c16f551ef2f5228ca65f023a89663e8e2c76e342222d07",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

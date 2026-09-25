@@ -1,0 +1,22 @@
+{
+  "英文名称": "dingtalk-chat",
+  "中文名称": "钉钉群聊 消息 Skill",
+  "一句话作用": "钉钉群聊与消息。Use when 用户提到 发消息/编辑或撤回消息/单聊/群聊/建群/普通群升级外部群/群昵称/会话分组/群成员管理/@消息/搜索聊天记录/话题回复/收藏消息/机器人群发/Webhook通知/发送或下载消息图片与文件。不做紧急 DING/短信/电话（走 dingtalk-misc）、邮件（走 dingtalk-mail）、班级群（走 dingtalk-misc）。命令前缀：dws chat。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- openTaskId 是发送任务 ID，不是回复或撤回所需的消息 ID；消息 ID 必须来自真实查询结果。 - 消息查询默认保留稳定 ID、会话/thread、发送者、文本、时间、reaction、引用、转发和 resourceRefs；--no-reactions 可关闭 reaction。 - 查询结果必须检查 complete、hasMore、failures 和资源下载 ledger；partial result 不得表述为完整成功。 - 子消息使用自己的 messageId；仅缺会话 ID 时继承父…",
+  "最新更新时间": "2026-09-19T03:39:21+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要钉钉群聊与消息。Use when 用户提到 发消息/编辑或撤回消息/单聊/群聊/建群/普通群升级外部群/群昵称/会话分组/群成员管理/@消息/搜索聊天记录/话题回复/收藏消息/机器人群发/Webhook通知/发送或下载消息图片与文件。不做紧急 DING/短信/电话（走 dingtalk-misc）、邮件（走 dingtalk-mail）、班级群（走 dingtalk-misc）。命令前缀：dws chat。时，用它产出或更新：- openTaskId 是发送任务 ID，不是回复或撤回所需的消息 ID；消息…",
+  "skill_id": "04467-dingtalk-chat-52517242",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-chat/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-chat/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c0d2ec2a2e4c4d1dab4102080325a61711aa5415d66ece64932bf21ae420d51b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

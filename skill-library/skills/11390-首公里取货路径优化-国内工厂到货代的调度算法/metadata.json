@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-first-mile-pickup-optimization",
+  "中文名称": "首公里取货路径优化 国内工厂到货代的调度算法",
+  "一句话作用": "触发词：首公里取货、工厂集货、取货路线优化、多工厂取货、大促紧急集货。何时不用：只要按载重容积求解多停靠点路线、想直接走 OR-Tools 求解器用「首公里取货路径优化」；本技能按工厂可接受取货时间窗排线。安全边界：冷链货须独立车辆与食品安全合规把关，模型只排线路不派车、不派单。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要货代运营面临\"多工厂取货路线重叠车辆调度低效首公里成本虚高\"——VRP路径优化将首公里运费降低40%，年化节省物流成本15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11390-p2s-first-mile-pickup-optimization-2a001085",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-first-mile-pickup-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-first-mile-pickup-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8a6ab3cd6ac736c50b083966fd855a7dd8520d79f1fa99708844b9c35ad0bede",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

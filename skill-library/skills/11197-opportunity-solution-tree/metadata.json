@@ -1,0 +1,22 @@
+{
+  "英文名称": "opportunity-solution-tree",
+  "中文名称": "待补：opportunity-solution-tree",
+  "一句话作用": "Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring dis…",
+  "关键输入": "- A desired outcome or business metric to improve - Customer research data (interviews, surveys, analytics, feedback) - Optionally: existing opportunities or solution ideas to organize",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:55+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring dis…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11197-opportunity-solution-tree-639d9d17",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/opportunity-solution-tree/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/opportunity-solution-tree/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b23e44a5ace86aa20d64cc130322265ace6a53a29831cc403b974098a379bcc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

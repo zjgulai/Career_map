@@ -1,0 +1,22 @@
+{
+  "英文名称": "unity-ecs-patterns",
+  "中文名称": "待补：unity-ecs-patterns",
+  "一句话作用": "Master Unity ECS (Entity Component System) with DOTS, Jobs, and Burst for high-performance game development. Use when building data-oriented games, optimizing performance, or working with large entity counts.",
+  "关键输入": "- Building high-performance Unity games - Managing thousands of entities efficiently - Implementing data-oriented game systems - Optimizing CPU-bound game logic - Converting OOP game code to ECS - Using Jobs and Burst f…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Building high-performance Unity games - Managing thousands of entities efficiently - Implementing data-oriented game systems - Optimizing CPU-bound game logic - Converting OOP game code to ECS - Using Jobs and Burst f…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05637-unity-ecs-patterns-8fc1c57e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/game-development/skills/unity-ecs-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/game-development/skills/unity-ecs-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07905bb9560cf711e6570cba6713e5d2beea3e267403b0e9e7c4c71fab173c73",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

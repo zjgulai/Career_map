@@ -1,0 +1,22 @@
+{
+  "英文名称": "Severity Levels",
+  "中文名称": "待补：Severity Levels",
+  "一句话作用": "Severity levels provide a standardized way to classify incidents based on their impact, enabling appropriate response, resource allocation, and communication. Consistent severity classification ensure",
+  "关键输入": "Inputs : - Entry Conditions : - Outputs : - Artifacts Required (Deliverables) :",
+  "关键输出": "Inputs : - Entry Conditions : - Outputs : - Artifacts Required (Deliverables) :",
+  "最新更新时间": "2026-02-22",
+  "业务场景": "Backend",
+  "解决具体问题": "当需要Internal documentation and examples Official documentation and best practices Community resources and discussions时，用它产出或更新：Inputs : - Entry Conditions : - Outputs : - Artifacts Required (Deliverables) :",
+  "skill_id": "05091-severity-levels-e2e99d2c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Severity-Levels/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Severity-Levels/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "6e14c8e86de1c1baa5ca864b57835a5906bf5731899a65f77df21619498f7348",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

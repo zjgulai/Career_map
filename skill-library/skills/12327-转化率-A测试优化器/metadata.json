@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-listing-conversion-rate-optimizer",
+  "中文名称": "转化率 A测试优化器",
+  "一句话作用": "触发词：Listing 优化、A/B 测试、贝叶斯后验、主图测试、标题测试。何时不用：要按认知负荷重排页面信息架构用「认知负荷 UX 优化器」；要对落地页元素组合寻优用「独立站落地页 CRO」。安全边界：实验不得使用虚假属性标签或未经验证的功效宣称；样本量与实验条件不足（卡页建议周期 14 天以上、日均 50 点击以上）时不得据早期数据全量切换。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"Listing转化率远低于品类均值\"——A/B测试驱动迭代将CVR从6.8%提升至9.5%，年化增收50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12327-p2s-listing-conversion-rate-optimizer-a9521785",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-listing-conversion-rate-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-listing-conversion-rate-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fb4c69cfca3c8478b5a5c70b036fd64f49102a5c16bcfeaa3ce4ada117d35aa6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

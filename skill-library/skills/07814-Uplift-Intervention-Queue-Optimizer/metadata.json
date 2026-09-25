@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Uplift-Intervention-Queue-Optimizer",
+  "中文名称": "待补：Uplift Intervention Queue Optimizer",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 73.0, \"best\": 73.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T02:02:55.105179\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 90.0, \"best\": 90.0, \"mutated\": \"none\", \"ts\": \"202…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T18:33:02+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 73.0, \"best\": 73.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T02:02:55.105179\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 90.0, \"best\": 90.0, \"mutated\": \"none\", \"ts\": \"202…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07814-skill-uplift-intervention-queue-optimizer-4b61e4d2",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Uplift-Intervention-Queue-Optimizer.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Uplift-Intervention-Queue-Optimizer.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d2021b0cce48d4f8317a5d8f689b35c1fa31f98b9a36884e22d1e390b23bdea2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

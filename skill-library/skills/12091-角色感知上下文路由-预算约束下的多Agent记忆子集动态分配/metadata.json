@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rcr-router-role-aware-context-routing",
+  "中文名称": "角色感知上下文路由 预算约束下的多Agent记忆子集动态分配",
+  "一句话作用": "触发词：上下文路由、记忆子集、角色感知、Token 预算、噪声干扰。何时不用：预算总量如何在 Agent 间分配走「动态上下文预算分配」；把长历史压短走「上下文 Token 压缩」。安全边界：路由须保留审计日志，不得因评分误判漏掉合规相关记忆；用竞品价格做定价决策须遵守平台价格政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要让所有Agent访问完整记忆库既浪费Token又引入噪声干扰——RCR-Router按角色和任务阶段动态选择语义相关记忆子集，在严格Token预算下回答质量提升13-22%（2025 arXiv:2508.04903）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12091-p2s-rcr-router-role-aware-context-routing-3e4bf8e0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-rcr-router-role-aware-context-routing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-rcr-router-role-aware-context-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3f24f68cbf8649560820a7c5773ff013c1d3c7c55b7a73fd879b828567e8d9c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-product-safety-certification",
+  "中文名称": "驱动产品安全认证自动化：从测试报告解析到合规路径规划",
+  "一句话作用": "触发词：认证路径、认证组合、测试报告共享、标准映射、市场准入、认证成本。何时不用：只校验单份 GCC/CPC 文档字段是否齐时用「GCC/CPC 文档验证」，只按 HTS 码打风险标签时用「HTS 码风险分类」。安全边界：输出仅为认证路径建议，正式申报与检测报告须由具备资质的第三方机构出具。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当母婴产品需要进入美国+欧盟+澳大利亚三个市场时，AI认证路径规划在5分钟内输出最低成本认证组合并识别可共享测试，将认证周期从8周压缩到4周、成本降低20-35%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12510-p2s-ai-product-safety-certification-1b42f252",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-ai-product-safety-certification/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-ai-product-safety-certification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6184cef588e15c539e69561e1cfea2e999197a955b99fe82ffb54247238a01c8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

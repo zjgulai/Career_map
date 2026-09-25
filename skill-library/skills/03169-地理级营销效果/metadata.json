@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-geo-level-marketing-effectiveness",
+  "中文名称": "地理级营销效果）",
+  "一句话作用": "触发词：地理级实验、区域投放、对照组区域、预算集中、区域加投、效果外推。何时不用：只在单一区域投放或各区域无法分离时无法做地理对照；要判断渠道整体增量时用 MMM 或大盘归因。安全边界：用户数据需脱敏并符合 CCPA 等法规，跨境数据传输需加密，平台数据使用须遵守广告政策与 API 协议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要区域营销经理面临城市投放看不准——地理效应将预算浪费率从22%降到7%，年化省19万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03169-p2s-geo-level-marketing-effectiveness-750e445d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-geo-level-marketing-effectiveness/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-geo-level-marketing-effectiveness/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ba4e6f67f2c2d9a556a253f0ddb4bb78dbadbdbea452815998afc915abfe19b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

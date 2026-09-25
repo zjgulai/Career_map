@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-schema-engineering-lifecycle",
+  "中文名称": "标签Schema工程与生命周期管理 企业级Tag类型设计约束与版本治理",
+  "一句话作用": "触发词：标签体系、Tag Schema、生命周期治理、认证传播、版本管理。何时不用：只是单系统内加字段、没有跨系统语义统一诉求时不用；SKU 编码本身的统一归主数据黄金记录类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据工程师面临\"多平台数据孤岛，断货识别延迟8小时\"——统一Tag Schema(七类标签+六阶段生命周期)将断货识别延迟从8小时降至15分钟，合规审查从3天→10分钟时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12146-p2s-tag-schema-engineering-lifecycle-adeb1a2e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tag-schema-engineering-lifecycle/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tag-schema-engineering-lifecycle/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "06e4f97989ff21af43c641a350b5838664e1cb79a5975dd71dd1990d5b45060b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

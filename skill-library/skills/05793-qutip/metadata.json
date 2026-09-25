@@ -1,0 +1,22 @@
+{
+  "英文名称": "qutip",
+  "中文名称": "待补：qutip",
+  "一句话作用": "Quantum physics simulation library for open quantum systems. Use when studying master equations, Lindblad dynamics, decoherence, quantum optics, or cavity QED. Best for physics research, open system dynamics, and educat…",
+  "关键输入": "N = 20 Hilbert space dimension omega = 1.0 Oscillator frequency kappa = 0.1 Decay rate",
+  "关键输出": "plt.plot(tlist, result.expect[0]) plt.xlabel('Time') plt.ylabel('⟨σz⟩') plt.show()",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Memory issues : Reduce Hilbert space dimension, use store final state option, or consider Krylov methods Slow simulations : Use string-based time-dependence, increase tolerances slightly, or try method='bdf' for stiff p…时，用它产出或更新：plt.plot(tlist, result.exp…",
+  "skill_id": "05793-qutip-3bedafab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/qutip/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/qutip/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "431678fab4cbc5e114ee710a9e4e36252f3dd472725ecdff4e41c684aa014999",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

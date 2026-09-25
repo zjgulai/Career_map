@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-keyword-competition-scoring",
+  "中文名称": "搜索词竞争力量化评分",
+  "一句话作用": "触发词：关键词评分、竞争烈度、搜索量、ACOS 优化、预算重分配、红海与长尾词。何时不用：关键词数量很少、账户结构简单时不必评分；需要具体出价数值时用出价优化类技能。安全边界：关键词与文案不得堆砌或违反平台搜索政策，母婴品类投放需补齐产品安全认证等合规材料。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告预算 60% 集中在搜索量大但竞争极高的词（ACOS 45%），高意图低竞争词几乎未投——多维竞争力评分（需求×竞争×转化×出价效率）矩阵重分配预算，ACOS 从 45% 降至 30%，年化增收 30-120 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11714-p2s-keyword-competition-scoring-71370f32",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-keyword-competition-scoring/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-keyword-competition-scoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e3d10bb0adad6e41346b12adb0248d494b85e1813a7d19d2b51a3826147436bb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

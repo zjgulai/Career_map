@@ -1,0 +1,22 @@
+{
+  "英文名称": "cinematic-title-sequence",
+  "中文名称": "待补：cinematic-title-sequence",
+  "一句话作用": "Create one 15-second film or series title sequence, cast sequence, or concept teaser from confirmed story, exact text, visual references, typography, and sound. Not for full trailers or end credits.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Choose exactly one OUTPUT MODE: Mode Trigger Core goal --- --- --- opening title opening titles, cast, Opening Title, Opening Credits, Title Sequence, actor-name PV Film world and visual identity first; cast, typography, spatial relations, and the final title…",
+  "最新更新时间": "2026-09-20T21:30:20+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create one 15-second film or series title sequence, cast sequence, or concept teaser from confirmed story, exact text, visual references, typography, and sound. Not for full trailers or end credits.时，用它产出或更新：Choose exactly one OUTPUT MODE: Mode Trigger Cor…",
+  "skill_id": "04306-cinematic-title-sequence-635a5a1f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/cinematic-title-sequence/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/cinematic-title-sequence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1605f2c78e15e325ad19d84b850ed4ebed0162460b45fd289ec09488526b1a88",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

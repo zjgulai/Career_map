@@ -1,0 +1,22 @@
+{
+  "英文名称": "moonbit-c-binding",
+  "中文名称": "待补：moonbit-c-binding",
+  "一句话作用": "Guide for writing MoonBit bindings to C libraries using native FFI. Use when adding extern \"c\" declarations, writing C stubs with moonbit.h, configuring native-stub and link.native in moon.pkg, choosing",
+  "关键输入": "Use this skill when: - Adding extern \"c\" fn declarations for a C library - Writing C stub files (moonbit.h, MOONBIT FFI EXPORT) - Configuring moon.pkg for native builds (native-stub, link.native) - Choosing borrow vs ow…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Adding extern \"c\" fn declarations for a C library - Writing C stub files (moonbit.h, MOONBIT FFI EXPORT) - Configuring moon.pkg for native builds (native-stub, link.native) - Choosing borrow vs ow…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04552-moonbit-c-binding-48884ec6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/moonbit-skills/0.1.0/skills/moonbit-c-binding/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/moonbit-skills/0.1.0/skills/moonbit-c-binding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d71c8098d32e13abae19c2e453693882f075a6a7cd585508baa6554966a06dd1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

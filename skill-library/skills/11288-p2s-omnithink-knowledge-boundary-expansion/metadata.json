@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-omnithink-knowledge-boundary-expansion",
+  "中文名称": "待补：p2s-omnithink-knowledge-boundary-expansion",
+  "一句话作用": "触发词：知识缺口、报告补全、边界扩展、盲区识别、市场研究。何时不用：需要的是品类机会打分或市场规模数字时分别用「品类机会评分引擎」「Market Size Estimation」；本技能只处理研究报告的知识覆盖问题。安全边界：卡页未给出数据规格与合规要求，补全内容必须标注来源，不得把模型补全当作事实证据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要分析师面临市场报告知识盲区遗漏——OmniThink自动识别知识缺口并补全，报告深度+300%，年化分析质量提升价值30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11288-p2s-omnithink-knowledge-boundary-expansion-53ace5a3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-omnithink-knowledge-boundary-expansion/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-omnithink-knowledge-boundary-expansion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec8504283d727e3bb2d60dd3f01e4f55a5474819400daebfe9d3f571d314bcfe",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

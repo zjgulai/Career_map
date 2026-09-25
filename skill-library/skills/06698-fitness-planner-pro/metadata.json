@@ -1,0 +1,22 @@
+{
+  "英文名称": "fitness-planner-pro",
+  "中文名称": "待补：fitness-planner-pro",
+  "一句话作用": "用于生成中文健身攻略、训练计划、饮食与恢复建议、动作教学、训练日志和复盘模板。当用户需要减脂、增肌、塑形、力量提升、跑步心肺、居家或健身房训练、食堂外卖饮食、动作要点、训练记录、执行困难处理、坚持支持或安全边界建议时使用。不用于医疗诊断或替代医生、康复师的个体化治疗。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 最终交付优先是 真实创建的飞书在线文档 ，最终回复只给标题 + URL + 1–3 条内容亮点， 不粘贴正文 。 - 默认用 XML 富文本创建；用户明确要 Markdown 时才用 --doc-format markdown。 - 即使用户只问“要怎么做/怎么练”，也按飞书文档交付，不要降级成聊天建议或可复制 Markdown。 - 信息不全也先创建文档，不要只反问。缺失信息只做内部判断：能合理推断的直接写成“适用边界/调整开关”（例如强度、替代动作、疼痛停止线），不能把问题清单塞进文档正文或文末。",
+  "最新更新时间": "2026-09-16T11:25:01+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要用于生成中文健身攻略、训练计划、饮食与恢复建议、动作教学、训练日志和复盘模板。当用户需要减脂、增肌、塑形、力量提升、跑步心肺、居家或健身房训练、食堂外卖饮食、动作要点、训练记录、执行困难处理、坚持支持或安全边界建议时使用。不用于医疗诊断或替代医生、康复师的个体化治疗。时，用它产出或更新：- 最终交付优先是 真实创建的飞书在线文档 ，最终回复只给标题 + URL + 1–3 条内容亮点， 不粘贴正文 。 - 默认用 XML 富文本创建；用户明确要 Markdown 时才用 --doc-format markd…",
+  "skill_id": "06698-fitness-planner-pro-05ca0cc2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/branches/fitness-planner-pro/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/branches/fitness-planner-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "06f447e57ddfba4b1577cd7a9ce2255cc36e1c486bc9ad59831e7a2be35c205b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "pysam",
+  "中文名称": "待补：pysam",
+  "一句话作用": "Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing pipelines.",
+  "关键输入": "Random access to specific genomic regions requires index files: - BAM files : Require .bai index (create with pysam.index()) - CRAM files : Require .crai index - FASTA files : Require .fai index (create with pysam.faidx()) - VCF.gz files : Require .tbi tabix…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要This skill should be used when: - Working with sequencing alignment files (BAM/CRAM) - Analyzing genetic variants (VCF/BCF) - Extracting reference sequences or gene regions - Processing raw sequencing data (FASTQ) - Cal…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05789-pysam-c894db2d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pysam/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pysam/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f095b227969e3c5284f17f59a1c81afdd5a2ff8076ae6055505fe143007d5f55",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

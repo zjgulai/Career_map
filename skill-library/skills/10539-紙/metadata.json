@@ -1,0 +1,22 @@
+{
+  "英文名称": "kami",
+  "中文名称": "紙",
+  "一句话作用": "Typeset professional documents with Kami templates: resumes, one-pagers, white papers, letters, portfolios, and slide decks. Use when asked to 做 PDF / 排版 / 简历 / 一页纸 / PPT / slides, or to create a Kami landing page. Not…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Do not ask the user which format to export. Decide from context: Signal Output Why --- --- --- Any document request HTML + PDF PDF is the default deliverable, HTML is the source Slides / PPT / deck HTML + PDF; add PPTX only when explicitly requested as editab…",
+  "最新更新时间": "2026-09-18T01:51:16+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Typeset professional documents with Kami templates: resumes, one-pagers, white papers, letters, portfolios, and slide decks. Use when asked to 做 PDF / 排版 / 简历 / 一页纸 / PPT / slides, or to create a Kami landing page. Not…时，用它产出或更新：Do not ask the user which f…",
+  "skill_id": "10539-kami-9b46d5a7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/Kami/skills/kami/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/Kami/skills/kami/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bd13d70a93c8cdee876fbfb30f49d790a366594a228f5559c883a0acce1f3310",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

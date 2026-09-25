@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-focused-web-crawling",
+  "中文名称": "引导的主题爬取：KG 驱动发现与动态 JS 页面抽取",
+  "一句话作用": "触发词：主题爬取、图谱驱动发现、动态页面抽取、字段缺口补齐、模型引导抓取。何时不用：页面结构固定、字段清单明确时用普通采集管道；需要官方接口增量同步时用平台接口采集技能。安全边界：抓取须遵守目标站点条款与 robots 协议，不得绕过登录与付费墙获取受限内容。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要研究员面临网页信息抓不全——LLM Web Crawling将有效字段覆盖率57%提到85%，年化省14万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03342-p2s-llm-focused-web-crawling-0b77dfcf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-focused-web-crawling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-focused-web-crawling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a67689ee3d75659a8fce5d259a302b13128fcf68afd97cd54902cf5ed3d8bf0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

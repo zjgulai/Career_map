@@ -1,0 +1,22 @@
+{
+  "英文名称": "gtm-strategy",
+  "中文名称": "待补：gtm-strategy",
+  "一句话作用": "Create a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline. Use when planning a product launch, creating a GTM plan from scratch, or defining a launch strategy for a new…",
+  "关键输入": "Use $ARGUMENTS to pass: - Product name and description - Target market segment - Research data or file path - Launch timeline and constraints - Budget or resource limitations",
+  "关键输出": "A structured GTM strategy document including: - Recommended marketing channels with justification - Channel-specific messaging and positioning - Launch timeline with key milestones - KPI targets and measurement framework - Risk mitigation strategies - 90-day…",
+  "最新更新时间": "2026-09-16T00:16:50+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Planning a product launch - Creating a GTM plan from scratch - Defining a launch strategy for a new market - Developing product-to-market fit strategy - Preparing a product go-live roadmap时，用它产出或更新：A structured GTM strategy document including: - Recommen…",
+  "skill_id": "11175-gtm-strategy-cfeb8b86",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-go-to-market/skills/gtm-strategy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-go-to-market/skills/gtm-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fcc7c24dda6b4fec94d1d847e0ba2b42cff38b5ec6215bb1749a65d8b885f91e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

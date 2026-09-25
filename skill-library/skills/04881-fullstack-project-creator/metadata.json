@@ -1,0 +1,22 @@
+{
+  "英文名称": "fullstack-project-creator",
+  "中文名称": "待补：fullstack-project-creator",
+  "一句话作用": "Create standardized Java Spring Boot + Vue3 full-stack project structure",
+  "关键输入": "Use this Skill when users need to create new projects or features, to generate standardized project structure and initial files.",
+  "关键输出": "After generation is complete, must output: 1. Project Path : Complete absolute path 2. Project Structure : Directory tree display 3. Startup Steps : How to start the project 4. Main Files Description : Purpose of key files",
+  "最新更新时间": "2026-09-19T03:49:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this Skill when users need to create new projects or features, to generate standardized project structure and initial files.时，用它产出或更新：After generation is complete, must output: 1. Project Path : Complete absolute path 2. Project Structure : Directory t…",
+  "skill_id": "04881-fullstack-project-creator-4b81b45a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/fullstack-project-creator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/fullstack-project-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7a989fb9de782d0c732e2771e30f0663f436625757e7d9c590a198db5b36219",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

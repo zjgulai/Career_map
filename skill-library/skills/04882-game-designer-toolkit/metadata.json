@@ -1,0 +1,22 @@
+{
+  "英文名称": "game-designer-toolkit",
+  "中文名称": "待补：game-designer-toolkit",
+  "一句话作用": "Complete game design toolkit for creating professional GDD, game systems, level design, and prototypes. Use when: (1) Creating a new game concept or GDD, (2) Designing game systems (economy, combat, progression), (3) Pl…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. Be specific about genre - \"action RPG\" vs \"game\" 2. Define your target audience - Casual? Hardcore? Age range? 3. State your platform - Mobile, PC, console affects design 4. Share inspirations - \"Like X meets Y\" helps alignment 5. Iterate section by sectio…",
+  "最新更新时间": "2026-09-19T03:48:57+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Complete game design toolkit for creating professional GDD, game systems, level design, and prototypes. Use when: (1) Creating a new game concept or GDD, (2) Designing game systems (economy, combat, progression), (3) Pl…时，用它产出或更新：1. Be specific about genre…",
+  "skill_id": "04882-game-designer-toolkit-e5feb836",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/game-designer-toolkit/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/game-designer-toolkit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca986a04842d3c483abbf56fc78461bb245e5d90f641c914c3b38785225a6064",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

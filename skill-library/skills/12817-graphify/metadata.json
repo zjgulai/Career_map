@@ -1,0 +1,22 @@
+{
+  "英文名称": "graphify",
+  "中文名称": "待补：graphify",
+  "一句话作用": "Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (co…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Before starting: the code blocks below pass directed=IS DIRECTED to build from json(). Replace IS DIRECTED with True if --directed was given (builds a DiGraph preserving edge direction source→target), otherwise False (the default undirected Graph). Substitute…",
+  "最新更新时间": "2026-08-27T16:05:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (co…时，用它产出或更新：Before starting: the code…",
+  "skill_id": "12817-graphify-8ec34759",
+  "source_type": "local_user_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/.codex/skills/graphify/SKILL.md",
+  "relative_path": "lute/project/VOA/.codex/skills/graphify/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3898b1042721cad27d6f87ca44f638415a7f763203aefd86b90f9358ffea3a43",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

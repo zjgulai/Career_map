@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bayesian-ab-testing",
+  "中文名称": "贝叶斯A实验 小样本快速决策的概率推断框架",
+  "一句话作用": "触发词：贝叶斯AB、小样本决策、概率结论、Loss准则、弱先验。何时不用：流量充足、能等固定样本量结论时，常规频率派检验更简单直接。安全边界：测试组用户不应因实验看到大幅不同的价格；Listing测试须遵守平台频率限制。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"新品流量稀少传统A/B测试需12天无法快速决策\"——贝叶斯实验用概率语言3天给出P(B A)=94%结论，测试周期压缩75%，年化多迭代30轮，GMV增量约50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11614-p2s-bayesian-ab-testing-29237ee8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-bayesian-ab-testing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-bayesian-ab-testing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8dc2f1ae98cc9f60470ee11a4a95c783bbb778a5f0e489981287226ad08bcb0f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

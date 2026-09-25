@@ -1,0 +1,22 @@
+{
+  "英文名称": "sprite-animation",
+  "中文名称": "像素动画解说",
+  "一句话作用": "像素美术 + kinetic 字体的解说帧, 纯 CSS 循环, 可录视频",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要像素美术 + kinetic 字体的解说帧, 纯 CSS 循环, 可录视频时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10356-sprite-animation-60d482a5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/sprite-animation/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/sprite-animation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "db0f2d0af2f64c94fb9f0a437a490db26adf62c8de58d644b4a5c09379eb043b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

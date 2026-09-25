@@ -1,0 +1,22 @@
+{
+  "英文名称": "umap-learn",
+  "中文名称": "待补：umap-learn",
+  "一句话作用": "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data.",
+  "关键输入": "reducer = umap.UMAP( n neighbors=30, min dist=0.0, n components=10, Higher than 2 for better density preservation metric='euclidean', random state=42 ) embedding = reducer.fit transform(scaled data)",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05822-umap-learn-66e767c6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/umap-learn/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/umap-learn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ff3ba62f6515071018c67543fed7ca7c0830684a297c1fd3f1b0b4e4c8946c6d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

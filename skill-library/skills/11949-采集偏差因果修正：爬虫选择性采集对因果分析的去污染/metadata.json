@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-data-collection-causal-debiasing",
+  "中文名称": "采集偏差因果修正：爬虫选择性采集对因果分析的去污染",
+  "一句话作用": "触发词：采集偏差、选择偏差、IPW 修正、因果去污染、CATE 校正。何时不用：数据来自随机对照实验时没有修正对象；只做相关性描述不管因果时不用。安全边界：问卷与用户数据须脱敏处理，样本代表性偏差须在结论中显式披露。",
+  "关键输入": "平台官方人口统计报告（抽样模拟） 内部 CRM 全量用户数据 随机对照实验（A/B test）中的控制组",
+  "关键输出": "平台官方人口统计报告（抽样模拟） 内部 CRM 全量用户数据 随机对照实验（A/B test）中的控制组",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要某母婴品牌通过爬虫采集 Amazon 评论，分析\"打折 coupon 是否提升复购率\"时，用它产出或更新：平台官方人口统计报告（抽样模拟） 内部 CRM 全量用户数据 随机对照实验（A/B test）中的控制组",
+  "skill_id": "11949-p2s-data-collection-causal-debiasing-02679cca",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-data-collection-causal-debiasing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-data-collection-causal-debiasing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d2c79b432bdf3eb2d8d6476061b38e8ce3aa3e0126ec54e433f3fce9bcb6adb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-algorithmic-bias-audit",
+  "中文名称": "算法偏见审计：跨境电商推荐公平性检测",
+  "一句话作用": "触发词：算法偏见审计、公平性指标、曝光日志、EU AI Act、推荐合规。何时不用：怀疑的是定价层面的价格歧视用「算法定价公平性审计」；要测 AI 助手回复的安全边界用「负责任 AI 红队测试」。安全边界：结论属内部合规文档，须按透明度义务准备；日志含用户属性，须按 GDPR 最小化与匿名化。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌向欧洲市场扩张时推荐系统对德国vs法国用户存在系统性差异可能违反EU AI Act——因果公平性审计框架检测算法偏见并生成合规文档，避免最高30M美元罚款同时提升欧洲市场CVR5-10%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02736-p2s-ai-algorithmic-bias-audit-764132a1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ai-algorithmic-bias-audit/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ai-algorithmic-bias-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e3e3f1206ff8ce1ff7d51d6c70d595820322c773aa1d9508af945cc3cb9d17c9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

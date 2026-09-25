@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-border-logistics-routing",
+  "中文名称": "跨境物流路径优化）",
+  "一句话作用": "触发词：跨境路径优化、多式联运、空运还是海运、头程补货方式、时效成本风险。何时不用：要排柜内三维摆放用「装箱优化」类技能，要预测销量决定备多少货用「需求预测」「补货模拟」；本技能只比运输路径。安全边界：路径方案涉及报关与承运资质，最终选择须人工确认，模型不直接订舱或签运输合同。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要旺季（Q4）缺货成本 $5000/天→空运；淡季持有成本低→海运时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11356-p2s-cross-border-logistics-routing-eeef822b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-cross-border-logistics-routing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-cross-border-logistics-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "395d6d015933a03c841e42b5f5d2db1cc34ce4bd8f3d16918197f24638b3c95f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

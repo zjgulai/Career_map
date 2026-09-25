@@ -1,0 +1,22 @@
+{
+  "英文名称": "cross-border-selection",
+  "中文名称": "待补：cross-border-selection",
+  "一句话作用": "- Cross-border e-commerce product selection workflow - Scrape product data from platforms like Amazon and save as local files. Use cases: (1) User requests Amazon product data scraping (2) User requests product selectio…",
+  "关键输入": "Issue Solution ------- ---------- Invalid image link Use curl HEAD request to verify Only scraping from listing pages ❗Must navigate to detail page https://www.amazon.com/dp/{ASIN} Missing rating/sales/selling points Th…",
+  "关键输出": "6. ✅ Record count = Sum of (SKU count per product) 7. ✅ Each SKU has an independent price 8. ✅ All required fields have values (no empty values)",
+  "最新更新时间": "2026-09-21T02:31:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Issue Solution ------- ---------- Invalid image link Use curl HEAD request to verify Only scraping from listing pages ❗Must navigate to detail page https://www.amazon.com/dp/{ASIN} Missing rating/sales/selling points Th…时，用它产出或更新：6. ✅ Record count = Sum of…",
+  "skill_id": "12710-cross-border-selection-64696984",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Sanbao/repository-snapshot/packages/capabilities/dsh-overseas-skills/backup/pre-81/cross-border-selection/SKILL.md",
+  "relative_path": "lute/project/Sanbao/repository-snapshot/packages/capabilities/dsh-overseas-skills/backup/pre-81/cross-border-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3e2331939758140d86adccaffce060498cf4c410533122af06afbc1eccb07e9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

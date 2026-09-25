@@ -1,0 +1,22 @@
+{
+  "英文名称": "link-in-bio",
+  "中文名称": "待补：link-in-bio",
+  "一句话作用": "Build personalized link-in-bio / link aggregation pages (Linktree-style) for creators and personal brands from a real avatar, a handful of links, and the creator's own visual identity. Use when the site-builder classifi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build personalized link-in-bio / link aggregation pages (Linktree-style) for creators and personal brands from a real avatar, a handful of links, and the creator's own visual identity. Use when the site-builder classifi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00137-link-in-bio-81b3138a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/link-in-bio/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/link-in-bio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d969e8767c6d7e3b72d08f25aa1f74c832ec9ab6af317b4e3ac2553f254bdc16",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causalflow-agent-failure-repair",
+  "中文名称": "因果调试：失败轨迹 最小反事实修复",
+  "一句话作用": "触发词：因果调试、失败修复、最小反事实、公式纠错、链路整改。何时不用：错误原因已明确、只需改一行配置时不必上因果分析；本技能面向原因不明、需要生成最小修复方案的情形。安全边界：生成的修复补丁须经人工评审后上线，本技能只产出修复建议，不直接改生产代码。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运维工程师面临Agent链路故障定位慢——CausalFlow将修复时长3小时压到25分钟，年化省16万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02882-p2s-causalflow-agent-failure-repair-71dbff55",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causalflow-agent-failure-repair/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causalflow-agent-failure-repair/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f402782585c12db16d70855f9e128d5d03d1c48a1b6502760c66389b606628c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

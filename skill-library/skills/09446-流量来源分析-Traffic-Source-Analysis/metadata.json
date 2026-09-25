@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-traffic-source-analysis",
+  "中文名称": "流量来源分析 (Traffic Source Analysis)",
+  "一句话作用": "跨境电商流量来源分析技能，用于分析流量渠道分类、质量评估和转化分析。 触发条件: 1. 用户询问\"流量从哪里来\" 2. 需要分析流量质量时 3. 进行流量转化优化时 4. 评估各来源渠道效果时 5. 流量异常波动分析时 输出内容: - 流量来源分类统计 - 流量质量评估报告 - 转化漏斗分析 - 流量优化建议",
+  "关键输入": "数据类型 必需字段 说明 --------- --------- ------ 访问日志 session id, source, medium 会话和来源标识 用户数据 user id, is new, device 用户属性 行为数据 pv, duration, bounce 访问行为 转化数据 conversions, revenue 转化结果",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T19:26:31+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商流量来源分析技能，用于分析流量渠道分类、质量评估和转化分析。 触发条件: 1. 用户询问\"流量从哪里来\" 2. 需要分析流量质量时 3. 进行流量转化优化时 4. 评估各来源渠道效果时 5. 流量异常波动分析时 输出内容: - 流量来源分类统计 - 流量质量评估报告 - 转化漏斗分析 - 流量优化建议时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09446-cbec-traffic-source-analysis-e222a6ac",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/16-channel-analysis/traffic-source-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/16-channel-analysis/traffic-source-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cb742a73e9a7244faabf34096f4a31a79afefc18cb2bd6f233012c84b77cc1cc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

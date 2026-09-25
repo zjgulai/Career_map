@@ -1,0 +1,22 @@
+{
+  "英文名称": "canva-bulk-create",
+  "中文名称": "待补：canva-bulk-create",
+  "一句话作用": "Bulk-create Canva designs from tabular data using a brand template with autofill fields, producing one design per row. Use when users say \"bulk create designs from this CSV\", \"generate one design per row\", \"create a des…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After all rows are processed, summarise: - Total rows attempted - Successes (with links) - Failures (with row number and reason) Offer to save a summary CSV with columns: row, status, design url, error.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Bulk-create Canva designs from tabular data using a brand template with autofill fields, producing one design per row. Use when users say \"bulk create designs from this CSV\", \"generate one design per row\", \"create a des…时，用它产出或更新：After all rows are process…",
+  "skill_id": "00757-canva-bulk-create-d970506f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/canva/skills/canva-bulk-create/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/canva/skills/canva-bulk-create/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65deda62b60ce9e748c7a90b3e41e91dadc38f6deee3ba4aca799fd7502eb8b4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

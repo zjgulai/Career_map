@@ -1,0 +1,22 @@
+{
+  "英文名称": "zarr-python",
+  "中文名称": "待补：zarr-python",
+  "一句话作用": "Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "data = z[0:100, 0:100] row = z[5, :]",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.时，用它产出或更新：data = z[0:100, 0:100] row = z[5, :]",
+  "skill_id": "05827-zarr-python-83cd8537",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/zarr-python/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/zarr-python/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8a24e2e6b5eb5f027042c222166e993070a8c561b4f3c534059e0bdac026e297",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

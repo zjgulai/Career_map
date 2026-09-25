@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-infant-formula-fda-compliance-checker",
+  "中文名称": "婴儿配方奶粉FDA合规检查器 自动验证21 CFR Part 107标签合规性",
+  "一句话作用": "触发词：婴儿配方奶粉、21 CFR Part 107、营养标签、禁用声称、营养素范围、上架前扫描。何时不用：要验婴儿辅食过敏原声明时用「婴儿食品过敏原标签验证器」，要判加州 Prop65 警告时用「加州 65 号提案标签合规」。安全边界：只做标签与声称比对，不出具检测报告，也不代替 FDA 申报。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规负责人面临\"婴儿配方奶粉上架美国前无法确认21 CFR Part 107标签合规\"——自动化合规扫描将人工审查从2天→15分钟，单次拦截Critical违规避免召回损失约500-2000万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03239-p2s-infant-formula-fda-compliance-checker-97bbd825",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-infant-formula-fda-compliance-checker/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-infant-formula-fda-compliance-checker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2ff6bc977fb01cdc6c768dacf4833f5616ed539ba12011863e36a0c954ad9899",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

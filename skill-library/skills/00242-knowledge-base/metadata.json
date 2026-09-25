@@ -1,0 +1,22 @@
+{
+  "英文名称": "knowledge-base",
+  "中文名称": "待补：knowledge-base",
+  "一句话作用": "Handles Accio Work Knowledge Base file and kit references and semantic search. Reads and searches KB content via the platform-provided MCP tools (get kb file contents / search kb file contents). Trigger — evaluate in or…",
+  "关键输入": "- When multiple file IDs are resolved, call get kb file contents once per file — the tool accepts a single fileId per call. - When citing parsed content, attribute it to the source file (and chapter title when relevant) so the user can verify. - If a single m…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T16:01:10+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Evaluate triggers in order , stop at first match:时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00242-knowledge-base-9fea6140",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/knowledge-base-plugin/skills/knowledge-base/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/knowledge-base-plugin/skills/knowledge-base/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "29a0a7f697885150e9c844f6dca8e3aeecff40a69ddbcd1479e80c8ae7749d87",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

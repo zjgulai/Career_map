@@ -1,0 +1,22 @@
+{
+  "英文名称": "vibe-code-auditor",
+  "中文名称": "待补：vibe-code-auditor",
+  "一句话作用": "Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.",
+  "关键输入": "Before auditing, if not already provided, ask: 1. Code or files : Share the source code to audit. Accepted: single file, multiple files, directory listing, or snippet. 2. Context (optional) : Brief description of what the system does, its intended scale, depl…",
+  "关键输出": "Produce the audit report using exactly this structure. Do not omit sections. If a section has no findings, write \"None identified.\" ---",
+  "最新更新时间": "2026-09-19T04:11:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Code was generated or heavily assisted by AI tools - The system evolved without a deliberate architecture - A prototype needs to be productionized - Code works but feels fragile or inconsistent - You suspect hidden te…时，用它产出或更新：Produce the audit report u…",
+  "skill_id": "05161-vibe-code-auditor-aacec0a9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/vibe-code-auditor/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/vibe-code-auditor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "78139c215eabc9c06181beac1bd61f2a9f2ee1c1ca31a3dc98cf012d6e3422c9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

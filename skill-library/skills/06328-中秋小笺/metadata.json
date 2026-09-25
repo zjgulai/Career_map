@@ -1,0 +1,22 @@
+{
+  "英文名称": "mid-autumn-chat-letter",
+  "中文名称": "中秋小笺）",
+  "一句话作用": "mid-autumn-chat-letter（中秋小笺）：基于已确认的深蓝金色中秋主题“年度对话报告”竖版海报，从飞书「单聊」或「群聊」记录一键生成同款海报。自动拉取近 365 天消息、统计 8 类数据（消息数/聊天日/最深夜/最早/图片/文档/关键词/最爱表情），私聊现写两人专属封号与中秋祝福，群聊则讲这群人这一年共同聊了什么、谁最活跃，并写面向全体的煽情祝愿；按文字长度自适应字号与画布高度，二维码指向固定链接。也用于复用该海报风格…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "0. 对象解析 ：用户已 @ 人 / @ 群、或给了 open id·chat id·会话链接时，已直接判定私聊 / 群聊并取到唯一对象、直接跑命令， 没有再追问“私聊还是群聊”、也没有让用户重新输入姓名 ；@ 本人已拦截；仅在无 @ 且无 id 时才追问、且一轮问清。 0b. 安全命令 ：全程未执行 rm -rf（含 rm -rf /tmp/skill install）、递归强制删除或 sudo；技能直接从文件夹运行、未跑安装或清空目录脚本；临时文件只用 Python tempfile、且只清理自己创建的目录，…",
+  "最新更新时间": "2026-09-22T23:51:31+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要mid-autumn-chat-letter（中秋小笺）：基于已确认的深蓝金色中秋主题“年度对话报告”竖版海报，从飞书「单聊」或「群聊」记录一键生成同款海报。自动拉取近 365 天消息、统计 8 类数据（消息数/聊天日/最深夜/最早/图片/文档/关键词/最爱表情），私聊现写两人专属封号与中秋祝福，群聊则讲这群人这一年共同聊了什么、谁最活跃，并写面向全体的煽情祝愿；按文字长度自适应字号与画布高度，二维码指向固定链接。也用于复用该海报风格…时，用它产出或更新：0. 对象解析 ：用户已 @ 人 / @ 群、或给了…",
+  "skill_id": "06328-mid-autumn-chat-letter-8b737691",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/mid-autumn-chat-letter/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/mid-autumn-chat-letter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2059dacc0abbad16a5272b3762b535170b359d1eefea618333b8dd9d1b56eb49",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "flowai-live-dashboard-template",
+  "中文名称": "待补：flowai-live-dashboard-template",
+  "一句话作用": "Team-management dashboard skill in the FlowAI aesthetic — three tabs (Team Members, Team Details, Activity Log), KPI stat row, member table, role distribution bar chart, online presence and activity sparklines, and a to…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Emit one short orientation sentence, then the artifact: The artifact must render correctly when opened directly from disk with no build step and no network access.",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Team-management dashboard skill in the FlowAI aesthetic — three tabs (Team Members, Team Details, Activity Log), KPI stat row, member table, role distribution bar chart, online presence and activity sparklines, and a to…时，用它产出或更新：Emit one short orientation…",
+  "skill_id": "00115-flowai-live-dashboard-template-b64dcdff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/flowai-live-dashboard-template/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/flowai-live-dashboard-template/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d63fbb97ee558961a127ed4638111eb7ee61952de1ce4ad64cf8842db54acf52",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

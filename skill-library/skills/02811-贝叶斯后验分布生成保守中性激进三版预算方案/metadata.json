@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bayesian-mmm-action-plan-generator",
+  "中文名称": "贝叶斯后验分布生成保守中性激进三版预算方案",
+  "一句话作用": "触发词：贝叶斯MMM、预算情景方案、保守中性激进、后验不确定性、季度预算规划。何时不用：没有MMM后验输出或后验样本量不足时，先做识别与后验估计；只要单一最优分配、不需要多情景对比时，走普通预算分配类技能。安全边界：仅处理聚合ROI数据，不生成对外广告创意，三套方案须经CMO审阅后才可下发。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要CMO面临\"季度预算规划耗时3天且缺乏不确定性量化\"——贝叶斯后验生成保守/中性/激进三版方案，决策时间压缩至2小时，年化人效节省$80,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02811-p2s-bayesian-mmm-action-plan-generator-a321894c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-bayesian-mmm-action-plan-generator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-bayesian-mmm-action-plan-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7abe11c19ca6ffd66ca42b3d75f97a3f50e37df47fea6e300aac4abd055e7344",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

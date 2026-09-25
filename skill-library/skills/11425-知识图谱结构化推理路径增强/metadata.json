@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-rag-structured-knowledge-reasoning",
+  "中文名称": "知识图谱结构化推理路径增强",
+  "一句话作用": "触发词：多跳推理、路径增强、根因追溯、可解释推理。何时不用：图谱数据不完整时推理链路易断裂，需先做图谱审计；单文档检索问答不需要路径推理。安全边界：推理路径需可追溯，涉用户数据的图谱需满足数据溯源与隐私要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要分析师面临供应链多跳推理准确率低——KG-RAG图谱路径推理将多跳QA F1+22%，推理链可视化+可解释，年化决策质量提升38万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11425-p2s-kg-rag-structured-knowledge-reasoning-91a0720d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-kg-rag-structured-knowledge-reasoning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-kg-rag-structured-knowledge-reasoning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0581a6a973a7e11b45c97ec6544076e399105c26577af616ee1cc5cb81beb3c6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

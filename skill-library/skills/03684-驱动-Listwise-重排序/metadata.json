@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rankgpt-listwise-reranking",
+  "中文名称": "驱动 Listwise 重排序",
+  "一句话作用": "触发词：列表重排、整表排序、候选排序、引用质量、跨域查询。何时不用：候选很少或只需逐条打分时用 Cross-Encoder 精排；只做召回不做排序时用普通检索。安全边界：代码模板内含明文 API Key，禁止复制进仓库或生产环境，须改为环境变量或凭证托管；调用外部模型前必须脱敏业务数值。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"复杂跨域查询第一阶段检索排序混乱最相关Skill排在第20位\"——RankGPT Listwise重排序将Top-5精准率从61%提升至84%，Agent报告引用质量从6.2→8.1分时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03684-p2s-rankgpt-listwise-reranking-3af4394e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-rankgpt-listwise-reranking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-rankgpt-listwise-reranking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7bb2c2ca0ac880a91d897907620fc0bbf0f7b8ba1495833b97dcb0f499c11fd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

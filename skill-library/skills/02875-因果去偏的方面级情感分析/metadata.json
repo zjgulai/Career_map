@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-sentiment-attribution",
+  "中文名称": "因果去偏的方面级情感分析",
+  "一句话作用": "触发词：情感因果去偏、方面级情感、差评归因、标注偏置、TDE 反事实。何时不用：只需要粗粒度正负情感或摘要时用「AGRS 属性引导评论摘要」；要比较竞品之间的评论主题差异用「Competitive VOC Benchmarking」。安全边界：偏置先验必须来自验证集统计而非人工假设，结论不得单独作为降价等定价决策依据，不得据评论反向识别个人。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴产品运营面临差评方向归因失真困境——DINER 多变量因果推断（Backdoor Adjustment + TDE 反事实）消除价格/物流等方面词的标注偏置，将方面情感归因准确率提升约30%，避免1-3次错误产品迭代决策，年化规避成本50-200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02875-p2s-causal-sentiment-attribution-a8d82710",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-sentiment-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-sentiment-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b1a58674acfd57132e38573a59f6dcbdd391d68720e385aa1507c91db110927d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

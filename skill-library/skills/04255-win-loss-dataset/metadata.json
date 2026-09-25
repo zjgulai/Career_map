@@ -1,0 +1,22 @@
+{
+  "英文名称": "win-loss-dataset",
+  "中文名称": "待补：win-loss-dataset",
+  "一句话作用": "Structure for capturing qualitative + quantitative win/loss insights 触发词：赢单输单、赢输分析、输单复盘、成交丢单数据、销售归因。",
+  "关键输入": "- Running structured win/loss programs. - Aligning qualitative interviews with CRM metrics. - Sharing insights across product, sales, pricing, and marketing teams.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:05:28+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Running structured win/loss programs. - Aligning qualitative interviews with CRM metrics. - Sharing insights across product, sales, pricing, and marketing teams.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04255-win-loss-dataset-3c622217",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/win-loss-dataset/SKILL.md",
+  "relative_path": "lute/.dsh/skills/win-loss-dataset/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a2cbf2192d42cce7f8e21057a62ec663f0a0f190c40ebbf92dbb18778daa8b6e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

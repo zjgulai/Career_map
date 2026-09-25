@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-drl-inventory-optimization",
+  "中文名称": "深度强化学习库存优化：端到端自适应补货决策",
+  "一句话作用": "触发词：深度强化学习、多SKU补货、联合补货、配套缺货、库存成本优化。何时不用：只有单 SKU 或历史数据不足以训练时用「安全库存与补货策略」这类解析公式技能；要处理多仓调拨而非同仓多 SKU 时走「调拨清货建议」。安全边界：策略上线须对高风险补货动作保留人工审核，不得绕过平台的库存与定价规则。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要吸奶器储奶袋消毒器三个SKU各自独立启发式补货，结果吸奶器爆款时储奶袋配套缺货消毒器积压——深度强化学习端到端学习多SKU协同补货策略，总库存成本降低10-20%配套缺货率降低40-60%年化15-45万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11376-p2s-drl-inventory-optimization-2aae598c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-drl-inventory-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-drl-inventory-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "78355589f897ef91828db5e44e709c5bac59849b6daa7f0f67dc9455bb3c1753",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

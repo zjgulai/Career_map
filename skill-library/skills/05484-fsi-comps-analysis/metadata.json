@@ -1,0 +1,22 @@
+{
+  "英文名称": "fsi-comps-analysis",
+  "中文名称": "待补：fsi-comps-analysis",
+  "一句话作用": "Build institutional-grade comparable company analyses with operating metrics, valuation multiples, and statistical benchmarking in Excel/spreadsheet format. Perfect for: - Public company valuation (M&A, investment analy…",
+  "关键输入": "1. Define the peer group - Companies must be truly comparable (similar business model, scale, geography) 2. Choose the right period - LTM smooths seasonality; quarterly shows trends 3. Standardize units upfront - Millions vs. billions decision affects everyth…",
+  "关键输出": "Before delivering a comp analysis, verify: - [ ] All companies are truly comparable - [ ] Data is from consistent time periods - [ ] Units are clearly labeled (millions/billions) - [ ] Formulas reference cells, not hardcoded values - [ ] All hard-coded input…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Golden Rule: Every ratio should be [Something] / [Revenue] or [Something] / [Something from this sheet]. Keep it simple.时，用它产出或更新：Before delivering a comp analysis, verify: - [ ] All companies are truly comparable - [ ] Data is from consistent time periods…",
+  "skill_id": "05484-fsi-comps-analysis-6a2a88a8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/comps-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/comps-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cbb0a9038e652a7fe6822cb744a020f51276127faef101980c9f944cd2957f9a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

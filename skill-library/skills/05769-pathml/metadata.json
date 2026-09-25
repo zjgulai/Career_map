@@ -1,0 +1,22 @@
+{
+  "英文名称": "pathml",
+  "中文名称": "待补：pathml",
+  "一句话作用": "Full-featured computational pathology toolkit. Use for advanced WSI analysis including multiplexed immunofluorescence (CODEX, Vectra), nucleus segmentation, tissue graph construction, and ML model training on pathology…",
+  "关键输入": "Apply this skill for: - Loading and processing whole-slide images (WSI) in various proprietary formats - Preprocessing H&E stained tissue images with stain normalization - Nucleus detection, segmentation, and classifica…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Apply this skill for: - Loading and processing whole-slide images (WSI) in various proprietary formats - Preprocessing H&E stained tissue images with stain normalization - Nucleus detection, segmentation, and classifica…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05769-pathml-09777698",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pathml/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pathml/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c565fcb73a28b3618f30c5d130ab8c110f9bf5834131c537d8e53a709ed37674",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

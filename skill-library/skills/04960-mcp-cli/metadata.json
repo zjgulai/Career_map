@@ -1,0 +1,22 @@
+{
+  "英文名称": "mcp-cli",
+  "中文名称": "待补：mcp-cli",
+  "一句话作用": "Use MCP servers on-demand via the mcp CLI tool - discover tools, resources, and prompts without polluting context with pre-loaded MCP integrations",
+  "关键输入": "The mcp CLI must be installed at ~/.local/bin/mcp. If not present:",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:50:16+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when you need to: - Explore an MCP server's capabilities before deciding to use it - Make one-off calls to an MCP server without permanent integration - Access MCP functionality without polluting the cont…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04960-mcp-cli-89a13178",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/mcp-cli/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/mcp-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f9cd31599575a0b4ada2481ffa817e8a8025759c32da49bacf2d8e2a6ed90efe",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

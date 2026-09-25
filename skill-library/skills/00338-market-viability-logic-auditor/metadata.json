@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-viability-logic-auditor",
+  "中文名称": "待补：market-viability-logic-auditor",
+  "一句话作用": "Evaluates cross-platform product/market feasibility using a risk-first framework — screens for exclusion filters, validates market thresholds, and audits profitability. Use when making go/no-go decisions on product idea…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Apply systematic criteria to validate product opportunities. Essential Criteria: - Monthly sales per seller: 100-300 units - Selling price: $20 minimum - Competition level: Low to medium - Market trend: Stable or growing Exclusion Criteria — auto-reject if an…",
+  "最新更新时间": "2026-09-21T17:35:30+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Evaluates cross-platform product/market feasibility using a risk-first framework — screens for exclusion filters, validates market thresholds, and audits profitability. Use when making go/no-go decisions on product idea…时，用它产出或更新：Apply systematic criteria…",
+  "skill_id": "00338-market-viability-logic-auditor-b7a6e905",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/market-viability-logic-auditor/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/market-viability-logic-auditor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "405aeb43238a2a27d66eac2e249d027dd075075cc5eda958ff7acbe69e58d1ca",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

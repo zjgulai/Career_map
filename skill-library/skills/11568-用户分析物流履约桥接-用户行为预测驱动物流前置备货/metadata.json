@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-user-analytics-logistics-bridge",
+  "中文名称": "用户分析物流履约桥接 用户行为预测驱动物流前置备货",
+  "一句话作用": "触发词：用户行为桥接、前置备货、月龄意向、城市聚合、断货率。何时不用：只按历史销量补货时用常规时序预测；要给月龄用户做推荐时用「婴儿月龄节律」。安全边界：宝宝月龄数据仅用于物流预测，不得用于个性化广告推送；需做数据脱敏与用途声明，避免触及儿童数据保护条款。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要物流团队面临\"辅食机需求激增时仓库只提前3天补货导致618断货12%\"——用户行为意向预测提前14天触发前置备货，断货率降至3%，年化节省约100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11568-p2s-user-analytics-logistics-bridge-10b8280e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-user-analytics-logistics-bridge/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-user-analytics-logistics-bridge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cf8f735bd569a1c32450ade94216b2673d31121210d21c005711a324a25fdc21",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

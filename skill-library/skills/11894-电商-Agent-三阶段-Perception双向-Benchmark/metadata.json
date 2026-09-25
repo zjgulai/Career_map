@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-stage-evaluation",
+  "中文名称": "电商 Agent 三阶段(Perception双向 Benchmark",
+  "一句话作用": "触发词：阶段评估、感知规划执行、能力体检、双语标注、Benchmark、模型选型。何时不用：要看生产运行链路与 Token 成本用「Agent可观测性追踪」；要做生产可靠性三维评估用「Agent可靠性评估」。安全边界：评估集标注与参考答案必须人工复核，不得用被测模型自身的输出充当标准答案；评测样本涉及真实用户会话时须做脱敏。",
+  "关键输入": "输入 ：跨境业务历史会话（每个任务 200-500 条样本）与双语人工标注（意图标签、attitude 标签、scenario route 标签、solution 选项、reference answer），并用大模型做标注一致性检查。 输出 ：分阶段得分与通过判定、任务级评估明细与能力短板定位报告；供产品与运营决定优化方向，并支持不同模型选型对比。",
+  "关键输出": "输入 ：跨境业务历史会话（每个任务 200-500 条样本）与双语人工标注（意图标签、attitude 标签、scenario route 标签、solution 选项、reference answer），并用大模型做标注一致性检查。 输出 ：分阶段得分与通过判定、任务级评估明细与能力短板定位报告；供产品与运营决定优化方向，并支持不同模型选型对比。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：阶段评估、感知规划执行、能力体检、双语标注、Benchmark、模型选型。何时不用：要看生产运行链路与 Token 成本用「Agent可观测性追踪」；要做生产可靠性三维评估用「Agent可靠性评估」。安全边界：评估集标注与参考答案必须人工复核，不得用被测模型自身的输出充当标准答案；评测样本涉及真实用户会话时须做脱敏。时，用它产出或更新：输入 ：跨境业务历史会话（每个任务 200-500 条样本）与双语人工标注（意图标签、attitude 标签、scenario route 标签、solution 选…",
+  "skill_id": "11894-p2s-agent-stage-evaluation-d28acca2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-stage-evaluation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-stage-evaluation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f0e52ed66216ccebf46382e696aa6a46a74c8e9cd9b987d3a418a39b7d29c801",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

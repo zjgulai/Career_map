@@ -1,0 +1,22 @@
+{
+  "英文名称": "render-deploy",
+  "中文名称": "待补：render-deploy",
+  "一句话作用": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud…",
+  "关键输入": "- When sandboxing blocks the deployment network calls, rerun with sandbox permissions=require escalated. - The deployment might take a few minutes. Use appropriate timeout values.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Activate this skill when users want to: - Deploy an application to Render - Create a render.yaml Blueprint file - Set up Render deployment for their project - Host or publish their application on Render's cloud platform…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01630-render-deploy-677d0829",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/render-deploy/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/render-deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c17c75adeb1834ed5cee1e440a651ae476c4101cd63762fcd9a58eada917552d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

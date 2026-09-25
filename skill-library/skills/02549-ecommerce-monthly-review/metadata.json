@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-monthly-review",
+  "中文名称": "待补：ecommerce-monthly-review",
+  "一句话作用": "当用户需要做月度电商经营复盘、评估月度KPI完成情况、对比本月与上月的环比数据，或准备月度运营会议材料时使用。触发词：电商月度复盘、月度复盘、月报分析、KPI诊断、月度总结、环比分析、月度经营报告、月度KPI、月度销售分析、月度运营会议。何时不用：数据时间跨度少于7天或超过90天、仅需简单统计无需深度分析、非电商订单数据、实时数据监控、线下销售、缺不可推定的关键材料（账号/文件/数值）才追问；可依行业惯例或品牌既定风格推定的，标注假设…",
+  "关键输入": "开始分析前，先检查数据完整性 ： 1. 无数据或数据不足 ：用户未提供订单CSV或完整数据时， 先追问澄清 ，列出需要补充的材料（30天订单数据、上月对比数据、月度目标），不要凭空编造数据或输出空报告。 2. 数据时间跨度异常 ：少于7天引导到日报（ecom-daily-report），超过90天引导到季度战略（ecom-quarterly-strategy），不要强行做月度复盘。 3. CSV格式错误 ：列名缺失（无 order date / order amount）、日期格式混乱、金额含非数值字符 → 提示…",
+  "关键输出": "月度复盘报告结构 :",
+  "最新更新时间": "2026-09-13T03:00:37+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 需要进行月度电商经营复盘 - 分析月度销售趋势和增长驱动因素 - 评估KPI完成情况（销售额、订单量、客单价等） - 对比本月与上月数据（环比分析） - 诊断未达标指标的原因 - 准备月度运营会议材料时，用它产出或更新：月度复盘报告结构 :",
+  "skill_id": "02549-ecommerce-monthly-review-4383e1dd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/ecommerce-monthly-review/SKILL.md",
+  "relative_path": "lute/.dsh/skills/ecommerce-monthly-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "37476b8a0f4b81fc228e21f0d5314793d376e1cbaca84a92164cdccccea58aa4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

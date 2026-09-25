@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-business-intelligence-reasoning",
+  "中文名称": "商业智能推理：从数据到决策的 CoT 分析",
+  "一句话作用": "触发词：经营复盘、CoT 推理、异常解释、周报分析、指标归因。何时不用：只要自动生成报表文本用「LLM 电商报表自动化」；要做目标达成与差异分解用「生意规模三维 KPI 监控」。安全边界：指标数字必须由代码计算并校验后传入，LLM 不得自行生成或推算数字。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要运营每周一分析多维度数据准备汇报需要3-4小时，异常出现时根因分析需1-2天——LLM Chain-of-Thought推理将数据→假设→验证→建议自动化，周报分析15分钟完成年化节省人力20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12472-p2s-llm-business-intelligence-reasoning-79653c3a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-business-intelligence-reasoning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-business-intelligence-reasoning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2c401c7caef6f9cba86aec762f0ed84e507d124f0490f424b746e43d003086bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

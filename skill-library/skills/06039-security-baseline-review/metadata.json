@@ -1,0 +1,22 @@
+{
+  "英文名称": "security-baseline-review",
+  "中文名称": "待补：security-baseline-review",
+  "一句话作用": "Review public repository security hygiene at a baseline maintainer level. Use when the user asks for secret-leak checks, SECURITY.md review, dependency hygiene, GitHub settings checklist, CI safety, or public release se…",
+  "关键输入": "- .gitignore, .env.example, config samples, workflows, SECURITY.md, README, and contribution docs. - Dependency manifests, lockfiles, and update automation config. - Repository settings checklist when live GitHub access is authorized.",
+  "关键输出": "Return: 1. Baseline verdict 2. Critical findings 3. High-priority findings 4. Medium or policy findings 5. Settings to verify live 6. Recommended next action",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- The user asks for a public repo security readiness check. - Secret hygiene, CI permissions, dependency policy, or SECURITY.md needs review. - A repository is about to be published.时，用它产出或更新：Return: 1. Baseline verdict 2. Critical findings 3. High-priorit…",
+  "skill_id": "06039-security-baseline-review-58daa4b6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/security-baseline-review/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/security-baseline-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2370bdab1f68dff468a0e894d0029920fabd6eec2b9e8660656be6dbf1df1f1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

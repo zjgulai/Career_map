@@ -1,0 +1,22 @@
+{
+  "英文名称": "manage-server-data/adopt-rtk-query",
+  "中文名称": "待补：manage-server-data/adopt-rtk-query",
+  "一句话作用": "Use this when adding RTK Query as the default server-data and document-cache layer. Covers createApi, store integration, hooks, invalidation behavior, optimistic updates, and deciding when RTK Query is the right cache m…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Treat tags as the normal invalidation path before reaching for manual cache patching.",
+  "最新更新时间": "2026-06-30T18:40:22+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this when adding RTK Query as the default server-data and document-cache layer. Covers createApi, store integration, hooks, invalidation behavior, optimistic updates, and deciding when RTK Query is the right cache m…时，用它产出或更新：Treat tags as the normal i…",
+  "skill_id": "10192-manage-server-data-adopt-rtk-query-ac337dc5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/ana_caijing/report-site/node_modules/@reduxjs/toolkit/skills/manage-server-data/adopt-rtk-query/SKILL.md",
+  "relative_path": "lute/project/Agent/product/ana_caijing/report-site/node_modules/@reduxjs/toolkit/skills/manage-server-data/adopt-rtk-query/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "31559f085f528e474d7dceaa19a843299e78f494a5060f2d14882147632a88c5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

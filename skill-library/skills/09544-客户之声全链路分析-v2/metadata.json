@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-feedback-analysis",
+  "中文名称": "客户之声全链路分析 (v2",
+  "一句话作用": "V0C (Voice of Customer) Agent for 母婴跨境电商. 全量升级版 — 合并 product-review-analysis 能力。 覆盖跨平台评论聚合、声量追踪、情感温度、竞品交叉信号、安全关键词告警、追评分析、VOC→Content 桥接输出。 5步LLM工作流：采集→聚类→评分→信号提取→动作建议。 输入 Amazon/Shopify/TikTok/Etsy 评论原始数据，输出结构化VOC报告+可触发…",
+  "关键输入": "输入格式 : 输出格式 :",
+  "关键输出": "输入格式 : 输出格式 :",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要V0C (Voice of Customer) Agent for 母婴跨境电商. 全量升级版 — 合并 product-review-analysis 能力。 覆盖跨平台评论聚合、声量追踪、情感温度、竞品交叉信号、安全关键词告警、追评分析、VOC→Content 桥接输出。 5步LLM工作流：采集→聚类→评分→信号提取→动作建议。 输入 Amazon/Shopify/TikTok/Etsy 评论原始数据，输出结构化VOC报告+可触发…时，用它产出或更新：输入格式 : 输出格式 :",
+  "skill_id": "09544-customer-feedback-analysis-852acd2f",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/customer-feedback-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/customer-feedback-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d71c42b9e5e23f416fefe9090c8b37dee8ecac3fe28d4b4f6d0339d91ac3587",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

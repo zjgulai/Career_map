@@ -1,0 +1,22 @@
+{
+  "英文名称": "apple-reminders",
+  "中文名称": "待补：apple-reminders",
+  "一句话作用": "Manage Apple Reminders via the remindctl CLI on macOS (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Manage Apple Reminders via the remindctl CLI on macOS (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05921-apple-reminders-e856fcee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/apple-reminders/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/apple-reminders/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d68282373c405e3ee14f36a300d9ce1c296227f8a68af484e2957a7be77afdfc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

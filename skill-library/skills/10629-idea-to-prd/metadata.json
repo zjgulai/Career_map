@@ -1,0 +1,22 @@
+{
+  "英文名称": "idea-to-prd",
+  "中文名称": "待补：idea-to-prd",
+  "一句话作用": "一句话需求生成完整产品需求文档（PRD），包含用户故事、功能清单、MoSCoW优先级排序和验收标准。当用户提及编写PRD、产品需求文档、需求分析，或使用如“帮我把这个想法写成PRD”、“这个需求帮我细化一下”、“帮我拆解功能点”、“写用户故事”、“排优先级”、“定验收标准”等具体请求时触发。",
+  "关键输入": "- [ ] [待确认的问题 1] - [ ] [待确认的问题 2]",
+  "关键输出": "目标 ：为每个 Must Have 和 Should Have 功能编写可测试的验收标准。 操作步骤 ： 1. 使用 Given-When-Then 格式 ： 2. 验收标准检查清单 （每条 AC 必须满足）： - [ ] 是否只描述行为，不指定实现方式？ - [ ] 是否可被独立验证（不依赖其他 AC）？ - [ ] 是否覆盖了正常路径和至少一个异常路径？ - [ ] 边界条件是否明确（数字范围、字符长度、空值处理）？ - [ ] 是否有明确的预期结果（不是\"正常工作\"这种模糊描述）？ 3. 覆盖率要求 ：",
+  "最新更新时间": "2026-09-14T00:06:20+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- [ ] [待确认的问题 1] - [ ] [待确认的问题 2]时，用它产出或更新：目标 ：为每个 Must Have 和 Should Have 功能编写可测试的验收标准。 操作步骤 ： 1. 使用 Given-When-Then 格式 ： 2. 验收标准检查清单 （每条 AC 必须满足）： - [ ] 是否只描述行为，不指定实现方式？ - [ ] 是否可被独立验证（不依赖其他 AC）？ - [ ] 是否覆盖了正常路径和至少一个异常路径？ - [ ] 边界条件是否明确（数字范围、字符长度、空值处理）？…",
+  "skill_id": "10629-idea-to-prd-4aac0bb1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/idea-to-prd/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/idea-to-prd/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "347a9f37cacd90e851f85590c7597c050fc96851f8c03aa5f3c2d88646baa2cc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

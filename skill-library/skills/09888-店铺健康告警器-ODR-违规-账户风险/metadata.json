@@ -1,0 +1,22 @@
+{
+  "英文名称": "店铺健康告警器（ODR/违规/账户风险）",
+  "中文名称": "待补：店铺健康告警器（ODR/违规/账户风险）",
+  "一句话作用": "当店铺健康分、ODR 或违规项出现波动时，输出告警分级、修复清单和处理时效建议。",
+  "关键输入": "- 店铺健康指标快照 - 违规通知与申诉记录 - 客诉与退款相关数据",
+  "关键输出": "表：店铺 指标项 当前值 风险等级 修复动作 SLA Owner",
+  "最新更新时间": "2026-03-22T01:33:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当店铺健康分、ODR 或违规项出现波动时，输出告警分级、修复清单和处理时效建议。时，用它产出或更新：表：店铺 指标项 当前值 风险等级 修复动作 SLA Owner",
+  "skill_id": "09888-odr-d8d5cd81",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/store-health-alerter/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/store-health-alerter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f601dfe9f01c0d45cdad36fbde71e68ab3add3c859bf8e2c5a58ff22da593507",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-amplicon-microbiome",
+  "中文名称": "待补：ngs-amplicon-microbiome",
+  "一句话作用": "Kick off public 16S, 18S, ITS, COI, or other marker-gene amplicon microbiome workflows using nf-core/ampliseq, QIIME2, DADA2, and Cutadapt.",
+  "关键输入": "Confirm: - marker region: 16S, 18S, ITS, COI, or custom - primer sequences and orientation - paired-end or single-end reads - whether reads should be merged - taxonomy database and version - sample metadata - endpoint: ASV table, taxonomy, diversity, differen…",
+  "关键输出": "The local FASTQ package always writes visualizations/index.html and visualizations/visualization manifest.json. With only FASTQs, this is a read-QC/readiness bundle. If an ASV/feature table is available, pass it to the runner with --asv-table to generate alph…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Kick off public 16S, 18S, ITS, COI, or other marker-gene amplicon microbiome workflows using nf-core/ampliseq, QIIME2, DADA2, and Cutadapt.时，用它产出或更新：The local FASTQ package always writes visualizations/index.html and visualizations/visualization manifest.j…",
+  "skill_id": "00921-ngs-amplicon-microbiome-a701d768",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-amplicon-microbiome/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-amplicon-microbiome/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4e60f815623855ba2fd78ce0cfbb289f5cecb169693c411d6a03702df579d5cc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

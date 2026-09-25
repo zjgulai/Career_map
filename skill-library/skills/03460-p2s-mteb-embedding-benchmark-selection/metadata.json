@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mteb-embedding-benchmark-selection",
+  "中文名称": "待补：p2s-mteb-embedding-benchmark-selection",
+  "一句话作用": "触发词：嵌入模型选型、MTEB、检索评测、多语言检索、成本对比。何时不用：评估长上下文 LLM 的理解边界用「HELMET 长上下文 RAG 评估」；评估分类或预测模型指标用「Model Evaluation Metrics」。安全边界：评测语料须用可授权数据，业务敏感语料不得外传给第三方 API；成本对比须同时给出 API 与本地部署口径。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI工程师面临\"嵌入模型选型拍脑袋导致查询准确率低15%且API成本超标10倍\"——MTEB/MMTEB(ICLR2025)基准评测3天科学选型，避免模型迁移成本50万元，中英双语检索准确率最优时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03460-p2s-mteb-embedding-benchmark-selection-aff03a9b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mteb-embedding-benchmark-selection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mteb-embedding-benchmark-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3cc2f5e45c043c819abffdc1cc1bca7cbfae9bb9d9ba298a184cff2e126e188d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

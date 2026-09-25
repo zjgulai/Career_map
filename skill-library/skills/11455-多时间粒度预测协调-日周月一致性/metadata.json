@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-horizon-forecast-reconciliation",
+  "中文名称": "多时间粒度预测协调（日周月一致性）",
+  "一句话作用": "触发词：多粒度协调、日周月一致、MinT、计划矛盾、粒度和。何时不用：要跨 SKU/仓/市场等实体层级做一致时用「多层时序预测调和」；只做单粒度预测时用基础时序预测。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要计划团队面临\"日度补货计划与月度产能计划相互矛盾导致决策混乱\"——多粒度预测协调消除计划矛盾，年化减少库存误差损失10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11455-p2s-multi-horizon-forecast-reconciliation-80784243",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-multi-horizon-forecast-reconciliation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-multi-horizon-forecast-reconciliation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a6593e593e8a3d925006629a99c1bbd89f539560c866bd88b33be1569166ac06",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dynamic-dag-orchestration",
+  "中文名称": "运行时动态调整工作流拓扑",
+  "一句话作用": "触发词：动态拓扑、置信门控、运行时插节点、转人工审核、备货决策。何时不用：依赖固定、只要稳定执行与失败重试用「DAG 任务解耦规划」或「MAS Orchestrator」；按任务形态选拓扑用「任务自适应拓扑路由」。安全边界：置信度低于阈值必须停机并转人工审核，不得在低置信状态下继续放大备货或产能投入。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要问题：选品流水线包含市场评估 → 深度竞品分析 → 毛利测算 → 合规检查 → 输出报告共 5 个串行节点时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03088-p2s-dynamic-dag-orchestration-c4c88610",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dynamic-dag-orchestration/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dynamic-dag-orchestration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f7632f233f2e3ec097a512efe2241ce5ea1136d3bd35807f088d8d1c133ca99",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-virbo-multilingual-avatar-ugc",
+  "中文名称": "多语言虚拟人UGC批量生产）",
+  "一句话作用": "触发词：多语言 UGC、虚拟人批量、脚本复用、市场本地化、批量出片。何时不用：需要真实用户原创内容（真 UGC 证据）时不用虚拟人；单一市场单条视频无需批量管线。安全边界：虚拟形象须标注 AI 生成；产品描述须人工二审，避免模型幻觉造成虚假宣传。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要月省 $3,000-5,000，年化 35-60 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11866-p2s-virbo-multilingual-avatar-ugc-c5c3739a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-virbo-multilingual-avatar-ugc/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-virbo-multilingual-avatar-ugc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df124b86253ab5e00cad2e996d58b218e7a8954c4f550788eb9128b2ae05d453",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

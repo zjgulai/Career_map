@@ -1,0 +1,22 @@
+{
+  "英文名称": "chatgpt-app-submission",
+  "中文名称": "待补：chatgpt-app-submission",
+  "一句话作用": "Inspect a ChatGPT Apps MCP server codebase and generate chatgpt-app-submission.json with app info suggestions, tool hint justifications, test cases, and negative test cases, then report review-check findings and outputS…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "While inspecting exposed MCP tools, record each tool whose descriptor or source definition omits outputSchema or sets it to null. Missing outputSchema is not a blocker for generating chatgpt-app-submission.json, and the submission JSON does not include output…",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Inspect a ChatGPT Apps MCP server codebase and generate chatgpt-app-submission.json with app info suggestions, tool hint justifications, test cases, and negative test cases, then report review-check findings and outputS…时，用它产出或更新：While inspecting exposed M…",
+  "skill_id": "01475-chatgpt-app-submission-ca143ac4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/openai-developers/1dc19589/skills/chatgpt-app-submission/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/openai-developers/1dc19589/skills/chatgpt-app-submission/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c9b43ca8fe60189e541afa30ea32a86f1bd7ab58a353faac777192a282b796cf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

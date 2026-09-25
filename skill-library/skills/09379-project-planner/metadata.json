@@ -1,0 +1,22 @@
+{
+  "英文名称": "project-planner",
+  "中文名称": "待补：project-planner",
+  "一句话作用": "Breaks down complex projects into actionable tasks with timelines, dependencies, and milestones. Use when: planning projects, creating task breakdowns, defining milestones, estimating timelines, managing dependencies, o…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- What are the major outputs? - What milestones mark progress? - What dependencies exist? - What can be parallelized?",
+  "最新更新时间": "2026-03-26T11:58:43+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Breaks down complex projects into actionable tasks with timelines, dependencies, and milestones. Use when: planning projects, creating task breakdowns, defining milestones, estimating timelines, managing dependencies, o…时，用它产出或更新：- What are the major outpu…",
+  "skill_id": "09379-project-planner-a1970186",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.claude/skills/project-planner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.claude/skills/project-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea1efbc2797ce4b9d5c60d7a31f72c7106b503f2b2e16910bde3ca5c35abb530",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

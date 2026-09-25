@@ -1,0 +1,22 @@
+{
+  "英文名称": "ios-application-dev",
+  "中文名称": "待补：ios-application-dev",
+  "一句话作用": "iOS application development guide covering UIKit, SnapKit, and SwiftUI. Includes touch targets, safe areas, navigation patterns, Dynamic Type, Dark Mode, accessibility, collection views, common UI components, and SwiftU…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要iOS application development guide covering UIKit, SnapKit, and SwiftUI. Includes touch targets, safe areas, navigation patterns, Dynamic Type, Dark Mode, accessibility, collection views, common UI components, and SwiftU…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10716-ios-application-dev-f07a1daf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/ios-application-dev/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/ios-application-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4f4da03f2144d0d50174d36edd514ca56ad06e23570c173ac5f4c61d27d40c1e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

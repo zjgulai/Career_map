@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-customer-journey-analytics",
+  "中文名称": "用户旅程分析：全链路转化漏斗诊断与优化",
+  "一句话作用": "触发词：用户旅程分析、转化漏斗诊断、流失节点定位、路径转化率、页面级漏斗。何时不用：只做关键词维度展示到购买的分层拆解时用「搜索漏斗分归因」；只做标准漏斗节点计数与行为路径统计时用「用户漏斗与行为路径分析」。安全边界：会话日志含会话与设备标识，采集与留存须获授权并去标识化，不得用于未授权的个体识别。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要独立站转化率2.1%低于行业3.5%但不知道哪个环节在流失用户——用户旅程分析找到关键流失节点并识别高效路径vs犹豫路径，精准优化后转化率提升30-50%年化GMV增益20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03018-p2s-customer-journey-analytics-9f94fc92",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-customer-journey-analytics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-customer-journey-analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d913167e15d92431c78653603f42aa932a7aa2f14673131f14f37e162003c8a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

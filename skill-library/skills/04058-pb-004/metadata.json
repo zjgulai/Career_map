@@ -1,0 +1,22 @@
+{
+  "英文名称": "pb-004",
+  "中文名称": "待补：pb-004",
+  "一句话作用": "PB-004 市场进入与合规上架（材料《AI组织变革》手册原文，逐字）。触发与责任。 新市场、平台、店铺或商品上线请求触发FLOW-04，AGT-024担任AI结果负责人。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T22:55:54+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要PB-004 市场进入与合规上架（材料《AI组织变革》手册原文，逐字）。触发与责任。 新市场、平台、店铺或商品上线请求触发FLOW-04，AGT-024担任AI结果负责人。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04058-pb-004-e51b7eb7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/pb-004/SKILL.md",
+  "relative_path": "lute/.dsh/skills/pb-004/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f4c07132cc3eedab8b4341c945c20451da51ffa1b1f9be101ea629987c78d373",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

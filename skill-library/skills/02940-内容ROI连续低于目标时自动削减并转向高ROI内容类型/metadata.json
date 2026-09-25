@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-content-roi-budget-shift-trigger",
+  "中文名称": "内容ROI连续低于目标时自动削减并转向高ROI内容类型",
+  "一句话作用": "触发词：内容ROI、滑动窗口检测、内容类型转向、日预算削减、素材效率。何时不用：没有按内容类型拆分的分日ROI数据时不适用；渠道级饱和度或跨渠道节奏问题走对应技能。安全边界：须保留内容类型最低日预算保护线，单次转移不超过总预算10%，调整须符合平台广告披露要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要内容团队面临\"低ROI内容类型持续消耗预算无自动纠偏\"——3天滑动窗口检测将内容投放效率提升25%，月节省无效投放$5,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02940-p2s-content-roi-budget-shift-trigger-04269c13",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-content-roi-budget-shift-trigger/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-content-roi-budget-shift-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "526898ec394136c076e490195666d89909c89ad67bc64edd8feec477c7d2c3c7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

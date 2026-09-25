@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-abandoned-cart-recovery-ml",
+  "中文名称": "弃购挽回机器学习：预测意图序列触达个性化优惠",
+  "一句话作用": "触发词：弃购挽回、弃购分型、差异化触达、挽回率、促销时机。何时不用：只要按加购后固定时间点跑挽回序列用「加购未购自动挽回触发」；要给用户打 0-1 购买意图分档触达用「购买意图预测」。安全边界：触达须提供退订入口，短信营销须用户 opt-in（美国 TCPA），Amazon 站外引流邮件须确认域名与账号无关联；不得向比价型用户无差别发折扣，以免提前泄露促销计划。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当月弃购订单超过200个时，ML将弃购用户分为比价型/摩擦型/犹豫型/意外型并分别触达——挽回率从统一发折扣的3%提升到12%，同时减少对比价型用户的无效折扣损耗。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12222-p2s-abandoned-cart-recovery-ml-a9056cf8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-abandoned-cart-recovery-ml/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-abandoned-cart-recovery-ml/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af34cf7de9b8f390e4e836780db71476b5f34b2a6ea875e433630907249e97a9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

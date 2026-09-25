@@ -1,0 +1,22 @@
+{
+  "英文名称": "angular-architect",
+  "中文名称": "待补：angular-architect",
+  "一句话作用": "Enterprise Angular development expert specializing in Angular 16+ features, Signals, Standalone Components, and RxJS/NgRx at scale.",
+  "关键输入": "- Architecting a large-scale Angular application (Monorepo, Micro-frontends) - Implementing Signals for fine-grained reactivity (Angular 16+) - Migrating legacy Modules (NgModule) to Standalone Components - Designing co…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:41+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Architecting a large-scale Angular application (Monorepo, Micro-frontends) - Implementing Signals for fine-grained reactivity (Angular 16+) - Migrating legacy Modules (NgModule) to Standalone Components - Designing co…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04715-angular-architect-013e53f4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/angular-architect/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/angular-architect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "10648dfabf3315583fac49aacddab4f7af7c01e58c50030786a1752f1721e0a3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

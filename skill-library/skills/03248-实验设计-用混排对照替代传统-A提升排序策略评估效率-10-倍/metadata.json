@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-interleaving-experiment-design",
+  "中文名称": "实验设计 用混排对照替代传统 A提升排序策略评估效率 10 倍",
+  "一句话作用": "触发词：Interleaving、混排实验、Team-Draft、排序策略、显著性检验。何时不用：评估推荐位的推荐算法用「推荐系统交错实验」；要对照交错与传统 A/B 的周期与灵敏度差异用「排序系统交叉实验」。安全边界：混排只评估排序质量、不测展示效果与价格差异；须在可自主控制的排序位上执行，不得干预平台自然搜索排序。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要算法工程师面临\"排序策略A/B实验周期长、流量消耗大\"——Interleaving混排将实验所需样本量降低95%，年化多跑25轮迭代实验，GMV增量年化12.5万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03248-p2s-interleaving-experiment-design-1f79596d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-interleaving-experiment-design/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-interleaving-experiment-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "17bf00ce97ae989b6f09200026996312bc419129291aba8816d788680a1a7236",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

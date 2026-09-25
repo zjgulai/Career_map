@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ta[REDACTED]",
+  "中文名称": "任务自适应拓扑路由 动态多智能体编排",
+  "一句话作用": "触发词：拓扑路由、任务分级、并发仲裁、成本优化、客服工单。何时不用：固定 DAG 即可满足时用「MAS Orchestrator」；要基于历史轨迹训练编排策略用「编排轨迹强化学习」。安全边界：高耦合工单必须走主控 Agent 仲裁，不得为省成本把复杂仲裁降级为简单并发。",
+  "关键输入": "输入 ：历史任务分解样本与耦合标注、任务画像特征（子任务数、依赖形态、耦合度），以及各拓扑的延迟与成本画像。 输出 ：任务画像与选定拓扑及其延迟、成本估计；供编排层按工单类型执行。",
+  "关键输出": "输入 ：历史任务分解样本与耦合标注、任务画像特征（子任务数、依赖形态、耦合度），以及各拓扑的延迟与成本画像。 输出 ：任务画像与选定拓扑及其延迟、成本估计；供编排层按工单类型执行。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：拓扑路由、任务分级、并发仲裁、成本优化、客服工单。何时不用：固定 DAG 即可满足时用「MAS Orchestrator」；要基于历史轨迹训练编排策略用「编排轨迹强化学习」。安全边界：高耦合工单必须走主控 Agent 仲裁，不得为省成本把复杂仲裁降级为简单并发。时，用它产出或更新：输入 ：历史任务分解样本与耦合标注、任务画像特征（子任务数、依赖形态、耦合度），以及各拓扑的延迟与成本画像。 输出 ：任务画像与选定拓扑及其延迟、成本估计；供编排层按工单类型执行。",
+  "skill_id": "12500-p2s-ta-redacted-87c2262a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-task-adaptive-topology/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-task-adaptive-topology/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3e8f61cd80c3016e04c7e2c0343fa58b75b6edcb525c10b887e648f9e0969b22",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

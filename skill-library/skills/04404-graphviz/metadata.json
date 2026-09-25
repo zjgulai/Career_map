@@ -1,0 +1,22 @@
+{
+  "英文名称": "graphviz",
+  "中文名称": "待补：graphviz",
+  "一句话作用": "Graphviz/DOT source foundation. Use to turn dense architecture evidence into maintainable DOT artifacts for dependency, flow, deployment, risk, lineage, and impact graphs that do not fit C4.",
+  "关键输入": "- Architecture evidence: code structure, imports, service contracts, IaC, docs, or other source material. - Optional graph name, rank direction, output path, and grouping field.",
+  "关键输出": "These artifacts capture the maintainable DOT source, optional render output, evidence index, and graph-reading summary. - .dot: Graphviz DOT source file. - .svg: optional rendered graph. - -evidence.md: node/edge evidence and confidence.",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- The user explicitly asks for Graphviz, DOT, large graphs, dependency graphs, cycle detection, layer violations, risk maps, or lineage graphs. - The view has enough nodes and edges that Mermaid or C4 would become unrea…时，用它产出或更新：These artifacts capture th…",
+  "skill_id": "04404-graphviz-68ed2c93",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/graphviz/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/graphviz/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "283ac922466eab7aa5026eb10aedfa11299aacac86fd530720b6ae754bf029f8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ios-debugger-agent",
+  "中文名称": "待补：ios-debugger-agent",
+  "一句话作用": "Build, run, and debug iOS apps on Simulator with XcodeBuildMCP. Use when launching an app, inspecting simulator UI or logs, or diagnosing runtime behavior.",
+  "关键输入": "- If build fails, ask whether to retry with preferXcodebuild: true. - If the wrong app launches, confirm the scheme and bundle id. - If UI elements are not hittable, re-run describe ui after layout changes.",
+  "关键输出": "- Start logs: mcp XcodeBuildMCP start sim log cap with the app bundle id. - Stop logs: mcp XcodeBuildMCP stop sim log cap and summarize important lines. - For console output, set captureConsole: true and relaunch if required.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- If build fails, ask whether to retry with preferXcodebuild: true. - If the wrong app launches, confirm the scheme and bundle id. - If UI elements are not hittable, re-run describe ui after layout changes.时，用它产出或更新：- Start logs: mcp XcodeBuildMCP start si…",
+  "skill_id": "00712-ios-debugger-agent-472bc73f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-ios-apps/skills/ios-debugger-agent/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-ios-apps/skills/ios-debugger-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb8ad932ec473cee097c9c8d106051134e9ab6cf9dc85d6a8e62ce80ad24c385",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

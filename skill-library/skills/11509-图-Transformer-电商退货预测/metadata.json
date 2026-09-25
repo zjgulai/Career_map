@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-returnformer-returns-prediction",
+  "中文名称": "图 Transformer 电商退货预测",
+  "一句话作用": "触发词：退货风险分、支付前预测、高风险订单、退货概率模型、主动客服干预。何时不用：预测退货发生时点与洪峰用「退货率时序预测」，按国别诊断退货率差异用「分国退货率KPI」。安全边界：风险分只能用于服务性干预，不得用于限制消费者下单或拒绝退货；消费者退货原因数据须加密存储。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨境退货成本极高（运费+清关每单 $30-50），不知道哪些订单会退——图 Transformer 支付前输出退货风险分，精准触发主动客服干预，退货率降低 1-2pp、年化节省 20-50 万元时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11509-p2s-returnformer-returns-prediction-b622aa6e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-returnformer-returns-prediction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-returnformer-returns-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7eee1080aabd1c8d7ab01269ed0f9b15a4347624d4c121e95215190fe3ec0c30",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

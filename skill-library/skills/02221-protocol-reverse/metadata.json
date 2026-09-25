@@ -1,0 +1,22 @@
+{
+  "英文名称": "protocol-reverse",
+  "中文名称": "待补：protocol-reverse",
+  "一句话作用": "Use for authorized reverse engineering of custom binary protocols, Protobuf/gRPC, WebSocket frames, and PCAP-driven protocol recovery.",
+  "关键输入": "- 自定义 TCP/UDP 二进制协议 - Protobuf / gRPC / FlatBuffers / MessagePack - WebSocket / MQTT / 私有 RPC - PCAP / PCAPNG 还原字段与状态机 - 客户端-服务端校验、序列号、加密帧头",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- 自定义 TCP/UDP 二进制协议 - Protobuf / gRPC / FlatBuffers / MessagePack - WebSocket / MQTT / 私有 RPC - PCAP / PCAPNG 还原字段与状态机 - 客户端-服务端校验、序列号、加密帧头时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02221-protocol-reverse-fdfd2260",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/protocol-reverse/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/protocol-reverse/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8408273d7ba4177ed92f838940211d8ba2378a2c89d0efd2a8e33a35d1079da",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

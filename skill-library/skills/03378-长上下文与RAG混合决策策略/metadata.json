@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-longrag-long-context-hybrid",
+  "中文名称": "长上下文与RAG混合决策策略",
+  "一句话作用": "触发词：长上下文、混合路由、文档规模判断、成本权衡、条款抽取。何时不用：文档很短时直接喂长上下文即可；要跨文档建抽象树检索时用分层检索。安全边界：合同内容属商业敏感信息，路由与截断须留痕，不得把整份合同透传给未经批准的外部服务。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要运营团队面临长文档与知识库检索策略选择困难——LongRAG自动路由将综合成本降低40%，质量保持97%，年化节省API成本32万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03378-p2s-longrag-long-context-hybrid-250a3b44",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-longrag-long-context-hybrid/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-longrag-long-context-hybrid/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88f98c19fad10af6ad7ff5d9d472cdb7eca30de84b6e04f87c253d384f929785",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "fashion-sketch-cn",
+  "中文名称": "待补：fashion-sketch-cn",
+  "一句话作用": "创建专业服装技术规格包（Tech Pack），包含系列概览、款式规格、工艺细节、尺寸表、面料库、物料清单（BOM）、质量标准与签核页。适用于服装、鞋履、配饰等需要结构化、专业技术文档格式的品类。",
+  "关键输入": "Use TrueType fonts only -- Montserrat, Open Sans, and Noto Serif. Do not use generic Type3 or bitmap fonts. These fonts must be embedded in the output document for professional text rendering.",
+  "关键输出": "Attribute Value ----------- ------- Reference Source Uploaded PDF artifact Reference Artifact Type PDF Reference File Type PDF Supported Outputs PDF, DOCX, PPTX Default Output DOCX (document is structured as an editable multi-section text document)",
+  "最新更新时间": "2026-09-14T00:08:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要创建专业服装技术规格包（Tech Pack），包含系列概览、款式规格、工艺细节、尺寸表、面料库、物料清单（BOM）、质量标准与签核页。适用于服装、鞋履、配饰等需要结构化、专业技术文档格式的品类。时，用它产出或更新：Attribute Value ----------- ------- Reference Source Uploaded PDF artifact Reference Artifact Type PDF Reference File Type PDF Supported Outputs PDF,…",
+  "skill_id": "10578-fashion-sketch-cn-d5eb4b24",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/fashion-sketch-cn/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/fashion-sketch-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a1b8a1dccc9f720587eea5c71bb49ebfa91b48abcf97142b77cdf3c00e8cca4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

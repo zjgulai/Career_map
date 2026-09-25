@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-alphafold-bin-packing",
+  "中文名称": "蛋白质折叠启发的异形 SKU 极限装箱 (AlphaFold Bin-Packing)",
+  "一句话作用": "触发词：异形装箱、柜型装载率、头程装柜、装柜排布。何时不用：标准箱型的常规整柜装载用「3D 装箱优化」，要算补多少货用「补货模拟」；本技能只解异形 SKU 的柜内三维摆放。安全边界：装载方案须经装柜人员复核重心与承重后再执行，模型不直接下达装柜指令。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要物流经理面临FBA头程40尺柜装载率仅78%的同质化瓶颈——引入蛋白质折叠算法(AlphaFold)的三维异形装箱优化，将单柜装载率暴力提升至94%，年化节省海运头程费用5-15万美元，用计算生物学的物理直觉打败传统运筹学的贪心求解。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11328-p2s-alphafold-bin-packing-6d09ef6c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-alphafold-bin-packing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-alphafold-bin-packing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb233febcc7dfa51aee184175df8f0c819798b93da3004127089b1a92549a807",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "docx-cn",
+  "中文名称": "待补：docx-cn",
+  "一句话作用": "Word 文档处理 Word Document Processing. 创建、读取、编辑 Word 文档 Create, read, edit Word documents. 支持 .docx 格式、格式化、表格、图片 Supports .docx format, formatting, tables, images. 触发词：Word、文档、docx.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After creating the file, validate it. If validation fails, unpack, fix the XML, and repack.",
+  "最新更新时间": "2026-09-19T03:48:42+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Word 文档处理 Word Document Processing. 创建、读取、编辑 Word 文档 Create, read, edit Word documents. 支持 .docx 格式、格式化、表格、图片 Supports .docx format, formatting, tables, images. 触发词：Word、文档、docx.时，用它产出或更新：After creating the file, validate it. If validation fails, unpack, f…",
+  "skill_id": "04819-docx-cn-4021fc36",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/docx-cn/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/docx-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8091df41f2d27de31c8b89401c0da632f4c8fef26ac56c213014c79bdfc81cb9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

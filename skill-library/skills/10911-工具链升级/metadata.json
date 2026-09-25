@@ -1,0 +1,22 @@
+{
+  "英文名称": "pnpm-upgrade",
+  "中文名称": "工具链升级",
+  "一句话作用": "按九步升级 pnpm 工具链：查 registry 版本与完整性、预检 CI 引导路径、对齐 packageManager。触发词：pnpm 升级、pnpm self-update、packageManager、action-setup、CI 版本固定、pnpm-upgrade。何时不用：只升级 pnpm 这一条工具链本身（查版本、预检、对齐 packageManager、重钉 CI）；普通依赖的升级与审计用 dependency-u…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T15:32:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要按九步升级 pnpm 工具链：查 registry 版本与完整性、预检 CI 引导路径、对齐 packageManager。触发词：pnpm 升级、pnpm self-update、packageManager、action-setup、CI 版本固定、pnpm-upgrade。何时不用：只升级 pnpm 这一条工具链本身（查版本、预检、对齐 packageManager、重钉 CI）；普通依赖的升级与审计用 dependency-u…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10911-pnpm-upgrade-cc391c5e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/pnpm-upgrade/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/pnpm-upgrade/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d55b89bad1366b8724511b4140228953e0a1843b020d7dc6567e72a847e61599",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

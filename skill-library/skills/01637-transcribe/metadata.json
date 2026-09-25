@@ -1,0 +1,22 @@
+{
+  "英文名称": "transcribe",
+  "中文名称": "待补：transcribe",
+  "一句话作用": "Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Use output/transcribe/ / for evaluation runs. - Use --out-dir for multiple files to avoid overwriting.",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.时，用它产出或更新：- Use output/transcribe/ / for…",
+  "skill_id": "01637-transcribe-662a28d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/transcribe/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/transcribe/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

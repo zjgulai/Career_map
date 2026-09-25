@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-registry-discovery",
+  "中文名称": "动态 Agent 能力注册与路由",
+  "一句话作用": "触发词：Agent 注册、能力发现、灰度扩容、健康检查、故障转移。何时不用：技能层面的注册与发现走「技能注册表」；配额与限流调度走「MAS 资源调度」。安全边界：本技能只产出能力目录与路由规则，真正的流量切换由模型外的确定性控制层执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要大促期间 MAS 需动态扩容补货 Agent，无注册发现中心则新 Agent 无法被编排器感知——Agent Registry 让新实例自动上报能力标签，实现秒级灰度扩容时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11891-p2s-agent-registry-discovery-2f546ed9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-registry-discovery/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-registry-discovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "010756c76761c9c92b12162b5ca668ad89c742de47aa5709727467b69e98709d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

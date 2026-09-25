@@ -1,0 +1,22 @@
+{
+  "英文名称": "ri[REDACTED]",
+  "中文名称": "待补：ri[REDACTED]",
+  "一句话作用": "Architecture risk and quality review. Use when the user needs an evidence-backed architecture review, quality attribute assessment, technical debt map, risk register, fitness-function view, or prioritized remediation pl…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "These artifacts capture the architecture review, prioritized risks, quality scenarios, and remediation plan. - architecture-review.md: evidence-backed review narrative with findings, severity, confidence, and affected architecture goals. - risk-quality.dot mm…",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Architecture risk and quality review. Use when the user needs an evidence-backed architecture review, quality attribute assessment, technical debt map, risk register, fitness-function view, or prioritized remediation pl…时，用它产出或更新：These artifacts capture th…",
+  "skill_id": "04406-ri-redacted-e4f5fbaf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/risk-quality-reviewer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/risk-quality-reviewer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8345aef43678822d0c0074e48ef1225bb6cc4cf2ec6947f3c7d746058dbfe495",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

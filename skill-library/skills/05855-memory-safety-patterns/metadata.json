@@ -1,0 +1,22 @@
+{
+  "英文名称": "memory-safety-patterns",
+  "中文名称": "待补：memory-safety-patterns",
+  "一句话作用": "Implement memory-safe programming with RAII, ownership, smart pointers, and resource management across Rust, C++, and C. Use when writing safe systems code, managing resources, or preventing memory bugs.",
+  "关键输入": "- Writing memory-safe systems code - Managing resources (files, sockets, memory) - Preventing use-after-free and leaks - Implementing RAII patterns - Choosing between languages for safety - Debugging memory issues",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Writing memory-safe systems code - Managing resources (files, sockets, memory) - Preventing use-after-free and leaks - Implementing RAII patterns - Choosing between languages for safety - Debugging memory issues时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05855-memory-safety-patterns-148bc821",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/systems-programming/skills/memory-safety-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/systems-programming/skills/memory-safety-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5b7a32ade9270349d8791f73776843fd3945f0735316f3cffaacbfc5f96707ca",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

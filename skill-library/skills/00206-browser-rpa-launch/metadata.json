@@ -1,0 +1,22 @@
+{
+  "英文名称": "browser-rpa-launch",
+  "中文名称": "待补：browser-rpa-launch",
+  "一句话作用": "当已有一个或多个页面地址及对应的本地脚本文件，需要打开页面并执行脚本时使用。不用于生成、修改或解释脚本，也不用于在已有页面上回放脚本。",
+  "关键输入": "电商账号业务调用时，在顶层传入同一条 discover store accounts.accounts[] 记录对应的三个 Profile 选择 ID；名称和脱敏账号可作为展示与日志元数据一起传入： 输入规则： - 电商账号业务必须同时传入顶层 platformId、storeId、storeAccountId，三者必须来自同一条发现记录；只有这三个 ID 参与 Profile 定位，缺失或只传一部分时停止调用。 - platformName、storeName、account 可从同一条发现记录传入，仅用于展示…",
+  "关键输出": "- 顶层参数或 items[] 格式校验失败时，工具调用失败；此时没有队列分段结果，也不会执行任何记录。 - 工具不可用、调用抛错或无返回时，按工具调用失败处理。 - 单条记录在打开页面或执行脚本时失败，不会使工具调用失败；该记录写入 items[] 后继续执行当前分段。 - 工具调用成功只表示当前分段已经处理并返回结果，不表示所有记录都执行成功。 - 工具调用成功后，先检查最小有效响应；通过后再以队列分段结果中的 status、summary 和 items[] 为准。",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要当已有一个或多个页面地址及对应的本地脚本文件，需要打开页面并执行脚本时使用。不用于生成、修改或解释脚本，也不用于在已有页面上回放脚本。时，用它产出或更新：- 顶层参数或 items[] 格式校验失败时，工具调用失败；此时没有队列分段结果，也不会执行任何记录。 - 工具不可用、调用抛错或无返回时，按工具调用失败处理。 - 单条记录在打开页面或执行脚本时失败，不会使工具调用失败；该记录写入 items[] 后继续执行当前分段。 - 工具调用成功只表示当前分段已经处理并返回结果，不表示所有记录都执行成功。 - 工…",
+  "skill_id": "00206-browser-rpa-launch-914f5bc6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/browser-rpa-launch/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/browser-rpa-launch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ee7b54b2a68cdd174e68db95dc015d3202cba025d278618c8b590809f923658",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

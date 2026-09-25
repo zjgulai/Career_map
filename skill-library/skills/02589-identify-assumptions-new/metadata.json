@@ -1,0 +1,22 @@
+{
+  "英文名称": "identify-assumptions-new",
+  "中文名称": "待补：identify-assumptions-new",
+  "一句话作用": "列出新产品成立所依赖的客户、市场与可行性假设，按风险高低整理清楚。触发词：新品假设识别、identify-assumptions-new、列出新产品成立所依赖的客户、市场与可行性假设，按风险高低整理清楚。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要列出新产品成立所依赖的客户、市场与可行性假设，按风险高低整理清楚。触发词：新品假设识别、identify-assumptions-new、列出新产品成立所依赖的客户、市场与可行性假设，按风险高低整理清楚。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02589-identify-assumptions-new-9d616e8e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/identify-assumptions-new/SKILL.md",
+  "relative_path": "lute/.dsh/skills/identify-assumptions-new/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4533a042ab9d0db1eff1c522a4bbfe74bf5298aeefe507bc19b09c3753c5827a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

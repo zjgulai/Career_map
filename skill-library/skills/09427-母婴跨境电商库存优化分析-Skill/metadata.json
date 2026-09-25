@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-inventory-optimization",
+  "中文名称": "母婴跨境电商库存优化分析 Skill",
+  "一句话作用": "母婴跨境电商库存优化分析Skill。提供安全库存计算、库存周转分析、补货时机预测、ABC库存分类，充分考虑母婴行业特性(保质期管理、批次追溯、断货风险评估)，帮助卖家降低库存成本、避免断货、减少效期损失。 触发条件: 1. 用户提到\"库存管理\"、\"安全库存\"、\"补货\"、\"保质期\" 2. 用户询问\"库存周转\"、\"EOQ\"、\"库存成本\"、\"效期管理\" 3. 用户需要\"库存预警\"、\"断货风险\"、\"临期预警\"分析 4. 用户提到\"批次追溯\"、…",
+  "关键输入": "必需字段 : 字段 类型 说明 ------ ------ ------ sku string 产品SKU date date 日期 daily sales numeric 日销量 inventory level numeric 库存数量 unit cost numeric 单位成本 lead time numeric 交货期（天） 可选字段 : 字段 类型 说明 ------ ------ ------",
+  "关键输出": "1. 安全库存报告",
+  "最新更新时间": "2026-03-04T17:07:30+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要母婴跨境电商库存优化分析Skill。提供安全库存计算、库存周转分析、补货时机预测、ABC库存分类，充分考虑母婴行业特性(保质期管理、批次追溯、断货风险评估)，帮助卖家降低库存成本、避免断货、减少效期损失。 触发条件: 1. 用户提到\"库存管理\"、\"安全库存\"、\"补货\"、\"保质期\" 2. 用户询问\"库存周转\"、\"EOQ\"、\"库存成本\"、\"效期管理\" 3. 用户需要\"库存预警\"、\"断货风险\"、\"临期预警\"分析 4. 用户提到\"批次追溯\"、…时，用它产出或更新：1. 安全库存报告",
+  "skill_id": "09427-cbec-inventory-optimization-c54b3e4d",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/10-supply-chain-analysis/inventory-optimization/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/10-supply-chain-analysis/inventory-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f97f97d944b2cc1ff0453d4fb05a977f29734848e870d8c43603815480fb6548",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

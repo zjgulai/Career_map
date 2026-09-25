@@ -1,0 +1,22 @@
+{
+  "英文名称": "v0-dev",
+  "中文名称": "待补：v0-dev",
+  "一句话作用": "v0 by Vercel expert guidance. Use when discussing AI code generation, generating UI components from prompts, v0 CLI usage, v0 SDK/API integration, or integrating v0 into development workflows with GitHub and Vercel depl…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When no framework is specified, v0 generates: - React with JSX + TypeScript - Tailwind CSS - shadcn/ui components - Lucide React icons - Complete, copy-paste-ready code (never partial stubs)",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要v0 by Vercel expert guidance. Use when discussing AI code generation, generating UI components from prompts, v0 CLI usage, v0 SDK/API integration, or integrating v0 into development workflows with GitHub and Vercel depl…时，用它产出或更新：When no framework is speci…",
+  "skill_id": "01161-v0-dev-b1f0127e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/vercel/skills/v0-dev/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/vercel/skills/v0-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3fc9dc2b71b9fd27f1e95ac2df97eee81cb27550b4c6463615a4d492f4f2d22d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

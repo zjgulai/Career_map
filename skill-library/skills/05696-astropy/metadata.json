@@ -1,0 +1,22 @@
+{
+  "英文名称": "astropy",
+  "中文名称": "待补：astropy",
+  "一句话作用": "Comprehensive Python library for astronomy and astrophysics. This skill should be used when working with astronomical data including celestial coordinates, physical units, FITS files, cosmological calculations, time sys…",
+  "关键输入": "Use astropy when tasks involve: - Converting between celestial coordinate systems (ICRS, Galactic, FK5, AltAz, etc.) - Working with physical units and quantities (converting Jy to mJy, parsecs to km, etc.) - Reading, wr…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use astropy when tasks involve: - Converting between celestial coordinate systems (ICRS, Galactic, FK5, AltAz, etc.) - Working with physical units and quantities (converting Jy to mJy, parsecs to km, etc.) - Reading, wr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05696-astropy-a20937d9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/astropy/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/astropy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b0c6515d2e74559941f8e8ff273552c2b5f482dadb43383dbea1196d30ad2c19",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

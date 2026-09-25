@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-temu-consignment-analytics",
+  "中文名称": "全托管半托管利润分析 成本拆解矩阵与定价决策模型",
+  "一句话作用": "触发词：Temu全托管、半托管、供货价底线、净利润矩阵、退货率测算。何时不用：跨多平台统一比单位经济时用「单位经济拆解」；只预测平台回款到账时间时用「Amazon 回款周期预测」。安全边界：平台佣金、物流与退货率参数须按后台与合同实际核验，不得沿用参考值对外报价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要全托管卖家面临\"Temu平台净利润算不清楚定价全靠感觉\"——成本拆解模型将SKU级净利润透明化，识别亏损SKU占比从不可知降至精确，年化止损$6.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03939-p2s-temu-consignment-analytics-2068ab69",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-temu-consignment-analytics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-temu-consignment-analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ffd861fd7a5fc1ff5290d3399e7ab6ac7a10a8097157689b6b6bd578e381af8d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

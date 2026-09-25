@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-trade-contract-draft-view",
+  "中文名称": "待补：alibaba-icbu-trade-contract-draft-view",
+  "一句话作用": "Alibaba.com Trade Contract Draft Preview Skill — read-only viewer for the current negotiation contract draft (products, payment schedule, logistics terms) with confirmation status indicators. Preview only — does NOT val…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- MANDATORY: ALL data MUST be rendered using Markdown tables (Field Value Status). Never use bullet lists, plain text, or any other format to present contract data. - Display negotiationId at the top of the response. Internally remember this ID in conversatio…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba.com Trade Contract Draft Preview Skill — read-only viewer for the current negotiation contract draft (products, payment schedule, logistics terms) with confirmation status indicators. Preview only — does NOT val…时，用它产出或更新：- MANDATORY: ALL data MUST…",
+  "skill_id": "00084-alibaba-icbu-trade-contract-draft-view-6db4d224",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-contract-draft-view/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-contract-draft-view/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66eaee8dfe17e96427f8e0406cd6345123ed58c26e90b732d616fa15850184f6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

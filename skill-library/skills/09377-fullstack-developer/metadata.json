@@ -1,0 +1,22 @@
+{
+  "英文名称": "fullstack-developer",
+  "中文名称": "待补：fullstack-developer",
+  "一句话作用": "Modern web development expertise covering React, Node.js, databases, and full-stack architecture. Use when: building web applications, developing APIs, creating frontends, setting up databases, deploying web apps, or wh…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When building features, provide: 1. File structure - Show where code should go 2. Complete code - Fully functional, typed code 3. Dependencies - Required npm packages 4. Environment variables - If needed 5. Setup instructions - How to run/deploy",
+  "最新更新时间": "2026-03-26T11:57:55+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Modern web development expertise covering React, Node.js, databases, and full-stack architecture. Use when: building web applications, developing APIs, creating frontends, setting up databases, deploying web apps, or wh…时，用它产出或更新：When building features, pr…",
+  "skill_id": "09377-fullstack-developer-b80e64b4",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.claude/skills/fullstack-developer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.claude/skills/fullstack-developer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "53077f62532d9b995d7b1d3aa729b6487ef05a33e377e8d1bb8f319fcf670c2a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

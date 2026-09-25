@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sc-ontology-schema-versioning",
+  "中文名称": "供应链本体Schema版本化与迁移 向后兼容的本体演化策略防止Agent系统崩溃",
+  "一句话作用": "触发词：本体版本管理、Schema迁移、向后兼容、双写过渡、依赖Agent通知。何时不用：只是检测上游字段变更并加兼容层时用数据契约技能；只做知识图谱实体增删改时用知识图谱增量更新技能。安全边界：破坏性变更必须走双写过渡与依赖方确认，不得直接切换版本，变更前须保留旧版本快照以便回滚。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要本体Schema升级导致依赖Agent崩溃停机4-8小时——向后兼容双写过渡策略实现零停机Schema迁移，年化防止Agent崩溃事故损失20-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03766-p2s-sc-ontology-schema-versioning-0f2eef08",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sc-ontology-schema-versioning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sc-ontology-schema-versioning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e48e5963e05eea699e9a1173ebb7c0a6c340c08f4b0962a96964005707846192",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

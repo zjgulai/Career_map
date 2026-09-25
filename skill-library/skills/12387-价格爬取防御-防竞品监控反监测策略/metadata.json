@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-price-scraping-defense",
+  "中文名称": "价格爬取防御（防竞品监控反监测策略）",
+  "一句话作用": "触发词：价格爬取防御、跟价检测、反爬虫、价格混淆、随机微浮动、竞品监控。何时不用：已确认对方在跟价、只差反制节奏时用「混合策略定价不可预测性」；要持续监测竞品价格本身用「实时竞品重定价」。安全边界：价格混淆只对爬虫生效，真实用户必须看到真实价格；反爬不得误伤正常用户流量。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"竞品实时跟价导致陷入价格战螺旋毛利持续压缩\"——反监测策略使竞品跟价失效率提升80%，年化保护定价主动权价值20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12387-p2s-price-scraping-defense-f15b60da",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-scraping-defense/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-scraping-defense/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "57cdfdc2457c2075fa7869334b73a8eca180f7c2c8a0fa37f4005000a896ad1f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

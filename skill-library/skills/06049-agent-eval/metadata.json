@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-eval",
+  "中文名称": "待补：agent-eval",
+  "一句话作用": "Benchmark CodeGraph retrieval quality on a real codebase by comparing agent behavior with vs without CodeGraph. Use when the user runs /agent-eval or asks to test, benchmark, audit, or validate a codegraph version (the…",
+  "关键输入": "- tmux 3+, a logged-in claude CLI, node, git (macOS/Linux). - Run from the codegraph repo root.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-14T13:40:56+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Benchmark CodeGraph retrieval quality on a real codebase by comparing agent behavior with vs without CodeGraph. Use when the user runs /agent-eval or asks to test, benchmark, audit, or validate a codegraph version (the…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06049-agent-eval-28ac949a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/codegraph/.claude/skills/agent-eval/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/codegraph/.claude/skills/agent-eval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b83c65193e066f076e95c518342a2f7d52848bdb14218d4197b8e906829ca5e7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

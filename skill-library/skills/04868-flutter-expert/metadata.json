@@ -1,0 +1,22 @@
+{
+  "英文名称": "flutter-expert",
+  "中文名称": "待补：flutter-expert",
+  "一句话作用": "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:50+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04868-flutter-expert-75e0ab7d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/flutter-expert/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/flutter-expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d71135dd2c7ca3b4cc2c3b8f9bd1909700aed1263f114f5399588fd9031831a2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

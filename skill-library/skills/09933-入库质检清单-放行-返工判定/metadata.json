@@ -1,0 +1,22 @@
+{
+  "英文名称": "入库质检清单（放行/返工判定）",
+  "中文名称": "待补：入库质检清单（放行/返工判定）",
+  "一句话作用": "在入库批次到仓时，按质检标准输出放行、返工或拦截判定。",
+  "关键输入": "- 质检标准与抽检规则 - 批次信息与供应商历史缺陷率",
+  "关键输出": "表：批次 SKU 抽检结果 缺陷等级 判定 处置动作 责任人",
+  "最新更新时间": "2026-03-22T01:35:26+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在入库批次到仓时，按质检标准输出放行、返工或拦截判定。时，用它产出或更新：表：批次 SKU 抽检结果 缺陷等级 判定 处置动作 责任人",
+  "skill_id": "09933-skill-2733d74d",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/inbound-quality-checklist/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/inbound-quality-checklist/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "37571a34afaae54c8a5911fa2847465dc45fe6b4501577a64730ae0635d69411",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "scaffold-layer",
+  "中文名称": "待补：scaffold-layer",
+  "一句话作用": "Create minimum viable agentic layer structure for a project. Use when adding agentic capabilities to a new project.",
+  "关键输入": "- $ARGUMENTS: Project name or target directory",
+  "关键输出": "Create a spec file at: specs/chore-{timestamp}-{name}.md Include: - Task overview - Files to modify - Implementation steps - Validation checklist",
+  "最新更新时间": "2026-09-19T03:56:19+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create minimum viable agentic layer structure for a project. Use when adding agentic capabilities to a new project.时，用它产出或更新：Create a spec file at: specs/chore-{timestamp}-{name}.md Include: - Task overview - Files to modify - Implementation steps - Valida…",
+  "skill_id": "05076-scaffold-layer-7fa78e20",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/scaffold-layer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/scaffold-layer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f16824db5f8dc8ad2cafe04c7474776e7aaf7812343ee23d2a0885b4d5597f8c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

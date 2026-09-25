@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-smart-optimize",
+  "中文名称": "国际站商品优化",
+  "一句话作用": "Optimizes products on Alibaba.com International (GGS sites), covering two main scenarios: 1. AI product description optimization: AI-powered upgrades or redesigns for existing product detail pages 2. Product information…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "多语言输出规则（强制）： 先检测用户输入语言，再执行和回复。所有对话输出（含 AskUser 的 header / question / options、轮询提示、结果表格、引导文案）必须跟随用户输入语言直接输出；若无法识别，则默认英文。无论输出语言是什么，以下术语始终保持英文不翻译：planType 枚举值（premium / standard）、detailType 枚举值（AI DETAIL）、MCP 工具名（ggs ）、JSON 字段名（productId / taskId / planType 等）、商…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Optimizes products on Alibaba.com International (GGS sites), covering two main scenarios: 1. AI product description optimization: AI-powered upgrades or redesigns for existing product detail pages 2. Product information…时，用它产出或更新：多语言输出规则（强制）： 先检测用户输入语言，再执行…",
+  "skill_id": "00184-alibaba-global-smart-optimize-55b0fa0a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-smart-optimize/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-smart-optimize/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "202f3351174e3393fa76888855b2b2f3a59a4e4ebade2a8284fb6b1fd35e0e70",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

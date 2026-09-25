@@ -1,0 +1,22 @@
+{
+  "英文名称": "api-doc-gen",
+  "中文名称": "待补：api-doc-gen",
+  "一句话作用": "从 Flask、FastAPI、Express 或 Gin 等 Web 框架的源代码中自动扫描路由定义，生成符合 OpenAPI 3.0 / Swagger 规范的标准化 API 文档文件。当用户需要生成 API 文档、提到 OpenAPI、Swagger、接口文档、路由扫描或从代码自动提取接口信息时触发。",
+  "关键输入": "框架 源格式 转换结果 --- --- --- Flask {user id} (type: integer) FastAPI {user id} {user id} (保持不变) Express :user id {user id} Gin/Echo :user id {user id}",
+  "关键输出": "python scripts/generate api doc.py ./src",
+  "最新更新时间": "2026-09-14T00:09:51+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要从 Flask、FastAPI、Express 或 Gin 等 Web 框架的源代码中自动扫描路由定义，生成符合 OpenAPI 3.0 / Swagger 规范的标准化 API 文档文件。当用户需要生成 API 文档、提到 OpenAPI、Swagger、接口文档、路由扫描或从代码自动提取接口信息时触发。时，用它产出或更新：python scripts/generate api doc.py ./src",
+  "skill_id": "10542-api-doc-gen-03e3f92b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/api-doc-gen/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/api-doc-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "844415f80adad0fd883b9d75627530f92bdfd340db1e65b89047063022423a19",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

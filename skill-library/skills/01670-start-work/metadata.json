@@ -1,0 +1,22 @@
+{
+  "英文名称": "start-work",
+  "中文名称": "待补：start-work",
+  "一句话作用": "Execute a Prometheus work plan in Codex with Boulder state, evidence ledger updates, worktree discipline, parallel subagents, and Stop-hook continuation. Use after planning when the user says start work, execute plan, c…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Execute a Prometheus work plan in Codex with Boulder state, evidence ledger updates, worktree discipline, parallel subagents, and Stop-hook continuation. Use after planning when the user says start work, execute plan, c…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01670-start-work-5a5d5587",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/dist/skills/start-work/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/dist/skills/start-work/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7e3e8a06d37dd1c9325722af9d5bc6346afe9b942b646888b26fb236200d00f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

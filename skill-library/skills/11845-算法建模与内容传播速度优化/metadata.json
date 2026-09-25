@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-algorithm-content-boost",
+  "中文名称": "算法建模与内容传播速度优化",
+  "一句话作用": "触发词：TikTok 推流诊断、完播率优化、FYP 信号评分、发布时段优化、曝光提升。何时不用：只优化开头几秒钩子用钩子优化类技能，本技能解决整条视频在分层测试池中的信号诊断与放大策略。安全边界：不得使用刷量、机器互动等违反平台规则的手段制造互动速度信号，前 30 分钟互动须来自真实私域用户。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要TikTok 视频完播率只有 35% 导致流量熔断、每条视频曝光不足 500——FYP 信号评分模型精确诊断卡点，完播率优化到 70% 后进入扩大测试池，曝光提升 20×时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11845-p2s-tiktok-algorithm-content-boost-24464061",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tiktok-algorithm-content-boost/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tiktok-algorithm-content-boost/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d401da3fe6f86d9ea9fd2f3eb4571f13fff5d7884918643c077fa4a2fbc5c0f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

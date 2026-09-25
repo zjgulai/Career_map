@@ -1,0 +1,22 @@
+{
+  "英文名称": "physical-ai-infrastructure-setup-and-resilient-scaling",
+  "中文名称": "待补：physical-ai-infrastructure-setup-and-resilient-scaling",
+  "一句话作用": "Use when the user wants to set up, scale, validate, or harden NVIDIA physical AI infrastructure for synthetic data generation workflows across local MicroK8s or Azure AKS, including Kubernetes clusters, inference endpoi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Positive trigger: \"Set up resilient Physical AI infrastructure for VDA on Azure AKS with NIM Operator.\" Expected: use this skill. - Negative trigger: \"Summarize recent OSMO workflow logs for this workflow ID.\" Expected: do not use this infrastructure setup…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when the user wants to set up, scale, validate, or harden NVIDIA physical AI infrastructure for synthetic data generation workflows across local MicroK8s or Azure AKS, including Kubernetes clusters, inference endpoi…时，用它产出或更新：- Positive trigger: \"Set u…",
+  "skill_id": "00953-physical-ai-infrastructure-setup-and-resilient-scaling-cb74fc73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ee96598544cb3e7399c0e12c245e94104aea847bcb7d647a5b25bcb2320727ba",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

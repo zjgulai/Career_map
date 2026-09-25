@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitive-report",
+  "中文名称": "母婴品牌竞对深度分析报告",
+  "一句话作用": "母婴品牌竞对/标杆品牌深度分析报告生成。 当用户要求生成竞品分析报告、竞对报告、品牌监测报告、品牌调研报告， 或提及\"按照竞对模板\"\"输出竞对报告\"\"品牌竞对分析\"等表达时触发。 适用于按照《品牌竞对以及标杆品牌监测》模板框架，在指定时间范围内 对指定品牌完成系统性竞品情报采集、分析和报告撰写。 首次使用前运行 scripts/setup.command (macOS 双击) / scripts/setup.ps1 (Windows)…",
+  "关键输入": "在以下场景触发并完整执行： - 用户要求对某品牌生成竞品分析报告 - 用户提及\"按照竞对模板\"\"竞对报告\"\"品牌监测报告\"等 - 用户指定出品品牌、竞品品牌和时间范围",
+  "关键输出": "报告 Markdown 定稿后， 优先使用 .NET OpenXML SDK 生成 Word 文档 ， 排版质量远超 python-docx（原生样式系统、表格边框、页脚页码、 中文字体映射、不出现格式错乱）。 工作流： 1. 定位模板项目 scripts/dotnet/Program.cs（已包含完整样式系统、封面、目录、 页脚页码、表格构建器等基础设施） 2. ASTATE: 复制一份到工作区临时目录 3. 将每个 AddXxx() 方法中的占位内容替换为 Phase 3 撰写好的 Markdown 报告正文。",
+  "最新更新时间": "1980-01-01T00:00:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要在以下场景触发并完整执行： - 用户要求对某品牌生成竞品分析报告 - 用户提及\"按照竞对模板\"\"竞对报告\"\"品牌监测报告\"等 - 用户指定出品品牌、竞品品牌和时间范围时，用它产出或更新：报告 Markdown 定稿后， 优先使用 .NET OpenXML SDK 生成 Word 文档 ， 排版质量远超 python-docx（原生样式系统、表格边框、页脚页码、 中文字体映射、不出现格式错乱）。 工作流： 1. 定位模板项目 scripts/dotnet/Program.cs（已包含完整样式系统、封面、目录、…",
+  "skill_id": "06054-competitive-report-8e2133bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Downloads/competitive-report/SKILL.md",
+  "relative_path": "lute/Downloads/competitive-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "361efb540ef389029a1c83c17aec29fe236916f9580b6016dc3a576f29f10caf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "outlier-detection-and-quality-assessment",
+  "中文名称": "设置中英文字体以支持可视化显示 (SimHei 或 WenQuanYi)",
+  "一句话作用": "执行全面的异常值检测与数据质量评估，利用 IQR 方法识别异常值并结合偏度、峰度分析数据分布特征，适用于非正态分布数据的预处理阶段。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要执行全面的异常值检测与数据质量评估，利用 IQR 方法识别异常值并结合偏度、峰度分析数据分布特征，适用于非正态分布数据的预处理阶段。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04159-outlier-detection-and-quality-assessment-a342054a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/outlier-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/outlier-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6d4ef501ac96e457d4ab3d775c83be08eb7ffd351772deb9d8b1855ce807a88c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

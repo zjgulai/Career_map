@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-currency-pnl-reconciliation",
+  "中文名称": "多币种P对账",
+  "一句话作用": "触发词：多币种对账、汇兑损益、功能货币折算、汇率敞口、经营利润区分。何时不用：要审跨境采购合同条款风险时用「LLM 合同合规审查」，要核多市场合规要求时用「多市场合规矩阵本体」。安全边界：对账结果仅供内部经营判断，银行流水与账户明细须按财务权限访问。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境卖家面临\"欧元贬值5%导致报表利润下降2万元但不确定是汇率还是经营问题\"——多币种P&L对账剥离汇兑损益，正确区分经营利润与汇率波动，年化避免错误决策损失10-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03474-p2s-multi-currency-pnl-reconciliation-8a7980e5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-currency-pnl-reconciliation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-currency-pnl-reconciliation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "972235573d82d69c46407c2107420c16f5cf1f437ec46b76bdc6576ac2f9c53f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

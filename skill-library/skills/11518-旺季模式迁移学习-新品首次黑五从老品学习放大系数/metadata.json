@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-seasonal-pattern-transfer-learning",
+  "中文名称": "旺季模式迁移学习 新品首次黑五从老品学习放大系数",
+  "一句话作用": "触发词：旺季迁移、黑五备货、放大系数、相似兄弟品、余弦相似度。何时不用：本 SKU 已有旺季历史时直接建模；要跨市场需求分布迁移时用「最优传输跨市场迁移」。安全边界：仅使用自有历史销量数据，不抓取竞品数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要新品负责人面临\"新品首次面对黑五完全没有旺季历史不知道该备多少货\"——旺季模式迁移从同类老品将首次旺季备货误差降低60%，年化避损$6.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11518-p2s-seasonal-pattern-transfer-learning-15ec7d57",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-seasonal-pattern-transfer-learning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-seasonal-pattern-transfer-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f39fc5c97ef4b9aa5774116916cc48d4fd701dd5d7832571a97f099127ff048b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "value-proposition",
+  "中文名称": "待补：value-proposition",
+  "一句话作用": "对齐客户任务、痛点与收益和产品提供的缓解方案，找到真正成立的价值主张。触发词：价值主张设计、value-proposition、对齐客户任务、痛点与收益和产品提供的缓解方案，找到真正成立的价值主张。",
+  "关键输入": "- Product description and features - Target customer segment and their problems - Competitive alternatives and current solutions - Customer insights or market data",
+  "关键输出": "1. Identify and profile the target customer segment 2. Define the core problem and JTBD 3. Describe the current state and friction points 4. Articulate how the product solves the problem 5. Envision the improved outcome 6. Compare against competitive alternat…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要对齐客户任务、痛点与收益和产品提供的缓解方案，找到真正成立的价值主张。触发词：价值主张设计、value-proposition、对齐客户任务、痛点与收益和产品提供的缓解方案，找到真正成立的价值主张。时，用它产出或更新：1. Identify and profile the target customer segment 2. Define the core problem and JTBD 3. Describe the current state and friction points 4. Articu…",
+  "skill_id": "04240-value-proposition-bcf0bee6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/value-proposition/SKILL.md",
+  "relative_path": "lute/.dsh/skills/value-proposition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a8b03ac9adf98bd88d50d780c963e14c188f7dd1a5b44d9ad6ec8924404e0f86",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

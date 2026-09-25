@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rfm-campaign-auto-dispatcher",
+  "中文名称": "按RFM分群自动映射并触发差异化营销序列",
+  "一句话作用": "触发词：RFM 分群、营销序列映射、自动触发、流失唤醒、触达上限、会员运营。何时不用：只做分群不派发时不必用本卡；要考虑个体因果增量时用 Uplift 定向卡；本卡负责把分群结果自动映射成差异化营销序列。安全边界：须设触达频次上限与低价值过滤，遵守隐私与促销法规，不得夸大宣传或对不同人群做价格歧视。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要营销团队面临\"RFM分群完成后手动匹配营销序列效率低\"——规则引擎自动映射触发，At Risk群体挽回率从12%提升至28%，年化增量LTV $65,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03746-p2s-rfm-campaign-auto-dispatcher-f9383183",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-rfm-campaign-auto-dispatcher/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-rfm-campaign-auto-dispatcher/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "09230a93662e0a4b305250a7719ff25528b7fe18b51bb20b813c771098403483",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

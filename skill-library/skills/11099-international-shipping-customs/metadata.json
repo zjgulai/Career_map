@@ -1,0 +1,22 @@
+{
+  "英文名称": "international-shipping-customs",
+  "中文名称": "待补：international-shipping-customs",
+  "一句话作用": "当用户需要规划运输路线、平衡成本与时效、选择承运商或做关务合规时使用。触发词：物流优化、运输路线、成本测算、承运商选择、物流方案、关务合规、多式联运、TCO分析。何时不用：运单状态追踪（使用shipment-tracking）、库存补货预测（使用supply-chain-controller-inventory-demand-forecaster）、供应商准入评估（使用supply-chain-controller-supplier-…",
+  "关键输入": "- 用户需要发一批货，要做发货前决策（选哪条路线、哪家承运商、花多少钱） - 用户要做成本时效平衡（加急 vs 经济、空运 vs 海运 vs 铁路） - 用户要对比多家承运商（顺丰/京东/德邦/DHL/FedEx/UPS/专线） - 用户要规划跨境物流（出口到某国，含清关、税费、HS 编码） - 用户要做月度/年度线路优化与 TCO 分析 - 用户需要关务合规指引（报关材料、HS 编码、税费测算）",
+  "关键输出": "international-shipping-customs方案 : 完整示例见 examples/workflow-example.md，测算规则见 references/dfm-rules.md。",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用户需要发一批货，要做发货前决策（选哪条路线、哪家承运商、花多少钱） - 用户要做成本时效平衡（加急 vs 经济、空运 vs 海运 vs 铁路） - 用户要对比多家承运商（顺丰/京东/德邦/DHL/FedEx/UPS/专线） - 用户要规划跨境物流（出口到某国，含清关、税费、HS 编码） - 用户要做月度/年度线路优化与 TCO 分析 - 用户需要关务合规指引（报关材料、HS 编码、税费测算）时，用它产出或更新：international-shipping-customs方案 : 完整示例见 examp…",
+  "skill_id": "11099-international-shipping-customs-bc2d1a85",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/international-shipping-customs/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/international-shipping-customs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "408b0f10803c358a9785aab96c7643d2bdc40fc831adb4e7ac9cddd4911dc6bd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

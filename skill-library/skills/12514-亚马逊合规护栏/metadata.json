@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-amazon-tos-compliance-guardrail",
+  "中文名称": "亚马逊合规护栏）",
+  "一句话作用": "触发词：Amazon ToS、违禁声明、医疗声明、无证认证、保证性用语、强制覆盖。何时不用：要跨 FDA/CPSC/FTC/平台四套规则做复合扫描时用「合规知识图谱实时监控」，要比较多市场广告法规差异时用「多市场广告文案合规矩阵」。安全边界：风险分高于阈值时强制覆盖原文案，不得未经复核直接发布。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：运营用 ChatGPT 生成吸奶器 listing 文案，但 LLM 可能产出违规声明——\"clinically proven to increase milk supply\"\"FDA approved design\"\"guaranteed results in 7 days\"——这些在 Amazon 上都是红线时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12514-p2s-amazon-tos-compliance-guardrail-30519359",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-amazon-tos-compliance-guardrail/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-amazon-tos-compliance-guardrail/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ba60b0239145f68c9366ecb417e91001c37f4fc341695364120c93c18e594f1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

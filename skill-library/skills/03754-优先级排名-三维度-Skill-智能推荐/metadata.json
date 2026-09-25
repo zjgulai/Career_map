@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-roi-prioritized-skill-ranking",
+  "中文名称": "优先级排名 三维度 Skill 智能推荐",
+  "一句话作用": "触发词：技能优先级、ROI 排序、AHP、资源分配、数据就绪度。何时不用：技能注册与发现走「技能注册表」；技能全生命周期治理走「技能生命周期设计」。安全边界：评分只能使用已核实的 ROI 与就绪度输入，不得为凑排名编造收益数字。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营决策者面临\"不知道当前阶段先学哪个Skill性价比最高\"——AHP三维度评分将最高ROI Skill推荐精准度提升至91%，决策时间从2小时压缩至即时时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03754-p2s-roi-prioritized-skill-ranking-9b6cec14",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-roi-prioritized-skill-ranking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-roi-prioritized-skill-ranking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65e8d68fdd2ad81d550a365c25cfbd52b97e2b406594cedc35e36c3ac235c8be",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

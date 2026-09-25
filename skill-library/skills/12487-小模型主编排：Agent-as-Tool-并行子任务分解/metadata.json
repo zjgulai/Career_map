@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-paramanager-parallel-orchestration",
+  "中文名称": "小模型主编排：Agent-as-Tool 并行子任务分解",
+  "一句话作用": "触发词：并行编排、Agent-as-Tool、小模型主编排、选品扫描、子任务并行。何时不用：子任务有强依赖、需要 DAG 排序与局部重算用「DAG 任务解耦规划」；按任务形态选拓扑用「任务自适应拓扑路由」。安全边界：并行子任务的结论冲突不得静默取其一，必须标记待人工裁决。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营专员面临多任务串行拖慢时效——ParaManager将处理时长4小时压到50分钟，年化省18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12487-p2s-paramanager-parallel-orchestration-61e94ff1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-paramanager-parallel-orchestration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-paramanager-parallel-orchestration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "92f3889f69ad97758cd111f213239acd23166f115ec69a0d66692f750bccd73a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

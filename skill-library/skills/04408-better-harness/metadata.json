@@ -1,0 +1,22 @@
+{
+  "英文名称": "better-harness",
+  "中文名称": "待补：better-harness",
+  "一句话作用": "Use when /better-harness initializes a project Harness or reviews its lifecycle, repeated work, project feedback, assets, session outcomes, repair plans, reports, or fixes. Invoke only via slash command.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Inline analysis writes nothing. Before freezing the reviewed report input, reapply all five title gates in Findings Quality Gates to every finding. Then render and validate once: Use qoder-harness by default; use html only when the user explicitly asks",
+  "最新更新时间": "2026-09-19T03:38:29+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Use when /better-harness initializes a project Harness or reviews its lifecycle, repeated work, project feedback, assets, session outcomes, repair plans, reports, or fixes. Invoke only via slash command.时，用它产出或更新：Inline analysis writes nothing. Before free…",
+  "skill_id": "04408-better-harness-e661fd38",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/better-harness/0.2.20/skills/better-harness/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/better-harness/0.2.20/skills/better-harness/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d4552bf6058896ff5f19e287b82082a4b63de838e1e778748e0874fd139f5616",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

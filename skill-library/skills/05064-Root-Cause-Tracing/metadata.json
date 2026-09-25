@@ -1,0 +1,22 @@
+{
+  "英文名称": "Root Cause Tracing",
+  "中文名称": "待补：Root Cause Tracing",
+  "一句话作用": "Systematically trace bugs backward through call stack to find original trigger",
+  "关键输入": "Use when: - Error happens deep in execution (not at entry point) - Stack trace shows long call chain - Unclear where invalid data originated - Need to find which test/code triggers the problem",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when: - Error happens deep in execution (not at entry point) - Stack trace shows long call chain - Unclear where invalid data originated - Need to find which test/code triggers the problem时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05064-root-cause-tracing-000fabc4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Root-Cause-Tracing/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Root-Cause-Tracing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "476830e10488843688d17d13feae60ca040c769939971e8b8554f67cffb7ddf8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

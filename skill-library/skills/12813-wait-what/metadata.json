@@ -1,0 +1,22 @@
+{
+  "英文名称": "wait-what",
+  "中文名称": "待补：wait-what",
+  "一句话作用": "停一下。刚才那条消息没有说清楚——重新表述一遍。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-27T15:45:07+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要停一下。刚才那条消息没有说清楚——重新表述一遍。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12813-wait-what-2167e00c",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/.agents/skills/wait-what/SKILL.md",
+  "relative_path": "lute/project/VOA/.agents/skills/wait-what/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "304caf5ea59d4f5eff4690ba33b2a64ab3de8099847b34f77826ea5b5b8b3b6b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

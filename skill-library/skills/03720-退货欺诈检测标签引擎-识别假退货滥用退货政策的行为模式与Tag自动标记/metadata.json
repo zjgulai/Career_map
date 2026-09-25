@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-return-fraud-detection-tag-engine",
+  "中文名称": "退货欺诈检测标签引擎 识别假退货滥用退货政策的行为模式与Tag自动标记",
+  "一句话作用": "触发词：退货欺诈、薅退滥用、欺诈评分、高风险退货标记、退货自动审核。何时不用：正常退货的品质定级用「退货品质分级引擎」，退货原因文本归因用「VOC退货成本驱动因子」。安全边界：欺诈评分只作人工核查线索，不得单独作为拒绝消费者退货的依据，须保留申诉通道。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要逆向物流面临\"退货欺诈占总退货3-8%无法识别\"——多维行为特征检测自动标记高风险退货，停止自动批准，年化减少欺诈损失2万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03720-p2s-return-fraud-detection-tag-engine-469ee103",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-return-fraud-detection-tag-engine/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-return-fraud-detection-tag-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c2347e729882227a0421846cbe06ee06db1087104f3699a12f2fbf10917037ae",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

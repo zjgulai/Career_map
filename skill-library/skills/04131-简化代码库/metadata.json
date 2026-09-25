@@ -1,0 +1,22 @@
+{
+  "英文名称": "simplify-codebase",
+  "中文名称": "简化代码库）",
+  "一句话作用": "先证明再删除：审计或执行代码库简化，安全移除死代码、重复状态、冗余API与层、无主抽象、过时兼容与设计记录等偶然复杂度，不破坏行为；不用于常规代码评审、纯风格重构与性能调优。触发词：代码库简化、simplify-codebase、先证明再删除：审计或执行代码库简化，安全移除死代码、重复状态、冗余API与层、无主抽象、过时兼容与设计记录等偶然复杂度，不破坏行为；不用于常规代码评审、纯风格重构与性能调优。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Survey 交付：覆盖范围、带排序的证明记录、被拒绝或未决的高价值线索、每个不确定点的下一条所需事实。可视化伴随物被请求或确认时，单独报告它的状态与 cleanup-map 的 Finding 深链接。 让交接保持可扫读。 先给结果 ，然后只保留用户需要的证明记录、影响决策的不确定性、可视化链接与验证。不要叙述搜索过程，不要用几个标签重复同一证据，不要附通用建议，不要留空章节。简洁不减少必填的证明字段：每个字段只写一次，用最短的形式保留其主题、证据强度、后果与边界。 Change 交付：完成 execution…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要先证明再删除：审计或执行代码库简化，安全移除死代码、重复状态、冗余API与层、无主抽象、过时兼容与设计记录等偶然复杂度，不破坏行为；不用于常规代码评审、纯风格重构与性能调优。触发词：代码库简化、simplify-codebase、先证明再删除：审计或执行代码库简化，安全移除死代码、重复状态、冗余API与层、无主抽象、过时兼容与设计记录等偶然复杂度，不破坏行为；不用于常规代码评审、纯风格重构与性能调优。时，用它产出或更新：Survey 交付：覆盖范围、带排序的证明记录、被拒绝或未决的高价值线索、每个不确定点的…",
+  "skill_id": "04131-simplify-codebase-4d52f54b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/simplify-codebase/SKILL.md",
+  "relative_path": "lute/.dsh/skills/simplify-codebase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a966e05ad221c3ffb4e15a0791b80c6f5b7dd3ae0787e224007ab029582ced2e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

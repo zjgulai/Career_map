@@ -1,0 +1,22 @@
+{
+  "英文名称": "ppt-keynote",
+  "中文名称": "Keynote 风格 PPT",
+  "一句话作用": "苹果 Keynote 级别幻灯片, 一屏一卡, 键盘左右切换",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要苹果 Keynote 级别幻灯片, 一屏一卡, 键盘左右切换时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10345-ppt-keynote-2ae33784",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/ppt-keynote/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/ppt-keynote/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5a13f7e217ef352887ae0045c09dcedf18a01ea2094d7a6ab5d4329271670ad7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

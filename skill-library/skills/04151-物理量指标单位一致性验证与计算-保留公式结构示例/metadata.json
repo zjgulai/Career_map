@@ -1,0 +1,22 @@
+{
+  "英文名称": "large-file-kpi-analysis",
+  "中文名称": "物理量指标单位一致性验证与计算 (保留公式结构示例)",
+  "一句话作用": "根据数据量自动选择读取策略（大文件转Parquet），提取关键指标进行单位一致性验证与排序分析，并输出可下载的结果表格。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "if not result df.empty: result df final = result df elif 'calc result mpa' in data.columns: result df final = data[[col numerator, col denominator, col target, 'calc result mpa', 'is valid']].copy() result df final.columns = ['分子指标', '分母指标', '目标比对值', '计算结果',…",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要根据数据量自动选择读取策略（大文件转Parquet），提取关键指标进行单位一致性验证与排序分析，并输出可下载的结果表格。时，用它产出或更新：if not result df.empty: result df final = result df elif 'calc result mpa' in data.columns: result df final = data[[col numerator, col denominator, col target, 'calc result mpa', 'is val…",
+  "skill_id": "04151-large-file-kpi-analysis-8e5d64b3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-analysis/kpi-metric-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-analysis/kpi-metric-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "97866770d864f5f510e8f1ed73002842cb371752bcb58724555ba748d799be8a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

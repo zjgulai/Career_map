@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ip-infringement-risk-scan",
+  "中文名称": "上架前知识产权侵权风险自动扫描（商标专利著作权）",
+  "一句话作用": "触发词：上架前 IP 扫描、商标相似、专利重叠、著作权比对、侵权风险报告。何时不用：要监控官方商标公告抢异议窗口用「商标侵权追踪」；只做专利文本先验筛查用「专利先验技术扫描」。安全边界：扫描结论不代替法务意见，高风险条目必须二次确认；只用公开数据库，不得用于恶意竞争。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要产品团队面临\"上架前未发现知识产权风险收到律师函被迫下架\"——上架前IP三层扫描将侵权漏检率从40%降至5%，年化避免IP诉讼和强制下架损失50-200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03263-p2s-ip-infringement-risk-scan-ad48fbaf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ip-infringement-risk-scan/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ip-infringement-risk-scan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "827ea3a40dfd8cf8f7b4dbf64f727cddc3d420c5f807933a4f55cf8ecd0bab15",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

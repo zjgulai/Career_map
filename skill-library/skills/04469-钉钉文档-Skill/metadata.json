@@ -1,0 +1,22 @@
+{
+  "英文名称": "dingtalk-doc",
+  "中文名称": "钉钉文档 Skill",
+  "一句话作用": "钉钉在线文字文档（adoc）本体及其内容的操作：查找、创建、读取、文档信息、编辑、块、评论、附件与媒体、白板卡片、导入、导出(docx/markdown/pdf)、版本、模板、权限、分享及Markdown/JSONML写入。不包括：文档空间与钉盘的文件管理（归 dingtalk-drive，doc 同名原子命令已弃用）、知识库空间与节点管理（归 dingtalk-wiki）、原生 .md 文件读写（归 dingtalk-misc）、电…",
+  "关键输入": "- @file 统一协议：已有或临时文件先暂存到 cwd 后传 @相对路径；单次生成文本优先 --content - (stdin)；禁止绝对路径和 ..。 - doc +update 的动作由 --command 指定；block 操作的 ID 必须来自 +fetch --detail with-ids 或真实 block 列表。 - Schema 门禁：已知只读路由且参数明确时直接执行；写命令或 selection/参数不清、准备 Help 时，本轮仅查一次 dws schema --cli-path \"do…",
+  "关键输出": "- 保留真实 nodeId、URL、资源类型和容器；标题不能替代稳定 ID。 - 按状态恢复：partial success 只补未完成步骤；unknown 先回读且不重试写入；retryable 仅限明确未开始；权限、参数、认证失败停止。 - 仅在结果明确且关键内容回读匹配后报告写入完成。 - 搜索、列表和批量结果必须检查 complete、hasMore、continuation 和失败项；单页结果不得表述为完整集合。 - 导出/下载仅用工作目录相对路径，默认不覆盖并原子落盘。",
+  "最新更新时间": "2026-09-19T03:39:21+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要钉钉在线文字文档（adoc）本体及其内容的操作：查找、创建、读取、文档信息、编辑、块、评论、附件与媒体、白板卡片、导入、导出(docx/markdown/pdf)、版本、模板、权限、分享及Markdown/JSONML写入。不包括：文档空间与钉盘的文件管理（归 dingtalk-drive，doc 同名原子命令已弃用）、知识库空间与节点管理（归 dingtalk-wiki）、原生 .md 文件读写（归 dingtalk-misc）、电…时，用它产出或更新：- 保留真实 nodeId、URL、资源类型和容器；…",
+  "skill_id": "04469-dingtalk-doc-86ca2c72",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-doc/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-doc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eb4be4fc0d3353649d06a40e7a27a0a4cdc07f1d46d2bbaa58681386e173c428",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

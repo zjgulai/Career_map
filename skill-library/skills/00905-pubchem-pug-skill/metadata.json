@@ -1,0 +1,22 @@
+{
+  "英文名称": "pubchem-pug-skill",
+  "中文名称": "待补：pubchem-pug-skill",
+  "一句话作用": "Submit compact PubChem PUG REST requests for compound properties, descriptions, assay summaries, and substance metadata. Use when a user wants concise PubChem summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common PubChem patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact PubChem PUG REST requests for compound properties, descriptions, assay summaries, and substance metadata. Use when a user wants concise PubChem summaries时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, and either…",
+  "skill_id": "00905-pubchem-pug-skill-7db4dde1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/pubchem-pug-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/pubchem-pug-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd6e7eb745efabade4d94fcce38f5c704a12bf1a527a44eb8cd7ef5c48b6c31c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

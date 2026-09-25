@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-explainability-consumer-trust",
+  "中文名称": "推荐可解释性：消费者信任构建",
+  "一句话作用": "触发词：推荐可解释、特征贡献度、消费者信任、决策透明、解释文案。何时不用：要解决新品无历史数据的推荐曝光用「冷启动商品推荐」；要按指标阈值做账号健康预警用「账号健康预警系统」。安全边界：解释文案只能引用真实特征贡献与真实属性，不得编造未经验证的医疗、安全或认证表述；解释生成失败或无贡献度数据时不得回退成虚构理由。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品经理面临推荐黑盒引发质疑——可解释性将拒单率降20%，年化增收12万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12231-p2s-ai-explainability-consumer-trust-afe8fb49",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-ai-explainability-consumer-trust/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-ai-explainability-consumer-trust/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "038d81384377465ecb83416e9d02e50a65c06b5ed2c74fcc6a7c043df8311e9f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

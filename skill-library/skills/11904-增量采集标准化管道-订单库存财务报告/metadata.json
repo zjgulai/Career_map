@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-amazon-sp-api-data-pipeline",
+  "中文名称": "增量采集标准化管道（订单库存财务报告）",
+  "一句话作用": "触发词：SP-API采集、增量订单拉取、FBA库存同步、结算报告核对、接口限流控制。何时不用：没有官方接口、只能从页面抓取时用通用采集技能；拿到数据后要做跨源融合时用语义ETL技能。安全边界：须使用官方接口并控制在平台限流范围内，数据仅用于自有店铺运营分析，不得转售第三方数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据工程师面临\"Amazon SP-API数据采集不稳定且各报告格式不统一\"——增量采集+Schema映射将数据完整率从73%提升至99.2%，数据工程人力节省60%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11904-p2s-amazon-sp-api-data-pipeline-d6606a59",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-amazon-sp-api-data-pipeline/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-amazon-sp-api-data-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "29f007efaaa8e81e5a4551c232e1b98112532795517d2d8510ac899c6354c56b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "douyin",
+  "中文名称": "抖音商品采集",
+  "一句话作用": "通过 Android 真机自动化搜索和采集抖音电商商品，支持关键词搜索、图片找同款、商品详情与 SKU 采集、短链解析、图片/视频下载和 Excel 报告。用户要求搜索抖音商品、图搜同款、采集竞品或导出抖音商品数据时使用。依赖 phone-auto CLI。",
+  "关键输入": "env PHONE AUTO PLUGIN ROOT=/…/platforms/douyin \\ \"$NODE BIN\" /…/scripts/douyin-capture.js preflight",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要通过 Android 真机自动化搜索和采集抖音电商商品，支持关键词搜索、图片找同款、商品详情与 SKU 采集、短链解析、图片/视频下载和 Excel 报告。用户要求搜索抖音商品、图搜同款、采集竞品或导出抖音商品数据时使用。依赖 phone-auto CLI。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00209-douyin-24fd9f5c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/ecommerce-search/platforms/douyin/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/ecommerce-search/platforms/douyin/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "19f79dc78e3b33a06da30fcbc77c19dbfa3e48e7dd144eb40c2c9d662083f7eb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-creator-economy-roi-model",
+  "中文名称": "分级评估内容衰减曲线与 GMV 净贡献量化",
+  "一句话作用": "触发词：KOL 分级、微 KOL 矩阵、内容衰减曲线、GMV 净贡献、达人预算分配。何时不用：还没拿到达人候选池、要先做匹配打分时用达人匹配技能；本技能用于已合作或候选达人的效益量化。安全边界：达人合作须按平台要求标注广告合作标识；互动与转化数据不得使用刷量数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要花 $4000 签大 KOL ROAS 不如 $500 签 10 个微 KOL——Journal of Marketing 2024 田野实验证明 5K-50K 粉丝的垂直微 KOL ROI 高出一个数量级，内容衰减曲线指导最优发帖频率时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02969-p2s-creator-economy-roi-model-f8af78df",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-creator-economy-roi-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-creator-economy-roi-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "682b76819145a5499b44216ce0781caecedd26184940dda71698caff507e698f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

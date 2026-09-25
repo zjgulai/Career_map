@@ -1,0 +1,22 @@
+{
+  "英文名称": "auth-nodejs-cloudbase",
+  "中文名称": "待补：auth-nodejs-cloudbase",
+  "一句话作用": "CloudBase Node SDK auth guide for server-side identity, user lookup, and custom login tickets. This skill should be used when Node.js code must read caller identity, inspect end users, or bridge an existing user system…",
+  "关键输入": "Use this skill whenever the task involves server-side authentication or identity in a CloudBase project, and the code is running in Node.js , for example: - CloudBase 云函数 (Node runtime) that needs to know who is calling",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Use this skill whenever the task involves server-side authentication or identity in a CloudBase project, and the code is running in Node.js , for example: - CloudBase 云函数 (Node runtime) that needs to know who is calling时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00576-auth-nodejs-cloudbase-09f63a1e",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.agents/skills/auth-nodejs-cloudbase/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.agents/skills/auth-nodejs-cloudbase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0c046eff3a84c92e8041411c7e3dc2de82bd3f3d70ff392ec7d9d88431cfdd0b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

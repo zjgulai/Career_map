@@ -1,0 +1,22 @@
+{
+  "英文名称": "summarize-meeting",
+  "中文名称": "待补：summarize-meeting",
+  "一句话作用": "Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minut…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:17:04+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minut…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11167-summarize-meeting-d818f300",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/summarize-meeting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/summarize-meeting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4deabdd7f99c692ee800a80a4eaf6a688fb8873cdaaaea44b7f472499205f8e7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-anomaly-detection",
+  "中文名称": "跨境电商指标异常检测 Skill",
+  "一句话作用": "跨境电商指标异常检测Skill。提供多种检测算法（绝对值阈值、同比环比、3σ、S-ESD、ARIMA），识别三类波动（一次性/周期性/持续性），支持多时间窗口基线。 触发条件: 1. 用户提到\"异常检测\"、\"异常波动\"、\"指标预警\" 2. 用户询问\"这个数据是否正常\"、\"波动是否异常\" 3. 用户需要\"监控指标\"、\"异常识别\" 4. 用户提到\"3σ\"、\"S-ESD\"、\"ARIMA预测\" 输出内容: - 异常检测结果（正常/异常） -…",
+  "关键输入": "时间序列数据格式 : 字段说明 : 字段 说明 格式 ------ ------ ------ date 日期 YYYY-MM-DD metric value 指标值 数值 target value 目标值 数值（可选）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T00:12:08+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Q: 阈值如何设定？ A: 优先级：战略指引 历史最佳表现 行业平均 Q: 如何避免误报？ A: 使用多窗口基线、活动日历白名单、联动规则 Q: Z分数选择多少合适？ A: 一般选择1.96（95%置信）或2.58（99%置信）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09423-cbec-anomaly-detection-68b8a5c5",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/07-monitoring-analysis/anomaly-detection/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/07-monitoring-analysis/anomaly-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "220d8651b5937082bdc7c1439576c33f8261292bda2839753c2ca3876744d847",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

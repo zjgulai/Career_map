@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-browser",
+  "中文名称": "待补：agent-browser",
+  "一句话作用": "gAAAAABqYL4Rkz LFfN6OTywblX66-swYu HNxyCtcK33cR3ZtWy pOmWoewPPE0NAfoafRQ2s45yjAH3VkrKh4dYj1qUSib3H6fMLiWwRmFAkB0Fq4lvGE--RPgltLlGi2FZDoicc5R8EoA-R wMkDhuEiI1Vjd6UdLq5qaxpCMu9nhI-cy3O6DxZ2hO3yR2HNMcGHtILReDGGGTKo0BbGsHCE…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-22T20:56:49+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要gAAAAABqYL4Rkz LFfN6OTywblX66-swYu HNxyCtcK33cR3ZtWy pOmWoewPPE0NAfoafRQ2s45yjAH3VkrKh4dYj1qUSib3H6fMLiWwRmFAkB0Fq4lvGE--RPgltLlGi2FZDoicc5R8EoA-R wMkDhuEiI1Vjd6UdLq5qaxpCMu9nhI-cy3O6DxZ2hO3yR2HNMcGHtILReDGGGTKo0BbGsHCE…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06065-agent-browser-94733952",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/agent-browser/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/agent-browser/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c829fb7300ee5c8ad3f6339a9bdc49c3660615a3a640a30382c5888cee2c536e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

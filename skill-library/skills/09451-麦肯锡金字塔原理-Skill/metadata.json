@@ -1,0 +1,22 @@
+{
+  "英文名称": "mckinsey-pyramid-principle",
+  "中文名称": "麦肯锡金字塔原理 Skill",
+  "一句话作用": "Use when users need to structure a deck or argument with top-down logic, MECE decomposition, storyline hierarchy, or issue tree framing before writing slide content.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-13T13:30:02+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use when users need to structure a deck or argument with top-down logic, MECE decomposition, storyline hierarchy, or issue tree framing before writing slide content.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09451-mckinsey-pyramid-principle-783577a2",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/mckinsey_ppt/skills/01-content-planning/mckinsey-pyramid-principle/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/mckinsey_ppt/skills/01-content-planning/mckinsey-pyramid-principle/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ae5e4c49153f364f215a9ebb3b89f825db2959b048bfee63db83f4f54997f7e4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

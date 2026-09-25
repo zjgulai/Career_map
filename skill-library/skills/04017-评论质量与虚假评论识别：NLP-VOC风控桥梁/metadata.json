@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-fraud-review-detection",
+  "中文名称": "评论质量与虚假评论识别：NLP-VOC风控桥梁",
+  "一句话作用": "触发词：虚假评论识别、恶意差评取证、评论团伙检测、BSR 异常下滑、申诉证据包、自有评论自查。何时不用：只看单条评论的文本或图文虚假概率用「AI-Fake-Review-Detection」或「Multimodal-Fake-Review-Detection」；要撰写 POA 申诉文案用「Amazon-Account-Appeal-Strategy」；本技能做文本+行为+网络三层联合检测与证据打包。安全边界：仅用于自有 ASIN 的防…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要竞品在黑五前刷20条1星差评导致BSR暴跌但卖家无法证明是恶意——三层虚假评论检测（文本+行为+网络团伙）生成申诉证据包，成功删除恶意差评保护旺季GMV20-80万元，同时扫描自有评论防封号时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04017-p2s-voc-fraud-review-detection-7d3ddc64",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voc-fraud-review-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voc-fraud-review-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cb3945514993c250076e77bb435c639e3b0ea60208b532c32108e81abbed36b1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

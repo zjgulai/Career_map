@@ -1,0 +1,22 @@
+{
+  "英文名称": "kpi-design",
+  "中文名称": "待补：kpi-design",
+  "一句话作用": "Design KPI frameworks, set targets, develop measurement plans, and estimate market/opportunity sizes (TAM/SAM/SOM). Use when success metrics, drivers, guardrails, targets, or measurement approach need to be defined or i…",
+  "关键输入": "Pick the simplest sound approach: - Top-down : reliable aggregate market data exists. - Bottom-up : market can be built from observable units and assumptions. - Value-based : estimate from value created rather than published market total. Use mixed approach o…",
+  "关键输出": "Close with: - Market definition - Estimate or range - Method - Main uncertainty drivers - Sensitivity takeaways - Validation priorities - Practical interpretation for the user's decision",
+  "最新更新时间": "2026-09-12T16:24:30+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Design KPI frameworks, set targets, develop measurement plans, and estimate market/opportunity sizes (TAM/SAM/SOM). Use when success metrics, drivers, guardrails, targets, or measurement approach need to be defined or i…时，用它产出或更新：Close with: - Market defin…",
+  "skill_id": "00060-kpi-design-2617a256",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-74471462U1788279-8A8E75-0949-3A5374/agent-core/skills/kpi-design/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-74471462U1788279-8A8E75-0949-3A5374/agent-core/skills/kpi-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bbaeb6dc16ca86dad11182337011ea5daea08c8f8f9421d243166e42b0f53260",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

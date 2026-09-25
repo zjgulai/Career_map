@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-numbers-senders",
+  "中文名称": "待补：twilio-numbers-senders",
+  "一句话作用": "Choose the right Twilio number type and sender BEFORE building. Covers phone numbers (local, toll-free, short code, mobile), alphanumeric sender IDs, WhatsApp senders, RCS agents, international availability, and regulat…",
+  "关键输入": "The call trust stack is layered — each product builds on the one below: Prerequisites for Basic Branded Calling: 1. Approved Primary Customer Profile in Trust Hub (EIN, business name, address, authorized rep) — 1-3 business days 2. SHAKEN/STIR — automatic onc…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Choose the right Twilio number type and sender BEFORE building. Covers phone numbers (local, toll-free, short code, mobile), alphanumeric sender IDs, WhatsApp senders, RCS agents, international availability, and regulat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01094-twilio-numbers-senders-15698d7c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-numbers-senders/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-numbers-senders/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de7b4c12d3e686509a0e21d3567dd5afe7d72e5ee6803b96632407859ad7b1de",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

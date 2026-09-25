@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-trace-clickstream-embedding",
+  "中文名称": "跨会话点击流用户嵌入",
+  "一句话作用": "触发词：跨会话行为建模、点击流嵌入、购买意图识别、再营销定向、页面路径分析。何时不用：只做价值分层用 RFM 类技能，估计渠道真实增量用增量分析类技能，本技能从多次访问路径判断用户是否处于购买决策阶段。安全边界：点击流须按隐私政策采集与脱敏，不得跨站追踪个体，再营销定向须提供退出方式与频次上限。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题： 母婴出海跨境独立站（如婴儿推车、有机奶粉、儿童安全座椅品类）面临典型问题：用户决策周期长（备孕→孕期→育儿长达数年），单次会话转化率极低（通常 <1%），但通过多次访问才能判断哪些用户真正处于购买决策阶段时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11851-p2s-trace-clickstream-embedding-e56d428c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-trace-clickstream-embedding/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-trace-clickstream-embedding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a41678e41056031e8e431bd65bcd6e5aae88d81e0b611fdaf792d10e07e34695",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

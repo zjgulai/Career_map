@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-post-purchase-review-request-dispatcher",
+  "中文名称": "订单完成后按满意度预测分层分发评论邀请",
+  "一句话作用": "触发词：评论邀请、CSAT 预测、分层触达、购后跟进、补偿前置。何时不用：差评已产生要回复用「差评回复生成」；本技能管的是评论写出来之前的触达。安全边界：严禁以奖励换好评或诱导修改评价，邀请须符合平台政策与用户 opt-in 授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"评论邀请请求被忽略或引发差评\"——CSAT预测分层分发将评论响应率从12%提升至28%，年化新增300+条4-5星评论时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03602-p2s-post-purchase-review-request-dispatcher-6de6697b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-post-purchase-review-request-dispatcher/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-post-purchase-review-request-dispatcher/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f5296158e62d24da055bb95fbf787eca62a1dbd773eb78cc9eda48bd0e3e0dd9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-knowledge-graph-rec",
+  "中文名称": "知识图谱增强推荐",
+  "一句话作用": "触发词：知识图谱推荐、KG 路径推理、关联购买率、互补品推荐、成分图谱、认证推荐理由。何时不用：常规替代品与搭售推荐用「Skill-Bundle-Recommendation-Complementary」；需要无偏因果推荐用「Skill-Causal-Deconfounded-Recommendation」；只做推荐归因解释用「Skill-Explainable-Recommendation」；按心理账户挑捆绑对象用「心理账户捆绑定价…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"奶粉推荐只推替代品、关联购买率仅8%\"——成分-认证知识图谱路径推理将关联购买率提升至18%、欧洲市场转化率提升1.9%，年化GMV增量约200-300万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12323-p2s-knowledge-graph-rec-cd5c3400",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-knowledge-graph-rec/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-knowledge-graph-rec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4800f6d7a39742f0e85f1cc8ed8b20c8b89383c66761a9aa67b2e88b2defb0cb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

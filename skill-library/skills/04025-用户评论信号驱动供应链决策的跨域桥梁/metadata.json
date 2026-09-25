@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-supply-chain-signal-bridge",
+  "中文名称": "用户评论信号驱动供应链决策的跨域桥梁",
+  "一句话作用": "触发词：VOC 信号、缺货投诉、DPI 指数、补货预警、竞品迁移。何时不用：要用评论情感作领先指标增强销量预测时用「VOC 趋势信号预测」；纯按销量驱动补货用常规预测。安全边界：评论采集需通过授权接口或合规方式获取，仅使用评论字段本身，不含个人身份信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要库存系统显示健康但用户评论里缺货投诉已连续3周攀升——评论信号DPI指数比销量数据提前4周触发补货预警，避免旺季断货损失年化40-120万元同时捕获竞品迁移信号追回流失用户时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04025-p2s-voc-supply-chain-signal-bridge-bc1ec2ca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voc-supply-chain-signal-bridge/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voc-supply-chain-signal-bridge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e04530244d210eb4e97fb9353622757e51aea55b00604ce7d347948cfb1c3aeb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

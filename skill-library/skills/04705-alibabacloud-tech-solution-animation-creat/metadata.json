@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibabacloud-tech-solution-animation-creation-auto-deploy",
+  "中文名称": "待补：alibabacloud-tech-solution-animation-creation-auto-deploy",
+  "一句话作用": "Alicloud Service Scenario-Based Skill. Use for auto-deploying the \"Build AI Animation Story Creation App\" solution. Automatically creates OSS Bucket, deploys FC application via Devs template, and stops at the experience…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "aliyun modelstudio delete-api-key --api-key-id \"$API KEY ID\" --user-agent AlibabaCloud-Agent-Skills/alibabacloud-tech-solution-animation-creation-auto-deploy",
+  "最新更新时间": "2026-09-19T03:51:27+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Alicloud Service Scenario-Based Skill. Use for auto-deploying the \"Build AI Animation Story Creation App\" solution. Automatically creates OSS Bucket, deploys FC application via Devs template, and stops at the experience…时，用它产出或更新：aliyun modelstudio delete-…",
+  "skill_id": "04705-alibabacloud-tech-solution-animation-creation-auto-deploy-5b8b8431",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/alibabacloud-tech-solution-animation-creation-auto-deploy/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/alibabacloud-tech-solution-animation-creation-auto-deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b9be199072e1f2d81f4b8f670f7b3d065bf124d36b693bf4d183714a89e68fb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

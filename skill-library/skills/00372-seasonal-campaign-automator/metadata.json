@@ -1,0 +1,22 @@
+{
+  "英文名称": "seasonal-campaign-automator",
+  "中文名称": "待补：seasonal-campaign-automator",
+  "一句话作用": "Orchestrate and automate high-velocity seasonal marketing events (BFCM, Holidays, Prime Day). Implement discount scheduling, tiered access, and cross-channel coordination to maximize seasonal revenue peaks.",
+  "关键输入": "- The \"Pricing Hangover\": Forgetting to set an end date on discounts. Always verify the Schedule in your Admin before 12:00 AM on launch day. - Over-SMSing: Sending more than 3 SMS in a 4-day period during BFCM leads to…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:35+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- The \"Pricing Hangover\": Forgetting to set an end date on discounts. Always verify the Schedule in your Admin before 12:00 AM on launch day. - Over-SMSing: Sending more than 3 SMS in a 4-day period during BFCM leads to…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00372-seasonal-campaign-automator-6a05cde5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/seasonal-campaign-automator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/seasonal-campaign-automator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62a61cc0c501b3bb62814d8005b6a4d457b964c3f557db9faa29e65306741a8d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

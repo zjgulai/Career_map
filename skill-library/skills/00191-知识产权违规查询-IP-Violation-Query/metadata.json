@@ -1,0 +1,22 @@
+{
+  "英文名称": "违规处罚查询",
+  "中文名称": "知识产权违规查询 (IP Violation Query)",
+  "一句话作用": "商家店铺及商品知识产权违规查询。识别用户询问\"店铺违规\"、\"扣分情况\"、\"计振\"、\"商品违规\"、\"商品{ID}违规情况\"或包含商品链接的违规查询时，触发本流程。系统将调用违规查询接口，为商家生成违规情况报告。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "参数 值 说明 ------ ------ ------ aliId 由网关自动注入 无需传递 businessTypeIn \"364,409\" 知识产权类违规的 businessType 编码 limit 10（默认） / 100（指定时间范围时） 见下方规则 limit 动态取值规则： - 用户 未指定时间范围 （如\"帮我查店铺违规\"、\"我有哪些商品违规\"）→ limit = 10，返回最近10条 - 用户 指定了时间范围 （如\"4月的违规\"、\"上个月的违规\"、\"最近三个月的违规\"）→ limit = 100…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要商家店铺及商品知识产权违规查询。识别用户询问\"店铺违规\"、\"扣分情况\"、\"计振\"、\"商品违规\"、\"商品{ID}违规情况\"或包含商品链接的违规查询时，触发本流程。系统将调用违规查询接口，为商家生成违规情况报告。时，用它产出或更新：参数 值 说明 ------ ------ ------ aliId 由网关自动注入 无需传递 businessTypeIn \"364,409\" 知识产权类违规的 businessType 编码 limit 10（默认） / 100（指定时间范围时） 见下方规则 limit 动态取值…",
+  "skill_id": "00191-skill-c69b2e97",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-ip-violation-query/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-ip-violation-query/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "42410c68a021259aec9268828285472cd06d9b2ee9f957999115151501779e67",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

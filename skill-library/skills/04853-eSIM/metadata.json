@@ -1,0 +1,22 @@
+{
+  "英文名称": "eSIM",
+  "中文名称": "待补：eSIM",
+  "一句话作用": "Implement and troubleshoot eSIM across consumer activation, carrier integration, and RSP development.",
+  "关键输入": "- GSMA SAS (Security Accreditation Scheme) mandatory for production SM-DP+ — cannot go live without it - Use test eUICCs during development — production EIDs must not touch test environments - GSMA TS.48 defines RSP test cases — certification testing follows…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- \"Profile already exists\" error — delete existing profile before retry, or request new MatchingId from SM-DP+ - Download fails mid-process — ES9+ requires stable HTTPS, retry on better connection, not a code issue - Pr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04853-esim-a911457b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/eSIM/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/eSIM/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "570a07a2022d2e2377a236871d81c74f4f0a4d4abdbfe21ce046b60bf4426206",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

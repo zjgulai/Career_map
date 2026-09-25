@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 渠道综合绩效分析（POS·周转·账期）",
+  "中文名称": "待补：KA 渠道综合绩效分析（POS·周转·账期）",
+  "一句话作用": "当需要从 KA 视角汇总 POS 动销、货架效率、库存周转与应收账期健康度，形成可执行改进清单并触发跨域动作时调用；不替代单店动销归因或会计核销。",
+  "关键输入": "- 已有 KA POS 或 sell-in/sell-out 口径说明。 - 可用账期数据（应收余额、逾期分布）用于健康度评分。 - 至少有一个完整对比周期（建议 4 周以上）。",
+  "关键输出": "- 表：KA account region KPI score cash score risk level top issue next action - 摘要：本期红灯账户 关键动作 负责人",
+  "最新更新时间": "2026-03-22T00:38:56+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要当需要从 KA 视角汇总 POS 动销、货架效率、库存周转与应收账期健康度，形成可执行改进清单并触发跨域动作时调用；不替代单店动销归因或会计核销。时，用它产出或更新：- 表：KA account region KPI score cash score risk level top issue next action - 摘要：本期红灯账户 关键动作 负责人",
+  "skill_id": "09928-ka-pos-bac09954",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/strategy-insight/ka-performance-analyzer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/strategy-insight/ka-performance-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7ed1fd789e654c9f4ea7fbf2b1dd3f9968448b4f4990400b7cbd6acc81dfb532",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-utils",
+  "中文名称": "工具函数库",
+  "一句话作用": "GDScript 工具函数库。提供常用的辅助函数，可直接复制到项目中使用，或通过 Autoload 全局访问。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "static func positive mod(a: int, b: int) - int: return ((a % b) + b) % b",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要GDScript 工具函数库。提供常用的辅助函数，可直接复制到项目中使用，或通过 Autoload 全局访问。时，用它产出或更新：static func positive mod(a: int, b: int) - int: return ((a % b) + b) % b",
+  "skill_id": "05961-godot-utils-8fda10a3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-utils/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-utils/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d81bcf257b86b9ff102745e61070a7208943d905a4ff849c31f68a2a8e3df65",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

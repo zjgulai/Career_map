@@ -1,0 +1,22 @@
+{
+  "英文名称": "equity-researcher",
+  "中文名称": "待补：equity-researcher",
+  "一句话作用": "机构级投研报告生成技能。覆盖中国A股、港股、美股上市公司。输出模式：1）投资速览：3-5页，含公司概览、核心财务指标、估值倍数、投资逻辑与风险因素；2）深度研报：≥25页，含行业分析、产业链图谱、三表模型、DCF估值、情景分析与敏感性测试。触发条件：1）直接请求：分析/看看/研究/调研/介绍一下 + 公司名或股票；2）投资询问：你怎么看/能不能买/值得投吗/帮我看看/扒一扒 + 公司或股票；3）关键词：研报、投资简报、投资速览、公司一…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:05:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要机构级投研报告生成技能。覆盖中国A股、港股、美股上市公司。输出模式：1）投资速览：3-5页，含公司概览、核心财务指标、估值倍数、投资逻辑与风险因素；2）深度研报：≥25页，含行业分析、产业链图谱、三表模型、DCF估值、情景分析与敏感性测试。触发条件：1）直接请求：分析/看看/研究/调研/介绍一下 + 公司名或股票；2）投资询问：你怎么看/能不能买/值得投吗/帮我看看/扒一扒 + 公司或股票；3）关键词：研报、投资简报、投资速览、公司一…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10577-equity-researcher-729c4be9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/equity-researcher/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/equity-researcher/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ddedb5b926d231ea85b2648f95fe7aa6a89da955fc9868874529b671b18c5633",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

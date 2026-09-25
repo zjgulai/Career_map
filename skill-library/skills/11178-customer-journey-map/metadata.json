@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-journey-map",
+  "中文名称": "待补：customer-journey-map",
+  "一句话作用": "Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing t…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:49+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing t…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11178-customer-journey-map-5f52e7a9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/customer-journey-map/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/customer-journey-map/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "656c0e16318b3b24870065a8eabb8a116b72e47c167472836ce76ea97ec5c75e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

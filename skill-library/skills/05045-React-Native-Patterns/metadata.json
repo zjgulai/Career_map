@@ -1,0 +1,22 @@
+{
+  "英文名称": "React Native Patterns",
+  "中文名称": "待补：React Native Patterns",
+  "一句话作用": "React Native development patterns cover project structure, navigation, state management, and best practices for building cross-platform mobile applications. Effective React Native development uses pro",
+  "关键输入": "Inputs : - Component props - Navigation routes - State data Entry Conditions : - React Native CLI installed - Project initialized - Dependencies configured Outputs : - Rendered UI - State updates - Navigation events Artifacts Required (Deliverables) :",
+  "关键输出": "Inputs : - Component props - Navigation routes - State data Entry Conditions : - React Native CLI installed - Project initialized - Dependencies configured Outputs : - Rendered UI - State updates - Navigation events Artifacts Required (Deliverables) :",
+  "最新更新时间": "2026-02-22",
+  "业务场景": "Backend",
+  "解决具体问题": "当需要Internal documentation and examples Official documentation and best practices Community resources and discussions时，用它产出或更新：Inputs : - Component props - Navigation routes - State data Entry Conditions : - React Native CLI installed - Project initialized - D…",
+  "skill_id": "05045-react-native-patterns-f264d904",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/React-Native-Patterns/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/React-Native-Patterns/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "2efe6001487118ef30d3d0a012d85e9cebea306b4d632349fc1e5eae02306049",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "content-strategy",
+  "中文名称": "待补：content-strategy",
+  "一句话作用": "- When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blo…",
+  "关键输入": "Extract from customer-facing teams: - Common objections - Repeated questions - Support ticket patterns - Success stories - Feature requests and underlying problems ---",
+  "关键输出": "When creating a content strategy, provide:",
+  "最新更新时间": "2026-09-08T01:13:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blo…时，用它产出或更新：When creating a content st…",
+  "skill_id": "02506-content-strategy-05fbb8da",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/content-strategy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/content-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "acbfe1c2a54b2d65da4f21e7ff0889408b44870031d653f04ca0a992390e19bd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

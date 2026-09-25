@@ -1,0 +1,22 @@
+{
+  "英文名称": "用户故事拆解",
+  "中文名称": "用户故事拆解",
+  "一句话作用": "从Epic或大需求中拆解出独立可交付的User Story，附带Acceptance Criteria和Story Point估算。 内置INVEST原则校验和5种Story拆分模式库。连接~~Notion后可写入团队知识库。 当用户说\"用户故事\"、\"需求拆解\"、\"AC\"、\"Story拆分\"、\"拆需求\"、\"拆Epic\"、\"写user story\"、 \"验收标准\"、\"拆任务\"、\"story map\"、\"backlog整理\"、\"sprin…",
+  "关键输入": "字段 必填 说明 ------ ------ ------ 需求描述 是 Epic或大需求的描述，可粘贴PRD片段 拆分粒度 否 Sprint级（1-3天）/ 迭代级（1-2周），默认Sprint级 团队构成 否 前后端分离/全栈/含移动端，影响按端拆分的决策 估算体系 否 Fibonacci（1/2/3/5/8/13）/ T-shirt（S/M/L/XL），默认Fibonacci",
+  "关键输出": "如果连接了~~Notion： 1. 将Story Map写入 Notion 数据库 如果未连接： 1. 以Markdown格式输出完整Story Map",
+  "最新更新时间": "2026-09-19T03:38:51+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要从Epic或大需求中拆解出独立可交付的User Story，附带Acceptance Criteria和Story Point估算。 内置INVEST原则校验和5种Story拆分模式库。连接~~Notion后可写入团队知识库。 当用户说\"用户故事\"、\"需求拆解\"、\"AC\"、\"Story拆分\"、\"拆需求\"、\"拆Epic\"、\"写user story\"、 \"验收标准\"、\"拆任务\"、\"story map\"、\"backlog整理\"、\"sprin…时，用它产出或更新：如果连接了~~Notion： 1. 将Story M…",
+  "skill_id": "04618-skill-c3813128",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/用户故事拆解/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/用户故事拆解/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5a08ef349f8ea6bfb7ff175f272e85992eed79f1acc329052181776e29585fc9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

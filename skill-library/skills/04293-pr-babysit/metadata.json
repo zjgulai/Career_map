@@ -1,0 +1,22 @@
+{
+  "英文名称": "pr-babysit",
+  "中文名称": "待补：pr-babysit",
+  "一句话作用": "Monitor PRs, fix CI failures, address review comments, resolve merge conflicts, and restack stacks. Supports independent PRs, Graphite stacks, and GitHub stacked PRs (gh-stack).",
+  "关键输入": "1. Verify authentication: 2. Determine the current repo: Split into OWNER and REPO for API calls. 3. Fetch latest refs:",
+  "关键输出": "Only begin this step after ALL subagents from Step 4a have been launched. Do not call get task output for any subagent until every group's subagent has been started and you have all task ids in hand. Maintain a task id to group key mapping : As you launch eac…",
+  "最新更新时间": "2026-05-16T12:09:44+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Monitor PRs, fix CI failures, address review comments, resolve merge conflicts, and restack stacks. Supports independent PRs, Graphite stacks, and GitHub stacked PRs (gh-stack).时，用它产出或更新：Only begin this step after ALL subagents from Step 4a have been launc…",
+  "skill_id": "04293-pr-babysit-cb17b87d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.grok/bundled/skills/pr-babysit/SKILL.md",
+  "relative_path": "lute/.grok/bundled/skills/pr-babysit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d63a5ceccc9e01ca28847bf0a387b0268c65d3b7007acbcd8bf895aca628e35",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

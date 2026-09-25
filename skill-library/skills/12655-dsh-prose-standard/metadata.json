@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-prose-standard",
+  "中文名称": "待补：dsh-prose-standard",
+  "一句话作用": "Use when writing, reviewing, restoring, trimming, or auditing prose in the deepseek-harness repo, including deciding where documentation or comments are required across Markdown, JSDoc, code and test comments, prompts,…",
+  "关键输入": "Require an explicit scope. If it is missing, report the required input and stop; do not infer a repository-wide scope or begin an interview. Accept mode: automatic interactive; default to automatic. Enter interactive mode only when the user explicitly request…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T11:24:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when writing, reviewing, restoring, trimming, or auditing prose in the deepseek-harness repo, including deciding where documentation or comments are required across Markdown, JSDoc, code and test comments, prompts,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12655-dsh-prose-standard-0c6bbc09",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-prose-standard/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-prose-standard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df56be84f9ee917a34055c9e229d06c409bce478de7bb0deb233240c1887f2eb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

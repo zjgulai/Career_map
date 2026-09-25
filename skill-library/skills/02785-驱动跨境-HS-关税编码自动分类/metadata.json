@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-atlas-hts-tariff-classification",
+  "中文名称": "驱动跨境 HS 关税编码自动分类",
+  "一句话作用": "触发词：HS编码、关税分类、HTS编码、申报归类、关税税率核算。何时不用：需要基于历史申报数据训练分类模型并度量疑难占比时用HS编码自动分类引擎；需要做清关风险评分预警时用清关多维风险评分。安全边界：候选置信度偏低或属争议品类时必须转人工复核并评估是否需要申请预裁定，不得直接用于报关申报。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴新品 HS 编码人工申报错误率 15-20%，清关延误 7-14 天或追补税款 5-50 万元——LLM 微调后自动分类 10 位 HTS 编码，准确率 40%（比 GPT-5 高 15pp），申报效率提升 100 倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02785-p2s-atlas-hts-tariff-classification-5e2fd5cf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-atlas-hts-tariff-classification/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-atlas-hts-tariff-classification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b823e8baf94576420e4354e682a37e9bca211ac37eafd521da6c5df4b04c6fb5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

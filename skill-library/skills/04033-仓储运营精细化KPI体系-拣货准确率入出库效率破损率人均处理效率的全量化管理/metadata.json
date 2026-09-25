@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-warehouse-operations-kpi-picking-efficiency",
+  "中文名称": "仓储运营精细化KPI体系 拣货准确率入出库效率破损率人均处理效率的全量化管理",
+  "一句话作用": "触发词：拣货准确率、人均效率、破损率、大促排班。何时不用：只关注出库时效与 SLA 达成时用出库履约类技能；单点异常告警用异常 Tag 引擎类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要大促8人仓库应对6200订单导致拣货准确率崩至97.5%破损率激增——仓储运营五维KPI（拣货准确率/入出库效率/破损率/人均效率）+ 提前2周弹性人力规划，精确到人的大促备战时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04033-p2s-warehouse-operations-kpi-picking-efficiency-c9aaee27",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-warehouse-operations-kpi-picking-efficiency/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-warehouse-operations-kpi-picking-efficiency/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "18897a7c3a7c74bc18acb24bdd4076919ac558ede7e2d2ff8b251de68085153f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

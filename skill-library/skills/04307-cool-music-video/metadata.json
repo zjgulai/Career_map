@@ -1,0 +1,22 @@
+{
+  "英文名称": "cool-music-video",
+  "中文名称": "待补：cool-music-video",
+  "一句话作用": "Create one 16:9 music-driven short up to 15 seconds from a song, performer reference, lyrics, or style direction. Best for collage, rap, and fashion performance; not full-song or multi-part MVs.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:02:44+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create one 16:9 music-driven short up to 15 seconds from a song, performer reference, lyrics, or style direction. Best for collage, rap, and fashion performance; not full-song or multi-part MVs.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04307-cool-music-video-e8605c5c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/cool-music-video/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/cool-music-video/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "44a45df6cbae0898eba9b999e5cff3289186a100022e7fe859670a8e2ab01328",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

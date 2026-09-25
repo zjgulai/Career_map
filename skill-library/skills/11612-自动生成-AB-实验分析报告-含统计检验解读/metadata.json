@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-autonomous-ab-report-agent",
+  "中文名称": "自动生成 AB 实验分析报告 含统计检验解读",
+  "一句话作用": "触发词：自动报告、统计检验解读、FDR校正、报告生成、分析师提效。何时不用：只要单个实验的结论判定、不需要成稿报告时用A/B结果解读类技能。安全边界：报告只含聚合统计不含个人信息；须设统计阈值硬约束，不允许LLM推翻p 0.05的结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要分析师被每月 5-10 个 Listing AB 实验的手工报告撰写工作淹没——引入 Agent 自动报告生成（统计检验解读+业务建议），人均报告耗时从3小时→15分钟，释放分析师年化2400小时投入高价值决策。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11612-p2s-autonomous-ab-report-agent-2bd0ebf8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-autonomous-ab-report-agent/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-autonomous-ab-report-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a923539c36c7cc0c9becedc28f93bddf586cf29aa9ae621374c3cd97ca7adfd1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

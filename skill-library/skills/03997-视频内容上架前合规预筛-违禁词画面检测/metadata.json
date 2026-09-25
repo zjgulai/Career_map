@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-video-compliance-pre-screen",
+  "中文名称": "视频内容上架前合规预筛（违禁词画面检测）",
+  "一句话作用": "触发词：视频合规预筛、违禁词检测、画面违规检测、BGM版权检测、上架前审查。何时不用：只审商品文案与图片宣称时用「上架前 IP 侵权扫描」；要持续跟踪平台规则与费率变更用「平台费率变化监控」。安全边界：结论只作上架前自检，不替代平台官方审核与法务判断；不得把含未授权肖像、音乐或他人素材的样片用于留档检测。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"视频上架后因违禁词被平台下架导致流量清零\"——上架前多模态合规预筛将违规视频漏检率从25%降至2%，年化保护视频流量价值20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03997-p2s-video-compliance-pre-screen-832f14d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-video-compliance-pre-screen/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-video-compliance-pre-screen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "31cacd1065d6ed8d2dec4c65079f0adc46ecb929574f05fbcb3efc6f6e8c7ba4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

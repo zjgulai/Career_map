@@ -1,0 +1,22 @@
+{
+  "英文名称": "weekly-journal-feedback",
+  "中文名称": "周记评语生成",
+  "一句话作用": "为中学生周记生成个性化评语，融合情感共鸣与写作建议。当教师需要批改周记、给学生周记写评语、点评学生日记或随笔时使用。评语默认 60-100 字，先肯定与共情，再给出一条具体可操作的改进建议。",
+  "关键输入": "教师会提供一篇或多篇学生周记原文，可能附带： - 学生姓名或代号（评语中可不点名，视教师习惯） - 特殊说明（如该生近期状态、需重点关注的方面） 若只给了周记正文，直接开始生成，无需追问。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:37+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要为中学生周记生成个性化评语，融合情感共鸣与写作建议。当教师需要批改周记、给学生周记写评语、点评学生日记或随笔时使用。评语默认 60-100 字，先肯定与共情，再给出一条具体可操作的改进建议。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04378-weekly-journal-feedback-de7a7f41",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/agent-design-studio/1.1.0/skills/weekly-journal-feedback/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/agent-design-studio/1.1.0/skills/weekly-journal-feedback/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d391721dbd45ee0b8a6f7e3195f55650c80128fb72528060d41eac32fcd40b82",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "remotion-best-practices",
+  "中文名称": "待补：remotion-best-practices",
+  "一句话作用": "Best practices for Remotion - Video creation in React",
+  "关键输入": "Use this skills whenever you are dealing with Remotion code to obtain the domain-specific knowledge.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:34+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use this skills whenever you are dealing with Remotion code to obtain the domain-specific knowledge.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00363-remotion-best-practices-3d1a556d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/remotion/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/remotion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ac73714a3ffe2d6a80834d6fcc2126430aa5fd6f3918d6b7d7d0fdf4c54456ee",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

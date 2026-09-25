@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-transaction-anomaly-detection",
+  "中文名称": "异常交易检测）",
+  "一句话作用": "触发词：异常交易、盗刷、机刷下单、实时拦截、订单冻结。何时不用：账号间共享地址与设备的退货团伙走「退货欺诈识别」；促销券批量套利走「促销欺诈检测」。安全边界：本技能只产出异常评分与冻结建议，实际 hold 订单、冻结资金须由确定性风控执行层按规则执行，模型不得直接操作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要同一 IP 在 10 分钟内下 5 单跨州发货使用 5 张信用卡，人工审核滞后导致盗刷损失 $5000——Isolation Forest 实时异常交易检测在毫秒内触发 hold 订单，年化止损 3-8 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03975-p2s-transaction-anomaly-detection-2ab05611",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-transaction-anomaly-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-transaction-anomaly-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "154498654ef3ba31833a1885e07e6cfb9ea6da14fac904a00b9bddb1cae83b4b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

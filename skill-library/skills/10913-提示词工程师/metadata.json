@@ -1,0 +1,22 @@
+{
+  "英文名称": "prompt-engineer",
+  "中文名称": "提示词工程师",
+  "一句话作用": "设计与评测 LLM 提示词：选模式（zero-shot、few-shot、CoT）、写带人设与护栏的系统提示词、搭结构化输出 schema，并用测试集与指标衡量效果。触发词：提示词设计、prompt 优化、系统提示词、few-shot、提示词评测、结构化输出、prompt-engineer。何时不用：只处理提示词本身的设计、重构与评测，不做模型微调；把已有 agent 指令文件做结构拆分用 agent-md-refactor，写给人或…",
+  "关键输入": "- 为新的 LLM 应用设计提示词 - 优化已有提示词，提升准确率或效率 - 实现思维链（chain-of-thought）或少样本学习（few-shot） - 编写带人设与护栏的系统提示词 - 构建结构化输出的 schema（JSON 模式、函数调用） - 建设提示词的评测与测试框架 - 排查 LLM 输出不稳定或质量差的问题 - 在不同模型或供应商之间迁移提示词",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T15:32:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 为新的 LLM 应用设计提示词 - 优化已有提示词，提升准确率或效率 - 实现思维链（chain-of-thought）或少样本学习（few-shot） - 编写带人设与护栏的系统提示词 - 构建结构化输出的 schema（JSON 模式、函数调用） - 建设提示词的评测与测试框架 - 排查 LLM 输出不稳定或质量差的问题 - 在不同模型或供应商之间迁移提示词时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10913-prompt-engineer-e567828c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/prompt-engineer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/prompt-engineer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "047cff517c4e3289d3b683b010426f6669f8d59081fc8ac2068f62cf25eee374",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

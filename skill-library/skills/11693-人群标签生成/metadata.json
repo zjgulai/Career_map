@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gplr",
+  "中文名称": "人群标签生成",
+  "一句话作用": "触发词：p2s-gplr。GPLR 人群标签生成 — 从嵌入到可解释营销人群",
+  "关键输入": "传统的用户表示（如SoMeR生成的嵌入向量）存在两个关键缺陷： 1. 不可解释 ：黑盒嵌入难以被营销团队理解和使用 2. 不稳定 ：RFM等传统分群方法随时间波动大（13.8倍差异）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:13+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要传统的用户表示（如SoMeR生成的嵌入向量）存在两个关键缺陷： 1. 不可解释 ：黑盒嵌入难以被营销团队理解和使用 2. 不稳定 ：RFM等传统分群方法随时间波动大（13.8倍差异）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11693-p2s-gplr-77c914d5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-gplr/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-gplr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e5063f8b1fe43f88ea640be9ce727a8e8723d9213a574fc4ba2dc339e3c7f91f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

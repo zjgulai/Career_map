@@ -1,0 +1,22 @@
+{
+  "英文名称": "anchor-text-splitter",
+  "中文名称": "待补：anchor-text-splitter",
+  "一句话作用": "当用户需要基于锚点标记精确分割文本时使用，支持 OCR 容错与模糊匹配定位。触发词：锚点文本分割器、锚点分割、锚点定位分割、标记点切分、精确切分、OCR容错、模糊匹配分割。何时不用：简单固定长度切分、文档无明确标记点、需要语义理解的分割（使用semantic-doc-chunker）、锚点可能多次出现需消歧、知识单元分组聚类（使用semantic-bucketer）、文本密度评估（使用semantic-density-analyzer…",
+  "关键输入": "- 需要根据标记点精确分割文本 - 处理 OCR 后的文档（可能存在识别错误） - 实现\"锚点标记 → 精确分割\"的工作流程 - 保持原文完整性，避免 LLM 幻觉 - 分割长文本为多个逻辑块",
+  "关键输出": "验证分割结果： - 所有锚点都被成功定位 - 分割后的块非空 - 拼接后与原内容一致（完整性检查）",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 需要根据标记点精确分割文本 - 处理 OCR 后的文档（可能存在识别错误） - 实现\"锚点标记 → 精确分割\"的工作流程 - 保持原文完整性，避免 LLM 幻觉 - 分割长文本为多个逻辑块时，用它产出或更新：验证分割结果： - 所有锚点都被成功定位 - 分割后的块非空 - 拼接后与原内容一致（完整性检查）",
+  "skill_id": "11069-anchor-text-splitter-9c31f9aa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/anchor-text-splitter/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/anchor-text-splitter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "948354ac537e7b2ec461f69090f4d5c4883c3c6b2ddff1e3756263bfd0fd5b2b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

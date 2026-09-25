@@ -1,0 +1,22 @@
+{
+  "英文名称": "public-equity-investing",
+  "中文名称": "待补：public-equity-investing",
+  "一句话作用": "Route Public Equity Investing workflows for listed-company and public-security research, earnings analysis, valuation, model updates, long/short pitches, catalysts, thesis tracking, ETF/index and constituent diligence,…",
+  "关键输入": "Ask only for choices that materially change the lead owner, first-read artifact, evidence path, reliance standard, investment decision, or user action. Use request user input when available for bounded choices with strong defaults: send all material unresolve…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Route Public Equity Investing workflows for listed-company and public-security research, earnings analysis, valuation, model updates, long/short pitches, catalysts, thesis tracking, ETF/index and constituent diligence,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00999-public-equity-investing-492a1e52",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/public-equity-investing/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/public-equity-investing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63a63b89e5a65de1f4b5ef23f8a60ad01655dfbbb43c07018f4da29a1d32943d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

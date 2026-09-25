@@ -1,0 +1,22 @@
+{
+  "英文名称": "md-to-pdf",
+  "中文名称": "待补：md-to-pdf",
+  "一句话作用": "Convert Markdown documents to PDF format. Use when the user needs to transform .md files into .pdf, including documentation export, report generation, or document sharing. Supports multiple conversion methods from simpl…",
+  "关键输入": "Chinese characters showing as squares? - Use xelatex engine with CJK font - Install fonts: sudo apt-get install fonts-noto-cjk LaTeX not found? - Install: sudo apt-get install texlive-full (large) or texlive-latex-base…",
+  "关键输出": "python scripts/md2pdf.py document.md reports/weekly.pdf",
+  "最新更新时间": "2026-06-14T13:31:18+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Chinese characters showing as squares? - Use xelatex engine with CJK font - Install fonts: sudo apt-get install fonts-noto-cjk LaTeX not found? - Install: sudo apt-get install texlive-full (large) or texlive-latex-base…时，用它产出或更新：python scripts/md2pdf.py do…",
+  "skill_id": "06188-md-to-pdf-9d93ade9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/md-to-pdf/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/md-to-pdf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "facaa68eb18dfec4822eda74bba26fe249fac9b101baa6d94648a91f5359ae5e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

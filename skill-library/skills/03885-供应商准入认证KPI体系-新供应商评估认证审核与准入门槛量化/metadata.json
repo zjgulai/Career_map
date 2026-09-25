@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-qualification-onboarding-kpi",
+  "中文名称": "供应商准入认证KPI体系 新供应商评估认证审核与准入门槛量化",
+  "一句话作用": "触发词：供应商准入、认证审核、准入门槛、证书到期预警、合格供应商台账。何时不用：在用供应商的月度绩效评分与下滑预警用供应商绩效积分卡；供应商四维画像与集中度风险查询用供应商本体能力图谱。安全边界：母婴等强监管品类须核验认证文件与检测报告原件，认证缺失或过期的供应商不得进入合格名单。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要新供应商引入时面临\"认证缺失导致海关扣押\"——认证到期三级预警+准入评分将合规事故降至0，每次扣押损失5-15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03885-p2s-supplier-qualification-onboarding-kpi-78663246",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supplier-qualification-onboarding-kpi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supplier-qualification-onboarding-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "033b9ba9df1ad3a5ff4b39efc31bcbcd8acf564a0429325f6055fd8020c3f238",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

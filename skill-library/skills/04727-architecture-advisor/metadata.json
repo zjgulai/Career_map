@@ -1,0 +1,22 @@
+{
+  "英文名称": "architecture-advisor",
+  "中文名称": "待补：architecture-advisor",
+  "一句话作用": "Helps solo developers with AI agents choose optimal architecture (monolithic/microservices/hybrid)",
+  "关键输入": "Questions gathered by input-collector sub-agent: 1. Project identity (name, description, platforms, domain) 2. Scale expectations (users, growth, real-time needs) 3. Solo context (AI tools, development style, DevOps comfort) 4. Constraints (timeline, budget,…",
+  "关键输出": "---",
+  "最新更新时间": "2026-09-19T03:55:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Starting a new project and unsure which architecture to choose - Reconsidering architecture of an existing project - Need justification for architectural decisions - Want to understand trade-offs for your specific sit…时，用它产出或更新：---",
+  "skill_id": "04727-architecture-advisor-9093a070",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/architecture-advisor/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/architecture-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a42548de08870f105432ba20d9aa0fc92180d5721e41f38deac31d63de0f1def",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

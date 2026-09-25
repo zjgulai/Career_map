@@ -1,0 +1,22 @@
+{
+  "英文名称": "stacked-chart-visualization",
+  "中文名称": "待补：stacked-chart-visualization",
+  "一句话作用": "处理包含百分比字符串的分类占比数据，通过补全缺失维度并生成堆叠柱状图，直观展示多维度构成随时间或分类的变化趋势。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要处理包含百分比字符串的分类占比数据，通过补全缺失维度并生成堆叠柱状图，直观展示多维度构成随时间或分类的变化趋势。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04174-stacked-chart-visualization-5ca75bbd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-visualization/stacked-chart-visualization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-visualization/stacked-chart-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "767c48e99f3a8fc8f0ad1893105f62f928506738822ff74d3d8115ff6c2597fb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "读需求",
+  "中文名称": "读需求",
+  "一句话作用": "产品设计套件入口 A：有 PRD 解读。当用户是设计师拿到 PRD / 需求文档 / Notion / Confluence / Slack 消息 / 飞书文档等结构化或半结构化需求输入，要从中提炼设计相关字段时，第一个该启动的 Skill。团队设计师最常见入口（多数项目从 PM 给 /产品需求 开始）。 与 product-management（产品管理）套件互补，服务不同角色： - 用户是设计师拿到 /产品需求 要拆设计字段 /…",
+  "关键输入": "用 AskUserQuestion 询问 PRD 输入形式： 1. 文件路径 （推荐）：.md / .docx / .pdf / .txt 等 2. URL ：Notion / Confluence / Google Docs 等链接（用 WebFetch 抓取） 3. 粘贴文本 ：直接贴 PRD 内容到对话 获取后做基础检查： - 文件 / 文本长度合理（至少 200 字，否则提示\"PRD 内容过短，建议改用 Frame Skill\"） - 是否包含基本结构（标题 / 段落 / 列表），无结构则提示用户\"这看起…",
+  "关键输出": "完成 Scope 后， 同时 做两件事： 1. 会话内输出 （marker 之间放裸 JSON，不要嵌套 ``json 代码块）： 2. 写入项目文件 ：spark-output/context/scope.json（目录不存在时先创建） 3. 额外保存 Markdown 报告 ：spark-output/scope/[project-slug].md`，含完整提炼结果 + gaps 清单。",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要1. PRD 写得很发散 （多个 doc 串联、没有统一结构）：先让用户指出\"哪一份是主 PRD\"，其他作为辅助引用。 2. PRD 含工程实现细节 （API 设计、数据库 schema、技术架构）：略过，不影响设计的部分不要试图理解。 3. PRD 是 user story 格式 ：直接转 features 字段，story 里的 acceptance criteria 转 features.description。 4. PRD…时，用它产出或更新：完成 Scope 后， 同时 做两件事： 1. 会话内…",
+  "skill_id": "04609-skill-8ab47e35",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/scope/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/scope/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "33fcfd6b53ff7f93e1f2b1cbf17b127985d8681a7824f53cb9c1da35f203eb86",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

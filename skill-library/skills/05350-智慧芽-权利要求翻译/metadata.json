@@ -1,0 +1,22 @@
+{
+  "英文名称": "linkfox-zhihuiya-claim-data-translated",
+  "中文名称": "智慧芽-权利要求翻译",
+  "一句话作用": "从智慧芽专利数据库获取翻译后的专利权利要求。当用户询问专利权利要求、权利要求翻译、查看特定语言（中文、英文或日文）的权利要求、通过专利ID或公开号查询专利权利、分析权利要求文本、claim translation, patent claim translation, PatSnap, patent translation时触发此技能。即使用户未明确提及\"翻译版权利要求\"，只要其需求涉及获取特定语言的专利权利要求内容，也应触发此技能。",
+  "关键输入": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- lang string 否 默认 \"en\"；最长 1000；示例：en, cn, jp 翻译语言，支持cn、en、jp patentId string 否 最长 60000 专利ID（专利id和公开号两个参数必须要有一个，如果两个都存在，会优先使用专利id），多个用英文逗号隔开，上限100条 patentNumber string 否 最长 60000 公开(公告)号（专利id和公开号两个参数必须要有一个，如果两个都存在，会优先使用…",
+  "关键输出": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- data array 否 专利列表 type string 否 渲染的样式 total integer 否 记录数 columns array 否 渲染的列 costToken integer 否 消耗token",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要当用户意图与“智慧芽-权利要求翻译”匹配，或需要以下能力时使用本工具：工具中文名：智慧芽-权利要求翻译 描述：可以通过输入专利ID或专利公开号查询具体某条专利的权利要求的翻译文本（支持中文、英文、日文任意一种） 关键词：智慧芽,翻译,权力要求 调用前应先确认所有必填参数。涉及站点、国家、日期、语言、ASIN、SKU、图片或 URL 时，应使用用户提供的信息，不要擅自虚构真实业务标识。时，用它产出或更新：字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- data array 否…",
+  "skill_id": "05350-linkfox-zhihuiya-claim-data-translated-f45060c4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-zhihuiya-claim-data-translated/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-zhihuiya-claim-data-translated/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3b8311c1be00fa17c6ca352cbd8fa049a41341a0794d447c363a8e9fafb89c3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

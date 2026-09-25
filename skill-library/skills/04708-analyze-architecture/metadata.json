@@ -1,0 +1,22 @@
+{
+  "英文名称": "analyze-architecture",
+  "中文名称": "待补：analyze-architecture",
+  "一句话作用": "Comprehensive brownfield architecture analysis for existing codebases. Discovers structure, identifies patterns, assesses quality, calculates production readiness, and provides actionable recommendations. Use when analy…",
+  "关键输入": "- Codebase accessible on filesystem - Read access to all source files - Build configuration files present (package.json, etc.) - Database schema files accessible (if applicable) ---",
+  "关键输出": "python .claude/skills/bmad-commands/scripts/validate metrics.py \\ --codebase {codebase path}/src \\ --metric cqrs \\ --output json",
+  "最新更新时间": "2026-09-19T03:48:29+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Comprehensive brownfield architecture analysis for existing codebases. Discovers structure, identifies patterns, assesses quality, calculates production readiness, and provides actionable recommendations. Use when analy…时，用它产出或更新：python .claude/skills/bmad…",
+  "skill_id": "04708-analyze-architecture-60d705f1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/analyze-architecture/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/analyze-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8041858f87d3f8ce0c3237c6d05b834ae23f5fbd9e3316aeba52f9c2d1f2eb1c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

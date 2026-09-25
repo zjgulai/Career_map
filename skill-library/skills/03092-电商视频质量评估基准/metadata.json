@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-e-commerce-video-benchmark",
+  "中文名称": "电商视频质量评估基准）",
+  "一句话作用": "触发词：视频质量基准、模型选型、主体保真、文字保真、多维打分。何时不用：视频已经拍完只做后期剪辑时用剪辑类技能；本技能用于在多个生成模型之间做量化选型。安全边界：选型结论仅用于内部生产决策；生成的商品视频不得夸大功能或伪造使用效果。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容运营面临爆款视频标准不清——视频基准将完播率提14%，年化增收16万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03092-p2s-e-commerce-video-benchmark-c36cfb1d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-e-commerce-video-benchmark/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-e-commerce-video-benchmark/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bab7682d5223b723fc426274fc6156ff1d342da01c1b9adf1acb0a2c0bc4feba",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-conditional-filtering-optimization",
+  "中文名称": "待补：excel-conditional-filtering-optimization",
+  "一句话作用": "根据多维数值条件筛选 Excel 数据并导出结果，支持大规模数据的自动性能优化处理。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "result.columns = ['Target Index', 'Value A', 'Value B', 'Value C']",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要根据多维数值条件筛选 Excel 数据并导出结果，支持大规模数据的自动性能优化处理。时，用它产出或更新：result.columns = ['Target Index', 'Value A', 'Value B', 'Value C']",
+  "skill_id": "04163-excel-conditional-filtering-optimization-c867de12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-filtering/range-filtering/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-filtering/range-filtering/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "328a3c732d4317a083bd0220f5d4d74ada7a2b73e8206b2628198db858c510d6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

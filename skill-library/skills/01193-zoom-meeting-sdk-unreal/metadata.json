@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-meeting-sdk-unreal",
+  "中文名称": "待补：zoom-meeting-sdk-unreal",
+  "一句话作用": "Zoom Meeting SDK for Unreal Engine wrapper integrations. Use when building Unreal projects that embed Zoom meetings with C++ and Blueprint wrappers, including wrapper-to-SDK mapping concerns.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Zoom Meeting SDK for Unreal Engine wrapper integrations. Use when building Unreal projects that embed Zoom meetings with C++ and Blueprint wrappers, including wrapper-to-SDK mapping concerns.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01193-zoom-meeting-sdk-unreal-a9c2e6f3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/unreal/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/unreal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b653dbd8a389d8c1e43aeedf55d697d4186d150d1fea68af1e67b74886391ed8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

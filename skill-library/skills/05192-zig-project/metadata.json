@@ -1,0 +1,22 @@
+{
+  "英文名称": "zig-project",
+  "中文名称": "待补：zig-project",
+  "一句话作用": "Modern Zig project architecture guide. Use when creating Zig projects (systems programming, CLI tools, game dev, high-performance services). Covers explicit allocators, comptime, error handling, and build system.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "---",
+  "最新更新时间": "2026-09-19T03:55:01+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Modern Zig project architecture guide. Use when creating Zig projects (systems programming, CLI tools, game dev, high-performance services). Covers explicit allocators, comptime, error handling, and build system.时，用它产出或更新：---",
+  "skill_id": "05192-zig-project-efd1c876",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/zig-project/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/zig-project/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "99ba84944b97d39b130e42f67e86b4886e845c0b3ab3f3c08289cd6def42dc0a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

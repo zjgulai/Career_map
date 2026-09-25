@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-reference-audit",
+  "中文名称": "豆包·参考文献审计",
+  "一句话作用": "用于用户提交论文、学位论文或参考文献清单后，系统审查参考文献真实性、题录准确性、文内—文后对应关系以及正文主张是否得到被引文献支持，并生成专业、清晰、可直接指导修改的论文引用审计报告与飞书文档。用户要求“论文审计”“参考文献检查”“引用核对”“引用是否支持观点”“检查错引、过度推断或二手转引”时使用。开放主题综述、普通论文精读、论文代写或仅做语言润色时不使用。",
+  "关键输入": "适用于： - 投稿前检查整篇论文的参考文献； - 检查文献是否真实存在、题录是否准确； - 判断正文中的引用是否真正支持对应观点； - 排查引用错误、过度概括、过度推断和二手转引； - 检查预印本、正式版、数据集、软件和网页来源； - 审查学位论文、综述、研究报告中的引用质量； - 用户要求形成正式、专业的引用审查书。 不适用于： - 围绕开放主题重新做文献综述； - 只精读或总结某一篇论文； - 代写论文正文； - 只做语言润色或格…",
+  "关键输出": "带有基线引用的实验句子，可能主要是在报告本文结果。此时应区分“基线来源是否正确”和“本文结果是否被过度解释”，避免错误地要求基线论文支持作者自己的数值。",
+  "最新更新时间": "2026-09-12T03:26:22+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要适用于： - 投稿前检查整篇论文的参考文献； - 检查文献是否真实存在、题录是否准确； - 判断正文中的引用是否真正支持对应观点； - 排查引用错误、过度概括、过度推断和二手转引； - 检查预印本、正式版、数据集、软件和网页来源； - 审查学位论文、综述、研究报告中的引用质量； - 用户要求形成正式、专业的引用审查书。 不适用于： - 围绕开放主题重新做文献综述； - 只精读或总结某一篇论文； - 代写论文正文； - 只做语言润色或格…时，用它产出或更新：带有基线引用的实验句子，可能主要是在报告本文结果。此…",
+  "skill_id": "06561-doubao-reference-audit-dda68f1b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-reference-audit/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-reference-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "235b569ac3610b6ddfc9850d00e6d734f6c55055c52e8e85242b9ce3ce6c8325",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

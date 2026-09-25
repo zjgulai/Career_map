@@ -1,0 +1,22 @@
+{
+  "英文名称": "iteration-planner",
+  "中文名称": "敏捷 Sprint 规划",
+  "一句话作用": "敏捷 Sprint 规划助手，基于团队产能和历史 Velocity 完成 Sprint 范围选定、任务拆分估点、依赖分析和负载均衡分配，输出可执行的 Sprint 计划。当用户需要进行 Sprint Planning、迭代规划、分配 Story 或 Task、检查负载均衡、分析依赖关系或计算团队产能时触发。不适用于 Sprint 回顾、站会、项目周报或通用任务管理场景。",
+  "关键输入": "向用户收集以下信息（缺失项需主动询问）： 输入项 说明 示例 -------- ------ ------ Sprint 时长 迭代周期天数 2 周 (10 工作日) 团队成员列表 姓名 + 角色 张三(前端)、李四(后端)、王五(测试) 各成员可用天数 考虑请假、会议、其他项目占用 张三 8 天、李四 10 天、王五 9 天 历史 Velocity 近 3-5 个 Sprint 的完成故事点 [32, 28, 35, 30, 33]",
+  "关键输出": "---",
+  "最新更新时间": "2026-09-14T00:05:31+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要问题 建议 ------ ------ Velocity 数据不足 取保守估计（已知数据最小值的 80%） 团队成员变动 新成员首个 Sprint 按 50% 产能计算 需求不清晰 对不清晰 Story 加 Spike（技术调研），不计入 Velocity 技术债务积压 每个 Sprint 预留 15-20% 产能处理技术债 跨团队依赖 标为外部依赖，提前与相关团队对齐时，用它产出或更新：---",
+  "skill_id": "10635-iteration-planner-ea10386f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/iteration-planner/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/iteration-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0488574cc96f5426c948b145347b122f51ee956d9bece0651fc9413256de3ec6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

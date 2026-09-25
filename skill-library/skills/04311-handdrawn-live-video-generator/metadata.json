@@ -1,0 +1,22 @@
+{
+  "英文名称": "handdrawn-live-video-generator",
+  "中文名称": "待补：handdrawn-live-video-generator",
+  "一句话作用": "Create a surreal 15-second 16:9 short blending rough glowing hand-drawn animation with live action. Clarify the contact object or hand, mood, language, and style; design continuous morphing, an escape route, and delayed…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "The final prompt must begin with a sentence pattern matching the dominant language of the user input. For Chinese input, use this pattern: 15 seconds, 16:9 landscape video. Blend the live-action scene with hand-drawn glowing animation. Replace “〇〇” with the n…",
+  "最新更新时间": "2026-09-17T01:02:42+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create a surreal 15-second 16:9 short blending rough glowing hand-drawn animation with live action. Clarify the contact object or hand, mood, language, and style; design continuous morphing, an escape route, and delayed…时，用它产出或更新：The final prompt must begi…",
+  "skill_id": "04311-handdrawn-live-video-generator-5c5a7d48",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/handdrawn-live-video-generator/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/handdrawn-live-video-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d9fa18d090903df6819ac95bf1d3210f8a5c1e8aeb2a1e7f011ec8cd49f036f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

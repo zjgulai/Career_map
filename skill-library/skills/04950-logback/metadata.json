@@ -1,0 +1,22 @@
+{
+  "英文名称": "logback",
+  "中文名称": "待补：logback",
+  "一句话作用": "Logback - flexible and powerful logging framework for Java and Spring Boot applications. Successor to Log4j with native SLF4J support, async logging, and automatic file rotation. USE WHEN: user mentions \"logback\", \"spri…",
+  "关键输入": "- Configure logging in Spring Boot/Java applications - File appender with rotation - High-performance async logging Deep Knowledge : Use mcp documentation fetch docs with technology: logback for comprehensive documentat…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:03+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- Configure logging in Spring Boot/Java applications - File appender with rotation - High-performance async logging Deep Knowledge : Use mcp documentation fetch docs with technology: logback for comprehensive documentat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04950-logback-db86d848",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/logback/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/logback/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "801333db42fd15d031b00612ec1588eb20e0180dab5442b54dbfd484195a1727",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

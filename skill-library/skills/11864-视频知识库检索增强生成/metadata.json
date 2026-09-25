@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-videorag-video-knowledge-retrieval",
+  "中文名称": "视频知识库检索增强生成",
+  "一句话作用": "触发词：视频知识库、直播回放检索、跨模态检索、带时间戳引用、素材复用。何时不用：要把视频里的商品识别出来并挂购物链接用视频商品标签化技能，本技能解决已拍素材与直播回放的检索复用。安全边界：回放与问询日志须脱敏并遵守平台内容政策，仅限内部检索使用，不得对外输出含用户信息的片段。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营团队面临TikTok直播回放内容无法检索——VideoRAG视频知识库使100场回放可精准检索，内容复用率+300%，年化内容价值42万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11864-p2s-videorag-video-knowledge-retrieval-be9fecac",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-videorag-video-knowledge-retrieval/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-videorag-video-knowledge-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "97fc85c5cec7b5d7ec775397a0466c77b7fb98a61a227d7c5ee030234581aadc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

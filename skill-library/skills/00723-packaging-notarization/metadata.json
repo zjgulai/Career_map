@@ -1,0 +1,22 @@
+{
+  "英文名称": "packaging-notarization",
+  "中文名称": "待补：packaging-notarization",
+  "一句话作用": "Prepare macOS packaging and notarization workflows. Use when archiving apps, validating bundles, or explaining distribution-only failures.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Provide: - what artifact or settings were inspected - whether the app looks distribution-ready - the top missing prerequisite or failure mode - the next validation or repair step",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Prepare macOS packaging and notarization workflows. Use when archiving apps, validating bundles, or explaining distribution-only failures.时，用它产出或更新：Provide: - what artifact or settings were inspected - whether the app looks distribution-ready - the top mis…",
+  "skill_id": "00723-packaging-notarization-3d9be760",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/packaging-notarization/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/packaging-notarization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "adc0d5e0c48e74ac6c5078b5846d00cbb798a8fd08bd775590f23793c8e69b2b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

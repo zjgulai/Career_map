@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dual-tower-lookalike-modeling",
+  "中文名称": "双塔自建相似受众扩展脱离平台黑箱",
+  "一句话作用": "触发词：双塔模型、自建相似受众、种子分层、受众包上传、LTV 种子、平台黑箱。何时不用：自有用户量与种子不足时双塔学不出稳定表示，先用平台内置相似受众；只评估扩量比例风险时用置信度校准。安全边界：用户行为数据与受众包上传需符合各平台数据政策与隐私法规，种子与受众包不得包含敏感个人信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投手面临\"Meta黑箱Lookalike ROAS卡在2.4x触达瓶颈\"——双塔自建相似受众将高LTV种子比例从30%提升至80%，ROAS从2.4x→3.5x，年化增收约132万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03084-p2s-dual-tower-lookalike-modeling-83e68b39",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dual-tower-lookalike-modeling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dual-tower-lookalike-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "191861922274628f2c42062dd17589da5a3e39f3bfcd8aef896f04a6b4479af3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

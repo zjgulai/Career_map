@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-creator-for-work",
+  "中文名称": "待补：skill-creator-for-work",
+  "一句话作用": "创建有效 Skill 的指南。当用户想要创建新的 Skill，或更新现有 Skill，以便通过专门知识、工作流程或工具集成来扩展 AI Agent 能力时，应使用此 Skill。",
+  "关键输入": "Skip this step only when the skill's usage patterns are already clearly understood. It remains valuable even when working with an existing skill. To create an effective skill, clearly understand concrete examples of how…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T16:27:35+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Skip this step only when the skill's usage patterns are already clearly understood. It remains valuable even when working with an existing skill. To create an effective skill, clearly understand concrete examples of how…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06467-skill-creator-for-work-042c836f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/skill-creator-for-work/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/skill-creator-for-work/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4117d9244bde241ae851b42b78b4214bfed1fa465021d39451310c61d045397a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

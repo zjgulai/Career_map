@@ -1,0 +1,22 @@
+{
+  "英文名称": "ops-inspector",
+  "中文名称": "待补：ops-inspector",
+  "一句话作用": "AIOps-style CloudBase inspection skill (v3). Use when users need health checks, log diagnosis, alarm interpretation (CPU alert normal?, peak QPS), metrics via queryEnv(action=metrics), or fault playbooks for 429 / funct…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AIOps-style CloudBase inspection skill (v3). Use when users need health checks, log diagnosis, alarm interpretation (CPU alert normal?, peak QPS), metrics via queryEnv(action=metrics), or fault playbooks for 429 / funct…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00627-ops-inspector-d816441d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.claude/skills/ops-inspector/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.claude/skills/ops-inspector/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "006e0ddeeca58ae37431a8805ed54496023dff25ef47e3c7fc04f4b187a13004",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "economic-impact-report",
+  "中文名称": "待补：economic-impact-report",
+  "一句话作用": "Use when translating a specific event, policy change, macro shock, or industry development into public-equity issuer, sector, earnings, valuation, positioning, and portfolio implications. Do not use for standalone macro…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Full economic-impact report: default analytical route for broad or substantial reusable public-equity impact requests, especially those with many issuers, scenarios, sources, or monitoring items. For a substantive reusable economic-impact report or explicit…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when translating a specific event, policy change, macro shock, or industry development into public-equity issuer, sector, earnings, valuation, positioning, and portfolio implications. Do not use for standalone macro…时，用它产出或更新：- Full economic-impact rep…",
+  "skill_id": "00988-economic-impact-report-b9056a1f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/economic-impact-report/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/economic-impact-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af2aefb507ee5af63a5b2ad1699f182e9bb4735e6786f041d20485a052d75508",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

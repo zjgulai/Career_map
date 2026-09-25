@@ -1,0 +1,22 @@
+{
+  "英文名称": "hardware-security",
+  "中文名称": "待补：hardware-security",
+  "一句话作用": "Use for authorized hardware and embedded interface security research including UART/JTAG discovery, debug pad triage, secure boot overview, and offline firmware extraction support.",
+  "关键输入": "- UART / JTAG / SWD 调试口发现 - 启动日志、root shell、引导打断 - 配合拆机提取 Flash - 安全启动/加密 Flash 的可行性评估（非破坏性优先）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- UART / JTAG / SWD 调试口发现 - 启动日志、root shell、引导打断 - 配合拆机提取 Flash - 安全启动/加密 Flash 的可行性评估（非破坏性优先）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02079-hardware-security-890dcef0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/hardware-security/SKILL.md",
+  "relative_path": "lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/hardware-security/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0c983618e13278817303ab96d32ada26e5f058afc778106b45672fbb04b0ec3c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "pufferlib",
+  "中文名称": "待补：pufferlib",
+  "一句话作用": "High-performance reinforcement learning framework optimized for speed and scale. Use when you need fast parallel training, vectorized environments, multi-agent systems, or integration with game environments (Atari, Proc…",
+  "关键输入": "Use this skill when: - Training RL agents with PPO on any environment (single or multi-agent) - Creating custom environments using the PufferEnv API - Optimizing performance for parallel environment simulation (vectoriz…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Training RL agents with PPO on any environment (single or multi-agent) - Creating custom environments using the PufferEnv API - Optimizing performance for parallel environment simulation (vectoriz…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05780-pufferlib-7ee8b743",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pufferlib/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pufferlib/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f639bea6adc8acb6bfdc8ccc551c3abb9c16644f10d2955400826a68af16785e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

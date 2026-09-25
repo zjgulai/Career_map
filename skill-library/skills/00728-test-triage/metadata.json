@@ -1,0 +1,22 @@
+{
+  "英文名称": "test-triage",
+  "中文名称": "待补：test-triage",
+  "一句话作用": "Triage macOS tests across Xcode and SwiftPM. Use when narrowing failures, explaining assertions or crashes, or separating setup from regressions.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Provide: - the command used - the smallest failing scope - the top failure category - a concise explanation of the likely cause - the next rerun or fix step",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Triage macOS tests across Xcode and SwiftPM. Use when narrowing failures, explaining assertions or crashes, or separating setup from regressions.时，用它产出或更新：Provide: - the command used - the smallest failing scope - the top failure category - a concise expla…",
+  "skill_id": "00728-test-triage-55131cec",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/test-triage/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/test-triage/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e6ed34d34d2b4f62a262f3ab9076ab02bfb75d7661491383493bee78545b7851",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

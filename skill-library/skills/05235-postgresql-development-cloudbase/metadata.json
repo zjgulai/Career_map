@@ -1,0 +1,22 @@
+{
+  "英文名称": "postgresql-development-cloudbase",
+  "中文名称": "待补：postgresql-development-cloudbase",
+  "一句话作用": "Use when building, debugging, or evaluating CloudBase PostgreSQL / CloudBase PG / PG mode apps, including Postgres schema setup, queryPgDatabase/managePgDatabase, JS SDK v3 app.rdb() CRUD/RPC, PG HTTP API fallback, RLS-…",
+  "关键输入": "- ExecutePGSql / managePgDatabase(action=\"execute\") is an admin/control-plane path. Do not expose Tencent Cloud SecretKey or CloudBase API Key in frontend code. - Execute one SQL statement per call. Split batches explic…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- ExecutePGSql / managePgDatabase(action=\"execute\") is an admin/control-plane path. Do not expose Tencent Cloud SecretKey or CloudBase API Key in frontend code. - Execute one SQL statement per call. Split batches explic…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05235-postgresql-development-cloudbase-4b4f39d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/postgresql-development-cloudbase/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/postgresql-development-cloudbase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d371269498062074cae901d53d5bb8381883852f913c8d755461e2597bb50d4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

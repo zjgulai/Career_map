@@ -1,0 +1,22 @@
+{
+  "英文名称": "embedding-strategies",
+  "中文名称": "待补：embedding-strategies",
+  "一句话作用": "Select and optimize embedding models for semantic search and RAG applications. Use when choosing embedding models, implementing chunking strategies, or optimizing embedding quality for specific domains.",
+  "关键输入": "- Choosing embedding models for RAG - Optimizing chunking strategies - Fine-tuning embeddings for domains - Comparing embedding model performance - Reducing embedding dimensions - Handling multilingual content",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Choosing embedding models for RAG - Optimizing chunking strategies - Fine-tuning embeddings for domains - Comparing embedding model performance - Reducing embedding dimensions - Handling multilingual content时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05655-embedding-strategies-32cf7af1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/embedding-strategies/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/embedding-strategies/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f1e255d875e447e2c66f5d4bc5ed0576579a9f39f3ca14150c79757896911964",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-interleaving-experiment-recommendation",
+  "中文名称": "推荐系统交错实验 快速在线评估推荐算法的位置无关方法",
+  "一句话作用": "触发词：推荐交错实验、位置无关评估、Team Draft、推荐算法、快速验证。何时不用：比较的是搜索或 Listing 排序权重用「Interleaving 实验设计」；要对照交错与传统 A/B 的灵敏度差异用「排序系统交叉实验」。安全边界：交错实验对多样性优化类算法有偏，只评估排序质量、不适合测价格差异；候选质量过低时须设质量下限保护。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要算法团队面临\"推荐算法A/B实验需3周才能得出结论大促前来不及\"——Team Draft交错实验将评估速度提升30倍，4天即可显著结论，年化GMV增量80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03249-p2s-interleaving-experiment-recommendation-86651c67",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-interleaving-experiment-recommendation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-interleaving-experiment-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0fbf52c9755839f5ba504299922b0faac96908e72cbc6c454bb8496eff7987bc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

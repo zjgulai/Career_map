@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-requirements",
+  "中文名称": "待补：product-requirements",
+  "一句话作用": "Interactive Product Owner skill for requirements gathering, analysis, and PRD generation. Triggers when users request product requirements, feature specification, PRD creation, or need help understanding and documenting…",
+  "关键输入": "Current Situation : [Describe current pain points or limitations] Proposed Solution : [High-level description of the feature] Business Impact : [Quantifiable or qualitative expected outcomes] ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Current Situation : [Describe current pain points or limitations] Proposed Solution : [High-level description of the feature] Business Impact : [Quantifiable or qualitative expected outcomes] ---时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05969-product-requirements-d93e47fc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/product-requirements/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/product-requirements/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "59472f355b01205908517c8169cdde88e620ffb546add3154434a1b1f7e3a5f2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

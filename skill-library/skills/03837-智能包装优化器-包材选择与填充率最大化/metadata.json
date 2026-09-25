@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-smart-packaging-optimizer",
+  "中文名称": "智能包装优化器 包材选择与填充率最大化",
+  "一句话作用": "触发词：包装优化、包材选择、填充率、破损率、体积重。何时不用：要决定订单从哪个仓发用「仓储协作」，要挑承运商渠道用「物流方案」里的路由类技能；本技能只算箱型与缓冲材料组合。安全边界：包装方案须满足目标市场清关与包材回收标准（如欧盟），危品与温控 SKU 不得直接套用普通包材方案。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要物流团队面临包装成本过高且破损率8%——智能包装优化将材料成本降低22%、破损率降至2.1%，年化节省29万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03837-p2s-smart-packaging-optimizer-1eb15598",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-smart-packaging-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-smart-packaging-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2285ec4302ebcba87c39719b21c3b3af23130a1b02a81c36e3fc4983a4ae1d35",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

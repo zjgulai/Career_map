@@ -1,0 +1,22 @@
+{
+  "英文名称": "TEMPLATE NAME",
+  "中文名称": "待补：TEMPLATE NAME",
+  "一句话作用": "TODO — clearly state WHAT this skill does and WHEN to apply it. Include 3-5 concrete trigger scenarios so the dispatch heuristic finds it.",
+  "关键输入": "- Trigger phrase 1 - Trigger phrase 2 - Trigger phrase 3",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-16T19:28:53+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- Trigger phrase 1 - Trigger phrase 2 - Trigger phrase 3时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10143-template-name-766ec160",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/agent-kit/templates/skill/SKILL.md",
+  "relative_path": "lute/project/Agent/agent-kit/templates/skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e113f2610b3dc868b8e25a431c043e7550f748f3d61e46afe7b302561a539098",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

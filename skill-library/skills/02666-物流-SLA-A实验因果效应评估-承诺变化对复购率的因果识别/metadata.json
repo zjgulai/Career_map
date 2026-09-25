@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ab-test-logistics-sla",
+  "中文名称": "物流 SLA A实验因果效应评估 承诺变化对复购率的因果识别",
+  "一句话作用": "触发词：物流 SLA、复购实验、A/B 实验、配送承诺升级、因果效应。何时不用：要选运输方式与时效方案用「物流方案」，要优化页面转化用「转化优化」；本技能只估计配送承诺变化对复购的因果效应。安全边界：不得对同一商品 listing 展示不同配送承诺，须按用户级分流并符合平台 FBA 政策；实验前须评估差评与排名风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"更改物流SLA承诺后不知道是否真正提升复购率\"——AB实验因果评估将SLA效果估计误差降低55%，年化优化物流策略节省/增收20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02666-p2s-ab-test-logistics-sla-9157846e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ab-test-logistics-sla/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ab-test-logistics-sla/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b325034048302a1f0f7b285b6f34620f599bd65adcccc6fdebdf91a8be4aeeb4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

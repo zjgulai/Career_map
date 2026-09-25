@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-privacy-preserving-lookalike-fl",
+  "中文名称": "联邦学习跨平台相似受众建模 GDPR 合规下不上传原始用户数据",
+  "一句话作用": "触发词：联邦学习、跨平台建模、种子受众、隐私合规、GDPR、梯度交换。何时不用：自有数据可合法上传平台做相似受众时不必上联邦方案；本卡用于数据不得出本地、需与平台联合建模的场景。安全边界：原始数据与 PII 不出本地，只交换加密梯度；须先签平台数据处理协议并对儿童数据做特殊保护评估。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要欧盟市场运营面临\"GDPR/CCPA禁止用户数据上传至Meta/TikTok\"——垂直联邦学习跨平台建模在数据不出本地前提下Lookalike质量提升12-20%，同时规避最高4%全球营收的合规罚款风险时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11776-p2s-privacy-preserving-lookalike-fl-71e588fd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-privacy-preserving-lookalike-fl/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-privacy-preserving-lookalike-fl/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2f888426e0ec7479962b40d4e12aabb763af784556d54f7333c677e45ae043d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

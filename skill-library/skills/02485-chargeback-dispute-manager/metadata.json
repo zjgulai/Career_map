@@ -1,0 +1,22 @@
+{
+  "英文名称": "chargeback-dispute-manager",
+  "中文名称": "待补：chargeback-dispute-manager",
+  "一句话作用": "- Prevent and manage ecommerce chargebacks using fraud scoring, compelling evidence automation, and card network compliance standards. 触发词：拒付管理、拒付申诉、欺诈预防、友好欺诈、拒付率超标、证据包自动化。",
+  "关键输入": "- When your chargeback ratio exceeds 0.5% or fluctuates seasonally. - When your team is manually compiling evidence and missing strict 7–21 day response windows. - When \"friendly fraud\" (legitimate customers claiming no…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:13:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- When your chargeback ratio exceeds 0.5% or fluctuates seasonally. - When your team is manually compiling evidence and missing strict 7–21 day response windows. - When \"friendly fraud\" (legitimate customers claiming no…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02485-chargeback-dispute-manager-af9e86ae",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/chargeback-dispute-manager/SKILL.md",
+  "relative_path": "lute/.dsh/skills/chargeback-dispute-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9994a1781f9692791eb2ad3153a338b4606e219f3b7cf30174ca0fc2a6d83fc7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

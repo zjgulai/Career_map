@@ -1,0 +1,22 @@
+{
+  "英文名称": "tax-compliance-engine",
+  "中文名称": "待补：tax-compliance-engine",
+  "一句话作用": "Corporate accounting and tax compliance knowledge engine providing a chart of accounts under Chinese accounting standards, tax rate references, financial formulas, and compliance checklists. Triggers: chart of accounts,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Reference data is presented in structured Markdown tables for quick lookup.",
+  "最新更新时间": "2026-09-12T16:24:29+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Corporate accounting and tax compliance knowledge engine providing a chart of accounts under Chinese accounting standards, tax rate references, financial formulas, and compliance checklists. Triggers: chart of accounts,…时，用它产出或更新：Reference data is presente…",
+  "skill_id": "00038-tax-compliance-engine-4495b401",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-56471462U1788272-8A8E75-0602-AAD8C9/agent-core/skills/tax-compliance-engine/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-56471462U1788272-8A8E75-0602-AAD8C9/agent-core/skills/tax-compliance-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "58b2f4921fec595ff8cef91d56a3fcd100487d61c9cfd7896193b748279c4c43",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

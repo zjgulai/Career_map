@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-budget-reforecast-rolling",
+  "中文名称": "滚动预算再预测（月度滚动reforecast自动化）",
+  "一句话作用": "触发词：滚动预算、月度再预测、reforecast、全年预计利润、预算偏差。何时不用：只针对采购预算做季度重测与偏差预警时用「采购预算滚动重测」；只规划资金缺口与融资窗口时用「跨境电商现金流预测」。安全边界：仅使用自有经营数据，预算口径与费率需财务确认，未审数不得对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务团队面临\"静态年度预算在电商高波动环境下快速失效导致资金决策失准\"——月度滚动预测比静态预算准确率提升40%，年化减少资金错配损失15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02835-p2s-budget-reforecast-rolling-953d9c26",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-budget-reforecast-rolling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-budget-reforecast-rolling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "802b713eefe336cee92f2a49f6d2a2acd5f417fc6c6764f07f144993d406f47d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

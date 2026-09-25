@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-real-time-fleet-dynamic-routing",
+  "中文名称": "实时车队动态重路由 突发事件下的物流路径自适应优化",
+  "一句话作用": "触发词：实时重路由、临时改地址、顺路插入、路线动态调整、大促配送调度。何时不用：要排查包裹为什么没按时到用「到货异常追踪」，要同步已发订单履约进度用「履约跟踪」；本技能只算重路由的插入位置。安全边界：车队位置涉及司机隐私，须告知并取得同意，欧洲需符合 GDPR 对员工监控的要求；只有预期收益超过 50 元才触发重路由（最小改动原则）。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要物流团队面临\"大促期间新订单涌入导致配送路径静态规划失效\"——插入启发式实时重路由节省91%绕路里程，配送成本超支从25%降至8%，年化节省约75万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03693-p2s-real-time-fleet-dynamic-routing-6e1b1fff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-real-time-fleet-dynamic-routing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-real-time-fleet-dynamic-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e404d4dd9573d29b79fb81341707b0b287fc0a53be709701c6113af004f9fcc0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

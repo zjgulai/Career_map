@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-category-opportunity-scoring",
+  "中文名称": "品类机会评分引擎 市场空间竞争强度可操作性的选品决策矩阵",
+  "一句话作用": "触发词：品类机会评分、市场空间、竞争强度、可操作性、选品决策矩阵。何时不用：要估算品类 TAM/SAM/SOM 的绝对数字用「Market Size Estimation」；只给单个新品做加权评分卡用「Product Opportunity Scoring」。安全边界：权重与阈值须按业务校准并留档，评分不是唯一决策依据，输入数据来源必须可追溯。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要选品团队面临\"新品选择靠感觉导致30%失败率\"——三维评分(市场×竞争×可操作性)将新品失败率从30%降至15%，防止错误选品损失约90万元/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03640-p2s-product-category-opportunity-scoring-110c79a6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-product-category-opportunity-scoring/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-product-category-opportunity-scoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2daf925b229f64b23bd0156699d016ee1af56337c7c4ce7472bf903a092cca24",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

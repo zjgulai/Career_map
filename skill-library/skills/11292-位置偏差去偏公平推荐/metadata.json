@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-position-bias-debiasing-rec",
+  "中文名称": "位置偏差去偏公平推荐",
+  "一句话作用": "触发词：位置偏差、去偏训练、新品曝光、公平推荐。何时不用：曝光日志缺少位置字段时无法估计倾向分数；新品完全无数据需主动探索流量时用老虎机类技能。安全边界：用随机实验估计倾向分数时，需确保随机策略不损害用户体验。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"老ASIN因历史曝光多CTR虚高持续霸屏、新品流量<老品1/10\"——IPS逆倾向去偏将模型NDCG@10提升12%、新品前10位占比从8%升至18%，年化广告节省约30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11292-p2s-position-bias-debiasing-rec-1d538a46",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-position-bias-debiasing-rec/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-position-bias-debiasing-rec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6701db5a2ded414513fcc1439f12819cc2303906ed4f9b4c73d937a661d1032e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

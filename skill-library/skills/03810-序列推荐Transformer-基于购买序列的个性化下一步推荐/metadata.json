@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sequential-recommendation-transformer",
+  "中文名称": "序列推荐Transformer 基于购买序列的个性化下一步推荐",
+  "一句话作用": "触发词：序列推荐、下一步推荐、购买序列建模、月龄适配排序、冷启动回退。何时不用：只有静态商品与用户特征、没有行为序列时用协同过滤或属性召回；本技能依赖足量的时序购买序列。安全边界：推荐逻辑不得对同一 SKU 做价格歧视；模型评估须剔除大促期数据以免泄漏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要电商运营面临\"婴儿月龄驱动需求快速演变但推荐缺乏时序感知\"——SASRec序列建模使复购率从22%提升至28%，年化GMV增量约360万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03810-p2s-sequential-recommendation-transformer-ce813b2a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sequential-recommendation-transformer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sequential-recommendation-transformer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "35610acfd3ba3298bfadf6b7c6d0e72511d48a6e17a025d32c11232fb3071b57",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

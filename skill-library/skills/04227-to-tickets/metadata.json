@@ -1,0 +1,22 @@
+{
+  "英文名称": "to-tickets",
+  "中文名称": "待补：to-tickets",
+  "一句话作用": "把计划/规格拆成 tracer-bullet 任务卡，声明阻塞依赖。触发词：规格转任务卡、to-tickets、把计划/规格拆成 tracer-bullet 任务卡，声明阻塞依赖。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- [ ] 标准 1 - [ ] 标准 2",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要把计划/规格拆成 tracer-bullet 任务卡，声明阻塞依赖。触发词：规格转任务卡、to-tickets、把计划/规格拆成 tracer-bullet 任务卡，声明阻塞依赖。时，用它产出或更新：- [ ] 标准 1 - [ ] 标准 2",
+  "skill_id": "04227-to-tickets-e95cb866",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/to-tickets/SKILL.md",
+  "relative_path": "lute/.dsh/skills/to-tickets/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7a46d40bc2f4cb56a7c8df18810be40a87d497c0f4b167887c64a3b48e3b328",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

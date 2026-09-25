@@ -1,0 +1,22 @@
+{
+  "英文名称": "tdx-connector",
+  "中文名称": "待补：tdx-connector",
+  "一句话作用": "Query global stock data via Tongdaxin MCP, with screening and research support.",
+  "关键输入": "常用字段 ： 参数 类型 必填 说明 ------ ------ :----: ------ entry string ✅ 上游接口名，如 TdxSharePCCW.tdxf10 gg ybpj code string - 证券代码，如 000001、00700 fixedTag string - 同一 entry 下区分业务子类型 branch string - 板块或分支编号 timeType string - 时间类型，如板块截面中的 1m",
+  "关键输出": "字段 说明 ------ ------ request 实际请求的 entry、端点、Params 等上下文 response.status HTTP 状态码 response.data 未转换或转换失败时的原始响应 response.transformed 转换成功后的结构化结果 传了 responseTransform 且转换成功时，优先读取 response.transformed。 ---",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Query global stock data via Tongdaxin MCP, with screening and research support.时，用它产出或更新：字段 说明 ------ ------ request 实际请求的 entry、端点、Params 等上下文 response.status HTTP 状态码 response.data 未转换或转换失败时的原始响应 response.transformed 转换成功后的结构化结果 传了 responseTransform 且转换成…",
+  "skill_id": "05380-tdx-connector-16135c41",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tdx-connector/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tdx-connector/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bf5f4e4f85a8af11d055f5b579d21931ff168352da4c82437f232be3eca1e172",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

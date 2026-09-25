@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ltv-prediction-ziln",
+  "中文名称": "预测 - 零膨胀对数正态模型 (ZILN)",
+  "一句话作用": "触发词：ZILN、新客 LTV、零膨胀、价值分层、一次性购买概率、渠道决策。何时不用：存量用户的活跃概率判断用 BTYD 那张卡；要在首购时就预测长期价值、决定是否继续投放维护时用本卡。安全边界：用户画像与渠道特征须去标识化并获授权，分层结果不得用于歧视性定价或对外披露个体信息。",
+  "关键输入": "输入 ：用户画像（年龄、是否新手妈妈、收入水平、地域）、首购行为（SKU、客单价、是否用券）、行为特征（注册到首购间隔、浏览页数、加购次数）、渠道特征（获客渠道、素材、落地页）与 6/12 个月 LTV 标签；建议 5,000 以上有完整 LTV 历史的用户。 输出 ：每位新客的 LTV 点估计、一次性购买概率与价值分层（卡页 Top 20% 重点运营、中间 50% 标准运营、Bottom 30% 降低维护成本），供增长与会员团队决策。",
+  "关键输出": "输入 ：用户画像（年龄、是否新手妈妈、收入水平、地域）、首购行为（SKU、客单价、是否用券）、行为特征（注册到首购间隔、浏览页数、加购次数）、渠道特征（获客渠道、素材、落地页）与 6/12 个月 LTV 标签；建议 5,000 以上有完整 LTV 历史的用户。 输出 ：每位新客的 LTV 点估计、一次性购买概率与价值分层（卡页 Top 20% 重点运营、中间 50% 标准运营、Bottom 30% 降低维护成本），供增长与会员团队决策。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：ZILN、新客 LTV、零膨胀、价值分层、一次性购买概率、渠道决策。何时不用：存量用户的活跃概率判断用 BTYD 那张卡；要在首购时就预测长期价值、决定是否继续投放维护时用本卡。安全边界：用户画像与渠道特征须去标识化并获授权，分层结果不得用于歧视性定价或对外披露个体信息。时，用它产出或更新：输入 ：用户画像（年龄、是否新手妈妈、收入水平、地域）、首购行为（SKU、客单价、是否用券）、行为特征（注册到首购间隔、浏览页数、加购次数）、渠道特征（获客渠道、素材、落地页）与 6/12 个月 LTV 标签；建…",
+  "skill_id": "11735-p2s-ltv-prediction-ziln-423959c8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ltv-prediction-ziln/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ltv-prediction-ziln/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2b8698fd0b1312aebd8dc803a56e987613c1550f27e153039b47ab7ba8055a82",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

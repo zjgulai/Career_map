@@ -1,0 +1,22 @@
+{
+  "英文名称": "open-code-review-delegate",
+  "中文名称": "待补：open-code-review-delegate",
+  "一句话作用": "Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and…",
+  "关键输入": "If ocr is not installed: No LLM configuration is needed for delegation mode.",
+  "关键输出": "Each comment must follow this structure: Field Type Required Description ------- ------ ---------- ------------- path string yes Relative file path content string yes Review comment describing the issue start line integer no Start line in the new file",
+  "最新更新时间": "2026-09-19T04:11:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and…时，用它产出或更新：Each comment must follow t…",
+  "skill_id": "04994-open-code-review-delegate-c73de8df",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/open-code-review-delegate/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/open-code-review-delegate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02e1ffc6da293094b1496a4d81a8fcaa997780e503669c9b9731b1a342cd937d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

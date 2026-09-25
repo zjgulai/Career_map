@@ -1,0 +1,22 @@
+{
+  "英文名称": "sop-writer",
+  "中文名称": "待补：sop-writer",
+  "一句话作用": "把口头描述的业务流程整理成含 RACI 分工、流程图、详细步骤与异常处理的 SOP 文档。触发词：梳理流程、制定 SOP、明确分工、规范操作、流程文档、sop-writer。何时不用：只记录一次会议的结论与行动项用 meeting-minutes；方案比选与加权打分用 weighted-scoring。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要把口头描述的业务流程整理成含 RACI 分工、流程图、详细步骤与异常处理的 SOP 文档。触发词：梳理流程、制定 SOP、明确分工、规范操作、流程文档、sop-writer。何时不用：只记录一次会议的结论与行动项用 meeting-minutes；方案比选与加权打分用 weighted-scoring。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04197-sop-writer-b9eafcda",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sop-writer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sop-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7da2be5f0956238ac19522b85aeb762f8df9a85c5b05dfa3dcb81d689e717a70",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "plugin-eval",
+  "中文名称": "待补：plugin-eval",
+  "一句话作用": "Help engineers evaluate a local skill or plugin, explain why it scored that way, show what to fix first, measure real token usage, benchmark starter scenarios, or decide what to run next. Use when the user says things l…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Prefer the JSON result as the source of truth. - Lead with At a Glance, Why It Matters, Fix First, and Recommended Next Step. - Keep the why content terse and easy to skim. - Call out whether budget numbers are static estimates or measured harness results.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Help engineers evaluate a local skill or plugin, explain why it scored that way, show what to fix first, measure real token usage, benchmark starter scenarios, or decide what to run next. Use when the user says things l…时，用它产出或更新：- Prefer the JSON result a…",
+  "skill_id": "00969-plugin-eval-4767de36",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/plugin-eval/skills/plugin-eval/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/plugin-eval/skills/plugin-eval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07663cf8ef7c66d469d628bbca0de368d0578c8e7c7663a3dbc340d2cf6d772b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

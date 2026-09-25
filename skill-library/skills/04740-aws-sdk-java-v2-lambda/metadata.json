@@ -1,0 +1,22 @@
+{
+  "英文名称": "aws-sdk-java-v2-lambda",
+  "中文名称": "待补：aws-sdk-java-v2-lambda",
+  "一句话作用": "Provides AWS Lambda patterns using AWS SDK for Java 2.x. Use when invoking Lambda functions, creating/updating functions, managing function configurations, working with Lambda layers, or integrating Lambda with Spring B…",
+  "关键输入": "Use this skill when: - Invoking Lambda functions programmatically - Creating or updating Lambda functions - Managing Lambda function configurations - Working with Lambda environment variables - Managing Lambda layers an…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Invoking Lambda functions programmatically - Creating or updating Lambda functions - Managing Lambda function configurations - Working with Lambda environment variables - Managing Lambda layers an…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04740-aws-sdk-java-v2-lambda-5949969e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/aws-sdk-java-v2-lambda/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/aws-sdk-java-v2-lambda/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "112dcd030d17113ce4a4ea4586388b0adc037720f0996943d72ba64c55d560a2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

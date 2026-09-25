@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sql-agent-text-to-sql",
+  "中文名称": "待补：p2s-sql-agent-text-to-sql",
+  "一句话作用": "触发词：自然语言取数、Schema理解、SQL生成、固定口径查询、取数自助。何时不用：表名列名映射模糊时用 Schema-Linking 感知方案；要跨库语义推理时用混合检索。安全边界：仅限只读查询自有业务库，禁止生成写操作与 DDL，结果不得包含个人隐私字段并外发。",
+  "关键输入": "输入 ：数据库 Schema（表结构、字段说明）、业务问题语句，以及可选的历史 SQL 样例；卡页第 4 段未给字段级规格，落地前需确认 Schema 描述与数据字典的维护方式。 输出 ：查询结果与可追溯的 SQL：卡页示例按问题返回转化率、退货率排名等结果并附上所用 SQL；业务侧重复取数工作量减少 80%、决策速度提升 10 倍。",
+  "关键输出": "输入 ：数据库 Schema（表结构、字段说明）、业务问题语句，以及可选的历史 SQL 样例；卡页第 4 段未给字段级规格，落地前需确认 Schema 描述与数据字典的维护方式。 输出 ：查询结果与可追溯的 SQL：卡页示例按问题返回转化率、退货率排名等结果并附上所用 SQL；业务侧重复取数工作量减少 80%、决策速度提升 10 倍。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：自然语言取数、Schema理解、SQL生成、固定口径查询、取数自助。何时不用：表名列名映射模糊时用 Schema-Linking 感知方案；要跨库语义推理时用混合检索。安全边界：仅限只读查询自有业务库，禁止生成写操作与 DDL，结果不得包含个人隐私字段并外发。时，用它产出或更新：输入 ：数据库 Schema（表结构、字段说明）、业务问题语句，以及可选的历史 SQL 样例；卡页第 4 段未给字段级规格，落地前需确认 Schema 描述与数据字典的维护方式。 输出 ：查询结果与可追溯的 SQL：卡页示例…",
+  "skill_id": "12129-p2s-sql-agent-text-to-sql-2ff328ce",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-sql-agent-text-to-sql/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-sql-agent-text-to-sql/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a17e0eecc5584c2636978e6c67c2199ca9cd754d6d24f9df2d3521b806c5b654",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

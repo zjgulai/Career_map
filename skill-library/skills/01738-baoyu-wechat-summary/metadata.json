@@ -1,0 +1,22 @@
+{
+  "英文名称": "baoyu-wechat-summary",
+  "中文名称": "待补：baoyu-wechat-summary",
+  "一句话作用": "Summarizes WeChat group chat highlights into a structured digest using the local wx-cli binary (https://github.com/jackwener/wx-cli). Generates a normal digest by default; a roast (毒舌) version is opt-in. Maintains per-g…",
+  "关键输入": "When this skill prompts the user, follow this tool-selection rule (priority order): 1. Prefer built-in user-input tools exposed by the current agent runtime — e.g., AskUserQuestion, request user input, clarify, ask user, or any equivalent. 2. Fallback : if no…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T22:52:16+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要When a wx command fails, diagnose by the symptom, not by retrying blindly. Common patterns: Symptom Cause Fix (tell the user to run these — do NOT run sudo for them) --------- ------- -----------------------------------…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01738-baoyu-wechat-summary-eea14c3b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/baoyu-wechat-summary/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/baoyu-wechat-summary/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3c0325f34695ccbb6102f365bdc22ac71fb0a14262a730d9a34f8fd3fd6ebc2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

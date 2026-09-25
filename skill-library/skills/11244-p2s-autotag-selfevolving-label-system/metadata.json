@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-autotag-selfevolving-label-system",
+  "中文名称": "待补：p2s-autotag-selfevolving-label-system",
+  "一句话作用": "触发词：p2s-autotag-selfevolving-label-system。VOC 自动打标签与自进化标签体系",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：p2s-autotag-selfevolving-label-system。VOC 自动打标签与自进化标签体系时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11244-p2s-autotag-selfevolving-label-system-5bb8a775",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-autotag-selfevolving-label-system/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-autotag-selfevolving-label-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79b13e5404e35344900199a31cefef8ad33557bdc9004f465dde3d5528ce2202",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

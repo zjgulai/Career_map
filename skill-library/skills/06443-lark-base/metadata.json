@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-base",
+  "中文名称": "待补：lark-base",
+  "一句话作用": "飞书多维表格用于搭建台账、清单、资料库、问卷、登记表、收集表、项目管理、客户管理、订单管理、库存管理、进度跟踪等表格、看板和系统；支持使用数据表格、问卷、仪表盘等工具对数据进行收集、记录、整理、关联、统计、提醒、审批和自动化流转。适用于个人、团队和企业将零散信息结构化，生成可持续维护的数据管理工具。用户想记录信息、管理业务、跟踪进度、维护客户订单库存、统计分析或自动处理流程时使用；提及多维表格、Base、bitable，或提供多维表格…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "交付物 必须回读 通过条件 - - - Base / Table / Record +table-list、+field-list、必要的 +record-list 表、字段、关联与显式记录数量正确；搭建任务不交付空表 Formula / Lookup +field-get + 有界样例 +record-list 保存表达式正确，已有代表性数据的分支计算正确 View 对应 +view-get- + +record-list --view-id 视图名称、实际设置和展示结果必须一致。例如名称写“本周排班”，就必须…",
+  "最新更新时间": "2026-09-21T10:24:35+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要飞书多维表格用于搭建台账、清单、资料库、问卷、登记表、收集表、项目管理、客户管理、订单管理、库存管理、进度跟踪等表格、看板和系统；支持使用数据表格、问卷、仪表盘等工具对数据进行收集、记录、整理、关联、统计、提醒、审批和自动化流转。适用于个人、团队和企业将零散信息结构化，生成可持续维护的数据管理工具。用户想记录信息、管理业务、跟踪进度、维护客户订单库存、统计分析或自动处理流程时使用；提及多维表格、Base、bitable，或提供多维表格…时，用它产出或更新：交付物 必须回读 通过条件 - - - Base /…",
+  "skill_id": "06443-lark-base-d89485f4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/lark-base/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/lark-base/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9cfe8175504822247b9ac3ff2d407fad64c5415e07b89626e46433454815abcc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

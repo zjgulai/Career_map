@@ -1,0 +1,22 @@
+{
+  "英文名称": "Codebase Memory — Knowledge Graph Tools",
+  "中文名称": "待补：Codebase Memory — Knowledge Graph Tools",
+  "一句话作用": "Graph tools return precise structural results in ~500 tokens vs ~80K for grep.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-25T17:34:32+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Graph tools return precise structural results in ~500 tokens vs ~80K for grep.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00559-codebase-memory-knowledge-graph-tools-5823e4ca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.claude/skills/codebase-memory/SKILL.md",
+  "relative_path": "lute/.claude/skills/codebase-memory/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "182bc7a066c96ead8cfb47c5e3845f0fb11f4107b438a21b7129b268c95d4efe",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

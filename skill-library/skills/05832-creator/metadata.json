@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-creator",
+  "中文名称": "待补：skill-creator",
+  "一句话作用": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, benchmark skill…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Take best description from the JSON output and update the skill's SKILL.md frontmatter. Show the user before/after and report the scores. ---",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, benchmark skill…时，用它产出或更新：Take best description from…",
+  "skill_id": "05832-skill-creator-bcc43ba5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/skill-creator/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/skill-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ba8bebb2c085444120743af8dc859dd7c2592d6290e93aa5e1c08403109bdce7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

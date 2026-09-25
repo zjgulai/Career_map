@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ito-doi-inventory-turnover-optimizer",
+  "中文名称": "库存周转率优化闭环 库存效率KPI驱动的补货与清仓决策",
+  "一句话作用": "触发词：库存周转率、DOI优化、资金释放、五色灯、清仓触发、跨仓周转一致化。何时不用：大促前按盘货缺口临时补货时用「大促前盘货」；只分析供应商交期时走「采购前置期KPI」。安全边界：资金重分配与清仓建议须人工确认，自动降价还需产品方授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要高DOI导致$17万资金压在仓库利息白付——ITO约束补货优化将库存周转从65天压缩至44天，释放资金$17.5万，ROI超1000%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03267-p2s-ito-doi-inventory-turnover-optimizer-8be412b5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ito-doi-inventory-turnover-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ito-doi-inventory-turnover-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f65d603cec31c294af264a7c98f8be334900b31c4d2effd6563effbbd75bfa7b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

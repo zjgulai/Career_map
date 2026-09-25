@@ -1,0 +1,22 @@
+{
+  "英文名称": "build-ai-report",
+  "中文名称": "构建 AI 数据叙事报告",
+  "一句话作用": "只读分析本地 Excel 工作簿，完成数据剖析、清洗口径、结论提炼、图表选型、离线 HTML 报表生成和双端验收。用户要求理解或分析 .xlsx/.xlsm 数据、把 Excel 变成可视化报告、更新 Epoch AI 演示报表、选择合适图表或核对报表数据时使用。",
+  "关键输入": "1. 更新或复现当前案例时，使用 read 查看既有 package.json、scripts/build report.py 和输入约定；适配新工作簿时，先读取用户指定的 Excel 路径，并新建上面的 generated/ /，不要寻找案例脚本。 2. 将输入解析为规范化路径，确认文件存在、可读，扩展名为 .xlsx 或 .xlsm。 3. 记录文件大小、修改时间和 SHA-256；不要通过复制工作簿建立所谓“保护副本”。 4. 使用只读模式打开工作簿。.xlsm 如需保留宏，仅分析数据，不写回文件。",
+  "关键输出": "先对账，再评价视觉。至少检查： 1. 页面总数、均值、占比、排名、Top N、时间范围和标注值能回算到源 Excel。 2. 百分比分母和舍入正确；面积编码使用面积而非半径表达数值；对数轴有明确标记。 3. HTML 不含远程脚本、在线字体、完整原始表或数据下载链接。 4. JavaScript 通过语法检查，页面没有控制台错误和远程资源请求。 5. 约 1440px 桌面端和约 390px 移动端均无横向溢出、裁切、标签碰撞或过度留白。 6. 交互控件真实改变图表，而不是只切换按钮状态。 7. 再次核对源工作簿…",
+  "最新更新时间": "2026-08-30T03:52:28+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要只读分析本地 Excel 工作簿，完成数据剖析、清洗口径、结论提炼、图表选型、离线 HTML 报表生成和双端验收。用户要求理解或分析 .xlsx/.xlsm 数据、把 Excel 变成可视化报告、更新 Epoch AI 演示报表、选择合适图表或核对报表数据时使用。时，用它产出或更新：先对账，再评价视觉。至少检查： 1. 页面总数、均值、占比、排名、Top N、时间范围和标注值能回算到源 Excel。 2. 百分比分母和舍入正确；面积编码使用面积而非半径表达数值；对数轴有明确标记。 3. HTML 不含远程脚…",
+  "skill_id": "10043-build-ai-report-8778a257",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-report-analyst/skills/build-ai-report/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-report-analyst/skills/build-ai-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e827e39052f16afbeefb871fbb03d1625025f6dcc4fc1139848279db300e88af",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

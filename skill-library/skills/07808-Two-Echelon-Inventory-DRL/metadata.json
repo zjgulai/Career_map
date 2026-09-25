@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Two-Echelon-Inventory-DRL",
+  "中文名称": "待补：Two Echelon Inventory DRL",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 37.8, \"best\": 72.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T01:46:17.997568\"} {\"round\": 0, \"status\": \"patch improved\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"track\", \"…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T17:56:22+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 37.8, \"best\": 72.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T01:46:17.997568\"} {\"round\": 0, \"status\": \"patch improved\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"track\", \"…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07808-skill-two-echelon-inventory-drl-d8b22eb2",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Two-Echelon-Inventory-DRL.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Two-Echelon-Inventory-DRL.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "a0ecc56fb18bc80c0d287510300520132cc7f42d903c109556e4f4b77391da91",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

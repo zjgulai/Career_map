@@ -1,0 +1,22 @@
+{
+  "英文名称": "intake-audit",
+  "中文名称": "阶段一：材料审计（先审后写）",
+  "一句话作用": "doubao-patent-drafting 阶段一，材料审计。由根 skill 在判定为撰写或修改任务后调用，不独立触发。",
+  "关键输入": "通读交底书列出所有被提及的技术问题；只有一个就直接定为主问题；有多个就先找材料有没有自称\"最主要 / 最核心\"的问题，有就采用；没有就选与核心技术方案因果对应最强的那个（方案里大多数特征是为了解决哪个问题，那个就是主问题）。其余问题降为次要问题，不能因为不是主问题就完全不提，各自仍要与效果一一挂钩。 反例：材料同时提到\"防止起火\"和\"降低成本\"，但方案的绝大部分技术特征都是围绕隔热结构展开、成本只是顺带提了一句——这时不能把两者并列成…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要通读交底书列出所有被提及的技术问题；只有一个就直接定为主问题；有多个就先找材料有没有自称\"最主要 / 最核心\"的问题，有就采用；没有就选与核心技术方案因果对应最强的那个（方案里大多数特征是为了解决哪个问题，那个就是主问题）。其余问题降为次要问题，不能因为不是主问题就完全不提，各自仍要与效果一一挂钩。 反例：材料同时提到\"防止起火\"和\"降低成本\"，但方案的绝大部分技术特征都是围绕隔热结构展开、成本只是顺带提了一句——这时不能把两者并列成…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06547-intake-audit-de87c1d5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-patent-drafting/sub-skills/intake-audit/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-patent-drafting/sub-skills/intake-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a6a0ec6b3dabe1b5a45898d3c6f602fcd38118da5ebe4b78fc601f7d692c4527",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

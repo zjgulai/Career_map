@@ -1,0 +1,22 @@
+{
+  "英文名称": "用户故事",
+  "中文名称": "用户故事",
+  "一句话作用": "把已对齐的设计方向（/设计简报 / /问题框定）拆解为可执行的用户故事，每个故事用真实人物名 + JTBD + 验收标准 + 设计触点描述，让设计师直接据此进入 Flow / 单屏设计；同时可向工程侧输出，作为 /写PRD 的素材源。 触发关键词：写用户故事、user story、把方向拆成故事、拆解需求、break this down、designer story、/用户故事、把 /设计简报 变成可设计的、需要写故事。 排除（反向）…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成 Story 集合后， 同时 做两件事： 1. 会话内输出 ： 2. 写入项目文件 ：spark-output/context/stories.json（目录不存在时先创建） 3. 额外保存 Markdown 报告 ：spark-output/stories/[direction-slug].md，便于人类阅读和分享。 下游可消费 Skill： Flow Web / Flow Mobile （设计执行——读取 design touchpoints 直接进入 IA 设计）/ PRD （工程交付——读取 acce…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要把已对齐的设计方向（/设计简报 / /问题框定）拆解为可执行的用户故事，每个故事用真实人物名 + JTBD + 验收标准 + 设计触点描述，让设计师直接据此进入 Flow / 单屏设计；同时可向工程侧输出，作为 /写PRD 的素材源。 触发关键词：写用户故事、user story、把方向拆成故事、拆解需求、break this down、designer story、/用户故事、把 /设计简报 变成可设计的、需要写故事。 排除（反向）…时，用它产出或更新：完成 Story 集合后， 同时 做两件事： 1.…",
+  "skill_id": "04612-skill-a104c92b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/stories/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/stories/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a625d532408030fbfc159915f5390653c15af9cd44bb37a4fbe29042771142b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

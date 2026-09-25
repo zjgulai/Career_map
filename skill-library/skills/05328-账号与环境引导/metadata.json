@@ -1,0 +1,22 @@
+{
+  "英文名称": "linkfox-onboarding",
+  "中文名称": "账号与环境引导",
+  "一句话作用": "LinkFox 账号与环境引导。两个入口：(1) 检测到 LINKFOX AGENT API KEY/LINKFOXAGENT API KEY 均未配置，或任何 linkfox- skill 返回 errcode=401/authorized error 时，引导用户配置 key——支持脚本化注册（手机号→验证码→自动获取 key）；(2) 任何 linkfox- skill 返回计费不足错误（errcode=402 或消息含\"积分余…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要LinkFox 账号与环境引导。两个入口：(1) 检测到 LINKFOX AGENT API KEY/LINKFOXAGENT API KEY 均未配置，或任何 linkfox- skill 返回 errcode=401/authorized error 时，引导用户配置 key——支持脚本化注册（手机号→验证码→自动获取 key）；(2) 任何 linkfox- skill 返回计费不足错误（errcode=402 或消息含\"积分余…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05328-linkfox-onboarding-a5401933",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-onboarding/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-onboarding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d32b953217dbc43bc09099c3af8b7790b21b7003a028f02d96b03d412293dce",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "bgee-skill",
+  "中文名称": "待补：bgee-skill",
+  "一句话作用": "Submit compact Bgee SPARQL requests for healthy wild-type expression metadata and ontology-aware lookup patterns. Use when a user wants concise Bgee summaries; save raw results only on request.",
+  "关键输入": "- Read one JSON object from stdin. - Required field: query or query path - Optional fields: method, params, response format, max items, max depth, timeout sec, save raw, raw output path - Common Bgee patterns: - {\"query\":\"ASK {}\"} - {\"query\":\"SELECT WHERE { ?…",
+  "关键输出": "- Success returns ok, source, a compact summary, and raw output path when save raw=true. - Failure returns ok=false with error.code such as invalid json, invalid input, network error, or invalid response.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Submit compact Bgee SPARQL requests for healthy wild-type expression metadata and ontology-aware lookup patterns. Use when a user wants concise Bgee summaries; save raw results only on request.时，用它产出或更新：- Success returns ok, source, a compact summary, and…",
+  "skill_id": "00867-bgee-skill-fc14fcbc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/bgee-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/bgee-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1df373b91ab3073fbf6e91fa4749793b6dcba62acc1f6c3afebcba832af7eef3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gplr-persona-generation",
+  "中文名称": "用户人群标签生成 - 购买行为到可解释 Persona 的低成本桥接",
+  "一句话作用": "触发词：人群标签生成、Persona 标注、随机游走传播、少量标注全量覆盖、新品人群识别。何时不用：要估计某种干预对不同人群的因果效应用 DML 群体异质性技能，本技能只做人群标签的生成与传播。安全边界：Persona 标签不得包含种族、宗教、健康等敏感类别，订单数据仅限内部使用不得转售，广告定向须遵守平台反歧视政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：Momcozy 在 Amazon US 有 10 万+ 活跃用户，现有 RFM 分群只能区分\"高消费/低消费\"，营销团队无法针对\"出差妈妈\"\"新手妈妈\"制定差异化素材；人工打标既慢又贵 - 数据要求：Amazon 订单数据（user id, product id, purchase date）+ 预定义 Persona 集合（如：职场背奶妈妈 / 全职新手妈妈 / 出差旅行妈妈 / 静音敏感型 / 价格敏感型） -时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11692-p2s-gplr-persona-generation-a37f3eed",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-gplr-persona-generation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-gplr-persona-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5cb627adca4f7645189133f4265da46ed01cab822ff41212f530f5ddad1f3824",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

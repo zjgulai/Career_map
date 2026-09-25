@@ -1,0 +1,22 @@
+{
+  "英文名称": "manim-video-with-tts",
+  "中文名称": "待补：manim-video-with-tts",
+  "一句话作用": "End-to-end production pipeline for Manim mathematical explainer videos with Volcengine TTS narration. Plan → TTS → Code → Render → Stitch → Deliver. Use when users want: Manim animation + Chinese voiceover, math concept…",
+  "关键输入": "- Python 3.10+, Manim Community v0.20+ - ffmpeg - Volcengine TTS credentials (VOLCENGINE TTS ACCESS TOKEN, VOLCENGINE TTS APP ID, VOLCENGINE TTS VOICE TYPE ) - lark-cli for Feishu upload - Web server directory /var/www/hermes.aigc.green/media/",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-05T01:33:34+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要End-to-end production pipeline for Manim mathematical explainer videos with Volcengine TTS narration. Plan → TTS → Code → Render → Stitch → Deliver. Use when users want: Manim animation + Chinese voiceover, math concept…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09306-manim-video-with-tts-2c781c6e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/draco-content/manim-video-with-tts/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/draco-content/manim-video-with-tts/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4c6c060c24425c06ccba419583ff8b78156636bdf1f798711ca9f03e1d7a83ee",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

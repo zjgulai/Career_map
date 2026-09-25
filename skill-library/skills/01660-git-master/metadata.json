@@ -1,0 +1,22 @@
+{
+  "英文名称": "git-master",
+  "中文名称": "待补：git-master",
+  "一句话作用": "MUST USE whenever a task needs a commit or git-history investigation. Covers atomic commits, staging, commit-message style, rebase, squash, fixup/autosquash, blame, bisect, reflog, git log -S/-G, and questions like who…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要MUST USE whenever a task needs a commit or git-history investigation. Covers atomic commits, staging, commit-message style, rebase, squash, fixup/autosquash, blame, bisect, reflog, git log -S/-G, and questions like who…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01660-git-master-19920eb3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/dist/skills/git-master/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/dist/skills/git-master/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6bf9fa3727947b53bf4b0fba8522a40705a9e1ee9aed8148da00efec457ca629",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

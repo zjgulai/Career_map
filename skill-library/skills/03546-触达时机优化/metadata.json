@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-offlinerl",
+  "中文名称": "触达时机优化",
+  "一句话作用": "触发词：p2s-offlinerl。Skill: 离线RL触达时机优化 - 不打扰的最优干预",
+  "关键输入": "推送通知的困境： - 发太少 → 用户遗忘，转化率低 - 发太多 → 打扰用户，导致关闭推送甚至卸载 - 时机不对 → 睡眠中的妈妈被吵醒，品牌好感度暴跌 传统方法缺陷： - 响应预测模型只预测\"是否点击\"，不优化长期用户体验 - 无法处理序列决策（多次推送的累积效应）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:37+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要推送通知的困境： - 发太少 → 用户遗忘，转化率低 - 发太多 → 打扰用户，导致关闭推送甚至卸载 - 时机不对 → 睡眠中的妈妈被吵醒，品牌好感度暴跌 传统方法缺陷： - 响应预测模型只预测\"是否点击\"，不优化长期用户体验 - 无法处理序列决策（多次推送的累积效应）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "03546-p2s-offlinerl-234c0783",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-offlinerl/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-offlinerl/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5aec1c164cb93b84c135437fafa9ac3d8e083ed55806b3a4ac6d325fc278f270",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

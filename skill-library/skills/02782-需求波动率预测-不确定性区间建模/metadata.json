@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-arima-garch-demand-volatility",
+  "中文名称": "需求波动率预测（不确定性区间建模）",
+  "一句话作用": "触发词：需求波动率、动态安全库存、GARCH建模、时变置信区间、持仓成本。何时不用：需要覆盖率保证的预测区间用「共形预测需求区间」，按国别诊断退货率用「分国退货率KPI」。安全边界：预测区间仅用于内部库存决策，不对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链计划师面临\"固定安全库存在高波动期不足、平日过剩\"——ARIMA-GARCH动态安全库存将持仓成本降低15%，年化节省10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02782-p2s-arima-garch-demand-volatility-541eef31",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-arima-garch-demand-volatility/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-arima-garch-demand-volatility/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7ee843e010b289a2df4b6387489aa1584c839f4fa7f53d43c60a653e5b7c3ac3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

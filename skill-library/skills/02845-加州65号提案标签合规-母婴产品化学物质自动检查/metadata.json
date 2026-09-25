@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-california-prop65-label-check",
+  "中文名称": "加州65号提案标签合规 母婴产品化学物质自动检查",
+  "一句话作用": "触发词：加州 65 号提案、Prop65 警告、NSRL、MADL、化学物质比对、暴露量计算。何时不用：要核欧盟 REACH 限制物质时用「REACH 化学品合规」，要办欧盟 EPR 注册与包装标签时用「EPR 标签体系」。安全边界：输出为标签合规判断与警告语模板，不代替律师出具法律意见，也不代理已发生的诉讼应对。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要产品团队面临\"进入加州市场的母婴产品因Prop65标签缺失被投诉起诉\"——自动Prop65合规检查将上架前标签遗漏率从35%降至<1%，年化避免加州诉讼和赔偿风险100-500万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02845-p2s-california-prop65-label-check-b0604cd0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-california-prop65-label-check/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-california-prop65-label-check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5836cb15b39d246845a9de61e45bf4e45857860e78f3a56fca72f9da43bceba4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

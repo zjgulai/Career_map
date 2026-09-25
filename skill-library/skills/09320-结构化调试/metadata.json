@@ -1,0 +1,22 @@
+{
+  "英文名称": "fix",
+  "中文名称": "结构化调试",
+  "一句话作用": "遇到问题时——先理解本质，再动手修复。禁止在未定位根因前大面积改代码。",
+  "关键输入": "根因 ：[用一句话说清楚问题的本质] 为什么之前没发现 ：[测试盲区？边界条件？依赖变更？并发？] 修复方案 ：[改了什么，为什么这样改] 影响范围 ：[只影响XX功能 涉及YY和ZZ模块] 回归测试 ：[新增了哪个测试来防止复发] 教训 ：[如果有时光机，在开发时做什么可以避免这个问题？]",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-03T18:05:11+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要根因 ：[用一句话说清楚问题的本质] 为什么之前没发现 ：[测试盲区？边界条件？依赖变更？并发？] 修复方案 ：[改了什么，为什么这样改] 影响范围 ：[只影响XX功能 涉及YY和ZZ模块] 回归测试 ：[新增了哪个测试来防止复发] 教训 ：[如果有时光机，在开发时做什么可以避免这个问题？]时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09320-fix-de910791",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_software/skills/fix/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_software/skills/fix/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "519b558bff5f953708dbaf7abf8c1f1a6968eb0037f378dfd4b9c7c3ae28cf8a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

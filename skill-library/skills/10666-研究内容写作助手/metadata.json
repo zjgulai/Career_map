@@ -1,0 +1,22 @@
+{
+  "英文名称": "research-writer",
+  "中文名称": "研究内容写作助手",
+  "一句话作用": "提供高质量的研究写作支持：从资料调研、补充引用，到优化开头、完善结构大纲，并实时提供逐节反馈与打磨建议。当用户提出写作协助请求，如“帮忙调研资料”、“优化开头”、“梳理大纲”，或需要逐节审阅、补充引用、润色文章时触发。",
+  "关键输入": "- 撰写博客文章、专栏或新闻简报 - 创作教学内容或教程 - 起草深度观点文章 - 调研并撰写案例分析 - 编写需要引用文献的技术文档 - 规范引用和参考文献格式 - 优化文章开头和引言 - 边写边获取逐节反馈",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:05:08+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 撰写博客文章、专栏或新闻简报 - 创作教学内容或教程 - 起草深度观点文章 - 调研并撰写案例分析 - 编写需要引用文献的技术文档 - 规范引用和参考文献格式 - 优化文章开头和引言 - 边写边获取逐节反馈时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10666-research-writer-76777b36",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/research-writer/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/research-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5097a0a9a6e21e169a502de6947c0857cf1923dec46cf364d1367c96aaa6c60f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

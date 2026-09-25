@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-sell-llm-gnn",
+  "中文名称": "交叉销售LLM三阶段粗到精检索框架",
+  "一句话作用": "触发词：交叉销售、关联购买、意图召回、图模型精排、连带率。何时不用：要按商品知识图谱做跨品类推荐用「知识图谱增强推荐 CoLaKG」；要压制列表同质化用「多样性重排 SMMR」。安全边界：不得使用操纵评论或歧视性定价手段；LLM 提炼的意图只作召回输入，不得生成夸大或未经验证的功效表述；受广告限制品类须遵守当地儿童食品广告规则。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临关联推荐准确率低——LLM+GNN双模融合将关联购买率从8%提升至19%，年化增收65万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02999-p2s-cross-sell-llm-gnn-4c6fca3e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-sell-llm-gnn/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-sell-llm-gnn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d80353d0f6e085f61efa99fb0b99618a56519f17a85b9fdd9bf755dfb4e93c85",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

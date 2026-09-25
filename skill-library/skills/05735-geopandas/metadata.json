@@ -1,0 +1,22 @@
+{
+  "英文名称": "geopandas",
+  "中文名称": "待补：geopandas",
+  "一句话作用": "Python library for working with geospatial vector data including shapefiles, GeoJSON, and GeoPackage files. Use when working with geographic data for spatial analysis, geometric operations, coordinate transformations, s…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "gdf.to file(\"results.gpkg\", layer='original') buffered.to file(\"results.gpkg\", layer='buffered')",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Python library for working with geospatial vector data including shapefiles, GeoJSON, and GeoPackage files. Use when working with geographic data for spatial analysis, geometric operations, coordinate transformations, s…时，用它产出或更新：gdf.to file(\"results.gpkg\"…",
+  "skill_id": "05735-geopandas-e7c45049",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/geopandas/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/geopandas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e2a4dfd2635c5dbbc123ccdacafca110cfe470cdf4217a67f88be61538d3524",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

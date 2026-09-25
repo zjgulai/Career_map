@@ -1,0 +1,22 @@
+{
+  "英文名称": "prd-writer",
+  "中文名称": "待补：prd-writer",
+  "一句话作用": "Write a concise PRD or implementation brief from current context, separating problem, solution, user stories, decisions, testing, rollout, and out of scope. Use when the user asks for a PRD, product brief, implementatio…",
+  "关键输入": "- Current conversation, existing specs, issues, roadmap items, ADRs, and domain docs. - User goals, constraints, target users, non-goals, and known decisions. - Existing validation commands and release process when relevant.",
+  "关键输出": "Return or write: 1. Problem 2. Goals 3. Non-goals 4. Users or stakeholders 5. Proposed solution 6. User stories or workflows 7. Decisions 8. Open questions 9. Acceptance criteria 10. Validation and rollout",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks for a PRD, implementation brief, product spec, or handoff spec. - Current conversation context needs to become a durable planning artifact. - Engineering, product, validation, and rollout expectations ne…时，用它产出或更新：Return or write: 1. Proble…",
+  "skill_id": "06024-prd-writer-10d561eb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/engineering-workflows/prd-writer/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/engineering-workflows/prd-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "100e8f4d4da78989effe0dcf46dfb0aa51ed0af54bd2a395e2463e9d02885f91",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

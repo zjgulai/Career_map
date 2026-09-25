@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-driven-marketing-attribution",
+  "中文名称": "营销渠道标签驱动MMM三维归因",
+  "一句话作用": "触发词：标签 MMM、内容标签、增量归因、Adstock、渠道协同、预算重分配。何时不用：按触点顺序做跨渠道 Shapley 归因用多触点归因那张卡；本卡把内容类型标签作为控制变量，把 MMM 从渠道级细到标签-渠道-内容三维。安全边界：内容标签采集须遵守平台数据条款，不得抓取非公开互动数据；涉儿童品类需评估 COPPA，避免使用未成年人行为标签。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要营销分析师面临\"MMM归因只能到渠道级无法细分到内容类型和标签维度\"——标签作为MMM控制变量将归因粒度从渠道级升级至标签-渠道-内容三维，年化归因准确度提升33万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03916-p2s-tag-driven-marketing-attribution-a4122cb1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tag-driven-marketing-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tag-driven-marketing-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "153f7f85d74627fa1434db8175224237c87f8c40595286689ad0eaa4d7f7b4ad",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

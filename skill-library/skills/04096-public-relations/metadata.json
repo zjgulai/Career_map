@@ -1,0 +1,22 @@
+{
+  "英文名称": "public-relations",
+  "中文名称": "待补：public-relations",
+  "一句话作用": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release…",
+  "关键输入": "- 媒体关系、记者拓展、新闻劫持与播客预热。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-07T22:16:32+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 媒体关系、记者拓展、新闻劫持与播客预热。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04096-public-relations-af0f9119",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/public-relations/SKILL.md",
+  "relative_path": "lute/.dsh/skills/public-relations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8460d0bc7b4bb694f7aa7fde96a695e79ab44ef673d08551d8e902d59068dbd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

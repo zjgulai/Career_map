@@ -1,0 +1,22 @@
+{
+  "英文名称": "loopx-global-risks",
+  "中文名称": "待补：loopx-global-risks",
+  "一句话作用": "Show stale LoopX runs, boundary risks, failing checks, and rollback candidates.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T18:08:19+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Show stale LoopX runs, boundary risks, failing checks, and rollback candidates.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01872-loopx-global-risks-bb432a9e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/loopx-global-risks/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/loopx-global-risks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2f945e91492373d1074daf83137def1d968c83796197ae8a342c39aa8ab2ca4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

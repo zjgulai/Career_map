@@ -1,0 +1,22 @@
+{
+  "英文名称": "playwright-cli",
+  "中文名称": "待补：playwright-cli",
+  "一句话作用": "Automate browser interactions, test web pages and work with Playwright tests.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "The global --raw option strips page status, generated code, and snapshot sections from the output, returning only the result value. Use it to pipe command output into other tools. Commands that don't produce output return nothing. For structured output wrappi…",
+  "最新更新时间": "2026-07-16T13:56:01+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Automate browser interactions, test web pages and work with Playwright tests.时，用它产出或更新：The global --raw option strips page status, generated code, and snapshot sections from the output, returning only the result value. Use it to pipe command output into ot…",
+  "skill_id": "00467-playwright-cli-5aacf6bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/codex-runtimes/codex-runtime-install-IFbzjM/payload/codex-primary-runtime/dependencies/node/node_modules/.pnpm/playwright-core@1.61.1/node_modules/playwright-core/lib/tools/cli-client/skill/SKILL.md",
+  "relative_path": "lute/.cache/codex-runtimes/codex-runtime-install-IFbzjM/payload/codex-primary-runtime/dependencies/node/node_modules/.pnpm/playwright-core@1.61.1/node_modules/playwright-core/lib/tools/cli-client/skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b4c81c39e39f30e4790607e57b12283878f3751daca9c0e44f301899f2108b13",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

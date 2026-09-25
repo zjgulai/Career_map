@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hts-agentic-tariff-classification",
+  "中文名称": "多Agent关税编码分类 共识验证层级推理不确定性感知的跨境清关自动化",
+  "一句话作用": "触发词：多 Agent 关税分类、共识投票、层级推理、不确定性感知、批量重分类。何时不用：只做单模型 HTS 分类与节税推演用「HTS 关税分类与节税」；只查编码税率库用「HTS 编码分类」。安全边界：有分歧的 10 位编码必须推送经纪人确认，不得自动申报；编码库与法规变更须月度人工抽检。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要30%的年度HS申报编码存在错误导致关税多缴或清关延误——多Agent共识+逐元素投票+层级推理将4位HTS准确率提升至75%+，人工工作量减少80%（2026 arXiv:2606.16987）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12555-p2s-hts-agentic-tariff-classification-df2ca397",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-hts-agentic-tariff-classification/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-hts-agentic-tariff-classification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "155ac1074714a496c1e20da2390b97108ee3f5d6f2e270f8ce89814ac25868c7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

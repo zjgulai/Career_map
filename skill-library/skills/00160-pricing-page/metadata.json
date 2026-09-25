@@ -1,0 +1,22 @@
+{
+  "英文名称": "pricing-page",
+  "中文名称": "待补：pricing-page",
+  "一句话作用": "A standalone pricing page — header, plan tiers, feature comparison table, and an FAQ. Use when the brief asks for \"pricing\", \"plans\", \"subscription tiers\", or a \"compare plans\" page.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Emit between tags: One sentence before the artifact, nothing after.",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要A standalone pricing page — header, plan tiers, feature comparison table, and an FAQ. Use when the brief asks for \"pricing\", \"plans\", \"subscription tiers\", or a \"compare plans\" page.时，用它产出或更新：Emit between tags: One sentence before the artifact, nothing aft…",
+  "skill_id": "00160-pricing-page-eeb36d62",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-create-website/legokits-canvas/skills/pricing-page/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-create-website/legokits-canvas/skills/pricing-page/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a4d642abae180b26eaf2f99730b3c9ab209e6e84e0d8030176e4233ddd5cc640",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

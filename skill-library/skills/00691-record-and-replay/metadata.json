@@ -1,0 +1,22 @@
+{
+  "英文名称": "record-and-replay",
+  "中文名称": "待补：record-and-replay",
+  "一句话作用": "Record the user's actions on their Mac with Record & Replay, and turn it into a reusable ChatGPT skill from the captured event stream.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-28T01:54:36+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Record the user's actions on their Mac with Record & Replay, and turn it into a reusable ChatGPT skill from the captured event stream.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00691-record-and-replay-b30d9534",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/record-and-replay/skills/record-and-replay/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/record-and-replay/skills/record-and-replay/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e25a9c0c7c4fdd6fec85bc44a9735de45f90282c3bd16a7af350cf44297d7d7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

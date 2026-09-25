@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitor-deep-analysis",
+  "中文名称": "待补：competitor-deep-analysis",
+  "一句话作用": "Identify market gaps and strategic advantages through systematic multi-layer intelligence gathering and review mining.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:24+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Identify market gaps and strategic advantages through systematic multi-layer intelligence gathering and review mining.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00292-competitor-deep-analysis-28b91b10",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/competitor-deep-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/competitor-deep-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c1cfa70cbd136b2b772833e2d4f296efef56bcbce6a18c5805b97e7a94851e36",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

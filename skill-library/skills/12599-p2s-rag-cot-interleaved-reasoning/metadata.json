@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rag-cot-interleaved-reasoning",
+  "中文名称": "待补：p2s-rag-cot-interleaved-reasoning",
+  "一句话作用": "触发词：RAG-CoT 交织、多跳推理、逐步引用、可审计推理链、知识溯源。何时不用：要逐步决定是否触发检索时用「DeepRAG 逐步检索」，要修正过期文档来源时用「Corrective-RAG 纠错检索」。安全边界：每步结论须附原文出处，推理链不得补写无出处的合规依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规团队面临多步骤决策推理依据不足——RAG-CoT交织推理每步有据可查，多跳准确率+28%，合规决策可审计，年化风险规避45万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12599-p2s-rag-cot-interleaved-reasoning-dce3feb5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-rag-cot-interleaved-reasoning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-rag-cot-interleaved-reasoning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5082588aa031844d072f0a1d6187cbd988f99e3e29a06c15814b92f7ef868dde",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

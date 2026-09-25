@@ -1,0 +1,22 @@
+{
+  "英文名称": "显示名称",
+  "中文名称": "目标",
+  "一句话作用": "触发用：一句话说明何时调用（Agent 依赖此字段）",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要触发用：一句话说明何时调用（Agent 依赖此字段）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09941-skill-300e447c",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/template-author/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/template-author/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6a301f477e5fa19d1af4458c588cfc48bbc8e3f1156c650f3d8c0ae34099b40a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-signal-realtime-pipeline",
+  "中文名称": "搜索信号实时采集 Pipeline 排名变化与竞品动态的流式监控",
+  "一句话作用": "触发词：搜索排名监控、排名崩塌预警、变化点检测、竞品动态、小时级监控。何时不用：需要按大促与社交热度动态调频采集时用市场信号实时采集技能；只做跨平台广告归因时用营销归因管道技能。安全边界：平台条款禁止自动化爬取，生产环境应优先使用官方接口或合规第三方数据服务。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"竞品排名变化2小时后才能发现导致响应滞后\"——搜索信号实时采集将关键词排名监控延迟从2小时降至5分钟，年化减少因排名丢失导致的流量损失20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03788-p2s-search-signal-realtime-pipeline-a1179949",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-search-signal-realtime-pipeline/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-search-signal-realtime-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bede11c7e86ce2c429d44459d7824e8fe91a4d8b49ee2f6b4fb34a8b51b24383",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

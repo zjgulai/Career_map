@@ -1,0 +1,22 @@
+{
+  "英文名称": "buyer-payment-intent",
+  "中文名称": "买家支付意图 Skill",
+  "一句话作用": "买家支付域统一入口。所有会调用 alibaba-icbu-payment-sub-agent 的支付诉求都必须先进入本 skill,不得绕过。 覆盖支付通知、支付状态/记录、支付链接、去支付/立即支付、重新支付、支付失败原因、到账时间、退款时间、H5 关闭回流、session resume 等场景。 本 skill 负责识别意图、按意图契约收集业务参数、构造内嵌 JSON、追加 [Response Language] / [Clien…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 所有 payment sub-agent 调用前都先进入本 skill。 - 普通用户请求的 task 完整保留用户原话;系统事件 task 使用完整事件任务描述。 - task 含按 query 意图构造的 JSON 和 [Response Language],可读取时含 [Client]。 - JSON 只含当前意图允许的字段,不含 language / audience / Client tag 字段或任何支付 URL。 - 必传字段缺失时先追问或提示登录,不调用 sub-agent,不传空值。",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要买家支付域统一入口。所有会调用 alibaba-icbu-payment-sub-agent 的支付诉求都必须先进入本 skill,不得绕过。 覆盖支付通知、支付状态/记录、支付链接、去支付/立即支付、重新支付、支付失败原因、到账时间、退款时间、H5 关闭回流、session resume 等场景。 本 skill 负责识别意图、按意图契约收集业务参数、构造内嵌 JSON、追加 [Response Language] / [Clien…时，用它产出或更新：- 所有 payment sub-agent 调用前…",
+  "skill_id": "00088-buyer-payment-intent-3663a29b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/buyer-payment-intent/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/buyer-payment-intent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fc40b5c14bf37365f3aa3a4ef2c00e3e29a9bf8a1acbc2cb650ef1b5809753c1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

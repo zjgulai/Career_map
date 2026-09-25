@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitive-seo-intel",
+  "中文名称": "竞品分析",
+  "一句话作用": "深入分析竞争对手的SEO与GEO策略，涵盖关键词排名、内容打法、外链画像、技术SEO评估及AI引用模式，识别超越对手的市场机会，并提供竞品分析模板、战斗卡片等参考。当用户询问“分析竞品SEO”、“竞争对手为什么排名更高”、“竞品关键词和外链分析”或“内容策略对比”时触发。如需专项分析，可使用content-gap-analysis进行内容差距分析，或使用backlink-analyzer进行外链深度分析。",
+  "关键输入": "- [ ] 已确认竞品网址与你所在细分领域相关 - [ ] 已明确分析范围（全面分析还是聚焦特定领域） - [ ] 已准备好自身网站指标用于对比 - [ ] 至少识别了 2-3 个竞品，以发现有意义的规律",
+  "关键输出": "- [ ] 每条建议都引用了具体数据点（非泛泛之谈） - [ ] 竞品优势有可量化的证据支撑（指标、排名） - [ ] 机会基于可识别的差距，而非主观臆断 - [ ] 行动计划条目具体且可执行（非模糊的策略方向） - [ ] 每个数据点的来源已明确标注（~~SEO 工具数据、~~数据分析数据、~~AI 监测数据、用户提供或预估）",
+  "最新更新时间": "2026-09-14T00:08:54+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要- 进入新市场或新细分领域 - 根据竞品的成功经验制定内容策略 - 理解竞争对手为何排名更高 - 发现外链建设和合作机会 - 识别竞争对手忽略的内容空白 - 分析竞品的 AI 引用策略 - 对标自身 SEO 表现时，用它产出或更新：- [ ] 每条建议都引用了具体数据点（非泛泛之谈） - [ ] 竞品优势有可量化的证据支撑（指标、排名） - [ ] 机会基于可识别的差距，而非主观臆断 - [ ] 行动计划条目具体且可执行（非模糊的策略方向） - [ ] 每个数据点的来源已明确标注（~~SEO 工具数据、~~…",
+  "skill_id": "10562-competitive-seo-intel-b46e2cf6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/competitive-seo-intel/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/competitive-seo-intel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39e413b13c09c14776786f75e0e10e1123226a6d6c2dcccaee8e25bbef6b4b21",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

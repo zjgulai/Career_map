@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dynamic-abc-stratification-adaptive-policy",
+  "中文名称": "动态ABC分层与策略自适应 帕累托分类自动更新与差异化库存策略绑定",
+  "一句话作用": "触发词：ABC分层、动态分类、漂移检测、策略绑定、库存瘦身。何时不用：需要做多SKU尾部风险组合优化时用CVaR库存风险组合；需要做库龄分段与清仓优先级时用库龄分段管理与资金成本化。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要新升级爆款仍按C类备货导致旺季缺货——CUSUM漂移检测自动升降级并绑定差异化策略，年化防损$10-15万，C类库存瘦身释放资金$10-20万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03085-p2s-dynamic-abc-stratification-adaptive-policy-f142af0b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dynamic-abc-stratification-adaptive-policy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dynamic-abc-stratification-adaptive-policy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9bde5e958b8ba8a2d348d0847e75b343dda339d4b9a3bfc8754a5b9aaf108c26",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

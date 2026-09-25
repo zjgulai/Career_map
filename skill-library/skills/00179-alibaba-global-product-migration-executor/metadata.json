@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-product-migration-executor",
+  "中文名称": "待补：alibaba-global-product-migration-executor",
+  "一句话作用": "搬品任务执行。负责根据不同搬品模式构造参数、OSS 上传、创建搬品任务、后台轮询、解析数据预览、调用优化 Skill、优化后展示。接收来自 alibaba-global-product-migration-entry 的参数，执行完成后将 CSV 传递给 alibaba-global-product-publish 进行发布。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Agent 输出以下内容： ✅ 优化完成 共优化 {商品数量} 个商品，以下是优化前后对比： [HTML 预览表格或链接，展示 before/after 对比] 📋 智能诊断 - 类目匹配度：{高/中/低} - 关键词覆盖率：{百分比} - 价格合理性：{合理/偏高/偏低} 🔧 处理建议 请选择： - 「修正问题后发布」 → 由我（本地 Agent）直接为您修复上述问题（修改本地 CSV），然后进入发布 - 「确认发布 / 按现状发布」 → 忽略警告，直接进入发布环节（交由 alibaba-global-prod…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要搬品任务执行。负责根据不同搬品模式构造参数、OSS 上传、创建搬品任务、后台轮询、解析数据预览、调用优化 Skill、优化后展示。接收来自 alibaba-global-product-migration-entry 的参数，执行完成后将 CSV 传递给 alibaba-global-product-publish 进行发布。时，用它产出或更新：Agent 输出以下内容： ✅ 优化完成 共优化 {商品数量} 个商品，以下是优化前后对比： [HTML 预览表格或链接，展示 before/after 对比] 📋…",
+  "skill_id": "00179-alibaba-global-product-migration-executor-ef80d823",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-migration-executor/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-migration-executor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c829cb506731837a937f7d7914ad76a004609b661842afcdfcc27ff7d79fc3d5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

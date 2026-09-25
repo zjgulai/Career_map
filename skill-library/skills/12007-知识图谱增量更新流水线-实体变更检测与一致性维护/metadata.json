@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-incremental-update-pipeline",
+  "中文名称": "知识图谱增量更新流水线 实体变更检测与一致性维护",
+  "一句话作用": "触发词：图谱增量流水线、实体变更检测、刷新延迟、回滚机制、法规联动更新。何时不用：只处理单个图谱的时序事实与衰减时用知识图谱增量更新技能；需要本体 Schema 版本迁移时用本体版本管理技能。安全边界：图谱变更须留完整审计日志并具备回滚机制，防止脏数据扩散到下游决策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要竞品价格知识图谱每日全量重建耗时4小时令定价师等不到数据——引入实体变更检测增量更新流水线，图谱刷新延迟从4小时→15分钟（延迟降低 80%），定价决策时效性显著改善。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12007-p2s-kg-incremental-update-pipeline-e1a855fa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-kg-incremental-update-pipeline/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-kg-incremental-update-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30037748eff1f7000d21e805579919f801d0a65055ac685517ad80a303a44c47",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

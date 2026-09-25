@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-market-signal-realtime-collection",
+  "中文名称": "实时市场信号采集：事件驱动感知与趋势冷启动检测",
+  "一句话作用": "触发词：实时市场信号、事件驱动采集、趋势冷启动、频率自适应、社交热度。何时不用：只需按固定频率监控排名变化时用搜索信号实时采集技能；需要跨平台多模态内容融合时用多模态UGC融合技能。安全边界：抓取须遵守平台条款，社交平台数据使用须符合其接口条款与隐私政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "signal strength = 0.8 → 高频模式（5分钟/次），大促当天、黑五 signal strength 0.5-0.8 → 中频模式（15-30分钟/次），大促前 2-3 天 signal strength = 0.75 → 立即启动专项爬取 + 通知选品团队 trend score 0.5-0.75 → 加入观察列表，持续监控 3-7 天",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要策略经理面临市场信号滞后——Realtime Collection将监测延迟6小时压到20分钟，年化省18万元时，用它产出或更新：signal strength = 0.8 → 高频模式（5分钟/次），大促当天、黑五 signal strength 0.5-0.8 → 中频模式（15-30分钟/次），大促前 2-3 天 signal strength = 0.75 → 立即启动专项爬取 + 通知选品团队 trend score 0.5-0.75 → 加入观察列表，持续监控 3-7 天",
+  "skill_id": "03392-p2s-market-signal-realtime-collection-649b3ff5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-market-signal-realtime-collection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-market-signal-realtime-collection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "77e9a901f6a598052323f1e7f66475268f9671ffaf6dfbdc5140b01ec640d8fb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

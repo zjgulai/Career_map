@@ -1,0 +1,22 @@
+{
+  "英文名称": "adobe-edit-quick-cut",
+  "中文名称": "待补：adobe-edit-quick-cut",
+  "一句话作用": "Create a punchy sizzle reel from a video using Adobe Quick Cut. Use this skill whenever a user wants to cut, trim, or shorten a video into highlights — including phrases like \"make a sizzle reel\", \"make a highlight reel…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "video create quick cut returns a temporary presigned download URL, not a CC-stored asset ID. Tools like video resize and media enhance speech require a CC asset ID as input. You cannot chain Quick Cut → Resize or Quick Cut → Enhance Speech directly. Workaroun…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create a punchy sizzle reel from a video using Adobe Quick Cut. Use this skill whenever a user wants to cut, trim, or shorten a video into highlights — including phrases like \"make a sizzle reel\", \"make a highlight reel…时，用它产出或更新：video create quick cut ret…",
+  "skill_id": "00698-adobe-edit-quick-cut-6c3cf0c7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/adobe/skills/adobe-edit-quick-cut/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/adobe/skills/adobe-edit-quick-cut/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5515014c80995b846dfe511058f507beeedb428078fda1bd60d47531f51b5500",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

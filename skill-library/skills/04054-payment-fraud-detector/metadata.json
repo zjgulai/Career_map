@@ -1,0 +1,22 @@
+{
+  "英文名称": "payment-fraud-detector",
+  "中文名称": "待补：payment-fraud-detector",
+  "一句话作用": "- Implement multi-layered fraud prevention using risk scoring, 3D Secure, velocity checks, and manual review queues to minimize chargebacks and protect revenue. 触发词：支付欺诈检测、欺诈预防、拒付防护、3DS认证、速度检查、风险评分。",
+  "关键输入": "- When chargeback rates exceed 0.5% of transaction volume. - When launching in high-risk geographic markets or selling high-resale value goods (electronics, luxury items). - When detecting \"card testing\" patterns (high…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:29:50+08:00",
+  "业务场景": "security-compliance",
+  "解决具体问题": "当需要- When chargeback rates exceed 0.5% of transaction volume. - When launching in high-risk geographic markets or selling high-resale value goods (electronics, luxury items). - When detecting \"card testing\" patterns (high…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04054-payment-fraud-detector-0fb22f8e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/payment-fraud-detector/SKILL.md",
+  "relative_path": "lute/.dsh/skills/payment-fraud-detector/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "05b8dc05e803ca1a8a81772a037c960e75ac206957d4d84d7949d2b785066f3b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

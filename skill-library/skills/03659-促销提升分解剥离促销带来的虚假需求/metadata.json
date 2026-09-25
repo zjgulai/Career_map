@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-promotional-lift-decomposition",
+  "中文名称": "促销提升分解剥离促销带来的虚假需求",
+  "一句话作用": "触发词：促销提升分解、虚假需求、ForwardBuy、促销后洼地、备货修正。何时不用：只关心单场促销净增量、不涉及促销后洼地与备货时用反事实评估（合成控制）。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购面临\"Prime Day销量达平时6倍上调Q3全季备货40%但促销后出现需求洼地导致大量滞销\"——促销Forward Buy分解将真实净提升从500%修正为150%，年化节省FBA处置成本20-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03659-p2s-promotional-lift-decomposition-2c878e67",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-promotional-lift-decomposition/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-promotional-lift-decomposition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b14d52d07ffb5752996d9c0125a177c26b60aa9ab8320949677157891d19870",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

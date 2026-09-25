@@ -1,0 +1,22 @@
+{
+  "英文名称": "pdb-database",
+  "中文名称": "待补：pdb-database",
+  "一句话作用": "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery.",
+  "关键输入": "This skill should be used when: - Searching for protein or nucleic acid 3D structures by text, sequence, or structural similarity - Downloading coordinate files in PDB, mmCIF, or BinaryCIF formats - Retrieving structura…",
+  "关键输出": "for pdb id, info in results.items(): print(f\"\\n{pdb id}: {info['title']}\") print(f\" Resolution: {info['resolution']} Å\") print(f\" Organism: {info['organism']}\")",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要This skill should be used when: - Searching for protein or nucleic acid 3D structures by text, sequence, or structural similarity - Downloading coordinate files in PDB, mmCIF, or BinaryCIF formats - Retrieving structura…时，用它产出或更新：for pdb id, info in result…",
+  "skill_id": "05770-pdb-database-e03dbd2d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pdb-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pdb-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f5500ec4125667a466ccfd1023789ebec29c4b064d78c2cbc34c155ef1252728",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

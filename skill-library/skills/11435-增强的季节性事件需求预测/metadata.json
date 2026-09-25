@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llmforecaster-seasonal-event",
+  "中文名称": "增强的季节性事件需求预测",
+  "一句话作用": "触发词：LLMForecaster、促销文案修正、事件驱动预测、大促备货、修正系数。何时不用：无活动文本、只有数字序列时用常规时序预测；要拆解历史大促 lift 时用「大促需求分解」。安全边界：活动描述不得含 Amazon 禁售品类关键词与个人身份信息，KOL 信息需脱敏，避免站外引流政策风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Prime Day 促销力度/KOL 合作/竞品断货等信息在传统预测模型里完全缺失，导致备货严重错误——LLM 读取促销文案生成需求修正系数，备货准确率提升 15-23%、年化减少断货积压损失 30-80 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11435-p2s-llmforecaster-seasonal-event-c03a02a9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-llmforecaster-seasonal-event/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-llmforecaster-seasonal-event/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a41ae3afd662d5c8bba3926b722979f12a3b384d2c7d688ac81d51a0a1e5ade",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

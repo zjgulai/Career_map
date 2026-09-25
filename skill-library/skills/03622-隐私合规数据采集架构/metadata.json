@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-privacy-compliant-data-collection-gdpr-ccpa",
+  "中文名称": "隐私合规数据采集架构",
+  "一句话作用": "触发词：合规采集、同意管理、DSAR、数据最小化、Privacy by Design。何时不用：针对儿童场景做 COPPA 专项审查时用「Privacy COPPA Compliance」；做跨品牌联合统计用数据洁净室类技能。安全边界：不得在未获同意前激活追踪；同意记录本身也须合规存储；不展示或导出原始 PII。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要独立站通过 GA4+Pixel 未经同意采集用户行为被德国 DPA 开出€1.2 万罚款——引入 GDPR/CCPA 合规数据采集架构（同意管理+数据最小化），合规覆盖率 100%，规避最高 2000 万欧元罚款风险，年化法律成本降低 96%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03622-p2s-privacy-compliant-data-collection-gdpr-ccpa-f9f2ad34",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-privacy-compliant-data-collection-gdpr-ccpa/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-privacy-compliant-data-collection-gdpr-ccpa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f9b2ae5e86eec349740677d4d2ac7334cdf6cb2b471597e29f0cb5d9d24497d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

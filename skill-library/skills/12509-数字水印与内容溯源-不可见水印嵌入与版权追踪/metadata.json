@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-generated-content-watermarking",
+  "中文名称": "数字水印与内容溯源 不可见水印嵌入与版权追踪",
+  "一句话作用": "触发词：数字水印、DCT 嵌入、版权溯源、图片盗用、水印解码、授权追踪。何时不用：要从评论里挖合规风险信号时用「VOC 合规信号挖掘」，要审文案与素材的违禁宣称时用「AIGC 内容合规审查」。安全边界：水印密钥经 KMS 管理，不得硬编码或落日志，也不得对非授权第三方素材嵌水印。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌运营面临\"原创产品主图被竞品搬运、版权举证成功率仅40%\"——DCT数字水印将侵权举证成功率从40%提升至92%，年化保护品牌资产价值50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12509-p2s-ai-generated-content-watermarking-f725b6d2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-ai-generated-content-watermarking/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-ai-generated-content-watermarking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c269d17c0873e6e2d7b683a17c6e98824d98ea095f68d6c227bb7548cbcb757f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

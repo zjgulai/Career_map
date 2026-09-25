@@ -1,0 +1,22 @@
+{
+  "英文名称": "dashboards-and-real-time-visualization",
+  "中文名称": "待补：dashboards-and-real-time-visualization",
+  "一句话作用": "Design dashboards and live visualization systems. Use when the user needs monitoring views, streaming charts, coordinated interactions, downsampling, or performance-aware operational visualization.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Describe the update model and failure modes. - Describe mobile reconnect, stale-data, offline/partial-data, and low-bandwidth behavior. - Explain what a user should understand at first scan before touching any controls. - Explain what the mobile user sees f…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Design dashboards and live visualization systems. Use when the user needs monitoring views, streaming charts, coordinated interactions, downsampling, or performance-aware operational visualization.时，用它产出或更新：- Describe the update model and failure modes. -…",
+  "skill_id": "00740-dashboards-and-real-time-visualization-782ac316",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/dashboards-and-real-time-visualization/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/dashboards-and-real-time-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "564c20838617d3fa2e7fb93419af553035e7683f4f7350f7ecdafb4fb4fd0ab1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

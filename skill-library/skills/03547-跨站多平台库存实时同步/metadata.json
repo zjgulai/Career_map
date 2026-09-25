@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-omnichannel-inventory-sync",
+  "中文名称": "跨站多平台库存实时同步",
+  "一句话作用": "触发词：库存同步、全渠道库存、超卖防护、实时配额、渠道缓冲。何时不用：需要跨渠道做备货分配的优化测算时用多渠道库存协同；需要按优先级分配短缺供给时用供需缺口分析与优先级分配。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要大促时三个渠道各自显示充足库存持续接单，实际可能超卖 150%，导致大量取消和差评——事件驱动实时库存同步（30 秒内推送所有渠道），超卖率从 15-30% 降至 <0.5%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03547-p2s-omnichannel-inventory-sync-454837be",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-omnichannel-inventory-sync/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-omnichannel-inventory-sync/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f07427f74b324df4f0b3d07cbd4fd18398574a10dceb9f2190edd1e916eb3388",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

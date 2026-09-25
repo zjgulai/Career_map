@@ -1,0 +1,22 @@
+{
+  "英文名称": "seekdb-cli",
+  "中文名称": "待补：seekdb-cli",
+  "一句话作用": "Use seekdb-cli to interact with seekdb/OceanBase databases via shell commands. Use when: (1) querying databases with SQL, (2) exploring table schemas and structure, (3) profiling table data distributions, (4) inferring…",
+  "关键输入": "Check if seekdb-cli is installed (either command works—they share the same entry point):",
+  "关键输出": "seekdb sql \"SELECT FROM orders LIMIT 5\" --with-schema",
+  "最新更新时间": "2026-09-19T03:38:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use seekdb-cli to interact with seekdb/OceanBase databases via shell commands. Use when: (1) querying databases with SQL, (2) exploring table schemas and structure, (3) profiling table data distributions, (4) inferring…时，用它产出或更新：seekdb sql \"SELECT FROM ord…",
+  "skill_id": "04565-seekdb-cli-67ea6cd2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/seekdb/cli/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/seekdb/cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2825fa5ca117136a14a916c925db5f00d6a9e65b1d5984c00f519370bcd8805",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

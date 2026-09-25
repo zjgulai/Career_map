@@ -1,0 +1,22 @@
+{
+  "英文名称": "obsidian-clipper-template-creator",
+  "中文名称": "待补：obsidian-clipper-template-creator",
+  "一句话作用": "Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format clipped content.",
+  "关键输入": "- You need to create or refine an importable Obsidian Web Clipper template. - You want to map a site's real DOM, schema data, and selectors into a valid clipping template. - You need selector verification and template l…",
+  "关键输出": "ALWAYS output the final result as a JSON code block that the user can copy and import. The Clipper template editor validates template syntax. If you use template logic (conditionals, loops, variable assignment), ensure it follows the syntax in references/logi…",
+  "最新更新时间": "2026-09-19T03:51:29+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- You need to create or refine an importable Obsidian Web Clipper template. - You want to map a site's real DOM, schema data, and selectors into a valid clipping template. - You need selector verification and template l…时，用它产出或更新：ALWAYS output the final re…",
+  "skill_id": "04987-obsidian-clipper-template-creator-e4321859",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/obsidian-clipper-template-creator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/obsidian-clipper-template-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "31c8e9b9ead55c8b0329a53431d93627a9c8ce070d77fcba1bf8fc30b5dfafb7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-mcp",
+  "中文名称": "待补：glab-mcp",
+  "一句话作用": "使用 MCP（Model Context Protocol，模型上下文协议）服务器进行 AI 助手集成。将 GitLab 功能作为工具暴露给 AI 助手（如 Claude Code），用于与项目、issue、合并请求和流水线交互。适用于将 AI 助手与 GitLab 集成或使用 MCP 服务器。触发词：MCP、模型上下文协议、AI 助手集成、glab mcp serve。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "从 v1.86.0 起，glab mcp serve 运行时会自动启用 JSON 输出格式——无需手动添加参数。这提高了 AI 助手解析 MCP 服务器工具响应时的可靠性。",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要使用 MCP（Model Context Protocol，模型上下文协议）服务器进行 AI 助手集成。将 GitLab 功能作为工具暴露给 AI 助手（如 Claude Code），用于与项目、issue、合并请求和流水线交互。适用于将 AI 助手与 GitLab 集成或使用 MCP 服务器。触发词：MCP、模型上下文协议、AI 助手集成、glab mcp serve。时，用它产出或更新：从 v1.86.0 起，glab mcp serve 运行时会自动启用 JSON 输出格式——无需手动添加参数。这提高…",
+  "skill_id": "10605-glab-mcp-6e26b812",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-mcp/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-mcp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "51312d7edbdcaef4af0661ad4fa1f6de8454454f5a781e357fd6e536736d1ce3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

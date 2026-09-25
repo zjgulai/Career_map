@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-error-cascade-propagation-defense",
+  "中文名称": "错误级联传播防御 有向依赖图传播建模与血统追踪治理层",
+  "一句话作用": "触发词：错误级联、血统追踪、断路器、置信门控、传播阻断。何时不用：并行且无下游依赖的任务链不需要级联防御；本技能面向线性或层次化 MAS 的错误传播阻断。安全边界：断路器阈值与判据是契约产物；需设误报率监控并保留人工覆盖通道，异常来源的第三方核查接口须合规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要注入一个原子错误种子就能让线性MAS Pipeline 100%崩溃——血统追踪治理层实时监控传播图并在超临界前触发断路器，阻断89%+的最终感染（2026 arXiv:2603.04474）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11971-p2s-error-cascade-propagation-defense-838cc239",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-error-cascade-propagation-defense/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-error-cascade-propagation-defense/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63fa9d3f80ab649b397e2d7e68fea84ea6b3d8ce6b57bce60662bf5b1b0efd4c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

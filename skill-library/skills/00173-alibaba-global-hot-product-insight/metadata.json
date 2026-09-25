@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-hot-product-insight",
+  "中文名称": "待补：alibaba-global-hot-product-insight",
+  "一句话作用": "Cross-border B2B hot product intelligence expert. Identifies top-selling trends on Alibaba.com using platform search data and cross-platform web research, then provides deep-dive analysis on profit logic, competition la…",
+  "关键输入": "Scenario Example ------ ------ Alibaba Hot Products \"Hot [category] on Alibaba.com recently\" Regional Hot Products \"Hottest [category] in the US\" Price-Band Analysis \"Hot [category] priced $20-50\"",
+  "关键输出": "- Input : Scored product list (Step 3) + deep-dive insights (Step 4) - Action : Assemble 7-section report from memory, output directly in conversation - Output : Complete markdown report (Sections 1-7) rendered in chat Your next message IS the report. No tool…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Scenario Example ------ ------ Alibaba Hot Products \"Hot [category] on Alibaba.com recently\" Regional Hot Products \"Hottest [category] in the US\" Price-Band Analysis \"Hot [category] priced $20-50\"时，用它产出或更新：- Input : Scored product list (Step 3) + deep-dive…",
+  "skill_id": "00173-alibaba-global-hot-product-insight-97fb9bb7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-hot-product-insight/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-hot-product-insight/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d73728d64384c184dcf0d49830b25727d9356e361ed5543be50ea853ec2e90f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-retail-media-lp-ranking",
+  "中文名称": "零售媒体LP赞助商品排名优化",
+  "一句话作用": "触发词：线性规划、广告位分配、影子价格、分时预算、零售媒体、排名优化。何时不用：单一广告位的手动竞价不必建模；要在多广告位、多广告主、预算与时段约束下求最优分配时用本卡。安全边界：只把自家可支配预算与出价作为决策变量，不得通过合谋或虚假点击影响他人排名。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临站内广告位ROI低——LP排序算法将零售媒体点击收益提升37%，年化增收50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03719-p2s-retail-media-lp-ranking-900ae69d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-retail-media-lp-ranking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-retail-media-lp-ranking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0e1d27bc9ca1834af6d608a40b51ed2963956e069b5516091e894e4421e8830c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-pie-experimental-mta",
+  "中文名称": "实验增量预测多触点归因 - Amazon MTA 框架落地",
+  "一句话作用": "触发词：实验归因、RCT锚点、多触点归因、触点下钻、归因校准。何时不用：只要渠道总盘增量、不做触点下钻时直接用Geo实验结论即可。安全边界：遵循Amazon Sponsored Ads政策，数据仅在指定区域存储、不涉个人数据，投放建议不得含虚假声称。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Momcozy / Graco 等大牌同投 Google Search + Facebook DPA + TikTok Shop时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11769-p2s-pie-experimental-mta-04a8646c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-pie-experimental-mta/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-pie-experimental-mta/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4268a6cd4a2201b67bda661ec66a55b726acfce82d5c9647c8f903f861f625f5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-market-voc-cross-analysis",
+  "中文名称": "多市场VOC交叉分析",
+  "一句话作用": "触发词：多市场 VOC、跨站评论差异、评分差异归因、市场语境审查、属性情感对比、差评根因。何时不用：要重写目标站文案用「Listing 本地化」；要建覆盖全语言的评论情感管道用「多语言 NLP 管道」；只做单市场属性情感拆解用「VOC 属性情感抽取」。安全边界：只分析公开评论文本，不采集或留存可关联到个人身份的信息；认证与说明书缺口只作核查提示，不得声称已完成合规认证。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨站卖家面临\"同款婴儿监视器美国4.3星欧洲3.7星不知道差异根因是什么\"——多市场VOC交叉分析识别德国CE认证缺失和德语说明书问题，补全后3个月评分升至4.2星月销量+65%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03482-p2s-multi-market-voc-cross-analysis-fc825796",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-market-voc-cross-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-market-voc-cross-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cfd452861659b7aff1f6ae840240dad6d449fb42fe801dfd4e5cff8213ec8e07",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

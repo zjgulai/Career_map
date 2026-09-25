@@ -1,0 +1,22 @@
+{
+  "英文名称": "oauth",
+  "中文名称": "待补：oauth",
+  "一句话作用": "Configure OAuth providers (Google, Apple, Microsoft, Facebook, GitHub, etc.) to work with portless local dev URLs. Use when setting up OAuth redirect URIs, fixing \"redirect uri mismatch\" or \"invalid redirect\" errors, co…",
+  "关键输入": "When portless uses the default .localhost TLD, OAuth providers reject redirect URIs like http://myapp.localhost:1355/callback: Provider localhost .localhost subdomains Reason --------- ----------- ----------------------…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-15T14:47:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要When portless uses the default .localhost TLD, OAuth providers reject redirect URIs like http://myapp.localhost:1355/callback: Provider localhost .localhost subdomains Reason --------- ----------- ----------------------…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10449-oauth-1d9e3ab3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/portless/skills/oauth/SKILL.md",
+  "relative_path": "lute/project/Agent/product/portless/skills/oauth/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "29b8bf27e842c37062e753a48ab9b9b3ec76a0bd7f5d7ce3820004f2190c0e5e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

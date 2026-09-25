@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-ad-performance-analysis",
+  "中文名称": "广告效果分析 (Ad Performance Analysis)",
+  "一句话作用": "跨境电商广告效果分析技能，用于评估广告投放效果、优化广告策略和提升ROI。 触发条件: 1. 用户询问\"广告效果怎么样\" 2. 需要优化广告投放策略时 3. 计算广告ROI时 4. A/B测试广告效果时 5. 广告预算分配决策时 输出内容: - 广告效果指标分析 - 广告ROI计算 - 广告优化建议 - 预算分配建议",
+  "关键输入": "数据类型 必需字段 说明 --------- --------- ------ 广告数据 ad id, campaign id, ad group 广告层级标识 曝光数据 impressions, reach 展示和触达 互动数据 clicks, ctr, engagements 点击和互动 转化数据 conversions, conversion value 转化和价值 成本数据 spend, cpc, cpm 投入成本",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T19:27:30+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商广告效果分析技能，用于评估广告投放效果、优化广告策略和提升ROI。 触发条件: 1. 用户询问\"广告效果怎么样\" 2. 需要优化广告投放策略时 3. 计算广告ROI时 4. A/B测试广告效果时 5. 广告预算分配决策时 输出内容: - 广告效果指标分析 - 广告ROI计算 - 广告优化建议 - 预算分配建议时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09444-cbec-ad-performance-analysis-18fd934b",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/16-channel-analysis/ad-performance-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/16-channel-analysis/ad-performance-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ce9a4c6b721dd50526076aefe2acda88bab2a9bcd06d4bf803643f9fdf1362a6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

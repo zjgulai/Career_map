@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-channel-budget-pacing-controller",
+  "中文名称": "跨渠道预算节奏控制防止早耗尽与末期停投",
+  "一句话作用": "触发词：预算节奏、早耗尽、末期停投、时段花费比例、出价乘子。何时不用：只做渠道间总量再分配、不看小时级节奏时用渠道预算再分配触发器；预算结构由LTV/CAC决定时用获客门控。安全边界：出价乘子调整幅度须限制在正负20%以内，跨渠道再分配须遵守各平台预算与出价政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告团队面临\"Amazon早上10点花完全天预算、下午TikTok黄金时段无弹药\"——Min-Pacing跨渠道节奏控制将预算执行率从72%提升至93%，年化增效约22万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02981-p2s-cross-channel-budget-pacing-controller-ba09f555",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-channel-budget-pacing-controller/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-channel-budget-pacing-controller/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7ede6b8604fc1b8432cd74255974bcb9f0bf4bb4a6e41523731753fc85d2992f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

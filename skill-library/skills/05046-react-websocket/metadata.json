@@ -1,0 +1,22 @@
+{
+  "英文名称": "react-websocket",
+  "中文名称": "待补：react-websocket",
+  "一句话作用": "WebSocket integration patterns for React applications. Covers custom hooks, context providers, Socket.IO, and real-time state synchronization with TanStack Query. USE WHEN: user mentions \"WebSocket in React\", \"real-time…",
+  "关键输入": "Symptom Cause Fix --------- ------- ----- Connection closes immediately CORS or auth issues Check server CORS config Messages not received Wrong event type Verify message format matches Multiple connections Missing clea…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:18+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Symptom Cause Fix --------- ------- ----- Connection closes immediately CORS or auth issues Check server CORS config Messages not received Wrong event type Verify message format matches Multiple connections Missing clea…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05046-react-websocket-cb4a9b5f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/react-websocket/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/react-websocket/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5cf051e9192b812e2e4d8015358b73f8e120d24a91e38f741f3bdaf0ccef0e8b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

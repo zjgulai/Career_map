@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-privacy-preserving-personalization",
+  "中文名称": "隐私保护个性化 差分隐私下的用户偏好学习",
+  "一句话作用": "触发词：隐私友好个性化、月龄敏感信息、随机化响应、授权率提升、隐私预算调优。何时不用：跨机构联合训练模型时用「Federated Learning Privacy」；受众重叠分析用「Cleanroom Audience Collaboration」。安全边界：不许以个性化之名收集无需的敏感信息；隐私预算取值须对外披露，儿童敏感信息处理须符合当地法规与家长授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴App面临\"用户担心月龄信息被滥用导致个性化授权率仅40%\"——LDP差分隐私让用户安心授权月龄，推荐准确率保持70%，GDPR合规+年化价值约120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12592-p2s-privacy-preserving-personalization-217c8fe5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-privacy-preserving-personalization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-privacy-preserving-personalization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "481b90f1dab0cf0774fa9fa9e0f0b413d766962e066bef9d504ae50a7f236112",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

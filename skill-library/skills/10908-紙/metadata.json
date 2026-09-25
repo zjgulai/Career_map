@@ -1,0 +1,22 @@
+{
+  "英文名称": "kami",
+  "中文名称": "紙",
+  "一句话作用": "纸感排版系统：用 Kami 模板产出简历、一页纸、白皮书、长文、信件、作品集、个股研报、更新日志与幻灯片（HTML/PDF/PPTX/Marp），也做可部署的多语言落地页。触发词：做 PDF、排版、简历、一页纸、白皮书、作品集、研报、更新日志、一套幻灯片、落地页、Kami。何时不用：要印刷级通用 PDF 版面用 minimax-pdf；单文件网页翻页 PPT 用 guizang-ppt-skill；可交互图表与整页 HTML 报告用…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Do not ask the user which format to export. Decide from context: Signal Output Why --- --- --- Any document request HTML + PDF PDF is the default deliverable, HTML is the source Slides / PPT / deck HTML + PDF; add PPTX only when explicitly requested as editab…",
+  "最新更新时间": "2026-09-20T15:32:00+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要纸感排版系统：用 Kami 模板产出简历、一页纸、白皮书、长文、信件、作品集、个股研报、更新日志与幻灯片（HTML/PDF/PPTX/Marp），也做可部署的多语言落地页。触发词：做 PDF、排版、简历、一页纸、白皮书、作品集、研报、更新日志、一套幻灯片、落地页、Kami。何时不用：要印刷级通用 PDF 版面用 minimax-pdf；单文件网页翻页 PPT 用 guizang-ppt-skill；可交互图表与整页 HTML 报告用…时，用它产出或更新：Do not ask the user which f…",
+  "skill_id": "10908-kami-2f79350d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/kami/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/kami/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7ee73a8afb85009a90f1b990a4dd891e4a819058bfef99df5e096b8da00dc1f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

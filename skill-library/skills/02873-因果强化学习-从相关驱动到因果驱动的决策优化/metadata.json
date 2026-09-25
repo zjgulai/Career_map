@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-rl-decision-making",
+  "中文名称": "因果强化学习 从相关驱动到因果驱动的决策优化",
+  "一句话作用": "触发词：因果强化学习、离线策略学习、备货策略优化、混淆变量、反事实检验。何时不用：历史决策日志不足或没有大促/非大促标签时，先做「需求预测」与常规「补货模拟」；只优化广告出价不涉及备货时另走广告类技能。安全边界：策略上线必须保留人工 override，不得让模型自动做出大幅偏离业务常识的备货动作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链团队面临\"历史备货策略混杂大促偏差无法直接学习\"——因果净化后的离线RL策略库存周转率提升15%，年化资金效率节省约180万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02873-p2s-causal-rl-decision-making-972a1f37",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-rl-decision-making/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-rl-decision-making/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3c2cf248f0a297d3c7273b7bdd18aef4a006b34a2882c25b10db977cececeb2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

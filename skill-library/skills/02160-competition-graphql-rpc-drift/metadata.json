@@ -1,0 +1,22 @@
+{
+  "英文名称": "competition-graphql-rpc-drift",
+  "中文名称": "待补：competition-graphql-rpc-drift",
+  "一句话作用": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for GraphQL schemas, persisted queries, RPC manifests, generated clients, OpenAPI drift, hidden operations, and contract-to-handler mismatches…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for GraphQL schemas, persisted queries, RPC manifests, generated clients, OpenAPI drift, hidden operations, and contract-to-handler mismatches…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02160-competition-graphql-rpc-drift-ca8d30f7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a6e8e2d54d79f065d13940b888d379aa31ee2b2470d459f4c1ab4f57763a47d5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

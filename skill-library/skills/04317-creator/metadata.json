@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-creator",
+  "中文名称": "待补：skill-creator",
+  "一句话作用": "Create, update, install, manage, or reuse Skills from an intent, workflow, or completed conversation. Produce runtime files and metadata. Also use to repeat a completed process with new inputs.",
+  "关键输入": "Create SKILL.cn.md for every new or updated Skill: - Use the same frontmatter keys as SKILL.md. - Keep name exactly the same as the directory name and SKILL.md frontmatter. - Localize description and body into Chinese while preserving the same workflow, guard…",
+  "关键输出": "Don't hardcode output paths. Use file paths returned by tools for subsequent operations.",
+  "最新更新时间": "2026-09-17T01:02:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create, update, install, manage, or reuse Skills from an intent, workflow, or completed conversation. Produce runtime files and metadata. Also use to repeat a completed process with new inputs.时，用它产出或更新：Don't hardcode output paths. Use file paths returned…",
+  "skill_id": "04317-skill-creator-21c72744",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/skill-creator/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/skill-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "079c9495d2683e498473bdc2496e67117c41ed8c154e44c04cb245fb738e4bc6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

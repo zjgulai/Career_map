@@ -1,0 +1,22 @@
+{
+  "英文名称": "excess-property-checking",
+  "中文名称": "待补：excess-property-checking",
+  "一句话作用": "Use when assigning object literals to typed variables. Use when confused by \"unknown property\" errors. Use when extra properties are flagged on object literals but not variables.",
+  "关键输入": "- Assigning object literals to typed variables - Confused why extra properties cause errors sometimes - Error disappears when using intermediate variable - Working with optional properties where typos are likely - Desig…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:57+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Assigning object literals to typed variables - Confused why extra properties cause errors sometimes - Error disappears when using intermediate variable - Working with optional properties where typos are likely - Desig…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04856-excess-property-checking-15c94a7e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/excess-property-checking/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/excess-property-checking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2c9fc9ee61b7eb6f1ad401852b18cf2722eea6aac676b30ef5747e6496efd92",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

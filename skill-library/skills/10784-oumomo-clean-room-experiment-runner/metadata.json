@@ -1,0 +1,22 @@
+{
+  "英文名称": "oumomo-clean-room-experiment-runner",
+  "中文名称": "待补：oumomo-clean-room-experiment-runner",
+  "一句话作用": "Use when evaluating Oumomo or a similar paid AI commerce-creative product through black-box experiments, especially when jobs can outlive frontend errors, credits must reconcile, outputs need fact/media audits, or OAuth…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-11T19:24:52+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use when evaluating Oumomo or a similar paid AI commerce-creative product through black-box experiments, especially when jobs can outlive frontend errors, credits must reconcile, outputs need fact/media audits, or OAuth…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10784-oumomo-clean-room-experiment-runner-090a60fc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/outputs/oumomo-reverse-engineering/skills/oumomo-clean-room-experiment-runner/SKILL.md",
+  "relative_path": "lute/project/ai_video/outputs/oumomo-reverse-engineering/skills/oumomo-clean-room-experiment-runner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7ede9b7799b7bbfc42095252f895eaa97c94af8df45452ca811f9354f48f5bfd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

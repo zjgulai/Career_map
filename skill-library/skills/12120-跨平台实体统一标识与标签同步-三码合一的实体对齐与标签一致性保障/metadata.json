@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sku-entity-unified-id-tagging",
+  "中文名称": "跨平台实体统一标识与标签同步 三码合一的实体对齐与标签一致性保障",
+  "一句话作用": "触发词：三码合一、统一标识、Golden Record、跨平台ID映射、标签同步、主数据对齐。何时不用：需要判断不同命名是否为同一实体时用「KG实体消歧与去重」；需要在线做跨平台同款匹配查询时用「产品知识图谱查询」。安全边界：标签冲突必须按既定优先级规则合并并留痕，不得静默覆盖；跨平台同步不得触发平台政策红线（如跨平台价格同步、把平台数据用于竞品分析）；本方案仅处理产品 ID 与库存数量，不涉及个人数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营团队面临\"3个平台5套SKU编码数据对不上\"——Golden Record三码合一将库存对账从3天人工→实时自动，跨平台标签同步从90分钟→5分钟时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12120-p2s-sku-entity-unified-id-tagging-03416ecb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-sku-entity-unified-id-tagging/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-sku-entity-unified-id-tagging/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79727480c8e6c621a98807cca06a0951f1c28c658566f0b5b3dfdec879ccf3ad",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

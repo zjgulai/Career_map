@@ -1,0 +1,22 @@
+{
+  "英文名称": "participant-operations-hub",
+  "中文名称": "待补：participant-operations-hub",
+  "一句话作用": "Processes and guardrails for recruiting, scheduling, consent, and incentive fulfillment.",
+  "关键输入": "- Running qualitative or quantitative studies that require participant coordination. - Ensuring compliance with privacy, NDAs, and incentive tax regulations. - Centralizing communications with participants across multip…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- Running qualitative or quantitative studies that require participant coordination. - Ensuring compliance with privacy, NDAs, and incentive tax regulations. - Centralizing communications with participants across multip…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12772-participant-operations-hub-7e32c028",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/market-research/skills/participant-operations-hub/SKILL.md",
+  "relative_path": "lute/project/skills/market-research/skills/participant-operations-hub/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "290e0e8230cdd29dfc260ab48e0a491db3b654ab252d75c5974084f88a84dfe1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

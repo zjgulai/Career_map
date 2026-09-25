@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-competitor-analysis",
+  "中文名称": "竞品分析",
+  "一句话作用": "帮国际站卖家发现、筛选、分析并持续监控具体的竞争主体及其店内商品。竞争主体包括同行、竞品、竞争对手、标杆店铺、商家、店铺、贸易商、供应商、品牌、厂家、工厂、头部卖家。 提供两个确定性 Workflow 工具：store list 负责行业标杆店铺发现与冻结，输出店铺名单、公司名称与店铺链接；full report 负责标准完整竞品报告。同时提供经营指标、订单指数 Top20 商品、店内商品自由排序与筛选、买家画像、首页与 Listin…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要帮国际站卖家发现、筛选、分析并持续监控具体的竞争主体及其店内商品。竞争主体包括同行、竞品、竞争对手、标杆店铺、商家、店铺、贸易商、供应商、品牌、厂家、工厂、头部卖家。 提供两个确定性 Workflow 工具：store list 负责行业标杆店铺发现与冻结，输出店铺名单、公司名称与店铺链接；full report 负责标准完整竞品报告。同时提供经营指标、订单指数 Top20 商品、店内商品自由排序与筛选、买家画像、首页与 Listin…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00159-alibaba-competitor-analysis-4c94c328",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-competitor-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-competitor-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5e53ab41c4fd758557a01dee4f25a179cda853f6e5e7d9a2467bbca62c67539",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

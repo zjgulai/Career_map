@@ -1,0 +1,98 @@
+{
+  "fixture_id": "CB01-SYN-001",
+  "classification": "完全合成；不含真实消费者、市场、SKU、渠道或财务数据",
+  "decision_question": "在一个虚构的家用喂养辅助设备品类中，团队应优先验证哪个改善方向，还是暂不投入？",
+  "audience": "负责商业论证的经营事项主责与独立复核人",
+  "scope": "仅评价候选能否把证据、前提、选项、未知和验证建议组织成可比较的经营材料。",
+  "decision_options": [
+    {
+      "option": "A",
+      "name": "夜间静音配件包",
+      "customer_value_hypothesis": "降低夜间使用时的噪声干扰和准备成本。",
+      "economics": {
+        "proposed_price_usd": 18,
+        "estimated_unit_cost_usd": 7,
+        "estimated_fulfillment_usd": 3,
+        "gross_margin_before_marketing": "44%"
+      },
+      "delivery_condition": "现有供应商声称 10 周可完成首批样件；噪声改善没有外部验证。",
+      "known_risk": "用户是否愿意为配件单独付费未知；现有产品兼容范围待定义。"
+    },
+    {
+      "option": "B",
+      "name": "易清洁部件套装",
+      "customer_value_hypothesis": "减少清洗与晾干的时间成本，并降低部件残留担忧。",
+      "economics": {
+        "proposed_price_usd": 22,
+        "estimated_unit_cost_usd": 8,
+        "estimated_fulfillment_usd": 3,
+        "gross_margin_before_marketing": "50%"
+      },
+      "delivery_condition": "现有供应商声称 14 周可完成首批样件；材料耐久性和合规适用范围待验证。",
+      "known_risk": "清洁痛点是否足以形成购买转换未知；材料变更可能影响交付条件。"
+    },
+    {
+      "option": "N",
+      "name": "维持现有计划，不新增配件",
+      "customer_value_hypothesis": "不增加新的用户价值假设，保留当前资源与交付安排。",
+      "economics": {
+        "proposed_price_usd": 0,
+        "estimated_unit_cost_usd": 0,
+        "estimated_fulfillment_usd": 0,
+        "gross_margin_before_marketing": "不适用"
+      },
+      "delivery_condition": "不新增开发与验证工作。",
+      "known_risk": "可能错过需要进一步验证的用户问题，但不应把机会成本量化为事实。"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E01",
+      "type": "合成购买后反馈",
+      "coverage": "300 条虚构、已去重的短反馈",
+      "finding": "108 条提及清洗步骤繁琐；81 条提及夜间使用噪声或干扰；同一条可命中多个主题。",
+      "limit": "不代表真实人群、真实比例、真实语言或真实购买行为。"
+    },
+    {
+      "id": "E02",
+      "type": "合成购买前搜索表达",
+      "coverage": "180 条虚构搜索表达",
+      "finding": "64 条包含易清洁相关词；51 条包含静音或夜间相关词；意图与实际成交均未知。",
+      "limit": "不代表真实搜索量、排名、需求规模或转化意愿。"
+    },
+    {
+      "id": "E03",
+      "type": "合成竞品观察",
+      "coverage": "12 个虚构产品页面摘要",
+      "finding": "7 个页面强调易清洁，4 个页面强调静音；没有价格、销量、真实性或同口径比较保证。",
+      "limit": "不能推导市场份额、差异化强弱或竞争优势。"
+    },
+    {
+      "id": "E04",
+      "type": "合成单位经济假设",
+      "coverage": "A/B 的价格、成本和履约假设",
+      "finding": "B 的假设毛利高于 A；两者均未包含退货、渠道、投放、研发、认证或现金占用。",
+      "limit": "不是财务预测、承诺、预算或利润结论。"
+    },
+    {
+      "id": "E05",
+      "type": "合成交付条件",
+      "coverage": "供应商的假定样件周期和待验证条件",
+      "finding": "A 假定 10 周，B 假定 14 周；均含尚未证明的前提。",
+      "limit": "不等同于供应商承诺、采购计划或量产准备。"
+    }
+  ],
+  "required_lenses": [
+    "客户价值与证据覆盖",
+    "经济条件与遗漏成本",
+    "兑现条件与风险",
+    "不行动基线",
+    "不确定性与下一步验证"
+  ],
+  "prohibited_claims": [
+    "把合成信号说成真实消费者或市场事实",
+    "把相关主题数写成需求规模、转化率或因果结论",
+    "把毛利假设写成盈利承诺",
+    "把候选推荐写成采购、发布、投放、资源或产品定义授权"
+  ]
+}

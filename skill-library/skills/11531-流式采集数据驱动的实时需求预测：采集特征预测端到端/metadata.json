@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-streaming-data-forecasting",
+  "中文名称": "流式采集数据驱动的实时需求预测：采集特征预测端到端",
+  "一句话作用": "触发词：流式预测、实时特征、漂移检测、在线更新、端到端管道。何时不用：T+1 批处理已够用、无突发响应需求时不必用；只要模型自适应而不要管道时用「在线增量学习」。安全边界：无。",
+  "关键输入": "可组合：Skill-CS-Supply-Chain-Feedback-Loop-Tag 可组合：Skill-Dynamic-Carrier-Selection-Tag-Driven",
+  "关键输出": "可组合：Skill-CS-Supply-Chain-Feedback-Loop-Tag 可组合：Skill-Dynamic-Carrier-Selection-Tag-Driven",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营经理面临实时数据来不及算——流式预测将响应延迟从30分降到2分，年化省12万元时，用它产出或更新：可组合：Skill-CS-Supply-Chain-Feedback-Loop-Tag 可组合：Skill-Dynamic-Carrier-Selection-Tag-Driven",
+  "skill_id": "11531-p2s-streaming-data-forecasting-53073a39",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-streaming-data-forecasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-streaming-data-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "96685f9bc79e85bc3e0e097c472ec6e976eff1b69ae7d10663a8b0c1c8b13d0f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "client-setup",
+  "中文名称": "待补：client-setup",
+  "一句话作用": "Create a vanilla tRPC client with createTRPCClient (), configure link chain with httpBatchLink/httpLink, dynamic headers for auth, transformer on links (not client constructor). Infer types with inferRouterInputs and in…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-22T11:43:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create a vanilla tRPC client with createTRPCClient (), configure link chain with httpBatchLink/httpLink, dynamic headers for auth, transformer on links (not client constructor). Infer types with inferRouterInputs and in…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10165-client-setup-ea7ca018",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/ai_product_select/node_modules/@trpc/client/skills/client-setup/SKILL.md",
+  "relative_path": "lute/project/Agent/product/ai_product_select/node_modules/@trpc/client/skills/client-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a842e22f5a28b4f4c7c60559f890a50bbafa5edda35f06ab954bcddfe7a6c51",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

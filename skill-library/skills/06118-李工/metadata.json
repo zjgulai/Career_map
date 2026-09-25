@@ -1,0 +1,22 @@
+{
+  "英文名称": "li-gong-demo",
+  "中文名称": "李工",
+  "一句话作用": "模拟李工（后端工程师）在架构评审、发布流程、跨团队对齐场景下的工作方式与沟通边界。用于团队内部对齐与培训。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:04:28+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要模拟李工（后端工程师）在架构评审、发布流程、跨团队对齐场景下的工作方式与沟通边界。用于团队内部对齐与培训。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06118-li-gong-demo-eaa58871",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/immortal-skill/examples/li-gong-demo/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/immortal-skill/examples/li-gong-demo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b5965b25b3eef18c15ba7500eb82b1465d48b9026884e4e168c773337cb12b79",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "event-store-design",
+  "中文名称": "待补：event-store-design",
+  "一句话作用": "Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns.",
+  "关键输入": "Requirement Description ----------------- ---------------------------------- Append-only Events are immutable, only appends Ordered Per-stream and global ordering Versioned Optimistic concurrency control",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- Designing event sourcing infrastructure - Choosing between event store technologies - Implementing custom event stores - Optimizing event storage and retrieval - Setting up event store schemas - Planning for event sto…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05569-event-store-design-c26b8a0d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/event-store-design/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/event-store-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "98ee864a08260abec8eb9272c7c55cc971c93bb57eca2820e840ae99e55e9af5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

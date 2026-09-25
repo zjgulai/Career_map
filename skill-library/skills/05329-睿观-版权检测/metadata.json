@@ -1,0 +1,22 @@
+{
+  "英文名称": "linkfox-ruiguan-copyright-detection",
+  "中文名称": "睿观-版权检测",
+  "一句话作用": "图片版权侵权检测与风险分析。当用户提到版权检测、版权核查、图片侵权检查、图片版权风险、版权相似度搜索、TRO风险分析、权利人查询、版权合规验证、copyright detection, image infringement, copyright risk, TRO risk, copyright lookup, infringement analysis, Ruiguan时触发此技能。即使用户未明确提及\"版权\"，只要其需求涉及检查图片…",
+  "关键输入": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- imageUrl string 是 最长 1000 检测的版权图片URL topNumber integer 是 默认 100；最小 10；最大 100 召回数量（默认100，最大200） enableRadar boolean 是 默认 true 是否开启雷达检测",
+  "关键输出": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- data array 否 检测结果列表 type string 否 渲染的样式 total integer 否 记录数 columns array 否 渲染的列 detectId string 否 检测id costToken integer 否 消耗token",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要当用户意图与“睿观-版权检测”匹配，或需要以下能力时使用本工具：支持根据图片URL进行版权检测 调用前应先确认所有必填参数。涉及站点、国家、日期、语言、ASIN、SKU、图片或 URL 时，应使用用户提供的信息，不要擅自虚构真实业务标识。时，用它产出或更新：字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- data array 否 检测结果列表 type string 否 渲染的样式 total integer 否 记录数 columns array 否 渲染的列 detec…",
+  "skill_id": "05329-linkfox-ruiguan-copyright-detection-e332631f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-ruiguan-copyright-detection/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-ruiguan-copyright-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f94e4edc803ee46c5f5d36ad8fec2bcac473063f25ebf0475bc0af740727138",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

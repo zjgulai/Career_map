@@ -1,0 +1,22 @@
+{
+  "英文名称": "fastapi",
+  "中文名称": "待补：fastapi",
+  "一句话作用": "FastAPI best practices and conventions. Use when working with FastAPI APIs, Pydantic models, dependencies, streaming responses including Server-Sent Events (SSE), and serving frontend apps. Keeps FastAPI code clean and…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-11T11:55:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要FastAPI best practices and conventions. Use when working with FastAPI APIs, Pydantic models, dependencies, streaming responses including Server-Sent Events (SSE), and serving frontend apps. Keeps FastAPI code clean and…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10780-fastapi-12a596e2",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/apps/api/.venv/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi/SKILL.md",
+  "relative_path": "lute/project/ai_video/apps/api/.venv/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "989e5136ad015c175cca28669d051bfef2e20dad13a8385383885648607f5eb6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

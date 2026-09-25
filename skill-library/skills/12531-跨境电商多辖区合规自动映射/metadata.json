@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-border-compliance-framework",
+  "中文名称": "跨境电商多辖区合规自动映射",
+  "一句话作用": "触发词：多辖区合规、跨市场映射、合规清单、法规差异、市场进入。何时不用：只做单市场认证组合与成本规划时用「AI 产品安全认证」，要把法规变更传播成 SKU 标签时用「法规变更影响传播引擎」。安全边界：输出为合规清单与差异提示，最终准入结论须由当地持证机构或律师确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务问题：同一款婴儿配方奶粉同时进入美国、欧盟、英国市场，三地法规差异大，如何自动生成各市场合规清单时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12531-p2s-cross-border-compliance-framework-4a682d64",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-cross-border-compliance-framework/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-cross-border-compliance-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cdc1dcd408d21d2365dd004775292b35a093672047d5b59271d8068888932dcd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

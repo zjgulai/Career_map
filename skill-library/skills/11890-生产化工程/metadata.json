@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-production-engineering",
+  "中文名称": "生产化工程）",
+  "一句话作用": "触发词：Agent生产化、MCP工具暴露、多Agent编排、上下文压缩、大促备货决策。何时不用：没有历史销售与库存基线、或不具备工具调用与协议适配能力时不适用；纯算法编排无需工程化时不走本卡。安全边界：下单与库存变更须由模型外的确定性控制层与业务系统执行，并保留人工签核点，压缩不得丢失决策依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要WF-A 智能补货 Agent：算法层用 MAS-Orchestrator 编排，工程层通过 MCP Server 暴露库存查询/补货下单工具，Context Compression 降低每次调用的 token 成本（$0.15→$0.04/次）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11890-p2s-agent-production-engineering-5c0ae5f1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-production-engineering/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-production-engineering/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "25259d8ed89e345e6feb12fd68121a277e1c56facadfda2d3cd4837a90c2463c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

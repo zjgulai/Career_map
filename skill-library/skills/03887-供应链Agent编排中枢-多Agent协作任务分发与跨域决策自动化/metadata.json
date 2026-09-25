@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-agent-orchestration-hub",
+  "中文名称": "供应链Agent编排中枢 多Agent协作任务分发与跨域决策自动化",
+  "一句话作用": "触发词：编排中枢、任务分发、跨域协同、级联触发、审批分级。何时不用：单域内的 Agent 调度用「MAS Orchestrator」；技能级编排用「Multi-Agent Skill Composition」；跨组织协作要协议与签名用「Cross-Org Agent Protocol」。安全边界：高风险任务必须按审批等级转人工后才可执行，中枢不得越级自动放行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"供应链响应靠人工协调需2-4小时\"——Hub-and-Spoke编排中枢将多Agent协作响应时间压缩至4分钟，级联触发机制自动协调采购/库存/物流/合规4个域时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03887-p2s-supply-chain-agent-orchestration-hub-08b6bafb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supply-chain-agent-orchestration-hub/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supply-chain-agent-orchestration-hub/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da466311ea88f63b9def28d16baf3e2dad12d5da0ebab5e7ab72fd34ba094a0d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-consumer-complaint-recall-prediction",
+  "中文名称": "消费者投诉驱动的召回风险预测",
+  "一句话作用": "触发词：召回风险、投诉主题聚类、集中度指标、选品合规门控、安全预警。何时不用：要提取单条评论的安全隐患信号用「安全隐患信号提取」；要算来料合格率 KPI 用「供应商来料质量KPI」。安全边界：只作风险提示与选品门控信号，不构成召回结论，对外动作须由合规与法务确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：在 Amazon 选品婴儿推车时，如何提前识别某款车型即将遭遇 CPSC 强制召回时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11351-p2s-consumer-complaint-recall-prediction-fb7c78ca",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-consumer-complaint-recall-prediction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-consumer-complaint-recall-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e4ce27e7fa9fae5c52b7f0df7adc0e204120fc25a1e35e1785b6438e34d8a7a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

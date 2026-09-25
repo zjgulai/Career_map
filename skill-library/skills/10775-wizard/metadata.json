@@ -1,0 +1,22 @@
+{
+  "英文名称": "wizard",
+  "中文名称": "待补：wizard",
+  "一句话作用": "生成一个交互式 bash wizard，逐步引导人完成只有他们能执行的手动流程。用于 provisioning 基础设施、设置 credentials 或 CI secrets、走查不熟悉的第三方 dashboard，或运行一次性 migration 或 cutover。对于 agent 自己就能执行的步骤，不要调用它。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要生成一个交互式 bash wizard，逐步引导人完成只有他们能执行的手动流程。用于 provisioning 基础设施、设置 credentials 或 CI secrets、走查不熟悉的第三方 dashboard，或运行一次性 migration 或 cutover。对于 agent 自己就能执行的步骤，不要调用它。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10775-wizard-7106b771",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/wizard/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/wizard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "36ff4e0a03b401611ced3bf7f2ca5b7e1817cb614f4659e4a31fa209774abecd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

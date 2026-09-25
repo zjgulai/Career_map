@@ -1,0 +1,22 @@
+{
+  "英文名称": "brainstorm-ideas-new",
+  "中文名称": "待补：brainstorm-ideas-new",
+  "一句话作用": "Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initia…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:46+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initia…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11192-brainstorm-ideas-new-1f5eeb25",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/brainstorm-ideas-new/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/brainstorm-ideas-new/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "400e5e0760d6dc52bfe34953d90db6223df532ce720d7e85568696ab5c3d34d2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

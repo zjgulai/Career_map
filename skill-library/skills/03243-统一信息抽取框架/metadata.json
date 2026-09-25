@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-instructuie-unified-information-extraction",
+  "中文名称": "统一信息抽取框架",
+  "一句话作用": "触发词：统一信息抽取、实体关系抽取、方面级情感、多任务联合、评论结构化。何时不用：只判断评论整体情感极性时用情感 ML 管道技能；要把长文档切块入库时用语义分块技能。安全边界：抽取结果用于内部结构化与运营分析，不得据此对具体用户做定向限制。",
+  "关键输入": "输入 ：多语言评论文本与统一标签集定义（实体标签、关系类型、方面维度、事件类型），粒度到单条评论。 输出 ：统一格式的抽取结果（实体、关系、方面级情感、事件四类标签），供后续运营分析与决策系统直接消费。",
+  "关键输出": "输入 ：多语言评论文本与统一标签集定义（实体标签、关系类型、方面维度、事件类型），粒度到单条评论。 输出 ：统一格式的抽取结果（实体、关系、方面级情感、事件四类标签），供后续运营分析与决策系统直接消费。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要触发词：统一信息抽取、实体关系抽取、方面级情感、多任务联合、评论结构化。何时不用：只判断评论整体情感极性时用情感 ML 管道技能；要把长文档切块入库时用语义分块技能。安全边界：抽取结果用于内部结构化与运营分析，不得据此对具体用户做定向限制。时，用它产出或更新：输入 ：多语言评论文本与统一标签集定义（实体标签、关系类型、方面维度、事件类型），粒度到单条评论。 输出 ：统一格式的抽取结果（实体、关系、方面级情感、事件四类标签），供后续运营分析与决策系统直接消费。",
+  "skill_id": "03243-p2s-instructuie-unified-information-extraction-5f09ffff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-instructuie-unified-information-extraction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-instructuie-unified-information-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e680d8871e2bd769f60bbbe56aab4c5be69aaaaa8064f387113a7246a5343f2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

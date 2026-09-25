@@ -1,0 +1,22 @@
+{
+  "英文名称": "client-review",
+  "中文名称": "待补：client-review",
+  "一句话作用": "Prepare for client review meetings with portfolio performance summary, allocation analysis, talking points, and action items. Pulls together account data into a concise meeting-ready format. Use before quarterly reviews…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- One-page client review summary (Word or PDF) - Performance table with benchmarks - Allocation pie chart (current vs. target) - Recommended action items - Meeting agenda",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Prepare for client review meetings with portfolio performance summary, allocation analysis, talking points, and action items. Pulls together account data into a concise meeting-ready format. Use before quarterly reviews…时，用它产出或更新：- One-page client review s…",
+  "skill_id": "05552-client-review-445d58c6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/client-review/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/client-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad848eac45494aa27263feb5e24e08e4ffd3fb613a747d55956e5b92935a9e98",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

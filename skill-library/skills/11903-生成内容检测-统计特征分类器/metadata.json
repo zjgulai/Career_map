@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-generated-content-detection",
+  "中文名称": "生成内容检测 统计特征分类器",
+  "一句话作用": "触发词：AI 生成内容检测、困惑度、句式波动率、刷评识别、文案合规自查。何时不用：要判别协调型水军攻击（时序与账号行为异常）时走假评论检测；需要平台官方判定时本技能只能给概率。安全边界：检测结论为概率估计，用于自身自查与人工复核，涉及举报或申诉时须补人工证据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"平台刷AI生成虚假Review干扰选品决策和评分\"——Perplexity/Burstiness统计检测将AI生成Review识别准确率提升至89%，无需付费API时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11903-p2s-ai-generated-content-detection-d5e4d63d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-ai-generated-content-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-ai-generated-content-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b333c493f77e05ab06a5499e14da15b1ba63d26ace9ec8be55d7fac5131a95d2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

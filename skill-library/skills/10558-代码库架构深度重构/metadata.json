@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-arch-optimizer",
+  "中文名称": "代码库架构深度重构",
+  "一句话作用": "探索代码库，识别架构摩擦点，并通过“加深浅模块”来提升可测试性，最终输出包含多种接口设计方案的详细重构建议与GitHub Issue RFC。当用户希望改进架构、寻找重构机会、合并紧耦合模块，或让代码库更易于AI导航和理解时触发。",
+  "关键输入": "在启动子代理之前，为用户编写所选候选项的问题空间说明： - 任何新接口需要满足的约束条件 - 需要依赖的外部依赖 - 一个粗略的示意代码草图，使约束条件更加具体——这不是正式方案，只是用来让约束可感知 向用户展示后，立即进入第 5 步。用户可以在阅读和思考问题的同时，让子代理并行工作。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:08+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要在启动子代理之前，为用户编写所选候选项的问题空间说明： - 任何新接口需要满足的约束条件 - 需要依赖的外部依赖 - 一个粗略的示意代码草图，使约束条件更加具体——这不是正式方案，只是用来让约束可感知 向用户展示后，立即进入第 5 步。用户可以在阅读和思考问题的同时，让子代理并行工作。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10558-code-arch-optimizer-f13dc640",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/code-arch-optimizer/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/code-arch-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02c57fcba3b2eeb82eda08e16eba79fa9c317717d1505373f343ba7c85a00e74",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

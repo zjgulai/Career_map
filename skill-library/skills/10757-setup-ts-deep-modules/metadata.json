@@ -1,0 +1,22 @@
+{
+  "英文名称": "setup-ts-deep-modules",
+  "中文名称": "待补：setup-ts-deep-modules",
+  "一句话作用": "在 TypeScript repo 中接入 dependency-cruiser，让每个 package 成为 deep module：implementation 隐藏在 subfolders 中，只能通过 entry-point files 访问。User-invoked。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要在 TypeScript repo 中接入 dependency-cruiser，让每个 package 成为 deep module：implementation 隐藏在 subfolders 中，只能通过 entry-point files 访问。User-invoked。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10757-setup-ts-deep-modules-85ec8b74",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/setup-ts-deep-modules/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/setup-ts-deep-modules/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2759f1a13b9a29527002ad55aff5b4b9ec5ef833e097e2353dd0400d3bf396d6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

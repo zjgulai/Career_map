@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-slo-manager",
+  "中文名称": "三层 SLI 体系：服务任务判断质量",
+  "一句话作用": "触发词：三层SLI、SLO管理、服务与任务指标、判断质量抽查、上线门禁、自动回滚。何时不用：要把错误预算与自主权联动时用「Agent错误预算」；要做单次运行逐步链路追踪时用「Agent可观测性追踪」。安全边界：Judgment SLI 必须靠人工抽查协议率校准，不得只靠自动指标自证达标；SLI 触发 CRITICAL 必须自动回滚，禁止用人工口头放行替代。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要WF-A 供应链 MAS 上线后缺乏量化 SLA 标准，故障后只能靠日志人工排查——三层 SLI（Service/Task/Judgment）让 Agent 质量从\"感觉可用\"变为可量化、可报警、可回滚时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02715-p2s-agent-slo-manager-d1eeacb7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agent-slo-manager/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agent-slo-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04701597f1407e32c4c7e2280c871325aac03b6fb8204472f95920e95640faf4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

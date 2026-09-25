@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-review-excellence",
+  "中文名称": "待补：code-review-excellence",
+  "一句话作用": "Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or…",
+  "关键输入": "def add item(item, items=[]): Bug! Shared across calls items.append(item) return items",
+  "关键输出": "- [ ] All user inputs validated? - [ ] File uploads restricted (size, type)? - [ ] SQL queries parameterized? - [ ] XSS protection (escape output)?",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Reviewing pull requests and code changes - Establishing code review standards for teams - Mentoring junior developers through reviews - Conducting architecture reviews - Creating review checklists and guidelines - Imp…时，用它产出或更新：- [ ] All user inputs vali…",
+  "skill_id": "05608-code-review-excellence-ff10aaf4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "235ec26133c43da32516fb2fbc6000e3dad78beb7e252b35577bf51346e1128d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

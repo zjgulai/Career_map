@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-member-lifecycle-intervention-sequencing",
+  "中文名称": "序列干预优化会员生命周期各阶段触达时机",
+  "一句话作用": "触发词：序列干预、强化学习、会员生命周期、折扣分层、干预成本、ROAS。何时不用：只做单次触达择优用多臂老虎机卡；要按会员所处阶段与历史响应学一串干预动作（含不干预）时用本卡。安全边界：折扣上限与干预预算须设约束，避免长期依赖折扣培养等券习惯，须遵守平台促销与消费者权益相关规范。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要私域运营面临\"统一折扣券激活率22%、不同生命周期阶段用户响应差异巨大\"——RL序列干预将干预触点ROAS从3x提升至5x，干预成本节省30%，年化净收益80-120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11740-p2s-member-lifecycle-intervention-sequencing-640d0f60",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-member-lifecycle-intervention-sequencing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-member-lifecycle-intervention-sequencing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "77f9264c412e07cfa51a35abe85401364a48d128eee0d0bd39d7352865e2e37d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

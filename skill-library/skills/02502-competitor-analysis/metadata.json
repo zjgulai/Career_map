@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitor-analysis",
+  "中文名称": "待补：competitor-analysis",
+  "一句话作用": "系统梳理主要竞品的功能、定价与打法，找出自身可切入的差异空间。触发词：竞品分析、competitor-analysis、系统梳理主要竞品的功能、定价与打法，找出自身可切入的差异空间。",
+  "关键输入": "Your task is to analyze the competitive landscape for $ARGUMENTS in the [market/industry segment] (if specified). Conduct web research to identify direct competitors. If the user provides market research, competitor data, pricing sheets, feature comparisons,…",
+  "关键输出": "Market Overview & Definition - Market size and growth trends - Primary customer segments and use cases - Key success factors in this market - Market dynamics and competitive intensity Competitive Set Summary - 5 primary direct competitors identified - Market…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要系统梳理主要竞品的功能、定价与打法，找出自身可切入的差异空间。触发词：竞品分析、competitor-analysis、系统梳理主要竞品的功能、定价与打法，找出自身可切入的差异空间。时，用它产出或更新：Market Overview & Definition - Market size and growth trends - Primary customer segments and use cases - Key success factors in this market - Market dynami…",
+  "skill_id": "02502-competitor-analysis-e13fa215",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/competitor-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/competitor-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bd30c1d685d404bf6e1f632df280e5b8f02e8c7addd30a4fac90e75458992b77",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

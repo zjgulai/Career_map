@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-uncertainty-quantification-bi",
+  "中文名称": "输出不确定性量化 场景的置信度感知决策",
+  "一句话作用": "触发词：置信度标注、不确定性量化、语义熵、Platt 校准、人工复核、BI 结论。何时不用：要为已执行的自动化决策补留痕时用「决策审计追踪本体」，要做对外文案违禁宣称检测时用「AIGC 内容合规审查」。安全边界：置信度标注仅限内部使用，低置信结论不得进入客服话术与对外营销文案。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"AI日报数字无法判断哪些可信哪些需复核\"——语义熵+Platt校准为每个结论标注置信度，高置信直接使用低置信必核，年化避免AI错误决策损失约110万元时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12477-p2s-llm-uncertainty-quantification-bi-04605ff1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-uncertainty-quantification-bi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-uncertainty-quantification-bi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "97790c86a0374e64d4a197210533ceb47be90fcf920e55f5b13dc408a09b8d56",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

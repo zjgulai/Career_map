@@ -1,0 +1,22 @@
+{
+  "英文名称": "swiftui-patterns",
+  "中文名称": "待补：swiftui-patterns",
+  "一句话作用": "Build macOS SwiftUI scenes and components with desktop patterns. Use when shaping windows, commands, toolbars, settings, split views, or inspectors.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Build macOS SwiftUI scenes and components with desktop patterns. Use when shaping windows, commands, toolbars, settings, split views, or inspectors.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00726-swiftui-patterns-f7af8db7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/swiftui-patterns/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/swiftui-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ebfc06b1c1e11cadec83e5c204b20f33f01db1c36cb5796639567bd8eac0fe07",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

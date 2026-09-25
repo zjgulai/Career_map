@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill: GEO Strategy Advisor",
+  "中文名称": "待补：Skill: GEO Strategy Advisor",
+  "一句话作用": "Produce a 3-dimensional content strategy from GEO analysis outputs.",
+  "关键输入": "data/outputs/[dir]/domains/cit subdomains.csv (from geo-domain-ranker) — required, must be read before output . data/outputs/[dir]/mention stats.csv (from geo-analyzer) — optional, for mention rate context.",
+  "关键输出": "You must read data/outputs/[brand] [date]/domains/cit subdomains.csv first. - If the file exists → read it, extract the Top 20 cited domains/subreddits, then build strategy from the actual data. - If the file does NOT exist → do NOT output generic strategy. I…",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Produce a 3-dimensional content strategy from GEO analysis outputs.时，用它产出或更新：You must read data/outputs/[brand] [date]/domains/cit subdomains.csv first. - If the file exists → read it, extract the Top 20 cited domains/subreddits, then build strategy from t…",
+  "skill_id": "00237-skill-geo-strategy-advisor-5425c0fa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-strategy-advisor/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-strategy-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b6df261ea5bd44fd471c4d8708614e5536e45ece6dbda016d1bad4e48541426",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "yzf-invoice-mcp-server-skill",
+  "中文名称": "开票员 (yzf-invoice-mcp-server-skill)",
+  "一句话作用": "AI 开票员技能——通过 MCP 工具调用后端开票服务，支持异步轮询实时获取进度。当前仅支持蓝票（正常开票/改票），暂不支持红票（红冲/作废）与批量开票。触发词：开票、开发票、专票、普票、改发票。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要AI 开票员技能——通过 MCP 工具调用后端开票服务，支持异步轮询实时获取进度。当前仅支持蓝票（正常开票/改票），暂不支持红票（红冲/作废）与批量开票。触发词：开票、开发票、专票、普票、改发票。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05410-yzf-invoice-mcp-server-skill-2662b48f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/yzf-invoice-mcp-server/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/yzf-invoice-mcp-server/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f83b3f160de390b1137776680f942ed013a7895ada29c970e7c13f973153fc55",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

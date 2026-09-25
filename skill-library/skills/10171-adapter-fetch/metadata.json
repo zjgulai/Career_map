@@ -1,0 +1,22 @@
+{
+  "英文名称": "adapter-fetch",
+  "中文名称": "待补：adapter-fetch",
+  "一句话作用": "Deploy tRPC on WinterCG-compliant edge runtimes with fetchRequestHandler() from @trpc/server/adapters/fetch. Supports Cloudflare Workers, Deno Deploy, Vercel Edge Runtime, Astro, Remix, SolidStart. FetchCreateContextFnO…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-22T11:43:54+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Deploy tRPC on WinterCG-compliant edge runtimes with fetchRequestHandler() from @trpc/server/adapters/fetch. Supports Cloudflare Workers, Deno Deploy, Vercel Edge Runtime, Astro, Remix, SolidStart. FetchCreateContextFnO…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10171-adapter-fetch-d2a896a5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/ai_product_select/node_modules/@trpc/server/skills/adapter-fetch/SKILL.md",
+  "relative_path": "lute/project/Agent/product/ai_product_select/node_modules/@trpc/server/skills/adapter-fetch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "046a7be071a82933933ce894928dea7c2dda0962000a4ff662cd398cc9759657",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

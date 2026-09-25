@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-mixer-new-product-forecast",
+  "中文名称": "多尺度时序新品销量预测 增强多分辨率分解",
+  "一句话作用": "触发词：LLM-Mixer、多尺度分解、少样本预测、新品销量、语义提示。何时不用：已有充足历史的主销 SKU 用常规时序模型即可；需要零样本直接出结果时用「时序基础模型」类技能。安全边界：仅用内部销售数据，不爬竞品数据；用聚合级数据，不含个人隐私。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要新品上市初期历史数据极少导致传统预测模型失效——LLM预训练通用时序知识加持多尺度分解，在少于20个历史点时预测精度提升10-15%，年化减少损失300-450万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11432-p2s-llm-mixer-new-product-forecast-21320a51",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-llm-mixer-new-product-forecast/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-llm-mixer-new-product-forecast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1e8741296bd3ba3b1adf4ff7ac87254b045b298b7c47c154750be232c0a8f768",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

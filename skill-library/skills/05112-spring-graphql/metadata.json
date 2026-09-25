@@ -1,0 +1,22 @@
+{
+  "英文名称": "spring-graphql",
+  "中文名称": "待补：spring-graphql",
+  "一句话作用": "Spring for GraphQL - building GraphQL APIs with Spring Boot. Covers queries, mutations, subscriptions, @BatchMapping, DataLoader, and security. USE WHEN: user mentions \"spring graphql\", \"@QueryMapping\", \"@MutationMappin…",
+  "关键输入": "Problem Diagnostic Fix --------- ------------ ----- N+1 queries Check SQL logs Add @BatchMapping Field not resolved Check method name Verify @SchemaMapping matches schema Subscription not working Check WebSocket config…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:58+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Problem Diagnostic Fix --------- ------------ ----- N+1 queries Check SQL logs Add @BatchMapping Field not resolved Check method name Verify @SchemaMapping matches schema Subscription not working Check WebSocket config…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05112-spring-graphql-4a185ac3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spring-graphql/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spring-graphql/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3fa65b6ce5dad22c12dab1e79a4c1f92df1474d97a77c90a34ffea758e045f9a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

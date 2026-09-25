@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-domain-adaptive-rag-ecommerce",
+  "中文名称": "电商领域自适应RAG 垂直领域知识注入优化",
+  "一句话作用": "触发词：电商术语识别、领域自适应检索、垂直知识注入、ASIN混淆、客服检索优化。何时不用：问题本质是精确数值查询时用 Text2SQL 或表检索；知识库没有术语表与标注语料时先补语料。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据团队面临通用RAG在电商专有名词处理准确率低——领域自适应RAG将垂直场景准确率+28%，母婴专业决策质量显著提升，年化价值42万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11963-p2s-domain-adaptive-rag-ecommerce-809e57bc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-domain-adaptive-rag-ecommerce/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-domain-adaptive-rag-ecommerce/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dc39889543fedbad0942be1ae3c47e9adce8b1114bc5be9e7d5ce0af282be822",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

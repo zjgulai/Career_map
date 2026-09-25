@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-crossborder-logistics-mode-selection",
+  "中文名称": "跨境物流模式动态选择 需求预测驱动的保税仓与直邮模式联合优化框架",
+  "一句话作用": "触发词：物流模式选择、保税仓还是直邮、海外仓备货、旺季爆仓、多仓分配。何时不用：要单独做销量预测本身用「需求预测」类技能，要算补多少货用「补货模拟」；本技能只决定物流模式与备货仓位。安全边界：模式切换牵涉仓储合同、关务备案与清关资料，最终方案须人工确认，模型不直接改动库存或签署物流协议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要凭经验选保税仓或直邮导致旺季爆仓或淡季仓储成本浪费——注意力增强Seq2Seq需求预测+退货率量化+多目标优化实现动态模式切换，总物流成本降低约15%（IJSSO 2026）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11362-p2s-crossborder-logistics-mode-selection-f204493b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-crossborder-logistics-mode-selection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-crossborder-logistics-mode-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02d21cdbaeac9743c0f5fec1c119622ee4cefeccd0909f23eb1b80c8793d27f6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

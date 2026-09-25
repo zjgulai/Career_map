@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voice-search-optimization-amazon",
+  "中文名称": "语音搜索优化",
+  "一句话作用": "触发词：语音搜索、Alexa、问句关键词、Amazon Choice、长尾问句。何时不用：常规关键词元数据优化用「自然排名元数据优化」；本技能针对问句型语音查询。安全边界：不得为语音场景堆砌问句模板或伪造 Amazon Choice 等平台标签。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"Alexa语音搜索流量被忽略\"——长尾问句关键词策略将语音搜索带来的流量占比从2%提升至8%，年化新增GMV15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04028-p2s-voice-search-optimization-amazon-e74fae62",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voice-search-optimization-amazon/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voice-search-optimization-amazon/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3457092712d45fabf458238adf09f1779ea03eb8a517b3b853acfaa460da18eb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

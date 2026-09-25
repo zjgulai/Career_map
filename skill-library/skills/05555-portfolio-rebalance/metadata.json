@@ -1,0 +1,22 @@
+{
+  "英文名称": "portfolio-rebalance",
+  "中文名称": "待补：portfolio-rebalance",
+  "一句话作用": "Analyze portfolio allocation drift and generate rebalancing trade recommendations across accounts. Considers tax implications, transaction costs, and wash sale rules. Triggers on \"rebalance\", \"portfolio drift\", \"allocat…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Drift analysis table - Recommended trade list (Excel) - Tax impact summary - Before/after allocation comparison",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Analyze portfolio allocation drift and generate rebalancing trade recommendations across accounts. Considers tax implications, transaction costs, and wash sale rules. Triggers on \"rebalance\", \"portfolio drift\", \"allocat…时，用它产出或更新：- Drift analysis table - R…",
+  "skill_id": "05555-portfolio-rebalance-14d4447e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/portfolio-rebalance/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/portfolio-rebalance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0e5984623540764ece2e1a34e85a87916a7d634033a0a1ca8155b3cc61688a14",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "shared-industry-profiles",
+  "中文名称": "行业特征库",
+  "一句话作用": "引用方 : 全体Agent通用 使用说明 : 根据商家所属行业调用对应画像，指导内容策略、认证建议、沟通话术等。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T22:14:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要引用方 : 全体Agent通用 使用说明 : 根据商家所属行业调用对应画像，指导内容策略、认证建议、沟通话术等。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00035-shared-industry-profiles-17e24223",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-industry-profiles/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-industry-profiles/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c85cb97bda8ae6e0a75180776bbadfda894ecbc129cea9a7e106fb1700ff4f1b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

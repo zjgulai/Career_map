@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-spiral-of-silence",
+  "中文名称": "沉默少数派挖掘",
+  "一句话作用": "触发词：p2s-spiral-of-silence。Skill Card: Spiral of Silence Mining",
+  "关键输入": "业务问题 某婴儿纸尿裤产品好评率95%，但近期出现多起\"尺码不准\"的售后投诉。问题：为何早期没有发现这个隐患？ 数据要求 - 产品评论文本（包含好评和差评） - 评分（1-5星） - helpfulness投票数 - 评论者认证标记 特征工程 特征 说明 ------ ------ 语义嵌入 使用Sentence-BERT提取评论语义 观点聚类 K-means识别不同观点群体",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:13+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题 某婴儿纸尿裤产品好评率95%，但近期出现多起\"尺码不准\"的售后投诉。问题：为何早期没有发现这个隐患？ 数据要求 - 产品评论文本（包含好评和差评） - 评分（1-5星） - helpfulness投票数 - 评论者认证标记 特征工程 特征 说明 ------ ------ 语义嵌入 使用Sentence-BERT提取评论语义 观点聚类 K-means识别不同观点群体时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12204-p2s-spiral-of-silence-3106e949",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-spiral-of-silence/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-spiral-of-silence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6f5d766ff989704dd18bbb6a4528d4d69128a7686e254f04ad3c5b3d65c989d0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

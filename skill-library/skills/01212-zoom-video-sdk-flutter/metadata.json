@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-video-sdk-flutter",
+  "中文名称": "待补：zoom-video-sdk-flutter",
+  "一句话作用": "Zoom Video SDK for Flutter. Use when building custom video session apps in Flutter with flutter zoom videosdk, event-driven architecture, session lifecycle handling, and mobile platform integration patterns.",
+  "关键输入": "- Setup Guide - Session Join Pattern - Event Handling Pattern",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:40+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- Setup Guide - Session Join Pattern - Event Handling Pattern时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01212-zoom-video-sdk-flutter-ebb1e049",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/flutter/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/flutter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a905c43f42a5c9905158edfb3cbdace924b2af7ea449d5b13d3dbf4667c73351",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

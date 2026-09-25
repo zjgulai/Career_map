@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-marketing-promotions-advisor",
+  "中文名称": "待补：twilio-marketing-promotions-advisor",
+  "一句话作用": "Planning skill for marketing and promotional messaging. Qualifies the developer's campaign needs across channel selection, compliance, audience segmentation, and delivery tracking to recommend the right Twilio messaging…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After qualifying the developer, recommend:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Planning skill for marketing and promotional messaging. Qualifies the developer's campaign needs across channel selection, compliance, audience segmentation, and delivery tracking to recommend the right Twilio messaging…时，用它产出或更新：After qualifying the devel…",
+  "skill_id": "01088-twilio-marketing-promotions-advisor-9cc6dc05",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-marketing-promotions-advisor/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-marketing-promotions-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be296103f4ec948b57422baf1c004314c52d9c6a38d79aa6a8b7b6c6ff22332e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

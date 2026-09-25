@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-agent-debate",
+  "中文名称": "多智能体辩论共识",
+  "一句话作用": "触发词：多智能体辩论、共识裁决、标注歧义、结论复核。何时不用：结论无歧义、单模型可稳定判断时不用辩论；需要事实查证而非观点权衡时用检索类技能。安全边界：无。",
+  "关键输入": "输入 ：待标注或待裁决的文本、多个使用不同提示或模型的标注 Agent，以及裁决方的判断标准。 输出 ：聚合后的标注或裁决结论、各 Agent 立场与分歧点，以及歧义案例的置信度量化结果，用于指导人工复核优先级。",
+  "关键输出": "输入 ：待标注或待裁决的文本、多个使用不同提示或模型的标注 Agent，以及裁决方的判断标准。 输出 ：聚合后的标注或裁决结论、各 Agent 立场与分歧点，以及歧义案例的置信度量化结果，用于指导人工复核优先级。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要（ 换底正文在此截断 —— 完整卡正文共 319 行，本页内联到第 18 行；其余见 references/full-card.md。 代码围栏已整块移入 references/implementation.py，引文整段见下节。）时，用它产出或更新：输入 ：待标注或待裁决的文本、多个使用不同提示或模型的标注 Agent，以及裁决方的判断标准。 输出 ：聚合后的标注或裁决结论、各 Agent 立场与分歧点，以及歧义案例的置信度量化结果，用于指导人工复核优先级。",
+  "skill_id": "03466-p2s-multi-agent-debate-e857f2a1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-agent-debate/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-agent-debate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "723d236be01c0fedb5475e30a52ba31e869ac25afebd86d2c4e781083941a778",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

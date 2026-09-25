@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-data-deep-analysis",
+  "中文名称": "待补：product-data-deep-analysis",
+  "一句话作用": "基于产品与市场数据生成深度分析报告，提供进入决策、情景模拟和优先动作备忘录。触发词：产品数据深度分析、Jungle Scout分析、Helium 10分析、Sorftime分析、竞品CSV分析、市场规模分析、品类深挖、选品研判、竞争分析。何时不用：轻量方向扫描（使用 market-insight-product-selection）、最终进入裁决（使用 market-viability-logic-auditor）、Listing 撰…",
+  "关键输入": "八大维度分析之后，强制压缩为以下 3 个问题： 1. 这个市场值得进入吗？ 2. 如果进入，Momcozy 应该以什么打法进入？ 3. 第一轮最小投入应该放在哪里？ 没有压缩成决策问题，报告就仍然只是“资料整合”。 ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要八大维度分析之后，强制压缩为以下 3 个问题： 1. 这个市场值得进入吗？ 2. 如果进入，Momcozy 应该以什么打法进入？ 3. 第一轮最小投入应该放在哪里？ 没有压缩成决策问题，报告就仍然只是“资料整合”。 ---时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04080-product-data-deep-analysis-7edef3b4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/product-data-deep-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/product-data-deep-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7422563207ff89acf5105987c55b7c847ab82842cb14d578d0a3aaa32013a302",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

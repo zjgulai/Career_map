@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-document-intelligence-parsing",
+  "中文名称": "驱动的文档智能解析：图文统一 OCR跨页表格恢复布局感知推理",
+  "一句话作用": "触发词：文档智能解析、PDF表格抽取、跨页表格、版面感知、扫描件识别。何时不用：只把长文档切块入库时用语义分块技能；把采购邮件正文结构化时用邮件抽取技能。安全边界：合规文件解析结果仅作预检参考，不得替代法规符合性判定与官方认证结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要每季度收到 20 家供应商 PDF 报价单，人工录入 SKU/价格/MOQ 需 3-4 天且错误率 8%——Layout-aware LLM 解析实现 PDF→结构化数据全自动，人工录入工时归零，错误率降至 1% 以下时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03071-p2s-document-intelligence-parsing-2616ec0a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-document-intelligence-parsing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-document-intelligence-parsing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b74e7c4993474fb7d83f4285823b4bf4f9cd44546d8be5bc7e6a9ab0f4040805",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

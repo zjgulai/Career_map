@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-strategy",
+  "中文名称": "待补：product-strategy",
+  "一句话作用": "确定目标市场、取胜方式与投入取舍，把产品要走的路写成一份可检验的战略。触发词：产品战略制定、product-strategy、确定目标市场、取胜方式与投入取舍，把产品要走的路写成一份可检验的战略。",
+  "关键输入": "- Product description and current positioning - Market context, competitors, and customer insights - Company resources, constraints, and priorities - Any relevant business or market data",
+  "关键输出": "1. Define the vision and aspirational impact 2. Identify 2-3 target market segments with their JTBD 3. Establish cost positioning (low cost vs. premium value) 4. Develop value propositions for each segment 5. List explicit trade-offs (what we won't do) 6. Set…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要确定目标市场、取胜方式与投入取舍，把产品要走的路写成一份可检验的战略。触发词：产品战略制定、product-strategy、确定目标市场、取胜方式与投入取舍，把产品要走的路写成一份可检验的战略。时，用它产出或更新：1. Define the vision and aspirational impact 2. Identify 2-3 target market segments with their JTBD 3. Establish cost positioning (low cost vs. prem…",
+  "skill_id": "04088-product-strategy-1b4db96c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/product-strategy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/product-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b5d96f0e51ff5d90aa6e415bbb0deaf2fb4972a5f64a5581cc593c98bebf1758",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

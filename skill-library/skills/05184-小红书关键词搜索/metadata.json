@@ -1,0 +1,22 @@
+{
+  "英文名称": "xiaohongshu-keyword-search",
+  "中文名称": "小红书关键词搜索",
+  "一句话作用": "小红书公开数据检索工具，覆盖关键词搜笔记、笔记详情、评论、博主作品、博主粉丝量等互动数据；当用户提到小红书并需要查/分析公开内容时调用。可用于爆款选题、竞品监控、KOL 筛选、评论舆情分析，无需登录账号",
+  "关键输入": "Q1. 报错 error code: 401 或 403 怎么办？ 含义：GUAIKEI API TOKEN 未配置或无效。 自查：①确认运行环境里确实 export GUAIKEI API [REDACTED] 了（不是只在 shell 配置里写了）；②token 长度16-256位，由字母、数字、下划线、短横线组成的字符串（以 guaikei.com 开通页显示为准），核对是否有多余空格或换行；③是否已过期，去 重新开通。",
+  "关键输出": "执行完成后，优先返回： - 本次执行的目标 - 关键参数 - 结构化 JSON 结果 - 如果有必要，再补充一小段摘要说明 适合继续衔接的后续动作包括： - 选题汇总 - 高赞笔记对比 - 评论观点聚类 - 竞品内容风格总结 - 博主发文节奏分析 - 报告与表格生成",
+  "最新更新时间": "2026-09-19T03:51:38+08:00",
+  "业务场景": "数据分析",
+  "解决具体问题": "当需要Q1. 报错 error code: 401 或 403 怎么办？ 含义：GUAIKEI API TOKEN 未配置或无效。 自查：①确认运行环境里确实 export GUAIKEI API [REDACTED] 了（不是只在 shell 配置里写了）；②token 长度16-256位，由字母、数字、下划线、短横线组成的字符串（以 guaikei.com 开通页显示为准），核对是否有多余空格或换行；③是否已过期，去 重新开通。时，用它产出或更新：执行完成后，优先返回： - 本次执行的目标 - 关键参数 -…",
+  "skill_id": "05184-xiaohongshu-keyword-search-70eb40d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/xiaohongshu-keyword-search/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/xiaohongshu-keyword-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "71aa9acfba75df1518d3608c0405ebdea8804aea53d95eb86e4fbd397941bbf7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-algorithm-traffic-amplification",
+  "中文名称": "推流算法流量放大 逆向工程完播率互动率临界点识别",
+  "一句话作用": "触发词：推流临界点、完播率阈值、互动率阈值、放量时机、内容命中率。何时不用：要解决的是搜索关键词覆盖与排名时用「长尾关键词挖掘」等搜索类技能，而非内容推流临界点。安全边界：只分析自有账户公开数据，不得逆向或爬取平台非公开指标（TikTok TOS 4.2）。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营负责人面临\"视频发出去推流量忽高忽低不知道算法触发放量的临界点\"——算法临界指标识别将触发推流放量的概率从32%提升至71%，年化流量成本节省$6.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12429-p2s-tiktok-algorithm-traffic-amplification-0b62a1ab",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-tiktok-algorithm-traffic-amplification/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-tiktok-algorithm-traffic-amplification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de314e8bdf2448017d6e340c24cd1427a251364c726eda6c2ea6f7846d1196a4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-customer-segmentation",
+  "中文名称": "母婴跨境电商客户分群分析 Skill",
+  "一句话作用": "母婴跨境电商客户分群分析Skill。基于RFM+L(宝宝月龄/生命周期)模型实现客户价值分层，支持母婴专属的生命周期分析、消费升级路径分析、分层运营策略制定。 触发条件: 1. 用户上传母婴客户交易数据并提到\"客户分群\"、\"RFM\"、\"客户分层\"、\"妈妈分群\" 2. 用户询问\"高价值客户\"、\"客户价值分析\"、\"VIP客户识别\"、\"生命周期客户\" 3. 用户需要\"客户生命周期\"、\"客户细分\"、\"宝宝月龄分群\"、\"孕期客户识别\"分析 母婴…",
+  "关键输入": "必需字段 : 字段 类型 说明 ------ ------ ------ customer id string 客户唯一标识 order date date 订单日期 order amount numeric 订单金额 可选字段 : 字段 类型 说明 ------ ------ ------ country string 客户国家/地区 marketplace string 销售平台 product category string 产品类别",
+  "关键输出": "1. RFM分群报告",
+  "最新更新时间": "2026-03-04T16:03:00+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要母婴跨境电商客户分群分析Skill。基于RFM+L(宝宝月龄/生命周期)模型实现客户价值分层，支持母婴专属的生命周期分析、消费升级路径分析、分层运营策略制定。 触发条件: 1. 用户上传母婴客户交易数据并提到\"客户分群\"、\"RFM\"、\"客户分层\"、\"妈妈分群\" 2. 用户询问\"高价值客户\"、\"客户价值分析\"、\"VIP客户识别\"、\"生命周期客户\" 3. 用户需要\"客户生命周期\"、\"客户细分\"、\"宝宝月龄分群\"、\"孕期客户识别\"分析 母婴…时，用它产出或更新：1. RFM分群报告",
+  "skill_id": "09425-cbec-customer-segmentation-9ee95e01",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/08-customer-analysis/customer-segmentation/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/08-customer-analysis/customer-segmentation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ed2e0db6a63f32c4abd04cfad39ad7c31055f0cf629b2c08ae708e44b5430eb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

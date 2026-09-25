@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kol-video-roi-attribution",
+  "中文名称": "视频ROI归因（网红营销效果因果估计）",
+  "一句话作用": "触发词：KOL ROI归因、网红营销、合成控制、净增量、合作复盘。何时不用：多渠道广告的严格增量实验用Geo Holdout或归因去偏类技能；本技能只评单次KOL合作的真实带动。安全边界：使用自有业务数据，不引入外部个人数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌面临\"KOL合作后销量增长无法区分自然趋势和网红真实带动导致续约决策失误\"——合成控制法净效果识别将KOL ROI评估准确率提升60%，年化优化KOL预算配置增效20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11718-p2s-kol-video-roi-attribution-eb41ff3e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-kol-video-roi-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-kol-video-roi-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "40f58b354647628c25244295c3c590c1ad8d78d643eb4cd3ae584c3106afb9ec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

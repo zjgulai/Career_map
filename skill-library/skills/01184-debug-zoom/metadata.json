@@ -1,0 +1,22 @@
+{
+  "英文名称": "debug-zoom",
+  "中文名称": "待补：debug-zoom",
+  "一句话作用": "Use when debugging issues.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Most likely failure layer - Ranked hypotheses - Targeted fix steps - Verification checklist - Relevant skill links",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when debugging issues.时，用它产出或更新：- Most likely failure layer - Ranked hypotheses - Targeted fix steps - Verification checklist - Relevant skill links",
+  "skill_id": "01184-debug-zoom-db411f9a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/debug-zoom/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/debug-zoom/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dbd264e2e924bedee0113ad014e9a0042ebc514be30ef863f8a3474bde89da8b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

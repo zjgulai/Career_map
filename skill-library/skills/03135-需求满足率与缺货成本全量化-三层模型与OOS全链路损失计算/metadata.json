@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fill-rate-oos-cost-quantification",
+  "中文名称": "需求满足率与缺货成本全量化 三层模型与OOS全链路损失计算",
+  "一句话作用": "触发词：缺货成本量化、需求满足率、Fill Rate、排名恢复损失、买家流失成本。何时不用：只想算该补多少货时用「自动补货决策」；要跟踪在途与到货异常时走「履约跟踪」类技能。安全边界：LTV、评分影响等损失口径必须用自有历史数据建模，估算值不得当财务口径对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要7天缺货损失被估算$6650实际高达$23290——OOS五层全量化模型（直接+排名+流失+广告+评分）揭示真实损失是传统估算3.5倍，支撑正确安全库存决策时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03135-p2s-fill-rate-oos-cost-quantification-1b2d75e2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-fill-rate-oos-cost-quantification/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-fill-rate-oos-cost-quantification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9fe734ce35c0d899da142e987c6b14efb3f28c1f8e2b36a9f2dd8fc8b4159d5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

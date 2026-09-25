@@ -1,0 +1,22 @@
+{
+  "英文名称": "vision-analysis",
+  "中文名称": "待补：vision-analysis",
+  "一句话作用": "Analyze, describe, and extract information from images using the MiniMax vision MCP tool. Use when: user shares an image file path or URL (any message containing .jpg, .jpeg, .png, .gif, .webp, .bmp, or .svg file extens…",
+  "关键输入": "- MiniMax Token Plan subscription with valid MINIMAX API KEY - MiniMax MCP configured (MiniMax understand image tool available)",
+  "关键输出": "Return the analysis clearly. For describe, use readable prose. For ocr, preserve structure. For ui-review, use a structured critique format.",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Analyze, describe, and extract information from images using the MiniMax vision MCP tool. Use when: user shares an image file path or URL (any message containing .jpg, .jpeg, .png, .gif, .webp, .bmp, or .svg file extens…时，用它产出或更新：Return the analysis clearl…",
+  "skill_id": "10726-vision-analysis-6b9db03c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/vision-analysis/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/vision-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a3b4720bfc5f1083cc6c2670bd4d7d5b673f3c86e84b536169f5e545206de157",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

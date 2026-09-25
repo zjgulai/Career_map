@@ -1,0 +1,22 @@
+{
+  "英文名称": "frontend-testing-debugging",
+  "中文名称": "待补：frontend-testing-debugging",
+  "一句话作用": "Use when testing, debugging, or making targeted improvements to rendered frontend apps through the Build Web Apps or web dev plugin: local dev servers, UI regressions, interaction bugs, console errors, responsive layout…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Keep the requested host exact. - Verify controls update real UI state. - Check the first viewport before scrolling, plus desktop and one mobile-sized viewport when practical. - Look for clipping, overlap, unreadable text, wrapping, layout shift, missing ass…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when testing, debugging, or making targeted improvements to rendered frontend apps through the Build Web Apps or web dev plugin: local dev servers, UI regressions, interaction bugs, console errors, responsive layout…时，用它产出或更新：- Keep the requested host…",
+  "skill_id": "00732-frontend-testing-debugging-f66d698c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-apps/skills/frontend-testing-debugging/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-apps/skills/frontend-testing-debugging/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "03724620cf7e7de425b607a5492f572d867b1cf5d9c92c74bf50d057d7415e0b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

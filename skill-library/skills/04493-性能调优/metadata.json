@@ -1,0 +1,22 @@
+{
+  "英文名称": "性能调优",
+  "中文名称": "性能调优",
+  "一句话作用": "JVM tuning, slow SQL optimization, frontend rendering performance, bundle size optimization",
+  "关键输入": "问题 排查工具 解决方向 ------ ---------- ---------- 频繁 Full GC jstat -gcutil pid 1000 检查内存泄漏、调大堆 OOM Heap Dump + MAT 分析 定位大对象、修复泄漏 CPU 100% top -Hp pid → jstack pid 定位热点线程（死循环？GC？） 线程阻塞 jstack pid 检查锁等待、死锁",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要问题 排查工具 解决方向 ------ ---------- ---------- 频繁 Full GC jstat -gcutil pid 1000 检查内存泄漏、调大堆 OOM Heap Dump + MAT 分析 定位大对象、修复泄漏 CPU 100% top -Hp pid → jstack pid 定位热点线程（死循环？GC？） 线程阻塞 jstack pid 检查锁等待、死锁时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04493-skill-886c1515",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/性能调优/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/性能调优/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e8270bf171a6a5d4b849f76791df70465fb88df92b0195cafcd235950e70441b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

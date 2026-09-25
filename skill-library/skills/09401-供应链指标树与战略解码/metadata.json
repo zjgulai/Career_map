@@ -1,0 +1,22 @@
+{
+  "英文名称": "supply-chain-indicator-decoding",
+  "中文名称": "供应链指标树与战略解码",
+  "一句话作用": "Use when users ask to decompose a north-star metric into MECE KPI trees, L0-L3 strategic decoding, execution-level indicators, guardrails, constraint pairs, owner mapping, or threshold rules. Not for Gamma页面生成 or 管理层故事线…",
+  "关键输入": "- 用户要做北极星指标拆解、L0-L3 指标树设计。 - 用户要求公式、数据源、频率、Owner、阈值一起定义。 - 用户要设计约束对、护栏指标、熔断规则。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-16T20:51:55+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 用户要做北极星指标拆解、L0-L3 指标树设计。 - 用户要求公式、数据源、频率、Owner、阈值一起定义。 - 用户要设计约束对、护栏指标、熔断规则。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09401-supply-chain-indicator-decoding-a679143b",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/supply-chain-indicator-decoding/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/supply-chain-indicator-decoding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "69e4f7585d536cd8bd0db9cc384e679854845ee4791021fa9d4d66de06cec8c5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "moonbit-extract-spec-test",
+  "中文名称": "待补：moonbit-extract-spec-test",
+  "一句话作用": "Extract formal spec and comprehensive test suites from existing MoonBit implementations. Use when asked to \"extract spec from implementation\", \"generate tests from code\", or \"create spec-driven tests for existing packag…",
+  "关键输入": "- User asks to \"extract spec from existing implementation\" - User wants to \"generate spec-driven tests for a package\" - User requests \"create formal API specification from code\" - Converting legacy code to spec-driven d…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- User asks to \"extract spec from existing implementation\" - User wants to \"generate spec-driven tests for a package\" - User requests \"create formal API specification from code\" - Converting legacy code to spec-driven d…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04553-moonbit-extract-spec-test-2f279701",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/moonbit-skills/0.1.0/skills/moonbit-extract-spec-test/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/moonbit-skills/0.1.0/skills/moonbit-extract-spec-test/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "84d3fc21ca976d174f0c2eb9f92b1510ce45b3d20d4fbf8660c94e2a3adf973d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

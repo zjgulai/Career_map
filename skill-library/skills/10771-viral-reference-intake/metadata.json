@@ -1,0 +1,22 @@
+{
+  "英文名称": "viral-reference-intake",
+  "中文名称": "待补：viral-reference-intake",
+  "一句话作用": "Establish a bounded, digest-linked ReferenceBundle for a candidate viral reference before decomposition or replication; use for source identity, performance window, playability, refreshability, rights scope, or evidence…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-23T00:49:26+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Establish a bounded, digest-linked ReferenceBundle for a candidate viral reference before decomposition or replication; use for source identity, performance window, playability, refreshability, rights scope, or evidence…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10771-viral-reference-intake-068c2d8c",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/viral-reference-intake/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/viral-reference-intake/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d4e8aff2be00d4e41294c0622dbc990ef2d4e32febde36c261d4d08188790a9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

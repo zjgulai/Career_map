@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 市场数据汇编（品类/竞品/消费者洞察）",
+  "中文名称": "待补：KA 市场数据汇编（品类/竞品/消费者洞察）",
+  "一句话作用": "在撰写买手年度提案或新品进场前，将分散的内部销售数据与外部品类增长、竞品份额、消费者洞察汇编为统一数据包，供 ka-buyer-proposal-generator 使用。",
+  "关键输入": "- 已明确 目标 KA （如 Walmart US、Boots UK、dm DE）与 类目边界 （吸奶器/配件等）。 - 内部数据：历史 POS/ sell-out、退货、促销（若有）。 - 外部数据：可来自第三方报告摘要、公开财报、爬虫榜单—— 每条标注可信度 。",
+  "关键输出": "- 一、品类与增长 / 二、竞争格局 / 三、消费者洞察 / 四、我方表现摘要 / 五、数据缺口 - 所有数字 带单位与币种 。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在撰写买手年度提案或新品进场前，将分散的内部销售数据与外部品类增长、竞品份额、消费者洞察汇编为统一数据包，供 ka-buyer-proposal-generator 使用。时，用它产出或更新：- 一、品类与增长 / 二、竞争格局 / 三、消费者洞察 / 四、我方表现摘要 / 五、数据缺口 - 所有数字 带单位与币种 。",
+  "skill_id": "09874-ka-585f7cbd",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-market-data-compiler/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-market-data-compiler/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8e7f0abc3f16f60e376c968bae7426a1ca7c46706a22572fcd22501a99ed79b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "pr-review",
+  "中文名称": "待补：pr-review",
+  "一句话作用": "Review pull requests for correctness, maintainability, tests, security, docs impact, release risk, and agent-induced failure modes. Use when the user asks for a PR review, diff review, merge readiness check, or maintain…",
+  "关键输入": "- PR description, changed files, commits, and diff stats. - Relevant source files, tests, docs, CI output, and release notes. - Existing architecture or workflow docs that govern touched areas.",
+  "关键输出": "Return: 1. Verdict 2. Blocking issues 3. Non-blocking suggestions 4. Test coverage 5. Release risk 6. Suggested review comments",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks for a PR review, diff review, or merge readiness check. - A branch or worktree needs review before merge. - Agent-authored changes need an independent risk pass.时，用它产出或更新：Return: 1. Verdict 2. Blocking issues 3. Non-blocking suggestions 4.…",
+  "skill_id": "06036-pr-review-fc704473",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/pr-review/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/pr-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3bd2da11a508b27a3fdf7cddab9b25fa2f46d6fa37edc7312688f1015ecec7c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-purchase-sales-inventory-3d-tracking",
+  "中文名称": "进销存三维动态追踪 进货销售库存联动监控与比率预警体系",
+  "一句话作用": "触发词：进销存、进销存周报、P/S 比率、库存异常预警、账实差异。何时不用：要判断商品该分几层用「库存分层」，要做多平台数据接入与口径统一用「数据管道」；本技能只监控进货、销售、库存三者比率与异常。安全边界：账实差异的根因结论须与盘点、退货、在途记录交叉核对后再入账，模型不下账务调整。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要每周4小时手工汇总进销存且无法发现异常——P/S比率CUSUM检测将缺货/积压信号提前3-5天发现，年化防损$10-15万，报告时间从4小时降至10分钟时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11502-p2s-purchase-sales-inventory-3d-tracking-efa18afd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-purchase-sales-inventory-3d-tracking/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-purchase-sales-inventory-3d-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "107b97e167febcca0ddbe320693a60b46fa3a750bcaa4aaa6e9bd3f0f0fd0510",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-warehouse-outbound-fulfillment-sla",
+  "中文名称": "仓储出库履约SLA时效KPI 拣货准确率出库及时率包装合格率全量化体系",
+  "一句话作用": "触发词：出库时效、SLA达成、差错率、大促扩容。何时不用：日常时效稳定、大促尚未临近时不必专项预警；仓库内部效率与人效诊断用仓储运营 KPI 类技能。安全边界：需符合平台库存与发货时效政策，避免超时触发平台处罚。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要仓储出库面临\"旺季SLA崩塌导致差评爆发\"——扫码验货+弹性排班将拣货差错率从2.1%降至0.15%，保护Amazon BSR时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04034-p2s-warehouse-outbound-fulfillment-sla-ef91c66f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-warehouse-outbound-fulfillment-sla/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-warehouse-outbound-fulfillment-sla/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d0e14ebd9a1875d66683c331b674cc9253a74603246efcc4b9eec99fd95ad49d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "journal-entry-prep",
+  "中文名称": "待补：journal-entry-prep",
+  "一句话作用": "Prepare journal entries with proper debits, credits, and supporting documentation for month-end close. Use when booking accruals, prepaid amortization, fixed asset depreciation, payroll entries, revenue recognition, or…",
+  "关键输入": "Every journal entry should have: 1. Entry description/memo: Clear, specific description of what the entry records and why 2. Calculation support: How amounts were derived (formula, schedule, source data reference) 3. Source documents: Reference to the underly…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Prepare journal entries with proper debits, credits, and supporting documentation for month-end close. Use when booking accruals, prepaid amortization, fixed asset depreciation, payroll entries, revenue recognition, or…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05475-journal-entry-prep-b897d14a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/journal-entry-prep/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/journal-entry-prep/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "40fd4cf722cb96259dfbd7c98d6b477987f975bb681052c1dc04fd183f347d73",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "review-request-automator",
+  "中文名称": "待补：review-request-automator",
+  "一句话作用": "- Design and automate post-purchase review collection workflows. Implement timed request sequences, multi-media incentives, and moderation logic to maximize social proof and conversion rates. 触发词：评价请求自动化、售后评论收集、好评激励、晒图评…",
+  "关键输入": "- Review Gating: Only publishing positive reviews. This is a major compliance risk. Search engines and platforms may penalize or ban stores found \"Gating\" reviews. - The \"Early Ask\": Requesting a review before the produ…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:21:44+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- Review Gating: Only publishing positive reviews. This is a major compliance risk. Search engines and platforms may penalize or ban stores found \"Gating\" reviews. - The \"Early Ask\": Requesting a review before the produ…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04108-review-request-automator-fb59b6bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/review-request-automator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/review-request-automator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "17c22e734e1260d4fe69f88828c827dbd4e0917395efe4832c67564c99ace13e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

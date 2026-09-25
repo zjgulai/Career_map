@@ -1,0 +1,22 @@
+{
+  "英文名称": "webinars",
+  "中文名称": "待补：webinars",
+  "一句话作用": "Use when planning, producing, and repurposing webinars or virtual events for GTM campaigns.",
+  "关键输入": "- Launching a live webinar series or on-demand workshop. - Coordinating speakers, content, promotion, and follow-up workflows. - Repurposing webinar assets into nurture campaigns.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:49:03+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- Launching a live webinar series or on-demand workshop. - Coordinating speakers, content, promotion, and follow-up workflows. - Repurposing webinar assets into nurture campaigns.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04252-webinars-56602333",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/webinars/SKILL.md",
+  "relative_path": "lute/.dsh/skills/webinars/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66567bb2d5996380edbf7a3dcce352dca1dc32986a73099aed9ec1726398ed87",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

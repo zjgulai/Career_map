@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ragas-rag-evaluation-framework",
+  "中文名称": "质量自动化评估框架",
+  "一句话作用": "触发词：RAGAS、四维打分、忠实度评估、Agent 质量门控、幻觉报告。何时不用：要专测多跳或时效问题走 CRAG、FRAMES 类基准；要做原子声明级核查走声明级核查流水线。安全边界：评估仅处理内部知识库内容与 Agent 输出、结果不对外公开；长期依赖单一 LLM 评估会有系统性偏差，须交叉验证。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据分析师面临\"Agent报告无法验证是否幻觉\"——RAGAS将RAG质量评测从人工抽查改为全自动四维打分，幻觉检测覆盖率达85%，Skill审核效率提升15x时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12088-p2s-ragas-rag-evaluation-framework-fe4680a8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-ragas-rag-evaluation-framework/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-ragas-rag-evaluation-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8a3437fb798e868103de08c1b2917de7fe447166fc57832c3e671c8f9e6f6d7d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

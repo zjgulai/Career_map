@@ -1,0 +1,22 @@
+{
+  "英文名称": "refactoring-legacy-code",
+  "中文名称": "待补：refactoring-legacy-code",
+  "一句话作用": "Use when modernizing, migrating, or restructuring existing code - systematic approach to safe refactoring through characterization tests, dependency analysis, strangler fig migration, and incremental transformation; ens…",
+  "关键输入": "Use for ANY code modernization work: - Framework/library migration (class components to hooks, Angular to React, Python 2 to 3) - Updating deprecated APIs - Breaking monoliths into modules - Replacing legacy patterns wi…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:10+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use for ANY code modernization work: - Framework/library migration (class components to hooks, Angular to React, Python 2 to 3) - Updating deprecated APIs - Breaking monoliths into modules - Replacing legacy patterns wi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05050-refactoring-legacy-code-a512bdbc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/refactoring-legacy-code/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/refactoring-legacy-code/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eb9d27dd822e104c67296c5d3097169cb8137edb01ab76e800f3e550fa6ce595",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

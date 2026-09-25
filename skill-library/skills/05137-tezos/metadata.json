@@ -1,0 +1,22 @@
+{
+  "英文名称": "tezos",
+  "中文名称": "待补：tezos",
+  "一句话作用": "Expert Tezos blockchain development guidance. Provides security-first smart contract development, FA1.2/FA2 token standards, gas optimization, and production deployment patterns. Use when building Tezos L1 smart contrac…",
+  "关键输入": "Validate all parameters at entry boundaries:",
+  "关键输出": "Validate all parameters at entry boundaries:",
+  "最新更新时间": "2026-09-19T03:57:17+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Expert Tezos blockchain development guidance. Provides security-first smart contract development, FA1.2/FA2 token standards, gas optimization, and production deployment patterns. Use when building Tezos L1 smart contrac…时，用它产出或更新：Validate all parameters at…",
+  "skill_id": "05137-tezos-269e26b4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/tezos/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/tezos/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2583e78900218e7765da39e79d6b068408912afd93908bce7c2058b86f4cf612",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

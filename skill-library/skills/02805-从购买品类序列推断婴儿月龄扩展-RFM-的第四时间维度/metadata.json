@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-baby-age-clock-rfm-enhancement",
+  "中文名称": "从购买品类序列推断婴儿月龄扩展 RFM 的第四时间维度",
+  "一句话作用": "触发词：婴儿月龄推断、RFM 升级、购买序列建模、关键节点触达、生命周期分群。何时不用：要估计促销对不同人群的因果效应用 DML 群体异质性技能，本技能只从购买品类序列推断月龄并纠正 RFM 误判。安全边界：宝宝生日与月龄属儿童相关信息，须明示授权并遵守儿童数据保护规定，月龄标签不得用于医疗或健康建议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户分析师面临\"RFM将辅食准备期妈妈错误标记为流失用户、关键节点前触达完全缺失\"——从购买品类序列推断婴儿月龄扩展RFM第四维度，纠正15-20%用户的错误降级，年化GMV增量约4.5万美元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02805-p2s-baby-age-clock-rfm-enhancement-8d40fe39",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-baby-age-clock-rfm-enhancement/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-baby-age-clock-rfm-enhancement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16d3421c604f276ae9ff989b7f7747e4673e629a5c8cfb9ee2321b85cd6ee451",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

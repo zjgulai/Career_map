@@ -1,0 +1,22 @@
+{
+  "英文名称": "comps-valuation",
+  "中文名称": "待补：comps-valuation",
+  "一句话作用": "Produce Public Equity Investing comparable-company valuation in report or workbook mode. Use for peer selection, multiple analysis, valuation read-throughs, implied prices, comps dashboards, Excel or Sheets comps, refre…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Produce Public Equity Investing comparable-company valuation in report or workbook mode. Use for peer selection, multiple analysis, valuation read-throughs, implied prices, comps dashboards, Excel or Sheets comps, refre…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00983-comps-valuation-6083afc1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/comps-valuation/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/comps-valuation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a75cb1105d70ba58778251cc1b22ae832e9072030e3d89382c1edb4f91599ebe",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

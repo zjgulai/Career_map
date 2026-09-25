@@ -1,0 +1,22 @@
+{
+  "英文名称": "earnings-deep-dive",
+  "中文名称": "待补：earnings-deep-dive",
+  "一句话作用": "Use when analyzing public-company earnings after results, guidance, transcript, or call commentary. Do not use for pre-print previews.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when analyzing public-company earnings after results, guidance, transcript, or call commentary. Do not use for pre-print previews.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00986-earnings-deep-dive-aae8ab1f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/earnings-deep-dive/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/earnings-deep-dive/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ee5ee0f9e59f7790c4d7ed6fc71ac8919a1638e24b2506622a3f2c9bc4260c74",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

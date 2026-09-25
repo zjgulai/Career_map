@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-chat-analysis-pro",
+  "中文名称": "阿里国际站商家客服周报与会话诊断生成器",
+  "一句话作用": "Alibaba.com merchant chat analysis and weekly diagnostic report generator. Deeply integrates store reception data with real conversation content to review salesperson response performance, inquiry buyer insights, and co…",
+  "关键输入": "用户意图 / User Intent 中文示例 English Examples ------------------------ --------- ----------------- 生成客服周报 / Generate CS weekly report \"生成上周周报\"、\"帮我生成客服周报\" \"Generate last week's report\", \"Create a customer service weekly repor…",
+  "关键输出": "语言检测规则 ：在 Step 1 中检测用户输入语言，后续所有报告文本跟随该语言输出。 - 检测到中文（含CJK字符）→ 报告使用中文 - 检测到英文 → 报告使用英文 - 检测到其他语种（日文、韩文、西班牙文等）→ 报告使用对应语种 - 无法识别 → 默认使用英文 功能名词保持英文不翻译 ：以下术语在任何语言的报告中均保持英文原文： - Pipeline 阶段名：Inquiry、Quotation、Negotiation、Won、Fulfillment、Lost - 平台概念：GGS、Trade Assuran…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用户意图 / User Intent 中文示例 English Examples ------------------------ --------- ----------------- 生成客服周报 / Generate CS weekly report \"生成上周周报\"、\"帮我生成客服周报\" \"Generate last week's report\", \"Create a customer service weekly repor…时，用它产出或更新：语言检测规则 ：在 Step 1 中检测用户输入语言…",
+  "skill_id": "00167-alibaba-global-chat-analysis-pro-29bee0be",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-chat-analysis-pro/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-chat-analysis-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "594e1e19594aa21b57d4e901b8ddff863de3a46e420477b1809602e9e52872c7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "notion-rate-limits",
+  "中文名称": "待补：notion-rate-limits",
+  "一句话作用": "Manage Notion API rate limits with exponential backoff, queue-based throttling, and batch optimization. Use when hitting 429 errors, implementing retry logic, or optimizing API request throughput for Notion integrations…",
+  "关键输入": "- @notionhq/client v2.x (TypeScript) or notion-client (Python) - Integration token in NOTION TOKEN from notion.so/my-integrations - For queue patterns: p-queue v8+ (npm install p-queue)",
+  "关键输出": "- 429 errors retried automatically using Retry-After headers with jitter - Queue-based throttling keeps requests at 3/s proactively - Batch operations reduce total API calls via chunking and max page size",
+  "最新更新时间": "2026-09-19T03:57:20+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要See full TypeScript and Python examples for database sync, bulk export, and rate limit monitoring patterns.时，用它产出或更新：- 429 errors retried automatically using Retry-After headers with jitter - Queue-based throttling keeps requests at 3/s proactively - Batch…",
+  "skill_id": "04982-notion-rate-limits-2cad9e27",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/notion-rate-limits/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/notion-rate-limits/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d63ff66b7274450cdc03b2c95af227d6103be8c2f0fffc7f69186bab4b60640",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

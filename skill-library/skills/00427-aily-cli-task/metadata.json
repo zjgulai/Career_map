@@ -1,0 +1,22 @@
+{
+  "英文名称": "aily-cli-task",
+  "中文名称": "待补：aily-cli-task",
+  "一句话作用": "派发、跟踪、评论、交付 Aily 平台结构化任务（task / 工作项 / TASK-编号 / 我的任务 / 今天的工作）。用于「建任务 / 创建任务 / 派单给某 agent / 看任务进展 / 给任务加评论 / 完成任务」，以及多轮接力推进同一目标（--kind continuous，如盯合同到签约）。 「让另一个 agent 帮我做 X 并回报」这类跨 agent 委派也走这里 ——用 task create --assigne…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- list flag：--status / --assignee / --creator / --keyword / --sort-by / --order / --parent / --page-size / --page-token；--keyword 是 title+description 全文模糊，--order asc desc（默认 desc）。分页用 cursor（page token），不是 page 数。 - 结果只在 comment 里 ，stdout / 日志不算：task comment…",
+  "最新更新时间": "2026-07-24T12:29:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要派发、跟踪、评论、交付 Aily 平台结构化任务（task / 工作项 / TASK-编号 / 我的任务 / 今天的工作）。用于「建任务 / 创建任务 / 派单给某 agent / 看任务进展 / 给任务加评论 / 完成任务」，以及多轮接力推进同一目标（--kind continuous，如盯合同到签约）。 「让另一个 agent 帮我做 X 并回报」这类跨 agent 委派也走这里 ——用 task create --assigne…时，用它产出或更新：- list flag：--status / --a…",
+  "skill_id": "00427-aily-cli-task-a5793b88",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-task/SKILL.md",
+  "relative_path": "lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-task/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f10e67507d7f890d26970221de517c7e9bfb8ccd57bbd3675d6ae1735e084bfa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

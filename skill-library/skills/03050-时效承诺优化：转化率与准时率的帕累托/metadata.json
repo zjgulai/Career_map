@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-delivery-promise-optimization",
+  "中文名称": "时效承诺优化：转化率与准时率的帕累托",
+  "一句话作用": "触发词：交付承诺优化、承诺时效、准时率、延迟率、发货缓冲天数。何时不用：要算补多少货用「补货模拟」，要追踪包裹到货异常用「到货异常追踪」；本技能只决定前台承诺几天送达。安全边界：承诺时效直接面向买家，最终对外数值须人工确认后再上架，模型不直接改前台承诺。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要履约经理面临承诺时效不敢报——交付承诺优化将延迟率从13%降到5%，年化省21万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03050-p2s-delivery-promise-optimization-24390f0b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-delivery-promise-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-delivery-promise-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "874fafd8d53c1a6c8b2cd643fb9e4b85f26866da2d95f4f4f505be58bf56a0f2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

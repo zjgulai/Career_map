@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-diversity-reranking-smmr",
+  "中文名称": "待补：p2s-diversity-reranking-smmr",
+  "一句话作用": "触发词：多样性重排、重复曝光、列表同质化、重排参数、品类覆盖。何时不用：要从训练侧提升长尾曝光用「异构信息网络推荐」；要用评论情感信号重排用「VOC 评论语义推荐增强」。安全边界：多样性权重必须设上限，不得为凑品类把明显不相关或不适龄的商品塞进首页列表。",
+  "关键输入": "输入 ：召回候选列表及每个候选的相关性分，以及商品的品类、品牌、价格带、适用年龄段等属性；粒度为单次推荐请求。 输出 ：重排后的 Top-K 列表（含品类、品牌、价格、年龄段覆盖情况）与重复曝光率等指标；供推荐工程直接替换现有重排模块。",
+  "关键输出": "输入 ：召回候选列表及每个候选的相关性分，以及商品的品类、品牌、价格带、适用年龄段等属性；粒度为单次推荐请求。 输出 ：重排后的 Top-K 列表（含品类、品牌、价格、年龄段覆盖情况）与重复曝光率等指标；供推荐工程直接替换现有重排模块。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：多样性重排、重复曝光、列表同质化、重排参数、品类覆盖。何时不用：要从训练侧提升长尾曝光用「异构信息网络推荐」；要用评论情感信号重排用「VOC 评论语义推荐增强」。安全边界：多样性权重必须设上限，不得为凑品类把明显不相关或不适龄的商品塞进首页列表。时，用它产出或更新：输入 ：召回候选列表及每个候选的相关性分，以及商品的品类、品牌、价格带、适用年龄段等属性；粒度为单次推荐请求。 输出 ：重排后的 Top-K 列表（含品类、品牌、价格、年龄段覆盖情况）与重复曝光率等指标；供推荐工程直接替换现有重排模块。",
+  "skill_id": "12293-p2s-diversity-reranking-smmr-5b385f85",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-diversity-reranking-smmr/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-diversity-reranking-smmr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6c41c0a180eee648e4f6ebcbf84499e4d8bc4c66f4ed8eafd2317c0a9e7cdf60",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

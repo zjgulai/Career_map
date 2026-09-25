@@ -1,0 +1,22 @@
+{
+  "英文名称": "check-model",
+  "中文名称": "待补：check-model",
+  "一句话作用": "Debug and audit financial models for errors — circular references, broken formulas, hardcoded overrides, balance sheet imbalances, cash flow mismatches, and logic gaps. Use when a model isn't tying, producing unexpected…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Issue log table (in chat or Excel) - Annotated model with comments on flagged cells (if user provides the file) - Summary assessment with fix priority",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Debug and audit financial models for errors — circular references, broken formulas, hardcoded overrides, balance sheet imbalances, cash flow mismatches, and logic gaps. Use when a model isn't tying, producing unexpected…时，用它产出或更新：- Issue log table (in chat…",
+  "skill_id": "05482-check-model-f3294909",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/check-model/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/check-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1dc3e300ecbd0eafd53640dea5f1316aa6ec165b610b46675370a8e94991ab49",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

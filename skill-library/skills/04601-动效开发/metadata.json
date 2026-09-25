@@ -1,0 +1,22 @@
+{
+  "英文名称": "动效开发",
+  "中文名称": "待补：动效开发",
+  "一句话作用": "动效工程实施层。在 React 项目中按上下文嗅探选 React Bits OSS 组件并通过 npx shadcn add 安装；在非 React 项目（Vue / Svelte / Astro / vanilla JS）中直接写 CSS/JS 或推荐合适的动效库。三层设计哲学：上下文优先（读代码比追问便宜）/ 视觉动效描述（用日常语言描述动效像什么，不说技术参数）/ 嗅探主驱（追问是逃生通道，不是主路径）。所有产物强制场景合规自检…",
+  "关键输入": "输入项 必填？ 来源优先级 缺失时行为 --- --- --- --- project name ✅ 链式 motion-plan / brief 用户输入 Phase 0 追问 framework ✅ 读 package.json 自动探测（react/next/remix/gatsby/vue/svelte/astro/vanilla） 无 package.json + 无 web 标志 → 进入「非 Web 项目」拒绝分支",
+  "关键输出": "1. 先写盘 ：Write 工具把完整 JSON 写到 spark-output/context/motion-apply.json 2. 输出自检行 ：✅ motion-apply.json 已写盘到 spark-output/context/motion-apply.json 3. 渲染交付摘要 （PATH DECISION NOTIFICATION + 安装组件列表 + prop overrides 表 + 写入文件列表） 4. 输出紧凑 marker ： 5. Handoff 引导 ：推荐下游 /设计走查…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要动效工程实施层。在 React 项目中按上下文嗅探选 React Bits OSS 组件并通过 npx shadcn add 安装；在非 React 项目（Vue / Svelte / Astro / vanilla JS）中直接写 CSS/JS 或推荐合适的动效库。三层设计哲学：上下文优先（读代码比追问便宜）/ 视觉动效描述（用日常语言描述动效像什么，不说技术参数）/ 嗅探主驱（追问是逃生通道，不是主路径）。所有产物强制场景合规自检…时，用它产出或更新：1. 先写盘 ：Write 工具把完整 JSON 写…",
+  "skill_id": "04601-skill-b5027b3e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/motion-apply/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/motion-apply/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "999300fd9330ebc70c9e8b2a0dcdbfd2c3261d33f7577ff7972d256e2602d795",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

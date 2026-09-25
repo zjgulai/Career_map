@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-bulk-rnaseq",
+  "中文名称": "待补：ngs-bulk-rnaseq",
+  "一句话作用": "Dispatch bulk RNA-seq requests to FASTQ-to-count QC or count-matrix differential-expression skills using nf-core/rnaseq, STAR, Salmon, featureCounts, MultiQC, and R/Bioconductor workflows.",
+  "关键输入": "Confirm: - organism and genome build - FASTA and GTF, or supported nf-core genome key - paired-end or single-end reads - strandedness, or whether to infer strandedness - sample sheet and metadata - counts-only vs differential expression - contrasts, covariate…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Dispatch bulk RNA-seq requests to FASTQ-to-count QC or count-matrix differential-expression skills using nf-core/rnaseq, STAR, Salmon, featureCounts, MultiQC, and R/Bioconductor workflows.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00927-ngs-bulk-rnaseq-8439588b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-bulk-rnaseq/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-bulk-rnaseq/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30a55e6d8f88bcb2025b997d414c9a875383d3a7c232cb9eccdbc10de107788e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

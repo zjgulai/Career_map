@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Data-Drift-Detection",
+  "中文名称": "待补：Data Drift Detection",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 68.4, \"best\": 78.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T03:03:54.783973\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"none\", \"…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T12:19:21+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 68.4, \"best\": 78.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T03:03:54.783973\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"none\", \"…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07039-skill-data-drift-detection-02ab99af",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Data-Drift-Detection.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Data-Drift-Detection.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "faae6f9456b6a4dd37026085bdb5a4404b58e0283868655f259bc908c7a062fb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

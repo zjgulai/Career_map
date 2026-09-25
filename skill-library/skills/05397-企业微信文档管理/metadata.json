@@ -1,0 +1,22 @@
+{
+  "英文名称": "wecomcli-doc",
+  "中文名称": "企业微信文档管理",
+  "一句话作用": "企业微信文档（doc）管理技能。提供普通文档的新建、内容读取（Markdown）、内容覆写能力。适用场景：(1) 从零新建空白文档 (2) 以 Markdown 格式读取文档完整内容 (3) 用 Markdown 覆写文档正文。支持通过 docid 或文档 URL 定位文档。当用户提到「企业微信文档」「企微文档」「创建文档」「写个文档」，或链接形如 https://doc.weixin.qq.com/doc/xxx 时触发该技能。注意…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要企业微信文档（doc）管理技能。提供普通文档的新建、内容读取（Markdown）、内容覆写能力。适用场景：(1) 从零新建空白文档 (2) 以 Markdown 格式读取文档完整内容 (3) 用 Markdown 覆写文档正文。支持通过 docid 或文档 URL 定位文档。当用户提到「企业微信文档」「企微文档」「创建文档」「写个文档」，或链接形如 https://doc.weixin.qq.com/doc/xxx 时触发该技能。注意…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05397-wecomcli-doc-80d98852",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-doc/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-doc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9cb149d284306cf99bd4bdfa5a6e5301ffe21ecd32153ab2215e4cfe9cdb9d48",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

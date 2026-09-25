@@ -1,0 +1,22 @@
+{
+  "英文名称": "货盘归因分析（流量/转化/客单/竞争）",
+  "中文名称": "待补：货盘归因分析（流量/转化/客单/竞争）",
+  "一句话作用": "当 SKU 处于 B 级预警或生命周期衰退/成熟停滞、需要拆解是流量、转化、客单价还是竞争导致时调用；输出可行动的假设与数据缺口。",
+  "关键输入": "- 来自 sku-health-scanner 或 sku-lifecycle-classifier 的 目标 SKU 列表 与 时间窗 。 - 尽量提供：广告报表摘要、Sessions、转化率、Buy Box、星级、主要竞品 ASIN 价格快照（可部分缺失）。",
+  "关键输出": "- sku 主因Top1 证据 置信度 建议动作 Owner 域 - 汇总 ：可批量处理的共因（如整类目流量下滑）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当 SKU 处于 B 级预警或生命周期衰退/成熟停滞、需要拆解是流量、转化、客单价还是竞争导致时调用；输出可行动的假设与数据缺口。时，用它产出或更新：- sku 主因Top1 证据 置信度 建议动作 Owner 域 - 汇总 ：可批量处理的共因（如整类目流量下滑）。",
+  "skill_id": "09918-skill-d8f06bec",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/product-manage/attribution-analyzer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/product-manage/attribution-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b74d387ede317c55e81ad3abce24f19ff239fd3a81bc08e840eef8b21df294a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

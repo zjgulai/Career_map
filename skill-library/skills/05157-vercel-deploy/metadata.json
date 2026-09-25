@@ -1,0 +1,22 @@
+{
+  "英文名称": "vercel-deploy",
+  "中文名称": "待补：vercel-deploy",
+  "一句话作用": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+  "关键输入": "- Check whether the Vercel CLI is installed without escalated permissions (for example, command -v vercel). - Only escalate the actual deploy command if sandboxing blocks the deployment network calls (sandbox permissions=require escalated). - The deployment m…",
+  "关键输出": "Show the user the deployment URL. For fallback deployments, also show the claim URL. Do not curl or fetch the deployed URL to verify it works. Just return the link.",
+  "最新更新时间": "2026-09-19T03:46:56+08:00",
+  "业务场景": "devops",
+  "解决具体问题": "当需要Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".时，用它产出或更新：Show the user the deployment URL. For fallback deplo…",
+  "skill_id": "05157-vercel-deploy-d7aff555",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/vercel-deploy/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/vercel-deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e6ae4d0f3cf942d085df0422ca96e1d727fa7aebd7e344241c8924159818a38",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-hallucination-detection-bi",
+  "中文名称": "幻觉检测 商业智能场景的事实一致性验证引擎",
+  "一句话作用": "触发词：幻觉检测、事实一致性、BI 报表核验、数字对账、来源分级。何时不用：要评知识库检索与回答质量走 RAG 评测；要做论文级原子声明核查走声明级核查流水线。安全边界：检测结果不可直接对外公开（如 AI 报告含多少幻觉会引发舆论风险），判为错误的关键决策数字须触发人工复核而非自动拦截。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要DataAgent运营面临\"AI日报数字偶发错误损害工具可信度\"——多层事实核查使幻觉检测TPR达82%，避免月均3-5起决策失误，年化预防损失约200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12023-p2s-llm-hallucination-detection-bi-591bd3f2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-hallucination-detection-bi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-hallucination-detection-bi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5e6dd3672838b1ef8121129a9a695ac0198b9f7b2201eddbc97cb1fa1239b3cc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

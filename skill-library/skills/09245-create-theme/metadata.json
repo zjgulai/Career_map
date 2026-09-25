@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-theme",
+  "中文名称": "待补：create-theme",
+  "一句话作用": "Use this skill when the user wants to create, draft, author, or extract a slide theme in this open-slide repo. Triggers on phrases like \"create a theme\", \"make a theme called X\", \"extract a theme from \", \"build a theme…",
+  "关键输入": "A theme can be derived from any combination of three input shapes: - Image references — paths or URLs to slide screenshots, mood-board images, brand assets. - Free-text description — prose describing the desired palette, fonts, feel. - An existing slide — sli…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-07T12:40:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when the user wants to create, draft, author, or extract a slide theme in this open-slide repo. Triggers on phrases like \"create a theme\", \"make a theme called X\", \"extract a theme from \", \"build a theme…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09245-create-theme-4bf9dada",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/agent_tools/openslider/open-slide/packages/core/skills/create-theme/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/agent_tools/openslider/open-slide/packages/core/skills/create-theme/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad9e9180b39332479d2f69c286b4339ebb3534ebcecc26a34e4d56f9c060b92c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

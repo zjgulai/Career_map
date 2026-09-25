@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-temperature-logistics",
+  "中文名称": "多温区混合配送成本优化",
+  "一句话作用": "触发词：冷链配送、多温区配送、混装共配、冷链成本、配送路径优化。何时不用：普通常温商品的仓网选址用仓网规划类技能，要追踪在途温度或到货异常用「到货异常追踪」；本技能只解决多温区混装的路线与成本优化。安全边界：温区设置与温控合规须由质量/合规人员确认，本技能不承担温控设备验证与冷链合规责任。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要物流运营面临\"有机婴儿辅食冷冻/冷藏/常温独立温区配送成本$12/箱超出利润空间\"——共用车厢+VRP优化将混合配送成本降至$7.5/箱，年化节省冷链成本120-190万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03495-p2s-multi-temperature-logistics-0f941714",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-temperature-logistics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-temperature-logistics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6f20ed4bef421cb6d73d794ae57dc723b3900806b3735372eb062da56e05baa0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

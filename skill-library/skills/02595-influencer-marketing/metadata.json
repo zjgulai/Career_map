@@ -1,0 +1,22 @@
+{
+  "英文名称": "influencer-marketing",
+  "中文名称": "待补：influencer-marketing",
+  "一句话作用": "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. 边界：网红合作…",
+  "关键输入": "- 网红/创作者合作的找、签、brief、合规与 ROI 衡量。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-07T22:16:32+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 网红/创作者合作的找、签、brief、合规与 ROI 衡量。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02595-influencer-marketing-6af9af33",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/influencer-marketing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/influencer-marketing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "824b11f3f4ab381736db32d6d40956819e18de5c4f1a128a352f47192cbf6e9b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

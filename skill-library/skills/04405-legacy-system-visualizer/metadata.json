@@ -1,0 +1,22 @@
+{
+  "英文名称": "legacy-system-visualizer",
+  "中文名称": "待补：legacy-system-visualizer",
+  "一句话作用": "Legacy system understanding and modernization visual modeling. Use when the user needs to understand, map, stabilize, or migrate a poorly documented legacy system with sparse evidence, unknown ownership, hidden dependen…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Never output raw DOT source inline in the conversation. Always write diagram files to disk using the file-writing tool. - Output directory: use the workspace root of the target system, or a subdirectory named architecture/ if the workspace root is not writabl…",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Legacy system understanding and modernization visual modeling. Use when the user needs to understand, map, stabilize, or migrate a poorly documented legacy system with sparse evidence, unknown ownership, hidden dependen…时，用它产出或更新：Never output raw DOT sourc…",
+  "skill_id": "04405-legacy-system-visualizer-882ace60",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/legacy-system-visualizer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/legacy-system-visualizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a51337f9a3943d37f85029b29ca4465608a12d411ac3a0e9af4ed8ddd0809b7a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

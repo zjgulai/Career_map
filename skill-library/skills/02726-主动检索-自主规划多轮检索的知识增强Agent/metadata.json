@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentic-rag-active-retrieval",
+  "中文名称": "主动检索 自主规划多轮检索的知识增强Agent",
+  "一句话作用": "触发词：主动检索、按需检索、Self-RAG、多跳问答、知识溯源、合规审查自动化。何时不用：知识库小、单轮固定检索已够用时不要上；要按角色过滤文档可见性用「知识库RBAC」；要治理知识源权限与新鲜度用「知识库声明式编排」。安全边界：检索结果不得包含未授权的第三方品牌信息（如竞品配方对比），避免违反《反不正当竞争法》；不得存储用户个人数据（GDPR）；功效类声明须有官方来源支撑以应对 FTC 审查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要客服AI团队面临\"固定RAG每次检索全库噪声多回答错误率15%且API成本高\"——Self-RAG按需精准检索准确率提升至95%同时检索成本降低40%，年化35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02726-p2s-agentic-rag-active-retrieval-231de4cd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agentic-rag-active-retrieval/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agentic-rag-active-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16f03dd66aff294572666f762b96ed388089f0a7c3123b651add06fc68102ec5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

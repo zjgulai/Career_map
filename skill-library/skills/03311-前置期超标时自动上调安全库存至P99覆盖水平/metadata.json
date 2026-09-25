@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-lead-time-safety-stock-auto-adjuster",
+  "中文名称": "前置期超标时自动上调安全库存至P99覆盖水平",
+  "一句话作用": "触发词：前置期超标、P95触发、安全库存上调、再订货点调整、WMS参数更新。何时不用：要按前置期分布做整体风险建模时用「提前期分布建模」；常规补货量计算用「自动补货决策」。安全边界：上调幅度受最大护栏与回调条件约束，写入 WMS 的自动更新须保留审计日志。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链团队面临\"供应商延迟但安全库存未同步调整\"——P95分位数触发将缺货率从4.2%降至0.8%，年化减少缺货损失$35,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03311-p2s-lead-time-safety-stock-auto-adjuster-d7825eb1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-lead-time-safety-stock-auto-adjuster/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-lead-time-safety-stock-auto-adjuster/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8966e146390e6073671c2f229c88e774aae8dd6283a15fefaae3ab6d01549a8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

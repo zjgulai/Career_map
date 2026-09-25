@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-knowledge-query",
+  "中文名称": "跨境电商知识库查询 Skill",
+  "一句话作用": "跨境电商知识库查询Skill。提供Biji知识库访问能力，支持查询跨境电商分析方法、业务模型、最佳实践等知识。 触发条件: 1. 用户询问分析方法（如\"RFM模型怎么用\"、\"如何做客户分群\"） 2. 用户需要业务知识支持（如\"定价策略有哪些\"、\"库存管理方法\"） 3. 其他Skills需要外部知识增强 输出内容: - 结构化的知识回答 - 参考来源（可选） - 相关知识推荐",
+  "关键输入": "result = client.search(\"RFM模型如何应用于跨境电商客户分群？\") print(result[\"answer\"])",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T00:45:43+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要result = client.search(\"RFM模型如何应用于跨境电商客户分群？\") print(result[\"answer\"])时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09411-cbec-knowledge-query-77fe03ec",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/00-data-foundation/knowledge-query/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/00-data-foundation/knowledge-query/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "61f10a3734481b682f9ca7e956ed03b88d14bc0c8bacc609d9f4714a18026c1e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

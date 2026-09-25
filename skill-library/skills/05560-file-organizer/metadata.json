@@ -1,0 +1,22 @@
+{
+  "英文名称": "file-organizer",
+  "中文名称": "待补：file-organizer",
+  "一句话作用": "Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital…",
+  "关键输入": "- Your Downloads folder is a chaotic mess - You can't find files because they're scattered everywhere - You have duplicate files taking up space - Your folder structure doesn't make sense anymore - You want to establish…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "business-productivity",
+  "解决具体问题": "当需要- Your Downloads folder is a chaotic mess - You can't find files because they're scattered everywhere - You have duplicate files taking up space - Your folder structure doesn't make sense anymore - You want to establish…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05560-file-organizer-dcc1dc2e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/file-organizer/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/file-organizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "816762143f4b1522a1279de67845260c5bc13394c973dd2c8c8282273b21ad1e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "playwright-interactive",
+  "中文名称": "待补：playwright-interactive",
+  "一句话作用": "Persistent browser and Electron interaction through js repl for fast iterative UI debugging.",
+  "关键输入": "If you plan to emit a screenshot through codex.emitImage(...), use the CSS-normalized paths in the next section by default. Those are the canonical examples for screenshots that will be interpreted by the model or used…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要If you plan to emit a screenshot through codex.emitImage(...), use the CSS-normalized paths in the next section by default. Those are the canonical examples for screenshots that will be interpreted by the model or used…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01628-playwright-interactive-0fc92ce5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/playwright-interactive/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/playwright-interactive/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f6c1155d923e6ae3ccc12abfef2266f119f8e9546df2ddeee1f5eb369845a0a1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

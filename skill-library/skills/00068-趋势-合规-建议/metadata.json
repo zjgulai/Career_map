@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-4-trend-compliance",
+  "中文名称": "趋势 合规 建议",
+  "一句话作用": "前瞻趋势洞察（模块 E）+ 合规认证壁垒（模块 F）+ 第三层运营执行建议 + 收尾引导。按 INDUSTRY TAGS 动态选取 14 个趋势因子（流行色/节庆日历/赛事驱动/新材料/政策前置信号/ESG 合规等），生成三平台 C端热销信号（Amazon/Temu/TikTok Shop）、目标市场认证要求、关税税率、ESG 合规趋势，按 6 个经营阶段（0-30天 智能破冰 → 180天+ 进阶增长）输出可落地的运营执行建议与老板…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T16:24:26+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要前瞻趋势洞察（模块 E）+ 合规认证壁垒（模块 F）+ 第三层运营执行建议 + 收尾引导。按 INDUSTRY TAGS 动态选取 14 个趋势因子（流行色/节庆日历/赛事驱动/新材料/政策前置信号/ESG 合规等），生成三平台 C端热销信号（Amazon/Temu/TikTok Shop）、目标市场认证要求、关税税率、ESG 合规趋势，按 6 个经营阶段（0-30天 智能破冰 → 180天+ 进阶增长）输出可落地的运营执行建议与老板…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00068-skill-4-trend-compliance-17dd535a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-85471462U1788237-8A8E75-5855-E4100B/agent-core/skills/skill-4-trend-compliance/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-85471462U1788237-8A8E75-5855-E4100B/agent-core/skills/skill-4-trend-compliance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9bb1d108b2248b1fca600f514871fb4101389d40a5e3792791f6fc6c6d201f8d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

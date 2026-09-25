@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-visrag-vision-document-rag",
+  "中文名称": "纯视觉文档页面RAG",
+  "一句话作用": "触发词：视觉文档 RAG、页面检索、表格提取、认证报告解析、VLM 幻觉、免 OCR。何时不用：要抽跨句实体关系时用「文档级关系抽取」，要逐步决定检索时机时用「DeepRAG 逐步检索」。安全边界：抽取结果须回原文页面核对，VLM 幻觉风险约 8%，关键字段要经多轮验证。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规团队面临PDF表格OCR错误率8%——VisRAG纯视觉解析将表格提取准确率从92%→100%，FDA/CE合规审查零遗漏，年化规避风险50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12621-p2s-visrag-vision-document-rag-67ac0f72",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-visrag-vision-document-rag/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-visrag-vision-document-rag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1e4a71c2a235ee4411c2e24078c32affe5f1475f7e4652a2201784b34b20a50d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

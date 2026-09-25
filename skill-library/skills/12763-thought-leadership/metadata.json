@@ -1,0 +1,22 @@
+{
+  "英文名称": "thought-leadership",
+  "中文名称": "待补：thought-leadership",
+  "一句话作用": "Use when crafting executive POVs, visionary articles, or keynote narratives that elevate brand authority.",
+  "关键输入": "- CEO/CMO needs a compelling POV on industry trends. - Preparing conference keynotes, op-eds, or LinkedIn long-form posts. - Launching a category narrative or market education campaign.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- CEO/CMO needs a compelling POV on industry trends. - Preparing conference keynotes, op-eds, or LinkedIn long-form posts. - Launching a category narrative or market education campaign.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12763-thought-leadership-db1c19c8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/content-marketing/skills/thought-leadership/SKILL.md",
+  "relative_path": "lute/project/skills/content-marketing/skills/thought-leadership/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d06f090291b8b61703253db4b23bf7b33c60c235619c8e043ca020aad269182",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

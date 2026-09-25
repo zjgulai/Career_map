@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-promptguard-injection-defense",
+  "中文名称": "注入攻击防御",
+  "一句话作用": "触发词：Prompt 注入、指令劫持、恶意评论、知识库投毒、Agent 防护。何时不用：检索结果不相关属于数据质量问题，走「RAG 鲁棒性压测」；账号越权与鉴权规则走「访问控制」类技能。安全边界：识别到的恶意文本只能拦截与告警，不得据此自动封禁外部账号；评论与查询日志须脱敏后使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要安全团队面临竞品在评论中植入恶意prompt劫持Agent——PromptGuard将注入攻击拦截率96%，保护知识库Agent安全，年化保护品牌价值100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03660-p2s-promptguard-injection-defense-cfecd67b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-promptguard-injection-defense/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-promptguard-injection-defense/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa71227de3daabeca12f1a5b8614a8dd3009d3dc02e0dbe5fe234dc9b41dae12",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

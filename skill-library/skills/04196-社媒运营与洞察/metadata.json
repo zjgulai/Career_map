@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-operations",
+  "中文名称": "社媒运营与洞察",
+  "一句话作用": "When the user wants to run the operational side of social media: content calendars and approval workflows, quarterly channel roadmaps and KPIs, community engagement programs (Slack/Discord/ambassadors), trend and cultur…",
+  "关键输入": "- 社媒日历、渠道路线图、社区互动、趋势与舆情洞察。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:32:56+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 社媒日历、渠道路线图、社区互动、趋势与舆情洞察。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04196-social-operations-f88ebf51",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/social-operations/SKILL.md",
+  "relative_path": "lute/.dsh/skills/social-operations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d54c5a98323ab6e60220dc190a8fa8d46f661dae7e3859f52b9616d344ba0b0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

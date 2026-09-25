@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nlp-sentiment-ml-pipeline",
+  "中文名称": "评论情感特征工程桥梁：将 VOC 转化为可训练信号",
+  "一句话作用": "触发词：情感特征工程、领先指标、特征矩阵、领先关系检验、需求拐点。何时不用：只需要情感极性结论本身时用情感分析与标注技能；需要用预测区间表达风险时用不确定性量化技能。安全边界：特征只用聚合后的评论信号，不把用户个人信息写入训练特征。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要NLP提取了丰富评论情感信号但ML预测模型从未使用这些领先指标——评论情感特征工程标准化管道将情感信号转化为ML可用特征矩阵，需求预测精度提升8-15%补全图谱唯一剩余NLP-VOC↔ML基础断链时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03536-p2s-nlp-sentiment-ml-pipeline-3a2f8bda",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-nlp-sentiment-ml-pipeline/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-nlp-sentiment-ml-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7fe3c7e516fe9805b17faa7e380e454355cd7abe603b5107cbbb922fcb4dd7e8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

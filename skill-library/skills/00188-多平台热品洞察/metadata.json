@@ -1,0 +1,22 @@
+{
+  "英文名称": "热销爆品洞察",
+  "中文名称": "多平台热品洞察",
+  "一句话作用": "围绕指定品类输出多平台热销现状洞察与爆品榜单：Top 15 热销榜 + 热销归因、买家需求、竞争格局、风险评估、供应商推荐。 覆盖阿里国际站、Amazon、Temu、SHEIN、TikTok Shop、Shopee、1688、eBay、速卖通、Lazada 共 10 个平台；未指明平台时默认按阿里国际站处理，同时提及多平台时采集阶段各平台同批并行（最多 3 个）。 品类词是执行前提：优先取 query 品类词，其次取主营品类画像，两者…",
+  "关键输入": "- 围绕指定品类输出多平台热销现状洞察与爆品榜单：Top 15 热销榜 + 热销归因、买家需求、竞争格局、风险评估、供应商推荐。 - 覆盖阿里国际站、Amazon、Temu、SHEIN、TikTok Shop、Shopee、1688、eBay、速卖通、Lazada 共 10 个平台；未指明平台时默认按阿里国际站处理，同时提及多平台时采集阶段各平台同批并行（最多 3 个）。 - 品类词是执行前提：优先取 query 品类词，其次取主营品…",
+  "关键输出": "⛔ 四阶段分离，禁止穿插 ： 1. 数据收集（静默） ：完成所有工具调用。 2. 报告写入 ：一次性将完整报告写入 .md 文件，不穿插工具调用——禁止边写边改（写完后分多次 write 逐段修补）或把 7 个 Section 拆成多个文件。报告写错（Section 缺失/格式/内容错误）时重走 Step 3 报告写入：用一次 write 覆盖重写完整报告，禁止局部修正/追加修补；已执行 XLSX/HTML 导出的，报告修正后须重新执行受影响的导出步骤（HTML 由报告渲染必须重渲染；数据数值有变时同步更新 da…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 围绕指定品类输出多平台热销现状洞察与爆品榜单：Top 15 热销榜 + 热销归因、买家需求、竞争格局、风险评估、供应商推荐。 - 覆盖阿里国际站、Amazon、Temu、SHEIN、TikTok Shop、Shopee、1688、eBay、速卖通、Lazada 共 10 个平台；未指明平台时默认按阿里国际站处理，同时提及多平台时采集阶段各平台同批并行（最多 3 个）。 - 品类词是执行前提：优先取 query 品类词，其次取主营品…时，用它产出或更新：⛔ 四阶段分离，禁止穿插 ： 1. 数据收集（静默）…",
+  "skill_id": "00188-skill-1549d0d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-hot-product-insight/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-hot-product-insight/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dd294155a2cc4c66a50e0c884310b1399a1ebf51d422e234d1ac38fa8f110d96",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

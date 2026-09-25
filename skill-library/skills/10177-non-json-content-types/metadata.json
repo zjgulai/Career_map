@@ -1,0 +1,22 @@
+{
+  "英文名称": "non-json-content-types",
+  "中文名称": "待补：non-json-content-types",
+  "一句话作用": "Handle FormData, file uploads, Blob, Uint8Array, and ReadableStream inputs in tRPC mutations. Use octetInputParser from @trpc/server/http for binary data. Route non-JSON requests with splitLink and isNonJsonSerializable…",
+  "关键输入": "octetInputParser converts Blob, Uint8Array, and File inputs to a ReadableStream on the server.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-22T11:43:55+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Handle FormData, file uploads, Blob, Uint8Array, and ReadableStream inputs in tRPC mutations. Use octetInputParser from @trpc/server/http for binary data. Route non-JSON requests with splitLink and isNonJsonSerializable…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10177-non-json-content-types-8524cf41",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/ai_product_select/node_modules/@trpc/server/skills/non-json-content-types/SKILL.md",
+  "relative_path": "lute/project/Agent/product/ai_product_select/node_modules/@trpc/server/skills/non-json-content-types/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "755347dcc5f46da1873e2872da2fc718e4eca6ac7c356a18aca02f62f03cb959",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

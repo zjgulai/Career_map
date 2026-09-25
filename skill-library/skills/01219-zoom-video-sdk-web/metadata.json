@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-video-sdk-web",
+  "中文名称": "待补：zoom-video-sdk-web",
+  "一句话作用": "Zoom Video SDK for Web - JavaScript/TypeScript integration for browser-based video sessions, real-time communication, screen sharing, recording, and live transcription",
+  "关键输入": "- Session Join Pattern - JWT auth + session join with full code - Video Rendering - attachVideo() patterns - Screen Share - Send and receive screen shares",
+  "关键输出": "→ Call AFTER join() completes",
+  "最新更新时间": "2026-09-17T16:31:40+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Session Join Pattern - JWT auth + session join with full code - Video Rendering - attachVideo() patterns - Screen Share - Send and receive screen shares时，用它产出或更新：→ Call AFTER join() completes",
+  "skill_id": "01219-zoom-video-sdk-web-663d2e1d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/web/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f025ac3f34ad9c4829494596fac60ca67ac911d4dd4d88fc92e42b1f2c190992",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

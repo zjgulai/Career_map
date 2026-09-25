@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-propagation-supply-chain",
+  "中文名称": "供应链知识图谱标签传播算法 层级继承关系链传播的Tag扩散引擎",
+  "一句话作用": "触发词：标签传播、LPA、层级继承、关系链扩散、覆盖率提升。何时不用：还没建实体关系图谱、标签只能逐条人工录入时先补图谱；只做标签质量打分走标签质量 KPI。安全边界：合规类标签传播须符合商品信息规范与编码标准，传播与人工审核结论冲突时以人工裁决为准。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链团队面临\"认证标签手工维护60%覆盖率\"——LPA+层级继承传播算法将合规标签覆盖率从60%提升至95%，供应商FDA认证自动扩散到旗下所有SKU时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12144-p2s-tag-propagation-supply-chain-1eac0b06",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tag-propagation-supply-chain/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tag-propagation-supply-chain/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4f4fc038e693d721c7f4f9929b2f1c031a41af33a17d8be19f38a775eb24f78a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

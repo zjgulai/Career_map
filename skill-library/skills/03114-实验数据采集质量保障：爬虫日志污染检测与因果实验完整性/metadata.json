@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-experiment-data-quality-guard",
+  "中文名称": "实验数据采集质量保障：爬虫日志污染检测与因果实验完整性",
+  "一句话作用": "触发词：实验数据质量、爬虫污染、AA测试、SMD均衡、日志乱序。何时不用：数据来源单一可控、无爬虫与多端上报问题时，用常规实验解读即可。安全边界：无。",
+  "关键输入": "bot stats.bot rate treatment vs bot stats.bot rate control：差距 3pp 表示不均匀污染，需高度警惕 balance.status == \"critical\"：立即停止实验，排查日志管道 effect.adjusted p value vs effect.raw p value：对比校正前后结论 [ ] 部署 A/A 测试（实验前 3 天），验证 SMD < 0.1 [ ] 检查实验组/对照组 bot rate 差值 < 2pp",
+  "关键输出": "bot stats.bot rate treatment vs bot stats.bot rate control：差距 3pp 表示不均匀污染，需高度警惕 balance.status == \"critical\"：立即停止实验，排查日志管道 effect.adjusted p value vs effect.raw p value：对比校正前后结论 [ ] 部署 A/A 测试（实验前 3 天），验证 SMD < 0.1 [ ] 检查实验组/对照组 bot rate 差值 < 2pp",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要量化 ROI：避免因虚假显著性结果而错误全量上线（该改版涉及开发成本 ~15 万元 + 页面跳转改造），节省无效投入 15 万元时，用它产出或更新：bot stats.bot rate treatment vs bot stats.bot rate control：差距 3pp 表示不均匀污染，需高度警惕 balance.status == \"critical\"：立即停止实验，排查日志管道 effect.adjusted p value vs effect.raw p value：对比校正前后结论 [ ]…",
+  "skill_id": "03114-p2s-experiment-data-quality-guard-5263cb23",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-experiment-data-quality-guard/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-experiment-data-quality-guard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4720cffe319a255da96affe91cbc5c8b06f931916e2de4231b66c90bcd8d0506",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

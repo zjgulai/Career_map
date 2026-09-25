@@ -1,0 +1,22 @@
+{
+  "英文名称": "daily-ai-agent-aigc-top-news",
+  "中文名称": "待补：daily-ai-agent-aigc-top-news",
+  "一句话作用": "Use when generating a daily 24h AI / Agent / AIGC top-news briefing, publishing it as a Feishu/Lark native document, validating it, and optionally archiving it to Bitable.",
+  "关键输入": "A cron prompt should be self-contained and include: If no Feishu folder token is supplied, create the document in the default Feishu location. Do not block.",
+  "关键输出": "Final answer must include: If archival fails but doc publishing succeeds, say so explicitly and include the doc URL plus a short error summary.",
+  "最新更新时间": "2026-05-05T01:33:40+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when the task asks for any of these: - daily AI / Agent / AIGC top news - 过去24小时 AI / Agent / AIGC 早报 - cron-generated AI morning briefing - Feishu/Lark native document delivery - AI news archive into Fei…时，用它产出或更新：Final answer must include:…",
+  "skill_id": "09303-daily-ai-agent-aigc-top-news-0c06fafa",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/draco-content/daily-ai-agent-aigc-top-news/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/draco-content/daily-ai-agent-aigc-top-news/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "def5baeb0e71173c3bbccea41a1130503862555dec7eff9aa8efe272a16e477b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

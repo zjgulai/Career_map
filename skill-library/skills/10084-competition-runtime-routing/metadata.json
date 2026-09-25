@@ -1,0 +1,22 @@
+{
+  "英文名称": "competition-runtime-routing",
+  "中文名称": "待补：competition-runtime-routing",
+  "一句话作用": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for reverse proxies, Host headers, forwarded headers, vhost routing, websocket upgrades, path-prefix rewriting, base-URL derivation, and multi…",
+  "关键输入": "- Inspect vhost rules, reverse proxies, forwarded headers, path-prefix rewrites, upstream pools, and websocket or SSE upgrades. - Note which parts of the request influence routing or app behavior: host, scheme, port, path, prefix, cookie scope, or origin. - T…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for reverse proxies, Host headers, forwarded headers, vhost routing, websocket upgrades, path-prefix rewriting, base-URL derivation, and multi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10084-competition-runtime-routing-fd48c816",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-runtime-routing/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/packaging-history/staging-2.0.1/app/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-runtime-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d49d8e943f328fea03d4b72215b64422480f8b22d9d0376bfb424f307e196bc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

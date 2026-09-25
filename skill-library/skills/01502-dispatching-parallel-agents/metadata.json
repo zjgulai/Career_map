@@ -1,0 +1,22 @@
+{
+  "英文名称": "dispatching-parallel-agents",
+  "中文名称": "待补：dispatching-parallel-agents",
+  "一句话作用": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+  "关键输入": "Use when: - 3+ test files failing with different root causes - Multiple subsystems broken independently - Each problem can be understood without context from others - No shared state between investigations Don't use whe…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when: - 3+ test files failing with different root causes - Multiple subsystems broken independently - Each problem can be understood without context from others - No shared state between investigations Don't use whe…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01502-dispatching-parallel-agents-871a79bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/superpowers/1dc19589/skills/dispatching-parallel-agents/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/superpowers/1dc19589/skills/dispatching-parallel-agents/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

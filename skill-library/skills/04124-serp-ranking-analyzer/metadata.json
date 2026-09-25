@@ -1,0 +1,22 @@
+{
+  "英文名称": "serp-ranking-analyzer",
+  "中文名称": "待补：serp-ranking-analyzer",
+  "一句话作用": "- Conduct deep SERP analysis to identify ranking factors, intent signals, and feature opportunities for competitive search queries. 边界：单一查询的 SERP 解剖；页面自身问题走 seo-page-audit 触发词：SERP 解剖、排名因素分析、搜索意图识别、竞品排名拆解、搜索结果特征位分析。",
+  "关键输入": "- Is the keyword specific enough? (e.g., \"best running shoes\" vs \"running shoes\") - Is the target geography defined? (SERPs vary significantly by country).",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:08:50+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Trigger this skill when a user wants to understand why certain websites are ranking for a specific keyword and what it will take to outrank them. Use it for competitive research, content planning, and identifying SERP f…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04124-serp-ranking-analyzer-18721bbd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/serp-ranking-analyzer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/serp-ranking-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4ebec8711419ad1a1e4809fa989731240b09177331271f139d7e01f9f428bcf4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

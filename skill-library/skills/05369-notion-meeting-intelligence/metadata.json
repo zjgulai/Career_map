@@ -1,0 +1,22 @@
+{
+  "英文名称": "notion-meeting-intelligence",
+  "中文名称": "待补：notion-meeting-intelligence",
+  "一句话作用": "Prepares meeting materials by gathering context from Notion, enriching with Claude research, and creating both an internal pre-read and external agenda saved to Notion. Helps you arrive prepared with comprehensive backg…",
+  "关键输入": "See examples/ for complete workflows: - examples/project-decision.md - Decision meeting prep with pre-read - examples/sprint-planning.md - Sprint planning meeting",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要See examples/ for complete workflows: - examples/project-decision.md - Decision meeting prep with pre-read - examples/sprint-planning.md - Sprint planning meeting时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05369-notion-meeting-intelligence-44cdcdbd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/notion/skills/meeting-intelligence/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/notion/skills/meeting-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8abefc02d5e25ceab841d7bbad5b14da3e4e05ba468cbd0f457a1466e4fd27fd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

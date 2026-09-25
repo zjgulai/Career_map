@@ -1,0 +1,22 @@
+{
+  "英文名称": "sector-overview",
+  "中文名称": "待补：sector-overview",
+  "一句话作用": "Create comprehensive industry and sector landscape reports covering market dynamics, competitive positioning, key players, and thematic trends. Use for client requests, sector initiations, thematic research pieces, or i…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Word document or PowerPoint with: - Market overview and sizing - Competitive landscape map - Company comparison table - Valuation summary - Key charts: market growth, share trends, valuation history - Excel appendix with detailed company data",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Create comprehensive industry and sector landscape reports covering market dynamics, competitive positioning, key players, and thematic trends. Use for client requests, sector initiations, thematic research pieces, or i…时，用它产出或更新：- Word document or PowerPo…",
+  "skill_id": "05468-sector-overview-589f6eb8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/sector-overview/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/sector-overview/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d4b7b47c3fe1591bde0a4260b1ffbe489e7ddbe3eddd3dbeb046ce29f315608",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

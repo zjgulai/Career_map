@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-live-stream-conversion-predictor",
+  "中文名称": "直播转化率实时预测（GMV预警切品时机）",
+  "一句话作用": "触发词：直播转化预测、实时预警、切品时机、GMV 预警、直播干预。何时不用：要用弹幕情绪做秒级 CVR 预测用「TikTok 直播间实时 CVR 预测」；要按弹幕意图实时切换话术用「直播间实时受众画像」。安全边界：预测只作主播决策参考，不得据此自动改价或承诺优惠；模型须定期更新，与业务实际明显偏离时不得沿用旧阈值下结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要主播面临\"直播中转化率下滑不能及时识别和干预导致GMV损失\"——实时转化率预测将问题识别时间从30分钟缩短至30秒，年化直播GMV提升20%约40-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03325-p2s-live-stream-conversion-predictor-cbfb6506",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-live-stream-conversion-predictor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-live-stream-conversion-predictor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8310fcd8aab184621e898a3299ff6ac79039d9ecb5eec7a028d9d06bb8ca3c35",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

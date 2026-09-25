@@ -1,0 +1,22 @@
+{
+  "英文名称": "visual-regression-review",
+  "中文名称": "待补：visual-regression-review",
+  "一句话作用": "Compares UI screenshots against approved baselines, Figma exports, prototype images, or reference screenshots. Use for visual regression testing, design conformance review, screenshot diff analysis, UI-to-design compari…",
+  "关键输入": "Look for: - design.qa.yaml - .design-qa/reports/visual-comparison.json - .design-qa/expected/ .png - .design-qa/actual/ .png - .design-qa/diff/ .png - Figma file key and node ID, or a Figma URL that can be parsed - app route, preview URL, or local base URL",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:45+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Compares UI screenshots against approved baselines, Figma exports, prototype images, or reference screenshots. Use for visual regression testing, design conformance review, screenshot diff analysis, UI-to-design compari…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04463-visual-regression-review-e7c74a5d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/visual-regression-review/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/visual-regression-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0da2cc65e13490ff9a0107251ff6b0a35350fe87053ad8daa7caf842bcb84131",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

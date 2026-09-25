@@ -1,0 +1,22 @@
+{
+  "英文名称": "saga-orchestration",
+  "中文名称": "待补：saga-orchestration",
+  "一句话作用": "Implement saga patterns for distributed transactions and cross-aggregate workflows. Use when coordinating multi-step business processes, handling compensating transactions, or managing long-running workflows.",
+  "关键输入": "- Coordinating multi-service transactions - Implementing compensating transactions - Managing long-running business workflows - Handling failures in distributed systems - Building order fulfillment processes - Implement…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Coordinating multi-service transactions - Implementing compensating transactions - Managing long-running business workflows - Handling failures in distributed systems - Building order fulfillment processes - Implement…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05572-saga-orchestration-edb63280",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/saga-orchestration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/saga-orchestration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b1b5358cefe6aa9240e4d7b23424d2f32f352efb7dee371573b0774a26670ebd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

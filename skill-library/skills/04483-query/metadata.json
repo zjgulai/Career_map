@@ -1,0 +1,22 @@
+{
+  "英文名称": "query",
+  "中文名称": "待补：query",
+  "一句话作用": "Run SQL queries against the attached DuckDB database or ad-hoc against files. Accepts raw SQL or natural language questions. Uses DuckDB Friendly SQL idioms.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Before executing, estimate whether the query could produce a very large result that would consume excessive tokens when returned to this conversation. Session mode — check row counts for the tables involved: Ad-hoc mode — probe the source: Evaluate :",
+  "最新更新时间": "2026-09-19T03:38:16+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Run SQL queries against the attached DuckDB database or ad-hoc against files. Accepts raw SQL or natural language questions. Uses DuckDB Friendly SQL idioms.时，用它产出或更新：Before executing, estimate whether the query could produce a very large result that would…",
+  "skill_id": "04483-query-bbeb983d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/query/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/query/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c66aedb3a0c6efe45cbc1fdd6b819002da91b5831e13c087552c2f8eeac8ec99",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

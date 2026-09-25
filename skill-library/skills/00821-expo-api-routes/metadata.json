@@ -1,0 +1,22 @@
+{
+  "英文名称": "expo-api-routes",
+  "中文名称": "待补：expo-api-routes",
+  "一句话作用": "Guidelines for creating API routes in Expo Router with EAS Hosting",
+  "关键输入": "Use API routes when you need: - Server-side secrets — API keys, database credentials, or tokens that must never reach the client - Database operations — Direct database queries that shouldn't be exposed - Third-party AP…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Use API routes when you need: - Server-side secrets — API keys, database credentials, or tokens that must never reach the client - Database operations — Direct database queries that shouldn't be exposed - Third-party AP…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00821-expo-api-routes-464e430b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/expo/skills/expo-api-routes/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/expo/skills/expo-api-routes/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "db4d2cd6fbce04d9a7914db6e37513c218d5fb678e962c034ebfc122c7406fd3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

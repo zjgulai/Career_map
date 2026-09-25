@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-carbon-risk-gcn",
+  "中文名称": "供应链碳排放风险 元学习GCN低碳转型评估",
+  "一句话作用": "触发词：碳排放风险、CBAM、低碳转型、供应链碳合规、高风险供应商识别。何时不用：做供应商综合断供风险分级时用供应商风险评分；做劳工与环境合规尽调时用供应链合规尽职调查。安全边界：碳排放数据须有海关或第三方认证报告支撑，缺失认证的供应商只能标记待核验，不得直接用于对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要欧盟 CBAM 实施前品牌无法评估前10大供应商碳排放风险导致供货稳定性盲区——引入元学习 GCN 低碳转型评估，高风险供应商提前18个月识别，供应链碳合规率从 40%→93%，年化潜在碳税节约 25% 采购成本。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03888-p2s-supply-chain-carbon-risk-gcn-7ebca5af",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supply-chain-carbon-risk-gcn/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supply-chain-carbon-risk-gcn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f447088e0c9c570fd38640c9362a35c7ed3c052c0bcfaea2f1217d1d95a00d33",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "chartify-chart-generation",
+  "中文名称": "图表生成 Skill",
+  "一句话作用": "Use when users need reliable code-based chart generation with Chartify for reusable visuals, automated exports, or implementation-ready chart scripts aligned with PPT storytelling needs.",
+  "关键输入": "- 安装 ：pip install chartify（会拉取 Bokeh、pandas 等依赖）。 - Python ：建议 3.9 / 3.10 / 3.11；Chartify 当前版本 5.x。 - PNG 导出（可选） ：需安装 Chrome 与 chromedriver，并将 chromedriver 放入 PATH。若无 chromedriver，请使用 HTML 或 SVG 导出（见下文「可靠性与稳定性」）。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-13T13:30:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when users need reliable code-based chart generation with Chartify for reusable visuals, automated exports, or implementation-ready chart scripts aligned with PPT storytelling needs.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09456-chartify-chart-generation-93c3c917",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/mckinsey_ppt/skills/05-chart-creation/chartify-chart-generation/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/mckinsey_ppt/skills/05-chart-creation/chartify-chart-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39a7b80fb0b9c4439f2ec79575680053a74fb606a33e175b2d3ac5fcf84793a5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

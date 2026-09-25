@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-审核",
+  "中文名称": "审核",
+  "一句话作用": "This skill should be used when the user asks to \"审核skill\", \"检查质量\", \"质量审核\", \"review skill\", \"检查skill卡片\". Performs quality review of generated skill cards and code templates.",
+  "关键输入": "记录发现的问题：",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-09T21:40:31+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要记录发现的问题：时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07871-paper-7757f37a",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/paper2skills-skills/paper-审核/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/paper2skills-skills/paper-审核/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e2a4c3419d4ac080487655e922da4c6f60270a82f8fe325b1b02792bff73041",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

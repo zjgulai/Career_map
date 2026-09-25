@@ -1,0 +1,22 @@
+{
+  "英文名称": "read-arxiv-paper",
+  "中文名称": "待补：read-arxiv-paper",
+  "一句话作用": "Use this skill when asked to read an arxiv paper given an arxiv URL",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:05:26+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use this skill when asked to read an arxiv paper given an arxiv URL时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06127-read-arxiv-paper-a3f287c3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/read-arxiv-paper/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/read-arxiv-paper/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5b7a49e740abe8aaead528e3acc3bd0b9404465761702acc3da95dd87d2b2811",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

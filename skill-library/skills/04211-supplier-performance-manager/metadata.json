@@ -1,0 +1,22 @@
+{
+  "英文名称": "supplier-performance-manager",
+  "中文名称": "待补：supplier-performance-manager",
+  "一句话作用": "- Systematically monitor and optimize supplier relationships. Implement purchase order workflows, performance scorecards, and lead-time tracking to ensure supply chain reliability and cost-efficiency. 触发词：供应商绩效管理、供应商评分卡…",
+  "关键输入": "- \"Zombie\" POs: Purchase orders left \"Open\" for months after partial delivery. Solution: Run a \"PO Aging\" report monthly and force-close any order 60 days past its expected date. - Price Mismatches: Supplier invoices $5…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:57:17+08:00",
+  "业务场景": "business-operations",
+  "解决具体问题": "当需要- \"Zombie\" POs: Purchase orders left \"Open\" for months after partial delivery. Solution: Run a \"PO Aging\" report monthly and force-close any order 60 days past its expected date. - Price Mismatches: Supplier invoices $5…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04211-supplier-performance-manager-ae34e519",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/supplier-performance-manager/SKILL.md",
+  "relative_path": "lute/.dsh/skills/supplier-performance-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6cbf078ef07b9ec7b516731430f25be9aa589ddc9d1c60f08b6d4406a7a4f3a2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

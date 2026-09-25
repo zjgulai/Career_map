@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multimodal-fake-review-detection",
+  "中文名称": "多模态伪造评论检测 图文联合的AI生成评论识别",
+  "一句话作用": "触发词：多模态伪造评论、图文一致性、CLIP 相似度、AI 合成评论图、账号行为异常度、评论质量审计。何时不用：只做评论文本层面的虚假概率与触发词证据用「AI-Fake-Review-Detection」；要叠文本+行为+网络团伙三层取证用「VOC-Fraud-Review-Detection」；本技能的着力点是图文跨模态一致性与行为图。安全边界：评论数据须经平台 API 条款允许的途径获取，仅可用于质量分析、不得用于训练商业模型；申…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要店铺面临\"竞争对手AI生成多模态差评评分从4.8降至4.3\"——CLIP图文一致性+行为图检测伪造评论F1达0.83，加速申诉恢复评分，年化防御损失约180万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03509-p2s-multimodal-fake-review-detection-b80394d6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multimodal-fake-review-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multimodal-fake-review-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "237ff48ab8902a8515a14882784cbdcb7aa4b3684847939a6c37642a3f0414c2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

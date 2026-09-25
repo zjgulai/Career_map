@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-meeting-sdk-web",
+  "中文名称": "待补：zoom-meeting-sdk-web",
+  "一句话作用": "Zoom Meeting SDK for Web - Embed Zoom meeting capabilities into web applications. Two integration options: Client View (full-page, familiar Zoom UI) and Component View (embeddable, Promise-based API). Includes SharedArr…",
+  "关键输入": "- Zoom app with Meeting SDK credentials from Marketplace - SDK Key (Client ID) and Secret - Modern browser (Chrome, Firefox, Safari, Edge) - Backend auth endpoint for signature generation Need help with authentication? See the zoom-oauth skill for JWT/signatu…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use Client View when: - You want the familiar Zoom meeting interface - Quick integration is priority over customization - Full-page meeting experience is acceptable Use Component View when: - You need to embed meetings…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01196-zoom-meeting-sdk-web-06a51257",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/web/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e26afba77599ef6736ed17ee5dfdd1c766a298b688ed5ce63c8421cd24651e7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "team-okrs",
+  "中文名称": "团队 OKR 追踪",
+  "一句话作用": "季度 banner + 3 个目标 + KR 进度条 + owner + 状态 pill",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "product",
+  "解决具体问题": "当需要季度 banner + 3 个目标 + KR 进度条 + owner + 状态 pill时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10438-team-okrs-cc575f39",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/team-okrs/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/team-okrs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb7b503e03b7c7b55da51ccb4672a92bc834427a410fa903f619d5a1efa4e8a1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

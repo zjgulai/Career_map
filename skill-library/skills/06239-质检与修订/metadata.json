@@ -1,0 +1,22 @@
+{
+  "英文名称": "revision-quality",
+  "中文名称": "质检与修订）",
+  "一句话作用": "Doubao Book Writer 的质检与修订方法论。负责句、段、章、篇四个层级的质量检查、跨章节一致性、全书级一致性、去 AI 味和终稿清洁。用户说\"质量检查、去 AI 味、质检、定稿检查\"时参考此方法论。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Doubao Book Writer 的质检与修订方法论。负责句、段、章、篇四个层级的质量检查、跨章节一致性、全书级一致性、去 AI 味和终稿清洁。用户说\"质量检查、去 AI 味、质检、定稿检查\"时参考此方法论。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06239-revision-quality-19e4caff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-book-writer/sub-skills/revision-quality/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-book-writer/sub-skills/revision-quality/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8a4d86fb53c2b3c00ef20f05cd7391c4b933b0aea8cea184fd8196b74411cf06",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "academic-researcher",
+  "中文名称": "待补：academic-researcher",
+  "一句话作用": "Academic research assistant for literature reviews, paper analysis, and scholarly writing. Use when: reviewing academic papers, conducting literature reviews, writing research summaries, analyzing methodologies, formatt…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For paper summaries:",
+  "最新更新时间": "2026-06-02T10:50:39+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Academic research assistant for literature reviews, paper analysis, and scholarly writing. Use when: reviewing academic papers, conducting literature reviews, writing research summaries, analyzing methodologies, formatt…时，用它产出或更新：For paper summaries:",
+  "skill_id": "09328-academic-researcher-3171739f",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/academic-researcher/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/academic-researcher/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93334b34a735942fcfd66a4ddb02df13eea639864c579b47b356c9ad5d67d4d3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

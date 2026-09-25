@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-seo-optimizer",
+  "中文名称": "待补：ecommerce-seo-optimizer",
+  "一句话作用": "- Optimize product pages for organic search using meta tag frameworks, JSON-LD structured data, and technical crawl management. 边界：店铺/商品页级技术 SEO；单页体检走 seo-page-audit",
+  "关键输入": "- When launching new products that need to compete for organic keywords. - When products are indexed but not showing price or review stars in search results. - When managing large catalogs where \"Faceted Navigation\" (fi…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T20:35:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- When launching new products that need to compete for organic keywords. - When products are indexed but not showing price or review stars in search results. - When managing large catalogs where \"Faceted Navigation\" (fi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02390-ecommerce-seo-optimizer-3dec84fd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/scratch/tree-0078/packages/capabilities/dsh-overseas-skills/backup/pre-81/ecommerce-seo-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/scratch/tree-0078/packages/capabilities/dsh-overseas-skills/backup/pre-81/ecommerce-seo-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6d6184fb86f90b445d76829fe2a47d4fd1b1325d53fbcb8e2518ca8cb30cfabf",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

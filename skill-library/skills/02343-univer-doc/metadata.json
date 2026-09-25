@@ -1,0 +1,22 @@
+{
+  "英文名称": "univer-doc",
+  "中文名称": "待补：univer-doc",
+  "一句话作用": "Read, create, edit, paginate, chart, inspect, export, and review Univer Doc Units through DSH tools and the Lite Interface. Use proactively for paragraphs, rich text, lists, tasks, tables, images, charts, headers, foote…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-29T19:01:14+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Read, create, edit, paginate, chart, inspect, export, and review Univer Doc Units through DSH tools and the Lite Interface. Use proactively for paragraphs, rich text, lists, tasks, tables, images, charts, headers, foote…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02343-univer-doc-c2163799",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop/node_modules/dsh-univer-office/skills/univer-doc/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop/node_modules/dsh-univer-office/skills/univer-doc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1c3fd51589fa01279999918fd2041bc329017ac8491d60113370f7fdd830ac37",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

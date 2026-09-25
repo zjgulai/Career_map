@@ -1,0 +1,22 @@
+{
+  "英文名称": "arm-cortex-expert",
+  "中文名称": "待补：arm-cortex-expert",
+  "一句话作用": "Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Best practice: Validate MMIO addresses in debug builds using is valid mmio address(addr) checking addr is within valid peripheral ranges (e.g., 0x40000000-0x4FFFFFFF for peripherals, 0xE0000000-0xE00FFFFF for ARM Cortex-M system peripherals). Use ifdef DEBUG…",
+  "最新更新时间": "2026-09-19T03:52:47+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).时，用它产出或更新：Best practice: Validate MMIO addresses in debug builds using is valid mmio address(addr) checking add…",
+  "skill_id": "04730-arm-cortex-expert-ca28bf83",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/arm-cortex-expert/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/arm-cortex-expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79a748245c6c4006818274dca4ff45c22e4238057839e755c8b86ca776b2d826",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

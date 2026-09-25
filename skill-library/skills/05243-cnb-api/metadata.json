@@ -1,0 +1,22 @@
+{
+  "英文名称": "cnb-api",
+  "中文名称": "待补：cnb-api",
+  "一句话作用": "CNB 平台交互命令，支持代码仓库、Issue、PR、CI、制品库读写等操作。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要CNB 平台交互命令，支持代码仓库、Issue、PR、CI、制品库读写等操作。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05243-cnb-api-fa8c1e64",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/cnb-woa/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/cnb-woa/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6311f4a9ac617a369cfd9b3e4a310148303a414d6eaf96bd8245d1d4e3935def",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

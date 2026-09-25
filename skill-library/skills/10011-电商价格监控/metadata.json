@@ -1,0 +1,22 @@
+{
+  "英文名称": "电商价格监控",
+  "中文名称": "电商价格监控",
+  "一句话作用": "当用户需要跨电商平台监控并对比竞品价格、做定价决策时使用。触发词：电商价格监控、跨平台价格监控、竞品定价、价格对比、动态定价、跨平台比价。注意：本技能标准名称为「电商价格监控」，与「平台价格监控」（实时秒级自动告警）为不同技能，路由时请按全名区分。何时不用：需要复杂成本分析（使用 claude-ecom）；改价工具/自动改价规则配置等后台工具操作；实时秒级自动化价格监控与告警推送（使用 平台价格监控）；仅单平台一次性价格查询且非跨平台…",
+  "关键输入": "- 产品标识（ASIN/SKU/链接） - 目标平台列表 - 监控周期",
+  "关键输出": "- 各平台价格对比表 - 价格趋势图 - 定价建议",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 跨平台价格对比 - 竞品定价策略分析 - 价格调整决策支持 - 促销活动效果追踪时，用它产出或更新：- 各平台价格对比表 - 价格趋势图 - 定价建议",
+  "skill_id": "10011-skill-4f45b401",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/电商价格监控/SKILL.md",
+  "relative_path": "lute/project/81-Skills/电商价格监控/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "efc47ea4f2ac8ba91ab61af08543bb7a6a1f6524770a02bfea4d450cb278a448",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

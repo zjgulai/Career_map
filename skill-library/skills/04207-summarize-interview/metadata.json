@@ -1,0 +1,22 @@
+{
+  "英文名称": "summarize-interview",
+  "中文名称": "待补：summarize-interview",
+  "一句话作用": "把访谈录音或记录整理成洞察清单，标出可引用的原话与对应的需求线索。触发词：访谈纪要提炼、summarize-interview、把访谈录音或记录整理成洞察清单，标出可引用的原话与对应的需求线索。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Save the summary as a markdown document in the user's workspace. ---",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要把访谈录音或记录整理成洞察清单，标出可引用的原话与对应的需求线索。触发词：访谈纪要提炼、summarize-interview、把访谈录音或记录整理成洞察清单，标出可引用的原话与对应的需求线索。时，用它产出或更新：Save the summary as a markdown document in the user's workspace. ---",
+  "skill_id": "04207-summarize-interview-93a9906c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/summarize-interview/SKILL.md",
+  "relative_path": "lute/.dsh/skills/summarize-interview/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "acc3f630da436c4d96ec402adb3678c072a92281860695bff31516d745a960e4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

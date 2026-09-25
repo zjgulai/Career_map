@@ -1,0 +1,22 @@
+{
+  "英文名称": "duckdb-docs",
+  "中文名称": "待补：duckdb-docs",
+  "一句话作用": "Search DuckDB and DuckLake documentation and blog posts. Returns relevant doc chunks for a question or keyword using full-text search against a locally cached index.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For each result chunk returned (ordered by score descending), format as:",
+  "最新更新时间": "2026-09-19T03:38:16+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Search DuckDB and DuckLake documentation and blog posts. Returns relevant doc chunks for a question or keyword using full-text search against a locally cached index.时，用它产出或更新：For each result chunk returned (ordered by score descending), format as:",
+  "skill_id": "04481-duckdb-docs-230733fe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/duckdb-docs/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/duckdb-docs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e6388de6257665f71da783b4d4e7b3072d788c0fbc4ce280959fb3c9191d4489",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

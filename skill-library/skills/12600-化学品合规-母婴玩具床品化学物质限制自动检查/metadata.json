@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-reach-chemical-compliance",
+  "中文名称": "化学品合规 母婴玩具床品化学物质限制自动检查",
+  "一句话作用": "触发词：REACH、SVHC、ANNEX XVII、化学物质限制、DoC 符合性声明、芳香胺。何时不用：要判加州 Prop65 警告时用「加州 65 号提案标签合规」，要办欧盟包装回收注册时用「EPR 标签体系」。安全边界：判定以检测报告与供应商 SDS 为准，本技能不出具检测数据，超限结论须经合规负责人确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要产品合规经理面临\"母婴产品进入欧盟市场时化学物质超标风险无法提前识别\"——REACH合规自动检测将上市前违规发现率提升70%，年化避免召回和罚款保护50-150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12600-p2s-reach-chemical-compliance-d3b00c35",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-reach-chemical-compliance/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-reach-chemical-compliance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1118c5e2817b0190b28eba8b0a1592f59ec546bc470796b882e770d5bc0147f4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

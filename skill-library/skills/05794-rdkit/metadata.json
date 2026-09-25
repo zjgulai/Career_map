@@ -1,0 +1,22 @@
+{
+  "英文名称": "rdkit",
+  "中文名称": "待补：rdkit",
+  "一句话作用": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpl…",
+  "关键输入": "problems = Chem.DetectChemistryProblems(mol) for problem in problems: print(problem.GetType(), problem.Message())",
+  "关键输出": "RDKit automatically sanitizes molecules during parsing, executing 13 steps including valence checking, aromaticity perception, and chirality assignment. Sanitization Control:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要problems = Chem.DetectChemistryProblems(mol) for problem in problems: print(problem.GetType(), problem.Message())时，用它产出或更新：RDKit automatically sanitizes molecules during parsing, executing 13 steps including valence checking, aromaticity perception, and ch…",
+  "skill_id": "05794-rdkit-66a66914",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/rdkit/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/rdkit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "17f99c8a98fef21968d103075bd709465f3f5038b508ea5c6b2c9e483a72f3e8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

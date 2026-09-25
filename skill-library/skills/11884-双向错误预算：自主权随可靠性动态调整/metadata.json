@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-error-budget",
+  "中文名称": "双向错误预算：自主权随可靠性动态调整",
+  "一句话作用": "触发词：错误预算、自主权预算、灰度发布门控、渐进放量、自动回滚、可靠性水位。何时不用：要判断单条决策能否自动执行时用「置信度决策门控」；要建立三层 SLI 指标与门限本身时用「Agent SLO 管理」。安全边界：Gate 未通过不得扩大流量，Judgment SLI 跌破阈值必须自动回滚并告警；自主权水位变更与回滚动作必须留审计记录，不得人工口头豁免。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要新版选品算法（支持竞品价格实时对比）渐进发布：① Canary 5% → 监控 48h → Task SLI ≥99.9% + Judgment SLI ≥92% → Gate 通过 → ② 扩量 20% → 监控 72h → Gate 通过 → ③ 全量 100%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11884-p2s-agent-error-budget-67df7f91",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-error-budget/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-error-budget/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d388d2a5783243b54e66501dc80106833b9346a1922230321112e33e6b0b23ec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

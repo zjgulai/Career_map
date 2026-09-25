@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-time-series-forecasting",
+  "中文名称": "时间序列预测 (Time Series Forecasting)",
+  "一句话作用": "触发词：时间序列预测、趋势季节性、指数平滑、置信区间、补货预测。何时不用：要用文本事件修正预测时用「LLMForecaster」；要零样本跨品类预测时用「时序基础模型」。安全边界：无。",
+  "关键输入": "输入 ：24 个月日销量（卡页按欧洲、北美、日本三站点分别统计）、周促销标记、竞品价格指数、Google Trends 搜索量、节假日日历；粒度：SKU×站点×日。 输出 ：未来 21 天日销量点预测与 95% 置信区间及量化改善对照（卡页：MAPE 由 22.5% 降至 12.3%、缺货率由 18% 降至 5.2%），供采购与库存决策使用。",
+  "关键输出": "输入 ：24 个月日销量（卡页按欧洲、北美、日本三站点分别统计）、周促销标记、竞品价格指数、Google Trends 搜索量、节假日日历；粒度：SKU×站点×日。 输出 ：未来 21 天日销量点预测与 95% 置信区间及量化改善对照（卡页：MAPE 由 22.5% 降至 12.3%、缺货率由 18% 降至 5.2%），供采购与库存决策使用。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：时间序列预测、趋势季节性、指数平滑、置信区间、补货预测。何时不用：要用文本事件修正预测时用「LLMForecaster」；要零样本跨品类预测时用「时序基础模型」。安全边界：无。时，用它产出或更新：输入 ：24 个月日销量（卡页按欧洲、北美、日本三站点分别统计）、周促销标记、竞品价格指数、Google Trends 搜索量、节假日日历；粒度：SKU×站点×日。 输出 ：未来 21 天日销量点预测与 95% 置信区间及量化改善对照（卡页：MAPE 由 22.5% 降至 12.3%、缺货率由 18% 降至…",
+  "skill_id": "11560-p2s-time-series-forecasting-29a591a1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-time-series-forecasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-time-series-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "89833570bdd0e6c7435a5c492bf811a2a425caf2d2c43dc27b9e1a9934c7f7d2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

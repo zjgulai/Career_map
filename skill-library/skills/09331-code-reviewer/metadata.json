@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-reviewer",
+  "中文名称": "待补：code-reviewer",
+  "一句话作用": "Thorough code review with focus on security, performance, and best practices. Use when: reviewing code, performing security audits, checking for code quality, reviewing pull requests, or when user mentions code review,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Structure your reviews as:",
+  "最新更新时间": "2026-06-02T10:50:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Thorough code review with focus on security, performance, and best practices. Use when: reviewing code, performing security audits, checking for code quality, reviewing pull requests, or when user mentions code review,…时，用它产出或更新：Structure your reviews as:",
+  "skill_id": "09331-code-reviewer-08e5b1da",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/code-reviewer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/code-reviewer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "332f27da42ce6f25d71652f0bfe9a38fd31f45b63ac3f79570c0fb10ab30ef68",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

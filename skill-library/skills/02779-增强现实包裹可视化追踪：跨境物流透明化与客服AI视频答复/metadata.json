@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ar-logistics-visualization",
+  "中文名称": "增强现实包裹可视化追踪：跨境物流透明化与客服AI视频答复",
+  "一句话作用": "触发词：物流可视化、包裹追踪、AR追踪、客服视频答复、物流透明化。何时不用：需要把多承运商轨迹解析成统一状态并预警时用多承运商包裹追踪融合；需要识别虚假签收与刷单轨迹特征时用物流轨迹欺诈信号。安全边界：对客展示的轨迹与时效以承运商确认为准，不得承诺未确认的到达时间；客服答复须符合平台政策并保护客户隐私。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：某母婴品牌黑五期间发货 12,000 件婴儿推车至美国，FBA 舱容紧张，部分走 FBM 直邮，预计清关延误率 23%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02779-p2s-ar-logistics-visualization-41c4c74b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ar-logistics-visualization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ar-logistics-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "efc61ed0a2c472f6a177c316fed8577a036e380950ce58433e3aafb31fc1f61c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

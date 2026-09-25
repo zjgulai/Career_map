@@ -1,0 +1,22 @@
+{
+  "英文名称": "fastapi-react-windows-setup",
+  "中文名称": "全栈项目搭建",
+  "一句话作用": "在 Windows 上从零搭建 FastAPI + React 全栈项目的完整流程。涵盖 Python 版本选择、依赖兼容性处理（bcrypt/passlib 冲突、Pydantic v2 语法、PyMuPDF 编译）、前后端联调、JWT 鉴权字段对齐（access token 字段传递与 localStorage 存储）、批量多文件上传端点设计、选择题/填空题混合出题 prompt 工程、QoderWork Write 工具路径限制…",
+  "关键输入": "关键避坑点： - 不要用 passlib[bcrypt] ：passlib 1.7.4 与 bcrypt = 4.0 不兼容（ about 属性缺失、detect wrap bug 报错）。直接用 bcrypt 库替代。 - 不要写 PyMuPDF ：Windows 上需要 VS Build Tools 编译。如需 PDF 解析，用 pypdf 替代或暂时注释掉。 - pip 安装慢 ：加清华镜像 -i https://pypi.tuna.tsinghua.edu.cn/simple。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:09+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要在 Windows 上从零搭建 FastAPI + React 全栈项目的完整流程。涵盖 Python 版本选择、依赖兼容性处理（bcrypt/passlib 冲突、Pydantic v2 语法、PyMuPDF 编译）、前后端联调、JWT 鉴权字段对齐（access token 字段传递与 localStorage 存储）、批量多文件上传端点设计、选择题/填空题混合出题 prompt 工程、QoderWork Write 工具路径限制…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04860-fastapi-react-windows-setup-736cf896",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/fastapi-react-windows-setup/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/fastapi-react-windows-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c0667da79a7c8fb2c590b07d9b93b60b11f2ac1b865f4d6b732245f5fee6fde0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

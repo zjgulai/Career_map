@@ -1,0 +1,22 @@
+{
+  "英文名称": "钉钉数据接入",
+  "中文名称": "钉钉数据接入",
+  "一句话作用": "Sync DingTalk spreadsheets and documents to ODPS. Covers reading, field mapping, DDL generation, DI node creation, and data validation.",
+  "关键输入": "问题 原因 解决 ------ ------ ------ 钉钉表格数据格式混乱 合并单元格、空行、特殊字符 清洗后重新读取 日期格式不统一 钉钉表格中日期显示格式多样 统一转为 STRING 或标准 DATETIME 中文字段名 ODPS 支持中文字段但不推荐 建议映射为英文字段名，中文放 COMMENT 数据量超过 Tunnel 限制 单文件过大 分批上传或使用 multiupload",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:17+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要问题 原因 解决 ------ ------ ------ 钉钉表格数据格式混乱 合并单元格、空行、特殊字符 清洗后重新读取 日期格式不统一 钉钉表格中日期显示格式多样 统一转为 STRING 或标准 DATETIME 中文字段名 ODPS 支持中文字段但不推荐 建议映射为英文字段名，中文放 COMMENT 数据量超过 Tunnel 限制 单文件过大 分批上传或使用 multiupload时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04662-skill-3a5e8883",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/super-dw-engineer/1.0.0/skills/钉钉数据接入/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/super-dw-engineer/1.0.0/skills/钉钉数据接入/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5361f6c724d06c968e5b351658eb02b831fff8c0c2307244475e45e8a3c90a61",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

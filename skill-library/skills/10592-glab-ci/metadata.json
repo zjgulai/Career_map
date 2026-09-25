@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-ci",
+  "中文名称": "待补：glab-ci",
+  "一句话作用": "管理 GitLab CI/CD 流水线、作业和产物。适用于检查流水线状态、查看作业日志、调试 CI 失败、触发手动作业、下载产物、验证 .gitlab-ci.yml 或管理流水线运行等场景。触发关键词：流水线、CI/CD、作业、构建、部署、产物、流水线状态、构建失败、CI 日志。",
+  "关键输入": "流水线卡住/等待中： - 检查 Runner 可用性：在 Web UI 中查看流水线 - 检查作业日志：glab ci trace - 取消并重试：glab ci cancel 然后 glab ci run 作业失败： - 查看日志：glab ci trace - 检查产物上传：验证作业输出中的路径 - 验证配置：glab ci lint",
+  "关键输出": "glab ci artifact main build-job",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要流水线卡住/等待中： - 检查 Runner 可用性：在 Web UI 中查看流水线 - 检查作业日志：glab ci trace - 取消并重试：glab ci cancel 然后 glab ci run 作业失败： - 查看日志：glab ci trace - 检查产物上传：验证作业输出中的路径 - 验证配置：glab ci lint时，用它产出或更新：glab ci artifact main build-job",
+  "skill_id": "10592-glab-ci-34acf0ef",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-ci/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-ci/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07fd3ae289d42647f6de379c5f65440d1e9b1831d818ec54be91130d04b341aa",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

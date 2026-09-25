@@ -1,0 +1,22 @@
+{
+  "英文名称": "canvas-design-library",
+  "中文名称": "待补：canvas-design-library",
+  "一句话作用": "Provide the bundled DESIGN.md protocol to both design SubAgents and bounded template grounding only to the canvas-designer SubAgent.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Provide the bundled DESIGN.md protocol to both design SubAgents and bounded template grounding only to the canvas-designer SubAgent.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00131-canvas-design-library-6ff9391a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c4eba6b86f035359ce9d088a097f8fd6b8fbf540f09fd04b0b100c6e2ea7bf3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

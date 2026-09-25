@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibabacloud-wxz-website-builder",
+  "中文名称": "待补：alibabacloud-wxz-website-builder",
+  "一句话作用": "Use when building or modifying websites with AI Staff via Alibaba Cloud OpenAPI. Supports conversation creation, async chat with requirement collection, PRD generation, code generation, and incremental SSE event polling.",
+  "关键输入": "- All dependencies are pinned to exact versions in requirements.txt. - Credentials are resolved via the default credential chain (no explicit AK/SK needed).",
+  "关键输出": "Pass criteria: command exits 0 and output/alibabacloud-wxz-website-builder/validate.txt is generated.",
+  "最新更新时间": "2026-09-19T03:50:04+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use when building or modifying websites with AI Staff via Alibaba Cloud OpenAPI. Supports conversation creation, async chat with requirement collection, PRD generation, code generation, and incremental SSE event polling.时，用它产出或更新：Pass criteria: command exi…",
+  "skill_id": "04707-alibabacloud-wxz-website-builder-362d5ce2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/alibabacloud-wxz-website-builder/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/alibabacloud-wxz-website-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d84447e63410070814f1f8af90f7cfddc3deaaa9bc313823ad305495879b2de",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "locale-guard",
+  "中文名称": "国际化本地化助手",
+  "一句话作用": "在前端代码库（React/TypeScript、Vue等）中搭建、审计和规范国际化/本地化流程，包括配置i18n框架、将硬编码字符串替换为翻译键、确保en-US/zh-CN等语言文件覆盖完整、映射本地化错误消息，并校验翻译键一致性、复数规则和格式化。当用户需要实施或审查多语言支持，提及i18n、本地化、翻译键、多语言文件，或询问如何替换硬编码字符串、配置react-i18next/next-intl、处理复数规则、进行语言审计时触发。",
+  "关键输入": "- 使用的框架和路由方式。 - 现有的 i18n 状态（无、部分完成、遗留方案）。 - 目标语言（默认：en-US + zh-CN）。 - 翻译质量要求（AI 翻译 vs 专业翻译 vs 人工翻译）。 - 使用的语言文件格式（JSON、YAML、PO、XLIFF）。 - 语气/文化要求（如有）。",
+  "关键输出": "- i18n 配置与 Provider 挂载。 - 各目标语言的语言文件。 - UI 字符串已替换为稳定的翻译键。 - 语言切换器和持久化（如适用）。 - 更新后的测试用例。",
+  "最新更新时间": "2026-09-14T00:09:00+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- 翻译缺失：回退到默认语言并记录警告日志。 - RTL 布局异常：检查逻辑 CSS 属性并测试页面。 - SEO 遗漏：确保在适用场景下本地化 alternate 标签和元数据。时，用它产出或更新：- i18n 配置与 Provider 挂载。 - 各目标语言的语言文件。 - UI 字符串已替换为稳定的翻译键。 - 语言切换器和持久化（如适用）。 - 更新后的测试用例。",
+  "skill_id": "10645-locale-guard-866d8389",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/locale-guard/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/locale-guard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c07d6efe94f4bc309aa9bebf60a9ede49d0c1315633895324b02e6b7224ad6f2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

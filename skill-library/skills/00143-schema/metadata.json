@@ -1,0 +1,22 @@
+{
+  "英文名称": "schema",
+  "中文名称": "待补：schema",
+  "一句话作用": "Add, repair, or validate Schema.org structured data in JSON-LD. Use for schema markup, structured data, rich-result eligibility, JSON-LD, or when the SEO skill identifies verifiable entities that should be described to…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Add, repair, or validate Schema.org structured data in JSON-LD. Use for schema markup, structured data, rich-result eligibility, JSON-LD, or when the SEO skill identifies verifiable entities that should be described to…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00143-schema-0a94a59b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/schema/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/schema/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "323f4cab9b31a6441f7bb60b75c13d836f9f428da886b4c55fac415d7c64f3a2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

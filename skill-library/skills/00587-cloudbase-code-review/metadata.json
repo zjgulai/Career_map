@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudbase-code-review",
+  "中文名称": "待补：cloudbase-code-review",
+  "一句话作用": "Code review and validation for CloudBase projects. After writing code for Web / miniprogram / CloudRun / cloud-function projects, call this skill to check for known pitfalls — auth guard misuse, missing database tables,…",
+  "关键输入": "Call this skill after completing a CloudBase implementation task, before declaring done: - You implemented auth (login / register / route guard) - You created database tables or wrote CRUD (NoSQL / PostgreSQL / MySQL)",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Call this skill after completing a CloudBase implementation task, before declaring done: - You implemented auth (login / register / route guard) - You created database tables or wrote CRUD (NoSQL / PostgreSQL / MySQL)时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00587-cloudbase-code-review-04bc5ae2",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.agents/skills/cloudbase-code-review/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.agents/skills/cloudbase-code-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b45a4a0a2ecaeef21d8ecb5c9c30fc15e1005da5ea7c182a6d68ca442b557d9d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

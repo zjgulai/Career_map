@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-ad-budget-multi-platform-negotiation",
+  "中文名称": "多平台广告预算Stackelberg博弈 多平台广告Agent序贯博弈预算分配",
+  "一句话作用": "触发词：Stackelberg博弈、多平台预算、边际ROAS曲线、先发承诺、序贯决策。何时不用：平台数少于两个或历史不足3个月无法标定边际ROAS曲线时不适用；多硬约束出价调节走约束多目标投放。安全边界：各平台数据须独立标定，不得用其他平台数据优化Amazon竞价，用户级数据须匿名聚合。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要广告团队面临\"多平台预算分配靠经验判断\"——Stackelberg博弈将整体ROAS从3.9x→4.5x+，月预算$10,000时年化增量营收48万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11737-p2s-mas-ad-budget-multi-platform-negotiation-c5051cec",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-mas-ad-budget-multi-platform-negotiation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-mas-ad-budget-multi-platform-negotiation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a0a000f207d0d597c63ed127e7c3f920af78ca3aa417857b3e887db848fea98e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

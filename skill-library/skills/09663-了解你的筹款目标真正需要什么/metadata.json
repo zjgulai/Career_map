@@ -1,0 +1,22 @@
+{
+  "英文名称": "了解你的筹款目标真正需要什么",
+  "中文名称": "了解你的筹款目标真正需要什么",
+  "一句话作用": "了解你的筹款目标真正需要什么 是一个专业的 摘要 ：本文介绍如何使用 Claude 实时生成捐赠金字塔（gift pyramid），直观展示完成某个筹款目标所需的各层级捐赠人数及背后对应的合格潜在捐赠者数量。通过可拖动的目标滑块，你可以在，帮助用户快速完成相关任务并输出标准化交付物。",
+  "关键输入": "字段 说明 示例 ------ ------ ------ 任务描述 用户的具体需求或问题描述 我需要分析竞品SEO策略 上下文信息 相关背景数据、约束条件、业务场景 北美市场、母婴品类、Q4旺季 质量标准 输出要求、验收标准、格式规范 Markdown格式、包含数据支撑 目标受众 最终使用者或决策者 运营团队、管理层、外部客户 时间约束 交付时限、迭代周期 即时/24小时/周度",
+  "关键输出": "字段 说明 格式 ------ ------ ------ 分析结果 结构化的问题分析或洞察 Markdown/表格/图表 解决方案 可执行的策略或方案 步骤清单/流程图 执行指南 具体的操作步骤和注意事项 编号列表/检查清单 风险提示 潜在问题和规避建议 高/中/低分级 关联建议 下一步行动或相关skill推荐 skill名称+触发条件",
+  "最新更新时间": "2026-05-04T18:38:42+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要了解你的筹款目标真正需要什么 是一个专业的 摘要 ：本文介绍如何使用 Claude 实时生成捐赠金字塔（gift pyramid），直观展示完成某个筹款目标所需的各层级捐赠人数及背后对应的合格潜在捐赠者数量。通过可拖动的目标滑块，你可以在，帮助用户快速完成相关任务并输出标准化交付物。时，用它产出或更新：字段 说明 格式 ------ ------ ------ 分析结果 结构化的问题分析或洞察 Markdown/表格/图表 解决方案 可执行的策略或方案 步骤清单/流程图 执行指南 具体的操作步骤和注意事项…",
+  "skill_id": "09663-skill-1605f79a",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/了解你的筹款目标真正需要什么/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/了解你的筹款目标真正需要什么/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d0f3c56e5370c009985a4807cc181827e155505aad50c570068a0293ce419364",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

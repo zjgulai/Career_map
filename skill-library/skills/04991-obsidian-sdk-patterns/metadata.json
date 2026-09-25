@@ -1,0 +1,22 @@
+{
+  "英文名称": "obsidian-sdk-patterns",
+  "中文名称": "待补：obsidian-sdk-patterns",
+  "一句话作用": "Apply production-ready Obsidian plugin patterns for TypeScript. Use when implementing complex features, refactoring plugins, or establishing coding standards for Obsidian development. Trigger with phrases like \"obsidian…",
+  "关键输入": "- Completed obsidian-install-auth setup - Familiarity with TypeScript and async/await - Understanding of Obsidian's plugin lifecycle",
+  "关键输出": "- Type-safe settings management - Service layer for vault operations - Event registration with automatic cleanup - Fluent command builder - Async queue for rate limiting",
+  "最新更新时间": "2026-09-19T03:58:29+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Apply production-ready Obsidian plugin patterns for TypeScript. Use when implementing complex features, refactoring plugins, or establishing coding standards for Obsidian development. Trigger with phrases like \"obsidian…时，用它产出或更新：- Type-safe settings manag…",
+  "skill_id": "04991-obsidian-sdk-patterns-5fe86f18",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/obsidian-sdk-patterns/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/obsidian-sdk-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2ea26e5f4cc60c053d8ae3ec2b9d327021a3759a34b5e48c9a77de0391f1b8bd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

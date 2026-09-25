@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-interference-networks-causal",
+  "中文名称": "网络干扰因果推断 社交溢出效应与 Peer Effects 估计",
+  "一句话作用": "触发词：网络干扰、溢出效应、Peer Effects、裂变ROI、聚类随机化。何时不用：用户之间没有可观测的关系图时溢出效应无从估计，改用常规A/B设计。安全边界：构建用户关系图谱需脱敏，不暴露个人社交关系，仅用于效应估计。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要增长团队面临\"社交裂变活动效果被低估因忽略用户间溢出效应\"——网络干扰因果推断将裂变ROI估计准确率提升35%，年化减少无效裂变预算浪费30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03246-p2s-interference-networks-causal-064359f2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-interference-networks-causal/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-interference-networks-causal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e6df193ed868c85f0ba5a28f1a27b601099cee4d4f19279bdbb9fa3bb55886b9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

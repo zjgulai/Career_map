@@ -1,0 +1,22 @@
+{
+  "英文名称": "openyida",
+  "中文名称": "宜搭 AI 应用开发指南",
+  "一句话作用": "宜搭 AI 应用开发总入口技能。通过有 AI Coding 能力的智能体（悟空/Claude/Open Code 等）+ 宜搭低代码平台，实现一句话生成完整应用。 包含应用创建、表单设计、自定义页面开发、页面发布、登录态管理等完整开发流程。 当用户提到\"宜搭\"、\"yida\"、\"低代码\"、\"创建应用\"、\"创建表单\"、\"发布页面\"、\"搭建\"、\"系统\"、等关键词时，使用此技能；以下情况不要触发：只是在讨论通用前端/后端代码、非宜搭平台产品、…",
+  "关键输入": "当用户提出以下需求时，使用本技能并按照完整开发流程执行： - 创建宜搭应用、表单、自定义页面 - 发布或更新宜搭页面 - 配置页面公开访问/组织内分享 - 查询表单 Schema 或字段 ID - 管理宜搭登录态（登录/退出） ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当用户提出以下需求时，使用本技能并按照完整开发流程执行： - 创建宜搭应用、表单、自定义页面 - 发布或更新宜搭页面 - 配置页面公开访问/组织内分享 - 查询表单 Schema 或字段 ID - 管理宜搭登录态（登录/退出） ---时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04998-openyida-ad05b489",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/openyida/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/openyida/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f46966e38a60b85d047bf222191c57e0b9ff63538f94b42d506043b5d81a9526",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

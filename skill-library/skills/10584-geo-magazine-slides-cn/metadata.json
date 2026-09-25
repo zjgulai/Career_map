@@ -1,0 +1,22 @@
+{
+  "英文名称": "geo-magazine-slides-cn",
+  "中文名称": "待补：geo-magazine-slides-cn",
+  "一句话作用": "创建震撼的地理杂志风格演示文稿（PPTX），具备编辑级版式、大幅主图、数据驱动图表与奢华美学。适用于地点合集、奢侈房产展示、旅行目的地演讲、地图主题策展、建筑作品集等，带杂志风格的网格概览与章节分隔页。",
+  "关键输入": "Collect from the user: - Topic : What geographic collection is being presented (city, region, properties, landmarks) - Items : The individual items/locations to feature (target ~20 items for full structure) - Data points : Key metrics per item (prices, sizes,…",
+  "关键输出": "- PPTX (default and primary)",
+  "最新更新时间": "2026-09-14T00:08:07+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要创建震撼的地理杂志风格演示文稿（PPTX），具备编辑级版式、大幅主图、数据驱动图表与奢华美学。适用于地点合集、奢侈房产展示、旅行目的地演讲、地图主题策展、建筑作品集等，带杂志风格的网格概览与章节分隔页。时，用它产出或更新：- PPTX (default and primary)",
+  "skill_id": "10584-geo-magazine-slides-cn-1f4cf7cb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/geo-magazine-slides-cn/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/geo-magazine-slides-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e337e4b33c9ec6e3a8888793929649825ebdd955f34c944b42e2cbf71f3c3088",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

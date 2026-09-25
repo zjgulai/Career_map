@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-video-ab-test-creative",
+  "中文名称": "视频素材A测试（广告创意自动化迭代优化）",
+  "一句话作用": "触发词：视频素材、A/B 测试、多臂老虎机、贝叶斯评估、素材迭代。何时不用：只优化标题与文案时用「NLP 文案 A/B 闭环」；不做实验、只要生成素材不属于本技能。安全边界：仅使用自有业务数据与素材，无隐私合规风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告团队面临\"视频素材迭代依赖人工7天AB测试周期太长错过流量窗口\"——贝叶斯自动AB测试将素材迭代周期从7天缩短至1天，CTR平均提升25%，年化广告ROI提升30-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11601-p2s-ai-video-ab-test-creative-c6580f3b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ai-video-ab-test-creative/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ai-video-ab-test-creative/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79631a370231a4695179db5ec1805438d58e8a6eacb9a955301cb623479e53e9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

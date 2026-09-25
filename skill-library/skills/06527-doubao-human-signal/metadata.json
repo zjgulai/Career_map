@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-human-signal",
+  "中文名称": "待补：doubao-human-signal",
+  "一句话作用": "去除或避免文本中的 AI 味。用于用户强制调用本 Skill，或写作/改写时提到“不要有 AI 味”“不要太假”“真情实感”“有人感”，或对已有文本/上一轮输出反馈“太像 AI”“太空泛”“太模板”“太官方”“不像我说的”等场景。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "按用户任务选择输出形态： - 生成/改写：直接输出最终文本。 - 诊断：输出 AI 味指数、2-5 个关键问题、成因层定位、修改优先级和必要示例。 - 评分：输出用户可见诊断摘要，不改写；见 references/evaluation.md。 - 上游防御：输出可复用 prompt、素材清单、禁用表达、自检规则。 - 不适用澄清：一句话说明当前任务与 Human Signal 关系弱、或主需求与本 Skill 目标不同；这是默认不触发类任务的必做前置动作。澄清后默认等待用户确认，或只按主需求处理，不盲目同时做主需…",
+  "最新更新时间": "2026-09-12T03:26:22+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要去除或避免文本中的 AI 味。用于用户强制调用本 Skill，或写作/改写时提到“不要有 AI 味”“不要太假”“真情实感”“有人感”，或对已有文本/上一轮输出反馈“太像 AI”“太空泛”“太模板”“太官方”“不像我说的”等场景。时，用它产出或更新：按用户任务选择输出形态： - 生成/改写：直接输出最终文本。 - 诊断：输出 AI 味指数、2-5 个关键问题、成因层定位、修改优先级和必要示例。 - 评分：输出用户可见诊断摘要，不改写；见 references/evaluation.md。 - 上游防御：输出…",
+  "skill_id": "06527-doubao-human-signal-bf66c30f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-human-signal/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-human-signal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f6a16c493bda8fdd3d2c478f3d0cac4a5b667c83de060c9e8e50a99ca3af03e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

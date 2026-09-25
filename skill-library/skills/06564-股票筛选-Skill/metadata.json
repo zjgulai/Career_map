@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-stock-screening",
+  "中文名称": "股票筛选 Skill",
+  "一句话作用": "用于 A 股、港股、美股及其他股票市场的股票筛选、候选股构建、指定股票比较、行业筛选、主题概念筛选、产业链环节筛选、策略风格筛选和龙头识别。适用于用户要求找股票、筛股票池、比较指定股票、识别行业或主题龙头、按市场/行业/主题/产业链/投资风格/透明指标排序候选标的等场景。强调动态检索、权威信源、业务证据验证、透明分组和可解释结论；禁止隐藏评分、不可解释排名和确定性投资建议。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "默认生成可直接创建飞书在线文档的 markdown 正文；正式股票筛选报告必须读取 references/delivery-workflow.md 和 references/formal-report-execution-contract.md，并调用豆包 App 内置飞书文档/云文档能力创建飞书在线文档。只有用户明确提出“只在对话里简短回答”“不要生成文档”“只要表格”等约束时，才不创建飞书文档或调整为更短、更表格化、无图表、HTML 或其他形式。 行业、主题、概念、产业链、业绩、市值、价值、成长、高股息等都是…",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要用于 A 股、港股、美股及其他股票市场的股票筛选、候选股构建、指定股票比较、行业筛选、主题概念筛选、产业链环节筛选、策略风格筛选和龙头识别。适用于用户要求找股票、筛股票池、比较指定股票、识别行业或主题龙头、按市场/行业/主题/产业链/投资风格/透明指标排序候选标的等场景。强调动态检索、权威信源、业务证据验证、透明分组和可解释结论；禁止隐藏评分、不可解释排名和确定性投资建议。时，用它产出或更新：默认生成可直接创建飞书在线文档的 markdown 正文；正式股票筛选报告必须读取 references/deliv…",
+  "skill_id": "06564-doubao-stock-screening-be5c62d5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-stock-screening/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-stock-screening/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "13ac0285c80fa68e954c975daa3aa49635f7c9d49d5ed03aa3f005cc463d40f0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

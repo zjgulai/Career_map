@@ -1,0 +1,22 @@
+{
+  "英文名称": "awesun-skill",
+  "中文名称": "向日葵远程控制",
+  "一句话作用": "向日葵（AweSun）远程控制 CLI 工具。提供设备列表管理、远程会话管理、远程桌面控制、远程命令执行、远程文件传输、端口转发、远程关机/重启/唤醒等功能。用户提到向日葵、AweSun、远程控制、远程连接、远程桌面、远程文件、远程截图、远程关机时必须使用此 skill。",
+  "关键输入": "awesun-cli desktop type abc123xyz \"Hello World\"",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要向日葵（AweSun）远程控制 CLI 工具。提供设备列表管理、远程会话管理、远程桌面控制、远程命令执行、远程文件传输、端口转发、远程关机/重启/唤醒等功能。用户提到向日葵、AweSun、远程控制、远程连接、远程桌面、远程文件、远程截图、远程关机时必须使用此 skill。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05207-awesun-skill-c1614705",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/awesun/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/awesun/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ce287beaeebdad02f8fe9d235533616c030d28f968a3188fda9629f89a4de83",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

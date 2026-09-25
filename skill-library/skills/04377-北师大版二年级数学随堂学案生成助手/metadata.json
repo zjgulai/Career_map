@@ -1,0 +1,22 @@
+{
+  "英文名称": "grade2-math-worksheet",
+  "中文名称": "北师大版二年级数学随堂学案生成助手",
+  "一句话作用": "基于五星网状教学模型，为北师大版小学二年级数学生成一课时可直接打印的随堂学案。当教师备课、需要一份给学生随堂使用的数学学案时使用。",
+  "关键输入": "启动前必须收集以下信息，缺任何必要字段则先询问，不假设、不编造： 字段 说明 ------ ------ 课题 本课时的课题，如\"乘法的初步认识\"\"认识钟表\" 本课重点（可选） 教师特别想突出的知识点或难点；不填则由助手按课标默认判断",
+  "关键输出": "目标 ：整合五环节，输出可直接打印的学生随堂学案。 输出模板 ： 要求：五个环节的建议用时相加等于一课时（默认 40 分钟）；每个环节都留出学生书写/画图的空白区；题目要求用最简单、最常用的话。",
+  "最新更新时间": "2026-09-19T03:38:37+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要场景 说明 ------ ------ 备课生成学案 教师输入课题，生成对齐五个环节的随堂学案，打印或投影给学生 快速调整重点 教师指定本课时想突出的重点，助手据此调整建构与练习的分量时，用它产出或更新：目标 ：整合五环节，输出可直接打印的学生随堂学案。 输出模板 ： 要求：五个环节的建议用时相加等于一课时（默认 40 分钟）；每个环节都留出学生书写/画图的空白区；题目要求用最简单、最常用的话。",
+  "skill_id": "04377-grade2-math-worksheet-74ce0ed2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/agent-design-studio/1.1.0/skills/grade2-math-worksheet/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/agent-design-studio/1.1.0/skills/grade2-math-worksheet/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e9b80eb115d0713aebe474614b0e2f9f028b61ba228417ab62cd72e40bbb8330",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

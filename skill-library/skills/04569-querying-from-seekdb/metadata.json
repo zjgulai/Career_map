@@ -1,0 +1,22 @@
+{
+  "英文名称": "querying-from-seekdb",
+  "中文名称": "待补：querying-from-seekdb",
+  "一句话作用": "Query and export data from seekdb vector database. Supports two search modes: (1) Scalar search - metadata filtering only, (2) Hybrid search - fulltext + semantic search combined. The --query-text parameter is used for…",
+  "关键输入": "- Python 3.10+ installed - Data imported into seekdb collection - Required packages:",
+  "关键输出": "python scripts/query from seekdb.py seekdb demo --query-text \"seekdb 教程\" --where '{\"year\": 2023}'",
+  "最新更新时间": "2026-09-19T03:38:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Query and export data from seekdb vector database. Supports two search modes: (1) Scalar search - metadata filtering only, (2) Hybrid search - fulltext + semantic search combined. The --query-text parameter is used for…时，用它产出或更新：python scripts/query from s…",
+  "skill_id": "04569-querying-from-seekdb-ebac9d4d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/seekdb/querying/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/seekdb/querying/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c15ef254e32d752e99351e39d8dfdb6a7d42adaedc2bd163f08daf2d6fe85ff7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

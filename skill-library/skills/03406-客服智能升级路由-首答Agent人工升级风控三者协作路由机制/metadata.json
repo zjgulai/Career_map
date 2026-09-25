@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-customer-service-intelligent-escalation",
+  "中文名称": "客服智能升级路由 首答Agent人工升级风控三者协作路由机制",
+  "一句话作用": "触发词：升级路由、AI 首答、人工升级、风控介入、三级分流。何时不用：只求单一置信阈值用「人机协作决策框架」；本技能是按问题类型的三级分流机制。安全边界：情绪分析需在隐私政策中告知，风控信号不得对买家做欺诈预判标签化，误判需人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要客服团队面临\"AI和人工分工不清处理效率低\"——智能路由将AI处理量从30%→70%，年化节省人力成本36万元并降低差评率20%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03406-p2s-mas-customer-service-intelligent-escalation-b27619dc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mas-customer-service-intelligent-escalation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mas-customer-service-intelligent-escalation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3490ae0b821ea990c7c56d1b0d15205bb831447437251f0acecc6cb7dc6b8335",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

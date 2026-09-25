@@ -1,0 +1,22 @@
+{
+  "英文名称": "frame-flowchart-sticky",
+  "中文名称": "便利贴流程图帧",
+  "一句话作用": "SVG 曲线连接 + 便利贴节点 + 光标交互, 像白板 brainstorm",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "operations",
+  "解决具体问题": "当需要SVG 曲线连接 + 便利贴节点 + 光标交互, 像白板 brainstorm时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10325-frame-flowchart-sticky-28adbe25",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/frame-flowchart-sticky/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/frame-flowchart-sticky/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8374d83cf03093d534c578127771281080337f8703cfbdc79af77751cfefa69",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

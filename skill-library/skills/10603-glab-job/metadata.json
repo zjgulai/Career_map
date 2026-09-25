@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-job",
+  "中文名称": "待补：glab-job",
+  "一句话作用": "管理单个 CI/CD 作业，包括查看、重试、取消、追踪日志和下载产物。适用于调试作业失败、查看作业日志、重试作业或管理作业执行。触发词：job、CI 作业、作业日志、重试作业、作业产物。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理单个 CI/CD 作业，包括查看、重试、取消、追踪日志和下载产物。适用于调试作业失败、查看作业日志、重试作业或管理作业执行。触发词：job、CI 作业、作业日志、重试作业、作业产物。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10603-glab-job-a2ce25bf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-job/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-job/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fa2121d989a39106698dc5d026b5e45ce1e5b5711b8bcf8180c9989078c77559",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

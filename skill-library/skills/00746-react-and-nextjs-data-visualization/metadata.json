@@ -1,0 +1,22 @@
+{
+  "英文名称": "react-and-nextjs-data-visualization",
+  "中文名称": "待补：react-and-nextjs-data-visualization",
+  "一句话作用": "Integrate data visualizations into React and Next.js applications. Use when the user needs chart components, UML-like or architecture diagram components, React integration patterns, Next.js client or server boundaries,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Name the ownership boundary between React and the visualization layer. - For explanatory work, name the insight title, artifact mode, annotation layer, direct-label strategy, and mobile reading path. - For mobile work, name the mobile portrait layout, wheth…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Integrate data visualizations into React and Next.js applications. Use when the user needs chart components, UML-like or architecture diagram components, React integration patterns, Next.js client or server boundaries,…时，用它产出或更新：- Name the ownership bounda…",
+  "skill_id": "00746-react-and-nextjs-data-visualization-76195d9e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/react-and-nextjs-data-visualization/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/react-and-nextjs-data-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "95326e7c73c15919e60615314805197b52613fff167eecabecdba191230db7f8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

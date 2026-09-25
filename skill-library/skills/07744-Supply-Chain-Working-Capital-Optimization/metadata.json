@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Supply-Chain-Working-Capital-Optimization",
+  "中文名称": "待补：Supply Chain Working Capital Optimization",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:45:05.497924\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:45:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:45:05.497924\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07744-skill-supply-chain-working-capital-optimization-2dfe5c50",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Supply-Chain-Working-Capital-Optimization.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Supply-Chain-Working-Capital-Optimization.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "e9d6080d9fb82c6a2dc31b2f507066b3bb645f0245ac7b77f55d3992bcdad03b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

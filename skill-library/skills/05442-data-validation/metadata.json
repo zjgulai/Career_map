@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-validation",
+  "中文名称": "待补：data-validation",
+  "一句话作用": "QA an analysis before sharing with stakeholders — methodology checks, accuracy verification, and bias detection. Use when reviewing an analysis for errors, checking for survivorship bias, validating aggregation logic, o…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Pre-delivery QA checklist, common data analysis pitfalls, result sanity checking, and documentation standards for reproducibility.",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要QA an analysis before sharing with stakeholders — methodology checks, accuracy verification, and bias detection. Use when reviewing an analysis for errors, checking for survivorship bias, validating aggregation logic, o…时，用它产出或更新：Pre-delivery QA checklist,…",
+  "skill_id": "05442-data-validation-ad579ba1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/data/skills/data-validation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/data/skills/data-validation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "48886570df5ce7f94590b132cac0b3ca7e51a85fc27caf78f7605ae61f3f96de",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

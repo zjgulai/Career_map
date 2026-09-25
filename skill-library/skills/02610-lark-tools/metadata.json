@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-tools",
+  "中文名称": "待补：lark-tools",
+  "一句话作用": "- Use when the user wants to interact with Lark/Feishu — manage Bitable/Base records, read/write documents, manage calendar, tasks, sheets, mail, wiki, meetings, or any Lark workspace operation. This skill uses lark-cli…",
+  "关键输入": "- 操作飞书多维表格、文档、日历、任务与邮件。",
+  "关键输出": "Result Action -------- -------- tokenStatus: \"valid\" Proceed to business commands command not found lark-cli not installed — see Install section below not logged in / ok: false Guide user to Settings → Connectors → Lark (Feishu) → Connect",
+  "最新更新时间": "2026-09-07T17:22:40+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- 操作飞书多维表格、文档、日历、任务与邮件。时，用它产出或更新：Result Action -------- -------- tokenStatus: \"valid\" Proceed to business commands command not found lark-cli not installed — see Install section below not logged in / ok: false Guide user to Settings → Connectors → Lark (Fe…",
+  "skill_id": "02610-lark-tools-1dd378e2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/lark-tools/SKILL.md",
+  "relative_path": "lute/.dsh/skills/lark-tools/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "56afa29b59ce7a0ab4930fd4e2b626b9d43765fd2024535704646c28d4cf62d3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

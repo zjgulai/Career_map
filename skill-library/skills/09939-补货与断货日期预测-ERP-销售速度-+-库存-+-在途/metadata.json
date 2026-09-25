@@ -1,0 +1,22 @@
+{
+  "英文名称": "补货与断货日期预测（ERP 销售速度 + 库存 + 在途）",
+  "中文名称": "待补：补货与断货日期预测（ERP 销售速度 + 库存 + 在途）",
+  "一句话作用": "当需要按 SKU/站点计算可售天数、预计断货日与预警等级（如 30 天内断货）以驱动需求预测与补货链时调用。",
+  "关键输入": "- ERP 或合并表含：sku、 可售库存 、 在途量 、 近 7/30 天销量或日均 、 站点/渠道 。 - 缺货在途拆分、不可售库存（冻结）需单独列或规则说明。",
+  "关键输出": "- 表：sku market sellable qty inbound daily rate days cover est stockout date alert - 摘要 ：30 天内断货 SKU 数量与 GMV 占比（若提供价格）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要按 SKU/站点计算可售天数、预计断货日与预警等级（如 30 天内断货）以驱动需求预测与补货链时调用。时，用它产出或更新：- 表：sku market sellable qty inbound daily rate days cover est stockout date alert - 摘要 ：30 天内断货 SKU 数量与 GMV 占比（若提供价格）。",
+  "skill_id": "09939-erp-2e82d6eb",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/replenishment-predictor/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/replenishment-predictor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c170ddca024232b06e5391699b3f3d63103b4a595f675fa9396f728cd365c18",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

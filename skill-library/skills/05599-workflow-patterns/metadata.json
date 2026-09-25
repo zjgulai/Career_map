@@ -1,0 +1,22 @@
+{
+  "英文名称": "workflow-patterns",
+  "中文名称": "待补：workflow-patterns",
+  "一句话作用": "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol.",
+  "关键输入": "- Implementing tasks from a track's plan.md - Following TDD red-green-refactor cycle - Completing phase checkpoints - Managing git commits and notes - Understanding quality assurance gates - Handling verification protoc…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Implementing tasks from a track's plan.md - Following TDD red-green-refactor cycle - Completing phase checkpoints - Managing git commits and notes - Understanding quality assurance gates - Handling verification protoc…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05599-workflow-patterns-82dd5652",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/conductor/skills/workflow-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/conductor/skills/workflow-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "76f75b65c359d60eb9df92d8e0903689245eb79f087784b0bf276b10263b3d22",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

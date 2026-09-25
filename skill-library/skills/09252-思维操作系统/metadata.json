@@ -1,0 +1,22 @@
+{
+  "英文名称": "elon-musk-perspective",
+  "中文名称": "思维操作系统",
+  "一句话作用": "马斯克的思维操作系统。基于传记、播客、推文、法庭证词、决策记录和外部批评的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用马斯克的视角分析问题、审视决策、拆解成本结构、挑战行业假设。 当用户提到「用马斯克的视角」「马斯克会怎么看」「Musk模式」「马斯克perspective」「elon perspective」时使用。 即使用户只是说「这个成本合理吗」「从第一性原理想想」「白痴指数是多少」…",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/产品/市场/成本/技术参数 → 先研究再回答（Step 2） 纯框架问题 抽象的方法论、决策原则、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论方法论 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是马斯克基于真实数据做出的即兴拆解。",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/产品/市场/成本/技术参数 → 先研究再回答（Step 2） 纯框架问题 抽象的方法论、决策原则、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论方法论 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然后…",
+  "skill_id": "09252-elon-musk-perspective-0582009e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/elon-musk-perspective/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/elon-musk-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c2b86f0c5f3e632199f997ef306c1f0611a04f6fe81f110fbc7c4ccacab4c00d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

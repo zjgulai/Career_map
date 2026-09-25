@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-self-rag-reflective-retrieval",
+  "中文名称": "自反思检索生成框架",
+  "一句话作用": "触发词：自反思检索、幻觉控制、检索时机判断、合规文档更新、答案支撑度。何时不用：知识库稳定、问题简单时普通 RAG 即可；要优化候选排序时用精排或 Listwise 重排。安全边界：涉合规与健康类的回答须给出来源文档与支撑度标记并保留人工复核通道，不得以模型自评替代事实核验。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要知识库团队面临RAG生成幻觉率高达18%——Self-RAG自反思机制将幻觉率降至6%，决策准确率+34%，年化避免错误决策损失60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03799-p2s-self-rag-reflective-retrieval-0dca3b81",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-self-rag-reflective-retrieval/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-self-rag-reflective-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39ed4b017049d7d5713b2c3b6a28dfb81a73bca800a638bec718d7a08dbf95c4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

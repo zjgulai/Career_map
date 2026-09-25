@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-negative-review-root-cause-analyzer",
+  "中文名称": "差评根因分析器 方面级情感分析定位产品修复优先级",
+  "一句话作用": "触发词：差评根因、方面级情感、修复优先级、噪音与吸力问题、多市场差评差异、改进排序。何时不用：要做评论聚类与维度排行统计用「评论结构化抽取」；要判断改动与差评的因果关系用「因果VOC归因」。安全边界：结论须附代表性差评原文并建立差评数据隐私保护机制（GDPR/CCPA 口径）；模型对母婴专业术语识别不足与误判风险须靠人工验证环节兜底。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品经理面临\"吸奶器150条差评分散在多维度不知先修复什么\"——ABSA根因分析输出优先级修复清单，针对噪音问题改进后差评率降低72%，评分从3.8→4.3星时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12191-p2s-negative-review-root-cause-analyzer-8a28b153",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-negative-review-root-cause-analyzer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-negative-review-root-cause-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16f47e241fb970351657b6d5f4cc9d84ac12ecc65ff4f4b365028074a85675c1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

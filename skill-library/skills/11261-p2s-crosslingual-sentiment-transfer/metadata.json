@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-crosslingual-sentiment-transfer",
+  "中文名称": "待补：p2s-crosslingual-sentiment-transfer",
+  "一句话作用": "触发词：p2s-crosslingual-sentiment-transfer。跨语言情感迁移 (Cross-Lingual Sentiment Transfer)",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "方法 mBERT Avg XLM-R Avg ------ ----------- ----------- Zero-Shot 45.68 60.35 Translation-TA 46.41 52.59 LACA + XLM-R 57.29 66.35 LACA + LLaMA 70B 71.17 — XLM-R 在零 shot 设置下已经是强基线，而 LACA 将 mBERT 提升约 11%、XLM-R 提升约 6%。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-crosslingual-sentiment-transfer。跨语言情感迁移 (Cross-Lingual Sentiment Transfer)时，用它产出或更新：方法 mBERT Avg XLM-R Avg ------ ----------- ----------- Zero-Shot 45.68 60.35 Translation-TA 46.41 52.59 LACA + XLM-R 57.29 66.35 LACA + LLaMA 70B 71.17 — XLM-R 在零 sh…",
+  "skill_id": "11261-p2s-crosslingual-sentiment-transfer-505b025a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-crosslingual-sentiment-transfer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-crosslingual-sentiment-transfer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28f17f9b4e3aedd4710f958436c0ccab0f05f29e8ce8736e08cf3a66c2c66a2c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

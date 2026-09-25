@@ -1,0 +1,22 @@
+{
+  "英文名称": "multichannel-inventory-sync",
+  "中文名称": "待补：multichannel-inventory-sync",
+  "一句话作用": "- Establish a single source of truth for inventory and orders across Shopify, Amazon, eBay, and social commerce channels to prevent overselling 触发词：多渠道库存同步、库存同步、多渠道销售、防超卖、统一库存、渠道同步。",
+  "关键输入": "- When expanding a DTC brand into marketplaces like Amazon or eBay. - When inventory levels are low and the risk of overselling on a fast-moving channel is high. - When managing both a retail storefront and a B2B/Wholes…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:24:57+08:00",
+  "业务场景": "business-operations",
+  "解决具体问题": "当需要- When expanding a DTC brand into marketplaces like Amazon or eBay. - When inventory levels are low and the risk of overselling on a fast-moving channel is high. - When managing both a retail storefront and a B2B/Wholes…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02651-multichannel-inventory-sync-a65268d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/multichannel-inventory-sync/SKILL.md",
+  "relative_path": "lute/.dsh/skills/multichannel-inventory-sync/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b769dabcb0931d892229300bd6c28e845161e1865f7dd43c982aed02b596eaa0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "omniverse-cad-to-simready",
+  "中文名称": "待补：omniverse-cad-to-simready",
+  "一句话作用": "Coordinate the end-to-end CAD/source-asset to SimReady workflow. Use for broad requests such as CAD to SimReady, source asset to simulation-ready USD, or prop packaging that require conversion, material/physics assignme…",
+  "关键输入": "- Prefer running the preflight reference first for deterministic setup. It installs or verifies local upstream checkouts, writes a cad-to-simready-preflight.json manifest, and exports PHYSICAL AI PREFLIGHT MANIFEST plus PHYSICAL AI REQUIRE PREFLIGHT=1 for",
+  "关键输出": "Emit a consolidated workflow report in Markdown, and include JSON when the workflow writes structured artifacts. The report must include: - Overall status: passed, blocked, failed, or needs rerun. - Request summary: source asset path, detected source format,…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this workflow skill when the user wants an end-to-end pipeline from a source asset to a SimReady asset or package. This skill coordinates existing conversion, authoring, validation, conformance, rendering, and packa…时，用它产出或更新：Emit a consolidated workfl…",
+  "skill_id": "00950-omniverse-cad-to-simready-59514d1c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/omniverse-cad-to-simready/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/omniverse-cad-to-simready/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ff34f478610613bd37aa19ce0c3b0fdc2352226ca561b831799fce4db069531",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

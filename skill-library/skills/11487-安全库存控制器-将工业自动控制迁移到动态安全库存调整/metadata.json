@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-pid-safety-stock-controller",
+  "中文名称": "安全库存控制器 将工业自动控制迁移到动态安全库存调整",
+  "一句话作用": "触发词：PID控制、安全库存动态调整、需求加速检测、稳态误差修正、防超调。何时不用：需求平稳的 SKU 用固定安全库存公式即可（「安全库存与补货策略」）；前置期分布风险建模走「提前期分布建模」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链工程师面临\"安全库存用固定系数既浪费又不够用无法自适应市场变化\"——PID控制器迁移将安全库存动态调整精度提升52%，库存成本降低18%，年化节省$8.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11487-p2s-pid-safety-stock-controller-cc273229",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-pid-safety-stock-controller/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-pid-safety-stock-controller/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88280f3bed1ca9c5ed003da69f880d173c46deb532ff723eafdf3f8daf37c10c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

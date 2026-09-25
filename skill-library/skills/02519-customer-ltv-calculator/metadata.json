@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-ltv-calculator",
+  "中文名称": "待补：customer-ltv-calculator",
+  "一句话作用": "- Trigger: Calculate customer lifetime value (CLV) and use it to drive retention strategies, VIP programs, and win-back flows. 边界：LTV 计算与客户分层依据；具体活动设计走 retention/winback",
+  "关键输入": "- When setting acquisition cost (CAC) targets for marketing channels. - When identifying high-value customers for a VIP or referral program. - When predicting customer churn to trigger automated win-back sequences. - Wh…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:57:17+08:00",
+  "业务场景": "customer-crm",
+  "解决具体问题": "当需要- When setting acquisition cost (CAC) targets for marketing channels. - When identifying high-value customers for a VIP or referral program. - When predicting customer churn to trigger automated win-back sequences. - Wh…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02519-customer-ltv-calculator-a6e57282",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/customer-ltv-calculator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/customer-ltv-calculator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b784a61e2e44ff5b50b33b9c76c7d7b048a48f2e2d1c184db596000eb4806202",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

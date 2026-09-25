@@ -1,0 +1,22 @@
+{
+  "英文名称": "tax-loss-harvesting",
+  "中文名称": "待补：tax-loss-harvesting",
+  "一句话作用": "Identify tax-loss harvesting opportunities across taxable accounts. Finds positions with unrealized losses, suggests replacement securities, and tracks wash sale windows. Triggers on \"tax-loss harvesting\", \"TLH\", \"harve…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Harvest opportunity list (Excel) - Trade execution sheet - Wash sale tracking calendar - Tax savings estimate summary - Replacement security rationale",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Identify tax-loss harvesting opportunities across taxable accounts. Finds positions with unrealized losses, suggests replacement securities, and tracks wash sale windows. Triggers on \"tax-loss harvesting\", \"TLH\", \"harve…时，用它产出或更新：- Harvest opportunity list…",
+  "skill_id": "05556-tax-loss-harvesting-0210094a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/tax-loss-harvesting/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/tax-loss-harvesting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2085af6e7cb49da1a1e686f2b9f2cb1bd1e47558d79a32f3fc6e5b346d67857e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

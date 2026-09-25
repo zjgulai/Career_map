@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Click-Through-Rate-Title-Optimizer",
+  "中文名称": "待补：Click Through Rate Title Optimizer",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 68.0, \"best\": 73.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:09:01.872537\"} {\"round\": 0, \"status\": \"rewrite failed\", \"score\": 63.0, \"best\": 63.0, \"mutated\": \"full rewrite\",…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T18:17:48+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 68.0, \"best\": 73.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:09:01.872537\"} {\"round\": 0, \"status\": \"rewrite failed\", \"score\": 63.0, \"best\": 63.0, \"mutated\": \"full rewrite\",…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06926-skill-click-through-rate-title-optimizer-32b6b8dc",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Click-Through-Rate-Title-Optimizer.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Click-Through-Rate-Title-Optimizer.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "3ba0d9a1b1c9e2f7e7007d6b3a031b52ace588668ad1af211466957a66d621e5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

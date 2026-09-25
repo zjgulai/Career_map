@@ -1,0 +1,22 @@
+{
+  "英文名称": "ab-test-setup",
+  "中文名称": "待补：ab-test-setup",
+  "一句话作用": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" or \"hypothesi…",
+  "关键输入": "1. Baseline conversion rate : Your current rate 2. Minimum detectable effect (MDE) : Smallest change worth detecting 3. Statistical significance level : Usually 95% 4. Statistical power : Usually 80%",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Weak hypothesis: \"Changing the button color might increase clicks.\" Strong hypothesis: \"Because users report difficulty finding the CTA (per heatmaps and feedback), we believe making the button larger and using contrast…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00266-ab-test-setup-b118d00c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/ab-test-setup/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/ab-test-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ea715c1a18098b9ef3776e10b6e1c5a7432b2087b69d4d40362433ea5655b51",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "visualize",
+  "中文名称": "待补：visualize",
+  "一句话作用": "Create visualizations and interactive tools directly in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, comparisons, scenarios, adjustable inputs, and ex…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T03:11:04+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Create visualizations and interactive tools directly in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, comparisons, scenarios, adjustable inputs, and ex…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00683-visualize-044821f8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/bundled-marketplaces/openai-bundled.staging-f4e8c584-ce2c-49f9-a6c8-a7c06e0dbbfb/plugins/visualize/skills/visualize/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/bundled-marketplaces/openai-bundled.staging-f4e8c584-ce2c-49f9-a6c8-a7c06e0dbbfb/plugins/visualize/skills/visualize/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ba56c003b4549402d924c820b6dc8d02febef7b0778b9b4d52d1e28f3549048",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

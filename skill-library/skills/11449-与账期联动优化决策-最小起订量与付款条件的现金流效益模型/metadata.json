@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-moq-payment-terms-optimization",
+  "中文名称": "与账期联动优化决策 最小起订量与付款条件的现金流效益模型",
+  "一句话作用": "触发词：MOQ优化、账期价值、批量折扣、持有成本、采购现金流。何时不用：要与供应商多轮自动议价用「采购谈判多Agent」，要归因采购价格超支用「采购价格达成率KPI」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购谈判时面临\"单看价格忽视持有成本+账期价值\"——联合优化模型量化账期延长30天=0.5%折扣等价，避免系统性次优决策时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11449-p2s-moq-payment-terms-optimization-aa755127",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-moq-payment-terms-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-moq-payment-terms-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90facdfdfe1e54959f73950a5645776856b66d763d8879ba5c7e1c732a884d8e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

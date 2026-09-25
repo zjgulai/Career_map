@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-decision-confidence-threshold",
+  "中文名称": "置信度决策门控 高置信自动执行低置信升级人工防止 AI 乱操作",
+  "一句话作用": "触发词：置信度门控、决策校准、低置信升级人工、Platt校准、自动执行阈值、高风险确认。何时不用：要按 SLO 与错误预算动态升降 Agent 自主权时用「Agent错误预算」；要定位能力短板做阶段评估时用「Agent阶段评估」；要盯运行链路与 Token 成本时用「Agent可观测性追踪」。安全边界：低置信决策不得静默自动执行，高风险动作必须人工确认后才放行；校准参数必须用带真实结果的历史决策拟合，禁止拿未校准的模型原始置信度直接设…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要风控负责人面临\"AI自动执行了低置信度决策导致错误PO锁定大额资金\"——三档置信度门控将AI乱操作导致的损失年化降低$6.8万，高风险操作人工确认率100%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02700-p2s-agent-decision-confidence-threshold-0587f30a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agent-decision-confidence-threshold/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agent-decision-confidence-threshold/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d9521dd2d601acae3eb35a638df7750f0030c6e3925de5eaf4e59a1b7d292ed",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Transaction Correctness",
+  "中文名称": "待补：Transaction Correctness",
+  "一句话作用": "Review transactional workflows for atomicity, isolation, idempotency, and failure-safe state changes.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Transaction boundary recommendation. - Concurrency or race-condition risks. - Idempotency gaps. - Safer sequencing or locking suggestions. - Invariants that must always hold.",
+  "最新更新时间": "2026-09-19T04:11:40+08:00",
+  "业务场景": "Databases",
+  "解决具体问题": "当需要Review transactional workflows for atomicity, isolation, idempotency, and failure-safe state changes.时，用它产出或更新：- Transaction boundary recommendation. - Concurrency or race-condition risks. - Idempotency gaps. - Safer sequencing or locking suggestions. - In…",
+  "skill_id": "05138-transaction-correctness-8c201515",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Transaction-Correctness/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Transaction-Correctness/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ace39831ad761005908b4cdb67572493f65504ea5c9e31d4185b3c656caa3de",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

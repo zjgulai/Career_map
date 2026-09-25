@@ -1,0 +1,22 @@
+{
+  "英文名称": "window-management",
+  "中文名称": "待补：window-management",
+  "一句话作用": "Customize macOS SwiftUI windows and scene behavior. Use when tuning window chrome, drag regions, placement, restoration, launch behavior, or borderless windows.",
+  "关键输入": "- Use swiftui-patterns for broader scene, commands, settings, sidebar, and inspector architecture. - Use liquid-glass when the main question is modern macOS visual treatment, Liquid Glass, or system material adoption.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Use swiftui-patterns for broader scene, commands, settings, sidebar, and inspector architecture. - Use liquid-glass when the main question is modern macOS visual treatment, Liquid Glass, or system material adoption.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00730-window-management-905361a5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/window-management/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/window-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9fea3f84f6cd96c629bbb45cfe2715e9669a737f088a3453a20bd6083067e64d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

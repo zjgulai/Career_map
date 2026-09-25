@@ -1,0 +1,22 @@
+{
+  "英文名称": "pb-005",
+  "中文名称": "待补：pb-005",
+  "一句话作用": "PB-005 服务留存与复购（材料《AI组织变革》手册原文，逐字）。触发与责任。 客户咨询、订单异常、售后或获许可的生命周期事件触发FLOW-05，AGT-034担任用户经营结果负责人；单一客诉可由AGT-037承担该工单。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T22:55:54+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要PB-005 服务留存与复购（材料《AI组织变革》手册原文，逐字）。触发与责任。 客户咨询、订单异常、售后或获许可的生命周期事件触发FLOW-05，AGT-034担任用户经营结果负责人；单一客诉可由AGT-037承担该工单。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04059-pb-005-23ad7b77",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/pb-005/SKILL.md",
+  "relative_path": "lute/.dsh/skills/pb-005/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0e340a6a47973a014680150c0747cc45f5b62737de262c418e02272b6163dab6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

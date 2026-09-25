@@ -1,0 +1,22 @@
+{
+  "英文名称": "java-coding-standards",
+  "中文名称": "编码规范",
+  "一句话作用": "Spring Boot 服务的 Java 编码规范：命名、可变性、Optional 使用、Stream、异常处理、泛型及项目结构布局。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:40+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Spring Boot 服务的 Java 编码规范：命名、可变性、Optional 使用、Stream、异常处理、泛型及项目结构布局。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04916-java-coding-standards-a9e9e5e8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/java-coding-standards/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/java-coding-standards/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1885cc238adbaa723cea04dde94ba47b20281e6d8d581b65a0d1cdc9fd0e1582",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-epr-extended-producer-responsibility-tag",
+  "中文名称": "欧盟EPR扩大生产者责任标签体系 注册合规包装标签与回收报告自动化",
+  "一句话作用": "触发词：EPR 注册、包装回收、生产者责任、EPR 费率、回收报告、德国站合规。何时不用：要出欧盟 GPSR 风险评估报告时用「GPSR 风险评估自动化」，要核化学限制物质时用「REACH 化学品合规」。安全边界：注册与申报须由欧盟境内责任人实际提交，本技能只做状态扫描、费用测算与优先级排序。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规面临\"德国EPR不合规随时被罚款最高10万欧元\"——合规矩阵扫描从2周→10分钟，38个未注册SKU优先级自动排序时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12540-p2s-epr-extended-producer-responsibility-tag-06dec6d3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-epr-extended-producer-responsibility-tag/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-epr-extended-producer-responsibility-tag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5398d82f2842b5201deac198343a34d762ef2b8544a9d8dd0cda10b7abd8d3cb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-working-capital-cycle-optimizer",
+  "中文名称": "营运资金周期优化",
+  "一句话作用": "触发词：营运资金周期、WCC模拟、蒙特卡洛、流动资金需求、策略对比。何时不用：需要 DIO/DSO/DPO 三角诊断与多平台打款周期对比时用「供应链营运资金优化」；只做旺季备货缺口压力测试时用「营运资金压力测试」。安全边界：只做内部资金测算，不代改账期与渠道；模拟参数须与实际财务口径一致。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务总监面临\"月销500万但流动资金缺口达800万撑不住旺季\"——营运资金周期建模将DIO+DSO-DPO从66天压缩至9天，释放流动资金700万元，年化资金成本节省112万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12623-p2s-working-capital-cycle-optimizer-6a792300",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-working-capital-cycle-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-working-capital-cycle-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "85de96452bd7568d8c77ace18c46adac3b8b2ddc19a49652f23f4723ae6d0a69",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

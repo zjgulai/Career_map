@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-decision-graph-sc-inference",
+  "中文名称": "供应链因果决策图推理 从相关性到因果性分析行动的核心跨越",
+  "一句话作用": "触发词：因果决策图、因果图构建、后门调整、干预效应、反事实推理。何时不用：只需时间序列上的活动增效用合成控制或时序因果技能，本技能用因果图做干预与反事实推理并审查关联误判。安全边界：仅分析自有折扣与供应决策，不得涉及与竞品的价格合谋；供应商相关结论不得构成歧视性排除，须保留分析文档与审计轨迹。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要决策者面临\"相关性分析无法判断因果方向导致错误干预\"——Pearl因果阶梯从关联→干预→反事实，Airbus/Merck案例证明正确干预降低30%库存决策错误率时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02864-p2s-causal-decision-graph-sc-inference-f4880514",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-decision-graph-sc-inference/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-decision-graph-sc-inference/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d078010b0655355c1e6844140d8e4a290afacb1ee0163721569918d1a4772893",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

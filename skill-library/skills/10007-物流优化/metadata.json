@@ -1,0 +1,22 @@
+{
+  "英文名称": "物流优化",
+  "中文名称": "物流优化",
+  "一句话作用": "当用户需要规划运输路线、平衡成本与时效、选择承运商或做关务合规时使用。触发词：物流优化、运输路线、成本测算、承运商选择、物流方案、关务合规、多式联运、TCO分析。何时不用：运单状态追踪（使用物流追踪）、库存补货预测（使用供应链主控-库存预测）、供应商准入评估（使用供应链主控-供应商评估）、仓库布局与拣货优化、实时配送调度。",
+  "关键输入": "- 用户需要发一批货，要做发货前决策（选哪条路线、哪家承运商、花多少钱） - 用户要做成本时效平衡（加急 vs 经济、空运 vs 海运 vs 铁路） - 用户要对比多家承运商（顺丰/京东/德邦/DHL/FedEx/UPS/专线） - 用户要规划跨境物流（出口到某国，含清关、税费、HS 编码） - 用户要做月度/年度线路优化与 TCO 分析 - 用户需要关务合规指引（报关材料、HS 编码、税费测算）",
+  "关键输出": "物流优化方案 : 完整示例见 examples/workflow-example.md，测算规则见 references/dfm-rules.md。",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用户需要发一批货，要做发货前决策（选哪条路线、哪家承运商、花多少钱） - 用户要做成本时效平衡（加急 vs 经济、空运 vs 海运 vs 铁路） - 用户要对比多家承运商（顺丰/京东/德邦/DHL/FedEx/UPS/专线） - 用户要规划跨境物流（出口到某国，含清关、税费、HS 编码） - 用户要做月度/年度线路优化与 TCO 分析 - 用户需要关务合规指引（报关材料、HS 编码、税费测算）时，用它产出或更新：物流优化方案 : 完整示例见 examples/workflow-example.md，测算…",
+  "skill_id": "10007-skill-6c08c8c8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/物流优化/SKILL.md",
+  "relative_path": "lute/project/81-Skills/物流优化/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "7fbc4e40852cd76cb35607c259134417a0643dd49ffcc1c35ebcf335e1f3c985",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

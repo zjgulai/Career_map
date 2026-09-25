@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-factory-capacity-allocation",
+  "中文名称": "多工厂产能分配算法 多厂商协同下的弹性产能调度优化",
+  "一句话作用": "触发词：多工厂分配、集中度、单点故障、弹性产能。何时不用：只有单一可选工厂时本卡不适用，应先做供应商开发；只测算单厂产能是否够用时用产能排程类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链面临\"单一工厂依赖70%，停工即断供\"——多工厂分配算法将集中度从70%降至40%，防止单点故障损失约20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03476-p2s-multi-factory-capacity-allocation-aee22189",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-factory-capacity-allocation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-factory-capacity-allocation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca6c93ba6090e6dbe7a9b20033af88e299ab8ff956d3de042b1af041f0a2a080",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

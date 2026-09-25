@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-skill-registry-dynamic-loading",
+  "中文名称": "技能注册表与动态发现",
+  "一句话作用": "触发词：技能注册、技能编排、Task Blueprint、Schema 匹配、即插即用。何时不用：Agent 实例的注册与路由走「Agent 注册与发现」；技能生命周期治理走「技能生命周期设计」。安全边界：技能注册须校验输入输出 Schema 与权限范围，未通过校验的技能不得进入编排。",
+  "关键输入": "输入 ：需 Skill Registry 中的技能元数据（输入输出 Schema、质量阈值）与 Task Blueprint（任务类型、输入输出 Schema、质量阈值），任务与技能级粒度。 输出 ：产出匹配到的技能组合与加载结果、技能效果对比指标（F1、延迟、成本），供 MAS 编排器与任务调度使用。",
+  "关键输出": "输入 ：需 Skill Registry 中的技能元数据（输入输出 Schema、质量阈值）与 Task Blueprint（任务类型、输入输出 Schema、质量阈值），任务与技能级粒度。 输出 ：产出匹配到的技能组合与加载结果、技能效果对比指标（F1、延迟、成本），供 MAS 编排器与任务调度使用。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：技能注册、技能编排、Task Blueprint、Schema 匹配、即插即用。何时不用：Agent 实例的注册与路由走「Agent 注册与发现」；技能生命周期治理走「技能生命周期设计」。安全边界：技能注册须校验输入输出 Schema 与权限范围，未通过校验的技能不得进入编排。时，用它产出或更新：输入 ：需 Skill Registry 中的技能元数据（输入输出 Schema、质量阈值）与 Task Blueprint（任务类型、输入输出 Schema、质量阈值），任务与技能级粒度。 输出 ：产出匹…",
+  "skill_id": "12119-p2s-skill-registry-dynamic-loading-0dc4f9cd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-skill-registry-dynamic-loading/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-skill-registry-dynamic-loading/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "49b411a420ed82475d571f5f82c3ffb6ff7461d71771e0d86a2e8b4a3a84e686",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

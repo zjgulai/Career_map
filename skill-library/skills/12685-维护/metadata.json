@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-维护",
+  "中文名称": "维护",
+  "一句话作用": "This skill should be used when the user asks to \"仓库体检\", \"检查仓库\", \"repo health\", \"维护检查\", \"有没有脏数据\", or on a weekly cadence. Runs the mechanical health checks over the paper2skills repo — duplicate cards, frontmatter comple…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T12:27:10+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"仓库体检\", \"检查仓库\", \"repo health\", \"维护检查\", \"有没有脏数据\", or on a weekly cadence. Runs the mechanical health checks over the paper2skills repo — duplicate cards, frontmatter comple…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12685-paper-2d2ec45f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/paper_to_skills/paper2skills-skills/paper-维护/SKILL.md",
+  "relative_path": "lute/project/paper_to_skills/paper2skills-skills/paper-维护/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90185105e9ddcb5fb9ca5d7a753da3511935fdb9ac62f3ec427943f522823f1f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

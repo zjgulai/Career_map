@@ -1,0 +1,22 @@
+{
+  "英文名称": "browsing",
+  "中文名称": "待补：browsing",
+  "一句话作用": "Use when you need direct browser control - teaches Chrome DevTools Protocol for controlling existing browser sessions, multi-tab management, form automation, and content extraction via use browser MCP tool",
+  "关键输入": "Use this when: - Controlling authenticated sessions - Managing multiple tabs in running browser - Playwright MCP unavailable or excessive Use Playwright MCP when: - Need fresh browser instances - Generating screenshots/…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this when: - Controlling authenticated sessions - Managing multiple tabs in running browser - Playwright MCP unavailable or excessive Use Playwright MCP when: - Need fresh browser instances - Generating screenshots/…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05839-browsing-c4fd23eb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/superpowers-chrome/skills/browsing/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/superpowers-chrome/skills/browsing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "540ca0ccbe557ac6bddec22ed11eb2c92e5adb26874ecae9a062b71dceb6ae48",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

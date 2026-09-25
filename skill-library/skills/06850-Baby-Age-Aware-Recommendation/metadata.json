@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Baby-Age-Aware-Recommendation",
+  "中文名称": "待补：Baby Age Aware Recommendation",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:46:58.247539\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:46:58+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:46:58.247539\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06850-skill-baby-age-aware-recommendation-95a7af6f",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Baby-Age-Aware-Recommendation.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Baby-Age-Aware-Recommendation.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "1b6267ce3827c833fb42719f6761fe340313d08df48d7c50bff05b06ce817460",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

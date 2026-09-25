@@ -1,0 +1,22 @@
+{
+  "英文名称": "跨境选品",
+  "中文名称": "跨境选品",
+  "一句话作用": "当用户需要从公开或授权的商品详情页抽取并校验 SKU 级跨境电商数据时使用。 触发词：跨境选品、SKU采集、ASIN采集、商品详情页、变体展开、选品数据校验、SKU数据校验、详情页优先采集、ASIN字段提取、SKU展开CSV。 This skill should be used when the user needs SKU-level cross-border e-commerce product data extraction o…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Run summary：入口、ASIN 数、SKU 数、失败数。 - Product-level JSON：ASIN 级聚合字段。 - SKU-expanded CSV：每个 SKU variant 独立一行。 - Validation report：字段完整率、SKU count check、image URL check。 - Notes：采集限制、失败原因、未验证项。",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当用户需要从公开或授权的商品详情页抽取并校验 SKU 级跨境电商数据时使用。 触发词：跨境选品、SKU采集、ASIN采集、商品详情页、变体展开、选品数据校验、SKU数据校验、详情页优先采集、ASIN字段提取、SKU展开CSV。 This skill should be used when the user needs SKU-level cross-border e-commerce product data extraction o…时，用它产出或更新：- Run summary：入口、ASIN 数、SK…",
+  "skill_id": "10535-skill-ae08b947",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/跨境选品/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/跨境选品/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "61bfa03847c127843fdda3134ab01364851eb5e4971f2e94dc85f29a608aab6d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-real-time-streaming-recommendation",
+  "中文名称": "流式实时推荐：毫秒级个性化更新架构",
+  "一句话作用": "触发词：流式推荐、实时特征、毫秒级更新、会话内推荐、推荐延迟。何时不用：要做三层意图缓存的首页个性化用「LLM 会话个性化缓存」；要按匿名会话图预测下一件商品用「SR-GNN 会话推荐」。安全边界：实时行为流须按授权范围采集并脱敏，不得留存不必要的个人信息；延迟与吞吐须按容量规划设上限，不得为压延迟牺牲数据完整性。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户点击了便携吸奶器后首页推荐还是旧的因为批量系统明天才更新——流式推荐每次用户行为后毫秒级更新推荐结果，session内CTR提升15-25%年化GMV增益15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03695-p2s-real-time-streaming-recommendation-cb6a7e28",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-real-time-streaming-recommendation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-real-time-streaming-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fdc243d014dc8543d5e22b97a20b18bf8781f94d6e15ebb2479e1c7783db930e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

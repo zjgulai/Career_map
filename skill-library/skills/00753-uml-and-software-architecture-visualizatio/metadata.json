@@ -1,0 +1,22 @@
+{
+  "英文名称": "uml-and-software-architecture-visualization",
+  "中文名称": "待补：uml-and-software-architecture-visualization",
+  "一句话作用": "Design, critique, read, write, render, and implement UML and UML-like software diagrams. Use when the user mentions UML, sequence diagrams, class diagrams, activity diagrams, state machines, use case diagrams, component…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- State the recommended diagram type and one fallback, with the reason tied to audience and modeling job. - State whether the output is formal UML, UML-like, architecture model-as-code, graph visualization, or an editable diagram product. - Identify the sourc…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Design, critique, read, write, render, and implement UML and UML-like software diagrams. Use when the user mentions UML, sequence diagrams, class diagrams, activity diagrams, state machines, use case diagrams, component…时，用它产出或更新：- State the recommended di…",
+  "skill_id": "00753-uml-and-software-architecture-visualization-e75a525f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/uml-and-software-architecture-visualization/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/uml-and-software-architecture-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66c7aa61b25c2e68835f8a7eda725a2a232ba25c0631702a5668879aa760460e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

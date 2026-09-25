@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-realtime-feature-collection",
+  "中文名称": "流式特征采集与在线特征仓库：推荐系统实时个性化的数据基础设施",
+  "一句话作用": "触发词：实时特征采集、流式窗口、特征时效、在线仓库、行为信号。何时不用：需要解决训练与线上口径一致时用特征仓库架构技能；只做决策侧低延迟读取时用供应链在线特征存储技能。安全边界：行为事件须去标识化并按隐私授权采集，特征不得用于超出授权范围的目的。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要算法工程师面临特征入仓延迟——Realtime Feature将时延90分钟压到5分钟，年化省22万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12095-p2s-realtime-feature-collection-8f98baa8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-realtime-feature-collection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-realtime-feature-collection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1faa4e61b5576285071a604b6427dee44183fcebc2ff9f86df17bc422de083a4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Agentic-Workflow-Compilation",
+  "中文名称": "待补：Agentic Workflow Compilation",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T04:16:38.282995\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:16:38+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T04:16:38.282995\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06789-skill-agentic-workflow-compilation-c47ff117",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Agentic-Workflow-Compilation.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Agentic-Workflow-Compilation.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "205356e4ecfff885ae98abb96c9784a4dc86818da06912d3902a06fdefe29aea",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

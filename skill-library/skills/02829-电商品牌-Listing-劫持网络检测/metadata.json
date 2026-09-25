@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-brand-listing-hijacking-detection",
+  "中文名称": "电商品牌 Listing 劫持网络检测",
+  "一句话作用": "触发词：Listing 劫持检测、刷评网络识别、评论爆发度、风险分预警、卖家异常聚类。何时不用：只做单个 Buy Box 劫持的分钟级告警时用「Buy Box 劫持实时监控」；要看多个跟卖账号是否同属一个集团时用「跟卖卖家网络图谱」。安全边界：风险分需人工复核后使用，不代平台举报、不作法律定性。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要竞品在品牌方ASIN下挂载劣质品蹭流量，人工发现需 2 周、BSR 损失严重——product-reviewer 二部图网络聚类特征早期检测劫持卖家，发现时间压缩至 24-48h，年化保护 GMV 20-100 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02829-p2s-brand-listing-hijacking-detection-14ada6ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-brand-listing-hijacking-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-brand-listing-hijacking-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9258fd2adcc2d5360342f3648d39f36e6edfcda9f142083b8e60a800a0032f5c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Spring Boot Best Practices",
+  "中文名称": "待补：Spring Boot Best Practices",
+  "一句话作用": "Generate Spring Boot components following modern Java best practices and team conventions",
+  "关键输入": "For every component generated: 1. Controller Tests - Use @WebMvcTest and MockMvc 2. Service Tests - Use @ExtendWith(MockitoExtension.class) with mocks 3. Repository Tests - Use @DataJpaTest with test database 4. Integration Tests - Use @SpringBootTest for end…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:52:58+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate Spring Boot components following modern Java best practices and team conventions时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05108-spring-boot-best-practices-a8b14807",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Spring-Boot-Best-Practices/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Spring-Boot-Best-Practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb76035a1aa7f6cde96ce72afdaac851710b2d01c754d74d6bbe828bacd9a9a6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "scrna-seq-qc",
+  "中文名称": "待补：scrna-seq-qc",
+  "一句话作用": "Process, quality-control, annotate, and visualize single-cell or single-nucleus RNA-seq datasets across tissues and species. Use when Codex needs to build, adapt, or review a general scRNA-seq QC pipeline; choose datase…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When implementing a pipeline, produce an auditable output set: - Filtered .h5ad or equivalent object with raw counts preserved and QC or annotation fields in metadata. - QC summary table with input cells, cells removed or flagged by each filter, final cells,…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Process, quality-control, annotate, and visualize single-cell or single-nucleus RNA-seq datasets across tissues and species. Use when Codex needs to build, adapt, or review a general scRNA-seq QC pipeline; choose datase…时，用它产出或更新：When implementing a pipeli…",
+  "skill_id": "00938-scrna-seq-qc-96a2a448",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/scrna-seq-qc/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/scrna-seq-qc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93f9280a6a8956368926152489397b4dde81b7672ee8a49a8b1060fd9f634939",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

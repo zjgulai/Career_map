@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-working-capital-optimization",
+  "中文名称": "供应链营运资金优化与CCC现金转换周期 三角分析与现金效率提升",
+  "一句话作用": "触发词：营运资金、DIO DSO DPO、CCC诊断、资金缺口、多平台打款周期对比。何时不用：按阶段拆分并测算可释放资金时用「现金转换周期优化」；做旺季备货缺口的概率模拟时用「营运资金压力测试」。安全边界：账期延长须与供应商书面确认；不得以牺牲合规或断货为代价压库，安全库存底线需业务确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务面临\"GMV增长但资金缺口扩大\"——CCC=DIO+DSO-DPO组合优化释放80万元运营资金，年省融资成本5万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03904-p2s-supply-chain-working-capital-optimization-ad1ad9b4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supply-chain-working-capital-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supply-chain-working-capital-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "78cb827c46ff38ff1a3514c7a451904a0024b22f91ef7bda1947ebc6dbdb595a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

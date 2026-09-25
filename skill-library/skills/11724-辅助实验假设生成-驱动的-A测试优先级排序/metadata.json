@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-experiment-hypothesis",
+  "中文名称": "辅助实验假设生成 驱动的 A测试优先级排序",
+  "一句话作用": "触发词：假设生成、优先级排序、ICE评分、实验候选、VOC提炼。何时不用：已有明确假设、只需设计实验时用A/B实验设计类技能。安全边界：输入只用聚合数据、不涉用户PII；LLM输出必须人工审核，防止AI幻觉。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品经理面临\"实验假设来源于个人经验导致覆盖面窄且漏掉高价值机会\"——LLM基于历史实验数据生成假设将候选假设多样性提升300%，年化发现更多增长机会增收20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11724-p2s-llm-experiment-hypothesis-e1eb7272",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-llm-experiment-hypothesis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-llm-experiment-hypothesis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c62cc4305b8b682a3d48ddc7e9b5886538ee27f291443dbe1f83f182edc6c85d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

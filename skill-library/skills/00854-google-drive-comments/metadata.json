@@ -1,0 +1,22 @@
+{
+  "英文名称": "google-drive-comments",
+  "中文名称": "待补：google-drive-comments",
+  "一句话作用": "Write, reply to, and resolve Google Drive comments on Docs, Sheets, Slides, and Drive files with evidence-backed location context. Use when the user asks to leave comments, review a file with comments, respond to commen…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Write, reply to, and resolve Google Drive comments on Docs, Sheets, Slides, and Drive files with evidence-backed location context. Use when the user asks to leave comments, review a file with comments, respond to commen…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00854-google-drive-comments-1aab197c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/google-drive/skills/google-drive-comments/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/google-drive/skills/google-drive-comments/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a3077375a8f7558b9e052c98047747b8a4a1a90a9a90b552009c28fcdadfe94a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

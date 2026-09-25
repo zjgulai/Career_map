@@ -1,0 +1,22 @@
+{
+  "英文名称": "langchain4j-spring-boot-integration",
+  "中文名称": "待补：langchain4j-spring-boot-integration",
+  "一句话作用": "Provides integration patterns for LangChain4j with Spring Boot. Handles auto-configuration, dependency injection, and Spring ecosystem integration. Use when embedding LangChain4j into Spring Boot applications.",
+  "关键输入": "To accomplish integration of LangChain4j with Spring Boot when: - Integrating LangChain4j into existing Spring Boot applications - Building AI-powered microservices with Spring Boot - Setting up auto-configuration for A…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:53+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要To accomplish integration of LangChain4j with Spring Boot when: - Integrating LangChain4j into existing Spring Boot applications - Building AI-powered microservices with Spring Boot - Setting up auto-configuration for A…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04936-langchain4j-spring-boot-integration-f6135c4a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/langchain4j-spring-boot-integration/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/langchain4j-spring-boot-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "75de8a4af78fcc525a410678075139bf822ae192c52349b45c976ec46c7eab8f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

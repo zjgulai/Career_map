@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-combo-ad-roi-maximizer",
+  "中文名称": "广告ROI最大化 Combo Pattern 从归因分析到预算自动重分配的 6 步优化链路",
+  "一句话作用": "触发词：广告 ROI 链路、归因修正、价格弹性、MMM 饱和、自我蚕食、预算重分配。何时不用：只有单渠道、小额投放时不必串整条链路；分渠道数据不足 90 天时先补数据。安全边界：自动化调价与预算调整需符合平台算法政策、不使用黑帽工具，涉及价格的动作需与定价策略协同并避开违规价格实验。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告负责人面临\"广告归因/预算分配/MMM/搜索协同是四个独立工具每次优化都要手动对齐\"——6步优化链路将广告总ROI提升24%，ACoS降低18%，年化效率提升$11.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11645-p2s-combo-ad-roi-maximizer-8534b2fa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-combo-ad-roi-maximizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-combo-ad-roi-maximizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "830a6391ac1bc6fd1fee882a3b7ecddaebb52eecc7f0cbae6963519225199bcc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

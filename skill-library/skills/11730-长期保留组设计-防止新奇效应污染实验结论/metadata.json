@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-long-term-holdout-group",
+  "中文名称": "长期保留组设计 防止新奇效应污染实验结论",
+  "一句话作用": "触发词：长期保留组、新奇效应、学习效应、衰减曲线、长期ATE。何时不用：短期指标已能代表长期价值的功能不必设保留组；采用永久对照跨迭代评估的口径请对照「长期保留组设计」条目。安全边界：需在用户协议中说明实验性质与保留组安排，满足用户告知权要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要实验平台工程师面临\"AB实验结束后用户学习效应导致长期效果被高估\"——长期保留组设计将长期效果估计偏差降低50%，年化提升实验决策长期有效性减少错误迭代成本15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11730-p2s-long-term-holdout-group-05d6dc59",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-long-term-holdout-group/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-long-term-holdout-group/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "420d72d1f5b13fcd0af3bfe66f19a57470ecb122cdd2c18fa09fc854afde95eb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

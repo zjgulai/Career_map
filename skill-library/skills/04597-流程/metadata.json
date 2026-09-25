@@ -1,0 +1,22 @@
+{
+  "英文名称": "Web页面设计",
+  "中文名称": "流程",
+  "一句话作用": "触发（正向）——设计模式：用户要设计 Web 端多屏 flow、产品信息架构、用户流程，或以下任一场景： SaaS 管理后台（权限管理、成员管理、工作区、角色配置、Admin）、 AI 产品（AI 对话、写作助手、Copilot、大模型、AI 工具）、 营销官网（Landing Page、注册转化、免费试用、访客漏斗、onboarding）、 数据分析（数据看板、BI、报表、仪表盘、图表钻取、维度筛选）、 电商（购物车、结账流程、商品…",
+  "关键输入": "Phase D.4 自检通过后仍可能因环境差异出现白屏。 生成完成后，把以下清单输出给用户作为兜底文档 。",
+  "关键输出": "按 chain-protocol.md §2.1 v1.1 智能适配规则： Step 1 — 写盘到 spark-output/context/flow-web.json （必做，主持久化通道；目录不存在先创建）。写入完整 JSON（schema 见本 SKILL.md frontmatter chain.schema 字段）。 Step 2 — chat 输出紧凑 marker （必做，⛔ 不要在 chat 内重复输出 Step 1 的完整 JSON ）：",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Phase D.4 自检通过后仍可能因环境差异出现白屏。 生成完成后，把以下清单输出给用户作为兜底文档 。时，用它产出或更新：按 chain-protocol.md §2.1 v1.1 智能适配规则： Step 1 — 写盘到 spark-output/context/flow-web.json （必做，主持久化通道；目录不存在先创建）。写入完整 JSON（schema 见本 SKILL.md frontmatter chain.schema 字段）。 Step 2 — chat 输出紧凑 marker （…",
+  "skill_id": "04597-web-0146f505",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/flow-web/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/flow-web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d69053efaa365519d24629ffc603266d00468243a3ec07aa3e8f1afef37a8876",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

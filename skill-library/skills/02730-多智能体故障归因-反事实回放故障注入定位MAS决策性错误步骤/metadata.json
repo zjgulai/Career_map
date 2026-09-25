@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentracer-mas-failure-attribution",
+  "中文名称": "多智能体故障归因 反事实回放故障注入定位MAS决策性错误步骤",
+  "一句话作用": "触发词：故障归因、反事实回放、错误步骤定位、失败轨迹、MAS 诊断。何时不用：单 Agent 简单报错、日志已能定位时不需本技能；本技能面向多 Agent 长轨迹中决策性错误步骤的定位。安全边界：本技能只产出归因结论与判据，不执行回滚、重跑或冻结动作；失败轨迹可能含业务敏感数据，入库前须脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要MAS故障后最顶级LLM（Gemini-2.5-Pro）自动定位错误步骤准确率不足10%——AgenTracer反事实回放+RL微调8B专用归因模型超越GPT-4o/Claude 18.18%，并带来MetaGPT+4.8%系统性能提升（2025 arXiv:2509.03312）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02730-p2s-agentracer-mas-failure-attribution-cf6eea06",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agentracer-mas-failure-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agentracer-mas-failure-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5df3e81d1c062c0ddd3925503925f5e93cbc1b553c432b4ad5d47dd5e5e73384",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

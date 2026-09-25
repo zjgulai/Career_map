@@ -1,0 +1,22 @@
+{
+  "英文名称": "responsive-design",
+  "中文名称": "待补：responsive-design",
+  "一句话作用": "Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-l…",
+  "关键输入": "- Implementing mobile-first responsive layouts - Using container queries for component-based responsiveness - Creating fluid typography and spacing scales - Building complex layouts with CSS Grid and Flexbox - Designing…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:45+08:00",
+  "业务场景": "design-ui",
+  "解决具体问题": "当需要- Implementing mobile-first responsive layouts - Using container queries for component-based responsiveness - Creating fluid typography and spacing scales - Building complex layouts with CSS Grid and Flexbox - Designing…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04460-responsive-design-199cd089",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/responsive-design/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/responsive-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f676af893b6c4a08b1ecc9e6b91ab6c659027cd859a2c384afe7c402f0a7b00a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

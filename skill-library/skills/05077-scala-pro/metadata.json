@@ -1,0 +1,22 @@
+{
+  "英文名称": "scala-pro",
+  "中文名称": "待补：scala-pro",
+  "一句话作用": "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures. Use PROACTIVELY for…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures. Use PROACTIVELY for…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05077-scala-pro-7a5a7252",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/scala-pro/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/scala-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1bc97925e4a498b7700f0e80dd6c7a28b3bf6e8c40dc3c2d36331fe3d8aa3120",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

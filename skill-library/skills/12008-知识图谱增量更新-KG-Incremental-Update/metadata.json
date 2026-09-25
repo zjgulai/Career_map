@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-incremental-update",
+  "中文名称": "知识图谱增量更新（KG Incremental Update）",
+  "一句话作用": "触发词：知识图谱增量更新、时序三元组、时间衰减、冲突消解、事实有效期。何时不用：需要做本体版本升级与依赖通知时用本体版本管理技能；只做变更检测的流水线调度时用图谱增量更新流水线技能。安全边界：旧三元组不得硬删除，须按时间衰减保留有效期，图谱变更须留审计记录。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：亚马逊 Prime Day 期间，价格每 10 分钟可能变化时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12008-p2s-kg-incremental-update-8ffaf142",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-kg-incremental-update/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-kg-incremental-update/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b4f6857575ae61b7459f8e150642199c8aac5980b996424337811c8cf7bae34a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

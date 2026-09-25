@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-a-plus-content-template-engine",
+  "中文名称": "模板引擎 驱动的A内容自动排版生成",
+  "一句话作用": "触发词：A+ 内容、VOC 洞察、模块模板、图文方案、季节性更新。何时不用：生成整条 Listing 标题与五点用「Listing 文案 AI 生成」；本技能只做 A+ 模块级内容方案。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌运营面临\"A+Content制作外包贵且来回修改周期长\"——RAG+模板引擎将A+内容从创意到成稿压缩至2小时，CTR提升12%，年化节省制作费$2.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02662-p2s-a-plus-content-template-engine-8020a635",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-a-plus-content-template-engine/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-a-plus-content-template-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df089c4099d95e950c1a74b0052f49eaf96e1bff0b331b3824df6aeb66d68f15",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

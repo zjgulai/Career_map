@@ -1,0 +1,22 @@
+{
+  "英文名称": "playwright-cli",
+  "中文名称": "待补：playwright-cli",
+  "一句话作用": "Automate browser interactions, test web pages and work with Playwright tests.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "playwright-cli find \"Sign in\" playwright-cli find --regex \"Sign (in up)\"",
+  "最新更新时间": "2026-09-06T12:16:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Automate browser interactions, test web pages and work with Playwright tests.时，用它产出或更新：playwright-cli find \"Sign in\" playwright-cli find --regex \"Sign (in up)\"",
+  "skill_id": "00458-playwright-cli-ede33bf5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright-core/lib/tools/skills/playwright-cli/SKILL.md",
+  "relative_path": "lute/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright-core/lib/tools/skills/playwright-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "29c0b669a524d42b51934d7db9144c1c07a566d0549ae6fb6ccd810e5a3cf61b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

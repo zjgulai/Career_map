@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-green-logistics-carbon-optimization",
+  "中文名称": "碳最优物流路径规划 合规与成本的多目标优化",
+  "一句话作用": "触发词：碳排核算、碳最优路线、绿色物流、CBAM合规、碳税成本、排放因子。何时不用：只算物流成本率与空运海运的纯成本取舍用「跨境头程末程成本 KPI」，只核关务单证齐备用「关务资料检查」；本技能把碳排与碳税一起纳入路线取舍。安全边界：排放因子与碳价须年度更新，对外 ESG 披露的核算结果须第三方核查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨境运营面临\"欧盟CBAM碳合规压力和ESG采购要求无量化工具\"——多目标碳最优路径规划降低碳排放40%，碳税成本节省+满足ESG要求，年化ROI约245万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03191-p2s-green-logistics-carbon-optimization-13531ab4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-green-logistics-carbon-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-green-logistics-carbon-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ecdb19483ff4f1e4d5d8cd79429da8a92decacea9cea50b855544a422b55f265",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

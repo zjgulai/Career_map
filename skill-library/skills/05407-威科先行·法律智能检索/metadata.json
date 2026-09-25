@@ -1,0 +1,22 @@
+{
+  "英文名称": "wk-workbuddy",
+  "中文名称": "威科先行·法律智能检索",
+  "一句话作用": "威科先行法律数据 MCP Skill。涉及「法规」「案例」「法律检索」「语义检索」「关键词检索」「威科」等关键词时使用。依托全面、准确、及时更新的法规、案例等法律数据，支持语义检索与关键词检索场景。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要威科先行法律数据 MCP Skill。涉及「法规」「案例」「法律检索」「语义检索」「关键词检索」「威科」等关键词时使用。依托全面、准确、及时更新的法规、案例等法律数据，支持语义检索与关键词检索场景。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05407-wk-workbuddy-f50ae923",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/wk-workbuddy/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/wk-workbuddy/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "53b288533da2a3b32df13fe2da6fb42460a4f4253bc3934202e66e1ff96e557c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

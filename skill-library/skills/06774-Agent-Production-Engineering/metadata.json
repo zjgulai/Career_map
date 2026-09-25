@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Agent-Production-Engineering",
+  "中文名称": "待补：Agent Production Engineering",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 65.0, \"best\": 65.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T02:28:55.288951\"} {\"round\": 0, \"status\": \"rewrite no gain\", \"score\": 32.8, \"best\": 64.0, \"mutated\": \"full rewrit…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T17:51:58+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 65.0, \"best\": 65.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T02:28:55.288951\"} {\"round\": 0, \"status\": \"rewrite no gain\", \"score\": 32.8, \"best\": 64.0, \"mutated\": \"full rewrit…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06774-skill-agent-production-engineering-d59c3430",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Agent-Production-Engineering.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Agent-Production-Engineering.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d5291705e4b68e73753c38f12913b19753c4f38c88f998942057401dd26fd897",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "pitch-deck",
+  "中文名称": "待补：pitch-deck",
+  "一句话作用": "Populates investment banking pitch deck templates with data from source files. Use when: user provides a PowerPoint template to fill in, user has source data (Excel/CSV) to populate into slides, user mentions populating…",
+  "关键输入": "These requirements are non-negotiable regardless of template: Requirement Details ------------- --------- Text Readability All text MUST have sufficient contrast with background. Examples: white/light text on dark blue, dark green, black backgrounds; black/da…",
+  "关键输出": "soffice --headless --convert-to pdf presentation.pptx pdftoppm -jpeg -r 150 presentation.pdf slide",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Populates investment banking pitch deck templates with data from source files. Use when: user provides a PowerPoint template to fill in, user has source data (Excel/CSV) to populate into slides, user mentions populating…时，用它产出或更新：soffice --headless --conve…",
+  "skill_id": "05503-pitch-deck-c8d1d44e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/pitch-deck/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/pitch-deck/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "118318d96bb794a42604c5899f3bb7db2692c23112f434d28b94a6c77a0313a6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

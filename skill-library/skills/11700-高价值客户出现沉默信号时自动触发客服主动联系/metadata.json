@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-high-value-customer-proactive-alert",
+  "中文名称": "高价值客户出现沉默信号时自动触发客服主动联系",
+  "一句话作用": "触发词：沉默告警、高价值客户、P0 工单、间隔倍数、冷却期、主动联系。何时不用：要做 RFM 全群分级触达用高价值客户告警动作那张卡；本卡只做沉默信号检测与工单触发，不做全群营销编排。安全边界：必须设置冷却期避免重复打扰，触达须获用户授权并遵守反骚扰要求，不得对同一客户短期内反复外呼。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要客服团队面临\"高价值客户沉默14天无主动触达机制\"——沉默检测告警将高价值客户主动挽回率从22%提升至58%，年化减少高LTV流失$85,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11700-p2s-high-value-customer-proactive-alert-ac285f5c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-high-value-customer-proactive-alert/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-high-value-customer-proactive-alert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a70b18f8382b24ef1ad10f6b42d23eb20558b40c98e2c54b356cb50229f66355",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

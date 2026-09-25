@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-design-to-code",
+  "中文名称": "待补：figma-design-to-code",
+  "一句话作用": "MANDATORY prerequisite — you MUST invoke this skill BEFORE calling the get design context Figma MCP tool. You MUST trigger this skill whenever the user wants to implement, build, port, or code up a Figma design as code.…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- The returned code is React + Tailwind enriched with hints. You MUST treat it as a REFERENCE, not as final code to paste verbatim. - You MUST adapt it to the target project's language, framework, component library, styling system, and conventions. Match the…",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要MANDATORY prerequisite — you MUST invoke this skill BEFORE calling the get design context Figma MCP tool. You MUST trigger this skill whenever the user wants to implement, build, port, or code up a Figma design as code.…时，用它产出或更新：- The returned code is Rea…",
+  "skill_id": "01291-figma-design-to-code-62d9a93d",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-design-to-code/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-design-to-code/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "936bbe68b4731d4a8748db15f85247efde232c8ae0902857c2c79a9ed40649ea",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

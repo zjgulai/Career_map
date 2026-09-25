@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill: GEO Domain Ranker",
+  "中文名称": "待补：Skill: GEO Domain Ranker",
+  "一句话作用": "Aggregates citation and link URLs from raw GEO data into ranked domain reports with URL samples.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "data/outputs/[dir]/domains/ File Content --- --- cit domains aggregated.csv Citation domains aggregated to root (e.g. all .brand.com → brand.com) cit subdomains.csv Fine-grained citation subdomains with URL samples link domains aggregated.csv links attached d…",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Aggregates citation and link URLs from raw GEO data into ranked domain reports with URL samples.时，用它产出或更新：data/outputs/[dir]/domains/ File Content --- --- cit domains aggregated.csv Citation domains aggregated to root (e.g. all .brand.com → brand.com) cit…",
+  "skill_id": "00232-skill-geo-domain-ranker-c6409722",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-domain-ranker/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-domain-ranker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8b8c96f5a33ef356628d24ded6919dd9d2a33fd8871705bef90e4765a16dec2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

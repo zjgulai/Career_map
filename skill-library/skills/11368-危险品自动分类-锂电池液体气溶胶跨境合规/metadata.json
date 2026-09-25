@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dangerous-goods-dg-classification",
+  "中文名称": "危险品自动分类（锂电池液体气溶胶跨境合规）",
+  "一句话作用": "触发词：危险品分类、锂电池申报、空运合规预检、UN 编号查询、气溶胶限运。何时不用：只核对报关单证与 HS 编码用「关务资料检查」，要选运输路径与装载方式用「物流方案」类技能；本技能只输出危险品等级与申报要求。安全边界：分类结果仅供预检，最终申报文件须由 IATA 认证危险品专员（DGR）签字；同时含锂电池与液体的复合危险品必须人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要含锂电池母婴产品跨境航空运输因未申报危险品被海关扣押——引入 DG 自动分类引擎（IATA/IMDG 规则库+LLM 解析），合规预检准确率 96%，避免平均每次扣押损失8万元+14天延误。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11368-p2s-dangerous-goods-dg-classification-5fc70936",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-dangerous-goods-dg-classification/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-dangerous-goods-dg-classification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b17e652838a8a01958ee739ccdcdf19cb31e254bd6bd70d2c8d877e3af07a86a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

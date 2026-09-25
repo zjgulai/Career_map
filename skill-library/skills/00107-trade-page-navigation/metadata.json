@@ -1,0 +1,22 @@
+{
+  "英文名称": "trade-page-navigation",
+  "中文名称": "待补：trade-page-navigation",
+  "一句话作用": "Navigate to the Alibaba.com Inquiry page only when the buyer explicitly asks to open, enter, or go to it, or to the Order creation page for order creation or navigation when no reliable current signal says the request i…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. Apply this contract only after at least one destination passes the Intent Gate. 2. Emit exactly one contract-compliant action-link for each selected destination and never duplicate a destination. 3. Do not call a tool or persist a file for navigation, exce…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Navigate to the Alibaba.com Inquiry page only when the buyer explicitly asks to open, enter, or go to it, or to the Order creation page for order creation or navigation when no reliable current signal says the request i…时，用它产出或更新：1. Apply this contract onl…",
+  "skill_id": "00107-trade-page-navigation-a2b053ae",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/trade-page-navigation/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/trade-page-navigation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a4d2b9bd93be1eba81b66847fbed37373d58ae5fc14552bfc5e68045db30a339",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

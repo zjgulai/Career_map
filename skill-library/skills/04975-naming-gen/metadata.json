@@ -1,0 +1,22 @@
+{
+  "英文名称": "naming-gen",
+  "中文名称": "待补：naming-gen",
+  "一句话作用": "Suggest better variable and function names in your code. Use when improving code readability.",
+  "关键输入": "No install needed. Just run with npx. Node.js 18+ recommended.",
+  "关键输出": "npx ai-naming ./src --format checklist",
+  "最新更新时间": "2026-09-19T04:12:23+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Suggest better variable and function names in your code. Use when improving code readability.时，用它产出或更新：npx ai-naming ./src --format checklist",
+  "skill_id": "04975-naming-gen-32248098",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/naming-gen/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/naming-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a3afdc7a4033f053f9673d6e3479cc8ac03eed9ba6ef96e611e6a4720f2eed01",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

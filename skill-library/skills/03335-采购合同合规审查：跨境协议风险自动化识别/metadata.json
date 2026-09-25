@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-contract-compliance-review",
+  "中文名称": "采购合同合规审查：跨境协议风险自动化识别",
+  "一句话作用": "触发词：合同审查、风险条款、付款条款、知识产权、争议解决、保密条款。何时不用：要做多币种损益对账时用「多币种 P&L 对账」，要核法规变更对 SKU 的影响时用「法规变更影响传播引擎」。安全边界：输出为风险提示与条款建议，不构成法律意见，高风险合同仍须律师终审。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要新供应商发来15页合同需要律师审查等5天成本1000美元且可能错过签约时机——LLM合同合规审查30分钟识别高风险条款（付款/IP/争议/保密），法律成本降低70%年化节省20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03335-p2s-llm-contract-compliance-review-0a45b4db",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-contract-compliance-review/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-contract-compliance-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f04f4fb5e5e5f43574362678ea06e0549c0354ff0a85aaaf968d2456322e0e54",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

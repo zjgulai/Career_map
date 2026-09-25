@@ -1,0 +1,22 @@
+{
+  "英文名称": "technical-writer",
+  "中文名称": "待补：technical-writer",
+  "一句话作用": "Creates clear documentation, API references, guides, and technical content for developers and users. Use when: writing documentation, creating README files, documenting APIs, writing tutorials, creating user guides, or…",
+  "关键输入": "Name Type Required Description ------ ------ ---------- ------------- param1 string Yes What it's for",
+  "关键输出": "[What it returns and in what format]",
+  "最新更新时间": "2026-06-02T10:50:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要[Common issues and solutions]时，用它产出或更新：[What it returns and in what format]",
+  "skill_id": "09353-technical-writer-bf182e37",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/technical-writer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/technical-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "485d1afc2a672ea692ee301882b5e89806c9a5cee3deab55cf57c6682bd662e1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-price-scraping-defense",
+  "中文名称": "价格爬取防御（防竞品监控反监测策略）",
+  "一句话作用": "触发词：价格爬取防御、跟价检测、反爬虫、价格混淆、随机微浮动、竞品监控。何时不用：已确认对方在跟价、只差反制节奏时用「混合策略定价不可预测性」；要持续监测竞品价格本身用「实时竞品重定价」。安全边界：价格混淆只对爬虫生效，真实用户必须看到真实价格；反爬不得误伤正常用户流量。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"竞品实时跟价导致陷入价格战螺旋毛利持续压缩\"——反监测策略使竞品跟价失效率提升80%，年化保护定价主动权价值20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03617-p2s-price-scraping-defense-1a785c6a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-price-scraping-defense/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-price-scraping-defense/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1959e5939f252088bce4c1e0a661e79da4f347fec6febcc49a4f98be5d6621af",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

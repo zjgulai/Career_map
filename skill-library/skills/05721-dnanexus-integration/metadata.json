@@ -1,0 +1,22 @@
+{
+  "英文名称": "dnanexus-integration",
+  "中文名称": "待补：dnanexus-integration",
+  "一句话作用": "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution.",
+  "关键输入": "input file = dxpy.upload local file(\"sample.fastq\", project=\"project-xxxx\")",
+  "关键输出": "output id = job.describe()[\"output\"][\"aligned reads\"][\"$dnanexus link\"] dxpy.download dxfile(output id, \"aligned.bam\")",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Creating, building, or modifying DNAnexus apps/applets - Uploading, downloading, searching, or organizing files and records - Running analyses, monitoring jobs, creating workflows - Wri…时，用它产出或更新：output id = job.describe()…",
+  "skill_id": "05721-dnanexus-integration-d6bf7e88",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/dnanexus-integration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/dnanexus-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2de8c45ed1627b2307b8e3d6a204e4f5b4e052de14d194c16b9d233b781ce298",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

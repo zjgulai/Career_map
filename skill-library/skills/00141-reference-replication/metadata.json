@@ -1,0 +1,22 @@
+{
+  "英文名称": "reference-replication",
+  "中文名称": "待补：reference-replication",
+  "一句话作用": "Coordinate reference-site visual replication after site-builder sets referenceReplication=true. Prepare the target project, have reference-site-replicator inspect the supplied site in a browser and write the final DESIG…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Coordinate reference-site visual replication after site-builder sets referenceReplication=true. Prepare the target project, have reference-site-replicator inspect the supplied site in a browser and write the final DESIG…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00141-reference-replication-dcfc1a13",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/reference-replication/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/reference-replication/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f1cd348ad70fa0a7581d69976bea7d70f8ff507789677ce37a0719d7709b4d6a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

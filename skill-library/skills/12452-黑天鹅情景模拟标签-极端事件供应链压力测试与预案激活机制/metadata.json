@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-black-swan-scenario-simulation-tag",
+  "中文名称": "黑天鹅情景模拟标签 极端事件供应链压力测试与预案激活机制",
+  "一句话作用": "触发词：黑天鹅、极端事件、压力测试、预案激活、韧性评分。何时不用：常规中断情景与备用路由用「供应链弹性压力测试」；多参数方案对比用「供应链 What-If 情景分析引擎」。安全边界：预案激活标签只做提示与门控，冻结、停单等动作必须由人工或模型外的确定性控制层执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要风控面临\"平台封号/供应商断供等极端事件没有预案\"——黑天鹅情景模拟量化每个场景的GMV损失和恢复时间，触发预案激活Tag时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12452-p2s-black-swan-scenario-simulation-tag-e6a89f05",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-black-swan-scenario-simulation-tag/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-black-swan-scenario-simulation-tag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cc17135f813cc843f7509d049cd32fb1a06b3e07ff615470e3b66109c0a8fa79",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

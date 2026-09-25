@@ -1,0 +1,22 @@
+{
+  "英文名称": "find-plugins",
+  "中文名称": "待补：find-plugins",
+  "一句话作用": "Search and recommend public DeepSeek Harness plugins when the user describes a capability they need, asks which plugin can perform a task, or wants popular alternatives before installing anything.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T03:52:28+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Search and recommend public DeepSeek Harness plugins when the user describes a capability they need, asks which plugin can perform a task, or wants popular alternatives before installing anything.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10047-find-plugins-190e6b5b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/llm-wiki-fullstack/skills/find-plugins/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/llm-wiki-fullstack/skills/find-plugins/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "401f80e9484666f95e798296529804611d6ccfafbb0d47b5082e2cfb6aa0549d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

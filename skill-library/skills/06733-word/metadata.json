@@ -1,0 +1,22 @@
+{
+  "英文名称": "word",
+  "中文名称": "待补：word",
+  "一句话作用": "Office Word 的阅读、新建和修改使用此技能。不处理 飞书/豆包在线文档、PDF文件。党政公文、正式文书、商务与项目合同、专利司法等专业领域文书写作或有格式排版要求的写作使用此技能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "对最终路径验收前，重新读取用户指令、实际使用的模板及 template-plan.md（如有）、已选写作类型指南和 writing-taxonomy.md，按规则优先级提取本任务实际生效的明确要求，在上下文中形成轻量验收证据表，不新增文件： 规则来源与定位 验收对象与范围 预期值或行为 终稿实际证据 结果 --- --- --- --- ---",
+  "最新更新时间": "2026-09-16T11:25:01+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Office Word 的阅读、新建和修改使用此技能。不处理 飞书/豆包在线文档、PDF文件。党政公文、正式文书、商务与项目合同、专利司法等专业领域文书写作或有格式排版要求的写作使用此技能。时，用它产出或更新：对最终路径验收前，重新读取用户指令、实际使用的模板及 template-plan.md（如有）、已选写作类型指南和 writing-taxonomy.md，按规则优先级提取本任务实际生效的明确要求，在上下文中形成轻量验收证据表，不新增文件： 规则来源与定位 验收对象与范围 预期值或行为 终稿实际证据…",
+  "skill_id": "06733-word-92d52156",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/word/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/word/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ed71110f3ad11f04561264da44b73aee6d7a6cea556831a20b7603d1edc1aead",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

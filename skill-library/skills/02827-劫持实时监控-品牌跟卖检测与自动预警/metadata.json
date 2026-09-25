@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-brand-hijacking-realtime-monitor",
+  "中文名称": "劫持实时监控 品牌跟卖检测与自动预警",
+  "一句话作用": "触发词：Buy Box 劫持、跟卖监控、授权卖家白名单、价格异常告警、跟卖预警。何时不用：要识别多个跟卖账号是否同属一个集团时用「跟卖卖家网络图谱」；要判断自家 Listing 是否被算法压制时用「Listing 压制检测」。安全边界：只做检测、告警与证据文案生成，不代发律师函、不自动向平台投诉。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌负责人面临\"跟卖者在ASIN上挂Offer劫持Buy Box发现总是延迟1-3天\"——轮询+Z-score异常检测将跟卖发现时间从3天压缩至15分钟，年化避损$3.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02827-p2s-brand-hijacking-realtime-monitor-b34dc529",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-brand-hijacking-realtime-monitor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-brand-hijacking-realtime-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b135ebc033985d2f176a46b362b5a2d40713ca55a798091a2db1dfadbcc47845",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

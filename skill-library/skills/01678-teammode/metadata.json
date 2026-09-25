@@ -1,0 +1,22 @@
+{
+  "英文名称": "teammode",
+  "中文名称": "待补：teammode",
+  "一句话作用": "Codex-only team orchestration: run a named team of cooperating Codex threads with durable, script-managed state. MUST USE when the user asks Codex to create, run, coordinate, inspect, archive, or delete a team of thread…",
+  "关键输入": "Use a TEAM when EITHER holds: - the work does NOT split into perfectly isolated pieces, but doing it in parallel is clearly more convenient - members will need to see and react to each other's findings; or - one task st…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use a TEAM when EITHER holds: - the work does NOT split into perfectly isolated pieces, but doing it in parallel is clearly more convenient - members will need to see and react to each other's findings; or - one task st…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01678-teammode-4ed407ba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/packages/omo-codex/plugin/components/teammode/skills/teammode/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/packages/omo-codex/plugin/components/teammode/skills/teammode/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "83333c36d22f53ee0080f8a42645b38b7383212ad1c7eb735af5fb355c60d419",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

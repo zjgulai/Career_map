@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-warehouse-location-optimization",
+  "中文名称": "仓储选址优化：多仓库布局最优化决策",
+  "一句话作用": "触发词：仓储选址、多仓布局、海外仓开仓、Zone 运费优化。何时不用：要决定某个仓该补多少货用「补货模拟」，已定仓只排配送线路用「物流方案」里的路径优化技能；本技能回答开几个仓、开在哪里。安全边界：选址与开仓结论须人工复核后执行，模型不直接签约租仓、不直接调拨库存。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要月均2000单60%在美东用加州单仓发货运费Zone 7-8超贵——混合整数规划选址优化找到美东+美西双仓最优方案，配送成本降低15-25%年化节省10-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04032-p2s-warehouse-location-optimization-f8bbbbf6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-warehouse-location-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-warehouse-location-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e4e45d9d9b44914865072d16bf66bf1c2d268732094f2c7b3178036fc1489a85",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

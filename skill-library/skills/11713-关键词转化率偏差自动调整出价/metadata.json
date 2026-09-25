@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-keyword-bid-auto-adjuster",
+  "中文名称": "关键词转化率偏差自动调整出价",
+  "一句话作用": "触发词：关键词出价、转化率偏差、显著性检验、调价冷却期、单次变动上限。何时不用：点击量不足最小样本时不调价；需要按词类型整体切换出价逻辑时走生成式竞价MoE。安全边界：单次调价不超过30%并设出价上限与最低出价，调价逻辑须符合平台竞价政策并留存审计日志。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告负责人面临\"关键词出价调整滞后错失流量或浪费预算\"——转化率自动触发±15/20%出价调整将整体广告ROI提升22%，年化增收40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11713-p2s-keyword-bid-auto-adjuster-5a613ab1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-keyword-bid-auto-adjuster/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-keyword-bid-auto-adjuster/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b77326f2f14fcee310e5e64482146a30c2a61936f059bec8c8289e06aaad7d7c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

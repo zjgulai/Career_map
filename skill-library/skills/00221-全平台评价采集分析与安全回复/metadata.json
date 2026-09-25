@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-review-reply",
+  "中文名称": "全平台评价采集分析与安全回复",
+  "一句话作用": "处理 PDD/拼多多、JD/京东/京麦、Taobao/淘宝/千牛、Tmall/天猫、Doudian/抖店的商品评价采集（默认全部评价，可筛选时间、商家回复状态全部/已回复/未回复、正面/负面）、分析、回复草稿和已确认回复提交，并支持1688当前账户收到的评价只读采集与分析。自动回复候选仅限未回复评价；已回复/全部采集只用于查看与分析。适用于评价管理、评价投诉点与质量问题汇总、回复建议和基于确认的回复；天猫（platformId=tma…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "最终面向用户的输出只能包含： - 每个店铺的标准交付 runDir 绝对路径。 - 各平台筛选条件和采集数量。 - 分析报告是否包含投诉点汇总与质量结论（collect and analyze 必报）。 - 草稿数量和确认数量。 - 成功、失败、不确定、人工处理和未尝试数量。 - 跳过的平台及准确原因。 不得包含完整订单号、买家昵称、电话号码、地址、凭证、验证码、原始页面文本或手工选择的文件列表。 弹窗防御（离线烘焙、固化产物）：进入页 goto 的弹窗关闭 after 已固化在 references/rpa-d…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要处理 PDD/拼多多、JD/京东/京麦、Taobao/淘宝/千牛、Tmall/天猫、Doudian/抖店的商品评价采集（默认全部评价，可筛选时间、商家回复状态全部/已回复/未回复、正面/负面）、分析、回复草稿和已确认回复提交，并支持1688当前账户收到的评价只读采集与分析。自动回复候选仅限未回复评价；已回复/全部采集只用于查看与分析。适用于评价管理、评价投诉点与质量问题汇总、回复建议和基于确认的回复；天猫（platformId=tma…时，用它产出或更新：最终面向用户的输出只能包含： - 每个店铺的标准交付…",
+  "skill_id": "00221-multi-platform-review-reply-8f6b84a5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-review-reply/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-review-reply/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b3791690f027fc5a36fb4ea30450765c0f1af5a8d61be7c89a1170fc63401247",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

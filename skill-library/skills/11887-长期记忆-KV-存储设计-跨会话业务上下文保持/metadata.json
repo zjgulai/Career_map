@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-memory-kv-store",
+  "中文名称": "长期记忆 KV 存储设计 跨会话业务上下文保持",
+  "一句话作用": "触发词：长期记忆、KV 存储、跨会话上下文、TTL、记忆淘汰。何时不用：要管理知识库事实的时效与冲突走知识溯源侧技能；单次会话内的上下文压缩不属于本技能。安全边界：记忆中不得存储用户个人信息（PII），仅存业务实体数据，过期记忆须按 TTL 清理。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Agent工程师面临\"跨会话业务上下文丢失导致用户每次交互都要重新描述背景\"——Agent长期记忆存储将用户背景重述次数从每次降至0次，年化提升Agent使用效率节省用户时间成本10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11887-p2s-agent-memory-kv-store-beb2577f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-memory-kv-store/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-memory-kv-store/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "667b3ba23db2fc39527804193b9e5e7c6480d78dcbb2d04835d9b0809f612fe3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

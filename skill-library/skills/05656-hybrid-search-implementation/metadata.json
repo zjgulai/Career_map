@@ -1,0 +1,22 @@
+{
+  "英文名称": "hybrid-search-implementation",
+  "中文名称": "待补：hybrid-search-implementation",
+  "一句话作用": "Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall.",
+  "关键输入": "- Building RAG systems with improved recall - Combining semantic understanding with exact matching - Handling queries with specific terms (names, codes) - Improving search for domain-specific vocabulary - When pure vect…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- Building RAG systems with improved recall - Combining semantic understanding with exact matching - Handling queries with specific terms (names, codes) - Improving search for domain-specific vocabulary - When pure vect…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05656-hybrid-search-implementation-51de90e7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/hybrid-search-implementation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/llm-application-dev/skills/hybrid-search-implementation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8650318071d52bc9b52fd5614d13cb8115ee4662342f29cb5ac37f72d45224fb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

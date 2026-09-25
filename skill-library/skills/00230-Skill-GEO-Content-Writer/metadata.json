@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill: GEO Content Writer",
+  "中文名称": "待补：Skill: GEO Content Writer",
+  "一句话作用": "Generate publish-ready content based on GEO analysis data. Supports any user-specified platform; unknown platforms are automatically adapted to native format and tone.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Generate content directly based on Dashboard data after the global monitoring run is complete. Interaction Flow: 1. Read strategy [Brand].md to get recommended topics. 2. Ask: Target Platform and Topic (or choose directly from the strategy report).",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Generate publish-ready content based on GEO analysis data. Supports any user-specified platform; unknown platforms are automatically adapted to native format and tone.时，用它产出或更新：Generate content directly based on Dashboard data after the global monitoring r…",
+  "skill_id": "00230-skill-geo-content-writer-909e1827",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-content-writer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-content-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c68b8ced9604683254ebff16929d828fd50e9b42f31e516c0971153e71ba6525",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

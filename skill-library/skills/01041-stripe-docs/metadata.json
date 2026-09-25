@@ -1,0 +1,22 @@
+{
+  "英文名称": "stripe-docs",
+  "中文名称": "待补：stripe-docs",
+  "一句话作用": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01041-stripe-docs-6d193f0c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/stripe/skills/stripe-docs/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/stripe/skills/stripe-docs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd02afdef978b9834b458822f253761dc81eac4fd54ff76e3f9ba7de62b2a6ac",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

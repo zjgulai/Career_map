@@ -1,0 +1,22 @@
+{
+  "英文名称": "scholar",
+  "中文名称": "待补：scholar",
+  "一句话作用": "A freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of publishing formats and disciplines. It provides comprehensive academic research capabilities includ…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T17:52:10+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要A freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of publishing formats and disciplines. It provides comprehensive academic research capabilities includ…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06163-scholar-9a2cd698",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/scholar/skills/scholar/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/scholar/skills/scholar/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "98bf29cab5e7f1eb70daa35325ec15fedd4391c27d2bb600e944e939c0bb41a3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

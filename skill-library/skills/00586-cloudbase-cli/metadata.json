@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudbase-cli",
+  "中文名称": "待补：cloudbase-cli",
+  "一句话作用": "CloudBase CLI (tcb, 云开发CLI, Tencent CloudBase命令行) resource management skill. Use when deploying cloud functions, CloudRun, storage, NoSQL/MySQL, static hosting, permissions, CORS/domains via tcb; for CI/CD and batch ops…",
+  "关键输入": "Use when the user wants to manage CloudBase resources via command line, or when MCP is not usable yet: - First session / post-install: MCP not in the tool list, or just configured and needs restart → tcb login + the mat…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when the user wants to manage CloudBase resources via command line, or when MCP is not usable yet: - First session / post-install: MCP not in the tool list, or just configured and needs restart → tcb login + the mat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00586-cloudbase-cli-749d49f9",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.agents/skills/cloudbase-cli/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.agents/skills/cloudbase-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f9160e2a4ce49789e74f6831897e74dd0eb64f3306cde9a2a325ef310aa9c8e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

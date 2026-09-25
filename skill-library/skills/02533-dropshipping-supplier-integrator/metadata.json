@@ -1,0 +1,22 @@
+{
+  "英文名称": "dropshipping-supplier-integrator",
+  "中文名称": "待补：dropshipping-supplier-integrator",
+  "一句话作用": "- Automate the lifecycle of dropship orders from multi-supplier routing and inventory synchronization to margin tracking and fulfillment reconciliation. 触发词：代发货、供应商集成、订单自动路由、库存同步、代发利润核算。",
+  "关键输入": "- When launching a store without physical inventory by routing orders directly to supplier warehouses. - When adding a dropship-fulfilled product category alongside your own stocked inventory. - When building a multi-su…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:41:02+08:00",
+  "业务场景": "fulfillment-shipping",
+  "解决具体问题": "当需要- When launching a store without physical inventory by routing orders directly to supplier warehouses. - When adding a dropship-fulfilled product category alongside your own stocked inventory. - When building a multi-su…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02533-dropshipping-supplier-integrator-e5e3d860",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/dropshipping-supplier-integrator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/dropshipping-supplier-integrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7fd44bfb4acdd3c38a603bb104d5d994ed8c928931645f7d13db3419b2820c78",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

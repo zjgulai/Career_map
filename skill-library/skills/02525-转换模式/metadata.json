@@ -1,0 +1,22 @@
+{
+  "英文名称": "dbt-transformation-patterns",
+  "中文名称": "转换模式",
+  "一句话作用": "按 staging、intermediate、marts 分层组织 dbt 模型：命名约定、项目结构、数据质量测试与增量物化策略。触发词：dbt 数据转换、dbt-transformation-patterns、按 staging、intermediate、marts 分层组织 dbt 模型：命名约定、项目结构、数据质量测试与增量物化策略。",
+  "关键输入": "- 用 dbt 构建数据转换管道 - 把模型组织成 staging、intermediate 与 marts 三层 - 实现数据质量测试 - 为大数据集创建增量模型 - 为数据模型与血缘（lineage）编写文档 - 搭建 dbt 项目结构",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用 dbt 构建数据转换管道 - 把模型组织成 staging、intermediate 与 marts 三层 - 实现数据质量测试 - 为大数据集创建增量模型 - 为数据模型与血缘（lineage）编写文档 - 搭建 dbt 项目结构时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02525-dbt-transformation-patterns-e5f58f25",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/dbt-transformation-patterns/SKILL.md",
+  "relative_path": "lute/.dsh/skills/dbt-transformation-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cbae8e7cec53fc71634083bd65eda63d8aa543bf9acb55e8543d80e2a28143e2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-time-series-forecasting-gcf",
+  "中文名称": "因果时间序列预测 - GCF 反事实需求建模",
+  "一句话作用": "触发词：反事实需求、缺货需求还原、商品关系图、长程依赖建模、促销回报校正。何时不用：单店时序增量、不需要商品间关系用反事实时序技能，评估区域级投放用聚类合成控制技能，本技能用商品关系图还原被干预压制的真实需求。安全边界：促销标记与订单数据须脱敏并符合匿名化要求，反事实结果仅用于内部复盘与补货决策，不对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要平台在大促期对核心母婴 SKU(纸尿裤、婴儿车)做搜索权重提升 + 首页 Banner 曝光,需要回答\"如果没做促销,需求应该是多少\"——避免把自然增长功劳归到促销 - 数据要求:全品类销量历史 + 促销标记 + 商品图谱(同类竞品关系) - GCF 配置:节点=SKU,边=同品类竞品,干预=促销曝光,合成控制=未受促销的同类 - 业务价值:促销 ROI 计算精度提升 30-50%,避免时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02879-p2s-causal-time-series-forecasting-gcf-92cabc7a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-time-series-forecasting-gcf/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-time-series-forecasting-gcf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e4f9ac040fa33be8bf6e875008271921298aa91314be824f537d5f77110db43d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

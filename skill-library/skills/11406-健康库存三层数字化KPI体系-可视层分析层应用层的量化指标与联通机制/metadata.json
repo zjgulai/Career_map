@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-healthy-inventory-three-layer-kpi",
+  "中文名称": "健康库存三层数字化KPI体系 可视层分析层应用层的量化指标与联通机制",
+  "一句话作用": "触发词：健康库存、三层架构、库存健康评分、可视层分析层、行动触发。何时不用：需要精确口径的多仓在架率矩阵时用在架率多仓SKU矩阵；需要做库龄分段与持有成本精算时用库龄分段管理与资金成本化。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要库存数据分散在3个系统每天2小时手工汇总仍然看不清全局——三层数字化架构（可视层现状+分析层趋势预测+应用层自动触发行动），书中终极数字化形态使决策时间从2小时降至20分钟时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11406-p2s-healthy-inventory-three-layer-kpi-d6ff0390",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-healthy-inventory-three-layer-kpi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-healthy-inventory-three-layer-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6c3052996283d4eb2ec99909b59ac409810382c46635dd732ac890b20cd34307",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

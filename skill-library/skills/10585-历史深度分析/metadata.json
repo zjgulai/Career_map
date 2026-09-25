@@ -1,0 +1,22 @@
+{
+  "英文名称": "git-repo-audit",
+  "中文名称": "历史深度分析",
+  "一句话作用": "深度分析 Git 仓库历史，识别高频变更的热点文件、分析代码的实际贡献归属关系、并扫描历史提交中的密钥泄露等安全隐患。当用户提及分析仓库、查看代码归属、寻找热点文件或安全风险扫描，或询问团队协作、代码审查分配、技术债务与安全审计等关键词时触发。",
+  "关键输入": "- 安全审计 ：在代码上线前扫描历史中是否有密钥泄露 - Code Review 优化 ：识别热点文件，优先 review 高风险区域 - 团队协作 ：了解谁最熟悉哪部分代码，合理分配 review 任务 - 技术债务评估 ：高频变更文件可能是重构候选",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- 安全审计 ：在代码上线前扫描历史中是否有密钥泄露 - Code Review 优化 ：识别热点文件，优先 review 高风险区域 - 团队协作 ：了解谁最熟悉哪部分代码，合理分配 review 任务 - 技术债务评估 ：高频变更文件可能是重构候选时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10585-git-repo-audit-596244e1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/git-repo-audit/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/git-repo-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "558bbc7fbfe38df7bde401ae16f56fbdcf938d766ee8ece97afeb8643ad529fd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bonded-zone-compliance-auto",
+  "中文名称": "保税区合规自动化（保税仓入出区监管）",
+  "一句话作用": "触发词：保税仓申报、保税区合规、入出区监管、申报纠错、合规自动化。何时不用：需要做保税库存的资金效率与完税时机优化时用保税仓智能库存；需要做跨境清关风险评分预警时用清关多维风险评分。安全边界：申报数据的最终提交与修改须由具备报关资质的人员确认，自动化只能做核对与纠错提示。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要物流团队面临\"保税仓手工申报单错误率高且耗时导致海关罚款\"——保税区合规自动化将申报错误率从8%降至0.2%，年化节省罚款和人工成本15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11337-p2s-bonded-zone-compliance-auto-72754eee",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-bonded-zone-compliance-auto/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-bonded-zone-compliance-auto/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df1fbf2667aefba0ea2f99534f9e1d39b6e571a5950ce5eb8b63d4769cc305ee",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

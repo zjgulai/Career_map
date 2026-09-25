@@ -1,0 +1,22 @@
+{
+  "英文名称": "vercel-react-best-practices",
+  "中文名称": "待补：vercel-react-best-practices",
+  "一句话作用": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tas…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tas…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05158-vercel-react-best-practices-de6723ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/vercel-react-best-practices/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/vercel-react-best-practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "61860fd4249cf5e5ec917a08aceebed48ccf9b38d526e3cb73e0b18aaf261dac",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

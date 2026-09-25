@@ -1,0 +1,22 @@
+{
+  "英文名称": "UI/UX Intelligence Expert",
+  "中文名称": "待补：UI/UX Intelligence Expert",
+  "一句话作用": "UI/UX 设计智能库与推荐专家。包含 67 种风格、96 种配色方案、57 种字体搭配、99 条 UX 指南，支持跨技术栈的设计系统生成。",
+  "关键输入": "Extract key information from user request: - Product type : SaaS, e-commerce, portfolio, dashboard, landing page, etc. - Style keywords : minimal, playful, professional, elegant, dark mode, etc. - Industry : healthcare, fintech, gaming, education, etc.",
+  "关键输出": "The --design-system flag supports two output formats:",
+  "最新更新时间": "2026-09-19T03:47:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要UI/UX 设计智能库与推荐专家。包含 67 种风格、96 种配色方案、57 种字体搭配、99 条 UX 指南，支持跨技术栈的设计系统生成。时，用它产出或更新：The --design-system flag supports two output formats:",
+  "skill_id": "05143-ui-ux-intelligence-expert-b59d7025",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/UI-UX-Intelligence-Expert/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/UI-UX-Intelligence-Expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5247c018e7941bb58d340b575041f9de6d569271cd22282cb991b473dd9f7dea",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

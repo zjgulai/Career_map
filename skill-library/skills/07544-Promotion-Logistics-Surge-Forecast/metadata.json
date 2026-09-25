@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Promotion-Logistics-Surge-Forecast",
+  "中文名称": "待补：Promotion Logistics Surge Forecast",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 52.8, \"best\": 76.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:12:15.326275\"} {\"round\": 0, \"status\": \"patch improved\", \"score\": 82.0, \"best\": 82.0, \"mutated\": \"track\",…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T12:09:07+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 52.8, \"best\": 76.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:12:15.326275\"} {\"round\": 0, \"status\": \"patch improved\", \"score\": 82.0, \"best\": 82.0, \"mutated\": \"track\",…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07544-skill-promotion-logistics-surge-forecast-9d48d7d7",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Promotion-Logistics-Surge-Forecast.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Promotion-Logistics-Surge-Forecast.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "ed5295fc9f49a8d7d1bce469fbc63933b346100af03524b515a1bf5019cf4250",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

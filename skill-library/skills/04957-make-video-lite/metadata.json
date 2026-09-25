@@ -1,0 +1,22 @@
+{
+  "英文名称": "make-video-lite",
+  "中文名称": "待补：make-video-lite",
+  "一句话作用": "Fast, one-call video generation for chat-based end users of an app: turn a short request into a good-enough, satisfying short video in a single Wan3.0 generation call — no production ceremony. Use when a user in a chat/…",
+  "关键输入": "- Nothing to install. The API client is bundled at $HOME/.qoder/skills/make-video-lite/scripts/wan video.py — Python 3.8+, standard library only, no pip packages. - Credentials live in credentials.json, in this skill's own directory, configured once, manually…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:51:45+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Fast, one-call video generation for chat-based end users of an app: turn a short request into a good-enough, satisfying short video in a single Wan3.0 generation call — no production ceremony. Use when a user in a chat/…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04957-make-video-lite-a6122f06",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/make-video-lite/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/make-video-lite/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eab75169167770b0a25f8ae077fa0ffcecf3d698a2c6986c093c10a64da7d890",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

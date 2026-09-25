@@ -1,0 +1,22 @@
+{
+  "英文名称": "codex",
+  "中文名称": "待补：codex",
+  "一句话作用": "Execute Codex CLI for code analysis, refactoring, and automated code changes. Use when you need to delegate complex code tasks to Codex AI with file references (@syntax) and structured output.",
+  "关键输入": "- task (required): Task description, supports @file references - working dir (optional): Working directory (default: current)",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- Complex code analysis requiring deep understanding - Large-scale refactoring across multiple files - Automated code generation with safety controls时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05964-codex-b7e75ad7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/codex/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/codex/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1061c913b24df1e01346669e281fa87e78f0604cbaabe7be67c047e0b82f4bed",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

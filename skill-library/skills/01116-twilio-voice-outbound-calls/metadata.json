@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-voice-outbound-calls",
+  "中文名称": "待补：twilio-voice-outbound-calls",
+  "一句话作用": "Make outbound phone calls via Twilio's Programmable Voice REST API. Covers the full voice platform: calls.create(), answering machine detection (AMD), conference-based agent bridging, call recording, status tracking, an…",
+  "关键输入": "- Twilio account with a voice-capable phone number — New to Twilio? See twilio-account-setup for signup, getting a number, and trial limitations — Trial accounts can only call verified numbers - Environment variables: - TWILIO ACCOUNT SID - TWILIO AUTH TOKEN",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Make outbound phone calls via Twilio's Programmable Voice REST API. Covers the full voice platform: calls.create(), answering machine detection (AMD), conference-based agent bridging, call recording, status tracking, an…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01116-twilio-voice-outbound-calls-66095122",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-voice-outbound-calls/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-voice-outbound-calls/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "389ee1901e5d32bbca997d65dd4abb984997fa296af225d863711ed71615dd00",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

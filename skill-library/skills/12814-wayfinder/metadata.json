@@ -1,0 +1,22 @@
+{
+  "英文名称": "wayfinder",
+  "中文名称": "待补：wayfinder",
+  "一句话作用": "把单个 agent session 装不下的一大块工作规划成 issue tracker 上的 decision tickets shared map，并逐一解决，直到通往 destination 的路清晰。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-27T15:45:07+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要把单个 agent session 装不下的一大块工作规划成 issue tracker 上的 decision tickets shared map，并逐一解决，直到通往 destination 的路清晰。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12814-wayfinder-9273caee",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/.agents/skills/wayfinder/SKILL.md",
+  "relative_path": "lute/project/VOA/.agents/skills/wayfinder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d27fded0fcc19d65da2fc86fb5d2f90669b90db68ad1672b0482627d3db7e41c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

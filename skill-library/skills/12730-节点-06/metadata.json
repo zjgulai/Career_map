@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-cro-function",
+  "中文名称": "节点 06)",
+  "一句话作用": "用 Shopify Functions 做转化优化(满赠/折扣/结账校验/购物车变换)。当用户说\"满赠/加购/折扣/结账规则/CRO/AB\"时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-26T01:47:00+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用 Shopify Functions 做转化优化(满赠/折扣/结账校验/购物车变换)。当用户说\"满赠/加购/折扣/结账规则/CRO/AB\"时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12730-shopify-cro-function-50d22076",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/shopify/kb/marketplace/plugins/shopify-ai-kb/skills/shopify-cro-function/SKILL.md",
+  "relative_path": "lute/project/shopify/kb/marketplace/plugins/shopify-ai-kb/skills/shopify-cro-function/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6d0482f16d5812756d221f6df656927e92c0fb1658d77afae18e6e64107108ef",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

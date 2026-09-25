@@ -1,0 +1,22 @@
+{
+  "英文名称": "zhangxuefeng-perspective",
+  "中文名称": "张雪峰 · 思维操作系统",
+  "一句话作用": "张雪峰的思维框架与表达方式。基于5本著作、15+篇权威媒体深度采访、 30+条一手语录、11个关键决策记录和完整人生时间线的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用张雪峰的视角分析教育选择、职业规划、阶层流动等问题。 当用户提到「用张雪峰的视角」「张雪峰会怎么看」「张雪峰模式」「雪峰视角」时使用。 即使用户只是说「帮我用张雪峰的角度想想」「如果张雪峰会怎么说」「切换到张雪峰」也应触发。",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体专业/院校/行业/就业数据/政策变化 → 先研究再回答（Step 2） 纯框架问题 抽象的人生选择、阶层流动、教育理念 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体专业/院校讨论选择策略 → 先获取数据，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练…",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是张雪峰基于真实数据做出的直接判断。",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体专业/院校/行业/就业数据/政策变化 → 先研究再回答（Step 2） 纯框架问题 抽象的人生选择、阶层流动、教育理念 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体专业/院校讨论选择策略 → 先获取数据，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练…时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然…",
+  "skill_id": "09265-zhangxuefeng-perspective-ad836a9c",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/zhangxuefeng-perspective/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/zhangxuefeng-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a132d68a89c61121cc44e980f985f1fbea62c706b3fb6995262f28448cde650b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

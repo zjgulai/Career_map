@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-sheets",
+  "中文名称": "待补：lark-sheets",
+  "一句话作用": "飞书电子表格：创建和操作电子表格。支持创建表格、管理工作表与行列结构（增删/合并/调整尺寸/隐藏/冻结）、读写单元格（值/公式/样式/批注/单元格图片）、查找替换、多操作批量更新，以及图表、透视表、条件格式、筛选器、迷你图、浮动图片等对象的创建与维护。当用户需要创建电子表格、管理工作表、批量读写或编辑数据、统计汇总与可视化、表格美化、公式计算（含 Excel 公式迁移）、金融/财务建模（DCF、三张表、预算、Sensitivity 等…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- JSON 类入参分三类： 复合 JSON = 深层嵌套对象（--print-schema 可查）； 简单 JSON = 一二维标量数组； 非 JSON 文本 = 原样文本（如 CSV）。--print-schema 只对复合 JSON flag 有效。 - envelope ：所有 shortcut 返回统一外层 {ok, identity, data, ...}；写操作不会自动回读，校验自行调用 + -list / + -get / +cells-get。",
+  "最新更新时间": "2026-09-19T03:39:19+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要飞书电子表格：创建和操作电子表格。支持创建表格、管理工作表与行列结构（增删/合并/调整尺寸/隐藏/冻结）、读写单元格（值/公式/样式/批注/单元格图片）、查找替换、多操作批量更新，以及图表、透视表、条件格式、筛选器、迷你图、浮动图片等对象的创建与维护。当用户需要创建电子表格、管理工作表、批量读写或编辑数据、统计汇总与可视化、表格美化、公式计算（含 Excel 公式迁移）、金融/财务建模（DCF、三张表、预算、Sensitivity 等…时，用它产出或更新：- JSON 类入参分三类： 复合 JSON = 深…",
+  "skill_id": "04521-lark-sheets-0b3611c2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/lark/0.1.0/skills/lark-sheets/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/lark/0.1.0/skills/lark-sheets/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bc2889caded8d8da32fc8a33682c1e24e457d86990da6bfbf8a232571e308ccd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

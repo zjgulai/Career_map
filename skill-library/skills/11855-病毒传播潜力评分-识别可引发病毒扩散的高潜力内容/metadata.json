@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ugc-viral-content-potential-scorer",
+  "中文名称": "病毒传播潜力评分 识别可引发病毒扩散的高潜力内容",
+  "一句话作用": "触发词：UGC 潜力评分、病毒传播预测、晒单开箱筛选、种草内容质检、放大素材挑选。何时不用：判断付费素材的转化特征用短视频内容归因技能，本技能只评估内容本身的传播潜力，不预测成交转化。安全边界：二次推流原生素材须取得用户明确授权并覆盖商业推广用途，走官方创作者合作通道，不得擅自搬运用户内容。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容运营面临\"不知道哪个UGC值得推广\"——病毒潜力评分将内容放大精准度提升至70%+，同等预算曝光量提升3-5倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11855-p2s-ugc-viral-content-potential-scorer-af3cd311",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ugc-viral-content-potential-scorer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ugc-viral-content-potential-scorer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9ceda019540270762aacb556f202be8f12dc3fd8fc6005c5bcd75701cb14789",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

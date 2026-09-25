@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-as-judge-evaluator",
+  "中文名称": "用大模型自动评估生成内容质量",
+  "一句话作用": "触发词：自动质检、评分标准、评审流水线、内容抽检、质量趋势监控。何时不用：评估对象是检索召回质量时用检索评测；需要平台级终审结论时不能只靠模型判分。安全边界：评审结果只作内部质控，不等于平台审核通过；不得上传用户隐私数据，并需定期用人工标注校验判分与人工的一致性。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要团队面临\"AI每天生成50条Listing人工审核不够用\"——LLM-as-Judge实现100%自动化质检，合规风险发现率提升50%，年化节省人力+避免下架损失共140万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12019-p2s-llm-as-judge-evaluator-ec1b8927",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-as-judge-evaluator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-as-judge-evaluator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66590988aea7c873b7493952bbc2985ee8e62f761764c446ec4b232addadd7d1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

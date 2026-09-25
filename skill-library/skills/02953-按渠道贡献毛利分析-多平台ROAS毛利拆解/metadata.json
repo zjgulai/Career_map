@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-contribution-margin-by-channel",
+  "中文名称": "按渠道贡献毛利分析（多平台ROAS毛利拆解）",
+  "一句话作用": "触发词：渠道贡献毛利、多平台核算、变动成本拆解、固定成本分摊、资源重配。何时不用：要按 SKU 拆成本看单品盈亏用「SKU 级损益归因」；要评估某渠道的搜索或推荐增量价值用「搜索流量财务归因」。安全边界：固定成本分摊口径须事先约定并保持一致，不得为让某渠道好看而调整分摊比例。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要多平台运营者面临\"无法判断哪个渠道真正贡献利润导致资源错配\"——渠道贡献毛利拆解将渠道决策准确率提升80%，年化优化资源配置提升整体利润15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02953-p2s-contribution-margin-by-channel-a32a0609",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-contribution-margin-by-channel/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-contribution-margin-by-channel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "606ce5f219c73aa80a3fc8d8ea1d19c4d5f5154950b554ed19ad4548404450c2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-climate-esg-supply-chain-tag",
+  "中文名称": "气候与ESG供应链风险标签 碳足迹追踪合规与可持续供应链评级",
+  "一句话作用": "触发词：碳足迹、ESG披露、合规评级、可持续供应链。何时不用：缺少物料用量或排放因子数据时无法计算碳足迹；只评估供应商价格交期质量用供应商评估类技能。安全边界：ESG 与碳数据用于对外披露前必须经合规与审计复核，不得自行宣称合规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌面临\"EU CSRD强制ESG披露但无系统化数据\"——碳足迹+劳工合规Tag体系满足CSRD合规要求，支持高溢价ESG定位（欧洲市场+5-10%）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02897-p2s-climate-esg-supply-chain-tag-6c3af73d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-climate-esg-supply-chain-tag/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-climate-esg-supply-chain-tag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f406b39d565cd3ef712199a1b339de88a7f7cd1573161f493817f679b822f30",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

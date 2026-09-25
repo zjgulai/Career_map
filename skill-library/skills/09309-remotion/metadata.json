@@ -1,0 +1,22 @@
+{
+  "英文名称": "remotion",
+  "中文名称": "待补：remotion",
+  "一句话作用": "统一入口的 Remotion skill：用于 React/TS 视频制作、关键帧验图、中文旁白、字幕、渲染与交付。遇到 Remotion 视频需求时优先加载它。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-05T01:33:33+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要统一入口的 Remotion skill：用于 React/TS 视频制作、关键帧验图、中文旁白、字幕、渲染与交付。遇到 Remotion 视频需求时优先加载它。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09309-remotion-1f1456e2",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/draco-content/remotion/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/draco-content/remotion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d9a27a91a72e357cd38718957a18c3735d0b2a681f9d2b68fcca1748d364cf7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

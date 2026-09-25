@@ -1,0 +1,22 @@
+{
+  "英文名称": "douyin-content-engineer",
+  "中文名称": "抖音内容引擎 - 抖音关键词搜索竞品分析舆情监控与热榜跟踪工具",
+  "一句话作用": "抖音内容引擎 — AI驱动的内容电商助手。覆盖带货视频分析、竞品账号分析、抖音爆款视频挖掘、短视频爆款逻辑分析。提供4个能力：①关键词搜索（可按点赞/最新排序、时间窗、时长、图文类型筛选）②博主主页作品抓取 ③视频/图文评论抓取 ④实时热榜。输出结构化 JSON（含作者、互动数据、标签、链接）。当用户需要搜抖音视频、抓博主作品、看抖音评论、查抖音热榜、做竞品/对标账号监控、短视频选题调研、评论舆情分析、热点追踪、爆款挖掘时使用。触发词…",
+  "关键输入": "- 缺关键词：「你想搜索抖音里的什么内容？可以给我一个关键词，例如\"AI 教程\"。」 - 缺博主链接（post）：「请提供博主主页链接（douyin.com/user/xxx 或 v.douyin.com 短链），或直接给 sec uid。」 - 缺视频链接（comment）：「请提供视频或图文链接（douyin.com/video/xxx、douyin.com/note/xxx 或 v.douyin.com 短链）。」 - 链接类型不明：「你给的这个链接是想看这个博主的作品，还是这条视频的评论？」",
+  "关键输出": "所有输出（成功/失败/空结果）都是统一信封结构： - status=error 时 results 为 null，错误原因看 error code + message。 - request 中 keyword raw 为用户原始输入关键词，keyword 为清洗后实际使用的关键词，两者不一致时以 keyword 为准。 - 各命令 results 元素的完整字段见 assets/ resp.schema.json；完整选项见 references/options.md。",
+  "最新更新时间": "2026-09-19T03:52:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 没结果：放宽关键词或减少限定（--time 0）、换更贴近的词。 - 结果太多：补场景/人群/品牌/时间/账号，控制 limit。 - 调用失败：先确认 token 已配置有效（退出码 3 = token 问题）。 - 账号安全：只读能力，不登录/不发布/不点赞/不评论，无封号风险。时，用它产出或更新：所有输出（成功/失败/空结果）都是统一信封结构： - status=error 时 results 为 null，错误原因看 error code + message。 - request 中 keywo…",
+  "skill_id": "04831-douyin-content-engineer-46042677",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/douyin-content-engineer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/douyin-content-engineer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e8c9a93f98706b6ffa431429776bdb1a3ab71eb7e226090a48f01ec5d75cb13c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-skill-card-api-serving",
+  "中文名称": "将 Skill 代码模板包装为参数化 REST 微服务",
+  "一句话作用": "触发词：技能微服务化、接口自动注册、参数化调用、模板转服务、集成提速。何时不用：只是自己手动跑模板时不必包装成服务；要设计跨系统接口契约规范时属接口契约类工作。安全边界：把卡页代码注册为可执行端点等于开放代码执行面，必须限制可注册代码来源与签名白名单，禁止未经审核的代码暴露为公网端点。",
+  "关键输入": "技术负责人面临\"Skill卡片的算法模板无法被系统直接调用只能手动复制\"——FastAPI自动注册将Skill从文档变为可调用微服务，集成开发周期从1周压缩至2小时",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要技术负责人面临\"Skill卡片的算法模板无法被系统直接调用只能手动复制\"——FastAPI自动注册将Skill从文档变为可调用微服务，集成开发周期从1周压缩至2小时时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12117-p2s-skill-card-api-serving-aeed9db0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-skill-card-api-serving/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-skill-card-api-serving/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "89fb8ae4139127ab2e281cb433a63b55459f8b7dce9897258a4c03ad5ee311d1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

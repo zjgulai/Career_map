@@ -1,0 +1,22 @@
+{
+  "英文名称": "jlceda-plugin-builder",
+  "中文名称": "待补：jlceda-plugin-builder",
+  "一句话作用": "AI Skill for building EasyEDA Pro extension plugins. Used when users need to create, modify, or debug JLCEDA/EasyEDA Pro plugins, including generating plugin code, querying pro-api-types API, configuring extension.json,…",
+  "关键输入": "Applicable: - Creating or modifying EasyEDA Pro extension plugins - Querying API method signatures in @jlceda/pro-api-types - Configuring extension.json, locales i18n files, or build processes - Automating plugin import…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Applicable: - Creating or modifying EasyEDA Pro extension plugins - Querying API method signatures in @jlceda/pro-api-types - Configuring extension.json, locales i18n files, or build processes - Automating plugin import…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04924-jlceda-plugin-builder-28b9b96a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/jlceda-plugin-builder/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/jlceda-plugin-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a0928f807a7840b58a6db8f03700ed9635c25dee2f8ed9ca27165df0053b53a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

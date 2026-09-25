@@ -1,0 +1,22 @@
+{
+  "英文名称": "channel-integration",
+  "中文名称": "待补：channel-integration",
+  "一句话作用": "Use when synchronizing messaging, timing, and measurement across multiple campaign channels.",
+  "关键输入": "- Running campaigns that span email, social, paid media, events, web, PR. - Need to prevent message fatigue or conflicting offers. - Ensuring consistent tracking/UTM taxonomy across channels.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- Running campaigns that span email, social, paid media, events, web, PR. - Need to prevent message fatigue or conflicting offers. - Ensuring consistent tracking/UTM taxonomy across channels.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12751-channel-integration-fd25f35a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/campaign-orchestration/skills/channel-integration/SKILL.md",
+  "relative_path": "lute/project/skills/campaign-orchestration/skills/channel-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8f10062342e36b5b7b53381f6c1b0a8340b782f6e389abe15bbec4d1a2a756f5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

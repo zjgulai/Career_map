@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Agent-Memory-Learning",
+  "中文名称": "待补：Agent Memory Learning",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 68.0, \"best\": 73.0, \"mutated\": \"D6 code\", \"ts\": \"2026-07-04T02:28:34.471985\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 37.8, \"best\": 73.0, \"mutated\": \"D6 code\", \"ts\"…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T02:10:21+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 68.0, \"best\": 73.0, \"mutated\": \"D6 code\", \"ts\": \"2026-07-04T02:28:34.471985\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 37.8, \"best\": 73.0, \"mutated\": \"D6 code\", \"ts\"…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06771-skill-agent-memory-learning-0e6c83d9",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Agent-Memory-Learning.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Agent-Memory-Learning.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "64bd4960101f32ee4a9be53d91b9af93dbdf84c3d33bec8a24a70f4394130238",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tool-auto-discovery",
+  "中文名称": "工具自动发现：OpenAPI 自注册",
+  "一句话作用": "触发词：工具自动发现、OpenAPI注册、MCP自注册、工具注册表、供应商接口接入。何时不用：工具已在册、需要判断该不该调用时用工具调用决策技能；需要审计工具描述质量时用工具描述审核技能。安全边界：自注册范围须限定在受信来源与白名单域内，涉及下单、改价等写操作的工具须保留人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要ROI：接入时间从 2 天→30 分钟，节省 90%+ 开发成本时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03965-p2s-tool-auto-discovery-bd779694",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tool-auto-discovery/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tool-auto-discovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d24cf7fe73c560ccee6cf11fec04c802c6ab5d1a832ea54a97dbd07659552cde",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

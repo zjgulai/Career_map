@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-causal-treatment-effect",
+  "中文名称": "标签因果效应估计 用户行为标签的处理效应量化",
+  "一句话作用": "触发词：标签因果效应、GPS、双重稳健、去偏评估、运营动作复盘。何时不用：单一二元处理用常规双重稳健估计；标签数量超过10个时多分类GPS精度下降。安全边界：不得以因果效应大小作为差异化服务的唯一依据；标签需建立审核机制与禁用词过滤。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"用户标签运营效果无法区分因果还是用户本来就会回购\"——GPS双重鲁棒估计揭示流失外呼真实效果仅3%（非预期30%），年化停止低效动作节省40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03914-p2s-tag-causal-treatment-effect-36dea3a5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tag-causal-treatment-effect/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tag-causal-treatment-effect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3e70cf576b260df8f16dbec4ce192a9781ddd1811141571989b33b322f1c2d55",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

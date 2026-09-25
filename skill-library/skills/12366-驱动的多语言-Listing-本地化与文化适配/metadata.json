@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multilingual-listing-localization",
+  "中文名称": "驱动的多语言 Listing 本地化与文化适配",
+  "一句话作用": "触发词：Listing 本地化、多语言 Listing、标题五点改写、文化适配、目标市场文案、母语化翻译。何时不用：只做搜索词迁移不重写文案用「多市场搜索词本地化」；只给现有 Listing 打分用「Listing 质量评分」；只写原创英文文案用「Listing-AI 文案生成」。安全边界：本地化文案不得虚构 GS-geprüft、PSE 認証 等认证或夸大功效，须经本地合规与母语者复核后再上架。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要M5 吸奶器打算进 Amazon.de，Google 翻译的 Listing 德国搜索流量几乎为零——神经机器翻译 + 母语者语料微调将德语 Listing 自然搜索排名从首页底部提升至 Top 5，转化率提升 30-60%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12366-p2s-multilingual-listing-localization-81a05fba",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-multilingual-listing-localization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-multilingual-listing-localization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cd5d68d90d733faccaa4792595078660f9c6e33942d34273ba2249d8cb07e406",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

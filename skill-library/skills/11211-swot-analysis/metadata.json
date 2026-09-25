@@ -1,0 +1,22 @@
+{
+  "英文名称": "swot-analysis",
+  "中文名称": "待补：swot-analysis",
+  "一句话作用": "Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business positi…",
+  "关键输入": "- Product description and current state - Competitive landscape and market context - Company capabilities, resources, and constraints - Market trends and industry dynamics - Customer feedback or usage data (optional)",
+  "关键输出": "1. Identify 5-7 strengths (be honest about competitive advantages) 2. List 5-7 weaknesses (avoid minimizing; focus on addressable gaps) 3. Map 5-7 opportunities (prioritize by market size and alignment) 4. Flag 5-7 threats (assess probability and impact) 5. C…",
+  "最新更新时间": "2026-09-16T00:17:05+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business positi…时，用它产出或更新：1. Identify 5-7 strengths…",
+  "skill_id": "11211-swot-analysis-321273d1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/swot-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/swot-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ef5efbc2d4b84237469808cc9ce90016d926c0b3d65977f7edf21c60e3d5f85b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

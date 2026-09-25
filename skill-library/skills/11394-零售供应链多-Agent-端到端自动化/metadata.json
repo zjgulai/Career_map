@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-flowr-supply-chain-mas",
+  "中文名称": "零售供应链多 Agent 端到端自动化",
+  "一句话作用": "触发词：多Agent供应链、端到端补货、跨境补货自动化、补货Agent、供应链自动化。何时不用：只做单一环节的补货量测算时用供需缺口分析与优先级分配；只做多渠道库存同步与超卖防护时用多渠道库存协同。安全边界：关键补货与下单动作须经人工确认门放行后再执行，涉及资金与合同的决策不得全自动放行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴品牌在亚马逊/独立站同时运营，SKU 达 500+，跨境仓（海外仓 + 国内直发）补货涉及 DHL/UPS 运输周期（15-30 天）、海关清关（3-7 天）、Amazon FBA 入仓（1-5 天），任何一环延误都导致断货（Lost Buy Box，单 SKU 日损失 2,000-8,000 元）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11394-p2s-flowr-supply-chain-mas-b599e761",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-flowr-supply-chain-mas/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-flowr-supply-chain-mas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fdee38af7bebe73e3a8788a0ef7cacbe14b7e5fdaadd86e160ac872e75971f1c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

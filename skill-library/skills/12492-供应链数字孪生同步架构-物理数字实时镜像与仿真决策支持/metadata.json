@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sc-digital-twin-sync-architecture",
+  "中文名称": "供应链数字孪生同步架构 物理数字实时镜像与仿真决策支持",
+  "一句话作用": "触发词：数字孪生、实时镜像、停产仿真、损失区间、替代供应商。何时不用：参数化多方案对比用「供应链 What-If 情景分析引擎」；网络级中断压测与备用路由用「供应链弹性压力测试」。安全边界：孪生体仅做推演，不得直接向物理世界下发改单、改产、改路由等指令。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应商停产/FBA延误需要实时量化影响——数字孪生7层仿真引擎将What-if响应从3天人工协调→30分钟自动推演，防止断货GMV损失30-50万元/次时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12492-p2s-sc-digital-twin-sync-architecture-5bf303e8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-sc-digital-twin-sync-architecture/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-sc-digital-twin-sync-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "27652b73a0e7d9ddf41195302f56619c4fe90001a3fc854a7ce5a51ef1ec143a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

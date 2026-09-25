@@ -1,0 +1,22 @@
+{
+  "英文名称": "写PRD",
+  "中文名称": "写PRD",
+  "一句话作用": "产品需求文档（设计师视角的工程交付桥接）。把已对齐的设计产出（/设计简报 + /用户故事 + /站点地图 + Flow Web/Mobile）整合为 8 段式 PRD，让工程师或 coding agent（Cursor / Claude Code 等）直接消费——含完整功能描述、Given/When/Then 验收标准、设计触点、已生成的设计资产引用、风险与发布计划。 触发关键词：写 PRD、生成需求文档、把这个交给工程、给工程师写文…",
+  "关键输入": "- 问题 ：从用户视角描述（用 frame.persona 或 brief.business context 的措辞）， 不要从产品视角 - 当前 workaround ：用户今天怎么解决？为什么不够好？（来自 frame.persona.workaround） - 为什么是现在 ：市场 / 用户行为 / 竞品格局有什么变化？（来自 frame.business angle.why now） - 不解决什么 ：明确 1-2 个相邻问题…",
+  "关键输出": "按 chain-protocol.md §2.1 v1.1 智能适配规则： 1. 保存 Markdown PRD 文件 （核心产物）：spark-output/prd/[direction-slug].md 2. 写盘 chain context ：写入 spark-output/context/prd.json（含元数据 + 章节摘要， 不含完整 PRD 文本 ——PRD 全文在 spark-output/prd/[slug].md）",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 问题 ：从用户视角描述（用 frame.persona 或 brief.business context 的措辞）， 不要从产品视角 - 当前 workaround ：用户今天怎么解决？为什么不够好？（来自 frame.persona.workaround） - 为什么是现在 ：市场 / 用户行为 / 竞品格局有什么变化？（来自 frame.business angle.why now） - 不解决什么 ：明确 1-2 个相邻问题…时，用它产出或更新：按 chain-protocol.md §2.1 v…",
+  "skill_id": "04605-prd-d6d4c847",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/prd/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/prd/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7f77250f92d12eafa0f260415544e946acc183b88b8595581d12bede1d0d88d5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

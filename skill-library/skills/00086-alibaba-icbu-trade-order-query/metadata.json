@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-trade-order-query",
+  "中文名称": "待补：alibaba-icbu-trade-order-query",
+  "一句话作用": "Alibaba.com Trade Order Query Skill, for looking up order list and specific order details. Triggered when users mention topics related to checking orders, order list, order details, order status, or any order-related in…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Order List: - Mandatory : whenever icbu alibaba trade order query list buyer returns successfully, you MUST render the result strictly per the Order List Template at references/order-list-template.md. No exceptions, no improvisation, no bullet-list fallback.",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Alibaba.com Trade Order Query Skill, for looking up order list and specific order details. Triggered when users mention topics related to checking orders, order list, order details, order status, or any order-related in…时，用它产出或更新：Order List: - Mandatory :…",
+  "skill_id": "00086-alibaba-icbu-trade-order-query-54c59813",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-order-query/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-order-query/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "98e0b98e7292514908ba043c14126585ba5de71641b3b31cb9c5c026e7f77176",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "pdf",
+  "中文名称": "待补：pdf",
+  "一句话作用": "PDF creation, editing, and analysis with support for text extraction, tables, images, forms, merging/splitting, and rendering. Use when working with PDF documents (.pdf files) for: (1) Creating new PDF documents, (2) Ex…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T12:02:13+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要PDF creation, editing, and analysis with support for text extraction, tables, images, forms, merging/splitting, and rendering. Use when working with PDF documents (.pdf files) for: (1) Creating new PDF documents, (2) Ex…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00205-pdf-799cce70",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/documents/skills/pdf/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/documents/skills/pdf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "21e27d154bbd4ad4134fec08f0cb38e5236a966464620ae2a8116290e9fdc6dc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

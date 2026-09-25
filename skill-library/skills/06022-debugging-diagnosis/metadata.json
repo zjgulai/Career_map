@@ -1,0 +1,22 @@
+{
+  "英文名称": "debugging-diagnosis",
+  "中文名称": "待补：debugging-diagnosis",
+  "一句话作用": "Diagnose and fix bugs through reproduction, minimization, hypotheses, instrumentation, targeted fixes, and regression coverage. Use when the user reports failing behavior, a broken test, runtime error, flaky workflow, o…",
+  "关键输入": "- Exact error text, logs, screenshots, failing test output, or reproduction steps. - Recent diffs and git status --short. - Relevant package scripts, test commands, CI workflow, issue context, and domain docs if present. - Existing tests around the failing be…",
+  "关键输出": "Return: 1. Reproduction command or reason reproduction was unavailable 2. Root cause 3. Files changed 4. Regression coverage added 5. Validation commands and results 6. Remaining risks",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user reports a bug, failing test, runtime error, broken workflow, or flaky behavior. - A prior fix was speculative and needs a reproducible diagnosis. - The task needs root cause analysis before a code change.时，用它产出或更新：Return: 1. Reproduction command…",
+  "skill_id": "06022-debugging-diagnosis-ba7ad18c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/engineering-workflows/debugging-diagnosis/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/engineering-workflows/debugging-diagnosis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "48199455672a100e08849383447351da0fe8c59dddb352f4e4f3d1165bbaa8ea",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

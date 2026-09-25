@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-contextrl-contrastive-context-selection",
+  "中文名称": "对比上下文选择强化学习 细粒度上下文锚定训练突破长时域推理瓶颈",
+  "一句话作用": "触发词：上下文选择、长时域推理、对比轨迹、证据锚定、上下文污染。何时不用：任务步数少或调用频次低时微调成本收不回来；要解决知识过期问题走知识时效类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要标准RL只奖励最终答案让Agent学会猜测而非识别关键证据——ContextRL辅助对比上下文选择目标使Agent真正学会细粒度证据锚定，长时域Benchmark平均+2.2%（2026 arXiv:2606.17053）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11935-p2s-contextrl-contrastive-context-selection-c867ce00",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-contextrl-contrastive-context-selection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-contextrl-contrastive-context-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "59850f54cfa57c1c6997534ead795e57199186b3e5f4ac4516a52fe28f3080bf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

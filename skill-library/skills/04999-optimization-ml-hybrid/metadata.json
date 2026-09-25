@@ -1,0 +1,22 @@
+{
+  "英文名称": "optimization-ml-hybrid",
+  "中文名称": "待补：optimization-ml-hybrid",
+  "一句话作用": "When the user wants to combine machine learning with optimization, use ML predictions in optimization models, or integrate AI with mathematical programming. Also use when the user mentions \"ML-optimization hybrid,\" \"pre…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要When the user wants to combine machine learning with optimization, use ML predictions in optimization models, or integrate AI with mathematical programming. Also use when the user mentions \"ML-optimization hybrid,\" \"pre…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04999-optimization-ml-hybrid-5ba7611f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/optimization-ml-hybrid/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/optimization-ml-hybrid/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dab894438ce9594021f930a3004f4ac80bf0d9b2b5d3a15ad2f71967186a3e38",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

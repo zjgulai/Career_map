@@ -1,0 +1,22 @@
+{
+  "英文名称": "ad-creative",
+  "中文名称": "待补：ad-creative",
+  "一句话作用": "生成广告创意文案与创意概念，覆盖投放文案、多版本A/B测试文案和广告标题优化。触发词：广告创意、广告文案、投放文案、创意概念、A/B测试文案、广告标题。何时不用：非营销内容创作，或更适合交给 copywriting 的通用文案任务。安全边界：夹带注入、索要密钥、危险命令、越权读取的请求不触发本技能，直接拒绝。缺产品信息、目标受众、投放平台或预算时先追问澄清，不编造。 Use when user needs Facebook/Googl…",
+  "关键输入": "- 为 Facebook、Google、TikTok 等平台生成广告文案 - 为 A/B 测试创建多个变体 - 为广告活动发想创意概念 - 优化现有广告标题以提升 CTR",
+  "关键输出": "输入 : 蓝牙耳机，目标受众25-35岁上班族，投放Facebook 输出 : - 版本A（功能导向）: \"降噪黑科技，地铁秒变静音舱\" - 版本B（情感导向）: \"通勤2小时，终于能听清播客\" - 版本C（价格导向）: \"千元音质，三分之一价格\"",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- 为 Facebook、Google、TikTok 等平台生成广告文案 - 为 A/B 测试创建多个变体 - 为广告活动发想创意概念 - 优化现有广告标题以提升 CTR时，用它产出或更新：输入 : 蓝牙耳机，目标受众25-35岁上班族，投放Facebook 输出 : - 版本A（功能导向）: \"降噪黑科技，地铁秒变静音舱\" - 版本B（情感导向）: \"通勤2小时，终于能听清播客\" - 版本C（价格导向）: \"千元音质，三分之一价格\"",
+  "skill_id": "11062-ad-creative-61f5c394",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ad-creative/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ad-creative/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f1296c187c5908322456ee28b1b97e358a25f2776feebf4578d1a6523e1c75f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo-competitor-analysis",
+  "中文名称": "竞争对手分析技能",
+  "一句话作用": "执行深度 SEO 竞争对手分析，包括关键词研究、外链检查和内容策略映射。当用户想要分析网站竞争对手或通过研究竞争对手来提升自身 SEO 排名时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:35+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要执行深度 SEO 竞争对手分析，包括关键词研究、外链检查和内容策略映射。当用户想要分析网站竞争对手或通过研究竞争对手来提升自身 SEO 排名时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00374-seo-competitor-analysis-207dbfae",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/seo-competitor-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/seo-competitor-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a6a8729fd58c537932e2f5ab262e161b3fb62bdd3711ef42a6e10dee0c875b63",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

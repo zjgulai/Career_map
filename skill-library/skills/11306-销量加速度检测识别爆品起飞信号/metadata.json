@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sales-velocity-momentum-detection",
+  "中文名称": "销量加速度检测识别爆品起飞信号",
+  "一句话作用": "触发词：销量加速度、BSR动量、起飞信号、竞品预警。何时不用：只有单次排名快照、没有连续时序时无法计算加速度；判断品类整体趋势用趋势预测类技能。安全边界：历史销量与排名数据应使用合规授权的数据源。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要竞品监控人员面临\"爆品销量已翻倍才发现反应已经来不及\"——三层动量信号检测在爆品真正起飞前7-14天发出预警，广告防御响应窗口扩大保护年化GMV 50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11306-p2s-sales-velocity-momentum-detection-63b4cd8a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-sales-velocity-momentum-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-sales-velocity-momentum-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cad3950f1c69e5e63744be71acc3b902d5dfe243c7386e8c8d9b4f6e37563bbe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

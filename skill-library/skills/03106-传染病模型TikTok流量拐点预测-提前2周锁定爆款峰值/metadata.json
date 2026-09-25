@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-epidemiological-viral-traffic-sir",
+  "中文名称": "传染病模型TikTok流量拐点预测 提前2周锁定爆款峰值",
+  "一句话作用": "触发词：流量拐点、爆款预测、SIR模型、备货节奏。何时不用：缺少每日粒度流量或无法估计品类受众总量时不用本卡；判断品类中长期趋势用趋势预测类技能。安全边界：避免刷单等会人为放大感染指标的行为。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要增长经理面临内容爆量难追踪——SIR将流量峰值预测误差25%压到10%，年化省18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03106-p2s-epidemiological-viral-traffic-sir-59a5d1cf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-epidemiological-viral-traffic-sir/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-epidemiological-viral-traffic-sir/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a188e921374bb12348916ffa2025d8844582905b071405932b05470764633da",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

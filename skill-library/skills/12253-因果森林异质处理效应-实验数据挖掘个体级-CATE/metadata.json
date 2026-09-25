@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-forest-hte-experiment",
+  "中文名称": "因果森林异质处理效应 实验数据挖掘个体级 CATE",
+  "一句话作用": "触发词：因果森林、异质处理效应、个体效应估计、实验分群、精准投放、效应放大。何时不用：只需判断实验整体是否有效用「促销效果因果评估」；要从观测数据学策略用「观测数据策略学习」。安全边界：效应估计基于聚合特征，不得输出个体识别信息，也不得基于个人身份信息定价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"全量用户施同一促销力度导致高价值用户补贴过度浪费\"——因果森林HTE精准识别异质处理效应将促销ROI提升35%，年化节省无效补贴40-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12253-p2s-causal-forest-hte-experiment-1db2597a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-causal-forest-hte-experiment/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-causal-forest-hte-experiment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d59b07926110deba175a53dfc99a5f30090682c6ef2fd1c4ca06d64ffbdfb01a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

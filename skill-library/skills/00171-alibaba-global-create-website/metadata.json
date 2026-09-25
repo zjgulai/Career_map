@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-create-website",
+  "中文名称": "待补：alibaba-global-create-website",
+  "一句话作用": "Canvas-based visual website builder that generates, previews, and validates React/Vite sites via the workctl CLI (accio-cli site builder commands). Covers five sub-capabilities: merchant info collection, Canvas design p…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After the ai minisite acciowork publish page MCP call returns, report the result to the user: - On success → show the publish details from the MCP response (e.g., page id, publish result, and any returned page/preview URL). - On failure → show the error messa…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Canvas-based visual website builder that generates, previews, and validates React/Vite sites via the workctl CLI (accio-cli site builder commands). Covers five sub-capabilities: merchant info collection, Canvas design p…时，用它产出或更新：After the ai minisite acci…",
+  "skill_id": "00171-alibaba-global-create-website-6795246e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-create-website/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-create-website/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "222421fa633451b19ccb30168275d481f35a6e63640de029c3510f6569f61083",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "golang-gin-api",
+  "中文名称": "待补：golang-gin-api",
+  "一句话作用": "Build REST APIs with Go Gin framework. Covers routing, handler patterns, request binding/validation, middleware chains, error handling, security headers (OWASP), CORS, timeout middleware, and layered project structure.…",
+  "关键输入": "Struct tags validate format and constraints. Sanitize string fields after binding to neutralize injection payloads before they reach services or storage. For file uploads, always strip directory components from client-supplied filenames:",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:55+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Creating a new Go REST API or HTTP server - Adding routes, handlers, or middleware to a Gin app - Binding and validating incoming JSON/query/URI parameters - Structuring a Go project with a layered project structure -…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04897-golang-gin-api-dd56e5bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/golang-gin-api/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/golang-gin-api/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "662bae25c1356ec8d1fa26759b59e34f6c2eaa4f05390e4fab7b62556d63e045",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

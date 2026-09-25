@@ -1,0 +1,22 @@
+{
+  "英文名称": "boltz-small-molecule-adme",
+  "中文名称": "待补：boltz-small-molecule-adme",
+  "一句话作用": "Predict Tier-1 ADME/ADMET for small molecules with Boltz from bare SMILES — no target, no docking. Use when the user wants solubility, permeability, or lipophilicity/logD for a molecule or list of molecules. Not for ran…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "boltz-api predictions:adme run \\ --model adme-v1 \\ --idempotency-key \" \" \\ --input @yaml:///absolute/path/payload.yaml \\ --name \" \" \\ --root-dir \"/absolute/path/boltz-experiments\" \\ --poll-interval-seconds 5",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Predict Tier-1 ADME/ADMET for small molecules with Boltz from bare SMILES — no target, no docking. Use when the user wants solubility, permeability, or lipophilicity/logD for a molecule or list of molecules. Not for ran…时，用它产出或更新：boltz-api predictions:adme…",
+  "skill_id": "00707-boltz-small-molecule-adme-edcd797c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-small-molecule-adme/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-small-molecule-adme/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3cb1550e214ebbffd26127e0d5b904830379d29f05ac2de1c4a3f11fb2257b9c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

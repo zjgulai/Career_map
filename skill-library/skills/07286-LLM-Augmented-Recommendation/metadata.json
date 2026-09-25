@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-LLM-Augmented-Recommendation",
+  "中文名称": "待补：LLM Augmented Recommendation",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 34.8, \"best\": 70.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:49:42.843745\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 47.8, \"best\": 81.0, \"mutated\": \"D10 th…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-05T19:14:31+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 34.8, \"best\": 70.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:49:42.843745\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 47.8, \"best\": 81.0, \"mutated\": \"D10 th…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07286-skill-llm-augmented-recommendation-9deb3d2b",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-LLM-Augmented-Recommendation.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-LLM-Augmented-Recommendation.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "1108bf32545b82eb6f813ac7efb8c9f9cc504b83ede79c432435b27a887db579",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

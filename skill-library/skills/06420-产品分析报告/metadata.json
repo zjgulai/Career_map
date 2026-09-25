@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-product-analysis",
+  "中文名称": "产品分析报告",
+  "一句话作用": "围绕具体产品、产品想法或存量方案，产出用于产品进入、定位、竞争策略、上市路径、能力建设与路线图决策的证据型分析报告。适用于“值不值得做或发布”“进入哪个细分”“目标用户和市场是否成立”“竞品为何这样设计”“该借鉴、差异化或放弃什么”“核心能力与 Roadmap 怎么定”“如何调整已有产品”等请求，也适用于将用户研究、市场信息、竞品实测、内部资料和业务约束整合为决策建议。支持 0→1、存量产品调整、竞品专项与组合分析；默认交付为可独立阅…",
+  "关键输入": "将问题写成可证伪陈述： 谁在什么触发场景，要完成什么任务，受到什么阻碍，当前如何替代，产生什么可观察后果。 区分使用者、购买者和受影响者。判断问题强度时至少检查： - 频率或持续性； - 时间、金钱、质量、风险或机会损失； - 用户已付出的替代成本； - 真实行为、付费、流失、工单或迁移信号； - 哪些细分最痛，哪些细分并不需要。 只有在会影响决策时分析市场。先判断问题强度、可支付价值、可触达性、时机、可进入性和战略匹配，再决定是否估…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T16:27:36+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要将问题写成可证伪陈述： 谁在什么触发场景，要完成什么任务，受到什么阻碍，当前如何替代，产生什么可观察后果。 区分使用者、购买者和受影响者。判断问题强度时至少检查： - 频率或持续性； - 时间、金钱、质量、风险或机会损失； - 用户已付出的替代成本； - 真实行为、付费、流失、工单或迁移信号； - 哪些细分最痛，哪些细分并不需要。 只有在会影响决策时分析市场。先判断问题强度、可支付价值、可触达性、时机、可进入性和战略匹配，再决定是否估…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06420-doubao-product-analysis-d49e7efa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-product-analysis/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-product-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5756aec4e86acf14fda57dfa74ee0419a3c594edf8f1582305f4ae718fec11ab",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

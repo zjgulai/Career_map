@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloud-functions",
+  "中文名称": "待补：cloud-functions",
+  "一句话作用": "Complete guide for CloudBase cloud functions development - supports both Event Functions (Node.js) and HTTP Functions (multi-language Web services). Covers runtime selection, deployment, logging, invocation, scf bootstr…",
+  "关键输入": "Use this skill for cloud function operations when you need to: - Create and deploy Event Functions (Node.js) - Create and deploy HTTP Functions (Node.js/Python/Go/Java) - Understand runtime limitations and selection - Q…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Use this skill for cloud function operations when you need to: - Create and deploy Event Functions (Node.js) - Create and deploy HTTP Functions (Node.js/Python/Go/Java) - Understand runtime limitations and selection - Q…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05872-cloud-functions-34fe3be2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/cloud-functions/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/cloud-functions/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c3354b448b40444f2b442772cf7e037e5f052d59b8e3c270a415be39fcca46c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

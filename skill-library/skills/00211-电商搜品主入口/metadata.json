@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-search",
+  "中文名称": "电商搜品主入口",
+  "一句话作用": "面向竞品调研与外部商品分析的电商公开页面采集体系（非店铺后台数据）。当用户需要对京东/淘宝/天猫/1688/拼多多/抖音的外部竞品商品进行调研、找同款、比价、详情采集、评论分析或价格监控时使用本Skill。典型触发表达包括但不限于：\"帮我看下这个竞品\"\"找下同款\"\"比一下价格\"\"采集这个商品详情\"\"搜一下XX关键词\"\"用这张图找同款\"\"看下这个商品的评价\"\"监控这个竞品价格变化\"\"分析这几个竞品的卖点和差异\"\"搜前20个商品\"\"三个平…",
+  "关键输入": "每条命令都是 单行、纯参数调用 ：python3 \" \" --参数 \"值\"。任务开始时从执行器元数据确认一次实际外层 Shell 并全程复用，不能根据工具名 bash 猜测，也不探测/安装另一套 bash。 不写运行时 .sh / .ps1 中转文件 ；复杂逻辑使用仓库内固定 .py / .js / .sh，动态值只走 argv 或结构化输入。命令里禁止出现 shell 变量赋值、命令替换 $()、管道解 JSON、here-string、行尾续行；需要派生路径时读 output layout.py 的 JSON…",
+  "关键输出": "所有搜索、详情、竞品任务都必须先规划用户工作区内的绝对输出目录。主任务目录由 scripts/output layout.py 原子创建为 ；不得使用相对 reports、插件目录或按 mtime 猜“最近目录”。同一会话后续步骤只复用上一步 stdout 明确返回的 task dir。 统一层级： 搜索产物直接放在 search n 目录下；详情产物放在所属搜索目录的 product n 下： 同一任务内多平台共用一个 显式传递 的 task dir，平台目录分别为 1688/、jd/、taobao/；未传 -…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要面向竞品调研与外部商品分析的电商公开页面采集体系（非店铺后台数据）。当用户需要对京东/淘宝/天猫/1688/拼多多/抖音的外部竞品商品进行调研、找同款、比价、详情采集、评论分析或价格监控时使用本Skill。典型触发表达包括但不限于：\"帮我看下这个竞品\"\"找下同款\"\"比一下价格\"\"采集这个商品详情\"\"搜一下XX关键词\"\"用这张图找同款\"\"看下这个商品的评价\"\"监控这个竞品价格变化\"\"分析这几个竞品的卖点和差异\"\"搜前20个商品\"\"三个平…时，用它产出或更新：所有搜索、详情、竞品任务都必须先规划用户工作区内的绝…",
+  "skill_id": "00211-ecommerce-search-b871218f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/ecommerce-search/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/ecommerce-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6d86fe5ce022ebb2749bfb478cd344c3a81a6042b1b9c620927137c8190835a3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

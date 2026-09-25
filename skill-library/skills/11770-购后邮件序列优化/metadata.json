@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-post-purchase-email-sequence-optimizer",
+  "中文名称": "购后邮件序列优化）",
+  "一句话作用": "触发词：购后邮件、换段提醒、复购序列、月龄引导、邮件自动化、首购激活。何时不用：跨版本文案择优用多臂老虎机卡；要在购后按时间与月龄节点编排一串邮件（评价、交叉销售、换段、召回）时用本卡。安全边界：Amazon 站内只能走 Buyer-Seller Messaging 等合规渠道，不得夹带外部链接；邮件须可退订并遵守发送频率限制。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要私域运营面临邮件跟进打不开——邮件序列优化将复购率从8%提到12%，年化增收13万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11770-p2s-post-purchase-email-sequence-optimizer-4b2307db",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-post-purchase-email-sequence-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-post-purchase-email-sequence-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2cc5e645983c4084845e60f5e1145cdcdc5b07650fe1a03dd0ebd203dc976e7a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

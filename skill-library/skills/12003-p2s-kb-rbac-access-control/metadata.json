@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kb-rbac-access-control",
+  "中文名称": "待补：p2s-kb-rbac-access-control",
+  "一句话作用": "触发词：知识库权限、角色访问控制、Pre-filter检索、多租户隔离、字段级脱敏、越权拦截。何时不用：需要跨多个知识源做新鲜度与路由编排时用「知识库声明式编排」；需要按用户角色调整回答深度而非可见性时用「画像驱动检索」。安全边界：权限过滤必须在检索前（Pre-filter）执行，禁止先全量召回再由模型判断；拒答不得泄露受保护字段的存在、名称或数值；访问行为须满足 GDPR/CCPA 可审计要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要企业知识库面临\"运营专员意外访问供应商成本数据导致竞争泄密风险\"——KB-RBAC细粒度Pre-filter权限控制将越权访问事故降低90%，满足GDPR合规要求，风险价值保护500万元/次时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12003-p2s-kb-rbac-access-control-5afe779d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-kb-rbac-access-control/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-kb-rbac-access-control/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3e7f8bdb1e0eae4bbb3894e28958d2f39e7a015d9bd6997a5fc5c48af9ac7e31",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

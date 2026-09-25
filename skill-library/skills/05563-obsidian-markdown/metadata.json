@@ -1,0 +1,22 @@
+{
+  "英文名称": "obsidian-markdown",
+  "中文名称": "待补：obsidian-markdown",
+  "一句话作用": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, fr…",
+  "关键输入": "- Working with .md files in an Obsidian vault - Creating notes with wikilinks or internal links - Adding embeds for notes, images, audio, or PDFs - Using callouts (info boxes, warnings, tips, etc.) - Managing frontmatte…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "document-processing",
+  "解决具体问题": "当需要- Working with .md files in an Obsidian vault - Creating notes with wikilinks or internal links - Adding embeds for notes, images, audio, or PDFs - Using callouts (info boxes, warnings, tips, etc.) - Managing frontmatte…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05563-obsidian-markdown-040e61cf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/obsidian-markdown/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/obsidian-markdown/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "08796569d2aa144647a0d68130831e7586260ad595d473b3674707d5cd5ca1a7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

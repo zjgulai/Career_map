@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sdpm-semantic-chunking",
+  "中文名称": "语义双阶段分块 边界感知的智能分块策略",
+  "一句话作用": "触发词：语义分块、边界感知、检索召回、分块粒度、长文本切分。何时不用：需要识别文档版面区域并剔除图注时用版面理解技能；需要把文档解析成结构化字段时用文档智能解析技能。安全边界：分块只改变切分方式、不得删改原文条款内容，相似度阈值须用验证集校验后再上线。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临合规文档固定分块破坏语义完整性——SDPM将RAG准确率从65%→81%，合规审查错误率-62%，年化规避风险38万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03774-p2s-sdpm-semantic-chunking-698db187",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sdpm-semantic-chunking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sdpm-semantic-chunking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f1d372cd7b809ecf1020e7660f7ba7cd91a33d605978bcb482f5923707b0a3d3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

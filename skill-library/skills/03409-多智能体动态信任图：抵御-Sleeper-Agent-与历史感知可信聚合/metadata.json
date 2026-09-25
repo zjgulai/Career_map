@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-dynamic-trust",
+  "中文名称": "多智能体动态信任图：抵御 Sleeper Agent 与历史感知可信聚合",
+  "一句话作用": "触发词：动态信任、可信聚合、消息历史、数据源隔离、Sleeper Agent。何时不用：只有一个数据源、没有交叉验证对象时信任加权没有意义；本技能面向多 Agent 与多数据源并发的场景。安全边界：信任分与隔离阈值是契约产物，实际隔离动作由执行层完成；信任分不得用于对合作方的公开评价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要若某个市场行情 Agent 被错误数据污染（如竞品恶意干扰），所有下游决策将偏差时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03409-p2s-mas-dynamic-trust-c19df798",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mas-dynamic-trust/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mas-dynamic-trust/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "512d3766011ce866093128a4321c8f7e023f776cda20ea7f2657c5aee3738656",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

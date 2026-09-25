@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-market-ad-copy-compliance",
+  "中文名称": "多市场广告文案合规矩阵 差异自动对比",
+  "一句话作用": "触发词：广告文案合规、多市场差异、FDA/FTC/ASA、逐句标注、证据清单、本地化改写。何时不用：只按 Amazon 平台条款扫违禁词时用「Amazon ToS 合规护栏」，要审 AI 生成素材宣称时用「AIGC 内容合规审查」。安全边界：改写建议不构成法律意见，投放前口径须由当地法规顾问确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌运营面临\"同一广告文案在美/欧/澳发布时违规规定不一致\"——多市场广告文案合规矩阵将跨境文案违规漏报率从28%降至4%，年化避免广告下架损失30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12575-p2s-multi-market-ad-copy-compliance-7469bf89",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-multi-market-ad-copy-compliance/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-multi-market-ad-copy-compliance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79c5837fa062e8a17134258b78a88d0048bfefc709d76e9ddf0c8619f8f5ebe3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

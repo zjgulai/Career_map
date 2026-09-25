@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-quark-scanking-idphoto",
+  "中文名称": "使用前必读（30 秒）",
+  "一句话作用": "由夸克扫描王提供的智能证件照生成工具。支持传入人像照片，智能裁剪为标准证件照尺寸（一寸/二寸），支持妆容风格调整、修容增强、背景更换（红底/白底/蓝底）。输出符合尺寸规范的高清证件照图片。",
+  "关键输入": "📖 完整的不适用场景表，请查阅 references/limitations.md",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:51:46+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要📖 完整的不适用场景表，请查阅 references/limitations.md时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04700-alibaba-quark-scanking-idphoto-9013c3fb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/alibaba-quark-scanking-idphoto/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/alibaba-quark-scanking-idphoto/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a3b0e900042d0bac924a445f4f0d4480c2515ce7c0f44475942bf7db557fefa7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

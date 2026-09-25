@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-defense-vine-optimizer",
+  "中文名称": "评论防御优化器 贝叶斯建模计算最优Vine投入对冲差评影响",
+  "一句话作用": "触发词：Vine评论、差评防御、评分恢复测算、评论率预估、冷启动评论。何时不用：差评根因分析用评论根因类技能；评论异常速度检测用评论速度异常检测类技能。安全边界：不得以操纵评价为目的滥用 Vine 或伪造评论，须按平台规则合规申请；产品未通过质检时不得批量投放 Vine 单位。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌运营面临\"评分被攻击后跌破Amazon Choice阈值4.4星\"——Vine贝叶斯投入优化将20单位成本760美元恢复评分0.3星，30天内回本年化ROI约1390%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03732-p2s-review-defense-vine-optimizer-33493a15",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-review-defense-vine-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-review-defense-vine-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "47800f90c856d7dd4faf270666046ed0a1c0ba7e703b44ecc71fd715c32482e0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

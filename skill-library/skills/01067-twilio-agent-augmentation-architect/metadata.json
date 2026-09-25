@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-agent-augmentation-architect",
+  "中文名称": "待补：twilio-agent-augmentation-architect",
+  "一句话作用": "Planning skill for augmenting human agents with real-time AI intelligence. Qualifies the developer's use case across coaching, compliance, QA, and routing to recommend the right Conversation Intelligence + Conversation…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After qualifying the developer, recommend:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Planning skill for augmenting human agents with real-time AI intelligence. Qualifies the developer's use case across coaching, compliance, QA, and routing to recommend the right Conversation Intelligence + Conversation…时，用它产出或更新：After qualifying the develo…",
+  "skill_id": "01067-twilio-agent-augmentation-architect-4514530b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-agent-augmentation-architect/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-agent-augmentation-architect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2989a3cfacc98b7637c12b6ca140a4d602b3cb34a63a22645e5fb0dc395eed96",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-channel-budget-reallocation-trigger",
+  "中文名称": "饱和度超阈值时自动削减并重分配渠道预算",
+  "一句话作用": "触发词：渠道饱和度、预算再分配、连续超载判定、回滚快照、投放诊断。何时不用：渠道饱和度历史不足或各渠道口径不可比时不触发；只做日内时段节奏控制时用跨渠道预算节奏控制器。安全边界：单渠道单次调整不超过30%，调整必须留存回滚快照，不涉及用户级数据处理。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要投放运营面临\"渠道饱和CPM上涨30%但预算未调\"——饱和度门控将无效渠道预算削减20%重分配至低饱和渠道，年化节省无效投放$50,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02888-p2s-channel-budget-reallocation-trigger-501aeb1e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-channel-budget-reallocation-trigger/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-channel-budget-reallocation-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e232dd0e40fc60a2cf8c52fa24782b54af6435004abd3a0281e2a8c4e6889cac",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

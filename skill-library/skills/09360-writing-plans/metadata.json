@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-plans",
+  "中文名称": "待补：writing-plans",
+  "一句话作用": "Use when you have a spec or requirements for a multi-step task, before touching code",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-02T10:50:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when you have a spec or requirements for a multi-step task, before touching code时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09360-writing-plans-0b0e092a",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/writing-plans/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/writing-plans/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90056bad3d5f196fa7c9fec0ffe592e6d9c86bc983e406642a51d1a4198b7024",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

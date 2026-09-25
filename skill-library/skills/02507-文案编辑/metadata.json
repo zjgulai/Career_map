@@ -1,0 +1,22 @@
+{
+  "英文名称": "copy-editor",
+  "中文名称": "文案编辑",
+  "一句话作用": "用七轮聚焦编辑逐轮打磨已有营销文案，聚焦清晰度、语气、证据与具体化，不从零重写。触发词：改文案、优化表达、读起来不顺、太冗长、润色文案、copy-editor。何时不用：从零撰写新文案不在本技能范围；只想去掉 AI 腔而不做转化力打磨时用 humanizer。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用七轮聚焦编辑逐轮打磨已有营销文案，聚焦清晰度、语气、证据与具体化，不从零重写。触发词：改文案、优化表达、读起来不顺、太冗长、润色文案、copy-editor。何时不用：从零撰写新文案不在本技能范围；只想去掉 AI 腔而不做转化力打磨时用 humanizer。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02507-copy-editor-3a6b13f4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/copy-editor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/copy-editor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a740fdd9cb6921b8f68322c1273790b4bddd792821c638bc1712e06f16cfd66a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-evaluation-model",
+  "中文名称": "供应商评估模型）",
+  "一句话作用": "触发词：供应商选型、多准则评分、权重设计、可解释排序。何时不用：候选供应商只有一个、或准则取值缺失时无法比较；已合作供应商的长期培育用路线图追踪类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要对比 3 家吸奶器 OEM 供应商时靠主观印象决策，忽视交期稳定性和质量风险的量化权重——TOPSIS 多准则供应商评分模型将定性评估转为可解释综合评分，选型准确率可溯源，避免因供应商质量风险造成的批量召回损失时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11536-p2s-supplier-evaluation-model-05f45f11",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supplier-evaluation-model/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supplier-evaluation-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "554d4a9c05ea4ef7270ea058501948feb891af31b6226c00af0e59eee913c801",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "session-handoff",
+  "中文名称": "会话交接（session-handoff）",
+  "一句话作用": "把当前对话里的需求、资料、进度和约束收成一份记忆 markdown，方便下一场会话接着干。 落盘前询问保存位置；未指定时先识别操作系统再建议路径（例如 Windows 下的 Downloads）。 触发：帮我记录一下上下文、帮我记住下面的话、会话交接、生成记忆 md。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:51:11+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要把当前对话里的需求、资料、进度和约束收成一份记忆 markdown，方便下一场会话接着干。 落盘前询问保存位置；未指定时先识别操作系统再建议路径（例如 Windows 下的 Downloads）。 触发：帮我记录一下上下文、帮我记住下面的话、会话交接、生成记忆 md。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05090-session-handoff-08d14d6a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/session-handoff/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/session-handoff/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a30257ae7657652452f1b2cb3747af6b7003a880e2ea8da1e8814765afaf0819",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

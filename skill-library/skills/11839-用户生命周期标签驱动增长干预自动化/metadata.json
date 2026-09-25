@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-driven-user-growth-trigger",
+  "中文名称": "用户生命周期标签驱动增长干预自动化",
+  "一句话作用": "触发词：生命周期标签、状态机触发、沉睡召回、干预自动化、标签驱动增长。何时不用：标签口径尚未定义、需要先做标签体系时用标签工程类技能；本技能消费已定义好的状态标签。安全边界：宝宝出生日期属敏感个人信息须获明确同意并可随时撤回；同一用户 7 天内最多触发 1 次，内容不得含医疗建议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要增长负责人面临\"用户生命周期阶段变化无法实时触发对应增长干预\"——状态机标签事件驱动将增长干预响应从2天手工决策压缩至实时触发，复购率提升23%，年化增收43万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11839-p2s-tag-driven-user-growth-trigger-bc5cc8e9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tag-driven-user-growth-trigger/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tag-driven-user-growth-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0e348a0c65178b2b5a1a187b13a1dd3df93c743495250731d8928aa5c1bd7658",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

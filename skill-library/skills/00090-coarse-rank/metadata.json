@@ -1,0 +1,22 @@
+{
+  "英文名称": "coarse-rank",
+  "中文名称": "待补：coarse-rank",
+  "一句话作用": "Ranks up to 30 search-result candidates into a high-fit shortlist of up to 10 using surface data only. Supports silent SuperSourcing and visible standalone ranking.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Return once to the caller: Keep every available field needed by sourcing.md. The Stage 1 commit writes the full artifact and compacts state; this skill never issues a separate patch.",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Ranks up to 30 search-result candidates into a high-fit shortlist of up to 10 using surface data only. Supports silent SuperSourcing and visible standalone ranking.时，用它产出或更新：Return once to the caller: Keep every available field needed by sourcing.md. The S…",
+  "skill_id": "00090-coarse-rank-8d5fefe7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/coarse-rank/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/coarse-rank/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "438534c9d8d883820aac33a7fe45eb97429164e21549b2cca9c0362b3fa44989",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

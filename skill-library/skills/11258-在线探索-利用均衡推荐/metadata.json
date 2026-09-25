@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-contextual-bandits-rec",
+  "中文名称": "在线探索-利用均衡推荐",
+  "一句话作用": "触发词：在线探索、LinUCB、流量分配、冷启动加速。何时不用：只需评估两套固定策略优劣时用交叉实验或 AB 测试；流量极小、探索损失不可接受时不用本卡。安全边界：价格探索需符合平台价格稳定性规则，不得对同一用户展示不同价格。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"新品上线7天曝光不足、推荐系统流量分配<0.1%\"——LinUCB在线探索将新品首周总曝光提升300%、7天后CVR高于Baseline15%，年化新品孵化成功率提升25%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11258-p2s-contextual-bandits-rec-028ed177",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-contextual-bandits-rec/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-contextual-bandits-rec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7316c4b68afbee25d9a972a3452484fa7754d1e8b5165fec0a2c6cea37f4c7ce",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

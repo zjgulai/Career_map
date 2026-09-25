@@ -1,0 +1,22 @@
+{
+  "英文名称": "baoyu-article-illustrator",
+  "中文名称": "待补：baoyu-article-illustrator",
+  "一句话作用": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate i…",
+  "关键输入": "When this skill prompts the user, follow this tool-selection rule (priority order): 1. Prefer built-in user-input tools exposed by the current agent runtime — e.g., AskUserQuestion, request user input, clarify, ask user, or any equivalent. 2. Fallback : if no…",
+  "关键输出": "Output directory is determined by default output dir in EXTEND.md (set during first-time setup): default output dir Output Path Markdown Insert Path ---------------------- ------------- ---------------------- imgs-subdir (default) {article-dir}/imgs/ imgs/NN-…",
+  "最新更新时间": "2026-09-19T03:50:45+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate i…时，用它产出或更新：Output directory is determ…",
+  "skill_id": "04745-baoyu-article-illustrator-53445f2b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/baoyu-article-illustrator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/baoyu-article-illustrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4697bacd2c7e3f5aee6c6ac47945915e3cec2f7bd6d11e59bbb5969fac16aec5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

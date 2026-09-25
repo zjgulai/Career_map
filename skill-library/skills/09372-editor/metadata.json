@@ -1,0 +1,22 @@
+{
+  "英文名称": "editor",
+  "中文名称": "待补：editor",
+  "一句话作用": "Professional editing and proofreading for clarity, grammar, style, and readability improvements. Use when: editing text, proofreading documents, improving clarity, fixing grammar, refining style, or when user asks to \"e…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When editing, provide:",
+  "最新更新时间": "2026-03-26T11:56:34+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Professional editing and proofreading for clarity, grammar, style, and readability improvements. Use when: editing text, proofreading documents, improving clarity, fixing grammar, refining style, or when user asks to \"e…时，用它产出或更新：When editing, provide:",
+  "skill_id": "09372-editor-1b75c126",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.claude/skills/editor/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.claude/skills/editor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0427e5e04d6c9f2c86f6a28dc10142dec9343da9c68e7463e9ecb87a01da3373",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

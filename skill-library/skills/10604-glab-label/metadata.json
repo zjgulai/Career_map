@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-label",
+  "中文名称": "待补：glab-label",
+  "一句话作用": "管理 GitLab 标签（label），包括在项目级别和群组级别进行创建、列出、更新和删除操作。适用于使用标签组织 issue/MR、创建标签分类体系或管理标签颜色/描述。触发关键词：label、标签、issue 标签、创建标签、管理标签。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理 GitLab 标签（label），包括在项目级别和群组级别进行创建、列出、更新和删除操作。适用于使用标签组织 issue/MR、创建标签分类体系或管理标签颜色/描述。触发关键词：label、标签、issue 标签、创建标签、管理标签。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10604-glab-label-db5bf960",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-label/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-label/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ce582e461caa2edc39a10ad7b6e6ee4036825bd528e7d4bef8180330719230bb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "statistical-analysis",
+  "中文名称": "待补：statistical-analysis",
+  "一句话作用": "Guided statistical analysis with test selection and reporting. Use when you need help choosing appropriate tests for your data, assumption checking, power analysis, and APA-formatted results. Best for academic research…",
+  "关键输入": "This skill should be used when: - Conducting statistical hypothesis tests (t-tests, ANOVA, chi-square) - Performing regression or correlation analyses - Running Bayesian statistical analyses - Checking statistical assum…",
+  "关键输出": "t stat = result['T'].values[0] df = result['dof'].values[0] p value = result['p-val'].values[0] cohens d = result['cohen-d'].values[0] ci lower = result['CI95%'].values[0][0] ci upper = result['CI95%'].values[0][1]",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要This skill should be used when: - Conducting statistical hypothesis tests (t-tests, ANOVA, chi-square) - Performing regression or correlation analyses - Running Bayesian statistical analyses - Checking statistical assum…时，用它产出或更新：t stat = result['T'].value…",
+  "skill_id": "05814-statistical-analysis-60e1e958",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/statistical-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/statistical-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c202e6d4b28848148dbbbb50c60a15b40326df04f85dcabdcdd785416ce87a0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

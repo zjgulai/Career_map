@@ -1,0 +1,22 @@
+{
+  "英文名称": "arboreto",
+  "中文名称": "待补：arboreto",
+  "一句话作用": "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Arboreto returns a DataFrame with regulatory links: Column Description -------- ------------- TF Transcription factor (regulator) target Target gene importance Regulatory importance score (higher = stronger) Filtering strategy :",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor…时，用它产出或更新：Arboreto returns a DataFra…",
+  "skill_id": "05695-arboreto-8f2d4197",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/arboreto/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/arboreto/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93d2203e5b50853a139ebb889502bf94edd4c022ae945c456e047919fc30167d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

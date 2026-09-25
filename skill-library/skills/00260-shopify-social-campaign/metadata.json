@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-social-campaign",
+  "中文名称": "待补：shopify-social-campaign",
+  "一句话作用": "Recommend and coordinate safe Shopify social campaigns for newly public products, including an optional seven-day Instagram launch plan, deterministic eligibility, draft-only activation, and handoff to the Shopify marke…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Recommend and coordinate safe Shopify social campaigns for newly public products, including an optional seven-day Instagram launch plan, deterministic eligibility, draft-only activation, and handoff to the Shopify marke…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00260-shopify-social-campaign-258e199a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-social-campaign/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-social-campaign/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e08c39fbdc3e58e6277ef28401cdedd73eb726703520b646a56ef9bb2ab43c1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

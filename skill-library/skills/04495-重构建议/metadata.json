@@ -1,0 +1,22 @@
+{
+  "英文名称": "重构建议",
+  "中文名称": "重构建议",
+  "一句话作用": "Identify code smells, apply design patterns, improve code quality for Java and Vue",
+  "关键输入": "1. [Major] createOrder 方法过长（120行）—— 混合了 5 个职责 2. [Minor] 多处重复的审批逻辑 —— 违反 DRY 3. [Major] UserPage 组件过大（500行）—— 难以维护",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:48+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要1. [Major] createOrder 方法过长（120行）—— 混合了 5 个职责 2. [Minor] 多处重复的审批逻辑 —— 违反 DRY 3. [Major] UserPage 组件过大（500行）—— 难以维护时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04495-skill-8c7ad006",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/重构建议/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/重构建议/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d59ce13a9e49cfb1ca5fdfad912952d1346c5c7782e707a709c0a1404baf19bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

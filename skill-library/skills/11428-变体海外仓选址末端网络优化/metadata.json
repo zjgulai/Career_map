@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-last-mile-network-planning",
+  "中文名称": "变体海外仓选址末端网络优化",
+  "一句话作用": "触发词：海外仓选址、仓网规划、末端网络优化、配送路径优化、2 日达覆盖率。何时不用：仓网已定、只做仓间调拨与库存分配用「仓储协作」，只看单票时效与在途异常用「到货异常追踪」；本技能做末端选址与配送路径的联合规划。安全边界：选址结论仅为决策建议，建仓、租约与运力协议须人工评审后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要物流战略团队面临\"仅LA单仓导致东海岸2日达覆盖率仅12%、流失率18%\"——VRP选址优化增设NJ仓后2日达覆盖率提升至87%，年化节省配送成本55万元+间接增收20-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11428-p2s-last-mile-network-planning-3f8f77e7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-last-mile-network-planning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-last-mile-network-planning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0976292a1eda0d0235659c2e9ec9415aebf2272fe64409ea0e7f933fbdc63481",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

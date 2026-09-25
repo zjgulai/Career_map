@@ -1,0 +1,22 @@
+{
+  "英文名称": "ppt",
+  "中文名称": "飞书幻灯片",
+  "一句话作用": "飞书幻灯片：创建和编辑幻灯片。创建演示文稿、读取幻灯片内容、管理幻灯片页面（创建、删除、读取、局部替换）。当用户需要创建或编辑幻灯片、读取或修改单个页面时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "核对实际页数、页面顺序、关键元素，完整校验清单见 workflow/validation-xml.md。 1. 回读全文 ：slides +xml-get --presentation --output ，必须使用 --output。 2. 解析回读结果 ：必须先用 XML 解析器解析，不要用正则或字符串切分；命名空间从根元素实际读取，不要硬编码或猜测，否则匹配不到元素。",
+  "最新更新时间": "2026-09-21T10:24:35+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要飞书幻灯片：创建和编辑幻灯片。创建演示文稿、读取幻灯片内容、管理幻灯片页面（创建、删除、读取、局部替换）。当用户需要创建或编辑幻灯片、读取或修改单个页面时使用。时，用它产出或更新：核对实际页数、页面顺序、关键元素，完整校验清单见 workflow/validation-xml.md。 1. 回读全文 ：slides +xml-get --presentation --output ，必须使用 --output。 2. 解析回读结果 ：必须先用 XML 解析器解析，不要用正则或字符串切分；命名空间从根元素实际…",
+  "skill_id": "06462-ppt-7eca9985",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/ppt/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/ppt/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ae6e94cccd5804d2ce4699cd6bf99458fe28fe655c03399fa5481361d0bf315f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

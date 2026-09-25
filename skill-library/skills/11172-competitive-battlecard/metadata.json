@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitive-battlecard",
+  "中文名称": "待补：competitive-battlecard",
+  "一句话作用": "Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating comp…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating comp…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11172-competitive-battlecard-f6d28c65",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-go-to-market/skills/competitive-battlecard/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-go-to-market/skills/competitive-battlecard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "89a82a58675d7c82f9d9d2efc7ab81ca0597264804d4ab722ae354d767ebac21",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

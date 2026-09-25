@@ -1,0 +1,22 @@
+{
+  "英文名称": "migrate-to-shoehorn",
+  "中文名称": "迁移到 shoehorn",
+  "一句话作用": "把代码迁移到 shoehorn 结构。触发词：Shoehorn 结构迁移、migrate-to-shoehorn、把代码迁移到 shoehorn 结构。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要把代码迁移到 shoehorn 结构。触发词：Shoehorn 结构迁移、migrate-to-shoehorn、把代码迁移到 shoehorn 结构。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02645-migrate-to-shoehorn-c27d86b8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/migrate-to-shoehorn/SKILL.md",
+  "relative_path": "lute/.dsh/skills/migrate-to-shoehorn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0951cad5fe51e02d22445f08fa626faeb32b0046e3adf17bcd493a265acbc01b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "meta-skill",
+  "中文名称": "待补：meta-skill",
+  "一句话作用": "Trajectory compiler that converts real OpenClaw session traces (or raw trajectory log) into a parameterized, reusable Skill via 4 stages: trace interception → DAG abstraction → schema+code synthesis → registration.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:42+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Trajectory compiler that converts real OpenClaw session traces (or raw trajectory log) into a parameterized, reusable Skill via 4 stages: trace interception → DAG abstraction → schema+code synthesis → registration.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04966-meta-skill-fdc70dea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/meta-skill/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/meta-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4072674d38cf1c9df86c25f2b8be39d4a1e3ff22f16a6b6ade464f8bf36305c2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

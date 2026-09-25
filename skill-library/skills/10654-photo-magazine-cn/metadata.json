@@ -1,0 +1,22 @@
+{
+  "英文名称": "photo-magazine-cn",
+  "中文名称": "待补：photo-magazine-cn",
+  "一句话作用": "创建具备杂志级编辑设计品质的高端横版文档。产出视觉冲击力强的报告，主打粗体大字排版、满版出血摄影、数据可视化卡片与叙事化版面布局。适用于需要编辑美学、多栏布局、大字号数据看板、分章节导航的企业、调研或创意类报告，把叙事与数据融合在一起。",
+  "关键输入": "Use this skill for creating documents that combine: - Narrative storytelling with data and metrics - Full-bleed photography with editorial typography - Data visualization (big-number cards, progress charts) - Multi-colu…",
+  "关键输出": "User Request Recommended Output ------------- ------------------- No format specified PDF (landscape) \"Presentation\" / \"slides\" PPTX \"Editable document\" / \"Word\" DOCX \"Print-ready\" PDF \"Share online\" PDF or PPTX",
+  "最新更新时间": "2026-09-14T00:08:00+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use this skill for creating documents that combine: - Narrative storytelling with data and metrics - Full-bleed photography with editorial typography - Data visualization (big-number cards, progress charts) - Multi-colu…时，用它产出或更新：User Request Recommended O…",
+  "skill_id": "10654-photo-magazine-cn-c775cdaf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/photo-magazine-cn/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/photo-magazine-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "44eed48d30d9b63be391c51b1155ff754fc6360dffb96d092c306c470c3ed0a3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

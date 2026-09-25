@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-generative-agent-simulation",
+  "中文名称": "生成式智能体营销沙盒仿真 - 零数据消费者行为推演",
+  "一句话作用": "触发词：生成式智能体、沙盒仿真、零数据推演、口碑传播、会员政策。何时不用：有数据可直接做 A/B 实验时用实验类技能；多情景参数对比用「供应链 What-If 情景分析引擎」。安全边界：仿真不替代上线后的真实 A/B 实验；涉及个人信息的使用须满足告知与授权要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要某母婴 DTC 独立站准备从纯打折升级为\"付费会员制（年费 $49 免邮 + 专属抢购）\"时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12470-p2s-generative-agent-simulation-d6da65b6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-generative-agent-simulation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-generative-agent-simulation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "436e5fe92491f77fa78d3e862a26fb50d5fda7d453d387fad2316258a08ef5b7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

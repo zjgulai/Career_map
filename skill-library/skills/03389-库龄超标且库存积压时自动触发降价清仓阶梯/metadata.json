@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-markdown-clearance-auto-trigger",
+  "中文名称": "库龄超标且库存积压时自动触发降价清仓阶梯",
+  "一句话作用": "触发词：自动降价清仓、库龄阈值、库存超比、降价阶梯、毛利护栏。何时不用：临期食品与过季品的动态规划定价用「临期过季降价优化」；只看滞销与不可售库存的处置建议用「FBA滞销库存KPI」。安全边界：降价需取得产品方授权并设毛利预警线，自动触发前须人工二次确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓储运营面临\"库龄超标库存积压无人触发降价清仓\"——库龄×超比双条件自动触发阶梯降价，库存周转率提升1.2次，年化减少报废损失$35,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03389-p2s-markdown-clearance-auto-trigger-e07e585e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-markdown-clearance-auto-trigger/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-markdown-clearance-auto-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "132498c667b8cca00607287261ea578d2155aa51a968c8be94277148b57f64ec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

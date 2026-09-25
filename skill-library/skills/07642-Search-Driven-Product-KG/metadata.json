@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Search-Driven-Product-KG",
+  "中文名称": "待补：Search Driven Product KG",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T05:11:44.163952\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T20:11:44+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T05:11:44.163952\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07642-skill-search-driven-product-kg-3b7b8b8b",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Search-Driven-Product-KG.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Search-Driven-Product-KG.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "e70c1846df80ae5a03bee4b12fdc57da45c81d401bbbc4cd3abb74e9ce62665b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

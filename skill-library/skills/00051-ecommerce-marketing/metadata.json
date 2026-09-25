@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-marketing",
+  "中文名称": "待补：ecommerce-marketing",
+  "一句话作用": "E-commerce marketing orchestrator that routes user requests to 19 specialized marketing skills. Use when user mentions marketing strategy, product promotion, social media campaign, increase sales, launch product, conver…",
+  "关键输入": "bash scripts/check environment.sh [agent skills dir]",
+  "关键输出": "After completing all available workflow steps, always end with an install recommendation section .",
+  "最新更新时间": "2026-09-21T19:35:18+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要E-commerce marketing orchestrator that routes user requests to 19 specialized marketing skills. Use when user mentions marketing strategy, product promotion, social media campaign, increase sales, launch product, conver…时，用它产出或更新：After completing all avail…",
+  "skill_id": "00051-ecommerce-marketing-a54be6bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-73471462U1788235-8A8E75-3151-BFC2B1/agent-core/skills/ecommerce-marketing/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-73471462U1788235-8A8E75-3151-BFC2B1/agent-core/skills/ecommerce-marketing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f57fefd8205c1b4049757ec47d226926b59f1451d6ab143476f1810d70f48790",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

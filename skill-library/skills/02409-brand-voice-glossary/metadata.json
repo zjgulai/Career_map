@@ -1,0 +1,22 @@
+{
+  "英文名称": "brand-voice-glossary",
+  "中文名称": "待补：brand-voice-glossary",
+  "一句话作用": "Tone, diction, and phrasebook system for consistent writing + localization.",
+  "关键输入": "- Launching or updating tone-of-voice guidance. - Training agencies, freelancers, or new hires on copy standards. - Localizing content while staying on-brand.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T20:36:07+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Launching or updating tone-of-voice guidance. - Training agencies, freelancers, or new hires on copy standards. - Localizing content while staying on-brand.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02409-brand-voice-glossary-f2e7d692",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/scratch/tree-0079/packages/capabilities/dsh-overseas-skills/backup/pre-81/brand-voice-glossary/SKILL.md",
+  "relative_path": "lute/.dsh/scratch/tree-0079/packages/capabilities/dsh-overseas-skills/backup/pre-81/brand-voice-glossary/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b57de0f0d62acb5fffb18c8523be1abff993ad6e4d68081860a0854c31dab17",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

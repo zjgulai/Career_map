@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tax-evasion-ri[REDACTED]",
+  "中文名称": "税务合规风险信号监控（VAT异常）",
+  "一句话作用": "触发词：VAT 阈值监控、GST 预警、滚动销售额、注册义务、异常申报信号。何时不用：要自动分类税率并生成申报文件用「VAT/GST 申报自动化」；要处理关税编码与节税路径用「HTS 关税分类与节税」。安全边界：只做阈值与异常信号预警，不构成税务意见；预警结论不得作为延迟或隐瞒申报的依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要财务合规面临\"欧洲FBA销售额快速增长不知道何时触发VAT注册义务\"——VAT/GST阈值滚动监控提前6周发出预警完成合规注册，年化规避未申报罚款10-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03935-p2s-tax-evasion-ri-redacted-5186a7b0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tax-evasion-risk-signal-monitor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tax-evasion-risk-signal-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "534da25604508a3a026fd44ac707a089e2ee4af3d0f35718742e337aafb0ef5e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

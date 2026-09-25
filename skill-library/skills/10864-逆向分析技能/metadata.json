@@ -1,0 +1,22 @@
+{
+  "英文名称": "ida-reverse",
+  "中文名称": "逆向分析技能",
+  "一句话作用": "IDA Pro 逆向分析辅助技能。当用户提到逆向、反编译、分析二进制/PE/ELF/APK/DLL/SO、破解、找密码、漏洞分析、病毒分析、firmware 固件分析，或需要分析 exe/dll/so/elf/macho/sys 等文件时，务必使用此技能。 Ensure to use this skill when the user wants to analyze any binary file, regardless of whe…",
+  "关键输入": "- IDA Pro 已安装且 IDADIR 环境变量已设置（或脚本内默认路径正确） - 推荐使用 IDA 自带 Python314 中的 ida-pro-mcp（便携版已内置） - 常见本机配置： - User env IDADIR → IDA 安装目录（含 ida.exe） - 可选 ~\\Tools\\bin\\idalib-mcp.cmd / ida-pro-mcp.cmd 包装器 - 客户端 MCP 服务器名只留 idapro → http://127.0.0.1:13337/mcp",
+  "关键输出": "INFO:opening:11/600s",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要IDA Pro 逆向分析辅助技能。当用户提到逆向、反编译、分析二进制/PE/ELF/APK/DLL/SO、破解、找密码、漏洞分析、病毒分析、firmware 固件分析，或需要分析 exe/dll/so/elf/macho/sys 等文件时，务必使用此技能。 Ensure to use this skill when the user wants to analyze any binary file, regardless of whe…时，用它产出或更新：INFO:opening:11/600s",
+  "skill_id": "10864-ida-reverse-d2f3add7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/ida-reverse/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/ida-reverse/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0ab87f146dc82d0ced86e852cadbf759036da2f2c5e9424edc4d67eddf373a01",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

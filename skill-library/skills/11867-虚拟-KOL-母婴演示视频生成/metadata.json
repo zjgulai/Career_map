@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-virtual-influencer-baby-demo",
+  "中文名称": "虚拟 KOL 母婴演示视频生成",
+  "一句话作用": "触发词：虚拟 KOL、母婴演示、场景化片段、身份保真度、KOL 替代。何时不用：需要真实 KOL 背书与粉丝信任时不用虚拟人；缺少人物参考图与运动素材时无法生成。安全边界：虚拟人物不得侵犯第三方肖像权；演示内容不得虚构产品功能，多语言配音不得误导性翻译。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容团队面临\"真人KOL拍摄成本高周期长\"——AI虚拟宝妈演示将内容生产成本降低70%，ROI从1.5x提升至4x时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11867-p2s-virtual-influencer-baby-demo-d61117cd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-virtual-influencer-baby-demo/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-virtual-influencer-baby-demo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd21763733d681d67e92ee7630f41bd087d2cfd26ce7689d9caa71ada2944d39",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

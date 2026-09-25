@@ -1,0 +1,22 @@
+{
+  "英文名称": "analyze-prompt",
+  "中文名称": "待补：analyze-prompt",
+  "一句话作用": "Analyze existing prompt and suggest improvements using the Seven Levels framework",
+  "关键输入": "- $1: Path to prompt file",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:48:31+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Analyze existing prompt and suggest improvements using the Seven Levels framework时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04712-analyze-prompt-0eef2356",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/analyze-prompt/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/analyze-prompt/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6fded42dfdfe93e504ff0b2e5c130870085f814c4839e32a2dd01dd6453072be",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

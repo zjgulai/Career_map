@@ -1,0 +1,22 @@
+{
+  "英文名称": "boltz-structure-and-binding",
+  "中文名称": "待补：boltz-structure-and-binding",
+  "一句话作用": "Predict structures and binding for one defined complex with Boltz. Use when folding a protein, RNA, DNA, or ligand complex, docking one ligand, predicting an interface, or scoring binding. Not for screening libraries or…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Predict structures and binding for one defined complex with Boltz. Use when folding a protein, RNA, DNA, or ligand complex, docking one ligand, predicting an interface, or scoring binding. Not for screening libraries or…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00710-boltz-structure-and-binding-a04485a5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-structure-and-binding/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-structure-and-binding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2623ffe1422adbb7161b1e30d4bbc4b3d399f90f139ff864ee1cbefc8ad1879",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

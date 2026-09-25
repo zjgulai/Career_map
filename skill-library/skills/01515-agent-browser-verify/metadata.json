@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-browser-verify",
+  "中文名称": "待补：agent-browser-verify",
+  "一句话作用": "Automated browser verification for dev servers. Triggers when a dev server starts to run a visual gut-check with agent-browser — verifies the page loads, checks for console errors, validates key UI elements, and reports…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Automated browser verification for dev servers. Triggers when a dev server starts to run a visual gut-check with agent-browser — verifies the page loads, checks for console errors, validates key UI elements, and reports…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01515-agent-browser-verify-74db574b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/agent-browser-verify/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/agent-browser-verify/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ddba077d6c07d6b5cce7aa8fb8b2c56e043cd561d70f20f096b7422dd44a1ee6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

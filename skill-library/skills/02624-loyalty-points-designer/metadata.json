@@ -1,0 +1,22 @@
+{
+  "英文名称": "loyalty-points-designer",
+  "中文名称": "待补：loyalty-points-designer",
+  "一句话作用": "- Implement a tiered reward system to increase customer retention and lifetime value through points-based incentives and VIP benefits 边界：积分/会员体系设计；单次促销走 discount-promotion-engine 触发词：积分体系设计、会员等级设计、忠诚度计划、积分赚取兑换规则、积分账本设计。",
+  "关键输入": "- When aiming to increase repeat purchase rate and reduce customer acquisition cost (CAC) dependency. - When launching a tiered VIP program to reward high-value customers with exclusive perks. - When replacing generic d…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:21:44+08:00",
+  "业务场景": "pricing-promotions",
+  "解决具体问题": "当需要- When aiming to increase repeat purchase rate and reduce customer acquisition cost (CAC) dependency. - When launching a tiered VIP program to reward high-value customers with exclusive perks. - When replacing generic d…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02624-loyalty-points-designer-d713dcba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/loyalty-points-designer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/loyalty-points-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f53742837b45095fff04596c77f223a4a231a4ebfba947b977d37f30ad6bff43",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

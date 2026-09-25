@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-bulk-listing",
+  "中文名称": "批量上架 Listing(节点 03)",
+  "一句话作用": "批量上架/更新 Shopify 商品与 Listing。当用户说\"上架/批量改商品/写 listing/建 PDP 字段/多语言商品\"时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-26T01:47:00+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要批量上架/更新 Shopify 商品与 Listing。当用户说\"上架/批量改商品/写 listing/建 PDP 字段/多语言商品\"时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09832-shopify-bulk-listing-b2af7080",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/shopify/kb/marketplace/plugins/shopify-ai-kb/skills/shopify-bulk-listing/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/shopify/kb/marketplace/plugins/shopify-ai-kb/skills/shopify-bulk-listing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a682fc3744699db43a44595effa49154304e753b91dea8b0349cd62417e356a3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

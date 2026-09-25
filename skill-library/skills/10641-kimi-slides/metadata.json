@@ -1,0 +1,22 @@
+{
+  "英文名称": "kimi-slides",
+  "中文名称": "待补：kimi-slides",
+  "一句话作用": "Create and edit presentations in PPTX format. This skill defines a .pptd intermediate format to simplify OOXML operations. Any task involving the generation or editing of PPTX files must use this skill and no other meth…",
+  "关键输入": "Understand the user's requirements based on the context: 1. First determine the request type - Create a PPT: create a new presentation (from scratch, or from an existing pptx template) - Edit a PPT: edit the user's uploaded PPT (local modifications, single-pa…",
+  "关键输出": "1. Use the kimi-slides check command to validate and repair the generated file over multiple rounds - Interpret the results returned by check carefully. Some warnings may be produced by heuristic calculations and may contain errors; use the actual design as t…",
+  "最新更新时间": "2026-09-13T23:50:26+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Create and edit presentations in PPTX format. This skill defines a .pptd intermediate format to simplify OOXML operations. Any task involving the generation or editing of PPTX files must use this skill and no other meth…时，用它产出或更新：1. Use the kimi-slides che…",
+  "skill_id": "10641-kimi-slides-3ce9e7e2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/kimi-slides/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/kimi-slides/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "98947691b341d2bcd94d662276d661979666b6e59bfa977de4cab4440b587436",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

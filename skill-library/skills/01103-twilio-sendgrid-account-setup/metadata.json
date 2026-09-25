@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-sendgrid-account-setup",
+  "中文名称": "待补：twilio-sendgrid-account-setup",
+  "一句话作用": "Set up a SendGrid account for email delivery. Covers API key creation (SG.-prefix), domain authentication (DKIM/SPF via CNAME records), Single Sender Verification for testing, SDK installation, and the relationship betw…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Set up a SendGrid account for email delivery. Covers API key creation (SG.-prefix), domain authentication (DKIM/SPF via CNAME records), Single Sender Verification for testing, SDK installation, and the relationship betw…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01103-twilio-sendgrid-account-setup-07a741df",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sendgrid-account-setup/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sendgrid-account-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de1599908000a8fb6035e1a973ca39fd48c268a56c76bc45136e6999f7252299",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

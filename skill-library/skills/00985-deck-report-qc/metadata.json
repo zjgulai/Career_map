@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-report-qc",
+  "中文名称": "待补：deck-report-qc",
+  "一句话作用": "Use when running first-pass QC on Public Equity Investing decks or reports. Do not use as external-circulation certification.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Default output should be a senior-review QC readout. Use chat for narrow reviews. For substantial standalone QC-only work, produce a polished standalone HTML senior-review QC report following ../../shared/html-artifact-standard.md. When the script is used, th…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when running first-pass QC on Public Equity Investing decks or reports. Do not use as external-circulation certification.时，用它产出或更新：Default output should be a senior-review QC readout. Use chat for narrow reviews. For substantial standalone QC-only work…",
+  "skill_id": "00985-deck-report-qc-0ff602b3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/deck-report-qc/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/deck-report-qc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d016f3511d609e5226c815ccfb9ee7126e2e287d9c1625ca274e826cb2499307",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

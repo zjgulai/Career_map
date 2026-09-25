@@ -1,0 +1,22 @@
+{
+  "英文名称": "amz-hot-keywords",
+  "中文名称": "待补：amz-hot-keywords",
+  "一句话作用": "Amazon hot keyword scraper - scrapes ABA (Amazon Brand Analytics) weekly search term rankings from AMZ123. Extracts keyword, current week rank, last week rank, and trend (up/down/flat). Use this skill whenever the user…",
+  "关键输入": "Parameter Required Description Example ----------- ---------- ------------- --------- --keyword Yes Search keyword --keyword \"yoga mat\" --max-results No Max results to scrape (default: 200) --max-results 100 --output-dir No Output directory for CSV (default:…",
+  "关键输出": "The script produces a CSV file named amz123 hotwords .csv with columns: Column Description -------- ------------- search term The keyword/search term current rank This week's ranking position last rank Last week's ranking position",
+  "最新更新时间": "2026-09-21T17:35:23+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要If the scraper returns empty results: 1. AMZ123 may have updated their page structure. Check the debug HTML file saved alongside the CSV for clues. 2. The CSS selectors in scripts/amz scraper.py (see the SELECTORS dict)…时，用它产出或更新：The script produces a CSV…",
+  "skill_id": "00282-amz-hot-keywords-a5ff1d94",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/amz-hot-keywords/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/amz-hot-keywords/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "22457646d8fcd0f265e5ef0ce928e8e74565af02e934a305b115421e7a30811c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

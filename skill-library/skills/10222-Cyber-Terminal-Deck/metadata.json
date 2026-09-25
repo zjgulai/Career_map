@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-hermes-cyber",
+  "中文名称": "Cyber Terminal Deck",
+  "一句话作用": "黑底 + CRT 网格扫描线 + $ 命令行标题 + 薄荷绿大字 + 三档 tag",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:26+08:00",
+  "业务场景": "engineering",
+  "解决具体问题": "当需要黑底 + CRT 网格扫描线 + $ 命令行标题 + 薄荷绿大字 + 三档 tag时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10222-deck-hermes-cyber-c77ac089",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-hermes-cyber/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-hermes-cyber/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da1c471adf28ceb079527137d468c8584679a832d1932aaf7be4689e4bc787a7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

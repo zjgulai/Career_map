@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-insight-product-selection",
+  "中文名称": "待补：market-insight-product-selection",
+  "一句话作用": "Evidence-led product opportunity assessment for choosing a category or niche, comparing candidate products, or validating whether a specific product is worth entering. Use when the user needs a ranked product-selection…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Lead with the decision, then give the minimum evidence needed to audit it. Candidate Demand / momentum Competition Margin feasibility Repeat potential Main risk Confidence --- --- --- --- --- --- --- Candidate A High — observed evidence Medium Proxy Unknown K…",
+  "最新更新时间": "2026-09-21T17:35:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Evidence-led product opportunity assessment for choosing a category or niche, comparing candidate products, or validating whether a specific product is worth entering. Use when the user needs a ranked product-selection…时，用它产出或更新：Lead with the decision, the…",
+  "skill_id": "00337-market-insight-product-selection-069292ed",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/market-insight-product-selection/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/market-insight-product-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a1d2d7741f7ac1144fcf4e58cd3dcc420bd637c4badce46682c71880c61adf4b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

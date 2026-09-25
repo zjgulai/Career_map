@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rag-adversarial-robustness-2025",
+  "中文名称": "待补：p2s-rag-adversarial-robustness-2025",
+  "一句话作用": "触发词：知识库安全、鲁棒性压测、对抗样本、攻击成功率、脆弱场景。何时不用：输入侧的恶意指令拦截走「Prompt 注入防御」；检索延迟与索引性能问题走「向量索引工程」。安全边界：攻击样本仅限内部压测使用，不得对外投放或用于攻击第三方系统。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要安全团队面临知识库安全性无法量化——鲁棒性压测框架识别最脆弱场景，针对性加固后攻击成功率-78%，年化保护品牌价值80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12082-p2s-rag-adversarial-robustness-2025-e0d5ab30",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-rag-adversarial-robustness-2025/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-rag-adversarial-robustness-2025/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3cf9a8ac03e3adb139a71c7a2198bd25154427cbf4a5b34caca1e06835594d7e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "links",
+  "中文名称": "待补：links",
+  "一句话作用": "Configure the tRPC client link chain: httpLink, httpBatchLink, httpBatchStreamLink, splitLink, loggerLink, wsLink, createWSClient, httpSubscriptionLink, unstable localLink, retryLink. Choose the right terminating link.…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-22T11:43:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Configure the tRPC client link chain: httpLink, httpBatchLink, httpBatchStreamLink, splitLink, loggerLink, wsLink, createWSClient, httpSubscriptionLink, unstable localLink, retryLink. Choose the right terminating link.…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10166-links-5b907ae3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/ai_product_select/node_modules/@trpc/client/skills/links/SKILL.md",
+  "relative_path": "lute/project/Agent/product/ai_product_select/node_modules/@trpc/client/skills/links/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90abc7a55b96416afeb413a19544eab8d90ec521dcd01cad5f8f6add992c8635",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

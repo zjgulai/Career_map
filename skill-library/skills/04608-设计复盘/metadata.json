@@ -1,0 +1,22 @@
+{
+  "英文名称": "设计复盘",
+  "中文名称": "设计复盘",
+  "一句话作用": "设计项目复盘（链路终端闭环）。项目上线 N 周后跑——读取全链路上游 context + 实际上线数据，把\"当初决策 vs 实际结果\"做对照，提炼 decision validation / assumption validation / what worked / what didn't / surprises / skill usage / recommendations。让 14 Skill 链路真正闭环：从问题域到上线后经验沉…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成 Retro 后， 同时 做两件事： 按 chain-protocol.md §2.1 v1.1 智能适配规则： 1. 写盘到 spark-output/context/retro.json （必做，主持久化通道；目录不存在先创建） 2. chat 输出紧凑 marker （⛔ 不要在 chat 内输出完整 JSON）： 降级 fallback：若写盘失败，输出完整 JSON marker（无 ref）。详见 §2.1。 3. 额外保存 Markdown 报告 ：spark-output/retro/[pro…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要设计项目复盘（链路终端闭环）。项目上线 N 周后跑——读取全链路上游 context + 实际上线数据，把\"当初决策 vs 实际结果\"做对照，提炼 decision validation / assumption validation / what worked / what didn't / surprises / skill usage / recommendations。让 14 Skill 链路真正闭环：从问题域到上线后经验沉…时，用它产出或更新：完成 Retro 后， 同时 做两件事： 按 cha…",
+  "skill_id": "04608-skill-a3ca80cd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/retro/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/retro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8231144c0bcf44d21c677e44213893d15a61863dc857ff3722683b1021963e8f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

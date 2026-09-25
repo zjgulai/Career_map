@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multimodal-rag",
+  "中文名称": "图文混合多模态检索增强生成",
+  "一句话作用": "触发词：多模态检索、证书图片、OCR 索引、CLIP 嵌入、图文融合、证据回答。何时不用：只解析 PDF 表格页面时用「VisRAG 视觉文档 RAG」，要审合同条款风险时用「LLM 合同合规审查」。安全边界：回答须附图片证据与证书编号，不得引用无法核验的认证截图。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要内容审核面临图文视频信息混杂——多模态RAG将审核漏检率降30%，年化省13万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03514-p2s-multimodal-rag-5d272d14",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multimodal-rag/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multimodal-rag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0682aab51c3a96ec55335473bb8afd41bb9e66404af5356d597aa43903f8f22a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

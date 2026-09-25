@@ -1,0 +1,22 @@
+{
+  "英文名称": "sentry",
+  "中文名称": "待补：sentry",
+  "一句话作用": "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the sentry command.",
+  "关键输入": "- org slug, project slug: auto-detected by the CLI from DSNs, env vars, and directory names. Override with positional {your-org}/{your-project} if auto-detection fails. - time range: default 24h (pass as --period 24h). - environment: default prod (pass as par…",
+  "关键输出": "- Issue list: show title, short id, status, first seen, last seen, count, environments, top tags; order by most recent. - Event detail: include culprit, timestamp, environment, release, url. - If no results, state explicitly. - Redact PII in output (emails, I…",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the sentry command.时，用它产出或更新：- Issue list: show title, short id, status, fir…",
+  "skill_id": "01635-sentry-f7335098",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/sentry/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/sentry/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "508c6f5c100586c81a34397d30f00f4b8771b66d698a7ac1836998df925dd007",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

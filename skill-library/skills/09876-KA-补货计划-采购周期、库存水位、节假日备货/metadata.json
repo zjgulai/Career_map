@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 补货计划（采购周期、库存水位、节假日备货）",
+  "中文名称": "待补：KA 补货计划（采购周期、库存水位、节假日备货）",
+  "一句话作用": "在已有动销与库存分析后，结合 KA 采购周期、最小订单、在途与促销备货需求，生成按 SKU/门店/周的补货建议与风险提示。",
+  "关键输入": "- ka-sell-through-analyzer 或等价预警列表。 - 采购周期 （下单至到货）、 MOQ 、 在途 PO 、 DC 库存水位 。 - 节假日日历 （如 Black Friday、圣诞）。",
+  "关键输出": "- sku qty ship week dc reason risk - 摘要 ：总件数、总货值、现金流峰值周。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在已有动销与库存分析后，结合 KA 采购周期、最小订单、在途与促销备货需求，生成按 SKU/门店/周的补货建议与风险提示。时，用它产出或更新：- sku qty ship week dc reason risk - 摘要 ：总件数、总货值、现金流峰值周。",
+  "skill_id": "09876-ka-7c18b70c",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-replenishment-planner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-replenishment-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e8ab0acca1f03d7be0e41d22b31b91ff884672e43f124a2ccb603722a0cc252",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

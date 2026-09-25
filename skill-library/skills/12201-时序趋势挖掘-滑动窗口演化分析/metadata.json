@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-temporal-trend-mining",
+  "中文名称": "时序趋势挖掘 滑动窗口演化分析",
+  "一句话作用": "触发词：时序趋势、滑动窗口、LDA、新兴投诉、竞品评论监控。何时不用：一次性看当期主题全貌用「BERTopic 主题建模」；本技能只看已知主题跨时间的涨落。安全边界：竞品评论须通过合规第三方渠道获取，不得违反平台数据采集条款。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要产品负责人面临\"最近新出现的用户投诉点淹没在历史评论里发现太慢\"——LDA时序滑动窗口将新兴问题发现时效从季度回顾压缩至周级预警，年化避免差评损失$7.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12201-p2s-review-temporal-trend-mining-69e600d4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-review-temporal-trend-mining/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-review-temporal-trend-mining/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d2fd7c92bdde0d4c2c12475e0c45aba35487342d1893c024a449ae4c53e8abd3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

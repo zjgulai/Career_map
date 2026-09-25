@@ -1,0 +1,22 @@
+{
+  "英文名称": "aily-cli-user-context",
+  "中文名称": "用户个人智能推荐配置 (aily-cli user-context)",
+  "一句话作用": "读写用户的「个人智能推荐」配置页——AI 主动服务的全部设置与关注面。含 6 个方面：① config 基础配置/偏好（主动推送开关、主动服务模式档位、免打扰、每日前瞻/回顾、每周回顾、会议前提醒、自然语言偏好 instructions）；② goals 我的目标（目标+验收标准，JSON 读写）；③ contacts 紧密协作人名单；④ chats 重要群名单；⑤ calendar 重要日程名单；⑥ active-matters 活…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "aily-cli user-context contacts list --json 每条 id 即 user id aily-cli user-context contacts add --reason \"...\" --json aily-cli user-context contacts list --json 回读确认进了名单 aily-cli user-context contacts remove --json",
+  "最新更新时间": "2026-07-24T12:29:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要读写用户的「个人智能推荐」配置页——AI 主动服务的全部设置与关注面。含 6 个方面：① config 基础配置/偏好（主动推送开关、主动服务模式档位、免打扰、每日前瞻/回顾、每周回顾、会议前提醒、自然语言偏好 instructions）；② goals 我的目标（目标+验收标准，JSON 读写）；③ contacts 紧密协作人名单；④ chats 重要群名单；⑤ calendar 重要日程名单；⑥ active-matters 活…时，用它产出或更新：aily-cli user-context cont…",
+  "skill_id": "00429-aily-cli-user-context-1cf68a4a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-user-context/SKILL.md",
+  "relative_path": "lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-user-context/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b4045f76e9b7bc0f3cc55ee37b28ce4c4cb59c3b91f9cb3bd492ec8cc5faf91",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-border-tax-tariff-modeling",
+  "中文名称": "驱动的跨境关税分类与节税优化",
+  "一句话作用": "触发词：HTS 分类、关税节税、GRI 规则、Binding Ruling、清关编码。何时不用：要用多 Agent 共识投票提升编码准确率用「HTS 多 Agent 分类」；只查现成编码与税率库用「HTS 编码分类」。安全边界：最终编码须经 CBP Binding Ruling 或报关行确认，不代替海关归类的法律意见；不得虚报编码规避关税。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴跨境卖家吸奶器被默认申报为液体泵（关税3.4%）而非呼吸治疗器具（0%），500万美元货值每年多缴17万美元关税——ATLAS LLM分层HTS分类识别正确10位编码，配合CBP Binding Ruling申请实现合规节税，Top-20 SKU年化节税20-200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02980-p2s-cross-border-tax-tariff-modeling-6be0d28f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-border-tax-tariff-modeling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-border-tax-tariff-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5685b368b2ec93f300c557e267a5ea170cbc4450d42cdeac670ff9c7e17e43a0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

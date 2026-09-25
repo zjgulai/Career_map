@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-switchback-experiment-design",
+  "中文名称": "实验设计 - 数据驱动的双边市场实验",
+  "一句话作用": "触发词：Switchback 实验、时段切换、carryover、HT 估计、仓库算法评估、区间轮换。何时不用：个体可独立随机且互不影响时用标准 A/B；切换成本高、切换周期远长于实验窗口的场景不适合。安全边界：平台政策与 GDPR 下仓库内部日志一般无个人隐私风险，但仍需确认不涉及买家数据外泄，并评估算法对履约时效与平台考核的次生影响。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要同一海外仓为 Shopify/Amazon/TikTok Shop 多渠道发货,测试\"AI 波次合并算法\"是否降低拣货时长时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03907-p2s-switchback-experiment-design-e42fc8a9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-switchback-experiment-design/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-switchback-experiment-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0471bf1db5935069f5bb0e3a1e8c37f7e0be0341d447af72cd0461aed486c88b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

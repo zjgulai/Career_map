@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-delivery-quality-rate-kpi",
+  "中文名称": "供应商来料质量IQC-KPI体系 入库检验合格率质量成本与批次拒收分析",
+  "一句话作用": "触发词：来料质量、IQC、SPC控制图、批次拒收、COPQ、供应商质量评级。何时不用：客诉根因分析用「客诉供应链根因KPI」；投诉与召回风险用「投诉召回风险预测」。安全边界：检验数据须真实完整不得篡改，对外索赔与供应商处置须走质量与法务流程。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要质量管理面临\"来料质量批次性恶化无法早发现\"——SPC p-chart实时监控将质量异常提前15批次发现，COPQ降低75%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03877-p2s-supplier-delivery-quality-rate-kpi-a2ddae02",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supplier-delivery-quality-rate-kpi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supplier-delivery-quality-rate-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "129c106ca12a308a4acc9c35c9f8965b51c9f4c79193dd9dacf7d700b7272012",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

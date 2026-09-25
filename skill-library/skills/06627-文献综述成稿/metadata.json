@@ -1,0 +1,22 @@
+{
+  "英文名称": "review-writing",
+  "中文名称": "文献综述成稿",
+  "一句话作用": "将已经完成的文献调研或 research-synthesis 结构化综合分析，转写成3-6个连续自然段的文献综述正文示例，供用户按后续细分方向取用，不是用户论文里的文献综述成品，也不是整篇论文。只负责这组综述正文段，不重新检索、不新增引用、不新增判断、不写本文、本研究、本文提出，不产出摘要+引言+方法+结果+讨论+结论式成品论文，也不代写用户论文的任何成品段落或章节。触发于把上面的综合分析写成连续综述正文、转成综述文风。",
+  "关键输入": "- 若输入缺少 [SYNTHESIS HANDOFF]，只输出：BLOCKED: NEED SYNTHESIS HANDOFF - 若 [SYNTHESIS HANDOFF] 中缺少 ready for review: yes，只输出：BLOCKED: NEED SYNTHESIS FIX - 若缺少 [CLAIM POOL]、[CITATION POOL]、[TENSION POOL]、[GAP POOL] 任一节，只输出：BLOCKED: NEED SYNTHESIS REDO",
+  "关键输出": "只输出 3-6 个连续自然段的综述正文。 不输出拟题、摘要、引言、总结、参考文献、过程说明、检查表、导航段、清单、范围说明。参考文献由最终报告的 参考文献 节统一承接，不在本阶段重复生成。",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要将已经完成的文献调研或 research-synthesis 结构化综合分析，转写成3-6个连续自然段的文献综述正文示例，供用户按后续细分方向取用，不是用户论文里的文献综述成品，也不是整篇论文。只负责这组综述正文段，不重新检索、不新增引用、不新增判断、不写本文、本研究、本文提出，不产出摘要+引言+方法+结果+讨论+结论式成品论文，也不代写用户论文的任何成品段落或章节。触发于把上面的综合分析写成连续综述正文、转成综述文风。时，用它产出或更新：只输出 3-6 个连续自然段的综述正文。 不输出拟题、摘要、引言、总…",
+  "skill_id": "06627-review-writing-89c31ba0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/sub-skills/review-writing/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/sub-skills/review-writing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad6106442742ef0b684ec7c264b4c3a28fd938d9f1680d3f50fa74d8a753d0cb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

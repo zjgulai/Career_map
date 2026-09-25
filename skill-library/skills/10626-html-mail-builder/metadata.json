@@ -1,0 +1,22 @@
+{
+  "英文名称": "html-mail-builder",
+  "中文名称": "待补：html-mail-builder",
+  "一句话作用": "生成兼容 Gmail/Outlook/Apple Mail 的 HTML 邮件模板，采用 table 布局和 inline CSS 确保一致渲染，支持响应式设计。适用于欢迎邮件、促销邮件、密码重置、通知邮件和订单确认邮件等场景。当用户需要创建或设计营销邮件（EDM）、事务性邮件、Newsletter，或提及邮件模板、HTML 邮件、兼容性设计等关键词时触发。",
+  "关键输入": "- 新用户欢迎邮件（Welcome） - 促销活动 / 限时折扣邮件（Promotional） - 密码重置 / 安全验证邮件（Password Reset） - 系统通知邮件（Notification） - 订单确认邮件（Order Confirmation）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:08:42+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 新用户欢迎邮件（Welcome） - 促销活动 / 限时折扣邮件（Promotional） - 密码重置 / 安全验证邮件（Password Reset） - 系统通知邮件（Notification） - 订单确认邮件（Order Confirmation）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10626-html-mail-builder-e4514f87",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/html-mail-builder/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/html-mail-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5edccfaa41b11667aac2d6c25d40a7ff66c4edf857060b8114401305535334aa",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

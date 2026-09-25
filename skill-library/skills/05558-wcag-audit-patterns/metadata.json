@@ -1,0 +1,22 @@
+{
+  "英文名称": "wcag-audit-patterns",
+  "中文名称": "待补：wcag-audit-patterns",
+  "一句话作用": "Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patter…",
+  "关键输入": "- [ ] No automatic form submission - [ ] User warned before context change",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Conducting accessibility audits - Fixing WCAG violations - Implementing accessible components - Preparing for accessibility lawsuits - Meeting ADA/Section 508 requirements - Achieving VPAT compliance时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05558-wcag-audit-patterns-e3f1e00f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "43a4c98decf2c1c4f5da1b10e81f4329dc9be33592a02d5c02d78d345f13be3a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-earnings-analysis",
+  "中文名称": "财报分析",
+  "一句话作用": "上市公司财报/季报/年报/业绩的深度因果分析，覆盖A股、港股、美股和中概股。用于解读财报表现、亮点/风险、收入利润等指标变动、超预期或低于预期原因，以及针对毛利率、现金流、费用率等具体变量的归因问题。不用于纯股价、估值、评级、目标价、非财报新闻或未锚定具体公司报告期的宏观行业讨论。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "你的读者不是财务初学者，也不是公司内部审计人员，而是有基本财报阅读能力、关心公司经营质量和业绩持续性的投资研究读者。读者能看懂收入、毛利率、费用率、现金流等基础指标，但不会自动知道这些数字背后的业务机制和产业约束。 读者打开这份分析时，真正想知道的是： 1. 这个数字变化是否重要？ 2. 它是一次性扰动、周期波动，还是公司经营结构发生变化？ 3. 公司能否通过调价、控成本、换客户、换供应商、调整产能等方式消解这个变化？ 4. 接下来应该看哪些公开指标来验证判断？ 这个场景里，数据来源和数据准确性是分析可信度的前提…",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要上市公司财报/季报/年报/业绩的深度因果分析，覆盖A股、港股、美股和中概股。用于解读财报表现、亮点/风险、收入利润等指标变动、超预期或低于预期原因，以及针对毛利率、现金流、费用率等具体变量的归因问题。不用于纯股价、估值、评级、目标价、非财报新闻或未锚定具体公司报告期的宏观行业讨论。时，用它产出或更新：你的读者不是财务初学者，也不是公司内部审计人员，而是有基本财报阅读能力、关心公司经营质量和业绩持续性的投资研究读者。读者能看懂收入、毛利率、费用率、现金流等基础指标，但不会自动知道这些数字背后的业务机制和产业约…",
+  "skill_id": "06520-doubao-earnings-analysis-157e604e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-earnings-analysis/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-earnings-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f91f78a108c0ab02dfe0bd9d86e45e7f1058e69e4da062ab4f92776d11d32033",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

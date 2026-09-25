@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-product-video-script-generator",
+  "中文名称": "母婴产品视频脚本自动生成",
+  "一句话作用": "触发词：视频脚本生成、痛点驱动文案、脚本模板套用、创意简报、多时长版本适配。何时不用：要按真实转化率训练并生成广告文案用强化学习文案技能，只优化已有开场留存用钩子优化技能，本技能从评论痛点生成结构化视频脚本。安全边界：脚本不得使用无依据的统计数字与功效宣称，AI 生成内容须按规定标注，不得违反虚假宣传相关规定。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容创作面临\"母婴产品视频脚本耗时耗力\"——VOC痛点驱动自动生成将视频生产效率提升5倍，月均多产出20条内容时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11600-p2s-ai-product-video-script-generator-c5f0e6b7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ai-product-video-script-generator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ai-product-video-script-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "50724bdeb3c59241ad654ffe748d6c1d900b8d1b4c6cb87e8da4442569d0b694",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

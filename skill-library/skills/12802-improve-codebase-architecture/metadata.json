@@ -1,0 +1,22 @@
+{
+  "英文名称": "improve-codebase-architecture",
+  "中文名称": "待补：improve-codebase-architecture",
+  "一句话作用": "扫描代码库中的深化机会，生成可视化 HTML 报告，然后围绕你选中的候选项继续追问。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-27T15:45:07+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要扫描代码库中的深化机会，生成可视化 HTML 报告，然后围绕你选中的候选项继续追问。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12802-improve-codebase-architecture-a10963c4",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/.agents/skills/improve-codebase-architecture/SKILL.md",
+  "relative_path": "lute/project/VOA/.agents/skills/improve-codebase-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9399c0d12b3425e0d3d6994d8ed603c10e62226a3645a777268b2bf61ba8c308",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

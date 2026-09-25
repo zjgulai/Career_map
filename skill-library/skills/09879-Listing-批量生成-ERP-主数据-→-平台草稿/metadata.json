@@ -1,0 +1,22 @@
+{
+  "英文名称": "Listing 批量生成（ERP 主数据 → 平台草稿）",
+  "中文名称": "待补：Listing 批量生成（ERP 主数据 → 平台草稿）",
+  "一句话作用": "当有关键词矩阵与合规通过的文案约束、且需从 ERP 批量生成亚马逊/TikTok/Shopify 上架草稿时调用；生成前须满足 listing-compliance-scanner PASS。",
+  "关键输入": "- listing-compliance-scanner 对同类目模板或本批样例输出为 PASS ，或明确记录 残留 Block 已人工豁免 （需战略/法务背书）。 - 已具备 keyword-matrix-builder 输出或与之一致的词表。 - 平台模板选定（字符上限、禁用 HTML 等）。",
+  "关键输出": "- 主文件：sku platform title bullets description stub aplus blocks stub errors - 摘要 ：成功条数 / 失败条数 / 需人工复核条数。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当有关键词矩阵与合规通过的文案约束、且需从 ERP 批量生成亚马逊/TikTok/Shopify 上架草稿时调用；生成前须满足 listing-compliance-scanner PASS。时，用它产出或更新：- 主文件：sku platform title bullets description stub aplus blocks stub errors - 摘要 ：成功条数 / 失败条数 / 需人工复核条数。",
+  "skill_id": "09879-listing-erp-f38e5443",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/listing-bulk-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/listing-bulk-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d54d95223506f6491a7598dd788d1bb3a10c8e596876fbe51c89e5b3e79941d3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

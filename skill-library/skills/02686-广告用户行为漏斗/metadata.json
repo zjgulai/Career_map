@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ad-to-behavior-funnel",
+  "中文名称": "广告用户行为漏斗）",
+  "一句话作用": "触发词：广告漏斗、行为漏斗、渠道转化对比、漏斗诊断、预算倾斜、阶段转化率。何时不用：要拆各触点归因权重用「广告归因建模」；要优化 ROAS 预算分配用「ROAS 预算优化」；只看站内用户路径用「用户漏斗分析」。安全边界：仅使用已脱敏的行为转移概率、不涉及个人身份识别数据，须遵守 GDPR 与平台广告政策，并在用户协议中声明行为数据用途与退出追踪方式。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要FB 吸奶器广告点击后：35% 进详情页 → 12% 加购 → 5% 首购 → 2% 复购时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02686-p2s-ad-to-behavior-funnel-b799c6fd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ad-to-behavior-funnel/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ad-to-behavior-funnel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c38835d92056da75c73cc86688183bf3fbdf4fc6b773b30c2a138d8a97cf450",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

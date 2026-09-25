@@ -1,0 +1,22 @@
+{
+  "英文名称": "feature-spec",
+  "中文名称": "待补：feature-spec",
+  "一句话作用": "Write structured product requirements documents (PRDs) with problem statements, user stories, requirements, and success metrics. Use when speccing a new feature, writing a PRD, defining acceptance criteria, prioritizing…",
+  "关键输入": "Must-Have (P0) : The feature cannot ship without these. These represent the minimum viable version of the feature. Ask: \"If we cut this, does the feature still solve the core problem?\" If no, it is P0. Nice-to-Have (P1) : Significantly improves the experience…",
+  "关键输出": "Write acceptance criteria in Given/When/Then format or as a checklist: Given/When/Then : - Given [precondition or context] - When [action the user takes] - Then [expected outcome] Example: - Given the admin has configured SSO for their organization - When a t…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Describe the user problem in 2-3 sentences - Who experiences this problem and how often - What is the cost of not solving it (user pain, business impact, competitive risk) - Ground this in evidence: user research, sup…时，用它产出或更新：Write acceptance criteria…",
+  "skill_id": "05530-feature-spec-aa21fa09",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/feature-spec/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/feature-spec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f5d5d24e062b86a354b300440e5cd6a3759e0bc9078e1935b4a5f18da4f4c1f4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

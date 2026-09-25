@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-frames-rag-factuality-multihop",
+  "中文名称": "待补：p2s-frames-rag-factuality-multihop",
+  "一句话作用": "触发词：多跳评测、事实性基准、幻觉漏检、三轨同查、合规风险核对。何时不用：单跳问答的日常质量巡检用通用 RAG 评测即可；要做知识冲突消解走冲突检测。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要质量团队面临多跳场景幻觉漏检率高——FRAMES专项评测灵敏度比RAGAS+60%，识别FDA+CE+亚马逊三轨同查薄弱点，年化合规保障40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03148-p2s-frames-rag-factuality-multihop-d11800aa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-frames-rag-factuality-multihop/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-frames-rag-factuality-multihop/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c66413f5db0b761bf4d0787723db79ba33de1d729f74363b44af36fc6ccca5cd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

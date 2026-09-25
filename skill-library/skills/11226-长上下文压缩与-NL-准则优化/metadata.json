@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-context-compression",
+  "中文名称": "长上下文压缩与 NL 准则优化",
+  "一句话作用": "触发词：长上下文压缩、历史摘要、观察压缩、准则优化、长对话客服降本。何时不用：单轮短会话或上下文未超模型窗口时不必要；只按相关性剪枝单轮工具结果用主动上下文剪枝。安全边界：压缩不得丢掉订单、物流与规格等关键事实，压缩准则须用成功与失败轨迹校准后再上线。",
+  "关键输入": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-12T10:58:29+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境母婴客服 1 次对话经常 10-30+ 轮,Agent 在执行 RCA(Root Cause Analysis)、生成回复、生成报告时需要历史完整对话 + 多次 API 返回(订单详情、物流数据、产品规格)时，用它产出或更新：（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11226-p2s-context-compression-7f85c4c4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-context-compression/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-context-compression/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d2abf826f9827577f874ace22020158838bc0b0e7212ace22f5ae5ee5e53bcf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

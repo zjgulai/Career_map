@@ -1,0 +1,22 @@
+{
+  "英文名称": "国际站店铺经营分析",
+  "中文名称": "店铺经营分析",
+  "一句话作用": "分析 Alibaba.com 自有店铺的流量、商品、转化、交易、服务、员工与 CGS 星等级数据，生成日报、周报、月报、定向诊断、单指标回答或全量明细文件。 适用于店铺经营分析、经营简报、经营波动、订单/商品表现、访客与员工数据、当前或历史 CGS 星等级；不用于商品写操作、外部市场选品、竞品、RFQ、税务或 IM 询盘导出。 本 Skill 必须由当前 Agent 直接执行，禁止转发子代理。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要分析 Alibaba.com 自有店铺的流量、商品、转化、交易、服务、员工与 CGS 星等级数据，生成日报、周报、月报、定向诊断、单指标回答或全量明细文件。 适用于店铺经营分析、经营简报、经营波动、订单/商品表现、访客与员工数据、当前或历史 CGS 星等级；不用于商品写操作、外部市场选品、竞品、RFQ、税务或 IM 询盘导出。 本 Skill 必须由当前 Agent 直接执行，禁止转发子代理。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00151-skill-88c2fa5c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-analysis-brief/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-analysis-brief/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4c9557386309d70377c72a9822c5c7be49135ddd71a74287ec57fd8ac13a25de",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

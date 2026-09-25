@@ -1,0 +1,22 @@
+{
+  "英文名称": "threejs-data-visualization",
+  "中文名称": "待补：threejs-data-visualization",
+  "一句话作用": "Render WebGL-accelerated data visualizations with Three.js, raw WebGL, deck.gl, luma.gl, PixiJS, Sigma.js, Plotly WebGL traces, ECharts GL, CesiumJS, Babylon.js, or related GPU libraries. Use when the visualization need…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Justify the WebGL choice against SVG, DOM, Canvas2D, and declarative options. - Preserve orientation and scale cues. - Provide screenshot or image export paths when the result must appear in reports. - Keep labels, legends, and summaries readable in 2D over…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Render WebGL-accelerated data visualizations with Three.js, raw WebGL, deck.gl, luma.gl, PixiJS, Sigma.js, Plotly WebGL traces, ECharts GL, CesiumJS, Babylon.js, or related GPU libraries. Use when the visualization need…时，用它产出或更新：- Justify the WebGL choice…",
+  "skill_id": "00751-threejs-data-visualization-3e1a5e75",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/threejs-data-visualization/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/threejs-data-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bc3141b5d655b6c222d180d668010d9246e1dfb77e9f433450cf560876036917",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

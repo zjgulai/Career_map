@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-cultural-ai-bias-correction",
+  "中文名称": "待补：p2s-cross-cultural-ai-bias-correction",
+  "一句话作用": "触发词：跨文化偏见、性别刻板印象、对抗去偏、文化维度、推荐修正。何时不用：只在单一市场做群体公平审计用「AI 公平性审计」；怀疑定价歧视用「算法定价公平性审计」。安全边界：文化维度参数须注明来源；不得以文化差异为由为刻板印象推荐辩护；跨地区用户数据须符合 GDPR、CCPA 与当地数据保护法。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营团队面临东南亚/欧美市场推荐算法偏见导致转化差异达40%——跨文化偏见修正将各市场CTR差异收窄至8%以内，年化GMV提升55万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02982-p2s-cross-cultural-ai-bias-correction-8244c7c7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-cultural-ai-bias-correction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-cultural-ai-bias-correction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0c472ca32cc85101995da1c32785e7be53aae0d5fed04f805896b01d9ba510f2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

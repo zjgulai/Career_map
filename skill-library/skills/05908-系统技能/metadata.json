@@ -1,0 +1,22 @@
+{
+  "英文名称": "ui-system",
+  "中文名称": "系统技能",
+  "一句话作用": "UI 系统技能。生成游戏 UI 组件，包括 HUD、菜单、对话框等。 支持响应式布局和主题系统。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要UI 系统技能。生成游戏 UI 组件，包括 HUD、菜单、对话框等。 支持响应式布局和主题系统。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05908-ui-system-ee6943c6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-2-modules/ui-system/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-2-modules/ui-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "74fdcee7aff3a4e1b6fa6f67a7c038324f71de7452a3a5fa42750ff8c56d45e7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

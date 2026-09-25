@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-new-product-monitor",
+  "中文名称": "待补：shopify-new-product-monitor",
+  "一句话作用": "Detect Shopify products that become publicly eligible for social promotion for the first time, with baseline initialization, permanent Product GID deduplication, and deterministic reason codes. Use during a scheduled Sh…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Return the verified shop domain, baseline status, pending recommendation request IDs and their receipt status, public eligible count, evaluation status, matched, reason code, new Product GIDs, dedupe result, read scope, and whether any Shopify write occurred.…",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Detect Shopify products that become publicly eligible for social promotion for the first time, with baseline initialization, permanent Product GID deduplication, and deterministic reason codes. Use during a scheduled Sh…时，用它产出或更新：Return the verified shop d…",
+  "skill_id": "00257-shopify-new-product-monitor-8fa7bd1d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-new-product-monitor/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-new-product-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f477381bbb8a3a458e676f97778d7ab2e9c7a165ba2dd3fd91639a7a2173cd53",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cross-border-category-feasibility",
+  "中文名称": "待补：cross-border-category-feasibility",
+  "一句话作用": "当用户需要生成跨境电商品类的完整商业可行性报告、判断一个品类是否值得进入跨境市场时使用。触发词：跨境品类可行性报告、可行性报告、品类分析、选品报告、供应链评估、cross-border-selection。何时不用：单 SKU 的 Go/No-Go 裁决（使用market-viability-logic-auditor）、已有方向的进入终审（使用market-viability-logic-auditor）、纯关键词选品打分（使用pr…",
+  "关键输入": "当用户需要生成跨境电商品类的完整商业可行性报告、判断一个品类是否值得进入跨境市场时使用。具体场景： - 需要覆盖全球趋势、价格段、用户痛点、供应链评估和轻定制路径的完整品类分析 - 需要判断一个品类（如母婴用品、智能家居、宠物用品）是否值得投入跨境业务 - 需要供应链成熟度量化评估（OEM/ODM 覆盖率、MOQ、认证状态、交期） - 需要轻定制三阶段路径规划（品牌贴标 → 功能选配 → 完整 OEM）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要当用户需要生成跨境电商品类的完整商业可行性报告、判断一个品类是否值得进入跨境市场时使用。具体场景： - 需要覆盖全球趋势、价格段、用户痛点、供应链评估和轻定制路径的完整品类分析 - 需要判断一个品类（如母婴用品、智能家居、宠物用品）是否值得投入跨境业务 - 需要供应链成熟度量化评估（OEM/ODM 覆盖率、MOQ、认证状态、交期） - 需要轻定制三阶段路径规划（品牌贴标 → 功能选配 → 完整 OEM）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11079-cross-border-category-feasibility-2ff5a971",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/cross-border-category-feasibility/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/cross-border-category-feasibility/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "42fbc167d1d5d7914f7f2c6e6681d55bf02ec911e1e7e85f1a941308ecf12e76",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

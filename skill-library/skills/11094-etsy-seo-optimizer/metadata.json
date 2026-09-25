@@ -1,0 +1,22 @@
+{
+  "英文名称": "etsy-seo-optimizer",
+  "中文名称": "待补：etsy-seo-optimizer",
+  "一句话作用": "优化 Etsy Listing，将 Etsy 作为品牌入口、定制化试验场和 Pinterest 协同流量通道。当用户提出 Etsy 平台 Listing 优化、关键词研究、标签策略、eRank 分析、标题与入口矩阵设计、Pinterest 协同流量规划、送礼/场景/品牌占位词优化需求时使用。触发词：Etsy优化器、Etsy SEO、Etsy关键词、Etsy优化、Etsy标签、eRank、Etsy Listing、Etsy listin…",
+  "关键输入": "- 用户在 Etsy 平台做 Listing 优化、关键词研究、标签策略 - 用户需要 eRank 关键词分析或 13 标签分配策略 - 用户想把 Etsy 作为品牌入口、定制试验场或 Pinterest 协同流量通道 - 用户需要判断 Etsy Listing 的角色定位（搜索入口/品牌触点/定制实验/Pinterest 承接） - 用户需要 Etsy 的送礼/场景/品牌占位词优化",
+  "关键输出": "最终不要只交付关键词表，而要交付： ---",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用户在 Etsy 平台做 Listing 优化、关键词研究、标签策略 - 用户需要 eRank 关键词分析或 13 标签分配策略 - 用户想把 Etsy 作为品牌入口、定制试验场或 Pinterest 协同流量通道 - 用户需要判断 Etsy Listing 的角色定位（搜索入口/品牌触点/定制实验/Pinterest 承接） - 用户需要 Etsy 的送礼/场景/品牌占位词优化时，用它产出或更新：最终不要只交付关键词表，而要交付： ---",
+  "skill_id": "11094-etsy-seo-optimizer-96a2fd53",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/etsy-seo-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/etsy-seo-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "549f7ea88cc8da3ad850205f53cbe5094d64f5c13f6b2e91182fd6bf9a8ba25a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-calibrated-audience-expansion-uncertainty",
+  "中文名称": "扩展置信度校准防止受众过泛导致 ROAS 崩盘",
+  "一句话作用": "触发词：受众扩展、置信度校准、Platt Scaling、精度衰减、相似受众扩量、ROAS 预判。何时不用：种子池质量本身不过关时先优化种子；只判断渠道该不该加预算时用渠道饱和曲线。安全边界：用户特征与种子标签属个人信息，需在授权范围内使用，受众包上传需符合各平台数据政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投手面临\"Lookalike从1%扩展到5%ROAS大幅下滑、不知道最优扩展边界\"——密度估计+Platt Scaling置信度校准将ROAS预判误差从±50%降至±15%，避免盲目扩量年化损失约22万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02844-p2s-calibrated-audience-expansion-uncertainty-371b5c21",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-calibrated-audience-expansion-uncertainty/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-calibrated-audience-expansion-uncertainty/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79e8a6671d5d2c04cf796b84db326714a246200c1505c10b5b4f2c2995148f03",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

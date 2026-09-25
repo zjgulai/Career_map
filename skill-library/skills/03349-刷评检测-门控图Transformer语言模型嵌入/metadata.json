@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-review-manipulation-detection",
+  "中文名称": "刷评检测 门控图Transformer语言模型嵌入",
+  "一句话作用": "触发词：AI 刷评检测、门控图变换器、语言嵌入、举报队列、评论清洗。何时不用：关键词规则就能覆盖的明显垃圾评论不必上模型；本技能针对语义自然、关键词检测失效的 AI 生成评论。安全边界：检测仅用于内部清洗与举报队列，不得自动删评或对用户报复；评论数据须脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要竞品通过 ChatGPT 批量生成高质量刷评对传统关键词检测免疫——引入门控图 Transformer+语言模型嵌入检测框架，AI 生成刷评识别精度达 91%，年化减少因刷评攻击导致的 Listing 权重损失。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03349-p2s-llm-review-manipulation-detection-dc7c126c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-review-manipulation-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-review-manipulation-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dce792f347bf87d966e8cd46f7a3fd2dc71e2a19d0ae84b35ac47bae127f7e1e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

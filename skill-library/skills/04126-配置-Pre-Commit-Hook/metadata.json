@@ -1,0 +1,22 @@
+{
+  "英文名称": "setup-pre-commit",
+  "中文名称": "配置 Pre-Commit Hook",
+  "一句话作用": "配置 pre-commit 钩子。触发词：Pre-commit 配置、setup-pre-commit、配置 pre-commit 钩子。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要配置 pre-commit 钩子。触发词：Pre-commit 配置、setup-pre-commit、配置 pre-commit 钩子。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04126-setup-pre-commit-97fd40eb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/setup-pre-commit/SKILL.md",
+  "relative_path": "lute/.dsh/skills/setup-pre-commit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c840f43b8bcd89411246a7bb3ba5976d872307e4c6d0fce1e6f435ae2d571158",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

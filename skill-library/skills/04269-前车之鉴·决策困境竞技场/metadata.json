@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-arena-decision",
+  "中文名称": "前车之鉴·决策困境竞技场",
+  "一句话作用": "决策困境竞技场：三个对立角色（前额叶带宽顾问/框架设计师/第一性原理检察官）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：在两个或多个选项间反复权衡，越想越迷茫、纠结了很长时间仍无法下决定，感到焦虑或疲惫、理性分析做了很多，但情绪依然推翻结论、要不要辞职/跳槽这类困境。何时不用：问题反复出现、修了又坏 → xmind-arena-rootcause；做了正确的事结果越来越差 → xmind-arena-sys…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要决策困境竞技场：三个对立角色（前额叶带宽顾问/框架设计师/第一性原理检察官）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：在两个或多个选项间反复权衡，越想越迷茫、纠结了很长时间仍无法下决定，感到焦虑或疲惫、理性分析做了很多，但情绪依然推翻结论、要不要辞职/跳槽这类困境。何时不用：问题反复出现、修了又坏 → xmind-arena-rootcause；做了正确的事结果越来越差 → xmind-arena-sys…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04269-xmind-arena-decision-f68c294f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-arena-decision/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-arena-decision/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d359d6331c1274e9a81dea4257d3589f0950d78fd9931078d499331bd61c23b5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

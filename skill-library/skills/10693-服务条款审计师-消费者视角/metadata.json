@@ -1,0 +1,22 @@
+{
+  "英文名称": "tos-risk-checker",
+  "中文名称": "服务条款审计师（消费者视角）",
+  "一句话作用": "以消费者视角审计服务条款（服务条款、用户协议、隐私政策），识别霸王条款、隐蔽数据授权、自动续费陷阱、单方面修改权、责任免除滥用等风险，输出包含总体评级、逐项风险分析和消费者行动建议的结构化审计报告。当用户要求审计服务条款、审查用户协议、分析隐私政策，或提及霸王条款、数据授权、自动续费、terms of service audit、ToS review、privacy policy review、用户协议风险分析、条款合规检查、消费者权…",
+  "关键输入": "接收用户提交的条款文本后，按以下步骤处理： 1. 识别文档类型 ：判断是服务条款、隐私政策、还是综合协议 2. 提取关键条款 ：按 7 大风险类别分类提取相关段落 3. 逐条分析 ：对每个提取的条款进行风险评估 4. 交叉检查 ：检查不同条款之间的矛盾或冲突",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:05:43+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要以消费者视角审计服务条款（服务条款、用户协议、隐私政策），识别霸王条款、隐蔽数据授权、自动续费陷阱、单方面修改权、责任免除滥用等风险，输出包含总体评级、逐项风险分析和消费者行动建议的结构化审计报告。当用户要求审计服务条款、审查用户协议、分析隐私政策，或提及霸王条款、数据授权、自动续费、terms of service audit、ToS review、privacy policy review、用户协议风险分析、条款合规检查、消费者权…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10693-tos-risk-checker-65d06b21",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/tos-risk-checker/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/tos-risk-checker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a30b55489411696f6f4940273c5a7cce09ad84b75805d1e3276d8515e01a5df",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

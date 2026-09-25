@@ -1,0 +1,22 @@
+{
+  "英文名称": "database-migration",
+  "中文名称": "待补：database-migration",
+  "一句话作用": "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or impl…",
+  "关键输入": "- Migrating between different ORMs - Performing schema transformations - Moving data between databases - Implementing rollback procedures - Zero-downtime deployments - Database version upgrades - Data model refactoring",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- Migrating between different ORMs - Performing schema transformations - Moving data between databases - Implementing rollback procedures - Zero-downtime deployments - Database version upgrades - Data model refactoring时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05623-database-migration-909722cf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/framework-migration/skills/database-migration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/framework-migration/skills/database-migration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e532a59a7c58a96c39c4d36e2635db959db3602d71f8794563da37ac0d33368",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

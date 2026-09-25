@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-federated-cross-seller-recommendation",
+  "中文名称": "隐私保护的跨卖家联邦推荐",
+  "一句话作用": "触发词：联邦推荐、跨卖家协作、数据不出本地、梯度聚合、隐私预算追踪。何时不用：自有多站点数据联合训练时用「联邦学习隐私保护」；只做单站点端侧加噪推荐时用「差分隐私推荐系统」。安全边界：只上传梯度不上传用户数据，但仍须签数据处理协议；须防梯度泄漏，必要时配合安全聚合。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要中小独立站用户行为数据不足1万无法训练好的推荐模型但又不愿意共享用户数据——联邦学习框架允许多卖家协同训练推荐模型数据不出本地，推荐召回率提升15-30%满足GDPR合规年化增益20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12543-p2s-federated-cross-seller-recommendation-bae98a68",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-federated-cross-seller-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-federated-cross-seller-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "34abe9b827584bd8a3b7a757ca134014e89402b1f069ab6228c102acca8baf2e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

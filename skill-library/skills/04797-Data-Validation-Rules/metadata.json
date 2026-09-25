@@ -1,0 +1,22 @@
+{
+  "英文名称": "Data Validation Rules",
+  "中文名称": "待补：Data Validation Rules",
+  "一句话作用": "Data Validation Rules are constraints and checks that ensure data meets quality standards before being stored or processed. Validation should happen at multiple layers—database, application, API, and",
+  "关键输入": "Inputs : - Entry Conditions : - Outputs : - Artifacts Required (Deliverables) :",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-02-22",
+  "业务场景": "Backend",
+  "解决具体问题": "当需要Data Validation Rules are constraints and checks that ensure data meets quality standards before being stored or processed. Validation should happen at multiple layers—database, application, API, and时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04797-data-validation-rules-904d41da",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Data-Validation-Rules/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Data-Validation-Rules/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "f9eb0c5f7a44ff75f88dbdc40a0de5cb77331fdde15cea3be4bab8999be32fd6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

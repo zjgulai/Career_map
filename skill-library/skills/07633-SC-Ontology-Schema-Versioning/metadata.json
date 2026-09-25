@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-SC-Ontology-Schema-Versioning",
+  "中文名称": "待补：SC Ontology Schema Versioning",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 78.0, \"best\": 78.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:03:53.731904\"} {\"round\": 0, \"status\": \"patch nothing\", \"score\": 76.0, \"best\": 76.0, \"mutated\": \"none\", \"ts\": \"20…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T17:49:03+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 78.0, \"best\": 78.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:03:53.731904\"} {\"round\": 0, \"status\": \"patch nothing\", \"score\": 76.0, \"best\": 76.0, \"mutated\": \"none\", \"ts\": \"20…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07633-skill-sc-ontology-schema-versioning-c18bf598",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-SC-Ontology-Schema-Versioning.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-SC-Ontology-Schema-Versioning.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d98a93c2548b87b2167f8bd0a188426852bcac77f504ae1a3fdbb15cdf74464d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

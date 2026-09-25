@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-medical-literature-monitoring",
+  "中文名称": "医学证据持续监控",
+  "一句话作用": "医学进展跟踪 Skill。用于医生、研究人员或医学内容团队对相关领域最新进展的跟踪和调研需求，当用户提出“查询最新进展、订阅监控进展更新、定期更新推送”等需求时，可以调用该技能跟踪相关医学主题的研究、预印本、指南/共识、监管、临床试验、会议和专业资讯进展，首次检索生成飞书进展报告，并邀请用户确认订阅定时监控推送，用户确认后创建定时任务，定时任务中需要强调后续推送时调用本 Skill 呈现新增进展变化。调研某领域最新医学进展需求使用本…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要医学进展跟踪 Skill。用于医生、研究人员或医学内容团队对相关领域最新进展的跟踪和调研需求，当用户提出“查询最新进展、订阅监控进展更新、定期更新推送”等需求时，可以调用该技能跟踪相关医学主题的研究、预印本、指南/共识、监管、临床试验、会议和专业资讯进展，首次检索生成飞书进展报告，并邀请用户确认订阅定时监控推送，用户确认后创建定时任务，定时任务中需要强调后续推送时调用本 Skill 呈现新增进展变化。调研某领域最新医学进展需求使用本…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06271-doubao-medical-literature-monitoring-d82a2e12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-medical-literature-monitoring/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-medical-literature-monitoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4235c207130e61ea50cd0e333bce32fb218e73e4cd0639b399c5124ebbacdf58",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

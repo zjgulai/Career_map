@@ -1,0 +1,22 @@
+{
+  "英文名称": "single-sheet-reading-and-analysis",
+  "中文名称": "设置中英文字体",
+  "一句话作用": "读取并解析单个Excel工作表数据，支持合并单元格处理、数据清洗、交叉分析及多维度可视化，适用于需要从单表中提取关键指标并进行趋势模拟与图表生成的场景。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要读取并解析单个Excel工作表数据，支持合并单元格处理、数据清洗、交叉分析及多维度可视化，适用于需要从单表中提取关键指标并进行趋势模拟与图表生成的场景。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04179-single-sheet-reading-and-analysis-6ebc7f27",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-reading/single-sheet-reading/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-reading/single-sheet-reading/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "84d603e8e091fd11d59c0a04c9a8ffc6d1916770688aa7bdc997fd8a7500b6f2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

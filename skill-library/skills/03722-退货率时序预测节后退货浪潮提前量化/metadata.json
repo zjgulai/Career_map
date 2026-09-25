@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-return-rate-forecasting-model",
+  "中文名称": "退货率时序预测节后退货浪潮提前量化",
+  "一句话作用": "触发词：退货率预测、节后退货浪潮、在途退货、补货暂停、账面库存虚高。何时不用：判断某市场退货率是否异常偏高用「分国退货率KPI」，预测洪峰容量与资金池用「退货洪峰预测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓储运营面临\"黑五后退货浪潮使FBA账面库存虚高触发不必要的补货订单\"——退货率时序预测提前量化节后退货浪潮，年化降低FBA存储费用10-15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03722-p2s-return-rate-forecasting-model-069e4567",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-return-rate-forecasting-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-return-rate-forecasting-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad782c3eff2276dd78b824b22cc28d0a1c43e2b09dcf3790d768cd51705c390c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

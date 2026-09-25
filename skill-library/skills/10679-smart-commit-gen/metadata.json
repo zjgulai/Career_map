@@ -1,0 +1,22 @@
+{
+  "英文名称": "smart-commit-gen",
+  "中文名称": "待补：smart-commit-gen",
+  "一句话作用": "Conventional Commits 规范化工具：分析 git diff 自动生成符合规范的提交信息，支持自动检测作用域（scope）并智能推断提交类型（如 feat, fix, refactor）。当用户提及 commit message、提交信息、conventional commits、git commit、规范化提交、scope 检测，或提出“帮我写个 commit message”、“这些改动应该怎么提交”、“分析一下…",
+  "关键输入": "参数 说明 默认值 ------------------- ------------------------------------------- ---------- --repo Git 仓库路径 . --staged 仅分析已暂存的改动 否",
+  "关键输出": "python3 scripts/analyze diff.py --staged --format json",
+  "最新更新时间": "2026-09-14T00:09:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Conventional Commits 规范化工具：分析 git diff 自动生成符合规范的提交信息，支持自动检测作用域（scope）并智能推断提交类型（如 feat, fix, refactor）。当用户提及 commit message、提交信息、conventional commits、git commit、规范化提交、scope 检测，或提出“帮我写个 commit message”、“这些改动应该怎么提交”、“分析一下…时，用它产出或更新：python3 scripts/analyze dif…",
+  "skill_id": "10679-smart-commit-gen-f8db0bbe",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/smart-commit-gen/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/smart-commit-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f1b41acd4c87760bf06538a1f11b4d4797b076b315a881a36db1809b6519354",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

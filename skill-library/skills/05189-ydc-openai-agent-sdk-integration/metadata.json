@@ -1,0 +1,22 @@
+{
+  "英文名称": "ydc-openai-agent-sdk-integration",
+  "中文名称": "待补：ydc-openai-agent-sdk-integration",
+  "一句话作用": "Integrate OpenAI Agents SDK with You.com MCP server - Hosted and Streamable HTTP support for Python and TypeScript. Use when developer mentions OpenAI Agents SDK, OpenAI agents, or integrating OpenAI with MCP.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Before completing: - [ ] Package installed: openai-agents (Python) or @openai/agents (TypeScript) - [ ] Environment variables set: YDC API KEY and OPENAI API KEY - [ ] Template copied or configuration added to existing file - [ ] MCP configuration type chosen…",
+  "最新更新时间": "2026-09-19T03:57:24+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Integrate OpenAI Agents SDK with You.com MCP server - Hosted and Streamable HTTP support for Python and TypeScript. Use when developer mentions OpenAI Agents SDK, OpenAI agents, or integrating OpenAI with MCP.时，用它产出或更新：Before completing: - [ ] Package inst…",
+  "skill_id": "05189-ydc-openai-agent-sdk-integration-6c6ef0bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ydc-openai-agent-sdk-integration/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ydc-openai-agent-sdk-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec03d97ba93f42c6b71515af69144692287eaee2e396bd1e506373f6fd7ca78f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

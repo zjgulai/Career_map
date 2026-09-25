@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-on-shelf-availability-sku-matrix",
+  "中文名称": "在架率多仓SKU矩阵计算 多仓多SKU有货率精确口径与缺货金额加权",
+  "一句话作用": "触发词：在架率、OSA矩阵、有货率、缺货金额、分仓缺货。何时不用：需要评估仓网布局与本地发货率时用本地订单达成率与FDC仓网覆盖KPI；需要做库龄结构与清仓触发时用库龄分段管理与资金成本化。安全边界：对外披露 OSA 数据须注明矩阵口径与单仓口径的差异，避免误导；使用第三方平台库存数据前须确认数据使用协议允许跨平台聚合。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要多仓运营面临\"虚报在架率掩盖分仓缺货\"——仓×SKU矩阵口径比单SKU口径严格2-5pp，A类爆品OSA提升至99%年化增量销售15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03550-p2s-on-shelf-availability-sku-matrix-5ed21a92",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-on-shelf-availability-sku-matrix/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-on-shelf-availability-sku-matrix/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fe581311f43ade1521a86f0c7ea8a4a85e5065f5cc1c16c26e11820193940f05",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

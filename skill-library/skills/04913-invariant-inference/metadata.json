@@ -1,0 +1,22 @@
+{
+  "英文名称": "invariant-inference",
+  "中文名称": "待补：invariant-inference",
+  "一句话作用": "Automatically infer loop invariants for code verification and correctness proofs. Use when analyzing loops to identify properties that hold throughout execution, generating assertions for verification, proving loop corr…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:43+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Automatically infer loop invariants for code verification and correctness proofs. Use when analyzing loops to identify properties that hold throughout execution, generating assertions for verification, proving loop corr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04913-invariant-inference-ac4392b3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/invariant-inference/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/invariant-inference/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "836250f1b331dfb7e5d13d1f1df096f14abcc1f0ec9b1f789bec3c4b38f4fc16",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

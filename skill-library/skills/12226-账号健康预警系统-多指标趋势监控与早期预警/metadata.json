@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-account-health-early-warning-system",
+  "中文名称": "账号健康预警系统 多指标趋势监控与早期预警",
+  "一句话作用": "触发词：账号健康预警、ODR 监控、LSR 趋势、阈值告警、暂停前预警。何时不用：要在指标恶化时联动广告预算并给运营建议用「账号健康主动监控」；要算多账号关联风险用「账号指纹风险评分器」。安全边界：只输出指标趋势与告警，不代替平台判定；阈值与权重须按各站点实际红线校准，误判（卡页口径 5-8%）时不得据此限制正常经营动作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要亚马逊账号运营面临\"ODR悄悄接近1%暂停红线但无预警机制\"——多指标趋势预警在暂停前15-30天发出告警，年均防止账号被封损失约50-200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12226-p2s-account-health-early-warning-system-ba526a55",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-account-health-early-warning-system/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-account-health-early-warning-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "503ca89219314221c7d74e5f23bd5bf097ee9c90571d63942f8c3a4a060c39c0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

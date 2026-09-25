@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bundle-pricing-strategy",
+  "中文名称": "捆绑定价策略）",
+  "一句话作用": "触发词：捆绑定价、纯捆绑、混合捆绑、配件回购、套餐价、利润模拟。何时不用：要用单品历史价格-销量与弹性求套餐最大利润点用「Dynamic Bundle Pricing」，要按竞品实时价跟随调价用「Competitive Price Monitoring」；本技能只决定捆绑结构与套餐挂牌价，不管单品日常价。安全边界：模型只输出价格方案，改价与上架捆绑 Listing 须人工确认后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要定价经理面临单卖转化低——捆绑定价将客单价从68元提到89元，年化增收26万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12248-p2s-bundle-pricing-strategy-5c45c586",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-bundle-pricing-strategy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-bundle-pricing-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b88477490b10eefe9e9d47cce7c1c5fcd384de5b9027c66e1ee6570ffb7bca8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-journey-map",
+  "中文名称": "待补：customer-journey-map",
+  "一句话作用": "沿用户从认知到复购的各阶段还原触点、行为与情绪，标出体验断点。触发词：客户旅程地图、customer-journey-map、沿用户从认知到复购的各阶段还原触点、行为与情绪，标出体验断点。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要沿用户从认知到复购的各阶段还原触点、行为与情绪，标出体验断点。触发词：客户旅程地图、customer-journey-map、沿用户从认知到复购的各阶段还原触点、行为与情绪，标出体验断点。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02518-customer-journey-map-665b65c4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/customer-journey-map/SKILL.md",
+  "relative_path": "lute/.dsh/skills/customer-journey-map/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f6d57b579d02d8c658dd73f02e9ce8333bbece92843e7c5b9d4e16854648d46",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

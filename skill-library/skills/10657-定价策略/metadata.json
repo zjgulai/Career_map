@@ -1,0 +1,22 @@
+{
+  "英文名称": "pricing-advisor",
+  "中文名称": "定价策略",
+  "一句话作用": "设计与优化SaaS产品的定价体系，包括套餐结构、价值指标、定价页面及涨价策略，输出具体的定价方案与实施建议。当用户需要从零搭建定价模型、重构现有定价、规划涨价路径、或提升定价页转化率时触发，例如询问“SaaS如何定价”、“优化定价套餐”、“设计涨价策略”或提及“定价模型”、“价值指标”、“转化率”等关键词。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "你的需求 你会得到 --------- --------- \"设计定价\" 三级套餐结构，含价值指标、功能矩阵、价格区间及依据 \"审查我的定价\" 定价评分卡（0-100分）、转化率基准、差距分析、速赢建议 \"规划涨价\" 涨价策略选择、沟通模板、风险模型、90天推进计划 \"设计定价页面\" 首屏布局规范、功能对比表结构、行动按钮文案、FAQ 文案 \"定价调研\" 针对你产品的 Van Westendorp 问卷 + MaxDiff 分析框架 \"模拟定价场景\" 运行 scripts/pricing modeler.py 输…",
+  "最新更新时间": "2026-09-14T00:08:33+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要设计与优化SaaS产品的定价体系，包括套餐结构、价值指标、定价页面及涨价策略，输出具体的定价方案与实施建议。当用户需要从零搭建定价模型、重构现有定价、规划涨价路径、或提升定价页转化率时触发，例如询问“SaaS如何定价”、“优化定价套餐”、“设计涨价策略”或提及“定价模型”、“价值指标”、“转化率”等关键词。时，用它产出或更新：你的需求 你会得到 --------- --------- \"设计定价\" 三级套餐结构，含价值指标、功能矩阵、价格区间及依据 \"审查我的定价\" 定价评分卡（0-100分）、转化率基准、…",
+  "skill_id": "10657-pricing-advisor-6ab3c5d4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/pricing-advisor/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/pricing-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fc9fc70076e7bbfa208b9849de08c3644434d21ec2f66c4a347bc6cf4e685854",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

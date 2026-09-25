@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-vision",
+  "中文名称": "待补：product-vision",
+  "一句话作用": "用一段清晰的话描述产品想为谁带来什么改变，作为长期决策的判断基准。触发词：产品愿景撰写、product-vision、用一段清晰的话描述产品想为谁带来什么改变，作为长期决策的判断基准。",
+  "关键输入": "- Information about your company and product (you may read files from the user's workspace) - Current state, market positioning, or any relevant context",
+  "关键输出": "Provide a vision statement that is: 1. Inspiring - Motivates teams to wake up and commit to the goal 2. Achievable - Realistic based on resources, market, and capabilities 3. Emotional - Creates meaning and connection",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要用一段清晰的话描述产品想为谁带来什么改变，作为长期决策的判断基准。触发词：产品愿景撰写、product-vision、用一段清晰的话描述产品想为谁带来什么改变，作为长期决策的判断基准。时，用它产出或更新：Provide a vision statement that is: 1. Inspiring - Motivates teams to wake up and commit to the goal 2. Achievable - Realistic based on resources, market,…",
+  "skill_id": "04090-product-vision-8652fd0e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/product-vision/SKILL.md",
+  "relative_path": "lute/.dsh/skills/product-vision/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "48c0fe6d40a8602cd9d16c1a7c2d213f93ed94bcdef0638e2311e36686492b0d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-star-review-statement-ranking",
+  "中文名称": "观点语句排序 - 排序而非生成的可解释评论分析",
+  "一句话作用": "触发词：原子语句、观点排序、可解释分析、跨市场差异、排序而非生成。何时不用：需要 LLM 自由生成摘要时用「AGRS 属性引导评论摘要」；要输出带 ROI 排序的改进清单用「MAA 评论到行动决策」。安全边界：输出必须限定在评论中真实出现的语句、不得由模型补写；跨市场对齐依赖的多语种 embedding 须先验证语种覆盖。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Momcozy 暖奶器在 Amazon US/DE 各 5000+ 评论,差评包含细碎复合表达(如\"加热慢又不均匀,温控也不准\"). 传统 ABSA 把整句标注为\"加热问题\",丢失了 3 个独立改进点;直接用 LLM 总结容易生成评论中不存在的属性(如\"接口设计差\") - 数据要求:Amazon Review API 双市场评论 - StaR 配置: - Step 1 Candidate时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03862-p2s-star-review-statement-ranking-622463cd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-star-review-statement-ranking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-star-review-statement-ranking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e068acbf08309116a8e0928d56648995f69c3fc2adb31a25e5c38db9e2324a8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

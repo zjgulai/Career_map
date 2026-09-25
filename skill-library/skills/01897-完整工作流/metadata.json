@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper2skills-workflow",
+  "中文名称": "完整工作流",
+  "一句话作用": "paper2skills 完整端到端工作流：选题 → 图谱缺口分析 → Skill 萃取 → 代码验证 → 质量审核 → ps override 补写 → 图谱注册 → Playbook 构建部署。 触发场景：「跑一下工作流」「我有一个选题」「萃取这篇论文」「新增 Skill」 「我要做 XX 方向的 Skill」「按照完整流程执行」。 这是 paper2skills 项目的标准操作手册，包含你应当提供什么、我做什么。",
+  "关键输入": "问题 处理方式 ------ --------- 代码 SyntaxError 修复后重跑验证，不得跳过 质量分 < 7 找到扣分项，重写对应模块 WARN dup ps 补写 ps override，必须消除 skill pages 未增加 检查新域是否在 CLAUDE.md domain table 中注册 build 报错 python3 -c \"import ast; ast.parse()\" 先做语法检查",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-10T11:22:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要问题 处理方式 ------ --------- 代码 SyntaxError 修复后重跑验证，不得跳过 质量分 < 7 找到扣分项，重写对应模块 WARN dup ps 补写 ps override，必须消除 skill pages 未增加 检查新域是否在 CLAUDE.md domain table 中注册 build 报错 python3 -c \"import ast; ast.parse()\" 先做语法检查时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01897-paper2skills-workflow-4273e7d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/paper2skills-workflow/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/paper2skills-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b6c8cf889d41d2307e5e01f64ca4f3ff955c983f899ebdd4a78fadd4c3d7b5ea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

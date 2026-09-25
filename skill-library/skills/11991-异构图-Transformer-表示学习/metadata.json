@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hgt-heterogeneous-graph-transformer",
+  "中文名称": "异构图 Transformer 表示学习",
+  "一句话作用": "触发词：异构图、多语言属性对齐、表示学习、主数据统一、跨站点迁移。何时不用：只有单一类型节点和边时用普通 GNN；只需词表级翻译对齐时不必建图。安全边界：无。",
+  "关键输入": "输入 ：多语言产品属性与评论（英文站、中文站、日文站等）、产品基础信息（品牌、品类、价格带）与图模式定义；卡页第 4 段未给字段级规格，落地前需确认节点类型与关系类型清单。 输出 ：跨语言统一的属性表示与对齐结果（卡页示例把新语言站上线周期从 2-3 个月缩短至 2 周、翻译标注成本节省 60% 以上），供主数据与多站点运营团队使用。",
+  "关键输出": "输入 ：多语言产品属性与评论（英文站、中文站、日文站等）、产品基础信息（品牌、品类、价格带）与图模式定义；卡页第 4 段未给字段级规格，落地前需确认节点类型与关系类型清单。 输出 ：跨语言统一的属性表示与对齐结果（卡页示例把新语言站上线周期从 2-3 个月缩短至 2 周、翻译标注成本节省 60% 以上），供主数据与多站点运营团队使用。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：异构图、多语言属性对齐、表示学习、主数据统一、跨站点迁移。何时不用：只有单一类型节点和边时用普通 GNN；只需词表级翻译对齐时不必建图。安全边界：无。时，用它产出或更新：输入 ：多语言产品属性与评论（英文站、中文站、日文站等）、产品基础信息（品牌、品类、价格带）与图模式定义；卡页第 4 段未给字段级规格，落地前需确认节点类型与关系类型清单。 输出 ：跨语言统一的属性表示与对齐结果（卡页示例把新语言站上线周期从 2-3 个月缩短至 2 周、翻译标注成本节省 60% 以上），供主数据与多站点运营团队使用。",
+  "skill_id": "11991-p2s-hgt-heterogeneous-graph-transformer-54645839",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-hgt-heterogeneous-graph-transformer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-hgt-heterogeneous-graph-transformer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "830c14816e449896ba1e0230ab6473e4d94c68d0b092bc09692ab3c0230bdc30",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "event-driven-analyzer",
+  "中文名称": "待补：event-driven-analyzer",
+  "一句话作用": "Use when analyzing dated public-equity event paths, probabilities, payoffs, and expected returns. Do not use for generic catalyst lists, risk sizing, hedges, capital structure, covenants, or credit recovery.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Full event report: default analytical route for broad or substantial reusable event-driven requests, especially those with many dates, sources, or tables. For an explicit full event analysis, full report, or reusable/source-heavy special-situations package,…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when analyzing dated public-equity event paths, probabilities, payoffs, and expected returns. Do not use for generic catalyst lists, risk sizing, hedges, capital structure, covenants, or credit recovery.时，用它产出或更新：- Full event report: default analytical…",
+  "skill_id": "00990-event-driven-analyzer-9c949198",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/event-driven-analyzer/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/event-driven-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e96978520dec4573558388b6c73a50fa65d3062acde98a013503c3bcdaae0fd1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

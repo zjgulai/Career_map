@@ -1,0 +1,22 @@
+{
+  "英文名称": "battlecard-library",
+  "中文名称": "待补：battlecard-library",
+  "一句话作用": "Template system for building, tagging, and distributing competitive battlecards.",
+  "关键输入": "- Creating/updating battlecards for new competitors. - Packaging objection handling + differentiation guidance for field teams. - Tracking adoption and freshness of competitive assets.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Creating/updating battlecards for new competitors. - Packaging objection handling + differentiation guidance for field teams. - Tracking adoption and freshness of competitive assets.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12754-battlecard-library-7b1e317a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/competitive-intelligence/skills/battlecard-library/SKILL.md",
+  "relative_path": "lute/project/skills/competitive-intelligence/skills/battlecard-library/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "639d3998032846ed5596c5ceef89068d1fd00e3cbb99e6708d59e8aec4730e0b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

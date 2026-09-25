@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-listing-health-diagnostic",
+  "中文名称": "快诊：多维度评分驱动的上架质量诊断",
+  "一句话作用": "触发词：Listing 体检、五维评分、上架前检查、问题清单、修改优先级。何时不用：已定位违规点需要改写用「Listing 合规自动修复」；本技能给的是整体体检报告。安全边界：诊断仅基于 Listing 文本与图片信息，不得据此编造平台规则之外的结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要小型卖家不知道Listing哪里有问题Amazon排名持续低迷——五维度评分（SEO/内容/图片/合规/竞争力）给出0-100分并附具体修改建议，15分钟诊断上架质量提升后搜索曝光增加15-25%年化10-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12328-p2s-listing-health-diagnostic-99d11b4f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-listing-health-diagnostic/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-listing-health-diagnostic/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "629dbc99a2d40f4e67e939660f3adac2ece6f025cab1b526cd07fe4c41bc4533",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

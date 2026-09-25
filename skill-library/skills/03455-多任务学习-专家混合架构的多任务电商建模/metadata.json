@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-moe-multi-task-learning",
+  "中文名称": "多任务学习 专家混合架构的多任务电商建模",
+  "一句话作用": "触发词：混合专家、MMoE、多任务学习、门控网络、专家坍缩、任务负迁移。何时不用：任务之间基本无关时共享底层会互相拖累；样本极少时用单任务加正则。安全边界：模型输出不得用于歧视性决策（如按退货倾向拒绝正常用户购买），训练数据使用需符合授权范围。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要算法团队面临\"CTR/CVR/ROAS需维护三个独立模型成本高且相互割裂\"——MoE专家共享架构三任务联合训练，平均AUC提升0.005，MLOps成本降低30%，年化综合ROI约18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03455-p2s-moe-multi-task-learning-1de954f4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-moe-multi-task-learning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-moe-multi-task-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af5fa56e03f05415c70d1f350968d6b3edd0d79081b4f620ec9464f974601db4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

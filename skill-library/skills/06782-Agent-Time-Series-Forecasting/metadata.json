@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Agent-Time-Series-Forecasting",
+  "中文名称": "待补：Agent Time Series Forecasting",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:16:02.600649\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:16:02+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:16:02.600649\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06782-skill-agent-time-series-forecasting-534c6d1e",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Agent-Time-Series-Forecasting.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Agent-Time-Series-Forecasting.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "70bee88bdb7a2239e27aa614af5d891dc3ce88ea645b97b50d294ec8e2ec86fe",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

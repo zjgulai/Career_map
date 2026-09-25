@@ -1,0 +1,22 @@
+{
+  "英文名称": "dependency-impact-analyzer",
+  "中文名称": "待补：dependency-impact-analyzer",
+  "一句话作用": "Dependency and change-impact analysis. Use when the user needs to understand dependencies, coupling, cycles, layer violations, ownership edges, dependency risk, or what modules, services, tests, data stores, and deploym…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "These artifacts capture the dependency graph, impacted nodes, rule violations, and evidence-backed findings for a change or dependency question. - dependency-map.dot: maintainable graph source for dependency relationships at the chosen grain. - impact-map.dot…",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Dependency and change-impact analysis. Use when the user needs to understand dependencies, coupling, cycles, layer violations, ownership edges, dependency risk, or what modules, services, tests, data stores, and deploym…时，用它产出或更新：These artifacts capture th…",
+  "skill_id": "04398-dependency-impact-analyzer-31055837",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/dependency-impact-analyzer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/dependency-impact-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b6ccc5a80fcfbd9b1f3fa65a7810be9cb3e95a2b30eb4ad0f9493d3fafc927a3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

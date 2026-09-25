@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-regulatory-change-auto-monitor",
+  "中文名称": "合规法规变更自动监控：实时追踪政策更新的预警系统",
+  "一句话作用": "触发词：法规变更监控、合规预警、监管公告爬取、影响分析、变更分级。何时不用：只盯平台自家政策页与 ToS 时用「平台政策变更自适应监控」；要把法规落成受影响品类与 SKU 清单时用「法规变更监控」。安全边界：只输出预警与分级，不代替法务或认证机构的合规判定；多平台法规差异识别存在误差，须人工二次确认后再动上架或下架。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当欧盟 VAT 季更、Amazon ToS 月改、FDA 随时发布新指南时，手动监控极易漏报导致下架或罚款——AI 合规变更监控自动爬取官方公告并用 NLP 过滤有影响变更，24 小时内预警，将合规响应窗口从 2 周压缩到 1 天。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12398-p2s-regulatory-change-auto-monitor-61d2baf1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-regulatory-change-auto-monitor/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-regulatory-change-auto-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5df177c23e59ed24d1342a7f79371ebb4a700055e712d61a723997b2e4797f8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

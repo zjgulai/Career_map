@@ -1,0 +1,22 @@
+{
+  "英文名称": "多平台上架格式输出（亚马逊 / TikTok Shop / Shopify）",
+  "中文名称": "待补：多平台上架格式输出（亚马逊 / TikTok Shop / Shopify）",
+  "一句话作用": "当 Listing/A+ 已定稿且需按各平台字段长度、HTML/富文本、变体与媒体槽位导出可粘贴或批量导入片段时调用；不替代各平台后台发布权限与 API 报错排查。",
+  "关键输入": "- 上游 aplus-content-generator （亚马逊 A+）或等价「已定稿内容块」；多平台并行时需 同一 SKU 的 master 文案 已冻结版本号。 - 已知各站点 卖家账户类型 （SC/VC 仅记备注，不展开权限）。",
+  "关键输出": "- 分平台三份 Markdown/CSV；表：Platform Field MaxLen Content Notes - Diff ：与上一版导出若版本管理可用则标变更行。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当 Listing/A+ 已定稿且需按各平台字段长度、HTML/富文本、变体与媒体槽位导出可粘贴或批量导入片段时调用；不替代各平台后台发布权限与 API 报错排查。时，用它产出或更新：- 分平台三份 Markdown/CSV；表：Platform Field MaxLen Content Notes - Diff ：与上一版导出若版本管理可用则标变更行。",
+  "skill_id": "09914-tiktok-shop-shopify-dfc80927",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/operations-execute/platform-formatter/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/operations-execute/platform-formatter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb2dd5153104c7c587bf186ee4bb74532ebb4fa4a9fa98c4bf908757a6212f5d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-voice-conversation-relay",
+  "中文名称": "待补：twilio-voice-conversation-relay",
+  "一句话作用": "Build AI-powered voice agents using Twilio ConversationRelay. Handles real-time speech recognition (ASR), text-to-speech (TTS), and bidirectional audio streaming via WebSocket. Covers TwiML setup, WebSocket message type…",
+  "关键输入": "- Upgraded Twilio account with ConversationRelay access (requires onboarding) — New to Twilio? See twilio-account-setup — Start onboarding at: Console Voice ConversationRelay — access is not instant",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Build AI-powered voice agents using Twilio ConversationRelay. Handles real-time speech recognition (ASR), text-to-speech (TTS), and bidirectional audio streaming via WebSocket. Covers TwiML setup, WebSocket message type…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01115-twilio-voice-conversation-relay-337d3553",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-voice-conversation-relay/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-voice-conversation-relay/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f0d6cd430779ff49bc2298a20b9565d60ea5c220d4c90d7618a49bda011caef2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

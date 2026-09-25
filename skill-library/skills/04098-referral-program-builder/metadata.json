@@ -1,0 +1,22 @@
+{
+  "英文名称": "referral-program-builder",
+  "中文名称": "待补：referral-program-builder",
+  "一句话作用": "- Architect and implement automated refer-a-friend programs with unique tracking links, tiered incentive structures, and robust fraud prevention logic to drive organic customer acquisition. 边界：推荐裂变计划；会员积分体系走 loyalty-poi…",
+  "关键输入": "- Broken Attribution: If a customer switches from mobile (where they clicked the link) to desktop (where they buy), the cookie is lost. Mitigation: Allow Referrers to share a \"Plain Text Code\" that can be entered at che…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:24:57+08:00",
+  "业务场景": "customer-crm",
+  "解决具体问题": "当需要- Broken Attribution: If a customer switches from mobile (where they clicked the link) to desktop (where they buy), the cookie is lost. Mitigation: Allow Referrers to share a \"Plain Text Code\" that can be entered at che…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04098-referral-program-builder-ea586a6f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/referral-program-builder/SKILL.md",
+  "relative_path": "lute/.dsh/skills/referral-program-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5404fdf594adf7955002665cd2fa34bd763ebd2caf256990293eb3e861589430",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

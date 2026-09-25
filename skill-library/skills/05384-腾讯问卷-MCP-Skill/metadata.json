@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencent-survey",
+  "中文名称": "腾讯问卷 MCP Skill",
+  "一句话作用": "腾讯问卷（wj.qq.com）MCP Skill。涉及「问卷」「调查」「表单」「投票」「考试」「测评」「wj.qq.com」等操作时使用。支持能力：(1) 获取问卷详情（标题、设置、页面、题目、选项完整结构 + 纯文本 DSL）(2) 使用纯文本创建问卷（text 必填，支持指定场景/指定项目）(3) 更新问卷中的单个题目（DSL 格式）(4) 获取问卷回答列表（支持游标分页）。支持场景：调查(1)、考试(3)、测评(6)、投票(8)。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要腾讯问卷（wj.qq.com）MCP Skill。涉及「问卷」「调查」「表单」「投票」「考试」「测评」「wj.qq.com」等操作时使用。支持能力：(1) 获取问卷详情（标题、设置、页面、题目、选项完整结构 + 纯文本 DSL）(2) 使用纯文本创建问卷（text 必填，支持指定场景/指定项目）(3) 更新问卷中的单个题目（DSL 格式）(4) 获取问卷回答列表（支持游标分页）。支持场景：调查(1)、考试(3)、测评(6)、投票(8)。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05384-tencent-survey-daf39f39",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencent-survey/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencent-survey/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ab3149d5480e30029142179dd31077f7bf4155a20f92be135a3a1eaf65b36259",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

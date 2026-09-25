@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-search-optimization",
+  "中文名称": "驱动搜索流量优化 多智能体协同的A9算法自动化运营",
+  "一句话作用": "触发词：多智能体监控、排名根因诊断、行动计划生成、库存降权、人审兜底。何时不用：只需单点关键词的跌出恢复动作时用「排名跌出自动恢复」；只需因子权重归因时用「Amazon 搜索排名因子权重建模」。安全边界：不得用自动化工具刷排名；生成的 Listing 改动与出价建议须人审并设上下限。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要搜索运营团队面临\"500个关键词排名无法全量人工监控响应滞后导致流量损失\"——多智能体5分钟自动根因诊断+行动计划，年化避免排名下滑流量损失约80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12353-p2s-mas-search-optimization-588251f7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-mas-search-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-mas-search-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f8f898059be7026938372ce55343d4db42d05d64e0e434cd78e5dbfef42ac93",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

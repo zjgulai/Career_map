@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-market-compliance-matrix-ontology",
+  "中文名称": "多市场合规矩阵本体 跨境合规要求统一建模与差异分析",
+  "一句话作用": "触发词：合规矩阵、多市场本体、SKU 合规状态、缺口识别、上市准入、状态标签化。何时不用：多市场要求互相冲突、要决定超集或变体时用「MAS 跨市场合规编排」，要核多市场广告宣称差异时用「多市场广告文案合规矩阵」。安全边界：矩阵结论为缺口提示，注册与认证须由企业或代理人实际办理。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规团队面临\"US/EU/JP/AU同时运营合规要求超50项靠人工管理必然遗漏\"——结构化合规矩阵10分钟完成多市场合规扫描，防止新品上市合规缺口导致的下架损失时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12576-p2s-multi-market-compliance-matrix-ontology-28bcd6f6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-multi-market-compliance-matrix-ontology/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-multi-market-compliance-matrix-ontology/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "470c78eb8ddcfd4bcb72897704def53bad1f266bf6a3fa327ca128768bee608a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

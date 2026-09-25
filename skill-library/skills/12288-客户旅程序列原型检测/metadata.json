@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-customer-journey-prototype",
+  "中文名称": "客户旅程序列原型检测",
+  "一句话作用": "触发词：旅程序列原型、用户路径聚类、流失风险识别、序列编辑距离、跨渠道旅程。何时不用：只做页面级漏斗流失节点定位与优先级排序时用「用户旅程分析」；只做页面转移矩阵稀疏补全时用「超稀疏矩阵补全」。安全边界：跨渠道行为与门店信息属个人信息，身份打通须获授权并做隐私合规审查，不得用于未告知的个体触达。",
+  "关键输入": "输入 ：跨渠道用户行为序列：user id、event type（browse/search/click/cart/purchase/review）、category（milk powder/diaper/formula/toy/clothing）、channel（app/web/mini program/offline store）、timestamp；按用户与时间排序；示例规模月活50万、加购率12%（约6万加购用户），序列需能构成完整旅程以支撑原型检测。 输出 ：典型旅程序列原型（默认5个原型及其代表序列）…",
+  "关键输出": "输入 ：跨渠道用户行为序列：user id、event type（browse/search/click/cart/purchase/review）、category（milk powder/diaper/formula/toy/clothing）、channel（app/web/mini program/offline store）、timestamp；按用户与时间排序；示例规模月活50万、加购率12%（约6万加购用户），序列需能构成完整旅程以支撑原型检测。 输出 ：典型旅程序列原型（默认5个原型及其代表序列）…",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：旅程序列原型、用户路径聚类、流失风险识别、序列编辑距离、跨渠道旅程。何时不用：只做页面级漏斗流失节点定位与优先级排序时用「用户旅程分析」；只做页面转移矩阵稀疏补全时用「超稀疏矩阵补全」。安全边界：跨渠道行为与门店信息属个人信息，身份打通须获授权并做隐私合规审查，不得用于未告知的个体触达。时，用它产出或更新：输入 ：跨渠道用户行为序列：user id、event type（browse/search/click/cart/purchase/review）、category（milk powder/di…",
+  "skill_id": "12288-p2s-customer-journey-prototype-d922c193",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-customer-journey-prototype/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-customer-journey-prototype/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6c1b8451ac8b08e2e7123e5bfe81cff4de5d4215b80afb16c46d6cec57d505dc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

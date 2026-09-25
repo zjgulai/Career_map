@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-stackelberg-price-leadership-strategy",
+  "中文名称": "栈尔伯格价格领导策略 市场领导者主动先动定价模型",
+  "一句话作用": "触发词：价格领导、先动优势、逆向归纳、跟随者响应、类目价格水位、主动提价。何时不用：弱势玩家要先算防守价用「Stackelberg 均衡竞争定价」；要判断长期合作能否维持用「重复博弈长期定价合作」。安全边界：主动提价须避免与竞品形成协同抬价，需留存定价逻辑说明，并对变动幅度与频率设上限。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要市场份额领先者面临\"只知道自己是领导者但不知道如何利用先动优势\"——栈尔伯格逆向归纳将领导者利润提升15-30%，年化增益$6.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12426-p2s-stackelberg-price-leadership-strategy-c6fbc74b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-stackelberg-price-leadership-strategy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-stackelberg-price-leadership-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e6fc01c82d438f5076d7ade600d5d6a29c4b5985e43b4240940e594bf36f3200",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

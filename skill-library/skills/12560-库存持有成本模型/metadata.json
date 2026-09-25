@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-carrying-cost-model",
+  "中文名称": "库存持有成本模型",
+  "一句话作用": "触发词：持有成本、资金占用、LTSF 罚款、EOQ 订货量、库存周转优化。何时不用：要把资金在 SKU 间做效率配置用「GMROI 库存资金回报」；要提前预警长库龄与费用率异常用「FBA 费用结构分析」。安全边界：成本率与费率参数须按最新口径更新；结论只作内部优化依据，不构成对外财务口径。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要库存管理负责人面临\"不知道积压500件库存每月实际损耗多少资金\"——全口径持有成本模型（资金+仓储+LTSF+折损）显示年化成本率40%，EOQ优化后年省库存成本15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12560-p2s-inventory-carrying-cost-model-2d8569e4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-inventory-carrying-cost-model/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-inventory-carrying-cost-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a061f2fbf7008c4bd2c4f76c3dd0b60398157cbe22cb9f6ff6fb19fe8e0d986",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

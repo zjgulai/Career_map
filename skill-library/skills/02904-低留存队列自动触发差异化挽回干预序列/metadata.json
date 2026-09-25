@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cohort-churn-intervention-dispatcher",
+  "中文名称": "低留存队列自动触发差异化挽回干预序列",
+  "一句话作用": "触发词：队列挽回、留存分层、P0 触发、干预调度、安全护栏、复购券。何时不用：单个高价值客户的沉默告警用高价值客户告警卡；要按队列留存率整体分层并差异化派发干预时用本卡。安全边界：须设置触达频率上限与黑名单机制，避免重复打扰，干预记录须入 CRM 留痕并遵守个人信息保护法规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户运营面临\"留存率低于20%的队列无差异化响应\"——留存分层自动调度干预序列，P0队列挽回率从8%提升至35%，年化挽回LTV $45,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02904-p2s-cohort-churn-intervention-dispatcher-62198977",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cohort-churn-intervention-dispatcher/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cohort-churn-intervention-dispatcher/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e810b038bd2e99540afe44822d329053b5feac28568b766ba713828d01f9109",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

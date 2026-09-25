@@ -1,0 +1,22 @@
+{
+  "英文名称": "kotlin-context-di",
+  "中文名称": "待补：kotlin-context-di",
+  "一句话作用": "Manual dependency injection using SystemContext (production) and TestContext (test doubles) patterns for Kotlin. Use when structuring service dependencies, wiring application components, or creating test contexts withou…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:34+08:00",
+  "业务场景": "kotlin",
+  "解决具体问题": "当需要Manual dependency injection using SystemContext (production) and TestContext (test doubles) patterns for Kotlin. Use when structuring service dependencies, wiring application components, or creating test contexts withou…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04931-kotlin-context-di-06a35f74",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/kotlin-context-di/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/kotlin-context-di/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d762c1c643febb818723a3343968aa073495690205f65a9356eaec8ffc19e0fe",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

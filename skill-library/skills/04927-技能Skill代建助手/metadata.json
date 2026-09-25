@@ -1,0 +1,22 @@
+{
+  "英文名称": "kb-result-qoder-build-v5-1-0",
+  "中文名称": "技能Skill代建助手",
+  "一句话作用": "专为个人与企业打造，把实战经验、作业流程、操作步骤、判定准则、执行标准，封装成可跨智能体平台部署、可反复调用的专属 AI 技能资产。全程零技术门槛：口述思路、文字描述、原始业务资料直接导入即可启动代建，一次沉淀、多处复用。触发词：「帮我变成技能 / 做成技能包 / 封装一下 / 出初稿 / 做质检」。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "🔒 本节：Agent 指令（标准机制） 交付出去的标准 = 用户自己的标准，出厂即定死，用户不需也不会被要求\"验收/自查\"。每个出去的包交付前都要过一轮完整校验（ 六重体检 + 姊妹包一致性 + 生态边界 + 版本号，其中含\"脚本无未声明标识\"这一项），过不了不会交到用户手上。用户只做两件事：用 + 反馈。",
+  "最新更新时间": "2026-09-19T03:51:16+08:00",
+  "业务场景": "qoder-builder",
+  "解决具体问题": "当需要专为个人与企业打造，把实战经验、作业流程、操作步骤、判定准则、执行标准，封装成可跨智能体平台部署、可反复调用的专属 AI 技能资产。全程零技术门槛：口述思路、文字描述、原始业务资料直接导入即可启动代建，一次沉淀、多处复用。触发词：「帮我变成技能 / 做成技能包 / 封装一下 / 出初稿 / 做质检」。时，用它产出或更新：🔒 本节：Agent 指令（标准机制） 交付出去的标准 = 用户自己的标准，出厂即定死，用户不需也不会被要求\"验收/自查\"。每个出去的包交付前都要过一轮完整校验（ 六重体检 + 姊妹包一致性…",
+  "skill_id": "04927-kb-result-qoder-build-v5-1-0-018e153c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/kb-result-qoder-build-v5-1-0/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/kb-result-qoder-build-v5-1-0/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "254c94da3bd327273cdb2ec4263274c4b7155dafb85c8c934b49cfa29ee6db8a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

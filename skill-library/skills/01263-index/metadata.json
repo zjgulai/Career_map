@@ -1,0 +1,22 @@
+{
+  "英文名称": "index",
+  "中文名称": "待补：index",
+  "一句话作用": "Use Data for analysis, metric definitions and diagnostics, KPI reporting, data quality checks, market sizing, and evidence-based product or business decisions; creating, updating, validating, exporting, or sharing dashb…",
+  "关键输入": "Ask only for unresolved choices that materially affect the task. On ChatGPT web, use $answers-ask-user-input; elsewhere, prefer request user input async, then request user input, then $answers-ask-user-input. If no supported form can render, ask in chat. Foll…",
+  "关键输出": "Keep stakeholder-facing inline answers and visible report or dashboard copy focused on the answer, evidence, implications, and caveats that change interpretation or action. Do not include analysis process, methodology choices, source selection, query strategy…",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use Data for analysis, metric definitions and diagnostics, KPI reporting, data quality checks, market sizing, and evidence-based product or business decisions; creating, updating, validating, exporting, or sharing dashb…时，用它产出或更新：Keep stakeholder-facing in…",
+  "skill_id": "01263-index-58696a26",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/index/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/index/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1581082b293cf3c422b4d2a647f54404fcfa5b882b5191bed5b03e39ceee2112",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

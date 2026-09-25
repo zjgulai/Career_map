@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-cost-model",
+  "中文名称": "跨境物流全链路成本建模与关税不确定性优化",
+  "一句话作用": "触发词：总落地成本、蒙特卡洛模拟、关税情景、风险厌恶、路线选择。何时不用：要按订单层级把头程与退货摊到 SKU 利润用「物流成本 P&L 归因」；要把预测误差折算成财务损失用「预测误差财务桥接」。安全边界：关税情景须以官方税率与政策为准并人工维护；结论只作决策参考，不代替报关与合规判断。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要2026 年关税叠加 70% 让采购决策变成财务赌注——蒙特卡洛随机优化在关税波动下降低 TLC 9.5-16.8%，年采购 $500K 节省 $47,500-84,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03364-p2s-logistics-cost-model-01671022",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-logistics-cost-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-logistics-cost-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23e0a34222aece393c3aa387e2c553f2b2826cea22536f379cde9a456b4f1d93",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

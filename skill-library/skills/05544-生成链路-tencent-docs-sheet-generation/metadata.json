@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencent-docs-sheet-generation",
+  "中文名称": "生成链路 (tencent-docs-sheet-generation)",
+  "一句话作用": "从零生成 Excel/xlsx 工作簿。当用户请求\"创建/生成/新建/做一份/from scratch\" 一个 XLSX 文件、且 没有源 .xlsx/.csv 文件 时使用。支持纯文字需求，也支持 以 pdf/docx/pptx 附件作为内容参考（由 extract.py 抽取为 markdown）。 本 skill 在主代理侧准备 schema 与骨架文件，然后委派 sheet-agent 子代理完成单元格填充。",
+  "关键输入": "调用子代理之前，主代理须确认： - 骨架 .xlsx 已生成到「文件路径」指定位置 - ref 目录已存在，且至少包含 schema.md 任一项未满足说明 skill 的前置步骤未完成，应自检后补齐再委派子代理。",
+  "关键输出": "向用户简要说明产出位置（用本 skill 在 Step 1 / Step 4 算出的骨架路径）： ---",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要从零生成 Excel/xlsx 工作簿。当用户请求\"创建/生成/新建/做一份/from scratch\" 一个 XLSX 文件、且 没有源 .xlsx/.csv 文件 时使用。支持纯文字需求，也支持 以 pdf/docx/pptx 附件作为内容参考（由 extract.py 抽取为 markdown）。 本 skill 在主代理侧准备 schema 与骨架文件，然后委派 sheet-agent 子代理完成单元格填充。时，用它产出或更新：向用户简要说明产出位置（用本 skill 在 Step 1 / Step…",
+  "skill_id": "05544-tencent-docs-sheet-generation-13270c10",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/sheetagent/skills/excel-generation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/sheetagent/skills/excel-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a550359c0d01b2d56b81b4d724021ee297934861f3ceb391d3124cfc23ac7938",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

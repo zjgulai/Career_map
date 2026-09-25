@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-ai-image-studio",
+  "中文名称": "图像生成综合技能",
+  "一句话作用": "统一调度图像生成能力的综合技能。包含背景消除（白底图）、水印移除（图片擦除）、商品换色、场景图生成、一键智能优化等5大图像生成能力。 当用户需要进行图像生成或处理（去背景、去水印、换色、场景合成、一键优化）时，根据具体需求路由到对应的子能力。",
+  "关键输入": "1. 图片输入 ：接受图片URL或本地路径 2. 参数提取 ：从用户请求中提取必要的参数 3. 默认值 ：对于可选参数使用合理的默认值",
+  "关键输出": "1. 原样输出 ：严格按照对应 references 文档中的输出格式输出，不要做任何额外处理 2. 错误处理 ： - 网络错误：提示检查网络连接 - 参数错误：提示检查输入参数 - 服务错误：提示服务状态 - i豆不足 ：当返回结果提示\"i豆不足\"（即 AI 图像生成额度用完）时，告知用户无法继续调用图像生成服务，并提供以下替代方案： 1. 使用平台 AI Studio ：登录后访问 Alibaba AI Studio 创意工坊，在平台内使用图像生成工具",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要统一调度图像生成能力的综合技能。包含背景消除（白底图）、水印移除（图片擦除）、商品换色、场景图生成、一键智能优化等5大图像生成能力。 当用户需要进行图像生成或处理（去背景、去水印、换色、场景合成、一键优化）时，根据具体需求路由到对应的子能力。时，用它产出或更新：1. 原样输出 ：严格按照对应 references 文档中的输出格式输出，不要做任何额外处理 2. 错误处理 ： - 网络错误：提示检查网络连接 - 参数错误：提示检查输入参数 - 服务错误：提示服务状态 - i豆不足 ：当返回结果提示\"i豆不足\"…",
+  "skill_id": "00164-alibaba-global-ai-image-studio-461dc66d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-ai-image-studio/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-ai-image-studio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3dcc1e6d18f821b67a7e2dcd12ccba79fe385425f9f93f2ef6483aa314fb0af7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

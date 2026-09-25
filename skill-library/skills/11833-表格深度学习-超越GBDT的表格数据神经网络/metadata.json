@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tabular-deep-learning-ft-transformer",
+  "中文名称": "表格深度学习 超越GBDT的表格数据神经网络",
+  "一句话作用": "触发词：表格深度学习、自动特征交叉、LTV 预测、高维特征建模、AUC 提升。何时不用：样本量小或只需快速基线用 GBDT 类方案（卡页口径样本少于 10 万时通常不如 XGBoost），本技能面向大样本高维表格。安全边界：深度学习可解释性低，用于需向用户解释决策的场景须加解释层，用户特征数据须脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要算法团队面临\"LTV预测GBDT AUC=0.79已达瓶颈特征工程成本高\"——FT-Transformer自动学习特征交叉AUC提升至0.83，年化精准营销增量约110万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11833-p2s-tabular-deep-learning-ft-transformer-89b96ec3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tabular-deep-learning-ft-transformer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tabular-deep-learning-ft-transformer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6cd7bae8d4e364cca74686984a3b98906a4bc16e56d427aaf7b993c957e9c93f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-trade-order-create",
+  "中文名称": "待补：alibaba-icbu-trade-order-create",
+  "一句话作用": "Alibaba.com Trade Order Creation Skill, helping buyers create orders from conversations. Supports ready-to-ship direct purchase link generation, direct order placement with draft preview confirmation, and buyer draft or…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Always show order summary before confirmation - Display order ID and next steps (payment or seller review) on success - In Buyer Draft Mode, clearly indicate \"Pending seller review\" status - Never expose raw JSON or internal tool names to the user",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba.com Trade Order Creation Skill, helping buyers create orders from conversations. Supports ready-to-ship direct purchase link generation, direct order placement with draft preview confirmation, and buyer draft or…时，用它产出或更新：- Always show order summar…",
+  "skill_id": "00085-alibaba-icbu-trade-order-create-4ca250aa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-order-create/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-order-create/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "350e634fbff849035adf8ac54219262fc672a92fe61fbf47f5552ef9d24022b1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

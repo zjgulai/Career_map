@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-doc",
+  "中文名称": "待补：lark-doc",
+  "一句话作用": "飞书/豆包在线文档（/docx、/wiki）的阅读、新建和修改以及操作思维笔记，使用此技能。不处理 Office Word(.docx)、PDF文件；创建文档副本走 drive",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:24:59+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要飞书/豆包在线文档（/docx、/wiki）的阅读、新建和修改以及操作思维笔记，使用此技能。不处理 Office Word(.docx)、PDF文件；创建文档副本走 drive时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06712-lark-doc-293a2c19",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/lark-doc/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/lark-doc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c1a8899a71f097a362a8be5d1de6af93f3f1b21e9b2f3bf863a440620d335e7d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

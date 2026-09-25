@@ -1,0 +1,22 @@
+{
+  "英文名称": "temporal-python-testing",
+  "中文名称": "待补：temporal-python-testing",
+  "一句话作用": "Test Temporal workflows with pytest, time-skipping, and mocking strategies. Covers unit testing, integration testing, replay testing, and local development setup. Use when implementing Temporal workflow tests or debuggi…",
+  "关键输入": "- Unit testing workflows - Fast tests with time-skipping - Integration testing - Workflows with mocked activities - Replay testing - Validate determinism against production histories - Local development - Set up Tempora…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Unit testing workflows - Fast tests with time-skipping - Integration testing - Workflows with mocked activities - Replay testing - Validate determinism against production histories - Local development - Set up Tempora…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05573-temporal-python-testing-90905bbc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/temporal-python-testing/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/temporal-python-testing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "71810389b45511818642e75ae114f7cc4c9425920f2cdb67714a1137091f2267",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "molfeat",
+  "中文名称": "待补：molfeat",
+  "一句话作用": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
+  "关键输入": "This skill should be used when working with: - Molecular machine learning : Building QSAR/QSPR models, property prediction - Virtual screening : Ranking compound libraries for biological activity - Similarity searching…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要This skill should be used when working with: - Molecular machine learning : Building QSAR/QSPR models, property prediction - Virtual screening : Ranking compound libraries for biological activity - Similarity searching…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05759-molfeat-8d7c4c75",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/molfeat/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/molfeat/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a0095290c407c9ab039f85ca374731677b0932c0b55fa9afeb6f745a938e1930",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

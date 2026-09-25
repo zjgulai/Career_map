@@ -1,0 +1,22 @@
+{
+  "英文名称": "coupon-discount-manager",
+  "中文名称": "待补：coupon-discount-manager",
+  "一句话作用": "Trigger: Create and manage a coupon system with percentage and fixed discounts, usage limits, and expiration dates.",
+  "关键输入": "- When launching promotional codes for the first time. - When migrating from simple discounts to complex, rule-based coupon engines. - When needing to distribute unique, single-use codes for email or influencer campaign…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:24+08:00",
+  "业务场景": "pricing-promotions",
+  "解决具体问题": "当需要- When launching promotional codes for the first time. - When migrating from simple discounts to complex, rule-based coupon engines. - When needing to distribute unique, single-use codes for email or influencer campaign…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00296-coupon-discount-manager-9fd49cc5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/coupon-discount-manager/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/coupon-discount-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "24ee2138cbb0a7a254358100401c1e11ad7466388406df3cc502fe6d3c71f2ad",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

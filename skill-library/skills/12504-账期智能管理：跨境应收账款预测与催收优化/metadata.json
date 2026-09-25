@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-accounts-receivable-intelligence",
+  "中文名称": "账期智能管理：跨境应收账款预测与催收优化",
+  "一句话作用": "触发词：应收账款、回款概率预测、逾期催收、账期管理、买家风险画像。何时不用：预测平台回款到账时间（Reserve、A-to-Z 挂起）时用「Amazon 回款周期预测」；只压缩现金转换周期时用「现金转换周期优化」。安全边界：催收动作须符合法律与平台规则，禁止骚扰或恐吓；欧盟买家数据不得用于未经授权的信用评分，涉个人信息须脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当跨境 B2B 账期交易导致应收账款逾期率高达 15% 时，ML 账期智能管理预测每笔回款概率和时间、提前锁定高风险账款主动催收，将逾期率降至 8%，显著改善现金流周期并减少坏账损失。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12504-p2s-accounts-receivable-intelligence-01b6203a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-accounts-receivable-intelligence/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-accounts-receivable-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e58c8f2da3f0ae38eb33de70b513f338b3869535e22eeebed9735d0cda6a9023",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

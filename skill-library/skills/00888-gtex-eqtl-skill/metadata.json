@@ -1,0 +1,22 @@
+{
+  "英文名称": "gtex-eqtl-skill",
+  "中文名称": "待补：gtex-eqtl-skill",
+  "一句话作用": "Fetch GTEx single-tissue eQTL associations from one variant input by accepting rsID, GRCh37, or GRCh38 input and resolving to the required GRCh38 query for the GTEx v2 API. Use when a user wants eQTL associations return…",
+  "关键输入": "Accept JSON on stdin as either: - A string: \"10-112998590-C-T\" (treated as GRCh38) - An object: Other accepted object forms include: Allowed variant separators include -, :, , /, or whitespace, for example: - 10-112998590-C-T - 10:112998590-C-T - 10:112998590…",
+  "关键输出": "Success shape: Failure shape:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Fetch GTEx single-tissue eQTL associations from one variant input by accepting rsID, GRCh37, or GRCh38 input and resolving to the required GRCh38 query for the GTEx v2 API. Use when a user wants eQTL associations return…时，用它产出或更新：Success shape: Failure sha…",
+  "skill_id": "00888-gtex-eqtl-skill-dd1e822f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/gtex-eqtl-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/gtex-eqtl-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cb53899aa974f0df279602adf2e2403d195e920b502b9863450ded5b2109ae6f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

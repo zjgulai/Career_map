@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-sku-procurement-budget-allocation",
+  "中文名称": "待补：p2s-multi-sku-procurement-budget-allocation",
+  "一句话作用": "触发词：采购预算分配、多SKU报童、背包排序、服务水平加权、预算削减降级。何时不用：单 SKU 的批量与 MOQ 凑量用「动态批量与MOQ」；大促前算盘货缺口用「大促前盘货」。安全边界：分配结果只用于内部采购决策，不用于对外报价，也不构成对供应商的采购承诺。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要场景 A：季度 $200K 预算在 8 个核心 SKU 间分配时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03489-p2s-multi-sku-procurement-budget-allocation-c884d3db",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-sku-procurement-budget-allocation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-sku-procurement-budget-allocation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6a0dac6dbbee2fc470c7b2cd606a1f1d5befaf6c054d82c09d0a0009be21150",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-opentofu",
+  "中文名称": "待补：glab-opentofu",
+  "一句话作用": "在 GitLab 中管理 OpenTofu 状态。适用于管理 Terraform/OpenTofu 状态、配置状态后端或进行基础设施即代码（IaC）工作。触发词：OpenTofu、Terraform、状态管理、基础设施即代码、IaC。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要在 GitLab 中管理 OpenTofu 状态。适用于管理 Terraform/OpenTofu 状态、配置状态后端或进行基础设施即代码（IaC）工作。触发词：OpenTofu、Terraform、状态管理、基础设施即代码、IaC。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10608-glab-opentofu-0089c3f0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-opentofu/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-opentofu/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "735c8e3e7685626537b5e7a31a9b9b3955f45115824fa96fb443713205bb089f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

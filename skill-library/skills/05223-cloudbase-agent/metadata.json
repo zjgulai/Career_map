@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudbase-agent",
+  "中文名称": "待补：cloudbase-agent",
+  "一句话作用": "Build and deploy AI agents with Cloudbase Agent (TypeScript), a TypeScript SDK implementing the AG-UI protocol. Use when: (1) deploying agent servers with @cloudbase/agent-server, (2) using LangGraph adapter with Client…",
+  "关键输入": "Use this skill for AI agent development when you need to: - Deploy AI agents as HTTP services with AG-UI protocol support - Build agent backends using LangGraph or LangChain frameworks - Create custom agent adapters imp…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Use this skill for AI agent development when you need to: - Deploy AI agents as HTTP services with AG-UI protocol support - Build agent backends using LangGraph or LangChain frameworks - Create custom agent adapters imp…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05223-cloudbase-agent-2e8bada8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/cloudbase-agent/ts/skill.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/cloudbase-agent/ts/skill.md",
+  "date_source": "file_mtime",
+  "content_hash": "8952006b0efd458069b9b20b97576689125b6d3013348b41203a97982f990c78",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

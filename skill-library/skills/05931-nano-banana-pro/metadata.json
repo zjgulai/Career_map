@@ -1,0 +1,22 @@
+{
+  "英文名称": "nano-banana-pro",
+  "中文名称": "待补：nano-banana-pro",
+  "一句话作用": "Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Saves PNG to current directory - Script outputs the full path to the generated image - Do not read the image back - just inform the user of the saved path",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.时，用它产出或更新：- Saves PNG to current directory - Script outputs the full path…",
+  "skill_id": "05931-nano-banana-pro-6c41b76b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/nano-banana-pro/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/nano-banana-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "547b099b91a0b64ed4f0ae2632bcf4fbe9794342ace2e9a7efc76c6bbfb8e151",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

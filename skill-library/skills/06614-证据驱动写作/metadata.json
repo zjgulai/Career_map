@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-write-zh-evidence",
+  "中文名称": "证据驱动写作",
+  "一句话作用": "paper-write-zh内部证据写作参考，仅在中文正文写作流程已命中后按阶段读取，不作为用户请求的独立入口。用于把已核验文献、实验材料、图表和用户笔记转化为可追溯论证，防止编造引用、强结论无依据、规划数据冒充真实结果和正文混入过程痕迹。不承担独立系统性文献调研，相关任务转/doubao-literature-research。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要paper-write-zh内部证据写作参考，仅在中文正文写作流程已命中后按阶段读取，不作为用户请求的独立入口。用于把已核验文献、实验材料、图表和用户笔记转化为可追溯论证，防止编造引用、强结论无依据、规划数据冒充真实结果和正文混入过程痕迹。不承担独立系统性文献调研，相关任务转/doubao-literature-research。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06614-paper-write-zh-evidence-196dbb10",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/evidence-driven-writing/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/evidence-driven-writing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b355838af872fb0f5d3385e73af4c37f94e8757b4d191ccb14dfa9ab702f760f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

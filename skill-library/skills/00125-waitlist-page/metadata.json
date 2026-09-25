@@ -1,0 +1,22 @@
+{
+  "英文名称": "waitlist-page",
+  "中文名称": "待补：waitlist-page",
+  "一句话作用": "Minimal pre-launch landing with email capture, brand logo, and optional decorative layer. Reads DESIGN.md for colors, typography, and layout rules. Best for: product launches, beta signups, early access programs, indie…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "2. Map tokens from inputs — For each placeholder in the template (e.g., {{PRODUCT NAME}}, {{BG EXPRESSION}}, {{BORDER EXPRESSION}}, {{LOGO MARK}}), follow the replacement rules below: - Text tokens ({{PRODUCT NAME}}, {{TAGLINE}}): HTML-escape , &, \", ' before…",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Minimal pre-launch landing with email capture, brand logo, and optional decorative layer. Reads DESIGN.md for colors, typography, and layout rules. Best for: product launches, beta signups, early access programs, indie…时，用它产出或更新：2. Map tokens from inputs —…",
+  "skill_id": "00125-waitlist-page-5ba3e7db",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/waitlist-page/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/waitlist-page/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16c6f7e1f65353491e9a114c939ec94b25ca67071a3455f4123843ba02d90e58",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

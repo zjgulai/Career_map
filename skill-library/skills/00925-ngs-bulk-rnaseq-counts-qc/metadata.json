@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-bulk-rnaseq-counts-qc",
+  "中文名称": "待补：ngs-bulk-rnaseq-counts-qc",
+  "一句话作用": "Run or plan bulk RNA-seq FASTQ-to-count processing with sample-sheet, strandedness, genome annotation, alignment or pseudoalignment, MultiQC, and count-matrix QC checks.",
+  "关键输入": "Confirm: - FASTQ or aligned-read inputs and paired-end/single-end status - organism, genome build, FASTA, GTF, and gene ID convention - strandedness or permission to infer strandedness - sample sheet with biological condition, replicate, batch, and library me…",
+  "关键输出": "Produce: - sample sheet and command/profile - reference manifest with genome and GTF release - MultiQC or equivalent processing summary - Salmon quant.sf outputs, TPM/NumReads/effective-length matrices, and carried-forward sample metadata - Gene-level expecte…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Run or plan bulk RNA-seq FASTQ-to-count processing with sample-sheet, strandedness, genome annotation, alignment or pseudoalignment, MultiQC, and count-matrix QC checks.时，用它产出或更新：Produce: - sample sheet and command/profile - reference manifest with genome…",
+  "skill_id": "00925-ngs-bulk-rnaseq-counts-qc-a3e973c7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-bulk-rnaseq-counts-qc/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-bulk-rnaseq-counts-qc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "81b18ef7f03bd3ae6e1742a35cadb443a48122e37613e57c40af2ee6352bb322",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

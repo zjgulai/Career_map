@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-review",
+  "中文名称": "待补：code-review",
+  "一句话作用": "从固定点（commit、branch、tag 或 merge-base）开始，按 Standards（代码是否符合本仓库记录的编码标准？）和 Spec（代码是否符合来源 issue/spec 的要求？）两个轴线审查变更。两个审查会在并行子代理中运行，并并排报告。适用于用户想审查 branch、PR、进行中的变更，或要求 “review since X” 时。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要从固定点（commit、branch、tag 或 merge-base）开始，按 Standards（代码是否符合本仓库记录的编码标准？）和 Spec（代码是否符合来源 issue/spec 的要求？）两个轴线审查变更。两个审查会在并行子代理中运行，并并排报告。适用于用户想审查 branch、PR、进行中的变更，或要求 “review since X” 时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10729-code-review-379896ee",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/code-review/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/code-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "36ef136c3863cd38a7a3235e2dd6f088f7662384efce603cfdfeb99b90789873",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

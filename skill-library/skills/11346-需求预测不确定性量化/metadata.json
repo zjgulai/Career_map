@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-conformal-prediction-demand-uq",
+  "中文名称": "需求预测不确定性量化）",
+  "一句话作用": "触发词：预测不确定性、预测区间、共形预测、安全库存下调、覆盖率追踪。何时不用：要建模波动率过程本身用「需求波动率建模」，要统一预测精度口径用「预测准确率MAPE体系」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链经理面临需求预测没把握——共形预测将库存缺口从18%降至6%，年化省20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11346-p2s-conformal-prediction-demand-uq-8ef08632",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-conformal-prediction-demand-uq/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-conformal-prediction-demand-uq/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b003e5cdbdd41547b4d597794f4a88d8029df6feb5b47cdd3b33ae46727fddc1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

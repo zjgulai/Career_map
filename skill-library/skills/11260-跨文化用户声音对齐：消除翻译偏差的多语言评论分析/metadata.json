@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-cultural-voc-alignment",
+  "中文名称": "跨文化用户声音对齐：消除翻译偏差的多语言评论分析",
+  "一句话作用": "触发词：跨文化对齐、多语言评论、评分校准、多市场对比、翻译偏差。何时不用：需要在目标语言里直接抽取方面情感时用「LACA 跨语言 ABSA」；只做单一市场的评论摘要用「AGRS 属性引导评论摘要」。安全边界：校准系数须注明来源（研究文献或自建基线），不得用校准后的分数掩盖真实的本地质量缺陷。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要德国市场吸奶器平均4.2星低于美国4.6星于是投入资源改进产品实际是文化误读——德国4.2星校准后等于美国4.7星，跨文化VOC对齐避免基于误读信号的产品改进浪费年化5-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11260-p2s-cross-cultural-voc-alignment-29abe8fb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-cross-cultural-voc-alignment/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-cross-cultural-voc-alignment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e9ea487105d5b0fcfe8200d4ab0f9310657fd664cb4a7d07c5ee71db6fc3689",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

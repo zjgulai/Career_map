@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-pvm-attribution-window-harmonization",
+  "中文名称": "跨平台广告归因窗口统一化 - 母婴跨境多渠道 ROAS 去偏",
+  "一句话作用": "触发词：归因窗口统一、多渠道信用分配、重复归因、渠道矫正ROAS、大促渠道贡献。何时不用：只是把各平台字段对齐成一张表、不重算信用分配时用广告统一数据模型技能；要判断素材或关键词效果好坏时用投放诊断技能。安全边界：归因差异的压缩幅度以卡页原始口径为准，本技能不额外承诺任何跨渠道贡献的绝对值。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要投放分析师面临窗口口径打架——PVM将归因差异18%压到5%，年化省20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03670-p2s-pvm-attribution-window-harmonization-903aa970",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-pvm-attribution-window-harmonization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-pvm-attribution-window-harmonization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f21c863ab5b9f9ecfeaeb72791f8e8f59a377a8d83fff667ed4846a8cf34b496",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

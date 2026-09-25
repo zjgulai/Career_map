@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Inventory-Health-Aging-Attribution",
+  "中文名称": "待补：Inventory Health Aging Attribution",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 98.0, \"best\": 98.0, \"ts\": \"2026-07-04T01:34:20.037645\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:34:20+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 98.0, \"best\": 98.0, \"ts\": \"2026-07-04T01:34:20.037645\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07231-skill-inventory-health-aging-attribution-ab036b2a",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Inventory-Health-Aging-Attribution.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Inventory-Health-Aging-Attribution.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "8e8905a1fc55bdf2a7a8329a751db033f6fe9f80aba9bcc994aca33c5b0589f4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

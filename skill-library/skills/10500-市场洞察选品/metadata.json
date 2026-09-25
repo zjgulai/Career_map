@@ -1,0 +1,22 @@
+{
+  "英文名称": "市场洞察选品",
+  "中文名称": "市场洞察选品",
+  "一句话作用": "为 Momcozy 在 Amazon 与 Shopify DTC 之间做新品方向判断，考虑品牌协同、复购潜力、渠道打法和竞争空白。触发词：市场洞察选品、选品、市场洞察、市场机会、产品方向、新品规划、趋势判断。何时不用：进入或放弃终审（Go/No-Go 进入裁决，即使同句带方向判断，最终诉求为裁决时交 市场可行性审计）、系统化选品矩阵/多维评估框架分析（交 产品调研矩阵）、从生活场景发现新品机会/场景选品侦察（交 场景选品侦察）、Lis…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-04",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要为 Momcozy 在 Amazon 与 Shopify DTC 之间做新品方向判断，考虑品牌协同、复购潜力、渠道打法和竞争空白。触发词：市场洞察选品、选品、市场洞察、市场机会、产品方向、新品规划、趋势判断。何时不用：进入或放弃终审（Go/No-Go 进入裁决，即使同句带方向判断，最终诉求为裁决时交 市场可行性审计）、系统化选品矩阵/多维评估框架分析（交 产品调研矩阵）、从生活场景发现新品机会/场景选品侦察（交 场景选品侦察）、Lis…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10500-skill-fd96d446",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/市场洞察选品/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/市场洞察选品/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "a372f116664b37c07f7237e0ad87b1d9fec43efa11172c05287cebd55b102b52",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

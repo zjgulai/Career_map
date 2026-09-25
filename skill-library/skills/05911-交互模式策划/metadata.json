@@ -1,0 +1,22 @@
+{
+  "英文名称": "interaction-design",
+  "中文名称": "交互模式策划",
+  "一句话作用": "交互模式策划技能。生成输入映射、输入增强、反馈系统、UI导航等交互设计文档， 并提供对应的 GDScript 代码模板。",
+  "关键输入": "动作 键盘 手柄 描述 ------ ------ ------ ------ move WASD/方向键 左摇杆 移动 jump Space A 跳跃 attack J/左键 X 攻击 dash Shift B 闪避 interact E A 交互 pause Esc Start 暂停",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要交互模式策划技能。生成输入映射、输入增强、反馈系统、UI导航等交互设计文档， 并提供对应的 GDScript 代码模板。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05911-interaction-design-c858ede6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-3-orchestrators/game-planning/interaction-design/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-3-orchestrators/game-planning/interaction-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d32d7676eca840de1dfe9ffd33563c442bd5be29a2aa8a7adde992316f419c9e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

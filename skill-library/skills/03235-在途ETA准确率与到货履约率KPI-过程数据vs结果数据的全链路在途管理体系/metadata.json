@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inbound-eta-accuracy-kpi",
+  "中文名称": "在途ETA准确率与到货履约率KPI 过程数据vs结果数据的全链路在途管理体系",
+  "一句话作用": "触发词：ETA准确率、在途KPI、到货履约率、安全库存联动、缺货归因。何时不用：需要按批次追踪在途状态并做可视化看板时用在途库存追踪与全链路可视化；需要做港口拥堵多因子到港时间估计时用港口拥堵ETA预测。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要在途数据有但从不用形成数据孤岛——区分在途过程数据（ETA准确率/异常率）vs结果数据（到货率），量化书中四大落地障碍，缺货归因中在途延误占比是在途管理价值的终极量化时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "03235-p2s-inbound-eta-accuracy-kpi-9b8e697e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-inbound-eta-accuracy-kpi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-inbound-eta-accuracy-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1750616ba6a97f3d8a3f3dcbfc8e3d19250cc7f714e285e546bb825c66ba0592",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

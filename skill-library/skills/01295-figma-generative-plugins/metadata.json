@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-generative-plugins",
+  "中文名称": "待补：figma-generative-plugins",
+  "一句话作用": "MANDATORY prerequisite — load this skill before calling create generative plugin or update generative plugin. Use when the user asks to create, author, change, fix, or extend a reusable generative Figma plugin.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要MANDATORY prerequisite — load this skill before calling create generative plugin or update generative plugin. Use when the user asks to create, author, change, fix, or extend a reusable generative Figma plugin.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01295-figma-generative-plugins-2748922a",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-generative-plugins/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-generative-plugins/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b97eb184a1f6b6545f3b8266a4d1a1e29304888904db7daed2864b9fd036b124",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

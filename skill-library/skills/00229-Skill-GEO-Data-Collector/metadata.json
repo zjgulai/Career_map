@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill: GEO Data Collector",
+  "中文名称": "待补：Skill: GEO Data Collector",
+  "一句话作用": "Batch-collect LLM responses and citations from ChatGPT, Gemini, and Perplexity via the AI search API.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "python3 scripts/collector.py submit [country]",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Batch-collect LLM responses and citations from ChatGPT, Gemini, and Perplexity via the AI search API.时，用它产出或更新：python3 scripts/collector.py submit [country]",
+  "skill_id": "00229-skill-geo-data-collector-5c15ce7d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-collector/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-collector/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aad4edb9e49cf65d65ee210f973e55a7449c1f508ac70acbe016c995f1f32886",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

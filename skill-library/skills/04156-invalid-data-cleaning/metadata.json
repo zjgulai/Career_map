@@ -1,0 +1,22 @@
+{
+  "英文名称": "invalid-data-cleaning",
+  "中文名称": "待补：invalid-data-cleaning",
+  "一句话作用": "用于大规模Excel数据的预处理，通过统计总行数判断是否转换为Parquet格式以提升读写效率，并使用正则表达式清洗指定文本列（如仅保留中文字符），最后导出清洗后的文件并提供下载链接。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要用于大规模Excel数据的预处理，通过统计总行数判断是否转换为Parquet格式以提升读写效率，并使用正则表达式清洗指定文本列（如仅保留中文字符），最后导出清洗后的文件并提供下载链接。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04156-invalid-data-cleaning-8807463a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/invalid-data-cleaning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/invalid-data-cleaning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "25a890b17ac40316bc33d02bdc969a5da517f15af88ee1bd9ea09bd5dab5dd6c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

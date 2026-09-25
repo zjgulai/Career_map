@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-product-management",
+  "中文名称": "待补：shopify-product-management",
+  "一句话作用": "Manage products on a connected Shopify store with bundled scripts for create, get, search, update, SEO, publication, bulk status changes, reusable image upload, and inventory reads and compare-and-set writes, plus safe…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Manage products on a connected Shopify store with bundled scripts for create, get, search, update, SEO, publication, bulk status changes, reusable image upload, and inventory reads and compare-and-set writes, plus safe…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00259-shopify-product-management-c1991af1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-product-management/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-product-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e34bede132b3fd2f665660432ae90484b4fbcb3f58d61fd0f052484acbddd8d1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

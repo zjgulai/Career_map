@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-asset-path-surgery",
+  "中文名称": "待补：godot-asset-path-surgery",
+  "一句话作用": "Fix stale absolute paths baked inside Godot binary resources (.mesh / .material / .scn / .res / .tres) after a folder rename, migration, or Phase-3-style restructure. Use this skill whenever the user reports editor erro…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Fix stale absolute paths baked inside Godot binary resources (.mesh / .material / .scn / .res / .tres) after a folder rename, migration, or Phase-3-style restructure. Use this skill whenever the user reports editor erro…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05956-godot-asset-path-surgery-294fede8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-asset-path-surgery/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-asset-path-surgery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "508173b11a7aeb74730669124500e2208ed3c7b9cce4da352c114eee1a74d87b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

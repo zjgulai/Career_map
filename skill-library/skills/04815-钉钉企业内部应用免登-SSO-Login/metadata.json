@@ -1,0 +1,22 @@
+{
+  "英文名称": "dingtalk-sso-login",
+  "中文名称": "钉钉企业内部应用免登 (SSO Login)",
+  "一句话作用": "Implement DingTalk (钉钉) one-click login (免登) for enterprise internal apps. Covers JS-SDK dd.requestAuthCode, dd.config JSAPI signing, authCode exchange via old/new API, OAuth2 redirect flow, mini-program SSO, environmen…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:33+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Implement DingTalk (钉钉) one-click login (免登) for enterprise internal apps. Covers JS-SDK dd.requestAuthCode, dd.config JSAPI signing, authCode exchange via old/new API, OAuth2 redirect flow, mini-program SSO, environmen…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04815-dingtalk-sso-login-96a4f7d3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dingtalk-sso-login/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dingtalk-sso-login/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b0574a2887b520e25250bbc04fbbf3247ecf0b7f49d9699295405b5db7e51dd6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

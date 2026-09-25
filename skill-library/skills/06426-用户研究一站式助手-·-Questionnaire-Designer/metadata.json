@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-questionnaire-designer",
+  "中文名称": "用户研究一站式助手 · Questionnaire Designer",
+  "一句话作用": "用户研究一站式助手,覆盖四大能力:①问卷设计(按调研目标产出可落地问卷,含试填优化,交付 Word/飞书文档);②访谈提纲(题量按诉求动态确定、含追问轮次/方向/触发条件的深访提纲);③开放题原声打标(五步工作流建立标签体系并批量标注);④定量问卷分析(仅需回收数据,自动识别题型、自动清洗、直接出关键发现/画像/详细发现/原声引用报告)。触发词:设计问卷、写问卷、满意度调研、NPS、访谈提纲、深访提纲、开放题打标、原声编码、VOC 分…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. 交付物与用户目标严格对应,无冗余无缺口。 2. 数据/原声/结论都可追溯,不虚构。 3. 输出结构清晰,分点、表格、加粗恰当使用。 4. 反问逻辑合理,不挤牙膏、不无限追问、每个反问带示例答案。 5. 用户明确要求修改时,输出 完整产物 ,不省略。 6. 交付文档提供 可访问链接 ,不宣称\"已生成\"却无链接。",
+  "最新更新时间": "2026-09-10T16:27:36+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户研究一站式助手,覆盖四大能力:①问卷设计(按调研目标产出可落地问卷,含试填优化,交付 Word/飞书文档);②访谈提纲(题量按诉求动态确定、含追问轮次/方向/触发条件的深访提纲);③开放题原声打标(五步工作流建立标签体系并批量标注);④定量问卷分析(仅需回收数据,自动识别题型、自动清洗、直接出关键发现/画像/详细发现/原声引用报告)。触发词:设计问卷、写问卷、满意度调研、NPS、访谈提纲、深访提纲、开放题打标、原声编码、VOC 分…时，用它产出或更新：1. 交付物与用户目标严格对应,无冗余无缺口。 2.…",
+  "skill_id": "06426-doubao-questionnaire-designer-d4e4ddf7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-questionnaire-designer/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-questionnaire-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea05f4fcec0321cff638ca2ecc35ffec840df5ed95e9c5ae0583280763b8b0c1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

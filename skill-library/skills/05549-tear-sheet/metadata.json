@@ -1,0 +1,22 @@
+{
+  "英文名称": "tear-sheet",
+  "中文名称": "待补：tear-sheet",
+  "一句话作用": "Generate professional company tear sheets using S&P Capital IQ data via the Kensho LLM-ready API MCP server. Use this skill whenever the user asks for a tear sheet, company one-pager, company profile, fact sheet, compan…",
+  "关键输入": "Gather up to four things before proceeding: 1. Company — name or ticker. If only a ticker, resolve the full company name with an initial query (e.g., use the company info tool). 2. Audience — one of four types: - Equity Research — for buy-side/sell-side analy…",
+  "关键输出": "→ Arithmetic validation is now enforced in Step 3b (Calculate Derived Metrics). All margin calculations, growth rates, segment totals, percentage columns, and valuation cross-checks are validated during the dedicated calculation pass, before document generati…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Generate professional company tear sheets using S&P Capital IQ data via the Kensho LLM-ready API MCP server. Use this skill whenever the user asks for a tear sheet, company one-pager, company profile, fact sheet, compan…时，用它产出或更新：→ Arithmetic validation is…",
+  "skill_id": "05549-tear-sheet-43e36dc0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/spglobal/skills/tear-sheet/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/spglobal/skills/tear-sheet/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ac896b0e2eb9452b0f8a081075dd4e5316423341dea12c8489cb35942c765778",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

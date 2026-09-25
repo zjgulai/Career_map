@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-long-horizon-experiment-effect",
+  "中文名称": "长期实验遗留效应估计 避免实验期偏差的因果推断",
+  "一句话作用": "触发词：长期效应、代理指标、两阶段法、LTV预测、效应衰减。何时不用：没有已结束且带长期跟踪的历史实验可训练代理系数时无法使用。安全边界：长期跟踪需按合规要求告知用户实验结束后仍会追踪行为。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"A/B测试只跑3周但LTV效果需等12个月\"——代理指标两阶段法在3周内预测12月LTV提升，避免因短期误判放弃高价值功能，年化避免损失约150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03370-p2s-long-horizon-experiment-effect-56b5757d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-long-horizon-experiment-effect/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-long-horizon-experiment-effect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d4a6c0c7af98b5c44f680120f3e6ffd22800a35f8236ab64661101c23b2088c9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

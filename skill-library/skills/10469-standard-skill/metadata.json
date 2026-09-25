@@ -1,0 +1,22 @@
+{
+  "英文名称": "standard-skill",
+  "中文名称": "待补：standard-skill",
+  "一句话作用": "标准 Skill 模板，适用于中等复杂度任务（2000-5000 字符）。 当用户需要创建中等复杂度的 Skill、学习标准 Skill 结构、 使用 references/ 和 examples/ 时使用。 触发词：创建 skill、标准模板、中等复杂度、Skill 结构。",
+  "关键输入": "- 需要详细参考文档的场景 - 有多个使用示例的需求 - 中等复杂度任务（2000-5000 字符） - 需要解释设计模式 - 需要分步骤执行的流程",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-04T15:53:21+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 需要详细参考文档的场景 - 有多个使用示例的需求 - 中等复杂度任务（2000-5000 字符） - 需要解释设计模式 - 需要分步骤执行的流程时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10469-standard-skill-dc718e62",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/Skill创建器/assets/templates/standard-skill/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/Skill创建器/assets/templates/standard-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e3d015e63e2d73d53d6bf395a983831dc34aa7e7c63c3a7459d1ff2a26718c20",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

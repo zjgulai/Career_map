@@ -1,0 +1,22 @@
+{
+  "英文名称": "fact-checker",
+  "中文名称": "待补：fact-checker",
+  "一句话作用": "Systematic fact verification and misinformation identification using evidence-based analysis. Use when: verifying claims, checking facts, identifying misinformation, evaluating source credibility, or when user asks to \"…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-02T10:50:39+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Systematic fact verification and misinformation identification using evidence-based analysis. Use when: verifying claims, checking facts, identifying misinformation, evaluating source credibility, or when user asks to \"…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09341-fact-checker-792e1096",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/fact-checker/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/fact-checker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a93fc43762d7f626379287f9c4aab02c4a4a6d1d04ca63f9444e6932ca0dade",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

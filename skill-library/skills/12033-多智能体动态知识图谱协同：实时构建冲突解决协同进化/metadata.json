@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-dynamic-kg-collaboration",
+  "中文名称": "多智能体动态知识图谱协同：实时构建冲突解决协同进化",
+  "一句话作用": "触发词：动态知识图谱、多 Agent 协同、冲突消解、经验沉淀、实时写入。何时不用：单 Agent 顺序更新图谱、不存在并发写入时用常规图谱写入；本技能解决多 Agent 并发读写与冲突裁决。安全边界：需建立审计日志追踪每个 Agent 的决策链路；跨境数据传输中的敏感信息按数据安全规范处理。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要知识运营面临商品知识更新滞后——Dynamic KG Collaboration将上新同步时延72小时压到6小时，年化省16万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12033-p2s-mas-dynamic-kg-collaboration-2daed3e3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mas-dynamic-kg-collaboration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mas-dynamic-kg-collaboration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "632ad52f96c4fb363bcaa51833f05b36dfc388bc26c5fbea17099509c3f5772d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

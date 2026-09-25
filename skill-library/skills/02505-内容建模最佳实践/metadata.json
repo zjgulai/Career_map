@@ -1,0 +1,22 @@
+{
+  "英文名称": "content-modeling-best-practices",
+  "中文名称": "内容建模最佳实践",
+  "一句话作用": "设计 headless CMS 的结构化内容模型：内容与呈现分离、引用与嵌入取舍、复用模式与分类体系。触发词：内容建模最佳实践、content-modeling-best-practices、设计 headless CMS 的结构化内容模型：内容与呈现分离、引用与嵌入取舍、复用模式与分类体系。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要设计 headless CMS 的结构化内容模型：内容与呈现分离、引用与嵌入取舍、复用模式与分类体系。触发词：内容建模最佳实践、content-modeling-best-practices、设计 headless CMS 的结构化内容模型：内容与呈现分离、引用与嵌入取舍、复用模式与分类体系。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02505-content-modeling-best-practices-5e4d576a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/content-modeling-best-practices/SKILL.md",
+  "relative_path": "lute/.dsh/skills/content-modeling-best-practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eb074bc3506d438c70b205a97431fd256fc5a33af53cb7d43854da5801c65d7e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

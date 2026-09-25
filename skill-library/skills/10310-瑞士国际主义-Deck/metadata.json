@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-swiss-international",
+  "中文名称": "瑞士国际主义 Deck",
+  "一句话作用": "16 列网格 + 单一饱和 accent + 22 个锁死版面 (Klein Blue / Lemon / Mint / Safety Orange)",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要16 列网格 + 单一饱和 accent + 22 个锁死版面 (Klein Blue / Lemon / Mint / Safety Orange)时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10310-deck-swiss-international-61878fe3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/deck-swiss-international/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/deck-swiss-international/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a02aa25ec2332d21576da4e5e5059da7ca68015ec8a2ac33715e0eb4a377d08a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

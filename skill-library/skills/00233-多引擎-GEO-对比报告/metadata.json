@@ -1,0 +1,22 @@
+{
+  "英文名称": "geo-multi-engine-comparison",
+  "中文名称": "多引擎 GEO 对比报告",
+  "一句话作用": "基于同一批 prompts 的多引擎（ChatGPT / Perplexity / Gemini）GEO 采集结果，生成三引擎对比 HTML 仪表盘（提及率矩阵、引用结构、Top10 信源、UGC 对比、生态洞察、分引擎策略）。当用户提到「三引擎对比」「多引擎对比」「engine comparison」「comparison dashboard」「对比报告」，或已有多个引擎的输出目录想横向比较 AI 搜索可见度时，务必使用本技能——即…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要基于同一批 prompts 的多引擎（ChatGPT / Perplexity / Gemini）GEO 采集结果，生成三引擎对比 HTML 仪表盘（提及率矩阵、引用结构、Top10 信源、UGC 对比、生态洞察、分引擎策略）。当用户提到「三引擎对比」「多引擎对比」「engine comparison」「comparison dashboard」「对比报告」，或已有多个引擎的输出目录想横向比较 AI 搜索可见度时，务必使用本技能——即…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00233-geo-multi-engine-comparison-28bd2092",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-multi-engine-comparison/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-multi-engine-comparison/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e1f60a381550a73d2de5fe16b7940b3a753bef85bd4b90fe701709a7bafd4e81",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

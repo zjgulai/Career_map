@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-long-tail-opportunity-auto-capture",
+  "中文名称": "新兴长尾词周搜索量激增自动创建定向广告组",
+  "一句话作用": "触发词：长尾词、搜索量激增、自动建组、低竞争词、相关性门槛、抢占窗口。何时不用：关键词与品类相关性不足时不要为流量建组；关键词体系成熟且增长平稳时不必自动捕获。安全边界：关键词投放需符合平台搜索政策、避免堆砌，词库需设黑名单机制且不得使用违规手段抢排名。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"新兴长尾词机会被竞品抢先占据\"——长尾词周增 50%自动创建定向广告组将新词抢占速度从7天缩短至24小时，年化多获流量价值25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11728-p2s-long-tail-opportunity-auto-capture-40383a5a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-long-tail-opportunity-auto-capture/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-long-tail-opportunity-auto-capture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b02a7e1351b3266ca454b4d453ffbe8bd7e746bd245809b043c727a0990b55b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

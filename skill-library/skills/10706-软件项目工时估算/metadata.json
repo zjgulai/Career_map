@@ -1,0 +1,22 @@
+{
+  "英文名称": "workload-calculator",
+  "中文名称": "软件项目工时估算",
+  "一句话作用": "软件项目工时估算助手，使用三点估算(PERT)、T-shirt sizing或功能点分析(FPA)等方法，将需求拆解为工作包，计算出乐观、最可能和悲观工时，并提供项目总工时、标准差和置信区间等结果。当用户需要估算开发工时、评估项目工作量、做三点估算、T恤尺码估算、功能点分析、Sprint规划、报价工时拆分，或询问“这个功能要多久”、“评估一下工作量”等关键词或场景时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Agent 完成估算后，应按以下格式输出：",
+  "最新更新时间": "2026-09-14T00:05:16+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要软件项目工时估算助手，使用三点估算(PERT)、T-shirt sizing或功能点分析(FPA)等方法，将需求拆解为工作包，计算出乐观、最可能和悲观工时，并提供项目总工时、标准差和置信区间等结果。当用户需要估算开发工时、评估项目工作量、做三点估算、T恤尺码估算、功能点分析、Sprint规划、报价工时拆分，或询问“这个功能要多久”、“评估一下工作量”等关键词或场景时触发。时，用它产出或更新：Agent 完成估算后，应按以下格式输出：",
+  "skill_id": "10706-workload-calculator-01fb0cb6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/workload-calculator/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/workload-calculator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7d5345fc11ce6c1e75fd9c38c68967193530ad9f658d76165b34845bb7d3231",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

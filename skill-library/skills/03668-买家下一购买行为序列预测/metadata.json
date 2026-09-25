@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-purchase-sequence-prediction",
+  "中文名称": "买家下一购买行为序列预测",
+  "一句话作用": "触发词：购买序列预测、下一品类、时间感知、品类扩张路径、推送时机、复购推荐。何时不用：同类耗材的补购时机预测用节奏感知补购卡；要预测用户下一个会买什么品类、什么时候买时用本卡。安全边界：购买序列属敏感经营数据须脱敏使用，推荐不得基于敏感属性，触达须可退订并控制频率。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要买了吸奶器的用户下个月最可能买配件还是辅食机，品牌完全不知道只能广撒网，复购率只有 18%——时间感知 Transformer 序列建模预测下一购买品类和时机，精准触达复购率提升到 30%+，LTV 增加 40-60%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03668-p2s-purchase-sequence-prediction-7aec2a6c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-purchase-sequence-prediction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-purchase-sequence-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4f66ac7f7b00c0e185807f3dbd4888780301bacc50d2052e2e6c31c9d56dadc0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

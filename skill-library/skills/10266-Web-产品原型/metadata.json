@@ -1,0 +1,22 @@
+{
+  "英文名称": "prototype-web",
+  "中文名称": "Web 产品原型",
+  "一句话作用": "可点击的功能性 Web 原型, 含导航、英雄区、特性区、CTA",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:27+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要可点击的功能性 Web 原型, 含导航、英雄区、特性区、CTA时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10266-prototype-web-e0b318e5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/prototype-web/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/prototype-web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "06666ba5a0fae2d04393e4c3b7496721730cf9c5332e5815c8b4c37a786634cd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

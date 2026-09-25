@@ -1,0 +1,22 @@
+{
+  "英文名称": "brainstorm-ideas-existing",
+  "中文名称": "待补：brainstorm-ideas-existing",
+  "一句话作用": "Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunity,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:45+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunity,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11191-brainstorm-ideas-existing-605a5fa5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/brainstorm-ideas-existing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/brainstorm-ideas-existing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cf950494541bd9b47e60054f1a917cef02094fe8c769d5feca86603282e2bd5b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

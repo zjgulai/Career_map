@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-perf",
+  "中文名称": "网页性能审计（Web Performance Audit）",
+  "一句话作用": "采性能 trace 并对照 CWV 阈值，逐阶段审计网络、无障碍与打包配置，输出按影响排序的整改清单。触发词：网页性能审计、web-perf、采性能 trace 并对照 CWV 阈值，逐阶段审计网络、无障碍与打包配置，输出按影响排序的整改清单。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "按以下结构呈现发现： 1. Core Web Vitals 摘要 —— 含指标、数值与评级（良好／需要改进／差）的表格 2. 主要问题 —— 按优先级排序的问题清单，附预计影响（高／中／低） 3. 改进建议 —— 具体可执行的修复，附代码片段或配置改动 4. 代码库发现 —— 识别出的框架／打包器与优化机会（无代码库权限时省略）",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采性能 trace 并对照 CWV 阈值，逐阶段审计网络、无障碍与打包配置，输出按影响排序的整改清单。触发词：网页性能审计、web-perf、采性能 trace 并对照 CWV 阈值，逐阶段审计网络、无障碍与打包配置，输出按影响排序的整改清单。时，用它产出或更新：按以下结构呈现发现： 1. Core Web Vitals 摘要 —— 含指标、数值与评级（良好／需要改进／差）的表格 2. 主要问题 —— 按优先级排序的问题清单，附预计影响（高／中／低） 3. 改进建议 —— 具体可执行的修复，附代码片段或配置…",
+  "skill_id": "04250-web-perf-0b05b703",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/web-perf/SKILL.md",
+  "relative_path": "lute/.dsh/skills/web-perf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8a2980f9f43e623561a7fdbf993d3a6cf1ef86e955b7005ff98f8c692c971122",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

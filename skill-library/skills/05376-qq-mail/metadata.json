@@ -1,0 +1,22 @@
+{
+  "英文名称": "qq-mail",
+  "中文名称": "待补：qq-mail",
+  "一句话作用": "QQ邮箱(QQ Mail)全功能操作技能。触发场景：看邮箱、查邮件、收件箱、看看邮件、有没有新邮件、未读邮件、帮我看看邮箱、打开邮箱、最近的邮件、邮件列表、发邮件、写邮件、发一封邮件、回复邮件、转发邮件、删除邮件、搜邮件、找邮件、搜索邮箱、下载附件、邮件附件、check email、inbox、send email、reply、forward、search mail、attachments。覆盖：收发邮件、搜索、附件下载、回复转发删除…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要QQ邮箱(QQ Mail)全功能操作技能。触发场景：看邮箱、查邮件、收件箱、看看邮件、有没有新邮件、未读邮件、帮我看看邮箱、打开邮箱、最近的邮件、邮件列表、发邮件、写邮件、发一封邮件、回复邮件、转发邮件、删除邮件、搜邮件、找邮件、搜索邮箱、下载附件、邮件附件、check email、inbox、send email、reply、forward、search mail、attachments。覆盖：收发邮件、搜索、附件下载、回复转发删除…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05376-qq-mail-662f1319",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/qq-mail/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/qq-mail/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "31801e76598d1ff71ed853031905baa70af7b1f5de6d170b059496912731874e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

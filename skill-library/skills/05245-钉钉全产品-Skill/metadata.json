@@ -1,0 +1,22 @@
+{
+  "英文名称": "dws",
+  "中文名称": "钉钉全产品 Skill",
+  "一句话作用": "管理钉钉产品能力(AI表格/AI搜问/日历/通讯录/群聊与机器人/待办/审批/考勤/日志/DING消息/开放平台文档/钉钉文档/钉钉云盘/原生Markdown文件/AI听记/邮箱/在线电子表格/知识库等)。当用户需要操作表格数据、管理日程会议、模糊找人/查谁负责某事项、查询通讯录、管理群聊、机器人发消息、创建待办、提交审批、查看考勤、提交日报周报（钉钉日志模版）、读写钉钉文档、上传下载云盘文件、读取或修改原生.md文件、查询听记纪要、…",
+  "关键输入": "dws schema \"calendar event create\"",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要dws schema \"calendar event create\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05245-dws-8d950dc6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/dingtalk/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/dingtalk/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c2d4e4aa8feef9c8e39073c917b98f6b2acdff25818cc955655e941bf9e64aa5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

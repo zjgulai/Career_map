@@ -1,0 +1,22 @@
+{
+  "英文名称": "latex-compile",
+  "中文名称": "待补：latex-compile",
+  "一句话作用": "Compile a TeX project from Codex, trying bundled Tectonic for simple projects and falling back to detected TeX Live or MacTeX when needed.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-28T01:54:35+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Compile a TeX project from Codex, trying bundled Tectonic for simple projects and falling back to detected TeX Live or MacTeX when needed.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00688-latex-compile-336da8c3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/latex/skills/latex-compile/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/latex/skills/latex-compile/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7f75388cc330a4e6e63ad31c397bb5dad563e825abf9060f602e6dbeb2443d9d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

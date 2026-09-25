@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Procurement-Cycle-Time-KPI",
+  "中文名称": "待补：Procurement Cycle Time KPI",
+  "一句话作用": "�}",
+  "关键输入": "论文/研究主题文件；来源位置：paper to skills / paper2skills-vault / 04-供应链",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-16T18:19:29+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要�}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "08090-skill-procurement-cycle-time-kpi-7652752a",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/paper2skills-vault/04-供应链/Skill-Procurement-Cycle-Time-KPI.md",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/paper2skills-vault/04-供应链/Skill-Procurement-Cycle-Time-KPI.md",
+  "date_source": "file_mtime",
+  "content_hash": "d608591069e7aed2028d30fbd7767fa6735744eef6a0b0f06bfcf94eb2d382e1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

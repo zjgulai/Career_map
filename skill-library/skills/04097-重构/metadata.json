@@ -1,0 +1,22 @@
+{
+  "英文名称": "refactor",
+  "中文名称": "重构",
+  "一句话作用": "在不改变外部行为的前提下按坏味道清单做外科式重构：提函数、拆大类、去重复、引入类型与设计模式。触发词：代码重构、refactor、在不改变外部行为的前提下按坏味道清单做外科式重构：提函数、拆大类、去重复、引入类型与设计模式。",
+  "关键输入": "在以下情形使用本技能： - 代码难以理解或维护 - 函数/类过大 - 代码坏味道需要处理 - 因为代码结构问题导致加功能很困难 - 用户说「清理一下这段代码」「重构它」「改进它」 ---",
+  "关键输出": "+ function process(order) { + if (!order) return { error: 'No order' }; + if (!order.user) return { error: 'No user' }; + if (!order.user.isActive) return { error: 'User inactive' }; + if (order.total <= 0) return { error: 'Invalid total' }; + return processO…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要在以下情形使用本技能： - 代码难以理解或维护 - 函数/类过大 - 代码坏味道需要处理 - 因为代码结构问题导致加功能很困难 - 用户说「清理一下这段代码」「重构它」「改进它」 ---时，用它产出或更新：+ function process(order) { + if (!order) return { error: 'No order' }; + if (!order.user) return { error: 'No user' }; + if (!order.user.isActive) retur…",
+  "skill_id": "04097-refactor-65cf5027",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/refactor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/refactor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "74db10feea983a5527654c339af94a9db4a2f5017e8b67ac657317891ef65b7d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

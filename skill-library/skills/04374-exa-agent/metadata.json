@@ -1,0 +1,22 @@
+{
+  "英文名称": "exa-agent",
+  "中文名称": "待补：exa-agent",
+  "一句话作用": "Use Exa Agent for multi-step web research, list-building, enrichment, structured output, run continuation, and coverage validation. Exa Agent can access additional data providers: fiber, financial datasets, similarweb,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:24:42+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Use Exa Agent for multi-step web research, list-building, enrichment, structured output, run continuation, and coverage validation. Exa Agent can access additional data providers: fiber, financial datasets, similarweb,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04374-exa-agent-b0faf6da",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.npm/_npx/f38053b63df93bd4/node_modules/exa-mcp-server/skills/exa-agent/SKILL.md",
+  "relative_path": "lute/.npm/_npx/f38053b63df93bd4/node_modules/exa-mcp-server/skills/exa-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7bbff323b62dbea8706684b06d50c517275c3aafbd563223ff94aa52008b8629",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

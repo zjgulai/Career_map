@@ -1,0 +1,22 @@
+{
+  "英文名称": "abstraction-quality",
+  "中文名称": "待补：abstraction-quality",
+  "一句话作用": "Evaluates whether abstractions genuinely provide a fundamentally different way of thinking or are structurally shallow. Use when adjacent layers feel redundant, when decorator/wrapper patterns add boilerplate without de…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:44+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Evaluates whether abstractions genuinely provide a fundamentally different way of thinking or are structurally shallow. Use when adjacent layers feel redundant, when decorator/wrapper patterns add boilerplate without de…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04683-abstraction-quality-afefda73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/abstraction-quality/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/abstraction-quality/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1220cea554717b86c11e0f4e90230d583ca9c5a6862533dc33b5a15d66a9a35e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

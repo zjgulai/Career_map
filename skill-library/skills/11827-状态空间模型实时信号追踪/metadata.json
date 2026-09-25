@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ssm-realtime-signal-tracking",
+  "中文名称": "状态空间模型实时信号追踪",
+  "一句话作用": "触发词：实时出价、卡尔曼滤波、竞争强度、胜率信号、状态空间、ACoS 波动。何时不用：每天或每几小时一次的粗粒度调价用常规预算分配；需要分钟级跟随竞争强度、抑制时段性 ACoS 飙升时用本卡。安全边界：调价幅度须设上下限与冷却期，避免频繁改价触发平台风控，不得用于探测或干扰竞品投放。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要广告优化面临\"5分钟批量出价错过竞价高峰段\"——卡尔曼滤波<1ms实时追踪竞争强度，动态调价使综合ACoS从18%降至15.5%，年化节省14-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11827-p2s-ssm-realtime-signal-tracking-154c57fb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ssm-realtime-signal-tracking/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ssm-realtime-signal-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d790732870c0c8b8fe1307aac651188f58abc543f32341b000ba4538fbd3511d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

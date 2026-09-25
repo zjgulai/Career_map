@@ -1,0 +1,22 @@
+{
+  "英文名称": "dispatching-parallel-agents",
+  "中文名称": "并行分派多个 Agent",
+  "一句话作用": "把 2 个以上互不依赖的任务分派给并行 subagent：判断独立性、写聚焦提示词、汇总整合。触发词：并行派 Agent、dispatching-parallel-agents、把 2 个以上互不依赖的任务分派给并行 subagent：判断独立性、写聚焦提示词、汇总整合。",
+  "关键输入": "在以下情况使用： - 3 个以上测试文件失败，且根因各不相同 - 多个子系统各自独立地坏掉了 - 每个问题都能在不依赖其它问题上下文的情况下被理解 - 各项排查之间没有共享状态 在以下情况不要使用： - 失败之间彼此相关（修好一个可能顺带修好别的） - 需要理解整个系统的状态 - agent 之间会互相干扰",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要在以下情况使用： - 3 个以上测试文件失败，且根因各不相同 - 多个子系统各自独立地坏掉了 - 每个问题都能在不依赖其它问题上下文的情况下被理解 - 各项排查之间没有共享状态 在以下情况不要使用： - 失败之间彼此相关（修好一个可能顺带修好别的） - 需要理解整个系统的状态 - agent 之间会互相干扰时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02530-dispatching-parallel-agents-867723d7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/dispatching-parallel-agents/SKILL.md",
+  "relative_path": "lute/.dsh/skills/dispatching-parallel-agents/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "03cbade40a514cf745fbdb5934aa4094fd88fc74fd0d9b5d75f95c9d5140814b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

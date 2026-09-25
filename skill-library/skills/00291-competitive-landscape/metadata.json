@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitive-landscape",
+  "中文名称": "待补：competitive-landscape",
+  "一句话作用": "This skill should be used when the user asks to \"analyze competitors\", \"assess competitive landscape\", \"identify differentiation\", \"evaluate market positioning\", \"apply Porter's Five Forces\", or requests competitive str…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:24+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"analyze competitors\", \"assess competitive landscape\", \"identify differentiation\", \"evaluate market positioning\", \"apply Porter's Five Forces\", or requests competitive str…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00291-competitive-landscape-d67ecad2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/competitive-landscape/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/competitive-landscape/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8704c89099747ebc0c9b783e94acf0f3994b0d6e6cf7eb179b5f1fe0733ac3e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

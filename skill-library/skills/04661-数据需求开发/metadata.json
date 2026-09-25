@@ -1,0 +1,22 @@
+{
+  "英文名称": "数据需求开发",
+  "中文名称": "数据需求开发",
+  "一句话作用": "Generate ODPS SQL and node specs from business requirements. Routes between \"with template\" and \"without template\" modes.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:17+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Generate ODPS SQL and node specs from business requirements. Routes between \"with template\" and \"without template\" modes.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04661-skill-bb6daa27",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/super-dw-engineer/1.0.0/skills/数据需求开发/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/super-dw-engineer/1.0.0/skills/数据需求开发/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79c7da40f4695e7682e54f77369a2a803acb466c0934ed35085d9be2a29569c1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

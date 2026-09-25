@@ -1,0 +1,22 @@
+{
+  "英文名称": "oceanbase-deploy",
+  "中文名称": "待补：oceanbase-deploy",
+  "一句话作用": "Overview skill for OceanBase deployment and operations using obd. Routes to specialized skills for cluster management, tenant management, seekdb, and testing. Use as a starting point when the user's intent is not yet cl…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:14+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Overview skill for OceanBase deployment and operations using obd. Routes to specialized skills for cluster management, tenant management, seekdb, and testing. Use as a starting point when the user's intent is not yet cl…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04561-oceanbase-deploy-dd924263",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/oceanbase-deploy/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/oceanbase-deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "61f21dba74e20ea22d2d55f128683cc2dfaf6bcaedaa5e1c2713c10ff3933ed6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

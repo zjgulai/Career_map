@@ -1,0 +1,22 @@
+{
+  "英文名称": "opencode-qa",
+  "中文名称": "待补：opencode-qa",
+  "一句话作用": "QA opencode itself, per case: verify the CLI/terminal (opencode run, db, serve, export), prove a specific plugin hook/action/event fired via the SSE event stream, smoke-test the TUI under tmux, and investigate sessions…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要QA opencode itself, per case: verify the CLI/terminal (opencode run, db, serve, export), prove a specific plugin hook/action/event fired via the SSE event stream, smoke-test the TUI under tmux, and investigate sessions…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01646-opencode-qa-2cb3af72",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/opencode-qa/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/opencode-qa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d13d162288902cab97e0da8790c72dd5b195249536e8b6e3ada2b691c31c7a8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

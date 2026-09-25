@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-diffusion-model-recommendation",
+  "中文名称": "扩散模型推荐：生成式推荐的范式革命",
+  "一句话作用": "触发词：扩散模型推荐、生成式推荐、商品嵌入生成、新品冷启动、无候选集。何时不用：新站零数据要做零样本迁移推荐用「图基础模型推荐」；要做偏差校正排序用「去混淆因果推荐」。安全边界：生成嵌入可能偏离真实商品分布，不得推荐不存在的商品特征；文案不得暗示用户需求未被满足做诱导性推销；上线须留人工审核兜底。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要传统推荐从候选集中选最好的但新品上架当天没有候选历史数据——扩散模型生成式推荐直接生成用户理想商品嵌入向量不受候选集限制，新品上架第一天即可被推荐年化GMV增益10-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12292-p2s-diffusion-model-recommendation-aec9a65a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-diffusion-model-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-diffusion-model-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16d81a5d19b4158a987508b112194fadb6d795181d738347a5094eaf8a2a75c0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

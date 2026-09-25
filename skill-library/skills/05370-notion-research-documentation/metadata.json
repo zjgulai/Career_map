@@ -1,0 +1,22 @@
+{
+  "英文名称": "notion-research-documentation",
+  "中文名称": "待补：notion-research-documentation",
+  "一句话作用": "Searches across your Notion workspace, synthesizes findings from multiple pages, and creates comprehensive research documentation saved as new Notion pages. Turns scattered information into structured reports with prope…",
+  "关键输入": "See examples/ for complete workflow demonstrations: - examples/market-research.md - Researching market trends - examples/technical-investigation.md - Technical deep-dive",
+  "关键输出": "Choose the appropriate format based on request: Research Summary : See reference/research-summary-format.md Comprehensive Report : See reference/comprehensive-report-format.md",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要See examples/ for complete workflow demonstrations: - examples/market-research.md - Researching market trends - examples/technical-investigation.md - Technical deep-dive时，用它产出或更新：Choose the appropriate format based on request: Research Summary : See refere…",
+  "skill_id": "05370-notion-research-documentation-0c9008e6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/notion/skills/research-documentation/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/notion/skills/research-documentation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "05175c669c1fabc5234eeae647219caadd84703d718af64fafd246e9e3c130a6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

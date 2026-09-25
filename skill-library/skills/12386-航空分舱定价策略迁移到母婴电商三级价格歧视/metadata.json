@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-price-fence-segmentation-ecommerce",
+  "中文名称": "航空分舱定价策略迁移到母婴电商三级价格歧视",
+  "一句话作用": "触发词：价格围栏、分档定价、价格歧视、购买条件围栏、会员价、批发档。何时不用：要按个体支付意愿逐个报价用「个性化 ML 定价」；要处理跨市场价差投诉用「跨境价格协调」。安全边界：围栏必须基于真实购买条件而非虚假商品差异，并满足反垄断与明码标价要求，规则须在商品详情页公示。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营总监面临\"Prime会员和普通买家用同一个价格导致价值捕获不充分\"——航空分舱定价迁移实现合法三级价格歧视，年化收益提升$6.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12386-p2s-price-fence-segmentation-ecommerce-672c2cf5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-fence-segmentation-ecommerce/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-fence-segmentation-ecommerce/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "64ef718d446ee79aa37ce4aa126d1a274b8bb1e1f9ee1df33893b38ca3f5ca59",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

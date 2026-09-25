@@ -1,0 +1,22 @@
+{
+  "英文名称": "api-artifacts",
+  "中文名称": "待补：api-artifacts",
+  "一句话作用": "Templates and rules for generating OpenAPI specs, Postman collections, AsyncAPI specs, and GraphQL schemas from architecture manifests",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Generate ready-to-use API documentation and testing artifacts from the system manifest. These artifacts let developers import specs directly into tools like Swagger UI, Postman, and AsyncAPI Studio. ---",
+  "最新更新时间": "2026-09-19T03:54:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Templates and rules for generating OpenAPI specs, Postman collections, AsyncAPI specs, and GraphQL schemas from architecture manifests时，用它产出或更新：Generate ready-to-use API documentation and testing artifacts from the system manifest. These artifacts let deve…",
+  "skill_id": "04718-api-artifacts-3e359e52",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/api-artifacts/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/api-artifacts/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d59eddcaf6c2f944132e5c897a28b14564db13008cfdbb03e4340433f8ad9708",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

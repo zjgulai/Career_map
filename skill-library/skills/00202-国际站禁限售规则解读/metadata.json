@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-prohibited-rule-interpretation",
+  "中文名称": "国际站禁限售规则解读",
+  "一句话作用": "阿里巴巴国际站禁限售规则解读助手。判断商品/品类能否在指定目的地销售，输出平台管控结论（禁售/限售/禁限售/合规须知）、 合规要求与官方规则链接。全部内容仅来自 prohibited rule interpretation + prohibited rule interpretation query 两个 MCP 返回， 严禁联网检索或自行推演。即使用户只是简单问\"X 能卖吗\"也应触发本技能。",
+  "关键输入": "生成回答前，先 read 同目录下的 examples.md ，对照真实案例的 结构与内容框架 ： - 合规要求列表表格（商品类目 / 销售目的地 / 所需资质 / 服务商） - 平台管控句式 - 合规要求分组（资质要求 / 发品注意事项 / 商品包装要求 / 其他） - [查看规则] Markdown 列表格式（- 起头，与旧版\"直接换行\"写法不同——现行铁律以 §2.8 为准） - [办理证书] 句式（服务商挂固定链接）",
+  "关键输出": "- 完整回答正文（含所有需求块、合规要求列表、平台管控、合规要求参考、查看规则、办理证书、追问建议、AI 生成声明） 必须一次性完整 写入 task result.delivery - 🚫 严禁生成 final report.md / report.md / detail.md 等任何形式的完整报告落盘文件 - 🚫 严禁 delivery 里做 摘要 / TL;DR / 结论卡片，再把详情外链到 md 文件 - 🚫 严禁 delivery 尾部追加\"完整报告：...\"、\"详细内容见附件\"类链接",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要生成回答前，先 read 同目录下的 examples.md ，对照真实案例的 结构与内容框架 ： - 合规要求列表表格（商品类目 / 销售目的地 / 所需资质 / 服务商） - 平台管控句式 - 合规要求分组（资质要求 / 发品注意事项 / 商品包装要求 / 其他） - [查看规则] Markdown 列表格式（- 起头，与旧版\"直接换行\"写法不同——现行铁律以 §2.8 为准） - [办理证书] 句式（服务商挂固定链接）时，用它产出或更新：- 完整回答正文（含所有需求块、合规要求列表、平台管控、合规要求…",
+  "skill_id": "00202-alibaba-prohibited-rule-interpretation-ed0ab762",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-prohibited-rule-interpretation/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-prohibited-rule-interpretation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "44804c6ce0169d5525cfbe71220d7b3cc503e1aa41d26085d7150b792a5a2655",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

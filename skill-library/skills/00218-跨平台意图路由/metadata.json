@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-intention-router",
+  "中文名称": "跨平台意图路由",
+  "一句话作用": "统一路由淘宝、天猫、京东、拼多多、抖店、1688 的电商数据分析和导出请求。适用于店铺分析、订单分析、流量分析、商品分析、单品分析、客服聊天/询盘分析、自定义分析、原始 xlsx 导出。不适用于直接执行 RPA、生成下游报告、最终交付打包或非电商任务。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "有效的 Router 计划是一个匹配 references/common/plan-contract.md 的 JSON 对象。最小结构： 失败时，停止并报告失败阶段、原始错误和下一步动作。不要对未变化的失败操作进行重试。",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要统一路由淘宝、天猫、京东、拼多多、抖店、1688 的电商数据分析和导出请求。适用于店铺分析、订单分析、流量分析、商品分析、单品分析、客服聊天/询盘分析、自定义分析、原始 xlsx 导出。不适用于直接执行 RPA、生成下游报告、最终交付打包或非电商任务。时，用它产出或更新：有效的 Router 计划是一个匹配 references/common/plan-contract.md 的 JSON 对象。最小结构： 失败时，停止并报告失败阶段、原始错误和下一步动作。不要对未变化的失败操作进行重试。",
+  "skill_id": "00218-multi-platform-intention-router-c1a5927c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-intention-router/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-intention-router/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2603128af9baa06c040ff70084172bb0aad923c4b74650960661faee269ac1cd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

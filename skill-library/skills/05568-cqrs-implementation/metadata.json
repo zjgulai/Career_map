@@ -1,0 +1,22 @@
+{
+  "英文名称": "cqrs-implementation",
+  "中文名称": "待补：cqrs-implementation",
+  "一句话作用": "Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems.",
+  "关键输入": "- Separating read and write concerns - Scaling reads independently from writes - Building event-sourced systems - Optimizing complex query scenarios - Different read/write data models needed - High-performance reporting…",
+  "关键输出": "@dataclass class OrderView: order id: str customer id: str status: str total amount: float item count: int created at: datetime shipped at: Optional[datetime] = None @dataclass class PaginatedResult(Generic[T]): items: List[T] total: int page: int page size:…",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Separating read and write concerns - Scaling reads independently from writes - Building event-sourced systems - Optimizing complex query scenarios - Different read/write data models needed - High-performance reporting…时，用它产出或更新：@dataclass class OrderView…",
+  "skill_id": "05568-cqrs-implementation-3c571e90",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/cqrs-implementation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/cqrs-implementation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af5727c576fa37f40efa7e1b5ab72920a353450f9aff54fff7200aee5859954f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

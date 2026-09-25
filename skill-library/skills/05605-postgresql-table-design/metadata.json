@@ -1,0 +1,22 @@
+{
+  "英文名称": "postgresql-table-design",
+  "中文名称": "待补：postgresql-table-design",
+  "一句话作用": "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05605-postgresql-table-design-3992ba5c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/database-design/skills/postgresql/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/database-design/skills/postgresql/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "05006a2c3f1fdc68dd308e8a7ad7daffd7e8f7b910643d241e31e4484110b107",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

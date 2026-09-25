@@ -1,0 +1,22 @@
+{
+  "英文名称": "triage",
+  "中文名称": "分诊（Triage）",
+  "一句话作用": "按状态机对 issue 与外部 PR 分诊/归类/验证。触发词：Issue 分诊、triage、按状态机对 issue 与外部 PR 分诊/归类/验证。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要按状态机对 issue 与外部 PR 分诊/归类/验证。触发词：Issue 分诊、triage、按状态机对 issue 与外部 PR 分诊/归类/验证。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04229-triage-901de025",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/triage/SKILL.md",
+  "relative_path": "lute/.dsh/skills/triage/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dcdb1bb81c4bb563623bdf4e0fd195a6830b2c40d9006fcde00c7beca7fdafb9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

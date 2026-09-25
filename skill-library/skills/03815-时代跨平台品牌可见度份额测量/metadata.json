@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-share-of-voice-tracking",
+  "中文名称": "时代跨平台品牌可见度份额测量",
+  "一句话作用": "触发词：SOV、AI 引用份额、多采样、稳定性加权、竞品可见度。何时不用：要优化内容以提升 AI 引用率时用「GEO 生成式引擎优化」；只统计传统广告曝光份额不必多次采样。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要AI 搜索引擎单次测量误差高达 ±40% 无法可靠监测品牌曝光——稳定性感知 SOV 框架通过 30 次多采样将误差压缩到 ±8%，揭示 Momcozy 在 ChatGPT 的引用份额与竞品 Elvie 差 17%，指明 GEO 优化方向时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03815-p2s-share-of-voice-tracking-4ebe7d3b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-share-of-voice-tracking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-share-of-voice-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "45ec7492342245760022422b59e16f41c7dee09ef2e313f9efea8feea58fa41a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

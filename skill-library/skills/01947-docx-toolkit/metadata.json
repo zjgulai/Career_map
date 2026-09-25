@@ -1,0 +1,22 @@
+{
+  "英文名称": "docx-toolkit",
+  "中文名称": "待补：docx-toolkit",
+  "一句话作用": "Professional DOCX document creation, editing, and formatting using OpenXML SDK (.NET). Three pipelines: (A) create new documents from scratch, (B) fill/edit content in existing documents, (C) apply template formatting w…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Run after every write operation. For Scenario C the full pipeline is mandatory ; for A/B it is recommended (skip only if the operation was trivially simple). If XSD fails, auto-repair and retry: If XSD still fails, fall back to business rules + preview:",
+  "最新更新时间": "2026-05-14T21:14:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Professional DOCX document creation, editing, and formatting using OpenXML SDK (.NET). Three pipelines: (A) create new documents from scratch, (B) fill/edit content in existing documents, (C) apply template formatting w…时，用它产出或更新：Run after every write oper…",
+  "skill_id": "01947-docx-toolkit-5f2d1da9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/software-copyright-materials/vendor/docx-toolkit/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/software-copyright-materials/vendor/docx-toolkit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "efaee8cf7ddb78cfe459c202a0b3f9d8f6a12faf9fb02e9f77a41382e4edfcbe",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

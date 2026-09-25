@@ -1,0 +1,22 @@
+{
+  "英文名称": "neuropixels-analysis",
+  "中文名称": "待补：neuropixels-analysis",
+  "一句话作用": "Neuropixels neural recording analysis. Load SpikeGLX/OpenEphys data, preprocess, motion correction, Kilosort4 spike sorting, quality metrics, Allen/IBL curation, AI-assisted visual analysis, for Neuropixels 1.0/2.0 extr…",
+  "关键输入": "This skill should be used when: - Working with Neuropixels recordings (.ap.bin, .lf.bin, .meta files) - Loading data from SpikeGLX, Open Ephys, or NWB formats - Preprocessing neural recordings (filtering, CAR, bad chann…",
+  "关键输出": "sorting = results['sorting'] metrics = results['metrics'] labels = results['labels']",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Working with Neuropixels recordings (.ap.bin, .lf.bin, .meta files) - Loading data from SpikeGLX, Open Ephys, or NWB formats - Preprocessing neural recordings (filtering, CAR, bad chann…时，用它产出或更新：sorting = results['sorting…",
+  "skill_id": "05762-neuropixels-analysis-0c658ee6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/neuropixels-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/neuropixels-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "85bda21806c94e0b2642bb2f9d5fa90aab73896a4a6823ba3ab34f0415e4b96e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "quotation-analysis",
+  "中文名称": "待补：quotation-analysis",
+  "一句话作用": "Analyze one seller quotation from the referenced supplier's IM conversation against the buyer's own inquiry: how well the quote covers the buyer's requirements, what the trade term means for landed cost and responsibili…",
+  "关键输入": "From buyer messages, extract: product/model, specifications (physical vs advertised), quantity, customization (logo, packaging, firmware), destination market, required certifications, network/band requirements, target price or budget, preferred incoterm, samp…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Analyze one seller quotation from the referenced supplier's IM conversation against the buyer's own inquiry: how well the quote covers the buyer's requirements, what the trade term means for landed cost and responsibili…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00100-quotation-analysis-55092e59",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/quotation-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/quotation-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dc2bec826e5adc416e0d7eb0f747ddb365d6d09192f7c63ae69346555780d8a6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

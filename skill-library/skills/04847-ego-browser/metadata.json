@@ -1,0 +1,22 @@
+{
+  "英文名称": "ego-browser",
+  "中文名称": "待补：ego-browser",
+  "一句话作用": "When you need a browser, read this Skill by default. Use it to open and operate websites, fill forms, click buttons, take screenshots, extract page data, sign in, and perform other browser automation tasks, as well as w…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:51:08+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要When you need a browser, read this Skill by default. Use it to open and operate websites, fill forms, click buttons, take screenshots, extract page data, sign in, and perform other browser automation tasks, as well as w…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04847-ego-browser-b0e8a00a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ego-browser/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ego-browser/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "128c3e534b91519007c944a55e75be5b4530f4d949263250c9d4257ea0683661",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

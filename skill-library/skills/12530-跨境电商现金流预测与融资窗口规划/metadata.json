@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-border-cash-flow-forecasting",
+  "中文名称": "跨境电商现金流预测与融资窗口规划）",
+  "一句话作用": "触发词：现金流预测、融资窗口、大促备货资金、资金缺口、分期采购付款。何时不用：只预测平台回款到账时间时用「Amazon 回款周期预测」；只做融资渠道比价与额度建议时用「Amazon Lending 决策」。安全边界：仅用自有经营数据，融资方案不构成对外承诺；用户数据不得违规出境存储，须符合数据合规要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Prime Day 备货需提前 90 天采购付款 430 万，但销售回款 T+17 才到账，中间 45 天现金缺口无数据支撑——现金流预测模型提前识别缺口规模，规划融资窗口，利息成本比紧急借款节省 15-25 万元/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12530-p2s-cross-border-cash-flow-forecasting-0789aa19",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-cross-border-cash-flow-forecasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-cross-border-cash-flow-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04ad307ffbf2e6b199e465db5b6ab7975fbdb1028c6e2be4dad4a63b0f9b8160",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

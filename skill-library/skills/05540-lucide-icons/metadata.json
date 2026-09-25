@@ -1,0 +1,22 @@
+{
+  "英文名称": "lucide-icons",
+  "中文名称": "待补：lucide-icons",
+  "一句话作用": "Search, download, and customize Lucide icons (1000+ beautiful SVG icons). Supports SVG and TypeScript React component generation with full customization options.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Search, download, and customize Lucide icons (1000+ beautiful SVG icons). Supports SVG and TypeScript React component generation with full customization options.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05540-lucide-icons-3896d6c7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/remotion-video-generator/skills/lucide-icons/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/remotion-video-generator/skills/lucide-icons/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be2d9aa5a77bf4a87797d50a4a4c440d5d07b567966c495f43f32a8c58a389e8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

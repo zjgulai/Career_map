@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-smart-publish",
+  "中文名称": "国际站发品模版",
+  "一句话作用": "Supports publishing from material packages/URLs, batch publishing/product variants, and creating, referencing, and reusing publishing templates. Uses the data flow \"submit cloud material processing with workctl icbu-ggs…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Supports publishing from material packages/URLs, batch publishing/product variants, and creating, referencing, and reusing publishing templates. Uses the data flow \"submit cloud material processing with workctl icbu-ggs…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00185-alibaba-global-smart-publish-60ec6f72",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-smart-publish/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-smart-publish/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb4f21aeca4a7c474ca01889cffcc4361c7285ad59f923484e45324d0bd78817",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-store-analysis",
+  "中文名称": "跨平台店铺经营分析",
+  "一句话作用": "分析淘宝、天猫、抖店、京东、拼多多、1688 店铺的整体经营状况，采集经营数据后生成数据视图 Excel 与证据化的经营分析 HTML 报告。适用于店铺经营分析、经营周报/月报/日报、GMV 与成交额分析、流量与转化分析、推广投放与 ROI 复盘、退款与售后分析、评价与体验分查看、多平台多店铺经营对比、导出经营数据等请求。仅执行只读采集编排、计算、分析与交付；不修改店铺设置，不发布商品，不发送消息，不回复评价。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 交付集合 ：deliverables/ 全部文件（1 份报告 HTML + 1 份数据视图 Excel）+ 各店请求级原始 Excel。present files 只调用一次 ，含完整数组，不手工挑文件、不分步展示。 - 报告文件名 ：单平台单店 店铺经营分析报告.html；多店（含同平台多店）多店铺经营分析报告.html；多平台未形成多店 多平台店铺经营分析报告.html。 - 状态语义 ：complete=全部店铺全部 DSL 成功；partial=部分店铺跳过或部分 DSL 空表，交付可用产物并明确列出…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要分析淘宝、天猫、抖店、京东、拼多多、1688 店铺的整体经营状况，采集经营数据后生成数据视图 Excel 与证据化的经营分析 HTML 报告。适用于店铺经营分析、经营周报/月报/日报、GMV 与成交额分析、流量与转化分析、推广投放与 ROI 复盘、退款与售后分析、评价与体验分查看、多平台多店铺经营对比、导出经营数据等请求。仅执行只读采集编排、计算、分析与交付；不修改店铺设置，不发布商品，不发送消息，不回复评价。时，用它产出或更新：- 交付集合 ：deliverables/ 全部文件（1 份报告 HTML +…",
+  "skill_id": "00225-multi-platform-store-analysis-0e78f338",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-store-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-store-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7ef6ecafc56006b25ae59c82991ba300bd214455ff2785620d9d5402f5c89bc9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

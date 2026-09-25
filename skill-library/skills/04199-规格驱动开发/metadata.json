@@ -1,0 +1,22 @@
+{
+  "英文名称": "spec-driven-development",
+  "中文名称": "规格驱动开发",
+  "一句话作用": "在写代码前把需求固化成六个核心领域齐备的规格，经四阶段门禁逐段评审后才进入实现。触发词：规格驱动开发、spec-driven-development、在写代码前把需求固化成六个核心领域齐备的规格，经四阶段门禁逐段评审后才进入实现。",
+  "关键输入": "- 启动一个新项目或新功能 - 需求模糊或不完整 - 改动会触及多个文件或模块 - 你即将做一个架构决策 - 这项任务实现起来要超过 30 分钟 何时不用： 单行修复、拼写纠正，或需求明确且自包含的改动。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 启动一个新项目或新功能 - 需求模糊或不完整 - 改动会触及多个文件或模块 - 你即将做一个架构决策 - 这项任务实现起来要超过 30 分钟 何时不用： 单行修复、拼写纠正，或需求明确且自包含的改动。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04199-spec-driven-development-b5e1ec92",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/spec-driven-development/SKILL.md",
+  "relative_path": "lute/.dsh/skills/spec-driven-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02b6755e875e2d12a467fee0abb0c738aad24103b967ea0e5c4b8ebd1edfb910",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

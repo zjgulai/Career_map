@@ -1,0 +1,22 @@
+{
+  "英文名称": "Keyword Research: Unified Multi-Source Analysis",
+  "中文名称": "待补：Keyword Research: Unified Multi-Source Analysis",
+  "一句话作用": "⛔ PRE-FLIGHT CHECKLIST — 在执行任何命令之前，必须按顺序完成以下检查： - [ ] Step 0: 检查数据源授权状态 确认 Semrush API / Ahrefs / DataForSEO / Moz 是否已授权。 - [ ] Step 1: 无 API 时的强制路由决策（不可跳过）",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要⛔ PRE-FLIGHT CHECKLIST — 在执行任何命令之前，必须按顺序完成以下检查： - [ ] Step 0: 检查数据源授权状态 确认 Semrush API / Ahrefs / DataForSEO / Moz 是否已授权。 - [ ] Step 1: 无 API 时的强制路由决策（不可跳过）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00241-keyword-research-unified-multi-source-analysis-2c1c26e8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/seo-keywords/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/seo-keywords/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2feb5e8c1d6df7081d8dea10a5e4e1196ab9f9a54f641eb7970e28551c4b218",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

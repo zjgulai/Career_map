@@ -1,0 +1,22 @@
+{
+  "英文名称": "trend-breakout-scout",
+  "中文名称": "待补：trend-breakout-scout",
+  "一句话作用": "Discover fast-rising Amazon niches and breakout brands; year-over-year analysis separates real breakouts from seasonal spikes. 用于选品找机会：不知道卖什么、看什么在涨、真需求还是季节性。",
+  "关键输入": "Trigger this for forward-looking discovery: \"what should I sell next,\" \"find breakout products/brands,\" \"what's trending in ,\" \"give me product ideas,\" \"is this niche real or seasonal.\" Boundaries: - The user already ha…",
+  "关键输出": "- Lead with the ranked shortlist in chat (breakouts first; seasonal spikes shown as explicitly screened-out, with the year-over-year reason). - If a writable workspace exists, save the workbook/tables there and link them; if not, keep everything inline. Do no…",
+  "最新更新时间": "2026-09-12T16:24:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Trigger this for forward-looking discovery: \"what should I sell next,\" \"find breakout products/brands,\" \"what's trending in ,\" \"give me product ideas,\" \"is this niche real or seasonal.\" Boundaries: - The user already ha…时，用它产出或更新：- Lead with the ranked sho…",
+  "skill_id": "00049-trend-breakout-scout-311b54d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/trend-breakout-scout/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/trend-breakout-scout/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8f7644432323b8bfc103c77cb9a1e19c8d72436c9d95a41017e1de914cf3e89",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "seaborn-visualization",
+  "中文名称": "待补：seaborn-visualization",
+  "一句话作用": "charting, plotting, graphing, visualization, seaborn, matplotlib, pandas reports, Chinese chart labels, and data-viz code in Daimon's managed Python runtime. Covers both interactive runs via the Bash tool and Blueprint…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T18:46:46+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要charting, plotting, graphing, visualization, seaborn, matplotlib, pandas reports, Chinese chart labels, and data-viz code in Daimon's managed Python runtime. Covers both interactive runs via the Bash tool and Blueprint…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06197-seaborn-visualization-458ef81a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/seaborn-visualization/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/seaborn-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d1e634def508ee92e127b76e4a752b0be5883649cc438e6555fa98ed1e4c4590",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

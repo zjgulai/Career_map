@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-uplift-churn-prediction",
+  "中文名称": "待补：p2s-uplift-churn-prediction",
+  "一句话作用": "触发词：Uplift建模、流失挽留、四象限分群、发券精准化、不要打扰者。何时不用：只想预测谁会流失时用流失预测模型；没有历史干预记录（缺处理/对照标签）无法训练。安全边界：无。",
+  "关键输入": "输入 ：用户特征（在网时长、月消费金额、累计消费、客服通话次数、购买产品数量）+ 历史干预数据（是否发放优惠券、是否进行客服回访）+ 流失标签（30 天内是否流失）；卡页建议样本量 ≥5000 条，处理组与对照组各 2500 以上。 输出 ：每个用户的 Uplift 分数（干预降低流失的概率）、四象限分群（可说服者 Uplift 0.1、必然转化者 0<Uplift<0.1、无法挽回者 Uplift 近似 0、不要打扰者 Uplift<0）与分群触达策略（仅对可说服者发高价值优惠券）。",
+  "关键输出": "输入 ：用户特征（在网时长、月消费金额、累计消费、客服通话次数、购买产品数量）+ 历史干预数据（是否发放优惠券、是否进行客服回访）+ 流失标签（30 天内是否流失）；卡页建议样本量 ≥5000 条，处理组与对照组各 2500 以上。 输出 ：每个用户的 Uplift 分数（干预降低流失的概率）、四象限分群（可说服者 Uplift 0.1、必然转化者 0<Uplift<0.1、无法挽回者 Uplift 近似 0、不要打扰者 Uplift<0）与分群触达策略（仅对可说服者发高价值优惠券）。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：Uplift建模、流失挽留、四象限分群、发券精准化、不要打扰者。何时不用：只想预测谁会流失时用流失预测模型；没有历史干预记录（缺处理/对照标签）无法训练。安全边界：无。时，用它产出或更新：输入 ：用户特征（在网时长、月消费金额、累计消费、客服通话次数、购买产品数量）+ 历史干预数据（是否发放优惠券、是否进行客服回访）+ 流失标签（30 天内是否流失）；卡页建议样本量 ≥5000 条，处理组与对照组各 2500 以上。 输出 ：每个用户的 Uplift 分数（干预降低流失的概率）、四象限分群（可说服者…",
+  "skill_id": "03984-p2s-uplift-churn-prediction-d94e60cd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-uplift-churn-prediction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-uplift-churn-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4744625c6ef62ce08d9903593574ae59610f4913eab379c5c8325af9983a9a78",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

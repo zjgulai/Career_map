@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibabacloud-avatar-video",
+  "中文名称": "待补：alibabacloud-avatar-video",
+  "一句话作用": "Use Alibaba Cloud DashScope API and LingMou to generate AI video and speech. Seven capabilities — (1) LivePortrait talking-head (image + audio → video, two-step), (2) EMO talking-head, (3) AA/AnimateAnyone full-body ani…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:48:55+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Use Alibaba Cloud DashScope API and LingMou to generate AI video and speech. Seven capabilities — (1) LivePortrait talking-head (image + audio → video, two-step), (2) EMO talking-head, (3) AA/AnimateAnyone full-body ani…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04701-alibabacloud-avatar-video-ec6cbb31",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/alibabacloud-avatar-video/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/alibabacloud-avatar-video/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62ccb2b165721a49a7daf71dea0f972c40084459ec493126e33781cc1c452c9d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

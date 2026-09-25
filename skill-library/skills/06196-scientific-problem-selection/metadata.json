@@ -1,0 +1,22 @@
+{
+  "英文名称": "scientific-problem-selection",
+  "中文名称": "待补：scientific-problem-selection",
+  "一句话作用": "This skill should be used when scientists need help with research problem selection, project ideation, troubleshooting stuck projects, or strategic scientific decisions. Use this skill when users ask to pitch a new rese…",
+  "关键输入": "A conversational framework for systematic scientific problem selection based on Fischbach & Walsh's \"Problem choice and decision trees in science and engineering\" (Cell, 2024).",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-14T13:31:19+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要A conversational framework for systematic scientific problem selection based on Fischbach & Walsh's \"Problem choice and decision trees in science and engineering\" (Cell, 2024).时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06196-scientific-problem-selection-3201b25c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/scientific-problem-selection/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/scientific-problem-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ec99e3e5b2f4cd7474ef2bb8a1b10ee1f97dbe688c7723c7ec0b18deb8ff0f4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

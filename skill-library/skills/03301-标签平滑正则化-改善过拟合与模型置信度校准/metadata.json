@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-label-smoothing-regularization",
+  "中文名称": "标签平滑正则化 改善过拟合与模型置信度校准",
+  "一句话作用": "触发词：标签平滑、置信度校准、软标签、过拟合、边界品类误分、ECE。何时不用：标签完全可靠且类别很少时收益有限；要提升模型能力上限时用多任务或多模态建模。安全边界：使用商品标题与评论文本训练需符合数据授权与隐私要求，分类结果不得用于歧视性投放。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要商品品类分类模型置信度虚高（softmax 0.99）导致边界品类广告投放精准度低——引入标签平滑正则化校准模型置信度，误分类率降低6%，广告精准投放 CTR 提升 8-12%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03301-p2s-label-smoothing-regularization-a3625bf1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-label-smoothing-regularization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-label-smoothing-regularization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0c1ae848a4be675019790ce4b513fddf5bb27b5bbfe3798cc5671f3c0ef0bc4f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

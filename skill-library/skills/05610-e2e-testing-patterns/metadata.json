@@ -1,0 +1,22 @@
+{
+  "英文名称": "e2e-testing-patterns",
+  "中文名称": "待补：e2e-testing-patterns",
+  "一句话作用": "Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs, improve confidence, and enable fast deployment. Use when implementing E2E tests, debugging flaky tests, or establishin…",
+  "关键输入": "- Implementing end-to-end test automation - Debugging flaky or unreliable tests - Testing critical user workflows - Setting up CI/CD test pipelines - Testing across multiple browsers - Validating accessibility requireme…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Implementing end-to-end test automation - Debugging flaky or unreliable tests - Testing critical user workflows - Setting up CI/CD test pipelines - Testing across multiple browsers - Validating accessibility requireme…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05610-e2e-testing-patterns-c4558da4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/e2e-testing-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/e2e-testing-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c2efe16ab57630f3f04a580173661dd9ddb2c328ff5724c6d394a153c22ca52c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "accessibility-review",
+  "中文名称": "待补：accessibility-review",
+  "一句话作用": "Reviews frontend accessibility using automated axe/Playwright reports plus manual design QA heuristics. Use for a11y checks, WCAG-oriented review, contrast, keyboard navigation, focus-visible state, ARIA, form labels, a…",
+  "关键输入": "Look for: - design.qa.yaml - .design-qa/reports/a11y.json - Storybook a11y reports - Playwright tests and page routes - component source files - form, modal, nav, menu, table, tooltip, toast, and dialog components - screenshots showing focus/error/disabled/lo…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:45+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Reviews frontend accessibility using automated axe/Playwright reports plus manual design QA heuristics. Use for a11y checks, WCAG-oriented review, contrast, keyboard navigation, focus-visible state, ARIA, form labels, a…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04454-accessibility-review-7943a5b0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/accessibility-review/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/accessibility-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ab59e0abaf60b5da16c41969e6416a637ff6ce10d456d4e43127be7303c459f2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

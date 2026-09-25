@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-dedup-quality-filter",
+  "中文名称": "多平台评论在线去重与质量排序",
+  "一句话作用": "触发词：评论去重、跨平台合并、质量排序、SimHash、水评过滤。何时不用：要判断是否有组织刷单走假评论检测；要判断文本是否机器生成走内容检测。安全边界：采集须遵守平台爬虫协议与反不正当竞争法规，需获得数据使用授权或走官方 API，卡页标注为条件合规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容运营面临评论重复污染分析——Dedup Filter将重复率18%压到2%，年化省16万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03731-p2s-review-dedup-quality-filter-9a2cc7d1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-review-dedup-quality-filter/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-review-dedup-quality-filter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d1a700ad9a03cee72d240ee7c7f11379f594f2b708efd9d3b11aff204a7bad61",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "public-relations",
+  "中文名称": "待补：public-relations",
+  "一句话作用": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T14:44:05+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12782-public-relations-30aab9ad",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/public-relations/SKILL.md",
+  "relative_path": "lute/project/skills/public-relations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "36fe43e755d951a9e05a268319e6089e7727dcd9de0a9ab6c4ec56768e4190ed",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

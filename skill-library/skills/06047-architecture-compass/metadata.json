@@ -1,0 +1,22 @@
+{
+  "英文名称": "architecture-compass",
+  "中文名称": "待补：architecture-compass",
+  "一句话作用": "Set up ADR governance or refactor/review repositories from explicit ADRs, stack rules, and code examples. Use when a repo needs agent-facing ADR guardrails or when existing/new code must follow documented source structu…",
+  "关键输入": "Inspect only the minimum context needed, but include these when relevant: - User-provided ADRs, architecture docs, stack rules, source-shape rules, or implementation examples. - AGENTS.md, STACK RULES.md, README.md, contribution docs, validation docs, and doc…",
+  "关键输出": "Return in this order: 1. Top-level action, internal mode, and rule-set summary. 2. Inspected evidence and any unavailable evidence. 3. Setup plan, gap report, or implementation placement map. 4. Proposed or completed changes. 5. Docs, ADR, or agent-instructio…",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks to set up ADR usage, ADR guardrails, or agent instructions in a repository. - The user asks to make future agents rely on provided ADRs. - The user asks to refactor existing code to match ADRs, architect…时，用它产出或更新：Return in this order: 1. T…",
+  "skill_id": "06047-architecture-compass-11d37e0c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/skills/engineering-workflows/architecture-compass/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/skills/engineering-workflows/architecture-compass/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79ba7e6b2ffbec6b455d19994f318a0c07c58c94e21343b3bde7b5d0e7dba45b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

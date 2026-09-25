@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-aigc-content-compliance-review",
+  "中文名称": "生成内容合规审查 图文视频虚假宣传自动检测",
+  "一句话作用": "触发词：AIGC 合规、虚假宣传、FTC 声明、DSA 标注、违规帧定位、图文视频审查。何时不用：要在推荐候选集实时过滤违规品时用「推荐合规过滤」，要比较多市场广告文案口径时用「多市场广告文案合规矩阵」。安全边界：结论为整改建议，不代替 FTC 或平台判定，AI 生成内容须按 DSA 标注身份。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌运营面临\"AI生成的产品图文被平台标记为虚假宣称导致Listing下架\"——AIGC内容合规审查将AI生成内容违规率从18%降至2%，年化保护Listing上架稳定性减少损失40-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02756-p2s-aigc-content-compliance-review-b5bee7c3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-aigc-content-compliance-review/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-aigc-content-compliance-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9431af259039beacd0494ea669b10444788d6739633aa8735ad4a05b194b8a30",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

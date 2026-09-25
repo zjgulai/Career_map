@@ -1,0 +1,22 @@
+{
+  "英文名称": "1688找货选品",
+  "中文名称": "智能选品找货",
+  "一句话作用": "1688 找货与货源检索：文字描述搜商品、图片找同款/找相似（支持直接传图或图片 URL）、1688 商品链接或商品 ID 找同款、三维度比价选品（销量最高/价格最低/综合最优）。 支持多种商品一起找（多品类同查；一次请求建议 ≤4 种商品，更多时本 skill 会与用户确认分批找，无需预先拆分请求）。 需 ali1688 MCP 连接器已完成 OAuth 授权；链接找同款仅支持 1688 站内链接/商品 ID（其他平台链接不支持）；…",
+  "关键输入": "- 触发 ：自然语言描述商品找货、上传图片找同款/找相似、提供 1688 商品链接或商品 ID 找同款、搜索结果中选定商品后要求比价（触发词与示例问法见 frontmatter triggers / examples）。 - 不触发 ：下单/支付/结算、查物流/订单状态、管库存/改商品信息、闲聊且没有找商品意图（见「严格禁止」末条与 frontmatter description）；店铺主页/类目浏览维度的检索（如「逛某店铺的全部商品…",
+  "关键输出": "- Agent 必须完整输出 CLI 返回的 markdown 字段（英文用户按「语言处理」规则整体翻译后输出）。 - 多目标整合透传 ：多目标取数成功后，逐目标完整结果均进对话正文——每个目标各自完整输出其 CLI 返回的 markdown 全文（「各出各的 markdown」的整合形态：全部目标逐一透传，见 references/common/multi-target.md），禁止以落盘文件替代对话正文输出，禁止仅输出摘要。 - 禁止省略、截断或重排表格行。 - 禁止丢失商品链接。 - 禁止把表格改写成列表、…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 触发 ：自然语言描述商品找货、上传图片找同款/找相似、提供 1688 商品链接或商品 ID 找同款、搜索结果中选定商品后要求比价（触发词与示例问法见 frontmatter triggers / examples）。 - 不触发 ：下单/支付/结算、查物流/订单状态、管库存/改商品信息、闲聊且没有找商品意图（见「严格禁止」末条与 frontmatter description）；店铺主页/类目浏览维度的检索（如「逛某店铺的全部商品…时，用它产出或更新：- Agent 必须完整输出 CLI 返回的 mar…",
+  "skill_id": "00149-1688-005c2e2d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-1688-product-research/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-1688-product-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b3382902886eb6bb23c5a5c45236dfad3cefb1207925f42fa5ccf6c73081a362",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

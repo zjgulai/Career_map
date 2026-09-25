@@ -1,0 +1,22 @@
+{
+  "英文名称": "PRD生成",
+  "中文名称": "生成",
+  "一句话作用": "输入功能需求描述，生成结构化PRD文档，含背景分析、目标定义、功能清单、交互说明、数据埋点和验收标准。 按产品类型（B2C/B2B/内部工具/平台型）走差异化模板。连接~~Notion后可直接写入团队知识库。 当用户说\"写PRD\"、\"需求文档\"、\"产品需求\"、\"功能文档\"、\"PRD模板\"、\"撰写需求说明书\"、\"feature spec\"、 \"产品需求文档\"、\"功能规格\"、\"需求规格说明\"、\"写需求\"、\"出需求文档\"时触发。",
+  "关键输入": "用户需提供以下信息（缺失项主动追问）： 字段 必填 说明 ------ ------ ------ 功能描述 是 要做什么功能、解决什么问题，至少一句话 目标用户 否 面向谁，未提供则根据功能推断 业务目标 否 期望达成的业务指标（DAU、转化率、营收等） 产品类型 否 B2C/B2B/内部工具/平台型，未指定则自动推断 约束条件 否 技术限制、时间要求、资源限制 PRD深度 否 概要版（评审用）/ 详细版（开发用），默认详细版",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:51+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要输入功能需求描述，生成结构化PRD文档，含背景分析、目标定义、功能清单、交互说明、数据埋点和验收标准。 按产品类型（B2C/B2B/内部工具/平台型）走差异化模板。连接~~Notion后可直接写入团队知识库。 当用户说\"写PRD\"、\"需求文档\"、\"产品需求\"、\"功能文档\"、\"PRD模板\"、\"撰写需求说明书\"、\"feature spec\"、 \"产品需求文档\"、\"功能规格\"、\"需求规格说明\"、\"写需求\"、\"出需求文档\"时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04614-prd-03c48146",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/PRD生成/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/PRD生成/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5c2995c217b83415715602154ab5401c4e88e398bbfb219af88ef0db4e5b4189",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

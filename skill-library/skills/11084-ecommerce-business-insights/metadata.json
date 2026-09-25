@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-business-insights",
+  "中文名称": "待补：ecommerce-business-insights",
+  "一句话作用": "当用户需要从电商订单/销售/客户/渠道 CSV 生成经营复盘报告、拆解 KPI 树、分析 GMV/转化率/AOV/复购率趋势、做归因分析与行动建议，或要求输出 REVIEW.md 风格经营报告时使用。触发词：电商经营洞察、销售复盘、KPI 树、GMV、转化率、AOV、复购率、REVIEW.md、sales review、business report、KPI breakdown、/ecom review。何时不用：实时数据分析（基于批…",
+  "关键输入": "- 订单 CSV 文件 - 分析周期 - 目标 KPI 基准 - 历史对比数据（可选） - 渠道、广告或 CRM 标签（可选）",
+  "关键输出": "- REVIEW.md 完整报告 - KPI 分解树 - 红绿信号标注 - 归因分析 - 行动建议清单 - 数据缺口与口径说明 - 可信度与验证建议",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 需要从订单/销售 CSV 生成经营复盘报告 - 需要拆解 KPI 树，定位增长或下滑的驱动因子 - 需要分析 GMV-转化率-AOV 趋势（30d/90d/365d 多窗口） - 需要归因分析与可落地的行动建议清单 - 需要输出 REVIEW.md 风格报告（执行摘要、KPI 树、红绿信号、根因假设、行动队列） - 需要新客 vs 回购客、留存、渠道 ROI 的专项追问时，用它产出或更新：- REVIEW.md 完整报告 - KPI 分解树 - 红绿信号标注 - 归因分析 - 行动建议清单 - 数据缺口…",
+  "skill_id": "11084-ecommerce-business-insights-f26f0aa5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ecommerce-business-insights/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ecommerce-business-insights/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b1a7de39072ddc34616f80bf6a5046956ac9b934d17a28c4d2fccd780f32cee8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

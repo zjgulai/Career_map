@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-sendgrid-engagement-quality",
+  "中文名称": "待补：twilio-sendgrid-engagement-quality",
+  "一句话作用": "Monitor email program health with SendGrid Engagement Quality (SEQ) scores. Covers the SEQ API endpoints, the 5 scoring metrics (engagement recency, open rate, bounce classification, bounce rate, spam rate), eligibility…",
+  "关键输入": "Your account must meet ALL conditions to receive scores: 1. Pro or Premier Email API plan — SEQ is not available on Free or Essentials plans 2. Open tracking enabled in SendGrid settings 3. Minimum 1,000 messages sent in the previous 30 days If not eligible,…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Monitor email program health with SendGrid Engagement Quality (SEQ) scores. Covers the SEQ API endpoints, the 5 scoring metrics (engagement recency, open rate, bounce classification, bounce rate, spam rate), eligibility…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01107-twilio-sendgrid-engagement-quality-eedb1c0b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sendgrid-engagement-quality/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sendgrid-engagement-quality/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4da10ac83d5ef41fba85404f1fcdef4ea5163e3ab18594a3db9a6c1d708b8d1c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

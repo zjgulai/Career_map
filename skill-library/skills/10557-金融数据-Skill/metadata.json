@@ -1,0 +1,22 @@
+{
+  "英文名称": "cn-finance-data",
+  "中文名称": "金融数据 Skill",
+  "一句话作用": "通过 Tushare Pro 获取中国金融市场数据，覆盖 A 股、港股、美股、基金、期货、债券等 220+ 个数据接口，可查询股票行情、财务报表、指数成分、GDP/CPI 等宏观经济指标。当用户请求金融数据查询、股票历史行情、财务指标分析、宏观数据获取，或提及 Tushare、数据接口、量化数据源等关键词时触发。",
+  "关键输入": "- 日期 ：YYYYMMDD（如 20241231） - 股票代码 ：ts code 格式（如 000001.SZ, 600000.SH） - 返回格式 ：pandas DataFrame",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:14+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要通过 Tushare Pro 获取中国金融市场数据，覆盖 A 股、港股、美股、基金、期货、债券等 220+ 个数据接口，可查询股票行情、财务报表、指数成分、GDP/CPI 等宏观经济指标。当用户请求金融数据查询、股票历史行情、财务指标分析、宏观数据获取，或提及 Tushare、数据接口、量化数据源等关键词时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10557-cn-finance-data-f285f0a3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/cn-finance-data/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/cn-finance-data/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "796043ae8e980df032ef6964d9c35279cda2d3ca554208be7faa2fe0995b46ec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

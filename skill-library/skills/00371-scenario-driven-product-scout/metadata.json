@@ -1,0 +1,22 @@
+{
+  "英文名称": "scenario-driven-product-scout",
+  "中文名称": "待补：scenario-driven-product-scout",
+  "一句话作用": "Discovers product ideas using the \"Three Shopping Moments\" framework (Calendar / Life / Everyday) combined with 20 differentiation strategies. Generates beginner-friendly product concepts with positioning, keywords, var…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:35+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要Discovers product ideas using the \"Three Shopping Moments\" framework (Calendar / Life / Everyday) combined with 20 differentiation strategies. Generates beginner-friendly product concepts with positioning, keywords, var…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00371-scenario-driven-product-scout-37cee138",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/scenario-driven-product-scout/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/scenario-driven-product-scout/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "959fc795dddb44842fe5cdc08c790d3e6eab4289e19c5a1ee90acf73758ab883",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

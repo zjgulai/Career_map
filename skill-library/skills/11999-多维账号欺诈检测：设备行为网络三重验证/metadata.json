@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-identity-fraud-detection",
+  "中文名称": "多维账号欺诈检测：设备行为网络三重验证",
+  "一句话作用": "触发词：身份欺诈、设备指纹、行为异常、IP 社区、多账号关联。何时不用：只有单一维度信号时容易误伤，不足以支撑判定；本技能要求设备、行为、网络三维交叉。安全边界：不得以单一维度作为封号依据，需多因子确认并保留申诉通道；设备与行为数据采集须合规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：某婴儿推车 Listing 在 48 小时内收到 12 条五星评论，怀疑是刷单行为时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11999-p2s-identity-fraud-detection-7061f6e5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-identity-fraud-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-identity-fraud-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cb148676456fcc47f1b29a6d4096c273cf7fbfec6d7688e936d307444501c719",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

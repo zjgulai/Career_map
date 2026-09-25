@@ -1,0 +1,22 @@
+{
+  "英文名称": "omero-integration",
+  "中文名称": "待补：omero-integration",
+  "一句话作用": "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.",
+  "关键输入": "This skill should be used when: - Working with OMERO Python API (omero-py) to access microscopy data - Retrieving images, datasets, projects, or screening data programmatically - Analyzing pixel data and creating derive…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Working with OMERO Python API (omero-py) to access microscopy data - Retrieving images, datasets, projects, or screening data programmatically - Analyzing pixel data and creating derive…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05764-omero-integration-44b41b70",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/omero-integration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/omero-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f13fb5a7303c5b0492e06a90d54d00b00d63e75c39abe8baf64589cd36795bf6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

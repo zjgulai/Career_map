@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dynamic-lot-sizing-moq",
+  "中文名称": "待补：p2s-dynamic-lot-sizing-moq",
+  "一句话作用": "触发词：MOQ凑量、动态批量、联合订货、价格阶梯、采购批次成本。何时不用：只在单一 SKU 上算安全库存时用「安全库存与补货策略」；要把预算切给多个 SKU 时用「多SKU采购预算分配」。安全边界：结论只用于内部采购决策，不代签供应商合同、不改付款条款。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：MOQ凑量、动态批量、联合订货、价格阶梯、采购批次成本。何时不用：只在单一 SKU 上算安全库存时用「安全库存与补货策略」；要把预算切给多个 SKU 时用「多SKU采购预算分配」。安全边界：结论只用于内部采购决策，不代签供应商合同、不改付款条款。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11380-p2s-dynamic-lot-sizing-moq-73734bba",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-dynamic-lot-sizing-moq/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-dynamic-lot-sizing-moq/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "184e632367ea9f4c294067b38814525e72822c01fb26cbd3ea5ca2fff6cb3cd2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

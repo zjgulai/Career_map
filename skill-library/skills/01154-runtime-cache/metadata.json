@@ -1,0 +1,22 @@
+{
+  "英文名称": "runtime-cache",
+  "中文名称": "待补：runtime-cache",
+  "一句话作用": "Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Functions, Routing Middleware, and Builds. Use when implementing caching strategies beyond framework-le…",
+  "关键输入": "- Caching API responses or computed data across functions in a region - Tag-based invalidation when content changes (CMS webhook → expire tag) - Reducing database load for frequently accessed data - Cross-function data…",
+  "关键输出": "Function Context Behavior ---------- --------- ---------- updateTag(tag) Server Actions only Immediate expiration, read-your-own-writes revalidateTag(tag, 'max') Server Actions + Route Handlers Stale-while-revalidate (recommended) revalidateTag(tag, { expire:…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要- Caching API responses or computed data across functions in a region - Tag-based invalidation when content changes (CMS webhook → expire tag) - Reducing database load for frequently accessed data - Cross-function data…时，用它产出或更新：Function Context Behavior -…",
+  "skill_id": "01154-runtime-cache-5a402626",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/vercel/skills/runtime-cache/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/vercel/skills/runtime-cache/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8c9263c079330012710b33de933c5568ce32a781478f0bfcb44d4187d0d846b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

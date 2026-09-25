@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-basket-analysis",
+  "中文名称": "购物篮分析（Market Basket Analysis）",
+  "一句话作用": "购物篮分析 — 基于关联规则挖掘用户连带购买行为，识别高置信度商品组合和典型需求场景，输出支持度/置信度/提升度指标与搭售策略建议。触发词：购物篮分析、连带购买、搭售策略、关联规则、商品组合、Apriori、Market Basket Analysis。",
+  "关键输入": "- 母婴电商：奶瓶+奶嘴、吸奶器+储奶袋、纸尿裤+湿巾 - 搭售策略设计、促销组合规划 - 新品上市时识别可关联的现有热销品",
+  "关键输出": "- 对高提升度组合 → 建议捆绑销售/套装定价 - 对高置信度组合 → 建议交叉推荐/购物车追加 - 对低置信度高销售额商品 → 建议单独分析购买路径",
+  "最新更新时间": "2026-06-09T18:38:49+08:00",
+  "业务场景": "11-user-behavior-analysis",
+  "解决具体问题": "当需要- 母婴电商：奶瓶+奶嘴、吸奶器+储奶袋、纸尿裤+湿巾 - 搭售策略设计、促销组合规划 - 新品上市时识别可关联的现有热销品时，用它产出或更新：- 对高提升度组合 → 建议捆绑销售/套装定价 - 对高置信度组合 → 建议交叉推荐/购物车追加 - 对低置信度高销售额商品 → 建议单独分析购买路径",
+  "skill_id": "09429-cbec-basket-analysis-f8a38eb0",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/11-user-behavior-analysis/basket-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/11-user-behavior-analysis/basket-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f4557542054eb83330f1a30ed3b3004052055d44ea6ba4181ec6b0bf17ea1fb7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

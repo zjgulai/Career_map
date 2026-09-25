@@ -1,0 +1,22 @@
+{
+  "英文名称": "mobile页面设计",
+  "中文名称": "页面设计",
+  "一句话作用": "触发（正向）：用户要设计移动端（H5 / React Native App）的多屏 flow、信息架构、TabBar 导航骨架、权限引导流程、移动端购物/支付流程、移动播放器/Paywall、行程规划、健康追踪、AI 助手、社交动态/DM，或任何移动端多屏交互设计。关键词：移动端、H5、App、React Native、TabBar、Flow、多屏、IA、App 架构、手机、iPhone、Android、跨平台。 审查模式（Revie…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成所有 flow 生成后， 同时 做两件事： 按 chain-protocol.md §2.1 v1.1 智能适配规则： Step 1 — 写盘到 spark-output/context/flow-mobile.json （必做，主持久化通道；目录不存在先创建）。写入完整 JSON（schema 见本 SKILL.md frontmatter chain.schema 字段）。 Step 2 — chat 输出紧凑 marker （必做，⛔ 不要在 chat 内重复输出 Step 1 的完整 JSON ）：",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要触发（正向）：用户要设计移动端（H5 / React Native App）的多屏 flow、信息架构、TabBar 导航骨架、权限引导流程、移动端购物/支付流程、移动播放器/Paywall、行程规划、健康追踪、AI 助手、社交动态/DM，或任何移动端多屏交互设计。关键词：移动端、H5、App、React Native、TabBar、Flow、多屏、IA、App 架构、手机、iPhone、Android、跨平台。 审查模式（Revie…时，用它产出或更新：完成所有 flow 生成后， 同时 做两件事： 按…",
+  "skill_id": "04596-mobile-8acd5932",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/flow-mobile/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/flow-mobile/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62bbf1a6a29c697446be35b79a9f3d92615edcc431ba39808765bb1610f68d6e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

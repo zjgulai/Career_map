@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-supply-chain-attribution",
+  "中文名称": "供应链成本因果归因 因果图拆解成本驱动因子",
+  "一句话作用": "触发词：成本因果归因、DAG 拆解、Shapley 值、汇率与运价、供应商切换测算。何时不用：要用时序生产图与图神经网络做链路归因用「知识图谱成本归因」；要按经营指标逐层归因生成报告用「多步推理 BI 归因」。安全边界：因果结论依赖建模假设，需做敏感性检验；供应商报价与成本数据属商业机密，不得外传。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链总监面临\"成本异常上升不知道是原材料还是汇率还是物流哪个因素主导\"——DAG因果图+Shapley拆解将成本驱动因子识别时间从2周分析压缩至4小时，年化决策准确度提升时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02877-p2s-causal-supply-chain-attribution-e504be16",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-supply-chain-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-supply-chain-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66279cf57789abdb98c8064b49d06cb32d4cacfd7f63776c7495e2ec8c8b7b27",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

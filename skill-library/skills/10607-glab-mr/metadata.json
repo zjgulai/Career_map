@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-mr",
+  "中文名称": "待补：glab-mr",
+  "一句话作用": "创建、查看、管理、批准和合并 GitLab merge request（合并请求）。适用于从分支/议题创建 MR、审查、批准、添加评论、解决讨论线程、本地检出、查看差异、变基、合并或管理状态等场景。触发关键词：merge request、MR、pull request、PR、审查、批准、合并、解决线程。",
+  "关键输入": "以下参数在 v1.87.0 中添加到 glab mr list：",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当 GitLab 拒绝位置数据时，glab api --field position[new line]=N 会静默回退为 普通 （非行内）评论。以下情况会触发此问题： - 全新文件（diff 中 new file: true） - 路径复杂或经过编码的文件 - 任何无法通过表单编码传递的嵌套 position 字段 不会报错 —— GitLab 只是丢弃 position 并创建一个普通讨论。除非你检查返回的 note 的 posi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10607-glab-mr-7ef73b54",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-mr/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-mr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1108c4aa1c51d5f987d13ec8852acc798c95f9d3593b5959a805d922d839744c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

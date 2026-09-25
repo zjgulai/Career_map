@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-product-publish",
+  "中文名称": "商品发布 Skill（新发 编辑）",
+  "一句话作用": "商品发布（新发+编辑）。负责发布前参数一致性自检（C1-C10）、双重确认、批量发布、发布错误诊断、结果汇总。支持两种模式：① 新发模式（搬品场景，productId 为空）② 编辑模式（存量商品优化场景，productId 非空）。统一使用 publish ggs migration product 接口。",
+  "关键输入": "注：如果是发布草稿品，这些自检项可以忽略。注意仅针对发布为草稿品的情况。其余情况一律不可忽略 。 注：如果是发布草稿品，这些自检项可以忽略。注意仅针对发布为草稿品的情况。其余情况一律不可忽略 注：如果是发布草稿品，这些自检项可以忽略。注意仅针对发布为草稿品的情况。其余情况一律不可忽略 在调用发布接口前，Agent 必须对 CSV 中的每个商品执行以下 10 项一致性自检。 建议使用 Python 脚本自动化执行 ：python references/build payload.py publish payload…",
+  "关键输出": "发布完成后，Agent 必须输出以下格式的总结：",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要商品发布（新发+编辑）。负责发布前参数一致性自检（C1-C10）、双重确认、批量发布、发布错误诊断、结果汇总。支持两种模式：① 新发模式（搬品场景，productId 为空）② 编辑模式（存量商品优化场景，productId 非空）。统一使用 publish ggs migration product 接口。时，用它产出或更新：发布完成后，Agent 必须输出以下格式的总结：",
+  "skill_id": "00181-alibaba-global-product-publish-f355fd34",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-publish/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-publish/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c5a58a0117e57388dfbd7a8413fd663d05fbbe05ed6c10db928b8244140cbbc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

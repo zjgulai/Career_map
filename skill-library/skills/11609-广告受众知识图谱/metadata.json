@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-audience-knowledge-graph",
+  "中文名称": "广告受众知识图谱）",
+  "一句话作用": "触发词：受众扩展、Lookalike 精准度、知识图谱推理、互补品购买、种子人群放大。何时不用：只做购买行为分层或人群标签生成用 RFM、画像类技能，本技能用关系网络做多跳人群扩展。安全边界：用户级行为数据须脱敏聚合后使用，图谱不得纳入敏感属性，扩展人群投放须遵守广告平台定向政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要FB/TikTok Lookalike 受众精准度不足，基于购买行为的种子人群太窄、扩展效果差——受众知识图谱通过互补品购买+跨域行为构建 140% 受众扩展，ROAS 从 2.1 提升到 3.4时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11609-p2s-audience-knowledge-graph-f551c0ac",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-audience-knowledge-graph/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-audience-knowledge-graph/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca068d09ca620b157491249e9b56f3e87c7227fcc8edb279dd369fbeb30a0c9a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

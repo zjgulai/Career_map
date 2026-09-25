@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-rpa-execution-new",
+  "中文名称": "待补：multi-platform-rpa-execution-new",
+  "一句话作用": "Executes multi-platform ecommerce RPA data collection, Chat collection, DSL compilation, rolling-concurrency browser RPA, result recording, and legacy-compatible request-level Excel delivery. Use when upstream provides…",
+  "关键输入": "- Static partial run: classify batch-request.json, assemble once, execute batches in order, apply each task's assembled retry policy in-batch, run post-processing, then report partial when recoveryTaskIds remains or del…",
+  "关键输出": "For each run report: - Overall status: complete, partial, waiting for user, or failed. - Counts of successful, partial, timed-out, failed, and missing-evidence tasks. - Request-level delivery directories under /execution/ /raw data/.",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Static partial run: classify batch-request.json, assemble once, execute batches in order, apply each task's assembled retry policy in-batch, run post-processing, then report partial when recoveryTaskIds remains or del…时，用它产出或更新：For each run report: - Ove…",
+  "skill_id": "00222-multi-platform-rpa-execution-new-cbe2fa62",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-rpa-execution-new/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-rpa-execution-new/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a1d570664fbb1928c643f2da3e2c2202cfa4c26d5871d98643f163b31d6b9a19",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

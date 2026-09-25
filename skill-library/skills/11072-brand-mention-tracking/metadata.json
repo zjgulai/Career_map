@@ -1,0 +1,22 @@
+{
+  "英文名称": "brand-mention-tracking",
+  "中文名称": "待补：brand-mention-tracking",
+  "一句话作用": "当用户需要跨平台追踪品牌声量、情感趋势与舆情风险时使用。触发词：社媒舆情追踪、品牌舆情、社媒舆情、声量趋势、社媒声量、social listening、reputation tracking。何时不用：单帖及评论串（仅分析单条帖子的评论互动）、单页分析、Amazon 评论批量分析、跨平台购买决策旅程、竞品品牌声量对比（应路由到 competitor-profiling）、单次即时查询（无长期追踪意图，仅查一次数字）。多条不同平台的社媒…",
+  "关键输入": "- 监听工具导出 : Brandwatch/Sprout/Hootsuite等导出文件 - API数据 : Twitter/Reddit API获取的数据 - 手动录入 : 标准格式CSV（支持独立使用） - 品牌关键词 : 监控主题 - 时间范围 : 分析周期",
+  "关键输出": "- 声量趋势图 - 情感分析分布 - 热门话题识别 - KOL提及分析 - 舆情风险预警",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 品牌舆情监测 - 社媒声量追踪 - 危机预警 - 营销活动效果评估 - KOL/UGC内容分析时，用它产出或更新：- 声量趋势图 - 情感分析分布 - 热门话题识别 - KOL提及分析 - 舆情风险预警",
+  "skill_id": "11072-brand-mention-tracking-06b5adbf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/brand-mention-tracking/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/brand-mention-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "097c016ea981d9dc75f8b3af5876e78d364e18aced0930934466b1a55b15a781",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

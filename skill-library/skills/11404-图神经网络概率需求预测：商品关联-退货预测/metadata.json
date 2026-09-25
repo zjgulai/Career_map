@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-graphdeepar-demand-forecasting",
+  "中文名称": "图神经网络概率需求预测：商品关联 退货预测",
+  "一句话作用": "触发词：图神经网络、概率需求预测、跨SKU传导、生命周期替代、商品关联图。何时不用：只做两两领先滞后检验用「跨SKU相关性挖掘」，逐单退货风险打分用「退货风险分预测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要预测工程师面临多SKU联动难学——GraphDeepAR将MAPE从21%降到12%，年化省23万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11404-p2s-graphdeepar-demand-forecasting-43599e4c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-graphdeepar-demand-forecasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-graphdeepar-demand-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a1538ba3fd708ffcb1e52cb1b707649da33031499221ecd5f66197cb2f7c402",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

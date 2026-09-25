@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-meeting-sdk-macos",
+  "中文名称": "待补：zoom-meeting-sdk-macos",
+  "一句话作用": "Zoom Meeting SDK for macOS native apps. Use when embedding Zoom meetings in macOS with default/custom UI, PKCE + SDK auth, host start/join flows, and desktop meeting feature controllers.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Zoom Meeting SDK for macOS native apps. Use when embedding Zoom meetings in macOS with default/custom UI, PKCE + SDK auth, host start/join flows, and desktop meeting feature controllers.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01190-zoom-meeting-sdk-macos-a1ed3de1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/macos/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/macos/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "672346a57037dafc1b174f9dbac00ab772e58a490b358ebd02e7196bad331f37",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

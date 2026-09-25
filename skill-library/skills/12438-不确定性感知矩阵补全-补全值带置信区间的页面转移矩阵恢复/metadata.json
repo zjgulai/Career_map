@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-utimac-uncertainty-completion",
+  "中文名称": "不确定性感知矩阵补全 - 补全值带置信区间的页面转移矩阵恢复",
+  "一句话作用": "触发词：页面转移矩阵补全、置信区间、不确定性量化、稀疏路径恢复、填充率不足、补全值可信度。何时不用：只需要一个点估计的转移概率、不关心可信度时用「Sparse-Matrix-Completion」；只算漏斗各步转化率与流失去向用「User-Funnel-Analysis」；本技能在补全的同时给出区间。安全边界：输出是带区间的概率估计而非事实，宽区间结论不得直接用于预算调整；用户路径与会话数据须脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务问题：跨境电商平台（如独立站）的用户行为分析依赖页面转移矩阵——HOME 页流向哪里时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12438-p2s-utimac-uncertainty-completion-ef9b0f28",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-utimac-uncertainty-completion/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-utimac-uncertainty-completion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "860035aab816ec5db8e1133fab7e245037ec974c6e743dcd68569f7c285a60f2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

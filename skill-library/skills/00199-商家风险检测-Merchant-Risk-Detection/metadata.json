@@ -1,0 +1,22 @@
+{
+  "英文名称": "商品风险检测",
+  "中文名称": "商家风险检测 (Merchant Risk Detection)",
+  "一句话作用": "跨境电商平台商家风险扫描入口，仅在用户明确表达风险、侵权、TRO、投诉、禁限售、违规、风控等风险排查意图时触发。 自动生成包含风险统计表格和后台处理链接的概览报告；不处理商品质量分、零效果、曝光点击转化、商品优化建议或普通“诊断商品”诉求。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境电商平台商家风险扫描入口，仅在用户明确表达风险、侵权、TRO、投诉、禁限售、违规、风控等风险排查意图时触发。 自动生成包含风险统计表格和后台处理链接的概览报告；不处理商品质量分、零效果、曝光点击转化、商品优化建议或普通“诊断商品”诉求。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00199-skill-ecc353b9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-risk-diagnosis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-risk-diagnosis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "49de514b6977ea378f6c222ce8fee1ebc77cafe1434a7845b67a243f945f934e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

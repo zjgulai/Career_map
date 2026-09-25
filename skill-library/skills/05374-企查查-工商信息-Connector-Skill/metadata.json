@@ -1,0 +1,22 @@
+{
+  "英文名称": "qcc-company",
+  "中文名称": "企查查（工商信息）Connector Skill",
+  "一句话作用": "Query and verify corporate registration information. Supports shareholder structure, actual controllers, beneficial owners, executive teams, external investments, financial data, annual reports, and listing information.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 数据忠实原则 ：严格引用工具返回的原始字段值，不推导、不编造未返回的信息 - 金额与日期 ：金额注明单位（元 / 万元）；日期以完整格式（YYYY-MM-DD）呈现 - 空数据处理 ：若工具返回为空或无记录，如实告知\"暂无该企业相关记录\"，不做猜测性描述 - 多工具结果 ：按主题归类展示，避免将不同维度数据混杂堆叠 - 信息时效提示 ：工商登记数据实时同步（T+0）；财务数据和年报依赖企业公示周期，可能存在滞后，必要时提示用户 ---",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Query and verify corporate registration information. Supports shareholder structure, actual controllers, beneficial owners, executive teams, external investments, financial data, annual reports, and listing information.时，用它产出或更新：- 数据忠实原则 ：严格引用工具返回的原始字段值，不推…",
+  "skill_id": "05374-qcc-company-f8c53739",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/qcc-company/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/qcc-company/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "57c81961229a34f5b2e12f082c252b81449c5a48215e4a09523ac5b265598a54",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

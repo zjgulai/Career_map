@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-business-scale-kpi-growth-achievement",
+  "中文名称": "生意规模三维KPI监控 销售增长率计划达成率完成比的实时预警与归因",
+  "一句话作用": "触发词：GMV 完成比、计划达成率、销售增长率、差异分解、旺季追踪。何时不用：要做异常根因路径溯源用「ProRCA」；要做用户价值预测与财务桥接用「用户 LTV 财务桥」。安全边界：达成率与预测准确率是两个不同管理维度，不得混用于同一激励或考核口径。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营团队混淆达成率与预测准确率导致错误激励设计——生意规模三维KPI（增长率/达成率/GMV完成比）+ Shapley差异分解将大促GMV干预决策精准度提升40%，书中特别强调两者是完全不同的管理维度时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12454-p2s-business-scale-kpi-growth-achievement-cc609df8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-business-scale-kpi-growth-achievement/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-business-scale-kpi-growth-achievement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "164655d8fce6ef0d4837a67f463d4439129c12954977441fbeca8a2f954dff86",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

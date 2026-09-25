@@ -1,0 +1,22 @@
+{
+  "英文名称": "sympy",
+  "中文名称": "待补：sympy",
+  "一句话作用": "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals…",
+  "关键输入": "Use this skill when: - Solving equations symbolically (algebraic, differential, systems of equations) - Performing calculus operations (derivatives, integrals, limits, series) - Manipulating and simplifying algebraic ex…",
+  "关键输出": "Convert to executable functions: Generate C/Fortran code: LaTeX output: For comprehensive code generation: See references/code-generation-printing.md",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use this skill when: - Solving equations symbolically (algebraic, differential, systems of equations) - Performing calculus operations (derivatives, integrals, limits, series) - Manipulating and simplifying algebraic ex…时，用它产出或更新：Convert to executable func…",
+  "skill_id": "05817-sympy-2c990b72",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/sympy/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/sympy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "abf896179da0757a0058e7541b663f38110916e0127f4e5de11812a773e92e3d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cross-border-selection",
+  "中文名称": "待补：cross-border-selection",
+  "一句话作用": "当用户需要从公开或授权的商品详情页抽取并校验 SKU 级跨境电商数据时使用。 触发词：跨境选品、SKU采集、ASIN采集、商品详情页、变体展开、选品数据校验、SKU数据校验、详情页优先采集、ASIN字段提取、SKU展开CSV。 This skill should be used when the user needs SKU-level cross-border e-commerce product data extraction o…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Run summary：入口、ASIN 数、SKU 数、失败数。 - Product-level JSON：ASIN 级聚合字段。 - SKU-expanded CSV：每个 SKU variant 独立一行。 - Validation report：字段完整率、SKU count check、image URL check。 - Notes：采集限制、失败原因、未验证项。",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当用户需要从公开或授权的商品详情页抽取并校验 SKU 级跨境电商数据时使用。 触发词：跨境选品、SKU采集、ASIN采集、商品详情页、变体展开、选品数据校验、SKU数据校验、详情页优先采集、ASIN字段提取、SKU展开CSV。 This skill should be used when the user needs SKU-level cross-border e-commerce product data extraction o…时，用它产出或更新：- Run summary：入口、ASIN 数、SK…",
+  "skill_id": "11081-cross-border-selection-850ffcb0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/cross-border-selection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/cross-border-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0fda69bec6271230f26a920bfebab6cd848e5b53d505dc148430d7bfd29594f8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

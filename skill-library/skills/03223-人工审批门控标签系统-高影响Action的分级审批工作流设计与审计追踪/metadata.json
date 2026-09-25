@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-human-in-loop-approval-gate-tag",
+  "中文名称": "人工审批门控标签系统 高影响Action的分级审批工作流设计与审计追踪",
+  "一句话作用": "触发词：人工审批门控、分级审批、审批标签、高影响动作、审计追踪。何时不用：只是校准模型置信分数、不涉及审批流与留痕时用置信度校准技能；要复核证据链本身时用证据复核类技能。安全边界：涉及法务与合规层级的动作必须走对应人工审批，不得绕过门控自动放行，审批记录须留存可追溯。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI自动化团队面临\"全自动系统触发误操作风险\"——分级审批门控(Auto/Manager/VP/Legal)防止高影响错误操作，保障合规留痕，防范潜在50-100万元损失时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03223-p2s-human-in-loop-approval-gate-tag-89f3b29d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-human-in-loop-approval-gate-tag/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-human-in-loop-approval-gate-tag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6e907ed8abddc63405715d7deaf0c47995548f3b70685b0544198398adc06b1c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "student-discount-application",
+  "中文名称": "学生优惠申请",
+  "一句话作用": "办理豆包专业版学生优惠申请：引导用户绑定抖音、完成学生认证并领取权益。仅当用户明确提出申请、继续办理或查询申请状态时加载；单纯咨询优惠或诉求不明确时不加载。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "调用工具后，只需要确认以下几点： - content 里有实际内容（不是空白）； - errorMsg 可以读到； - 进入 STUDENT AUTH REQUIRED 且需要展示二维码时，content 文本中包含二维码图片链接（以 https://aka.doubaocdn.com/ 开头的 URL）。 判断优先级：只要 errorMsg 不为空，就按错误处理（即使 content 里出现成功字样）。如果 errorMsg 为空但 content 明确写了失败，也按错误处理。重新查询一次后仍然不完整或阶段冲突…",
+  "最新更新时间": "2026-09-16T11:25:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要办理豆包专业版学生优惠申请：引导用户绑定抖音、完成学生认证并领取权益。仅当用户明确提出申请、继续办理或查询申请状态时加载；单纯咨询优惠或诉求不明确时不加载。时，用它产出或更新：调用工具后，只需要确认以下几点： - content 里有实际内容（不是空白）； - errorMsg 可以读到； - 进入 STUDENT AUTH REQUIRED 且需要展示二维码时，content 文本中包含二维码图片链接（以 https://aka.doubaocdn.com/ 开头的 URL）。 判断优先级：只要 erro…",
+  "skill_id": "06731-student-discount-application-1225ba0b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/student-discount-application/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/student-discount-application/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "86a795fecdb229db1a90850f5ec528984ec828f1012829b1846ba9e5ac6fc620",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

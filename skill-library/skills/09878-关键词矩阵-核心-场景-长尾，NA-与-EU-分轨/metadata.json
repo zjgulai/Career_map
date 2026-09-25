@@ -1,0 +1,22 @@
+{
+  "英文名称": "关键词矩阵（核心/场景/长尾，NA 与 EU 分轨）",
+  "中文名称": "待补：关键词矩阵（核心/场景/长尾，NA 与 EU 分轨）",
+  "一句话作用": "当需要为亚马逊/TikTok/独立站搭建可批量用于 Listing 与广告的三层关键词矩阵时调用；必须指定 market profile，北美与欧洲不得混表。",
+  "关键输入": "- 已选站点与语言（如 Amazon US 英语；Amazon DE 德语为主）。 - 有关键词研究工具导出的原始表或搜索量字段时可粘贴；无则基于品类与竞品 Listing 反推并标注「待验证」。",
+  "关键输出": "- 表格：层级 关键词 语言 意图 证据/来源 建议用于标题/五点/搜索词 备注 - 每 SKU 或每 ASIN 目标一页摘要。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要为亚马逊/TikTok/独立站搭建可批量用于 Listing 与广告的三层关键词矩阵时调用；必须指定 market profile，北美与欧洲不得混表。时，用它产出或更新：- 表格：层级 关键词 语言 意图 证据/来源 建议用于标题/五点/搜索词 备注 - 每 SKU 或每 ASIN 目标一页摘要。",
+  "skill_id": "09878-na-eu-abd3b587",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/keyword-matrix-builder/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/keyword-matrix-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b90b958229fcb2b0e3b10a11d074d5b201ca4b217d6c2ccc2a93c05f11d19f75",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

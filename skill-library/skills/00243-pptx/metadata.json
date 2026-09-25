@@ -1,0 +1,22 @@
+{
+  "英文名称": "pptx",
+  "中文名称": "待补：pptx",
+  "一句话作用": "Presentation creation, editing, and analysis. Use when working with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or spe…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T12:02:17+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Presentation creation, editing, and analysis. Use when working with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or spe…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00243-pptx-04610ced",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/presentations/skills/pptx/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/presentations/skills/pptx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "10d00c6b4de404a4b2d2b0252c08061dfeb94008f266589b0b4bb5755b83425e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

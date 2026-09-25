@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-oos-emergency-airfreight-gate",
+  "中文名称": "库存DOS危急海运延误自动触发紧急空运决策门控",
+  "一句话作用": "触发词：紧急空运、断货预警、海运延误、DOS 告急、空运审批。何时不用：要算补多少货用「补货模拟」，要预测未来销量用「需求预测」；本技能只判断某批货是否该触发空运。安全边界：本技能只给触发判据与建议，不直接下单空运，空运申请须推送供应链负责人限时审批。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链负责人面临\"海运延误叠加断货风险\"——DOS<7天+在途延误自动触发空运决策门控将断货期从8天缩短至2天，年化避损60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11474-p2s-oos-emergency-airfreight-gate-1921f1cb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-oos-emergency-airfreight-gate/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-oos-emergency-airfreight-gate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3ca3b7b5c8c380cc6aad56a276c1513cd84492773bff1df878d59a54710b77ce",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

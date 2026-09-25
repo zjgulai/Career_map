@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-incrementality-measurement",
+  "中文名称": "待补：p2s-incrementality-measurement",
+  "一句话作用": "触发词：p2s-incrementality-measurement。Skill-Incrementality-Measurement",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "与同目录两张卡的分工 ：Skill-User-Funnel-Analysis.md 回答「漏斗每一步流失多少」，Skill-Cohort-Retention-Analysis.md 回答「按批次看留存」。两张卡都建立在 同一份可观测事件表 之上。本卡问的是更上游的问题：漏斗顶端那些「种草了、但在别的平台成交」的增量，在归因数据里 根本不存在 ——不是漏斗哪一步漏了，而是这笔转化从未被记到发起渠道名下。因此本卡与 Skill-Ad-Attribution-Modeling.md（归因口径）是 替代关系 ，不是叠加关…",
+  "最新更新时间": "2026-09-13T21:15:13+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-incrementality-measurement。Skill-Incrementality-Measurement时，用它产出或更新：与同目录两张卡的分工 ：Skill-User-Funnel-Analysis.md 回答「漏斗每一步流失多少」，Skill-Cohort-Retention-Analysis.md 回答「按批次看留存」。两张卡都建立在 同一份可观测事件表 之上。本卡问的是更上游的问题：漏斗顶端那些「种草了、但在别的平台成交」的增量，在归因数据里 根本不存在 ——不是漏斗哪…",
+  "skill_id": "11706-p2s-incrementality-measurement-7badd72b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-incrementality-measurement/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-incrementality-measurement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "08f17e4c5e9331ef9a598c10872a34e7f909ffe7f06ac0c4995c31c1b52df699",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

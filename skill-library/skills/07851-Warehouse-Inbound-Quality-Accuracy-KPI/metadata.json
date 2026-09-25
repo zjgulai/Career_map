@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Warehouse-Inbound-Quality-Accuracy-KPI",
+  "中文名称": "待补：Warehouse Inbound Quality Accuracy KPI",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 85.0, \"best\": 85.0, \"ts\": \"2026-07-04T01:46:20.301465\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:46:20+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 85.0, \"best\": 85.0, \"ts\": \"2026-07-04T01:46:20.301465\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07851-skill-warehouse-inbound-quality-accuracy-kpi-24914dc6",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Warehouse-Inbound-Quality-Accuracy-KPI.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Warehouse-Inbound-Quality-Accuracy-KPI.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "31687549d12094dd911890d1bb99d71027a5242e7197c89244f11929b0ae7c90",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

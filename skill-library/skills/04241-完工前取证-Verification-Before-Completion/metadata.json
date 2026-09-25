@@ -1,0 +1,22 @@
+{
+  "英文名称": "verification-before-completion",
+  "中文名称": "完工前取证（Verification Before Completion）",
+  "一句话作用": "在声称完成、修好或通过之前强制先跑一遍验证命令并读完输出：给出门函数五步、常见失败对照表与借口拦截表。触发词：完工前取证、verification-before-completion、在声称完成、修好或通过之前强制先跑一遍验证命令并读完输出：给出门函数五步、常见失败对照表与借口拦截表。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要在声称完成、修好或通过之前强制先跑一遍验证命令并读完输出：给出门函数五步、常见失败对照表与借口拦截表。触发词：完工前取证、verification-before-completion、在声称完成、修好或通过之前强制先跑一遍验证命令并读完输出：给出门函数五步、常见失败对照表与借口拦截表。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04241-verification-before-completion-52a62949",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/verification-before-completion/SKILL.md",
+  "relative_path": "lute/.dsh/skills/verification-before-completion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d9fa5e35241aa8348e4e91bb0cfb8bd4799158e4e3597ac0b9689e94960a15d1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

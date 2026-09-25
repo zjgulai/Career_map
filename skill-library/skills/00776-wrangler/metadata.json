@@ -1,0 +1,22 @@
+{
+  "英文名称": "wrangler",
+  "中文名称": "待补：wrangler",
+  "一句话作用": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands t…",
+  "关键输入": "wrangler workflows trigger my-workflow --params '{\"key\": \"value\"}'",
+  "关键输出": "wrangler types ./src/env.d.ts",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands t…时，用它产出或更新：wrangler types ./src/env.d…",
+  "skill_id": "00776-wrangler-810c661c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/cloudflare/skills/wrangler/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/cloudflare/skills/wrangler/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0aa6fbe6932df4392779bfda67b1a0165697369668cb2dbef66d018a34f44c11",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

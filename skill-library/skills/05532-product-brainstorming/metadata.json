@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-brainstorming",
+  "中文名称": "待补：product-brainstorming",
+  "一句话作用": "Brainstorm product ideas, explore problem spaces, and challenge assumptions as a thinking partner. Use when exploring a new opportunity, generating solutions to a product problem, stress-testing an idea, or when a PM ne…",
+  "关键输入": "Use when the PM has a problem area but has not yet defined what to solve. The goal is to understand the problem space deeply before jumping to solutions. What to do: - Ask \"who has this problem?\" and \"what are they doin…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Use when the PM has a problem area but has not yet defined what to solve. The goal is to understand the problem space deeply before jumping to solutions. What to do: - Ask \"who has this problem?\" and \"what are they doin…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05532-product-brainstorming-e4fc1a27",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/product-brainstorming/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/product-brainstorming/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "53ee71b6863b277aba87002d8a5bb58bd2a4172d7cfeb2e282a0161958edc8e7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

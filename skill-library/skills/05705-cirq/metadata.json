@@ -1,0 +1,22 @@
+{
+  "英文名称": "cirq",
+  "中文名称": "待补：cirq",
+  "一句话作用": "Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "print(result.histogram(key='result'))",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level…时，用它产出或更新：print(result.histogram(key…",
+  "skill_id": "05705-cirq-d9ff16bc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/cirq/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/cirq/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b1d243c10ba5ff2bcf382d4ac525df57c2ed154796be6fcf49adb4a80e1f6d9e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "prompt-design-studio",
+  "中文名称": "提示词设计工坊",
+  "一句话作用": "提示词设计工坊：帮助中小学教师把备课、命题、评价设计中的具体需求变成一份可直接提交给通用AI的专业提示语模板。基于高质量学习教学设计理论（波哥公式、五星网状模型、三知图、评价理论），覆盖教学设计、教学环节、学习目标、学情分析、评价设计、学习资源、特殊需求七大类场景。当教师提到设计提示词、生成提示语模板、AI备课模板、写prompt、帮我写个提示词、教学设计模板时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:57+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要提示词设计工坊：帮助中小学教师把备课、命题、评价设计中的具体需求变成一份可直接提交给通用AI的专业提示语模板。基于高质量学习教学设计理论（波哥公式、五星网状模型、三知图、评价理论），覆盖教学设计、教学环节、学习目标、学情分析、评价设计、学习资源、特殊需求七大类场景。当教师提到设计提示词、生成提示语模板、AI备课模板、写prompt、帮我写个提示词、教学设计模板时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04622-prompt-design-studio-01b4d45c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/prompt-design-studio/1.1.0/skills/prompt-design-studio/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/prompt-design-studio/1.1.0/skills/prompt-design-studio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "92b352900cf43fdfe077b04eafa537186691dbf0647324e27da566e72b0e0103",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

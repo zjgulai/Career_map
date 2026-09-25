@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-quality-monitoring",
+  "中文名称": "数据质量监控配置",
+  "一句话作用": "数据质量监控（DQC）规则配置助手。用于实时任务上线前 / 出现告警时配置 DQC 规则——5 类规则模板（空值/重复/波动/枚举值/主外键）+ 阈值决策因子（不写死\"波动阈值 10%\"，而是基于业务特征引导用户判断）。最终输出可直接导入阿里云 DataWorks DQC 的规则配置 + 告警通道映射。当用户说\"给这张表生成 DQC 规则\"、\"上线前需要配什么监控\"、\"告警了帮我看看怎么调阈值\"时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "DQC 配置清单 （可直接导入 DataWorks）： 规则名 规则类型 字段 表达式 阈值 告警级别 告警通道 -------- --------- ------ -------- ------ --------- --------- 每条规则附带 配置理由 （为什么这个阈值，依赖哪些假设）——便于后续调阈值时知道原始上下文。",
+  "最新更新时间": "2026-09-19T03:38:09+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据质量监控（DQC）规则配置助手。用于实时任务上线前 / 出现告警时配置 DQC 规则——5 类规则模板（空值/重复/波动/枚举值/主外键）+ 阈值决策因子（不写死\"波动阈值 10%\"，而是基于业务特征引导用户判断）。最终输出可直接导入阿里云 DataWorks DQC 的规则配置 + 告警通道映射。当用户说\"给这张表生成 DQC 规则\"、\"上线前需要配什么监控\"、\"告警了帮我看看怎么调阈值\"时触发。时，用它产出或更新：DQC 配置清单 （可直接导入 DataWorks）： 规则名 规则类型 字段 表达式…",
+  "skill_id": "04626-data-quality-monitoring-505e4321",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/data-quality-monitoring/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/data-quality-monitoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9bb6bfda1af679e62577faf8ce9b3302d2a74e7f372c3718d37d442d455dc95",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

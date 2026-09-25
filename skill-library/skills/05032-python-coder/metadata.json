@@ -1,0 +1,22 @@
+{
+  "英文名称": "python-coder",
+  "中文名称": "待补：python-coder",
+  "一句话作用": "Modern Python 3.12+ development with uv, ruff, and production-ready practices. Routes to specialized skills for frameworks and testing.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Modern Python 3.12+ development with uv, ruff, and production-ready practices. Routes to specialized skills for frameworks and testing.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05032-python-coder-ad55ecc4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/python-coder/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/python-coder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bd2cf46515fb728c8db30ba02121803afd4b636939ef2ad8e9a6e5d19d6ff30f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

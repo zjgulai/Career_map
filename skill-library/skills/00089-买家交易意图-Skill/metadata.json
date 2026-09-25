@@ -1,0 +1,22 @@
+{
+  "英文名称": "buyer-trade-intent",
+  "中文名称": "买家交易意图 Skill",
+  "一句话作用": "买家「下单 / 订单查询 / 地址查询 / 订单调整 / 交易通知 / 售后退款」类诉求的统一入口。命中以下任一即触发: 1. 下单意图:明确购买、索要下单链接、确认买某款、先下几件/几箱/几台、发起询盘下单(尤其上下文已有商品链接 / 卡片 / productId)。 2. 查询类(订单 + 地址):订单状态/详情/进度/付款/订单号查询;查/列出/切换收货地址、按国家或序号挑地址。无论是否处于下单上下文都触发;订单查询走正向流程…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要买家「下单 / 订单查询 / 地址查询 / 订单调整 / 交易通知 / 售后退款」类诉求的统一入口。命中以下任一即触发: 1. 下单意图:明确购买、索要下单链接、确认买某款、先下几件/几箱/几台、发起询盘下单(尤其上下文已有商品链接 / 卡片 / productId)。 2. 查询类(订单 + 地址):订单状态/详情/进度/付款/订单号查询;查/列出/切换收货地址、按国家或序号挑地址。无论是否处于下单上下文都触发;订单查询走正向流程…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00089-buyer-trade-intent-c68c4e8c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/buyer-trade-intent/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/buyer-trade-intent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "687d865a5fdc3c3b55f2dd3b5be16fc4835a85698d865aa8349b2c6150427893",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

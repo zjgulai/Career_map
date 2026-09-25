@@ -1,0 +1,22 @@
+{
+  "英文名称": "qmd",
+  "中文名称": "待补：qmd",
+  "一句话作用": "Local hybrid search for markdown notes and docs. Use when searching notes, finding related content, or retrieving documents from indexed collections.",
+  "关键输入": "- Bun = 1.0.0 - macOS: brew install sqlite (SQLite extensions) - Ensure PATH includes: $HOME/.bun/bin Install Bun (macOS): brew install oven-sh/bun/bun",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- \"search my notes / docs / knowledge base\" - \"find related notes\" - \"retrieve a markdown document from my collection\" - \"search local markdown files\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05939-qmd-86083d1a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/qmd/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/qmd/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "12597e456ce729f08ae97b3f06e98731db94d16c7125d3d59df6b2a676ec9b2b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

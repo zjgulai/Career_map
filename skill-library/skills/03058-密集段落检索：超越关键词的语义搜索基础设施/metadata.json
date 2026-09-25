@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dense-passage-retrieval",
+  "中文名称": "密集段落检索：超越关键词的语义搜索基础设施",
+  "一句话作用": "触发词：密集检索、语义召回、DPR 向量、同义词与多语言查询、Recall 提升。何时不用：要同时覆盖精确型号与 ASIN 这类字面查询时用「稀疏+稠密混合检索」；要用 LLM 直接理解复杂自然语言意图时用「LLM 生成式商品搜索」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要独立站搜索「安静吸奶器」找不到「low noise breast pump」的产品因为BM25只做关键词匹配——DPR密集向量检索捕捉语义相似度，搜索Recall@10提升25-40%长尾查询和多语言搜索大幅改善年化GMV增益15-45万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03058-p2s-dense-passage-retrieval-2cbd591f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dense-passage-retrieval/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dense-passage-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2ad7a82464c1c8c5e803c95d79052bdd83a0ae56d84133dd7c2b9d61d22b4f2d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

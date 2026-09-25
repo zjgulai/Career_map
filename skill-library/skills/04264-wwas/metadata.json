@@ -1,0 +1,22 @@
+{
+  "英文名称": "wwas",
+  "中文名称": "待补：wwas",
+  "一句话作用": "把一项工作写成动机、内容与验收条件齐全的条目，让实现范围与验收口径无歧义。触发词：验收条目撰写、wwas、把一项工作写成动机、内容与验收条件齐全的条目，让实现范围与验收口径无歧义。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Complete set of backlog items for the feature - Each item includes Why, What, and Acceptance Criteria sections - Items are independent and deliverable in any order - Items are sized for estimation and completion in one sprint - Strategic context is clear fo…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要把一项工作写成动机、内容与验收条件齐全的条目，让实现范围与验收口径无歧义。触发词：验收条目撰写、wwas、把一项工作写成动机、内容与验收条件齐全的条目，让实现范围与验收口径无歧义。时，用它产出或更新：- Complete set of backlog items for the feature - Each item includes Why, What, and Acceptance Criteria sections - Items are independent and deliverable in…",
+  "skill_id": "04264-wwas-4603af35",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/wwas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/wwas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d9b414b816e6eb3231d651d6e82c38abc518c8a761312bddb7c3743577289c23",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

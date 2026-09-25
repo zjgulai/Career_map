@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-structural-analysis",
+  "中文名称": "跨境电商结构分析法",
+  "一句话作用": "跨境电商结构分析法 - 通过分析指标内部构成，快速定位问题来源。支持人货场多维度拆解，是差异归因的基础方法",
+  "关键输入": "细分 目标 实际 差异 贡献度 ------ ------ ------ ------ --------",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T01:53:25+08:00",
+  "业务场景": "methodology-analysis",
+  "解决具体问题": "当需要细分 目标 实际 差异 贡献度 ------ ------ ------ ------ --------时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09437-cbec-structural-analysis-becb763f",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/13-methodology-analysis/structural-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/13-methodology-analysis/structural-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "94cca1619821db1c30a12ea33996d3be3a7bc392df7dfa528e968a7be6cb766d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

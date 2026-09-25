@@ -1,0 +1,22 @@
+{
+  "英文名称": "semantic-density-analyzer",
+  "中文名称": "待补：semantic-density-analyzer",
+  "一句话作用": "当用户需要评估文本的知识密度、识别高价值内容区域、生成知识热力图或为 RAG 系统筛选内容时使用。触发词：语义密度分析器、语义密度、知识密度、内容评估、NLP分析、密度评分、热力图、knowledge density、density score。何时不用：文档很短（<1000 tokens）无需密度分析、只需简单关键词统计、实时流式处理、不需要区分内容价值的场景；semantic-bucketer（SKU标签分组）、semantic-…",
+  "关键输入": "- 评估文档不同部分的知识密度 - 构建 RAG 系统时筛选高价值内容 - 生成知识热力图可视化 - 优化知识提取策略（密度高的区域提取更多 SKU） - 长文档关键内容定位 - 内容质量评估与分级",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 评估文档不同部分的知识密度 - 构建 RAG 系统时筛选高价值内容 - 生成知识热力图可视化 - 优化知识提取策略（密度高的区域提取更多 SKU） - 长文档关键内容定位 - 内容质量评估与分级时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11122-semantic-density-analyzer-27f10854",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/semantic-density-analyzer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/semantic-density-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a8b8df0334a15c86375c281950a53901e184a47e75b9651872dfb0b406c6332",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

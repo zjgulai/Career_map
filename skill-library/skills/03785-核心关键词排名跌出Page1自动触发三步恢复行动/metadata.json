@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-rank-recovery-auto-action",
+  "中文名称": "核心关键词排名跌出Page1自动触发三步恢复行动",
+  "一句话作用": "触发词：排名跌出恢复、Page1 阈值、排名分级、恢复行动清单、Top of Search 出价。何时不用：要做的是竞品词缺口挖掘而非已排名词的恢复时用「竞品关键词缺口分析」；要判断的是 Listing 被算法压制时用「Listing 压制检测」。安全边界：只产出分级恢复行动与出价建议，实际改标题与建广告须人工或工具执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"核心关键词排名跌出Page1但未及时响应\"——排名跌出自动触发三步恢复行动将排名恢复时间从14天缩短至5天，年化保护自然流量价值50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03785-p2s-search-rank-recovery-auto-action-e7b0484f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-search-rank-recovery-auto-action/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-search-rank-recovery-auto-action/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5a00117fe4bf2e91d949ac21563a48e03aa9fda50ceca17a4bd620d38697cada",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "user-only-skill",
+  "中文名称": "待补：user-only-skill",
+  "一句话作用": "Prove model-disabled skills stay outside the model catalog.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T11:24:34+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Prove model-disabled skills stay outside the model catalog.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12665-user-only-skill-a60405b4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/snapshots/session/skill-load/workspace/.dsh/skills/user-only-skill/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/snapshots/session/skill-load/workspace/.dsh/skills/user-only-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea2cbfb074a307ce8707104431a52e4637885b7104a031eefd3fda7b6e5b8bc7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

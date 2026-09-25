@@ -1,0 +1,22 @@
+{
+  "英文名称": "triage-finding",
+  "中文名称": "待补：triage-finding",
+  "一句话作用": "Use when the user supplies or imports existing security findings, vulnerability reports, or security/vulnerability Jira/Linear tickets from scanners, advisories, GitHub, Atlassian Rovo, Linear, or similar backlog source…",
+  "关键输入": "If no finding is supplied, do not inspect the repository, do not classify a verdict, and do not emit the triage-finding/v0 JSON contract. Ask the user to provide a finding to triage. Name the supported formats: SARIF results, CVE/GHSA or advisory descriptions…",
+  "关键输出": "The Markdown result should include: - finding title or input id - verdict and confidence - short rationale - affected locations, if any - reachable path, if established - boundary assessment: product surface, source trust level, policy basis, and whether a su…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when the user supplies or imports existing security findings, vulnerability reports, or security/vulnerability Jira/Linear tickets from scanners, advisories, GitHub, Atlassian Rovo, Linear, or similar backlog source…时，用它产出或更新：The Markdown result should…",
+  "skill_id": "00789-triage-finding-5c08aaaf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/codex-security/skills/triage-finding/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/codex-security/skills/triage-finding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "70b0e771f286443ea32bbf466ad378b36f9123b4aa171ab02c6680fdbdb704f9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ohos-react-native-performance",
+  "中文名称": "待补：ohos-react-native-performance",
+  "一句话作用": "OpenHarmony React Native performance static checks and optimization. Based on ohos react native performance doc. Use when writing or reviewing React Native for OpenHarmony code, bundle-harmony, lifecycle, or TurboModule…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要OpenHarmony React Native performance static checks and optimization. Based on ohos react native performance doc. Use when writing or reviewing React Native for OpenHarmony code, bundle-harmony, lifecycle, or TurboModule…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04993-ohos-react-native-performance-39b88489",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ohos-react-native-performance/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ohos-react-native-performance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b7b50c59edb1f10318065a4d250acafb46fe047fbc8d1f930f758ba66ee6acf6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

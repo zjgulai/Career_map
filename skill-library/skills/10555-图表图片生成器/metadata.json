@@ -1,0 +1,22 @@
+{
+  "英文名称": "chart-gen",
+  "中文名称": "图表图片生成器",
+  "一句话作用": "从JSON数据生成高质量PNG/SVG图表图片，支持折线图、柱状图、面积图、散点图、K线图、饼图/环形图、热力图、多系列图和堆叠图等多种类型。适用于快速可视化数据、生成报告图表、绘制趋势变化等场景。当用户请求“生成图表”、“画个趋势图”、“做个柱状图”、“可视化这些数据”，或提供具体数据并要求“做成图表图片”、“导出为PNG”时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:59+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要从JSON数据生成高质量PNG/SVG图表图片，支持折线图、柱状图、面积图、散点图、K线图、饼图/环形图、热力图、多系列图和堆叠图等多种类型。适用于快速可视化数据、生成报告图表、绘制趋势变化等场景。当用户请求“生成图表”、“画个趋势图”、“做个柱状图”、“可视化这些数据”，或提供具体数据并要求“做成图表图片”、“导出为PNG”时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10555-chart-gen-3f1192f4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/chart-gen/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/chart-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "def86a5b0f7e931774e92b377b7c2b39938f5e620bea93b299156c4c1ff16ac5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

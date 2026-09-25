@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-variance-reduction-control-variates",
+  "中文名称": "控制变量法降方差（MLRATE",
+  "一句话作用": "触发词：控制变量、MLRATE、CUPED 降方差、等效样本量、协变量调整、实验灵敏度。何时不用：没有可信的实验前协变量时不要用；只想算样本量、还没设计实验时用功效分析。安全边界：控制变量不可包含实验期数据以免污染估计，使用内部历史数据需先确认无隐私风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要实验平台工程师面临\"实验样本量不足导致检验功效过低错过真实效果\"——控制变量降方差将等效样本量提升40-60%，年化减少实验等待时间节省机会成本15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11861-p2s-variance-reduction-control-variates-62df77d0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-variance-reduction-control-variates/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-variance-reduction-control-variates/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "41e290d501d73da96f34826c2febba652d6facab2d6a6234b8de5d6214939958",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

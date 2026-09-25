@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skywork Search",
+  "中文名称": "待补：Skywork Search",
+  "一句话作用": "Search the web for real-time information using the Skywork web search API. Use this skill whenever the user needs up-to-date information from the internet — for example, researching a topic, looking up recent events, fi…",
+  "关键输入": "- The user asks you to research a topic or find current information - You need up-to-date facts, statistics, or news to answer a question - Another task (writing a report, creating a PPT, drafting a document) needs web…",
+  "关键输出": "After running the script, read the output files. Each file contains: Synthesize the results into a clear answer for the user. Always cite sources when presenting factual information — include the URLs from the results so the user can verify.",
+  "最新更新时间": "2026-05-25T22:03:34+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- The user asks you to research a topic or find current information - You need up-to-date facts, statistics, or news to answer a question - Another task (writing a report, creating a PPT, drafting a document) needs web…时，用它产出或更新：After running the script, r…",
+  "skill_id": "06131-skywork-search-74946367",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/Skywork Search/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/Skywork Search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aaeb6e44a6b4742771ecf374b2444ea7c2460742f2e5e796656d8b109ede5605",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

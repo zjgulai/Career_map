@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-sentiment-growth-trigger",
+  "中文名称": "评论情感趋势监控与产品迭代自动触发",
+  "一句话作用": "触发词：情感趋势监控、7日滚动均值、迭代自动触发、评分下滑预警、方面词定位、工单创建。何时不用：要做一次性差评根因排序用「差评根因分析」；要判断某次改动造成的情感变化用「因果VOC归因」。安全边界：情感下滑须经人工二审确认后再建单，不得仅凭模型判定自动下架评论或改动商品页；评论真实性与消费者隐私须符合平台评价规范与个人信息保护要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临评分从4.2跌至3.7却不知何时该启动优化、客诉爆发后3个月才改版——7日滚动情感均值触发机制将响应时间从90天压缩到28天，年化保护转化率贡献GMV约$77,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03741-p2s-review-sentiment-growth-trigger-19af37a8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-review-sentiment-growth-trigger/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-review-sentiment-growth-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0bf43e9a55e3234cb85ab16a5d0c24e1732f9ad6450cf13d9e87c572a1641807",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

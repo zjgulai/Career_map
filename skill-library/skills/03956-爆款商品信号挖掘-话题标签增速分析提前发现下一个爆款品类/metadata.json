@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-trending-product-signal",
+  "中文名称": "爆款商品信号挖掘 话题标签增速分析提前发现下一个爆款品类",
+  "一句话作用": "触发词：话题增速、爆款信号、选品优先级、社媒选品。何时不用：缺少连续话题播放量数据时不用本卡；判断搜索与排名层面的品类趋势用趋势预测类技能。安全边界：需遵守平台 API 条款，不得爬取非公开数据；母婴品类数据不得含未成年人可识别信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要选品运营面临\"总是比竞品晚2-4周发现TikTok爆款品类错过流量红利\"——话题标签增速信号挖掘将爆款发现提前2-4周，首波流量红利年化GMV$4.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03956-p2s-tiktok-trending-product-signal-e526525f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tiktok-trending-product-signal/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tiktok-trending-product-signal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0898d96ee4751621fbf7616f9f5f6334b7274ff33d1c70d83c0c3f6ac9768f70",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

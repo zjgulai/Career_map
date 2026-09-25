@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudbase-wechat-integration",
+  "中文名称": "待补：cloudbase-wechat-integration",
+  "一句话作用": "CloudBase WeChat integration guide for Mini Program WeChat Pay, Mini Program virtual payment (虚拟支付, wx.requestVirtualPayment), Official Account JSAPI Pay, Native QR-code Pay, Official Account OAuth, openid handling, pay…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要CloudBase WeChat integration guide for Mini Program WeChat Pay, Mini Program virtual payment (虚拟支付, wx.requestVirtualPayment), Official Account JSAPI Pay, Native QR-code Pay, Official Account OAuth, openid handling, pay…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00592-cloudbase-wechat-integration-65586b28",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.agents/skills/cloudbase-wechat-integration/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.agents/skills/cloudbase-wechat-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a3cb2feadcebefcd2b388148c59f578583c3fe81aeb9a113e6ca2f6351e9ec22",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

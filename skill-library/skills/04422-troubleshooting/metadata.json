@@ -1,0 +1,22 @@
+{
+  "英文名称": "troubleshooting",
+  "中文名称": "待补：troubleshooting",
+  "一句话作用": "Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list pages, new page, or navigate page fail, or when the server initialization fails.",
+  "关键输入": "You are acting as a troubleshooting wizard to help the user configure and fix their Chrome DevTools MCP server setup. When this skill is triggered (e.g., because list pages, new page, or navigate page failed, or the ser…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:06+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要You are acting as a troubleshooting wizard to help the user configure and fix their Chrome DevTools MCP server setup. When this skill is triggered (e.g., because list pages, new page, or navigate page failed, or the ser…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04422-troubleshooting-41b865bc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/chrome-devtools-mcp/1.9.0/skills/troubleshooting/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/chrome-devtools-mcp/1.9.0/skills/troubleshooting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e534a7845f71cd4c1843d92da3002716af917821b95877bc8e8555d17267e30e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

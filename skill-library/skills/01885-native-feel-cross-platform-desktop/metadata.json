@@ -1,0 +1,22 @@
+{
+  "英文名称": "native-feel-cross-platform-desktop",
+  "中文名称": "待补：native-feel-cross-platform-desktop",
+  "一句话作用": "Use when the user is designing, prototyping, or rewriting a desktop app that must run on multiple OSes (macOS + Windows, optionally Linux) AND feel indistinguishable from a native app to its users — fast launch, native…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When advising: - Quote the specific tenet from references/01-philosophy.md that applies (e.g., \"T3 — adopt the platform; don't compete with it: the OS draws blur better than you can\" ). - Cite the file and section, not the whole skill. - For each recommendati…",
+  "最新更新时间": "2026-05-15T10:20:05+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use when the user is designing, prototyping, or rewriting a desktop app that must run on multiple OSes (macOS + Windows, optionally Linux) AND feel indistinguishable from a native app to its users — fast launch, native…时，用它产出或更新：When advising: - Quote the…",
+  "skill_id": "01885-native-feel-cross-platform-desktop-3aae7637",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/native-feel-cross-platform-desktop/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/native-feel-cross-platform-desktop/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cc2cddc8f89e956449f823a265c732932c12c9d7298df6128d321fb13bd142cd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

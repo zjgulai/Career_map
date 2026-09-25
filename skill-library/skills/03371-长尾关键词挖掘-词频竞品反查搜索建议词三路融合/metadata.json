@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-long-tail-keyword-mining",
+  "中文名称": "长尾关键词挖掘 词频竞品反查搜索建议词三路融合",
+  "一句话作用": "触发词：长尾词挖掘、三路融合、词频与竞品反查、旺季词布局、关键词覆盖面。何时不用：要找高需求低竞争的蓝海主词时用「关键词需求缺口矩阵分析」；要把标签映射成词包时用「标签→关键词自动映射矩阵」。安全边界：只产出候选词表，不代改 Listing、不保证流量增幅。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要选品运营面临\"核心词流量饱和、Listing 曝光上限瓶颈\"——三路融合挖掘将关键词覆盖扩大3-5倍，自然流量年化增收20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03371-p2s-long-tail-keyword-mining-8e7e9401",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-long-tail-keyword-mining/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-long-tail-keyword-mining/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "494a7cb2b1528a94dc59d607d6627eb551737e400be64433d830e1f2bbabe9e9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

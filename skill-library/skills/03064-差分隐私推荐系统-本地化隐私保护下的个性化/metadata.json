@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-differential-privacy-recommendation",
+  "中文名称": "差分隐私推荐系统 本地化隐私保护下的个性化",
+  "一句话作用": "触发词：差分隐私推荐、本地化隐私、随机化响应、隐私预算、合规个性化。何时不用：跨机构联合训练模型时用「联邦学习隐私保护」；做跨品牌受众重叠分析时用「数据洁净室受众协作」。安全边界：涉儿童或健康等敏感数据须先做合规评估；不得以隐私预算之名放宽授权，ε 取值与用途须在隐私政策中说明。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临GDPR合规与个性化精度的矛盾——LDP差分隐私将推荐准确率保留92%同时实现ε<1隐私保护，年化合规成本节省35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03064-p2s-differential-privacy-recommendation-b7f55dc1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-differential-privacy-recommendation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-differential-privacy-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ce69ceabee6468e36da15248e4bbabc51ae328e456c54adf5c34cbe683cc5d08",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

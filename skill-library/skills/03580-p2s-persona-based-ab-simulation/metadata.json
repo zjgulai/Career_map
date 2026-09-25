@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-persona-based-ab-simulation",
+  "中文名称": "待补：p2s-persona-based-ab-simulation",
+  "一句话作用": "触发词：p2s-persona-based-ab-simulation。Skill-Persona-Based-AB-Simulation",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:37+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-persona-based-ab-simulation。Skill-Persona-Based-AB-Simulation时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "03580-p2s-persona-based-ab-simulation-0beb1885",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-persona-based-ab-simulation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-persona-based-ab-simulation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "890c47a3ee627f9d33186aa662713a4eca5a8dbbac35cf36c67c1f18b2dfd2a4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "dev-guide-writer",
+  "中文名称": "待补：dev-guide-writer",
+  "一句话作用": "技术教程生成器：将任何技术主题转化为完整教程，包含前置知识、环境搭建、核心步骤、常见报错和进阶拓展，并生成速查表（Cheatsheet）。当用户提到编写教程、操作指南、入门手册、环境搭建步骤，或使用如“tutorial”、“step-by-step”、“getting started”、“how-to guide”、“速查表”、“快速上手”、“帮我写个教程”、“怎么从零开始搭这个环境”等关键词或请求时触发。",
+  "关键输入": "目标 ：列出读者在开始本教程前需要掌握的所有知识和工具，确保没有知识断层。 操作步骤 ： 1. 知识依赖分析 ： - 列出本教程涉及的所有技术概念 - 逐项判断：该概念是\"教程内讲解\"还是\"读者应已掌握\" - 判断标准：如果展开讲解会偏离主题超过 200 字，则归为前置知识 2. 前置知识清单 ： - 按\"必须掌握\"和\"了解即可\"两个层次分类 - 每项附带一句话说明\"为什么需要它\" - 格式： 3. 自检规则 ： - 如果前置知识超过 5 项，考虑缩小教程范围或拆分为系列教程 - 每项前置知识必须有公开可获取的学…",
+  "关键输出": "目标 ：将前七个阶段的产出组装成完整教程文档。 教程文档模板 ：",
+  "最新更新时间": "2026-09-14T00:08:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要目标 ：预判读者可能遇到的问题，提供从错误信息到解决方案的直达路径。 操作步骤 ： 1. 报错收集 ：基于技术主题，列出 5-8 个最常见的报错场景 - 来源：环境配置错误、版本不兼容、权限问题、拼写错误、网络问题等 2. 报错条目格式 ： 3. 编写规范 ： - 错误信息必须是真实存在的（不编造错误信息） - 解决方案必须对应具体的操作，不使用\"请检查配置\"等模糊指引 - 如果一个报错有多种可能原因，按概率从高到低排列时，用它产出或更新：目标 ：将前七个阶段的产出组装成完整教程文档。 教程文档模板 ：",
+  "skill_id": "10572-dev-guide-writer-33bb5002",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/dev-guide-writer/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/dev-guide-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ab61018ed21f47c2cea59ddb3067da4d064c4462b8181c0f3f1e0288f2cf852f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

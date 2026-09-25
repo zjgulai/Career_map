@@ -1,0 +1,22 @@
+{
+  "英文名称": "koc-video",
+  "中文名称": "待补：koc-video",
+  "一句话作用": "Create creator-native social video from verified product facts, audience goals, and optional references. Delivers reviews, testimonials, POV, or virtual-host content; not official brand films.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:02:43+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create creator-native social video from verified product facts, audience goals, and optional references. Delivers reviews, testimonials, POV, or virtual-host content; not official brand films.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04312-koc-video-1bcd009b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/koc-video/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/koc-video/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2bb14d905efa604ff65631bd71b34584c597aec210dfb539b871896dcf1eb3fd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hgcn-hyperbolic-graph-convolutional-networks",
+  "中文名称": "双曲图卷积网络",
+  "一句话作用": "触发词：双曲嵌入、层次结构、品类树、图卷积、跨层级推荐。何时不用：数据不是层次树结构、或只需平铺向量检索时用常规向量与图神经网络技能；本技能解决欧氏空间保不住层次距离的问题。安全边界：无。",
+  "关键输入": "输入 ：层次化图结构数据：品类树（节点为品类或产品、边为父子关系）、产品属性特征（价格带、适用人群、功能特性）、用户交互数据（浏览、购买、收藏）。 输出 ：层次化节点嵌入，以及据此产出的跨层级推荐与新品自动分类结果，供推荐与商品归类环节使用。",
+  "关键输出": "输入 ：层次化图结构数据：品类树（节点为品类或产品、边为父子关系）、产品属性特征（价格带、适用人群、功能特性）、用户交互数据（浏览、购买、收藏）。 输出 ：层次化节点嵌入，以及据此产出的跨层级推荐与新品自动分类结果，供推荐与商品归类环节使用。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：双曲嵌入、层次结构、品类树、图卷积、跨层级推荐。何时不用：数据不是层次树结构、或只需平铺向量检索时用常规向量与图神经网络技能；本技能解决欧氏空间保不住层次距离的问题。安全边界：无。时，用它产出或更新：输入 ：层次化图结构数据：品类树（节点为品类或产品、边为父子关系）、产品属性特征（价格带、适用人群、功能特性）、用户交互数据（浏览、购买、收藏）。 输出 ：层次化节点嵌入，以及据此产出的跨层级推荐与新品自动分类结果，供推荐与商品归类环节使用。",
+  "skill_id": "03201-p2s-hgcn-hyperbolic-graph-convolutional-networks-ac0548ce",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-hgcn-hyperbolic-graph-convolutional-networks/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-hgcn-hyperbolic-graph-convolutional-networks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7cddf9da400798b74ef7ccca2f1c171b9120b9c8b18f5d832b6a683fe4de0530",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

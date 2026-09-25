@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-active-learning-annotation",
+  "中文名称": "主动学习标注策略（最小标注成本最大化模型性能）",
+  "一句话作用": "触发词：主动学习、不确定性采样、标注预算、最小标注量、标注提效。何时不用：样本池很小、或模型选样会引入不可接受偏差时收益有限；规则可写成函数时走弱监督标注。安全边界：涉及用户评论的标注数据须先脱敏 PII 再送标注员，卡页原文要求。",
+  "关键输入": "输入 ：未标注样本池（卡页场景为 10 万条评论）、初始标注集（约 200 条）与标注界面及标签规范 输出 ：按不确定性排好序的待标注清单与迭代后的模型（卡页目标：以 20% 标注量对标全量随机的 F1），供标注团队执行",
+  "关键输出": "输入 ：未标注样本池（卡页场景为 10 万条评论）、初始标注集（约 200 条）与标注界面及标签规范 输出 ：按不确定性排好序的待标注清单与迭代后的模型（卡页目标：以 20% 标注量对标全量随机的 F1），供标注团队执行",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：主动学习、不确定性采样、标注预算、最小标注量、标注提效。何时不用：样本池很小、或模型选样会引入不可接受偏差时收益有限；规则可写成函数时走弱监督标注。安全边界：涉及用户评论的标注数据须先脱敏 PII 再送标注员，卡页原文要求。时，用它产出或更新：输入 ：未标注样本池（卡页场景为 10 万条评论）、初始标注集（约 200 条）与标注界面及标签规范 输出 ：按不确定性排好序的待标注清单与迭代后的模型（卡页目标：以 20% 标注量对标全量随机的 F1），供标注团队执行",
+  "skill_id": "11875-p2s-active-learning-annotation-40fbc1c3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-active-learning-annotation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-active-learning-annotation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb44a2b86e90167c111093e2093e3fa751530e99192ecd6aafc7d18cc2695a98",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

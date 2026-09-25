@@ -1,0 +1,22 @@
+{
+  "英文名称": "mgnify-skill",
+  "中文名称": "待补：mgnify-skill",
+  "一句话作用": "Submit compact MGnify API requests for microbiome studies, samples, and biome metadata. Use when a user wants concise MGnify summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common MGnify patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Submit compact MGnify API requests for microbiome studies, samples, and biome metadata. Use when a user wants concise MGnify summaries时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summa…",
+  "skill_id": "00895-mgnify-skill-d70d63aa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/mgnify-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/mgnify-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dd95a22981cbe2412b4a6870b76a30c3b978cad34455bb36151876e7a641decc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

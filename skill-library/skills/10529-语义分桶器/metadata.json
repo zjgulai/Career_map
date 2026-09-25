@@ -1,0 +1,22 @@
+{
+  "英文名称": "语义分桶器",
+  "中文名称": "语义分桶器",
+  "一句话作用": "当用户需要将大量知识单元（SKU）按标签重叠度自动分组、用 Union-Find 处理传递关系或对超大桶做递归细分时使用。触发词：语义分桶器、语义分桶、知识分组、自动聚类、标签分组、bucketing。何时不用：SKU 很少（<10）可直接人工审查、已有明确分组规则、需要精确语义相似度（向量聚类/相似度分析）、实时流式处理要求高。",
+  "关键输入": "- 大量 SKU 需要组织为逻辑分组 - 准备批量处理（如 Skill 生成） - 发现知识聚类模式 - 构建层次化知识目录 - 后续相似度计算的前置步骤",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 大量 SKU 需要组织为逻辑分组 - 准备批量处理（如 Skill 生成） - 发现知识聚类模式 - 构建层次化知识目录 - 后续相似度计算的前置步骤时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10529-skill-72870ac8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/语义分桶器/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/语义分桶器/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "e0d14d73409ff79777abebe624b60ab5b84f1b05c80f5808933427eed48f03fa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "canva-brand-check",
+  "中文名称": "待补：canva-brand-check",
+  "一句话作用": "Check a Canva design against a brand kit and report where it diverges — off-palette colors, non-brand fonts, logo misuse, and off-tone copy. Read-only; makes no changes. Use when the user asks \"is this on brand\", \"check…",
+  "关键输入": "- Brand kit didn't expose hex values. Paste your palette + fonts for an exact check, or confirm the colors above against your guidelines.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Check a Canva design against a brand kit and report where it diverges — off-palette colors, non-brand fonts, logo misuse, and off-tone copy. Read-only; makes no changes. Use when the user asks \"is this on brand\", \"check…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00755-canva-brand-check-ce6e83cd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/canva/skills/canva-brand-check/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/canva/skills/canva-brand-check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b292189744392db22b9e72481056a0db94781bd64892480abe2ce50c76efbb73",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

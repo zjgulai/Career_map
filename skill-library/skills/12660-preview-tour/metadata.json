@@ -1,0 +1,22 @@
+{
+  "英文名称": "preview-tour",
+  "中文名称": "待补：preview-tour",
+  "一句话作用": "Inspect the bundled Preview workspace and its deterministic Session examples.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T11:24:33+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Inspect the bundled Preview workspace and its deterministic Session examples.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12660-preview-tour-24d84bd7",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/packages/experimental/webworker-runtime/tests/fixtures/vfs-example/workspace/.agents/skills/preview-tour/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/packages/experimental/webworker-runtime/tests/fixtures/vfs-example/workspace/.agents/skills/preview-tour/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4486d12747d1c0fd2d9987c01d576c91158971a1fe5213400513fd1f109a20b2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

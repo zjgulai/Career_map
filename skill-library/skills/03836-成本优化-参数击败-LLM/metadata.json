@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-slm-tool-calling-optimization",
+  "中文名称": "成本优化 参数击败 LLM",
+  "一句话作用": "触发词：小模型微调、SLM、tool call、客服工单、成本下降。何时不用：整体替换为开源基座模型走「开源 Tool Use 模型选型」；按复杂度做模型路由走「上下文感知模型路由」。安全边界：训练数据须脱敏，含客户信息的工单不得出域；小模型只承接简单查询，复杂咨询必须升级到强模型。",
+  "关键输入": "底本 ：本卡正文换底自语料 vault 的精选线卡 Skill-SLM-Tool-Calling-Optimization（完整卡：references/full-card.md，sha256 68cc74c53a333c72cad238e62eb859354596e75ef6fcacb8e4e3788d4cca40ba，20074 字节 / 438 行 / 41 条逐字引文）。 完整卡的 全部 内容都在那份文件里。本页内联：完整卡正文的开头逐行摘录，以及前 11 条（共 41 条）逐字引文。",
+  "关键输出": "输入 ：需客服工单文本与对应的 tool call 标注（卡页称 5k-20k 样本即可）、工具 schema，工单级粒度；卡页注明数据要求低、单轮 SFT 即可。 输出 ：产出微调后的小模型工具调用方案与成本、延迟对比（卡页记录成本 -80%、本地推理小于 50ms），以及简单与复杂查询的分流规则，供客服系统落地。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：小模型微调、SLM、tool call、客服工单、成本下降。何时不用：整体替换为开源基座模型走「开源 Tool Use 模型选型」；按复杂度做模型路由走「上下文感知模型路由」。安全边界：训练数据须脱敏，含客户信息的工单不得出域；小模型只承接简单查询，复杂咨询必须升级到强模型。时，用它产出或更新：输入 ：需客服工单文本与对应的 tool call 标注（卡页称 5k-20k 样本即可）、工具 schema，工单级粒度；卡页注明数据要求低、单轮 SFT 即可。 输出 ：产出微调后的小模型工具调用方案与成…",
+  "skill_id": "03836-p2s-slm-tool-calling-optimization-75584234",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-slm-tool-calling-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-slm-tool-calling-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "99d3f5797614837ccc96c30a065774c2ed3c475f5b1d7b32c8d6c23353769dee",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

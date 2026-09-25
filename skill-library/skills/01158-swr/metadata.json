@@ -1,0 +1,22 @@
+{
+  "英文名称": "swr",
+  "中文名称": "待补：swr",
+  "一句话作用": "SWR data-fetching expert guidance. Use when building React apps with client-side data fetching, caching, revalidation, mutations, optimistic UI, pagination, or infinite loading using the SWR library.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Strategy Option Default --- --- --- On window focus revalidateOnFocus true On network recovery revalidateOnReconnect true On mount if stale revalidateIfStale true Polling refreshInterval 0 (disabled) Manual Call mutate() —",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要SWR data-fetching expert guidance. Use when building React apps with client-side data fetching, caching, revalidation, mutations, optimistic UI, pagination, or infinite loading using the SWR library.时，用它产出或更新：Strategy Option Default --- --- --- On window f…",
+  "skill_id": "01158-swr-a9203e73",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/vercel/skills/swr/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/vercel/skills/swr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c88522d609da8c8bc981225f44471d436609b5acdf854fc40e8d29aae191d50",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

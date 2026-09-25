@@ -1,0 +1,22 @@
+{
+  "英文名称": "fluidsim",
+  "中文名称": "待补：fluidsim",
+  "一句话作用": "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing tu…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "FluidSim produces multiple output types automatically saved during simulation: Physical fields : Velocity, vorticity in HDF5 format Spatial means : Time series of volume-averaged quantities Spectra : Energy and enstrophy spectra Load previous simulations :",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing tu…时，用它产出或更新：FluidSim produces multiple…",
+  "skill_id": "05730-fluidsim-ed7789bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/fluidsim/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/fluidsim/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e80360eff93e2079c589e0d7d36dcbf12e0ca1acddd227662cbbd9a42191c51b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-replenishment-parameter-calibration",
+  "中文名称": "补货系统4参数动态校准 前置期安全库存补货点最大库存的精准化维护体系",
+  "一句话作用": "触发词：补货参数校准、前置期漂移、安全库存天数、补货点更新、季节指数。何时不用：只想算一次安全库存时用「安全库存与补货策略」；前置期超标要自动上调时走「前置期安全库存自动调整」。安全边界：参数变更须留版本与生效记录，自动写回补货系统前需人工确认。",
+  "关键输入": "补货系统6个月前设置的参数从未更新导致前置期漂移10天缺货率从5%升至18%——4参数（前置期/安全库存/ROP/最大库存）+3变量季节指数的动态校准，季度一次维护防损ROI达1800%",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要补货系统6个月前设置的参数从未更新导致前置期漂移10天缺货率从5%升至18%——4参数（前置期/安全库存/ROP/最大库存）+3变量季节指数的动态校准，季度一次维护防损ROI达1800%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11504-p2s-replenishment-parameter-calibration-aa52b3c0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-replenishment-parameter-calibration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-replenishment-parameter-calibration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eaa4e18b94dcd7e33aebe409bc374b7995089bfae3a91584457789c37b2469aa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

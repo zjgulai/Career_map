@@ -1,0 +1,22 @@
+{
+  "英文名称": "land-pr",
+  "中文名称": "待补：land-pr",
+  "一句话作用": "Merge a green PR and verify the npm release succeeds. Use when the user says \"merge\", \"land\", \"land PR\", \"merge this\", \"ship to npm\", \"merge and release\", or when a PR has passed CI and is ready to merge. This is a high…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Report one of: - LANDED — merged, published to npm as @zenuml/core@ - MERGE BLOCKED — which precondition failed - PUBLISH FAILED — merged but npm publish failed, with error details",
+  "最新更新时间": "2026-05-14T21:03:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Merge a green PR and verify the npm release succeeds. Use when the user says \"merge\", \"land\", \"land PR\", \"merge this\", \"ship to npm\", \"merge and release\", or when a PR has passed CI and is ready to merge. This is a high…时，用它产出或更新：Report one of: - LANDED —…",
+  "skill_id": "01901-land-pr-ce8b523c",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.agents/skills/land-pr/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.agents/skills/land-pr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "187bd9e9d9ecce2d571af9aeed119a0cfb494a5b379f58a94ba6b34ca8fecb2b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

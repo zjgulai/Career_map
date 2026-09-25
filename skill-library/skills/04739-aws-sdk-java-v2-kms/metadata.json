@@ -1,0 +1,22 @@
+{
+  "英文名称": "aws-sdk-java-v2-kms",
+  "中文名称": "待补：aws-sdk-java-v2-kms",
+  "一句话作用": "Provides AWS Key Management Service (KMS) patterns using AWS SDK for Java 2.x. Use when creating/managing encryption keys, encrypting/decrypting data, generating data keys, digital signing, key rotation, or integrating…",
+  "关键输入": "Use this skill when: - Creating and managing symmetric encryption keys for data protection - Implementing client-side encryption and envelope encryption patterns - Generating data keys for local data encryption with KMS…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:22+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Creating and managing symmetric encryption keys for data protection - Implementing client-side encryption and envelope encryption patterns - Generating data keys for local data encryption with KMS…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04739-aws-sdk-java-v2-kms-341dc2f1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/aws-sdk-java-v2-kms/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/aws-sdk-java-v2-kms/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a88dc928db855e1ef148df5ca055a4f12a711e94579d540fd3da5dcdb42a3546",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

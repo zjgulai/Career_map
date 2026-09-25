@@ -1,0 +1,22 @@
+{
+  "英文名称": "clinicaltrials-database",
+  "中文名称": "待补：clinicaltrials-database",
+  "一句话作用": "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching.",
+  "关键输入": "This skill should be used when working with clinical trial data in scenarios such as: - Patient matching - Finding recruiting trials for specific conditions or patient populations - Research analysis - Analyzing clinica…",
+  "关键输出": "phase3 trials = [ study for study in results['studies'] if 'PHASE3' in study['protocolSection'].get('designModule', {}).get('phases', []) ]",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when working with clinical trial data in scenarios such as: - Patient matching - Finding recruiting trials for specific conditions or patient populations - Research analysis - Analyzing clinica…时，用它产出或更新：phase3 trials = [ study fo…",
+  "skill_id": "05709-clinicaltrials-database-d4c9e3ea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/clinicaltrials-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/clinicaltrials-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f22dcfd3edc32352f48bea3403c43b22073f2ae043231cefc01ea158d470b1af",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

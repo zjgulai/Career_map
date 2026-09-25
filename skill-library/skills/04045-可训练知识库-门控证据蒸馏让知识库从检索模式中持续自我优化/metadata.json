@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-writeback-rag-trainable-kb",
+  "中文名称": "可训练知识库 门控证据蒸馏让知识库从检索模式中持续自我优化",
+  "一句话作用": "触发词：可训练知识库、证据写回、门控蒸馏、反馈闭环、持续优化。何时不用：没有人工或自动验证信号时闭环无法启动；要一次性提升检索走去重与时序类技能。安全边界：写回内容须仅含已验证知识且不含 PII；低质证据误写回会污染知识库，须保留人工审核与回滚机制。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要知识库被当作静态存储，有标注的查询-答案对作为学习信号白白浪费——WRITEBACK-RAG门控证据蒸馏将有用知识写回知识库，跨4种RAG方法和6个基准平均提升+2.14%（2026 arXiv:2603.25737）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04045-p2s-writeback-rag-trainable-kb-0ad99cd5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-writeback-rag-trainable-kb/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-writeback-rag-trainable-kb/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9346fabfd103866cd3fc1c839e9e84f2ee187a36c3876626e4a75184e311c5a6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

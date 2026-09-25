@@ -1,0 +1,22 @@
+{
+  "英文名称": "数据决策分析",
+  "中文名称": "数据决策分析",
+  "一句话作用": "Data-driven decision analysis for product requirements — multi-dimensional analysis (PV/UV/conversion/retention), trend comparison, and conclusion output with Chart.js HTML reports.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "报告结构如下（使用 Chart.js CDN）： ---",
+  "最新更新时间": "2026-09-19T03:38:55+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Data-driven decision analysis for product requirements — multi-dimensional analysis (PV/UV/conversion/retention), trend comparison, and conclusion output with Chart.js HTML reports.时，用它产出或更新：报告结构如下（使用 Chart.js CDN）： ---",
+  "skill_id": "04574-skill-03aa5e4e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-data-toolkit/1.0.0/skills/数据决策分析/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-data-toolkit/1.0.0/skills/数据决策分析/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "438da527c4f34d7def0b14ac862aed0a65348b674f2a8fdd006c5e0e95000133",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

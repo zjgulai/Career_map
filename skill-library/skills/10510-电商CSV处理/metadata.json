@@ -1,0 +1,22 @@
+{
+  "英文名称": "电商CSV处理",
+  "中文名称": "电商CSV处理",
+  "一句话作用": "当用户需要对电商平台（淘宝/京东/拼多多/抖音/Shopify/Amazon）导出的订单CSV进行字段映射、数据清洗、去重、格式标准化或异常检测，为下游分析准备干净数据时使用。触发词：电商CSV处理、CSV处理、数据清洗、字段映射、数据标准化、订单预处理、订单数据清洗、淘宝CSV处理、京东数据导入。何时不用：非电商订单数据（库存/商品信息/物流/用户注册）、非CSV格式文件（Excel/JSON）、实时数据流处理、仅需简单查看数据无需…",
+  "关键输入": "- 处理原始电商订单CSV文件，需要标准化字段格式 - 合并多个平台（淘宝/京东/拼多多等）的订单数据 - 清洗数据：去重、检测异常值、处理缺失值 - 为下游分析（日报/月报/活动分析）准备干净数据",
+  "关键输出": "数据质量报告 :",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 处理原始电商订单CSV文件，需要标准化字段格式 - 合并多个平台（淘宝/京东/拼多多等）的订单数据 - 清洗数据：去重、检测异常值、处理缺失值 - 为下游分析（日报/月报/活动分析）准备干净数据时，用它产出或更新：数据质量报告 :",
+  "skill_id": "10510-csv-fbd736d6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/电商CSV处理/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/电商CSV处理/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "b6390511be96d523a2573795a8177da43788645b0c99136ec02593f88cc6b675",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

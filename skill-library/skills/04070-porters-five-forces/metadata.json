@@ -1,0 +1,22 @@
+{
+  "英文名称": "porters-five-forces",
+  "中文名称": "待补：porters-five-forces",
+  "一句话作用": "从供应商、买方、替代品、新进入者与同业竞争五个方向判断行业利润空间。触发词：五力竞争分析、porters-five-forces、从供应商、买方、替代品、新进入者与同业竞争五个方向判断行业利润空间。",
+  "关键输入": "- Industry or market definition - Current competitors and competitive positioning - Supplier and customer landscape - Potential substitutes and new entrants - Product or service specifics",
+  "关键输出": "1. Assess each of the five forces (High, Medium, Low) 2. Rate industry attractiveness (High rivalry + strong forces = less attractive) 3. For each force, identify: - Current state and trend (getting stronger/weaker) - Key players or dynamics - Implications fo…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要从供应商、买方、替代品、新进入者与同业竞争五个方向判断行业利润空间。触发词：五力竞争分析、porters-five-forces、从供应商、买方、替代品、新进入者与同业竞争五个方向判断行业利润空间。时，用它产出或更新：1. Assess each of the five forces (High, Medium, Low) 2. Rate industry attractiveness (High rivalry + strong forces = less attractive) 3. For each…",
+  "skill_id": "04070-porters-five-forces-3f6e66db",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/porters-five-forces/SKILL.md",
+  "relative_path": "lute/.dsh/skills/porters-five-forces/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "042e33496e1ed9d249a173ee712e0bbb3c8f518e2d63306ed742cf81261cc161",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

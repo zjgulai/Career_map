@@ -1,0 +1,22 @@
+{
+  "英文名称": "动效规划",
+  "中文名称": "待补：动效规划",
+  "一句话作用": "动效设计原则与策略层。基于 Three Pillars（情感意图 / 视觉叙事 / 动效工艺）+ 四大 Motion Personality 档位（Playful / Premium / Corporate / Energetic）+ Duration & Easing 表 + Disney 12 原则 + 1/3 编舞规则，为项目定义一套可被工程实施直接消费的「动效规范」：Personality 锚点 + 签名缓动 + Durati…",
+  "关键输入": "输入项 必填？ 来源优先级 缺失时行为 --- --- --- --- project name ✅ 链式 brief / flow-web 用户输入 Phase 1 追问 scope.target pages ✅ 链式 flow-web.pages / flow-mobile.pages 用户输入 Phase 1 追问 scope.target elements ✅ 链式 flow.elements 用户输入 Phase 1 追问",
+  "关键输出": "1. 先写盘 ：Write 工具把完整 JSON 写到 spark-output/context/motion-plan.json（目录不存在先创建） 2. 输出自检行 ：✅ motion-plan.json 已写盘到 spark-output/context/motion-plan.json 3. 渲染动效规范 Markdown 报告 （Personality + Duration palette + element specs 表 + 编舞图） 4. 输出紧凑 marker ：",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Problem Fix --------- ----- Looks robotic Add easing curves + arc paths + stagger Feels too slow Check duration table, use ease-out Feels cheap/flat Add secondary + ambient layers Too distracting Apply 1/3 rule, reduce…时，用它产出或更新：1. 先写盘 ：Write 工具把完整 JSON 写到…",
+  "skill_id": "04602-skill-633d42ee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/motion-plan/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/motion-plan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "13f44a31c8783e76b50dcc447586277a08ccd9791846540ea5ac62fa0a5f5d60",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

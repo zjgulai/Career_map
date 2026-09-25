@@ -1,0 +1,22 @@
+{
+  "英文名称": "dashboard",
+  "中文名称": "待补：dashboard",
+  "一句话作用": "Admin / analytics dashboard in a single HTML file. Fixed left sidebar, top bar with user/search, main grid of KPI cards and one or two charts. Use when the brief asks for a \"dashboard\", \"admin\", \"analytics\", or \"control…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Emit between tags: One sentence before the artifact, nothing after.",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Admin / analytics dashboard in a single HTML file. Fixed left sidebar, top bar with user/search, main grid of KPI cards and one or two charts. Use when the brief asks for a \"dashboard\", \"admin\", \"analytics\", or \"control…时，用它产出或更新：Emit between tags: One sen…",
+  "skill_id": "00110-dashboard-03a5c338",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/dashboard/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/dashboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a05a2cb84f7cb3457003859a08dfe9ae278f3cde32a75977e4a8048c11037a5d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

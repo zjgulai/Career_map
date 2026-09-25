@@ -1,0 +1,22 @@
+{
+  "英文名称": "macos-reverse",
+  "中文名称": "待补：macos-reverse",
+  "一句话作用": "Use for authorized macOS and Mach-O reverse engineering including codesign, Objective-C/Swift recovery, endpoint security surfaces, and Apple platform malware analysis.",
+  "关键输入": "- Mach-O 可执行文件 / dylib / framework - .app bundle、LaunchAgent/Daemon - Objective-C / Swift 符号与 runtime - 公证/签名、Hardened Runtime、TCC 相关行为分析 - macOS 恶意软件静态/动态分析（联合 malware-analysis）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Mach-O 可执行文件 / dylib / framework - .app bundle、LaunchAgent/Daemon - Objective-C / Swift 符号与 runtime - 公证/签名、Hardened Runtime、TCC 相关行为分析 - macOS 恶意软件静态/动态分析（联合 malware-analysis）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02084-macos-reverse-b60e0315",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/macos-reverse/SKILL.md",
+  "relative_path": "lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/macos-reverse/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "727633a83f01000977d3eecd93fb77324ea082f0207c9fd1b532ae315e01e1ec",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

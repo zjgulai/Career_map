@@ -1,0 +1,22 @@
+{
+  "英文名称": "竞品价格跟踪器（价差与策略建议）",
+  "中文名称": "待补：竞品价格跟踪器（价差与策略建议）",
+  "一句话作用": "当价格竞争加剧或转化率下降时，跟踪竞品价格与促销并输出应对建议。",
+  "关键输入": "- 竞品价格与促销快照 - 本品价格与转化数据",
+  "关键输出": "表：SKU 竞品价 本品价 价差 波动趋势 风险等级 建议动作",
+  "最新更新时间": "2026-03-22T01:35:26+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当价格竞争加剧或转化率下降时，跟踪竞品价格与促销并输出应对建议。时，用它产出或更新：表：SKU 竞品价 本品价 价差 波动趋势 风险等级 建议动作",
+  "skill_id": "09919-skill-eea0bee3",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/product-manage/competitor-price-tracker/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/product-manage/competitor-price-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1b8eda8699b5456408fbec9567620175d9a01c76cad1faed2d999ef8d5614037",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

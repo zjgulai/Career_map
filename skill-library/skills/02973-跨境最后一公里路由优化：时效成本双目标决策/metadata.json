@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-border-last-mile-routing",
+  "中文名称": "跨境最后一公里路由优化：时效成本双目标决策",
+  "一句话作用": "触发词：最后一公里选路、分区路由、大促切换承运商、时效成本权衡、延迟差评治理。何时不用：要逐票追踪包裹到货异常用「到货异常追踪」，要和承运商比价签约用「采购比价」；本技能只输出分区路由评分与切换阈值。安全边界：切换阈值与降权规则须运营人工确认后上线，模型不直接改价或改承运商合同。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要黑五大促FedEx在Zone7-8时效从5天延到9天但运营不知道该切换哪个carrier——多目标路由评分模型实时监测准时率自动切换最优carrier，减少延迟差评率30-50%，年化综合ROI30-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02973-p2s-cross-border-last-mile-routing-6a918461",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-border-last-mile-routing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-border-last-mile-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9517cccaa38a448a629aa8975c9956f1245f8b8f0937d10d03a1364203579171",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

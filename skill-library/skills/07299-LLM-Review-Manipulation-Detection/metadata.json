@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-LLM-Review-Manipulation-Detection",
+  "中文名称": "待补：LLM Review Manipulation Detection",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T04:40:08.940880\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:40:08+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T04:40:08.940880\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07299-skill-llm-review-manipulation-detection-2bf924c1",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-LLM-Review-Manipulation-Detection.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-LLM-Review-Manipulation-Detection.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "268d6eff6befcd29b8560e1b6c78eea6c8c4d6ba33ba4088aa55bbdf773df169",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

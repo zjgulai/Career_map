@@ -1,0 +1,22 @@
+{
+  "英文名称": "1688-sourcing-agent",
+  "中文名称": "母婴行业",
+  "一句话作用": "1688 sourcing and procurement agent for母婴跨境电商. Product search, supplier evaluation, price negotiation, quality inspection, and OZON/TikTok Shop listing preparation. Specialized for母婴 products safety standards and certif…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要1688 sourcing and procurement agent for母婴跨境电商. Product search, supplier evaluation, price negotiation, quality inspection, and OZON/TikTok Shop listing preparation. Specialized for母婴 products safety standards and certif…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09540-1688-sourcing-agent-9fab2f10",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/1688-sourcing-agent/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/1688-sourcing-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "14b0abde28eeb0107c443fb2f0cf8a6e49dc543da0c989bae554ceff5cffa04c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

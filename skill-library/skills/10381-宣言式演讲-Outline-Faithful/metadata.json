@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-ljg-present",
+  "中文名称": "宣言式演讲（Outline-Faithful）",
+  "一句话作用": "把 outline 1:1 铸成色块大字宣言 deck, 原文不动只做美化。三档主题 black / red / yellow",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "creator",
+  "解决具体问题": "当需要把 outline 1:1 铸成色块大字宣言 deck, 原文不动只做美化。三档主题 black / red / yellow时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10381-deck-ljg-present-7284bf89",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/deck-ljg-present/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/deck-ljg-present/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ad9918e14c3fdc61336ed861e02045dfe70b059bb5ad7e48358c17e1b8e4b5c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

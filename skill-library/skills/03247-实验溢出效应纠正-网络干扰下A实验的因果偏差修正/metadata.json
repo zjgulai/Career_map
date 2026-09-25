@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-interference-spillover-correction",
+  "中文名称": "实验溢出效应纠正 网络干扰下A实验的因果偏差修正",
+  "一句话作用": "触发词：溢出效应、SUTVA违反、暴露模型、集群随机化、库存竞争。何时不用：实验单元之间确实独立（无共享库存、无社交传播）时不必纠正。安全边界：用共同购买等行为数据构图，不获取直接社交关系，并在隐私政策中说明行为数据分析用途。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临\"推荐系统A/B因库存溢出效应低估真实增量\"——暴露模型纠正溢出偏差，ATE从+1.2%修正至+2.1%，防止错误拒绝有价值功能，年化机会成本约60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03247-p2s-interference-spillover-correction-d1f39ca5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-interference-spillover-correction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-interference-spillover-correction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ef56d8a14c59ccdb253881ec153d95366760495df74837197c42d164a3eae88",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

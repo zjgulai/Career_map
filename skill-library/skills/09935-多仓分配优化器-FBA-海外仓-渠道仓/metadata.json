@@ -1,0 +1,22 @@
+{
+  "英文名称": "多仓分配优化器（FBA/海外仓/渠道仓）",
+  "中文名称": "待补：多仓分配优化器（FBA/海外仓/渠道仓）",
+  "一句话作用": "当多仓库存不均衡或跨区履约成本上升时，输出库存分配与调拨建议。",
+  "关键输入": "- 多仓库存快照 - 区域需求与时效要求 - 物流成本参数",
+  "关键输出": "表：仓库 SKU 当前库存 建议分配 调拨量 成本影响 风险",
+  "最新更新时间": "2026-03-22T01:35:26+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当多仓库存不均衡或跨区履约成本上升时，输出库存分配与调拨建议。时，用它产出或更新：表：仓库 SKU 当前库存 建议分配 调拨量 成本影响 风险",
+  "skill_id": "09935-fba-36cccec8",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/multi-warehouse-allocation/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/multi-warehouse-allocation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "efa53de697e62366ff7bf6204668cd5c09fd48d33d98a98b0854ce07616f5414",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

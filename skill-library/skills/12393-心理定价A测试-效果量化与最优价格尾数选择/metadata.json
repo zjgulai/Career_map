@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-psychological-pricing-ab-test",
+  "中文名称": "心理定价A测试 效果量化与最优价格尾数选择",
+  "一句话作用": "触发词：心理定价、魅力定价、价格尾数、定价 A/B 实验、样本量测算、收益中性。何时不用：要按用户响应异质性做定向投放用「个性化促销定向」；要估弹性大小用「需求价格弹性估算」。安全边界：实验须使用平台官方工具（如 Amazon Manage Your Experiments），价格标注真实，不得虚构原价或做误导性促销。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"不知道整数vs尾数定价对目标用户哪个CVR更高\"——心理定价A/B量化验证使最优定价形式CVR提升3-8%，年化增收10-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12393-p2s-psychological-pricing-ab-test-5667767c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-psychological-pricing-ab-test/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-psychological-pricing-ab-test/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "53cbbbe8d76edc198e36f1893699a5f3509e7fc8eb9d495732cd341dfb54b940",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

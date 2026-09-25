@@ -1,0 +1,22 @@
+{
+  "英文名称": "json-render",
+  "中文名称": "待补：json-render",
+  "一句话作用": "AI chat response rendering guidance — handling UIMessage parts, tool call displays, streaming states, and structured data presentation. Use when building custom chat UIs, rendering tool results, or troubleshooting AI re…",
+  "关键输入": "The server route must use the correct v6 response format:",
+  "关键输出": "Instead of dumping raw JSON, render structured tool output as human-readable cards:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要When building chat interfaces with AI SDK v6, the raw message format includes multiple part types (text, tool calls, reasoning, images). Without proper rendering, responses appear as raw JSON or malformed output.时，用它产出或更新：Instead of dumping raw JSON, rende…",
+  "skill_id": "01140-json-render-d8900481",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/vercel/skills/json-render/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/vercel/skills/json-render/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "89f5c6e94dcc53310c569f9dadede009be51bddec04af50efa3b6a2181b05a24",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-contrastive-learning-ecommerce",
+  "中文名称": "对比学习用于电商表示学习（SimCLR迁移）",
+  "一句话作用": "触发词：对比学习、自监督表示、多语言语义对齐、统一嵌入、跨语言检索。何时不用：要用稀疏+稠密两路融合做检索时用「稀疏+稠密混合检索」；要优化排序指标时用「NeuralNDCG 排序优化」。安全边界：只用自有产品数据训练，不引入未授权语料。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要搜索算法工程师面临\"多语言产品语义对齐需要大量标注成本高昂\"——对比学习无监督构建多语言统一嵌入，跨语言产品检索准确率提升35%，年化节省标注成本15-30万元并提升跨境流量转化时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02950-p2s-contrastive-learning-ecommerce-855f6569",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-contrastive-learning-ecommerce/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-contrastive-learning-ecommerce/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9c69a6a16d144196717b77a7d2130aa03ab79de85f10e859720ef43e26f690e4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

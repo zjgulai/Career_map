@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-user-multidim-insight-ppt",
+  "中文名称": "用户多维度洞察与管理层PPT",
+  "一句话作用": "生成跨境电商用户多维度洞察结果与管理层汇报PPT，覆盖 Excel 多维指标分析、资源匹配度评估、Markdown 洞察报告和 PPT 输出。Use when 用户提到“用户多维度洞察”“资源匹配度”“价值产出效率”“管理层汇报”“管理层PPT”“专题一”“Sheet10”“Excel分析”“交叉维度分析”“ARPU”“人均推广费”。 触发条件: 1. 用户要求基于 Excel / xlsx 做区域、新老客等交叉维度分析 2. 用户要…",
+  "关键输入": "- 购买人数 - 订单数 - 销售额 - 销量 - 广告费 - gtm推广费 - 折扣额 - 用户ARPU值",
+  "关键输出": "- [ ] 时间窗口真实存在 - [ ] 公式口径已与用户确认 - [ ] 汇总维度补算已校验 - [ ] 结果 Excel 至少包含明细、对比、资源匹配、费用结构 - [ ] Markdown 报告为结论先行 - [ ] PPT 每页标题都是观点句 - [ ] 至少校验页数、标题、关键图表文件",
+  "最新更新时间": "2026-03-13T09:57:48+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要生成跨境电商用户多维度洞察结果与管理层汇报PPT，覆盖 Excel 多维指标分析、资源匹配度评估、Markdown 洞察报告和 PPT 输出。Use when 用户提到“用户多维度洞察”“资源匹配度”“价值产出效率”“管理层汇报”“管理层PPT”“专题一”“Sheet10”“Excel分析”“交叉维度分析”“ARPU”“人均推广费”。 触发条件: 1. 用户要求基于 Excel / xlsx 做区域、新老客等交叉维度分析 2. 用户要…时，用它产出或更新：- [ ] 时间窗口真实存在 - [ ] 公式口径已…",
+  "skill_id": "09440-cbec-user-multidim-insight-ppt-f2f3f650",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/14-reporting-analysis/user-multidim-insight-ppt/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/14-reporting-analysis/user-multidim-insight-ppt/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b5df9b41f94ee150cc99c3b37a426d8769c1159e8f1610f7d5b8bacbc577969",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

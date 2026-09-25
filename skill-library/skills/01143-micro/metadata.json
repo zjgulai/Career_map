@@ -1,0 +1,22 @@
+{
+  "英文名称": "micro",
+  "中文名称": "待补：micro",
+  "一句话作用": "Expert guidance for micro — asynchronous HTTP microservices framework by Vercel. Use when building lightweight HTTP servers, API endpoints, or microservices using the micro library.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Expert guidance for micro — asynchronous HTTP microservices framework by Vercel. Use when building lightweight HTTP servers, API endpoints, or microservices using the micro library.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01143-micro-59c5bb8c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/vercel/skills/micro/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/vercel/skills/micro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d694a0b60a57bf3ab7e61bdf555545a2c941acb1a8d2938bf94a0d7cd624fe4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

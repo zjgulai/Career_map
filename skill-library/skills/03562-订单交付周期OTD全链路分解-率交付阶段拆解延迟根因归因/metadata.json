@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-order-cycle-time-otd-analytics",
+  "中文名称": "订单交付周期OTD全链路分解 率交付阶段拆解延迟根因归因",
+  "一句话作用": "触发词：OTD、交付周期、阶段拆解、延迟根因、完美订单率。何时不用：需要监控 ODR 与发货及时率、做履约漏斗拆解时用订单履约率与发货及时率；需要动态调整平台承诺时效时用 B2C配送时效与体验KPI。安全边界：仅可分析自身订单数据，不得使用第三方工具抓取竞品交付数据；欧洲订单须脱敏存储以符合数据保护要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要客服面临\"OTD低但不知哪个环节是瓶颈\"——五阶段拆解精准定位到拣货包装占延误原因62%，OTD从91%提升至97%维持Prime资格时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03562-p2s-order-cycle-time-otd-analytics-1ddf6e2e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-order-cycle-time-otd-analytics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-order-cycle-time-otd-analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fddd69948c91df964a241ffa1d837bd6e208a21aab2027ea195fee12faf23491",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

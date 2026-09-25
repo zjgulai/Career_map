@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-profitability-waterfall-by-asin",
+  "中文名称": "单品盈利瀑布分析",
+  "一句话作用": "触发词：单品盈利瀑布、ASIN 盈亏、广告占比预警、净利率排名、预算再分配。何时不用：要按四层口径做 SKU 损益归因用「SKU 级损益归因」；要提前预警 FBA 费用率与长库龄用「FBA 费用结构分析」。安全边界：结论用于内部投放与定价调整，不对外披露单品成本结构；阈值参数须按品类校准后使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营团队面临\"月销最高的SKU以为最赚钱结果发现亏损而小SKU才是现金牛\"——ASIN级盈利瀑布自动识别亏损品和现金牛，止损+聚焦后月净利润从1.2万升至4.8万，年化增利43万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03649-p2s-profitability-waterfall-by-asin-ae98e524",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-profitability-waterfall-by-asin/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-profitability-waterfall-by-asin/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dfe8f0f90933abd3061b0fd524ad380c9a0b336fd5f163849b548850fe5d8292",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

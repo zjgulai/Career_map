@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-objective-budget-allocation",
+  "中文名称": "多目标预算分配）",
+  "一句话作用": "触发词：多目标预算、Pareto前沿、目标权重、品牌搜索量、新品冷启动曝光。何时不用：只有一个优化目标或渠道贡献系数无法估计时不适用；冲突只在毛利口径时用MMM预算利润对齐。安全边界：目标权重是业务价值判断须跨部门对齐，本卡只产出分配方案不执行投放，也不替业务方决定权重。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要$30 万月预算要同时做三件事——黑五冲销量（短期 ROI）、母婴博主种草（品牌搜索量）、新款吸奶器 S2 预热（新品曝光）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03484-p2s-multi-objective-budget-allocation-500b07ae",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-objective-budget-allocation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-objective-budget-allocation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "01906617484e82146b5dfb6ad986e0ecfad8cd84ef55a052621de04dd27d27bf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

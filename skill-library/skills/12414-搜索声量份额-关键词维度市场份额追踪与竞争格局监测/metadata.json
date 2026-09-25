@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-share-of-voice",
+  "中文名称": "搜索声量份额 关键词维度市场份额追踪与竞争格局监测",
+  "一句话作用": "触发词：搜索声量份额、SOV 矩阵、份额流失预警、竞争格局监测、加投优先级。何时不用：要定位的是自家多 SKU 互相抢词的内耗时用「关键词自相竞争检测」；要找竞品有而自己没有的词时用「竞品关键词缺口分析」。安全边界：只做份额度量与告警，不代投广告。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌运营面临\"感知竞品在抢流量但无法量化哪些词被侵蚀\"——关键词SOV矩阵将流量份额从10%提升至20%，资源聚焦带动年化增收50-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12414-p2s-search-share-of-voice-46affda4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-share-of-voice/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-share-of-voice/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b1c13d620a4f38db63353097e8d0de5b61db2adee215e48b213075ebe2dd86ea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

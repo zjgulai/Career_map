@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-signaling-game-brand-premium",
+  "中文名称": "价格作为质量信号",
+  "一句话作用": "触发词：价格信号、品牌溢价、折扣深度、价格带一致性、促销节奏。何时不用：要做价格弹性的销量与利润测算用定价优化类方法，本技能判断降价是否破坏品牌质量信号并给出保价区间。安全边界：不得与竞品约定价格或交换定价信息（涉价格合谋风险），价格形成机制须依法明示，折扣宣称须真实。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌负责人面临\"频繁促销后品牌溢价下降用户心理锚点永久降低\"——信号博弈分离均衡维持品牌价格信号完整性，年化品牌价值保护$8万+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03825-p2s-signaling-game-brand-premium-fe158a07",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-signaling-game-brand-premium/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-signaling-game-brand-premium/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0f9db7c0607af947542780ae990ad5867467213d606f66aead40476fd1136d33",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

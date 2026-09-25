@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-seller-account-portfolio",
+  "中文名称": "多店铺账号组合管理：跨账号资源协同与风险隔离",
+  "一句话作用": "触发词：多账号组合、Markowitz优化、关联风险矩阵、风险传染、跨账号协同。何时不用：账号少于两个或没有12个月月度ROAS历史时不适用；单账号内部的预算分配走多平台分配技能。安全边界：关联风险矩阵依赖运营录入的基础设施信息，只作量化提示，不替代平台合规审查与申诉判断。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌3个账号广告预算等比分配但子品牌ROAS6.1主品牌ROAS4.2存在明显错配——Markowitz组合优化将预算向高ROAS账号倾斜同时量化账号关联风险，预算重分配后组合ROAS提升15-25%年化增益20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11754-p2s-multi-seller-account-portfolio-827ebf31",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-seller-account-portfolio/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-seller-account-portfolio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "642b25b87adae7feeceaf8219b0deda3bba546bc5964c9c0adde9bec892b75bb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

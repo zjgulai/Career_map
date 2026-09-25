@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-sales-conversion-analysis",
+  "中文名称": "跨境电商销售转化分析",
+  "一句话作用": "跨境电商销售转化分析 - 基于人货场框架的销售分析方法，涵盖转化漏斗分析、多渠道销售分析、销售归因与优化策略",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T02:01:49+08:00",
+  "业务场景": "campaign-analysis",
+  "解决具体问题": "当需要跨境电商销售转化分析 - 基于人货场框架的销售分析方法，涵盖转化漏斗分析、多渠道销售分析、销售归因与优化策略时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09443-cbec-sales-conversion-analysis-10b4fad5",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/15-campaign-analysis/sales-conversion-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/15-campaign-analysis/sales-conversion-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0e370afb1c836eea2c26ff4c9fda15ba7da401878fe4a318ed15190108faffc8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

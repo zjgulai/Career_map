@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-write-zh",
+  "中文名称": "中文论文写作 workflow",
+  "一句话作用": "中文学术论文正文写作。用于从想法、证据、材料或草稿起草、续写、扩写、补写中文整篇论文、章节或段落，以及实际移动段落或改变主张、证据、章节职责、段落归属和内容取舍的实质性修订，并完成来源核验、引用、学科结构、格式和交付。独立提纲、结构方案或纯语言润色转paper-shape；英文正文写作转paper-write-en；研究价值、稿件质量和投稿可行性评估转/doubao-academic-evaluator；独立系统性文献调研转/doub…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:47+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要中文学术论文正文写作。用于从想法、证据、材料或草稿起草、续写、扩写、补写中文整篇论文、章节或段落，以及实际移动段落或改变主张、证据、章节职责、段落归属和内容取舍的实质性修订，并完成来源核验、引用、学科结构、格式和交付。独立提纲、结构方案或纯语言润色转paper-shape；英文正文写作转paper-write-en；研究价值、稿件质量和投稿可行性评估转/doubao-academic-evaluator；独立系统性文献调研转/doub…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06224-paper-write-zh-e2ec8c2f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04960a6774d4734c0a43c098dc2cfba040f2c50d66c175eec2623a518bd0d3af",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

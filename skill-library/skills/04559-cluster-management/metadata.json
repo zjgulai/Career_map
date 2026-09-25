@@ -1,0 +1,22 @@
+{
+  "英文名称": "cluster-management",
+  "中文名称": "待补：cluster-management",
+  "一句话作用": "Manage OceanBase cluster lifecycle using obd. Deploy, start, stop, restart, destroy, redeploy, upgrade, scale out, and configure clusters. Includes OCP CE takeover and monitoring setup. Use when creating, operating, or…",
+  "关键输入": "- GLIBC : OceanBase CE 4.3+ el8 packages require GLIBC 2.27+ (RHEL/CentOS 8+). AliOS 7 / CentOS 7 ship GLIBC 2.17 — use the el7 package of OceanBase CE ≤4.3.x (e.g., 4.3.5.5). - OBD only needs to run on the control machine; it SSHes to remote nodes. - OCP CE…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Deploying a new OceanBase CE cluster (demo, config file, or interactive) - Starting, stopping, restarting, or destroying clusters - Upgrading cluster components or scaling out - Preparing clusters for OCP CE takeover…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04559-cluster-management-7713c76f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/oceanbase-deploy/cluster-management/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/oceanbase-deploy/cluster-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "53344aa455d4449f89eb3728d23bfeb943e070a94c637a6c80547b61d7f3672f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

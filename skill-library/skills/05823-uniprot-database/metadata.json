@@ -1,0 +1,22 @@
+{
+  "英文名称": "uniprot-database",
+  "中文名称": "待补：uniprot-database",
+  "一句话作用": "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for dir…",
+  "关键输入": "This skill should be used when: - Searching for protein entries by name, gene symbol, accession, or organism - Retrieving protein sequences in FASTA or other formats - Mapping identifiers between UniProt and external da…",
+  "关键输出": "For large queries that exceed pagination limits, use the stream endpoint: https://rest.uniprot.org/uniprotkb/stream?query={query}&format={format} The stream endpoint returns all results without pagination, suitable for downloading complete datasets.",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Searching for protein entries by name, gene symbol, accession, or organism - Retrieving protein sequences in FASTA or other formats - Mapping identifiers between UniProt and external da…时，用它产出或更新：For large queries that exc…",
+  "skill_id": "05823-uniprot-database-e39f9c27",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/uniprot-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/uniprot-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b1d045b9c202bc8706a7d50c2228816e07a84bd76a7b7b22882dcd4678e5f9f4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

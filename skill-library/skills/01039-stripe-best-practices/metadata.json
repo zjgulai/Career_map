@@ -1,0 +1,22 @@
+{
+  "英文名称": "stripe-best-practices",
+  "中文名称": "待补：stripe-best-practices",
+  "一句话作用": "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Accounts v2, controller properties), billing/subscriptions, tax and registrations (Stripe Tax, auto…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Accounts v2, controller properties), billing/subscriptions, tax and registrations (Stripe Tax, auto…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01039-stripe-best-practices-967c7bb2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/stripe/skills/stripe-best-practices/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/stripe/skills/stripe-best-practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7cccd871aabe35863986b4230b3368fbcfe0097e3b5294c962426a24db87dd9f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "document-delivery",
+  "中文名称": "飞书云文档交付",
+  "一句话作用": "将结构化调研结果、核心逻辑图和完整综述正文交付为飞书云文档。默认用于doubao-academic-researcher完整workflow的最后阶段；除非用户明确说不要飞书文档，否则必须执行。",
+  "关键输入": "- 若缺少 .workflow/review handoff.json，只输出：BLOCKED: NEED REVIEW HANDOFF - 若缺少结构化调研结果、.workflow/review draft.md 或 .workflow/review draft check.json，不得创建文档，只输出：BLOCKED: NEED REVIEW REDO - 若存在 .workflow/figures/logic graph.whiteboard.xml，必须先把该 Mermaid 白板插入飞书文档；不得用文…",
+  "关键输出": "完成飞书文档创建、图表插入和读回自检后，创建 .workflow/doc handoff.json： 随后运行： validate run.py 返回非 0 或 status: fail 时，不得声称本次 skill 完成。 默认测试不允许跳过核心逻辑图。只有用户明确允许“本次不生成图”时，logic graph inserted 才可写为 \"skipped\"（用户场景不适用时写 \"not applicable\"），并在交接中说明原因。不要自行用 skip 绕过画图。文献多维地图必须作为 Markdown 表格保…",
+  "最新更新时间": "2026-09-10T16:27:35+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要将结构化调研结果、核心逻辑图和完整综述正文交付为飞书云文档。默认用于doubao-academic-researcher完整workflow的最后阶段；除非用户明确说不要飞书文档，否则必须执行。时，用它产出或更新：完成飞书文档创建、图表插入和读回自检后，创建 .workflow/doc handoff.json： 随后运行： validate run.py 返回非 0 或 status: fail 时，不得声称本次 skill 完成。 默认测试不允许跳过核心逻辑图。只有用户明确允许“本次不生成图”时，log…",
+  "skill_id": "06359-document-delivery-f3eead56",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/sub-skills/document-delivery/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/sub-skills/document-delivery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e5494ddc9b29dd9c0da3a4f6daf61ff18e5bc1b6fb88001ba057568313503eb0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

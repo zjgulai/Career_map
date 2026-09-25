@@ -1,0 +1,22 @@
+{
+  "英文名称": "testx-case-deacy-skill",
+  "中文名称": "测试堂用例腐化处理",
+  "一句话作用": "本 skill 基于智研-测试堂-测试用例-指定目录下的用例，结合用户给出的整改约束条件，调整用例，最终解决对测试用例资产的用例腐化。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "详细验证步骤参考 references/execution steps.md 重新获取数据验证，输出最终执行报告。",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要本 skill 基于智研-测试堂-测试用例-指定目录下的用例，结合用户给出的整改约束条件，调整用例，最终解决对测试用例资产的用例腐化。时，用它产出或更新：详细验证步骤参考 references/execution steps.md 重新获取数据验证，输出最终执行报告。",
+  "skill_id": "05989-testx-case-deacy-skill-6c7ca9f0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/testbuddy/skills/testx-case-deacy-skill/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/testbuddy/skills/testx-case-deacy-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6054756b38f6dec2b16dac2649eda6f1a6a4cf40abe722b5c61406a1ebe2316d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

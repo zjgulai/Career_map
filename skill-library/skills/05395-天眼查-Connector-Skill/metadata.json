@@ -1,0 +1,22 @@
+{
+  "英文名称": "tyc-mcp",
+  "中文名称": "天眼查 Connector Skill",
+  "一句话作用": "天眼查企业数据查询技能 - 聚合式企业数据网关，覆盖企业锚定、基础画像、股权集团、董监高人员、司法风险、知识产权、经营财务、招投标等 160+ 项企业数据能力。",
+  "关键输入": "- \"默认参数\"≠\"可省略\"。列表类工具必须在 arguments 中 显式传 page / page size （按参数表给出的默认值即可）。 - 详情类工具必须 先从上游列表拿到 id / 编号 再下钻，不能用 page/page size 代替（如 get lawsuit detail 需先 get judicial documents 拿 id）。 - \"按需可调用工具\"需要额外字段（如 person name、companyCode、searchKey2），按参数表补齐。",
+  "关键输出": "- 数据忠实原则 ：严格引用工具返回的原始字段值，不推导、不编造未返回的信息。 - 金额格式 ：注明单位（元 / 万元 / 亿元），货币默认为人民币。 - 日期格式 ：以完整格式（YYYY-MM-DD）呈现。 - 空数据处理 ：工具返回为空时如实告知\"暂无该企业相关记录\"，并与\"服务不可用\"区分；不做猜测性描述。 - 多工具结果 ：按主题模块归类展示，配合清晰小标题与表格。 - 信息来源标注 ：在结果末尾标注数据来自天眼查，并列出本次实际调用的工具，便于溯源与复查。",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 境外企业信息查询（数据覆盖以境内为主）。 - 与企业登记无关的纯个人信息查询（人员维度仅围绕其在企业的任职/控制/风险）。 - 实时股价 / 市场行情等动态金融数据。时，用它产出或更新：- 数据忠实原则 ：严格引用工具返回的原始字段值，不推导、不编造未返回的信息。 - 金额格式 ：注明单位（元 / 万元 / 亿元），货币默认为人民币。 - 日期格式 ：以完整格式（YYYY-MM-DD）呈现。 - 空数据处理 ：工具返回为空时如实告知\"暂无该企业相关记录\"，并与\"服务不可用\"区分；不做猜测性描述。 - 多…",
+  "skill_id": "05395-tyc-mcp-7cd47064",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tyc-mcp/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tyc-mcp/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f28537bb20a3a5ac6d8eb696eea5c37ff7115621c9863007e8473078a819d010",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

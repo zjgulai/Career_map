@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-last-mile-cost-per-zone-analytics",
+  "中文名称": "末程分区成本精算 农村偏远标准区域差异化成本分解与路线优化",
+  "一句话作用": "触发词：分区成本、末程成本精算、偏远附加费、邮编分区、承运商优化。何时不用：要在多家承运商之间按实时标签逐单选商与切换用「承运商动态选择」，要算头程与末程的整体成本率用「跨境头程末程成本 KPI」；本技能只做邮编到分区的末程成本拆解。安全边界：分区映射与附加费口径须按承运商最新报价校准，模型不直接改运单或切换承运商。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要物流面临\"偏远区域附加费侵蚀利润但无法量化\"——分区精算识别高成本区域改用USPS，年均1000件偏远订单节省$6,000-12,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03303-p2s-last-mile-cost-per-zone-analytics-e42a7708",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-last-mile-cost-per-zone-analytics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-last-mile-cost-per-zone-analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e508ba36ec61575f4c2bbfe0a7206508a3a15046ed4368e0b011774357d11731",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

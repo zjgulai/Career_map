@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-graph-rag-knowledge-retrieval",
+  "中文名称": "知识图谱增强检索：结构化知识驱动精准问答",
+  "一句话作用": "触发词：知识图谱、多跳推理、Graph RAG、供应商关联、跨SKU问题发现。何时不用：单跳的关键词或语义检索用常规检索即可；只做来料质量 KPI 统计用「供应商来料质量KPI」。安全边界：图谱中的供应商与客户数据须脱敏授权，推理结论不得直接用作对外指控依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要向量RAG无法回答「高退货产品的供应商还给哪些产品供货」等多跳推理问题——知识图谱增强检索沿图边多跳遍历发现跨SKU系统性质量问题，避免批量召回损失年化50-200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11403-p2s-graph-rag-knowledge-retrieval-55181682",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-graph-rag-knowledge-retrieval/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-graph-rag-knowledge-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "055a3da223b87b56932d67af753f3188c0527977d6c8f9828ebd2cdac46162d1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

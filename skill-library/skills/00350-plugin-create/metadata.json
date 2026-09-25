@@ -1,0 +1,22 @@
+{
+  "英文名称": "plugin-create",
+  "中文名称": "待补：plugin-create",
+  "一句话作用": "Use when the user wants to create a new Plugin, scaffold a plugin project, or generate a plugin ZIP package. Triggers on \"create plugin\", \"new plugin\", \"plugin scaffold\", \"generate plugin zip\", \"创建插件\", \"新建plugin\", \"生成插件…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T11:32:09+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use when the user wants to create a new Plugin, scaffold a plugin project, or generate a plugin ZIP package. Triggers on \"create plugin\", \"new plugin\", \"plugin scaffold\", \"generate plugin zip\", \"创建插件\", \"新建plugin\", \"生成插件…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00350-plugin-create-d1edffc3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/plugin-create/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/plugin-create/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6e8b1a40f1e30d4372f6457fbd545a3dc4b470f97a0e1428032c954a160c9849",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

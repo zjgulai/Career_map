@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-creator",
+  "中文名称": "待补：skill-creator",
+  "一句话作用": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill p…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Take best description from the JSON output and update the skill's SKILL.md frontmatter. Show the user before/after and report the scores. ---",
+  "最新更新时间": "2026-09-21T19:35:18+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill p…时，用它产出或更新：Take best description from…",
+  "skill_id": "00055-skill-creator-1b0c0b4c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-73471462U1788235-8A8E75-3151-BFC2B1/agent-core/skills/skill-creator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-73471462U1788235-8A8E75-3151-BFC2B1/agent-core/skills/skill-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3603be75f4c1ddd93872a68e989d383e5abdbcfd78f083d725b38be86d494bf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

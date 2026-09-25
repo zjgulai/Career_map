@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-domain-adaptive-continual-pretraining",
+  "中文名称": "领域持续预训练",
+  "一句话作用": "触发词：领域预训练、持续预训练、专有术语理解、本地小模型、微调方案。何时不用：只缺少量领域知识时用知识注入/RAG 即可，不必动模型权重；只为降低 token 成本时用上下文压缩。安全边界：训练语料必须为自有或已获授权的数据，不得灌入客户隐私或平台受限数据，模型权重与语料不得外发。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要技术负责人面临\"通用DeepSeek不懂ACoS/DOS/FBA等母婴跨境专有概念分析深度有上限\"——QLoRA领域预训练将专业术语理解从60%提升至89%，本地部署后年节省API费用1500元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11962-p2s-domain-adaptive-continual-pretraining-13e1e833",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-domain-adaptive-continual-pretraining/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-domain-adaptive-continual-pretraining/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "039721ba54f897f139f00ec2a8dd1b4df1c96cb2bff3d4edfbd02801b8b56fe0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

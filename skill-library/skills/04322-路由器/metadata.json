@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-reach",
+  "中文名称": "路由器",
+  "一句话作用": "Give your AI agent eyes to see the entire internet. 17 platforms via CLI, MCP, curl, and Python scripts. Zero config for 8 channels. 【路由方式】SKILL.md 包含路由表和常用命令，复杂场景需按需阅读对应分类的 references/ .md。 分类：search / social (小红书/抖音/微…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-17T13:24:22+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Give your AI agent eyes to see the entire internet. 17 platforms via CLI, MCP, curl, and Python scripts. Zero config for 8 channels. 【路由方式】SKILL.md 包含路由表和常用命令，复杂场景需按需阅读对应分类的 references/ .md。 分类：search / social (小红书/抖音/微…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04322-agent-reach-f34db1a2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.local/pipx/venvs/agent-reach/lib/python3.14/site-packages/agent_reach/skill/SKILL.md",
+  "relative_path": "lute/.local/pipx/venvs/agent-reach/lib/python3.14/site-packages/agent_reach/skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e298ef4a189f32888204de0d2b34c9a36c77039ec7599beb58c39b4119fc654f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

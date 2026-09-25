@@ -1,0 +1,22 @@
+{
+  "英文名称": "bootstrap",
+  "中文名称": "待补：bootstrap",
+  "一句话作用": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, environment provisioning, env pu…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Linked Project : / - Resource Path : vercel-integration-neon dashboard-neon neon-cli - Env Keys : required, present, missing - Secrets : AUTH SECRET set in Vercel (value never shown) - Migration Status : not-run success failed ( )",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, environment provisioning, env pu…时，用它产出或更新：- Linked Project : / - Res…",
+  "skill_id": "01522-bootstrap-5f5a43b8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/bootstrap/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/bootstrap/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "509de0d4efe0611ef39bdbeb3514daaf42794898fc36c67466370d2b1cbd914c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

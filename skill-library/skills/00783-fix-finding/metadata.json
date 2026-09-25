@@ -1,0 +1,22 @@
+{
+  "英文名称": "fix-finding",
+  "中文名称": "待补：fix-finding",
+  "一句话作用": "Use when the user explicitly asks to fix and verify a validated or plausible security finding. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "In the final response, include: - outcome: fixed, no change, or blocked - the concrete vulnerable path, security invariant, and legitimate behavior that had to remain - the selected patch strategy and why it was the narrowest complete repository-native option…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when the user explicitly asks to fix and verify a validated or plausible security finding. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.时，用它产出或更新：In the final response, include: - outcome: fixed, no change,…",
+  "skill_id": "00783-fix-finding-151b20e9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/codex-security/skills/fix-finding/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/codex-security/skills/fix-finding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7eca2ea1175edf2338ef08c69baef335abc5a57d09bcf405840f7e35e851cef9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

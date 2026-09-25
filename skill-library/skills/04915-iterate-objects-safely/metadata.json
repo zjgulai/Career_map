@@ -1,0 +1,22 @@
+{
+  "英文名称": "iterate-objects-safely",
+  "中文名称": "待补：iterate-objects-safely",
+  "一句话作用": "Use when iterating over object keys and values. Use when for...in loops produce type errors. Use when Object.entries returns any types. Use when dealing with prototype pollution concerns. Use when considering Map vs obj…",
+  "关键输入": "- Iterating over object keys and values - for...in loops produce \"Element implicitly has 'any' type\" errors - Object.entries returns any value types - Need to handle both known and unknown object properties - Considerin…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:23+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Iterating over object keys and values - for...in loops produce \"Element implicitly has 'any' type\" errors - Object.entries returns any value types - Need to handle both known and unknown object properties - Considerin…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04915-iterate-objects-safely-47936e65",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/iterate-objects-safely/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/iterate-objects-safely/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c9e2f9ddb682b60aba7a5aa3a1bce035014661fde952bfafadc7689960307feb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

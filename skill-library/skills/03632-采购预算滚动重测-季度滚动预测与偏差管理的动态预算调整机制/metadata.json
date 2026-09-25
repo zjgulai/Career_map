@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-procurement-budget-rolling-reforecast",
+  "中文名称": "采购预算滚动重测 季度滚动预测与偏差管理的动态预算调整机制",
+  "一句话作用": "触发词：采购预算、季度滚动重测、预算偏差预警、超支发现、动态预算调整。何时不用：做全局收入与成本的滚动再预测时用「滚动预算再预测」；只做供应商比价与议价时用采购比价类技能。安全边界：预算与采购金额属敏感财务数据，仅限授权人员使用；不得据此擅自变更已签采购合同。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CFO面临\"年末才发现采购预算超支无法纠正\"——滚动重测将预算超支发现从年底→月度，及时干预年化减少超支约50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03632-p2s-procurement-budget-rolling-reforecast-5b6bb55c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-procurement-budget-rolling-reforecast/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-procurement-budget-rolling-reforecast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "14309d42098764047cdbbd1aba4d0f3217be110d8a9766b8e649af97d18d04a8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-thompson-sampling-mab",
+  "中文名称": "待补：p2s-thompson-sampling-mab",
+  "一句话作用": "触发词：Thompson 采样、多臂老虎机、主图选优、Beta 后验、转化率优化、探索利用。何时不用：需要严格假设检验报告时用标准 A/B；奖励延迟很长（如订阅续费）时后验容易失真，需谨慎。安全边界：实时分配需具备平台 API 权限与合规的数据获取方式，避免反复试探同一批流量造成体验波动。",
+  "关键输入": "输入 ：日级更新的实验数据：每个方案（臂）的展示与转化（或点击）计数、流量规模与测试周期；粒度到臂-日，需要能实时或准实时回填结果。 输出 ：每臂的后验分布与最优概率、自适应分配比例、收敛后的最优方案与预期提升；供运营在 listing 素材、渠道选择等高频场景直接落地。",
+  "关键输出": "输入 ：日级更新的实验数据：每个方案（臂）的展示与转化（或点击）计数、流量规模与测试周期；粒度到臂-日，需要能实时或准实时回填结果。 输出 ：每臂的后验分布与最优概率、自适应分配比例、收敛后的最优方案与预期提升；供运营在 listing 素材、渠道选择等高频场景直接落地。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：Thompson 采样、多臂老虎机、主图选优、Beta 后验、转化率优化、探索利用。何时不用：需要严格假设检验报告时用标准 A/B；奖励延迟很长（如订阅续费）时后验容易失真，需谨慎。安全边界：实时分配需具备平台 API 权限与合规的数据获取方式，避免反复试探同一批流量造成体验波动。时，用它产出或更新：输入 ：日级更新的实验数据：每个方案（臂）的展示与转化（或点击）计数、流量规模与测试周期；粒度到臂-日，需要能实时或准实时回填结果。 输出 ：每臂的后验分布与最优概率、自适应分配比例、收敛后的最优方案与…",
+  "skill_id": "03944-p2s-thompson-sampling-mab-37937322",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-thompson-sampling-mab/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-thompson-sampling-mab/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c817d9eff7aa4b9d002d2e1452250e8eb8ec697e4f3613fe7dbfc6f14923b1a4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

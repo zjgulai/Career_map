@@ -1,0 +1,22 @@
+{
+  "英文名称": "ab-test-analysis",
+  "中文名称": "待补：ab-test-analysis",
+  "一句话作用": "Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:43+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11153-ab-test-analysis-1f996abd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-data-analytics/skills/ab-test-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-data-analytics/skills/ab-test-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9956966671d6d19d42acb6150307fd7954d16d1d150e8fd8277f99eec9a949e0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ddd-glossary-gen",
+  "中文名称": "统一语言术语表",
+  "一句话作用": "从当前对话中提取和规范领域术语，生成DDD风格统一语言术语表，识别歧义并给出规范用语建议，保存为UBIQUITOUS LANGUAGE.md文件。当用户需要定义领域术语、构建术语表、统一词汇规范、创建统一语言，或在讨论中提及“领域模型”、“DDD”或“统一语言”等关键词时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "生成一个 UBIQUITOUS LANGUAGE.md 文件，结构如下：",
+  "最新更新时间": "2026-09-14T00:09:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要从当前对话中提取和规范领域术语，生成DDD风格统一语言术语表，识别歧义并给出规范用语建议，保存为UBIQUITOUS LANGUAGE.md文件。当用户需要定义领域术语、构建术语表、统一词汇规范、创建统一语言，或在讨论中提及“领域模型”、“DDD”或“统一语言”等关键词时触发。时，用它产出或更新：生成一个 UBIQUITOUS LANGUAGE.md 文件，结构如下：",
+  "skill_id": "10570-ddd-glossary-gen-cb1f687b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/ddd-glossary-gen/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/ddd-glossary-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8db80baeef935e242c0676edef66cda9ea3d931c009de789e7ed21c758ab4851",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

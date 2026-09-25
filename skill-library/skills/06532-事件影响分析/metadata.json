@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-market-hotspot",
+  "中文名称": "事件影响分析",
+  "一句话作用": "把宏观、政策、监管、供需、地缘、行业或公司事件转化为公司、行业与公开市场的因果影响分析，覆盖事件状态、基线、传导渠道、财务与估值影响、直接及高阶影响、priced-in判断、情景、监控与证伪。用于事件影响、政策冲击、跨资产传导和公司事件研究；不要用于无明确事件的公司基本面或普通新闻摘要。",
+  "关键输入": "关键输入未知时，被禁止的是\"替用户假设一个值\"，不是\"给出可执行内容\"。把结论改写为以该未知量为自变量的分档表： 档位 触发条件（未知量取值区间） 该档下的动作方向与优先顺序 该档被推翻的信号 分档表给方向、顺序和取舍理由，不给依赖该未知量的精确金额或比例。结尾列出\"补齐哪几项后可给精确值\"，最多5项，每项写清为什么需要它。",
+  "关键输出": "无附件自然问答只交付正文：不创建文件、不修脚本Schema、不输出内部过程。以下五条优先于本文件其余内容。约束的是\"数字怎么归位、怎么标注\"，不是\"少写内容\"；不得用减少分析深度的方式满足本节。",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要问题再短、看起来再简单，也必须先联网核验以下四类，然后才能写结论： - 主体身份：是否仍独立存在、上市/退市/被收购/私有化/更名、交易所与证券代码； - 规则身份：政策、法规、条款是否已由发布机关正式发布，以及生效日； - 期间口径：报告期、单位、币种、as-of； - 冲突：同一字段搜到两个不同值时两个都写出，不擅自择一。 复杂度路由只决定篇幅和槽位数量，不决定是否核验。未通过核验的主体或规则不得进入结论段和摘要段，只能进\"待核清…时，用它产出或更新：无附件自然问答只交付正文：不创建文件、不修脚本Sch…",
+  "skill_id": "06532-doubao-market-hotspot-76896d42",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-market-hotspot/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-market-hotspot/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63700a9922ccb59a3905f1128b75686567a2d295ecd8bb3038b9145cac1397c3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-category-compliance-prescan",
+  "中文名称": "待补：p2s-category-compliance-prescan",
+  "一句话作用": "触发词：合规预筛、召回风险、认证清单、准入核对、品类风险扫描。何时不用：只看品类市场机会与竞争强度时用「Blue Ocean Category Discovery」；需要出具正式合规结论或提交认证时走认证机构与法规流程，本技能只做进入前预筛。安全边界：风险结论基于公开召回库，不构成法规意见，认证清单、成本与工期须以认证机构实际报价为准。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：考虑推出 UV-C 密闭消毒器，但市面上已有 2 次大规模召回（2025-08 BigTree 33,000 台 / 2026-04 Uvlizer 21,000 台），不知道自己的产品设计是否踩了同样的雷，认证需要多少成本和时间时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11248-p2s-category-compliance-prescan-11d1f733",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-category-compliance-prescan/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-category-compliance-prescan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "38ea224dbd35b836ec47f7402b02d51ceaff506a24633f75e1c7a243ad98a172",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

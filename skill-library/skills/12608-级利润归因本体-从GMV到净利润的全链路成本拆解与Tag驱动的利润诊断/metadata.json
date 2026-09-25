@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sku-level-margin-attribution-ontology",
+  "中文名称": "级利润归因本体 从GMV到净利润的全链路成本拆解与Tag驱动的利润诊断",
+  "一句话作用": "触发词：SKU 利润归因、全链路拆解、利润标签、反向定价、亏损 SKU 治理。何时不用：要按单品逐层瀑布看盈亏用「ASIN 盈利瀑布」；要看每天单 SKU 赚多少钱的看板用「SKU 单品利润看板」。安全边界：标签体系会随品类漂移，须建月度准确率监控；定价与下架动作须人工确认后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CEO/CFO面临\"GMV1000万但不知道哪些SKU在赚钱哪些在亏\"——全链路瀑布P&L将亏损SKU(约16%)识别出来，Tag驱动的调价/下架行动直接增加利润3-5%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12608-p2s-sku-level-margin-attribution-ontology-f925f9f7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-sku-level-margin-attribution-ontology/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-sku-level-margin-attribution-ontology/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c962a0073459abd4bbdb7352ff5672a465070c995c700593f8bdfb8a55f2083",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

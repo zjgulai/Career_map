@@ -1,0 +1,22 @@
+{
+  "英文名称": "privacy-policy",
+  "中文名称": "待补：privacy-policy",
+  "一句话作用": "按业务收集与处理数据的方式起草隐私政策草稿，交由法务定稿。触发词：隐私政策草拟、privacy-policy、按业务收集与处理数据的方式起草隐私政策草稿，交由法务定稿。",
+  "关键输入": "- $PRODUCT NAME: Name of the product or service - $PRODUCT URL: URL or description of the product (optional; will be researched if provided) - $COMPANY NAME: Legal name of your company - $COMPANY ADDRESS: Company headquarters or registered address - $CONTACT…",
+  "关键输出": "Present the privacy policy in three parts:",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要按业务收集与处理数据的方式起草隐私政策草稿，交由法务定稿。触发词：隐私政策草拟、privacy-policy、按业务收集与处理数据的方式起草隐私政策草稿，交由法务定稿。时，用它产出或更新：Present the privacy policy in three parts:",
+  "skill_id": "04078-privacy-policy-7c712883",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/privacy-policy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/privacy-policy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "171198a59f50f4fa12485c05523bcc894347757c7bcd5f6d17a7c250d60465ba",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

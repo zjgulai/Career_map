@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-critical-reading-companion",
+  "中文名称": "批判性阅读助手",
+  "一句话作用": "深度解读文章，把新闻、长评或宣传文案等非学术公共文本转成便于理解、可追溯的阅读地图；用于重建论证链、评价证据与推理、识别隐藏前提、补充替代解释、核查关键事实，并输出可追溯的阅读地图。适用于可信度判断、论证拆解、宣传分析、作者自检和行动决策。",
+  "关键输入": "- 待分析文本 ：支持粘贴正文、网页 URL、PDF、DOCX、Markdown 等。 - 用户意图（可选） ：可指定是做“可信度判断”、“论证拆解”还是“自检加固”。 - 期望深度（可选） ：快速快判或完整解读。",
+  "关键输出": "如用户有输出格式要求时优先遵守用户要求。否则检查并输出结束后，先检测lark-cli 是否可用，如可用则 默认使用飞书文档 相关工具将阅读地图转换至 飞书文档 交付用户。注意需要用docs +create --doc-format markdown等命令，而不是单纯用markdown +create上传，因为后者没有创建飞书文档只是上传markdown文件所以没法渲染mermaid图。只有在用户有自己的要求或lark-cli不可用时将markdown或用户要求的格式交付用户。",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要深度解读文章，把新闻、长评或宣传文案等非学术公共文本转成便于理解、可追溯的阅读地图；用于重建论证链、评价证据与推理、识别隐藏前提、补充替代解释、核查关键事实，并输出可追溯的阅读地图。适用于可信度判断、论证拆解、宣传分析、作者自检和行动决策。时，用它产出或更新：如用户有输出格式要求时优先遵守用户要求。否则检查并输出结束后，先检测lark-cli 是否可用，如可用则 默认使用飞书文档 相关工具将阅读地图转换至 飞书文档 交付用户。注意需要用docs +create --doc-format markdown等命…",
+  "skill_id": "06248-doubao-critical-reading-companion-9ae3fe99",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-critical-reading-companion/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-critical-reading-companion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c8d19b9f239e611a6cfd4f7b32d128acd9a9e5161f60d660f5f4fe5c6968b4d3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

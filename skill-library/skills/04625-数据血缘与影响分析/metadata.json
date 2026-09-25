@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-lineage-impact-analysis",
+  "中文名称": "数据血缘与影响分析",
+  "一句话作用": "数据血缘与影响分析。当字段变更、表下线、需求改造时，自动拉取上下游血缘 → 分层列出影响清单 → 标记关键报表/任务 → 生成业务方/技术方两版变更通知文案。决策因子驱动——不预设\"影响 N 个表就高风险\"，而是基于消费方业务关键度判断。当用户说\"XX 字段要改，看下影响\"、\"下线这张表行不行\"、\"血缘分析\"、\"变更通知\"时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "影响分析报告 （含）： - 变更范围摘要 - 影响清单表（按 L0-L3 分层） - 行动清单（每个下游的具体动作） - 时间线（变更日期 / 通知日期 / sign off 截止） - 业务方通知文案（钉钉群发 / 邮件版） - 技术方通知文案 - 兜底方案与回滚预案",
+  "最新更新时间": "2026-09-19T03:38:09+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要数据血缘与影响分析。当字段变更、表下线、需求改造时，自动拉取上下游血缘 → 分层列出影响清单 → 标记关键报表/任务 → 生成业务方/技术方两版变更通知文案。决策因子驱动——不预设\"影响 N 个表就高风险\"，而是基于消费方业务关键度判断。当用户说\"XX 字段要改，看下影响\"、\"下线这张表行不行\"、\"血缘分析\"、\"变更通知\"时触发。时，用它产出或更新：影响分析报告 （含）： - 变更范围摘要 - 影响清单表（按 L0-L3 分层） - 行动清单（每个下游的具体动作） - 时间线（变更日期 / 通知日期 / s…",
+  "skill_id": "04625-data-lineage-impact-analysis-7fcec95f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/data-lineage-impact-analysis/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/data-lineage-impact-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "18e21a5cedef65fed232757f177c70cbd88c3691f23288ec7d1cc31d97f14249",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-brand-video-generation",
+  "中文名称": "品牌视频生成：从文本图像到高保真营销视频的全链路技术",
+  "一句话作用": "触发词：品牌视频生成、文本转视频、图生视频、A+ 页面视频、拍摄替代。何时不用：需要真人实拍演示或平台要求实拍证据时不用；多市场批量版本用多市场品牌视频生成技能。安全边界：生成视频不得虚构产品功能与使用效果；旁白与字幕不得使用绝对化或医疗宣称表述。",
+  "关键输入": "BPR ≥ 85%、自然度 ≥ 4.0：可直接使用 BPR 低：检查品牌关键词覆盖度，补充微调样本 自然度低：调低品牌显著度，让品牌色自然融入环境",
+  "关键输出": "BPR ≥ 85%、自然度 ≥ 4.0：可直接使用 BPR 低：检查品牌关键词覆盖度，补充微调样本 自然度低：调低品牌显著度，让品牌色自然融入环境",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌经理面临视频产能跟不上投放——品牌视频生成将产出周期从5天缩到6小时，年化省18万元时，用它产出或更新：BPR ≥ 85%、自然度 ≥ 4.0：可直接使用 BPR 低：检查品牌关键词覆盖度，补充微调样本 自然度低：调低品牌显著度，让品牌色自然融入环境",
+  "skill_id": "02833-p2s-brand-video-generation-5397887a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-brand-video-generation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-brand-video-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "57a1f2e4fc4d919f9f8095abe231a8f21e914329e081982c26a69893954824e9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-VOC-Competitive-Positioning-Map",
+  "中文名称": "待补：VOC Competitive Positioning Map",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 70.0, \"best\": 70.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T02:09:00.448993\"} {\"round\": 0, \"status\": \"keep\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T11:37:23+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 70.0, \"best\": 70.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T02:09:00.448993\"} {\"round\": 0, \"status\": \"keep\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07836-skill-voc-competitive-positioning-map-e6eac8d0",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-VOC-Competitive-Positioning-Map.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-VOC-Competitive-Positioning-Map.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d578fdd5ea0aa96769019c8e5c4e0449196c190fc9cab0cf98424ee3663fecd4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

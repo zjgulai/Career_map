@@ -1,0 +1,22 @@
+{
+  "英文名称": "recursive-context-coding-agent",
+  "中文名称": "待补：recursive-context-coding-agent",
+  "一句话作用": "Use recursive context processing with grep/find/uv to handle large codebases. When working with codebases larger than your context window, treat the codebase as an external environment and recursively process it using s…",
+  "关键输入": "- Working with codebases larger than your context window - Tasks requiring dense access to code throughout a large codebase - Multi-file refactoring or analysis tasks - When grep/find operations would be more effective…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:52:56+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Working with codebases larger than your context window - Tasks requiring dense access to code throughout a large codebase - Multi-file refactoring or analysis tasks - When grep/find operations would be more effective…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05048-recursive-context-coding-agent-070ac392",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/recursive-context-coding-agent/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/recursive-context-coding-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e31fbbf24c866826689d138acf884700ce5f121e89567536ca778648eb327f24",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

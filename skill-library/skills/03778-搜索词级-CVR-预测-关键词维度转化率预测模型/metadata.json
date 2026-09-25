@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-conversion-rate-predictor",
+  "中文名称": "搜索词级 CVR 预测 关键词维度转化率预测模型",
+  "一句话作用": "触发词：CVR预测、关键词优先级、冷启动评分、出价优先级矩阵、转化率特征。何时不用：关键词级历史不足90天时不适用；按转化率偏差做单次检验调价走关键词出价自动调整器。安全边界：特征不得包含PII与种族健康等敏感属性，预测仅用于排序不直接改出价，须配合出价上限。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告运营面临\"500+关键词预算分配全靠经验、ROAS优化无系统支撑\"——CVR预测模型将相同预算ROAS提升20-35%，年化增收20-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03778-p2s-search-conversion-rate-predictor-c3fec47e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-search-conversion-rate-predictor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-search-conversion-rate-predictor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d1c26cda20b4a423115e87c2dc1338b68bf7978168e84a8264a1855f804baf3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

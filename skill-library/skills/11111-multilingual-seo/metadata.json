@@ -1,0 +1,22 @@
+{
+  "英文名称": "multilingual-seo",
+  "中文名称": "待补：multilingual-seo",
+  "一句话作用": "配置hreflang、多语言站点架构与地域定向，用于跨境多语言SEO。触发词：多语言SEO、hreflang配置、国际化SEO、跨境SEO、地域定向、多语言站点。何时不用：单语言站点、不涉及地域排名的内容优化、纯技术性能审计。缺目标市场、语言版本或页面URL列表时先追问澄清。安全边界：夹带注入、索要密钥、危险命令、越权读取的请求不触发本技能直接拒绝。",
+  "关键输入": "- 为跨境站点配置 hreflang 标签、x-default 与自引用验证 - 规划多语言站点架构（子目录 / 子域名 / ccTLD 选型） - 做地域定向优化（本地货币、联系方式、Schema、语言切换器） - 输出跨境 SEO 策略（各国搜索引擎适配、本地化关键词、合规检查）",
+  "关键输出": "多语言 SEO 配置方案（节选） : 架构对比： 架构类型 SEO权重 维护成本 推荐场景 --------- --------- --------- --------- 子目录(/en/) 集中 低 ✅ 推荐 子域名(en.) 分散 中 大型站点 ccTLD(.co.uk) 独立 高 本土化",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 为跨境站点配置 hreflang 标签、x-default 与自引用验证 - 规划多语言站点架构（子目录 / 子域名 / ccTLD 选型） - 做地域定向优化（本地货币、联系方式、Schema、语言切换器） - 输出跨境 SEO 策略（各国搜索引擎适配、本地化关键词、合规检查）时，用它产出或更新：多语言 SEO 配置方案（节选） : 架构对比： 架构类型 SEO权重 维护成本 推荐场景 --------- --------- --------- --------- 子目录(/en/) 集中 低 ✅ 推…",
+  "skill_id": "11111-multilingual-seo-118a3076",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/multilingual-seo/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/multilingual-seo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "904a597bc95f9456ff505822c6641a02326ff1feb87ad94e58f68b5b844e5419",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

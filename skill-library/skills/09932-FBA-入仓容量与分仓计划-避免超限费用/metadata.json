@@ -1,0 +1,22 @@
+{
+  "英文名称": "FBA 入仓容量与分仓计划（避免超限费用）",
+  "中文名称": "待补：FBA 入仓容量与分仓计划（避免超限费用）",
+  "一句话作用": "当建议补货量与物流方案需要适配 FBA 容量限制、分仓入库与入库配置费时调用；北美/欧洲规则分轨。",
+  "关键输入": "- demand-forecast-engine 或等价建议量。 - 当前 FBA 仓容/限制 快照（手动粘贴或 API）；无则输出「需运营拉取」占位。",
+  "关键输出": "- 表：batch id qty dest fc ship window capacity risk notes - 摘要 ：总可入 vs 建议量差异。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当建议补货量与物流方案需要适配 FBA 容量限制、分仓入库与入库配置费时调用；北美/欧洲规则分轨。时，用它产出或更新：- 表：batch id qty dest fc ship window capacity risk notes - 摘要 ：总可入 vs 建议量差异。",
+  "skill_id": "09932-fba-d62727f4",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/fba-capacity-planner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/fba-capacity-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "205a5766249bb81cfa971731282faa1d0ef53e7f0c15747a87cd8db12125760f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

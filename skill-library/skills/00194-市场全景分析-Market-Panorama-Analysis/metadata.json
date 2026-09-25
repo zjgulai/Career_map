@@ -1,0 +1,22 @@
+{
+  "英文名称": "市场全景分析",
+  "中文名称": "市场全景分析（Market Panorama Analysis）",
+  "一句话作用": "针对一个品类/市场一次性跑全维度（规模+增速+竞争+国家+买家+趋势）分析，输出一份市场全景报告，给出「是否值得介入 + 如何切入」决策结论与行动清单。 品类词是唯一必填输入：优先取 query 品类词，其次取商家主营品类画像，两者都拿不到才追问一次；目标市场默认全球、统计周期默认 30 天；一次执行聚焦一个品类/市场。 只做品类/市场级全景概览与介入判断；不做竞品店铺发现与逐店拆解（此类诉求用竞品对标分析）、不做店铺经营数据分析、不…",
+  "关键输入": "✅ 适用 ❌ 改用其他 skill ------ ------ 给品类/市场要\"看清全局 + 是否值得介入 + 如何切入\" 8 维深度报告 → deep-dive 综合行业/市场规模 + 增速调研 纯热销榜 → hot-product-insight 热销 TopN + 国家 + 买家 + 趋势（任意侧重，仍出全景） 蓝海 → blue-ocean-finder 单品/赛道在国际站的优势潜力评估 店铺经营 → analysis-bri…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要✅ 适用 ❌ 改用其他 skill ------ ------ 给品类/市场要\"看清全局 + 是否值得介入 + 如何切入\" 8 维深度报告 → deep-dive 综合行业/市场规模 + 增速调研 纯热销榜 → hot-product-insight 热销 TopN + 国家 + 买家 + 趋势（任意侧重，仍出全景） 蓝海 → blue-ocean-finder 单品/赛道在国际站的优势潜力评估 店铺经营 → analysis-bri…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00194-skill-7d593554",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-market-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-market-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ebba31726b84b7664bac8d06258e9af359abd0bff4ce2feb602468a7c823d321",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

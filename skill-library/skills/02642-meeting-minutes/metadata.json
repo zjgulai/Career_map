@@ -1,0 +1,22 @@
+{
+  "英文名称": "meeting-minutes",
+  "中文名称": "待补：meeting-minutes",
+  "一句话作用": "把会议转写或零散笔记整理成含决议、行动项、负责人与截止日的结构化纪要。触发词：会议纪要、整理会议记录、行动项、开会记录、会议总结、meeting-minutes。何时不用：只做纯语音转写而不整理成文档时不用；把一段时间的工作汇总成周期汇报用 work-report-writer。",
+  "关键输入": "Use this skill when: - Internal syncs, standups, design reviews, triage, planning or ad-hoc meetings with short duration - Situations that require a concise record of decisions, assigned action items, and follow-ups - C…",
+  "关键输出": "You MUST produce meeting minutes following this exact structure. If information is unavailable, use TBD or Unknown and explain how to obtain it.",
+  "最新更新时间": "2026-09-15T11:05:39+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Use this skill when: - Internal syncs, standups, design reviews, triage, planning or ad-hoc meetings with short duration - Situations that require a concise record of decisions, assigned action items, and follow-ups - C…时，用它产出或更新：You MUST produce meeting m…",
+  "skill_id": "02642-meeting-minutes-78fc90ad",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/meeting-minutes/SKILL.md",
+  "relative_path": "lute/.dsh/skills/meeting-minutes/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3338c5c675643ce1944ae36e9b379bae71e7beec4ff3ef7fdc827454ff22d831",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

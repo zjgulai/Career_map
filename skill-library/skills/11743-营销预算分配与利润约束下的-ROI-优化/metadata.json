@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mmm-budget-pl-alignment",
+  "中文名称": "营销预算分配与利润约束下的 ROI 优化",
+  "一句话作用": "触发词：利润约束预算、毛利率对齐、Hindsight Regret、饱和曲线拟合、净利润优化。何时不用：只看ROAS不看毛利或拿不到各渠道毛利率时不适用；没有MMM后验只想出多档情景用贝叶斯MMM情景技能。安全边界：优化须保留各渠道最低投放与品牌曝光底线，净利润口径须与财务确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要按 ROAS 分配预算的营销团队每月留下 26% 利润在桌上——Hindsight Regret 审计 + P&L 约束优化将净利润提升 26%（Amazon-PPC 过度投入 → TikTok 高毛利渠道补强）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11743-p2s-mmm-budget-pl-alignment-2e93e987",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-mmm-budget-pl-alignment/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-mmm-budget-pl-alignment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be831fbcdfcae95602009278c23454eb5fa91dd9a9ba96eb580eafe7fb8318b2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

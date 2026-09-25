@@ -1,0 +1,22 @@
+{
+  "英文名称": "compete",
+  "中文名称": "竞品分析",
+  "一句话作用": "Competitor analysis for e-commerce channel UX design. Takes competitor URLs, captures full-page screenshots via browser automation, performs visual difference analysis across color, layout, interaction, and information…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Competitor analysis for e-commerce channel UX design. Takes competitor URLs, captures full-page screenshots via browser automation, performs visual difference analysis across color, layout, interaction, and information…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04651-compete-661ce441",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/compete/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/compete/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c91cfc25e2a8d783ebe4ddf857d59172baed33e70e86970d5a6708aa6dce1faa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

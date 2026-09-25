@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-continual-learning-production",
+  "中文名称": "持续学习生产模型 无遗忘的在线模型知识更新",
+  "一句话作用": "触发词：持续学习、灾难性遗忘、季节切换、在线更新、模型重训。何时不用：只需检测并修正预测漂移用「自适应预测精准化」，新品无历史销售用「新品冷启动预测」。安全边界：持续学习只用聚合统计，不存储原始用户数据；正则强度与任务差异需人工调优。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要算法团队面临\"季节切换后需求预测模型MAPE从11%劣化至18%（旧季节知识遗忘）\"——EWC持续学习弹性约束保留跨季节知识，年化降低积压断货损失约100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11352-p2s-continual-learning-production-907e3b67",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-continual-learning-production/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-continual-learning-production/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e9a7cabe82caafb40f0f18ba8ed7142e618c9bc92d0639a93752068c6ac29806",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-source-user-identity-unification",
+  "中文名称": "跨平台用户身份统一打通 Amazon独立站同一用户",
+  "一句话作用": "触发词：多源身份统一、三层匹配、ID 图谱、Lookalike、私域打通。何时不用：只有两端且哈希确定性匹配就够时用轻量身份解析；本技能面向三端以上、需要概率与图结构层层补全的场景。安全边界：只处理哈希后的标识，不做明文 PII 关联；图结构相似度属于推断，需保留人工复核通道。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临\"Amazon/TikTok/独立站同一用户三套ID无法打通导致Lookalike种子质量差、广告重复触达\"——三层匹配架构将跨平台用户识别覆盖率提升至85%+，广告重复触达年化节省约8万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12053-p2s-multi-source-user-identity-unification-3496c4b3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-multi-source-user-identity-unification/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-multi-source-user-identity-unification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3b7aef4e1fa9a80d387d3f18f8c832d558bbbfb63a0feaa978ea8567cd7750c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

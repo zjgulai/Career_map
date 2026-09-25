@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hijacker-seller-network-analysis",
+  "中文名称": "跟卖卖家网络图谱识别有组织的跟卖集团",
+  "一句话作用": "触发词：跟卖集团识别、卖家网络图谱、社群发现、共享图片取证、批量举报。何时不用：只做单次 Buy Box 劫持的分钟级告警时用「Buy Box 劫持实时监控」；只给单个 ASIN 算卖家风险分时用「Listing 劫持网络检测」。安全边界：只输出集团识别与证据整理，不代平台举报、不作法律定性。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌方面临\"跟卖处理完一个3天后换号再来无法从根源解决\"——跟卖集团图谱分析一次性向Amazon举报12人集团，Buy Box损失率从35%降至8%，年化保护GMV 50-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03210-p2s-hijacker-seller-network-analysis-c4b56601",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-hijacker-seller-network-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-hijacker-seller-network-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bfa1b02bfafd25280f743a741f7c31538793c06b9f6cb72d91aa9368e1a6db7b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

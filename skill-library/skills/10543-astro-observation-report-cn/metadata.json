@@ -1,0 +1,22 @@
+{
+  "英文名称": "astro-observation-report-cn",
+  "中文名称": "待补：astro-observation-report-cn",
+  "一句话作用": "用于撰写 LIGO、Virgo、KAGRA 探测到的致密双星合并事件（BNS、BBH、NSBH）引力波观测结果论文的 Skill。覆盖论文架构、首页版式、参数估计图、不确定度标记、可信区间图、统计约定、页眉等，复刻《Physical Review X》双栏期刊风格。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "A markdown-driven skill encoding document structure, presentation patterns, and statistical conventions from LIGO/Virgo/KAGRA collaboration SOTA papers.",
+  "最新更新时间": "2026-09-14T00:08:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用于撰写 LIGO、Virgo、KAGRA 探测到的致密双星合并事件（BNS、BBH、NSBH）引力波观测结果论文的 Skill。覆盖论文架构、首页版式、参数估计图、不确定度标记、可信区间图、统计约定、页眉等，复刻《Physical Review X》双栏期刊风格。时，用它产出或更新：A markdown-driven skill encoding document structure, presentation patterns, and statistical conventions from LIGO…",
+  "skill_id": "10543-astro-observation-report-cn-51a137a6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/astro-observation-report-cn/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/astro-observation-report-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b91b8c95ea36e8cd5e9907a1545b7b7552afdd61f96df58443e597f4876ceacb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

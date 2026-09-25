@@ -1,0 +1,22 @@
+{
+  "英文名称": "pricing-page",
+  "中文名称": "定价页",
+  "一句话作用": "三档定价 + 特性对比表 + FAQ",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "sales",
+  "解决具体问题": "当需要三档定价 + 特性对比表 + FAQ时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10427-pricing-page-cb41ac59",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/pricing-page/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/pricing-page/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f7ee6ac8e0d115b69e9707e15326e7c9a1ea7c11d35b26f046b1a8671a37dfd5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "formatted-export-with-parquet",
+  "中文名称": "待补：formatted-export-with-parquet",
+  "一句话作用": "从多Sheet Excel文件中识别指定条件的记录，并将筛选结果以整行标红格式导出为Excel文件，适用于数据清洗、条件筛选与可视化标记场景。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "result df = pd.concat(empty target rows, ignore index=True) if empty target rows else pd.DataFrame() from openpyxl import load workbook from openpyxl.styles import PatternFill output path = \"filtered results highlighted.xlsx\" if not result df.empty:",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要从多Sheet Excel文件中识别指定条件的记录，并将筛选结果以整行标红格式导出为Excel文件，适用于数据清洗、条件筛选与可视化标记场景。时，用它产出或更新：result df = pd.concat(empty target rows, ignore index=True) if empty target rows else pd.DataFrame() from openpyxl import load workbook from openpyxl.styles import PatternFill…",
+  "skill_id": "04183-formatted-export-with-parquet-af7f2289",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-result-export/formatted-export/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-result-export/formatted-export/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "57b0f63a866a4dd829be36695e7e072f89681cdc382aec433b6b952a8970a533",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-ta[REDACTED]",
+  "中文名称": "多任务用户表示学习：统一用户画像驱动全业务",
+  "一句话作用": "触发词：统一用户表示、多任务学习、共享编码、信号复用、画像打通。何时不用：只有一个下游任务、没有跨系统信号复用需求时不用；本技能解决推荐、广告、流失、LTV 各自建模型的重复与孤岛。安全边界：行为数据须匿名化；广告定向不得使用敏感属性（如生育状态），禁止基于用户脆弱状态定向。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要推荐广告流失LTV四个系统各自维护用户模型导致「安静偏好」信号无法跨系统复用——多任务统一用户表示一次编码服务四个任务，各任务精度提升5-12%推理成本节省30-50%年化15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12054-p2s-multi-ta-redacted-ce83526d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-multi-task-user-representation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-multi-task-user-representation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d96ed77361276fbd0bac169af1789c9376f365e064b28e81259d1f6aa1eca4e9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

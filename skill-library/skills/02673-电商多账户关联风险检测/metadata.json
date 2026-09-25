@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-account-association-risk-detection",
+  "中文名称": "电商多账户关联风险检测",
+  "一句话作用": "触发词：账号关联检测、多维信号图、关联封禁、隔离建议、风险等级。何时不用：只想给单账号对算一个 0-1 关联相似分时用「账号指纹风险评分器」；要评估封号传染并出整改 SOP 用「多账号操作隔离规范」。安全边界：银行卡、设备、IP 等关联信号属敏感数据，须脱敏存储、授权采集并保留检测日志 90 天以上；关联判定存在误判（卡页口径 8-12%），不得仅凭风险分处置正常账号。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要新员工设备、共享 IP、旧供应商账号形成隐性关联，被 Amazon 认定即全部封禁损失 50-500 万元——多维信号图分析（银行卡/设备/IP/行为）提前 30 天识别关联风险，建议隔离操作防止连坐时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02673-p2s-account-association-risk-detection-e97da39b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-account-association-risk-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-account-association-risk-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "909c0237d378e5a6b18a6ae858b1b3408705261ac01f5b9daff9744e528d11d9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

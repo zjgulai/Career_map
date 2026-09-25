@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-demand-forecasting",
+  "中文名称": "母婴跨境电商需求预测 Skill",
+  "一句话作用": "母婴跨境电商需求预测Skill。整合多种预测算法（ARIMA、Prophet、LSTM等），充分考虑母婴行业特性（宝宝成长周期、季节性疾病、节日需求峰值），提供精准的销量预测，支持库存优化和供应链决策。 触发条件: 1. 用户提到\"需求预测\"、\"销量预测\"、\"forecasting\"、\"备货计划\" 2. 用户需要\"库存规划\"、\"补货建议\"、\"安全库存\" 3. 用户询问\"未来销量\"、\"销售趋势\"、\"旺季预测\" 4. 用户提到\"季节性预测…",
+  "关键输入": "基础数据格式 : 必需字段 : 字段 说明 格式 ------ ------ ------ date 日期 YYYY-MM-DD sales 销量/需求 整数或小数 可选字段 (提升预测精度): 字段 说明 用途 ------ ------ ------ price 价格 价格弹性分析 promotion 是否促销 0/1或折扣率 holiday 节假日 特殊日期标记 inventory 库存水平 缺货影响分析",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T16:06:47+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要母婴跨境电商需求预测Skill。整合多种预测算法（ARIMA、Prophet、LSTM等），充分考虑母婴行业特性（宝宝成长周期、季节性疾病、节日需求峰值），提供精准的销量预测，支持库存优化和供应链决策。 触发条件: 1. 用户提到\"需求预测\"、\"销量预测\"、\"forecasting\"、\"备货计划\" 2. 用户需要\"库存规划\"、\"补货建议\"、\"安全库存\" 3. 用户询问\"未来销量\"、\"销售趋势\"、\"旺季预测\" 4. 用户提到\"季节性预测…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09420-cbec-demand-forecasting-49cd6bcd",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/06-predictive-analysis/demand-forecasting/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/06-predictive-analysis/demand-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa7257f1a23c10897e44f02d4a0cf1868076213e38986bb32bf533b24ccf3781",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

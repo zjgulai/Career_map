@@ -1,0 +1,22 @@
+{
+  "英文名称": "pre-publish-review",
+  "中文名称": "待补：pre-publish-review",
+  "一句话作用": "Nuclear-grade 16-agent pre-publish release gate. Runs /get-unpublished-changes to detect all changes since last npm release, spawns up to 10 ultrabrain agents for deep per-change analysis, invokes /review-work (5 agents…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "PUBLISHED=$(npm view oh-my-opencode version 2 /dev/null echo \"not published\") LOCAL=$(node -p \"require('./package.json').version\" 2 /dev/null echo \"unknown\")",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Nuclear-grade 16-agent pre-publish release gate. Runs /get-unpublished-changes to detect all changes since last npm release, spawns up to 10 ultrabrain agents for deep per-change analysis, invokes /review-work (5 agents…时，用它产出或更新：PUBLISHED=$(npm view oh-my…",
+  "skill_id": "01647-pre-publish-review-6baff890",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/pre-publish-review/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/pre-publish-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6dd4488fe4a22de579a7ce9fb0bb3cf80b0c6ecb96408c2100ece83a58cfaa55",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

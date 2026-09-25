@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-customer-complaint-supply-root-cause-kpi",
+  "中文名称": "客诉供应链根因KPI与闭环治理 供应链原因导致客诉率处理时效预防闭环",
+  "一句话作用": "触发词：客诉根因、供应链客诉率、8D闭环、时间切点分析、重复客诉。何时不用：提取评论里的安全隐患信号用「安全隐患信号提取」；召回风险预测用「投诉召回风险预测」。安全边界：客户信息须脱敏，根因结论与整改动作须经质量与供应链共同确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要客服团队面临\"客诉只处理不预防反复救火\"——42%客诉来自供应链+8D闭环追踪，SC客诉率降至5‰以下年化节省15万元处理成本时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11365-p2s-customer-complaint-supply-root-cause-kpi-c31a7384",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-customer-complaint-supply-root-cause-kpi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-customer-complaint-supply-root-cause-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "321632404cb3158af709d11b74b3c005c92057243c208216dc20eb787a05571d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

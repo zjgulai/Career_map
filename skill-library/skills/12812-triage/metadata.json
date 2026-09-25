@@ -1,0 +1,22 @@
+{
+  "英文名称": "triage",
+  "中文名称": "待补：triage",
+  "一句话作用": "让 issues 和 external PRs 通过一组 triage roles 状态机——分类、验证、必要时 grilling，并写出 agent-ready briefs。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-27T15:45:07+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要让 issues 和 external PRs 通过一组 triage roles 状态机——分类、验证、必要时 grilling，并写出 agent-ready briefs。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12812-triage-474600dd",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/.agents/skills/triage/SKILL.md",
+  "relative_path": "lute/project/VOA/.agents/skills/triage/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "124847a40431a980499a8e2d6f0eb2fd84c45111bcb3be79bacec99388a6ef18",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

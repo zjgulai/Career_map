@@ -1,0 +1,22 @@
+{
+  "英文名称": "Inspiration Analyzer",
+  "中文名称": "待补：Inspiration Analyzer",
+  "一句话作用": "Analyze websites for design inspiration, extracting colors, typography, layouts, and patterns. Use when you have specific URLs to analyze for a design project.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "The analysis should provide: 1. Actionable color palette (hex codes) 2. Typography recommendations 3. Layout patterns to replicate 4. UI component inspiration 5. Clear direction for moodboard See references/extraction-techniques.md for detailed extraction met…",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Analyze websites for design inspiration, extracting colors, typography, layouts, and patterns. Use when you have specific URLs to analyze for a design project.时，用它产出或更新：The analysis should provide: 1. Actionable color palette (hex codes) 2. Typography reco…",
+  "skill_id": "05628-inspiration-analyzer-46f1f4b4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-design-pro/skills/inspiration-analyzer/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-design-pro/skills/inspiration-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7058951c402e48a40e0fc8dd4a4cab73e90d7099c679cc0693b5828dc86c5d4a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

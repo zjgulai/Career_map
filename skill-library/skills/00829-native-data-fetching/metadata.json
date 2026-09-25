@@ -1,0 +1,22 @@
+{
+  "英文名称": "native-data-fetching",
+  "中文名称": "待补：native-data-fetching",
+  "一句话作用": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (useLoaderData).",
+  "关键输入": "Use this skill when: - Implementing API requests - Setting up data fetching (React Query, SWR) - Using Expo Router data loaders (useLoaderData, web SDK 55+) - Debugging network failures - Implementing caching strategies",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Implementing API requests - Setting up data fetching (React Query, SWR) - Using Expo Router data loaders (useLoaderData, web SDK 55+) - Debugging network failures - Implementing caching strategies时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00829-native-data-fetching-1ee79d4d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/expo/skills/native-data-fetching/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/expo/skills/native-data-fetching/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ab855acdad6f593eb597b2891671808bf57fc4618fb0eaa26a84ea30576a5d5e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-generative-bidding-moe",
+  "中文名称": "生成式广告竞价 路由因果Transformer",
+  "一句话作用": "触发词：生成式竞价、MoE出价、因果Transformer、多场景出价、关键词分档。何时不用：关键词粒度历史不足30天时不适用；单个关键词按转化率偏差微调走关键词出价自动调整器。安全边界：Amazon禁止第三方工具直接操作竞价API，本卡只产出出价建议并须设置出价上下限保护区间。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投手面临出价策略失效——生成式混合专家出价将ROAS从2.4提升至3.9，年化节省广告费28万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03165-p2s-generative-bidding-moe-415e0663",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-generative-bidding-moe/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-generative-bidding-moe/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "960ab97c8483eacdb69305f22b8da705854b5bb2d062944b0c9fd0a3cd545b99",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

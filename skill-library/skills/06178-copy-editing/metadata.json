@@ -1,0 +1,22 @@
+{
+  "英文名称": "copy-editing",
+  "中文名称": "待补：copy-editing",
+  "一句话作用": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,'…",
+  "关键输入": "- [ ] Understand the goal of this copy - [ ] Know the target audience - [ ] Identify the desired action - [ ] Read through once without editing",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-14T13:31:18+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,'…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06178-copy-editing-6d67be06",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/copy-editing/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/copy-editing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e87717c273335b71ab45ae6f53905cccad413ae37d7ae2a73fa293baeb4ade34",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

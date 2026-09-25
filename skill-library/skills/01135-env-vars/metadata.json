@@ -1,0 +1,22 @@
+{
+  "英文名称": "env-vars",
+  "中文名称": "待补：env-vars",
+  "一句话作用": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.",
+  "关键输入": "Symptom Cause Fix --------- ------- ----- VERCEL OIDC TOKEN missing locally Haven't pulled env vars vercel env pull .env.local Auth errors after ~12h locally Token expired vercel env pull .env.local --yes",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Symptom Cause Fix --------- ------- ----- VERCEL OIDC TOKEN missing locally Haven't pulled env vars vercel env pull .env.local Auth errors after ~12h locally Token expired vercel env pull .env.local --yes时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01135-env-vars-40d3ba12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/vercel/skills/env-vars/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/vercel/skills/env-vars/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6390db2eaa8fece483672975cc23f308fe10286c08126b7db6566dda64ba31c4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

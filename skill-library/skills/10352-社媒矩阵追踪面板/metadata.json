@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-media-matrix",
+  "中文名称": "社媒矩阵追踪面板",
+  "一句话作用": "电影感多平台社媒分析: 互动图、悬浮洞察、区间对比、明暗主题",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "creator",
+  "解决具体问题": "当需要电影感多平台社媒分析: 互动图、悬浮洞察、区间对比、明暗主题时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10352-social-media-matrix-c47ef3c8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/social-media-matrix/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/social-media-matrix/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2f5c7f867f55f875c98a8be14b135b4a91ad9687273ba2b58c130086242295e8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

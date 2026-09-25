@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-srl-semantic-blueprint-mas",
+  "中文名称": "语义蓝图构建 用语义角色标注替代单一Prompt的结构化上下文工程",
+  "一句话作用": "触发词：语义蓝图、六槽位、槽位保护、提示注入防御、Agent交接契约。何时不用：只做多域内容审核策略切换时用策略驱动元控制器技能；只审计工具描述质量时用工具描述审核技能。安全边界：角色、工具、方式、约束四类受保护槽位不得由用户输入修改，任何触碰受保护槽位的请求一律路由到人工审核队列。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要MAS中Agent接交错误率高达35%是因为用线性Prompt混合了角色/指令/约束——SRL六槽位语义蓝图将接交错误率从35%降至8%，同时内置槽位保护将提示注入防御成功率提升至98%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03856-p2s-srl-semantic-blueprint-mas-98d3488f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-srl-semantic-blueprint-mas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-srl-semantic-blueprint-mas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "10b7c5da24195d2678eeffe29e5f78f4b7d3b6696599e4e73ee3b43706f69848",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "3-statements",
+  "中文名称": "待补：3-statements",
+  "一句话作用": "Complete, populate and fill out 3-statement financial model templates (Income Statement, Balance Sheet, Cash Flow Statement) . Use when asked to fill out model templates, complete existing model frameworks, populate fin…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "This section consolidates all validation checks and audit procedures for completed templates.",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Complete, populate and fill out 3-statement financial model templates (Income Statement, Balance Sheet, Cash Flow Statement) . Use when asked to fill out model templates, complete existing model frameworks, populate fin…时，用它产出或更新：This section consolidates…",
+  "skill_id": "05480-3-statements-51b70e2e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/3-statements/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/3-statements/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bdec5d33d3b4b3b1d2c8209df3fcb0c715dfeaf733b3b78a9e93a923965a1c9f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Agent",
+  "中文名称": "行为规格书生成器",
+  "一句话作用": "为功能自动生成Agent行为规格书。这份文档是AI产品开发的核心资产——同一份文档将直接驱动：①System Prompt生成 ②评估集创建 ③兜底代码开发。",
+  "关键输入": "在开始前，确认以下信息是否齐全： - 产品价值主张（从PRD获取） - 该功能的目标用户和使用场景 - 已知的技术约束（模型选择、延迟要求、成本预算） 如果信息不全，先向用户提出2-3个澄清问题。",
+  "关键输出": "接受的输入 ： - 格式：[自然语言/结构化JSON/文件上传/语音/...] - 语言：[中文/英文/多语言/...] - 长度限制：[最短/最长] 拒绝的输入 （含拒绝原因和用户可见的回复模板）： - [类型1]：[原因] → \"回复模板\" - [类型2]：[原因] → \"回复模板\" 标准输出格式 ： 错误输出格式 （统一结构，方便前端解析）：",
+  "最新更新时间": "2026-07-03T18:03:39+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要为功能自动生成Agent行为规格书。这份文档是AI产品开发的核心资产——同一份文档将直接驱动：①System Prompt生成 ②评估集创建 ③兜底代码开发。时，用它产出或更新：接受的输入 ： - 格式：[自然语言/结构化JSON/文件上传/语音/...] - 语言：[中文/英文/多语言/...] - 长度限制：[最短/最长] 拒绝的输入 （含拒绝原因和用户可见的回复模板）： - [类型1]：[原因] → \"回复模板\" - [类型2]：[原因] → \"回复模板\" 标准输出格式 ： 错误输出格式 （统一结构，…",
+  "skill_id": "09316-agent-fce60c22",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_software/skills/agent-spec/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_software/skills/agent-spec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "96452442d9f849c9cdb035646126727320e63446af0db3a2bfeeb1c542f17ecf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "bugly-quality-overview",
+  "中文名称": "质量概览",
+  "一句话作用": "查看 Bugly 产品质量概览（崩溃率、ANR 率、FOOM/OOM 率、启动耗时等）。当用户询问应用的大盘质量、版本质量、今日质量等指标时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要查看 Bugly 产品质量概览（崩溃率、ANR 率、FOOM/OOM 率、启动耗时等）。当用户询问应用的大盘质量、版本质量、今日质量等指标时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05209-bugly-quality-overview-853b5c7f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/bugly-token/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/bugly-token/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "042106729cc66be4b8c0b83bc92850d8b3dc6b000f2535df24b7d115a2b4a338",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

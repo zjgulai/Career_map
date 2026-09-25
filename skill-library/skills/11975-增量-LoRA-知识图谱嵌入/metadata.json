@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fastkge-incremental-lora-kg-embedding",
+  "中文名称": "增量 LoRA 知识图谱嵌入",
+  "一句话作用": "触发词：知识图谱嵌入、增量更新、LoRA、旧知识保留、更新延迟。何时不用：图谱查询性能优化走「属性图查询优化」；知识库版本回滚走「知识库版本控制」。安全边界：增量更新须保留可回滚的旧嵌入版本，不得用全量重训覆盖历史知识。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要技术负责人面临\"每日新增Skill需要重训图谱嵌入导致2小时更新延迟\"——FastKGE增量LoRA将知识库更新延迟从2小时降至5分钟，旧知识保留率99%+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11975-p2s-fastkge-incremental-lora-kg-embedding-77bcad77",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-fastkge-incremental-lora-kg-embedding/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-fastkge-incremental-lora-kg-embedding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8dae5852a0c16e0f35445397bf8d46a0480ebaebfd86dbeb4083e4b53e5e0f0f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

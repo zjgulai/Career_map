@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hipporag-v2-knowledge-integration",
+  "中文名称": "知识整合的记忆增强多跳推理",
+  "一句话作用": "触发词：实时知识整合、记忆写入、跨文档关联、知识库同步、合同风险链。何时不用：知识更新很慢、定时重建索引即可时用普通 RAG；只要跨域多跳路径时用多跳推理检索。安全边界：供应商合同与质检文档含商业敏感信息，须加密存储并限制检索范围，不得把原文透传给外部模型。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要知识库团队面临跨文档推理准确率低——HippoRAGv2实时知识整合将多跳推理准确率+15%，知识库更新延迟<500ms，年化决策质量提升35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11994-p2s-hipporag-v2-knowledge-integration-b948c53b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-hipporag-v2-knowledge-integration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-hipporag-v2-knowledge-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1268a642bb4f1ca3f5616c9be481510a5fcb2788f6a88591e3a9aa8b89e0fb7d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

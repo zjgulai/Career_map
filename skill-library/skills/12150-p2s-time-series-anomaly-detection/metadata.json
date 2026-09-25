@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-time-series-anomaly-detection",
+  "中文名称": "待补：p2s-time-series-anomaly-detection",
+  "一句话作用": "触发词：时序异常检测、STL分解、残差Z分数、多指标交叉验证、根因初判、告警降噪。何时不用：要判断分布是否系统性漂移用「数据漂移检测」；要用 Agent 自动生成可解释检测规则用「Agentic时序异常检测」。安全边界：异常告警不得直接触发资金、定价或库存动作，须经人工确认；节假日与已知促销必须走上下文校验，避免误报。",
+  "关键输入": "输入 ：单变量时序指标数据（如日订单量，卡页示例取 90 天窗口），以及节假日日历与促销活动表用于上下文校验；粒度为日 × 指标。 输出 ：异常点标记与残差偏离度、根因初判结论（如支付通道故障）与告警记录；供运营与风控在 30 分钟内定位并处置。",
+  "关键输出": "输入 ：单变量时序指标数据（如日订单量，卡页示例取 90 天窗口），以及节假日日历与促销活动表用于上下文校验；粒度为日 × 指标。 输出 ：异常点标记与残差偏离度、根因初判结论（如支付通道故障）与告警记录；供运营与风控在 30 分钟内定位并处置。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：时序异常检测、STL分解、残差Z分数、多指标交叉验证、根因初判、告警降噪。何时不用：要判断分布是否系统性漂移用「数据漂移检测」；要用 Agent 自动生成可解释检测规则用「Agentic时序异常检测」。安全边界：异常告警不得直接触发资金、定价或库存动作，须经人工确认；节假日与已知促销必须走上下文校验，避免误报。时，用它产出或更新：输入 ：单变量时序指标数据（如日订单量，卡页示例取 90 天窗口），以及节假日日历与促销活动表用于上下文校验；粒度为日 × 指标。 输出 ：异常点标记与残差偏离度、根因初判…",
+  "skill_id": "12150-p2s-time-series-anomaly-detection-139ef221",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-time-series-anomaly-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-time-series-anomaly-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "52bdeafc26b1ef065bc81760dc6029fd392c104a71343176267314c1169931d3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-spot-freight-consolidation",
+  "中文名称": "时空模式挖掘的货运拼箱优化",
+  "一句话作用": "触发词：拼箱、散货拼柜、头程降本、LCL 转 FCL、发货窗口。何时不用：要横向比较不同货代报价用「采购比价」，要查这批货走到哪了用「履约跟踪」；本技能只做同路货物的拼箱组合与成本对比。安全边界：多货主混装前须确认批次编码与检验检疫证书、中文营养标签、原产地证明等合规资料齐备，模型不代客订舱。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要月均 50 票 LCL 散货头程成本 $120-180/CBM，无法与同路货主智能拼箱——时空聚类+频繁模式挖掘识别拼箱组合，头程成本降低 30-50%、年化节省 20-80 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03853-p2s-spot-freight-consolidation-10aa396f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-spot-freight-consolidation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-spot-freight-consolidation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6ef27a4e69f20ffc94156e24ea7e85312ea0f927af00423f89042be8c36d286f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

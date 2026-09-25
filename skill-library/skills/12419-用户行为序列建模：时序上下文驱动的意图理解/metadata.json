@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sequential-user-behavior-modeling",
+  "中文名称": "用户行为序列建模：时序上下文驱动的意图理解",
+  "一句话作用": "触发词：行为序列建模、自注意力、意图识别、决策阶段、转化干预。何时不用：要把点击流切成会话图预测下一件商品用「SR-GNN 会话推荐」；要按月龄分群切换推荐用「月龄感知推荐」。安全边界：行为事件流属个人信息，采集与建模须在授权范围内并做用户标识脱敏；行为模式判定只用于服务用户，不得用于对个人差别定价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户分析把行为当集合处理忽略顺序信息导致意图预测不准——「先看A款→搜便携→再看A款→加购」这个序列表明高意图决策阶段，Self-Attention序列建模精度提升15-30%识别比较决策阶段触发转化干预年化20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12419-p2s-sequential-user-behavior-modeling-3d93347b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-sequential-user-behavior-modeling/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-sequential-user-behavior-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "19d96d3772f54c9e9ec074d256ee88f7d7c8f055e4726095a765a9e74861a385",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

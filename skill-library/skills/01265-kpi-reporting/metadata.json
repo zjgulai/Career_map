@@ -1,0 +1,22 @@
+{
+  "英文名称": "kpi-reporting",
+  "中文名称": "待补：kpi-reporting",
+  "一句话作用": "Prepare KPI readouts, scorecards, WBR/MBR/QBR updates, and executive summaries from quantitative business or product metrics; use when the task is to report status, compare against targets, explain validated drivers, an…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Prepare KPI readouts, scorecards, WBR/MBR/QBR updates, and executive summaries from quantitative business or product metrics; use when the task is to report status, compare against targets, explain validated drivers, an…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01265-kpi-reporting-2727453e",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/kpi-reporting/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/kpi-reporting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e790badb05ee3d77b68815d57658e350d26737b10e1b9bb8d2d30d1ad335b3e5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

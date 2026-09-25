@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-negotiation-conversion-agent",
+  "中文名称": "谈判代理驱动的成交率优化",
+  "一句话作用": "触发词：谈判代理、询价应对、支付意愿推断、分层让步、成交率。何时不用：要按购买意图概率给弃购用户分档触达用「购买意图预测」；要用效用函数解释选择行为用「MNL 购买选择模型」。安全边界：报价不得低于产品底价与最低折扣线，禁止虚构原价或虚假优惠；支付意愿推断结果不得暴露给对话对象，让步策略须可审计。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴品牌WhatsApp客服面对「能便宜吗」统一回复「已最低价」导致成交率仅12%——LLM谈判Agent推断买家隐藏支付意愿执行分层让步策略，成交率提升到22-28%，年化私域GMV增益50-150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12338-p2s-llm-negotiation-conversion-agent-c76e2c98",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-llm-negotiation-conversion-agent/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-llm-negotiation-conversion-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c8ea340efc00faf0e6cc4c285f4194a32a8400a83f6f8245fd311ae85c9c6417",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

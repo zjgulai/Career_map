@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-data-agent-error-recovery",
+  "中文名称": "数据 Agent 执行失败自修复 自动重试降级策略",
+  "一句话作用": "触发词：失败自修复、自动重试、降级策略、数据管道、中断率。何时不用：失败源于数据本身错误（口径或字段缺失）而非调用抖动时，重试无用，应先做数据质量治理；安全边界：降级使用缓存数据须标注新鲜度，且必须设最大重试上限，避免放大 API 费用与配额消耗。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要大促期间数据 Pipeline 因 API 频繁返回 503/429 中断率高达30%——引入 Agent 自修复框架（指数退避+降级策略+自动告警），Pipeline 中断率从 30%→2%，年化避免大促期数据断供损失 40%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03029-p2s-data-agent-error-recovery-73f40774",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-data-agent-error-recovery/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-data-agent-error-recovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6889dabc6c022207ff3b6351f42ecf790f9e1c39623665be6a40b7f7ef646ecf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

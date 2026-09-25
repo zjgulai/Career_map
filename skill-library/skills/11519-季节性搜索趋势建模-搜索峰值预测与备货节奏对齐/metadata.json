@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-seasonal-search-trend-modeling",
+  "中文名称": "季节性搜索趋势建模 搜索峰值预测与备货节奏对齐",
+  "一句话作用": "触发词：搜索趋势、季节峰值、备货节奏、加法分解、预算分配。何时不用：要用短视频传播动力学预测爆款时用「SIR 爆品传播预测」；要多信号融合做需求感知时用「库存需求感知」。安全边界：数据采集需获得平台 API 授权，不得违规爬取；预测结果需标注数据来源。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链运营面临\"旺季搜索峰值无法提前预判、屡次因备货不足错失黄金销售期\"——季节性趋势建模将备货命中率从70%提升至90%，年化减少错失销售30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11519-p2s-seasonal-search-trend-modeling-1d4579ca",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-seasonal-search-trend-modeling/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-seasonal-search-trend-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e966e731591a3b13563e4714c9571aea22cc38bcedff45165072c9fd927cf5a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

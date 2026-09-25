@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-streaming-etl-flink-kafka",
+  "中文名称": "实时流式 ETL 工程化",
+  "一句话作用": "触发词：流式 ETL、实时数仓、Flink、Kafka、实时看板、双流 Join。何时不用：T+1 报表已够用、或问题只是这批数据对不对时走数据质量监控告警；不做实时链路就别上流式。安全边界：消费者行为数据经 Kafka 中转必须做 topic 加密与 ACL 权限控制（GDPR Art.32），卡页原文要求，不可省略。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"库存事件到数据仓库延迟2小时导致补货决策滞后\"——流式ETL将数据延迟从2小时降至30秒，年化减少因延迟导致的断货损失40-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12134-p2s-streaming-etl-flink-kafka-57a06abd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-streaming-etl-flink-kafka/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-streaming-etl-flink-kafka/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "273965bec1233f0de318dd681d0cebbb34aace9d170a3ab597aea101a9aed00c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

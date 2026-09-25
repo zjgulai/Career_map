@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-performance-optimization",
+  "中文名称": "待补：web-performance-optimization",
+  "一句话作用": "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance",
+  "关键输入": "Problem: 850KB JavaScript bundle blocks main thread Solutions: 1. Code Splitting: \\\\\\`javascript // Before: Everything in one bundle import { HeavyComponent } from './HeavyComponent'; import { Analytics } from './analytics'; import { ChatWidget } from './chat…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Use when website or app is loading slowly - Use when optimizing for Core Web Vitals (LCP, FID, CLS) - Use when reducing JavaScript bundle size - Use when improving Time to Interactive (TTI) - Use when optimizing image…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05171-web-performance-optimization-db391acc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/web-performance-optimization/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/web-performance-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "83b088f0769e1ff890e10e38c372cf5e0163061e21380dff739966f73c51a27a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

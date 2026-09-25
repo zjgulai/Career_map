@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-financing-optimization",
+  "中文名称": "库存融资与供应链金融决策优化",
+  "一句话作用": "触发词：库存融资、备货资金组合、PO融资、平台贷与银行授信、融资成本优化。何时不用：只判断要不要借平台贷款时用「Amazon Lending 决策」；只预测回款到账时间时用「Amazon 回款周期预测」。安全边界：融资方案不构成对外承诺；禁止虚构订单凭证或重复抵押，交易与库存凭证须真实可核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Q4 三批备货共 500 万，现金只有 200 万，全用高息渠道融资浪费利息——DRL 驱动的融资组合优化（PO 账期 + 平台贷 + 银行授信），年化节省融资利息 5-15 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12561-p2s-inventory-financing-optimization-58d945e6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-inventory-financing-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-inventory-financing-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d5368078db5046f437a26b6d72aacd889319ba73f7744c5007a6f3482bd09e73",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-raptor-hierarchical-rag",
+  "中文名称": "递归抽象树型分层检索",
+  "一句话作用": "触发词：分层检索、抽象树、长文档合规问答、条款引用、递归摘要。何时不用：文档只有几页时普通检索或长上下文更简单；要按文档规模自动选路时用混合路由。安全边界：无。",
+  "关键输入": "推荐块大小：150-300 tokens（语义完整段落） 避免在句子中间截断（配合 Skill-Semantic-Chunking-Strategy） 标题/章节信息保留在块内（如 [3.2 清洗规范] 奶瓶每次使用后...）",
+  "关键输出": "推荐块大小：150-300 tokens（语义完整段落） 避免在句子中间截断（配合 Skill-Semantic-Chunking-Strategy） 标题/章节信息保留在块内（如 [3.2 清洗规范] 奶瓶每次使用后...）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要研究助理面临长文档越搜越散——层级RAG将检索耗时从20分降到4分，年化省10万元时，用它产出或更新：推荐块大小：150-300 tokens（语义完整段落） 避免在句子中间截断（配合 Skill-Semantic-Chunking-Strategy） 标题/章节信息保留在块内（如 [3.2 清洗规范] 奶瓶每次使用后...）",
+  "skill_id": "03686-p2s-raptor-hierarchical-rag-9984b96f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-raptor-hierarchical-rag/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-raptor-hierarchical-rag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6e291b860b96025d91d58dc1298a5ff0e5249d37cac0da74a2e3ef2b8dc06863",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

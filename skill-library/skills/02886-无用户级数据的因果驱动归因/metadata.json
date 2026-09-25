@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cda-cookieless-attribution",
+  "中文名称": "无用户级数据的因果驱动归因",
+  "一句话作用": "触发词：无 Cookie 归因、因果驱动归因、大盘数据归因、滞后效应、渠道权重、跨端断链。何时不用：能拿到用户级触点序列时优先用多触点归因；数据不足半年或渠道投放高度同步时无法识别因果方向。安全边界：只需渠道级大盘数据、不涉及用户级隐私，数据导出需遵循各平台条款，不尝试还原个人身份。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：出海独立站在欧美市场同时投放 Facebook 视频广告（漏斗上层）和 Google 搜索广告（漏斗下层）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02886-p2s-cda-cookieless-attribution-22803339",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cda-cookieless-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cda-cookieless-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "edcb392a35a8c8f67c76d050d31b37830193781117b50925f2e6616901b4d26b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

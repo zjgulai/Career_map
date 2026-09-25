@@ -1,0 +1,22 @@
+{
+  "英文名称": "prometheus-configuration",
+  "中文名称": "待补：prometheus-configuration",
+  "一句话作用": "Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, setting up monitoring infrastructure, or configuring alerting…",
+  "关键输入": "- Set up Prometheus monitoring - Configure metric scraping - Create recording rules - Design alert rules - Implement service discovery",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Set up Prometheus monitoring - Configure metric scraping - Create recording rules - Design alert rules - Implement service discovery时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05673-prometheus-configuration-d2bf4329",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/observability-monitoring/skills/prometheus-configuration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/observability-monitoring/skills/prometheus-configuration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1141bfea84cceecd948f4c3af4b83f2e6fe3aa8cc59de6a5e00deabc91b7eca8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

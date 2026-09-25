@@ -1,0 +1,22 @@
+{
+  "英文名称": "reports-pdfs-and-slide-automation",
+  "中文名称": "待补：reports-pdfs-and-slide-automation",
+  "一句话作用": "Lay out and export data-rich reports and documents. Use when the user needs report structure, figure packaging, PDFs, PowerPoint or Google Slides automation, or programmatic insertion of visualizations, UML-like diagram…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Name the target medium. - Provide the embedded visualization inventory with specialist owners, mini-brief summaries, QA checks, and delegated or local fresh-pass status. - For concepted report, deck, or page layouts, use the shared design workflow for requi…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Lay out and export data-rich reports and documents. Use when the user needs report structure, figure packaging, PDFs, PowerPoint or Google Slides automation, or programmatic insertion of visualizations, UML-like diagram…时，用它产出或更新：- Name the target medium.…",
+  "skill_id": "00747-reports-pdfs-and-slide-automation-121f0c34",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/reports-pdfs-and-slide-automation/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/reports-pdfs-and-slide-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9acd03be0694d3b5b88edd1d8571d54a6507f65665e20d98689543139ec9ead4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

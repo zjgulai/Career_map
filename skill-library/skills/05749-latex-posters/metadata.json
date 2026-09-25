@@ -1,0 +1,22 @@
+{
+  "英文名称": "latex-posters",
+  "中文名称": "待补：latex-posters",
+  "一句话作用": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, mul…",
+  "关键输入": "This skill should be used when: - Creating research posters for conferences, symposia, or poster sessions - Designing academic posters for university events or thesis defenses - Preparing visual summaries of research fo…",
+  "关键输出": "Generate high-quality PDF output for printing or digital display: Compilation Commands :",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要This skill should be used when: - Creating research posters for conferences, symposia, or poster sessions - Designing academic posters for university events or thesis defenses - Preparing visual summaries of research fo…时，用它产出或更新：Generate high-quality PDF…",
+  "skill_id": "05749-latex-posters-4e6fb302",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/latex-posters/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/latex-posters/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c4d09d2689246956f82eb7b3a03a7a7af653344357079278505f6ad341464d1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skill 资产库</title>
+  <meta name="description" content="本机 Skill 文件检索与问题解决索引" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 64 64&quot;&gt;&lt;rect width=&quot;64&quot; height=&quot;64&quot; rx=&quot;12&quot; fill=&quot;%2318202b&quot;/&gt;&lt;path d=&quot;M15 18h34v7H15zM15 29h25v7H15zM15 40h34v7H15z&quot; fill=&quot;%2379d2c0&quot;/&gt;&lt;/svg&gt;" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Skill 资产库</p>
+        <h1>按问题找到可用 Skill</h1>
+      </div>
+      <div class="stats" id="stats"></div>
+    </header>
+
+    <section class="controls" aria-label="检索与筛选">
+      <label class="search">
+        <span>搜索</span>
+        <input id="q" type="search" placeholder="输入名称、场景、问题、来源..." autocomplete="off" />
+      </label>
+      <label>
+        <span>来源类型</span>
+        <select id="sourceFilter"><option value="">全部来源</option></select>
+      </label>
+      <label>
+        <span>业务场景</span>
+        <select id="scenarioFilter"><option value="">全部场景</option></select>
+      </label>
+      <label>
+        <span>本地/云盘</span>
+        <select id="scopeFilter"><option value="">全部范围</option></select>
+      </label>
+      <label>
+        <span>字段状态</span>
+        <select id="reviewFilter">
+          <option value="">全部</option>
+          <option value="ok">字段较完整</option>
+          <option value="review">需要补字段</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="result-meta">
+      <span id="count"></span>
+      <span><a href="./capability-bid.html">打开能力竞聘展厅</a> · <a href="../capability_bid_matrix.xlsx">打开竞聘 Excel</a> · <a href="../skill_inventory_enriched.xlsx">增强 Excel</a> · <a href="./sanbao-review.html">三宝分拣底表</a></span>
+    </section>
+
+    <section id="results" class="grid" aria-live="polite"></section>
+  </main>
+  <script src="./skill-data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

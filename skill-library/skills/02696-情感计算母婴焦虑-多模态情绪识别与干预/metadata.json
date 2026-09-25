@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-affective-computing-maternal-anxiety",
+  "中文名称": "情感计算母婴焦虑 多模态情绪识别与干预",
+  "一句话作用": "触发词：情绪识别、焦虑分级、多模态情感计算、情绪感知路由、高焦虑用户干预。何时不用：只按购买行为做分群用 RFM 或画像类技能，本技能以情绪状态为分群维度，需要文本、音频或视频情绪数据。安全边界：情绪属敏感个人信息，须取得用户明示授权、可撤回并脱敏存储，不得用于歧视性定价或对用户做健康诊断。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要运营面临母婴APP用户流失率高——情感计算引擎将焦虑用户识别准确率提升至89%，干预后留存率+18%，年化LTV增加42万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02696-p2s-affective-computing-maternal-anxiety-6077ce13",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-affective-computing-maternal-anxiety/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-affective-computing-maternal-anxiety/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "74a6055833cb071e32bf2d3c35d5f9dd604cf627e8705d7c4fd7b04450584d99",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

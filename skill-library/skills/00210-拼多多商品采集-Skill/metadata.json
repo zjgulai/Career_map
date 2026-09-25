@@ -1,0 +1,22 @@
+{
+  "英文名称": "pinduoduo",
+  "中文名称": "拼多多商品采集 Skill",
+  "一句话作用": "当用户需要在安卓手机上的拼多多应用中执行文搜、图搜、排序、商品采集、规格/评论/商详证据采集、多商品对比或生成表格时使用。",
+  "关键输入": "products.json 的每一个 product dir 必须原样复制对应 pdd-capture-one-product 成功响应中的 data.output dir，即 temp/raw/ / / 原始采集目录。该目录至少包含 product manifest.json，并包含 main images/、sku/、detail screens/ 中至少一个采集子目录。 products/product 001 等目录由 pdd-build-static-excel 创建，是报告输出，绝不是下一次构建的输入…",
+  "关键输出": "这是图搜链路的 最高优先级约束 ： Agent 不是相似度裁判，agent 没有相似度判定权限。只要 pdd-image-search-sort-candidates 成功返回非空 candidates，就视为拼多多算法已经完成相似候选召回；candidates 非空时必须继续采集，不能再判断“这些结果是否和原图相符合”。 严禁以下行为： - 禁止因为“看起来不像原图”而重搜。 - 禁止因为标题/颜色/款式与原图主观不一致而跳过候选。 - 禁止自行判断搜索结果是否达标、是否足够相似、是否值得采集。 - 禁止换关键…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要使用本 Skill，当用户要求在拼多多应用中： - 文搜商品、图搜/搜同款、找热销同款、按销量/价格/好评排序。 - 从搜索结果页采集一个或多个商品。 - 采集主图、SKU、商详三屏、评论首屏。 - 生成一次任务总目录和总 Excel。 不要用于未指定拼多多的其他 App、纯网页电商任务或只需分析本地图片的任务。时，用它产出或更新：这是图搜链路的 最高优先级约束 ： Agent 不是相似度裁判，agent 没有相似度判定权限。只要 pdd-image-search-sort-candidates 成功返回非…",
+  "skill_id": "00210-pinduoduo-83c0fb8e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/ecommerce-search/platforms/pinduoduo/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/ecommerce-search/platforms/pinduoduo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e7ff8088529af91735a9bcc23b16f97fd85efb74e91f6ce7a27b69d1eb693750",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

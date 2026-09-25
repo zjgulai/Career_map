@@ -1,0 +1,22 @@
+{
+  "英文名称": "igo open data",
+  "中文名称": "待补：igo open data",
+  "一句话作用": "Query official statistics from WHO, Eurostat, ECB, UNICEF, OECD, FAO, and UNSD, plus FRED macroeconomic time series. Each source exposes search and query APIs.",
+  "关键输入": "- Global health indicators (life expectancy, mortality, vaccination) → who - European economic and demographic statistics → eurostat - Euro exchange rates, inflation, interest rates → ecb - U.S. macroeconomic time serie…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T18:47:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Global health indicators (life expectancy, mortality, vaccination) → who - European economic and demographic statistics → eurostat - Euro exchange rates, inflation, interest rates → ecb - U.S. macroeconomic time serie…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06140-igo-open-data-aeb8afe6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/plugin-packages/igo_open_data/skills/igo_open_data/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/plugin-packages/igo_open_data/skills/igo_open_data/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ccb307781cc2a78d9ae67fcefd78e42ffe7b263f2342cd9ea47e4a51973a14ed",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

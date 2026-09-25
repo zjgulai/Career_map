@@ -1,0 +1,22 @@
+{
+  "英文名称": "dc-power-flow",
+  "中文名称": "待补：dc-power-flow",
+  "一句话作用": "DC power flow analysis for power systems. Use when computing power flows using DC approximation, building susceptance matrices, calculating line flows and loading percentages, or performing sensitivity analysis on trans…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:38+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要DC power flow analysis for power systems. Use when computing power flows using DC approximation, building susceptance matrices, calculating line flows and loading percentages, or performing sensitivity analysis on trans…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04799-dc-power-flow-7b4075bc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dc-power-flow/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dc-power-flow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "461a4a93c6baf5f84eaa16881b11d76d0542907c8bb50745eceeb21d217e480e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

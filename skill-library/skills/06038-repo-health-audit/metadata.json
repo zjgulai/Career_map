@@ -1,0 +1,22 @@
+{
+  "英文名称": "repo-health-audit",
+  "中文名称": "待补：repo-health-audit",
+  "一句话作用": "Audit repository health and maintenance readiness. Use when the user asks for a repo review, maintainer audit, cleanup plan, onboarding audit, technical debt scan, CI/docs/release hygiene review, or public repo readines…",
+  "关键输入": "- README, docs, examples, changelog, license, security policy, and contribution guide. - Package files, lockfiles, test config, format/lint config, and validation scripts. - CI workflows, issue templates, release automation, and dependency update config. - Cu…",
+  "关键输出": "Return: 1. Summary 2. Scores table 3. Highest-risk issues 4. Quick wins 5. Suggested issue backlog 6. Recommended next action",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks whether a repository is healthy, maintainable, or ready to publish. - A repo needs a maintainer audit across docs, tests, CI, releases, and security hygiene. - The user wants a prioritized cleanup plan w…时，用它产出或更新：Return: 1. Summary 2. Scor…",
+  "skill_id": "06038-repo-health-audit-e4052896",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/repo-health-audit/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/repo-health-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d29df53780a36bd4d1a6039f58ff0876c9b343f9af7ec56e441c63b91100324",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

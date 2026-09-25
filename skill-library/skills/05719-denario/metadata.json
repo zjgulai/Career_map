@@ -1,0 +1,22 @@
+{
+  "英文名称": "denario",
+  "中文名称": "待补：denario",
+  "一句话作用": "Multiagent AI system for scientific research assistance that automates research workflows from data analysis to publication. This skill should be used when generating research ideas from datasets, developing research me…",
+  "关键输入": "Use this skill when: - Analyzing datasets to generate novel research hypotheses - Developing structured research methodologies - Executing computational experiments and generating visualizations - Conducting literature…",
+  "关键输出": "Execute computational experiments and generate analysis: This runs the methodology, performs computations, creates visualizations, and produces findings. Can also provide pre-computed results:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Use this skill when: - Analyzing datasets to generate novel research hypotheses - Developing structured research methodologies - Executing computational experiments and generating visualizations - Conducting literature…时，用它产出或更新：Execute computational exper…",
+  "skill_id": "05719-denario-1c7b775d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/denario/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/denario/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "91124468b207f1ed14e3a943c4f90652ed4bd044db47074cbf1251b5983f5a27",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "markdown-mermaid-writing",
+  "中文名称": "待补：markdown-mermaid-writing",
+  "一句话作用": "用 Markdown 加内嵌 Mermaid 图写文档，含 24 种图型指引、9 套模板与统一排版规范。触发词：写文档、画流程图、加个架构图、Markdown 排版、关系图、markdown-mermaid-writing。何时不用：要导出栅格图片（PNG/SVG）时用 chart-gen；做网页演示用 guizang-ppt-skill。",
+  "关键输入": "Use this skill when: - Creating any scientific document — reports, analyses, manuscripts, methods sections - Writing any documentation — READMEs, how-tos, decision records, project docs - Producing any diagram — workflo…",
+  "关键输出": "Before finalizing any document from any skill, apply this skill's checklist: - [ ] Does the document use a template? If so, did I start from the right one? - [ ] Are all diagrams in Mermaid with accTitle + accDescr? - [ ] No %%{init}, no inline style, only cl…",
+  "最新更新时间": "2026-09-15T11:05:40+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use this skill when: - Creating any scientific document — reports, analyses, manuscripts, methods sections - Writing any documentation — READMEs, how-tos, decision records, project docs - Producing any diagram — workflo…时，用它产出或更新：Before finalizing any docu…",
+  "skill_id": "02628-markdown-mermaid-writing-c73049ea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/markdown-mermaid-writing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/markdown-mermaid-writing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d79fd3a65039318fdb970822ecb3656bb15a24f99de3df5c77eba6f44a843a96",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

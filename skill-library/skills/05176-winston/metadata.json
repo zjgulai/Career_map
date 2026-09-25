@@ -1,0 +1,22 @@
+{
+  "英文名称": "winston",
+  "中文名称": "待补：winston",
+  "一句话作用": "Winston - versatile logging library for Node.js with multiple transports, custom formatting, and log rotation. Supports structured logging, custom levels, and enterprise integration. USE WHEN: user mentions \"winston\", \"…",
+  "关键输入": "- Logging with multiple transports (file, console, HTTP) - Structured logging with custom levels - Automatic log file rotation Deep Knowledge : Use mcp documentation fetch docs with technology: winston for comprehensive…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:42+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- Logging with multiple transports (file, console, HTTP) - Structured logging with custom levels - Automatic log file rotation Deep Knowledge : Use mcp documentation fetch docs with technology: winston for comprehensive…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05176-winston-8ef8621e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/winston/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/winston/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88093ae29287b942f9c8ca12b6a8a86acf2227bf98ede177df6865d4800350a3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

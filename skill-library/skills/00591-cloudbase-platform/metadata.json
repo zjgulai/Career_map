@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudbase-platform",
+  "中文名称": "待补：cloudbase-platform",
+  "一句话作用": "CloudBase platform overview and routing guide. This skill should be used when users need high-level capability selection, platform concepts, console navigation, or cross-platform best practices before choosing a more sp…",
+  "关键输入": "Use this skill for CloudBase platform knowledge when you need to: - Understand CloudBase storage and hosting concepts - Compare platform capabilities before implementation - Understand cross-platform auth differences (W…",
+  "关键输出": "When a task explicitly requires recording operation steps or results to a file (e.g., RESULT.json): perform the tool calls first, then write a complete record containing every attempt (action, success/failure, message) plus a summary with total / succeeded /…",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill for CloudBase platform knowledge when you need to: - Understand CloudBase storage and hosting concepts - Compare platform capabilities before implementation - Understand cross-platform auth differences (W…时，用它产出或更新：When a task explicitly req…",
+  "skill_id": "00591-cloudbase-platform-cfca968a",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.agents/skills/cloudbase-platform/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.agents/skills/cloudbase-platform/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "673cd91bf5447e7a99278b6353e59744381b8497577600fc6f82bb23ca46dc5a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

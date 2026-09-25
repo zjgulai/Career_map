@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-audit",
+  "中文名称": "待补：code-audit",
+  "一句话作用": "Use for authorized source-code security review and SAST workflows including Semgrep, CodeQL patterns, dangerous API hunting, and fix verification.",
+  "关键输入": "- 白盒审计、PR/差分安全审查 - Semgrep / CodeQL / Bandit / gosec 等 SAST - 危险 API、注入点、鉴权缺失、加密误用 - 与 supply-chain-security/ 分工：本 skill 偏 自有代码逻辑 ，供应链偏依赖与管道",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 白盒审计、PR/差分安全审查 - Semgrep / CodeQL / Bandit / gosec 等 SAST - 危险 API、注入点、鉴权缺失、加密误用 - 与 supply-chain-security/ 分工：本 skill 偏 自有代码逻辑 ，供应链偏依赖与管道时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02197-code-audit-c289b390",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/code-audit/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/code-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "122dafd8682807da6ea11c81be18cc5f02afad65d306cd7aee117191e6a3ca0b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

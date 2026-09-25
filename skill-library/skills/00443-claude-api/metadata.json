@@ -1,0 +1,22 @@
+{
+  "英文名称": "claude-api",
+  "中文名称": "待补：claude-api",
+  "一句话作用": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7,…",
+  "关键输入": "Scan the target file (or, if no target file, the prompt and project) for non-Anthropic provider markers — import openai, from openai, langchain openai, OpenAI(, gpt-4, gpt-5, file names like agent-openai.py or -generic.py, or any explicit instruction to keep…",
+  "关键输出": "When the user asks you to add, modify, or implement a Claude feature, your code must call Claude through one of: 1. The official Anthropic SDK for the project's language (anthropic, @anthropic-ai/sdk, com.anthropic. , etc.). This is the default whenever a sup…",
+  "最新更新时间": "2026-05-16T19:25:41+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use WebFetch to get the latest documentation when: - User asks for \"latest\" or \"current\" information - Cached data seems incorrect - User asks about features not covered here Live documentation URLs are in shared/live-s…时，用它产出或更新：When the user asks you to…",
+  "skill_id": "00443-claude-api-43c3a696",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/agent-skills/anthropics_skills-at-main/skills/claude-api/SKILL.md",
+  "relative_path": "lute/.cache/agent-skills/anthropics_skills-at-main/skills/claude-api/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "617512252b92969fbbe71cb0bc5f18641e1b8ee00a799cd3276a0f28f7a2e017",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

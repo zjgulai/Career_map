@@ -1,0 +1,22 @@
+{
+  "英文名称": "return-policy-designer",
+  "中文名称": "待补：return-policy-designer",
+  "一句话作用": "- Architect and enforce dynamic return and refund policies. Configure rule-based logic for return windows, restocking fees, and category-specific exclusions to balance customer experience with operational protection. 触发…",
+  "关键输入": "- The \"Order Date\" Trap: Calculating the return window from the Order Date instead of the Delivery Date . This penalizes customers for shipping delays. Always use the delivered at timestamp from your carrier tracking.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:57:17+08:00",
+  "业务场景": "business-operations",
+  "解决具体问题": "当需要- The \"Order Date\" Trap: Calculating the return window from the Order Date instead of the Delivery Date . This penalizes customers for shipping delays. Always use the delivered at timestamp from your carrier tracking.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04105-return-policy-designer-d794059d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/return-policy-designer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/return-policy-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be1eb9dbf9aba1557bf0246d8d41e7ec15bb1f3e76920f8972058d7f5d88e9a3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

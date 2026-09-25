@@ -1,0 +1,22 @@
+{
+  "英文名称": "wecomcli-msg",
+  "中文名称": "企业微信消息技能",
+  "一句话作用": "企业微信消息技能。提供会话列表查询、消息记录拉取（支持文本/图片/文件/语音/视频）、多媒体文件获取和文本消息发送能力。当用户需要\"查看消息\"、\"看聊天记录\"、\"发消息给某人\"、\"最近有什么消息\"、\"给群里发消息\"、\"看看发了什么图片/文件\"时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要企业微信消息技能。提供会话列表查询、消息记录拉取（支持文本/图片/文件/语音/视频）、多媒体文件获取和文本消息发送能力。当用户需要\"查看消息\"、\"看聊天记录\"、\"发消息给某人\"、\"最近有什么消息\"、\"给群里发消息\"、\"看看发了什么图片/文件\"时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05399-wecomcli-msg-f901ee55",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-msg/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-msg/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0010b8dc5153fc77ed56cdfe2e920b537c20580d167c70f246bdb255d2f78ad6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

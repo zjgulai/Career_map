@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-automated-causal-discovery",
+  "中文名称": "自动化因果发现：从数据自动识别业务驱动因素",
+  "一句话作用": "触发词：因果发现、因果图、驱动因素、中介变量、投放诊断。何时不用：要归因内容投入对 GMV 的增量用「AIGC 收入归因」；要按购买意图分层触达用「购买意图预测」。安全边界：因果图只是数据驱动的假设，须经领域专家与对照实验验证后才能作为决策依据；不得把相关结构直接当作可干预结论对外承诺。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营长期认为BSR排名是销量的原因努力刷排名但效果不稳定——NOTEARS自动因果发现揭示BSR是销量的结果而非原因，纠正错误认知后将资源聚焦真正的驱动因素（广告/价格）年化ROI提升10-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02795-p2s-automated-causal-discovery-70fde9eb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-automated-causal-discovery/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-automated-causal-discovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d74c85abbb183fc0aa1276b6f0b1e8d5960d8670a86988e9513e389a40fa287b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

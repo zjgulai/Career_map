@@ -1,0 +1,22 @@
+{
+  "英文名称": "openai-platform-api-key",
+  "中文名称": "待补：openai-platform-api-key",
+  "一句话作用": "Use when Codex is asked to build, run, test, debug, or configure an OpenAI-backed or provider-unspecified AI app, UI, script, CLI, generator, or tool, especially requests phrased only as \"using AI\" or generators driven…",
+  "关键输入": "Use this skill as the credential gate for API-backed work, not as the app, docs, or frontend implementation skill. Use it when: - The user asks for an OpenAI API key, OPENAI API KEY, or an sk-proj key. - Codex will buil…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill as the credential gate for API-backed work, not as the app, docs, or frontend implementation skill. Use it when: - The user asks for an OpenAI API key, OPENAI API KEY, or an sk-proj key. - Codex will buil…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01477-openai-platform-api-key-35dc659f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/openai-developers/1dc19589/skills/openai-platform-api-key/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/openai-developers/1dc19589/skills/openai-platform-api-key/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "780670286fb0acf32660abafc1bc34d7a25ff7a74af59e02db8fb62bbdd21ac2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

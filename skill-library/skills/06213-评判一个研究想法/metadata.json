@@ -1,0 +1,22 @@
+{
+  "英文名称": "idea-evaluate",
+  "中文名称": "评判一个研究想法",
+  "一句话作用": "评判一个还没动手或刚起步的研究想法值不值得做。从顶会审稿人加资深导师的双重视角，看它新不新、做不做得完、能不能打动人，给出\"值得做 / 改了再做 / 换个方向\"的明确结论，并指出最先该做的几件事。触发于\"这个想法怎么样\"\"帮我打个分\"\"可行吗\"\"该不该立项\"\"有没有人做过\"。要审已写好的成稿，去 submission-review；要动手写或画，去 doubao-academic-polish。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要评判一个还没动手或刚起步的研究想法值不值得做。从顶会审稿人加资深导师的双重视角，看它新不新、做不做得完、能不能打动人，给出\"值得做 / 改了再做 / 换个方向\"的明确结论，并指出最先该做的几件事。触发于\"这个想法怎么样\"\"帮我打个分\"\"可行吗\"\"该不该立项\"\"有没有人做过\"。要审已写好的成稿，去 submission-review；要动手写或画，去 doubao-academic-polish。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06213-idea-evaluate-5d3fe150",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-evaluator/sub-skills/idea-evaluate/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-evaluator/sub-skills/idea-evaluate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b338f7f44f8555db5d2af0a09c7f6dae3c381954b696ad616a2e4840fedbd6e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

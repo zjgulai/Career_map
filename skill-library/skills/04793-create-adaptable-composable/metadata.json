@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-adaptable-composable",
+  "中文名称": "待补：create-adaptable-composable",
+  "一句话作用": "Create a library-grade Vue composable that accepts maybe-reactive inputs (MaybeRef / MaybeRefOrGetter) so callers can pass a plain value, ref, or getter. Normalize inputs with toValue()/toRef() inside reactive effects (…",
+  "关键输入": "Adaptable useDocumentTitle Composable: read-only title parameter Adaptable useCounter Composable: two-way writable count parameter",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:46+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Adaptable useDocumentTitle Composable: read-only title parameter Adaptable useCounter Composable: two-way writable count parameter时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04793-create-adaptable-composable-1d07aa50",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/create-adaptable-composable/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/create-adaptable-composable/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d6c8822577020dd62594e7fca4c11feb2be1af36f62d3f190984fe5aae1f6d1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

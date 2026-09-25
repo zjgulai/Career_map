@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 买手提案框架生成（执行摘要/市场机会/产品方案/商业条款）",
+  "中文名称": "待补：KA 买手提案框架生成（执行摘要/市场机会/产品方案/商业条款）",
+  "一句话作用": "当需要向海外 KA 买手提交年度或单品进场提案、且已具备 ka-market-data-compiler 数据包与目标 SKU 清单时调用；输出可转 PPT/PDF 的章节结构与要点，不替代法务条款审阅。",
+  "关键输入": "- ka-market-data-compiler 输出或等价材料。 - 目标 SKU 清单 、 建议零售价/促销价区间 （可粗）、 上市窗口 。 - 已知 KA 格式偏好 （如某客户要「执行摘要在前」）— 写入输入区。",
+  "关键输出": "- 分章节 Markdown；每节预留 图表占位符 [图：份额趋势]。 - 附 术语表 （中英德法商务用语对照可选）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要向海外 KA 买手提交年度或单品进场提案、且已具备 ka-market-data-compiler 数据包与目标 SKU 清单时调用；输出可转 PPT/PDF 的章节结构与要点，不替代法务条款审阅。时，用它产出或更新：- 分章节 Markdown；每节预留 图表占位符 [图：份额趋势]。 - 附 术语表 （中英德法商务用语对照可选）。",
+  "skill_id": "09872-ka-98281fa5",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-buyer-proposal-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-buyer-proposal-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "827c6146ddb513d037a691ecd1193c6cb44e70666b00691e6604247d3f05d4c7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

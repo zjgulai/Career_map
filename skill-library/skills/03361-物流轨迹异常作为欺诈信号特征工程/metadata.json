@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-anomaly-fraud-signal",
+  "中文名称": "物流轨迹异常作为欺诈信号特征工程",
+  "一句话作用": "触发词：物流欺诈信号、轨迹异常、虚假签收、刷单识别、欺诈评分。何时不用：需要识别买家未收货欺诈与地址篡改时用物流链路欺诈检测；需要预测包裹破损概率时用包裹破损预测。安全边界：对外举报须先确保证据链完整、避免恶意举报反诉；分析仅限自有订单物流数据，不得获取或使用他人隐私数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要风控团队面临\"竞品刷单物流轨迹与真实订单难以区分\"——15类物流特征欺诈评分将刷单识别召回率从52%提升至87%，年化通过举报恢复BSR保护价值30-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03361-p2s-logistics-anomaly-fraud-signal-654d7938",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-logistics-anomaly-fraud-signal/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-logistics-anomaly-fraud-signal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d77a5ab26fc504a2205a16425a7bd78ec49bcebb0a1722dcc17068550e067bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

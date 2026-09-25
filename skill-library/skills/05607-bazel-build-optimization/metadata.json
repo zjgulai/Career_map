@@ -1,0 +1,22 @@
+{
+  "英文名称": "bazel-build-optimization",
+  "中文名称": "待补：bazel-build-optimization",
+  "一句话作用": "Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.",
+  "关键输入": "- Setting up Bazel for monorepos - Configuring remote caching/execution - Optimizing build times - Writing custom Bazel rules - Debugging build issues - Migrating to Bazel",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Setting up Bazel for monorepos - Configuring remote caching/execution - Optimizing build times - Writing custom Bazel rules - Debugging build issues - Migrating to Bazel时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05607-bazel-build-optimization-37fbfb92",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/bazel-build-optimization/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/bazel-build-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1119b2ec8f9d6188886602a6ad62506e579187afb2a8cd455b3dfb08eb1f11ff",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

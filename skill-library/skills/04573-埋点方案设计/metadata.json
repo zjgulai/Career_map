@@ -1,0 +1,22 @@
+{
+  "英文名称": "埋点方案设计",
+  "中文名称": "埋点方案设计",
+  "一句话作用": "Feature tracking instrumentation design — user path mapping, event definition (exposure 2201/click 2101), args parameter design (&-separated key=value), metric specification.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:55+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Feature tracking instrumentation design — user path mapping, event definition (exposure 2201/click 2101), args parameter design (&-separated key=value), metric specification.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04573-skill-aab437c0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-data-toolkit/1.0.0/skills/埋点方案设计/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-data-toolkit/1.0.0/skills/埋点方案设计/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "730e8dc7f45ccf6de641f82b11a27f381ee28ff5b47e8fbc9d184577e39131a3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

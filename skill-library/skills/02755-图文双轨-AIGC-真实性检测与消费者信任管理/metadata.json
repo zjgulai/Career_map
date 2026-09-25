@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-aigc-authenticity-trust-framework",
+  "中文名称": "图文双轨 AIGC 真实性检测与消费者信任管理",
+  "一句话作用": "触发词：AIGC 真实性检测、素材风险分级、消费者信任、图文双轨、上架前检测。何时不用：只鉴别文本是否为 AI 生成时用 AIGC 内容鉴别技能；本技能同时看图像 Patch 不连续性与文本统计特征。安全边界：平台已强化 AI 内容标注规定，高风险素材须替换或按平台要求标注，不得隐瞒 AI 生成事实。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴卖家大量使用 AI 生图/文案后不知是否触发平台检测或被消费者察觉，信任危机导致评分骤降——双轨真实性检测（图像 Patch 不连续性 + 文本 TTR/重复率）预先标记高风险内容，避免上架后信任危机导致年化 50-200 万元 GMV 损失时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02755-p2s-aigc-authenticity-trust-framework-5b9e4c31",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-aigc-authenticity-trust-framework/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-aigc-authenticity-trust-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c8624bf85655c4610e716e0c315d15883dad67418fdc8c2fb0a23f21a82cfc1d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

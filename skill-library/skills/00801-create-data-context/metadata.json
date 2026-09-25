@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-data-context",
+  "中文名称": "待补：create-data-context",
+  "一句话作用": "Create, update, inspect, or repair Data Analytics semantic layers. Use when the user asks to save data context or create a semantic layer that future Data Analytics work can inspect and cite.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For semantic-layer work, report what was created, updated, inspected, or repaired; source coverage; any user-relevant caveats or blockers; and the exact path or installed skill link the user can cite later. For create or update results, include the weekly ref…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create, update, inspect, or repair Data Analytics semantic layers. Use when the user asks to save data context or create a semantic layer that future Data Analytics work can inspect and cite.时，用它产出或更新：For semantic-layer work, report what was created, updat…",
+  "skill_id": "00801-create-data-context-78c73e0e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/data-analytics/skills/create-data-context/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/data-analytics/skills/create-data-context/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b004f792fa63e639dbce197562c97230eb58250e639b6bbe926085e3a44b0c2b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

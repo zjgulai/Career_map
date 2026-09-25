@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-delayed-conversion-causal-mtl",
+  "中文名称": "促销延迟转化因果多任务建模 大促期用户行为的反事实分析",
+  "一句话作用": "触发词：延迟转化、AICR、大促增量、反事实多任务、优惠券精准投放。何时不用：只要一场促销的总体净增量用反事实评估（合成控制）；干预前能随机分流测促销则用实验设计类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要大促结束后财务无法区分\"真实增量\"和\"本来就会买\"导致ROI虚高——反事实多任务建模精准测量AICR，优惠券精准投放节省41%预算，年化保护促销预算18-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03049-p2s-delayed-conversion-causal-mtl-6d36e130",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-delayed-conversion-causal-mtl/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-delayed-conversion-causal-mtl/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4bec99681de1ea03f89e6b4fc57070819f1911cb427eb504f4e6b8d09832b30c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

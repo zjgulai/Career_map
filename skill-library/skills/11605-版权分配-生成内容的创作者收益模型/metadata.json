@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-aigc-copyright-revenue-sharing",
+  "中文名称": "版权分配 生成内容的创作者收益模型",
+  "一句话作用": "触发词：AIGC 版权分配、贡献度分解、Shapley 值、相似度匹配、分账清单。何时不用：只做 AI 内容真实性检测时用 AIGC 鉴别技能；本技能处理生成素材与原创作者之间的收益归属。安全边界：分账须基于可核验的训练数据清单或调用日志；跨境结算须符合各国税务与支付合规要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要内容团队面临AI生成素材版权归属不清——Shapley分配框架实现95%版权溯源准确率，KOL合作纠纷减少80%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11605-p2s-aigc-copyright-revenue-sharing-77c565e2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-aigc-copyright-revenue-sharing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-aigc-copyright-revenue-sharing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "122701f233cd0bf00c73184103100660095313cb8076988f23c874e8205f11b5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

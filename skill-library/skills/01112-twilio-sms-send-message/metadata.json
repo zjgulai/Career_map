@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-sms-send-message",
+  "中文名称": "待补：twilio-sms-send-message",
+  "一句话作用": "SMS and MMS deep-dive reference. Covers SMS-specific error codes, message filtering troubleshooting (\"Messages Being Filtered or Blocked?\" diagnostic checklist), MMS media support (US/CA/AU only), and SMS pumping indica…",
+  "关键输入": "- Twilio account with an SMS-capable phone number — New to Twilio? See twilio-account-setup for signup, getting a number, and trial limitations - Environment variables: - TWILIO ACCOUNT SID - TWILIO AUTH TOKEN — See twilio-iam-auth-setup for credential setup…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要SMS and MMS deep-dive reference. Covers SMS-specific error codes, message filtering troubleshooting (\"Messages Being Filtered or Blocked?\" diagnostic checklist), MMS media support (US/CA/AU only), and SMS pumping indica…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01112-twilio-sms-send-message-e7c1991c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sms-send-message/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sms-send-message/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "115fd1a596ac8bc1ab756785a76c752960487f09eab0d3b08556262e3a32d85f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

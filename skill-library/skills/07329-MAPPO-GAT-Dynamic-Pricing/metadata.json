@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-MAPPO-GAT-Dynamic-Pricing",
+  "中文名称": "待补：MAPPO GAT Dynamic Pricing",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 81.0, \"best\": 81.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:29:22.524450\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:29:22+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 81.0, \"best\": 81.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:29:22.524450\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07329-skill-mappo-gat-dynamic-pricing-504d12be",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-MAPPO-GAT-Dynamic-Pricing.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-MAPPO-GAT-Dynamic-Pricing.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "5f806cff83ca00bc773c98275bc5dd18f78ad5b87f108829c65f0250b0f75b97",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

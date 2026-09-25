@@ -1,0 +1,22 @@
+{
+  "英文名称": "latex-figure-table-layout",
+  "中文名称": "待补：latex-figure-table-layout",
+  "一句话作用": "Professional LaTeX figure and table positioning. Handle float placement, subfigure/subtable layouts, side-by-side arrangements, and cross-column figures. Does NOT adjust sizes, widths, or scaling.",
+  "关键输入": "Use this skill when: - Adjusting figure/table position parameters ([h], [t], [b], [p]) - Arranging multiple figures/tables in subfigures - Creating side-by-side figure or figure+table layouts - Fixing float positioning…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:02+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use this skill when: - Adjusting figure/table position parameters ([h], [t], [b], [p]) - Arranging multiple figures/tables in subfigures - Creating side-by-side figure or figure+table layouts - Fixing float positioning…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04940-latex-figure-table-layout-4f5fed8f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/latex-figure-table-layout/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/latex-figure-table-layout/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "29f60d314904caa376d580a1738679de22cd086c3b26de0b49af319627fbe012",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

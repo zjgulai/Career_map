@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-context-token-compression",
+  "中文名称": "上下文Token压缩 语义保真压缩与成本效益优化",
+  "一句话作用": "触发词：上下文压缩、摘要、Token 超限、多轮会话、语义保真。何时不用：预算如何在多 Agent 间分配走「动态上下文预算分配」；压缩破坏缓存前缀导致成本反弹走「生命周期感知上下文驱逐」。安全边界：压缩不得丢失合规与财务的关键结论及引用链，压缩过程须可审计。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要多轮MAS会话到第15轮就触发上下文窗口上限被迫截断关键信息——Summarizer Agent混合压缩将会话可持续轮次从15轮提升至40+轮，每次会话Token成本降低67%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11934-p2s-context-token-compression-d6b5f777",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-context-token-compression/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-context-token-compression/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d41bc3c05eef2355d86d5d606c9ba606a686fdbfd8d79dbc31b3080d837f1dd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

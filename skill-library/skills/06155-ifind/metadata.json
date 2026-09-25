@@ -1,0 +1,22 @@
+{
+  "英文名称": "ifind",
+  "中文名称": "待补：ifind",
+  "一句话作用": "iFinD, also known as Tonghuashun, is a financial data platform for global market analysis across China A-shares, Hong Kong, US markets, and other supported securities. It covers stock information, financial statements,…",
+  "关键输入": "- Stock profile and security lookup across China A-shares, Hong Kong, US, and other supported markets. - Financial statements, including balance sheet, income statement, and cash flow. - Business segmentation, operating…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T17:52:13+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Stock profile and security lookup across China A-shares, Hong Kong, US, and other supported markets. - Financial statements, including balance sheet, income statement, and cash flow. - Business segmentation, operating…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06155-ifind-66188658",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/ifind/skills/ifind/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/ifind/skills/ifind/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4fe31bef43569c778cbddd530da8538b02e89af34f91a9784289521f1559f419",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

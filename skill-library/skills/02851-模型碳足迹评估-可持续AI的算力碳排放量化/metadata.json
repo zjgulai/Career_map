@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-carbon-footprint-ml-model",
+  "中文名称": "模型碳足迹评估 可持续AI的算力碳排放量化",
+  "一句话作用": "触发词：AI碳足迹、算力碳排放、Scope 3、绿色区域部署、ESG披露。何时不用：供应链与物流碳排优化时用绿色物流类技能；AI 社会影响评估用「AI Social Impact Measurement」。安全边界：碳排数据用于对外披露须第三方审计；电网碳强度取值须使用最新可追溯来源，不得为达标美化数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI团队面临\"欧盟CSRD要求披露数字碳排放但无量化工具\"——GHG Protocol碳足迹计算器量化AI训练和推理排放，满足ESG合规，年化价值约75万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02851-p2s-carbon-footprint-ml-model-8e5571bc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-carbon-footprint-ml-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-carbon-footprint-ml-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "80970c831ac59e5eb82faf49ff43656f96ea36cfea284e1e522f5fe47bd7e562",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ctrip-wendao",
+  "中文名称": "携程问道旅行技能",
+  "一句话作用": "Trigger when user asks travel-related questions: hotel search, flight query, attraction recommendations, itinerary planning, dining tips, visa, etc. Trigger keywords: 携程, 问道, 旅行, 机票, 酒店, 景点, 行程, ctrip, travel, flight, h…",
+  "关键输入": "Token 由连接器管理，已注入到环境变量 WENDAO API KEY 中。如果执行时提示缺少 token，请告知用户需要在连接器设置中配置携程问道 Token。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Trigger when user asks travel-related questions: hotel search, flight query, attraction recommendations, itinerary planning, dining tips, visa, etc. Trigger keywords: 携程, 问道, 旅行, 机票, 酒店, 景点, 行程, ctrip, travel, flight, h…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05244-ctrip-wendao-f5d59d48",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/ctrip-wendao/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/ctrip-wendao/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1cc8a414ebb00fdc6c9d0c7342564f9c977cdd60f6ecb76ae392e78aa93133fe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

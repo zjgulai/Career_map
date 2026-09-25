@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-smart-analysis-and-cleaning",
+  "中文名称": "处理合并单元格：向下填充",
+  "一句话作用": "对多 Sheet Excel 进行智能清洗、跨表核对与可视化分析。。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "output path = \"analysis result.xlsx\" with pd.ExcelWriter(output path, engine='openpyxl') as writer: target df.to excel(writer, index=False, sheet name='Result')",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要对多 Sheet Excel 进行智能清洗、跨表核对与可视化分析。。时，用它产出或更新：output path = \"analysis result.xlsx\" with pd.ExcelWriter(output path, engine='openpyxl') as writer: target df.to excel(writer, index=False, sheet name='Result')",
+  "skill_id": "04157-excel-smart-analysis-and-cleaning-a5b18936",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/missing-value-handling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/missing-value-handling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "514ea9975a943466588bc7b74efde47486509c020b1f128c2ab07f2eda865c0a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

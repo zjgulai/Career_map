@@ -1,0 +1,22 @@
+{
+  "英文名称": "codebase-design",
+  "中文名称": "待补：codebase-design",
+  "一句话作用": "用于设计深模块的共享词汇。适用于用户想设计或改进模块接口、寻找深化机会、决定 seam 放在哪里、让代码更容易测试或更适合 AI 导航，或其他技能需要深模块词汇时。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-27T15:45:07+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用于设计深模块的共享词汇。适用于用户想设计或改进模块接口、寻找深化机会、决定 seam 放在哪里、让代码更容易测试或更适合 AI 导航，或其他技能需要深模块词汇时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12794-codebase-design-b21ed5c2",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/.agents/skills/codebase-design/SKILL.md",
+  "relative_path": "lute/project/VOA/.agents/skills/codebase-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d6a6fafb940c65b5d0c2df38c56e9dd2732c9738258ca937d747b0347484c8d0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-avatar-fetch",
+  "中文名称": "待补：social-avatar-fetch",
+  "一句话作用": "Fetch the real avatar/profile image URL for a social media creator from YouTube, Instagram, Twitter/X, or TikTok, preferring curl/profile JSON fields and falling back to browser DOM only when curl fails. Use when a crea…",
+  "关键输入": "Symptom Likely cause Fix --- --- --- JS returns null Page not fully loaded, or YouTube changed DOM Wait 1s with browser wait, retry; or try document.querySelectorAll('img') and filter by src YouTube URL missing yt3 Got…",
+  "关键输出": "Return a structured result to the calling agent: stability values: - stable — URL is a permanent CDN link (YouTube, Twitter) - signed — URL has an expiry / signature (Instagram, TikTok); note re-fetch requirement - login required — could not retrieve without…",
+  "最新更新时间": "2026-09-18T02:00:47+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Symptom Likely cause Fix --- --- --- JS returns null Page not fully loaded, or YouTube changed DOM Wait 1s with browser wait, retry; or try document.querySelectorAll('img') and filter by src YouTube URL missing yt3 Got…时，用它产出或更新：Return a structured result…",
+  "skill_id": "00146-social-avatar-fetch-ed78ce70",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/social-avatar-fetch/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/social-avatar-fetch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "561402225c5a1d863902908400ca33d0d95a4e700dc9f124a17884eb4c4dfc31",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

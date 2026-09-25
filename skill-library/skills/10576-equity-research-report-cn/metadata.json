@@ -1,0 +1,22 @@
+{
+  "英文名称": "equity-research-report-cn",
+  "中文名称": "待补：equity-research-report-cn",
+  "一句话作用": "创建机构级别的投资研报，采用卖方研究视觉风格、信息密集型版面与完整章节结构。适用于股票、固定收益、策略、行业、衍生品、ETF 或量化研究。对标高盛、摩根士丹利、摩根大通等投行研报风格，带封面页、编号图表、术语表与披露声明。支持 PDF、DOCX、PPTX 多种输出。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Format Support -------- --------- PDF Primary output - best fidelity for the reference style DOCX Supported - editable document with full styling PPTX Supported - for slide-deck adaptation of research content Default output : DOCX (when user does not specify…",
+  "最新更新时间": "2026-09-14T00:06:56+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要创建机构级别的投资研报，采用卖方研究视觉风格、信息密集型版面与完整章节结构。适用于股票、固定收益、策略、行业、衍生品、ETF 或量化研究。对标高盛、摩根士丹利、摩根大通等投行研报风格，带封面页、编号图表、术语表与披露声明。支持 PDF、DOCX、PPTX 多种输出。时，用它产出或更新：Format Support -------- --------- PDF Primary output - best fidelity for the reference style DOCX Supported - edi…",
+  "skill_id": "10576-equity-research-report-cn-cce9f98f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/equity-research-report-cn/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/equity-research-report-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8334b4edbd5f6e9e66666242ada24b2469f7b2b4bc1eb3c7b838d962d6749256",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

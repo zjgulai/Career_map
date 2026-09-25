@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-fairness-bias-audit",
+  "中文名称": "标签系统算法偏见检测与公平性修正",
+  "一句话作用": "触发词：算法偏见、公平性审计、标签偏见、曝光不足、欧盟 AI 法案。何时不用：做合规违规概率打分排序用「合规 ML 风险评分」；做标签体系结构设计用标签体系类技能。安全边界：公平性修正须在准确率与公平度之间权衡并留痕，过度纠正导致标签准确率明显下降的方案不得上线。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据工程师面临\"标签系统性别偏见导致部分SKU曝光严重不足\"——算法公平性修正将受歧视分组曝光率提升40%，年化增收15-30万元并降低欧盟AI法案合规风险时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03921-p2s-tag-fairness-bias-audit-aad06b0f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tag-fairness-bias-audit/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tag-fairness-bias-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9680497072d0212f8b36c6ad18020acf7c52c8eafc41f636f24ac85c19cbaf4f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

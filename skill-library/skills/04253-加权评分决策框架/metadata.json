@@ -1,0 +1,22 @@
+{
+  "英文名称": "weighted-scoring",
+  "中文名称": "加权评分决策框架",
+  "一句话作用": "引导完成候选方案、评估维度、权重分配、逐项评分与敏感性分析的多准则决策矩阵。触发词：选哪个方案、加权评分、方案对比、技术选型、决策矩阵、weighted-scoring。何时不用：只有两个选项且差异明显时不必套矩阵；核查已有分析结论是否可信用 validate-data。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "用标准表格呈现结果： 括号中为该维度的加权得分（权重 × 评分）。 ---",
+  "最新更新时间": "2026-09-15T11:05:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要引导完成候选方案、评估维度、权重分配、逐项评分与敏感性分析的多准则决策矩阵。触发词：选哪个方案、加权评分、方案对比、技术选型、决策矩阵、weighted-scoring。何时不用：只有两个选项且差异明显时不必套矩阵；核查已有分析结论是否可信用 validate-data。时，用它产出或更新：用标准表格呈现结果： 括号中为该维度的加权得分（权重 × 评分）。 ---",
+  "skill_id": "04253-weighted-scoring-34365015",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/weighted-scoring/SKILL.md",
+  "relative_path": "lute/.dsh/skills/weighted-scoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "584ecc1d2e7e064a3d566132f0dc79861eec8b00843f8097cff9b0aeab8505a5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

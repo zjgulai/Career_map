@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-fraud-ri[REDACTED]",
+  "中文名称": "标签驱动风险智能 用户行为标签的多维欺诈特征工程",
+  "一句话作用": "触发词：行为标签、欺诈特征、信誉积累、序列特征、风控标签体系。何时不用：单笔订单规则即可拦截的场景走「异常交易检测」；从地址设备找退货团伙走「退货欺诈识别」。安全边界：标签只用于内部风控，不做对外用户画像或广告定向，标签计算须匿名化且不存储原始行为日志。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要风控团队面临\"欺诈团伙先正常积累信誉再突然高额欺诈导致传统规则漏检\"——行为标签序列特征将欺诈AUC从0.45提升至0.96，精确率高达93%，年化减少欺诈损失40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12142-p2s-tag-fraud-ri-redacted-3c3203aa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tag-fraud-risk-intelligence/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tag-fraud-risk-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d4fb5540fb6aea6b294796394ddfa5e29608b4b8773565cbd3b9789739b94e26",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

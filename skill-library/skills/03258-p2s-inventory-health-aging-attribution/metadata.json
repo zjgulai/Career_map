@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-health-aging-attribution",
+  "中文名称": "待补：p2s-inventory-health-aging-attribution",
+  "一句话作用": "触发词：库存健康诊断、库龄分析、死库识别、供应计划方差归因。何时不用：要预测未来销量用「需求预测」类技能，要算补多少货用「补货模拟」；本技能只诊断现状与归因偏差。安全边界：清货与调拨建议须人工复核后执行，模型不直接改动库存或价格。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：618 大促结束后，某 SKU 实际期末库存比计划低 800 件，导致大促期间断货 3 天时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03258-p2s-inventory-health-aging-attribution-63344cef",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-inventory-health-aging-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-inventory-health-aging-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6abfad6d71f4a47589342077128e04ff6063948e02927ec76c373d15918392c3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-responsible-ai-supply-chain-disclosure",
+  "中文名称": "负责任AI供应链披露（算法决策透明度）",
+  "一句话作用": "触发词：AI供应链披露、ESG报告、供应商公平性、集中度指标、算法透明度。何时不用：面向监管的算法问责报告时用「Algorithmic Accountability Audit」；EU AI Act 风险分级用「EU AI Act Compliance Framework」。安全边界：披露口径须法务确认适用范围；不得以商业保密为由隐瞒供应商集中度等实质风险，也不得披露可识别的商业敏感条款。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要ESG团队面临\"投资者要求AI供应链决策透明度但缺乏系统性披露工具\"——算法供应链影响报告框架将ESG合规完成率提升至100%，年化降低融资成本50-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12216-p2s-responsible-ai-supply-chain-disclosure-f76bfac4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/未归类（矩阵空白）/p2s-responsible-ai-supply-chain-disclosure/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/未归类（矩阵空白）/p2s-responsible-ai-supply-chain-disclosure/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6a16dd8ed690aa4eca794dd7ea73c88afe457e1b25875d8eef95f40d6216b623",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

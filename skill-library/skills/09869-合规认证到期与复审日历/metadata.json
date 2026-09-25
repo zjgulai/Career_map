@@ -1,0 +1,22 @@
+{
+  "英文名称": "合规认证到期与复审日历",
+  "中文名称": "待补：合规认证到期与复审日历",
+  "一句话作用": "当需要维护证书/检测报告/DoC 等到期日、并生成 90/60/30 天提醒与复盘任务时调用；适合周例会与供应商/公告机构跟催。",
+  "关键输入": "- 数据源含：证书/报告名称、编号、签发机构、 到期日 、覆盖 SKU/型号、适用市场。 - 时区与「工作日」定义一致（用于「提前 N 天」计算）。",
+  "关键输出": "- iCal 可选；默认 Markdown 表格 ：事项 到期日 状态 T-90 日期 建议动作 Owner - OVERDUE 区块 单独置顶。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要维护证书/检测报告/DoC 等到期日、并生成 90/60/30 天提醒与复盘任务时调用；适合周例会与供应商/公告机构跟催。时，用它产出或更新：- iCal 可选；默认 Markdown 表格 ：事项 到期日 状态 T-90 日期 建议动作 Owner - OVERDUE 区块 单独置顶。",
+  "skill_id": "09869-skill-e7d5cdfa",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/compliance-calendar/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/compliance-calendar/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a2f1cefd6ac8efaa8b2757af76857a5f5db8503234baf3e09621117934d3ba09",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

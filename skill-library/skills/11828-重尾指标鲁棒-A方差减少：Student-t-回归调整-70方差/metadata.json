@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-state-robust-variance-reduction",
+  "中文名称": "重尾指标鲁棒 A方差减少：Student-t 回归调整（-70方差）",
+  "一句话作用": "触发词：重尾指标、方差缩减、Student-t 回归调整、置信区间收窄、GMV 实验、鲁棒 ATE。何时不用：指标接近正态、方差可控时用常规 CUPED 或控制变量；样本极小或协变量缺失严重时不要指望降方差。安全边界：协变量只能取实验期之前的数据，混入实验期信号会污染估计并导致调整偏差。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营分析师面临异质样本噪声太高——STATE将置信区间宽度缩22%，年化省10万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11828-p2s-state-robust-variance-reduction-75d9348c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-state-robust-variance-reduction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-state-robust-variance-reduction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e037bd817e3226c1f80f813be1a0fe8fb2f8b96047482c21c86572d1981686ea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

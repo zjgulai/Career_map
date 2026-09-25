@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-self-improving-agent-feedback-loop",
+  "中文名称": "反馈闭环与自进化 Agent",
+  "一句话作用": "触发词：反馈闭环、Self-Refine、自我批评、记忆复用、错误复发。何时不用：靠案例库在线适应走「案例推理部署时学习」；靠失败轨迹收敛策略走「对比反思与自我巩固」。安全边界：自我改进不得绕过人工评分与审核环节，错误案例须留痕可追溯。",
+  "关键输入": "输入 ：需任务执行轨迹（输入、输出、反馈）、人工评分（如 1-5 分）与成功失败案例标注，任务级粒度。 输出 ：产出自改进后的 Agent 输出与经验记忆库、错误复发率与准确率变化（卡页记录错误复发率 18% 降至 4%、人工审核工作量减少 50-60%），供运营与算法团队使用。",
+  "关键输出": "输入 ：需任务执行轨迹（输入、输出、反馈）、人工评分（如 1-5 分）与成功失败案例标注，任务级粒度。 输出 ：产出自改进后的 Agent 输出与经验记忆库、错误复发率与准确率变化（卡页记录错误复发率 18% 降至 4%、人工审核工作量减少 50-60%），供运营与算法团队使用。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：反馈闭环、Self-Refine、自我批评、记忆复用、错误复发。何时不用：靠案例库在线适应走「案例推理部署时学习」；靠失败轨迹收敛策略走「对比反思与自我巩固」。安全边界：自我改进不得绕过人工评分与审核环节，错误案例须留痕可追溯。时，用它产出或更新：输入 ：需任务执行轨迹（输入、输出、反馈）、人工评分（如 1-5 分）与成功失败案例标注，任务级粒度。 输出 ：产出自改进后的 Agent 输出与经验记忆库、错误复发率与准确率变化（卡页记录错误复发率 18% 降至 4%、人工审核工作量减少 50-60%）…",
+  "skill_id": "03797-p2s-self-improving-agent-feedback-loop-61349751",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-self-improving-agent-feedback-loop/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-self-improving-agent-feedback-loop/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e182ec75c64dbdcde400942a7debc3a752488ee64397363fd1087a9e595351c3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

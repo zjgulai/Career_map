@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ad-creative-personalization-bandit",
+  "中文名称": "上下文 Bandit 动态为不同人群选最优广告创意",
+  "一句话作用": "触发词：创意个性化、上下文 Bandit、LinUCB、素材组合、创意疲劳、人群定向创意。何时不用：创意组合很少且流量充裕时用简单 A/B；需要严格归因结论时用固定分配实验。安全边界：前段全探索会牺牲短期转化，必须设探索预算与创意疲劳惩罚，素材与文案需符合平台广告政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投手面临\"18种创意组合靠经验固定选择、A/B测试需6周才能收敛\"——LinUCB上下文Bandit 2周收敛至最优创意，CTR从1.8%→2.6%，年化广告效率增益约30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02682-p2s-ad-creative-personalization-bandit-f8236ebd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ad-creative-personalization-bandit/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ad-creative-personalization-bandit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f16664e76e3392351619a44b051738d42428cc9f59216d6a6cfe31a420627d3a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

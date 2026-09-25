@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-creative-design",
+  "中文名称": "待补：doubao-creative-design",
+  "一句话作用": "当用户要求从零生成、设计商业/社交媒体创意图片，或做系列延展、多比例适配时使用；触发任务包括做图、出图、生成图片、设计海报、主视觉/KV、Banner、封面、社媒配图、社媒长图、电商主图、详情页、产品图、Logo、IP角色、吉祥物、包装、品牌应用物料、活动物料、宣传册、落地页、知识科普海报、信息图、教学图、教材插图、课件配图、思维导图、知识图谱、流程图、数据图表、科学结构图、公式推导图、工程图纸、多资产视觉系统等图片设计场景",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "生成的图片统一使用交付工具输出给用户。生成后不要机械复述“已完成”。如果结果可继续优化，只给 1-3 个具体方向，例如换比例、做系列延展、加强文字可读性、基于当前核心资产继续生成下一张。引导用户根据反馈继续对话或生成。",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要当用户要求从零生成、设计商业/社交媒体创意图片，或做系列延展、多比例适配时使用；触发任务包括做图、出图、生成图片、设计海报、主视觉/KV、Banner、封面、社媒配图、社媒长图、电商主图、详情页、产品图、Logo、IP角色、吉祥物、包装、品牌应用物料、活动物料、宣传册、落地页、知识科普海报、信息图、教学图、教材插图、课件配图、思维导图、知识图谱、流程图、数据图表、科学结构图、公式推导图、工程图纸、多资产视觉系统等图片设计场景时，用它产出或更新：生成的图片统一使用交付工具输出给用户。生成后不要机械复述“已完成…",
+  "skill_id": "06510-doubao-creative-design-8123b1dd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-creative-design/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-creative-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df634f63a57078848b17330464fa43e580aaf3596fe2498ac3e8945d2656d39b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

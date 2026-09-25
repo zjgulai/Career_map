@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-medrag-domain-vertical-rag",
+  "中文名称": "垂直领域RAG 医疗电商迁移学习的最佳实践",
+  "一句话作用": "触发词：垂直领域RAG、领域知识图谱增强、标准对照、成分安全查询、合规预审、多语言问答。何时不用：通用产品问答用「主动检索」；育儿医疗内容安全拦截用「育儿建议幻觉防护」。安全边界：结论必须可溯源到标准文件（如 GB、欧盟、FDA 规范）；不得存储个人信息（GDPR/CCPA 口径）；知识图谱过时风险与多语言翻译偏差须靠月度更新与人工抽检兜底。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品团队面临婴儿食品成分安全查询不准确——垂直领域RAG将成分安全查询准确率+35%，达到营养师专业水平，年化规避产品风险55万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12186-p2s-medrag-domain-vertical-rag-005a16dd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-medrag-domain-vertical-rag/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-medrag-domain-vertical-rag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "05e829fed0aba91b5e8d6e7c3a37684729c963d770972810550c5bdef10a80f3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

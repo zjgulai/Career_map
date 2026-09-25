@@ -1,0 +1,22 @@
+{
+  "英文名称": "phy-async-audit",
+  "中文名称": "待补：phy-async-audit",
+  "一句话作用": "Async/await error handling auditor. Scans JavaScript/TypeScript, Python, and Go code for unhandled async errors — floating promises (fire-and-forget with no .catch()), Express async route handlers without try/catch, Pro…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "ASYNC INDICATOR RE = re.compile( r\"\"\"async\\s+function \\.then\\s \\( Promise\\. fetch\\s \\( axios\\. \\.send\\s \\( \\.save\\s \\( \\.create\\s \\( \\.update\\s \\( \\.delete\\s \\( \\.findOne\\s \\( \\.findAll\\s \\( readFile writeFile setTimeout setInterval emit\\s \\(\"\"\", re.IGNORECAS…",
+  "最新更新时间": "2026-09-19T04:12:06+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Async/await error handling auditor. Scans JavaScript/TypeScript, Python, and Go code for unhandled async errors — floating promises (fire-and-forget with no .catch()), Express async route handlers without try/catch, Pro…时，用它产出或更新：ASYNC INDICATOR RE = re.co…",
+  "skill_id": "05010-phy-async-audit-c88d5e54",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/phy-async-audit/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/phy-async-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dd842d972aa20dd94c2cea0919ca6f8b1cbeabd175c54cb1bb9d2804f41ec0f9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

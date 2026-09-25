@@ -1,0 +1,22 @@
+{
+  "英文名称": "to-spec",
+  "中文名称": "待补：to-spec",
+  "一句话作用": "把当前对话转成 spec 并发布到项目 issue tracker——不做访谈，只综合已经讨论的内容。",
+  "关键输入": "用户正在面对的问题，从用户视角描述。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户正在面对的问题，从用户视角描述。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10761-to-spec-87d43f15",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/to-spec/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/to-spec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e8f622fc0826cf71bd3bd827b5871c4fd52468b5cfa73bca8b49459527c81f98",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "seekdb-docs",
+  "中文名称": "待补：seekdb-docs",
+  "一句话作用": "seekdb database documentation lookup. Use when users ask about seekdb features, SQL syntax, vector search, hybrid search, integrations, deployment, or any seekdb-related topics. Automatically locates relevant docs via c…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要seekdb database documentation lookup. Use when users ask about seekdb features, SQL syntax, vector search, hybrid search, integrations, deployment, or any seekdb-related topics. Automatically locates relevant docs via c…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04566-seekdb-docs-a3b95804",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/seekdb/docs/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/oceanbase-skills/2.0.1/skills/seekdb/docs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "769bab5f60501a1a5d2174dceb1bd3d4b0b6b4e5ea9bcea1c12c95c27e64f869",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

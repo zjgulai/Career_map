@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cultural-data-collection",
+  "中文名称": "跨文化 UGC 采集与母婴消费文化差异识别",
+  "一句话作用": "触发词：跨文化UGC采集、文化差异识别、多市场评论、本地化洞察、UGC去噪。何时不用：只做单一市场评论情感分析时用情感 ML 管道技能；要从评论中抽取实体关系时用统一信息抽取技能。安全边界：UGC 采集须遵守平台条款与隐私要求，结论不得作为对特定市场人群的歧视性依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "语言检测：建议接入 langdetect 或 fasttext 自动识别语言，避免错误分配文化维度 关键词扩展：DIMENSION KEYWORDS 应由领域专家 + LLM 协作扩展（当前为示意） 采样偏差：高星评论在公开平台上比例偏高，分析时注意加权",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要市场研究员面临本地文化样本不足——文化采集将洞察覆盖率提35%，年化省8万元时，用它产出或更新：语言检测：建议接入 langdetect 或 fasttext 自动识别语言，避免错误分配文化维度 关键词扩展：DIMENSION KEYWORDS 应由领域专家 + LLM 协作扩展（当前为示意） 采样偏差：高星评论在公开平台上比例偏高，分析时注意加权",
+  "skill_id": "11944-p2s-cultural-data-collection-48bd8057",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cultural-data-collection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cultural-data-collection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "923e909406bc8c4aad40c8aa4f0c8b6a3693532c7640b082bb3d2351cbe03814",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

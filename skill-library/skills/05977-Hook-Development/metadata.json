@@ -1,0 +1,22 @@
+{
+  "英文名称": "Hook Development",
+  "中文名称": "待补：Hook Development",
+  "一句话作用": "This skill should be used when the user asks to \"create a hook\", \"add a PreToolUse/PostToolUse/Stop hook\", \"validate tool use\", \"implement prompt-based hooks\", \"use ${CODEBUDDY PLUGIN ROOT}\", \"set up event-driven automa…",
+  "关键输入": "All hooks receive JSON via stdin with common fields: Event-specific fields: - PreToolUse/PostToolUse: tool name, tool input, tool result - UserPromptSubmit: user prompt - Stop/SubagentStop: reason Access fields in prompts using $TOOL INPUT, $TOOL RESULT, $USE…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"create a hook\", \"add a PreToolUse/PostToolUse/Stop hook\", \"validate tool use\", \"implement prompt-based hooks\", \"use ${CODEBUDDY PLUGIN ROOT}\", \"set up event-driven automa…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05977-hook-development-b22cc765",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/hook-development/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/hook-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2c91812a7cf5a950542e62c83f87e1599e6c16550a3b01ed2322f63e8cca2534",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kol-creator-matching",
+  "中文名称": "达人精准匹配与 ROI 预测",
+  "一句话作用": "触发词：达人匹配、六维评分、候选筛选、ROI 预估、合作建议。何时不用：达人已确定、要复盘合作效益时用达人 ROI 归因类技能；本技能只用于合作前的候选筛选。安全边界：合作须在平台标注广告标识；粉丝量与互动率须达门槛，以规避虚假宣传与误导风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要MCN 每月推 50 个 KOL 候选靠人工两天选 5 个，经常选到粉丝多但转化差的展示型 KOL，ROI 只有 1:2——六维精准匹配（受众/内容/互动/转化/品牌安全/性价比）30 分钟筛选，ROI 从 1:2 提升到 1:3.5+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03297-p2s-kol-creator-matching-e5ce10f4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-kol-creator-matching/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-kol-creator-matching/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "225ebf30b0e3ee271b83c4bbf4713a33f6f7e897c7654d00c63937087256c49a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

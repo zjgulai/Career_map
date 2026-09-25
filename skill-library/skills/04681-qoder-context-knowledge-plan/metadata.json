@@ -1,0 +1,22 @@
+{
+  "英文名称": "qoder-context-knowledge-plan",
+  "中文名称": "待补：qoder-context-knowledge-plan",
+  "一句话作用": "Create or update the pre-flight config (.qoder/repowiki/wiki plan.yaml) that steers wiki and knowledge-card generation — authoring notes, page whitelist, per-page templates and preset wiki templates. Use when the user w…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T03:58:33+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Create or update the pre-flight config (.qoder/repowiki/wiki plan.yaml) that steers wiki and knowledge-card generation — authoring notes, page whitelist, per-page templates and preset wiki templates. Use when the user w…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04681-qoder-context-knowledge-plan-08b1fe82",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoderapp-bundler/qoder-context/1.0.61.7f8d7bb7/skills/qoder-context-knowledge-plan/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoderapp-bundler/qoder-context/1.0.61.7f8d7bb7/skills/qoder-context-knowledge-plan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d26c7f837b4972e9f78b9ce6099f30cf60c3cd785b9ecaa7ecae0bafd0fdff0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

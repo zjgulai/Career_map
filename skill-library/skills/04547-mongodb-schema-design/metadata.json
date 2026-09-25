@@ -1,0 +1,22 @@
+{
+  "英文名称": "mongodb-schema-design",
+  "中文名称": "待补：mongodb-schema-design",
+  "一句话作用": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL, or troubleshooting performance issues caused by schema problems. Triggers on \"design schema\", \"emb…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:11+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL, or troubleshooting performance issues caused by schema problems. Triggers on \"design schema\", \"emb…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04547-mongodb-schema-design-ab5d3c6b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/skills/mongodb-schema-design/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/skills/mongodb-schema-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ff8a98ccf241f1e07528d89590006807afc691b18b72e81a52e0c66f78bd1686",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

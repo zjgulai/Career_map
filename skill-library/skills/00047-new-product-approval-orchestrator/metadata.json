@@ -1,0 +1,22 @@
+{
+  "英文名称": "new-product-approval-orchestrator",
+  "中文名称": "待补：new-product-approval-orchestrator",
+  "一句话作用": "Use for small Amazon/Jungle Scout keyword and metric lookups, including two keywords with five related terms and search volumes each, even when no approval or report is requested. Use this private quick-lookup lane inst…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T16:24:28+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use for small Amazon/Jungle Scout keyword and metric lookups, including two keywords with five related terms and search volumes each, even when no approval or report is requested. Use this private quick-lookup lane inst…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00047-new-product-approval-orchestrator-fdab413b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/new-product-approval-orchestrator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/new-product-approval-orchestrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a2e9aa835e21d37991b742abd22341f3dfff3f6c3dbe27045403a66c91c9b6e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

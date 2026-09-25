@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo-page-audit",
+  "中文名称": "待补：seo-page-audit",
+  "一句话作用": "- Audit a single web page's SEO performance, providing a 0-100 score and prioritized technical and content recommendations. 边界：单个页面的 0-100 体检；找词与选题走 seo-keyword-research",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "The audit must result in a structured report saved to the workspace:",
+  "最新更新时间": "2026-09-13T20:33:22+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Audit a single web page's SEO performance, providing a 0-100 score and prioritized technical and content recommendations. 边界：单个页面的 0-100 体检；找词与选题走 seo-keyword-research时，用它产出或更新：The audit must result in a structured report saved to the workspace:",
+  "skill_id": "02377-seo-page-audit-edacb584",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/scratch/tree-0077/packages/capabilities/dsh-overseas-skills/backup/pre-81/seo-page-audit/SKILL.md",
+  "relative_path": "lute/.dsh/scratch/tree-0077/packages/capabilities/dsh-overseas-skills/backup/pre-81/seo-page-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d5a8c3976349a9ecdb40177bd7c483ed945e80808e6e7d9fc7ba712cd2e218b0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

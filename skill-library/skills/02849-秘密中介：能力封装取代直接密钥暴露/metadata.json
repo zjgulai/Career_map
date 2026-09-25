@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-capseal-agent-secret-mediation",
+  "中文名称": "秘密中介：能力封装取代直接密钥暴露",
+  "一句话作用": "触发词：密钥代管、能力句柄、临时凭证、防密钥外泄、下单授权、重放防护。何时不用：需要判定一次具体命令是否危险时用「运行时安全拦截」；需要为工具与参数生成可验证的最小权限策略并走扩权审批时用「最小权限Agent框架」；需要隔离命令执行环境时用「Agent 沙箱」。安全边界：绝不向 Agent 暴露明文密钥，生产环境 Broker 内部密钥存储必须使用 HSM/Secret Manager；任何超出 allowed actions、max…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要采购 Agent 若直接持有 ERP/支付系统 API Key，一旦 Prompt 注入攻击得手可造成资金损失——密钥代管层让 Agent 只获得时效性临时凭证，API Key 泄露风险归零时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02849-p2s-capseal-agent-secret-mediation-b2dc713e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-capseal-agent-secret-mediation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-capseal-agent-secret-mediation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "427de31e7bfe98bb8449eb59db6624b76c93ac0c0dcd1732df443deec771816c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

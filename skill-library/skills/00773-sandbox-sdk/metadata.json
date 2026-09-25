@@ -1,0 +1,22 @@
+{
+  "英文名称": "sandbox-sdk",
+  "中文名称": "待补：sandbox-sdk",
+  "一句话作用": "Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD systems, interactive dev environments, or executing untrusted code. Covers Sandbox SDK lifecycle, co…",
+  "关键输入": "Need Use Why ------ ----- ----- Shell commands, scripts exec() Direct control, streaming LLM-generated code runCode() Rich outputs, state persistence Build/test pipelines exec() Exit codes, stderr capture",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Need Use Why ------ ----- ----- Shell commands, scripts exec() Direct control, streaming LLM-generated code runCode() Rich outputs, state persistence Build/test pipelines exec() Exit codes, stderr capture时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00773-sandbox-sdk-5b2732d6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/cloudflare/skills/sandbox-sdk/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/cloudflare/skills/sandbox-sdk/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0f3501e6510921401be3f54bcb24d2a432a1b5c63af8f719eded3a087ad88ea9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

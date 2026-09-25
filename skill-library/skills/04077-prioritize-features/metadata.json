@@ -1,0 +1,22 @@
+{
+  "英文名称": "prioritize-features",
+  "中文名称": "待补：prioritize-features",
+  "一句话作用": "在资源有限的前提下比较功能的价值、成本与风险，排出先做后做的顺序。触发词：功能优先级排序、prioritize-features、在资源有限的前提下比较功能的价值、成本与风险，排出先做后做的顺序。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要在资源有限的前提下比较功能的价值、成本与风险，排出先做后做的顺序。触发词：功能优先级排序、prioritize-features、在资源有限的前提下比较功能的价值、成本与风险，排出先做后做的顺序。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04077-prioritize-features-c20d8f8b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/prioritize-features/SKILL.md",
+  "relative_path": "lute/.dsh/skills/prioritize-features/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d5f02f1c420097dac0095520cb2b13daa851593088bc23de7871c3a3f95b25b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "value-proposition",
+  "中文名称": "待补：value-proposition",
+  "一句话作用": "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why cust…",
+  "关键输入": "- Product description and features - Target customer segment and their problems - Competitive alternatives and current solutions - Customer insights or market data",
+  "关键输出": "1. Identify and profile the target customer segment 2. Define the core problem and JTBD 3. Describe the current state and friction points 4. Articulate how the product solves the problem 5. Envision the improved outcome 6. Compare against competitive alternat…",
+  "最新更新时间": "2026-09-16T00:17:07+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why cust…时，用它产出或更新：1. Identify and profile th…",
+  "skill_id": "11212-value-proposition-9dececd3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/value-proposition/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/value-proposition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b07cc0399582fc178be31b513b313d2420c7941dd568b52a0bf6cfb0ab6c4ec7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

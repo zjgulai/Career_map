@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-regulatory-change-monitoring",
+  "中文名称": "法规变更自动监控：受影响品类实时映射",
+  "一句话作用": "触发词：法规监控、受影响品类映射、准入核对、变更分级、合规窗口。何时不用：只看平台自家政策页变更时用「平台政策变更自适应监控」；要跨机构巡检公告并推送 P0/P1/P2 预警时用「法规变更自动监控」。安全边界：输出的是受影响品类与 SKU 及时间窗建议，不代替法务或检测机构结论；条文解读须人工复核后才可用于准入或下架决策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要法务专员面临法规更新跟不上——法规监控将响应时延从14天缩到1天，年化省13万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12399-p2s-regulatory-change-monitoring-e79664b9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-regulatory-change-monitoring/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-regulatory-change-monitoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2eadb4236ea38526f0f4d2397a5a88a1f9af4b29ed289f67f5ca1af6eb0aa0a4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

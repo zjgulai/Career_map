@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-fault-tolerance",
+  "中文名称": "容错回退机制",
+  "一句话作用": "触发词：容错回退、熔断器、指数退避、降级策略、半开测试。何时不用：调用的是幂等只读接口且失败可忽略时不必上熔断；本技能面向会阻塞关键决策的外部依赖。安全边界：阈值与退避策略是契约产物，本技能不执行真正的编排动作；降级使用缓存数据时必须标注数据新鲜度。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要WF-A 补货 Agent 调用库存 API 超时，若无容错机制则整个补货决策链中断——Circuit Breaker + 指数退避可将 API 抖动故障恢复时间从小时级压缩到秒级，保护运营 SLA时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02702-p2s-agent-fault-tolerance-3ec990da",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agent-fault-tolerance/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agent-fault-tolerance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ea63bd258f57a802b115e9556dc5a15319fc0c0c5b0b5c3c715d6b32a0575ad",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

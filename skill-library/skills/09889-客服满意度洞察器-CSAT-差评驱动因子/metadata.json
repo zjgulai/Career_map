@@ -1,0 +1,22 @@
+{
+  "英文名称": "客服满意度洞察器（CSAT/差评驱动因子）",
+  "中文名称": "待补：客服满意度洞察器（CSAT/差评驱动因子）",
+  "一句话作用": "在周报复盘或差评波动时，提取满意度驱动因子并输出改进优先级。",
+  "关键输入": "- 评分与评价文本 - 工单结案标签",
+  "关键输出": "表：问题主题 影响范围 负向权重 优先级 改进建议 Owner",
+  "最新更新时间": "2026-03-22T01:35:26+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在周报复盘或差评波动时，提取满意度驱动因子并输出改进优先级。时，用它产出或更新：表：问题主题 影响范围 负向权重 优先级 改进建议 Owner",
+  "skill_id": "09889-csat-826516e1",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/csat-insight-extractor/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/csat-insight-extractor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8261cf96e51cdcabcc3b57395c7c6b399c2dc0e3c54d2071e7015a970e05df5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "thesis-tracker",
+  "中文名称": "待补：thesis-tracker",
+  "一句话作用": "Use when building or updating Public Equity Investing thesis trackers. Do not use for generic news summaries, trade pitches, or first-pass memos.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Unless the user explicitly asks for a short summary or one section, produce a full decision-grade thesis update: 1. Thesis status and recommendation. 2. Company-thesis status versus security-thesis readiness, including missing inputs that limit the stock call…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when building or updating Public Equity Investing thesis trackers. Do not use for generic news summaries, trade pitches, or first-pass memos.时，用它产出或更新：Unless the user explicitly asks for a short summary or one section, produce a full decision-grade the…",
+  "skill_id": "01001-thesis-tracker-99821408",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/thesis-tracker/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/thesis-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "942b580a3395c6f6f320c5cad29ed57a4350ff16ef1131aca90cc387a77785d3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

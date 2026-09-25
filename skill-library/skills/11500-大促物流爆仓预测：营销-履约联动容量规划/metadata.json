@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-promotion-logistics-surge-forecast",
+  "中文名称": "大促物流爆仓预测：营销-履约联动容量规划",
+  "一句话作用": "触发词：物流爆仓、促销峰值、运力规划、履约容量、延误预警。何时不用：需要决定大促备多少货并追踪缺口时用大促盘货S&OP流程自动化；需要按优先级分配短缺供给时用供需缺口分析与优先级分配。安全边界：无。",
+  "关键输入": "广告平台数据：Amazon AMS / TikTok Ads 每日预算、CTR、CVR（过去 90 天） 历史促销数据：历届大促 GMV 倍数、折扣深度、持续天数 仓储数据：当前库存、日均运力、ERP 出库记录 大促前 T-14天：第一次全量预测，识别高风险 SKU 大促前 T-7天：第二次预测（结合实时投放数据更新），触发补仓决策",
+  "关键输出": "广告平台数据：Amazon AMS / TikTok Ads 每日预算、CTR、CVR（过去 90 天） 历史促销数据：历届大促 GMV 倍数、折扣深度、持续天数 仓储数据：当前库存、日均运力、ERP 出库记录 大促前 T-14天：第一次全量预测，识别高风险 SKU 大促前 T-7天：第二次预测（结合实时投放数据更新），触发补仓决策",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓配经理面临促销峰值压垮履约——峰值预测将爆仓率从17%降到4%，年化省26万元时，用它产出或更新：广告平台数据：Amazon AMS / TikTok Ads 每日预算、CTR、CVR（过去 90 天） 历史促销数据：历届大促 GMV 倍数、折扣深度、持续天数 仓储数据：当前库存、日均运力、ERP 出库记录 大促前 T-14天：第一次全量预测，识别高风险 SKU 大促前 T-7天：第二次预测（结合实时投放数据更新），触发补仓决策",
+  "skill_id": "11500-p2s-promotion-logistics-surge-forecast-8de319f9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-promotion-logistics-surge-forecast/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-promotion-logistics-surge-forecast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8f4b38a152ff9f5f16e9c8d949b03bd5948ed0f17b3f678df686efd3e5f6f2cf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

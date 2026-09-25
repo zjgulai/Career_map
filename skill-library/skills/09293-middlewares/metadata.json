@@ -1,0 +1,22 @@
+{
+  "英文名称": "middlewares",
+  "中文名称": "待补：middlewares",
+  "一句话作用": "Create and compose tRPC middleware with t.procedure.use(), extend context via opts.next({ ctx }), build reusable middleware with .concat() and .unstable pipe(), define base procedures like publicProcedure and authedProc…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-08T23:55:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Create and compose tRPC middleware with t.procedure.use(), extend context via opts.next({ ctx }), build reusable middleware with .concat() and .unstable pipe(), define base procedures like publicProcedure and authedProc…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09293-middlewares-778937d9",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/app/node_modules/@trpc/server/skills/middlewares/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/app/node_modules/@trpc/server/skills/middlewares/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da426a04f6b7fc3f05b18d149b75903456ee0415a0dd74542b4dd592945551c3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

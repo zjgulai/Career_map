@@ -1,0 +1,22 @@
+{
+  "英文名称": "canva-implement-feedback",
+  "中文名称": "待补：canva-implement-feedback",
+  "一句话作用": "Implement reviewer feedback on a Canva design. Reads all comment threads, synthesises what reviewers want, makes the clear-cut changes directly, and flags anything that needs a human decision. Use when the user asks to…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Implement reviewer feedback on a Canva design. Reads all comment threads, synthesises what reviewers want, makes the clear-cut changes directly, and flags anything that needs a human decision. Use when the user asks to…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00760-canva-implement-feedback-13ec8b39",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/canva/skills/canva-implement-feedback/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/canva/skills/canva-implement-feedback/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cb0d8a7434e7abd7a129ef74aa526ea7f5c0c7ea89db17e3a0ebf27d6108aa36",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

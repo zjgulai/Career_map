@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-unboxing-video-generator",
+  "中文名称": "产品开箱视频合成",
+  "一句话作用": "触发词：开箱视频、商品视频合成、卖点字幕、转场配乐、PDP 视频。何时不用：需要真人拆封实拍证据时不要用合成开箱；缺少产品图与包装图时无法生成。安全边界：禁止使用误导性拆封动画；字幕与文案不得出现医疗或功效宣称词；背景音乐须免版权或已授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"开箱视频制作需要专业拍摄团队\"——AI合成将开箱视频产出成本降低80%，月均多产出15条SKU级内容时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11781-p2s-product-unboxing-video-generator-2738501c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-product-unboxing-video-generator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-product-unboxing-video-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b5105a27b89f12e76e978edc43b1f88d711287cb62da8989831be9fea9da75bb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

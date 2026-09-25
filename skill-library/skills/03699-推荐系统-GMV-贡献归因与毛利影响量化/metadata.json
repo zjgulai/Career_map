@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-recommendation-finance",
+  "中文名称": "推荐系统 GMV 贡献归因与毛利影响量化",
+  "一句话作用": "触发词：推荐增量归因、Holdout 实验、利润感知排序、连带购买、推荐 ROI。何时不用：要评估搜索流量的利润贡献用「搜索流量财务归因」；要做促销增量评估用「促销 ROI 前后对比」。安全边界：Holdout 实验周期建议不超过 30 天并监控对照组留存，避免体验降级；须遵守平台公平体验政策与个人数据法规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要推荐系统优化 CTR 但净利润下滑——GFlowGR utility 信号将利润感知排序净利润提升 21%（Taobao 生产验证），打通推荐系统→财务最后一公里时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03699-p2s-recommendation-finance-2619e6a2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-recommendation-finance/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-recommendation-finance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "912b6a73b49e51de7cdb5f71bd801d8b94c1864ccd18fee03aaa2a41e0dbeaff",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

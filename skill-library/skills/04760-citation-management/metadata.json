@@ -1,0 +1,22 @@
+{
+  "英文名称": "citation-management",
+  "中文名称": "待补：citation-management",
+  "一句话作用": "Comprehensive citation management for academic research. Search Google Scholar and PubMed for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be u…",
+  "关键输入": "Use this skill when: - Searching for specific papers on Google Scholar or PubMed - Converting DOIs, PMIDs, or arXiv IDs to properly formatted BibTeX - Extracting complete metadata for citations (authors, title, journal,…",
+  "关键输出": "python scripts/doi to bibtex.py 10.1038/nature12345 --format json",
+  "最新更新时间": "2026-09-19T03:47:46+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Searching for specific papers on Google Scholar or PubMed - Converting DOIs, PMIDs, or arXiv IDs to properly formatted BibTeX - Extracting complete metadata for citations (authors, title, journal,…时，用它产出或更新：python scripts/doi to bibt…",
+  "skill_id": "04760-citation-management-35063799",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/citation-management/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/citation-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e748c98675bcabb7a14b0b5175733d54d5cdacb391902704da859870505d7276",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

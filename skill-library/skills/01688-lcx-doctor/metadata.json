@@ -1,0 +1,22 @@
+{
+  "英文名称": "lcx-doctor",
+  "中文名称": "待补：lcx-doctor",
+  "一句话作用": "Diagnose LazyCodex and Codex CLI installation health against the latest sources. Use whenever the user asks for a doctor or health check, says LazyCodex, lazycodex-ai, omo-codex, or Codex behaves oddly after an install,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Diagnose LazyCodex and Codex CLI installation health against the latest sources. Use whenever the user asks for a doctor or health check, says LazyCodex, lazycodex-ai, omo-codex, or Codex behaves oddly after an install,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01688-lcx-doctor-30261b4f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/packages/omo-codex/plugin/skills/lcx-doctor/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/packages/omo-codex/plugin/skills/lcx-doctor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b6d4ff314b5eca9570b38b76e7c0961d493e7a256da01eaaf176623fce5ced0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

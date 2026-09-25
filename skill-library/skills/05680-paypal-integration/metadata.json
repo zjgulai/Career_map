@@ -1,0 +1,22 @@
+{
+  "英文名称": "paypal-integration",
+  "中文名称": "待补：paypal-integration",
+  "一句话作用": "Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal payments, processing online transactions, or building e-commerce checkout flows.",
+  "关键输入": "- Integrating PayPal as a payment option - Implementing express checkout flows - Setting up recurring billing with PayPal - Processing refunds and payment disputes - Handling PayPal webhooks (IPN) - Supporting internati…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- Integrating PayPal as a payment option - Implementing express checkout flows - Setting up recurring billing with PayPal - Processing refunds and payment disputes - Handling PayPal webhooks (IPN) - Supporting internati…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05680-paypal-integration-48b74972",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/payment-processing/skills/paypal-integration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/payment-processing/skills/paypal-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88802f7ef05d07ff15f8e8e0d2a37714599dc7629aac1d21e4ecba06cdbd6ce0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

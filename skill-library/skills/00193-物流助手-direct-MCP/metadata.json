@@ -1,0 +1,22 @@
+{
+  "英文名称": "物流助手",
+  "中文名称": "物流助手（direct MCP）",
+  "一句话作用": "国际站物流助手，处理承运咨询、线路查价、运费试算、下单发货、物流轨迹、HS 编码和关税税费等跨境物流任务。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要国际站物流助手，处理承运咨询、线路查价、运费试算、下单发货、物流轨迹、HS 编码和关税税费等跨境物流任务。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00193-skill-40eab8f6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-logistics-assistant/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-logistics-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a2090c4f50aed88f55f7e4f2472c138c181ddf45b74aa63d820d16496c275a7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

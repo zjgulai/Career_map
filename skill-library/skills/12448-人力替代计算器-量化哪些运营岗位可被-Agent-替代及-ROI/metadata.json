@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-workforce-replacement-calculator",
+  "中文名称": "人力替代计算器 量化哪些运营岗位可被 Agent 替代及 ROI",
+  "一句话作用": "触发词：人力替代、岗位 ROI、任务可替代度、AI 化优先级、团队配置。何时不用：只梳理岗位能力要求用岗位能力分析类技能；只做成本与利润测算用经济性分析类技能。安全边界：测算结论只能用于资源配置参考，不得直接作为裁员或调岗决策依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CEO面临\"不知道哪些运营岗位值得AI化哪些不值得投资决策靠直觉\"——结构化程度×重复度ROI热力图将Agent化优先级决策从直觉升级为数据驱动，帮助识别年化节省$10.8万-$16.2万的优化点时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12448-p2s-agent-workforce-replacement-calculator-1fbcd4e1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-agent-workforce-replacement-calculator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-agent-workforce-replacement-calculator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de64209189b05e9454846101d7afa5d8cd6fed36b42c0311c7c5fb5fa0a0f29d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

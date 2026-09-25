@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dataagent-marketing-attribution",
+  "中文名称": "营销归因分析 驱动的多渠道营销效果自动归因",
+  "一句话作用": "触发词：营销归因、多渠道归因报告、对话式追问、预算优化、广告效果分析。何时不用：因果结构未知、需要先做结构发现时用「PC算法因果发现」；只评估单条短视频的内容 ROI 时用「Video ROI Attribution」。安全边界：使用 Amazon Attribution 时须遵守其数据共享限制，不得把 Amazon 广告数据与外部渠道合并归因；用户级转化路径数据受 GDPR 约束，须最小化使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CMO面临\"多渠道营销归因报告需等2天且无法即兴追问\"——对话式营销归因Agent 10分钟生成报告支持即兴追问，年化营销预算优化效益约100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12466-p2s-dataagent-marketing-attribution-2e6e55c6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-dataagent-marketing-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-dataagent-marketing-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d07780302b19afe15f6b7e248f76ca20dbcbb4a17e2f982aa217b1e0084169bc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

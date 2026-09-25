@@ -1,0 +1,22 @@
+{
+  "英文名称": "Git Conflicts",
+  "中文名称": "待补：Git Conflicts",
+  "一句话作用": "Guided conflict resolution for merge and rebase conflicts",
+  "关键输入": "- File paths (--file): reject .. traversal, null bytes, and shell metacharacters. Must be a path within the repository working tree.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:12:20+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Guided conflict resolution for merge and rebase conflicts时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04887-git-conflicts-31f16e06",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Git-Conflicts/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Git-Conflicts/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7bd4971d01df3376310563ad9bcf82b373d101b03adc9c14e1c40079cee9207d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

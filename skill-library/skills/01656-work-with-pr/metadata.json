@@ -1,0 +1,22 @@
+{
+  "英文名称": "work-with-pr",
+  "中文名称": "待补：work-with-pr",
+  "一句话作用": "Full PR lifecycle in an isolated git worktree: implement via the ulw-loop skill with mandatory evidence-bound manual QA → detailed English PR → verification loop (CI + review-work reviewers + Cubic, where Cubic is skipp…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Before pushing, run the same checks CI will run — a cheap pre-filter that saves a ~3-5 min CI round-trip, NOT a substitute for the manual QA above: Fix any failure before pushing; each fix is its own atomic commit. ---",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Full PR lifecycle in an isolated git worktree: implement via the ulw-loop skill with mandatory evidence-bound manual QA → detailed English PR → verification loop (CI + review-work reviewers + Cubic, where Cubic is skipp…时，用它产出或更新：Before pushing, run the sa…",
+  "skill_id": "01656-work-with-pr-080c4c12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/.opencode/skills/work-with-pr/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/.opencode/skills/work-with-pr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eb1d8efa72b5cc2ea7d9be23a56b40335f82362fba1ac132d638077aeff52f8c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

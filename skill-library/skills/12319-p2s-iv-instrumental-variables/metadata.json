@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-iv-instrumental-variables",
+  "中文名称": "待补：p2s-iv-instrumental-variables",
+  "一句话作用": "触发词：工具变量、内生性、两阶段最小二乘、弱工具检验、排他性约束、真实弹性。何时不用：不想找工具变量、只想快速估弹性用「需求价格弹性估算」；高维混淆场景用「双重去偏机器学习价格弹性」。安全边界：工具变量须能用业务逻辑论证排他性，竞品价格与汇率数据须来自合规来源，估计结果仅供内部分析。",
+  "关键输入": "输入 ：内生解释变量（本品价格）、结果变量（销量）、工具变量矩阵（如竞品价格、汇率波动、原材料成本冲击）与可选控制变量；粒度为价格-销量观测样本。 输出 ：两阶段最小二乘的弹性估计值、第一阶段 F 统计量与 R²，以及修正后的系数结果；供定价分析师判断弹性是否被低估。",
+  "关键输出": "输入 ：内生解释变量（本品价格）、结果变量（销量）、工具变量矩阵（如竞品价格、汇率波动、原材料成本冲击）与可选控制变量；粒度为价格-销量观测样本。 输出 ：两阶段最小二乘的弹性估计值、第一阶段 F 统计量与 R²，以及修正后的系数结果；供定价分析师判断弹性是否被低估。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：工具变量、内生性、两阶段最小二乘、弱工具检验、排他性约束、真实弹性。何时不用：不想找工具变量、只想快速估弹性用「需求价格弹性估算」；高维混淆场景用「双重去偏机器学习价格弹性」。安全边界：工具变量须能用业务逻辑论证排他性，竞品价格与汇率数据须来自合规来源，估计结果仅供内部分析。时，用它产出或更新：输入 ：内生解释变量（本品价格）、结果变量（销量）、工具变量矩阵（如竞品价格、汇率波动、原材料成本冲击）与可选控制变量；粒度为价格-销量观测样本。 输出 ：两阶段最小二乘的弹性估计值、第一阶段 F 统计量与…",
+  "skill_id": "12319-p2s-iv-instrumental-variables-6e97c556",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-iv-instrumental-variables/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-iv-instrumental-variables/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "31a106184121588220d667ee48cfbbc45979d42d470e1d49d1fc8c8be6f435d0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

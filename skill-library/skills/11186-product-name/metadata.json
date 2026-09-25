@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-name",
+  "中文名称": "待补：product-name",
+  "一句话作用": "Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.",
+  "关键输入": "- Naming a new product or feature - Rebranding or renaming existing products - Exploring name options before launch - Testing names against brand guidelines - Triggers: product name, name ideas, brand name, naming, what…",
+  "关键输出": "- Share your brand guidelines and tone of voice - Specify target audience and their preferences - Mention competitor names and what you want to differentiate from - Include any naming conventions or patterns used by your company - Share the product's core val…",
+  "最新更新时间": "2026-09-16T00:17:00+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要- Naming a new product or feature - Rebranding or renaming existing products - Exploring name options before launch - Testing names against brand guidelines - Triggers: product name, name ideas, brand name, naming, what…时，用它产出或更新：- Share your brand guideli…",
+  "skill_id": "11186-product-name-864893cd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-marketing-growth/skills/product-name/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-marketing-growth/skills/product-name/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16d715bbe6ab07b024a63a1a38f3616a3d9602bf4ca9425e1bb33496becce0b3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

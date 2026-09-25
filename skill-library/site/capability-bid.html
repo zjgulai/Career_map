@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>三宝 Skill 能力竞聘展厅</title>
+  <meta name="description" content="面向三宝蓝图的 Skill 候选能力竞聘展陈与复核工作台" />
+  <link rel="stylesheet" href="./capability-bid.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">SANBAO CAPABILITY BID HALL</p>
+        <h1>Skill 能力竞聘展厅</h1>
+        <p class="lead">单个 HTML 文档里的多页工作台。业务先看问题、输入、输出、验收和边界；证据、来源和合并拆分放到单独页面里看。</p>
+        <div class="hero-actions">
+          <a href="../outputs/2026-09-23-skill-cluster/skill_business_cluster_matrix.xlsx">聚类与能力包 Excel</a>
+          <a href="../outputs/2026-09-23-b01-bid-shortlist/b01_opportunity_insight_bid_shortlist.xlsx">B01 初筛 Excel</a>
+          <a href="../outputs/2026-09-23-b01-trial-01/b01_trial_01_controlled_fixture.xlsx">B01 试跑 Excel</a>
+          <a href="../outputs/2026-09-23-b01-trial-02/b01_trial_02_candidate_retest.xlsx">B01 复测 Excel</a>
+          <a href="../outputs/2026-09-23-b01-blind-pack/b01_blind_test_execution_pack.xlsx">B01 盲测执行 Excel</a>
+          <a href="../capability_bid_matrix.xlsx">原竞聘明细 Excel</a>
+          <a href="../current_codex_bid_screening.xlsx">当前 Codex 初筛 Excel</a>
+          <a href="../current_codex_cb01_product_business_analysis_trial.xlsx">CB01 试跑准备 Excel</a>
+          <a href="../sanbao_review_matrix.xlsx">保守复核底表</a>
+          <a href="./index.html">原始 Skill 清单</a>
+        </div>
+      </div>
+      <div class="blueprint-map" aria-label="三宝蓝图逻辑">
+        <span>价值创造</span>
+        <span>经营治理</span>
+        <span>能力供给</span>
+        <b>能力竞聘</b>
+      </div>
+    </header>
+
+    <nav class="tabs" aria-label="页面">
+      <button class="tab" data-page="overview">总览</button>
+      <button class="tab" data-page="runtime">当前 Codex</button>
+      <button class="tab" data-page="runtime-screening">Codex 初筛</button>
+      <button class="tab" data-page="cb01">CB01 试跑准备</button>
+      <button class="tab" data-page="blueprint">蓝图赛道</button>
+      <button class="tab" data-page="problems">问题类型</button>
+      <button class="tab" data-page="packages">能力包</button>
+      <button class="tab" data-page="b01">B01 初筛</button>
+      <button class="tab" data-page="trial">B01 试跑</button>
+      <button class="tab" data-page="trial2">B01 复测</button>
+      <button class="tab" data-page="blind">B01 盲测</button>
+      <button class="tab" data-page="cards">竞聘卡片</button>
+      <button class="tab" data-page="evidence">复核证据</button>
+      <button class="tab" data-page="merge">合并拆分</button>
+      <button class="tab" data-page="guide">字段说明</button>
+    </nav>
+
+    <section class="toolbar" aria-label="全局筛选">
+      <label><span>搜索</span><input id="q" aria-label="搜索" type="search" placeholder="搜索 skill、业务问题、责任节点、输出..." autocomplete="off" /></label>
+      <label><span>蓝图大区</span><select id="zone" aria-label="蓝图大区"><option value="">全部大区</option></select></label>
+      <label><span>赛道</span><select id="lane" aria-label="赛道"><option value="">全部赛道</option></select></label>
+      <label><span>问题类型</span><select id="problem" aria-label="问题类型"><option value="">全部问题类型</option></select></label>
+      <label><span>能力包</span><select id="package" aria-label="能力包"><option value="">全部能力包</option></select></label>
+      <label><span>准备度</span><select id="readiness" aria-label="准备度"><option value="">全部准备度</option></select></label>
+      <label><span>当前 Codex</span><select id="runtime" aria-label="当前 Codex"><option value="">全部状态</option></select></label>
+      <label><span>责任</span><select id="responsibility" aria-label="责任"><option value="">全部责任</option></select></label>
+      <label><span>合并复核</span><select id="merge" aria-label="合并复核"><option value="">全部状态</option></select></label>
+    </section>
+
+    <section id="stats" class="stats-grid" aria-label="当前筛选统计"></section>
+
+    <section id="page-overview" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">OVERVIEW</p>
+          <h2>展厅总览</h2>
+          <p>这页只看全局判断：哪些能进初筛，哪些要补证，哪些必须先留在闸口。</p>
+        </div>
+      </div>
+      <div id="overviewInsights" class="insight-grid"></div>
+      <div class="panel" style="margin-top:12px;padding:14px">
+        <h3>蓝图大区分布</h3>
+        <div id="zoneMini" class="stats-grid"></div>
+      </div>
+      <div class="panel" style="margin-top:12px;padding:14px">
+        <h3>赛道 Top 分布</h3>
+        <div id="laneMini" class="stats-grid"></div>
+      </div>
+      <div class="panel" style="margin-top:12px;padding:14px">
+        <h3>能力包 Top 分布</h3>
+        <div id="packageMini" class="stats-grid"></div>
+      </div>
+    </section>
+
+    <section id="page-runtime" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">CURRENT CODEX RUNTIME</p>
+          <h2>当前 Codex Skill</h2>
+          <p>这页回答“现在能不能用”。它和能力竞聘分开：能调用只表示工具入口存在，不表示已通过业务场景、验收或责任复核。</p>
+        </div>
+        <a class="page-button" href="../codex_runtime_inventory.xlsx">打开当前 Codex Excel</a>
+      </div>
+      <div id="runtimeOverview" class="runtime-overview"></div>
+      <div id="runtimeLayers" class="runtime-layer-grid"></div>
+      <div id="runtimeTable"></div>
+    </section>
+
+    <section id="page-runtime-screening" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">CURRENT CODEX SCREENING</p>
+          <h2>当前 Codex：第一轮业务初筛</h2>
+          <p>这 43 项都已确认是当前可用入口，但只有一部分适合进入受控业务题。初筛只决定下一道门槛，不替代原有的“暂停竞聘”质量闸口。</p>
+        </div>
+        <a class="page-button" href="../current_codex_bid_screening.xlsx">打开初筛 Excel</a>
+      </div>
+      <div id="runtimeScreeningOverview" class="runtime-overview"></div>
+      <div id="runtimeScreeningRoutes" class="screening-route-grid"></div>
+      <div id="runtimeScreeningTable"></div>
+    </section>
+
+    <section id="page-cb01" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">CURRENT CODEX CONTROLLED TRIAL</p>
+          <h2>CB01：产品与经营选项分析</h2>
+          <p>把当前 Codex 的一个候选放到 B01-C01 商业论证站位做平行受控试跑。任务包已准备，但没有候选提交、评分或通过结论。</p>
+        </div>
+        <a class="page-button" href="../current_codex_cb01_product_business_analysis_trial.xlsx">打开试跑 Excel</a>
+      </div>
+      <div id="cb01Overview" class="b01-overview"></div>
+      <div id="cb01Decision" class="blind-decision"></div>
+      <div id="cb01Task" class="b01-cards"></div>
+      <div class="trial-section">
+        <div class="section-head"><div><p class="eyebrow">INDEPENDENT REVIEW RUBRIC</p><h3>独立复核只评交付结构</h3></div></div>
+        <div id="cb01Rubric" class="lane-grid"></div>
+      </div>
+      <div class="trial-section">
+        <div class="section-head"><div><p class="eyebrow">HARD GATES</p><h3>缺一项就不能启动</h3></div></div>
+        <div id="cb01Gates" class="trial-next-grid"></div>
+      </div>
+      <div id="cb01Boundary" class="trial-boundary"></div>
+    </section>
+
+    <section id="page-blueprint" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">BLUEPRINT LANES</p>
+          <h2>蓝图赛道</h2>
+          <p>按三宝的价值创造、经营治理、能力供给来组织候选，不按旧产品名、文件夹名或插件名摆放。</p>
+        </div>
+      </div>
+      <div id="blueprintGrid" class="lane-grid"></div>
+    </section>
+
+    <section id="page-problems" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">BUSINESS PROBLEMS</p>
+          <h2>问题类型</h2>
+          <p>每个 Skill 只进入一个主问题类型，保证统计不重复；蓝图赛道保留为第二个观察维度。</p>
+        </div>
+      </div>
+      <div id="problemGrid" class="lane-grid"></div>
+    </section>
+
+    <section id="page-packages" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">CAPABILITY PACKAGES</p>
+          <h2>能力包候选</h2>
+          <p>能力包把可共同评审的问题类型放在一个业务结果下。它是竞聘组合候选，不是岗位、Preset、数字员工或业务授权。</p>
+        </div>
+      </div>
+      <div id="packageGrid" class="lane-grid"></div>
+    </section>
+
+    <section id="page-cards" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">BID CARDS</p>
+          <h2>竞聘卡片</h2>
+          <p>一张卡就是一个候选。每页只展示 36 张，避免页面过长。</p>
+        </div>
+        <div id="cardCount" class="count"></div>
+      </div>
+      <div id="cards" class="cards"></div>
+      <div id="cardPager"></div>
+    </section>
+
+    <section id="page-b01" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">B01 FIRST-RUN SHORTLIST</p>
+          <h2>机会洞察与商业论证：首轮初筛</h2>
+          <p>五个候选按最小交付位置排列。先在受控样本里比交付质量，再讨论谁能承接；本页不产生真实新品结论或业务授权。</p>
+        </div>
+      </div>
+      <div id="b01Overview" class="b01-overview"></div>
+      <div id="b01Flow" class="b01-flow" aria-label="B01 首轮试跑路径"></div>
+      <div id="b01Cards" class="b01-cards"></div>
+    </section>
+
+    <section id="page-trial" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">B01 CONTROLLED TRIAL</p>
+          <h2>D01 / D02 同题受控试跑</h2>
+          <p>先分开看“记录能否回溯”与“语义是否可靠”。本页用合成样本检验候选实现，不能读成真实消费者洞察或新品结论。</p>
+        </div>
+      </div>
+      <div id="trialOverview" class="b01-overview"></div>
+      <div id="trialSkills" class="trial-skill-grid"></div>
+      <div class="trial-section">
+        <div class="section-head"><div><p class="eyebrow">SAME QUESTION, TWO SOURCES</p><h3>同题对照，不强行合并</h3></div></div>
+        <div id="trialCrossSource" class="trial-cross-grid"></div>
+      </div>
+      <div class="trial-section">
+        <div class="section-head"><div><p class="eyebrow">NEXT GATE</p><h3>进入真实样本前必须完成</h3></div></div>
+        <div id="trialNextSteps" class="trial-next-grid"></div>
+      </div>
+      <div id="trialBoundary" class="trial-boundary"></div>
+    </section>
+
+    <section id="page-trial2" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">B01 CANDIDATE RETEST</p>
+          <h2>D01 / D02 候选适配器复测</h2>
+          <p>先保留原始失败基线，再展示候选修复在更大合成集上的结果。通过只代表可进入独立盲测，不代表真实消费者洞察、更不代表业务决定。</p>
+        </div>
+      </div>
+      <div id="trial2Overview" class="b01-overview"></div>
+      <div id="trial2Decision" class="trial2-decision"></div>
+      <div id="trial2Skills" class="trial2-skill-grid"></div>
+      <div class="trial-section">
+        <div class="section-head"><div><p class="eyebrow">SAME QUESTION, TWO SOURCES</p><h3>同题对照，仍然不强行合并</h3></div></div>
+        <div id="trial2CrossSource" class="trial-cross-grid"></div>
+      </div>
+      <div class="trial-section">
+        <div class="section-head"><div><p class="eyebrow">NEXT HARD GATE</p><h3>独立盲测与真实样本准入</h3></div></div>
+        <div id="trial2NextSteps" class="trial-next-grid"></div>
+      </div>
+      <div id="trial2Boundary" class="trial-boundary"></div>
+    </section>
+
+    <section id="page-blind" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">B01 INDEPENDENT BLIND TEST</p>
+          <h2>D01 / D02 独立盲测准备</h2>
+          <p>这里展示下一道硬门槛的真实进度：输入已备妥，金标与执行仍须由独立角色完成。页面不展示金标，也不制造尚未发生的盲测结果。</p>
+        </div>
+      </div>
+      <div id="blindOverview" class="b01-overview"></div>
+      <div id="blindDecision" class="blind-decision"></div>
+      <div class="trial-section">
+        <div class="section-head"><div><p class="eyebrow">MECE COVERAGE</p><h3>样本覆盖，不只挑容易命中的题</h3></div></div>
+        <div id="blindCoverage" class="blind-coverage-grid"></div>
+      </div>
+      <div class="trial-section">
+        <div class="section-head"><div><p class="eyebrow">ROLE SEPARATION</p><h3>谁可以做什么，谁不能替谁确认</h3></div></div>
+        <div id="blindRoles" class="blind-role-grid"></div>
+      </div>
+      <div class="trial-section">
+        <div class="section-head"><div><p class="eyebrow">HARD GATES</p><h3>缺一项就停在当前门槛</h3></div></div>
+        <div id="blindGates" class="blind-gate-grid"></div>
+      </div>
+      <div id="blindBoundary" class="trial-boundary"></div>
+    </section>
+
+    <section id="page-evidence" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">EVIDENCE</p>
+          <h2>复核证据</h2>
+          <p>这里放来源、置信度、复核原因和更新时间。它们是证据线索，不是能力结论。</p>
+        </div>
+      </div>
+      <div id="evidenceTable"></div>
+    </section>
+
+    <section id="page-merge" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">MERGE / SPLIT</p>
+          <h2>合并拆分工作台</h2>
+          <p>同名不自动合并，异名不自动拆分。这里先给出可合并、需拆分、保留变体、待核验的工作建议。</p>
+        </div>
+      </div>
+      <div id="mergeTable"></div>
+    </section>
+
+    <section id="page-guide" class="page">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">FIELD GUIDE</p>
+          <h2>字段说明</h2>
+          <p>给业务、产品和治理团队的共同读法，避免把机器线索误读成正式能力结论。</p>
+        </div>
+      </div>
+      <div id="guideGrid" class="guide-grid"></div>
+    </section>
+  </main>
+  <script src="./capability-bid-data.js"></script>
+  <script src="./skill-cluster-data.js"></script>
+  <script src="./b01-bid-shortlist-data.js"></script>
+  <script src="./b01-trial-data.js"></script>
+  <script src="./b01-trial-02-data.js"></script>
+  <script src="./b01-blind-data.js"></script>
+  <script src="./codex-runtime-data.js"></script>
+  <script src="./current-codex-screening-data.js"></script>
+  <script src="./current-codex-cb01-data.js"></script>
+  <script src="./capability-bid.js"></script>
+</body>
+</html>

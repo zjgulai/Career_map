@@ -1,0 +1,22 @@
+{
+  "英文名称": "brand-media-intelligence",
+  "中文名称": "待补：brand-media-intelligence",
+  "一句话作用": "母婴品牌媒体资产全量分析工作流。对品牌图片和视频进行内容提取、 色彩DNA分析、运镜推断、Whisper本地音频转录、AIGC逆向Prompt生成， 最终产出品牌级视觉DNA和竞品竞争矩阵。Use when the user asks to: (1) analyze brand media assets (images/videos), (2) extract visual DNA from product photos or mar…",
+  "关键输入": "- Python 3.14+ with: Pillow, numpy, opencv-python, requests - ffmpeg + ffprobe (for video analysis) - openai-whisper (for local transcription) Install:",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-24T14:14:11+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要母婴品牌媒体资产全量分析工作流。对品牌图片和视频进行内容提取、 色彩DNA分析、运镜推断、Whisper本地音频转录、AIGC逆向Prompt生成， 最终产出品牌级视觉DNA和竞品竞争矩阵。Use when the user asks to: (1) analyze brand media assets (images/videos), (2) extract visual DNA from product photos or mar…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10146-brand-media-intelligence-774d4312",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/Brand_agent/.agents/skills/brand-media-intelligence/SKILL.md",
+  "relative_path": "lute/project/Agent/Brand_agent/.agents/skills/brand-media-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ae42a4a1fef60e36d535db3e582deb76ce2f5640255ac73399eb4195778aedc4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

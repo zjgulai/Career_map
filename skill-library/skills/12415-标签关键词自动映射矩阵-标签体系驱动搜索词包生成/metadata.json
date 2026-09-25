@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-tag-keyword-auto-mapping",
+  "中文名称": "标签关键词自动映射矩阵 标签体系驱动搜索词包生成",
+  "一句话作用": "触发词：标签到关键词、本体映射、词包生成、批量词刷新、ACOS 降低。何时不用：要从评论语料挖买家真实用词时用「评论关键词挖掘 SEO」；要用 LLM 从种子词自由扩长尾时用「LLM 搜索词语义扩展」。安全边界：只生成词包，不代改 Listing；批量刷新仍需合规审核避免堆砌。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要SEO专员面临\"SKU标签体系和关键词研究完全脱节每次更新标签都要手动重做关键词\"——标签→关键词本体映射自动输出优先级关键词包，每SKU关键词研究时间从3天压缩至20分钟，年化效率提升$3.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12415-p2s-search-tag-keyword-auto-mapping-3bf20c0f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-tag-keyword-auto-mapping/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-tag-keyword-auto-mapping/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8beffd47d4f9dd9c1ecd593ee57f586ee716a150b66124b6b8de7986f59ca11",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

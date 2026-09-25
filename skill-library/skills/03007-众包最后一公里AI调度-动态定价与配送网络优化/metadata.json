@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-crowdsourced-last-mile-ai-dispatch",
+  "中文名称": "众包最后一公里AI调度 动态定价与配送网络优化",
+  "一句话作用": "触发词：众包调度、骑手派单、动态定价、订单骑手匹配、大促爆单配送。何时不用：要追踪单票履约进度用「履约跟踪」，要比较承运商报价与运力用「采购比价」；本技能只做订单与骑手的实时匹配和悬赏定价。安全边界：动态定价须满足当地反垄断与骑手劳动法要求（价格透明、无歧视性定价、骑手可自主拒单），算法上线前须法务复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营团队面临东南亚大促配送成本激增——众包AI调度将配送成本降低28%、时效提升1.2天，年化节省配送成本47万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03007-p2s-crowdsourced-last-mile-ai-dispatch-36d1bfa8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-crowdsourced-last-mile-ai-dispatch/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-crowdsourced-last-mile-ai-dispatch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "085b7632b91043734b10891e2b9463bb9aab07b1c8a7c0f7c143319010ca50a9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

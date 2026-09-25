@@ -1,0 +1,22 @@
+{
+  "英文名称": "全平台商品标题生成",
+  "中文名称": "全平台商品标题生成",
+  "一句话作用": "根据商家提供的商品素材（图片、关键词、属性、卖点等），生成符合目标平台规则的商品标题。 支持多平台规则路由（国际站、淘天、1688、Amazon、AE、LAZADA、京东、Shopee、TikTok、Shein、Shopify）， 具备图片优先的素材校验、用户诉求优先、多条差异化生成能力。 触发场景： - 用户要求生成/写/起商品标题（如\"帮我写个国际站标题\"、\"生成发品标题\"） - 用户提供商品素材要求生成标题（如\"根据这张图片帮我…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "输出标题方案前，用 1-2 句话简要说明生成背景（识别到什么商品、走的哪个平台规则），语气自然，不要套模板。若质量检查有修正则顺带提一句，全部通过则不必刻意说明。",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要根据商家提供的商品素材（图片、关键词、属性、卖点等），生成符合目标平台规则的商品标题。 支持多平台规则路由（国际站、淘天、1688、Amazon、AE、LAZADA、京东、Shopee、TikTok、Shein、Shopify）， 具备图片优先的素材校验、用户诉求优先、多条差异化生成能力。 触发场景： - 用户要求生成/写/起商品标题（如\"帮我写个国际站标题\"、\"生成发品标题\"） - 用户提供商品素材要求生成标题（如\"根据这张图片帮我…时，用它产出或更新：输出标题方案前，用 1-2 句话简要说明生成背景（识…",
+  "skill_id": "00200-skill-fa7decfb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-title-generation/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-title-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5876d74729168d2d8ac5360a9fdf63dd528e0025fa56461ecdeb26dd72d4bf63",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

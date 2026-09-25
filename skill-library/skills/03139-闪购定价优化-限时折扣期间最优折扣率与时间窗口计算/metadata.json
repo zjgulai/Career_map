@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-flash-sale-price-optimization",
+  "中文名称": "闪购定价优化 限时折扣期间最优折扣率与时间窗口计算",
+  "一句话作用": "触发词：闪购定价、折扣率测算、售罄时间、限时活动、清仓窗口、秒杀策划。何时不用：多周清仓折扣路径用「折扣清仓定价优化」；按库存紧张度定价用「EMSR-b 边际库存定价」。安全边界：折扣率须满足平台要求（如 Amazon 要求不低于 15%）并相对近期售价计算，不得虚构原价或虚假限时。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"闪购折扣率靠拍脑袋导致GMV未最优化\"——数据驱动的最优折扣率比主观设定高出15-25% GMV，年化增收20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03139-p2s-flash-sale-price-optimization-a1fdad3a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-flash-sale-price-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-flash-sale-price-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "55c924f49c776f9aedc3c5ead96c3967b6c3bfd447b4e54c0d8c9630bc510f4b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

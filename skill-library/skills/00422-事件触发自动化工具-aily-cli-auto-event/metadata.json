@@ -1,0 +1,22 @@
+{
+  "英文名称": "aily-cli-event",
+  "中文名称": "事件触发自动化工具 (aily-cli auto event)",
+  "一句话作用": "飞书事件触发的自动化：收到 IM 消息 / 被 @ / 日程变更 / 会议结束 / 妙记生成 / 会议纪要生成 / 云文档变更 / 收到云文档评论 / 云文档评论中被所有者 @提及 / 收到新邮件 时自动执行指令。「当…就…」「有人 @ 我时」「群里提到 X 时」「会议结束/纪要生成后」「日程变更时」走这里；一条 auto create --trigger-type event 完成事件订阅 + 规则。也用于 查看 / 修改 / 启停…",
+  "关键输入": "只有 2 个事件接受过滤参数 （其余事件传 --condition-group / --target-file 会被 CLI 直接 reject，范围过滤只能写进 --instruction）： 事件 参数 可用条件（摘要） 详情必读 --- --- --- --- inner im event --condition-group（DSL， 必填 ） 8 原子：mention-me / direct-message / user-ids / user-open-ids / group-ids / group-op…",
+  "关键输出": "aily-cli auto create --trigger-type event \\ --event-type drive.file.edit v1 \\ --target-file doxcnXXXXXXXX:docx \\ --name \"文档编辑提醒\" \\ --instruction \"...\"",
+  "最新更新时间": "2026-07-24T12:29:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要飞书事件触发的自动化：收到 IM 消息 / 被 @ / 日程变更 / 会议结束 / 妙记生成 / 会议纪要生成 / 云文档变更 / 收到云文档评论 / 云文档评论中被所有者 @提及 / 收到新邮件 时自动执行指令。「当…就…」「有人 @ 我时」「群里提到 X 时」「会议结束/纪要生成后」「日程变更时」走这里；一条 auto create --trigger-type event 完成事件订阅 + 规则。也用于 查看 / 修改 / 启停…时，用它产出或更新：aily-cli auto create --tri…",
+  "skill_id": "00422-aily-cli-event-4bf28eed",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-event/SKILL.md",
+  "relative_path": "lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-event/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "25a96a3cc74a790b3a728ecac3f105c0640c5741800ede2572d43b5c362429ea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

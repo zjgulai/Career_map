@@ -1,0 +1,22 @@
+{
+  "英文名称": "mckinsey-donut-chart",
+  "中文名称": "麦肯锡环形图制作 Skill",
+  "一句话作用": "Use when users need donut or pie-style composition visuals to communicate share, mix, or structure in a concise executive format.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-13T13:30:02+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use when users need donut or pie-style composition visuals to communicate share, mix, or structure in a concise executive format.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09459-mckinsey-donut-chart-44f2eff2",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/mckinsey_ppt/skills/05-chart-creation/mckinsey-donut-chart/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/mckinsey_ppt/skills/05-chart-creation/mckinsey-donut-chart/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b165e580fb6edb8d9b3d0ab2824c2086c5cfb239a51f91e79702f149fc48a15b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

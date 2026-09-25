@@ -1,0 +1,22 @@
+{
+  "英文名称": "linkfox-junglescout-product-database",
+  "中文名称": "产品基本信息查询",
+  "一句话作用": "Jungle Scout产品数据库多条件筛选，支持按品类、价格、销量、收入、评论、评分、重量、BSR排名、LQS、卖家类型等维度筛选亚马逊商品，覆盖10个站点。当用户提到亚马逊选品、产品数据库筛选、BSR排名筛选、品类选品、高评分低竞争选品、FBA选品、亚马逊商品搜索、产品筛选、Amazon product database, product research, product filtering, BSR rank filter,…",
+  "关键输入": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- sort string 否 最长 1000；示例：name, -name, category, -category, revenue, -revenue, sales, -sales 排序字段。可选值: name, -name, category, -category, revenue, -revenue, sales, -sales, price, -price, rank, -rank, reviews, -reviews, l…",
+  "关键输出": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- costToken integer 否 消耗token productDatabaseList array 否 产品库查询结果列表",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当用户意图与“产品基本信息查询”匹配，或需要以下能力时使用本工具：产品基本信息查询：POST product database query，支持多条件筛选与内部自动分页 调用前应先确认所有必填参数。涉及站点、国家、日期、语言、ASIN、SKU、图片或 URL 时，应使用用户提供的信息，不要擅自虚构真实业务标识。时，用它产出或更新：字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- costToken integer 否 消耗token productDatabaseList a…",
+  "skill_id": "05323-linkfox-junglescout-product-database-8cf611d6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-junglescout-product-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-junglescout-product-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "efa579430d0644cbe3d81a7a4bff17d7c6ba1c2a79d976c10b4f847e836c3d9b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

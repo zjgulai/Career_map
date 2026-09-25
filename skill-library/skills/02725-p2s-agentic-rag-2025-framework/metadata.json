@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentic-rag-2025-framework",
+  "中文名称": "待补：p2s-agentic-rag-2025-framework",
+  "一句话作用": "触发词：Agentic检索、多跳问答、迭代检索、检索即推理、补货决策证据链。何时不用：数据源未打通或单次检索即可回答时不适用；需要因果链路证据走因果图增强检索。安全边界：检索不能绕过数据源权限，生成的补货方案须人工确认后才可下单。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"单次检索答不对多跳问题导致Agent决策频繁出错\"——Agentic RAG将检索升级为可迭代推理的Agency机制，多跳QA准确率提升38%，Agent决策失误率降低45%，母婴跨境Agent可用性显著提升时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02725-p2s-agentic-rag-2025-framework-6faebcdd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agentic-rag-2025-framework/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agentic-rag-2025-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c860b72447cb28b2188c5858ba1e3b50a40f9106b981006d4a5af404af43563d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

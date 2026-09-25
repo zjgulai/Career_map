@@ -1,0 +1,22 @@
+{
+  "英文名称": "brand-knowledge-base-builder",
+  "中文名称": "待补：brand-knowledge-base-builder",
+  "一句话作用": "AI 可读品牌知识库（L1-L11）结构化萃取 SOP：从官网/社交/竞品数据出发， 通过引导对话确认品牌原型、语调人设、视觉锚点、产品痛点矩阵、场景模板， 最终输出 AI 可执行的 ai brand knowledge base.md + design tokens.json。 适用于：现有品牌入库（对齐现行调性）和新品牌创建（从零建立）两条路径。 触发场景：「建立品牌知识库」「品牌 AI 化」「品牌调性萃取」「新品牌入库」 「为…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T18:54:40+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要AI 可读品牌知识库（L1-L11）结构化萃取 SOP：从官网/社交/竞品数据出发， 通过引导对话确认品牌原型、语调人设、视觉锚点、产品痛点矩阵、场景模板， 最终输出 AI 可执行的 ai brand knowledge base.md + design tokens.json。 适用于：现有品牌入库（对齐现行调性）和新品牌创建（从零建立）两条路径。 触发场景：「建立品牌知识库」「品牌 AI 化」「品牌调性萃取」「新品牌入库」 「为…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01742-brand-knowledge-base-builder-a6838974",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/brand-knowledge-base-builder/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/brand-knowledge-base-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5aced1187675736667ccde0d504826473f170dfbab838d69c592a03b80223687",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "semantic-doc-chunker",
+  "中文名称": "待补：semantic-doc-chunker",
+  "一句话作用": "当用户有一个较长的 Markdown 文档（书籍、论文、技术文档）需要按章节和语义边界切分成保持段落完整、带层级结构的文本块时使用，尤其用于构建 RAG 知识库或为知识提取准备结构化输入。触发词：语义文档分块器、文档分块、语义分块、智能分块、markdown分块、章节拆分、文本分块。何时不用：文档已很短无需分块、不需要保持语义边界（固定长度切分即可）、无标题层级的纯文本、实时流式处理、需要句子级分割、SKU标签分组（用semantic…",
+  "关键输入": "- 处理长文档（ 10,000 tokens）需要分割为可处理的块 - 构建 RAG 知识库，需要保持语义边界 - 分析 Markdown 格式的书籍、论文、技术文档 - 需要维护文档的层级结构（父子关系） - 提取文档大纲和章节结构 - 为后续知识提取准备结构化输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 处理长文档（ 10,000 tokens）需要分割为可处理的块 - 构建 RAG 知识库，需要保持语义边界 - 分析 Markdown 格式的书籍、论文、技术文档 - 需要维护文档的层级结构（父子关系） - 提取文档大纲和章节结构 - 为后续知识提取准备结构化输入时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11123-semantic-doc-chunker-ae5f7935",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/semantic-doc-chunker/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/semantic-doc-chunker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2bf3cef83f6d1a222e9a1ca4b56b0cb60d1302b995677f0a3fe5dcb4e37d136",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

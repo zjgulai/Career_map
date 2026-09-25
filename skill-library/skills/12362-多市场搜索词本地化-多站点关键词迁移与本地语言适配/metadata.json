@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-market-search-localization",
+  "中文名称": "多市场搜索词本地化 多站点关键词迁移与本地语言适配",
+  "一句话作用": "触发词：关键词迁移、多市场关键词、搜索词本地化、本地语言适配、文化适配词、新市场铺词。何时不用：只重写目标站标题与五点文案用「Listing 本地化」；只判断需求缺口用「关键词需求缺口分析」；只做多语言评论分析用「多语言 NLP 管道」。安全边界：词表只作填词建议，须遵守各平台关键词堆砌禁令（亚马逊 A9、eBay SEO、沃尔玛）并人工复核，卡页标注策略失效风险 12%、过度优化触发限流风险 8%。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境运营面临\"直译关键词进入新市场流量极低、DE/JP站 Impression几乎为零\"——三层本地化体系将新市场自然搜索流量提升3-5倍，节省广告拉量成本10-20万元/市场/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12362-p2s-multi-market-search-localization-f72379f4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-multi-market-search-localization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-multi-market-search-localization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4c5124e1d5dd7fe2f116dc2977ea29d65245c73d1b9cd143305309e85c2b437c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

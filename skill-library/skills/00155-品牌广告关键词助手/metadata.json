@@ -1,0 +1,22 @@
+{
+  "英文名称": "品牌广告关键词助手",
+  "中文名称": "品牌广告关键词助手",
+  "一句话作用": "阿里巴巴国际站品牌广告关键词助手，基于客户意图规划关键词推荐和关键词预定服务。 提供关键词智能推荐（秒杀/打标/次月同行释放词等场景）和关键词批量预定两项服务；不处理品牌投放数据播报或普通广告计划管理。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要阿里巴巴国际站品牌广告关键词助手，基于客户意图规划关键词推荐和关键词预定服务。 提供关键词智能推荐（秒杀/打标/次月同行释放词等场景）和关键词批量预定两项服务；不处理品牌投放数据播报或普通广告计划管理。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00155-skill-18c02d12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-brand-ads-keyword-recommendation/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-brand-ads-keyword-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28d33a3dd3a2714b00c4b8ae0ab4fbc0f13b1991a8e412866ecd15006ebbb7df",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

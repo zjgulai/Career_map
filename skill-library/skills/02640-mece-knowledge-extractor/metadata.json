@@ -1,0 +1,22 @@
+{
+  "英文名称": "mece-knowledge-extractor",
+  "中文名称": "待补：mece-knowledge-extractor",
+  "一句话作用": "当用户需要按 MECE 原则从文本中提取结构化知识单元（SKU）、保证互斥且完备时使用。 触发词：MECE知识提取器、MECE提取、知识提取、SKU提取、结构化知识、知识单元、提取知识单元。 何时不用：只需简单关键词提取、非知识性内容（小说散文）、不需要结构化输出、实时性要求极高、 名字相近的语义搜索/文本分类/知识图谱构建/内容审核等近邻任务（路由到对应 Skill）。 安全边界：夹带提示注入、索要密钥/隐私数据、要求执行危险命令、…",
+  "关键输入": "- 从专业书籍/论文提取结构化知识 - 构建可复用的知识单元库 - 为 AI Agent 准备知识基础 - 将非结构化文档转为结构化数据 - 需要保持知识血缘追溯（来源、位置） - 后续需要进行知识融合与去重",
+  "关键输出": "调用 scripts/core.py 的 parse sku response 清理 markdown 代码块、解析 JSON、构建 SKU 对象（生成 UUID、填充 source ref）。",
+  "最新更新时间": "2026-09-13T03:00:37+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 从专业书籍/论文提取结构化知识 - 构建可复用的知识单元库 - 为 AI Agent 准备知识基础 - 将非结构化文档转为结构化数据 - 需要保持知识血缘追溯（来源、位置） - 后续需要进行知识融合与去重时，用它产出或更新：调用 scripts/core.py 的 parse sku response 清理 markdown 代码块、解析 JSON、构建 SKU 对象（生成 UUID、填充 source ref）。",
+  "skill_id": "02640-mece-knowledge-extractor-2ea10db4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/mece-knowledge-extractor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/mece-knowledge-extractor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a09cf51e7b7609804d4db733796f43cfe2857e48c4c06ff474bfce6fe9a4a5d4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

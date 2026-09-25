@@ -1,0 +1,22 @@
+{
+  "英文名称": "亚马逊PPC分析",
+  "中文名称": "亚马逊PPC分析",
+  "一句话作用": "诊断并优化 Amazon PPC / Amazon Ads，降低 ACoS、提升 ROAS 并识别浪费花费。触发词：亚马逊PPC分析、PPC analysis、ACoS too high、Sponsored Products、Amazon Ads audit、ROAS improvement。何时不用：非Amazon广告平台（如Google Ads、Meta Ads）、需要AI直接自动调整竞价（本技能仅提供分析建议）、缺搜索词报告/广…",
+  "关键输入": "- 搜索词报告CSV（Search Term Report） - 广告活动报告 - Targeting 报告 - Placement 报告（可选） - SKU / ASIN / Listing 转化信息（可选） - 目标ACoS - 当前预算限制",
+  "关键输出": "- 浪费花费识别报告 - 高绩效关键词清单 - 否定关键词建议 - 竞价调整建议 - 预算重分配方案 - 优化后预期效果 - 0-100 Amazon Ads 健康评分 - SP / SB / SD 分层问题清单 - P0/P1/P2 优先行动队列",
+  "最新更新时间": "2026-09-01",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- ACoS高于目标值时的诊断优化 - 搜索词报告分析 - 自动竞价策略制定 - 广告活动结构优化 - 预算分配建议 - SP / SB / SD 广告分层审计 - 全账户广告健康评分和优先行动队列时，用它产出或更新：- 浪费花费识别报告 - 高绩效关键词清单 - 否定关键词建议 - 竞价调整建议 - 预算重分配方案 - 优化后预期效果 - 0-100 Amazon Ads 健康评分 - SP / SB / SD 分层问题清单 - P0/P1/P2 优先行动队列",
+  "skill_id": "09978-ppc-e0f0b906",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/亚马逊PPC分析/SKILL.md",
+  "relative_path": "lute/project/81-Skills/亚马逊PPC分析/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "af47b1a61d23c405fb4c30eb7dde728e5fb2997e948293c2de292bbdbfc3b273",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

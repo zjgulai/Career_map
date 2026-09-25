@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-cloud-architecture",
+  "中文名称": "待补：multi-cloud-architecture",
+  "一句话作用": "Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, and GCP. Use when building multi-cloud systems, avoiding vendor lock-in, or leveraging best-of-breed servic…",
+  "关键输入": "- Design multi-cloud strategies - Migrate between cloud providers - Select cloud services for specific workloads - Implement cloud-agnostic architectures - Optimize costs across providers",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- Design multi-cloud strategies - Migrate between cloud providers - Select cloud services for specific workloads - Implement cloud-agnostic architectures - Optimize costs across providers时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05593-multi-cloud-architecture-44449485",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cloud-infrastructure/skills/multi-cloud-architecture/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cloud-infrastructure/skills/multi-cloud-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "60e73021cf812284b0c232a4a7cfd4072fd12e46fc30c0f4544dd57a9b6ff559",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

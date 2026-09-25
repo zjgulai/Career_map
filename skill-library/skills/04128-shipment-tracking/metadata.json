@@ -1,0 +1,22 @@
+{
+  "英文名称": "shipment-tracking",
+  "中文名称": "待补：shipment-tracking",
+  "一句话作用": "当用户需要查询运单号对应的物流状态、轨迹记录、预计到达时间或异常预警时使用。用户提供单号（含承运商）且请求为纯运单追踪时触发本技能。缺不可推定的关键材料（账号/文件/数值）才追问；可依行业惯例或品牌既定风格推定的，标注假设后继续，绝不编造数据。触发词：物流追踪、货运追踪、物流监控、配送状态、运单查询、shipment tracking。混合请求：当请求同时含运单追踪与其他任务（成本测算/路线规划/补货决策/supplier-evalu…",
+  "关键输入": "- 物流单号（必填） - 承运商名称（必填，若能从单号格式推断则注明推断依据后继续） - 发货/目的地（可选）",
+  "关键输出": "- 物流状态更新：当前状态、位置、最新扫描节点 - 预计到达时间：基于承运商SLA和进度估算 - 异常提醒：滞留、延误、丢件等异常及建议 - 承运商表现：多单追踪时的汇总对比",
+  "最新更新时间": "2026-09-13T03:00:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当用户提供运单号（含承运商名称）且请求为纯运单追踪时，触发本技能。缺单号或承运商时先追问澄清，不猜测。请求混合运单追踪与其他任务（成本测算/路线规划/补货决策/supplier-evaluation/清关处理/承运商时效对比/供应链统筹）时，整体不触发本技能，路由到对应 Skill。 - 物流状态追踪：查询单个运单的当前状态、位置和轨迹 - 异常预警：检测滞留、延误、丢件等异常并给出建议 - 到货时间预测：基于承运商SLA和当前进度估…时，用它产出或更新：- 物流状态更新：当前状态、位置、最新扫描节点 -…",
+  "skill_id": "04128-shipment-tracking-39a442d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/shipment-tracking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/shipment-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5e668704bbfe44e53643a06f75d29b57f57fa99e9f0b75eb47a1024449357f85",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

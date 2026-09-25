@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-yourself",
+  "中文名称": "自己创建器（Claude Code 版）",
+  "一句话作用": "Why distill others when you can distill yourself? Deconstruct your chat history, diaries, and photos into a runnable digital self. 与其蒸馏别人，不如蒸馏自己。欢迎加入数字永生！",
+  "关键输入": "参考 ${CLAUDE SKILL DIR}/prompts/intake.md 的问题序列，只问 3 个问题： 1. 代号/昵称 （必填） - 示例：小北 / 自己 / 20岁的我 2. 基本信息 （一句话：年龄、职业、城市，想到什么写什么） - 示例：25 岁，互联网产品经理，上海 3. 自我画像 （一句话：MBTI、星座、性格标签、你对自己的印象） - 示例：INTJ 摩羯座 社恐但话痨 深夜emo型选手",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:04:23+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要参考 ${CLAUDE SKILL DIR}/prompts/intake.md 的问题序列，只问 3 个问题： 1. 代号/昵称 （必填） - 示例：小北 / 自己 / 20岁的我 2. 基本信息 （一句话：年龄、职业、城市，想到什么写什么） - 示例：25 岁，互联网产品经理，上海 3. 自我画像 （一句话：MBTI、星座、性格标签、你对自己的印象） - 示例：INTJ 摩羯座 社恐但话痨 深夜emo型选手时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06102-create-yourself-9272bd23",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-yourself/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-yourself/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3ae87f0ab397835741b070171f087dc50d123e377787d4c8857a0254dcdea4e0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

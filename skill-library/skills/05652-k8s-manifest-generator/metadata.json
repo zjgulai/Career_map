@@ -1,0 +1,22 @@
+{
+  "英文名称": "k8s-manifest-generator",
+  "中文名称": "待补：k8s-manifest-generator",
+  "一句话作用": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, or…",
+  "关键输入": "Understand the workload: - Application type (stateless/stateful) - Container image and version - Environment variables and configuration needs - Storage requirements - Network exposure requirements (internal/external) - Resource requirements (CPU, memory) - S…",
+  "关键输出": "kubectl apply -f manifest.yaml --dry-run=client",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use this skill when you need to: - Create new Kubernetes Deployment manifests - Define Service resources for network connectivity - Generate ConfigMap and Secret resources for configuration management - Create Persisten…时，用它产出或更新：kubectl apply -f manifest.…",
+  "skill_id": "05652-k8s-manifest-generator-878225d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/k8s-manifest-generator/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/k8s-manifest-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "97dfb5a98bdaff4601c34b48c1d763648d1e153d8fc5ebd37a0698f488b8efec",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-orchestrator",
+  "中文名称": "多智能体编排与调度",
+  "一句话作用": "触发词：DAG 调度、并发编排、失败恢复、超时重试、进度可视化。何时不用：运行时依据中间结果改拓扑用「Dynamic DAG Orchestration」；状态机级非法操作拦截用「SDOF 状态机约束编排」。安全边界：编排层只按既定 DAG 与重试策略调度，不得自行扩权、跳过审批节点或改动作范围。",
+  "关键输入": "输入 ：执行 DAG（节点与依赖）、各子 Agent 配置（技能、资源配额）、超时与重试策略配置。 输出 ：执行状态与结果汇总（含部分失败恢复记录）与可视化进度；供运营与工程团队监控复杂流水线。",
+  "关键输出": "输入 ：执行 DAG（节点与依赖）、各子 Agent 配置（技能、资源配额）、超时与重试策略配置。 输出 ：执行状态与结果汇总（含部分失败恢复记录）与可视化进度；供运营与工程团队监控复杂流水线。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：DAG 调度、并发编排、失败恢复、超时重试、进度可视化。何时不用：运行时依据中间结果改拓扑用「Dynamic DAG Orchestration」；状态机级非法操作拦截用「SDOF 状态机约束编排」。安全边界：编排层只按既定 DAG 与重试策略调度，不得自行扩权、跳过审批节点或改动作范围。时，用它产出或更新：输入 ：执行 DAG（节点与依赖）、各子 Agent 配置（技能、资源配额）、超时与重试策略配置。 输出 ：执行状态与结果汇总（含部分失败恢复记录）与可视化进度；供运营与工程团队监控复杂流水线。",
+  "skill_id": "12479-p2s-mas-orchestrator-57858af3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-mas-orchestrator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-mas-orchestrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7448a7004e4f41e527ce0cde0f70bf6c33d3b5580af6897e96c0b86895a30190",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Account-Health-Early-Warning-System",
+  "中文名称": "待补：Account Health Early Warning System",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 80.0, \"best\": 80.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:37:16.095254\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:37:16+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 80.0, \"best\": 80.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:37:16.095254\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06746-skill-account-health-early-warning-system-8c2f35bc",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Account-Health-Early-Warning-System.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Account-Health-Early-Warning-System.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "9cac9f3258695547a8e3485fa92d22f3888514bde25254fee5b10fc9d1042251",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

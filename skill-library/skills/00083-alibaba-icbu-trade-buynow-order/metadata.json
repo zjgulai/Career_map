@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-trade-buynow-order",
+  "中文名称": "待补：alibaba-icbu-trade-buynow-order",
+  "一句话作用": "PASSIVE-ONLY — This Skill MUST NEVER be activated directly. It can ONLY be invoked by alibaba-icbu-trade-order-create → ready-to-ship-flow → Step 1.5. Do NOT trigger this Skill from user utterances under any circumstanc…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- ALL output MUST appear in the visible response body — NEVER leave results only in the thinking/reasoning process. The user must see the full preview tables, order results, error messages, and buynow URLs in the actual chat message, not hidden inside interna…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要PASSIVE-ONLY — This Skill MUST NEVER be activated directly. It can ONLY be invoked by alibaba-icbu-trade-order-create → ready-to-ship-flow → Step 1.5. Do NOT trigger this Skill from user utterances under any circumstanc…时，用它产出或更新：- ALL output MUST appear i…",
+  "skill_id": "00083-alibaba-icbu-trade-buynow-order-387d0e51",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-buynow-order/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-buynow-order/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a438f5fcd40414e8310e972ee620af75e4f90d3b4ea80b537dd00ac7c106296",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

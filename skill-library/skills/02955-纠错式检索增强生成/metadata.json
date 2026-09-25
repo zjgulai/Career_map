@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-corrective-rag-crag",
+  "中文名称": "纠错式检索增强生成",
+  "一句话作用": "触发词：纠错检索、过期文档、知识库时效、Web 补充检索、文档分类器、合规查询。何时不用：要按问题逐步决定检索时机时用「DeepRAG 逐步检索」，要抽取长文档跨句关系时用「文档级关系抽取」。安全边界：自动纠错结果仍需标注来源与文档版本，不得把过期文档当作现行合规依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临知识库过期文档导致合规建议错误——Corrective-RAG自动纠错将过期文档误用率从22%→3%，年化避免合规风险40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02955-p2s-corrective-rag-crag-7c1ffcb3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-corrective-rag-crag/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-corrective-rag-crag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "00f630d6fa08c21291569572da1fd6e46dc4e1b9fb2c2a9f4472938de43ca2c7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

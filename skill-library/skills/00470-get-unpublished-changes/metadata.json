@@ -1,0 +1,22 @@
+{
+  "英文名称": "get-unpublished-changes",
+  "中文名称": "待补：get-unpublished-changes",
+  "一句话作用": "Compare HEAD with the latest published npm versions and list all unpublished changes by release layer. Triggers: unpublished changes, changelog, what changed, whats new.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- feat: \"Added X that does Y\" (not just \"add X feature\") - fix: \"Fixed bug where X happened, now Y\" (not just \"fix X bug\") - refactor: \"Changed X from A to B, now supports C\" (not just \"rename X\") Include: - Layered Impact Matrix: rows for omo pure components…",
+  "最新更新时间": "2026-06-23T19:48:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Compare HEAD with the latest published npm versions and list all unpublished changes by release layer. Triggers: unpublished changes, changelog, what changed, whats new.时，用它产出或更新：- feat: \"Added X that does Y\" (not just \"add X feature\") - fix: \"Fixed bug wh…",
+  "skill_id": "00470-get-unpublished-changes-810ff973",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/.agents/skills/get-unpublished-changes/SKILL.md",
+  "relative_path": "lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/.agents/skills/get-unpublished-changes/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5df858f518650cdd9ec687ae436e1c6715f9e904baf274886624013cd9e9964a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

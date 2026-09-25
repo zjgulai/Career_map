@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-speed-up-perf",
+  "中文名称": "待补：dsh-speed-up-perf",
+  "一句话作用": "Use when investigating or optimizing DeepSeek Harness performance, designing realistic synthetic benchmarks or CI performance gates, profiling long Sessions or Web responsiveness, or turning performance PR evidence into…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Use Agent Note rules for durable rationale, alternatives, calibration, exclusions, and remaining risks. Check relevant notes for supersession without turning performance work into a corpus-wide prose cleanup. Keep the reusable procedure here and scenario-spec…",
+  "最新更新时间": "2026-09-17T11:00:12+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Use when investigating or optimizing DeepSeek Harness performance, designing realistic synthetic benchmarks or CI performance gates, profiling long Sessions or Web responsiveness, or turning performance PR evidence into…时，用它产出或更新：Use Agent Note rules for d…",
+  "skill_id": "12656-dsh-speed-up-perf-edd99324",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-speed-up-perf/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-speed-up-perf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f71345f9e7b398b5e31a5fbd842075ad613788660697bdcd7738eb9e4b9cbd56",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

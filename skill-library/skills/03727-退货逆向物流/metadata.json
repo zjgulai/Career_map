@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-returns-reverse-logistics",
+  "中文名称": "退货逆向物流）",
+  "一句话作用": "触发词：退货率压降、高风险订单识别、尺寸确认提醒、逆向物流成本、售后干预。何时不用：要逐单输出退货概率分并批量筛选用「退货风险分预测」，退货件已到手要定处置路径用「逆向物流全链路处置决策」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要预测模型识别高风险订单（新用户+特大号法兰+延迟配送=退货率 22%），提前触发\"确认尺寸\"邮件，退货率降至 15%时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "03727-p2s-returns-reverse-logistics-3c0e4857",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-returns-reverse-logistics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-returns-reverse-logistics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "78a3af82148221cb8e4fb1783b658ace2bbf587ece7f1132025c315583c6e0a3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

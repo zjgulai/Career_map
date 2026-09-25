@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-product-analysis",
+  "中文名称": "跨平台商品经营分析",
+  "一句话作用": "拉取并分析淘宝、抖店、京东、拼多多和 1688 的商品列表与商品经营数据，覆盖销量、GMV、流量转化、库存、爆款/滞销、排行、清单和明细 Excel 导出。拼多多商品数据使用 pdd product detail DSL 采集，独立切换概况/列表/详情周期、动态解码 spider-font，并逐个采集前 10 个商品详情；全部平台统一走 Execution。用户没有明确指定商品 ID 时使用本 Skill；已经得到明确商品 ID 且要…",
+  "关键输入": "输入 规则 --- --- 未指定平台 平台意图不明确：必须先 ask user(mode=\"form\") 只问平台（选项为 taobao,tmall,doudian,jd,pdd,1688 对应的平台名并附「全部平台」，允许多选），拿到答复后再发起账号发现；禁止未追问就默认全平台。 平台别名 淘宝/天猫/千牛、抖店/抖音/罗盘、京东/京麦、拼多多/PDD、1688/阿里巴巴。 天猫店铺 Router 归一为 platform=taobao + commercePlatform=tmall：天猫与淘宝共用生意参谋…",
+  "关键输出": "- 最终展示文件必须来自 /logs/present files.json，不得手工编辑。 - 交付清单固定为按店配对：「店A 报告 HTML → 店A 原始 Excel → 店B 报告 HTML → 店B 原始 Excel → …」，店铺之间按平台顺序。不得包含店铺目录页、aggregated product metrics all.xlsx、per-request 中间 JSON、store-index.json、fact-pack- .json、agent-insight- .json 或 report-v…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要对五平台具备可靠商品 ID 与相应证据字段的商品执行本节；平台字段不足时进入“数据不足”，不得跨平台补值。使用 combined aggregated product metrics.json、combined unified products.json 或对应 request 聚合 JSON 中本次采集的可靠字段；每个商品只进入一个主分类，可附带次级信号。分类时先排数据缺口，再按以下优先级判断： 优先级 主分类 判定条件 是否调用商…时，用它产出或更新：- 最终展示文件必须来自 /logs/present…",
+  "skill_id": "00220-multi-platform-product-analysis-352681fe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-product-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-product-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8367e1be52d6b976016768e60d994561c0e6379a2156ac7cfa034a1037b7f1bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

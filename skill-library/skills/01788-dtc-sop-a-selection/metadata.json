@@ -1,0 +1,22 @@
+{
+  "英文名称": "dtc-sop-a-selection",
+  "中文名称": "待补：dtc-sop-a-selection",
+  "一句话作用": "DTC 母婴跨境产品选品扫描 SOP（SOP-A）：5 大数据维度并行采集，输出机会评分 + GO/NO-GO 推荐。 触发场景：「SOP-A 选品」「做一次选品扫描」「分析这个品类」「母婴品类评估」「新品类要不要做」。 封装了 baby-sterilizer 选品完整流程，约 30 分钟完成 5 维数据采集 + 3 个机会推荐 + 1 个强 GO 建议。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T17:11:50+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要DTC 母婴跨境产品选品扫描 SOP（SOP-A）：5 大数据维度并行采集，输出机会评分 + GO/NO-GO 推荐。 触发场景：「SOP-A 选品」「做一次选品扫描」「分析这个品类」「母婴品类评估」「新品类要不要做」。 封装了 baby-sterilizer 选品完整流程，约 30 分钟完成 5 维数据采集 + 3 个机会推荐 + 1 个强 GO 建议。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01788-dtc-sop-a-selection-77e09ba6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/dtc-sop-a-selection/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/dtc-sop-a-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3a4b7b9a6e5e0026bf86248342758fd5555e392b5c723173a0bd7e664732127",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

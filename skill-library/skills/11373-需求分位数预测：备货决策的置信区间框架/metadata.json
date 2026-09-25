@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-demand-quantile-forecast",
+  "中文名称": "需求分位数预测：备货决策的置信区间框架",
+  "一句话作用": "触发词：分位数预测、P50/P85/P95、分级备货策略、安全库存触发、旺季锁产能。何时不用：需要无分布假设的区间保证用「共形预测区间框架」，要按漂移在线修正用「自适应预测精准化」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链面临\"均值备货导致断货率8%或大量积压\"——分位数回归P50/P85/P95三级备货策略将缺货率降至3%，年化节省断货+积压损失20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11373-p2s-demand-quantile-forecast-bf69c9e2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-demand-quantile-forecast/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-demand-quantile-forecast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b9c5041b1a42459214c79adaba213d8eef0aaf16b66387ed8fd1814d45ab666",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

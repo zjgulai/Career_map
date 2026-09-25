@@ -1,0 +1,22 @@
+{
+  "英文名称": "finance-report",
+  "中文名称": "季度财报",
+  "一句话作用": "Masthead + KPI + 收入/烧钱图 + P&L 表 + 重点 + 展望",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "finance",
+  "解决具体问题": "当需要Masthead + KPI + 收入/烧钱图 + P&L 表 + 重点 + 展望时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10403-finance-report-4783efe9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/finance-report/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/finance-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "941d5a8b4132a82a27b32d08ff458d9b0d6f5316df124f96246c0b5e1f933fa9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

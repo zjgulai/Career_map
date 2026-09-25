@@ -1,0 +1,22 @@
+{
+  "英文名称": "threat-intelligence",
+  "中文名称": "待补：threat-intelligence",
+  "一句话作用": "Use for authorized OSINT and cyber threat intelligence that enriches IOCs, campaigns, impersonation, scams, or threat actors from public sources. Includes bounded X/Twitter search through Xquik, source preservation, cor…",
+  "关键输入": "写清楚 4 个边界：目标、问题、时间窗、结果上限。把查询拆成可复现的组：精确 IOC、别名、活动名、账号与关键短语。不要用一个宽泛关键词代表全部调查。 阶段出口： 1. 继续执行最窄的公开来源查询。 2. 导出查询计划与停止条件。 3. 暂停并让用户确认范围。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要写清楚 4 个边界：目标、问题、时间窗、结果上限。把查询拆成可复现的组：精确 IOC、别名、活动名、账号与关键短语。不要用一个宽泛关键词代表全部调查。 阶段出口： 1. 继续执行最窄的公开来源查询。 2. 导出查询计划与停止条件。 3. 暂停并让用户确认范围。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02334-threat-intelligence-ce50ed2f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/threat-intelligence/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/threat-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dddfe7fd828f7602fa6d5db60e11ef2ceb77bc97e56fba5c49c4053a2fe08a27",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

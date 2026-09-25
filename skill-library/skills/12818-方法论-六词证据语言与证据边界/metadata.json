@@ -1,0 +1,22 @@
+{
+  "英文名称": "bos-method",
+  "中文名称": "方法论:六词证据语言与证据边界",
+  "一句话作用": "BOS 六词证据语言(implemented/verified/anchored/callable/blocked/planned)与证据边界判定。在 BOS 融合开发、DSH 工具/证据编写、审计或验收语境中,判断能力状态、撰写证据或评审交付物时加载。核心约束:禁止从 Manifest、Registry、mock、静态契约或 UI 入口推断生产就绪。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-18T17:01:23+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要BOS 六词证据语言(implemented/verified/anchored/callable/blocked/planned)与证据边界判定。在 BOS 融合开发、DSH 工具/证据编写、审计或验收语境中,判断能力状态、撰写证据或评审交付物时加载。核心约束:禁止从 Manifest、Registry、mock、静态契约或 UI 入口推断生产就绪。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12818-bos-method-2855048e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/research/dsh-harness-fusion/bos-bundle/skills/bos-method/SKILL.md",
+  "relative_path": "lute/project/VOA/research/dsh-harness-fusion/bos-bundle/skills/bos-method/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "486016d79919cc0c953cc69ced41dd7f345f9ea92668ac518c73c9aa1277d5b1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

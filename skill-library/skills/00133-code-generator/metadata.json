@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-generator",
+  "中文名称": "待补：code-generator",
+  "一句话作用": "Direct multi-file code generation for React/Vite web projects in the current execution. Converts the user request, resolved implementation requirements, and Google-format DESIGN.md into a complete, compilable project wi…",
+  "关键输入": "Product planning happens first, then the selected Canvas or reference-replication design phase produces DESIGN.md. Load this Skill only after both inputs exist. Write all source files directly from the user request, resolved implementation requirements, DESIG…",
+  "关键输出": "You produce a complete set of source files that: 1. Implement the route structure required by the user request and resolved requirements, including multiple pages only when requested. 2. Implement every requested section, interaction, and applicable state, us…",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Direct multi-file code generation for React/Vite web projects in the current execution. Converts the user request, resolved implementation requirements, and Google-format DESIGN.md into a complete, compilable project wi…时，用它产出或更新：You produce a complete set…",
+  "skill_id": "00133-code-generator-d330f77e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/code-generator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/code-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "444c0d6e0410be3140241bca7e4e399eac97f274b11943a1699cb9dcf0a94c2a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

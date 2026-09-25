@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-security-api-auth",
+  "中文名称": "待补：twilio-security-api-auth",
+  "一句话作用": "Choose the right Twilio authentication method and implement it correctly. Covers Auth Token (testing only), API Keys (production standard), OAuth2 client credentials (time-limited bearer tokens), Access Tokens (client-s…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Choose the right Twilio authentication method and implement it correctly. Covers Auth Token (testing only), API Keys (production standard), OAuth2 client credentials (time-limited bearer tokens), Access Tokens (client-s…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01099-twilio-security-api-auth-f7d026ac",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-security-api-auth/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-security-api-auth/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aed227459cddfd9e58a354dec6db3bb9c85590ed9576e9de4ad992998078b43d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

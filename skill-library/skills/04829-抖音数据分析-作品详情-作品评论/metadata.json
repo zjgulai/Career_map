@@ -1,0 +1,22 @@
+{
+  "英文名称": "douyin-comments-assistant",
+  "中文名称": "抖音数据分析 作品详情 作品评论",
+  "一句话作用": "用于抖音数据分析、抖音评论详情、抖音视频详情、抖音图文详情、抖音作品数据、抖音互动指标、内容调研和抖音内容分析。支持四大能力： (1) 关键词搜索视频/图文，可按点赞数、发布时间、时长、内容类型筛选排序； (2) 实时热榜查询，获取抖音热搜词条与热度数据； (3) 博主作品抓取，按主页链接或 sec uid 获取公开作品列表； (4) 视频评论分析，按视频链接或 aweme id 获取评论内容与互动数据。 Use when: 用户需要…",
+  "关键输入": "执行前先收集足够输入，避免无效调用。",
+  "关键输出": "- 在技能根目录执行；只输出纯 JSON 到 stdout，日志/banner 走 stderr。 - 没有关键词：先追问关键词。 - 没有链接：先追问视频 / 主页链接或 ID。 - 链接类型不明确：先确认这是视频还是博主主页。 - 没有 GUAIKEI API TOKEN：提醒用户先配置环境变量，再执行。 - 退出码：0=成功（含 empty），1=运行错误（接口异常/网络/超时），3=auth required（缺/错 token）。 - 失败须向用户说明原因， 不编造数据，不把空结果当成功 。空结果退出码…",
+  "最新更新时间": "2026-09-19T03:52:10+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 没结果：放宽关键词或减少限定（--time 0）、换更贴近的词。 - 结果太多：补场景/人群/品牌/时间/账号。 - 调用失败：先确认 GUAIKEI API TOKEN 已配置有效（退出码 3 即 token 问题）。 - 账号安全：只读能力，不登录/发帖/点赞/评论。 - Q: 获取的数据包含用户个人信息吗？ A: 仅获取抖音公开可见数据（昵称、公开作品、评论内容等）。 不收集手机号、位置、私信等隐私信息。数据通过第三方 AP…时，用它产出或更新：- 在技能根目录执行；只输出纯 JSON 到 std…",
+  "skill_id": "04829-douyin-comments-assistant-77c2b59e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/douyin-comments-assistant/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/douyin-comments-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b92cb1c1030dd814a273a8e17e36bded5f1ece5c15274d892f6394307bb9135",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

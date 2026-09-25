@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-arena-creative",
+  "中文名称": "前车之鉴·创意与创新竞技场",
+  "一句话作用": "创意与创新竞技场：三个对立角色（逆向工程师/平行思维主持人/叙事重构师）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：头脑风暴开了一场又一场，出来的全是老点子、需要一个非共识、但有依据的方向，共识方案都已被人做过了、在既有框架里转来转去，怎么都跳不出去、脑暴全是老点子、要非共识但有依据的方向。何时不用：要发散产品创意/功能方向 → brainstorm-ideas-existing / brainstorm-…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要创意与创新竞技场：三个对立角色（逆向工程师/平行思维主持人/叙事重构师）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：头脑风暴开了一场又一场，出来的全是老点子、需要一个非共识、但有依据的方向，共识方案都已被人做过了、在既有框架里转来转去，怎么都跳不出去、脑暴全是老点子、要非共识但有依据的方向。何时不用：要发散产品创意/功能方向 → brainstorm-ideas-existing / brainstorm-…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04268-xmind-arena-creative-78ffb509",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-arena-creative/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-arena-creative/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2204c34a04355b5d51c1eb23722a93bb74c00105cb66283a1e2aa20478d861ed",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

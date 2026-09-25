@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-competitive-intelligence-agent",
+  "中文名称": "多 Agent 竞品情报系统 小时全天候竞品监控与预警",
+  "一句话作用": "触发词：竞品监控、多 Agent、异常预警、库存异动、Listing 变动。何时不用：要预判竞品尚未上线的新品用「Competitor New Product Detection」；要从竞品评论算选品机会分用「跨竞品评论选品机会评分」。安全边界：库存与价格须走官方 SP-API，爬取非公开接口违反平台条款；预警可能被竞品反向利用，须人工复核后再动作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营主管面临\"竞品价格和Listing变化只能靠人工定期检查发现总是滞后\"——四Agent协作7×24竞品监控将竞品变化发现时间从3天压缩至15分钟，年化避损$8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11279-p2s-mas-competitive-intelligence-agent-fbbf5bd8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-mas-competitive-intelligence-agent/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-mas-competitive-intelligence-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ddea64344245d4ddbe312de6e55b159642b4aade027d165c04b87e0890447b93",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

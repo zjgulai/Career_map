@@ -1,0 +1,22 @@
+{
+  "英文名称": "discover-store-accounts",
+  "中文名称": "账号发现",
+  "一句话作用": "当需要查询用户在账号管理中维护的平台账号、登录状态和 Profile 选择信息，并用于各平台业务时使用。",
+  "关键输入": "目标跨阶段只保存同一条发现记录的 storeId 和 storeAccountId。调用 Browser Tool 前必须： 1. 从本轮同一次 accounts[] 中按 storeAccountId 全等匹配，且恰好命中一条记录。 2. 核对记录的 storeId 与目标保存值全等，并核对目标平台与记录的 platformId；抖店/抖音口径必须已归一为 dy，不得使用 douyin 或 doudian。 3. 将命中记录的 platformId、storeId、storeAccountId 原样传给 Bro…",
+  "关键输出": "- 作为上层流程的一部分调用时，将有效的完整 accounts[] 交给上层继续原任务，不单独生成冗余回复。 - 用户直接要求查看已保存账号时，展示 platformName、店铺名、脱敏 account 和账号类型；不要展示三个 Profile ID 或完整工具响应。 - accounts=[] 时，按“返回结构”的空账号规则处理。 - 查询失败时，说明账号信息查询失败，不将其表述为账号列表为空或用户未登录。",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要当需要查询用户在账号管理中维护的平台账号、登录状态和 Profile 选择信息，并用于各平台业务时使用。时，用它产出或更新：- 作为上层流程的一部分调用时，将有效的完整 accounts[] 交给上层继续原任务，不单独生成冗余回复。 - 用户直接要求查看已保存账号时，展示 platformName、店铺名、脱敏 account 和账号类型；不要展示三个 Profile ID 或完整工具响应。 - accounts=[] 时，按“返回结构”的空账号规则处理。 - 查询失败时，说明账号信息查询失败，不将其表述为…",
+  "skill_id": "00208-discover-store-accounts-57bca5b2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/discover-store-accounts/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/discover-store-accounts/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e68c308ef47fa5fce3fde8b07f33cc0ab13279713cf24335bb6561e8584e7648",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

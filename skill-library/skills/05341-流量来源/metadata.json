@@ -1,0 +1,22 @@
+{
+  "英文名称": "linkfox-sif-asin-summary",
+  "中文名称": "流量来源",
+  "一句话作用": "使用SIF（搜索情报框架）数据分析ASIN的流量来源构成与曝光分布，覆盖本期/上期/新进/退出周期对比。当用户提到ASIN流量来源、流量结构分析、自然流量与付费流量占比、曝光得分拆解、周期对比、新进/退出流量词、竞品流量分析、SP广告关键词数量、品牌广告曝光、Amazon's Choice曝光、编辑推荐曝光、Top Rated曝光、视频广告曝光、自然搜索曝光比例、PPC流量来源、促销秒杀流量来源、推荐位结构拆解、ASIN traffi…",
+  "关键输入": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- desc boolean 否 默认 true 是否降序，默认传 true last7d boolean 否 默认 true 是否取最近7天数据，默认 true；传 false 时使用 startDate/endDate 区间 sortBy string 否 格式受正则约束（见原始 Schema）；示例：`, totalKeywordNum, naturalKeywordNum, brandKeywordNum, vedioKeywo…",
+  "关键输出": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- msg string 否 消息 code string 否 返回码 data array 否 返回数据 type string 否 渲染的样式 title string 否 标题 total integer 否 本次实际返回的数据数量",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要当用户意图与“SIF-ASIN流量来源”匹配，或需要以下能力时使用本工具：支持竞品流量来源拆解，分析其自然搜索、广告投放及推荐流量的占比结构。 调用前应先确认所有必填参数。涉及站点、国家、日期、语言、ASIN、SKU、图片或 URL 时，应使用用户提供的信息，不要擅自虚构真实业务标识。时，用它产出或更新：字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- msg string 否 消息 code string 否 返回码 data array 否 返回数据 type strin…",
+  "skill_id": "05341-linkfox-sif-asin-summary-2f6da8a3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-sif-asin-summary/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-sif-asin-summary/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a32bcbc19388ab3180de424f1bd53f76a83ef59ac9b24d1d820617ce2441122",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

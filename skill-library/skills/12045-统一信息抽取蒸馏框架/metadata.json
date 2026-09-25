@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-metaie-unified-information-extraction-distillation",
+  "中文名称": "统一信息抽取蒸馏框架",
+  "一句话作用": "触发词：统一信息抽取、NER、关系抽取、事件抽取、标注蒸馏。何时不用：把长文本压短走「上下文 Token 压缩」；图片与文本联合理解走多模态类技能。安全边界：只处理内部或已授权文本，涉个人信息须先脱敏，抽取结果需人工抽检兜底。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据分析师面临\"NER/关系抽取/事件抽取需要维护多个专用模型\"——MetaIE统一蒸馏框架将6类IE任务合并为一个模型，F1提升17%，部署成本降低80%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12045-p2s-metaie-unified-information-extraction-distillation-106190ce",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-metaie-unified-information-extraction-distillation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-metaie-unified-information-extraction-distillation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7a64a2e8c960e16a8aff2530cba158ad8f6646595e57d772baf22d19d889e0b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

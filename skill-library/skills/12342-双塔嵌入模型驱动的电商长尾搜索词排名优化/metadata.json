@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-long-tail-search-embedding-seo",
+  "中文名称": "双塔嵌入模型驱动的电商长尾搜索词排名优化",
+  "一句话作用": "触发词：长尾词、双塔嵌入、搜索词报告、Search Terms 填充、低竞争高转化。何时不用：只查已有词表的语义匹配度用「Listing 语义相关性评分」；本技能负责挖掘并挑选该投的长尾词。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴卖家把90%SEO精力投在「breast pump」等头部词上却发现竞争激烈ROI低——双塔嵌入模型挖掘高转化低竞争长尾词（如「quiet double electric breast pump for office」），通过自然搜索流量提升20-40%，年化GMV增益30-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12342-p2s-long-tail-search-embedding-seo-b2587914",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-long-tail-search-embedding-seo/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-long-tail-search-embedding-seo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2dcf2d16c4e9d39742c9374eace76b81f8a0c9bb87669e87eecbfe591251e0be",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

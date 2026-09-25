@@ -1,0 +1,22 @@
+{
+  "英文名称": "screenshot",
+  "中文名称": "待补：screenshot",
+  "一句话作用": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
+  "关键输入": "The helper automatically selects the first available tool: 1) scrot 2) gnome-screenshot 3) ImageMagick import If none are available, ask the user to install one of them and retry. Coordinate regions require scrot or ImageMagick import. --app, --window-name, a…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- \"Take a look at and tell me what you see\": capture to temp, then view each printed path in order. - \"The design from Figma is not matching what is implemented\": use a Figma MCP/skill to capture the design first, then…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01631-screenshot-4c5a7ad4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/screenshot/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/screenshot/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "081935a6a163277537d46365f49d6b4a3cb40b4748347e7e88759c5927fa8cf5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

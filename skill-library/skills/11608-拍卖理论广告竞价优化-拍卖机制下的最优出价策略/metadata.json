@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-auction-theory-advertising-bidding",
+  "中文名称": "拍卖理论广告竞价优化 拍卖机制下的最优出价策略",
+  "一句话作用": "触发词：拍卖竞价、最优出价、真实点击价值、ACOS 优化、位置边际价值。何时不用：需要跨活动整体预算重分配时用自动竞价与预算优化技能；本技能算的是单个关键词的出价上限。安全边界：竞价数据须按要求留存备查；母婴等类目须备齐资质证明，关键词不得使用虚假宣传词汇。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投手面临\"Amazon广告竞价全靠经验和感觉导致出价系统性偏高\"——GSP拍卖理论最优出价公式将广告费节省18-25%，年化$9.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11608-p2s-auction-theory-advertising-bidding-215bf5f6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-auction-theory-advertising-bidding/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-auction-theory-advertising-bidding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d5e74fc61985bb5d2f3bafaaed43fed5d448c2e32bab9342011782dd303cc001",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

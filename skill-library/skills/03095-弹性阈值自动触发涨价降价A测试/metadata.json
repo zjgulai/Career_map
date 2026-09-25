@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-elasticity-based-repricing-gate",
+  "中文名称": "弹性阈值自动触发涨价降价A测试",
+  "一句话作用": "触发词：弹性门控、自动触发调价、涨价测试、样本量门控、置信区间判据、安全护栏。何时不用：弹性还没估出来先用「需求价格弹性估算」；按库存窗口决定提价用「EMSR-b 边际库存定价」。安全边界：只输出是否触发测试的判决与测试参数，不自动改价、不自动放量；护栏触发后须人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要定价团队面临\"弹性估计完成后无人执行调价\"——弹性阈值自动触发A/B测试，将价格优化周期从3周压缩至48小时，年化毛利提升$30,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03095-p2s-elasticity-based-repricing-gate-02741eb6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-elasticity-based-repricing-gate/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-elasticity-based-repricing-gate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f094f16b5a2736a6e41d603dd2aa39db85c12f403e107ac38829ca878f3ec5bb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

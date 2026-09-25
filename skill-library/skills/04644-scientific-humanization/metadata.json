@@ -1,0 +1,22 @@
+{
+  "英文名称": "scientific-humanization",
+  "中文名称": "待补：scientific-humanization",
+  "一句话作用": "用于中文科研文本的 scientific humanization：把论文、综述、基金、项目书、技术方案、答辩、课程讲稿、PPT讲稿和投资人科研表达改得更像专业作者或讲师本人在说，同时保护事实、术语、数字、引用、图表编号和证据强度。适用于用户说“别AI味”“人一点”“别太官方”“像我讲的”“去模板腔”“改顺但别改事实”的场景。",
+  "关键输入": "输入：相关性分析证明该基因直接调控果实糖酸比形成机制。 输出：相关性分析提示该基因可能与果实糖酸比形成有关，但其是否直接参与调控仍需进一步功能验证或直接证据支持。 输入：本系统通过多源数据融合、智能体协同与闭环反馈机制，全面提升科研文本生成质量。 输出：这类系统不能只看会不会生成文本，更要看材料从哪里来、结果怎么改、改完以后怎么查。 输入：作为您的助手，我将帮助讲师完成本次 AI Scientist 主题内容表达。 输出：这部分要讲清…",
+  "关键输出": "默认直接给可用版本。文本风险高时，用这个格式： 仍需确认 只放会影响事实或证据边界的事项，不放泛泛建议。",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要输入：相关性分析证明该基因直接调控果实糖酸比形成机制。 输出：相关性分析提示该基因可能与果实糖酸比形成有关，但其是否直接参与调控仍需进一步功能验证或直接证据支持。 输入：本系统通过多源数据融合、智能体协同与闭环反馈机制，全面提升科研文本生成质量。 输出：这类系统不能只看会不会生成文本，更要看材料从哪里来、结果怎么改、改完以后怎么查。 输入：作为您的助手，我将帮助讲师完成本次 AI Scientist 主题内容表达。 输出：这部分要讲清…时，用它产出或更新：默认直接给可用版本。文本风险高时，用这个格式： 仍需…",
+  "skill_id": "04644-scientific-humanization-5210ca35",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/scientific-humanization/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/scientific-humanization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4dbff8ce9a2f394e9e7c782e52d808382add666a6c71532e6a9708560ddd2a36",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

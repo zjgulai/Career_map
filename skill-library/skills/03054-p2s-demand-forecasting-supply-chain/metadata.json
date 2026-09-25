@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-demand-forecasting-supply-chain",
+  "中文名称": "待补：p2s-demand-forecasting-supply-chain",
+  "一句话作用": "触发词：供应链需求预测、分层预测、多SKU批量预测、采购提前期、促销效应建模。何时不用：要按准确率口径定目标与分层用「预测准确率MAPE体系」，要处理新品零销售用「新品冷启动预测」。安全边界：无。",
+  "关键输入": "输入 ：过去 104 周周销量、促销日历（黑五、圣诞、复活节、Prime Day）、自身与竞品价格、外部搜索指数；SKU×仓库×周粒度（卡面示例为 60 个 SKU-仓库组合）。 输出 ：未来 4 周的周需求预测（分层、含促销效应），输出给采购用于按 6 周提前期下单与库存计划。",
+  "关键输出": "输入 ：过去 104 周周销量、促销日历（黑五、圣诞、复活节、Prime Day）、自身与竞品价格、外部搜索指数；SKU×仓库×周粒度（卡面示例为 60 个 SKU-仓库组合）。 输出 ：未来 4 周的周需求预测（分层、含促销效应），输出给采购用于按 6 周提前期下单与库存计划。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：供应链需求预测、分层预测、多SKU批量预测、采购提前期、促销效应建模。何时不用：要按准确率口径定目标与分层用「预测准确率MAPE体系」，要处理新品零销售用「新品冷启动预测」。安全边界：无。时，用它产出或更新：输入 ：过去 104 周周销量、促销日历（黑五、圣诞、复活节、Prime Day）、自身与竞品价格、外部搜索指数；SKU×仓库×周粒度（卡面示例为 60 个 SKU-仓库组合）。 输出 ：未来 4 周的周需求预测（分层、含促销效应），输出给采购用于按 6 周提前期下单与库存计划。",
+  "skill_id": "03054-p2s-demand-forecasting-supply-chain-1d7f2153",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-demand-forecasting-supply-chain/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-demand-forecasting-supply-chain/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b51b90faea2e3b1733cbc6052295c64182b0aa3b205c7406df0d1fe0136fb6b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

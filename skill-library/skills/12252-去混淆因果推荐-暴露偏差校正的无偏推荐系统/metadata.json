@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-deconfounded-recommendation",
+  "中文名称": "去混淆因果推荐 暴露偏差校正的无偏推荐系统",
+  "一句话作用": "触发词：去偏推荐、暴露偏差、IPS 加权、倾向得分、无偏排序。何时不用：要生成式地给新品做嵌入推荐用「扩散模型推荐」；要压制首页同质化用「多样性重排 SMMR」。安全边界：倾向得分取倒数会放大估计误差，必须做权重裁剪（卡页示例上限 50）；随机展示流量仅用于校准，不得用本方法歧视性压低某类商品曝光。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要电商团队面临\"推荐系统流行度偏差导致新品和长尾商品被系统性低估\"——IPS去混淆推荐使Precision@20提升35%，年化新品孵化价值约180万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12252-p2s-causal-deconfounded-recommendation-1067d3f1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-causal-deconfounded-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-causal-deconfounded-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0830c08450c7122155d9deda77ce8a0d6af2a9330debc4c654d9ca6ae759c1d4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

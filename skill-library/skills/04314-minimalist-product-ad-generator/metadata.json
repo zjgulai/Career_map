@@ -1,0 +1,22 @@
+{
+  "英文名称": "minimalist-product-ad-generator",
+  "中文名称": "待补：minimalist-product-ad-generator",
+  "一句话作用": "Turn product images into a minimalist ad with preserved identity, concise English copy, independent anchors, a beat storyboard, and music replacement. Not for talking-head ads or screen demos.",
+  "关键输入": "Use this Skill for requests like: - \"Make an Apple-style product ad from this product photo\" - \"Create a premium minimalist ecommerce product film\" - \"Turn this product image into a minimalist launch ad\" - \"Make a premi…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:02:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use this Skill for requests like: - \"Make an Apple-style product ad from this product photo\" - \"Create a premium minimalist ecommerce product film\" - \"Turn this product image into a minimalist launch ad\" - \"Make a premi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04314-minimalist-product-ad-generator-c0865a48",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/minimalist-product-ad-generator/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/minimalist-product-ad-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5e17fdfcd3390fa959fadfbd2fe908fbe86ab500b8a197f5156f3f8c35a1d3d8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

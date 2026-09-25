@@ -1,0 +1,22 @@
+{
+  "英文名称": "macro-to-stock",
+  "中文名称": "宏观行业个股传导",
+  "一句话作用": "用于宏观—行业—个股传导分析，聚焦宏观研究/资产配置/行业传导/自上而下研究。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户关注利率、汇率、财政、地产、出口、通胀、全球景气等变化时，想知道这些变化会通过什么路径传导到哪些行业，再传导到哪些公司。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于宏观—行业—个股传导分析，聚焦宏观研究/资产配置/行业传导/自上而下研究。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户关注利率、汇率、财政、地产、出口、通胀、全球景气等变化时，想知道这些变化会通过什么路径传导到哪些行业，再传导到哪些公司。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05422-macro-to-stock-1b39a25e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/macro-to-stock/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/macro-to-stock/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df4b39c8d1a1835915559942168f64fad751742e463e9080c6e8d8c0a340e1b8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

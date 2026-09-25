@@ -1,0 +1,22 @@
+{
+  "英文名称": "eslint-rules",
+  "中文名称": "待补：eslint-rules",
+  "一句话作用": "Use when eSLint built-in rules including rule configuration, severity levels, and disabling strategies.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:12:11+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when eSLint built-in rules including rule configuration, severity levels, and disabling strategies.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04854-eslint-rules-c4ba40ca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/eslint-rules/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/eslint-rules/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c29d8aad5ebb3897c1ca0ba561a12e1820654a89e629a17dfd1d98f2f6bbbd4e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

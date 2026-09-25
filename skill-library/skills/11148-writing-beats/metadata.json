@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-beats",
+  "中文名称": "待补：writing-beats",
+  "一句话作用": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:17:11+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11148-writing-beats-38a0e9a4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/mattpocock__skills/skills/in-progress/writing-beats/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/mattpocock__skills/skills/in-progress/writing-beats/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

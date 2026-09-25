@@ -1,0 +1,22 @@
+{
+  "英文名称": "refactoring",
+  "中文名称": "待补：refactoring",
+  "一句话作用": "Automated refactoring assistant. Performs safe code transformations including rename, extract method, inline variable, and move code. Provides refactoring suggestions and performs batch operations with preview and undo…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:45+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Automated refactoring assistant. Performs safe code transformations including rename, extract method, inline variable, and move code. Provides refactoring suggestions and performs batch operations with preview and undo…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05051-refactoring-5827c5df",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/refactoring/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/refactoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "11bdafe0426bad4f8996b67a8fbeb62b8dd7afbee354989b28f58309154eb6f9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

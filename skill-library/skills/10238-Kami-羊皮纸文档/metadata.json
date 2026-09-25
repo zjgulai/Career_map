@@ -1,0 +1,22 @@
+{
+  "英文名称": "doc-kami-parchment",
+  "中文名称": "Kami 羊皮纸文档",
+  "一句话作用": "暖羊皮纸底 ( f5f4ed) + 墨蓝单色 accent ( 1B365D) + 单一衬线字体, 编辑级排印",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:27+08:00",
+  "业务场景": "personal",
+  "解决具体问题": "当需要暖羊皮纸底 ( f5f4ed) + 墨蓝单色 accent ( 1B365D) + 单一衬线字体, 编辑级排印时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10238-doc-kami-parchment-6b901261",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/doc-kami-parchment/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/doc-kami-parchment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "81ebb3526f8c7c0beaacec46bfdf1406d0f7f7f04bd889b41ac1ad25f34fa8c0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

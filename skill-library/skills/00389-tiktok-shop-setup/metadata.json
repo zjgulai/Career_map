@@ -1,0 +1,22 @@
+{
+  "英文名称": "tiktok-shop-setup",
+  "中文名称": "待补：tiktok-shop-setup",
+  "一句话作用": "Architect and launch a native TikTok Shop integration. Configure catalog synchronization, order management, and affiliate creator programs to enable in-app commerce, live shopping, and viral growth.",
+  "关键输入": "- Shadowbanning / Content Violations: TikTok may \"hide\" your products if your videos contain \"Restricted Claims\" (e.g., \"Cures acne\" or \"Instant weight loss\"). Keep medical/health claims strictly to what is on the FDA-a…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:36+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- Shadowbanning / Content Violations: TikTok may \"hide\" your products if your videos contain \"Restricted Claims\" (e.g., \"Cures acne\" or \"Instant weight loss\"). Keep medical/health claims strictly to what is on the FDA-a…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00389-tiktok-shop-setup-ab5b102e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/tiktok-shop-setup/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/tiktok-shop-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dc99e52358d653a08d4f6e3c812b1d3b7338b92d2c50c63ea847c9d2767299cb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

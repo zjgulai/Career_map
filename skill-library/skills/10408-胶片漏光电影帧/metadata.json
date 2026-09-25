@@ -1,0 +1,22 @@
+{
+  "英文名称": "frame-light-leak-cinema",
+  "中文名称": "胶片漏光电影帧",
+  "一句话作用": "胶片漏光 + 颗粒噪点 + 16:9 letterbox + 衬线大字, 电影感开场 / 章节卡",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "video",
+  "解决具体问题": "当需要胶片漏光 + 颗粒噪点 + 16:9 letterbox + 衬线大字, 电影感开场 / 章节卡时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10408-frame-light-leak-cinema-108813e6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/frame-light-leak-cinema/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/frame-light-leak-cinema/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8762e5951a80c3a152d0a9e10b2dfe61e1cca1b7d4e31b759ff982b0dbad247c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

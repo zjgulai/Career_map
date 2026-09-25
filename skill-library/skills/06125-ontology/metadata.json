@@ -1,0 +1,22 @@
+{
+  "英文名称": "ontology",
+  "中文名称": "待补：ontology",
+  "一句话作用": "Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document), linking related objects, enforcing constraints, planning multi-step…",
+  "关键输入": "Trigger Action --------- -------- \"Remember that...\" Create/update entity \"What do I know about X?\" Query graph \"Link X to Y\" Create relation \"Show all tasks for project Z\" Graph traversal \"What depends on X?\" Dependenc…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:01:18+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Trigger Action --------- -------- \"Remember that...\" Create/update entity \"What do I know about X?\" Query graph \"Link X to Y\" Create relation \"Show all tasks for project Z\" Graph traversal \"What depends on X?\" Dependenc…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06125-ontology-40425860",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/ontology/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/ontology/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "669830c58a0caa4b977229a79e3723c09e5c2fdd74da84007f125891aa0c7488",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

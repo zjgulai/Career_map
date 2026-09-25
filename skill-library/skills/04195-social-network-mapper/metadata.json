@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-network-mapper",
+  "中文名称": "待补：social-network-mapper",
+  "一句话作用": "- Map social relationships between people using Twitter/X interactions (mentions, retweets, replies), and optional GitHub collaboration. Build and analyze social graphs, detect communities, and summarize clusters. Use w…",
+  "关键输入": "- Seed list : Names and, when possible, Twitter/X handles (and optionally GitHub usernames) for the people to map. - If handles are unknown: use people-search or Twitter search user by name/company to resolve handles before running the mapper.",
+  "关键输出": "1. Text summary : - Seed list and how handles were resolved. - Edge type and weight used. - Graph stats (nodes, edges, density, components, communities). - Centrality: top 5–10 by degree/betweenness. - Per-cluster description (members + interpretation). 2. Vi…",
+  "最新更新时间": "2026-09-08T00:24:57+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- User wants to understand who interacts with whom among a set of people (e.g. employees or executives). - User asks for \"互动账号关系\", \"social graph\", \"relationship map\", or \"clusters\". - org-structure-research calls this s…时，用它产出或更新：1. Text summary : - Seed l…",
+  "skill_id": "04195-social-network-mapper-1b09ba6a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/social-network-mapper/SKILL.md",
+  "relative_path": "lute/.dsh/skills/social-network-mapper/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d010e86eec4e94ff0e0bdfb2fddd6a761b301816f01097a32ba85f72c7effa6f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

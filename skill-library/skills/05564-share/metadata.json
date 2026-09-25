@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-share",
+  "中文名称": "待补：skill-share",
+  "一句话作用": "A skill that creates new Claude skills and automatically shares them on Slack using Rube for seamless team collaboration and skill discovery.",
+  "关键输入": "- Slack workspace connection via Rube - Write access to skill creation directory - Python 3.7+ for skill creation scripts - Target Slack channel for skill notifications",
+  "关键输出": "- Validates SKILL.md format and required fields - Checks naming conventions - Ensures metadata completeness before packaging",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "creative-collaboration",
+  "解决具体问题": "当需要Use this skill when you need to: - Create new Claude skills with proper structure and metadata - Generate skill packages ready for distribution - Automatically share created skills on Slack channels for team visibility时，用它产出或更新：- Validates SKILL.md format…",
+  "skill_id": "05564-skill-share-b4ed707f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/skill-share/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/skill-share/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9bf996d91006ab0fe804ce66aaeb7ffcfe6c028ed39f77d3876c4922ee3a5208",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

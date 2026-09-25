@@ -1,0 +1,22 @@
+{
+  "英文名称": "review-analyst-agent",
+  "中文名称": "待补：review-analyst-agent",
+  "一句话作用": "Use this skill to analyze product reviews, find common issues, and prioritize improvements. Triggers: \"analyze reviews\", \"review analysis\", \"customer feedback\", \"what are people saying\", \"product reviews\", \"review senti…",
+  "关键输入": "- Web access for scraping reviews - No API keys required",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:34+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Use this skill to analyze product reviews, find common issues, and prioritize improvements. Triggers: \"analyze reviews\", \"review analysis\", \"customer feedback\", \"what are people saying\", \"product reviews\", \"review senti…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00366-review-analyst-agent-b8b07429",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/review-analyst-agent/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/review-analyst-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e356932f3ddead77bea3f397c312d5789a7a8b1a2401e8771bfb17622605cad3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

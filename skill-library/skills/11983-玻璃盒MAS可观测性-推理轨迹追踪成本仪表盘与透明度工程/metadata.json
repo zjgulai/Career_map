@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-glass-box-mas-observability",
+  "中文名称": "玻璃盒MAS可观测性 推理轨迹追踪成本仪表盘与透明度工程",
+  "一句话作用": "触发词：玻璃盒可观测性、推理轨迹追踪、Token成本仪表盘、审计轨迹导出、决策可追溯、透明度工程。何时不用：只需单 Agent 的运行链路排查用「Agent可观测性追踪」；要用 SLI 门限做上线门禁用「Agent SLO 管理」。安全边界：审计轨迹须满足合规与信息安全要求（如 ISO 27001 类认证口径），导出内容不得含未脱敏的敏感业务数据与个人信息，留存与访问须受控。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理层不信任AI建议因为\"不知道AI为什么这么说\"，AI采用率仅20%——玻璃盒推理轨迹+Token成本仪表盘使管理层信任度从30%提升至78%，AI辅助决策采用率从20%升至65%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11983-p2s-glass-box-mas-observability-822443a4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-glass-box-mas-observability/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-glass-box-mas-observability/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d78f4a0bf0a6f0d88fcbd299bc2829a6f81147e9148fa24e06b6b9ae0b52dde3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-dupont-analysis",
+  "中文名称": "跨境电商杜邦财务分析 Skill",
+  "一句话作用": "跨境电商企业杜邦财务分析Skill。系统化分解ROE驱动因素，评估盈利能力、运营效率和财务杠杆，识别财务健康度与改进机会。 触发条件: 1. 用户提到\"杜邦分析\"、\"ROE分解\"、\"净资产收益率\" 2. 用户需要\"财务诊断\"、\"盈利能力分析\" 3. 用户上传财务报表数据（利润表、资产负债表） 4. 用户询问\"财务健康度\"、\"财务比率分析\" 输出内容: - 杜邦分析金字塔可视化 - 三因素/五因素分解报告 - 同行业对比分析 - 财务改…",
+  "关键输入": "必需财务报表 : 1. 利润表 (Income Statement) - 营业收入 (Revenue) - 营业成本 (COGS) - 营业费用 (Operating Expenses) - 营业利润 (Operating Income/EBIT) - 利息费用 (Interest Expense) - 税前利润 (EBT) - 所得税 (Tax) - 净利润 (Net Income) 2. 资产负债表 (Balance Sheet) - 流动资产 (Current Assets) - 现金及等价物",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-03T21:12:41+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境电商企业杜邦财务分析Skill。系统化分解ROE驱动因素，评估盈利能力、运营效率和财务杠杆，识别财务健康度与改进机会。 触发条件: 1. 用户提到\"杜邦分析\"、\"ROE分解\"、\"净资产收益率\" 2. 用户需要\"财务诊断\"、\"盈利能力分析\" 3. 用户上传财务报表数据（利润表、资产负债表） 4. 用户询问\"财务健康度\"、\"财务比率分析\" 输出内容: - 杜邦分析金字塔可视化 - 三因素/五因素分解报告 - 同行业对比分析 - 财务改…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09412-cbec-dupont-analysis-1c9f26f6",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/01-financial-analysis/dupont-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/01-financial-analysis/dupont-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "05d9e828852dbd0afd9f8d8a733810b454502d40e172943f89e147e17b264fd5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "mongodb-search-and-ai",
+  "中文名称": "待补：mongodb-search-and-ai",
+  "一句话作用": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid Search solutions. Use this skill when users need to build search functionality for text-based queri…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Creating indexes: 1. Explain the index configuration in plain language 2. Show the JSON structure 3. Ask what the user wants to name the index 4. Get explicit approval: \"Should I create this index?\" 5. Use MCP's create-index tool after approval 6. In read-onl…",
+  "最新更新时间": "2026-09-19T03:38:11+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid Search solutions. Use this skill when users need to build search functionality for text-based queri…时，用它产出或更新：Creating indexes: 1. Expla…",
+  "skill_id": "04540-mongodb-search-and-ai-81758da7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/mongodb-agent-skills/skills/mongodb-search-and-ai/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/mongodb-agent-skills/skills/mongodb-search-and-ai/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d04a65cbb278d402507aa087ba8dbaaf39fbe5951b97dc7bb479b93524f1a58",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

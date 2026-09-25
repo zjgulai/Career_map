@@ -1,0 +1,22 @@
+{
+  "英文名称": "red-main-ui-template",
+  "中文名称": "模版（设计系统 静态壳）",
+  "一句话作用": "red-main 内容营销平台的 UI 设计系统与静态模版。用于①在本会话内用 dsh-ui 组件还原平台视觉风格；②为新项目生成同风格界面骨架；③复刻平台页面布局（顶部栏/双Tab/数据表格/KOL卡片）。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-04T20:08:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要red-main 内容营销平台的 UI 设计系统与静态模版。用于①在本会话内用 dsh-ui 组件还原平台视觉风格；②为新项目生成同风格界面骨架；③复刻平台页面布局（顶部栏/双Tab/数据表格/KOL卡片）。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10046-red-main-ui-template-9f044578",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/kol-content-expert/skills/red-main-ui-template/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/kol-content-expert/skills/red-main-ui-template/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5bc03e779a13284c9884fa8221df289d76027d012a7b118fa90e2a29ad7fa375",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

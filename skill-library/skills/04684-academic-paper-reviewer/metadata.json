@@ -1,0 +1,22 @@
+{
+  "英文名称": "academic-paper-reviewer",
+  "中文名称": "待补：academic-paper-reviewer",
+  "一句话作用": "Multi-perspective academic paper review with dynamic reviewer personas. Simulates 5 independent reviewers (EIC + 3 peer reviewers + Devil's Advocate) with field-specific expertise. Supports full review, re-review (verif…",
+  "关键输入": "Example Demonstrates --------- ------------- examples/hei paper review example.md Full review example: \"Impact of Declining Birth Rates on Management Strategies of Taiwan's Private Universities\" examples/interdisciplina…",
+  "关键输出": "Each reviewer's report structure is detailed in templates/peer review report template.md.",
+  "最新更新时间": "2026-09-19T03:48:13+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Example Demonstrates --------- ------------- examples/hei paper review example.md Full review example: \"Impact of Declining Birth Rates on Management Strategies of Taiwan's Private Universities\" examples/interdisciplina…时，用它产出或更新：Each reviewer's report str…",
+  "skill_id": "04684-academic-paper-reviewer-d402084c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/academic-paper-reviewer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/academic-paper-reviewer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b594fdd5812e5d80ce094c420f14aa5e0759fe12567adea1c4d8edad7e71a36",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

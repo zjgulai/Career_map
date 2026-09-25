@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-factscore-claim-verification-pipeline",
+  "中文名称": "原子声明级事实核查流水线",
+  "一句话作用": "触发词：原子声明核查、FActScore、入库门控、事实核验、参数幻觉。何时不用：要评整个问答链路的质量走 RAG 评测；要核对报表数字与数据库是否一致走 BI 幻觉检测。安全边界：检索与引用须遵守论文版权规范，避免全文抓取造成侵权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要知识库运营面临\"萃取的Skill卡片参数可能存在幻觉污染知识图谱\"——FActScore原子声明级核查将入库错误率从未知→可量化，人工审核成本降低95%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03121-p2s-factscore-claim-verification-pipeline-24023eea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-factscore-claim-verification-pipeline/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-factscore-claim-verification-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "94307cae2481050009ac5204eb56332f04a0b120c79018511bddedff2104369a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

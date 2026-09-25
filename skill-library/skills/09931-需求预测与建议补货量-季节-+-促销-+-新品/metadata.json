@@ -1,0 +1,22 @@
+{
+  "英文名称": "需求预测与建议补货量（季节 + 促销 + 新品）",
+  "中文名称": "待补：需求预测与建议补货量（季节 + 促销 + 新品）",
+  "一句话作用": "当 replenishment-predictor 判定存在断货风险或需滚动补货量时，结合季节因子、促销计划、新品爬坡生成建议采购/调拨量区间。",
+  "关键输入": "- replenishment-predictor 输出或等价预警列表。 - 可选输入： 促销计划表 、 季节指数 、 新品爬坡曲线 （无则标为 1.0）。",
+  "关键输出": "- 表：sku market suggested qty min suggested qty max arrival window assumptions finance flag - 敏感性 ：促销误差 ±x% 对库存的影响一行。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当 replenishment-predictor 判定存在断货风险或需滚动补货量时，结合季节因子、促销计划、新品爬坡生成建议采购/调拨量区间。时，用它产出或更新：- 表：sku market suggested qty min suggested qty max arrival window assumptions finance flag - 敏感性 ：促销误差 ±x% 对库存的影响一行。",
+  "skill_id": "09931-skill-5a30d5f4",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/demand-forecast-engine/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/demand-forecast-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "09d80f2142c2cd58f855c0d4caef3c2117e25b6e3569ba35d3bc145fe0ebd213",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

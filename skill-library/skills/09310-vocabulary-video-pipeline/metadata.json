@@ -1,0 +1,22 @@
+{
+  "英文名称": "vocabulary-video-pipeline",
+  "中文名称": "待补：vocabulary-video-pipeline",
+  "一句话作用": "基于 Remotion 的词汇视频自动化生成 skill。输入一个英文单词，自动跑完诊断、TTS 音频、节奏分割、视频渲染、飞书上传和成本汇报。",
+  "关键输入": "- 生成面向中小学生的英文单词解释视频 - 需要一键从单词到视频的自动化流程 - 需要 TTS 音频与视觉动画节奏完美同步",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-05T01:33:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 生成面向中小学生的英文单词解释视频 - 需要一键从单词到视频的自动化流程 - 需要 TTS 音频与视觉动画节奏完美同步时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09310-vocabulary-video-pipeline-205be2cf",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/draco-content/vocabulary-video-pipeline/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/draco-content/vocabulary-video-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0810a86190fe0c5d9fdfc65c8eefcc467c5507d231f8cfab6da82f72182f8408",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

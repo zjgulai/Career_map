@@ -1,0 +1,22 @@
+{
+  "英文名称": "deployment-topology-analyzer",
+  "中文名称": "待补：deployment-topology-analyzer",
+  "一句话作用": "Deployment and runtime topology analysis. Use when the user needs to understand where software runs, how environments, clusters, networks, CI/CD, cloud resources, runtime instances, scaling, release paths, and operation…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "These artifacts capture runtime placement, release paths, operational evidence, and deployment risks. - deployment-topology.dot dsl mmd: topology source showing runtime units, environments, networks, and infrastructure boundaries. - release-path.dot mmd: depl…",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Deployment and runtime topology analysis. Use when the user needs to understand where software runs, how environments, clusters, networks, CI/CD, cloud resources, runtime instances, scaling, release paths, and operation…时，用它产出或更新：These artifacts capture ru…",
+  "skill_id": "04399-deployment-topology-analyzer-f8e87613",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/deployment-topology-analyzer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/deployment-topology-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2c7adcd5e205399a7d43c4a979f2a17ff787264c488a3f63a513c9d68c61e157",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

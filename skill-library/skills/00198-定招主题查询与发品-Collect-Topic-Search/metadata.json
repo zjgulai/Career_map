@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-product-recruitment",
+  "中文名称": "定招主题查询与发品(Collect Topic Search",
+  "一句话作用": "阿里国际站所有定招相关意图的唯一 Skill。用户只要涉及定招主题，无论是查主题、发品、检测已发品是否符合定招要求、还是为定招商品生成商品图片（套图），均由本 Skill 接收后在内部做细分路由。 当前已覆盖能力： ① 查定招主题：推荐（无关键词）/ 搜索（关键词或 topicId 精查）/ 筛选（tab、类目、国家、主题标签、上新、市场热卖等）。 ② 定招发品：默认调用 listing product draft by topic…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要阿里国际站所有定招相关意图的唯一 Skill。用户只要涉及定招主题，无论是查主题、发品、检测已发品是否符合定招要求、还是为定招商品生成商品图片（套图），均由本 Skill 接收后在内部做细分路由。 当前已覆盖能力： ① 查定招主题：推荐（无关键词）/ 搜索（关键词或 topicId 精查）/ 筛选（tab、类目、国家、主题标签、上新、市场热卖等）。 ② 定招发品：默认调用 listing product draft by topic…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00198-alibaba-product-recruitment-a9d6ebbf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-recruitment/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-recruitment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e9bfe440dacab856a0909e501817351f5ef1bda255df7f7d7d53d61831a7a7d3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

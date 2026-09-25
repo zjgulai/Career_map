@@ -1,0 +1,22 @@
+{
+  "英文名称": "dto-sync-patterns",
+  "中文名称": "待补：dto-sync-patterns",
+  "一句话作用": "Patterns for synchronizing DTOs between frontend and backend. Covers shared types, code generation, and validation sync. USE WHEN: user asks about \"DTO sync\", \"shared types\", \"frontend backend types\", \"type consistency\"…",
+  "关键输入": "Issue Likely Cause Solution ------- -------------- ---------- Type mismatch Manual sync drift Regenerate from schema Validation passes frontend, fails backend Different rules Align validation schemas",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Issue Likely Cause Solution ------- -------------- ---------- Type mismatch Manual sync drift Regenerate from schema Validation passes frontend, fails backend Different rules Align validation schemas时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04846-dto-sync-patterns-8d406bcb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dto-sync-patterns/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dto-sync-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a2d8752cdfc58df1ba04f2091c851e66265ce9fc222203449f5cba1a6c57456a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

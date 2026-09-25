@@ -1,0 +1,22 @@
+{
+  "英文名称": "memo-builder",
+  "中文名称": "待补：memo-builder",
+  "一句话作用": "Use when drafting or reviewing formal public-equity investment memos. Do not use for live trade construction or credit-first memos; use long-short-pitch or Credit Markets as appropriate.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when drafting or reviewing formal public-equity investment memos. Do not use for live trade construction or credit-first memos; use long-short-pitch or Credit Markets as appropriate.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00996-memo-builder-a39801dd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/memo-builder/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/memo-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d8964bc7026aa8a99ce9f517285932ee8754840b3796161d498330282468f06",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

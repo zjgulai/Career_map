@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-amazon-account-appeal-strategy",
+  "中文名称": "账号申诉策略（POA 行动计划）",
+  "一句话作用": "触发词：Amazon 账号申诉、POA 行动计划、Listing 下架恢复、知识产权投诉、账号 ODR 超标、申诉说服力评分。何时不用：要判定某条评论是否为虚假评论并出举报证据用「AI-Fake-Review-Detection」或「VOC-Fraud-Review-Detection」；要做事前合规拦截用「Amazon-ToS-Compliance-Guardrail」；本技能只生成申诉文本与评分。安全边界：只产出申诉材料与评分，不…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要吸奶器 Listing 被 Amazon 以知识产权为由强制下架，模板化 POA 申诉成功率仅 20-30%，每天断货损失超 3 万元——结构化三段式 POA（根因/纠正/预防）可将申诉成功率提升至 65-80%，恢复周期缩短至 3-7 天时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02767-p2s-amazon-account-appeal-strategy-74f97c84",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-amazon-account-appeal-strategy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-amazon-account-appeal-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4515d01a636466a65c0e4cb0e3334475edcad226651b9cc82abfb302ad9d21ac",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

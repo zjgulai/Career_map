@@ -1,0 +1,22 @@
+{
+  "英文名称": "JTBD分析器",
+  "中文名称": "分析器",
+  "一句话作用": "用 Jobs-to-be-Done 框架分析用户任务、购买动机、痛点与产品机会。触发词：JTBD分析器、JTBD、customer needs、job to be done、user research、concept test、AI persona、选品概念测试、痛点聚类。何时不用：纯数据趋势分析、只需快速答案、已有明确 PRD 只需润色、改品清单提取、A/B测试方案设计、问卷设计、用户画像仅描述、需求池管理、Kano模型分类、竞品功…",
+  "关键输入": "- 产品类别 - 用户评价数据 - 用户访谈记录（可选） - 竞品对比数据 - 产品概念列表（可选） - 目标地区、渠道和价格带（可选）",
+  "关键输出": "- 用户任务清单（Jobs） - 痛点与收益分析 - 情境触发因素 - 竞争替代方案 - 产品机会点 - 概念测试假设矩阵 - RICE / 影响-信心优先级 - 真实验证计划",
+  "最新更新时间": "2026-09-02",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用户需求深度分析 - 购买动机研究 - 产品功能优先级 - 差异化定位 - 新品概念验证 - 早期选品概念对比 - AI persona 模拟访谈后的假设整理时，用它产出或更新：- 用户任务清单（Jobs） - 痛点与收益分析 - 情境触发因素 - 竞争替代方案 - 产品机会点 - 概念测试假设矩阵 - RICE / 影响-信心优先级 - 真实验证计划",
+  "skill_id": "09959-jtbd-269f143d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/JTBD分析器/SKILL.md",
+  "relative_path": "lute/project/81-Skills/JTBD分析器/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "24ba7f9e51396d72a9a4cc435082b2c9226e2732b2f4b401920382edfe300dec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

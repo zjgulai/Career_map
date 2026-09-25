@@ -1,0 +1,22 @@
+{
+  "英文名称": "营销海报",
+  "中文名称": "待补：营销海报",
+  "一句话作用": "从营销主题生成可直接发布的完成品海报图片（PNG）。AI 直出材质化字体海报，文字融入画面材质 （霓虹/冰雕/木刻/水墨/玻璃/花卉/金箔/毛笔金 8 种材质风格），不用 Pillow 叠加。内置文字 正确性二次校验，错字自动重试（≤ 2 次）。支持多尺寸（16:9 公众号 / 3:4 小红书 / 1:1 朋友圈 / 9:16 故事）。可选消费 design-tokens.json 约束色彩。 触发关键词：营销图、头图、海报、bann…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Step 1 · 写盘 （必做）：调用 Write 工具把完整 JSON 写到 spark-output/context/poster.json Step 2 · 自检行 ：输出 ✅ poster.json 已写盘到 spark-output/context/poster.json Step 3 · 紧凑 marker（必须在 chat 中输出） ： ⛔ 即使 Step 1 写盘成功，也 必须 在 chat 中输出以下 marker（让下游 Skill 在纯对话场景下也能发现 poster 上下文）：",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要从营销主题生成可直接发布的完成品海报图片（PNG）。AI 直出材质化字体海报，文字融入画面材质 （霓虹/冰雕/木刻/水墨/玻璃/花卉/金箔/毛笔金 8 种材质风格），不用 Pillow 叠加。内置文字 正确性二次校验，错字自动重试（≤ 2 次）。支持多尺寸（16:9 公众号 / 3:4 小红书 / 1:1 朋友圈 / 9:16 故事）。可选消费 design-tokens.json 约束色彩。 触发关键词：营销图、头图、海报、bann…时，用它产出或更新：Step 1 · 写盘 （必做）：调用 Write…",
+  "skill_id": "04604-skill-5c5fb1bd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/poster/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/poster/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fc434fb2f55b101b16c2223d9d9a4d6bde03bfd3aec6b51d5845e9bbea8fb254",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

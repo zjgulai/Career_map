@@ -1,0 +1,22 @@
+{
+  "英文名称": "review-fix-loop",
+  "中文名称": "待补：review-fix-loop",
+  "一句话作用": "Use when a code analysis tool reports findings and you want an automated fix-verify loop — runs the analysis command, dispatches parallel subagents to fix all findings, verifies with project lint and tests, and loops un…",
+  "关键输入": "CodeRabbit review of all changes: DeepSource issues as JSON: Auto-detect tool from project config: ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要CodeRabbit review of all changes: DeepSource issues as JSON: Auto-detect tool from project config: ---时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05059-review-fix-loop-b7250d45",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/review-fix-loop/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/review-fix-loop/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd11e97858e592a95bc760aae3be484edd930221415ce1abf16ec602073289f4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

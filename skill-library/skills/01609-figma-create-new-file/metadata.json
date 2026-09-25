@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-create-new-file",
+  "中文名称": "待补：figma-create-new-file",
+  "一句话作用": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use figma. Handles plan resolution via whoami if needed. Usage — /figma-crea…",
+  "关键输入": "This skill accepts optional arguments: /figma-create-new-file [editorType] [fileName] - editorType : design (default) or figjam - fileName : Name for the new file (defaults to \"Untitled\") Examples: - /figma-create-new-file — creates a design file named \"Untit…",
+  "关键输出": "The tool returns: - file key — the key of the newly created file - file url — a direct URL to open the file in Figma Use the file key for subsequent tool calls like use figma.",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use figma. Handles plan resolution via whoami if needed. Usage — /figma-crea…时，用它产出或更新：The tool returns: - file k…",
+  "skill_id": "01609-figma-create-new-file-b8378808",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/figma-create-new-file/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/figma-create-new-file/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23f429203bd57f186905b2523d4ff8bdf10d3b85b39fc7eed4786097d81f1adc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

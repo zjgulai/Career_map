@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-advertising-tacos-pnl-integration",
+  "中文名称": "广告TACoS与P集成",
+  "一句话作用": "触发词：TACoS 分析、广告归因、SKU 净利率、新品广告摊销、预算削减评估。何时不用：要算促销增量与供应侧成本用「促销供应侧 ROI」；要评估推荐位带来的增量 GMV 用「推荐系统财务归因」。安全边界：投放受平台政策约束，不得据本卡结论自动调价或无限加预算；削减预算前须保留人工审核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要卖家面临\"广告TACoS 13%财务要求砍预算但不清楚削减是否会伤净利\"——广告P&L集成将广告费按SKU归因重建净利率，把新品高TACoS摊销处理，正确决策年化保护利润29万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12505-p2s-advertising-tacos-pnl-integration-6b58da43",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-advertising-tacos-pnl-integration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-advertising-tacos-pnl-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c522ddfe769bc8f2956970abeb49565441ce7fd47fb3d963f21acf4bc52b5e51",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

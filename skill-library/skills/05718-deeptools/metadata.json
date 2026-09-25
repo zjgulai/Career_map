@@ -1,0 +1,22 @@
+{
+  "英文名称": "deeptools",
+  "中文名称": "待补：deeptools",
+  "一句话作用": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
+  "关键输入": "Before running any analysis, validate BAM, bigWig, and BED files using the validation script: This checks file existence, BAM indices, and format correctness.",
+  "关键输出": "Always validate files first using scripts/validate files.py to check: - File existence and readability - BAM indices present (.bai files) - BED format correctness - File sizes reasonable",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要This skill should be used when: - File conversion : \"Convert BAM to bigWig\", \"generate coverage tracks\", \"normalize ChIP-seq data\" - Quality control : \"check ChIP quality\", \"compare replicates\", \"assess sequencing depth…时，用它产出或更新：Always validate files firs…",
+  "skill_id": "05718-deeptools-2000acf1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/deeptools/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/deeptools/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9eeb0dd027c914bb163751325b88a6e96e9a03d7f0645707fb58245588c55694",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

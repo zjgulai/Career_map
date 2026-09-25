@@ -1,0 +1,22 @@
+{
+  "英文名称": "moonbit-spec-test-development",
+  "中文名称": "待补：moonbit-spec-test-development",
+  "一句话作用": "Create formal spec-driven MoonBit APIs and test suites. Use when asked to set up a spec.mbt, spec-driven tests, or a formal contract-first workflow (e.g., \"set up a formal spec & test suite for Yaml in MoonBit\"), includ…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create formal spec-driven MoonBit APIs and test suites. Use when asked to set up a spec.mbt, spec-driven tests, or a formal contract-first workflow (e.g., \"set up a formal spec & test suite for Yaml in MoonBit\"), includ…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04557-moonbit-spec-test-development-579250df",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/moonbit-skills/0.1.0/skills/moonbit-spec-test-development/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/moonbit-skills/0.1.0/skills/moonbit-spec-test-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b060a91c859b596d5398fbd2cd40f85022c71b53834143eaf741e7527844c2b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

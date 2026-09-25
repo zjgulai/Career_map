@@ -1,0 +1,22 @@
+{
+  "英文名称": "large-file-parquet-analysis-and-highlight",
+  "中文名称": "待补：large-file-parquet-analysis-and-highlight",
+  "一句话作用": "当Excel文件总行数超过1万行时，通过转换为Parquet格式提升读取性能，提取目标指标并计算最大值，最后将结果输出为Excel并对特定行进行高亮标注。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "if 'result data' not in locals(): result data = [(\"分类A\", 100), (\"分类B\", 500), (\"分类C\", 200)] max type = \"分类B\" for row in result data: ws.append(row)",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要当Excel文件总行数超过1万行时，通过转换为Parquet格式提升读取性能，提取目标指标并计算最大值，最后将结果输出为Excel并对特定行进行高亮标注。时，用它产出或更新：if 'result data' not in locals(): result data = [(\"分类A\", 100), (\"分类B\", 500), (\"分类C\", 200)] max type = \"分类B\" for row in result data: ws.append(row)",
+  "skill_id": "04143-large-file-parquet-analysis-and-highlight-4d69c231",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-cell-coloring/category-coloring/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-cell-coloring/category-coloring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d6e0201155cff41e3e2bccfcd032de111291cc6fa3130c02497f1964295e0a67",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

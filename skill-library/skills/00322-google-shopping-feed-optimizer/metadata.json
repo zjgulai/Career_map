@@ -1,0 +1,22 @@
+{
+  "英文名称": "google-shopping-feed-optimizer",
+  "中文名称": "待补：google-shopping-feed-optimizer",
+  "一句话作用": "Trigger: Set up and optimize a product feed for Google Merchant Center to show products in Google Shopping ads.",
+  "关键输入": "- When setting up Google Shopping Ads for the first time. - When products are being disapproved due to missing attributes or data quality issues. - When price or availability in ads is lagging behind the live website. -…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:28+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- When setting up Google Shopping Ads for the first time. - When products are being disapproved due to missing attributes or data quality issues. - When price or availability in ads is lagging behind the live website. -…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00322-google-shopping-feed-optimizer-d301c0af",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/google-shopping-feed-optimizer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/google-shopping-feed-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "95666eb2f6dbadfe423711792c5765db45aa97458ea5dc4988c92d0d14e85b94",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

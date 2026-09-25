@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-daily-report",
+  "中文名称": "待补：ecommerce-daily-report",
+  "一句话作用": "当用户需要生成电商日报/周报时使用：输入1-7天订单CSV，输出日常经营报告、异常预警、关键指标追踪。触发词：电商日报、周报生成、日常复盘、销售监控、经营日报、每日销售报告、周度经营复盘、晨会数据、销售异常预警。何时不用：超过7天的数据、月度/季度复盘、非电商销售数据、仅需查看原始数据、实时数据监控。缺材料时先追问澄清，不编造数据。",
+  "关键输入": "- 需要生成每日/每周电商经营报告 - 监控日常销售异常波动（销售额、订单量、客单价） - 追踪关键运营指标（转化率、TOP SKU等） - 准备运营晨会数据 - 对比昨日/上周同期数据",
+  "关键输出": "日报摘要模板 :",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 需要生成每日/每周电商经营报告 - 监控日常销售异常波动（销售额、订单量、客单价） - 追踪关键运营指标（转化率、TOP SKU等） - 准备运营晨会数据 - 对比昨日/上周同期数据时，用它产出或更新：日报摘要模板 :",
+  "skill_id": "11086-ecommerce-daily-report-6505d013",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ecommerce-daily-report/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ecommerce-daily-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b5cc93d41ca73ecc86bffc8f3dd6aaa95f33e0e4c94818106074b7b4460338de",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

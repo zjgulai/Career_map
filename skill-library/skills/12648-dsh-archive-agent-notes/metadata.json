@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-archive-agent-notes",
+  "中文名称": "待补：dsh-archive-agent-notes",
+  "一句话作用": "Use when adding, auditing, pruning, archiving, restoring, or reviewing Agent Notes in deepseek-harness; checks every new note for superseded active records, classifies implemented notes by future decision value, deletes…",
+  "关键输入": "These examples set the bar; the word counts demonstrate that size is not the test. Archive implemented notes such as: - collapsed sidebar control rail — 533 words: closed, minor UI behavior; - Commander argument adapter…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T11:24:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要These examples set the bar; the word counts demonstrate that size is not the test. Archive implemented notes such as: - collapsed sidebar control rail — 533 words: closed, minor UI behavior; - Commander argument adapter…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12648-dsh-archive-agent-notes-bae2f4d8",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-archive-agent-notes/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-archive-agent-notes/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5500e960a645be6f842fc8506817c3ef4132182edd79804fc5595f68fddba314",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

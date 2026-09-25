@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-meeting-sdk-windows",
+  "中文名称": "待补：zoom-meeting-sdk-windows",
+  "一句话作用": "Zoom Meeting SDK for Windows - Native C++ SDK for embedding Zoom meetings into Windows desktop applications. Supports custom UI architecture with raw video/audio data, headless bots, and deep integration with meeting fe…",
+  "关键输入": "- Zoom app with Meeting SDK credentials (Client ID & Secret) - Visual Studio 2019/2022 or later - Windows 10 or later - C++ development environment - vcpkg for dependency management Need help with authentication? See the zoom-oauth skill for JWT token generat…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:40+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要💡 Pro Tip : These are minimal examples. For complete, tested code see: - Authentication Pattern - Full auth workflow - Raw Video Capture - Complete video capture时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01197-zoom-meeting-sdk-windows-85fb7bf9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/windows/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/meeting-sdk/windows/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "438f3f3eff93bc88a26a0c41079243a84c660eb5f4d81b96918aff47e9a34f35",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

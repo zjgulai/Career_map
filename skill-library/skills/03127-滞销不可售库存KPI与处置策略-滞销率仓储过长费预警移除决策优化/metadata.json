@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fba-stranded-unfulfillable-inventory-kpi",
+  "中文名称": "滞销不可售库存KPI与处置策略 滞销率仓储过长费预警移除决策优化",
+  "一句话作用": "触发词：FBA滞销、不可售库存、库龄超期、仓储过长费、移除决策、索赔材料。何时不用：要自动触发降价清仓时用「降价清仓触发」；跨渠道调拨库存用「一盘货库存调度」。安全边界：移除与弃置不可逆须人工确认，索赔材料须以真实入仓与调查记录为依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要FBA运营面临\"仓储过长费持续蚕食利润\"——库龄×销速四象限处置决策节省年化LTSF约$18,000，同时追回Amazon赔款$2,000+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03127-p2s-fba-stranded-unfulfillable-inventory-kpi-7983b9fa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-fba-stranded-unfulfillable-inventory-kpi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-fba-stranded-unfulfillable-inventory-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e62bb4fe9f74ba7d5f90c02b1049e1a0bd716ba23184bcef1bec7ba270140a69",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cooking-tutorial",
+  "中文名称": "美食制作与烹饪教学 Skill",
+  "一句话作用": "生成可照做、图文并茂的美食制作与烹饪教学内容：菜谱、烘焙甜品、饮品、烹饪技巧、菜单/套餐设计、食材利用、失败诊断、配方替代、备菜保存，默认输出文档或 HTML 图文教程。 USE WHEN：用户想做某道菜/甜品/饮品、给出已有食材求方案、要设计一桌菜或一周餐、学某个烹饪技巧、制作失败求补救、求配方替换或备菜保存方法。 DO NOT USE WHEN：用户要的是短视频脚本、直播稿、小红书笔记、课程大纲等内容包装类需求（除非明确要求）；或…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "输出形式强制只在 文档 与 HTML 之间选择，不存在第三种形式。无论哪种形式，都 必须图文并茂 ：在文字步骤清晰、结构完整的基础上，为关键步骤、关键状态、成品呈现、食材说明等部分配置图片和图片说明。 图像不是附属装饰，而是帮助用户理解操作过程、状态判断和最终效果的必需组成部分。",
+  "最新更新时间": "2026-09-16T11:25:01+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要生成可照做、图文并茂的美食制作与烹饪教学内容：菜谱、烘焙甜品、饮品、烹饪技巧、菜单/套餐设计、食材利用、失败诊断、配方替代、备菜保存，默认输出文档或 HTML 图文教程。 USE WHEN：用户想做某道菜/甜品/饮品、给出已有食材求方案、要设计一桌菜或一周餐、学某个烹饪技巧、制作失败求补救、求配方替换或备菜保存方法。 DO NOT USE WHEN：用户要的是短视频脚本、直播稿、小红书笔记、课程大纲等内容包装类需求（除非明确要求）；或…时，用它产出或更新：输出形式强制只在 文档 与 HTML 之间选择，不存…",
+  "skill_id": "06697-cooking-tutorial-a16c6b4f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/branches/cooking-tutorial/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/branches/cooking-tutorial/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6af52a23f3671dc281aae7bb622fd685c17ad8202ede47adfe9848adb97c445b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

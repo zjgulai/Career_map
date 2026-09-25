@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-latest-fetch",
+  "中文名称": "待补：social-latest-fetch",
+  "一句话作用": "Curl-first collection of public social profile data and recent posts/videos/tweets for Media Kits and creator pages. Use for YouTube, Instagram, TikTok, X/Twitter, or Facebook when you need creator profile fields, follo…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Prefer 6-12 latest items per platform; fewer is fine when the source only exposes fewer. - Deduplicate by canonical content URL. - Keep raw signed CDN URLs only as source evidence unless the UI can display them; for final sites, self-host unstable Instagram…",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Curl-first collection of public social profile data and recent posts/videos/tweets for Media Kits and creator pages. Use for YouTube, Instagram, TikTok, X/Twitter, or Facebook when you need creator profile fields, follo…时，用它产出或更新：- Prefer 6-12 latest items…",
+  "skill_id": "00147-social-latest-fetch-8744c4f1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/social-latest-fetch/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/social-latest-fetch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b201282adb1d3679dc9d7ba87081474e3ad10145641e8e12dee0d1cbd49b1fb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

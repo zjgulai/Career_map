@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-content-marketing-growth",
+  "中文名称": "内容营销增长 驱动的内容用户增长因果链路",
+  "一句话作用": "触发词：AIGC 内容、内容矩阵、关键词意图、质量评分、增量分析。何时不用：只做品牌叙事本地化用「AI 品牌故事」；只优化 AI 搜索引用份额用「GEO 生成式引擎优化」。安全边界：母婴健康话题内容必须标注仅供参考并建议咨询医生，按 FTC 要求标注 AI 生成，不得发布婴儿疾病治疗建议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容团队面临\"人工撰写内容每月仅20篇无法覆盖5000+母婴关键词\"——AIGC内容矩阵每月产出200篇成本仅12元/篇，年化内容营销ROI约7倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11599-p2s-ai-content-marketing-growth-f9338f7d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ai-content-marketing-growth/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ai-content-marketing-growth/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bff491be23eb7db2852bd02f96235dafa64493a0a83ff2267db5bd8ea91dbdda",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

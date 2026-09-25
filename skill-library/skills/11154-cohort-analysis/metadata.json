@@ -1,0 +1,22 @@
+{
+  "英文名称": "cohort-analysis",
+  "中文名称": "待补：cohort-analysis",
+  "一句话作用": "Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating ch…",
+  "关键输入": "Example 1: Upload CSV Data Example 2: Describe Data Format Example 3: Feature Adoption Analysis",
+  "关键输出": "1. Include time dimension : Provide data across multiple time periods 2. Define cohort clearly : Make cohort grouping explicit (signup month, feature launch date, etc.) 3. Provide context : Explain product changes, launches, or events during the period",
+  "最新更新时间": "2026-09-16T00:16:47+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Example 1: Upload CSV Data Example 2: Describe Data Format Example 3: Feature Adoption Analysis时，用它产出或更新：1. Include time dimension : Provide data across multiple time periods 2. Define cohort clearly : Make cohort grouping explicit (signup month, feature l…",
+  "skill_id": "11154-cohort-analysis-e6fb42a1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-data-analytics/skills/cohort-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-data-analytics/skills/cohort-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bd721a429e58c71a1a488ac1e89ba2bcbb9e179cb9c0b5eac44a3c3b3e9fdb15",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

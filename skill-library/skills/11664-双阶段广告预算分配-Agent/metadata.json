@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dara-agentic-mmm-optimizer",
+  "中文名称": "双阶段广告预算分配 Agent",
+  "一句话作用": "触发词：冷启动出价、LLM预算分配、边际ROAS等价、日预算向量、时段分配。何时不用：已有MMM后验或参数模型时不走冷启动路径；只要按阈值规则削预算用渠道预算再分配触发器。安全边界：须遵守Google与Meta Ads API服务条款，禁止用于自动化出价操纵，冷启动期应设预算损失上限并保留人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要婴儿推车季节性爆款上线,Google Ads 历史只有 3-5 周数据,传统规则策略难快速找到最优出价时段 - 数据要求:近 3-5 周 Google Ads ROAS 时段数据 + 月度总预算 - DARA 配置:T = 7(一周)或 24(一天时段);Phase 1 LLM 读历史生成日预算向量;Phase 2 每日 ROAS 反馈调整下一日 - 业务价值:冷启动期 ROAS 提升时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11664-p2s-dara-agentic-mmm-optimizer-2540a1f5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-dara-agentic-mmm-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-dara-agentic-mmm-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "70c2819a07c8e0c682afba9a275972d45eed287169defbf60a9af2166dea17bc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

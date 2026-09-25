@@ -1,0 +1,22 @@
+{
+  "英文名称": "pydicom",
+  "中文名称": "待补：pydicom",
+  "一句话作用": "Python library for working with DICOM (Digital Imaging and Communications in Medicine) files. Use this skill when reading, writing, or modifying medical imaging data in DICOM format, extracting pixel data from medical i…",
+  "关键输入": "Use this skill when working with: - Medical imaging files (CT, MRI, X-ray, ultrasound, PET, etc.) - DICOM datasets requiring metadata extraction or modification - Pixel data extraction and image processing from medical…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use this skill when working with: - Medical imaging files (CT, MRI, X-ray, ultrasound, PET, etc.) - DICOM datasets requiring metadata extraction or modification - Pixel data extraction and image processing from medical…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05782-pydicom-d3bbf6e2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pydicom/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pydicom/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "41c0049f380c79af129b497f830e69baa15652703c4de15d44514515d143dfe4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

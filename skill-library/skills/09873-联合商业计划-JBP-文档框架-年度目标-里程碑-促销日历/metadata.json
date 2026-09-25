@@ -1,0 +1,22 @@
+{
+  "英文名称": "联合商业计划 JBP 文档框架（年度目标/里程碑/促销日历）",
+  "中文名称": "待补：联合商业计划 JBP 文档框架（年度目标/里程碑/促销日历）",
+  "一句话作用": "当需与 KA 签署或更新年度 JBP、且财务与动销结论已对齐时调用；输出章节结构与可填表，与 ka-financial-model 数字一致。",
+  "关键输入": "- ka-financial-model 中 销量与毛利假设 已冻结一版。 - 零售商 JBP 模板或往年 文档（若有）。 - 组织内角色 ：采购、品类、运营、财务联系人。",
+  "关键输出": "- Word/Markdown 大纲 + 表格模板 （含公式说明）。 - 版本号 ：JBP v0.1 YYYYMMDD。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需与 KA 签署或更新年度 JBP、且财务与动销结论已对齐时调用；输出章节结构与可填表，与 ka-financial-model 数字一致。时，用它产出或更新：- Word/Markdown 大纲 + 表格模板 （含公式说明）。 - 版本号 ：JBP v0.1 YYYYMMDD。",
+  "skill_id": "09873-jbp-916bb9d2",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-jbp-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-jbp-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d7babec8da1e2476fa7d0eaf25afca02e6a86a9eaf5830d521c6641aff52315",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

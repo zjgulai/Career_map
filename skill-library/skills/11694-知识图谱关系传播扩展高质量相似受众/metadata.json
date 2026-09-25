@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-graph-neural-lookalike-propagation",
+  "中文名称": "知识图谱关系传播扩展高质量相似受众",
+  "一句话作用": "触发词：Lookalike 扩展、图传播、种子人群冷启动、多关系图建模、新品类投放。何时不用：种子规模已够、靠互补品路径推理扩展人群用受众知识图谱技能，本技能专治种子极少时的相似人群扩展。安全边界：用户级行为与渠道来源数据须脱敏聚合，扩展人群投放须遵守平台定向与隐私政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要广告投手面临\"新品类仅80个种子用户、传统Lookalike质量差\"——多关系图传播将种子覆盖从80人扩展到2400候选用户，冷启动CPA降低38%，新品类冷启动节省约6万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11694-p2s-graph-neural-lookalike-propagation-6c6d8e1f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-graph-neural-lookalike-propagation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-graph-neural-lookalike-propagation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f0c95ffb2d84c4c1ecce7e464dcbcd0937063562cf04ded24211c9ee1cd7c103",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

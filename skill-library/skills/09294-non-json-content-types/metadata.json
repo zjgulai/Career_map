@@ -1,0 +1,22 @@
+{
+  "英文名称": "non-json-content-types",
+  "中文名称": "待补：non-json-content-types",
+  "一句话作用": "Handle FormData, file uploads, Blob, Uint8Array, and ReadableStream inputs in tRPC mutations. Use octetInputParser from @trpc/server/http for binary data. Route non-JSON requests with splitLink and isNonJsonSerializable…",
+  "关键输入": "octetInputParser converts Blob, Uint8Array, and File inputs to a ReadableStream on the server.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-08T23:55:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Handle FormData, file uploads, Blob, Uint8Array, and ReadableStream inputs in tRPC mutations. Use octetInputParser from @trpc/server/http for binary data. Route non-JSON requests with splitLink and isNonJsonSerializable…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09294-non-json-content-types-6f3e154e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/app/node_modules/@trpc/server/skills/non-json-content-types/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/app/node_modules/@trpc/server/skills/non-json-content-types/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a9b9b9f400602d0f386fc62528877608ed4b90b9ef805d755fe0cbcd12b53790",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

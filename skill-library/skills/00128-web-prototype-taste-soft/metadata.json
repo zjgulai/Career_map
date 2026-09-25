@@ -1,0 +1,22 @@
+{
+  "英文名称": "web-prototype-taste-soft",
+  "中文名称": "待补：web-prototype-taste-soft",
+  "一句话作用": "Apple-tier soft web prototype. Silver/cream canvas, double-bezel cards, button-in-button CTAs, generous squircle radii, spring motion, ambient mesh. Distilled from Leonxlnx/taste-skill soft-skill + sections 4–8 of taste…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Apple-tier soft web prototype. Silver/cream canvas, double-bezel cards, button-in-button CTAs, generous squircle radii, spring motion, ambient mesh. Distilled from Leonxlnx/taste-skill soft-skill + sections 4–8 of taste…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00128-web-prototype-taste-soft-a85aa6ef",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/web-prototype-taste-soft/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/web-prototype-taste-soft/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "95441b8bbec9a66fe1385d3d6c1769e4a1e64f87bb25f2144fe370eb6817e5d5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

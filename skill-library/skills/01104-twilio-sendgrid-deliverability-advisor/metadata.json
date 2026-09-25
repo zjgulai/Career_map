@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-sendgrid-deliverability-advisor",
+  "中文名称": "待补：twilio-sendgrid-deliverability-advisor",
+  "一句话作用": "Diagnostic and advisory skill for email deliverability problems. Use when a developer asks why emails are going to spam, not reaching the inbox, getting blocked, bouncing, or how to improve sender reputation — with or w…",
+  "关键输入": "Provider Domains SPF DKIM DMARC threshold Spam limit FBL Notes ---------- --------- ----- ------ ---------------- ----------- ----- ------- Gmail gmail.com + Workspace All volumes All volumes 5,000/day <0.10% (enforce), <0.08% (recommended) (per Google) None…",
+  "关键输出": "After diagnosing, respond with: ---",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Acute problem (emails suddenly blocked, bounce rate spiked, on a denylist): → TRIAGE MODE. Something changed — diagnose before recommending. Gradual degradation (deliverability declining over weeks, open rates dropping):时，用它产出或更新：After diagnosing, respond…",
+  "skill_id": "01104-twilio-sendgrid-deliverability-advisor-448efb3c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sendgrid-deliverability-advisor/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sendgrid-deliverability-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de2ef4b32f7dc8aa207533e3e52ca1ea6540c9a72d4f8f00b6e8522a4c207262",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

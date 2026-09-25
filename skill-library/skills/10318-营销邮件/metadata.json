@@ -1,0 +1,22 @@
+{
+  "英文名称": "email-marketing",
+  "中文名称": "营销邮件",
+  "一句话作用": "产品发布邮件, 含 masthead、hero、CTA、规格表, table-fallback",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要产品发布邮件, 含 masthead、hero、CTA、规格表, table-fallback时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10318-email-marketing-4c5fb0de",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/email-marketing/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/email-marketing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fcbc9565d9ef2cca3adcc9163ceff28991e65928f710c509d8218e5094484671",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

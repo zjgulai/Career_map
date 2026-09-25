@@ -1,0 +1,22 @@
+{
+  "英文名称": "motion-canvas",
+  "中文名称": "待补：motion-canvas",
+  "一句话作用": "Production pipeline for Motion Canvas — TypeScript-based programmatic vector animation with real-time preview. Use when users want explainer videos, technical demos, timeline-based motion graphics, code animations, anim…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For real work, default to producing: - project source - at least one clean scene per concept - a short README or notes with run/render commands - exported preview or final render if requested",
+  "最新更新时间": "2026-05-05T01:33:41+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Production pipeline for Motion Canvas — TypeScript-based programmatic vector animation with real-time preview. Use when users want explainer videos, technical demos, timeline-based motion graphics, code animations, anim…时，用它产出或更新：For real work, default to…",
+  "skill_id": "09307-motion-canvas-88b753ec",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/draco-content/motion-canvas/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/draco-content/motion-canvas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "74a019906bba1fd8461037690e92c8a59df06bcc04d4b78be9c9b6b911e007cf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

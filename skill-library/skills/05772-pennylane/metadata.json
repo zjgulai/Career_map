@@ -1,0 +1,22 @@
+{
+  "英文名称": "pennylane",
+  "中文名称": "待补：pennylane",
+  "一句话作用": "Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/…",
+  "关键输入": "opt = qml.GradientDescentOptimizer(stepsize=0.1) params = np.array([0.1, 0.2], requires grad=True) for i in range(100): params = opt.step(circuit, params)",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05772-pennylane-916eafe4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pennylane/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pennylane/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2c464670e2621a0e87f478cbd9d1e43c7930222fe0501a32a91c91bc680be56",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

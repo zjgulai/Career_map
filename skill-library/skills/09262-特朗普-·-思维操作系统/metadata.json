@@ -1,0 +1,22 @@
+{
+  "英文名称": "trump-perspective",
+  "中文名称": "特朗普 · 思维操作系统",
+  "一句话作用": "唐纳德·特朗普（Donald Trump）的思维框架与行为逻辑。基于著作、长访谈、辩论、 心理分析、前幕僚回忆录、重大决策记录共6个维度的深度调研（320KB+原始资料）， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：（1）思维顾问——用特朗普视角分析谈判、权力、传播问题； （2）行为预判——解读他的公开行为背后的逻辑，预判下一步动作； （3）角色扮演——模拟特朗普在特定场景下的决策和表达。 当用户提到「用懂王视角…",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体政策/经济数据/人物/事件/国际关系 → 先研究再回答（Step 2） 纯框架问题 抽象的谈判策略、权力哲学、领导力理念 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体事件讨论谈判/权力逻辑 → 先获取事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训…",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是基于真实信息做出的特朗普式判断或分析预判。",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体政策/经济数据/人物/事件/国际关系 → 先研究再回答（Step 2） 纯框架问题 抽象的谈判策略、权力哲学、领导力理念 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体事件讨论谈判/权力逻辑 → 先获取事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训…时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然…",
+  "skill_id": "09262-trump-perspective-277eeed6",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/trump-perspective/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/trump-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5599a5aebe424321ebe9b50f5156fff1954fd9959d6dd0b2745ffaf20aa228ae",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

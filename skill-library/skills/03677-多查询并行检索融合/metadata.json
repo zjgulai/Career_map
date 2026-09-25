@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rag-fusion-multi-query",
+  "中文名称": "多查询并行检索融合",
+  "一句话作用": "触发词：多查询融合、并行召回、排名融合、信息完整性、多维权衡。何时不用：查询意图单一明确时单路检索更快；要跨语言改写查询时用假设文档方法。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临单一查询召回覆盖率低遗漏关键信息——RAG-Fusion多查询并行召回率+40%，决策信息完整性显著提升，年化避免信息缺失损失28万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03677-p2s-rag-fusion-multi-query-ccfc59af",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-rag-fusion-multi-query/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-rag-fusion-multi-query/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6794463620fc1180029345e3d145871fe7c9b03f335607782821df6913d6b41f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

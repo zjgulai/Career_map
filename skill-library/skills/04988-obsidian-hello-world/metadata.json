@@ -1,0 +1,22 @@
+{
+  "英文名称": "obsidian-hello-world",
+  "中文名称": "待补：obsidian-hello-world",
+  "一句话作用": "Create a minimal working Obsidian plugin with commands and settings. Use when building your first plugin feature, testing your setup, or learning basic Obsidian plugin patterns. Trigger with phrases like \"obsidian hello…",
+  "关键输入": "- Completed obsidian-install-auth setup - Development vault configured - Build pipeline working",
+  "关键输出": "- Working plugin with: - Ribbon icon that shows a notice - Commands in command palette - Editor command to insert text - Settings tab to configure greeting - Modal for displaying content",
+  "最新更新时间": "2026-09-19T03:52:44+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Create a minimal working Obsidian plugin with commands and settings. Use when building your first plugin feature, testing your setup, or learning basic Obsidian plugin patterns. Trigger with phrases like \"obsidian hello…时，用它产出或更新：- Working plugin with: - R…",
+  "skill_id": "04988-obsidian-hello-world-ccaf8380",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/obsidian-hello-world/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/obsidian-hello-world/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "21198c1e2749bce27c606062b18fa23b433fb84ec58b62ca45d96c23bbd23c60",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

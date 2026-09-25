@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-media-content-creator",
+  "中文名称": "待补：social-media-content-creator",
+  "一句话作用": "Create platform-native content, repurpose assets, and implement data-driven social strategies for LinkedIn, X, Instagram, and TikTok.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:36+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create platform-native content, repurpose assets, and implement data-driven social strategies for LinkedIn, X, Instagram, and TikTok.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00382-social-media-content-creator-cc43fbcb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/social-media-content-creator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/social-media-content-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e37dad5eeaf8e952cbd9269d2ae9535de7c88c548ece87d293d4dc9c423986b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

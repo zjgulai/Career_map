@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-cyclical-analysis",
+  "中文名称": "跨境电商周期性分析法",
+  "一句话作用": "跨境电商周期性分析法 - 识别业务数据的周期性规律，包括自然周期、生命周期、行为周期，用于异常检测和趋势预测",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T01:52:32+08:00",
+  "业务场景": "methodology-analysis",
+  "解决具体问题": "当需要跨境电商周期性分析法 - 识别业务数据的周期性规律，包括自然周期、生命周期、行为周期，用于异常检测和趋势预测时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09435-cbec-cyclical-analysis-a944d276",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/13-methodology-analysis/cyclical-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/13-methodology-analysis/cyclical-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ae3e99ccd5696ee4156849d81da1891e30c72047caa2d70b4a2cb7b88d28f5b6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

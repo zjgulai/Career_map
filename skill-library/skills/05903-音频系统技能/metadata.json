@@ -1,0 +1,22 @@
+{
+  "英文名称": "audio-system",
+  "中文名称": "音频系统技能",
+  "一句话作用": "音频系统技能。管理游戏音频播放，包括背景音乐、音效、语音等。 支持音频池、淡入淡出、3D 音效等功能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要音频系统技能。管理游戏音频播放，包括背景音乐、音效、语音等。 支持音频池、淡入淡出、3D 音效等功能。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05903-audio-system-0ae11267",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-2-modules/audio-system/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-dev/level-2-modules/audio-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b5ebc137e5059ab5f687d81264fdfbe120187ac539fc4a41fe9a0e9088623fbc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

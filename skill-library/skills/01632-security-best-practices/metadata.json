@@ -1,0 +1,22 @@
+{
+  "英文名称": "security-best-practices",
+  "中文名称": "待补：security-best-practices",
+  "一句话作用": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-de…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-de…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01632-security-best-practices-9c450a9d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/security-best-practices/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/security-best-practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

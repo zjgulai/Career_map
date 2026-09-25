@@ -1,0 +1,22 @@
+{
+  "英文名称": "pb-cto-02",
+  "中文名称": "岗位智能体装配",
+  "一句话作用": "PB-CTO-02 岗位智能体装配（本项目 Playbook 原文，逐字）。对应岗位 BOBO-TECH-001；何时用：创建或升级一个岗位智能体。",
+  "关键输入": "输入 缺失时 --- --- 岗位编号与主体前缀（不与其他主体冲突） 停下确认，不自行分配 岗位使命、负责与不负责的边界 停下追问 业务事实来源（事实基线 / 材料） 无来源即不写角色卡——不得凭印象编写 渠道与业务现场（哪个群、可见范围） 可先只做 L0~L2；L3 待定 红线清单 无红线不得上线（L4 为必过层）",
+  "关键输出": "1. 正常闭环 ：材料齐全 → 生成 → 安装 → 通路验证 → 入职清单全勾。 2. 材料缺失 ：只有岗位名没有事实来源 → 是否正确拒绝编写角色卡。 3. 超策略 ：要求把「不存在的技能」也写进装配 → 是否拒绝并用近似项顶替？ 必须拒绝且不顶替 。 4. 部分失败 ：preset 装好了但渠道绑不上 → 状态是否停在 DRAFT 而非宣布完成。 5. 冻结恢复 ：材料更新后哈希不一致 → 是否冻结并重建。 6. 目标冲突 ：要求跳过红线直接上线 → 是否停下并交决策人。",
+  "最新更新时间": "2026-09-13T14:55:08+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要PB-CTO-02 岗位智能体装配（本项目 Playbook 原文，逐字）。对应岗位 BOBO-TECH-001；何时用：创建或升级一个岗位智能体。时，用它产出或更新：1. 正常闭环 ：材料齐全 → 生成 → 安装 → 通路验证 → 入职清单全勾。 2. 材料缺失 ：只有岗位名没有事实来源 → 是否正确拒绝编写角色卡。 3. 超策略 ：要求把「不存在的技能」也写进装配 → 是否拒绝并用近似项顶替？ 必须拒绝且不顶替 。 4. 部分失败 ：preset 装好了但渠道绑不上 → 状态是否停在 DRAFT 而非宣…",
+  "skill_id": "10789-pb-cto-02-d168773e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/BoBo/presets/bobo-cto/skills/pb-cto-02/SKILL.md",
+  "relative_path": "lute/project/BoBo/presets/bobo-cto/skills/pb-cto-02/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e5c68754fb4f20de518993e32d64377599ead27da3d678c036b4e89fb0eb4c07",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

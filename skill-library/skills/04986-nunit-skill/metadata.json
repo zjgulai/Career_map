@@ -1,0 +1,22 @@
+{
+  "英文名称": "nunit-skill",
+  "中文名称": "待补：nunit-skill",
+  "一句话作用": "Generates NUnit 3 tests in C . Covers Assert.That constraint model, parameterized tests, setup/teardown, and Moq mocking. Use when user mentions \"NUnit\", \"[TestFixture]\", \"[Test]\", \"Assert.That\", \"C unit test\". Triggers…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:18+08:00",
+  "业务场景": "unit-testing",
+  "解决具体问题": "当需要Generates NUnit 3 tests in C . Covers Assert.That constraint model, parameterized tests, setup/teardown, and Moq mocking. Use when user mentions \"NUnit\", \"[TestFixture]\", \"[Test]\", \"Assert.That\", \"C unit test\". Triggers…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04986-nunit-skill-9e06fc4d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/nunit-skill/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/nunit-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e3a05064dfcebd3c472f290285d3818258a08b12d7d1193a542e83e41df60a22",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Robotics Ros",
+  "中文名称": "待补：Robotics Ros",
+  "一句话作用": "Robotics with ROS provides a comprehensive framework for building robotics applications using the Robot Operating System (ROS). This skill covers ROS1 (Melodic/Noetic) and ROS2 (Humble/Iron/Jazzy) dev",
+  "关键输入": "Inputs : - Robot hardware specifications - Sensor data streams - Environment maps and configurations - Navigation goals and waypoints - ROS workspace with packages Entry Conditions : - ROS is installed (ROS1 or ROS2) - Build system (Catkin or Colcon) is confi…",
+  "关键输出": "Inputs : - Robot hardware specifications - Sensor data streams - Environment maps and configurations - Navigation goals and waypoints - ROS workspace with packages Entry Conditions : - ROS is installed (ROS1 or ROS2) - Build system (Catkin or Colcon) is confi…",
+  "最新更新时间": "2026-02-22",
+  "业务场景": "Backend",
+  "解决具体问题": "当需要Internal documentation and examples Official documentation and best practices Community resources and discussions时，用它产出或更新：Inputs : - Robot hardware specifications - Sensor data streams - Environment maps and configurations - Navigation goals and waypoints…",
+  "skill_id": "05063-robotics-ros-a39322ba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Robotics-Ros/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Robotics-Ros/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "a5c1cdca5cd7dd34986a58dda0dd0e92ec8431c352d654cca2cf9dd47daebd0c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

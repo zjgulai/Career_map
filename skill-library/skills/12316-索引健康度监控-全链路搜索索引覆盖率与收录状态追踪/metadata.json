@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-index-health-monitoring",
+  "中文名称": "索引健康度监控 全链路搜索索引覆盖率与收录状态追踪",
+  "一句话作用": "触发词：索引健康度、收录状态追踪、关键词收录率、索引异常预警、新品收录巡检。何时不用：要判断的是自然流量与广告流量解耦造成的压制时用「Listing 压制检测」；要监控品类节点竞争度时用「品类树节点竞争密度优化」。安全边界：只诊断收录与索引状态，不改 Listing、不代提交平台工单。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"新品上架后搜索流量为零、不知是否已被索引\"——健康度监控将索引问题发现延迟从3天缩短至4小时，年化减少错失销售20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12316-p2s-index-health-monitoring-12fbeb71",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-index-health-monitoring/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-index-health-monitoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b4f693949acafdac1c27419714ef86e190631ff01643131f52aa2945cb464914",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

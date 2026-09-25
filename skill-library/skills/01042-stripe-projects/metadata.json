@@ -1,0 +1,22 @@
+{
+  "英文名称": "stripe-projects",
+  "中文名称": "待补：stripe-projects",
+  "一句话作用": "Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a database\", \"set up auth\", \"add caching\", \"give me a Postgres\", \"provision Redis\", \"I need hosting\",…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a database\", \"set up auth\", \"add caching\", \"give me a Postgres\", \"provision Redis\", \"I need hosting\",…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01042-stripe-projects-91d4b4f2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/stripe/skills/stripe-projects/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/stripe/skills/stripe-projects/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d74a82cc3a9c777ba09e16fb663e7338108735462ce70cb75d99e7a250394d3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

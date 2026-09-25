@@ -1,0 +1,22 @@
+{
+  "英文名称": "wecomcli-contact",
+  "中文名称": "通讯录成员查询技能",
+  "一句话作用": "通讯录成员查询技能，获取当前用户可见范围内的通讯录成员，支持按姓名/别名本地筛选匹配。返回 userid、姓名和别名。⚠️ 仅返回当前用户有权限查看的成员，非全量成员。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要通讯录成员查询技能，获取当前用户可见范围内的通讯录成员，支持按姓名/别名本地筛选匹配。返回 userid、姓名和别名。⚠️ 仅返回当前用户有权限查看的成员，非全量成员。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05396-wecomcli-contact-1e3a0bbd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-contact/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-contact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88813d8ccb93915c3bce3cb23b67388019b2a47777ce7edf0f88d7c340b85e23",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

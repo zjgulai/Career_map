@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-1-onboarding",
+  "中文名称": "入口 数据通路",
+  "一句话作用": "入口引导与数据通路。引导用户绑定「国际站生意助手」插件、自动检测账号绑定状态、判定数据通路 A/B、收集品类与经营阶段、执行品类解析（MCP data advisor category infer）与行业类型打标（时尚消费型/节庆周期型/技术驱动型等 7 种），输出上下文变量包（ROUTE/CATE ID/INDUSTRY TAGS/LIFECYCLE）供后续 Skill 使用。触发条件：用户首次与 Agent 交互、明确请求「开始行…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "情况 A：返回 success: true 且有数据 → 标记 ROUTE = A，紧接引导语输出检测结论： ✅ 检测完成！已识别到您绑定的国际站店铺账号，欢迎进入 数据增强模式 。 本次报告将整合： - 国际站数据参谋实时行业数据（T-2） - Jungle Scout 跨平台竞品与亚马逊数据 - 您的店铺数据与同行均值 / 优秀值实时对比 请告诉我您的经营品类和在国际站的经营时长，马上开始分析。 情况 B：返回 success: false 或无数据或报错",
+  "最新更新时间": "2026-09-12T16:24:26+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要入口引导与数据通路。引导用户绑定「国际站生意助手」插件、自动检测账号绑定状态、判定数据通路 A/B、收集品类与经营阶段、执行品类解析（MCP data advisor category infer）与行业类型打标（时尚消费型/节庆周期型/技术驱动型等 7 种），输出上下文变量包（ROUTE/CATE ID/INDUSTRY TAGS/LIFECYCLE）供后续 Skill 使用。触发条件：用户首次与 Agent 交互、明确请求「开始行…时，用它产出或更新：情况 A：返回 success: true 且有数据…",
+  "skill_id": "00065-skill-1-onboarding-58c3b0ce",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-85471462U1788237-8A8E75-5855-E4100B/agent-core/skills/skill-1-onboarding/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-85471462U1788237-8A8E75-5855-E4100B/agent-core/skills/skill-1-onboarding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "acdec8f27afbd6bc87514b26cde8193e053cb29e3e827cbb16d68ea392aef294",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

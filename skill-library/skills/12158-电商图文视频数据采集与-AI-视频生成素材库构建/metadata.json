@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-visual-data-collection",
+  "中文名称": "电商图文视频数据采集与 AI 视频生成素材库构建",
+  "一句话作用": "触发词：视觉素材采集、图文视频采集、素材库、CLIP 过滤、图片质量评估。何时不用：需要直接使用竞品版权图片时不可用；只做素材版本回滚走素材版本管理。安全边界：卡页原文明示素材仅用于风格学习参考、不直接使用版权图片，采集范围须符合平台规则。",
+  "关键输入": "quality threshold=0.65（主图库，严格） quality threshold=0.40（参考素材库，宽松）",
+  "关键输出": "quality threshold=0.65（主图库，严格） quality threshold=0.40（参考素材库，宽松）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要研究助理面临图片标注采集慢——视觉采集将标注工时降55%，年化省9万元时，用它产出或更新：quality threshold=0.65（主图库，严格） quality threshold=0.40（参考素材库，宽松）",
+  "skill_id": "12158-p2s-visual-data-collection-ee8ddcce",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-visual-data-collection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-visual-data-collection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c7b45794ee741ad52e3fde7808fdd53134be2a093412f412dc77ed74ccc1fbe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

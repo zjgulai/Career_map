@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-personarag-user-persona-retrieval",
+  "中文名称": "用户画像驱动的个性化检索增强",
+  "一句话作用": "触发词：用户画像检索、个性化知识推送、分层回答深度、新手专家差异、检索权重调制、决策摘要。何时不用：可见性与越权边界要靠角色权限收口时用「知识库RBAC」；知识过期与跨域治理用「知识库声明式编排」；任务质量监控用「RAG生产可观测性」。安全边界：画像只用于内部检索权重调制与深度分层，不得用画像绕过权限做可见性放行；画像数据不得外泄或用于对外差异化定价，须符合 GDPR 对检索系统画像使用的要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品团队面临不同角色用户收到同样深度回答——PersonaRAG将用户满意度+28%，CEO/运营师分层精准响应，年化降低无效决策损失35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12067-p2s-personarag-user-persona-retrieval-bc3e9547",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-personarag-user-persona-retrieval/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-personarag-user-persona-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bbea8cd8e64ee59b3b1a77c92fb9097a0d8e079a587451a469337d4a13fd87e8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

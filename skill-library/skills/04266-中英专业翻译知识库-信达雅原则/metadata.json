@@ -1,0 +1,22 @@
+{
+  "英文名称": "xindaya-translator",
+  "中文名称": "中英专业翻译知识库（信达雅原则）",
+  "一句话作用": "按信达雅三层标准做中英双向翻译，覆盖学术、商务、技术与法律四域并附关键术语对照。触发词：翻译、中翻英、英翻中、合同翻译、技术文档翻译、xindaya-translator。何时不用：面向目标市场的本地化改写不在本技能范围；只做中文写作打磨用 copy-editor。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "对于每次翻译任务，Agent 应按以下格式输出：",
+  "最新更新时间": "2026-09-15T11:05:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要按信达雅三层标准做中英双向翻译，覆盖学术、商务、技术与法律四域并附关键术语对照。触发词：翻译、中翻英、英翻中、合同翻译、技术文档翻译、xindaya-translator。何时不用：面向目标市场的本地化改写不在本技能范围；只做中文写作打磨用 copy-editor。时，用它产出或更新：对于每次翻译任务，Agent 应按以下格式输出：",
+  "skill_id": "04266-xindaya-translator-17432dba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xindaya-translator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xindaya-translator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be8b1d3317711ab3a08b31a7bc4809329ee27ccb55925fc7a5f10be262d7dd8e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

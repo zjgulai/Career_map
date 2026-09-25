@@ -1,0 +1,22 @@
+{
+  "英文名称": "mtls-configuration",
+  "中文名称": "待补：mtls-configuration",
+  "一句话作用": "Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.",
+  "关键输入": "- Implementing zero-trust networking - Securing service-to-service communication - Certificate rotation and management - Debugging TLS handshake issues - Compliance requirements (PCI-DSS, HIPAA) - Multi-cluster secure c…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- Implementing zero-trust networking - Securing service-to-service communication - Certificate rotation and management - Debugging TLS handshake issues - Compliance requirements (PCI-DSS, HIPAA) - Multi-cluster secure c…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05592-mtls-configuration-fc364a05",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cloud-infrastructure/skills/mtls-configuration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cloud-infrastructure/skills/mtls-configuration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea37ffee7aeaed6cf06daafc6f59b0a5479c58a60f40f14e1b17a58618a7f0ad",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "dev-workflow",
+  "中文名称": "待补：dev-workflow",
+  "一句话作用": "명시적 요청 시에만 사용. 트리거: '우로보로스/ouroboros'(인터뷰→스펙), '슈퍼파워/superpowers'(계획→실행), '스펙부터/풀플로우'(전체).",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:50:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要명시적 요청 시에만 사용. 트리거: '우로보로스/ouroboros'(인터뷰→스펙), '슈퍼파워/superpowers'(계획→실행), '스펙부터/풀플로우'(전체).时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04809-dev-workflow-f804e38d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dev-workflow/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dev-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bad78bd091fcc1fc5ca0e69b69a85b9f4415720572737f6efc3c7c9e057a4660",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

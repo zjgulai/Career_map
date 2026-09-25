@@ -1,0 +1,22 @@
+{
+  "英文名称": "ux-expert",
+  "中文名称": "待补：ux-expert",
+  "一句话作用": "用于百亿补贴等电商频道的体验设计全链路。覆盖需求分析、竞品分析、设计策略、参考收集、规范查询、界面生成、创意生成、设计评审。当用户说'分析需求'、'做策略'、'查规范'、'出方案'、'评审设计稿'或任何 UX 设计相关意图时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "各阶段过程产物统一存放到工作目录下： - {case-id} = 需求简称（如 足迹加补、多人团治理） - 各命令在产出文件时静默落盘到对应子目录，用户无需额外操作 - 文件接口驱动 ：下游命令优先读取上游落盘文件而非对话记忆（analyze → strategize → generate 均通过文件传递上下文） - DRD 和 product-prompt.md 在 strategize Phase 4（Phase 3 Gate 通过后）自动生成 ---",
+  "最新更新时间": "2026-09-19T03:38:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要用于百亿补贴等电商频道的体验设计全链路。覆盖需求分析、竞品分析、设计策略、参考收集、规范查询、界面生成、创意生成、设计评审。当用户说'分析需求'、'做策略'、'查规范'、'出方案'、'评审设计稿'或任何 UX 设计相关意图时使用。时，用它产出或更新：各阶段过程产物统一存放到工作目录下： - {case-id} = 需求简称（如 足迹加补、多人团治理） - 各命令在产出文件时静默落盘到对应子目录，用户无需额外操作 - 文件接口驱动 ：下游命令优先读取上游落盘文件而非对话记忆（analyze → strateg…",
+  "skill_id": "04657-ux-expert-1fc409fc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/ux-expert/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/ux-expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "469d9813d5ff14f75468f6bb3bc04b38a2852542fea0f04b49ba1dadc0196428",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

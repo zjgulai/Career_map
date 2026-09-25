@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-ai-agent-architect",
+  "中文名称": "待补：twilio-ai-agent-architect",
+  "一句话作用": "Planning skill for AI-powered conversational agents. Qualifies the developer's use case across outcome sophistication, entry point, and customer profile to recommend the right Twilio Conversations architecture and imple…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After qualifying the developer, recommend:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Planning skill for AI-powered conversational agents. Qualifies the developer's use case across outcome sophistication, entry point, and customer profile to recommend the right Twilio Conversations architecture and imple…时，用它产出或更新：After qualifying the devel…",
+  "skill_id": "01069-twilio-ai-agent-architect-511958ee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-ai-agent-architect/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-ai-agent-architect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b16eb9fc7f853f6cf7d85bdeeb232504555dd45d286267d88d8ec50e73a5749",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

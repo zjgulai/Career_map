@@ -1,0 +1,22 @@
+{
+  "英文名称": "modlens",
+  "中文名称": "待补：modlens",
+  "一句话作用": "Plug-in vision for text-only models. Hard rule: when a file path or URL with an image extension (.png, .jpg, .jpeg, .webp, .gif, .heic, .heif) appears anywhere in the conversation (typed by the user, injected as a [Imag…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T00:11:07+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Plug-in vision for text-only models. Hard rule: when a file path or URL with an image extension (.png, .jpg, .jpeg, .webp, .gif, .heic, .heif) appears anywhere in the conversation (typed by the user, injected as a [Imag…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10888-modlens-b6ec95fd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@liustack/modlens/skills/modlens/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@liustack/modlens/skills/modlens/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd6f97dc063040f37f7534b4865f5c36e1328e24b54f06b8fb76fb4ec6da8c7a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

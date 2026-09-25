@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-patent-prior-art-risk-scan",
+  "中文名称": "专利先验技术风险扫描 新品上市前侵权风险评估",
+  "一句话作用": "触发词：专利风险预筛、TF-IDF 相似度、权利要求比对、上市前排查、律师费优化。何时不用：要做商标、专利、著作权三维整体上架体检用「上架前 IP 侵权扫描」；要盯官方商标公告用「商标侵权追踪」。安全边界：只是律师分析前的排序预筛，不构成侵权法律意见；产品技术资料与比对结论属敏感信息，不得外传。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规负责人面临\"新品上市前不知道是否侵犯现有专利直到被起诉才发现\"——TF-IDF专利相似度扫描将专利风险发现提前到上架前，年化避免诉讼损失$15万+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03577-p2s-patent-prior-art-risk-scan-07d87069",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-patent-prior-art-risk-scan/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-patent-prior-art-risk-scan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2bd64c3122ff729f4993727c520792a7c17dc95c21906d44ac4ee52999637c75",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

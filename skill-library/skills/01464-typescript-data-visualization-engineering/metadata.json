@@ -1,0 +1,22 @@
+{
+  "英文名称": "typescript-data-visualization-engineering",
+  "中文名称": "待补：typescript-data-visualization-engineering",
+  "一句话作用": "Build typed data visualizations in TypeScript. Use when the user wants TypeScript visualization code, typed data models, browser visualization components, UML-like diagram models, interactive graph or architecture diagr…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Pick libraries that fit the app architecture, not generic popularity. - Keep types useful at runtime boundaries. - Call out whether the chart is DOM, Canvas, WebGL, or hybrid. - For WebGL, call out whether the implementation is Three.js, deck.gl, PixiJS, Si…",
+  "最新更新时间": "2026-09-17T09:36:42+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build typed data visualizations in TypeScript. Use when the user wants TypeScript visualization code, typed data models, browser visualization components, UML-like diagram models, interactive graph or architecture diagr…时，用它产出或更新：- Pick libraries that fit…",
+  "skill_id": "01464-typescript-data-visualization-engineering-812e01ee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/typescript-data-visualization-engineering/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/typescript-data-visualization-engineering/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f48cf4ec5458e2d023ec4ed7765699a97c9c2f87b647fa4ac0ca01aa09379f5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

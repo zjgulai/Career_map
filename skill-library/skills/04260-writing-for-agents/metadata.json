@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-for-agents",
+  "中文名称": "待补：writing-for-agents",
+  "一句话作用": "为 AI agent 编写清晰文档/指令。触发词：Agent 文档写作、writing-for-agents、为 AI agent 编写清晰文档/指令。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要为 AI agent 编写清晰文档/指令。触发词：Agent 文档写作、writing-for-agents、为 AI agent 编写清晰文档/指令。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04260-writing-for-agents-13ac823f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/writing-for-agents/SKILL.md",
+  "relative_path": "lute/.dsh/skills/writing-for-agents/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3127743a62fee27b8556e5d9d9055bf299ffafd9a56296da7989418f0af0a623",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-auto-construction-agent-driven",
+  "中文名称": "驱动的电商知识图谱自动构建",
+  "一句话作用": "触发词：自动建图、本体生成、三元组抽取、商品知识图谱、Agent 流水线。何时不用：文本量很小、手工整理一次就够时不用；本体需要人工评审定稿的场景用本体 Schema 设计类技能。安全边界：无。",
+  "关键输入": "输入 ：商品描述文本（标题、Bullet Points、描述段落）、品类分类信息，可选产品规格表作结构化补充。 输出 ：自动生成的商品本体 Schema 与实例级三元组，供 GraphRAG 检索与商品关系推理使用。",
+  "关键输出": "输入 ：商品描述文本（标题、Bullet Points、描述段落）、品类分类信息，可选产品规格表作结构化补充。 输出 ：自动生成的商品本体 Schema 与实例级三元组，供 GraphRAG 检索与商品关系推理使用。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：自动建图、本体生成、三元组抽取、商品知识图谱、Agent 流水线。何时不用：文本量很小、手工整理一次就够时不用；本体需要人工评审定稿的场景用本体 Schema 设计类技能。安全边界：无。时，用它产出或更新：输入 ：商品描述文本（标题、Bullet Points、描述段落）、品类分类信息，可选产品规格表作结构化补充。 输出 ：自动生成的商品本体 Schema 与实例级三元组，供 GraphRAG 检索与商品关系推理使用。",
+  "skill_id": "03279-p2s-kg-auto-construction-agent-driven-6a9f922d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-kg-auto-construction-agent-driven/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-kg-auto-construction-agent-driven/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ee96452f9582417708da74d8049dc4b14137fbcc52287641849f3aecf1813b0e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

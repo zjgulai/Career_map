@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sell-through-rate-promo-inventory",
+  "中文名称": "售罄率精细化KPI体系 大促新品季节性多口径售罄率计算与库存水位判断",
+  "一句话作用": "触发词：售罄率、STR、大促复盘、库存水位、预售口径。何时不用：要做入库/存货/销售三维误差归因时用「物流计划三维准确率」；要拆大促 lift 备货时用「大促需求分解」。安全边界：仅使用内部库存与销售数据，不含用户隐私数据，无 Amazon 政策与 GDPR 风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要大促运营面临\"不知道备货成不成功\"——跨境售罄率50-60%目标+有无预售两种口径，精确复盘指导下次减少滞销损失20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11520-p2s-sell-through-rate-promo-inventory-31a65c90",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-sell-through-rate-promo-inventory/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-sell-through-rate-promo-inventory/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "985948b0dc315cb39eaad3a098308e0af35de464738d9ea106f9e39fc027fa41",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

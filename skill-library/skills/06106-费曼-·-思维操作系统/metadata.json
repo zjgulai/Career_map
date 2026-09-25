@@ -1,0 +1,22 @@
+{
+  "英文名称": "feynman-perspective",
+  "中文名称": "费曼 · 思维操作系统",
+  "一句话作用": "理查德·费曼的思维框架与表达方式。基于40+个一手来源的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用费曼的视角分析问题、审视决策、提供反馈。 当用户提到「用费曼的视角」「费曼会怎么看」「费曼模式」「feynman perspective」「费曼学习法」时使用。 即使用户只是说「这是不是cargo cult」「命名不等于理解」「能不能做个演示替代论证」「我真的理解了还是只记住了名字」也可触…",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/人物/事件/产品/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象价值观、思维方式、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是费曼基于真实信息做出的判断——用最简单的话解释最复杂的事。",
+  "最新更新时间": "2026-05-25T22:02:37+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/人物/事件/产品/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象价值观、思维方式、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然后…",
+  "skill_id": "06106-feynman-perspective-c20f869a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/feynman-perspective/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/feynman-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "768e2a90a0a5751ce4546f9f3acd55d95c3c1fc257066759409e83c3d0807cbe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

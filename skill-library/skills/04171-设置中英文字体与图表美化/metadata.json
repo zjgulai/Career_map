@@ -1,0 +1,22 @@
+{
+  "英文名称": "line-chart-visualization",
+  "中文名称": "设置中英文字体与图表美化",
+  "一句话作用": "提取结构化数据并进行特征清洗与聚类分析，生成包含趋势对比、分布特征与参数敏感性的多维度综合可视化图表，适用于各类趋势预测与多维对比场景。",
+  "关键输入": "if 'cluster label' in df clean.columns and 'value col1' in df clean.columns: sns.scatterplot(data=df clean, x=group col, y='value col1', hue='cluster label', ax=axes[1, 1], palette='Set1', s=80) axes[1, 1].set title('聚类分组散点图') axes[1, 1].tick params(axis='x',…",
+  "关键输出": "if 'cluster label' in df clean.columns and 'value col1' in df clean.columns: sns.scatterplot(data=df clean, x=group col, y='value col1', hue='cluster label', ax=axes[1, 1], palette='Set1', s=80) axes[1, 1].set title('聚类分组散点图') axes[1, 1].tick params(axis='x',…",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要提取结构化数据并进行特征清洗与聚类分析，生成包含趋势对比、分布特征与参数敏感性的多维度综合可视化图表，适用于各类趋势预测与多维对比场景。时，用它产出或更新：if 'cluster label' in df clean.columns and 'value col1' in df clean.columns: sns.scatterplot(data=df clean, x=group col, y='value col1', hue='cluster label', ax=axes[1, 1], palet…",
+  "skill_id": "04171-line-chart-visualization-1517e364",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-visualization/line-chart-visualization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-visualization/line-chart-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d39e2ff4c04fdf87bdc1011d25a174d316e03d32d35adb08345d9b11e1b83c5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "modal",
+  "中文名称": "待补：modal",
+  "一句话作用": "Run Python code in the cloud with serverless containers, GPUs, and autoscaling. Use when deploying ML models, running batch processing jobs, scheduling compute-intensive tasks, or serving APIs that require GPU accelerat…",
+  "关键输入": "Use Modal for: - Deploying and serving ML models (LLMs, image generation, embedding models) - Running GPU-accelerated computation (training, inference, rendering) - Batch processing large datasets in parallel - Scheduli…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use Modal for: - Deploying and serving ML models (LLMs, image generation, embedding models) - Running GPU-accelerated computation (training, inference, rendering) - Batch processing large datasets in parallel - Scheduli…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05758-modal-0ca41d63",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/modal/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/modal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "613bd190d96e10ddc5ef5f7ab356291077ec71defb6573c9f0a9d36e07deef4e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

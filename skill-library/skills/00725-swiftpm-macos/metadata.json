@@ -1,0 +1,22 @@
+{
+  "英文名称": "swiftpm-macos",
+  "中文名称": "待补：swiftpm-macos",
+  "一句话作用": "Build, run, and test SwiftPM macOS packages and executables. Use when the repo is package-first or has no Xcode project.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Provide: - the package products you found - the command you ran - whether build, run, or test succeeded - the top blocker if not",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build, run, and test SwiftPM macOS packages and executables. Use when the repo is package-first or has no Xcode project.时，用它产出或更新：Provide: - the package products you found - the command you ran - whether build, run, or test succeeded - the top blocker if n…",
+  "skill_id": "00725-swiftpm-macos-5297af51",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/swiftpm-macos/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/swiftpm-macos/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4bd2a889a2f96569773b8d408710326df715f5cfa7c4b3e942be4f895e2b382a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

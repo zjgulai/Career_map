@@ -1,0 +1,22 @@
+{
+  "英文名称": "ppt-visual-designer",
+  "中文名称": "待补：ppt-visual-designer",
+  "一句话作用": "顶级视觉策略设计师，擅长将复杂商业逻辑、组织架构或系统流程转化为\"Block风格\"可视化PPT方案。当用户提到\"block\"、\"Block\"、\"BLOCK\"时，或需要设计PPT、创建演示文稿、制作幻灯片，或需要将文字内容转化为视觉化模块时触发此技能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "根据用户需求，提供以下输出之一：",
+  "最新更新时间": "2026-09-19T03:48:23+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要顶级视觉策略设计师，擅长将复杂商业逻辑、组织架构或系统流程转化为\"Block风格\"可视化PPT方案。当用户提到\"block\"、\"Block\"、\"BLOCK\"时，或需要设计PPT、创建演示文稿、制作幻灯片，或需要将文字内容转化为视觉化模块时触发此技能。时，用它产出或更新：根据用户需求，提供以下输出之一：",
+  "skill_id": "05015-ppt-visual-designer-5a34862d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ppt-visual-designer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ppt-visual-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fbe280f0b71823896cc793bb558ba2c5adb752fcaf3e768c45c73526353ffd99",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

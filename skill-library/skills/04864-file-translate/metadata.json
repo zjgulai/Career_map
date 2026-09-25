@@ -1,0 +1,22 @@
+{
+  "英文名称": "file-translate",
+  "中文名称": "待补：file-translate",
+  "一句话作用": "Immersive file & image translation — preserving original layout, formatting, and visuals. Drop in a PDF, Word, PPT, Excel, image, ePub and get back a fully translated version that looks like it was authored natively. Su…",
+  "关键输入": "Requires a 360 AI Platform API Key . 1. Create a key at 360 AI Platform （新注册用户会获赠 50 元体验金 ，可直接用于翻译服务） 2. Set the environment variable in your shell config: 3. source ~/.zshrc to reload Security tip : Use a dedicated API key with minimal billing scope for this…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:50:23+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Immersive file & image translation — preserving original layout, formatting, and visuals. Drop in a PDF, Word, PPT, Excel, image, ePub and get back a fully translated version that looks like it was authored natively. Su…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04864-file-translate-71975bef",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/file-translate/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/file-translate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ecb2d7a6acb08c1aef808ecec87646046c7dda17d7a6fd145ff53ff17f6206b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

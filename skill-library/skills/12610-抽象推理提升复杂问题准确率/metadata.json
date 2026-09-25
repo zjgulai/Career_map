@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-step-back-prompting",
+  "中文名称": "抽象推理提升复杂问题准确率",
+  "一句话作用": "触发词：抽象推理、原则提炼、两阶段推理、复杂决策、可解释方案。何时不用：要按指标链自动生成归因报告用「多步推理 BI 归因」；要把成本变化做因果分解用「供应链成本因果归因」。安全边界：提炼的原则需业务与合规复核后方可执行；定价类结论不得违反反垄断与价格歧视法规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：抽象推理、原则提炼、两阶段推理、复杂决策、可解释方案。何时不用：要按指标链自动生成归因报告用「多步推理 BI 归因」；要把成本变化做因果分解用「供应链成本因果归因」。安全边界：提炼的原则需业务与合规复核后方可执行；定价类结论不得违反反垄断与价格歧视法规。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12610-p2s-step-back-prompting-dec3d609",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-step-back-prompting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-step-back-prompting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "783d7c5c1789cb09534cd17dce812e6b8db54aa000987f14039062d8b8abbde1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

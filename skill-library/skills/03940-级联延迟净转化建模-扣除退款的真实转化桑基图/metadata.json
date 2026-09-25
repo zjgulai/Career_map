@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tesla-netcvr-cascade",
+  "中文名称": "级联延迟净转化建模 - 扣除退款的真实转化桑基图",
+  "一句话作用": "触发词：净转化、退款率、级联延迟、去偏、桑基图、素材排序。何时不用：只处理点击到购买的单段延迟用轨迹条件延迟转化那张卡；要把退款纳入转化口径、用净转化排序素材与预算时用本卡。安全边界：退款与订单数据属敏感经营数据，须脱敏使用，不得对外披露或推断个体用户退款倾向。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要广告经理面临CVR预测不稳——TESLA-NetCVR将转化误差17%压到6%，年化增31万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03940-p2s-tesla-netcvr-cascade-b1c44749",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tesla-netcvr-cascade/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tesla-netcvr-cascade/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e3aca805a4500577e2e5f7c996e7f2abd471ef41a3d67898b79b3cc5865206e5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

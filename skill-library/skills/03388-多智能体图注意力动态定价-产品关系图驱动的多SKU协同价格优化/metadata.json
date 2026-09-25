@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mappo-gat-dynamic-pricing",
+  "中文名称": "多智能体图注意力动态定价 产品关系图驱动的多SKU协同价格优化",
+  "一句话作用": "触发词：多 SKU 协同定价、产品关系图、图注意力、交叉弹性、联动促销、组合利润。何时不用：单 SKU 或 SKU 间无关联用「动态定价与需求弹性」；只求两卖家博弈均衡用「纳什均衡定价模型」。安全边界：所有 SKU 定价不得低于成本价，避免被平台识别为系统性低价倾销，联动降价前评估账户审查与竞品反制风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要独立对每个SKU定价忽略产品间价格交叉弹性导致组合利润显著低于最优解——MAPPO+GAT图注意力让每个定价Agent感知相关SKU状态，组合协同定价比独立定价提升10-20%总利润（2025 arXiv:2511.00039）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03388-p2s-mappo-gat-dynamic-pricing-16a43981",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mappo-gat-dynamic-pricing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mappo-gat-dynamic-pricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ef0f6a59f367aabdc46a25114dc777b9be4a3da2b9e8b85d1b79b9c70914e08",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

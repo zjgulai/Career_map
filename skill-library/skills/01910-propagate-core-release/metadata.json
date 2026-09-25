@@ -1,0 +1,22 @@
+{
+  "英文名称": "propagate-core-release",
+  "中文名称": "待补：propagate-core-release",
+  "一句话作用": "Propagate a published @zenuml/core release by opening or reusing per-repo downstream issues with explicit rollout instructions. Use when the user says \"push core to downstreams\", \"update downstream projects\", \"propagate…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- repo is updated to @zenuml/core v or the equivalent vendored build output - lockfile is refreshed when the repo uses one - verification command passes locally, or failure details are documented in the PR - no unrelated dependency or renderer migrations are…",
+  "最新更新时间": "2026-05-14T21:03:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Propagate a published @zenuml/core release by opening or reusing per-repo downstream issues with explicit rollout instructions. Use when the user says \"push core to downstreams\", \"update downstream projects\", \"propagate…时，用它产出或更新：- repo is updated to @zenu…",
+  "skill_id": "01910-propagate-core-release-27748cee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.claude/skills/propagate-core-release/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.claude/skills/propagate-core-release/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3152a9a0044c3d6320a188ad81ca3f2d4924b1dcf40ebeb2f4a192ce00d35e8b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

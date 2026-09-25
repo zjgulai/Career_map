@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-aigc-revenue-attribution",
+  "中文名称": "内容生成 ROI 财务归因：从内容投入到 GMV 的量化路径",
+  "一句话作用": "触发词：AIGC 归因、内容 ROI、双重差分、A/B 归因、内容成本对比。何时不用：要自动发现业务指标间的因果关系用「自动化因果发现」；要按购买意图分层触达用「购买意图预测」。安全边界：A/B 分组与观测数据须真实可追溯，不得为得出替换结论挑选样本或压缩观测期；AI 生成素材的使用须符合平台内容与版权规则。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌每月花2000美元请摄影师但不知道AI图片50美元能否替代——DiD+A/B双轨归因量化AIGC内容对GMV的真实贡献，验证AI图CVR差距若小于5%可全面替换年化节省内容成本17万元以上时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12449-p2s-aigc-revenue-attribution-7096d889",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-aigc-revenue-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-aigc-revenue-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "280000e67f2e5f4d6e08da6d37911f3dc3e94a43ec56e51594750015827c711d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-chat-analysis",
+  "中文名称": "跨平台客户沟通分析",
+  "一句话作用": "分析淘宝、天猫、千牛、1688、拼多多、京东、抖店/飞鸽店铺客户聊天与历史会话记录，并生成脱敏、证据化的沟通卡点 HTML 报告。适用于聊天记录、客服会话、旺旺/千牛消息、抖店历史会话、询单转化、未成交原因、客服响应、话术复盘、订单成交证据。仅执行只读采集编排、规范化、标注、分析、验证与交付；不发送消息、优惠券，不修改退款、订单或商品。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 成功时至少产出一份 跨平台沟通卡点分析报告.html（固定 6 章：有效响应 / 及时响应 / 业务员接待 / 产品线质量 / 客户挽留与回复话术 / 客户原声墙），并按店铺交付采集 Excel/JSON 副本到标准运行目录。报告结构与规范以 references/report-contract.md 为准。 - 多平台或多店时最终 HTML 为唯一聚合报告；同一份聚合报告按店复制入每个交付目录。 - storeKey 常态沿用 - ；同一次请求出现同平台、同店名但不同 Profile 账号时，必须使用 st…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要分析淘宝、天猫、千牛、1688、拼多多、京东、抖店/飞鸽店铺客户聊天与历史会话记录，并生成脱敏、证据化的沟通卡点 HTML 报告。适用于聊天记录、客服会话、旺旺/千牛消息、抖店历史会话、询单转化、未成交原因、客服响应、话术复盘、订单成交证据。仅执行只读采集编排、规范化、标注、分析、验证与交付；不发送消息、优惠券，不修改退款、订单或商品。时，用它产出或更新：- 成功时至少产出一份 跨平台沟通卡点分析报告.html（固定 6 章：有效响应 / 及时响应 / 业务员接待 / 产品线质量 / 客户挽留与回复话术 /…",
+  "skill_id": "00216-multi-platform-chat-analysis-3e14e7aa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-chat-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-chat-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28a4aea3b6702e6d4493985c934e0521245b1f1fe85c53f77e362849f3b4766d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

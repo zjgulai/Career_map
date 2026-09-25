@@ -1,0 +1,22 @@
+{
+  "英文名称": "dingtalk-wiki",
+  "中文名称": "钉钉知识库 Skill",
+  "一句话作用": "钉钉知识库与空间管理。Use when 用户明确说 知识库/wiki/创建、查找或列出知识库/命名的团队知识空间/个人知识库/知识库成员/库内节点创建、列表、搜索、复制、移动、删除或知识库动态。仅说“文档空间/我的文档”不触发：普通存储管理与全局文件搜索走 dingtalk-drive；节点正文读写走 dingtalk-doc。命令前缀：dws wiki。",
+  "关键输入": "- workspaceId、nodeId、folderId、userId 不互相替代；名称不能当 ID。 - 写操作只按精确 leaf Runtime 判定确认；已明确授权具体空间/节点/成员、动作与影响时，首次正式执行直接带 --yes，否则先确认。参数变化重新确认；禁止用缺少 --yes 的失败探测。 - +member-list --limit 为 1-50；成员写 --users 为 1-30 个，角色仅 MANAGER EDITOR DOWNLOADER READER。 - +node-create -…",
+  "关键输出": "- +space-list/+node-list/+feed-list 默认单页；全量请求显式加 --page-all，并检查 autoPageComplete/autoPageStopReason/pagesFetched 与分页元数据。 - +space-search/+node-search 缺少业务数组不是零命中；只有显式空数组才可报告空结果。 - 名称解析只有在 scoped +space-list 返回 autoPageComplete=true 且全量中恰好一个精确同名项时才成立；0 条、多条或分页…",
+  "最新更新时间": "2026-09-19T03:39:21+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要钉钉知识库与空间管理。Use when 用户明确说 知识库/wiki/创建、查找或列出知识库/命名的团队知识空间/个人知识库/知识库成员/库内节点创建、列表、搜索、复制、移动、删除或知识库动态。仅说“文档空间/我的文档”不触发：普通存储管理与全局文件搜索走 dingtalk-drive；节点正文读写走 dingtalk-doc。命令前缀：dws wiki。时，用它产出或更新：- +space-list/+node-list/+feed-list 默认单页；全量请求显式加 --page-all，并检查 aut…",
+  "skill_id": "04478-dingtalk-wiki-07cbf85f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-wiki/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-wiki/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "56459a99a0309d4881e05154dd548383324fa9cc398858a302227483ab3727bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

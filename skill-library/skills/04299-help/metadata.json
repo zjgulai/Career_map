@@ -1,0 +1,22 @@
+{
+  "英文名称": "help",
+  "中文名称": "待补：help",
+  "一句话作用": "Grok documentation and configuration help. Use when users ask about setup, configuration, MCP servers, authentication, skills, slash commands, keyboard shortcuts, or any Grok feature. Also use proactively when you detec…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-16T12:09:12+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Grok documentation and configuration help. Use when users ask about setup, configuration, MCP servers, authentication, skills, slash commands, keyboard shortcuts, or any Grok feature. Also use proactively when you detec…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04299-help-7db8bcee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.grok/skills/help/SKILL.md",
+  "relative_path": "lute/.grok/skills/help/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "52d913746a9699efc2c524d0cefcbf9d3bc2fe04d2ff20743058e96ac630b1f5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

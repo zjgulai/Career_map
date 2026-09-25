@@ -1,0 +1,22 @@
+{
+  "英文名称": "rust-mcp-server-generator",
+  "中文名称": "待补：rust-mcp-server-generator",
+  "一句话作用": "Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the official rmcp SDK",
+  "关键输入": "Ask the user for: 1. Project name (e.g., \"my-mcp-server\") 2. Server description (e.g., \"A weather data MCP server\") 3. Transport type (stdio, sse, http, or all) 4. Tools to include (e.g., \"weather lookup\", \"forecast\", \"alerts\") 5. Whether to include prompts a…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the official rmcp SDK时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05070-rust-mcp-server-generator-b07511d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/rust-mcp-server-generator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/rust-mcp-server-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d60ebdec91be10f4f9a3b2560559d1a9ef4f7adc0e4a310f868e943e362cf03",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

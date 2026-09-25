@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecom-compliance-manager",
+  "中文名称": "跨境合规生命周期管理",
+  "一句话作用": "跨境合规生命周期管理 — 覆盖市场准入认证、标签合规、产品安全标准、广告审查，输出合规清单+到期日历+风险等级",
+  "关键输入": "- 新品上市合规审核 ：新产品进入新市场前进行合规清单检查 - 认证到期续期提醒 ：CE/FDA/CPC 等认证到期前自动提醒 - 标签合规审查 ：FDA 标签、CE marking、CPSIA tracking label 合规性检查 - 广告/Listing 合规审核 ：FDA claim substantiation、FTC endorsement disclosure、TikTok ad compliance",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 新品上市合规审核 ：新产品进入新市场前进行合规清单检查 - 认证到期续期提醒 ：CE/FDA/CPC 等认证到期前自动提醒 - 标签合规审查 ：FDA 标签、CE marking、CPSIA tracking label 合规性检查 - 广告/Listing 合规审核 ：FDA claim substantiation、FTC endorsement disclosure、TikTok ad compliance时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09546-ecom-compliance-manager-aad4d1ce",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/ecom-compliance-manager/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/ecom-compliance-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec1ae7660c5a8ab0ac1a2928f9df6a5fc201632d692ca7079f64ce23f3127d19",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

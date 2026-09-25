@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-academic-researcher",
+  "中文名称": "待补：doubao-academic-researcher",
+  "一句话作用": "通用学术文献调研Skill，面向研究者、学生和论文写作者在未锁定具体论文题目前摸清某学术方向、概念、机制、热点前沿、学术史或选题依据。执行系统检索、引用真实性核验、证据分级、主题聚类、交叉综合、争议与空白识别，产出结论先行、引用可追溯的结构化调研结果。触发于用户要求调研某方向、梳理研究现状或related work、查看最新进展、梳理热点前沿或学术史、找文献支撑、做选题依据、解释某概念或机制。只做文献调研与证据支撑，不产出摘要引言方法…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "同时冻结一份 输出范围锁（output scope） ：记录用户明确要求 调研结果层 呈现哪些章节/维度/格式。output scope 有两个方向的调节，不是只能砍： - 裁剪 ：用户只要某些维度/某一节/只要表格清单时，结果层只呈现这些，不为填满骨架而铺开。 - 新增 ：用户明确要求、且属于文献调研范畴（in scope: yes）的呈现形式， 即使标准骨架里没有，也要新增对应章节承接 （如\"典型案例分析\"\"国别对比\"\"方法对照表\"）。骨架是 默认起点，不是封闭上限 ——固定节按需裁剪，个性化需求按需增节。主…",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要通用学术文献调研Skill，面向研究者、学生和论文写作者在未锁定具体论文题目前摸清某学术方向、概念、机制、热点前沿、学术史或选题依据。执行系统检索、引用真实性核验、证据分级、主题聚类、交叉综合、争议与空白识别，产出结论先行、引用可追溯的结构化调研结果。触发于用户要求调研某方向、梳理研究现状或related work、查看最新进展、梳理热点前沿或学术史、找文献支撑、做选题依据、解释某概念或机制。只做文献调研与证据支撑，不产出摘要引言方法…时，用它产出或更新：同时冻结一份 输出范围锁（output scope）…",
+  "skill_id": "06491-doubao-academic-researcher-5bfce611",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4e781f38f0d7d84206f059c582b57cfe5d5d06189712d8e61c2bf3ea666ff399",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

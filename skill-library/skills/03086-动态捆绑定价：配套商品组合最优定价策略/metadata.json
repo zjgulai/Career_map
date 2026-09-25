@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dynamic-bundle-pricing",
+  "中文名称": "动态捆绑定价：配套商品组合最优定价策略",
+  "一句话作用": "触发词：动态捆绑定价、套餐最优价、价格弹性曲线、配件渗透率、套餐组合 ROI、客单价提升。何时不用：要选纯捆绑还是混合捆绑并定结构用「Bundle Pricing Strategy」，要做多 SKU 联动定价与联盟博弈用「MAS 多 SKU 定价联盟博弈」；本技能只做单个套餐的定价与组合枚举。安全边界：模型只给套餐定价方案，改价与上架须人工确认后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要吸奶器配套储奶袋消毒器独立销售只有30%客户会主动购买配件——动态捆绑定价算法找到最优套餐组合和价格，配件渗透率提升到70%套餐利润率比单品高10-20%年化增益15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03086-p2s-dynamic-bundle-pricing-7423d837",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dynamic-bundle-pricing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dynamic-bundle-pricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b018436510c775be1dfa8770df6cb1df5cc77ae6fd99a6500fb374e1ecff4a61",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

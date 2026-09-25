@@ -1,0 +1,22 @@
+{
+  "英文名称": "fastapi",
+  "中文名称": "待补：fastapi",
+  "一句话作用": "FastAPI best practices and conventions. Use when working with FastAPI APIs and Pydantic models for them. Keeps FastAPI code clean and up to date with the latest features and patterns, updated with new versions. Write ne…",
+  "关键输入": "If the return type is not the same as the type that you want to use to validate, filter, or serialize, use the response model parameter on the decorator instead. This can be particularly useful when filtering data to ex…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T09:37:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要If the return type is not the same as the type that you want to use to validate, filter, or serialize, use the response model parameter on the decorator instead. This can be particularly useful when filtering data to ex…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09325-fastapi-cbfebf67",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/data_scrapy/apps/api/.venv/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/data_scrapy/apps/api/.venv/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c8b2bced3222051cad6032d06cae4ac40e8a1376255e308d2c6f405cf2ea355",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

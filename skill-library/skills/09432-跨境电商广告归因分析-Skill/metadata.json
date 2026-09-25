@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-ad-attribution",
+  "中文名称": "跨境电商广告归因分析 Skill",
+  "一句话作用": "跨境电商广告归因分析Skill。提供多触点归因、ROAS分析、渠道效率评估、投放优化建议，帮助优化广告投放ROI。 触发条件: 1. 用户提到\"广告归因\"、\"ROAS\"、\"广告效果\" 2. 用户询问\"渠道效率\"、\"投放优化\"、\"多触点归因\" 3. 用户需要\"广告ROI\"、\"获客成本\"分析 输出内容: - 多触点归因分析 - ROAS计算与评估 - 渠道效率对比 - 投放优化建议",
+  "关键输入": "必需字段 : 字段 类型 说明 ------ ------ ------ date date 日期 channel string 广告渠道 spend numeric 广告支出 impressions numeric 曝光数 clicks numeric 点击数 conversions numeric 转化数 revenue numeric 广告带来收入 多触点归因需要 : 字段 类型 说明",
+  "关键输出": "1. 渠道效率概览",
+  "最新更新时间": "2026-03-04T00:58:44+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商广告归因分析Skill。提供多触点归因、ROAS分析、渠道效率评估、投放优化建议，帮助优化广告投放ROI。 触发条件: 1. 用户提到\"广告归因\"、\"ROAS\"、\"广告效果\" 2. 用户询问\"渠道效率\"、\"投放优化\"、\"多触点归因\" 3. 用户需要\"广告ROI\"、\"获客成本\"分析 输出内容: - 多触点归因分析 - ROAS计算与评估 - 渠道效率对比 - 投放优化建议时，用它产出或更新：1. 渠道效率概览",
+  "skill_id": "09432-cbec-ad-attribution-a4f18641",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/12-marketing-analysis/ad-attribution/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/12-marketing-analysis/ad-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6f2db6f2bdd4f9845b53b356eb89a3c923d89a2397f70f21b2d39e4518463bbc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

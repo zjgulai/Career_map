@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-sizing",
+  "中文名称": "待补：market-sizing",
+  "一句话作用": "Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.",
+  "关键输入": "Your task is to estimate the market size for $ARGUMENTS within the specified market constraints (geography, industry vertical, customer type, etc.). If the user provides market research, industry reports, financial data, or competitor information, read and an…",
+  "关键输出": "Market Definition - Problem space and customer need - Geographic and segment boundaries - Key constraints or scoping decisions TAM (Total Addressable Market) - Top-down estimate with sources and reasoning - Bottom-up estimate for cross-validation - Reconcilia…",
+  "最新更新时间": "2026-09-16T00:16:54+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.时，用它产出或更新：Market Definition - Problem space…",
+  "skill_id": "11180-market-sizing-75ad2807",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/market-sizing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/market-sizing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "96d1250ba0ab7e5b64c9be8278f63f9661b510237e423b42ef70ab914184faf8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

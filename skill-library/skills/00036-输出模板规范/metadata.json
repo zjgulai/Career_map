@@ -1,0 +1,22 @@
+{
+  "英文名称": "shared-output-templates",
+  "中文名称": "输出模板规范",
+  "一句话作用": "引用方 : 全体Agent通用 使用说明 : 所有Agent输出文件/报告时，必须遵循本规范中的格式标准，确保团队输出风格统一。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "引用方 : 全体Agent通用 使用说明 : 所有Agent输出文件/报告时，必须遵循本规范中的格式标准，确保团队输出风格统一。 ---",
+  "最新更新时间": "2026-09-01T22:14:26+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要引用方 : 全体Agent通用 使用说明 : 所有Agent输出文件/报告时，必须遵循本规范中的格式标准，确保团队输出风格统一。时，用它产出或更新：引用方 : 全体Agent通用 使用说明 : 所有Agent输出文件/报告时，必须遵循本规范中的格式标准，确保团队输出风格统一。 ---",
+  "skill_id": "00036-shared-output-templates-4f4924ec",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-output-templates/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-output-templates/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fb1a52da618bd8ef3a781d9d8b7a7028323f8fd7cded5e497ffda21db27bb778",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

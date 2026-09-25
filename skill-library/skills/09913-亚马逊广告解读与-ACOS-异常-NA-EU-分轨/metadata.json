@@ -1,0 +1,22 @@
+{
+  "英文名称": "亚马逊广告解读与 ACOS 异常（NA / EU 分轨）",
+  "中文名称": "待补：亚马逊广告解读与 ACOS 异常（NA / EU 分轨）",
+  "一句话作用": "当需要解读搜索词/投放报告、识别 ACOS 或转化率异常并给出关键词与出价调整草稿（含预算再分配建议）时调用；不替代广告 API 自动规则与品牌独家数据权限。",
+  "关键输入": "- 已导出 至少 14 天 广告报告（搜索词 + 投放位若可得）。 - 已知 毛利底线 或目标 ACOS 区间（可占位「待财务确认」）。 - SKU 与 ASIN 映射一致。",
+  "关键输出": "- 表：Action Target Current Suggested Rationale Risk - 摘要 ：Top 5 动作与预期影响（定性）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当需要解读搜索词/投放报告、识别 ACOS 或转化率异常并给出关键词与出价调整草稿（含预算再分配建议）时调用；不替代广告 API 自动规则与品牌独家数据权限。时，用它产出或更新：- 表：Action Target Current Suggested Rationale Risk - 摘要 ：Top 5 动作与预期影响（定性）。",
+  "skill_id": "09913-acos-na-eu-71751c8a",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/operations-execute/amazon-ad-optimizer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/operations-execute/amazon-ad-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "088f86033c54f7ef76903a76c1b95b161c47133ae60325c3bbe402dfdeced9a7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

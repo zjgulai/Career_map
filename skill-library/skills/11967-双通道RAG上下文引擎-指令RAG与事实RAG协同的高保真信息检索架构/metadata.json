@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dual-rag-context-engine",
+  "中文名称": "双通道RAG上下文引擎 指令RAG与事实RAG协同的高保真信息检索架构",
+  "一句话作用": "触发词：双通道 RAG、指令 RAG、事实 RAG、引用验证、SOP 遵从。何时不用：文档只有单一类型（纯规则或纯数据）时不必分通道；要检测已有回答里的事实错误走幻觉检测。安全边界：无法验证的声明须标记为未验证并触发人工审核，不得直接进入对外交付物。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要单RAG系统将操作SOP和市场数据混为一谈导致指令遵从率只有71%——双通道RAG（指令RAG+事实RAG）将指令遵从率提升至96%，引用准确率从58%提升至89%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11967-p2s-dual-rag-context-engine-a419f87d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-dual-rag-context-engine/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-dual-rag-context-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2f41449bad5ce0d3d542226fcff14e61e2cd21ffa6b6b0ff92e0795badbb9e54",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

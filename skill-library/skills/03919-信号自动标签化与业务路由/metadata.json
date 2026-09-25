@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-driven-voc-signal-routing",
+  "中文名称": "信号自动标签化与业务路由",
+  "一句话作用": "触发词：VOC 标签化、工单路由、客诉分诊、退货原因、自动分派。何时不用：需要的是摘要与属性分布用「AGRS 属性引导评论摘要」；要输出产品改进优先级清单用「VOC 产品迭代信号提取」。安全边界：模型误判会造成工单错派，须设置人工复核阈值；评论与退货原因数据不得含未脱敏的用户个人信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营团队面临\"用户差评信号收到了但不知道应该路由给供应链还是运营还是客服\"——NLP标签化自动路由将VOC响应到对应团队时间从2天压缩至15分钟，年化客诉处理效率提升70万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03919-p2s-tag-driven-voc-signal-routing-fbc24b23",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tag-driven-voc-signal-routing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tag-driven-voc-signal-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4562d234c3f85e0b597d13441a566e89f4a65b0d079f5971ca48ed545f05d03d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

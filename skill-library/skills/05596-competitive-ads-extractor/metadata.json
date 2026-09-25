@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitive-ads-extractor",
+  "中文名称": "待补：competitive-ads-extractor",
+  "一句话作用": "Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working. Helps inspire and improve your own ad campaigns.",
+  "关键输入": "- Researching competitor ad strategies - Finding inspiration for your own ads - Understanding market positioning - Identifying successful ad patterns - Analyzing messaging that works - Discovering new use cases or pain…",
+  "关键输出": "- Screenshots : All ads saved as images - Analysis Report : Markdown summary of insights - Spreadsheet : CSV with ad copy, CTAs, themes - Presentation : Visual deck of top performers - Pattern Library : Categorized by approach",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- Researching competitor ad strategies - Finding inspiration for your own ads - Understanding market positioning - Identifying successful ad patterns - Analyzing messaging that works - Discovering new use cases or pain…时，用它产出或更新：- Screenshots : All ads sav…",
+  "skill_id": "05596-competitive-ads-extractor-af31f215",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/competitive-ads-extractor/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/competitive-ads-extractor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c9bc0f711936ee058858c938c14ac2b52fc0241cde766eff7aca020e9874f157",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

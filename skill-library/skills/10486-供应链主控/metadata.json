@@ -1,0 +1,22 @@
+{
+  "英文名称": "供应链主控",
+  "中文名称": "供应链主控",
+  "一句话作用": "当用户需要统筹多个供应链环节（库存预测+供应商评估+物流优化中至少两个）、做供应链整体规划与风险评估、或为新品搭建端到端供应链体系时使用。 触发词：供应链主控、供应链管理、供应链智能体、供应链统筹、供应链协调、供应链规划、供应链整合、供应链风险评估、供应链体系搭建、scm main hub。 何时不用：单一明确的子技能需求（如仅做库存预测直接使用库存预测专家、仅评估供应商直接使用供应商评估专家、仅优化物流路线直接使用物流路线专家）、非…",
+  "关键输入": "- 需求涉及两个及以上供应链环节的协作（库存+供应商/库存+物流/供应商+物流/三者全有） - 供应链整体规划与风险评估 - 新品上市供应链全链路搭建 - 大促备货多角色统筹 - 供应链管理体系搭建",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 需求涉及两个及以上供应链环节的协作（库存+供应商/库存+物流/供应商+物流/三者全有） - 供应链整体规划与风险评估 - 新品上市供应链全链路搭建 - 大促备货多角色统筹 - 供应链管理体系搭建时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10486-skill-dfd462b6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/供应链主控/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/供应链主控/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "d658d5b3eed0227c31bfead5cf82adba8a110ecabdf405df816f3cb6307e93f0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

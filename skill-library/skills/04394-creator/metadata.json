@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-creator",
+  "中文名称": "待补：skill-creator",
+  "一句话作用": "Guide for creating effective skills for Apollo GraphQL and GraphQL development. Use this skill when: (1) users want to create a new skill, (2) users want to update an existing skill, (3) users ask about skill structure…",
+  "关键输入": "description: Guide for designing GraphQL schemas following industry best practices. Use this skill when: (1) designing a new GraphQL schema or API, (2) reviewing existing schema for improvements, (3) deciding on type st…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:00+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要description: Guide for designing GraphQL schemas following industry best practices. Use this skill when: (1) designing a new GraphQL schema or API, (2) reviewing existing schema for improvements, (3) deciding on type st…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04394-skill-creator-bf0598ea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/apollo-graphql/1.0.0/skills/skill-creator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/apollo-graphql/1.0.0/skills/skill-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "650b9c31e36f1ea44e091d1719056ecab2d778d400c73034e292723b71914447",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

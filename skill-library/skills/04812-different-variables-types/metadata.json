@@ -1,0 +1,22 @@
+{
+  "英文名称": "different-variables-types",
+  "中文名称": "待补：different-variables-types",
+  "一句话作用": "Use when tempted to reuse variables. Use when variable changes type. Use when using union types for multiple purposes.",
+  "关键输入": "- Reusing a variable name for a different purpose - Variables assigned values of different types - Union types used just to accommodate reassignment - Debugging type errors from variable reuse",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:07+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Reusing a variable name for a different purpose - Variables assigned values of different types - Union types used just to accommodate reassignment - Debugging type errors from variable reuse时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04812-different-variables-types-382ed90f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/different-variables-types/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/different-variables-types/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0ccbcfc25ceb799e093c38de8a931c1337fe982569fa8a2b5d03dcdcf84c642e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

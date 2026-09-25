@@ -1,0 +1,22 @@
+{
+  "英文名称": "专利文档生成",
+  "中文名称": "专利文档生成",
+  "一句话作用": "Utility model patent document generation from PRDs.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "分两步输出： 第一步：Markdown 预览 - 将完整专利文档以 Markdown 格式输出到聊天窗口 - 让用户确认内容、提出修改意见 第二步：生成 .docx 文件 - 用户确认无误后，使用 docx skill 或 docx-js 生成 Word 文档 - 字体规范： - 标题（Heading 1/2/3）：SimHei（黑体） - 正文（Body）：SimSun（宋体），小四号（12pt） - 表格内容：SimSun，五号（10.5pt） - 页面设置：A4 纸张，页边距上下 2.54cm、左右 3.1…",
+  "最新更新时间": "2026-09-19T03:38:53+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Utility model patent document generation from PRDs.时，用它产出或更新：分两步输出： 第一步：Markdown 预览 - 将完整专利文档以 Markdown 格式输出到聊天窗口 - 让用户确认内容、提出修改意见 第二步：生成 .docx 文件 - 用户确认无误后，使用 docx skill 或 docx-js 生成 Word 文档 - 字体规范： - 标题（Heading 1/2/3）：SimHei（黑体） - 正文（Body）：SimSun（宋体），小四号…",
+  "skill_id": "04577-skill-1b20923f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-output-engine/1.0.0/skills/专利文档生成/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-output-engine/1.0.0/skills/专利文档生成/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7bfa61abea7c1af3eea2c2f2fda4721378122d7d6690723ebc852fed79b63345",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

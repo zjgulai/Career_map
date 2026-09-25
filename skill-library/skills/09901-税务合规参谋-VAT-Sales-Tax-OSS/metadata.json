@@ -1,0 +1,22 @@
+{
+  "英文名称": "税务合规参谋（VAT/Sales Tax/OSS）",
+  "中文名称": "待补：税务合规参谋（VAT/Sales Tax/OSS）",
+  "一句话作用": "当进入新市场或税制发生变化时，基于交易与税率规则输出税务合规差距清单、截止风险与整改建议。",
+  "关键输入": "- 国家维度交易流水与发票摘要 - 税率规则与平台代扣规则版本 - 历史申报记录（如有）",
+  "关键输出": "表：市场 税种 当前状态 缺口 截止日 风险等级 处理建议",
+  "最新更新时间": "2026-03-22T01:31:57+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当进入新市场或税制发生变化时，基于交易与税率规则输出税务合规差距清单、截止风险与整改建议。时，用它产出或更新：表：市场 税种 当前状态 缺口 截止日 风险等级 处理建议",
+  "skill_id": "09901-vat-sales-tax-oss-16ea4f97",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/tax-compliance-advisor/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/tax-compliance-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "512fccff2db5e7d5d86b92613827800ca410a3127315664e3cf7a348ed070e2e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

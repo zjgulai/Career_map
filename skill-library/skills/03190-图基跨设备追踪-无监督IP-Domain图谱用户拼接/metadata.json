@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-graphtrack-cross-device-tracking",
+  "中文名称": "图基跨设备追踪 - 无监督IP-Domain图谱用户拼接",
+  "一句话作用": "触发词：跨设备追踪、IP 图、域名图、随机游走、设备匹配、归因断链。何时不用：设备共享 IP 极少（移动网络频繁轮换）时图方法失效；需要确定性身份匹配时用登录态或 ID 图谱。安全边界：浏览记录与 IP 属个人信息，需脱敏并符合隐私法规，不得用于还原个体身份或跨站画像。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴用户在 TikTok 看到吸奶器短视频种草，切换到 Safari 搜索品牌名进独立站下单时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03190-p2s-graphtrack-cross-device-tracking-baae6e3f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-graphtrack-cross-device-tracking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-graphtrack-cross-device-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0ff7583bfb7aba4b444089b06587ee408cfb16ae361fa88346715a6ea24522bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

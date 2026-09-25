@@ -1,0 +1,22 @@
+{
+  "英文名称": "weisheng-scrm",
+  "中文名称": "微盛企微管家 SCRM（WeCom Weisheng SCRM）",
+  "一句话作用": "当用户需要查询或管理微盛企微管家（企业微信） SCRM 中的客户信息、客户标签、客户群、营销素材、活码、群发、跟进记录、聊天记录、会话存档、联系人、商机、汇报、抽奖、客户日程、客户画像等相关业务能力时触发。即使用户未明确提到 SCRM、企微管家、开放接口或 API，也应在这些企业微信客户运营与管理场景下触发。",
+  "关键输入": "不同接口用于区分团队/个人的参数名和枚举值各不相同，必须通过阅读文档确认，不得自行猜测或复用其他接口的值。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要当用户需要查询或管理微盛企微管家（企业微信） SCRM 中的客户信息、客户标签、客户群、营销素材、活码、群发、跟进记录、聊天记录、会话存档、联系人、商机、汇报、抽奖、客户日程、客户画像等相关业务能力时触发。即使用户未明确提到 SCRM、企微管家、开放接口或 API，也应在这些企业微信客户运营与管理场景下触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05405-weisheng-scrm-3a7900d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/weisheng-scrm/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/weisheng-scrm/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "59a2ecfa20cbfaa78af8181c0c7802a431fa13723834e9e3f7f2fecca5951133",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

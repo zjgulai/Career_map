@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-promotion-roi-pre-post-analysis",
+  "中文名称": "促销ROI前后对比分析（大促PnL归因）",
+  "一句话作用": "触发词：促销前后对比、增量剥离、对照 SKU、大促 PnL、预算优化。何时不用：要把供应侧备货与尾货成本算进促销 ROI 用「促销供应侧 ROI」；要用处理组对照组做严格因果估计用「双重差分因果估计」。安全边界：对照组需可比且口径一致，否则增量会被高估；结论只作内部预算优化依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"大促结束后无法区分自然增长和促销带动导致ROI评估失真\"——DiD方法剥离净促销效果，下次大促预算优化年化提升贡献毛利10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03658-p2s-promotion-roi-pre-post-analysis-537f3313",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-promotion-roi-pre-post-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-promotion-roi-pre-post-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "95053f1c852c08a60eb0832c5c5683e45aa1bea08e8e3d4fa193b47fa1fbbfdd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

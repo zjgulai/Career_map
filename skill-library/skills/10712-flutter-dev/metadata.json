@@ -1,0 +1,22 @@
+{
+  "英文名称": "flutter-dev",
+  "中文名称": "待补：flutter-dev",
+  "一句话作用": "Flutter cross-platform development guide covering widget patterns, Riverpod/Bloc state management, GoRouter navigation, performance optimization, and platform-specific implementations. Includes const optimization, respo…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Flutter cross-platform development guide covering widget patterns, Riverpod/Bloc state management, GoRouter navigation, performance optimization, and platform-specific implementations. Includes const optimization, respo…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10712-flutter-dev-a5231475",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/flutter-dev/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/flutter-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b0e5eb337c1891481ff7875d0fee974ba4a7bddafb6a7f0947747c008b5c2e28",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

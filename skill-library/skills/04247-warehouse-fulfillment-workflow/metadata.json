@@ -1,0 +1,22 @@
+{
+  "英文名称": "warehouse-fulfillment-workflow",
+  "中文名称": "待补：warehouse-fulfillment-workflow",
+  "一句话作用": "- Optimize warehouse operations with digital pick lists, packing station workflows, and carrier-agnostic label generation to increase fulfillment speed and accuracy 触发词：仓库发货、拣货打包、面单生成、订单履行、仓库管理。",
+  "关键输入": "- When transitioning from a manual, paper-based fulfillment process to a digital system. - When expanding to multiple warehouse locations or using a 3PL. - When mis-ships (wrong items sent) exceed 0.5% of total orders.…",
+  "关键输出": "Returns should be a mirror of fulfillment, not an afterthought: 1. Inspection : Rate the item (A: Resellable, B: Open Box, C: Damaged). 2. Refurbishing : Cleaning, re-tagging, and re-polybagging. 3. Return-to-Shelf : Scan the item back into a specific Bin Loc…",
+  "最新更新时间": "2026-09-08T00:24:57+08:00",
+  "业务场景": "fulfillment-shipping",
+  "解决具体问题": "当需要- When transitioning from a manual, paper-based fulfillment process to a digital system. - When expanding to multiple warehouse locations or using a 3PL. - When mis-ships (wrong items sent) exceed 0.5% of total orders.…时，用它产出或更新：Returns should be a mirror…",
+  "skill_id": "04247-warehouse-fulfillment-workflow-78534512",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/warehouse-fulfillment-workflow/SKILL.md",
+  "relative_path": "lute/.dsh/skills/warehouse-fulfillment-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "578031c56cbe50161117f34a5d043ced11ad7b36af5080cc434ed541055eb092",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

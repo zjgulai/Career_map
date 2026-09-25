@@ -1,0 +1,22 @@
+{
+  "英文名称": "byted-mediakit-shared",
+  "中文名称": "专业媒体处理入口",
+  "一句话作用": "MediaKit 是面向音视频与图像处理的专业工具集，覆盖音视频剪辑与合成、音频媒资探测与人声分离、视频理解与增强、图像增强与内容理解等工作流。用户明确提出叠加、字幕压制、滤镜、运镜、提取字幕、语音转字幕、裁剪、拼接、调速、混音、音视频处理、图片增强或擦除、视频分析或画质增强目标时，先加载本 Skill，再按对象和目标选择 audio、editing、image 或 video；仅说明媒体类型而未说明处理目标时先澄清。不承担具体能力参…",
+  "关键输入": "当业务参数需要公网可访问媒体，而用户仅提供本机文件路径时，CLI 的 Cloud 输入适配器会处理上传。无需新增上传命令或上传参数。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要MediaKit 是面向音视频与图像处理的专业工具集，覆盖音视频剪辑与合成、音频媒资探测与人声分离、视频理解与增强、图像增强与内容理解等工作流。用户明确提出叠加、字幕压制、滤镜、运镜、提取字幕、语音转字幕、裁剪、拼接、调速、混音、音视频处理、图片增强或擦除、视频分析或画质增强目标时，先加载本 Skill，再按对象和目标选择 audio、editing、image 或 video；仅说明媒体类型而未说明处理目标时先澄清。不承担具体能力参…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06475-byted-mediakit-shared-6a37ce21",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-shared/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-shared/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1cc5321fd50f22fa21945575ba4a4937ebe8117ff45aca5e27b1d7345620dfa9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

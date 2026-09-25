@@ -1,0 +1,22 @@
+{
+  "英文名称": "pyopenms",
+  "中文名称": "待补：pyopenms",
+  "一句话作用": "Complete mass spectrometry analysis platform. Use for proteomics workflows feature detection, peptide identification, protein quantification, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithm…",
+  "关键输入": "algo = ms.GaussFilter() params = algo.getParameters()",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Complete mass spectrometry analysis platform. Use for proteomics workflows feature detection, peptide identification, protein quantification, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithm…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05788-pyopenms-195fe646",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pyopenms/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pyopenms/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bc2f2b6dd7da316d066123cd717cb89a596d6091be9691338e048a84fd3ed5ea",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

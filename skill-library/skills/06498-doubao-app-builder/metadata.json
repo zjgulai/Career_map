@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-app-builder",
+  "中文名称": "待补：doubao-app-builder",
+  "一句话作用": "统一处理应用级和工程级产品的设计、开发、编辑及产物问答（单页html和h5的开发和设计不要使用这个skill）。当用户明确点名「妙搭」时请使用本技能。适用于全栈应用，包括多页面或多文件工程、前端框架、后端服务、API、数据库、登录权限、业务逻辑、构建运行和发布部署。也支持基于 PRD、文档、截图或素材开发应用，以及对已有应用新增功能、调整页面、修复 Bug、分析源码、排查运行错误和查询运营或发布状态。",
+  "关键输入": "- app id（可选）：当需要编辑，或读取/问答已有网页应用（总结内容、看源码、排查报错、查运营数据）时传入对应的应用 ID。 若用户提供了形如 https://xxx/app/app xxxxxx 的应用 URL，则 /app/ 后面的 app xxxxxx 就是该应用的 app id ，直接据此调用 app builder agent，无需再向用户追问 ID - arch type（可选）：当需要创建应用时，必须传入对应的应用技术类型 - user prompt（核心参数）：创建或编辑网页应用的完整指令内容…",
+  "关键输出": "- 语言与用户一致（默认中文） - 先整理需求与素材，再通过工具调用方式执行 app builder agent（若需要生成/编辑） - 调用 app builder agent 时，user prompt 必须包含完整信息（禁止自行补充用户未提及的风格设计：视觉风格、配色、布局、字体、动效、页面结构、抽象风格词等） - 静默执行，禁止暴露内部逻辑：无论是在思考过程（thinking/reasoning）还是在回复用户的文本中，都禁止提及或透露 app id、arch type、user prompt 这三个参数…",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要统一处理应用级和工程级产品的设计、开发、编辑及产物问答（单页html和h5的开发和设计不要使用这个skill）。当用户明确点名「妙搭」时请使用本技能。适用于全栈应用，包括多页面或多文件工程、前端框架、后端服务、API、数据库、登录权限、业务逻辑、构建运行和发布部署。也支持基于 PRD、文档、截图或素材开发应用，以及对已有应用新增功能、调整页面、修复 Bug、分析源码、排查运行错误和查询运营或发布状态。时，用它产出或更新：- 语言与用户一致（默认中文） - 先整理需求与素材，再通过工具调用方式执行 app b…",
+  "skill_id": "06498-doubao-app-builder-1e39f374",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-app-builder/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-app-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0da7c6289c9813216f3939e63b68416c5b69bedfd761b04400cc5067d25dc609",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-萃取",
+  "中文名称": "萃取",
+  "一句话作用": "This skill should be used when the user asks to \"生成skill卡片\", \"萃取论文\", \"论文转skill\", \"生成技能卡片\", \"创建skill\". Uses Master Prompt to convert academic papers into business-ready skill cards.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "前置条件：必须确认 Step 5 代码验证已通过。验证未通过不得执行此步骤。 保存到相应目录： - 原始论文PDF: /paper2skills-vault/papers/[领域]/[论文ID]/paper.pdf - 阅读笔记: /paper2skills-vault/papers/[领域]/[论文ID]/notes.md - 萃取结果: /paper2skills-vault/papers/[领域]/[论文ID]/extract.md",
+  "最新更新时间": "2026-09-12T04:05:49+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"生成skill卡片\", \"萃取论文\", \"论文转skill\", \"生成技能卡片\", \"创建skill\". Uses Master Prompt to convert academic papers into business-ready skill cards.时，用它产出或更新：前置条件：必须确认 Step 5 代码验证已通过。验证未通过不得执行此步骤。 保存到相应目录： - 原始论文PDF: /paper2…",
+  "skill_id": "12686-paper-e956faf9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/paper_to_skills/paper2skills-skills/paper-萃取/SKILL.md",
+  "relative_path": "lute/project/paper_to_skills/paper2skills-skills/paper-萃取/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "757fa307d42ac0f20132c07c5aab622b55ee6d04ca6ea5a6c181d46c605d08e1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

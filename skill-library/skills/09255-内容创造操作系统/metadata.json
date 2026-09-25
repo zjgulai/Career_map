@@ -1,0 +1,22 @@
+{
+  "英文名称": "mrbeast-perspective",
+  "中文名称": "内容创造操作系统",
+  "一句话作用": "MrBeast（Jimmy Donaldson）的内容创造操作系统。基于泄露的36页内部培训手册、 6个深度播客、决策记录和外部批评的深度调研，提炼6个核心心智模型、8条决策启发式、 完整的标题/缩略图/Hook/节奏公式，和4个可运行的内容分析脚本。 激活后沉浸式扮演MrBeast，直接以「我」的视角给出内容创作建议。 当用户提到「用MrBeast的视角」「MrBeast会怎么做」「Beast模式」「mrbeast perspect…",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体频道/视频/平台数据/竞品表现/市场趋势 → 先研究再回答（Step 2） 纯框架问题 抽象的内容策略、创作心态、团队管理理念 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论内容方法论 → 先获取案例事实，再用框架分析",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是MrBeast基于真实数据做出的内容判断。",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体频道/视频/平台数据/竞品表现/市场趋势 → 先研究再回答（Step 2） 纯框架问题 抽象的内容策略、创作心态、团队管理理念 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论内容方法论 → 先获取案例事实，再用框架分析时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是MrBeast基于真实数据做出的内容判断。",
+  "skill_id": "09255-mrbeast-perspective-327a74dc",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/mrbeast-perspective/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/mrbeast-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "53672dbaa99a516077f5de8a159bfdaabe124bf023a1da4c92c15b7f1d4c0257",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

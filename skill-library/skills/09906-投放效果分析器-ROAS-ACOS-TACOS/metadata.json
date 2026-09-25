@@ -1,0 +1,22 @@
+{
+  "英文名称": "投放效果分析器（ROAS/ACOS/TACOS）",
+  "中文名称": "待补：投放效果分析器（ROAS/ACOS/TACOS）",
+  "一句话作用": "当广告花费波动、转化下滑或复盘周期到达时，输出渠道与素材分层效率以及预算调整建议。",
+  "关键输入": "- 渠道投放花费与转化数据 - 素材/人群维度表现明细 - 近周期基线指标",
+  "关键输出": "表：渠道 素材 花费 产出 核心指标 结论 动作建议",
+  "最新更新时间": "2026-03-22T01:33:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当广告花费波动、转化下滑或复盘周期到达时，输出渠道与素材分层效率以及预算调整建议。时，用它产出或更新：表：渠道 素材 花费 产出 核心指标 结论 动作建议",
+  "skill_id": "09906-roas-acos-tacos-fcc10ba3",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/campaign-performance-analyzer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/campaign-performance-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df098e18db12223c5cba6b25756ea5a2e80f3e35330f499551b84f5c4fa43279",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

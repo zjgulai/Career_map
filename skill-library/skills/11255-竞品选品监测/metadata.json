@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-competitor-product-intelligence",
+  "中文名称": "竞品选品监测）",
+  "一句话作用": "触发词：竞品新品监测、SKU 异常检测、跟进选品、价格战识别、BSR 监控。何时不用：要预测竞品尚未上架的新品用「Competitor New Product Detection」；要 7×24 监控价格与 Listing 变化用「多 Agent 竞品情报系统」。安全边界：只采集竞品公开数据，不得使用侵权或非授权渠道；跟进选品不得照抄竞品设计或 Listing。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要监测到竞品 Momcozy 密集上线 5 个\"Silicon Flange\"（硅胶法兰）新 SKU，且上线 2 周内均进入 BSR Top 5000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11255-p2s-competitor-product-intelligence-480a8f61",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-competitor-product-intelligence/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-competitor-product-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b202c76a6cdb279452ff5bf4b30d5e109f341a418313a93a9c95e06dd98b0d7d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

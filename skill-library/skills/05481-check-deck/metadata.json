@@ -1,0 +1,22 @@
+{
+  "英文名称": "check-deck",
+  "中文名称": "待补：check-deck",
+  "一句话作用": "Investment banking presentation quality checker. Reviews pitch decks and client-ready presentations for: (1) Number consistency across slides, (2) Data-narrative alignment, (3) Language polish for IB standards, (4) Form…",
+  "关键输入": "Extract presentation content before checking: For visual inspection, convert to images using the pptx skill workflow.",
+  "关键输出": "Present findings using the template in references/report-format.md. Categorize by severity: - Critical : Number mismatches, factual errors - Important : Language, narrative alignment - Minor : Formatting inconsistencies",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Investment banking presentation quality checker. Reviews pitch decks and client-ready presentations for: (1) Number consistency across slides, (2) Data-narrative alignment, (3) Language polish for IB standards, (4) Form…时，用它产出或更新：Present findings using the…",
+  "skill_id": "05481-check-deck-aca70682",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/check-deck/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/check-deck/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c8d3cb6009ec6191e2861acc4b49a432b4960d5fc7667e2c8d6382cd53d1889b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

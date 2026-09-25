@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-enterprise-knowledge",
+  "中文名称": "待补：twilio-enterprise-knowledge",
+  "一句话作用": "Add knowledge retrieval to AI agents using Twilio's Enterprise Knowledge product. Enterprise Knowledge is a centralized, searchable repository of your organization's documents, websites, and content — FAQs, support poli…",
+  "关键输入": "- Twilio account with Enterprise Knowledge access (requires enablement) — New to Twilio? See twilio-account-setup - TWILIO ACCOUNT SID and TWILIO AUTH TOKEN — see twilio-iam-auth-setup ---",
+  "关键输出": "knowledge = requests.post( f\"https://knowledge.twilio.com/v1/KnowledgeBases/{kb id}/Knowledge\", auth=(account sid, auth token), json={ \"name\": \"Company Handbook\", \"source\": { \"type\": \"File\", \"fileName\": \"handbook.pdf\", \"fileSize\": 2048576, \"mimeType\": \"applic…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Add knowledge retrieval to AI agents using Twilio's Enterprise Knowledge product. Enterprise Knowledge is a centralized, searchable repository of your organization's documents, websites, and content — FAQs, support poli…时，用它产出或更新：knowledge = requests.post(…",
+  "skill_id": "01084-twilio-enterprise-knowledge-46113914",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-enterprise-knowledge/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-enterprise-knowledge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f4aa10b08b29c3ad1d92ba6cc5afce9ef69d2e8214ae2f3a7e71112ee1b2a0e7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

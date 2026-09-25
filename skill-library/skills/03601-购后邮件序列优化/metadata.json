@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-post-purchase-email-sequence-optimizer",
+  "中文名称": "购后邮件序列优化）",
+  "一句话作用": "触发词：购后邮件、换段提醒、复购序列、月龄引导、邮件自动化、首购激活。何时不用：跨版本文案择优用多臂老虎机卡；要在购后按时间与月龄节点编排一串邮件（评价、交叉销售、换段、召回）时用本卡。安全边界：Amazon 站内只能走 Buyer-Seller Messaging 等合规渠道，不得夹带外部链接；邮件须可退订并遵守发送频率限制。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要私域运营面临邮件跟进打不开——邮件序列优化将复购率从8%提到12%，年化增收13万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03601-p2s-post-purchase-email-sequence-optimizer-fdc8f772",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-post-purchase-email-sequence-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-post-purchase-email-sequence-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "20f332ca17eca0404ec9e2f9eff3371ea78ab326687069f9822a67e058f53439",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

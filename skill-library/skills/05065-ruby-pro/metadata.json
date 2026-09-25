@@ -1,0 +1,22 @@
+{
+  "英文名称": "ruby-pro",
+  "中文名称": "待补：ruby-pro",
+  "一句话作用": "Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Idiomatic Ruby code following community conventions - Rails applications with MVC architecture - RSpec/Minitest tests with fixtures and mocks - Gem specifications with proper versioning - Performance benchmarks with benchmark-ips - Refactoring suggestions f…",
+  "最新更新时间": "2026-09-19T03:55:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.时，用它产出或更新：- Idiomatic Ruby code following community conventions - Rails applications with MV…",
+  "skill_id": "05065-ruby-pro-35d45923",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/ruby-pro/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/ruby-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8194c5f6bbe336d19a983846c025a02d9ebe5885fba6ba71b7f5965c1156b473",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

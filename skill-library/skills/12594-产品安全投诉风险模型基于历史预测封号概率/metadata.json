@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-safety-complaint-risk-model",
+  "中文名称": "产品安全投诉风险模型基于历史预测封号概率",
+  "一句话作用": "触发词：安全投诉、封号概率、风险评分、差评关键词、红色预警、账号诊断。何时不用：要按 HTS 码判 CPSC 管制风险时用「HTS 码风险分类」，要判知识库文档是否过期时用「Corrective-RAG 纠错检索」。安全边界：风险评分仅用于内部预警，不得据此对外承诺安全结论或掩盖真实投诉。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"收到3起Buyer Message提及宝宝摔落事故不知道封号风险有多高\"——安全投诉风险逻辑回归将封号概率量化并触发合规预警，成功规避封号保护冻结资金200-500万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12594-p2s-product-safety-complaint-risk-model-24569079",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-product-safety-complaint-risk-model/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-product-safety-complaint-risk-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b528ab9913bd6f28058657ead034bee3b47e9fd3159f0f5b9756fceec17a80ad",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

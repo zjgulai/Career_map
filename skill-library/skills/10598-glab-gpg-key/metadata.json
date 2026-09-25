@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-gpg-key",
+  "中文名称": "待补：glab-gpg-key",
+  "一句话作用": "管理用于提交签名的 GPG 密钥，包括添加、列出和删除操作。适用于设置提交签名、管理 GPG 密钥或验证已签名的提交。触发关键词：GPG 密钥、提交签名、已签名提交、验证提交。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理用于提交签名的 GPG 密钥，包括添加、列出和删除操作。适用于设置提交签名、管理 GPG 密钥或验证已签名的提交。触发关键词：GPG 密钥、提交签名、已签名提交、验证提交。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10598-glab-gpg-key-80bd61d4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-gpg-key/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-gpg-key/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dc0209170a5e7bbd7e3adc5ff530da58c9fd70d0e4469f5f6639bc5811a4b9ff",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

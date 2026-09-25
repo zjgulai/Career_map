@@ -1,0 +1,22 @@
+{
+  "英文名称": "竞品行业调研",
+  "中文名称": "竞品行业调研 产品经理专用",
+  "一句话作用": "Competitor analysis and industry trend research for AI product managers.",
+  "关键输入": "用户输入通常有以下几种模式，需要正确解析： 用户输入示例 解析方式 调研模式 --- --- --- \"帮我分析一下 ChatGPT 和 Claude 的对比\" 竞品：ChatGPT、Claude 模式 A \"AI 写作赛道现在怎么样\" 行业：AI 写作 模式 B \"帮我做一个 AI 编程助手的全景调研\" 竞品 + 行业：AI 编程助手 模式 C \"看看 Notion AI 最近有什么动态\" 竞品：Notion AI（轻量级） 模式 A 快速扫描",
+  "关键输出": "目标 ：将分析结果整合为一份专业的调研报告。",
+  "最新更新时间": "2026-09-19T03:38:53+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Competitor analysis and industry trend research for AI product managers.时，用它产出或更新：目标 ：将分析结果整合为一份专业的调研报告。",
+  "skill_id": "04579-skill-94b327e5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-output-engine/1.0.0/skills/竞品行业调研/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-output-engine/1.0.0/skills/竞品行业调研/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1caa20df7f260fc3cd2fa815a9036f25d40eaeb96adbd596e20340e9a2476ba9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

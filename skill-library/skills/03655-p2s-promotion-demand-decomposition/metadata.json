@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-promotion-demand-decomposition",
+  "中文名称": "待补：p2s-promotion-demand-decomposition",
+  "一句话作用": "触发词：大促分解、Base-Lift、促销 lift、PPE、过量备货。何时不用：只需剥离历史节日脉冲修正增长率时用「节日峰值分解」；只按季节因子调整时用「STL 季节性分解」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要场景 A：Momcozy 618 大促备货拆解（5 月初下单，lead time 6 周）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03655-p2s-promotion-demand-decomposition-18d1df38",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-promotion-demand-decomposition/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-promotion-demand-decomposition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eee82381428caad0172849a861c11c0a9998dd16289cfdccca2691b760abaed4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

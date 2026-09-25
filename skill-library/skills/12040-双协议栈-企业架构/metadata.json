@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mcp-a2a-protocol-stack",
+  "中文名称": "双协议栈 企业架构",
+  "一句话作用": "触发词：MCP协议、A2A协议、多Agent编排、工具注册、Agent互调。何时不用：只有单个 Agent、只需决定要不要调工具时用工具调用决策技能；只审计工具描述质量时用工具描述审核技能。安全边界：跨 Agent 消息须限定在已注册的信任域与工具白名单内，涉及用户数据与合规判定的请求不得绕过治理通道。",
+  "关键输入": "输入 ：各平台 API 或已有工具的接口定义（OpenAPI 或 MCP schema）、Agent 角色清单与治理要求（质检、合规、升级），粒度到单个工具与单条 A2A 消息。 输出 ：MCP 工具注册表、A2A 消息与路由结果，以及多 Agent 编排骨架实现，供平台架构师搭建企业级 MAS。",
+  "关键输出": "输入 ：各平台 API 或已有工具的接口定义（OpenAPI 或 MCP schema）、Agent 角色清单与治理要求（质检、合规、升级），粒度到单个工具与单条 A2A 消息。 输出 ：MCP 工具注册表、A2A 消息与路由结果，以及多 Agent 编排骨架实现，供平台架构师搭建企业级 MAS。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：MCP协议、A2A协议、多Agent编排、工具注册、Agent互调。何时不用：只有单个 Agent、只需决定要不要调工具时用工具调用决策技能；只审计工具描述质量时用工具描述审核技能。安全边界：跨 Agent 消息须限定在已注册的信任域与工具白名单内，涉及用户数据与合规判定的请求不得绕过治理通道。时，用它产出或更新：输入 ：各平台 API 或已有工具的接口定义（OpenAPI 或 MCP schema）、Agent 角色清单与治理要求（质检、合规、升级），粒度到单个工具与单条 A2A 消息。 输出 ：…",
+  "skill_id": "12040-p2s-mcp-a2a-protocol-stack-5dde33a3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mcp-a2a-protocol-stack/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mcp-a2a-protocol-stack/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "017ca1423b53edc322f023d4563bc71a97294fc2290590cedd8a887ee8ae0634",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

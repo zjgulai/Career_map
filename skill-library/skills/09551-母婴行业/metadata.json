@@ -1,0 +1,22 @@
+{
+  "英文名称": "ozon-product-selection",
+  "中文名称": "母婴行业",
+  "一句话作用": "OZON product selection and market analysis for母婴跨境电商. Analyze OZON marketplace trends, competition, pricing, and demand for母婴 products. Optimize product listings for Russian and CIS markets.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要OZON product selection and market analysis for母婴跨境电商. Analyze OZON marketplace trends, competition, pricing, and demand for母婴 products. Optimize product listings for Russian and CIS markets.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09551-ozon-product-selection-a53b78f0",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/ozon-product-selection/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/ozon-product-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "82a244df2e25d6894f783ae924255a0e8f948c38793f2f2274a1c80212097e3d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "complex-skill",
+  "中文名称": "待补：complex-skill",
+  "一句话作用": "复杂 Skill 模板，适用于多步骤工作流、脚本执行、多参考文档场景。 当用户需要创建复杂 Skill、使用 scripts/ 和 assets/、 管理多配置选项时使用。 触发词：复杂 skill、多步骤工作流、脚本执行、skill 模板、高级配置。",
+  "关键输入": "- Multi-step complex workflows（多步骤复杂工作流） - Tasks requiring detailed documentation（需要详细文档的任务） - Advanced configuration scenarios（高级配置场景） - Script execution required（需要脚本执行） - Multiple reference documents needed（需要多份参考文档）",
+  "关键输出": "Symptom : Input format error Solution : 1. Check references/patterns.md 2. Validate against schema 3. Provide clear error message",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Multi-step complex workflows（多步骤复杂工作流） - Tasks requiring detailed documentation（需要详细文档的任务） - Advanced configuration scenarios（高级配置场景） - Script execution required（需要脚本执行） - Multiple reference documents needed（需要多份参考文档）时，用它产出或更新：Symptom : Input format erro…",
+  "skill_id": "11129-complex-skill-1f029c97",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/skill-creator/assets/templates/complex-skill/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/skill-creator/assets/templates/complex-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c200968dd42b525561de3e7f5f2dccb93735bd405e3ed0df08339288e44ec582",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

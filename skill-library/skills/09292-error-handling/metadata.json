@@ -1,0 +1,22 @@
+{
+  "英文名称": "error-handling",
+  "中文名称": "待补：error-handling",
+  "一句话作用": "Throw typed errors with TRPCError and error codes (NOT FOUND, UNAUTHORIZED, BAD REQUEST, INTERNAL SERVER ERROR), configure errorFormatter for client-side Zod error display, handle errors globally with onError callback,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-08T23:55:55+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Throw typed errors with TRPCError and error codes (NOT FOUND, UNAUTHORIZED, BAD REQUEST, INTERNAL SERVER ERROR), configure errorFormatter for client-side Zod error display, handle errors globally with onError callback,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09292-error-handling-5d58fbde",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/app/node_modules/@trpc/server/skills/error-handling/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/app/node_modules/@trpc/server/skills/error-handling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2cffc0f35be9bdc804d745d8724006df2aca1b0d4e24adffd2c529d029002de",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

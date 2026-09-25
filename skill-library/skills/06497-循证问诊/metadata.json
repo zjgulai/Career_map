@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-answer-with-medical-evidence",
+  "中文名称": "循证问诊",
+  "一句话作用": "健康问题循证咨询，患者或家属提出健康或医学问题时使用，患者提问优先使用本技能，适用于需要围绕相关症状、疾病、检查、用药、治疗或预后问题，结合医学文献进行回答的场景。该技能会使用循证医学的思路全面分析患者表现，并提供相关关怀支持。医生与医疗从业者的提问改用doubao-clinical-decision-support技能，其余医学文献专业场景改用 doubao-medical 系列技能。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:22+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要健康问题循证咨询，患者或家属提出健康或医学问题时使用，患者提问优先使用本技能，适用于需要围绕相关症状、疾病、检查、用药、治疗或预后问题，结合医学文献进行回答的场景。该技能会使用循证医学的思路全面分析患者表现，并提供相关关怀支持。医生与医疗从业者的提问改用doubao-clinical-decision-support技能，其余医学文献专业场景改用 doubao-medical 系列技能。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06497-doubao-answer-with-medical-evidence-7787832c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-answer-with-medical-evidence/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-answer-with-medical-evidence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d485409e0fb6cb32906a0ad5730939c36d58574a9c88b734c20bb12b879d40a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

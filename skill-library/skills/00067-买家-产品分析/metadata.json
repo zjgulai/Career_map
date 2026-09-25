@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-3-buyer-product",
+  "中文名称": "买家 产品分析",
+  "一句话作用": "买家与产品分析（模块 C + 模块 D）+ 通路 A 专属店铺经营对比。基于买家国活跃指数、询盘指数、分布份额和变化率分析主要市场，生成买家类型结构（批发商/零售商/品牌商/亚马逊卖家占比）、各国采购偏好差异、目标市场龙头品牌深度研究（品牌定位/核心竞争力/消费者评价/价格带/差异化机会）、子类目热度与蓝海机会、叶子类目深挖（价格带/MOQ/热销款式）。MCP 工具（buyer profile/country rank/js shar…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "字段 说明 ------ ------ 主要买家国活跃指数 & 分布份额 Top5 买家市场的活跃指数、份额、排名与变化率；不得表述为买家人数 各国采购偏好差异 不同国家买家关注的产品属性差异 买家类型指数结构 批发商 / 零售商 / 品牌商 / 亚马逊卖家等标签的指数结构占比 高频搜索词 & 核心关注属性 买家最常搜索的词和最在意的产品属性 L1+ 大买家特征画像 高价值买家的采购行为特征 询盘高峰窗口 结合季节性和节庆日历",
+  "最新更新时间": "2026-09-12T16:24:26+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要买家与产品分析（模块 C + 模块 D）+ 通路 A 专属店铺经营对比。基于买家国活跃指数、询盘指数、分布份额和变化率分析主要市场，生成买家类型结构（批发商/零售商/品牌商/亚马逊卖家占比）、各国采购偏好差异、目标市场龙头品牌深度研究（品牌定位/核心竞争力/消费者评价/价格带/差异化机会）、子类目热度与蓝海机会、叶子类目深挖（价格带/MOQ/热销款式）。MCP 工具（buyer profile/country rank/js shar…时，用它产出或更新：字段 说明 ------ ------ 主要买家国活…",
+  "skill_id": "00067-skill-3-buyer-product-6ed00ad7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-85471462U1788237-8A8E75-5855-E4100B/agent-core/skills/skill-3-buyer-product/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-85471462U1788237-8A8E75-5855-E4100B/agent-core/skills/skill-3-buyer-product/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e519929459e11ef5e6ce11f8351f86668c7f65b14a0972829599714851f238da",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

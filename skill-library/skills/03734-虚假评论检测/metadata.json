@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-fraud-detection",
+  "中文名称": "虚假评论检测）",
+  "一句话作用": "触发词：虚假评论检测、异构图GNN、刷评团伙、异常子图、账号关联、风险打分。何时不用：要出具带证据引用的申诉材料用「评论真伪裁决」；要做差评维度优先级排序用「差评根因分析」。安全边界：检测结论涉及删除评论、封号等处置时必须人工复核，不得自动执行；不得存储用户 PII，账号与评论数据使用须符合平台政策与个人信息保护要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要审核主管面临刷评识别太慢——刷评检测将误放率从14%降到3%，年化省15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03734-p2s-review-fraud-detection-4a5565f7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-review-fraud-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-review-fraud-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f2a4cc0118a75172860fe82304f3fc2947eb94e1b7610bc2515d12dca55ce36",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

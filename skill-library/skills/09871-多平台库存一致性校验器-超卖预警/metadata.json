@@ -1,0 +1,22 @@
+{
+  "英文名称": "多平台库存一致性校验器（超卖预警）",
+  "中文名称": "待补：多平台库存一致性校验器（超卖预警）",
+  "一句话作用": "当多平台库存出现差异或超卖风险时，输出差异定位结果与修正动作建议。",
+  "关键输入": "- Amazon/TikTok/Shopify 库存快照 - ERP 库存与锁库规则",
+  "关键输出": "表：SKU 平台库存 ERP库存 差异值 风险等级 修正建议",
+  "最新更新时间": "2026-03-22T01:33:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当多平台库存出现差异或超卖风险时，输出差异定位结果与修正动作建议。时，用它产出或更新：表：SKU 平台库存 ERP库存 差异值 风险等级 修正建议",
+  "skill_id": "09871-skill-589514e3",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/inventory-sync-validator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/inventory-sync-validator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4da3a229618bba8fa9bd03ba664a0aae79351c2da2e4373b9ee8aa5c5a4534d1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

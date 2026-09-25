@@ -1,0 +1,22 @@
+{
+  "英文名称": "android-performance",
+  "中文名称": "待补：android-performance",
+  "一句话作用": "Gather and interpret Android performance evidence on an adb target using Simpleperf CPU profiles, Perfetto or Compose traces, gfxinfo frame data, dumpsys meminfo snapshots, Java heap dumps, and native allocation traces.…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Use this on an adb target after narrowing the investigation to one flow. Exercise the flow, return to a stable screen, then capture memory artifacts from that state. For quick Java/native/PSS/object-count snapshots:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Gather and interpret Android performance evidence on an adb target using Simpleperf CPU profiles, Perfetto or Compose traces, gfxinfo frame data, dumpsys meminfo snapshots, Java heap dumps, and native allocation traces.…时，用它产出或更新：Use this on an adb target…",
+  "skill_id": "01065-android-performance-6634caf3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/test-android-apps/skills/android-performance/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/test-android-apps/skills/android-performance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "931867cdf98318c0efaad503c87f2e29e4650d97d4f2bc80e58490e0011aa791",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

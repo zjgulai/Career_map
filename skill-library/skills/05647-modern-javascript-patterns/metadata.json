@@ -1,0 +1,22 @@
+{
+  "英文名称": "modern-javascript-patterns",
+  "中文名称": "待补：modern-javascript-patterns",
+  "一句话作用": "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, efficient JavaScript code. U…",
+  "关键输入": "- Refactoring legacy JavaScript to modern syntax - Implementing functional programming patterns - Optimizing JavaScript performance - Writing maintainable and readable code - Working with asynchronous operations - Build…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- Refactoring legacy JavaScript to modern syntax - Implementing functional programming patterns - Optimizing JavaScript performance - Writing maintainable and readable code - Working with asynchronous operations - Build…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05647-modern-javascript-patterns-f5be39aa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/javascript-typescript/skills/modern-javascript-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/javascript-typescript/skills/modern-javascript-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "98c861b36cc37530499bf48ace5d3f5ca5c0f29fa873b5d24a2d1f40f89af1cd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

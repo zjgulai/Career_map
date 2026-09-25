@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Sparse-Matrix-Completion",
+  "中文名称": "待补：Sparse Matrix Completion",
+  "一句话作用": "�}",
+  "关键输入": "论文/研究主题文件；来源位置：paper to skills / paper2skills-vault / 14-用户分析",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-15T19:14:32+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要�}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "08698-skill-sparse-matrix-completion-eada1726",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/paper2skills-vault/14-用户分析/Skill-Sparse-Matrix-Completion.md",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/paper2skills-vault/14-用户分析/Skill-Sparse-Matrix-Completion.md",
+  "date_source": "file_mtime",
+  "content_hash": "eb96450f32f7e231fc1a96e7a8f9f1dcde36b2e07ab551d1265cd0f2ff947029",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

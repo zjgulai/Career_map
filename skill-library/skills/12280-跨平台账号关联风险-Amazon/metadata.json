@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-platform-account-linkage-risk",
+  "中文名称": "跨平台账号关联风险（Amazon",
+  "一句话作用": "触发词：跨平台关联、硬关联软关联、账号隔离、支付账号共用、设备指纹。何时不用：只在单平台内做多维信号关联图用「账号关联检测」；只要单账号对的指纹相似分用「账号指纹风险评分器」。安全边界：支付与登录数据仅用于内部风险评分，不得对外共享或挪作他用；关联判定存在误报，隔离动作须人工确认后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨平台运营面临\"Amazon账号封号后Walmart账号当日也收到限制警告\"——跨平台账号关联风险评分识别硬软关联并启动隔离，年化保护多平台GMV 100-300万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12280-p2s-cross-platform-account-linkage-risk-58e7fc66",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-platform-account-linkage-risk/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-platform-account-linkage-risk/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1bdc9c6ca452e7580ba624ceefae58d7f4948365ba41e886167dc6c9684a39d4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

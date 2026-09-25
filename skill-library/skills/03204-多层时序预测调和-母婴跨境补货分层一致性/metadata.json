@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hierarchical-demand-forecasting-reconciliation",
+  "中文名称": "多层时序预测调和 - 母婴跨境补货分层一致性",
+  "一句话作用": "触发词：多层预测调和、SKU-仓-市场一致性、MinTrace、加总矩阵、层级预测。何时不用：只要单层序列的原始预测时用「Prophet 预测」或「时间序列预测」，只跨日/周/月粒度对齐时用「多时间粒度预测协调」。安全边界：仅用内部销售数据，不涉定价与广告；SKU 级数据需脱敏，不得含个人身份信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Momcozy 60+ SKU × 多仓(上海/香港/海外仓) × 多市场(US/DE/JP),各层独立预测加总 30-50% 不一致;采购按 SKU 下单,但财务按市场聚合,两边数字对不上,月底对账 2-3 PM 天纯人工调和 - 数据要求:历史 SKU/仓/市场 三层销售时序 + 加总矩阵 S - HiFoReAd 配置: - Stage 1: LGBM + AutoETS 三月预测时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03204-p2s-hierarchical-demand-forecasting-reconciliation-0aff32ba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-hierarchical-demand-forecasting-reconciliation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-hierarchical-demand-forecasting-reconciliation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c2793c27b84cf24dbaa5e5352e4011166e8b85af8b0f127c85caefbd4e519920",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "public-apis-skill-creator",
+  "中文名称": "待补：public-apis-skill-creator",
+  "一句话作用": "公共API/免费API SKILL生成器：从 public-apis/public-apis 自动检索免费 API，按功能推荐并给出最小可用调用示例（curl/Python/JS），并可自动生成自定义名称的 API skill。用户提到“公共API”“免费API”“public APIs”“找接口/找API”“生成API skill”时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "bash {baseDir}/scripts/list all apis.sh --json",
+  "最新更新时间": "2026-09-19T03:58:26+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要公共API/免费API SKILL生成器：从 public-apis/public-apis 自动检索免费 API，按功能推荐并给出最小可用调用示例（curl/Python/JS），并可自动生成自定义名称的 API skill。用户提到“公共API”“免费API”“public APIs”“找接口/找API”“生成API skill”时触发。时，用它产出或更新：bash {baseDir}/scripts/list all apis.sh --json",
+  "skill_id": "05027-public-apis-skill-creator-b823a8eb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/public-apis-skill-creator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/public-apis-skill-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c1924097c471538c6d52ba2c83839b5ed93f6bcc024aaaaf648a8ee233e6aebd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

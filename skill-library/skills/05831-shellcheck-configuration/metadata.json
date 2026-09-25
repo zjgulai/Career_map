@@ -1,0 +1,22 @@
+{
+  "英文名称": "shellcheck-configuration",
+  "中文名称": "待补：shellcheck-configuration",
+  "一句话作用": "Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability.",
+  "关键输入": "disable=SC2119",
+  "关键输出": "for file in $(ls -la) Better: use find or globbing",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Setting up linting for shell scripts in CI/CD pipelines - Analyzing existing shell scripts for issues - Understanding ShellCheck error codes and warnings - Configuring ShellCheck for specific project requirements - In…时，用它产出或更新：for file in $(ls -la) Bett…",
+  "skill_id": "05831-shellcheck-configuration-3c3c2840",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/shell-scripting/skills/shellcheck-configuration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/shell-scripting/skills/shellcheck-configuration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b184da6b025c7afb598c8d97fcba981391d1dc54e586f22ae4b89f50148a6786",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

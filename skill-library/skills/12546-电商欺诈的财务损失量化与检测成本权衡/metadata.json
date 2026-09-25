@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fraud-pl-impact",
+  "中文名称": "电商欺诈的财务损失量化与检测成本权衡",
+  "一句话作用": "触发词：欺诈损失量化、混淆矩阵、最优阈值、误报成本、模型升级 ROI。何时不用：要算退款率对利润的影响用「退款率财务影响」；要评估促销活动增量用「促销 ROI 前后对比」。安全边界：拦截与误伤涉及用户权益，阈值调整须留人工复核与申诉通道；检测数据处理须遵守隐私法规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要欺诈检测系统上线但 CFO 不知道它值多少钱——混淆矩阵到 P&L 完整映射显示最优阈值切换可额外挽回 23% 损失，升级 ML 系统 5.6 个月回本时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12546-p2s-fraud-pl-impact-db7e34c9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-fraud-pl-impact/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-fraud-pl-impact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02ee926697b8a30c92a769178ac3d123126a35c4f05a80f41ec94b88b39aa860",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

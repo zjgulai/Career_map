@@ -1,0 +1,22 @@
+{
+  "英文名称": "brand-governance-os",
+  "中文名称": "待补：brand-governance-os",
+  "一句话作用": "Operating system for intake, approvals, QA, and training across brand stakeholders.",
+  "关键输入": "- Standing up or scaling brand governance programs. - Coordinating approvals across campaigns, product surfaces, and regional teams. - Tracking compliance, exceptions, and escalations.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Standing up or scaling brand governance programs. - Coordinating approvals across campaigns, product surfaces, and regional teams. - Tracking compliance, exceptions, and escalations.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12745-brand-governance-os-586759eb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/brand-strategy/skills/brand-governance-os/SKILL.md",
+  "relative_path": "lute/project/skills/brand-strategy/skills/brand-governance-os/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b988381784ba4e11dfdca1f4de26beb7ceebcd0fa704846352f4e24bf0287281",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

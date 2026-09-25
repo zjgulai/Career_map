@@ -1,0 +1,22 @@
+{
+  "英文名称": "diagnosing-bugs",
+  "中文名称": "待补：diagnosing-bugs",
+  "一句话作用": "面向棘手缺陷和性能回退的诊断循环。适用于用户说 “diagnose” / “debug this”，或报告某些东西 broken、throwing、failing、slow 时。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要面向棘手缺陷和性能回退的诊断循环。适用于用户说 “diagnose” / “debug this”，或报告某些东西 broken、throwing、failing、slow 时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10731-diagnosing-bugs-7093113b",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/diagnosing-bugs/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/diagnosing-bugs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "03561b758ad13eb30ea30e4adfd9e5b82480c4722ec7f17e3515ab85538baab8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

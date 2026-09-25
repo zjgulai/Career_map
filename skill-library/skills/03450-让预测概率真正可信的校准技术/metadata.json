@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-model-calibration",
+  "中文名称": "让预测概率真正可信的校准技术",
+  "一句话作用": "触发词：概率校准、Platt缩放、保序回归、ECE、备货缓冲比例、预测可信度。何时不用：只按概率排序、不看绝对概率时无需校准；要提升模型区分能力时走需求预测或分类建模类技能。安全边界：校准只做后处理，不改动原始模型评估口径，也不用校准分数对外承诺具体退货率或点击率。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营决策团队面临\"退货预测模型概率输出失真、备货缓冲比例设置误差±20%导致过度备货\"——Platt Scaling/Isotonic Regression将ECE从0.18降至0.04，年化节省FBA仓储成本40-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03450-p2s-model-calibration-7f168de9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-model-calibration/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-model-calibration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dbed9c47efb96dc788d0d6976c1d5126435634e6462ec0e752672ee44f85f378",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

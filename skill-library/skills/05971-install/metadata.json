@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-install",
+  "中文名称": "待补：skill-install",
+  "一句话作用": "Install CodeBuddy skills from GitHub repositories with automated security scanning. Triggers when users want to install skills from a GitHub URL, need to browse available skills in a repository, or want to safely add ne…",
+  "关键输入": "Trigger this skill when the user: - Provides a GitHub repository URL and wants to install skills - Asks to \"install skills from GitHub\" - Wants to browse and select skills from a repository - Needs to add new skills to…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Trigger this skill when the user: - Provides a GitHub repository URL and wants to install skills - Asks to \"install skills from GitHub\" - Wants to browse and select skills from a repository - Needs to add new skills to…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05971-skill-install-d1863fa2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/skill-install/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/skill-install/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "607370387852131338e08d6bb0634a2c4a2d123476ceaf5e28ea0b557f038611",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

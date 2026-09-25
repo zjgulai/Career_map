@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-full-funnel-growth-dashboard",
+  "中文名称": "多归因视角聚合的全漏斗增长量化看板",
+  "一句话作用": "触发词：全漏斗看板、多视角归因、TOFU MOFU BOFU、转化瓶颈、归因重复计数、大促诊断。何时不用：只有渠道级汇总数据、没有旅程级记录时无法分视角归因；要验证增量效果时用实验方法。安全边界：用户旅程数据需匿名化处理并遵守隐私法规，看板对外分享前须去除个体级标识。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要母婴品牌多平台投放（TikTok/Google/Amazon）归因混乱时——全漏斗多视角归因看板将ROAS评估误差从±40%压缩至±8%，预算重分配后季度GMV提升约¥18万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03154-p2s-full-funnel-growth-dashboard-6c6c4797",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-full-funnel-growth-dashboard/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-full-funnel-growth-dashboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e7a9a1b66cbe50d64583546cec0ec8f84509211f8d204c6afcbae32bcfbca43",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "vite-starter",
+  "中文名称": "前端项目脚手架",
+  "一句话作用": "使用 Vite 创建现代前端项目，支持 React、Vue、Svelte、Solid、Preact、Lit、Qwik 和 Vanilla JS，可选 TypeScript。当用户需要初始化新的前端项目、搭建 SPA、创建组件库、设置现代构建工具时使用此技能。触发场景：用户说\"创建 vite 项目\"、\"新建 react/vue/svelte 应用\"、\"初始化前端项目\"、\"搭建 spa\"、\"用 vite 起一个项目\"、\"create vi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要使用 Vite 创建现代前端项目，支持 React、Vue、Svelte、Solid、Preact、Lit、Qwik 和 Vanilla JS，可选 TypeScript。当用户需要初始化新的前端项目、搭建 SPA、创建组件库、设置现代构建工具时使用此技能。触发场景：用户说\"创建 vite 项目\"、\"新建 react/vue/svelte 应用\"、\"初始化前端项目\"、\"搭建 spa\"、\"用 vite 起一个项目\"、\"create vi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05165-vite-starter-bc53fe62",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/vite-starter/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/vite-starter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ce1468b4a26a54a1b11649b0ef1b71f0e6f0f5550756b09d8e0db9c68a41904f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-implement-motion",
+  "中文名称": "待补：figma-implement-motion",
+  "一句话作用": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion from a Figma design — user mentions \"implement this motion\", \"add animation from Figma\", \"animate thi…",
+  "关键输入": "- Figma MCP server connected and accessible. - Node ID parsed from the Figma URL the user provides. URL format: https://figma.com/design/:fileKey/:fileName?node-id=1-2 — extract fileKey (the segment after /design/) and nodeId (the value of the node-id query p…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Load references/examples-and-anti-examples.md when you need worked examples or failure patterns. It covers the simple merge flow, plain text elements that need motion. added, interleaved static+animated transforms, SVG…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01296-figma-implement-motion-6a597eb8",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-implement-motion/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-implement-motion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e26e67284d47c6a74aedf9dca7543f4c8817dafc59a11abb156d4f7feedb2c2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

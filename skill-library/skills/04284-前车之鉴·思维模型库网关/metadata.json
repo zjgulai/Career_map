@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-gateway",
+  "中文名称": "前车之鉴·思维模型库网关",
+  "一句话作用": "前车之鉴思维模型库网关：2789 个中文思维模型、13 章节、23 条策展路由、12 认知竞技场、5 条执行链的资产地图与查询配方。触发词：查思维模型、找思考框架、模型选型、这个问题用什么思维模型、前车之鉴、xmind、帮我把一个问题想深想透、写 Agent 提示词要参考认知协议、设计 Agent 角色与推理步骤、思维模型库。何时不用：问题形态已明确时直接用对应竞技场（选项纠结/根因复发/系统退化/方案评估/问题界定/学习卡点/表达失…",
+  "关键输入": "问题类型 典型信号词 --- --- 诊断根因 (diagnosis) 原因、为什么、根因、问题出在哪、出了问题、怎么回事、失败了、效果差 规划路径 (planning) 怎么做、计划、步骤、如何实现、目标、路径、方案、下一步 决策取舍 (decision) 选哪个、该不该、要不要、选择、取舍、判断、评估、利弊 创意发散 (creative) 创新、突破、新方法、另一种思路、别的思路、换一种思路、头脑风暴、可能性",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要问题类型 典型信号词 --- --- 诊断根因 (diagnosis) 原因、为什么、根因、问题出在哪、出了问题、怎么回事、失败了、效果差 规划路径 (planning) 怎么做、计划、步骤、如何实现、目标、路径、方案、下一步 决策取舍 (decision) 选哪个、该不该、要不要、选择、取舍、判断、评估、利弊 创意发散 (creative) 创新、突破、新方法、另一种思路、别的思路、换一种思路、头脑风暴、可能性时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04284-xmind-gateway-6c68a60b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-gateway/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-gateway/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "00edffbd5dd6254546d0e5adeaf7d4624d684eb39ea827921a1b987c04a77045",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

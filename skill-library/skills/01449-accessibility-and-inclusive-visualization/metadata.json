@@ -1,0 +1,22 @@
+{
+  "英文名称": "accessibility-and-inclusive-visualization",
+  "中文名称": "待补：accessibility-and-inclusive-visualization",
+  "一句话作用": "Make data visualizations accessible and inclusive. Use when the user needs chart or diagram accessibility guidance, text alternatives for complex visuals, color and contrast review, keyboard support, reduced-motion beha…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Name the accessibility risks specific to the chart, not just generic WCAG items. - Provide fallback strategies for screen readers, PDFs, and static exports. - Explain what to keep visible without relying on hover or color alone. - Explain which active filte…",
+  "最新更新时间": "2026-09-17T09:36:42+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Make data visualizations accessible and inclusive. Use when the user needs chart or diagram accessibility guidance, text alternatives for complex visuals, color and contrast review, keyboard support, reduced-motion beha…时，用它产出或更新：- Name the accessibility r…",
+  "skill_id": "01449-accessibility-and-inclusive-visualization-4d4e5bff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/accessibility-and-inclusive-visualization/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/accessibility-and-inclusive-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b027cdceb71903dc24f9b4323344a77390fdf312fe4aeb0d2d4dd0f9628742a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

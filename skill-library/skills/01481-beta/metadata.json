@@ -1,0 +1,22 @@
+{
+  "英文名称": "beta",
+  "中文名称": "待补：beta",
+  "一句话作用": "Beta fixture skill. Use when plugin-eval tests need the second bundled skill.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Beta fixture skill. Use when plugin-eval tests need the second bundled skill.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01481-beta-ea077a4b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/plugin-eval/1dc19589/fixtures/multi-skill-plugin/skills/beta/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/plugin-eval/1dc19589/fixtures/multi-skill-plugin/skills/beta/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4a0439463565c4923fb6ca63d6ffca745c48215c9187f2f5c01eab71220b445c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

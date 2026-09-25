@@ -1,0 +1,22 @@
+{
+  "英文名称": "legal-contract-gen",
+  "中文名称": "法律文书生成器",
+  "一句话作用": "通过交互式问答生成常用法律文书初稿，支持NDA（保密协议）、服务协议、隐私政策、合作框架协议等类型。当用户提到NDA、保密协议、服务协议、隐私政策、合同模板、法律文书、合作协议，或相应的英文术语（如terms of service、privacy policy、service agreement、non-disclosure agreement、contract template、legal document）时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 文书格式整齐，条款编号清晰 - 所有变量位置用方括号标注，便于用户查找和填写 - 中文文书使用中文标点，英文文书使用英文标点 - 文末附带免责声明，提醒用户寻求专业法律意见 - 列出所有未确认的占位符清单，方便用户逐一核实",
+  "最新更新时间": "2026-09-14T00:06:18+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要通过交互式问答生成常用法律文书初稿，支持NDA（保密协议）、服务协议、隐私政策、合作框架协议等类型。当用户提到NDA、保密协议、服务协议、隐私政策、合同模板、法律文书、合作协议，或相应的英文术语（如terms of service、privacy policy、service agreement、non-disclosure agreement、contract template、legal document）时触发。时，用它产出或更新：- 文书格式整齐，条款编号清晰 - 所有变量位置用方括号标注，便于用户…",
+  "skill_id": "10643-legal-contract-gen-c0859b6d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/legal-contract-gen/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/legal-contract-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "67631681042d3e85d0a1b87da5a9d0537da771f83944d9b821aa75b3a0d3a1f4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

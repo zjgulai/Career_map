@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-vc",
+  "中文名称": "待补：lark-vc",
+  "一句话作用": "飞书视频会议：搜索历史会议记录、查询会议纪要（总结/待办/章节/逐字稿）、查询参会人快照。当用户查询已结束的会议、获取会议产物（纪要/妙记）、查看参会人时使用；查询未来日程走 lark-calendar。不负责：Agent 真实入会/离会、会中实时事件（走 lark-vc-agent）。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要飞书视频会议：搜索历史会议记录、查询会议纪要（总结/待办/章节/逐字稿）、查询参会人快照。当用户查询已结束的会议、获取会议产物（纪要/妙记）、查看参会人时使用；查询未来日程走 lark-calendar。不负责：Agent 真实入会/离会、会中实时事件（走 lark-vc-agent）。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05270-lark-vc-cada667e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-vc/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-vc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07663b7ba87a5ab97e6b23f453ceb619b4de365720998d143fabe9b57c0ecb76",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

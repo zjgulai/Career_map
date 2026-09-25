@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-fake-review-detection",
+  "中文名称": "多模态虚假评论检测与可解释风控",
+  "一句话作用": "触发词：虚假评论检测、AI 生成好评识别、刷评举报、触发词证据、多模态评论风控、评论异常监测。何时不用：要联合图文一致性与账号行为图检测用「Multimodal-Fake-Review-Detection」；要叠文本+行为+网络团伙三层取证用「VOC-Fraud-Review-Detection」；本技能只出单条评论的虚假概率与可解释触发词。安全边界：仅用于自有或已授权评论数据的质量审查与平台申诉，不得用于刷评或攻击竞品；须取得用户数…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴跨境卖家竞品批量刷好评、自品被刷 AI 差评难以举报——多模态 BERT+ResNet-50 虚假评论检测器准确率 93%+，SHAP 触发词证据报告将差评举报成功率从 30% 提升至 65%，年化保护 GMV 损失 5-30 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02744-p2s-ai-fake-review-detection-2e210ecd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ai-fake-review-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ai-fake-review-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "848dd6a52c73ab08d1e07ea94000c5103a75b9ac6933901002d8c210e4430906",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

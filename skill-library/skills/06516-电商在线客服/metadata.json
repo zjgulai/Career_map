@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-customer-service",
+  "中文名称": "电商在线客服",
+  "一句话作用": "生成电商在线文字客服的可执行处理方案和正式交付文档。适用于客户回复、售前咨询、催发货、物流履约、退换货、质量问题、补偿争议、差评投诉、私聊舆情询问、聊天截图分析、客服标准流程、权限矩阵、升级规则和自动客服配置。不适用于电话客服、线下接待、媒体公关、客服培训质检、真实系统操作或法律责任最终认定。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "本节只用于内部检查，禁止出现在正式产物中。 交付前确认： - 覆盖使用者完整目标和主产物最低交付。 - 已确认没有把需求不明、技能不适用或不可行约束强行包装成客服文档。 - 第一轮已有可直接使用内容，并给出首选策略。 - 客户可见话术符合语境、服务关系状态、处理目标和权限边界。 - 事实、客户主张、待核实事项、争议项已分开。 - 没有编造信息、越权承诺、绝对化保证、未核实认责或自行辟谣。 - 动态信息、平台规则、法律法规、公开舆情等已按 01 判断是否需要联网核验。 - 截图、订单、地址、电话、姓名、支付信息等已…",
+  "最新更新时间": "2026-09-12T03:26:22+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要生成电商在线文字客服的可执行处理方案和正式交付文档。适用于客户回复、售前咨询、催发货、物流履约、退换货、质量问题、补偿争议、差评投诉、私聊舆情询问、聊天截图分析、客服标准流程、权限矩阵、升级规则和自动客服配置。不适用于电话客服、线下接待、媒体公关、客服培训质检、真实系统操作或法律责任最终认定。时，用它产出或更新：本节只用于内部检查，禁止出现在正式产物中。 交付前确认： - 覆盖使用者完整目标和主产物最低交付。 - 已确认没有把需求不明、技能不适用或不可行约束强行包装成客服文档。 - 第一轮已有可直接使用内容…",
+  "skill_id": "06516-doubao-customer-service-3fdf08f9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-customer-service/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-customer-service/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "48fe73b5b67fea848f40689956fb1df0115b32b2b84d2288d2cd025605b73cc3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

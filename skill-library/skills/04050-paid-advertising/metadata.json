@@ -1,0 +1,22 @@
+{
+  "英文名称": "paid-advertising",
+  "中文名称": "待补：paid-advertising",
+  "一句话作用": "审计并优化多平台付费广告账户，覆盖预算分配、出价策略、受众优化和 ROAS 提升。触发词：付费广告、广告审计、ads audit、ROAS提升、预算分配、出价策略、受众优化、0-100健康评分。缺不可推定的关键材料（账号/文件/数值）才追问；可依行业惯例或品牌既定风格推定的，标注假设后继续，绝不编造数据。何时不用：ad-creative文案（用 ad-creative）、自然social-content、落地页优化（用 optimiz…",
+  "关键输入": "- 跨渠道优化广告预算分配 - 制定付费活动的出价策略 - 优化受众定向以提升 ROAS - 分析付费投放效果数据 - 审计多平台广告账户并产出加权健康评分 - 把付费媒体发现转化为优先行动队列",
+  "关键输出": "预算分配建议 : - Facebook: 40%（成熟渠道，稳定ROAS） - Google: 35%（高意图流量） - TikTok: 25%（测试新渠道） 广告健康评分 : - Overall: 72/100 - Tracking: 90/100 - Budget waste: 58/100 - Creative fatigue: 61/100 - Priority action: 先修复高花费低转化广告组，再扩量高 ROAS 受众",
+  "最新更新时间": "2026-09-13T03:00:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 跨渠道优化广告预算分配 - 制定付费活动的出价策略 - 优化受众定向以提升 ROAS - 分析付费投放效果数据 - 审计多平台广告账户并产出加权健康评分 - 把付费媒体发现转化为优先行动队列时，用它产出或更新：预算分配建议 : - Facebook: 40%（成熟渠道，稳定ROAS） - Google: 35%（高意图流量） - TikTok: 25%（测试新渠道） 广告健康评分 : - Overall: 72/100 - Tracking: 90/100 - Budget waste: 58/100…",
+  "skill_id": "04050-paid-advertising-e03b30e5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/paid-advertising/SKILL.md",
+  "relative_path": "lute/.dsh/skills/paid-advertising/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de782d7eef36acf3365c20210f004f8a00af8a5209af4a1478ef3fefebafcb37",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

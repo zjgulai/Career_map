@@ -1,0 +1,22 @@
+{
+  "英文名称": "shared-industry-adaptation",
+  "中文名称": "行业自适应通用指南",
+  "一句话作用": "引用方 : 全部 Agent 使用方式 : 各 Agent 仅需在 Soul 中定义自身行业适配的特殊侧重，通用分类和判断逻辑引用本文件。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T22:14:26+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要引用方 : 全部 Agent 使用方式 : 各 Agent 仅需在 Soul 中定义自身行业适配的特殊侧重，通用分类和判断逻辑引用本文件。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00034-shared-industry-adaptation-b3ff1c65",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-industry-adaptation/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-industry-adaptation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fa169b6af7dddd1fcf68d10812ab7ce83e3d79affab460398eb9979731f6d051",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

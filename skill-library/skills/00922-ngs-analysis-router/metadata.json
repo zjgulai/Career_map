@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-analysis-router",
+  "中文名称": "待补：ngs-analysis-router",
+  "一句话作用": "Route BCL, FASTQ, BAM/CRAM, count-matrix, or VCF sequencing requests to the right public NGS analysis skill and ask only the missing assay-specific setup questions.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Return: 1. the routed analysis type and confidence 2. missing essential parameters, if any 3. recommended public pipeline or package family 4. local tool preflight summary 5. preflight-first command or next concrete action 6. caveats around licenses, cloud up…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Route BCL, FASTQ, BAM/CRAM, count-matrix, or VCF sequencing requests to the right public NGS analysis skill and ask only the missing assay-specific setup questions.时，用它产出或更新：Return: 1. the routed analysis type and confidence 2. missing essential parameters…",
+  "skill_id": "00922-ngs-analysis-router-dfc00c8a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-analysis-router/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-analysis-router/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a6ce8bdb7e45d69c4439032c775a3185f38879d0b1a03c3b36382e98e543a95",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

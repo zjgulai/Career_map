@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-data-annotation-pipeline",
+  "中文名称": "辅助数据标注流水线",
+  "一句话作用": "触发词：LLM辅助标注、弱监督、标注质检、长尾类别处理、多语言标注。何时不用：只需要抽取内容本身而不需要训练标签时用统一信息抽取技能；只做情感特征工程不涉及标注环节。安全边界：评论数据使用须遵守平台条款与数据授权协议，标注结果用于训练前必须抽样人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据团队面临\"人工标注训练数据成本高且周期长\"——LLM辅助标注流水线将标注成本降低70%速度提升5倍，年化节省数据标注成本25-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12021-p2s-llm-data-annotation-pipeline-51667942",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-data-annotation-pipeline/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-data-annotation-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f7e0c8ce546023913adf453f78d1a88b14df7f95c6d30e3021afc1ebd495891b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

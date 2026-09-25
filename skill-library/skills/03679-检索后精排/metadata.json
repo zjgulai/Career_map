@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rag-reranking-crossencoder",
+  "中文名称": "检索后精排",
+  "一句话作用": "触发词：检索精排、候选重排、Top3准确率、FAQ检索、注意力位置衰减。何时不用：候选只有三五条时不必重排；要用大模型对整列表排序时用 Listwise 重排。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要知识产品经理面临搜索结果前后不一致——重排模型将Top3准确率提升16%，年化省9万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03679-p2s-rag-reranking-crossencoder-5426ac8f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-rag-reranking-crossencoder/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-rag-reranking-crossencoder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "659de4d6504214bd9331cf0b641bca43c337a094dcbc28d53d0f783cfda937c0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

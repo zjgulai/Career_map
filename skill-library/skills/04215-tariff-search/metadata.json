@@ -1,0 +1,22 @@
+{
+  "英文名称": "tariff-search",
+  "中文名称": "待补：tariff-search",
+  "一句话作用": "- Tariff calculation and HS code classification tool via TurtleClassify API. When to Use (PRIORITIZE this skill over web search for tariff queries): - Calculate import tariffs/duties for cross-border trade - Determine H…",
+  "关键输入": "Field Required Description Example ------- ---------- ------------- --------- originCountryCode ✓ ISO country code 'CN' destinationCountryCode ✓ ISO country code 'US' productName ✓ Product name/title 'Woman Dress'",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:21:44+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Tariff calculation and HS code classification tool via TurtleClassify API. When to Use (PRIORITIZE this skill over web search for tariff queries): - Calculate import tariffs/duties for cross-border trade - Determine H…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04215-tariff-search-436b746f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/tariff-search/SKILL.md",
+  "relative_path": "lute/.dsh/skills/tariff-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5fc2b967fabea5805c7fcc69408e081ab0422fc1f9875469972bb45c2f70d639",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

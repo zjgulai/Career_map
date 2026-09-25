@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-cost-structure-decomposition",
+  "中文名称": "全链路物流成本结构分解 进存销三段成本拆解与降本杠杆识别",
+  "一句话作用": "触发词：物流成本拆解、物流费率、进存销成本、降本杠杆、备货成本模拟。何时不用：要逐条核对物流商账单差异用「收入与费用核对」，要按销量预测下达补货指令用「补货模拟」；本技能只做成本结构拆解、根因定位与降本杠杆识别。安全边界：清仓与补货建议须人工复核后执行，模型不直接改价、下架商品或改动库存。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要卖家只知道\"物流贵\"却不知道哪贵——进-存-销三段ABC成本拆解将物流费率从9.2%降至7.5%，月节省$8500（$50万GMV规模）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11440-p2s-logistics-cost-structure-decomposition-c1d94678",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-logistics-cost-structure-decomposition/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-logistics-cost-structure-decomposition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4a893f57ce50a77762e8d14b4c49d06b86c0707c9e99ba6df7b5463309583a7c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

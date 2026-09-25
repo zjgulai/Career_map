@@ -1,0 +1,22 @@
+{
+  "英文名称": "api-scaffolding-backend-architect",
+  "中文名称": "待补：api-scaffolding-backend-architect",
+  "一句话作用": "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems. Masters REST/GraphQL/gRPC APIs, event-driven architectures, service mesh patterns, and modern backend fr…",
+  "关键输入": "When designing architecture, provide: - Service boundary definitions with responsibilities - API contracts (OpenAPI/GraphQL schemas) with example requests/responses - Service architecture diagram (Mermaid) showing commu…",
+  "关键输出": "When designing architecture, provide: - Service boundary definitions with responsibilities - API contracts (OpenAPI/GraphQL schemas) with example requests/responses - Service architecture diagram (Mermaid) showing communication patterns - Authentication and a…",
+  "最新更新时间": "2026-09-19T03:50:58+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要When designing architecture, provide: - Service boundary definitions with responsibilities - API contracts (OpenAPI/GraphQL schemas) with example requests/responses - Service architecture diagram (Mermaid) showing commu…时，用它产出或更新：When designing architectur…",
+  "skill_id": "04719-api-scaffolding-backend-architect-dc283e29",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/api-scaffolding-backend-architect/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/api-scaffolding-backend-architect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "51d86f2e7f6a29a07f66623a4876e45bfd67da7f23397e17a965d8e7b0bd91a4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

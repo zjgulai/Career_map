@@ -1,0 +1,22 @@
+{
+  "英文名称": "trade-knowledge",
+  "中文名称": "待补：trade-knowledge",
+  "一句话作用": "Buyer-facing trade knowledge Q&A (the /knowledge tool). Use when the buyer asks what/why/how questions about cross-border trade on Alibaba.com: platform rules (ordering, payment, Trade Assurance protection, refunds, dis…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Buyer-facing trade knowledge Q&A (the /knowledge tool). Use when the buyer asks what/why/how questions about cross-border trade on Alibaba.com: platform rules (ordering, payment, Trade Assurance protection, refunds, dis…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00106-trade-knowledge-01dc7326",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/trade-knowledge/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/trade-knowledge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d2f7da75023fb1f19cd70b80379b8f6b80cca23425c2dc196abea04fcc87872",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

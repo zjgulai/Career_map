@@ -1,0 +1,22 @@
+{
+  "英文名称": "trpc-router",
+  "中文名称": "待补：trpc-router",
+  "一句话作用": "Entry point for all tRPC skills. Decision tree routing by task: initTRPC.create(), t.router(), t.procedure, createTRPCClient, adapters, subscriptions, React Query, Next.js, links, middleware, validators, error handling,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Entry point for all tRPC skills. Decision tree routing by task: initTRPC.create(), t.router(), t.procedure, createTRPCClient, adapters, subscriptions, React Query, Next.js, links, middleware, validators, error handling,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04350-trpc-router-e17974d1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.npm/_npx/28bb5da791664809/node_modules/@trpc/server/skills/trpc-router/SKILL.md",
+  "relative_path": "lute/.npm/_npx/28bb5da791664809/node_modules/@trpc/server/skills/trpc-router/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88b5f4744b5e3b7cd0c2b47a47ca78447463c49019959b2c2e301eabef1669cc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

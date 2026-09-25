@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-coderag-repository-level-retrieval",
+  "中文名称": "待补：p2s-coderag-repository-level-retrieval",
+  "一句话作用": "触发词：代码库检索、跨文件复用、技能模板组合、报错代码修复、函数级索引。何时不用：代码库未按目录与命名整理、或代码块无法解析时不适用；自然语言到代码的语义召回走代码语义嵌入。安全边界：只做检索与组合，生成的脚本须人工验证后才可使用，检索结果须标注来源技能与版本。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要开发者面临\"1200个Skill代码模板无法语义检索只能手动翻找\"——CodeRAG(EMNLP2025)将Skill代码复用率从10%提升至65%，每次代码开发节省2-4小时，年化节省开发成本30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11925-p2s-coderag-repository-level-retrieval-b2a8afa9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-coderag-repository-level-retrieval/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-coderag-repository-level-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3676d1df78775665fc1ea452f5ca6affcb439840816c3e6aab2a6e4cb0ec2a27",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "clinpgx-database",
+  "中文名称": "待补：clinpgx-database",
+  "一句话作用": "Access ClinPGx pharmacogenomics data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele functions, for precision medicine and genotype-guided dosing decisions.",
+  "关键输入": "This skill should be used when: - Gene-drug interactions : Querying how genetic variants affect drug metabolism, efficacy, or toxicity - CPIC guidelines : Accessing evidence-based clinical practice guidelines for pharma…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Gene-drug interactions : Querying how genetic variants affect drug metabolism, efficacy, or toxicity - CPIC guidelines : Accessing evidence-based clinical practice guidelines for pharma…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05710-clinpgx-database-e391aded",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/clinpgx-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/clinpgx-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f978ec0384d1e58fd0af1510e1fab1bbebbde11f7f2d6c8055ad5cd478df9619",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

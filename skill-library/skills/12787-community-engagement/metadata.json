@@ -1,0 +1,22 @@
+{
+  "英文名称": "community-engagement",
+  "中文名称": "待补：community-engagement",
+  "一句话作用": "Use when planning programs, rituals, and response frameworks for owned or partner communities.",
+  "关键输入": "- Launching or refreshing Slack/Discord/Facebook/LinkedIn communities. - Designing ambassador, influencer, or creator enablement programs. - Handling sentiment spikes (positive or negative) tied to social content.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Launching or refreshing Slack/Discord/Facebook/LinkedIn communities. - Designing ambassador, influencer, or creator enablement programs. - Handling sentiment spikes (positive or negative) tied to social content.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12787-community-engagement-e7e3a384",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/social-media/skills/community-engagement/SKILL.md",
+  "relative_path": "lute/project/skills/social-media/skills/community-engagement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d1eaa09df4d56aa8f46e4ee2eda1da30a9289add9d640f54a1b66116d1f2d349",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

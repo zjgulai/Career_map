@@ -1,0 +1,22 @@
+{
+  "英文名称": "taleb-perspective",
+  "中文名称": "塔勒布 · 思维操作系统",
+  "一句话作用": "塔勒布(Nassim Nicholas Taleb)的思维框架与表达方式。基于40+个来源的深度调研， 提炼6个核心心智模型、9条决策启发式和完整的表达DNA。 用途：作为思维顾问，用塔勒布的视角分析问题、审视决策、质疑主流叙事。 当用户提到「用塔勒布的视角」「塔勒布会怎么看」「塔勒布模式」「反脆弱视角」「taleb perspective」时使用。 即使用户只是说「会不会黑天鹅」「这个有尾部风险吗」「skin in the game…",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/人物/事件/产品/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象价值观、思维方式、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是塔勒布基于真实信息做出的判断。",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/人物/事件/产品/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象价值观、思维方式、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然后…",
+  "skill_id": "09261-taleb-perspective-f1638a38",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/taleb-perspective/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/taleb-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "24c216c03bcd54e4319e8300331677d4a6124aa0a8846dee9204a03738609333",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sdof-state-constrained-orchestration",
+  "中文名称": "状态机约束 MAS 编排：屏蔽非法操作任务完成率 86",
+  "一句话作用": "触发词：状态机约束、非法操作拦截、审批节点、预算变更、审计日志。何时不用：只做并发调度与失败重试用「MAS Orchestrator」；运行时调整拓扑用「Dynamic DAG Orchestration」。安全边界：预算变更与大额采购必须经审批状态后才可执行，拦截事件须完整留审计日志，不得静默放行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链经理面临库存状态约束冲突——SDOF将违规补货率5%降到1%，年化省17万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12494-p2s-sdof-state-constrained-orchestration-e6445baf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-sdof-state-constrained-orchestration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-sdof-state-constrained-orchestration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f7da99dde9a641c639d65217e6f419d6da32c9e324bb3f2f69d54439c1829959",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

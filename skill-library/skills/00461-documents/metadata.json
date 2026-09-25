@@ -1,0 +1,22 @@
+{
+  "英文名称": "documents",
+  "中文名称": "待补：documents",
+  "一句话作用": "Create, edit, redline, and comment on .docx, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use render docx.py to generate page PNGs (and optional PDF)…",
+  "关键输入": "- Use Codex workspace dependencies for docx artifact work: resolve them through the workspace dependency loader or runtime skill, then treat the returned Node/Python runtimes and package directory as authoritative. Do not use system node, system python, globa…",
+  "关键输出": "For a net-new Google Docs request, create and visually verify a local .docx with this skill first. The native Google Docs deliverable must then be produced by the Google Drive plugin's document import action, mcp codex apps google drive import document, with…",
+  "最新更新时间": "2026-09-06T12:17:27+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Create, edit, redline, and comment on .docx, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use render docx.py to generate page PNGs (and optional PDF)…时，用它产出或更新：For a net-new Google Docs r…",
+  "skill_id": "00461-documents-6632e600",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents/skills/documents/SKILL.md",
+  "relative_path": "lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents/skills/documents/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6ad99c5c601186f63e4849e89d59e800f32500fe7bdad012b5309c6958f94ac",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

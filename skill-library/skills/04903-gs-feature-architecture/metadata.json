@@ -1,0 +1,22 @@
+{
+  "英文名称": "gs-feature-architecture",
+  "中文名称": "待补：gs-feature-architecture",
+  "一句话作用": "Guide for implementing features in Clean Architecture OOP with Next.js. Use when planning new features, understanding the 4-layer structure (Domain, Application, Infrastructure, Presentation), or deciding where code sho…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:50+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Guide for implementing features in Clean Architecture OOP with Next.js. Use when planning new features, understanding the 4-layer structure (Domain, Application, Infrastructure, Presentation), or deciding where code sho…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04903-gs-feature-architecture-d719ee60",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/gs-feature-architecture/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/gs-feature-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b0e0949beb5a3e81891985849b0af43a62716958a973543b8491d0149074f6d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

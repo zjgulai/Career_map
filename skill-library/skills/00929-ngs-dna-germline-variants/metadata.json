@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-dna-germline-variants",
+  "中文名称": "待补：ngs-dna-germline-variants",
+  "一句话作用": "Run or plan deep germline WGS, WES, targeted-panel, cohort, or trio variant-calling workflows with reference-build, known-sites, QC, joint-calling, and annotation checks.",
+  "关键输入": "Confirm: - data type: WGS, WES, or targeted panel - sample model: singleton, cohort, duo, trio, family, or case/control - input type: FASTQ, BAM, or CRAM - organism, reference build, FASTA, indexes, and contig naming - known-sites resources for BQSR, contamin…",
+  "关键输出": "Produce: - command or workflow profile and sample sheet - reference/resource manifest with versions and checksums when available - QC summary: coverage, duplication, insert size, contamination, sex/relatedness checks when run - VCF/gVCF path, index path, and…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Run or plan deep germline WGS, WES, targeted-panel, cohort, or trio variant-calling workflows with reference-build, known-sites, QC, joint-calling, and annotation checks.时，用它产出或更新：Produce: - command or workflow profile and sample sheet - reference/resource…",
+  "skill_id": "00929-ngs-dna-germline-variants-a320c2f0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-dna-germline-variants/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-dna-germline-variants/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c1370a2b238be8434e9835f9417e9fd556657126d0c84754ed134610097b8fda",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

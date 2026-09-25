@@ -1,0 +1,22 @@
+{
+  "英文名称": "thesis-tracker",
+  "中文名称": "待补：thesis-tracker",
+  "一句话作用": "Maintain and update investment theses for portfolio positions and watchlist names. Track key data points, catalysts, and thesis milestones over time. Use when updating a thesis with new information, reviewing position r…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Thesis summary suitable for: - Morning meeting discussion - Portfolio review - Risk committee presentation Format: Concise markdown or Word doc with the scorecard, recent updates, and current conviction level.",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Maintain and update investment theses for portfolio positions and watchlist names. Track key data points, catalysts, and thesis milestones over time. Use when updating a thesis with new information, reviewing position r…时，用它产出或更新：Thesis summary suitable fo…",
+  "skill_id": "05469-thesis-tracker-50a10fb4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/thesis-tracker/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/thesis-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b4ce2967c5e01c6b42f5c140fa1e94dee2713b5d2de3eb71957ff5a5c11469b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentic-etl-data-pipeline",
+  "中文名称": "数据管道 驱动的自动化数据清洗与转换",
+  "一句话作用": "触发词：语义ETL、多源数据融合、Schema自动推断、模糊匹配JOIN、自助数据清洗。何时不用：源系统结构稳定、只需拦住字段变更时用数据契约技能；要从头采集外部数据时用采集管道类技能。安全边界：处理业务数据须做数据最小化、不把用户 PII 送外部 API，LLM 生成的清洗代码必须人工审查后才可用于财务数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要分析师面临\"Amazon和TikTok数据格式不同每次手动对账需2小时\"——LLM驱动的语义ETL自动Schema推断和跨源JOIN，对账时间从2小时压缩到5分钟，年化节省约52万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11895-p2s-agentic-etl-data-pipeline-1ccf4578",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agentic-etl-data-pipeline/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agentic-etl-data-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "027da3b7d6190e2e616e125d159751a6cd4f33b5f87dad9847dbe59d88fe48f9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "docx-lite",
+  "中文名称": "待补：docx-lite",
+  "一句话作用": "Fast, good-enough Word (.docx) creation and editing for chat-triggered office work, tuned for server agents serving end users. The agent writes markdown; one pandoc call produces the document with correct Vietnamese off…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Write the .docx to the working directory with a human-readable filename in the user's language and script (Báo-cáo-9-tháng.docx, not output.docx). - Reply with the file path plus one or two sentences on what it contains. - Do not paste the full document tex…",
+  "最新更新时间": "2026-09-19T03:52:00+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Fast, good-enough Word (.docx) creation and editing for chat-triggered office work, tuned for server agents serving end users. The agent writes markdown; one pandoc call produces the document with correct Vietnamese off…时，用它产出或更新：- Write the .docx to the w…",
+  "skill_id": "04820-docx-lite-9f5d8ce8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/docx-lite/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/docx-lite/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8748403f5fc500b9eaeb5884f605896b124d348e90014023cafa604e35c1ab09",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "zalo",
+  "中文名称": "待补：zalo",
+  "一句话作用": "OpenClaw skill for Zalo Bot API workflows (bot token) plus optional guidance on unofficial personal automation tools.",
+  "关键输入": "- Bot token and bot configuration. - Target workflow (notify, support, broadcast). - Delivery model (webhook or polling).",
+  "关键输出": "- A clear bot workflow plan, method checklist, and operational guardrails.",
+  "最新更新时间": "2026-09-19T03:57:59+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要OpenClaw skill for Zalo Bot API workflows (bot token) plus optional guidance on unofficial personal automation tools.时，用它产出或更新：- A clear bot workflow plan, method checklist, and operational guardrails.",
+  "skill_id": "05190-zalo-ba698d46",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/zalo/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/zalo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "631a8ce6649f823e7dc33b4970038fccebd0294ca55bf5a3f84a22a423d2d0af",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

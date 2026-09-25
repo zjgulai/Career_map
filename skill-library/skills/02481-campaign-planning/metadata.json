@@ -1,0 +1,22 @@
+{
+  "英文名称": "campaign-planning",
+  "中文名称": "待补：campaign-planning",
+  "一句话作用": "Use when developing campaign strategy, briefs, KPIs, and workback schedules before execution. 边界：活动策略与 KPI 制定走本技能；新品上市分阶段策略走 launch-strategy",
+  "关键输入": "- Before launching multi-channel GTM efforts. - When stakeholder alignment on goals, personas, and offers is needed. - During quarterly planning or major product launches.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:41:02+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Before launching multi-channel GTM efforts. - When stakeholder alignment on goals, personas, and offers is needed. - During quarterly planning or major product launches.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02481-campaign-planning-b44c7b8b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/campaign-planning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/campaign-planning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "870940e135551ca1882caafd699f3bd48d83a0536c8bd0199f4f9354e5b0c327",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

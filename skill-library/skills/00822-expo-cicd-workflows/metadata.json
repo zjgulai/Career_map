@@ -1,0 +1,22 @@
+{
+  "英文名称": "expo-cicd-workflows",
+  "中文名称": "待补：expo-cicd-workflows",
+  "一句话作用": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipeline…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After generating or editing a workflow file, validate it against the schema:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipeline…时，用它产出或更新：After generating or editin…",
+  "skill_id": "00822-expo-cicd-workflows-a52f0489",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/expo/skills/expo-cicd-workflows/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/expo/skills/expo-cicd-workflows/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1c2fd381c0270cd3f3c49798715ddd4f41d23df0dcc9fcdba6e38a3933beaaf2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

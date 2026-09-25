@@ -1,0 +1,22 @@
+{
+  "英文名称": "Powerpoint / PPTX",
+  "中文名称": "待补：Powerpoint / PPTX",
+  "一句话作用": "Create, inspect, and edit Microsoft PowerPoint presentations and PPTX decks with reliable layouts, templates, placeholders, notes, charts, and visual QA. Use when (1) the task is about PowerPoint or .pptx; (2) layouts,…",
+  "关键输入": "Use when the main artifact is a Microsoft PowerPoint presentation or .pptx deck, especially when layouts, templates, placeholders, notes, comments, charts, extraction, editing, or final visual quality matter.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:05+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use when the main artifact is a Microsoft PowerPoint presentation or .pptx deck, especially when layouts, templates, placeholders, notes, comments, charts, extraction, editing, or final visual quality matter.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05013-powerpoint-pptx-12a698b6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Powerpoint---PPTX/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Powerpoint---PPTX/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d286c8cd144b9957d9d27046e75797d9dfd577e5c1d01ffda6373573d5a5a956",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

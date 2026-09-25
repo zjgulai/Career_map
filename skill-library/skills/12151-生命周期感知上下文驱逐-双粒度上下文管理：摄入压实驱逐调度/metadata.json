@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tokenpilot-lifecycle-context-eviction",
+  "中文名称": "生命周期感知上下文驱逐 双粒度上下文管理：摄入压实驱逐调度",
+  "一句话作用": "触发词：上下文驱逐、摄入压实、KV-Cache 命中、长会话、成本反弹。何时不用：纯摘要压缩走「上下文 Token 压缩」；预算分配走「动态上下文预算分配」。安全边界：驱逐不得丢失合规与决策关键记录，驱逐规则须可审计并可回放。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要传统上下文压缩破坏KV-Cache前缀导致缓存失效反而增加成本——TokenPilot摄入感知压实+生命周期驱逐在保持缓存前缀稳定的同时将成本降低61-87%，远超传统压缩的20-50%（2026 arXiv:2606.17016）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12151-p2s-tokenpilot-lifecycle-context-eviction-c3db521e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tokenpilot-lifecycle-context-eviction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-tokenpilot-lifecycle-context-eviction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7778ed848894e8602d78a4d532f27bdb6fe4ebbf58e4c7624d0f0e6d02a3f16a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-data-fusion-pipeline",
+  "中文名称": "多源采集数据驱动的知识图谱自动构建：竞品属性图谱融合",
+  "一句话作用": "触发词：知识图谱、多源融合、实体对齐、属性图谱、兼容关系。何时不用：只需把上游抽取结果按固定 Schema 编译用「语义蓝图编译器」；只需竞品价格与排名的结构化清单用「竞品 SKU 本体」。安全边界：多源采集须确认授权与平台条款，评论类数据须脱敏；图谱中的价格与评分须标注数据时点。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务背景：选品团队需要对婴儿奶瓶品类建立竞品知识图谱，覆盖 200+ SKU 的品牌、材质、容量、适用月龄、价格、评分等属性，以及产品间的兼容关系（哪些奶嘴可以与哪些奶瓶配合使用），以往依赖人工录入，每月更新需 3 天时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03280-p2s-kg-data-fusion-pipeline-01cbc89d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-kg-data-fusion-pipeline/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-kg-data-fusion-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b460da0ca5858fa16a42713ca76f2ba851027f364988fb59921547df57cafb60",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "user-research-synthesis",
+  "中文名称": "待补：user-research-synthesis",
+  "一句话作用": "Synthesize qualitative and quantitative user research into structured insights and opportunity areas. Use when analyzing interview notes, survey responses, support tickets, or behavioral data to identify themes, build p…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Synthesize qualitative and quantitative user research into structured insights and opportunity areas. Use when analyzing interview notes, survey responses, support tickets, or behavioral data to identify themes, build p…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05537-user-research-synthesis-a3664c75",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/user-research-synthesis/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/user-research-synthesis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "968a08f0bf67a5f375d7e4ff29f3270b29d95d2af912b912bc3b87b2d848f50f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

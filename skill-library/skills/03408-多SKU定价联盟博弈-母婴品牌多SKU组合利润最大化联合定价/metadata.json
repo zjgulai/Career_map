@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-dynamic-pricing-coalition",
+  "中文名称": "多SKU定价联盟博弈 母婴品牌多SKU组合利润最大化联合定价",
+  "一句话作用": "触发词：多SKU联合定价、联盟博弈、组合利润最大化、交叉价格弹性、Shapley 值分配、价格护栏。何时不用：只调单个 SKU 价格用「Skill-UCB-LDP-Dynamic-Pricing」；跨平台广告预算分摊用「Skill-MAS-Ad-Budget-Multi-Platform-Negotiation」；多 Agent 共识机制用「Skill-MAS-Consensus-Mechanism」；要检测联盟稳定性与防背叛用「MA…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要定价团队面临\"多SKU独立定价损害整体毛利\"——联盟博弈联合定价将整体利润提升8-15%，吸奶器品牌月GMV200万时年化增利190-360万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03408-p2s-mas-dynamic-pricing-coalition-8cdd3938",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mas-dynamic-pricing-coalition/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mas-dynamic-pricing-coalition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5b28365e62090ecf22eae57d4a6466bdf94f02c36fbce62671f9e7fd6299e9a0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

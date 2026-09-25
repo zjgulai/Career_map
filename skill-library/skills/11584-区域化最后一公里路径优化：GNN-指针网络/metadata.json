@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-zone-gnn-last-mile-routing",
+  "中文名称": "区域化最后一公里路径优化：GNN 指针网络",
+  "一句话作用": "触发词：排线优化、最后一公里、配送路线、多站配送、司机路线。何时不用：要决定开几个仓、仓建在哪里用「仓储选址」类技能，路线由 3PL 提供只需比价选商用「采购比价」。安全边界：路线方案仅为建议，实际派车与对外时效承诺须人工确认后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨境卖家自营海外仓配送路线靠人工排线效率低下——区域化GNN+指针网络学习历史驾驶偏好，日均里程减少10-14%，2辆车年化节省8-18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11584-p2s-zone-gnn-last-mile-routing-897fa1bc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-zone-gnn-last-mile-routing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-zone-gnn-last-mile-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4052c61ef0b2d0f88f774a0850449d89f0e317c7235a89aac55432f7af57dc57",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

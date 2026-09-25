@@ -1,0 +1,22 @@
+{
+  "英文名称": "lean-canvas",
+  "中文名称": "待补：lean-canvas",
+  "一句话作用": "在一页画布上说清问题、方案、关键指标与成本收入结构，快速检验商业设想。触发词：精益画布填写、lean-canvas、在一页画布上说清问题、方案、关键指标与成本收入结构，快速检验商业设想。",
+  "关键输入": "- Product or feature description - Target customer segment(s) - Market context and problem space - Any available metrics or business constraints",
+  "关键输出": "8. Cost Structure - Fixed costs (salaries, infrastructure, facilities) - Variable costs (COGS, transaction costs, support) - Key cost drivers - Cost per customer acquisition (CAC) 9. Key Metrics - Activation: How do users get value quickly? - Retention: How m…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要在一页画布上说清问题、方案、关键指标与成本收入结构，快速检验商业设想。触发词：精益画布填写、lean-canvas、在一页画布上说清问题、方案、关键指标与成本收入结构，快速检验商业设想。时，用它产出或更新：8. Cost Structure - Fixed costs (salaries, infrastructure, facilities) - Variable costs (COGS, transaction costs, support) - Key cost drivers - Cost per…",
+  "skill_id": "02612-lean-canvas-bacdda72",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/lean-canvas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/lean-canvas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b29200c436b74ff553568a64e35b40a8bc5bde573e6e000e929130c06d2550a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

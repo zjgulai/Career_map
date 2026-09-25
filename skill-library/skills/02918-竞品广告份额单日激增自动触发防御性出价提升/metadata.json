@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-competitor-ad-surge-defense-trigger",
+  "中文名称": "竞品广告份额单日激增自动触发防御性出价提升",
+  "一句话作用": "触发词：竞品加投、份额激增、防御出价、预算上限、触发阈值、自动恢复。何时不用：份额波动未超阈值时不必触发；需要长期品牌词投放体系时用品牌词防守策略。安全边界：自动调价需符合平台竞价政策、不使用黑帽工具，多账号监测需规避同 IP 关联风控，竞品数据只取公开投放信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告负责人面临\"竞品突然加大投放截流品牌词流量\"——展示份额日增15%自动触发防御出价将品牌词曝光损失从35%降至8%，年化保护流量价值30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02918-p2s-competitor-ad-surge-defense-trigger-deca037e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-competitor-ad-surge-defense-trigger/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-competitor-ad-surge-defense-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d02c4294e94c5512319891874674df5df9986638a69553c0b96b59043550a357",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-concept-drift-detection",
+  "中文名称": "在线监控模型分布漂移",
+  "一句话作用": "触发词：概念漂移、在线漂移监控、ADWIN/DDM、预测失准预警、出价策略失准、重训触发。何时不用：要盯输入特征分布是否偏移时用「数据漂移检测」；要看模型输出指标是否衰减时用「模型性能监控」。安全边界：漂移告警只作为重训与降级建议，不得直接改写出价或预算策略，须由运营确认后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告运营面临\"大促后CTR预测模型漂移未被感知、出价策略失准导致月均5-8万元广告损耗\"——ADWIN/DDM在漂移后6-12小时内触发告警，比月度再训练提前20天感知，年化节省80-110万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02930-p2s-concept-drift-detection-5d72f1b2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-concept-drift-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-concept-drift-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6fac5828fa7db1dbabc3392804d3fc031ffb64c9b1d3a794f2e6ca4fba6a3e08",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "im-conversation-reader",
+  "中文名称": "待补：im-conversation-reader",
+  "一句话作用": "Resolve and optionally read buyer-seller IM history for another sourcing or trade Skill. Use an imConversationId from the current supplier mention when present, otherwise resolve it from sellerAliId through query recent…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. Treat a call as successful only when success is true and errorCode is null, numeric 0, or string 0. 2. Require a message collection in the successful business response; otherwise treat the response as malformed. 3. Preserve message content, timestamp, send…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Resolve and optionally read buyer-seller IM history for another sourcing or trade Skill. Use an imConversationId from the current supplier mention when present, otherwise resolve it from sellerAliId through query recent…时，用它产出或更新：1. Treat a call as success…",
+  "skill_id": "00094-im-conversation-reader-df78f5e7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/im-conversation-reader/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/im-conversation-reader/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6cc9f01ed0dbf78ff444389484944c067aa2ad8d3a18006f15527cf4d5ffac6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

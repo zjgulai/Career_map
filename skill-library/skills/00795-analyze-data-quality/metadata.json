@@ -1,0 +1,22 @@
+{
+  "英文名称": "analyze-data-quality",
+  "中文名称": "待补：analyze-data-quality",
+  "一句话作用": "Assess whether structured data, query results, dashboards, or analytical evidence are trustworthy enough to use. Use when the task is to check data quality, reconcile conflicting sources or metric definitions, or decide…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For stakeholder-facing data-quality work, pass the completed findings to $build-report by default so the runtime produces an MCP app or HTML report. Do not stop at profiling output, a notebook, or chat-only findings unless the user explicitly requested a quic…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Assess whether structured data, query results, dashboards, or analytical evidence are trustworthy enough to use. Use when the task is to check data quality, reconcile conflicting sources or metric definitions, or decide…时，用它产出或更新：For stakeholder-facing dat…",
+  "skill_id": "00795-analyze-data-quality-c20aaf7c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/data-analytics/skills/analyze-data-quality/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/data-analytics/skills/analyze-data-quality/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a3c994f87da0c7a8c5ce37bbf08a59fc6f5b4f368475d3d7438f622b753d5f0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

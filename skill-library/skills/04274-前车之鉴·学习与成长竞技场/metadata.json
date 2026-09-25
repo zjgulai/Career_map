@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-arena-learning",
+  "中文名称": "前车之鉴·学习与成长竞技场",
+  "一句话作用": "学习与成长竞技场：三个对立角色（元认知观察员/拉伸区教练/知识整合架构师）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：学过就忘，看的时候都懂，过两天什么也说不出来、学了很多课、看了很多书，但感觉一直没进步、不知道自己算不算真的懂了，心里没底、学过就忘、感觉一直在原地。何时不用：要把一个概念教给别人 → teach；复盘一段完整经历 → retro。安全边界：若疑似 ADHD、阅读障碍等神经发育差异：只提供结…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要学习与成长竞技场：三个对立角色（元认知观察员/拉伸区教练/知识整合架构师）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：学过就忘，看的时候都懂，过两天什么也说不出来、学了很多课、看了很多书，但感觉一直没进步、不知道自己算不算真的懂了，心里没底、学过就忘、感觉一直在原地。何时不用：要把一个概念教给别人 → teach；复盘一段完整经历 → retro。安全边界：若疑似 ADHD、阅读障碍等神经发育差异：只提供结…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04274-xmind-arena-learning-2415859e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-arena-learning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-arena-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7eb7ff1b1f41fc7fee30b9acb28c4043a7fad89e8936e70e73287067006b881f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

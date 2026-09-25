@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-vetter",
+  "中文名称": "待补：skill-vetter",
+  "一句话作用": "Security-first vetting for OpenClaw skills. Use before installing any skill from ClawHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns.",
+  "关键输入": "- Before installing a new skill from ClawHub - When reviewing a SKILL.md from GitHub or other sources - When someone shares a skill file and you need to assess its safety - During periodic audits of already-installed sk…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Before installing a new skill from ClawHub - When reviewing a SKILL.md from GitHub or other sources - When someone shares a skill file and you need to assess its safety - During periodic audits of already-installed sk…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00380-skill-vetter-0748798a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/skill-vetter/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/skill-vetter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "03e0af5b24bda2df77d754a46907b0bb52541a73cef58c57ba584e0d579bf392",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

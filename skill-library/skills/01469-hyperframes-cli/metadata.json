@@ -1,0 +1,22 @@
+{
+  "英文名称": "hyperframes-cli",
+  "中文名称": "待补：hyperframes-cli",
+  "一句话作用": "HyperFrames CLI tool — hyperframes init, lint, inspect, preview, render, transcribe, tts, doctor, browser, info, upgrade, compositions, docs, benchmark. Use when scaffolding a project, linting, validating, inspecting vi…",
+  "关键输入": "Run doctor first if rendering fails. Common issues: missing FFmpeg, missing Chrome, low memory.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run doctor first if rendering fails. Common issues: missing FFmpeg, missing Chrome, low memory.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01469-hyperframes-cli-c274d494",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/hyperframes/1dc19589/skills/hyperframes-cli/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/hyperframes/1dc19589/skills/hyperframes-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "253ff75cd896b2290e5247c4ec63fc1341ac14d891fd5fb06ba04e59e49e4ab5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

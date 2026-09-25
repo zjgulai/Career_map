@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-survival-causal-effect",
+  "中文名称": "生存分析因果效应（竞争风险",
+  "一句话作用": "触发词：生存分析因果、删失数据、IPW 加权、发券效应估计、竞争风险。何时不用：只描述复购时间分布、不做因果归因时用基础生存分析；本技能要把用户自身意愿从『发券』效应里剥出来。安全边界：使用内部用户数据须对用户 ID 脱敏，结论仅用于内部效果评估。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"用户退订/弃购时间节点不清楚促活窗口\"——生存分析因果效应将精准触达窗口命中率提升40%，年化复购收入增加20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03906-p2s-survival-causal-effect-a51a748f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-survival-causal-effect/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-survival-causal-effect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c85dc84b6492b5900d7999f3bd783f6325bdda8ab5e0610ea9b71e67635919f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

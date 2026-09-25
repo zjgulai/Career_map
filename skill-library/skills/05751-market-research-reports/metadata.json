@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-research-reports",
+  "中文名称": "待补：market-research-reports",
+  "一句话作用": "Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics an…",
+  "关键输入": "CRITICAL: Market research reports should include key visual content. Every report should generate 6 essential visuals at the start, with additional visuals added as needed during writing. Start with the most critical visualizations to establish the report fra…",
+  "关键输出": "Before finalizing the report, verify:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要This skill should be used when: - Creating comprehensive market analysis for investment decisions - Developing industry reports for strategic planning - Analyzing competitive landscapes and market dynamics - Conducting…时，用它产出或更新：Before finalizing the repor…",
+  "skill_id": "05751-market-research-reports-1fbcb055",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/market-research-reports/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/market-research-reports/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "079146000a049aab7c356184844f25bcb072585bdfda6313f795178ee199e5df",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

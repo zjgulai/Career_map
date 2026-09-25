@@ -1,0 +1,22 @@
+{
+  "英文名称": "git-advanced-workflows",
+  "中文名称": "待补：git-advanced-workflows",
+  "一句话作用": "Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use when managing complex Git histories, collaborating on feature…",
+  "关键输入": "- Cleaning up commit history before merging - Applying specific commits across branches - Finding commits that introduced bugs - Working on multiple features simultaneously - Recovering from Git mistakes or lost commits…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Cleaning up commit history before merging - Applying specific commits across branches - Finding commits that introduced bugs - Working on multiple features simultaneously - Recovering from Git mistakes or lost commits…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05612-git-advanced-workflows-4880adbd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/git-advanced-workflows/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/git-advanced-workflows/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "624ae93393ccc85ff59fd1c02e8da853ded75ed378c53f0115dc6c71f37163db",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

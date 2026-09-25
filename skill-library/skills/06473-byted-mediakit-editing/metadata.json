@@ -1,0 +1,22 @@
+{
+  "英文名称": "byted-mediakit-editing",
+  "中文名称": "待补：byted-mediakit-editing",
+  "一句话作用": "面向音频、视频或图片素材组成成片的编辑制作目标，适用于时间线裁剪与拼接、速度和音量调整、视频滤镜、运镜特效、转场、画面裁切旋转翻转、字幕压制、局部模糊、动图截取、淡入淡出、音视频提取与合流、音频混合以及多画面空间组合等操作。若用户要给视频添加滤镜、春日/晚霞/鲜亮/白皙/食物等滤镜效果，或对象和目标族已明确是对现有素材做剪辑、合成、混合或成片编排，但具体做法不确定，可先加载本 Skill 探索；若只给出媒体类型而未说明要剪、合、调、加…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要面向音频、视频或图片素材组成成片的编辑制作目标，适用于时间线裁剪与拼接、速度和音量调整、视频滤镜、运镜特效、转场、画面裁切旋转翻转、字幕压制、局部模糊、动图截取、淡入淡出、音视频提取与合流、音频混合以及多画面空间组合等操作。若用户要给视频添加滤镜、春日/晚霞/鲜亮/白皙/食物等滤镜效果，或对象和目标族已明确是对现有素材做剪辑、合成、混合或成片编排，但具体做法不确定，可先加载本 Skill 探索；若只给出媒体类型而未说明要剪、合、调、加…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06473-byted-mediakit-editing-63a6a50f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-editing/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-editing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "08dec76dc18162ed38b6d6b9206cc943b8e729d3297b2703ad5ecb69a025a89a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

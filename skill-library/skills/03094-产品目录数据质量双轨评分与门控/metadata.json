@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ecommerce-data-quality-assessment",
+  "中文名称": "产品目录数据质量双轨评分与门控",
+  "一句话作用": "触发词：商品数据质量、字段评分、行级门控、目录体检、待修复队列。何时不用：要对齐多系统同一实体的数字走跨系统对账；要监控管道运行状态走质量告警。安全边界：卡页原文明示低质 SKU 不得直接进入下游属性图谱与上架流程，门控阈值须先校准再全量放行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴跨境电商应用：商品 catalog 错误检测与缺失模态补全，保证下游推荐/搜索质量时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03094-p2s-ecommerce-data-quality-assessment-5db78a10",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ecommerce-data-quality-assessment/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ecommerce-data-quality-assessment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07dc820bc74910ca593e38cec236caaebd2e7e935070d47bf0b5f16d0c57d5dd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

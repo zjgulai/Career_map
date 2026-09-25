@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-autobidding-budget-allocation-optimization",
+  "中文名称": "自动化竞价与预算动态分配 跨平台广告Autobidding与ROI约束下的预算优化",
+  "一句话作用": "触发词：自动竞价、最优出价系数、预算动态分配、跨活动重分配、ROAS 约束。何时不用：只需测算单关键词出价上限时用拍卖理论竞价技能；本技能面向多活动的整体出价与预算动态控制。安全边界：不得使用竞品品牌词作关键词；转化追踪须确认合规状态，文案不得使用绝对化用语描述效果。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要手动竞价耗时8小时/周且ROAS仅2.1x——KKT最优竞价+PID预算控制将ROAS提升至3.2x并节省30%低效广告支出，月化$1.5万节省时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02793-p2s-autobidding-budget-allocation-optimization-2160a813",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-autobidding-budget-allocation-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-autobidding-budget-allocation-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4e8595a34c8f7649702fd06e331b9d43f32a609327b53aca3456abb6bf23321b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

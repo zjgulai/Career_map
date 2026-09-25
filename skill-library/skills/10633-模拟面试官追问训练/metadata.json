@@ -1,0 +1,22 @@
+{
+  "英文名称": "interview-simulator",
+  "中文名称": "模拟面试官追问训练",
+  "一句话作用": "模拟真实面试官进行追问训练，覆盖行为面试、技术面试和案例面试三大场景，每次训练包含3-5轮循序渐进的追问，并基于STAR框架对用户回答进行结构化诊断与优化，输出综合评分和改进建议。当用户希望练习面试、提及行为面试/技术面试/案例面试等关键词、或直接给出面试问题或回答内容时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 用户描述：[摘要] - 诊断：[是否有量化数据、业务影响、个人成长] - 优化建议：[具体改进方向]",
+  "最新更新时间": "2026-09-14T00:07:17+08:00",
+  "业务场景": "其他待归类",
+  "解决具体问题": "当需要模拟真实面试官进行追问训练，覆盖行为面试、技术面试和案例面试三大场景，每次训练包含3-5轮循序渐进的追问，并基于STAR框架对用户回答进行结构化诊断与优化，输出综合评分和改进建议。当用户希望练习面试、提及行为面试/技术面试/案例面试等关键词、或直接给出面试问题或回答内容时触发。时，用它产出或更新：- 用户描述：[摘要] - 诊断：[是否有量化数据、业务影响、个人成长] - 优化建议：[具体改进方向]",
+  "skill_id": "10633-interview-simulator-f3f89550",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/interview-simulator/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/interview-simulator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2ad86b8a486ed621e2e756d16f2189f4c0e79c07a1e76e0e25811139f9b4bde1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

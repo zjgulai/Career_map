@@ -1,0 +1,22 @@
+{
+  "英文名称": "slack-gif-creator",
+  "中文名称": "待补：slack-gif-creator",
+  "一句话作用": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for…",
+  "关键输入": "Dimensions: - Emoji GIFs: 128x128 (recommended) - Message GIFs: 480x480 Parameters: - FPS: 10-30 (lower is smaller file size) - Colors: 48-128 (fewer = smaller file size) - Duration: Keep under 3 seconds for emoji GIFs",
+  "关键输出": "passes, info = validate gif('my.gif', is emoji=True, verbose=True)",
+  "最新更新时间": "2026-03-25T23:10:46+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for…时，用它产出或更新：passes, info = validate gi…",
+  "skill_id": "09859-slack-gif-creator-3fc8d271",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills-temp/claude skills/skills/slack-gif-creator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills-temp/claude skills/skills/slack-gif-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

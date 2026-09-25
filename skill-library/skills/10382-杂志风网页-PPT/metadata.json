@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-magazine-web",
+  "中文名称": "杂志风网页 PPT",
+  "一句话作用": "电子杂志 × 电子墨水风, WebGL 流体背景 + 衬线 display",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要电子杂志 × 电子墨水风, WebGL 流体背景 + 衬线 display时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10382-deck-magazine-web-c9d2ea71",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/deck-magazine-web/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/deck-magazine-web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a466290a045c34e3cd53b4c16ae9c7dcc68517157209529863a8353f78ed615",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "travel-planner-pro",
+  "中文名称": "待补：travel-planner-pro",
+  "一句话作用": "用于生成中文旅行攻略、自由行路线、城市多日游、周末短途、自驾路书、亲子/老人/情侣/独旅/商务/穷游/轻奢/无障碍/中转短停规划。当用户需要目的地玩法、分日行程、住宿交通、美食、预算预订、天气策略、官方预约入口、近期活动或飞书旅行文档时使用。不用于代替官方签证、交通、天气或票务最终确认。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要用于生成中文旅行攻略、自由行路线、城市多日游、周末短途、自驾路书、亲子/老人/情侣/独旅/商务/穷游/轻奢/无障碍/中转短停规划。当用户需要目的地玩法、分日行程、住宿交通、美食、预算预订、天气策略、官方预约入口、近期活动或飞书旅行文档时使用。不用于代替官方签证、交通、天气或票务最终确认。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06568-travel-planner-pro-5b01bf6e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/branches/travel-planner-pro/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/branches/travel-planner-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f328684a4051de589f11142ed4f1470ab5d5754c53cad934a9c4e41da2a05a87",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "供应商绩效跟踪（交期/质量/价格）",
+  "中文名称": "待补：供应商绩效跟踪（交期/质量/价格）",
+  "一句话作用": "当需要按供应商维度滚动评分、识别高风险供应商并反哺补货与寻源决策时调用；通常月更，可与 PO 到货数据联动。",
+  "关键输入": "- 历史 PO、到货、质检、退货 记录（可从 ERP 导出）。 - 评分权重 显式声明 （可配置）。",
+  "关键输出": "- 表：supplier id on time rate defect ppm price index score tier action - Top risks ：3 条。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要按供应商维度滚动评分、识别高风险供应商并反哺补货与寻源决策时调用；通常月更，可与 PO 到货数据联动。时，用它产出或更新：- 表：supplier id on time rate defect ppm price index score tier action - Top risks ：3 条。",
+  "skill_id": "09940-skill-44e336c1",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/supplier-performance-tracker/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/supplier-performance-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "840be33200605889b0f7229b2794ba73df57235600f19543e04d9c0dd7155d71",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

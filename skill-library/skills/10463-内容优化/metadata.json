@@ -1,0 +1,22 @@
+{
+  "英文名称": "SEO内容优化",
+  "中文名称": "内容优化",
+  "一句话作用": "优化商品页/文章页的关键词密度、Title/Meta 与内链，用于提升关键词排名与内容质量。触发词：SEO内容优化、内容SEO优化、关键词密度分析、Title优化、Meta描述、内部链接、内容质量评估。何时不用：整站技术审计（使用 seo-technical-audit）、竞品SEO策略分析（使用 seo-competitor-analyzer）、多语言架构配置。缺目标页面内容/URL 或目标关键词时先追问澄清，不直接生成。安全边界：…",
+  "关键输入": "何时使用 ：用户提到「SEO内容优化 / 内容SEO优化 / 关键词密度分析 / Title优化 / Meta描述 / 内部链接 / 内容质量评估」，或给出商品页/文章页内容（或 URL）+ 目标关键词，要求提升关键词排名与内容质量。 何时不用 ： - 整站技术审计（网站结构/速度/移动适配/索引）→ seo-technical-audit - 竞品 SEO 策略分析（关键词差距/反向链接）→ seo-competitor-analy…",
+  "关键输出": "页面内容优化报告 : 完整端到端示例（含批量优化与竞品对比）见 examples/full-example.md。",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要何时使用 ：用户提到「SEO内容优化 / 内容SEO优化 / 关键词密度分析 / Title优化 / Meta描述 / 内部链接 / 内容质量评估」，或给出商品页/文章页内容（或 URL）+ 目标关键词，要求提升关键词排名与内容质量。 何时不用 ： - 整站技术审计（网站结构/速度/移动适配/索引）→ seo-technical-audit - 竞品 SEO 策略分析（关键词差距/反向链接）→ seo-competitor-analy…时，用它产出或更新：页面内容优化报告 : 完整端到端示例（含批量优化与竞…",
+  "skill_id": "10463-seo-0dd8d2d3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/SEO内容优化/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/SEO内容优化/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "c7fd650ae821302a36763cf64f1eed71ab4460e14a141d4895b54ccb2d073a1b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "springboot-patterns",
+  "中文名称": "開発",
+  "一句话作用": "Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:08+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05114-springboot-patterns-a12b8605",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/springboot-patterns/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/springboot-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e0dd4726e8baf27d74c0d0a2f5b3c82285f8912e4a0df526a2d1e533e7162ccd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

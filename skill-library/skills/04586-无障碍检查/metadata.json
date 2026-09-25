@@ -1,0 +1,22 @@
+{
+  "英文名称": "无障碍检查",
+  "中文名称": "无障碍检查",
+  "一句话作用": "完整无障碍审计（WCAG 2.1 AA/AAA）。对设计稿 / 已实现页面做系统性无障碍合规检查——覆盖 4 个 principles（Perceivable / Operable / Understandable / Robust）×13 guidelines×50+ success criteria，每条 finding 标注 WCAG 编号 + 严重度 + 修复成本 + 法规依据。默认 AA 合规目标，可切换 AAA（政府 /…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成 Access 后， 同时 做两件事： 1. 会话内输出 （marker 之间放裸 JSON，不要嵌套 ``json 代码块）： 2. 写入项目文件 ：spark-output/context/access.json（目录不存在时先创建） 3. 额外保存 Markdown 报告 ：spark-output/access/[project-slug].md`，含 WCAG 合规报告（可作为对外合规证明的草稿）。 下游可消费 Skill： QA （实现层无障碍验证）/ PRD （合规章节直接引用）/ Pitch…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要完整无障碍审计（WCAG 2.1 AA/AAA）。对设计稿 / 已实现页面做系统性无障碍合规检查——覆盖 4 个 principles（Perceivable / Operable / Understandable / Robust）×13 guidelines×50+ success criteria，每条 finding 标注 WCAG 编号 + 严重度 + 修复成本 + 法规依据。默认 AA 合规目标，可切换 AAA（政府 /…时，用它产出或更新：完成 Access 后， 同时 做两件事： 1. 会话…",
+  "skill_id": "04586-skill-1b9f188a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/access/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/access/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3639c4fad89eb79a43685581d7080f5e31aba7cfc2c1acb48a689ddb8f1a6d7b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

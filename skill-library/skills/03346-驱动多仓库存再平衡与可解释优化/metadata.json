@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-multi-dc-inventory",
+  "中文名称": "驱动多仓库存再平衡与可解释优化",
+  "一句话作用": "触发词：多仓再平衡、可解释调拨、混合整数规划、大促仓位错配、缺货风险评分。何时不用：不涉及仓间调拨、只算补货量时用「自动补货决策」；多渠道库存池化用「一盘货库存调度」。安全边界：调拨建议须附可解释理由并人工确认后执行，需求预测数据须脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Prime Day 前 3 个仓位错配导致东仓断货西仓积压，人工调拨决策滞后——LLM+混合整数规划联合优化多仓调拨方案并用自然语言解释决策逻辑，断货率降低 60%+、年化节省 30-100 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03346-p2s-llm-multi-dc-inventory-2f7a0454",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-multi-dc-inventory/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-multi-dc-inventory/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0981dee92499ab161c5a986ea5bdc91d7b41f1a3d827f841c2fce52b53683309",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

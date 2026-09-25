@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill评估师",
+  "中文名称": "评估师",
+  "一句话作用": "当用户需要对 Skill 做质量评估、六维度评分、schema 合规检查、routing quality 诊断或生成结构化评估报告时使用。基于 Universal Skill Schema 对 Skill 进行六维度深度评估，检查 routing quality、positive/negative loading 和 boundary cases，并生成结构化评估报告。触发词：Skill评估师、评估 skill、检查 skill 质量…",
+  "关键输入": "- 需要评估 Skill 质量并获取改进建议 - 需要生成标准化的 Skill 评估报告 - 需要检查 Skill 符合 Universal Skill Schema 的程度 - 需要在优化前进行诊断分析 - 需要验证 Skill 是否达到发布标准（ 85分） - 需要检查 description 是否误触发、漏触发或缺少 negative loading cases",
+  "关键输出": "- {skill-name}-evaluation-report.yaml - 结构化评估报告（供 root-skills-opt 使用） - {skill-name}-evaluation-summary.md - 人类可读摘要",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 需要评估 Skill 质量并获取改进建议 - 需要生成标准化的 Skill 评估报告 - 需要检查 Skill 符合 Universal Skill Schema 的程度 - 需要在优化前进行诊断分析 - 需要验证 Skill 是否达到发布标准（ 85分） - 需要检查 description 是否误触发、漏触发或缺少 negative loading cases时，用它产出或更新：- {skill-name}-evaluation-report.yaml - 结构化评估报告（供 root-skills…",
+  "skill_id": "10473-skill-d5243460",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/Skill评估师/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/Skill评估师/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "60b8103726057dce4e79a47792fd9e098e7127160674f310ae9afc3a115d021c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

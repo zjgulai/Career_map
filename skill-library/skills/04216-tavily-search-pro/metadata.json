@@ -1,0 +1,22 @@
+{
+  "英文名称": "tavily-search-pro",
+  "中文名称": "待补：tavily-search-pro",
+  "一句话作用": "Tavily AI search platform with 5 modes: Search (web/news/finance), Extract (URL content), Crawl (website crawling), Map (sitemap discovery), and Research (deep research with citations). Use for: web search with LLM answ…",
+  "关键输入": "- TAVILY API KEY environment variable",
+  "关键输出": "python3 lib/tavily search.py search \"climate change solutions\" --depth advanced",
+  "最新更新时间": "2026-09-08T01:29:50+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Tavily AI search platform with 5 modes: Search (web/news/finance), Extract (URL content), Crawl (website crawling), Map (sitemap discovery), and Research (deep research with citations). Use for: web search with LLM answ…时，用它产出或更新：python3 lib/tavily search.…",
+  "skill_id": "04216-tavily-search-pro-a56d1bce",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/tavily-search-pro/SKILL.md",
+  "relative_path": "lute/.dsh/skills/tavily-search-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c4b42d783bb4870d82431f91defc6e76a175c0fce56b40f2a6271b8ac7aba4f5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

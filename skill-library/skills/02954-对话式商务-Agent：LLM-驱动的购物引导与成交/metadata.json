@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-conversational-commerce-agent",
+  "中文名称": "对话式商务 Agent：LLM 驱动的购物引导与成交",
+  "一句话作用": "触发词：对话导购、需求澄清、购物引导、站内问答、转化漏斗对比。何时不用：跨会话记住老客偏好用「长期偏好记忆」；本技能处理单次会话内的需求澄清与推荐。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要独立站用户bounce rate65%主因是不知道选哪款看了就走——LLM对话式导购3-5轮澄清需求后精准推荐，对话路径转化率15-25%远高于搜索路径3-5%年化增益25-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02954-p2s-conversational-commerce-agent-2d6b082d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-conversational-commerce-agent/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-conversational-commerce-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2691f1837b393fee83877ebda89cac90048ebeba67543eb9b4b7c73411f0a579",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

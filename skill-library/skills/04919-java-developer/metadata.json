@@ -1,0 +1,22 @@
+{
+  "英文名称": "java-developer",
+  "中文名称": "待补：java-developer",
+  "一句话作用": "Use when building modern Java 17/21+ applications with Spring Boot, JPA/Hibernate, streams, records, virtual threads, or enterprise patterns. Invoke for JVM optimization, testing with JUnit 5, or reactive programming.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:44+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when building modern Java 17/21+ applications with Spring Boot, JPA/Hibernate, streams, records, virtual threads, or enterprise patterns. Invoke for JVM optimization, testing with JUnit 5, or reactive programming.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04919-java-developer-94bd3363",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/java-developer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/java-developer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b6691b6977e6505175c7c5b07f9fbb059666766d69b38ba54c8cbbbee257459",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

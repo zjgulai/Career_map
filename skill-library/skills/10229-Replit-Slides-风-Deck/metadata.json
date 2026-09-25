@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-replit",
+  "中文名称": "Replit Slides 风 Deck",
+  "一句话作用": "Replit Slides 八套主题 (helix/holm/vance/bevel/world/atlas/bluehouse)",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:26+08:00",
+  "业务场景": "product",
+  "解决具体问题": "当需要Replit Slides 八套主题 (helix/holm/vance/bevel/world/atlas/bluehouse)时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10229-deck-replit-eb37926f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-replit/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-replit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "966c96946e7ef4f908b4eb651f43bd2fcb32dbde24646de2f651ddf54fecd00e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-counterfactual-sc-scenario-sim",
+  "中文名称": "供应链反事实情景仿真 决策前的数字沙盘支撑Palantir高风险Action验证",
+  "一句话作用": "触发词：反事实仿真、数字沙盘、补货方案验证、高风险决策、断货概率。何时不用：只算单点补货量用补货模拟类技能；多参数情景对比用「供应链 What-If 情景分析引擎」。安全边界：仿真结论只作决策输入，高风险采购动作须经人工审批后才可执行；竞品数据来源必须合法。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要计划经理面临断货与积压难权衡——反事实仿真将错误决策率从24%降到7%，年化省22万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02962-p2s-counterfactual-sc-scenario-sim-fe23f7d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-counterfactual-sc-scenario-sim/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-counterfactual-sc-scenario-sim/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ca700b2f6ba456f4e2e30d06993b9b2256d25734fde11ab2c493e0fae2071b4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

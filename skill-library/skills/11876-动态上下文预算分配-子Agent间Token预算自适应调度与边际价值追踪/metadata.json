@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-adactx-dynamic-context-budget-allocation",
+  "中文名称": "动态上下文预算分配 子Agent间Token预算自适应调度与边际价值追踪",
+  "一句话作用": "触发词：Token 预算分配、上下文预算、子 Agent 调度、边际价值、Shapley 归因。何时不用：预算已定、只需压缩单条长历史走「上下文 Token 压缩」；按角色筛选记忆子集走「角色感知上下文路由」。安全边界：分配依据须可审计（保留决策日志），不得用预算手段隐藏或篡改 Agent 的关键结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要MAS框架默认均匀分配上下文预算导致复杂Agent被截断简单Agent空耗——AdaCtx滑动窗口边际价值+Shapley归因动态重分配将任务成功率提升12.8%，同时减少31%Token消耗（2026 arXiv:2604.02042）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11876-p2s-adactx-dynamic-context-budget-allocation-955626b2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-adactx-dynamic-context-budget-allocation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-adactx-dynamic-context-budget-allocation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3ed549f4778ffe4dcde13727b5be3d81d4ccbea8cbd4127dcae10eecce75ebff",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

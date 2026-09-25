@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-ml-features",
+  "中文名称": "供应链 ML 特征工程：时序图统计三维",
+  "一句话作用": "触发词：特征工程、时序特征、图特征、统计特征、特征契约。何时不用：要直接跑端到端预测用「TFT 多水平预测」；只做实时数据接入不做特征设计时用「流式预测」。安全边界：所有特征必须基于 t-1 及以前数据，禁止未来信息泄露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链分析师面临特征口径不一致——供应链特征将预测MAPE降12%，年化省18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03897-p2s-supply-chain-ml-features-f3d0281f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supply-chain-ml-features/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supply-chain-ml-features/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aac4f6ee05bf07a3dfe7584d693b5384a6cdd157963ea8ae0cae477eea037dbf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

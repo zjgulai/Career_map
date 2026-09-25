@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Promotion-Demand-Decomposition",
+  "中文名称": "待补：Promotion Demand Decomposition",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T01:41:09.595589\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:41:09+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T01:41:09.595589\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07542-skill-promotion-demand-decomposition-271678ef",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Promotion-Demand-Decomposition.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Promotion-Demand-Decomposition.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d636f8147e2781a6b575ff5752b59e8defdfb5eb9bd8f2a0b52a6dc5044e285e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

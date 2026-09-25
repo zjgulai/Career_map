@@ -1,0 +1,22 @@
+{
+  "英文名称": "category-statistics",
+  "中文名称": "检查目标列是否存在",
+  "一句话作用": "提取指定类别列并统计各类别数量与占比，生成高分辨率的柱状图、饼图等组合可视化报告，适用于分类数据的分布情况分析。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要提取指定类别列并统计各类别数量与占比，生成高分辨率的柱状图、饼图等组合可视化报告，适用于分类数据的分布情况分析。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04166-category-statistics-e63be140",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-statistics/category-statistics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-statistics/category-statistics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3fae4ce41aa0af6ab0c71e4be6399fcbea14459c784138789eb60be4a38f5562",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

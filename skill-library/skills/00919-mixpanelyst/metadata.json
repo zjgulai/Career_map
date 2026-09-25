@@ -1,0 +1,22 @@
+{
+  "英文名称": "mixpanelyst",
+  "中文名称": "待补：mixpanelyst",
+  "一句话作用": "This skill should be used when the user asks about Mixpanel product analytics, event data, funnel analysis, retention curves, cohort analysis, segmentation queries, user behavior, conversion rates, churn, DAU/MAU, ARPU,…",
+  "关键输入": "vals = ws.property values(\"platform\", event=\"Login\") print(\"Platforms:\", vals)",
+  "关键输出": "python3 $SKILL DIR/scripts/help.py QueryResult python3 $SKILL DIR/scripts/help.py FlowQueryResult",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要This skill should be used when the user asks about Mixpanel product analytics, event data, funnel analysis, retention curves, cohort analysis, segmentation queries, user behavior, conversion rates, churn, DAU/MAU, ARPU,…时，用它产出或更新：python3 $SKILL DIR/scripts…",
+  "skill_id": "00919-mixpanelyst-37696725",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/mixpanel-headless/skills/mixpanelyst/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/mixpanel-headless/skills/mixpanelyst/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "33bd3c7ec38e95ac093e48d91f9b18d4dd5943607449812e299f69bafd23c1f1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

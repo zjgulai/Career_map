@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-repurchase-from-live-audience",
+  "中文名称": "直播首购用户复购转化",
+  "一句话作用": "触发词：直播首购复购、渠道分层、生存曲线对比、7 天复购窗口、差异化触达。何时不用：不做来源区分、统一经营全渠道复购节奏时用通用复购时点技能；本技能专治直播冲动购买后的低复购。安全边界：首购渠道与复购行为属一方数据，须符合平台营销政策与合法利益基础；7 天内最多触达 2 条。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户运营面临\"直播首购用户冲动购买后复购率远低于搜索购买用户\"——生存分析揭示直播用户7天复购窗口特性，差异化干预序列年化增收$5.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03953-p2s-tiktok-repurchase-from-live-audience-7b0a7966",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tiktok-repurchase-from-live-audience/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tiktok-repurchase-from-live-audience/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "05f94e4623d235c55b92db44ccb49e29f8961df5f3aaf9b9f80fc564fc00fd0e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

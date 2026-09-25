@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-carbon-scope3-tracker",
+  "中文名称": "物流碳排放Scope3追踪 全链路碳足迹核算引擎",
+  "一句话作用": "触发词：碳足迹核算、物流碳排、Scope3 核算、低碳路由、ESG 披露。何时不用：要比较物流方案的综合成本与费率用「经济性分析」，要优化末端配送路线用路径优化类技能；本技能只做逐单碳排核算与低碳替代路由建议。安全边界：排放系数与披露口径须经 ESG/合规负责人复核后才能对外发布，本技能不替代第三方碳核查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要ESG团队面临Scope3碳排放核算难——逐单CO2eq核算将ESG报告准确率提升至99%，Amazon CPF认证通过率100%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11438-p2s-logistics-carbon-scope3-tracker-0a0232a8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-logistics-carbon-scope3-tracker/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-logistics-carbon-scope3-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4697ce6fe82a5b4655260739ca4bfc5048d88f6c31a3f7f2ca42722e5f1011be",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

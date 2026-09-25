@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-code-connect-components",
+  "中文名称": "待补：figma-code-connect-components",
+  "一句话作用": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code con…",
+  "关键输入": "- Figma MCP server must be connected and accessible - User must provide a Figma URL with node ID: https://figma.com/design/:fileKey/:fileName?node-id=1-2 - IMPORTANT: The Figma URL must include the node-id parameter. Code Connect mapping will fail without it.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code con…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01607-figma-code-connect-components-1d9c5b04",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/figma-code-connect-components/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/figma-code-connect-components/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0f19edad8aed28063a3517c419fbcbef5421d024f189fd02a17fae25093ec69d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

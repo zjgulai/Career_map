@@ -1,0 +1,22 @@
+{
+  "英文名称": "fullstack-implementation",
+  "中文名称": "待补：fullstack-implementation",
+  "一句话作用": "Implement features end-to-end in Laravel 12 + Inertia.js + React 19 + TypeScript OR Python + FastAPI + LangChain. Use when building new features, wiring controllers to pages, or implementing CRUD operations. EXCLUSIVE t…",
+  "关键输入": "- \"Add a new CRUD page with validation and tests\" - \"Wire a form to a controller endpoint and handle errors\" - \"Add a FastAPI router, schema, service, and tests\"",
+  "关键输出": "Before completing ANY implementation, run this verification sequence: Do NOT report completion until all checks pass.",
+  "最新更新时间": "2026-09-19T03:57:16+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- \"Add a new CRUD page with validation and tests\" - \"Wire a form to a controller endpoint and handle errors\" - \"Add a FastAPI router, schema, service, and tests\"时，用它产出或更新：Before completing ANY implementation, run this verification sequence: Do NOT report c…",
+  "skill_id": "04880-fullstack-implementation-80de2e3a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/fullstack-implementation/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/fullstack-implementation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7ae7be2dc1058c3b4dad6dedbb2ea18bbd93e78c90c8b9ba87132c8656803e6f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

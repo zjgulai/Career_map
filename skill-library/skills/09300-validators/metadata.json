@@ -1,0 +1,22 @@
+{
+  "英文名称": "validators",
+  "中文名称": "待补：validators",
+  "一句话作用": "Configure input and output validation with .input() and .output() using Zod, Yup, Superstruct, ArkType, Valibot, Effect, or custom validator functions. Chain multiple .input() calls to merge object schemas. Standard Sch…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-08T23:55:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Configure input and output validation with .input() and .output() using Zod, Yup, Superstruct, ArkType, Valibot, Effect, or custom validator functions. Chain multiple .input() calls to merge object schemas. Standard Sch…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09300-validators-63a90a68",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/app/node_modules/@trpc/server/skills/validators/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/app/node_modules/@trpc/server/skills/validators/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c214b1472c17b5e87edf67d56a3349ff3ccece1790fc7996f033975c4f98335f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

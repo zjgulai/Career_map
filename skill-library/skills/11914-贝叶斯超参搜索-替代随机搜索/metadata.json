@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bayesian-hyperparameter-optimization",
+  "中文名称": "贝叶斯超参搜索 替代随机搜索",
+  "一句话作用": "触发词：贝叶斯超参优化、TPE代理模型、采集函数、剪枝提前终止、GPU算力节省。何时不用：单次评估代价极高或试验预算不足20次时不适用；需要端到端自动建模与算法选择用AutoML流水线设计。安全边界：只优化模型元参数，不改变训练数据与业务口径，调参过程不涉及用户隐私数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据科学家面临\"随机搜索超参耗费大量GPU算力且效果不稳定\"——贝叶斯超参优化将调参迭代次数减少60%且最终模型性能提升8-15%，年化节省GPU成本10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11914-p2s-bayesian-hyperparameter-optimization-f115d4f6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-bayesian-hyperparameter-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-bayesian-hyperparameter-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5f8efb77ccbdbdbe127080e2da4cff25097d47bce02423f17ff8d2b0ec87c20",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

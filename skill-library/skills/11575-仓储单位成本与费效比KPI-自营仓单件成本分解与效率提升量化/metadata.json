@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-warehouse-cost-per-unit-kpi",
+  "中文名称": "仓储单位成本与费效比KPI 自营仓单件成本分解与效率提升量化",
+  "一句话作用": "触发词：单件成本、FBA对比自营仓、成本临界点、仓储费。何时不用：只有总成本、没有分项费用明细时无法分解；只测算仓容够不够用用仓容规划类技能。安全边界：相关类目需满足跨境电商质量安全与食品安全标准及进口许可要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务面临\"FBA vs 自营仓决策拍脑袋\"——单件全成本对比（含Q4仓储费3.2倍）给出临界点月出货2000件，年化节省仓储成本10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11575-p2s-warehouse-cost-per-unit-kpi-292ff252",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-warehouse-cost-per-unit-kpi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-warehouse-cost-per-unit-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8d94a31be63fd80951d6199c4e67aacd1699b69a35f63fc951c70bb601b4bd3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

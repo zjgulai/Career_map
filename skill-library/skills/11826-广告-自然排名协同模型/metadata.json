@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sponsored-organic-rank-synergy",
+  "中文名称": "广告-自然排名协同模型",
+  "一句话作用": "触发词：广告自然协同、排名攻坚、ACOS 下降、阶段策略、自然流量、竞价降档。何时不用：量化广告对自然排名的滞后溢出用 Panel DiD 那张卡；要在具体关键词上分阶段把排名顶上去再降竞价时用本卡。安全边界：须遵守平台搜索算法规范，保留优化日志备查，严禁黑帽刷单或任何操纵排名的手段。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"广告和自然排名各自独立优化效果差\"——协同模型将同等广告预算下自然流量贡献从30%提升至52%，年化降低获客成本25%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11826-p2s-sponsored-organic-rank-synergy-4aed1fe6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-sponsored-organic-rank-synergy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-sponsored-organic-rank-synergy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c43477a6dec6aa38c3597fa3bdbfd9192b03162411788003b0967512553f4e8f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

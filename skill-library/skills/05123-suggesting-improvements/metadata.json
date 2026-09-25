@@ -1,0 +1,22 @@
+{
+  "英文名称": "suggesting-improvements",
+  "中文名称": "待补：suggesting-improvements",
+  "一句话作用": "Expert at suggesting specific, actionable improvements to Claude's responses and work. Use when Claude's output needs enhancement, when quality issues are identified, or when iterating on solutions.",
+  "关键输入": "Claude should automatically invoke this skill when: - Quality analysis reveals issues - User asks \"how can this be better?\" - Iterating on previous solutions - Reviewing completed work - Planning refactoring or enhancem…",
+  "关键输出": "When : Input not validated Why : Prevents errors and security issues How :",
+  "最新更新时间": "2026-09-19T04:12:24+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Claude should automatically invoke this skill when: - Quality analysis reveals issues - User asks \"how can this be better?\" - Iterating on previous solutions - Reviewing completed work - Planning refactoring or enhancem…时，用它产出或更新：When : Input not validated…",
+  "skill_id": "05123-suggesting-improvements-a2faa393",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/suggesting-improvements/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/suggesting-improvements/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ba718991e2d4415ef481711960d520307326f98b9e703b4674758acacf0bb50e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-theft-warehouse-anomaly",
+  "中文名称": "海外仓库存异常检测盗窃错发损耗识别",
+  "一句话作用": "触发词：库存差异、盗损识别、持续偏差告警、周期规律。何时不用：缺少每日盘点或出入库日志时无法建立基线；一次性账实核对用人工盘点流程。安全边界：仅用于内部库存与操作审计，结论不得用于无证据的员工定性处理。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓储管理面临\"奶粉海外仓3个月内220件差异到年底对账才发现每罐$50合计损失$11000\"——CUSUM库存偏差检测在第2周触发告警，年化发现并预防盗损10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03260-p2s-inventory-theft-warehouse-anomaly-f2935396",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-inventory-theft-warehouse-anomaly/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-inventory-theft-warehouse-anomaly/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23379929301e98e4312e445478b14b071cf448838a57bf64dbf2e93be355140e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

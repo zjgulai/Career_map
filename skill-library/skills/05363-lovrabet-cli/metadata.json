@@ -1,0 +1,22 @@
+{
+  "英文名称": "lovrabet-cli",
+  "中文名称": "待补：lovrabet-cli",
+  "一句话作用": "Use Lovrabet Runtime CLI to work with published Lovrabet runtime apps, service tree commands, datasets, data records, SQL, BFF, files, OCR, artifacts, and knowledge. Requires a preconfigured Lovrabet AccessKey.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Prefer machine-readable output: Use --format json only when pretty JSON is useful. Use --jq ' ' to reduce large JSON outputs when the user asks for a narrow result.",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use Lovrabet Runtime CLI to work with published Lovrabet runtime apps, service tree commands, datasets, data records, SQL, BFF, files, OCR, artifacts, and knowledge. Requires a preconfigured Lovrabet AccessKey.时，用它产出或更新：Prefer machine-readable output: Use…",
+  "skill_id": "05363-lovrabet-cli-80f254ba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/lovrabet-cli/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/lovrabet-cli/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c71e041722249307ba7c08230db964f58a4124177362b204f908fe09c891a02b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

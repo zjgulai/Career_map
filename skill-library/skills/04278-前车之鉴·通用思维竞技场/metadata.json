@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-arena-universal",
+  "中文名称": "前车之鉴·通用思维竞技场",
+  "一句话作用": "通用思维竞技场：三个对立角色（假设审计师/系统结构分析师/维度设计师）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：拿到问题不知道该用什么方法/什么顺序想、说不清自己被什么卡住，只觉得乱、别人推荐的框架不知道适不适合自己这个问题、不知道该用什么思维框架、说不清卡在哪。何时不用：问题类型已明确 → 十一个专门竞技场（decision/rootcause/sysfail/evaluate/framing/lear…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要通用思维竞技场：三个对立角色（假设审计师/系统结构分析师/维度设计师）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：拿到问题不知道该用什么方法/什么顺序想、说不清自己被什么卡住，只觉得乱、别人推荐的框架不知道适不适合自己这个问题、不知道该用什么思维框架、说不清卡在哪。何时不用：问题类型已明确 → 十一个专门竞技场（decision/rootcause/sysfail/evaluate/framing/lear…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04278-xmind-arena-universal-757ea0bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-arena-universal/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-arena-universal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b5c469d7679eda4b0a788d7124c861819250429981ee773d61ea2fdf0aedf29",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

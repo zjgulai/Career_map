@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-organic-growth-attribution",
+  "中文名称": "搜索有机增长归因 流量驱动用户生命周期价值的因果建模",
+  "一句话作用": "触发词：SEO归因、LTV溢价、渠道选择偏差、白帽SEO、预算决策。何时不用：要看单篇内容或关键词贡献时用有机内容归因（聚合数据因果发现）。安全边界：只用平台允许的白帽SEO手段（关键词、Listing、图文优化），不得触犯平台算法作弊政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要SEO团队面临\"搜索用户LTV表面高45%但含选择偏差无法准确评估SEO价值\"——PSM消除选择偏差后真实增量+28%，年化SEO预算决策优化约100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11805-p2s-search-organic-growth-attribution-cacffcd5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-search-organic-growth-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-search-organic-growth-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "85d96729d0fa15bd1b88225b20640f72e9d0a7388f768ce2dfcf595a46d419db",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

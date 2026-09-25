@@ -1,0 +1,22 @@
+{
+  "英文名称": "swiftui-view-refactor",
+  "中文名称": "待补：swiftui-view-refactor",
+  "一句话作用": "Refactor SwiftUI view files into stable, testable structure. Use when splitting large views, tightening data flow, or cleaning Observation ownership.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Refactor SwiftUI view files into stable, testable structure. Use when splitting large views, tightening data flow, or cleaning Observation ownership.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00719-swiftui-view-refactor-1e58a52e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-ios-apps/skills/swiftui-view-refactor/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-ios-apps/skills/swiftui-view-refactor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "129cbb511987985ed7bf9e3f20443632a7becdf0c2824ded6b52241cc339243a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

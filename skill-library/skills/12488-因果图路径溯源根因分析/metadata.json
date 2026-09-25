@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-prorca-business-analysis",
+  "中文名称": "因果图路径溯源根因分析",
+  "一句话作用": "触发词：根因溯源、GMV 告警、因果路径、秒级定位、大促监控。何时不用：要走多假设检验做销量下滑诊断时用「需求异常因果归因」；离线复盘找驱动因素时用「PC算法因果发现」。安全边界：因果拓扑需人工维护或从架构图提取，拓扑缺失或过期时不得给出确定性根因结论，须标注待人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营总监面临业绩下滑原因说不清——ProRCA将定位时间从3天缩到6小时，年化省15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12488-p2s-prorca-business-analysis-595facbf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-prorca-business-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-prorca-business-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "37b5f050a3fe6b870c0e98dd05b9cbe66db95f502e16f71b40b9fbc3ffb76b51",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

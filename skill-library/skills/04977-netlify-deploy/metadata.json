@@ -1,0 +1,22 @@
+{
+  "英文名称": "netlify-deploy",
+  "中文名称": "待补：netlify-deploy",
+  "一句话作用": "Deploy web projects to Netlify using the Netlify CLI (npx netlify). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
+  "关键输入": "- Netlify CLI : Installed via npx (no global install required) - Authentication : Netlify account with active login session - Project : Valid web project in current directory - When sandboxing blocks the deployment network calls, rerun with sandbox permission…",
+  "关键输出": "After deployment, report to user: - Deploy URL : Unique URL for this deployment - Site URL : Production URL (if production deploy) - Deploy logs : Link to Netlify dashboard for logs - Next steps : Suggest netlify open to view site or dashboard",
+  "最新更新时间": "2026-09-19T03:46:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Deploy web projects to Netlify using the Netlify CLI (npx netlify). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.时，用它产出或更新：After deployment, report to user: - Deploy URL : Unique…",
+  "skill_id": "04977-netlify-deploy-be19cb27",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/netlify-deploy/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/netlify-deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d5cb9afee230c101409c6f216ba4c89c5c39a03a8a54e551066ce3d28d54f361",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

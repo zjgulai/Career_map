@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cognitive-load-ux-optimizer",
+  "中文名称": "认知负荷UX优化器 信息架构与注意力资源管理",
+  "一句话作用": "触发词：认知负荷、信息架构、注意力分配、热力图分析、页面改版。何时不用：要测主图与标题元素差异用「Listing 转化率 A/B 测试优化器」；要对落地页元素组合寻优用「独立站落地页 CRO」。安全边界：眼动与页面行为数据须脱敏并取得用户知情同意；样本偏差（如只覆盖 iOS 用户）须在结论中说明，不得直接外推到全量用户。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品团队面临母婴APP首页转化率低——认知负荷优化将CTR从2.3%提升至3.8%，年化GMV增量65万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12261-p2s-cognitive-load-ux-optimizer-104bb05a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cognitive-load-ux-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cognitive-load-ux-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65b7d4786a16efe16abd18c757c2583a8831addf659ed43bdeba015b7cbf23bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

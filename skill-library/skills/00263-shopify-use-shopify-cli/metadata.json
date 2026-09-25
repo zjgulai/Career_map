@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-use-shopify-cli",
+  "中文名称": "待补：shopify-use-shopify-cli",
+  "一句话作用": "Choose when the user needs Shopify CLI to run or fix something now: validate app or extension config on disk (shopify.app.toml, shopify.app. .toml, shopify.extension.toml); run or troubleshoot Connector-managed store wo…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For shopify.app.toml or extension TOML, run shopify app config validate --json from the app root, or pass --path. Use --config for a named app configuration; validate only the requested configs. Interpret the command's result instead of substituting GraphQL v…",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Choose when the user needs Shopify CLI to run or fix something now: validate app or extension config on disk (shopify.app.toml, shopify.app. .toml, shopify.extension.toml); run or troubleshoot Connector-managed store wo…时，用它产出或更新：For shopify.app.toml or ex…",
+  "skill_id": "00263-shopify-use-shopify-cli-780d4fb8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-use-shopify-cli/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-use-shopify-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "84db830a0ab9a69263a2f296e07109f2238fabfbdfa5fe6d984bee694f93f955",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

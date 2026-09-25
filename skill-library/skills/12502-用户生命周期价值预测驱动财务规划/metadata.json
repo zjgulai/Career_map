@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-user-ltv-financial-bridge",
+  "中文名称": "用户生命周期价值预测驱动财务规划",
+  "一句话作用": "触发词：LTV 预测、用户分层、营收预测、敏感性分析、备货规划。何时不用：只做 GMV 目标达成监控用「生意规模三维 KPI 监控」；做现金流与资金预测用资金预测类技能。安全边界：分层结果仅用于库存与广告预算分配，不得用于差异化定价；用户数据须脱敏聚合使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要母婴跨境 CFO 面临季度财务预测依赖历史销售均值、无法区分高价值用户（年贡献 5000 元）与低价值用户（年贡献 200 元）不同增长轨迹——CC-OR-Net 分层 LTV 预测（排序+残差精化）处理零膨胀长尾分布，将季度营收预测误差从 ±22% 降至 ±9%，年化减少过度/不足备货损失 50-150 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12502-p2s-user-ltv-financial-bridge-1e79033d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-user-ltv-financial-bridge/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-user-ltv-financial-bridge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d6ac7d25aee793a114a248d8fb786ae8ef31af5cd1d6a04a1ae97e75df0ae873",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

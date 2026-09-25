@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-perishable-inventory-markdown-optimization",
+  "中文名称": "超市易腐品定价运筹学迁移到母婴临期过季商品",
+  "一句话作用": "触发词：临期清仓、过季降价、动态规划定价、降价时间表、回收价值最大化。何时不用：库龄触发的自动降价阶梯用「三阶段自动降价」；长尾品筛选与清仓分级用「长尾SKU清仓优化」。安全边界：降价须符合公平交易与明示要求，不得虚假折扣或先涨后降。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓储负责人面临\"临期婴儿食品和过季母婴用品不知道什么时候降价最划算\"——易腐品动态规划降价路径将库存回收价值提升42%，年化节省$3.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11486-p2s-perishable-inventory-markdown-optimization-4f6da558",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-perishable-inventory-markdown-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-perishable-inventory-markdown-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca27677cc20b7f8708620be9603b423852db0c6c8f9116ca38bed51dd03de349",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

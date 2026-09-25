@@ -1,0 +1,22 @@
+{
+  "英文名称": "cart-abandonment-recovery",
+  "中文名称": "待补：cart-abandonment-recovery",
+  "一句话作用": "- Trigger: Set up automated email and SMS sequences to win back shoppers who abandon their items during checkout.",
+  "关键输入": "- When your initiated checkout completion rate is below 50%. - When you want to decrease the cost per acquisition (CPA) by converting existing traffic. - When launching a new store and prioritizing baseline revenue reco…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:49:03+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- When your initiated checkout completion rate is below 50%. - When you want to decrease the cost per acquisition (CPA) by converting existing traffic. - When launching a new store and prioritizing baseline revenue reco…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02482-cart-abandonment-recovery-c8a29e0e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/cart-abandonment-recovery/SKILL.md",
+  "relative_path": "lute/.dsh/skills/cart-abandonment-recovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d7ec5f687c11d1511b54e020f03ad31d7216985eba96aad30a6bdeae3763c19",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

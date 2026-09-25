@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-quality-frameworks",
+  "中文名称": "待补：data-quality-frameworks",
+  "一句话作用": "Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts.",
+  "关键输入": "- Implementing data quality checks in pipelines - Setting up Great Expectations validation - Building comprehensive dbt test suites - Establishing data contracts between teams - Monitoring data quality metrics - Automat…",
+  "关键输出": "import great expectations as gx",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- Implementing data quality checks in pipelines - Setting up Great Expectations validation - Building comprehensive dbt test suites - Establishing data contracts between teams - Monitoring data quality metrics - Automat…时，用它产出或更新：import great expectations…",
+  "skill_id": "05602-data-quality-frameworks-1068d0d1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/data-engineering/skills/data-quality-frameworks/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/data-engineering/skills/data-quality-frameworks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "867330322634d54cc372c3602ad552b09636fbe372da359de9cb1ea50d404add",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

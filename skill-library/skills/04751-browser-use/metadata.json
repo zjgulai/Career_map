@@ -1,0 +1,22 @@
+{
+  "英文名称": "browser-use",
+  "中文名称": "待补：browser-use",
+  "一句话作用": "Browser automation using Playwright MCP. Navigate websites, fill forms, click elements, take screenshots, and extract data. Use when tasks require web browsing, form submission, web scraping, UI testing, or any browser…",
+  "关键输入": "Issue Solution ------- ---------- Element not found Run browser snapshot first to get current refs Click fails Try browser hover first, then click Form not submitting Use \"submit\": true with browser type",
+  "关键输出": "python3 scripts/mcp-client.py call -u http://localhost:8808 -t browser snapshot -p '{}'",
+  "最新更新时间": "2026-09-19T03:47:53+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Issue Solution ------- ---------- Element not found Run browser snapshot first to get current refs Click fails Try browser hover first, then click Form not submitting Use \"submit\": true with browser type时，用它产出或更新：python3 scripts/mcp-client.py call -u http:…",
+  "skill_id": "04751-browser-use-b90cf511",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/browser-use/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/browser-use/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "145c8eff8d221f739aafffcb5e49e85150536499aa3b71b985c42e59df508c64",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-platform-user-transfer",
+  "中文名称": "跨平台用户行为迁移：亚马逊行为驱动独立站冷启动",
+  "一句话作用": "触发词：跨平台用户迁移、独立站冷启动、Amazon 老买家偏好迁移、邮箱匹配对齐、偏好向量初始化、冷启动推荐。何时不用：要预测单次会话的购买意图用「Purchase Intent Prediction」，要做用户分层与留存判断用「RFM Customer Segmentation」；本技能只解决独立站首周还没有站内行为时的推荐初始化。安全边界：邮箱属个人信息，须有合法授权并做哈希对齐、不留存明文邮箱；迁移结果须人工复核后上线，卡页 R…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要DTC独立站刚上线用户没有行为历史只能展示热销榜推荐——将Amazon老买家的购买偏好迁移到独立站，第一天就能个性化推荐比热销榜CTR提升20-35%年化GMV增益10-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02997-p2s-cross-platform-user-transfer-1e45e01f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-platform-user-transfer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-platform-user-transfer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7be41d1e7ef624d532bc178bb6937474cdcd3dcc2b3b9b7e6a65b44d6c088d30",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

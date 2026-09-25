@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-real-time-competitive-repricing",
+  "中文名称": "竞品价格监测与深度强化学习自动重定价",
+  "一句话作用": "触发词：实时重定价、竞品监测、深度强化学习、Buy Box 争夺、价格窗口、调价护栏。何时不用：只做跟价检测与反爬防御用「价格爬取防御」；要从长期博弈维持合作价格用「重复博弈长期定价合作」。安全边界：不得与竞品合谋抬价或操纵价格，须设单次调幅与价格上下限护栏，调价建议人工确认后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Momcozy M5 与 3 个竞品争夺 Buy Box，\"永远低于 Elvie $5\"策略导致旺季每件少赚 $10——DRL 动态重定价识别最优价格窗口，旺季 Buy Box 持有率保持 85% 同时 ASP 提升 8-12%，年化 GMV 增量 30-60 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03692-p2s-real-time-competitive-repricing-ce3ebcf2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-real-time-competitive-repricing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-real-time-competitive-repricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1686e392550604392c00a020a6aef979c055f43dca49b8baf9b1b8eb91cee648",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

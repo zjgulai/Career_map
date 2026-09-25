@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-counterfeit-detection-supply-chain",
+  "中文名称": "供应链假货检测与溯源（区块链图谱视觉指纹）",
+  "一句话作用": "触发词：假货检测、供应链溯源、感知哈希比对、图谱异常、卖家举报。何时不用：只做竞品图片相似度批量筛查用「假冒商品视觉检测」；只监控品牌名与图文侵权用「商标侵权主动监控」。安全边界：举报须有充分证据（相似度报告与公证），误报须人工复核后再投诉；不得据哈希结果直接指控卖家。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌运营面临\"平台竞卖卖家中混入假货无法快速识别\"——视觉指纹+供应链图谱将假货卖家识别准确率提升至90%，年化通过举报保护品牌价值30-150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02963-p2s-counterfeit-detection-supply-chain-0619c616",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-counterfeit-detection-supply-chain/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-counterfeit-detection-supply-chain/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d4ad700373d0e1959423430803ccc95d62705f6f94d8833ac87e9ebd05d49de",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

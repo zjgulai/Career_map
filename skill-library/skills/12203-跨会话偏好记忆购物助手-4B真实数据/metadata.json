@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-shopping-companion-agent",
+  "中文名称": "跨会话偏好记忆购物助手（4B真实数据）",
+  "一句话作用": "触发词：跨会话导购、偏好记忆、奶粉升阶、主动推荐、产品问答。何时不用：单次会话导购用「对话式商务 Agent」；本技能强调记忆驱动的阶段升级推荐。安全边界：涉及婴配食品与过敏信息时不得替代医生建议，须提示咨询专业人员。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务痛点：用户上月购买 Stage 1 奶粉（0-6月龄），宝宝即将 6 个月，需要升阶时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12203-p2s-shopping-companion-agent-1ba4a333",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-shopping-companion-agent/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-shopping-companion-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cf6737dd011d6320ad4c37b972933e4f1d6a707a87874a9308cf7c577f2dfe00",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

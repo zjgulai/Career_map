@@ -1,0 +1,22 @@
+{
+  "英文名称": "seedream-50",
+  "中文名称": "待补：seedream-50",
+  "一句话作用": "当用户明确要求使用“5.0”“5.0 Pro”“5.0pro”“Seedream 5.0 Pro”生成、编辑、重绘或延展图片时，必须调用此 Skill；负责按照 5.0 Pro 规则组装 Prompt，并将任务交接给 doubao-creative-design Skill，由其以 modelversion=\"seedream 5.0 pro\" 调用实际图片工具。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T16:27:36+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要当用户明确要求使用“5.0”“5.0 Pro”“5.0pro”“Seedream 5.0 Pro”生成、编辑、重绘或延展图片时，必须调用此 Skill；负责按照 5.0 Pro 规则组装 Prompt，并将任务交接给 doubao-creative-design Skill，由其以 modelversion=\"seedream 5.0 pro\" 调用实际图片工具。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06465-seedream-50-099a418a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/seedream-50/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/seedream-50/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "959257a32ed237f2b1625d5ed72dda28645b4ac1b44342d51fd3e75f6023a44d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

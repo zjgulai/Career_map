@@ -1,0 +1,22 @@
+{
+  "英文名称": "codex-spec-interviewer",
+  "中文名称": "待补：codex-spec-interviewer",
+  "一句话作用": "Interview, source-challenge, verify, save, and ADR-gate fuzzy coding requests into Codex-ready implementation specs. Use when a feature, bugfix, refactor, migration, repo-wide change, or architecture task needs user-ver…",
+  "关键输入": "- The current user request and any follow-up answers. - Relevant AGENTS.md, README.md, issue descriptions, ADRs, ADR template/rules, repo docs, and docs/agents/ files. - Existing specs, plans, requirements, PRDs, and named requirements the user wants preserve…",
+  "关键输出": "Return in this order: 1. Persisted artifact paths 2. Interview summary and verification result 3. Assumptions and unresolved questions 4. Source challenge summary 5. ADR gate result 6. ADR draft or path when needed 7. Saved spec path plus a concise summary, o…",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user has a rough idea but not a production-ready implementation spec. - The task spans multiple files, multiple concerns, or requires tradeoff decisions. - The request needs acceptance criteria, validation command…时，用它产出或更新：Return in this order: 1. P…",
+  "skill_id": "06046-codex-spec-interviewer-45d614ee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/skills/codex-operations/codex-spec-interviewer/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/skills/codex-operations/codex-spec-interviewer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "34970b01fd4d95daf942064be2d3ce7097a4f304b31d846b3dc65008c171113b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

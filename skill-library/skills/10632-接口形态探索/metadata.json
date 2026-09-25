@@ -1,0 +1,22 @@
+{
+  "英文名称": "interface-design-lab",
+  "中文名称": "接口形态探索",
+  "一句话作用": "为模块生成多种截然不同的接口设计方案，通过并行探索产出多个接口签名、使用示例和封装说明，并详细对比其简洁性、通用性、深度与易用性。当用户需要设计API、探索接口方案、对比模块形态，或明确提及“设计两次”原则、并行设计、接口形态比较时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要为模块生成多种截然不同的接口设计方案，通过并行探索产出多个接口签名、使用示例和封装说明，并详细对比其简洁性、通用性、深度与易用性。当用户需要设计API、探索接口方案、对比模块形态，或明确提及“设计两次”原则、并行设计、接口形态比较时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10632-interface-design-lab-315bb077",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/interface-design-lab/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/interface-design-lab/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fc4b24dea7b2b3a5f8b21aad9b92a854143bbbc9a74be133b73b7ea9463aa2e7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

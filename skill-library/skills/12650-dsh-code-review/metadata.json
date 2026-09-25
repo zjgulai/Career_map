@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-code-review",
+  "中文名称": "待补：dsh-code-review",
+  "一句话作用": "Use when reviewing a pull request in the deepseek-harness repo — orients the reviewer to this codebase's standards (AGENTS.md conventions, defensive patterns, ADRs, quality gates) and the review-specific checks that cod…",
+  "关键输入": "1. New prose receives semantic review. Use dsh-prose-standard to critically review every added or changed Markdown passage, JSDoc, comment, prompt, description, diagnostic, and visible string. Verify required coverage, accuracy, placement, and editorial quali…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T11:24:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when reviewing a pull request in the deepseek-harness repo — orients the reviewer to this codebase's standards (AGENTS.md conventions, defensive patterns, ADRs, quality gates) and the review-specific checks that cod…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12650-dsh-code-review-93e249b5",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-code-review/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-code-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6c862b17bca7d15f13665cfbc7dce9b6456570e42941563178034d69393072a2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

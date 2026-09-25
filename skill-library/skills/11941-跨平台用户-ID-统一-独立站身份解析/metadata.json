@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-platform-user-identity",
+  "中文名称": "跨平台用户 ID 统一 独立站身份解析",
+  "一句话作用": "触发词：跨平台身份、用户 ID 统一、身份解析、归因打通、重合用户。何时不用：只有单平台数据时不用；需要行为相似度的概率性补全用三层匹配类技能，本技能走哈希确定性匹配与保守阈值。安全边界：只处理 SHA-256 哈希标识，不落明文邮箱或手机号；错误合并等于隐私泄漏，匹配阈值必须保守。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据工程师面临\"跨平台用户身份割裂导致LTV低估和高价值用户触达不足\"——跨平台身份解析将用户识别覆盖率提升55%，年化优化高价值用户策略增收25-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11941-p2s-cross-platform-user-identity-feec9656",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-platform-user-identity/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-platform-user-identity/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "edf388736577fd1f69e6a18c7c3ccf71916382023556058d9fdd15a4822deb6e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

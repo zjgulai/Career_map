@@ -1,0 +1,22 @@
+{
+  "英文名称": "widget",
+  "中文名称": "待补：widget",
+  "一句话作用": "Use when creating, showing, updating, validating, deleting, rendering, or troubleshooting Daimon Blueprint Widgets, their index.html UI, data slots, submit events, input state, files, and workspace resources. You MUST r…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Before reporting a Widget ready: 1. Widget.validate returns ok: true with status: \"valid\" (non-empty warnings may still appear; an invalid Widget returns ok: false, status: \"invalid\", and issues with path/message entries). 2. index.html is a complete document…",
+  "最新更新时间": "2026-09-13T23:50:26+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Use when creating, showing, updating, validating, deleting, rendering, or troubleshooting Daimon Blueprint Widgets, their index.html UI, data slots, submit events, input state, files, and workspace resources. You MUST r…时，用它产出或更新：Before reporting a Widget…",
+  "skill_id": "10703-widget-8e03bff7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/widget/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/widget/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "283186088c42471dd4f6c5175f4e5e1bfc4cd639d75b3c7718059b7f12a1d503",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

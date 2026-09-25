@@ -1,0 +1,22 @@
+{
+  "英文名称": "literature-scout",
+  "中文名称": "文献检索与核验",
+  "一句话作用": "对给定研究话题进行系统性文献检索与引用核验。从宽到窄多轮迭代检索，每条引用核验真实性，产出一份经核验的文献清单。可独立用于帮我搜一下关于X的论文类请求，也可作为doubao-academic-researcher管线的第一阶段。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "被 OrganizeAgent 调度时，正式输出开头必须先给出： 同时把同等字段写入 .workflow/scout handoff.json，并运行： 随后再给文献清单正文。若条目缺少核验状态或角色标签，不得交付 handoff，也不得运行 accept。",
+  "最新更新时间": "2026-09-10T16:27:35+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要对给定研究话题进行系统性文献检索与引用核验。从宽到窄多轮迭代检索，每条引用核验真实性，产出一份经核验的文献清单。可独立用于帮我搜一下关于X的论文类请求，也可作为doubao-academic-researcher管线的第一阶段。时，用它产出或更新：被 OrganizeAgent 调度时，正式输出开头必须先给出： 同时把同等字段写入 .workflow/scout handoff.json，并运行： 随后再给文献清单正文。若条目缺少核验状态或角色标签，不得交付 handoff，也不得运行 accept。",
+  "skill_id": "06360-literature-scout-199fbaba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/sub-skills/literature-scout/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-researcher/sub-skills/literature-scout/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "44e099a1f8f62262881c8e00d4abfd7c80e3f61e0fedf94fc185576d1b27bbb2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

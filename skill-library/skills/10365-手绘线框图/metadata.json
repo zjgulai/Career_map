@@ -1,0 +1,22 @@
+{
+  "英文名称": "wireframe-sketch",
+  "中文名称": "手绘线框图",
+  "一句话作用": "网格背景 + marker 笔触 + 多 tab + sticky note + scribble 图表",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要网格背景 + marker 笔触 + 多 tab + sticky note + scribble 图表时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10365-wireframe-sketch-83779081",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/wireframe-sketch/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/wireframe-sketch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5869932c98e2b7617546c6ed26a481eb2186e12f36d500930f1f1f21e9fa6393",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

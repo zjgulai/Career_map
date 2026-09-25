@@ -1,0 +1,22 @@
+{
+  "英文名称": "tdd",
+  "中文名称": "测试驱动开发",
+  "一句话作用": "通过用户可观察的公开 seam 严格执行一个失败测试、最小实现、同一测试转绿的纵向开发循环。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T03:52:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要通过用户可观察的公开 seam 严格执行一个失败测试、最小实现、同一测试转绿的纵向开发循环。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10041-tdd-7e06eb2d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-product-developer/skills/tdd/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-product-developer/skills/tdd/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e31b8b9ddae6c080e1abd2065eb8f74d0daed4ed0afb68d9fd1129fa9bf08508",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

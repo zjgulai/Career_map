@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-geo-generative-engine-optimization",
+  "中文名称": "生成式引擎优化：让 AI 搜索引擎主动引用你的品牌内容",
+  "一句话作用": "触发词：GEO、生成式引擎优化、AI 引用率、内容干预策略、AI 搜索流量。何时不用：要测量品牌在 AI 推荐中的份额用「SOV 可见度份额追踪」；只做传统 SEO 关键词优化不必用本技能。安全边界：干预内容必须使用真实可核验的统计数据与引用来源，不得编造数据或伪造引用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI 搜索引擎取代 Google 成为跨境电商新入口——GEO 框架通过统计数据添加、引用来源、权威语气等 9 种干预策略将 AI 引用份额提升 37-40%，抢占 ChatGPT/Perplexity 的母婴产品推荐位时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11688-p2s-geo-generative-engine-optimization-f626199c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-geo-generative-engine-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-geo-generative-engine-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "703864c1a5f91637424bb1ec1da05e488acf5d7108963746c6324f10643ab313",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

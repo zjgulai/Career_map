@@ -1,0 +1,22 @@
+{
+  "英文名称": "review-skill",
+  "中文名称": "待补：review-skill",
+  "一句话作用": "Review a proposed Agent Skill for structural validity and content quality before publishing. Runs the skill-validator CLI to check for structural issues, scores the skill with an LLM judge, and interprets results to adv…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Run the full check suite: Capture the exit code: Exit code Meaning ----------- --------- 0 Clean — no errors or warnings 1 Errors found — must fix before publishing 2 Warnings only — review but not blocking 3 CLI/usage error — check the command",
+  "最新更新时间": "2026-09-19T03:38:11+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Review a proposed Agent Skill for structural validity and content quality before publishing. Runs the skill-validator CLI to check for structural issues, scores the skill with an LLM judge, and interprets results to adv…时，用它产出或更新：Run the full check suite:…",
+  "skill_id": "04549-review-skill-9a8b8a5a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/tools/review-skill/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/tools/review-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c0bfc3574148644807dfdd6167ae65b1afc57e2700694ae50353dce6d0026a20",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

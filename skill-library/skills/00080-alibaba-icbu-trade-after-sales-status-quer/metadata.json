@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-trade-after-sales-status-query",
+  "中文名称": "待补：alibaba-icbu-trade-after-sales-status-query",
+  "一句话作用": "Alibaba.com Trade After-Sales Status Query Skill. Queries refund/dispute status for a specific order, or lists orders with active after-sales issues. Typical utterances: - What's the status of my refund? - Check refund…",
+  "关键输入": "Parameter Location Type Required Description --- --- --- --- --- orderId Body string Yes The order ID to query issueId Body string No Dispute ID. Omit when unknown -- backend auto-finds the latest refund issue for this order",
+  "关键输出": "After parse after sales status returns, render the status card per references/status-card-template.md. - All field values are pre-formatted by backend; render as-is. - Product is extracted from order detail by the parser; hide it if missing.",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Without issueId (normal path): With issueId (fast path, from upstream refund-submit):时，用它产出或更新：After parse after sales status returns, render the status card per references/status-card-template.md. - All field values are pre-formatted by backend; render as…",
+  "skill_id": "00080-alibaba-icbu-trade-after-sales-status-query-ce9cab7b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-after-sales-status-query/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-after-sales-status-query/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b75edda2ca124b04aee91561c466ff2a39e0522ce1ebf0a8eb2a710b67e8e466",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

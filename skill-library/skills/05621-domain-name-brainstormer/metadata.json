@@ -1,0 +1,22 @@
+{
+  "英文名称": "domain-name-brainstormer",
+  "中文名称": "待补：domain-name-brainstormer",
+  "一句话作用": "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
+  "关键输入": "- Starting a new project or company - Launching a product or service - Creating a personal brand or portfolio site - Rebranding an existing project - Registering a domain for a side project - Finding available alternati…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Starting a new project or company - Launching a product or service - Creating a personal brand or portfolio site - Rebranding an existing project - Registering a domain for a side project - Finding available alternati…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05621-domain-name-brainstormer-fcb017d7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/domain-name-brainstormer/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/domain-name-brainstormer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "495707739b354f81d1e28c6188dd55b97fdf5c64ae3e3c182ba6f092b2ab782b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

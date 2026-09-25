@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Search-Compliance-Guard",
+  "中文名称": "模拟违禁词库（生产环境从数据库加载）",
+  "一句话作用": "核心思想 ：母婴类产品关键词存在两类合规风险：Amazon ToS 违禁词（刷单词汇、竞品品牌词滥用、虚假宣称）和 FDA 监管词汇（医疗声明、疗效宣称）。本 Skill 构建双轨合规扫描器：Track 1 使用 Aho-Corasick 多模式匹配算法进行字符串层面的高速扫描；Track 2 使用语义嵌入（embedding 相似度）捕捉未被字典收录的同义变体（如\"帮助消化\"≈\"改善肠胃\"）。",
+  "关键输入": "论文/研究主题文件；来源位置：paper to skills / paper2skills-vault / 25-搜索流量工程",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-16T15:26:30+08:00",
+  "业务场景": "25-搜索流量工程",
+  "解决具体问题": "当需要核心思想 ：母婴类产品关键词存在两类合规风险：Amazon ToS 违禁词（刷单词汇、竞品品牌词滥用、虚假宣称）和 FDA 监管词汇（医疗声明、疗效宣称）。本 Skill 构建双轨合规扫描器：Track 1 使用 Aho-Corasick 多模式匹配算法进行字符串层面的高速扫描；Track 2 使用语义嵌入（embedding 相似度）捕捉未被字典收录的同义变体（如\"帮助消化\"≈\"改善肠胃\"）。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09212-skill-search-compliance-guard-eb0c9b65",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/paper2skills-vault/25-搜索流量工程/Skill-Search-Compliance-Guard.md",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/paper2skills-vault/25-搜索流量工程/Skill-Search-Compliance-Guard.md",
+  "date_source": "file_mtime",
+  "content_hash": "8808c56eefb4171308c2db0abd36592d02f1c3156c16ce270bd43e79087fe756",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

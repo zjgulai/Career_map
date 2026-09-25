@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-conversion-funnel",
+  "中文名称": "跨境电商转化漏斗分析 Skill",
+  "一句话作用": "跨境电商转化漏斗分析Skill。构建多层级转化漏斗，分析各环节转化率，识别流失点，提供转化率优化建议。 触发条件: 1. 用户提到\"转化漏斗\"、\"转化率\"、\"CVR\" 2. 用户询问\"流失分析\"、\"用户路径\"、\"转化优化\" 3. 用户需要\"加购转化\"、\"结算转化\"分析 输出内容: - 转化漏斗可视化 - 各环节转化率 - 流失点识别 - 转化优化建议",
+  "关键输入": "必需字段 : 字段 类型 说明 ------ ------ ------ date date 日期 impressions numeric 曝光数 clicks numeric 点击数 page views numeric 详情页浏览数 add to cart numeric 加购数 checkout numeric 结算数 purchases numeric 支付成功数 可选字段 :",
+  "关键输出": "1. 转化漏斗报告",
+  "最新更新时间": "2026-03-04T00:54:08+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商转化漏斗分析Skill。构建多层级转化漏斗，分析各环节转化率，识别流失点，提供转化率优化建议。 触发条件: 1. 用户提到\"转化漏斗\"、\"转化率\"、\"CVR\" 2. 用户询问\"流失分析\"、\"用户路径\"、\"转化优化\" 3. 用户需要\"加购转化\"、\"结算转化\"分析 输出内容: - 转化漏斗可视化 - 各环节转化率 - 流失点识别 - 转化优化建议时，用它产出或更新：1. 转化漏斗报告",
+  "skill_id": "09431-cbec-conversion-funnel-b52760f0",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/11-user-behavior-analysis/conversion-funnel/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/11-user-behavior-analysis/conversion-funnel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f5daba1a1e0dca454ddf48e9248d8591210e5d968b7bab387b483f1d1c8e4499",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "prototype",
+  "中文名称": "待补：prototype",
+  "一句话作用": "构建一次性原型来回答一个设计问题。适用于用户想验证某个 state model 或 logic 是否感觉对，或探索 UI 应该长什么样时。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-27T15:45:07+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要构建一次性原型来回答一个设计问题。适用于用户想验证某个 state model 或 logic 是否感觉对，或探索 UI 应该长什么样时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12803-prototype-9c2dad89",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/VOA/.agents/skills/prototype/SKILL.md",
+  "relative_path": "lute/project/VOA/.agents/skills/prototype/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e397520fd089e7df7140732ad6c402e358f6f9afcbeb54eec1a4a2b80fc90415",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

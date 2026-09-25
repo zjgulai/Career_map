@@ -1,0 +1,22 @@
+{
+  "英文名称": "yeet",
+  "中文名称": "待补：yeet",
+  "一句话作用": "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (gh).",
+  "关键输入": "- Require GitHub CLI gh. Check gh --version. If missing, ask the user to install gh and stop. - Require authenticated gh session. Run gh auth status. If not authenticated, ask the user to run gh auth login (and re-run gh auth status) before continuing.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-01T10:25:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (gh).时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01640-yeet-aa267d87",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/yeet/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/yeet/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4829d4909081e1abf91507fb581e6f566ce7064001892414f32191895b08a595",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

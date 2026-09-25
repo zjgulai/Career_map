@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-topological-data-analysis-cross-sell",
+  "中文名称": "拓扑数据分析 (TDA) 挖掘时空隐性关联销售路径",
+  "一句话作用": "触发词：拓扑数据分析、TDA、交叉销售、连带购买率、隐性关联路径、会员活动。何时不用：常规跨商家推荐排序用「Skill-Federated-Cross-Seller-Recommendation」；实时流式推荐用「Skill-Real-Time-Streaming-Recommendation」；会话级序列推荐用「Skill-Session-Based-Recommendation-SR-GNN」；要按成分/认证解释推荐理由用「知识图…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要会员经理面临交叉销售没抓手——TDA将连带购买率7%提到13%，年化增18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03970-p2s-topological-data-analysis-cross-sell-86adf3ec",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-topological-data-analysis-cross-sell/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-topological-data-analysis-cross-sell/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8aa55f7b840985b693b12a21199e4f7810767a1674cc37613ef398e0f5cff9f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

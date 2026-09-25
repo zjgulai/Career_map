@@ -1,0 +1,22 @@
+{
+  "英文名称": "aeon",
+  "中文名称": "待补：aeon",
+  "一句话作用": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data…",
+  "关键输入": "Apply this skill when: - Classifying or predicting from time series data - Detecting anomalies or change points in temporal sequences - Clustering similar time series patterns - Forecasting future values - Finding repea…",
+  "关键输出": "published = get estimator results(\"ROCKET\", \"GunPoint\")",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Apply this skill when: - Classifying or predicting from time series data - Detecting anomalies or change points in temporal sequences - Clustering similar time series patterns - Forecasting future values - Finding repea…时，用它产出或更新：published = get estimator…",
+  "skill_id": "05692-aeon-991bfa52",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/aeon/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/aeon/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3c3f426cb478da1ac1c4529bc078cd5021acd1db06c2f25893c7d0555b9605a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

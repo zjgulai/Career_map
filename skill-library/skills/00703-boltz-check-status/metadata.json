@@ -1,0 +1,22 @@
+{
+  "英文名称": "boltz-check-status",
+  "中文名称": "待补：boltz-check-status",
+  "一句话作用": "Boltz job status and result recovery. Use when listing jobs, checking progress, resuming downloads, recovering results, or downloading an existing job ID. Not for starting new jobs.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Local helper / Mode 1 / Mode 2 print structured data to stdout; present as a table. - Mode 3 writes recovered artifacts under / / — same layout as a fresh run. Read references/resume.md for resume behavior.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Boltz job status and result recovery. Use when listing jobs, checking progress, resuming downloads, recovering results, or downloading an existing job ID. Not for starting new jobs.时，用它产出或更新：- Local helper / Mode 1 / Mode 2 print structured data to stdout;…",
+  "skill_id": "00703-boltz-check-status-fc89b5af",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-check-status/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/boltz-api-cli/skills/boltz-check-status/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2026f9fee3a1c029f6ebef79312d7b5cb09b28eaa3e3c3117902929438da2078",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

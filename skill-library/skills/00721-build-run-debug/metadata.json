@@ -1,0 +1,22 @@
+{
+  "英文名称": "build-run-debug",
+  "中文名称": "待补：build-run-debug",
+  "一句话作用": "Build, run, and debug macOS apps with shell-first Xcode and Swift workflows. Use when launching apps or diagnosing build, startup, or runtime failures.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Provide: - the detected project type - the script path and Codex environment action you configured, if applicable - the command you ran - whether build and launch succeeded - the top blocker if they failed - the smallest sensible next action",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build, run, and debug macOS apps with shell-first Xcode and Swift workflows. Use when launching apps or diagnosing build, startup, or runtime failures.时，用它产出或更新：Provide: - the detected project type - the script path and Codex environment action you configu…",
+  "skill_id": "00721-build-run-debug-21ebcc03",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/build-run-debug/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/build-run-debug/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bd32f3fa611fd731d01113450929aaeab8b40bfdda669b6cad76d877a096b722",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo-competitor-analysis",
+  "中文名称": "竞争对手分析技能",
+  "一句话作用": "- 执行深度 SEO 竞争对手分析，包括关键词研究、外链检查和内容策略映射。当用户想要分析网站竞争对手或通过研究竞争对手来提升自身 SEO 排名时使用。 边界：竞品关键词/外链/内容对标；发现新词走 seo-keyword-research",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T15:32:00+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 执行深度 SEO 竞争对手分析，包括关键词研究、外链检查和内容策略映射。当用户想要分析网站竞争对手或通过研究竞争对手来提升自身 SEO 排名时使用。 边界：竞品关键词/外链/内容对标；发现新词走 seo-keyword-research时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10933-seo-competitor-analysis-6a254586",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/pre-81/seo-competitor-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/pre-81/seo-competitor-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f9bd6d31899d02e9aab116086532b49576256458f270c8217622c11c1d492a1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

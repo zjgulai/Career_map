@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-double-debiased-ml-price",
+  "中文名称": "双重去偏机器学习价格弹性 高维混淆下的价格因果效应估计",
+  "一句话作用": "触发词：双重去偏、DML 弹性、高维混淆、因果弹性估计、残差回归、弹性纠偏。何时不用：只想快速拿一条 log-log 基线弹性时用「需求价格弹性估算」；识别力量来自外生冲击时用「工具变量 IV 识别价格弹性」。安全边界：DML 结果不得直接用于自动定价或产生价格歧视，最终价格决策须人工审核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要定价团队面临\"OLS弹性估计-0.23而真实弹性-1.8导致定价策略反向\"——DML高维去偏将弹性估计误差从1.57降至0.12，年化定价优化GMV约120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03075-p2s-double-debiased-ml-price-ef55e6f9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-double-debiased-ml-price/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-double-debiased-ml-price/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "909de5288c7779269d72f2e2c3b0be194043fdf5156ddca738dc31fd0bf45365",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

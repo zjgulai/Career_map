@@ -1,0 +1,22 @@
+{
+  "英文名称": "financial-plan",
+  "中文名称": "待补：financial-plan",
+  "一句话作用": "Build or update a comprehensive financial plan covering retirement projections, education funding, estate planning, and cash flow analysis. Use for new client onboarding, annual plan reviews, or scenario modeling. Trigg…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Financial plan document (Word/PDF, 15-25 pages) - Cash flow projection spreadsheet (Excel) - Retirement projection charts - Goal funding analysis - Scenario comparison table - Action item checklist",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build or update a comprehensive financial plan covering retirement projections, education funding, estate planning, and cash flow analysis. Use for new client onboarding, annual plan reviews, or scenario modeling. Trigg…时，用它产出或更新：- Financial plan document…",
+  "skill_id": "05553-financial-plan-e6aa0fcc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/financial-plan/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/financial-plan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f931bd00b86454720cd6adf7bf79eaf6c7a8523b0378e3b8188dc7c4598944d5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

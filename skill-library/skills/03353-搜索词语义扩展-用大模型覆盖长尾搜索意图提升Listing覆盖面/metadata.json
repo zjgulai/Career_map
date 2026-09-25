@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-search-query-expansion",
+  "中文名称": "搜索词语义扩展 用大模型覆盖长尾搜索意图提升Listing覆盖面",
+  "一句话作用": "触发词：搜索词扩展、长尾覆盖、种子词、多语言词包、Listing 覆盖面。何时不用：要从竞品排名反查缺口词时用「竞品关键词缺口分析」；要把 SKU 标签批量映射成词包时用「标签→关键词自动映射矩阵」。安全边界：扩展词必须与产品实际功能一致，不得为凑覆盖堆砌属性词。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Listing运营面临\"长尾搜索词覆盖不足导致大量有购买意图的流量看不到Listing\"——LLM语义扩展将Listing关键词覆盖面提升3.2倍，自然流量增量年化$5.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03353-p2s-llm-search-query-expansion-37c1a3fa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-search-query-expansion/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-search-query-expansion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "98e5df4afef5f3a91f5783aa62e68c48061fcfb9e26d9a18aa0475cddfaaffc5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

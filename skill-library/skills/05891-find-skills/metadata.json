@@ -1,0 +1,22 @@
+{
+  "英文名称": "find-skills",
+  "中文名称": "待补：find-skills",
+  "一句话作用": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used…",
+  "关键输入": "Use this skill when the user: - Asks \"how do I do X\" where X might be a common task with an existing skill - Says \"find a skill for X\" or \"is there a skill for X\" - Asks \"can you do X\" where X is a specialized capabilit…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when the user: - Asks \"how do I do X\" where X might be a common task with an existing skill - Says \"find a skill for X\" or \"is there a skill for X\" - Asks \"can you do X\" where X is a specialized capabilit…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05891-find-skills-8701f6a5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/find-skills/skills/find-skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/find-skills/skills/find-skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e6f8fb8a884869e4fefa140b228510bec0e562e6ef507cf675bca5a5f09973b0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

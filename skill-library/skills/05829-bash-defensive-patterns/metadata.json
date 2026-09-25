@@ -1,0 +1,22 @@
+{
+  "英文名称": "bash-defensive-patterns",
+  "中文名称": "待补：bash-defensive-patterns",
+  "一句话作用": "Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.",
+  "关键输入": "while [[ $ -gt 0 ]]; do case \"$1\" in -v --verbose) VERBOSE=true shift ;; -d --dry-run) DRY RUN=true shift ;; -o --output) OUTPUT FILE=\"$2\" shift 2 ;; -j --jobs) THREADS=\"$2\" shift 2 ;; -h --help) usage 0 ;; --) shift break ;; ) echo \"ERROR: Unknown option: $1…",
+  "关键输出": "mapfile -t lines < <(some command) readarray -t numbers < <(seq 1 10)",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Writing production automation scripts - Building CI/CD pipeline scripts - Creating system administration utilities - Developing error-resilient deployment automation - Writing scripts that must handle edge cases safel…时，用它产出或更新：mapfile -t lines < <(some…",
+  "skill_id": "05829-bash-defensive-patterns-f4ebd1ce",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/shell-scripting/skills/bash-defensive-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/shell-scripting/skills/bash-defensive-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d999e911d49903368e7a25e0ca2acfb0f6ccb799113b32c6917cf4e13f8798a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

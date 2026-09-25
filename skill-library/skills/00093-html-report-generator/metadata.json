@@ -1,0 +1,22 @@
+{
+  "英文名称": "html-report-generator",
+  "中文名称": "待补：html-report-generator",
+  "一句话作用": "Config-driven HTML business report generator. Use when the buyer needs a polished HTML report, product comparison report, supplier verification report, product-selection analysis, market scan, or chart/table/card report…",
+  "关键输入": "Use this skill for: - Product comparison reports. - Supplier verification reports. - Product-selection analysis reports. - Market scan or opportunity analysis reports. - Any report that needs cards, tables, charts, risk…",
+  "关键输出": "The renderer is strict. If the config contains unexpected fields, unsupported block types, invalid nested fields, table/chart shape errors, or any block render exception, html-report-generate fails with a non-zero exit code and prints Render failed: ... with…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill for: - Product comparison reports. - Supplier verification reports. - Product-selection analysis reports. - Market scan or opportunity analysis reports. - Any report that needs cards, tables, charts, risk…时，用它产出或更新：The renderer is strict. If…",
+  "skill_id": "00093-html-report-generator-cc41a4d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/html-report-generator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/html-report-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1b43bf22022fe11d007cb1c1b3f1d417c443cdc90645957afaa1ee8d68830c3d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

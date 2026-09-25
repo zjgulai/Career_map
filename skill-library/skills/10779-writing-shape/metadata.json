@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-shape",
+  "中文名称": "待补：writing-shape",
+  "一句话作用": "Writing, exploit——把原始素材塑造成文章，一段一段地推进。",
+  "关键输入": "选择如何呈现一个 block 时，把这些 tradeoffs 和用户大声讨论，而不是默默决定： - Prose vs. list. Prose 承载 argument；lists 承载 parallel items。如果 items 不是真正 parallel，prose 更好。如果是，list 更容易扫描。 - Inline vs. callout. Tips、warnings 和 asides 放在 callouts（ [!TIP]、 [!NOTE]）里，但只有当它们 inline 会真正打断 main ar…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Writing, exploit——把原始素材塑造成文章，一段一段地推进。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10779-writing-shape-4ce99266",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/writing-shape/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/writing-shape/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7f53839755f11be23a3ac1c1d42d4ac99a38015d951720cc1a56663e9c7352a6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "设计度量",
+  "中文名称": "设计度量",
+  "一句话作用": "设计度量蓝图（跨界补充：数据意识）。在设计阶段就把度量定好——把 /设计简报 的设计标准翻译为可追踪事件 + 指标公式 + 仪表盘字段 + 埋点缺口清单。输出四级度量结构（North Star /设计度量 + Driver Metrics + Counter Metrics + Health Metrics），让设计师从\"做出来\"上升到\"做出来能度量、能复盘\"。 触发关键词：设计度量、design metrics、北极星指标、Nort…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成 Metric 后， 同时 做两件事： 按 chain-protocol.md §2.1 v1.1 智能适配规则： 1. 写盘到 spark-output/context/metric.json （必做，主持久化通道；目录不存在先创建） 2. chat 输出紧凑 marker （⛔ 不要在 chat 内输出完整 JSON）： 降级 fallback：若写盘失败，输出完整 JSON marker（无 ref）。详见 §2.1。 3. 额外保存 Markdown 报告 ：spark-output/metric/[…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要设计度量蓝图（跨界补充：数据意识）。在设计阶段就把度量定好——把 /设计简报 的设计标准翻译为可追踪事件 + 指标公式 + 仪表盘字段 + 埋点缺口清单。输出四级度量结构（North Star /设计度量 + Driver Metrics + Counter Metrics + Health Metrics），让设计师从\"做出来\"上升到\"做出来能度量、能复盘\"。 触发关键词：设计度量、design metrics、北极星指标、Nort…时，用它产出或更新：完成 Metric 后， 同时 做两件事： 按 ch…",
+  "skill_id": "04600-skill-e7009391",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/metric/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/metric/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8611bc3ebe111871ca0b54a0a62b56b4b53d2cfd9bfa7109299a83a28ad21a58",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

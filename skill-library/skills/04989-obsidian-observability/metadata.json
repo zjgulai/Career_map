@@ -1,0 +1,22 @@
+{
+  "英文名称": "obsidian-observability",
+  "中文名称": "待补：obsidian-observability",
+  "一句话作用": "Set up comprehensive logging and monitoring for Obsidian plugins. Use when implementing debug logging, tracking plugin performance, or setting up error reporting for your Obsidian plugin. Trigger with phrases like \"obsi…",
+  "关键输入": "- Working Obsidian plugin - Understanding of Developer Tools - Basic TypeScript knowledge",
+  "关键输出": "- Structured logger with levels and history - Metrics collection (counters, gauges, timers) - Error tracking with deduplication - Debug panel view for runtime inspection - Export capability for support",
+  "最新更新时间": "2026-09-19T03:57:31+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Set up comprehensive logging and monitoring for Obsidian plugins. Use when implementing debug logging, tracking plugin performance, or setting up error reporting for your Obsidian plugin. Trigger with phrases like \"obsi…时，用它产出或更新：- Structured logger with l…",
+  "skill_id": "04989-obsidian-observability-946be927",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/obsidian-observability/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/obsidian-observability/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c7d4eaee1760f288fb88d8e65da139c7ffde239c6a790eeacb81c87f330cf57d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

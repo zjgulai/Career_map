@@ -1,0 +1,22 @@
+{
+  "英文名称": "ad-spend-planner",
+  "中文名称": "待补：ad-spend-planner",
+  "一句话作用": "Size a pre-launch Amazon ad test budget: keyword CPC, budget scenarios, expected vs breakeven vs target ACoS. 用于已有产品和售价，问广告要烧多少钱、目标 ACoS 怎么定。",
+  "关键输入": "You need at minimum an ASIN or one or more seed keywords . Everything else has a sensible default. Confirm or collect: - ASIN and/or keywords. An ASIN drives a reverse-ASIN lookup (js keywords by asin) to discover the product's real ranking keywords; seed",
+  "关键输出": "Lead with the numbers people came for: starter budget (daily and monthly), launch budget , and the ACoS block — market-expected ACoS, breakeven ACoS (or \"not computable — profit inputs missing\"), and suggested target ACoS — plus the one-line affordability ver…",
+  "最新更新时间": "2026-09-12T16:24:28+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use this for any \"what will it cost to advertise?\" question about an Amazon product or keyword set: launch planning, PPC budget sizing, ad test budget scenarios, target-ACoS selection against a breakeven ceiling, or gen…时，用它产出或更新：Lead with the numbers peop…",
+  "skill_id": "00039-ad-spend-planner-e30360cc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/ad-spend-planner/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/ad-spend-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "338db55aa363b2c86c7bb943aaca70d8d4d7f3eeb6c4757ca8420a91319f6429",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

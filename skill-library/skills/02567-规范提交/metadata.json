@@ -1,0 +1,22 @@
+{
+  "英文名称": "git-commit",
+  "中文名称": "规范提交）",
+  "一句话作用": "分析 diff 判断变更类型与影响范围，按 Conventional Commits 规范暂存文件并生成提交信息。触发词：约定式提交、git-commit、分析 diff 判断变更类型与影响范围，按 Conventional Commits 规范暂存文件并生成提交信息。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要分析 diff 判断变更类型与影响范围，按 Conventional Commits 规范暂存文件并生成提交信息。触发词：约定式提交、git-commit、分析 diff 判断变更类型与影响范围，按 Conventional Commits 规范暂存文件并生成提交信息。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02567-git-commit-f7f479ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/git-commit/SKILL.md",
+  "relative_path": "lute/.dsh/skills/git-commit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "11d1571e48477eeb42b9bb1614ccf8f6feb8d1b3d7cc5870463e2b3ed0af3725",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

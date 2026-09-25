@@ -1,0 +1,22 @@
+{
+  "英文名称": "Plugin Structure",
+  "中文名称": "待补：Plugin Structure",
+  "一句话作用": "This skill should be used when the user asks to \"create a plugin\", \"scaffold a plugin\", \"understand plugin structure\", \"organize plugin components\", \"set up plugin.json\", \"use ${CODEBUDDY PLUGIN ROOT}\", \"add commands/ag…",
+  "关键输入": "Component not loading : - Verify file is in correct directory with correct extension - Check YAML frontmatter syntax (commands, agents, skills) - Ensure skill has SKILL.md (not README.md or other name) - Confirm plugin…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Component not loading : - Verify file is in correct directory with correct extension - Check YAML frontmatter syntax (commands, agents, skills) - Ensure skill has SKILL.md (not README.md or other name) - Confirm plugin…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05980-plugin-structure-b914437d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/plugin-structure/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/plugin-structure/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "823c06f21e43c9b633b1edba5210f9f097abae20f42a6c16bb2f4ce301f90064",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "lexiang-writer",
+  "中文名称": "乐享文档写入",
+  "一句话作用": "乐享知识库文档创建与写入。当用户提到「乐享」「知识库」「lexiang」并包含创建/写入/新建/导入意图时使用。典型触发：「写到乐享」「创建一个文档」「帮我新建一个页面」「把这段内容发到乐享」「保存到知识库」「导入到乐享」「帮我在 XX 知识库下建个文档」「把这篇文章存到乐享」。也适用于用户提供 lexiangla.com 链接并要求写入新内容、导入公众号文章到知识库的场景。支持 Markdown/HTML 导入创建文档、创建页面与文…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "写入操作成功后，按以下步骤拼接访问链接： 1. {domain} = whoami() 返回的 company.company domain 2. 判断 {domain} 是否为顶级域名（不含三级前缀，如 lexiangla.com）： - 是 ：追加 ?company from={company from} - {company from} 优先取 mcp.json url 中的 company from 参数 - 若 mcp.json 中无此参数，取 whoami() 返回的 company.code",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要乐享知识库文档创建与写入。当用户提到「乐享」「知识库」「lexiang」并包含创建/写入/新建/导入意图时使用。典型触发：「写到乐享」「创建一个文档」「帮我新建一个页面」「把这段内容发到乐享」「保存到知识库」「导入到乐享」「帮我在 XX 知识库下建个文档」「把这篇文章存到乐享」。也适用于用户提供 lexiangla.com 链接并要求写入新内容、导入公众号文章到知识库的场景。支持 Markdown/HTML 导入创建文档、创建页面与文…时，用它产出或更新：写入操作成功后，按以下步骤拼接访问链接： 1. {d…",
+  "skill_id": "05296-lexiang-writer-b3f8863d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/writer/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "73f4d45fcd69fdf5797a6f0c5c1296e01e2dfdb82fd09e97ff5cac8b64337bdd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

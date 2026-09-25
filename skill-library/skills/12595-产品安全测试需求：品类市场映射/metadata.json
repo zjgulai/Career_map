@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-safety-testing-requirements",
+  "中文名称": "产品安全测试需求：品类市场映射",
+  "一句话作用": "触发词：测试需求、品类市场映射、测试清单、合规成本、里程碑规划、选品前置评估。何时不用：要列多市场合规要求全矩阵时用「多市场合规矩阵本体」，要规划认证组合与报告共享时用「AI 产品安全认证」。安全边界：清单与成本为规划参考，实际测试项与报价以认可实验室确认为准。",
+  "关键输入": "合规经理面临测试要求漏项——安全测试清单将返工率从18%降到4%，年化省10万元",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规经理面临测试要求漏项——安全测试清单将返工率从18%降到4%，年化省10万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12595-p2s-product-safety-testing-requirements-1c6d141e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-product-safety-testing-requirements/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-product-safety-testing-requirements/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23ca5528191006bdba0368f2df1210181fef165dc3065ad1cd267d5ce1a7b08a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

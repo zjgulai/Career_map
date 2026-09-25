@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-trade-buyer-consignee-address-list-query",
+  "中文名称": "待补：alibaba-icbu-trade-buyer-consignee-address-list-query",
+  "一句话作用": "Alibaba.com Buyer Consignee Address List Query Skill, for retrieving the list of shipping / consignee addresses under the current buyer account. Used in order creation, checkout, address selection, or any scenario where…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Use Markdown tables for structured display - Column order (mandatory): (index) Contact Person Contact Address - The column uses 1-based numbering (1, 2, 3 ...) so the user can pick by index in the next turn - When the user did NOT specify a limit, the defau…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba.com Buyer Consignee Address List Query Skill, for retrieving the list of shipping / consignee addresses under the current buyer account. Used in order creation, checkout, address selection, or any scenario where…时，用它产出或更新：- Use Markdown tables for…",
+  "skill_id": "00082-alibaba-icbu-trade-buyer-consignee-address-list-query-47da9f24",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-buyer-consignee-address-list-query/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-buyer-consignee-address-list-query/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c1a1778b259ec27c3778115238afa7fc83d826ad265c71bfc780e5a85a8708cf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-browser",
+  "中文名称": "待补：agent-browser",
+  "一句话作用": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "agent-browser fill @e1 \"user@example.com\" agent-browser fill @e2 \"password123\" agent-browser click @e3 agent-browser wait --load networkidle agent-browser snapshot -i Check result",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications,…时，用它产出或更新：agent-browser fill @e1 \"us…",
+  "skill_id": "05515-agent-browser-bb1fd168",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/modern-webapp/skills/agent-browser/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/modern-webapp/skills/agent-browser/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9caba4d013daf731c9f78803c9a73178400c04e2c033541939d77d0f5bc9248c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

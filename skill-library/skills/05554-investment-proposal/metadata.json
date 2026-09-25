@@ -1,0 +1,22 @@
+{
+  "英文名称": "investment-proposal",
+  "中文名称": "待补：investment-proposal",
+  "一句话作用": "Create professional investment proposals for prospective clients. Covers the firm's approach, proposed allocation, expected outcomes, and fee structure. Use when pitching new clients or presenting a new investment strat…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- PowerPoint presentation (12-15 slides) with firm branding - PDF leave-behind version - One-page summary for follow-up email",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Create professional investment proposals for prospective clients. Covers the firm's approach, proposed allocation, expected outcomes, and fee structure. Use when pitching new clients or presenting a new investment strat…时，用它产出或更新：- PowerPoint presentation…",
+  "skill_id": "05554-investment-proposal-6b018bfa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/investment-proposal/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/investment-proposal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "69cecd980f44a61b5e429757aeae5968702106e2154f8afb3dd7ff8b0103f7c2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

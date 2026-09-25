@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-knowledge-base-version-control",
+  "中文名称": "知识库版本控制系统",
+  "一句话作用": "触发词：知识库版本、快照、审计日志、误删恢复、回滚。何时不用：图谱嵌入的增量更新走「增量 LoRA 图谱嵌入」；技能版本与经验演进走「技能自进化」。安全边界：审计日志与快照涉及操作人与业务数据，须限定访问权限，不得用于非审计用途。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要知识库运营面临\"产品规格迭代后旧知识污染Agent答复导致合规风险\"——知识库版本控制用Git式分支管理隔离知识变更，知识污染事故归零，合规审计追溯时间从2天缩至15分钟时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12011-p2s-knowledge-base-version-control-e706714e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-knowledge-base-version-control/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-knowledge-base-version-control/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb78de7c9256e11f795b5ae99afc83eeeb69d795cd7b56660a39247459095d1c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

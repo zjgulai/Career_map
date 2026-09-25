@@ -1,0 +1,22 @@
+{
+  "英文名称": "user-segmentation",
+  "中文名称": "待补：user-segmentation",
+  "一句话作用": "Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.",
+  "关键输入": "Your task is to segment users for $ARGUMENTS based on behavior, jobs-to-be-done, and unmet needs. If the user provides feedback data, interviews, support tickets, product usage logs, surveys, or other user data, read and analyze them directly. Extract behavio…",
+  "关键输出": "For each identified segment (minimum 3): Segment Name & Overview - Clear, descriptive segment identifier - Size: estimated number or percentage of user base - Brief one-sentence characterization Behavioral Characteristics - How this segment uses $ARGUMENTS (p…",
+  "最新更新时间": "2026-09-16T00:17:06+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.时，用它产出或更新：For each identified segment (min…",
+  "skill_id": "11183-user-segmentation-f0c2390e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/user-segmentation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/user-segmentation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d91f745c9520e6a31c07e37c14bfa01e7982570e30a398be71cf324ac93be9c8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

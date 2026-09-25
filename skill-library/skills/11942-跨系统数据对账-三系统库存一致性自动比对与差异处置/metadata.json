@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-system-data-reconciliation",
+  "中文名称": "跨系统数据对账 三系统库存一致性自动比对与差异处置",
+  "一句话作用": "触发词：库存对账、跨系统比对、ERP、WMS、OMS、差异处置。何时不用：库存只有单一数据源时无需对账；要追问数据来源与影响面走血缘追踪。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"ERP/WMS/FBA三套库存数字不一致无从判断\"——自动对账从月度盘点→每日自动，防止超卖和缺货年化节省5-10万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11942-p2s-cross-system-data-reconciliation-d07c08cc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-system-data-reconciliation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-system-data-reconciliation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6f0c425f3f5bd5dbbfd54d4eaa74c2887dc4e8f2d9344aeab8139f7a26352f9a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

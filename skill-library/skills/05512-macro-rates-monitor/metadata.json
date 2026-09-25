@@ -1,0 +1,22 @@
+{
+  "英文名称": "macro-rates-monitor",
+  "中文名称": "待补：macro-rates-monitor",
+  "一句话作用": "Build macroeconomic and rates dashboards combining macro indicators, yield curves, inflation breakevens, and swap rates. Use when monitoring macro conditions, analyzing yield curve shape, decomposing real vs nominal rat…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Build macroeconomic and rates dashboards combining macro indicators, yield curves, inflation breakevens, and swap rates. Use when monitoring macro conditions, analyzing yield curve shape, decomposing real vs nominal rat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05512-macro-rates-monitor-18807b77",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/lseg/skills/macro-rates-monitor/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/lseg/skills/macro-rates-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0f8df5324aa0698eb1aeb266ed6cec904745f332cce868ee068e1e1a806d70c2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

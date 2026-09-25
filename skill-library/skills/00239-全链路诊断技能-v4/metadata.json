@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo-full-audit",
+  "中文名称": "全链路诊断技能 v4",
+  "一句话作用": "对客户网站进行完整的 SEO 诊断，包含技术 SEO 审计和内容质量评估。每次诊断独立运行（清空历史中间产物，不携带任何前次记忆），实时显示进度并一次性产出 4 份交付物：URL 清单 Excel、技术 SEO 诊断报告 PDF、内容质量诊断报告 PDF、《SEO 全站诊断服务使用说明》PDF。当用户需要做 SEO 诊断、网站审计、SEO 检查、网站健康检查时使用此技能。",
+  "关键输入": "按用户输入的语种自动决定 4 份交付物 （包括 URL 清单 Excel 表头、两份 PDF 报告正文、《使用说明》PDF）的语种，由 Agent 在生成阶段自行翻译。判定规则： 用户消息语种 输出语种 备注 --- --- --- 中文（zh） 简体中文 默认 英文（en） English 西班牙文 / 日文 / 韩文 / 德文 / 法文等 对应语种 由 Agent 翻译 多语种或不明确 与本轮对话主体一致 若仍不能判定 → 默认中文",
+  "关键输出": "按用户输入的语种自动决定 4 份交付物 （包括 URL 清单 Excel 表头、两份 PDF 报告正文、《使用说明》PDF）的语种，由 Agent 在生成阶段自行翻译。判定规则： 用户消息语种 输出语种 备注 --- --- --- 中文（zh） 简体中文 默认 英文（en） English 西班牙文 / 日文 / 韩文 / 德文 / 法文等 对应语种 由 Agent 翻译 多语种或不明确 与本轮对话主体一致 若仍不能判定 → 默认中文",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要对客户网站进行完整的 SEO 诊断，包含技术 SEO 审计和内容质量评估。每次诊断独立运行（清空历史中间产物，不携带任何前次记忆），实时显示进度并一次性产出 4 份交付物：URL 清单 Excel、技术 SEO 诊断报告 PDF、内容质量诊断报告 PDF、《SEO 全站诊断服务使用说明》PDF。当用户需要做 SEO 诊断、网站审计、SEO 检查、网站健康检查时使用此技能。时，用它产出或更新：按用户输入的语种自动决定 4 份交付物 （包括 URL 清单 Excel 表头、两份 PDF 报告正文、《使用说明》P…",
+  "skill_id": "00239-seo-full-audit-485aa81c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/seo-full-audit/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/seo-full-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3651628594a3488aaba2130c316741170cc36f6787f93c59479029f6f0ead22",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

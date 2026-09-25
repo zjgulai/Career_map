@@ -1,0 +1,22 @@
+{
+  "英文名称": "people-research",
+  "中文名称": "待补：people-research",
+  "一句话作用": "People research using Exa search. Finds LinkedIn profiles, professional backgrounds, experts, team members, and public bios across the web. Use when searching for people, finding experts, or looking up professional prof…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Return: 1) Results (name, title, company, location if available) 2) Sources (Profile URLs) 3) Notes (profile completeness, verification status)",
+  "最新更新时间": "2026-09-21T17:35:32+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要People research using Exa search. Finds LinkedIn profiles, professional backgrounds, experts, team members, and public bios across the web. Use when searching for people, finding experts, or looking up professional prof…时，用它产出或更新：Return: 1) Results (name,…",
+  "skill_id": "00349-people-research-5ec3fb28",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/people-research/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/people-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "785e7e3732272322c11156968953f6d63bd05443e9ae2411b2edf26bd83c5119",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

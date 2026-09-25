@@ -1,0 +1,22 @@
+{
+  "英文名称": "sourcing-requirement-collect",
+  "中文名称": "待补：sourcing-requirement-collect",
+  "一句话作用": "Unified requirement collection skill for Accio Alibaba.com B2B buyers. Two context modes: (1) SS context — entered via supersourcing SKILL.md dispatch (status=collecting) or Direct Entry handoff, collects core fields +…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "⚠️ VISIBLE OUTPUT. Search cards from accio-product-supplier-sourcing MUST remain visible. Do not hide them in thinking/CoT. Render summary and intro templates VERBATIM — only fill values; do not rephrase. Verbatim — no preamble. After the search results, outp…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Unified requirement collection skill for Accio Alibaba.com B2B buyers. Two context modes: (1) SS context — entered via supersourcing SKILL.md dispatch (status=collecting) or Direct Entry handoff, collects core fields +…时，用它产出或更新：⚠️ VISIBLE OUTPUT. Search c…",
+  "skill_id": "00103-sourcing-requirement-collect-f96da961",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/sourcing-requirement-collect/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/sourcing-requirement-collect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5efd2f4bb68de7812720fc869c000c163e77c709b17c235944831ad28ee1acdc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

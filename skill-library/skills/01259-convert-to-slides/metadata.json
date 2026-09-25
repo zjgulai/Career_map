@@ -1,0 +1,22 @@
+{
+  "英文名称": "convert-to-slides",
+  "中文名称": "待补：convert-to-slides",
+  "一句话作用": "Create a polished PowerPoint or Google Slides deck from an existing Data app.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create a polished PowerPoint or Google Slides deck from an existing Data app.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01259-convert-to-slides-433030dc",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/convert-to-slides/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/convert-to-slides/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5708f54bd5674d3c92ae96c52c85ea3bd0d42b5699eb12df10e5591945f178b7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

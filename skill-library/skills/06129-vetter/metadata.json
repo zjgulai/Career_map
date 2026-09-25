@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-vetter",
+  "中文名称": "待补：skill-vetter",
+  "一句话作用": "Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns.",
+  "关键输入": "- Before installing any skill from ClawdHub - Before running skills from GitHub repos - When evaluating skills shared by other agents - Anytime you're asked to install unknown code",
+  "关键输出": "After vetting, produce this report:",
+  "最新更新时间": "2026-05-25T22:01:11+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Before installing any skill from ClawdHub - Before running skills from GitHub repos - When evaluating skills shared by other agents - Anytime you're asked to install unknown code时，用它产出或更新：After vetting, produce this report:",
+  "skill_id": "06129-skill-vetter-da5bb31b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/skill-vetter/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/skill-vetter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e8eb7583355c2ae78a79187dca6a1ec448d9c8360e91652871392179f7ffb8bf",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

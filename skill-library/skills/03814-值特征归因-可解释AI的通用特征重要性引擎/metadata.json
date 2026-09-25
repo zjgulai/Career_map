@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-shap-shapley-feature-attribution",
+  "中文名称": "值特征归因 可解释AI的通用特征重要性引擎",
+  "一句话作用": "触发词：特征归因、模型可解释、预算调整依据、瀑布图、根因定位。何时不用：只要特征重要性排序时用特征选择；要评估生成内容质量时用 LLM-as-Judge。安全边界：不将归因结果作为平台算法的逆向依据对外宣传，归因结论只用于内部调优。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"AI模型黑盒决策无法说服团队执行\"——SHAP将特征贡献分解为可操作归因，模型决策接受率从40%提升至78%，年化减少无效广告支出80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03814-p2s-shap-shapley-feature-attribution-f3992a34",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-shap-shapley-feature-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-shap-shapley-feature-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b3c8c0cc203d5d2e26830643536120961ec9985c52926ccc337ace5efbef0db9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

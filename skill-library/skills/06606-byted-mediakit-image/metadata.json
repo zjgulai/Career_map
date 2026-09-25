@@ -1,0 +1,22 @@
+{
+  "英文名称": "byted-mediakit-image",
+  "中文名称": "待补：byted-mediakit-image",
+  "一句话作用": "面向单张或批量图片的视觉处理、质量优化、内容理解与基础编辑目标，适用于图片尺寸缩放与体积治理、质量优先缩小体积、明确体积上限/质量值/格式转换的压缩、元信息探测、裁剪旋转翻转与圆角、颜色与锐化清晰度调整、负片、模糊与打码、水印、背景移除、文字识别、画质评估与智能裁剪等。若对象和目标族已明确属于图片优化、图片理解、图片隐私保护或图片基础编辑，但具体做法不确定，可先加载本 Skill 探索；若只说有图片而未说明业务目标，应先澄清。视频画面…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要面向单张或批量图片的视觉处理、质量优化、内容理解与基础编辑目标，适用于图片尺寸缩放与体积治理、质量优先缩小体积、明确体积上限/质量值/格式转换的压缩、元信息探测、裁剪旋转翻转与圆角、颜色与锐化清晰度调整、负片、模糊与打码、水印、背景移除、文字识别、画质评估与智能裁剪等。若对象和目标族已明确属于图片优化、图片理解、图片隐私保护或图片基础编辑，但具体做法不确定，可先加载本 Skill 探索；若只说有图片而未说明业务目标，应先澄清。视频画面…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06606-byted-mediakit-image-87afc06e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-image/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/byted-mediakit-image/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "27e7a9005d0cdd3b60828f9b44019eced0f08b504d09f297358c108bd196d7f3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

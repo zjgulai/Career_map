@@ -1,0 +1,22 @@
+{
+  "英文名称": "performance-audit",
+  "中文名称": "待补：performance-audit",
+  "一句话作用": "Comprehensive performance analysis to identify bottlenecks, optimization opportunities, and scalability issues.",
+  "关键输入": "- Create a comprehensive performance audit report - Save the report to: /docs/performance/{timestamp}-performance-audit.md - Format: YYYY-MM-DD-HHMMSS-performance-audit.md - Example: 2025-10-17-143022-performance-audit.md - This ensures multiple scans on the…",
+  "关键输出": "- Create a comprehensive performance audit report - Save the report to: /docs/performance/{timestamp}-performance-audit.md - Format: YYYY-MM-DD-HHMMSS-performance-audit.md - Example: 2025-10-17-143022-performance-audit.md - This ensures multiple scans on the…",
+  "最新更新时间": "2026-09-19T04:11:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Invoke this skill when: - Analyzing slow page loads or response times - Identifying performance bottlenecks in code execution - Designing and implementing caching strategies - Optimizing database queries and preventing…时，用它产出或更新：- Create a comprehensive pe…",
+  "skill_id": "05006-performance-audit-cd1e9794",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/performance-audit/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/performance-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bc5e115edc8c630bce88b8d54d82d95e1c812757b761d399a0e6471643c717dc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

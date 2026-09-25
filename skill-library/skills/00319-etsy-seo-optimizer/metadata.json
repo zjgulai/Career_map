@@ -1,0 +1,22 @@
+{
+  "英文名称": "etsy-seo-optimizer",
+  "中文名称": "待补：etsy-seo-optimizer",
+  "一句话作用": "Optimizes Etsy listing SEO using eRank data and Etsy search algorithm best practices. Covers keyword research, title/tag construction, and continuous performance monitoring. Use when optimizing Etsy search visibility, c…",
+  "关键输入": "For detailed case studies across product categories, see keyword strategy examples.md. Quick Reference Examples: Hand-Knit Blanket - Title: \"Chunky Knit Blanket Hand Knit Merino Wool Blanket Cozy Throw Blanket Giant Kni…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要For detailed case studies across product categories, see keyword strategy examples.md. Quick Reference Examples: Hand-Knit Blanket - Title: \"Chunky Knit Blanket Hand Knit Merino Wool Blanket Cozy Throw Blanket Giant Kni…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00319-etsy-seo-optimizer-a37b201e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/etsy-seo-optimizer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/etsy-seo-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f57ff7a548b1a1279e517350be2552fd7818dc6052b51b39b33d403f49d2b32",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

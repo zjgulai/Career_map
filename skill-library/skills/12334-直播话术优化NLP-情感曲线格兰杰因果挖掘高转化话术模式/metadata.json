@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-live-script-optimization-nlp",
+  "中文名称": "直播话术优化NLP 情感曲线格兰杰因果挖掘高转化话术模式",
+  "一句话作用": "触发词：直播话术、情感曲线、格兰杰因果、话术模板、成交时机。何时不用：要实时识别弹幕意图并切换话术用「直播间实时受众画像」；要实时预测转化率下滑用「直播转化率实时预测」。安全边界：话术模板中出现医生推荐、认证等表述必须有真实资质背书，否则不得写入模板；母婴品类的安全声明须符合当地法规要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要直播团队面临\"不知道哪些话术能最快触发购买只能靠主播个人经验\"——格兰杰因果检验识别最高转化话术，成交触发时间压缩38%，年化GMV增量$9.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12334-p2s-live-script-optimization-nlp-241e2314",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-live-script-optimization-nlp/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-live-script-optimization-nlp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88ef970bb073a8901aab7edee3ef2f3bf609b8611b9fc80f766bb35b8cced67f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

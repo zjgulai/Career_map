@@ -1,0 +1,22 @@
+{
+  "英文名称": "porters-five-forces",
+  "中文名称": "待补：porters-five-forces",
+  "一句话作用": "Perform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evaluat…",
+  "关键输入": "- Industry or market definition - Current competitors and competitive positioning - Supplier and customer landscape - Potential substitutes and new entrants - Product or service specifics",
+  "关键输出": "1. Assess each of the five forces (High, Medium, Low) 2. Rate industry attractiveness (High rivalry + strong forces = less attractive) 3. For each force, identify: - Current state and trend (getting stronger/weaker) - Key players or dynamics - Implications fo…",
+  "最新更新时间": "2026-09-16T00:16:56+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Perform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evaluat…时，用它产出或更新：1. Assess each of the five…",
+  "skill_id": "11206-porters-five-forces-f6dc3f4c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/porters-five-forces/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/porters-five-forces/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a010cd7e52e29456f5a11f1d40eb0342fde738e8cf685e81b4dd50a0ebb81309",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Order-Fulfillment-Rate-Dispatch-Timeliness",
+  "中文名称": "待补：Order Fulfillment Rate Dispatch Timeliness",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T01:39:31.465353\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:39:31+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 83.0, \"best\": 83.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T01:39:31.465353\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07469-skill-order-fulfillment-rate-dispatch-timeliness-4a03d1d7",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Order-Fulfillment-Rate-Dispatch-Timeliness.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Order-Fulfillment-Rate-Dispatch-Timeliness.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "97505fd23dc1272c986fdd3e926dff4b89ce47b8620e926a17d90df2ceef9b20",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

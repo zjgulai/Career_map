@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ds-dga-gcn-fake-review-group",
+  "中文名称": "动态图假评论群组检测：冷启动新品防刷评",
+  "一句话作用": "触发词：假评论群组、动态图检测、冷启动防刷、账号群图谱、新品评分。何时不用：只需要判断单条评论真伪时用评论级检测模型；本技能面向评论者账号之间的协同结构。安全边界：检测结果只能标记可疑并转人工复核，不得自动删评或对用户做报复性操作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：新款奶瓶（ASIN B0XXXX）上架后 6 小时内突现 38 条 5 星评论，评论者账号注册时间集中在近 7 天、互相之间都购买过同一批产品时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11966-p2s-ds-dga-gcn-fake-review-group-b6bbfe66",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-ds-dga-gcn-fake-review-group/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-ds-dga-gcn-fake-review-group/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dc3951eb570c128ebd7c7836c7786c3538076ab06923913c346d19482149beb1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

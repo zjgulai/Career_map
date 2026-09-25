@@ -1,0 +1,22 @@
+{
+  "英文名称": "onboarding",
+  "中文名称": "超级产品经理 · 数据武器 首次配置引导",
+  "一句话作用": "First-run interview that learns how the team actually works and writes the plugin's QODERWORK.md. Use on first install, when QODERWORK.md is missing or contains [PLACEHOLDER] markers, or when the user says \"set up\", \"co…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "\"给老板汇报数据时，你偏好什么风格？比如：精炼一句话、带图表的HTML、详细PPT？\" 追问： \"汇报时有没有固定的叙事结构？比如先看大盘再看细节、先结论后数据？\"",
+  "最新更新时间": "2026-09-19T03:38:55+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要First-run interview that learns how the team actually works and writes the plugin's QODERWORK.md. Use on first install, when QODERWORK.md is missing or contains [PLACEHOLDER] markers, or when the user says \"set up\", \"co…时，用它产出或更新：\"给老板汇报数据时，你偏好什么风格？比如：精炼一句话…",
+  "skill_id": "04571-onboarding-d2825b0a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-data-toolkit/1.0.0/skills/onboarding/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-data-toolkit/1.0.0/skills/onboarding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7eea56fe6a80da79545698d060a3d3888381304ad504c179e601aed347db2598",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ansoff-matrix",
+  "中文名称": "待补：ansoff-matrix",
+  "一句话作用": "Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification. Use when considering growth options, planning market expansion, or ev…",
+  "关键输入": "- Current product(s) and market definition - Current market penetration and performance - Customer insights and market opportunities - Company capabilities and constraints - Growth targets and timelines - Competitive dynamics",
+  "关键输出": "1. Define current market and product clearly 2. Analyze each quadrant: - Identify 2-3 specific opportunities per quadrant - Assess market size and growth potential - Estimate required resources and investment - Evaluate competitive dynamics - Define success m…",
+  "最新更新时间": "2026-09-16T00:16:43+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification. Use when considering growth options, planning market expansion, or ev…时，用它产出或更新：1. Define current market a…",
+  "skill_id": "11201-ansoff-matrix-24b3e58a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/ansoff-matrix/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/ansoff-matrix/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2f2ffa5bc380d8df5d217334ef7b9f19941beaa2602fd2e7ac4f321f447a4153",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

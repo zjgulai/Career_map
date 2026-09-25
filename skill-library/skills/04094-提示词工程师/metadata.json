@@ -1,0 +1,22 @@
+{
+  "英文名称": "prompt-engineer",
+  "中文名称": "提示词工程师",
+  "一句话作用": "设计、优化与评测 LLM 提示词：选对模式、写系统提示词与护栏、搭结构化输出 schema，并用测试集与指标衡量效果。触发词：提示词工程、prompt-engineer、设计、优化与评测 LLM 提示词：选对模式、写系统提示词与护栏、搭结构化输出 schema，并用测试集与指标衡量效果。",
+  "关键输入": "- 为新的 LLM 应用设计提示词 - 优化已有提示词，提升准确率或效率 - 实现思维链（chain-of-thought）或少样本学习（few-shot） - 编写带人设与护栏的系统提示词 - 构建结构化输出的 schema（JSON 模式、函数调用） - 建设提示词的评测与测试框架 - 排查 LLM 输出不稳定或质量差的问题 - 在不同模型或供应商之间迁移提示词",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 为新的 LLM 应用设计提示词 - 优化已有提示词，提升准确率或效率 - 实现思维链（chain-of-thought）或少样本学习（few-shot） - 编写带人设与护栏的系统提示词 - 构建结构化输出的 schema（JSON 模式、函数调用） - 建设提示词的评测与测试框架 - 排查 LLM 输出不稳定或质量差的问题 - 在不同模型或供应商之间迁移提示词时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04094-prompt-engineer-b58a231b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/prompt-engineer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/prompt-engineer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "525da4bf905a609f7c033bfc8445a82186f90fd5c54072541ef9bc0d9e61f1b5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

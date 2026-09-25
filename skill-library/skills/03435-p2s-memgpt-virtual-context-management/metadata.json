@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-memgpt-virtual-context-management",
+  "中文名称": "待补：p2s-memgpt-virtual-context-management",
+  "一句话作用": "触发词：虚拟上下文、跨会话记忆、分级存储、记忆检索、长期运营连续性。何时不用：单轮问答不需要跨会话记忆；要按重要性评分做淘汰策略时用分级记忆管理。安全边界：记忆库中的消费者偏好与反馈属个人信息，须支持按遗忘权删除并限制访问范围。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营 Agent 每季度重置上下文导致跨季度消费者偏好演变识别失效——引入虚拟上下文管理（层次化内外存储），Agent 跨会话记忆保留率从 0→85%，年化运营策略连续性收益提升12倍。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03435-p2s-memgpt-virtual-context-management-897d6f8c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-memgpt-virtual-context-management/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-memgpt-virtual-context-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d9924164a498fd71cbfa1346bd1ab6bf2a88dd6afa43197042f2d9449751faf1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

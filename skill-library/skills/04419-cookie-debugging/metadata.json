@@ -1,0 +1,22 @@
+{
+  "英文名称": "cookie-debugging",
+  "中文名称": "待补：cookie-debugging",
+  "一句话作用": "Uses Chrome DevTools MCP for inspecting, debugging, and testing cookies, session state, authentication issues, and cookie consent compliance. Use when diagnosing 401/403 errors, authentication redirects, session expirat…",
+  "关键输入": "- cookieStore is undefined : cookieStore requires a Secure Context (https://, localhost, or 127.0.0.1). On non-secure HTTP origins, use () = document.cookie or test over HTTPS. - evaluate script returns empty / unresolv…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:06+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- cookieStore is undefined : cookieStore requires a Secure Context (https://, localhost, or 127.0.0.1). On non-secure HTTP origins, use () = document.cookie or test over HTTPS. - evaluate script returns empty / unresolv…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04419-cookie-debugging-4d6d7938",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/chrome-devtools-mcp/1.9.0/skills/cookie-debugging/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/chrome-devtools-mcp/1.9.0/skills/cookie-debugging/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eeb526491ce5de6f3881301886ed9c5a7fe3bd3f328e81ab39ab63510ccb0c60",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

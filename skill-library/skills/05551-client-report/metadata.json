@@ -1,0 +1,22 @@
+{
+  "英文名称": "client-report",
+  "中文名称": "待补：client-report",
+  "一句话作用": "Generate professional client-facing performance reports with portfolio returns, allocation breakdowns, and market commentary. Suitable for quarterly or annual distribution. Triggers on \"client report\", \"performance repo…",
+  "关键输入": "- Client name and household - Reporting period : Quarter, YTD, annual, custom range - Accounts : All accounts or specific account - Benchmark : S&P 500, 60/40 blend, custom benchmark matching IPS - Firm branding : Logo, colors, disclaimers",
+  "关键输出": "- PDF report (8-12 pages) with firm branding - Word document for customization - Excel data appendix (optional) Report Structure: 1. Cover page (client name, period, firm logo) 2. Executive summary (1 page) 3. Performance summary (1-2 pages) 4. Allocation ove…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Generate professional client-facing performance reports with portfolio returns, allocation breakdowns, and market commentary. Suitable for quarterly or annual distribution. Triggers on \"client report\", \"performance repo…时，用它产出或更新：- PDF report (8-12 pages)…",
+  "skill_id": "05551-client-report-f0282127",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/client-report/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/wealth-management/skills/client-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bbfede2e0dab00ae368767e51576498c9308b4832aaeaaa77f0fee723a90e4d4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

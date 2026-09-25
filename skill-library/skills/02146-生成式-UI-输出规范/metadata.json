@@ -1,0 +1,22 @@
+{
+  "英文名称": "genui",
+  "中文名称": "生成式 UI 输出规范",
+  "一句话作用": "Render structured interactive UI inline in your reply via the dsh-ui fence — not just charts: callouts/badges for emphasis, lists/keyvalue for key points, steps/timeline for processes, tables for comparison, mermaid for…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "你可以 在回答正文中间 输出可交互 UI 组件：写一个 dsh-ui 围栏（fenced block with language tag dsh-ui），内含 JSON 规格，渲染器会把这一整块画成真实组件，文字照常穿插在前后。组件 就是回答的一部分 ，不是工具调用。",
+  "最新更新时间": "2026-09-10T00:17:12+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Render structured interactive UI inline in your reply via the dsh-ui fence — not just charts: callouts/badges for emphasis, lists/keyvalue for key points, steps/timeline for processes, tables for comparison, mermaid for…时，用它产出或更新：你可以 在回答正文中间 输出可交互 UI 组件：写一…",
+  "skill_id": "02146-genui-9b9fedd6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@changfenhuang/dsh-genui/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@changfenhuang/dsh-genui/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2e6af50e4d2ed5f786dc661527e1fb87049c8a3bee555854e51bb8f562d4e7e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

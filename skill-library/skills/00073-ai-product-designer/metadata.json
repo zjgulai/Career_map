@@ -1,0 +1,22 @@
+{
+  "英文名称": "ai-product-designer",
+  "中文名称": "待补：ai-product-designer",
+  "一句话作用": "Full product development workflow for business/commercial product conceptualization. Use for business product development: design a product line, develop a new product for a market/audience, create a product strategy, o…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Full product development workflow for business/commercial product conceptualization. Use for business product development: design a product line, develop a new product for a market/audience, create a product strategy, o…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00073-ai-product-designer-82ce7baf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/ai-product-designer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/ai-product-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "698df70ebb1239367afcd3e4e7d9523df21835edb33974142693e0876795be1e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

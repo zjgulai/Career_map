@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-vision",
+  "中文名称": "待补：product-vision",
+  "一句话作用": "Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around a…",
+  "关键输入": "- Information about your company and product (you may read files from the user's workspace) - Current state, market positioning, or any relevant context",
+  "关键输出": "Provide a vision statement that is: 1. Inspiring - Motivates teams to wake up and commit to the goal 2. Achievable - Realistic based on resources, market, and capabilities 3. Emotional - Creates meaning and connection",
+  "最新更新时间": "2026-09-16T00:17:01+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around a…时，用它产出或更新：Provide a vision statement…",
+  "skill_id": "11209-product-vision-ba1ae1de",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/product-vision/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/product-vision/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1414332e0f7893963a3308b8bea0d3ac05f5d704ad344f1c0013f7d7804a12fe",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

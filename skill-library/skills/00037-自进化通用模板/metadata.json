@@ -1,0 +1,22 @@
+{
+  "英文名称": "Agent",
+  "中文名称": "自进化通用模板",
+  "一句话作用": "引用方 : 全部 Agent 使用方式 : 各 Agent 自进化部分仅需保留自身特有的触发器和学习要点，通用流程引用本文件。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T22:14:26+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要引用方 : 全部 Agent 使用方式 : 各 Agent 自进化部分仅需保留自身特有的触发器和学习要点，通用流程引用本文件。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00037-agent-2fc7ce27",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-self-evolution/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-self-evolution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9092835247f1be9fbed3af6db9674f68d52ea253e81d67c6e44009e292b1fb3e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

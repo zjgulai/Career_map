@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo-analyzer",
+  "中文名称": "审计",
+  "一句话作用": "网站SEO诊断与优化，提供全面的技术审计、页面内容分析和可执行建议。当用户提到SEO问题、排名下降、流量波动、页面收录、SEO审计、技术SEO分析，或表述较模糊（如“SEO不好”、“网站没流量”）时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:08:30+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要网站SEO诊断与优化，提供全面的技术审计、页面内容分析和可执行建议。当用户提到SEO问题、排名下降、流量波动、页面收录、SEO审计、技术SEO分析，或表述较模糊（如“SEO不好”、“网站没流量”）时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10675-seo-analyzer-63943c50",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/seo-analyzer/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/seo-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "faaaec429d9751ae6384e5d74121eb213017876cbd283678fcb3844dc6fcd4c4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

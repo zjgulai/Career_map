@@ -1,0 +1,22 @@
+{
+  "英文名称": "aily-cli-skillhub",
+  "中文名称": "通过 skill id（最常见）",
+  "一句话作用": "在 Aily skill 市场搜索 / 浏览 / 看版本 / 安装 / 升级 / 卸载，以及上架(publish) / 撤回 / 下架 / 改可见性等市场治理 skill（给当前 agent）。「搜个 skill / 装上这个 skill / 升级 skill / 看 skill 版本 / 发布状态 / 把技能上架 / 撤回上架 / 下架 / 改可见性」都走这里，agent 可直接跑。只有本地 download（落盘大文件）让 use…",
+  "关键输入": "aily-cli skillhub publish --skill-id --visibility --yes --json",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-24T12:29:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要在 Aily skill 市场搜索 / 浏览 / 看版本 / 安装 / 升级 / 卸载，以及上架(publish) / 撤回 / 下架 / 改可见性等市场治理 skill（给当前 agent）。「搜个 skill / 装上这个 skill / 升级 skill / 看 skill 版本 / 发布状态 / 把技能上架 / 撤回上架 / 下架 / 改可见性」都走这里，agent 可直接跑。只有本地 download（落盘大文件）让 use…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00426-aily-cli-skillhub-dcba2533",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-skillhub/SKILL.md",
+  "relative_path": "lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-skillhub/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eda9bda91599a2088dcfb5d4189569cd41f6df96b0570ecbf32a31d3654639d0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

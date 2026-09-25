@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-data-quality-monitor-alert",
+  "中文名称": "多维数据质量监控与异常告警（SPC 散度）",
+  "一句话作用": "触发词：数据质量告警、SPC 控制图、KL 散度、数据空洞、分布漂移告警。何时不用：要判断模型效果是否劣化、要不要重训走 ML 管道可观测性；要做标签质量 KPI 走标签质量监控。安全边界：数据空洞期间不得按缺失值（如库存为 0）继续决策，卡页原文要求降级只能沿用上次已知数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要数据团队面临\"数据质量问题发现总是在报告出错后业务已经受损\"——SPC控制图+KL散度将数据异常提前发现时间从事后1天变为事中实时告警，年化避损$9.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11953-p2s-data-quality-monitor-alert-9ad3bc8f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-data-quality-monitor-alert/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-data-quality-monitor-alert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d1059064362477babb39ccd15196db2558b9fe3f6b9341bce6f98421b233396",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

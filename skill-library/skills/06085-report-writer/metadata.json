@@ -1,0 +1,22 @@
+{
+  "英文名称": "report-writer",
+  "中文名称": "待补：report-writer",
+  "一句话作用": "gAAAAABqYL4RFRFxNHBhDUzYHpU3-gw1yY8UgEaGdGngfIP OAa2vE28A9eOF38SG4Nw56aylBtdROYYsUmCP2xVcDBW-oY6LYw7xavdsOPqpqlH475uiaCDsN829-N7eBqdOcpMcC2N0AJRrQsYwQxj6nNWI3wXYx7WlQH79tNdTyhBnO UjqF9IBcLQSxtNf7WevC0dFqGbVU7-S3GXw2cJs8…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-22T20:56:49+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要gAAAAABqYL4RFRFxNHBhDUzYHpU3-gw1yY8UgEaGdGngfIP OAa2vE28A9eOF38SG4Nw56aylBtdROYYsUmCP2xVcDBW-oY6LYw7xavdsOPqpqlH475uiaCDsN829-N7eBqdOcpMcC2N0AJRrQsYwQxj6nNWI3wXYx7WlQH79tNdTyhBnO UjqF9IBcLQSxtNf7WevC0dFqGbVU7-S3GXw2cJs8…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06085-report-writer-3a910867",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/report-writer/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/report-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4412375b739ec259e7a3d2dc223730baddb15bb56eb3e08681cab0ad9df1b383",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

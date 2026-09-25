@@ -1,0 +1,22 @@
+{
+  "英文名称": "认证缺口分析（ERP 对照目标市场）",
+  "中文名称": "待补：认证缺口分析（ERP 对照目标市场）",
+  "一句话作用": "当已有「目标市场合规清单」且可从 ERP/主数据读取现有认证与到期字段时调用；输出缺口排序与补证优先级。",
+  "关键输入": "- 输入包含：market profile、产品 SKU/型号、以及 ERP 导出片段或字段映射（见 docs/erp-skill-interface.md 中 certification ids / expiry 等）。 - 若 ERP 无结构化认证字段，先约定手工表列再运行本 Skill，避免「假自动化」。",
+  "关键输出": "- 表格：缺口项 当前 ERP 值 状态 优先级 建议动作 建议负责人 目标完成周 - 执行摘要 ：给 CGO 的 5 行以内，只含 P0+P1。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当已有「目标市场合规清单」且可从 ERP/主数据读取现有认证与到期字段时调用；输出缺口排序与补证优先级。时，用它产出或更新：- 表格：缺口项 当前 ERP 值 状态 优先级 建议动作 建议负责人 目标完成周 - 执行摘要 ：给 CGO 的 5 行以内，只含 P0+P1。",
+  "skill_id": "09868-erp-28019c8e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/certification-gap-analyzer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/certification-gap-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb4495f52f849efcdf9e4159686ab85845827bc86d952efa2ba38a0d500a2888",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

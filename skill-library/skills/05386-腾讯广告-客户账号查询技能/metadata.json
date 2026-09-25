@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencentads-advertiser",
+  "中文名称": "腾讯广告 - 客户账号查询技能",
+  "一句话作用": "腾讯营销（原腾讯广告）广告主信息查询与管理技能。支持查询关联广告主账号列表、查询/修改账户日预算、查询资金账户余额、查询共享钱包信息、获取资金账户日结明细",
+  "关键输入": "脚本调用格式为 node scripts/ .mjs ' '，但 JSON 参数的引号包裹方式因操作系统/终端而异 ，传递不当会导致 JSON.parse 报错（如 Expected property name or '}' in JSON at position 1）。 终端环境 正确写法 说明 --------- --------- ------ Linux / macOS (Bash/Zsh) node scripts/xxx.mjs '{\"key\":\"value\"}' ✅ 单引号包裹，内部双引号原样保留",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要腾讯营销（原腾讯广告）广告主信息查询与管理技能。支持查询关联广告主账号列表、查询/修改账户日预算、查询资金账户余额、查询共享钱包信息、获取资金账户日结明细时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05386-tencentads-advertiser-7c83d169",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-advertiser/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-advertiser/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a071c3eac8bd8a884f33eedbfde05d2c9f5de7ed9c9332b8dfdad337dbb5d6a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

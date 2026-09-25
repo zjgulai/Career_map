@@ -1,0 +1,22 @@
+{
+  "英文名称": "weekly-update",
+  "中文名称": "团队周报 Deck",
+  "一句话作用": "6-8 页横向滑动周报: 已发布 / 进行中 / 阻塞 / 指标 / 求助",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:27+08:00",
+  "业务场景": "operations",
+  "解决具体问题": "当需要6-8 页横向滑动周报: 已发布 / 进行中 / 阻塞 / 指标 / 求助时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10283-weekly-update-2a9dbf25",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/weekly-update/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/weekly-update/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "34704e3e68da17f497cd90b628fc5e084666a28ca526b0e0150685fdb7fb55f0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

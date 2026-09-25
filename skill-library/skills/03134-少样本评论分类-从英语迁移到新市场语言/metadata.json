@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-few-shot-review-classification",
+  "中文名称": "少样本评论分类 从英语迁移到新市场语言",
+  "一句话作用": "触发词：少样本评论分类、VOC冷启动、原型网络、支持集标注、新市场评论、多语言分类。何时不用：要抽取评论的方面级情感用「VOC方面情感抽取」；要做客户流失预测用「客户流失预测」；要做跨市场需求迁移预测用「跨市场迁移需求预测」。安全边界：仅使用公开评论数据，不引入用户隐私字段，向量化不保留原始文本以满足 GDPR 数据最小化，不生成合成评论内容。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要多语言运营面临\"德语法语日语评论只有少量标注数据无法建立分类模型\"——Prototypical Networks少样本分类将新市场VOC分析启动时间从3个月压缩至2周，年化$2.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03134-p2s-few-shot-review-classification-f7a6242d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-few-shot-review-classification/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-few-shot-review-classification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b107d3f14f017bdb336206ddc3911241ae7b05da85d3be20e2f742d6317feaa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

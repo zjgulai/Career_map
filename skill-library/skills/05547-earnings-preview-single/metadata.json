@@ -1,0 +1,22 @@
+{
+  "英文名称": "earnings-preview-single",
+  "中文名称": "待补：earnings-preview-single",
+  "一句话作用": "Generate a concise 4-5 page equity research earnings preview for a single company. Analyzes the most recent earnings transcript, competitor landscape, valuation, and recent news to produce a professional HTML report.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. Write the complete HTML file to earnings-preview-[TICKER]-YYYY-MM-DD.html in the current working directory. 2. Open it in the browser: open earnings-preview-[TICKER]-YYYY-MM-DD.html 3. Tell the user the file has been created and summarize the key findings.",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Generate a concise 4-5 page equity research earnings preview for a single company. Analyzes the most recent earnings transcript, competitor landscape, valuation, and recent news to produce a professional HTML report.时，用它产出或更新：1. Write the complete HTML fil…",
+  "skill_id": "05547-earnings-preview-single-93431083",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/spglobal/skills/earnings-preview-beta/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/spglobal/skills/earnings-preview-beta/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7580388cc4435530324b9e657a401839fbbf25b054dd912840225a4e334bb001",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

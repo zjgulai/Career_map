@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fraud-pl-impact",
+  "中文名称": "电商欺诈的财务损失量化与检测成本权衡",
+  "一句话作用": "触发词：欺诈损失量化、混淆矩阵、最优阈值、误报成本、模型升级 ROI。何时不用：要算退款率对利润的影响用「退款率财务影响」；要评估促销活动增量用「促销 ROI 前后对比」。安全边界：拦截与误伤涉及用户权益，阈值调整须留人工复核与申诉通道；检测数据处理须遵守隐私法规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要欺诈检测系统上线但 CFO 不知道它值多少钱——混淆矩阵到 P&L 完整映射显示最优阈值切换可额外挽回 23% 损失，升级 ML 系统 5.6 个月回本时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03149-p2s-fraud-pl-impact-51b73539",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-fraud-pl-impact/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-fraud-pl-impact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2b03549aed1df9bfbfae75560d63f7cfcda1f1b06f1abe7c0c240de3e6b5bd7b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

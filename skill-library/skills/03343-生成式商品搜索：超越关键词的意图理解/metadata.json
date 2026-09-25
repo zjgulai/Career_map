@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-generative-product-search",
+  "中文名称": "生成式商品搜索：超越关键词的意图理解",
+  "一句话作用": "触发词：生成式搜索、自然语言查询、意图理解、场景化推荐、幻觉兜底。何时不用：需要确定性可控的精确检索时用「稀疏+稠密混合检索」或「密集段落检索」。安全边界：生成的商品 ID 必须校验真实存在，并保留传统搜索 fallback。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户说「上班偷偷泵奶开会不能发声」传统关键词搜索无法处理这种自然语言意图——LLM生成式搜索理解「安静+便携+工作场景」直接生成匹配商品，复杂查询转化率提升20-30%年化增益10-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03343-p2s-llm-generative-product-search-61056bfa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-generative-product-search/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-generative-product-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3a010f86d05acb063c00f3d3481630b40c7930a0afd18a77d5886437ed8d33e1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

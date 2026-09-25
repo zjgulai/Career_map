@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-counterfeit-product-visual-detection",
+  "中文名称": "假冒商品视觉检测 感知哈希批量比对竞品图识别疑似仿品",
+  "一句话作用": "触发词：仿品图片筛查、感知哈希、海明距离、SSIM 比对、批量图片检测。何时不用：要结合供应链图谱与批次溯源做假货举证用「供应链假货检测溯源」；要监控商标名称与官方公告用「商标侵权追踪」。安全边界：检测须获品牌方授权，存在误判率会误伤正品商家，结果须附原图对比与人工复核；不得用于恶意投诉竞争对手。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要知识产权团队面临\"不知道市面上是否有产品在视觉上仿造自己的外观设计\"——感知哈希批量比对将疑似仿品识别效率提升8倍，年化节省维权调查费$2.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02964-p2s-counterfeit-product-visual-detection-08143caa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-counterfeit-product-visual-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-counterfeit-product-visual-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5fe90f33dd6b6dcf2a0065acea1a7b0ceefd2e5b3bc06aa3e381ce6f0ec84686",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

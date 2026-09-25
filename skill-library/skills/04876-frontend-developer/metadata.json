@@ -1,0 +1,22 @@
+{
+  "英文名称": "frontend-developer",
+  "中文名称": "待补：frontend-developer",
+  "一句话作用": "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04876-frontend-developer-faec4663",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/frontend-developer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/frontend-developer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b81de9c6293be713fe0e4e27f2804a09a8a652396672dfef012284a72e6f8586",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

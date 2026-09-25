@@ -1,0 +1,22 @@
+{
+  "英文名称": "manim-agent",
+  "中文名称": "待补：manim-agent",
+  "一句话作用": "Use when Codex needs to create, run, review, debug, or package Manim Agent workflows for mathematical or technical explainer videos: Manim animations, narrated teaching videos, formula or proof visualization, concept ex…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when Codex needs to create, run, review, debug, or package Manim Agent workflows for mathematical or technical explainer videos: Manim animations, narrated teaching videos, formula or proof visualization, concept ex…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04638-manim-agent-38c81b74",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/manim-agent/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/manim-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c0db5c644a228f3a2b387e834b0557ec4e6f596a46ec8fba09429432d41aeb3a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

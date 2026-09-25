@@ -1,0 +1,22 @@
+{
+  "英文名称": "check",
+  "中文名称": "待补：check",
+  "一句话作用": "Check your work with a verification subagent. Spawns a verifier that reviews diffs, runs builds and tests, and evaluates correctness. Use when asked to \"check work\", \"verify changes\", \"self-verify\", \"/check\", \"/verify\",…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Output from builds, tests, and linters. Include exact command and result.",
+  "最新更新时间": "2026-05-16T12:09:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Check your work with a verification subagent. Spawns a verifier that reviews diffs, runs builds and tests, and evaluates correctness. Use when asked to \"check work\", \"verify changes\", \"self-verify\", \"/check\", \"/verify\",…时，用它产出或更新：Output from builds, tests,…",
+  "skill_id": "04296-check-cb6ff36c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.grok/skills/check/SKILL.md",
+  "relative_path": "lute/.grok/skills/check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ddcd2f42eaeb6efc27dc1a651ad36be71e331e58da8ed16ec7a28b2f8bb0d4e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-version",
+  "中文名称": "待补：glab-version",
+  "一句话作用": "显示 glab CLI 版本信息和构建详情。适用于检查已安装的 glab 版本或排查安装问题。触发词：version、glab 版本、检查版本、CLI 版本。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要显示 glab CLI 版本信息和构建详情。适用于检查已安装的 glab 版本或排查安装问题。触发词：version、glab 版本、检查版本、CLI 版本。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10621-glab-version-1a1286e3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-version/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-version/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "537d6fd757147a8dcdf339da4a5ba8aaeb99cffc4d50ef9351ab19a4c8c2394c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

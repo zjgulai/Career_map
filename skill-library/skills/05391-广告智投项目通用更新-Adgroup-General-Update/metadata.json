@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencentads-delivery-standard-update",
+  "中文名称": "广告智投项目通用更新（Adgroup General Update）",
+  "一句话作用": "营销单元（原广告）/智投项目通用更新。支持修改营销单元或智投项目的多个字段（名称、日期、定向、时段、出价、预算、状态、深度转化、一键起量、创意增强、周期达成等），支持单个营销单元/项目更新和多账号多营销单元/项目批量更新。",
+  "关键输入": "根据广告/智投项目数量选择对应模式（智投项目 ID 等同于 adgroup id，参数构造方式完全一致）： 单个更新 （1 个广告或智投项目）： - account id：必填，广告主账号 ID - adgroup id：必填，广告 ID 或智投项目 ID - 至少一个更新字段（见下方字段列表） 批量更新 （2 个及以上广告/智投项目）： - tasks：必填，数组，每个元素包含 account id、adgroup id（广告 ID 或智投项目 ID）和要更新的字段 - 每个 task 可更新完全不同的字段组合…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 用户需要同时修改 2 个及以上广告或智投项目 - 不同广告/项目需要更新不同的字段（异构） - 跨账号批量操作时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05391-tencentads-delivery-standard-update-1813f078",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-delivery-standard-update/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencentads/skills/tencentads-delivery-standard-update/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "20829bdf00d69f8c02b0cac7cec58d5050a677e577de8badd6f9bdb02ad1a516",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

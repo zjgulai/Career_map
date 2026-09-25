@@ -1,0 +1,22 @@
+{
+  "英文名称": "intended-vs-implemented",
+  "中文名称": "待补：intended-vs-implemented",
+  "一句话作用": "The method for finding the gap between what a system is supposed to do and what the code actually does — the class of bug generic scanners miss because they have no model of intent. Defines what counts as documented int…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要The method for finding the gap between what a system is supposed to do and what the code actually does — the class of bug generic scanners miss because they have no model of intent. Defines what counts as documented int…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11151-intended-vs-implemented-2099b77f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-ai-shipping/skills/intended-vs-implemented/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-ai-shipping/skills/intended-vs-implemented/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6d917f0e59f78ea6b5d847f57b1c816baa2948cac56529939589cd73d2e4c9eb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "brand-naming-lab",
+  "中文名称": "品牌命名工作室",
+  "一句话作用": "为产品、服务或项目提供系统性品牌命名方案，运用8种经典命名方法（组合造词、隐喻意象、拟声词等）生成候选名称，每个名称附带含义解读、命名逻辑和域名建议，并从跨文化安全、商标可注册性及可拼读性等维度进行综合推荐。当用户需要为新产品、新公司、新项目“取名”、“命名”、“起名”，或提及品牌命名（brand naming）、想品牌名、取个名字等关键词时触发。",
+  "关键输入": "请用户提供以下信息（至少提供前两项）： 1. 产品/服务描述 ：做什么、解决什么问题 2. 目标受众 ：面向谁 3. 品牌调性 （可选）：科技感、亲切、高端、年轻、专业等 4. 语言偏好 （可选）：中文名、英文名、中英双语 若用户未指定语言偏好，默认生成英文品牌名并附中文释义。 ---",
+  "关键输出": "对用户的每次请求，按以下结构输出 8 个品牌名候选：",
+  "最新更新时间": "2026-09-14T00:08:55+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要为产品、服务或项目提供系统性品牌命名方案，运用8种经典命名方法（组合造词、隐喻意象、拟声词等）生成候选名称，每个名称附带含义解读、命名逻辑和域名建议，并从跨文化安全、商标可注册性及可拼读性等维度进行综合推荐。当用户需要为新产品、新公司、新项目“取名”、“命名”、“起名”，或提及品牌命名（brand naming）、想品牌名、取个名字等关键词时触发。时，用它产出或更新：对用户的每次请求，按以下结构输出 8 个品牌名候选：",
+  "skill_id": "10550-brand-naming-lab-2173fc0e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/brand-naming-lab/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/brand-naming-lab/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2fa5680966889277eb789c07fc87360103cf698dd17a4119980d9112ba317e8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "teaser",
+  "中文名称": "待补：teaser",
+  "一句话作用": "Draft anonymous one-page company teasers for sell-side M&A processes. Creates a compelling summary without revealing the company's identity, designed to gauge buyer interest before NDA execution. Triggers on \"teaser\", \"…",
+  "关键输入": "- Company description (what they do, how they make money) - Sector / industry - Key financial metrics: revenue, EBITDA, growth rate, margins - Geographic footprint - Key selling points (3-5 highlights) - What to anonymize vs. disclose - Target buyer audience…",
+  "关键输出": "- Word document (.docx) — one page, clean formatting - PDF version for distribution - Optional PowerPoint version (single slide)",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Draft anonymous one-page company teasers for sell-side M&A processes. Creates a compelling summary without revealing the company's identity, designed to gauge buyer interest before NDA execution. Triggers on \"teaser\", \"…时，用它产出或更新：- Word document (.docx) —…",
+  "skill_id": "05506-teaser-79b68d09",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/teaser/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/teaser/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec6ea35a740c40d4ba62b325483d6f63b0e06fc51202eeff6b01808a876c1020",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

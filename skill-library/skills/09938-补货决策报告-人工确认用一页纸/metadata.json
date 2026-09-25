@@ -1,0 +1,22 @@
+{
+  "英文名称": "补货决策报告（人工确认用一页纸）",
+  "中文名称": "待补：补货决策报告（人工确认用一页纸）",
+  "一句话作用": "将预测、仓容、物流方案与财务/交期约束汇总为一份「补货决策报告」，供签字后再进入 purchase-order-generator；对应《完整建议》中「推送人工确认」环节。",
+  "关键输入": "- logistics-route-optimizer 输出；demand-forecast-engine 关键假设摘要。 - 战略（含财务） ：最低毛利率、现金上限、是否允许加急费用 — 可粘贴为输入块。",
+  "关键输出": "- 单页 Markdown/PDF 结构； Approve / Adjust / Hold 三态建议。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要将预测、仓容、物流方案与财务/交期约束汇总为一份「补货决策报告」，供签字后再进入 purchase-order-generator；对应《完整建议》中「推送人工确认」环节。时，用它产出或更新：- 单页 Markdown/PDF 结构； Approve / Adjust / Hold 三态建议。",
+  "skill_id": "09938-skill-f50da656",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/replenishment-decision-report/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/supply-chain-fulfill/replenishment-decision-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d35cda1930070653346a6e846fee757b040b9ad4360deb5e8ae9eed1271981e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

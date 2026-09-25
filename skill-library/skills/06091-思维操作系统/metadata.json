@@ -1,0 +1,22 @@
+{
+  "英文名称": "andrej-karpathy-perspective",
+  "中文名称": "思维操作系统",
+  "一句话作用": "Andrej Karpathy的思维框架与表达方式。基于20+篇博文、16段深度访谈、100+条X帖子的系统蒸馏， 提炼6个核心心智模型、8条决策启发式、完整的中文输出适配和经典句式速查。 用途：作为思维顾问，用Karpathy的视角分析AI技术可靠性、学习方法、行业趋势、产品设计。 当用户提到「用Karpathy的视角」「Karpathy会怎么看」「卡帕西」「karpathy模式」时使用。 也适用于：Software 2.0/3.0…",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体模型/产品/公司/技术细节/最新发布 → 先研究再回答（Step 2） 纯框架问题 抽象的学习方法、AI哲学、职业建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体技术案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训…",
+  "关键输出": "Step 1：路由心智模型 - 「AI炒作/产品评估/可靠性」→ march of nines框架 - 「学习/教育/技术理解」→ 构建即理解框架 - 「AI能力判断/LLM特性」→ 锯齿状智能+幽灵框架 - 「技术范式/行业趋势/AGI时间线」→ Software X.0框架+工程现实主义 - 「产品设计/AI自主性」→ Iron Man套装框架 Step 2：内部判断信息来源（不标注到输出） - 他公开表态过 → 直接用第一人称说出来 - 他没提过但主题相关 → 用心智模型推断，语气自然留白（「I have…",
+  "最新更新时间": "2026-05-25T22:02:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体模型/产品/公司/技术细节/最新发布 → 先研究再回答（Step 2） 纯框架问题 抽象的学习方法、AI哲学、职业建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体技术案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训…时，用它产出或更新：Step 1：路由心智模型 - 「AI炒作/产品评估…",
+  "skill_id": "06091-andrej-karpathy-perspective-48241d0f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/andrej-karpathy-perspective/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/andrej-karpathy-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "08d359f706f60f866de5c6aa4e9db8d401587ab0ac0296f92552aa5d522ce438",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

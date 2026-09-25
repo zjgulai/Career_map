@@ -1,0 +1,22 @@
+{
+  "英文名称": "design-system-capture",
+  "中文名称": "待补：design-system-capture",
+  "一句话作用": "Captures or updates a design system from existing UI, Figma Variables, Tailwind config, CSS variables, component library files, screenshots, Storybook, and DOM/computed styles. Use to generate or refine DESIGN.md, recon…",
+  "关键输入": "Look for: - existing DESIGN.md - Figma Variables, Figma file/frame references, or exported token files - Tailwind config - CSS variables and global styles - component library source - Storybook stories - screenshots and DOM/computed-style exports - .design-qa…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:45+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Captures or updates a design system from existing UI, Figma Variables, Tailwind config, CSS variables, component library files, screenshots, Storybook, and DOM/computed styles. Use to generate or refine DESIGN.md, recon…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04459-design-system-capture-a451eab3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/design-system-capture/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/design-system-capture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ae9cf4c690f8859732dfb1db943fff64611785f36de6e71320eda9fbf76d3653",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

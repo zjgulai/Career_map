@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-counterfeit-detection",
+  "中文名称": "供应链仿冒品检测原材料包装视觉验真",
+  "一句话作用": "触发词：仿冒品检测、包装验真、pHash比对、跟卖仿冒、视觉指纹核验。何时不用：货源与包装一致性已确认、只需判断退货品相的，用退货品质分级类技能。安全边界：比对结果只是疑似线索，判定与下架须人工复核，不得据自动比对结果直接处罚供应商。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品控面临\"FBA退货中混入包装高度相似的仿冒品难以人工识别\"——pHash视觉指纹比对批量核查识别8件仿冒包装，年化避免品质投诉和品牌损失50-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11546-p2s-supply-chain-counterfeit-detection-20faffb8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supply-chain-counterfeit-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supply-chain-counterfeit-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e201a4924e3ed646bb8ec5d72d891baf7d7a32fb5a5f05b45763fbb9160cb852",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

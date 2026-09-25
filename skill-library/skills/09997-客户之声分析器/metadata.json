@@ -1,0 +1,22 @@
+{
+  "英文名称": "客户之声分析器",
+  "中文名称": "客户之声分析器",
+  "一句话作用": "整合多平台用户反馈（Amazon评论、Reddit、TikTok、YouTube、Facebook等），生成可执行的改品、文案和竞品策略洞察。触发词：客户之声分析器、VoC、客户之声、评论分析、用户痛点、竞品反馈、改品方向、跨平台 VOC。仅有触发词而无具体产品/品牌/反馈数据/分析平台时不触发本技能，直接追问澄清需要什么信息，不编造。何时不用：单帖及评论串、Reddit 对比帖、单页分析、单平台批量评论情感统计、长期社媒舆情监控。安…",
+  "关键输入": "在采集前先写出这次分析要回答的决策问题。 推荐至少覆盖这 4 个： 1. 用户为什么开始搜索这个品类？ 2. 用户为什么在最后一步犹豫？ 3. 用户为什么选竞品而不是 Momcozy？ 4. 用户买完后最容易后悔的是什么？ ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要在采集前先写出这次分析要回答的决策问题。 推荐至少覆盖这 4 个： 1. 用户为什么开始搜索这个品类？ 2. 用户为什么在最后一步犹豫？ 3. 用户为什么选竞品而不是 Momcozy？ 4. 用户买完后最容易后悔的是什么？ ---时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09997-skill-933be0a1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/客户之声分析器/SKILL.md",
+  "relative_path": "lute/project/81-Skills/客户之声分析器/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "dafcaec6cdb83a34f486c8146ea581df99b04f100bd713500022ba31340b5aca",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

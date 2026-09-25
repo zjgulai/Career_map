@@ -1,0 +1,22 @@
+{
+  "英文名称": "loopx-project",
+  "中文名称": "待补：loopx-project",
+  "一句话作用": "Use when connecting a repository or project goal document to LoopX, maintaining project-local goal state, refreshing stale dashboard status, syncing local projects into the shared global registry, or diagnosing LoopX CL…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After connect or refresh, run the smallest useful set: For multi-project UI updates, refresh the dashboard status JSON from the global registry:",
+  "最新更新时间": "2026-09-05T21:56:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when connecting a repository or project goal document to LoopX, maintaining project-local goal state, refreshing stale dashboard status, syncing local projects into the shared global registry, or diagnosing LoopX CL…时，用它产出或更新：After connect or refresh,…",
+  "skill_id": "00400-loopx-project-0b693f6e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.agents/runtime/dsh-loopx-plugin/site-packages/share/loopx/skills/loopx-project/SKILL.md",
+  "relative_path": "lute/.agents/runtime/dsh-loopx-plugin/site-packages/share/loopx/skills/loopx-project/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d5de3416c862b2d4e1e84f4c47a59f1f7666e62694c9c2af2367ca346246650",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

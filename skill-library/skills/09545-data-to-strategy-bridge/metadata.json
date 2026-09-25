@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-to-strategy-bridge",
+  "中文名称": "待补：data-to-strategy-bridge",
+  "一句话作用": "Data Agent 洞察→经营策略的桥接 skill。 将 ecommerce-data-analyst 输出的数据分析结果（异常/趋势/归因）转换为可执行的经营策略。 核心能力：异常→根因建议、趋势→机会/风险标记、归因→资源重分配建议、 退货率+差评→产品改进+内容双轨建议、销售数据→库存+广告预算调整。 这是 Data Agent 和经营决策层之间的标准接口层。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Data Agent 洞察→经营策略的桥接 skill。 将 ecommerce-data-analyst 输出的数据分析结果（异常/趋势/归因）转换为可执行的经营策略。 核心能力：异常→根因建议、趋势→机会/风险标记、归因→资源重分配建议、 退货率+差评→产品改进+内容双轨建议、销售数据→库存+广告预算调整。 这是 Data Agent 和经营决策层之间的标准接口层。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09545-data-to-strategy-bridge-a381dd97",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/data-to-strategy-bridge/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/data-to-strategy-bridge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ebf8dfe7d85659debe56b3287e5c0bd807fc6873b38e33b709ef7e2ebc220ed1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Destination Country Classification & Tax Calculation",
+  "中文名称": "模式 1：直接从 URL 提取（13 位或更多数字）",
+  "一句话作用": "Alibaba.com Destination Country Classification & Tariff Calculation Skill, covering destination-country HS code prediction, tariff rate lookup, and customs duty estimation for the United States, all 27 EU member states,…",
+  "关键输入": "⚠️ destinationCountryCode 必须取自支持国家码并与用户目的国一致；示例使用德国 DE。originCountryCode 默认 CN（关税计算时强制 CN、禁止透传用户声明；归类时发货国不影响结果）。",
+  "关键输出": "输出渲染硬约束 ： - 使用 原生 Markdown （标题 / 加粗 / 无序列表 / 引用）输出。 - 严禁 用三反引号\\\\\\ 或 \\\\\\text 包住整个回复，会被前端渲染为不可点击、带“复制”按钮的 Text 卡片。 - 仅当举例“字面量”（如 JSON / 命令行）时才使用代码块。 标准输出示例 （直接以下面这种 Markdown 渲染输出，不要再套 code block）：",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba.com Destination Country Classification & Tariff Calculation Skill, covering destination-country HS code prediction, tariff rate lookup, and customs duty estimation for the United States, all 27 EU member states,…时，用它产出或更新：输出渲染硬约束 ： - 使用 原生 Markdown…",
+  "skill_id": "00187-destination-country-classification-tax-calculation-9052cd08",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-tariff-assistant/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-tariff-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "55b3a8b63b212214f0f9d5822dff69bbaa082c41c5163949dc21aa67639f8c15",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

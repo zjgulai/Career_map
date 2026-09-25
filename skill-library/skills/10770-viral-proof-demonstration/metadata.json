@@ -1,0 +1,22 @@
+{
+  "英文名称": "viral-proof-demonstration",
+  "中文名称": "待补：viral-proof-demonstration",
+  "一句话作用": "Adapt a proof-demonstration replication whose primary invariant is an observable experiment, comparison, countdown, measurement, or physical demonstration; use before proof storyboard compilation and claim audit.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-23T00:49:26+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Adapt a proof-demonstration replication whose primary invariant is an observable experiment, comparison, countdown, measurement, or physical demonstration; use before proof storyboard compilation and claim audit.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10770-viral-proof-demonstration-324c466b",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/viral-proof-demonstration/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/viral-proof-demonstration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "94411547e5880e98f02a6cebd261efbb442aad554a256ceb7319e6d56b29e2b4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

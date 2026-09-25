@@ -1,0 +1,22 @@
+{
+  "英文名称": "architecture-decision-records",
+  "中文名称": "待补：architecture-decision-records",
+  "一句话作用": "Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant technical decisions, reviewing past architectural choices, or estab…",
+  "关键输入": "- Making significant architectural decisions - Documenting technology choices - Recording design trade-offs - Onboarding new team members - Reviewing historical decisions - Establishing decision-making processes",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Making significant architectural decisions - Documenting technology choices - Recording design trade-offs - Onboarding new team members - Reviewing historical decisions - Establishing decision-making processes时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05618-architecture-decision-records-58d3387d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/documentation-generation/skills/architecture-decision-records/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/documentation-generation/skills/architecture-decision-records/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "789585234d34fecc6bf87508829894a1f55040d520acc8988e1f70eaf2e51ed9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

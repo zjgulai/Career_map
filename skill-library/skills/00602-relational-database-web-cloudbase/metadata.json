@@ -1,0 +1,22 @@
+{
+  "英文名称": "relational-database-web-cloudbase",
+  "中文名称": "待补：relational-database-web-cloudbase",
+  "一句话作用": "[Deprecated] Use when building frontend Web apps that talk to CloudBase Relational Database via @cloudbase/js-sdk – provides the canonical init pattern so you can then use Supabase-style queries from the browser. New en…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要[Deprecated] Use when building frontend Web apps that talk to CloudBase Relational Database via @cloudbase/js-sdk – provides the canonical init pattern so you can then use Supabase-style queries from the browser. New en…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00602-relational-database-web-cloudbase-5a7c0e61",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.agents/skills/relational-database-web-cloudbase/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.agents/skills/relational-database-web-cloudbase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fbf1938e9bb9ad9016f8776abc42bf5d5e11a2c3731c43cc7433d2076a5f74a0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

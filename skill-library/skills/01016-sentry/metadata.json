@@ -1,0 +1,22 @@
+{
+  "英文名称": "sentry",
+  "中文名称": "待补：sentry",
+  "一句话作用": "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry API; perform read-only queries with the bundled script and require SENTRY AU…",
+  "关键输入": "Always use these endpoints (GET only): - List issues: /api/0/projects/{org slug}/{project slug}/issues/ - Issue detail: /api/0/organizations/{org slug}/issues/{issue id}/ - Events for issue: /api/0/organizations/{org slug}/issues/{issue id}/events/ - Event de…",
+  "关键输出": "- Issue list: show title, short id, status, first seen, last seen, count, environments, top tags; order by most recent. - Event detail: include culprit, timestamp, environment, release, url. - If no results, state explicitly. - Redact PII in output (emails, I…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry API; perform read-only queries with the bundled script and require SENTRY AU…时，用它产出或更新：- Issue list: show title,…",
+  "skill_id": "01016-sentry-8bd6131b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/sentry/skills/sentry/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/sentry/skills/sentry/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c8ae3a1f7521b9b560adf8d0824c5ff49b1182d7f8870361b292ad1803b639c6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ranking-interleaving-ab",
+  "中文名称": "排序交叉实验 比传统 AB 更灵敏的排序系统评估",
+  "一句话作用": "触发词：交叉实验、排序评估、Interleaving、小样本实验。何时不用：需要绝对指标结论时用传统 AB 测试，交叉实验只能测相对偏好；没有线上点击反馈时用离线评测类技能。安全边界：混合展示不得干扰用户最终选择权，须保证展示顺序公平。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要搜索算法工程师面临\"传统AB测试对排序微小改进不灵敏需要大量样本\"——交叉排序实验将相同统计功效所需样本量降低70%，年化加速搜索排序迭代速度节省实验等待成本20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11299-p2s-ranking-interleaving-ab-de6a2676",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-ranking-interleaving-ab/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-ranking-interleaving-ab/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d48ef6e7c758a79545da6904d47f46936fd7cbcdddde0a34a977e2d46294cd9c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

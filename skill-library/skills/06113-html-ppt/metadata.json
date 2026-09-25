@@ -1,0 +1,22 @@
+{
+  "英文名称": "html-ppt",
+  "中文名称": "待补：html-ppt",
+  "一句话作用": "HTML PPT Studio — author professional static HTML presentations in many styles, layouts, and animations, all driven by templates. Use when the user asks for a presentation, PPT, slides, keynote, deck, slideshow, \"幻灯片\",…",
+  "关键输入": "Use when the user asks for any kind of slide-based output or wants to turn text/notes into a presentable deck. Prefer this over building from scratch.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:03:09+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when the user asks for any kind of slide-based output or wants to turn text/notes into a presentable deck. Prefer this over building from scratch.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06113-html-ppt-c7a529ce",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/html-ppt/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/html-ppt/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "289e1cf2c0fa95b44795ccd557199ea7bc09ab30266a7327108e462e05c9aca8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

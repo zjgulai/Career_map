@@ -1,0 +1,22 @@
+{
+  "英文名称": "新品机会扫描（竞品与用户声量缺口）",
+  "中文名称": "待补：新品机会扫描（竞品与用户声量缺口）",
+  "一句话作用": "当需要结合竞品卖点矩阵、价格带与用户评论主题识别货盘空白点并输出可立项的新品方向清单（非具体开模指令）时调用；须与合规与供应链可行性人工确认。",
+  "关键输入": "- 已有结构分析或明确的 品类边界 （如吸奶器主机 vs 配件）。 - 可粘贴 竞品 ASIN/链接样本 或第三方导出；无则基于公开 Listing 手工表。 - 目标市场 语言 与 合规敏感点 （母婴电器）已知。",
+  "关键输出": "- 表：OppID Theme Evidence Competitor hint Priority Risks - 一页路线图 ：建议 Q 内验证动作（调研/样品/小测）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要结合竞品卖点矩阵、价格带与用户评论主题识别货盘空白点并输出可立项的新品方向清单（非具体开模指令）时调用；须与合规与供应链可行性人工确认。时，用它产出或更新：- 表：OppID Theme Evidence Competitor hint Priority Risks - 一页路线图 ：建议 Q 内验证动作（调研/样品/小测）。",
+  "skill_id": "09921-skill-a2f2a8ac",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/product-manage/new-sku-opportunity-scanner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/product-manage/new-sku-opportunity-scanner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39d8e8e54007e1b338571b324e32b2fca6c320009cbe147e35cc1afeca2e69dd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

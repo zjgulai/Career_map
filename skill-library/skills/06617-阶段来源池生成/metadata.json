@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-write-zh-literature-search",
+  "中文名称": "阶段来源池生成",
+  "一句话作用": "paper-write-zh内部prepare阶段的来源池构建参考，仅在当前中文正文写作已命中且需要CNKI/知网来源、GB/T 7714引用或引用真实性核验时使用，不作为独立检索入口，也不直接写正文。只把可追溯且达到核验门槛的来源写入.workflow/source pool.md，不把候选元数据冒充正式引用。独立文献检索或系统性调研转/doubao-literature-research。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要paper-write-zh内部prepare阶段的来源池构建参考，仅在当前中文正文写作已命中且需要CNKI/知网来源、GB/T 7714引用或引用真实性核验时使用，不作为独立检索入口，也不直接写正文。只把可追溯且达到核验门槛的来源写入.workflow/source pool.md，不把候选元数据冒充正式引用。独立文献检索或系统性调研转/doubao-literature-research。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06617-paper-write-zh-literature-search-9b52c60c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/literature-search/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/literature-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b753ff3dbdc6674eb76a7070996692738635d6cc0c255759eea529cf93bde475",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

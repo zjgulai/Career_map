@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-growth-dataagent-analytics",
+  "中文名称": "增长DataAgent分析 驱动的用户增长全链路智能诊断",
+  "一句话作用": "触发词：增长诊断、激活率异常、LTV 下降归因、指标异动排查、根因下钻、优先级行动清单。何时不用：只算渠道获客贡献用「DTC 获客归因」；只预测流失概率用「客户流失预测」；只做常规取数与多步 BI 问答用「多步推理 BI」。安全边界：不得采集或落库个人身份信息，欧洲站与加州站须分别符合 GDPR 与 CCPA；诊断与行动建议须人工审核后再执行，模型不直接改预算或价格。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要增长团队面临\"用户激活率下降12%需2天排查原因错过干预窗口\"——Growth Agent5分钟自动诊断定位月龄匹配问题，激活率恢复年化价值约120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03193-p2s-growth-dataagent-analytics-f750ec42",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-growth-dataagent-analytics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-growth-dataagent-analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "854cc5983d6df6315ba21b11510ee0f1eb87d38d9ce164d06fbe878e81e25e76",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

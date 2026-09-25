@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-explainable-review-adjudication",
+  "中文名称": "可解释评论真伪裁决 证据图推理",
+  "一句话作用": "触发词：评论真伪裁决、证据图、可解释裁定、刷评申诉、账号关联分析、裁决书。何时不用：要做整店刷评网络与风险打分用「虚假评论检测」；要做差评维度根因排序用「差评根因分析」。安全边界：裁决结论必须附证据引用才可用于申诉，不得只给真或假的二元标签；存在误判率（卡页口径 8-12%），须保留人工复审与买家申诉通道，评论与账号数据处理须符合个人信息保护法与平台规则。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规面临评论真实性鉴别成本高——可解释裁定引擎将差评过滤准确率提升至96%，年化节省人工审核22万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12178-p2s-explainable-review-adjudication-09559f1d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-explainable-review-adjudication/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-explainable-review-adjudication/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c460aacc8224c664a8fcb6841bfb85248064f8e2de3513d877be5861962928b1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

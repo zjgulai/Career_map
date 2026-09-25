@@ -1,0 +1,22 @@
+{
+  "英文名称": "diffdock",
+  "中文名称": "待补：diffdock",
+  "一句话作用": "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction.",
+  "关键输入": "This skill should be used when: - \"Dock this ligand to a protein\" or \"predict binding pose\" - \"Run molecular docking\" or \"perform protein-ligand docking\" - \"Virtual screening\" or \"screen compound library\" - \"Where does…",
+  "关键输出": "After docking completes, analyze confidence scores and rank predictions:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - \"Dock this ligand to a protein\" or \"predict binding pose\" - \"Run molecular docking\" or \"perform protein-ligand docking\" - \"Virtual screening\" or \"screen compound library\" - \"Where does…时，用它产出或更新：After docking completes, an…",
+  "skill_id": "05720-diffdock-3e809408",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/diffdock/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/diffdock/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "18cb58a15611258b7e838c72bf157e629e9ff5f07c8236d3b370d5cd8402c561",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

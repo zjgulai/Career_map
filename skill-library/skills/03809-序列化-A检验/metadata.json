@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sequential-ab-testing",
+  "中文名称": "序列化 A检验）",
+  "一句话作用": "触发词：序列检验、提前停止、OBF 边界、显著差异早停、实验周期缩短、多次窥视控制。何时不用：只打算在固定时点做一次分析时用经典固定样本检验；需要边跑边调流量分配时用 MAB 或 Thompson 采样。安全边界：必须预先固定窥视次数以控制提前停止偏差；用户数据处理方式不变但需保持知情同意覆盖。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要吸奶器详情页 A/B 实验需等满 10000 样本×14 天才能分析，错过旺季窗口——序列检验在 Day 7 检测到显著差异即提前结束，缩短实验周期 40%，年加速 6-8 次产品迭代时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03809-p2s-sequential-ab-testing-ba9fe67b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sequential-ab-testing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sequential-ab-testing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "98abc51e9cc51800845c0f7bc1214b7daf81f9a2b74565a50e523411e774e244",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-presenter-mode",
+  "中文名称": "演讲者模式 Deck",
+  "一句话作用": "tokyo-night 默认主题, T 切换 5 主题, S 打开提词器 popup",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "engineering",
+  "解决具体问题": "当需要tokyo-night 默认主题, T 切换 5 主题, S 打开提词器 popup时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10386-deck-presenter-mode-d9fb9c5c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/deck-presenter-mode/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/deck-presenter-mode/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "178bdbf0fbb683d4ea3c843143008c9d0c44a8d53a829d1512e9c95d5ce35e2b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "notion-meeting-intelligence",
+  "中文名称": "待补：notion-meeting-intelligence",
+  "一句话作用": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
+  "关键输入": "- Ask for objective, desired outcomes/decisions, attendees, duration, date/time, and prior materials. - Search Notion for relevant docs, past notes, specs, and action items (Notion:notion-search), then fetch key pages (Notion:notion-fetch). - Capture blockers…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- reference/ — template picker and meeting templates (e.g., template-selection-guide.md, status-update-template.md, decision-meeting-template.md, sprint-planning-template.md, one-on-one-template.md, retrospective-templa…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01623-notion-meeting-intelligence-f8b19016",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/notion-meeting-intelligence/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/notion-meeting-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

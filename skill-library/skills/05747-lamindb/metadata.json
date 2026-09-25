@@ -1,0 +1,22 @@
+{
+  "英文名称": "lamindb",
+  "中文名称": "待补：lamindb",
+  "一句话作用": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flo…",
+  "关键输入": "input artifact = ln.Artifact.get(key=\"raw/batch ${batch id}.fastq.gz\") input path = input artifact.cache()",
+  "关键输出": "Curation process: 1. Validation : Confirm datasets match desired schemas 2. Standardization : Fix typos, map synonyms to canonical terms 3. Annotation : Link datasets to metadata entities for queryability Schema types: - Flexible schemas : Validate only known…",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Use this skill when: - Managing biological datasets : scRNA-seq, bulk RNA-seq, spatial transcriptomics, flow cytometry, multi-modal data, EHR data - Tracking computational workflows : Notebooks, scripts, pipeline execut…时，用它产出或更新：Curation process: 1. Valid…",
+  "skill_id": "05747-lamindb-5e418898",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/lamindb/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/lamindb/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66c479912ddd7efc1db2109fde55f9b8bb5bdaad178cf5bbf4e688fe8771cb68",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Human-in-Loop-Approval-Gate-Tag",
+  "中文名称": "待补：Human in Loop Approval Gate Tag",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 91.4, \"best\": 91.4, \"ts\": \"2026-07-04T05:00:29.106987\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T20:00:29+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 91.4, \"best\": 91.4, \"ts\": \"2026-07-04T05:00:29.106987\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07201-skill-human-in-loop-approval-gate-tag-79d9048a",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Human-in-Loop-Approval-Gate-Tag.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Human-in-Loop-Approval-Gate-Tag.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "5d3a4b22394f1003a2d2c7f3a1747ca2de84d7c6ff28a3031fa324db290b02c0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

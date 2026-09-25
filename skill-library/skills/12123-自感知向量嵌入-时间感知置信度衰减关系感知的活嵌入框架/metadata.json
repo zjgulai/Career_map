@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-smartvector-self-aware-embeddings",
+  "中文名称": "自感知向量嵌入 时间感知置信度衰减关系感知的活嵌入框架",
+  "一句话作用": "触发词：自感知嵌入、置信度衰减、时间感知检索、过期答案、活嵌入。何时不用：知识内容不随时间失效时不必加衰减；要按时间窗口建图走时序知识图谱 RAG。安全边界：衰减率设置不当可能让法规类长期有效规则被过早降权，须避免合规文档被错误忽略。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要静态嵌入不知道自己什么时候创建的也无法判断是否过期——SmartVector添加时间感知+Ebbinghaus置信度衰减+关系感知，Top-1准确率从31%提升至62%，过期答案率从35%降至13.3%（2026 arXiv:2604.20598）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12123-p2s-smartvector-self-aware-embeddings-459f1f6c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-smartvector-self-aware-embeddings/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-smartvector-self-aware-embeddings/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f0348f9d847bd8b363c630adc7bd8b4e08108785018740d466ea029dea1f97e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

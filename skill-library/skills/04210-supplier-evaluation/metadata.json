@@ -1,0 +1,22 @@
+{
+  "英文名称": "supplier-evaluation",
+  "中文名称": "待补：supplier-evaluation",
+  "一句话作用": "当用户需要做 1688 供应商背景调查、验厂评估与准入决策时使用，输出供应商画像与风险建议。缺不可推定的关键材料（账号/文件/数值）才追问；可依行业惯例或品牌既定风格推定的，标注假设后继续，绝不编造数据。触发词：供应商评估、1688调查、供应商准入、验厂评估、供应商背景调查、供应商风险。何时不用：替代正式法务审核、库存补货预测、物流路线规划。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完整评估报告示例见 references/workflow-example.md。评估报告包含：基本信息（公司/店铺/日期）、工商信息（注册/资本/诉讼/异常）、1688店铺分析（等级/交易/评价/复购/退款率）、供应能力（产能/MOQ/交期/弹性）、质量与合规（认证/质检/环保）、风险矩阵（五维评级）、准入建议（通过/谨慎/拒绝）与验厂Checklist。",
+  "最新更新时间": "2026-09-13T03:00:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当用户需要做 1688 供应商背景调查、验厂评估与准入决策时使用，输出供应商画像与风险建议。缺不可推定的关键材料（账号/文件/数值）才追问；可依行业惯例或品牌既定风格推定的，标注假设后继续，绝不编造数据。触发词：供应商评估、1688调查、供应商准入、验厂评估、供应商背景调查、供应商风险。何时不用：替代正式法务审核、库存补货预测、物流路线规划。时，用它产出或更新：完整评估报告示例见 references/workflow-example.md。评估报告包含：基本信息（公司/店铺/日期）、工商信息（注册/资本/…",
+  "skill_id": "04210-supplier-evaluation-58c5dcea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/supplier-evaluation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/supplier-evaluation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c8f4108f900224b6a2f4a6d8a77cb8bd732f297e3cac818fe1b1e16ab630c68",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-compliant-dynamic-pricing-guard",
+  "中文名称": "合规-定价双约束优化）",
+  "一句话作用": "触发词：定价合规、MAP 协议、价格底线、跨市场价差、关税传导。何时不用：不带合规约束的定价优化用「AIGP 动态定价」；本技能是套在定价引擎外的约束护栏。安全边界：护栏不得被绕过，调价须留存约束激活日志供合规审查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要AI 动态定价在大促期间将美国售价压低 35%，触发品牌 MAP 协议并引发欧洲经销商投诉——合规-定价双约束框架在优化 GMV 的同时实时检测 MAP/最低价/反倾销边界，违规率归零时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02928-p2s-compliant-dynamic-pricing-guard-270d4b71",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-compliant-dynamic-pricing-guard/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-compliant-dynamic-pricing-guard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3caa5160a1f98e49cc496b9f2c003975e793da6fb153a1c50d88b9076a357c48",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

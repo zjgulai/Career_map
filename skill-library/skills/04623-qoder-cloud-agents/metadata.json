@@ -1,0 +1,22 @@
+{
+  "英文名称": "qoder-cloud-agents",
+  "中文名称": "待补：qoder-cloud-agents",
+  "一句话作用": "Run and manage Qoder Cloud Agents tasks with QCA tools. Use for Agent and Template configuration, cloud conversations, scheduled tasks, and execution results.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:32+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Run and manage Qoder Cloud Agents tasks with QCA tools. Use for Agent and Template configuration, cloud conversations, scheduled tasks, and execution results.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04623-qoder-cloud-agents-fa634b9c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/qoder-cloud-agents/1.2.0/skills/qoder-cloud-agents/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/qoder-cloud-agents/1.2.0/skills/qoder-cloud-agents/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "73c7afdea2f8ee6ec96294e424299928bc4ab86baf22f6361be5a45f8930930f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

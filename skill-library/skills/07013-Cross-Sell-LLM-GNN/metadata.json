@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Cross-Sell-LLM-GNN",
+  "中文名称": "待补：Cross Sell LLM GNN",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 81.0, \"best\": 81.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T02:42:42.726300\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T17:42:42+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 81.0, \"best\": 81.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T02:42:42.726300\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07013-skill-cross-sell-llm-gnn-6c3e850e",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Cross-Sell-LLM-GNN.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Cross-Sell-LLM-GNN.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "c06560cde79906612dd3780f77d8dcd073a7a2dc3ee3870c50b33eeb3e8b1b45",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

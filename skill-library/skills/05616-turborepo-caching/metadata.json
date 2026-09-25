@@ -1,0 +1,22 @@
+{
+  "英文名称": "turborepo-caching",
+  "中文名称": "待补：turborepo-caching",
+  "一句话作用": "Configure Turborepo for efficient monorepo builds with local and remote caching. Use when setting up Turborepo, optimizing build pipelines, or implementing distributed caching.",
+  "关键输入": "- Setting up new Turborepo projects - Configuring build pipelines - Implementing remote caching - Optimizing CI/CD performance - Migrating from other monorepo tools - Debugging cache misses",
+  "关键输出": "turbo build --verbosity=2",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Setting up new Turborepo projects - Configuring build pipelines - Implementing remote caching - Optimizing CI/CD performance - Migrating from other monorepo tools - Debugging cache misses时，用它产出或更新：turbo build --verbosity=2",
+  "skill_id": "05616-turborepo-caching-31f8dcf0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/turborepo-caching/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/turborepo-caching/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6741ecdc9895cbf29b6b007965b350c15c974eff09f4ee003edb32eec90baeec",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

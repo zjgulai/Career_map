@@ -1,0 +1,22 @@
+{
+  "英文名称": "stock-logic-research",
+  "中文名称": "个股投资逻辑研究",
+  "一句话作用": "用于个股核心投资逻辑深度研究，聚焦个股研究/基本面分析/机构研究。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户输入一个股票名称后，希望快速得到一份接近券商研究员风格的高质量个股分析。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于个股核心投资逻辑深度研究，聚焦个股研究/基本面分析/机构研究。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户输入一个股票名称后，希望快速得到一份接近券商研究员风格的高质量个股分析。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05430-stock-logic-research-29e717af",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/stock-logic-research/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/stock-logic-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b81df43db37a37586eccca14aa9c7660191b09aa75bf55b270cb70c2e1d0f47c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "weather",
+  "中文名称": "待补：weather",
+  "一句话作用": "Get current weather and forecasts (no API key required).",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Get current weather and forecasts (no API key required).时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05950-weather-41ce7d53",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/weather/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/weather/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "088bdfb242d721f22cf33f7152d5035c5f7ecc053c0fb65044cebd74a61b3964",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

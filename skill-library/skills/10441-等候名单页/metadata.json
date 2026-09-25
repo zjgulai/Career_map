@@ -1,0 +1,22 @@
+{
+  "英文名称": "waitlist-page",
+  "中文名称": "等候名单页",
+  "一句话作用": "极简产品预发布落地页, 含邮箱捕获、logo、装饰图层",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要极简产品预发布落地页, 含邮箱捕获、logo、装饰图层时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10441-waitlist-page-e7dd93b1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/waitlist-page/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/waitlist-page/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c5cd0963825eba0ada66534762ce687cc0f11f074e91a0a299e32b0c14fec924",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

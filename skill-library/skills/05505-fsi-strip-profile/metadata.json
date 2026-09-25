@@ -1,0 +1,22 @@
+{
+  "英文名称": "fsi-strip-profile",
+  "中文名称": "待补：fsi-strip-profile",
+  "一句话作用": "Creates professional investment banking strip profiles (company profiles) for pitch books, deal materials, and client presentations. Generates 1-4 information-dense slides with quadrant layouts, charts, and tables.",
+  "关键输入": "- Ask the user : Single-slide or multi-slide (3-4 slides)? - Ask the user : Any specific focus areas or topics to emphasize? - Only after user confirms , proceed to research",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Horizontal Bar (fits in bottom-right quadrant for 4:3 slide): Pie Chart (fits in bottom-right quadrant for 4:3 slide): Line Chart (full width for subsequent slides): ---时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05505-fsi-strip-profile-0b8366c9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/strip-profile/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/strip-profile/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16ec4d6055904e4dd3ecd26de5f94437e9d4e36755fd156d92e182165de9bcf0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

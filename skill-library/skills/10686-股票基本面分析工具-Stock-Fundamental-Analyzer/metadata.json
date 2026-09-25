@@ -1,0 +1,22 @@
+{
+  "英文名称": "stock-finance-profiler",
+  "中文名称": "股票基本面分析工具（Stock Fundamental Analyzer）",
+  "一句话作用": "股票基本面分析工具：基于用户提供的三张财务报表（资产负债表、利润表、现金流量表），计算超过 20 项核心财务指标（涵盖盈利能力、偿债能力、流动性、营运效率、每股指标、现金流和成长能力）并进行详细的杜邦分析。当用户提及财报分析、基本面分析、财务指标计算、杜邦分解、ROE 分析，或使用类似“帮我分析一下这家公司的财报”、“计算一下财务比率”等表述时触发。",
+  "关键输入": "输入为 JSON 格式，包含以下部分： 字段 类型 必填 说明 ------ ------ ------ ------ company name string 否 公司名称 report period string 否 报告期（如 \"2025Q4\"） currency string 否 货币单位（默认 \"CNY\"） balance sheet object 是 资产负债表数据 income statement object 是 利润表数据",
+  "关键输出": "脚本会输出结构化的分析报告，包含各类指标的数值、参考范围和简要评价。详细用法请参考 scripts/analyze.py --help。",
+  "最新更新时间": "2026-09-14T00:06:10+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要股票基本面分析工具：基于用户提供的三张财务报表（资产负债表、利润表、现金流量表），计算超过 20 项核心财务指标（涵盖盈利能力、偿债能力、流动性、营运效率、每股指标、现金流和成长能力）并进行详细的杜邦分析。当用户提及财报分析、基本面分析、财务指标计算、杜邦分解、ROE 分析，或使用类似“帮我分析一下这家公司的财报”、“计算一下财务比率”等表述时触发。时，用它产出或更新：脚本会输出结构化的分析报告，包含各类指标的数值、参考范围和简要评价。详细用法请参考 scripts/analyze.py --help。",
+  "skill_id": "10686-stock-finance-profiler-19d5e5a5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/stock-finance-profiler/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/stock-finance-profiler/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dd9b627f6e8455a2afb339c645b2ce3261c630f39d19311248f3735bcfecf60a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

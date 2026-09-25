@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dark-pattern-review-detection",
+  "中文名称": "评论水军与暗模式检测",
+  "一句话作用": "触发词：水军检测、暗模式评论、差评攻击、协调行为识别、刷单自查。何时不用：只判别单条文本是否机器生成走 AI 生成内容检测；只看差评速率波动可用更轻的异常检测。安全边界：reviewer 行为分析须遵循 GDPR 数据最小化；误报会误伤真实评论，提交申诉前须设高置信阈值。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"竞品刷单水军在平台站稳脚跟导致真实口碑信号被污染\"——暗模式评论检测将水军识别召回率从55%提升至91%，年化减少因虚假竞品信号导致的选品错误损失30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03028-p2s-dark-pattern-review-detection-7c0eb202",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dark-pattern-review-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dark-pattern-review-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4cb25220a1cc7819dd70748b18a190c65dfc5ed989300a7b857d75cab837eaba",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

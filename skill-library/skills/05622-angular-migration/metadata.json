@@ -1,0 +1,22 @@
+{
+  "英文名称": "angular-migration",
+  "中文名称": "待补：angular-migration",
+  "一句话作用": "Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applications, planning framework migrations, or modernizing legacy Ang…",
+  "关键输入": "- Migrating AngularJS (1.x) applications to Angular (2+) - Running hybrid AngularJS/Angular applications - Converting directives to components - Modernizing dependency injection - Migrating routing systems - Updating to…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Migrating AngularJS (1.x) applications to Angular (2+) - Running hybrid AngularJS/Angular applications - Converting directives to components - Modernizing dependency injection - Migrating routing systems - Updating to…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05622-angular-migration-7f38eb79",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/framework-migration/skills/angular-migration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/framework-migration/skills/angular-migration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b2236a0fe3661e76f9c10cdf4c2bd267d9059891a1e3bc06a1600c048bd9ea6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "conversation-intelligence",
+  "中文名称": "待补：conversation-intelligence",
+  "一句话作用": "Twilio Conversation Intelligence development guide. Use when building real-time or post-call conversation analysis, language operator pipelines, sentiment analysis, agent assist, cross-channel analytics, or querying agg…",
+  "关键输入": "Conversation Intelligence powers human agent augmentation — giving every agent a \"second brain\" that listens, understands, and surfaces the right data at the right time. Agents focus on empathy, judgment, and problem-so…",
+  "关键输出": "Format Use When Result Shape Schema Support -------- ---------- ------------- ---------------- TEXT Free-form analysis, summaries, translations {\"text\": \"...\"} Auto-generated (not customizable) JSON Structured extraction with custom fields User-defined via ou…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Conversation Intelligence powers human agent augmentation — giving every agent a \"second brain\" that listens, understands, and surfaces the right data at the right time. Agents focus on empathy, judgment, and problem-so…时，用它产出或更新：Format Use When Result Sha…",
+  "skill_id": "01076-conversation-intelligence-5e52bc0a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-conversation-intelligence/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-conversation-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1e1d7b877a617d068ef8cc0986a912ebbbc6e002f4b3bc3a564603f7c6aef105",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

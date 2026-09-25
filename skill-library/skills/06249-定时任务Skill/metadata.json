@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-cron-scheduler",
+  "中文名称": "定时任务Skill",
+  "一句话作用": "创建、查看、更新或删除定时任务：一次性提醒、周期任务、后台监控、多轮编辑已有任务、登录态/权限敏感任务。用于用户要求提醒我、稍后检查、持续关注、每天/每周/每小时运行、创建定时任务/提醒/监控、修改/暂停/删除刚才或已有定时任务。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 每一次创建/更新定时任务的回复， 必须输出query和需求解析步骤 ，再进入后续动作。这是强制要求，不可省略。 - 只有当用户的需求比较模糊，缺少任务时间、对象或动作等关键信息且无法推断时，才追问用户做需求澄清。",
+  "最新更新时间": "2026-09-22T22:51:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要创建、查看、更新或删除定时任务：一次性提醒、周期任务、后台监控、多轮编辑已有任务、登录态/权限敏感任务。用于用户要求提醒我、稍后检查、持续关注、每天/每周/每小时运行、创建定时任务/提醒/监控、修改/暂停/删除刚才或已有定时任务。时，用它产出或更新：- 每一次创建/更新定时任务的回复， 必须输出query和需求解析步骤 ，再进入后续动作。这是强制要求，不可省略。 - 只有当用户的需求比较模糊，缺少任务时间、对象或动作等关键信息且无法推断时，才追问用户做需求澄清。",
+  "skill_id": "06249-doubao-cron-scheduler-d1a1fdbe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-cron-scheduler/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-cron-scheduler/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3791930f5a44546026c3b9d1a62139bca1b1cb9505d3fa646c3c369a8ed74cf8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

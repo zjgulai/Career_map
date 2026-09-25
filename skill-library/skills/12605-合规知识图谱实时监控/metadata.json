@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-regulatory-graph-compliance-monitor",
+  "中文名称": "合规知识图谱实时监控",
+  "一句话作用": "触发词：合规图谱、实时扫描、复合违规、风险评分、违规点定位、修改建议。何时不用：要修正过期文档来源时用「Corrective-RAG 纠错检索」，只查平台条款单点时用「Amazon ToS 合规护栏」。安全边界：扫描结论为整改建议，不代替 FDA/FTC 等监管判定，也不自动改写线上 Listing。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要吸奶器新品上架美国同时面对FDA/CPSC/FTC/Amazon四套规则人工检查需2-3天——合规知识图谱+GenAI实时扫描10秒内识别复合违规风险并给出修改建议，拦截违规上架避免下架损失年化30-200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12605-p2s-regulatory-graph-compliance-monitor-5d86ac72",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-regulatory-graph-compliance-monitor/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-regulatory-graph-compliance-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fecf33544007c9ba7a4e8e5ac176c3bd27e8de7b982167ec88a4777bdffe5e52",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

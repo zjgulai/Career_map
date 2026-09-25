@@ -1,0 +1,22 @@
+{
+  "英文名称": "amz-product-optimizer",
+  "中文名称": "待补：amz-product-optimizer",
+  "一句话作用": "优化亚马逊商品 Listing 的标题、卖点与关键词布局，用于提升搜索可见性与转化。触发词：亚马逊Listing优化、optimize listing、improve Amazon listing、listing copy、标题优化、Amazon SEO。何时不用：非Amazon平台的Listing（如 Shopify、eBay、独立站）、纯设计/视觉优化（含A+页面的视觉排版与图文设计）、定价策略决策、母婴品类依赖品牌语境和购买心理…",
+  "关键输入": "- 产品名称和基本信息 - 目标关键词列表 - 竞品ASIN（可选） - 现有Listing文案（如为优化场景） - VOC分析结果（可选，用于痛点挖掘）",
+  "关键输出": "- 优化后的产品标题（200字符以内，符合Amazon规范） - 五行卖点（Bullet Points），每点突出一个核心价值 - 产品描述（A+ Content建议） - 后端搜索词（Backend Keywords） - 优化建议报告",
+  "最新更新时间": "2026-09-13T03:00:37+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 新品上架前的Listing撰写 - 现有Listing的优化改进 - CTR低于1%或CVR低于5%时的诊断优化 - 竞品分析后的差异化定位 - 关键词研究与布局时，用它产出或更新：- 优化后的产品标题（200字符以内，符合Amazon规范） - 五行卖点（Bullet Points），每点突出一个核心价值 - 产品描述（A+ Content建议） - 后端搜索词（Backend Keywords） - 优化建议报告",
+  "skill_id": "02452-amz-product-optimizer-1f2a24f8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/amz-product-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/amz-product-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16af5f9db180109e54566a393914a1825b1155de1a0f80e0e4777767b9d39f59",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

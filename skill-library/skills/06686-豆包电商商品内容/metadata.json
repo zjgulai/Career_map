@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-product-content",
+  "中文名称": "豆包电商商品内容",
+  "一句话作用": "生成或优化电商商品标题、详情文案和商品页静态图片。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 默认使用用户语言；中文场景优先中文输出。跨境平台可按用户要求输出英文或目标语种。 - 最终交付必须按 references/atom-output-contracts.md 中的交付模式组织：标题、详情页文案、商品图片三类同时覆盖时输出飞书文档成稿；未明确限定能力时仍默认尝试真实飞书文档，但文档内容按用户明确需求和语义强相关模块组织，不默认补齐拍摄脚本或固定数量详情图；只有明确限定的单项或两项能力才在对话中直接输出可复制结果。 - 飞书文档成稿模式不是普通聊天排版：在 ActionHub 或目标 App 环境…",
+  "最新更新时间": "2026-09-16T11:25:01+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要生成或优化电商商品标题、详情文案和商品页静态图片。时，用它产出或更新：- 默认使用用户语言；中文场景优先中文输出。跨境平台可按用户要求输出英文或目标语种。 - 最终交付必须按 references/atom-output-contracts.md 中的交付模式组织：标题、详情页文案、商品图片三类同时覆盖时输出飞书文档成稿；未明确限定能力时仍默认尝试真实飞书文档，但文档内容按用户明确需求和语义强相关模块组织，不默认补齐拍摄脚本或固定数量详情图；只有明确限定的单项或两项能力才在对话中直接输出可复制结果。 - 飞…",
+  "skill_id": "06686-doubao-product-content-b29082a3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-product-content/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-product-content/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ab68ca2a1d750799a53e3b9d9a563268ec4ee046960694b7dc4068741744ef0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

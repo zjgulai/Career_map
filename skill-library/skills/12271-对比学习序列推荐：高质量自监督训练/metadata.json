@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-contrastive-sequential-recommendation",
+  "中文名称": "对比学习序列推荐：高质量自监督训练",
+  "一句话作用": "触发词：对比学习、序列推荐、自监督、数据增强、稀疏行为。何时不用：要 session 内实时刷新推荐用「流式实时推荐」；要按匿名会话图预测下一件商品用「SR-GNN 会话推荐」。安全边界：序列增强只允许对真实行为做掩码、截取、打乱，不得伪造用户行为；预训练产物须用真实数据验证后再上线。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要独立站月均购买仅500次数据稀疏无法训练高质量推荐模型——对比学习通过序列增强（掩码/截取/打乱）从稀疏行为中提取自监督信号，无需标注数据精度提升8-15%冷启动推荐质量大幅改善年化15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12271-p2s-contrastive-sequential-recommendation-e34244da",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-contrastive-sequential-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-contrastive-sequential-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "22402924806121ef1040a92b5389de1ab6c8cf012ae859d8139b8179ad918a76",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

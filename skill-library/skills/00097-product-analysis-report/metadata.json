@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-analysis-report",
+  "中文名称": "待补：product-analysis-report",
+  "一句话作用": "Use for a comprehensive analysis, viability assessment, buying evaluation, or decision report for one specific product identified by a card, Alibaba.com URL, product ID, or clear conversation context. Not for unknown-pr…",
+  "关键输入": "- Resolve exactly one Alibaba.com product from the latest user message or immediate context. - If no product is identifiable, ask for a product card or URL. If several products are in scope, ask the buyer to select one. - Follow the latest user-message langua…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use for a comprehensive analysis, viability assessment, buying evaluation, or decision report for one specific product identified by a card, Alibaba.com URL, product ID, or clear conversation context. Not for unknown-pr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00097-product-analysis-report-26f20b98",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/product-analysis-report/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/product-analysis-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8cf7d625e3825c8b718aa86f3e28215f6d65f16c1f823e2e4d7e27b8594d1c85",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

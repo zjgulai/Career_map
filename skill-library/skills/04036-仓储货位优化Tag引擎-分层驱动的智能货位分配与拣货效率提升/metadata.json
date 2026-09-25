@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-warehouse-slotting-optimization-tag",
+  "中文名称": "仓储货位优化Tag引擎 分层驱动的智能货位分配与拣货效率提升",
+  "一句话作用": "触发词：货位Tag、ABC分层、黄金区、大促临时货位。何时不用：没有仓储系统货位接口时无法落地标签；一次性货位规划用货位优化类技能。安全边界：迁移期需设缓冲库存并分批迁移，避免短期拣货混乱与订单延迟。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要仓储管理面临\"货位沿用历史分配导致拣货行走距离浪费\"——ABC标签驱动的智能货位分配将拣货效率提升20-40%，年化节省约14万元人力成本，零额外投入时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04036-p2s-warehouse-slotting-optimization-tag-81abb71e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-warehouse-slotting-optimization-tag/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-warehouse-slotting-optimization-tag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9109210e62b275009d25b236da8e28d499322c3ad0263279b135ba37d5f24a0a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

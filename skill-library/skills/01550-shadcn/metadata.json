@@ -1,0 +1,22 @@
+{
+  "英文名称": "shadcn",
+  "中文名称": "待补：shadcn",
+  "一句话作用": "shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS integration, and high-quality interface design. Use when initializing shadcn, adding components, co…",
+  "关键输入": "npx shadcn@latest docs button npx shadcn@latest docs dialog",
+  "关键输出": "npx shadcn@latest docs button npx shadcn@latest docs dialog",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要npx shadcn@latest docs button npx shadcn@latest docs dialog时，用它产出或更新：npx shadcn@latest docs button npx shadcn@latest docs dialog",
+  "skill_id": "01550-shadcn-60b55491",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/shadcn/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/shadcn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f624e06541dcf3c3c8cb3978fe924fa2fded979048f360ae4919f27edbb67fb2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

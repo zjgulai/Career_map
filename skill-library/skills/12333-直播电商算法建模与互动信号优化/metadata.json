@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-live-commerce-stream-algorithm",
+  "中文名称": "直播电商算法建模与互动信号优化",
+  "一句话作用": "触发词：直播算法评分、开播前 15 分钟、大流量池、弹幕密度、加购率信号、直播商品排期。何时不用：要预测某场直播的转化结果用「Live Stream Conversion Predictor」，要提升短视频自然推荐量用「TikTok Algorithm Content Boost」；本技能只做直播间实时评分、瓶颈信号定位与开播策略建议。安全边界：只输出指标诊断与排期建议，不代播、不自动投放、不改平台参数，策略落地须由直播团队确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要直播开播前 15 分钟是算法分流关键期，团队不知道该做什么来提升在线人数增速和加购率进入大流量池——针对算法决定期的预热策略将平均在线人数峰值提升 3-5 倍，场均 GMV 从 1 万增至 3-8 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12333-p2s-live-commerce-stream-algorithm-27872664",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-live-commerce-stream-algorithm/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-live-commerce-stream-algorithm/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3e525b7185a2728f72a4788bb11de24ff04baacd0abf9b2e011b43af5932697",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

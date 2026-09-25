@@ -1,0 +1,22 @@
+{
+  "英文名称": "template-creator",
+  "中文名称": "待补：template-creator",
+  "一句话作用": "Create or update a reusable personal Codex artifact-template skill. Use when the user invokes $template-creator or asks in natural language to create a reusable template from a reference document, presentation, spreadsh…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-06T12:17:26+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Create or update a reusable personal Codex artifact-template skill. Use when the user invokes $template-creator or asks in natural language to create a reusable template from a reference document, presentation, spreadsh…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00466-template-creator-ce657178",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/template-creator/skills/template-creator/SKILL.md",
+  "relative_path": "lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/template-creator/skills/template-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f1d14fd2847a2e879611a8b8f872f5dc4676a0607958d015274d2dc61e812deb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "dotenv",
+  "中文名称": "待补：dotenv",
+  "一句话作用": "Load environment variables from a .env file into process.env for Node.js applications. Use when configuring apps with secrets, setting up local development environments, managing API keys and database uRLs, parsing .env…",
+  "关键输入": "- If values are undefined, verify dotenv is loaded before importing modules that read env variables. - If parsing fails, inspect for malformed lines and unescaped special characters. - If values are unexpectedly unchang…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:24:37+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- If values are undefined, verify dotenv is loaded before importing modules that read env variables. - If parsing fails, inspect for malformed lines and unescaped special characters. - If values are unexpectedly unchang…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04370-dotenv-2bf15f43",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.npm/_npx/db0efa1a1ed40fd1/node_modules/dotenv/skills/dotenv/SKILL.md",
+  "relative_path": "lute/.npm/_npx/db0efa1a1ed40fd1/node_modules/dotenv/skills/dotenv/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9737515fe845de8abf87bbcb9e04d47f17422f3c92fcc6c913482171e50fc5f9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

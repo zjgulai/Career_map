@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudflare-gen",
+  "中文名称": "待补：cloudflare-gen",
+  "一句话作用": "Generate Cloudflare Workers configuration and code. Use when building on the edge.",
+  "关键输入": "No install needed. Just run with npx. Node.js 18+ recommended. Requires OPENAI API KEY environment variable.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate Cloudflare Workers configuration and code. Use when building on the edge.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04767-cloudflare-gen-77603d90",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/cloudflare-gen/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/cloudflare-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b0139c1c7fa60a60786d3c92bead93d85fe3494fd931f003cc0666be991b22d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

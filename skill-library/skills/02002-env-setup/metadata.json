@@ -1,0 +1,22 @@
+{
+  "英文名称": "env-setup",
+  "中文名称": "待补：env-setup",
+  "一句话作用": "Explain, inspect, configure, and troubleshoot Cloud Agent development environments. Use when the user asks about environment setup or changing/improving the environment.",
+  "关键输入": "Find the earliest failing layer: 1. Image build : Dockerfile syntax, unavailable packages, build context, architecture, or registry access. 2. Provisioning and checkout : repository access, selected ref, runtime user, d…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T14:38:42+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Find the earliest failing layer: 1. Image build : Dockerfile syntax, unavailable packages, build context, architecture, or registry access. 2. Provisioning and checkout : repository access, selected ref, runtime user, d…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02002-env-setup-5fb82531",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cursor/skills-cursor/env-setup/SKILL.md",
+  "relative_path": "lute/.cursor/skills-cursor/env-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0184dc467b45db51b4b754c7a31d29fb81eba70bdac58984252866fa01f0a943",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

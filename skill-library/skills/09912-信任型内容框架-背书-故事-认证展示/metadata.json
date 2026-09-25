@@ -1,0 +1,22 @@
+{
+  "英文名称": "信任型内容框架（背书/故事/认证展示）",
+  "中文名称": "待补：信任型内容框架（背书/故事/认证展示）",
+  "一句话作用": "当需要按母婴「信任优先」逻辑搭建可复用的内容模块（IBCLC 背书要点、真实用户故事结构、安全与认证可见性）并落到章节级 brief 时调用；不替代医学建议或法务审阅。",
+  "关键输入": "- 已有 content-calendar-planner 或等效「周主题/战役」输入。 - 已掌握可引用事实： 注册证/DoC 编号 、 可公开引用的专家关系 （禁止虚构背书）。",
+  "关键输出": "- TrustBrief v1：Markdown；含 Facts NA modules EU modules Assets needed Compliance flags - 表格：模块ID 类型 要点 证据来源 语言/市场 状态",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要按母婴「信任优先」逻辑搭建可复用的内容模块（IBCLC 背书要点、真实用户故事结构、安全与认证可见性）并落到章节级 brief 时调用；不替代医学建议或法务审阅。时，用它产出或更新：- TrustBrief v1：Markdown；含 Facts NA modules EU modules Assets needed Compliance flags - 表格：模块ID 类型 要点 证据来源 语言/市场 状态",
+  "skill_id": "09912-skill-2468801e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/trust-content-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/trust-content-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b711d4f0ca0741813946d606830728b0be964151773218490340368c2d1c7ec8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

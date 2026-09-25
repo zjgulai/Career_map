@@ -1,0 +1,22 @@
+{
+  "英文名称": "gtm-strategy",
+  "中文名称": "待补：gtm-strategy",
+  "一句话作用": "明确目标市场、切入顺序、渠道组合与上市节奏，形成可执行的进入市场方案。触发词：上市策略制定、gtm-strategy、明确目标市场、切入顺序、渠道组合与上市节奏，形成可执行的进入市场方案。",
+  "关键输入": "Use $ARGUMENTS to pass: - Product name and description - Target market segment - Research data or file path - Launch timeline and constraints - Budget or resource limitations",
+  "关键输出": "A structured GTM strategy document including: - Recommended marketing channels with justification - Channel-specific messaging and positioning - Launch timeline with key milestones - KPI targets and measurement framework - Risk mitigation strategies - 90-day…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Planning a product launch - Creating a GTM plan from scratch - Defining a launch strategy for a new market - Developing product-to-market fit strategy - Preparing a product go-live roadmap时，用它产出或更新：A structured GTM strategy document including: - Recommen…",
+  "skill_id": "02580-gtm-strategy-5385de74",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/gtm-strategy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/gtm-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "13dc0eb7063f2481a61da8357b8deacf8701603664ab52adfca854d43918799e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

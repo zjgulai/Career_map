@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-event-sourcing-architecture",
+  "中文名称": "库存事件溯源架构 模式下的库存状态完全可追溯与重放",
+  "一句话作用": "触发词：事件溯源、库存可追溯、时间旅行回放、变更审计、状态重建。何时不用：只要当前库存快照、不需要追溯过程时用普通库存查询；需要实时事件流与读写分离时用实时库存事件流技能。安全边界：事件日志只追加不修改，任何库存调整都须留下事件记录以便审计。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓储团队面临\"库存差异找不到根因\"——事件溯源将盘点差异排查从2天→10分钟时间旅行回放，实现库存状态完全可追溯时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03256-p2s-inventory-event-sourcing-architecture-8cbad044",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-inventory-event-sourcing-architecture/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-inventory-event-sourcing-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aeb85d96ea045fcd91990ab1580090c95706c14313fbf38bfafa3b20fa98f834",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-demand-signal-extraction",
+  "中文名称": "从非结构化数据抽取需求信号 评论社媒挖掘",
+  "一句话作用": "触发词：需求信号、评论挖掘、卖点提炼、结构化抽取。何时不用：评论量很小、人工即可读完时不必批处理；需要严格统计口径时用规则化编码类技能。安全边界：评论数据获取需遵守平台条款，建议通过官方 API 或合规数据供应商获取。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要选品分析师面临\"从海量评论和社媒内容中手动提炼需求信号耗时且遗漏多\"——LLM结构化需求信号抽取将分析覆盖率从5%提升至90%且速度提升50倍，年化发现更多选品机会增收30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03337-p2s-llm-demand-signal-extraction-ff21ad9d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-demand-signal-extraction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-demand-signal-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7653d76e2c4de089a4ca26847928f5030849414546dc5c98187c8f2f476a43f6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "dynamic-resources",
+  "中文名称": "待补：dynamic-resources",
+  "一句话作用": "Example skill loaded from resources discover",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-05T18:08:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Example skill loaded from resources discover时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00430-dynamic-resources-fe63b930",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.aily-cli/runtimes/0.1.35/aily-runtime-darwin-arm64/js/node_modules/.pnpm/@earendil-works+pi-coding-agent@0.75.5_ws@8.20.0_zod@4.4.3/node_modules/@earendil-works/pi-coding-agent/examples/extensions/dynamic-resources/SKILL.md",
+  "relative_path": "lute/.aily-cli/runtimes/0.1.35/aily-runtime-darwin-arm64/js/node_modules/.pnpm/@earendil-works+pi-coding-agent@0.75.5_ws@8.20.0_zod@4.4.3/node_modules/@earendil-works/pi-coding-agent/examples/extensions/dynamic-resources/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8f34b0d81aa791a2d56501756fe0ace21fb78ca2754025d093f41d3b0ccaf69",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

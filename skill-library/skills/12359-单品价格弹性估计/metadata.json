@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-monodense",
+  "中文名称": "单品价格弹性估计",
+  "一句话作用": "触发词：单品弹性、无需对照实验、高维特征弹性、SKU 分层、以价换量、溢价定价。何时不用：要用工具变量处理内生性时用「工具变量 IV 识别价格弹性」；要覆盖多 SKU 交互定价时用「MAPPO+GAT 多 SKU 协同定价」。安全边界：弹性结论只用于定价策略分层，不得据单一模型输出自动改价，差异化定价需过合规。",
+  "关键输入": "输入 ：各平台历史销售数据（月销量、价格、促销标记、库存状态），以及竞品价格、季节性标记与产品属性（容量、材质、功能）等特征；粒度为单品 × 月。 输出 ：每个单品的弹性估计与高/低弹性分层，以及对应的定价策略建议（高弹性走竞争性低价、低弹性走溢价）；供定价与品类运营使用。",
+  "关键输出": "输入 ：各平台历史销售数据（月销量、价格、促销标记、库存状态），以及竞品价格、季节性标记与产品属性（容量、材质、功能）等特征；粒度为单品 × 月。 输出 ：每个单品的弹性估计与高/低弹性分层，以及对应的定价策略建议（高弹性走竞争性低价、低弹性走溢价）；供定价与品类运营使用。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：单品弹性、无需对照实验、高维特征弹性、SKU 分层、以价换量、溢价定价。何时不用：要用工具变量处理内生性时用「工具变量 IV 识别价格弹性」；要覆盖多 SKU 交互定价时用「MAPPO+GAT 多 SKU 协同定价」。安全边界：弹性结论只用于定价策略分层，不得据单一模型输出自动改价，差异化定价需过合规。时，用它产出或更新：输入 ：各平台历史销售数据（月销量、价格、促销标记、库存状态），以及竞品价格、季节性标记与产品属性（容量、材质、功能）等特征；粒度为单品 × 月。 输出 ：每个单品的弹性估计与高/…",
+  "skill_id": "12359-p2s-monodense-a58d9a7d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-monodense/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-monodense/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f1a81faf5f0cb09f2c8d695df7a4b889e5f301fae4684e4fd30c3782e8109c0e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

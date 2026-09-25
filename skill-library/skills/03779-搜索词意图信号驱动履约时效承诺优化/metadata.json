@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-driven-logistics-promise",
+  "中文名称": "搜索词意图信号驱动履约时效承诺优化",
+  "一句话作用": "触发词：时效承诺优化、搜索词时效敏感度、FBA 库存分布、履约时效脱节、差评率下降、A9 排名保护。何时不用：要大促结束后的履约与售罄复盘用「Skill-PostPromo-Retrospective-KPI」，要定商品组合与套餐价格用「Skill-Bundle-Pricing-Strategy」；本技能只按搜索词时效意图与库存分布算每个 ASIN 该承诺几天。安全边界：时效承诺须真实可履约，虚假承诺违反 Amazon 卖家协议；调整…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"旺季FBA时效承诺与实际履约脱节导致差评激增和A9排名下滑\"——搜索词时效意图驱动的动态承诺优化将差评率降低40%排名稳定，年化保护流量价值30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03779-p2s-search-driven-logistics-promise-c4d8037a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-search-driven-logistics-promise/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-search-driven-logistics-promise/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1c6bd7f521ba20aa96d4386163224f9e231e208bdd1d9eb7e2da6b22ae184e04",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

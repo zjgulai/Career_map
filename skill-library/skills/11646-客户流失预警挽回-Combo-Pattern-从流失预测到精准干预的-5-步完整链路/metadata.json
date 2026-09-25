@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-combo-customer-churn-recovery",
+  "中文名称": "客户流失预警挽回 Combo Pattern 从流失预测到精准干预的 5 步完整链路",
+  "一句话作用": "触发词：流失挽回链路、流失评分、RFM 分层、触达时机、文案优化、Combo。何时不用：只做单点流失预测或单次触达用流失预测卡；要把预测、分层、时机、文案、激励串成完整挽回链路时用本卡。安全边界：激励成本与触达频率须设上限，遵守邮件与隐私法规并提供退订，不得对已退订用户重复触达。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户运营面临\"用户流失了但流失预测/触达策略/最优时机/文案优化是四个孤立系统没有联动\"——5步精准干预链路将高危用户挽回率从12%提升至34%，年化增收$8.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11646-p2s-combo-customer-churn-recovery-4fc8949b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-combo-customer-churn-recovery/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-combo-customer-churn-recovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "96ab5f821c21a8a8d8819693f8d2b8569b7c98d481fb9e9a09be8216b910e01f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

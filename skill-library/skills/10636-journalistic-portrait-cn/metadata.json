@@ -1,0 +1,22 @@
+{
+  "英文名称": "journalistic-portrait-cn",
+  "中文名称": "待补：journalistic-portrait-cn",
+  "一句话作用": "创建复刻《南方人物周刊》视觉设计的中文杂志风格 HTML 网页。适用于特稿版面、带红色边框的封面页、配肖像照片的目录页，以及带编辑章节标题的双栏内页，复刻中文周刊的排版与配色。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Format Supported Notes -------- ----------- ------- HTML (static web page) Yes Primary output PDF Yes Via print-to-PDF from browser DOCX No Not applicable for magazine layout PPTX No Not applicable for magazine layout Default output : HTML static web page (si…",
+  "最新更新时间": "2026-09-14T00:08:02+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要创建复刻《南方人物周刊》视觉设计的中文杂志风格 HTML 网页。适用于特稿版面、带红色边框的封面页、配肖像照片的目录页，以及带编辑章节标题的双栏内页，复刻中文周刊的排版与配色。时，用它产出或更新：Format Supported Notes -------- ----------- ------- HTML (static web page) Yes Primary output PDF Yes Via print-to-PDF from browser DOCX No Not applicable for…",
+  "skill_id": "10636-journalistic-portrait-cn-ccea2db7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/journalistic-portrait-cn/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/journalistic-portrait-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "767afa76d94692673f9ea0ba778525d350a83e826488636758ae8e3fc179c924",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

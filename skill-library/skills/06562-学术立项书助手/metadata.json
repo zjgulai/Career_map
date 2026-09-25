@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-research-proposal",
+  "中文名称": "学术立项书助手",
+  "一句话作用": "用于国自然、国社科等基金申请、开题报告、博士后/人才计划、研究计划书等学术提案的撰写、审查和优化；当用户需要基于已有研究成果形成立项书、区分事实与 AI 建议、检查任务书一致性、补强论证逻辑时使用。",
+  "关键输入": "输入要求 ： - 基本信息：研究主题、研究方向、任务书/模板要求、申报类别、字数/格式限制、匿名化要求、输出格式。 - 关键材料（应主动引导用户尽量提供）：初步研究想法、已发表成果摘要、关键实验数据、核心参考文献、已有草稿或文献笔记。仅有研究主题、研究方向和目标机构、但无任何成果或雏形时，应明确告知用户本 Skill 不适用于从零到一的 idea 生成，仅能生成框架性草稿，并主动引导补充论文、研究计划或已有成果。 - 模板：可使用 Skill 预置模板；若用户提供自定义模板、学校/单位模板或最新版模板，优先使用用…",
+  "关键输出": "输入要求 ： - 基本信息：研究主题、研究方向、任务书/模板要求、申报类别、字数/格式限制、匿名化要求、输出格式。 - 关键材料（应主动引导用户尽量提供）：初步研究想法、已发表成果摘要、关键实验数据、核心参考文献、已有草稿或文献笔记。仅有研究主题、研究方向和目标机构、但无任何成果或雏形时，应明确告知用户本 Skill 不适用于从零到一的 idea 生成，仅能生成框架性草稿，并主动引导补充论文、研究计划或已有成果。 - 模板：可使用 Skill 预置模板；若用户提供自定义模板、学校/单位模板或最新版模板，优先使用用…",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要适用于基金申请（如国自然、国社科）、博士后或人才计划、学位论文开题报告、保研/考研/申博/访学/联合培养研究计划、科研立项书等场景。用户可能会说“帮我写基金申请”“优化开题报告”“审查研究计划”“根据已有成果写立项书”“检查申请书是否符合模板”。 不适用于全面系统综述、纯文献计量分析、从零到一的科研选题/idea 生成、单纯论文润色、法律/医疗/财务等高风险结论判断。 - 立项/基金/开题报告交付→本 Skill - 需要完整领域调研…时，用它产出或更新：输入要求 ： - 基本信息：研究主题、研究方向、任务…",
+  "skill_id": "06562-doubao-research-proposal-469ea665",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-research-proposal/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-research-proposal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a8bb50d9e8d492b8bae7e36ed8ac52f1e03690ee303953afa40260a7f992ee4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

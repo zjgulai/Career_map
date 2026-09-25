@@ -1,0 +1,22 @@
+{
+  "英文名称": "research-baseline-builder",
+  "中文名称": "待补：research-baseline-builder",
+  "一句话作用": "Translate scientific questions into clear data inputs, outputs, and baseline workflows. Use when Codex needs to help researchers clarify what data goes in, what target or result should come out, how samples/labels/featu…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "python scripts/init research baseline workspace.py \"股票收益预测\" --template gru --root ./my project",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Translate scientific questions into clear data inputs, outputs, and baseline workflows. Use when Codex needs to help researchers clarify what data goes in, what target or result should come out, how samples/labels/featu…时，用它产出或更新：python scripts/init resear…",
+  "skill_id": "04642-research-baseline-builder-0dcedff4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/research-baseline-builder/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/research-baseline-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "abd78c01841603828cfecf5b5be800c383bb27ed101b49158e3be00d13a0fd5b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

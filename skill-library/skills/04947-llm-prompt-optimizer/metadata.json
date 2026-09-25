@@ -1,0 +1,22 @@
+{
+  "英文名称": "llm-prompt-optimizer",
+  "中文名称": "待补：llm-prompt-optimizer",
+  "一句话作用": "Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage.",
+  "关键输入": "- Use when a prompt returns inconsistent, vague, or hallucinated results - Use when you need structured/JSON output from an LLM reliably - Use when designing system prompts for AI agents or chatbots - Use when you want…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:11+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Use when a prompt returns inconsistent, vague, or hallucinated results - Use when you need structured/JSON output from an LLM reliably - Use when designing system prompts for AI agents or chatbots - Use when you want…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04947-llm-prompt-optimizer-38642b4f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/llm-prompt-optimizer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/llm-prompt-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9967df7db7191eb1d99232db10717ccb26d3949e7056b31e9f02d9704dab54a4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

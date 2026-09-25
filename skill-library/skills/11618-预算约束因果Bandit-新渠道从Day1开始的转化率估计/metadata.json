@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bccb-causal-bandits",
+  "中文名称": "预算约束因果Bandit - 新渠道从Day1开始的转化率估计",
+  "一句话作用": "触发词：预算约束 Bandit、新渠道冷启动、转化率置信区间、在线学习、早期止损。何时不用：渠道已累积足够样本、只需做事后归因时用常规归因技能；本技能解决的是冷启动期数据太少的问题。安全边界：投放实验须遵守平台广告政策与用户数据合规要求，成本与曝光数据须如实记录。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：刚在Pinterest上开了母婴用品广告，花了 $300，曝光 2000 次，只有 2 个转化时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11618-p2s-bccb-causal-bandits-39290abd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-bccb-causal-bandits/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-bccb-causal-bandits/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "077384d1ef1e2090dc406e4279ee1285a20819c0997125b21464d27f1647dcd2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

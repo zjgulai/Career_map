@@ -1,0 +1,22 @@
+{
+  "英文名称": "app-component",
+  "中文名称": "待补：app-component",
+  "一句话作用": "Generates src/App.vue root component with unit test. Creates both App.vue and App.spec.ts files.",
+  "关键输入": "- Simple root component with router-view - The id attribute should use the appId constant from global constants - Imports theme variables for global styling - No scoped styles to allow global CSS - Component should be minimal and serve as a container for the…",
+  "关键输出": "- Create the file: src/App.vue - Create the unit test file: src/App.spec.ts ⚠️ REQUIRED",
+  "最新更新时间": "2026-09-19T03:52:42+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Generates src/App.vue root component with unit test. Creates both App.vue and App.spec.ts files.时，用它产出或更新：- Create the file: src/App.vue - Create the unit test file: src/App.spec.ts ⚠️ REQUIRED",
+  "skill_id": "04720-app-component-6afa80b0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/app-component/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/app-component/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16af695372bb0608daa278bc8ff855ac5e6b124c1d6a9763be2eafaa3196df99",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

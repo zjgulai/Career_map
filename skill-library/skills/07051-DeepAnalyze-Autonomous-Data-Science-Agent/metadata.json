@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-DeepAnalyze-Autonomous-Data-Science-Agent",
+  "中文名称": "待补：DeepAnalyze Autonomous Data Science Agent",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 64.0, \"best\": 65.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T02:25:05.991147\"} {\"round\": 0, \"status\": \"discard\", \"score\": 62.0, \"best\": 77.0, \"mutated\": \"D6 code\", \"ts\":…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T17:40:32+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 64.0, \"best\": 65.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T02:25:05.991147\"} {\"round\": 0, \"status\": \"discard\", \"score\": 62.0, \"best\": 77.0, \"mutated\": \"D6 code\", \"ts\":…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07051-skill-deepanalyze-autonomous-data-science-agent-48b5c497",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-DeepAnalyze-Autonomous-Data-Science-Agent.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-DeepAnalyze-Autonomous-Data-Science-Agent.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "19d9e54067073079e668cecf7bf408e767b2e01d6bf15904554c21507de97bc6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

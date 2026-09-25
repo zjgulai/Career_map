@@ -1,0 +1,22 @@
+{
+  "英文名称": "electron-best-practices",
+  "中文名称": "待补：electron-best-practices",
+  "一句话作用": "Guide AI agents through Electron app development with React including security patterns, type-safe IPC, React integration, packaging with code signing, and testing. Keywords: electron, electron-vite, electron-forge, con…",
+  "关键输入": "Use this skill when: - Generating Electron main, preload, or renderer process code - Configuring electron-vite or Electron Forge - Setting up IPC communication between processes - Implementing security patterns (context…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:09+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use this skill when: - Generating Electron main, preload, or renderer process code - Configuring electron-vite or Electron Forge - Setting up IPC communication between processes - Implementing security patterns (context…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04849-electron-best-practices-f5949ceb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/electron-best-practices/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/electron-best-practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bfc171ab876b7557be90822a1fc59f2788434a26ab6b2bd15beb20bc527e34c0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

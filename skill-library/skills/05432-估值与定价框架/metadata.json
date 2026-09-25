@@ -1,0 +1,22 @@
+{
+  "英文名称": "valuation-framework",
+  "中文名称": "估值与定价框架",
+  "一句话作用": "用于估值与定价框架分析，聚焦估值分析/定价逻辑/投资决策。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户想知道一家公司应该怎么估值、当前估值处于什么水平、市场为什么愿意给这个估值、还有没有重估空间。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于估值与定价框架分析，聚焦估值分析/定价逻辑/投资决策。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户想知道一家公司应该怎么估值、当前估值处于什么水平、市场为什么愿意给这个估值、还有没有重估空间。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05432-valuation-framework-32bc7faa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/valuation-framework/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/valuation-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "38520fd34dd6993d86d5e6a131de86a458f1532a58786f1fe8c91833e11f1b1f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "guizang-ppt-skill",
+  "中文名称": "待补：guizang-ppt-skill",
+  "一句话作用": "生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① \"电子杂志 × 电子墨水\"（衬线 + 流体背景 + 暖色） ② \"瑞士国际主义\"（无衬线 + 网格点阵 + IKB/柠檬黄/柠檬绿/安全橙高亮）。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到\"杂志风 PPT\"、\"瑞士风 PPT\"、\"Swiss Style\"、\"horizontal swip…",
+  "关键输入": "合适的场景 ： - 线下分享 / 行业内部讲话 / 私享会 - AI 新产品发布 / demo day - 带有强烈个人风格的演讲 - 需要\"一次做完，不用翻页工具\"的网页版 slides 不合适的场景 ： - 大段表格数据、图表叠加（用常规 PPT） - 培训课件（信息密度不够） - 需要多人协作编辑（这是静态 HTML）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:04:57+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要合适的场景 ： - 线下分享 / 行业内部讲话 / 私享会 - AI 新产品发布 / demo day - 带有强烈个人风格的演讲 - 需要\"一次做完，不用翻页工具\"的网页版 slides 不合适的场景 ： - 大段表格数据、图表叠加（用常规 PPT） - 培训课件（信息密度不够） - 需要多人协作编辑（这是静态 HTML）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10624-guizang-ppt-skill-3a2e0517",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/guizang-ppt-skill/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/guizang-ppt-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fa0d0b8f81c90477f652c1a790b6371a82aae788829d6edf6e3c7de64d1e7646",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

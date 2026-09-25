@@ -1,0 +1,22 @@
+{
+  "英文名称": "growth-loops",
+  "中文名称": "待补：growth-loops",
+  "一句话作用": "设计用户行为带动新增与留存的循环机制，并给出衡量每个回路效率的指标。触发词：增长回路设计、growth-loops、设计用户行为带动新增与留存的循环机制，并给出衡量每个回路效率的指标。",
+  "关键输入": "Use $ARGUMENTS to pass: - Product description and primary user action - Target user demographics and behavior - Existing sharing/collaboration features - Current growth channels and metrics - Constraints or opportunities",
+  "关键输出": "A growth loops analysis including: - Ranked evaluation of all 5 loop types for your product - Recommended primary growth loop with implementation plan - Secondary loops to layer over time - Key metrics and measurement framework - 30-60-90 day implementation r…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- Designing growth mechanisms for a product - Building sustainable viral or referral traction - Reducing reliance on paid acquisition - Analyzing competitor growth strategies - Optimizing product for product-led growth时，用它产出或更新：A growth loops analysis incl…",
+  "skill_id": "02577-growth-loops-1d2ecdc3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/growth-loops/SKILL.md",
+  "relative_path": "lute/.dsh/skills/growth-loops/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "216b34c0e47cf6013c4522d59dc1d9b27cd890856451c56f0d48540e64ad0682",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

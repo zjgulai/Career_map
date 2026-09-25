@@ -1,0 +1,22 @@
+{
+  "英文名称": "dependency-updater",
+  "中文名称": "依赖更新器",
+  "一句话作用": "跨语言检测过时依赖并按语义化版本分级处置：minor/patch 自动应用、major 逐个询问，附冲突诊断与安全审计。触发词：依赖更新、dependency-updater、跨语言检测过时依赖并按语义化版本分级处置：minor/patch 自动应用、major 逐个询问，附冲突诊断与安全审计。",
+  "关键输入": "scripts/check-tool.sh taze \"npm install -g taze\"",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要问题 症状 修法 ------- ---------- ----- 版本冲突 「Cannot resolve dependency tree」 干净重装，用 overrides/resolutions Peer 依赖 「Peer dependency not satisfied」 装上所需的 peer 版本 安全漏洞 npm audit 报出问题 npm audit fix 或手工升级时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02527-dependency-updater-efac8280",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/dependency-updater/SKILL.md",
+  "relative_path": "lute/.dsh/skills/dependency-updater/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b07e07038a43fca387201d894d5b1ac277a1aad42d822656a7bf55707a71c1ea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-recommendation-compliance-filter",
+  "中文名称": "推荐系统实时合规内容过滤",
+  "一句话作用": "触发词：推荐过滤、合规黑名单、候选集清洗、误报率、大促风控、账号保护。何时不用：要审文案与图片宣称是否违规时用「AIGC 内容合规审查」，要从评论挖合规信号时用「VOC 合规信号挖掘」。安全边界：只做候选集剔除与留痕，不下架商品、不改动平台侧数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"推荐系统偶发推送违规品导致关联账号受限风险\"——实时合规过滤层将违规品推荐概率降至<0.1%，年化防止账号受限保护价值50-200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12601-p2s-recommendation-compliance-filter-775e5813",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-recommendation-compliance-filter/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-recommendation-compliance-filter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "82e14acecd0bbbbbc6132648a0543d3ed9cc00b8915f5037169248cea90b5bd8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

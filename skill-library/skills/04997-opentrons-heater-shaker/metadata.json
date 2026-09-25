@@ -1,0 +1,22 @@
+{
+  "英文名称": "opentrons-heater-shaker",
+  "中文名称": "待补：opentrons-heater-shaker",
+  "一句话作用": "Opentrons Heater-Shaker Module - temperature control (37-95°C) with orbital mixing (200-3000 rpm) for cell culture, enzymatic reactions, and sample preparation requiring simultaneous heating and agitation",
+  "关键输入": "- Minimum API version: 2.13 - Recommended: 2.19 or later for full feature support - Flex compatibility: API 2.15+ with robotType: \"Flex\"",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:28+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Use the Heater-Shaker skill when: - Performing enzymatic reactions requiring temperature control and mixing - Incubating cell cultures or bacterial transformations - Conducting ELISA washing steps with temperature contr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04997-opentrons-heater-shaker-f231920c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/opentrons-heater-shaker/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/opentrons-heater-shaker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "99f16d32b8acd4709853ee556261ae11b4b269bf507b3cb70ab908b8a05c4225",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

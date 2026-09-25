@@ -1,0 +1,22 @@
+{
+  "英文名称": "SKILL:",
+  "中文名称": "复盘书籍萃取工作流",
+  "一句话作用": "名称 ：book-extraction-workflow 版本 ：v1.0 创建日期 ：2026-04-27 适用范围 ：对「复盘」主题多本书籍进行系统性深度萃取",
+  "关键输入": "- 你需要对 2 本以上同类主题书籍进行深度阅读和比较 - 你不满足于「做笔记」，希望「学以致用」 - 你希望将书籍知识沉淀为可长期调用的个人知识资产 - 你希望读书后形成可执行的行为改变，而非只停留在认知层面",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-27T00:24:22+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 你需要对 2 本以上同类主题书籍进行深度阅读和比较 - 你不满足于「做笔记」，希望「学以致用」 - 你希望将书籍知识沉淀为可长期调用的个人知识资产 - 你希望读书后形成可执行的行为改变，而非只停留在认知层面时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09324-skill-c2212598",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/cognitive_elevation/复盘/skills/book-extraction-workflow/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/cognitive_elevation/复盘/skills/book-extraction-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4c7cca0fcda8a3378587a2a53c956a94fbf5d78c43f38fa9aedfc1875f6a4376",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

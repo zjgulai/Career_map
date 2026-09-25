@@ -1,0 +1,22 @@
+{
+  "英文名称": "submit-branch",
+  "中文名称": "待补：submit-branch",
+  "一句话作用": "Push the current branch and create or reuse a PR on mermaid-js/zenuml-core. Use when the user says \"submit\", \"create PR\", \"push and PR\", \"open a pull request\", \"submit branch\", or wants to publish their work as a PR wit…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Report: - SUBMITTED — PR number, URL, and branch name - FAILED — what went wrong (dirty worktree, push conflict, gh error)",
+  "最新更新时间": "2026-05-14T21:03:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Push the current branch and create or reuse a PR on mermaid-js/zenuml-core. Use when the user says \"submit\", \"create PR\", \"push and PR\", \"open a pull request\", \"submit branch\", or wants to publish their work as a PR wit…时，用它产出或更新：Report: - SUBMITTED — PR n…",
+  "skill_id": "01904-submit-branch-d0f42f05",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.agents/skills/submit-branch/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.agents/skills/submit-branch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "74a36bbf4478bcd1583c104b14b2a36f12103add6af662941fa3077cb3e7f9e5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

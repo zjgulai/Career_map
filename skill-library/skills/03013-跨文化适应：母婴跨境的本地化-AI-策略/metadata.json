@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cultural-adaptation-agent",
+  "中文名称": "跨文化适应：母婴跨境的本地化 AI 策略",
+  "一句话作用": "触发词：文化适配Agent、叙事框架重写、目标市场偏好、客服话术适配、认证优先展示、跨市场差评。何时不用：要做文化禁忌与监管风险词的硬性扫描替换用「文化感知内容本地化」；要做文化距离量化后批量生成文案用「跨文化内容自动适配」；要做跨语言关键词匹配用「跨文化营销适配」。安全边界：适配结果不得以文化刻板印象为唯一依据，日德等市场广告措辞须先经合规审查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要同款婴儿奶粉文案在美国强调\"便利快速\"，在日本却因缺乏安全认证描述而遭遇差评——文化适配 Agent 自动识别目标市场偏好差异并重写叙事框架，跨市场差评率降低 30%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03013-p2s-cultural-adaptation-agent-8c99cafa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cultural-adaptation-agent/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cultural-adaptation-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dc49d83edd254d407c9c7fb0436559abbd82ed74f96d6f1e5f0f81008d2ba283",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

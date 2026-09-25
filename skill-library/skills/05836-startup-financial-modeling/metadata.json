@@ -1,0 +1,22 @@
+{
+  "英文名称": "startup-financial-modeling",
+  "中文名称": "待补：startup-financial-modeling",
+  "一句话作用": "This skill should be used when the user asks to \"create financial projections\", \"build a financial model\", \"forecast revenue\", \"calculate burn rate\", \"estimate runway\", \"model cash flow\", or requests 3-5 year financial…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Sanity Checks: - [ ] Revenue growth rate is achievable (3x in Year 2, 2x in Year 3) - [ ] Unit economics are realistic (LTV/CAC 3, payback < 18 months) - [ ] Burn multiple is reasonable (< 2.0 in Year 2-3) - [ ] Headcount scales with revenue (revenue per empl…",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"create financial projections\", \"build a financial model\", \"forecast revenue\", \"calculate burn rate\", \"estimate runway\", \"model cash flow\", or requests 3-5 year financial…时，用它产出或更新：Sanity Checks: - [ ] Revenu…",
+  "skill_id": "05836-startup-financial-modeling-7e45629a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/startup-business-analyst/skills/startup-financial-modeling/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/startup-business-analyst/skills/startup-financial-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ee5a58d5648c46d1719e9b0a0663f03b27d2f3d4e24f9edc44d58c5fa156ec5b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

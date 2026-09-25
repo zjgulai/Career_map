@@ -1,0 +1,22 @@
+{
+  "英文名称": "设计提案",
+  "中文名称": "设计提案",
+  "一句话作用": "设计提案 / 向上汇报。把链路上游（/问题框定 / /设计简报 / /用户故事 / Flow / /设计走查 / QA）的产物重新编排为决策者能理解、能拍板的说服性叙事——6 段式：The Bet / Why Now / User+JTBD / Direction / Design Decisions / Asks。让设计师从\"展示设计稿\"升级为\"讲设计决策\"，从\"汇报完没结论\"升级为\"明确知道要拍什么\"。 触发关键词：设计汇报、设计…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "按 chain-protocol.md §2.1 v1.1 智能适配规则，完成 Pitch 后做以下： 1. 保存 Markdown / Slide-friendly Pitch 文件 （核心产物）：spark-output/pitch/[direction-slug].md 2. 写盘 chain context ：写入 spark-output/context/pitch.json（含元数据 + 章节摘要） 3. chat 输出紧凑 marker （⛔ 不要在 chat 内输出完整 JSON）：",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要设计提案 / 向上汇报。把链路上游（/问题框定 / /设计简报 / /用户故事 / Flow / /设计走查 / QA）的产物重新编排为决策者能理解、能拍板的说服性叙事——6 段式：The Bet / Why Now / User+JTBD / Direction / Design Decisions / Asks。让设计师从\"展示设计稿\"升级为\"讲设计决策\"，从\"汇报完没结论\"升级为\"明确知道要拍什么\"。 触发关键词：设计汇报、设计…时，用它产出或更新：按 chain-protocol.md §2.1 v…",
+  "skill_id": "04603-skill-ff7ef0d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/pitch/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/pitch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0cf9cd7e6c8eb5180af3db2f248c1d048d9aca6c92c734ec4d1a3ec16fea4e17",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

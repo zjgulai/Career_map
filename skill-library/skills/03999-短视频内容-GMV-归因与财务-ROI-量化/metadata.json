@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-video-roi-attribution",
+  "中文名称": "短视频内容 GMV 归因与财务 ROI 量化",
+  "一句话作用": "触发词：视频 ROI、VEI 指数、短视频归因、素材效果、预算分配。何时不用：要看多渠道整体归因报告时用「DataAgent营销归因分析」；只做财务口径预算分配建模时用预算分配类技能。安全边界：归因 GMV 属归因口径估算，须标注时间窗与假设，不得当作已实现收入对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要视频创作团队和 CFO 说不同语言——VEI 指数将完播率/互动率转化为归因 GMV 和净利润贡献，预算效率提升 40-60%，视频团队获得财务话语权时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03999-p2s-video-roi-attribution-5fec4514",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-video-roi-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-video-roi-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ddc7c33066379436f267107dd3f836d626a70493a0a9548091b3b689cd2c702",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

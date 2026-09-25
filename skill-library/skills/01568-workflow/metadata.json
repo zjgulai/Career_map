@@ -1,0 +1,22 @@
+{
+  "英文名称": "workflow",
+  "中文名称": "待补：workflow",
+  "一句话作用": "Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "npx workflow inspect runs npx workflow inspect run",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel…时，用它产出或更新：npx workflow inspect runs n…",
+  "skill_id": "01568-workflow-8d0d9fbd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/workflow/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b159cfcb9ef1d78f69cd13f4d0801c9bf058fb81a4b8598e914e20b34c545364",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

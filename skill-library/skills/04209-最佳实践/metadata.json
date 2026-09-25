@@ -1,0 +1,22 @@
+{
+  "英文名称": "supabase-postgres-best-practices",
+  "中文名称": "最佳实践",
+  "一句话作用": "Supabase 维护的 Postgres 规则库：索引与查询、连接管理、RLS 安全、schema 设计，附正误 SQL 对照。触发词：Postgres 规范、supabase-postgres-best-practices、Supabase 维护的 Postgres 规则库：索引与查询、连接管理、RLS 安全、schema 设计，附正误 SQL 对照。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Supabase 维护的 Postgres 规则库：索引与查询、连接管理、RLS 安全、schema 设计，附正误 SQL 对照。触发词：Postgres 规范、supabase-postgres-best-practices、Supabase 维护的 Postgres 规则库：索引与查询、连接管理、RLS 安全、schema 设计，附正误 SQL 对照。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04209-supabase-postgres-best-practices-0414bea3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/supabase-postgres-best-practices/SKILL.md",
+  "relative_path": "lute/.dsh/skills/supabase-postgres-best-practices/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8233eaf1ba8ca8c1bfbb7258a4dee1e2267116f914e2a9ac83efaf2127d13a4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

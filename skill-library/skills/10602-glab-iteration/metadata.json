@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-iteration",
+  "中文名称": "待补：glab-iteration",
+  "一句话作用": "管理 GitLab 迭代（iteration），用于项目规划和 Sprint 管理。适用于创建迭代、将 issue 分配到 Sprint 或查看迭代进度。触发关键词：iteration、sprint、迭代规划、Sprint 规划。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理 GitLab 迭代（iteration），用于项目规划和 Sprint 管理。适用于创建迭代、将 issue 分配到 Sprint 或查看迭代进度。触发关键词：iteration、sprint、迭代规划、Sprint 规划。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10602-glab-iteration-4601bd76",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-iteration/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-iteration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "61e53871c88c62a29ecee1ca49e4af0d7569d82983621e7215ee5119bc22c457",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

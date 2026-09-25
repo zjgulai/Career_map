@@ -1,0 +1,22 @@
+{
+  "英文名称": "regression-insight",
+  "中文名称": "待补：regression-insight",
+  "一句话作用": "对 CSV/Excel 数据执行线性回归（OLS）或逻辑回归（Logistic），一键输出完整统计结果（包含回归系数、R²、p值、VIF等）和中文通俗解读。当用户提及回归分析、拟合模型、查看系数显著性、R方、p值、共线性（VIF），或使用关键词如 回归、regression、OLS、logit、拟合、显著性 时触发。",
+  "关键输入": "参数 缩写 必填 默认值 说明 ------ ------ ------ -------- ------ input — 是 — 输入文件路径（CSV/TSV/Excel/JSON） --target -t 是 — 目标变量（因变量）列名 --features -f 否 全部数值列 自变量列名，逗号分隔 --type -T 否 auto 回归类型：linear / logistic / auto",
+  "关键输出": "python3 scripts/regression analyzer.py data.csv --target sales --output result.json",
+  "最新更新时间": "2026-09-14T00:09:14+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要对 CSV/Excel 数据执行线性回归（OLS）或逻辑回归（Logistic），一键输出完整统计结果（包含回归系数、R²、p值、VIF等）和中文通俗解读。当用户提及回归分析、拟合模型、查看系数显著性、R方、p值、共线性（VIF），或使用关键词如 回归、regression、OLS、logit、拟合、显著性 时触发。时，用它产出或更新：python3 scripts/regression analyzer.py data.csv --target sales --output result.json",
+  "skill_id": "10663-regression-insight-5052b891",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/regression-insight/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/regression-insight/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2a4de041ac2d0cd1372b171e62955bf97cb4a37f3cf39820b7741774ef958df",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "spatial",
+  "中文名称": "待补：spatial",
+  "一句话作用": "Answer questions about spatial data using DuckDB. Use when the user mentions locations, coordinates, lat/lng, distances, maps, addresses, \"near\", \"within\", \"closest\", geographic names, or spatial file formats (GeoJSON,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- For tabular results: show the data directly - For spatial results: consider exporting to GeoJSON for visualization (COPY TO 'result.geojson' WITH (FORMAT GDAL, DRIVER 'GeoJSON')) - For distance/area results: use human-readable units (km for large distances,…",
+  "最新更新时间": "2026-09-19T03:38:16+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Answer questions about spatial data using DuckDB. Use when the user mentions locations, coordinates, lat/lng, distances, maps, addresses, \"near\", \"within\", \"closest\", geographic names, or spatial file formats (GeoJSON,…时，用它产出或更新：- For tabular results: show…",
+  "skill_id": "04487-spatial-ef096046",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/spatial/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/spatial/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b016c8355524c2b8a16c4b2da352fcd4bfb76af4c4a044fdc1d4b32adb9453f1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

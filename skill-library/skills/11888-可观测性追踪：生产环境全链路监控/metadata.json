@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-observability-tracing",
+  "中文名称": "可观测性追踪：生产环境全链路监控",
+  "一句话作用": "触发词：全链路追踪、Agent可观测性、Trace 可视化、Token 成本追踪、故障根因定位、三层监控。何时不用：要定义 SLI 目标值与 SLO 门禁用「Agent SLO 管理」；要用异常检测算法发现指标越界用「Agentic时序异常检测」。安全边界：Trace 会承载业务数据与用户信息，采集与留存须做脱敏与访问控制，敏感业务明细不得长期留存或对外输出。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链哨兵Agent每天运行50次但第3天发现系统性补货低估却不知道哪步出错——三层可观测性追踪（业务层+行为层+基础设施层）将Agent故障排查从天级压缩到小时级，LLM Token成本降低20-35%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11888-p2s-agent-observability-tracing-7ad8ff89",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-observability-tracing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-observability-tracing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9996d5da24cd358f606ba2d6d27cef4f7f4472589161017a18fa62c38c28cfda",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

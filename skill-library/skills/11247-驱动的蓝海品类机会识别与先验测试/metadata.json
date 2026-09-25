@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-blue-ocean-category-discovery",
+  "中文名称": "驱动的蓝海品类机会识别与先验测试",
+  "一句话作用": "触发词：蓝海品类、需求竞争矩阵、选品机会、先卖后造、品类方向。何时不用：品类已定、只需给具体新品打分时用「Product Opportunity Scoring」；担心召回与认证门槛时先跑「Category Compliance Prescan」。安全边界：虚拟产品试水须遵守平台发布规则，不得用虚假库存或误导性素材；搜索词数据不得用于抄袭竞品 Listing。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要季度选品靠人工看 BSR 耗时 1 周且频繁陷入红海——需求-竞争矩阵算法系统识别「高搜索低满足」蓝海细分，新品命中率 30%→60%+，年化节省开发成本 20-80 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11247-p2s-blue-ocean-category-discovery-45f4e6f9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-blue-ocean-category-discovery/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-blue-ocean-category-discovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7616e97e0e609dc9cdbaf5b6ad823fda9723c428b077a4c83f90066bafa3f4fb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

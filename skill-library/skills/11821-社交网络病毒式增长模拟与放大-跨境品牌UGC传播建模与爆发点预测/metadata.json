@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-social-network-viral-growth-simulation",
+  "中文名称": "社交网络病毒式增长模拟与放大 跨境品牌UGC传播建模与爆发点预测",
+  "一句话作用": "触发词：传播模拟、爆发点预测、助推时机、影响力最大化、种子达人选择。何时不用：只算老带新奖励结构时用 K 因子建模技能；本技能面向内容传播扩散与助推决策。安全边界：不得使用刷量或机器人放大传播；助推投放须遵守平台广告与内容规范。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要内容爆发时机判断错误导致助推预算浪费——SEIR传播R₀实时估算+影响力最大化KOL选择，使内容平均传播量提升340%，CPM从$8降至$2.5时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11821-p2s-social-network-viral-growth-simulation-62105b93",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-social-network-viral-growth-simulation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-social-network-viral-growth-simulation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7894b85782e7c3246781b72b16cc9a3e7b2923028a3a3cebf6c1aed1726a263e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

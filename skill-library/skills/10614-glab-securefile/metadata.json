@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-securefile",
+  "中文名称": "待补：glab-securefile",
+  "一句话作用": "管理 CI/CD 安全文件，包括上传、下载、列出和删除操作。适用于存储流水线敏感文件、管理证书或处理安全配置文件。触发词：secure file、CI 密钥、证书、安全配置。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理 CI/CD 安全文件，包括上传、下载、列出和删除操作。适用于存储流水线敏感文件、管理证书或处理安全配置文件。触发词：secure file、CI 密钥、证书、安全配置。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10614-glab-securefile-bae52205",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-securefile/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-securefile/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a8786c634a3b394dd14bdb4f58e5794c3ba24a1b5a2d79955b504997df499e3b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

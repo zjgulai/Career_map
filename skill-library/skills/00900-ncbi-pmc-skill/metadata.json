@@ -1,0 +1,22 @@
+{
+  "英文名称": "ncbi-pmc-skill",
+  "中文名称": "待补：ncbi-pmc-skill",
+  "一句话作用": "Submit compact NCBI PMC Open Access requests for article/file availability metadata. Use when a user wants concise PMC Open Access summaries; save raw XML only on request.",
+  "关键输入": "- Read one JSON object from stdin. - Optional fields: params, record path, max items, max depth, timeout sec, save raw, raw output path - Common PMC Open Access patterns: - {\"params\":{\"id\":\"PMC3257301\"},\"max items\":10} - {\"params\":{\"id\":\"10.1093/nar/gkr1184\"}…",
+  "关键输出": "- Success returns ok, source, and a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact NCBI PMC Open Access requests for article/file availability metadata. Use when a user wants concise PMC Open Access summaries; save raw XML only on request.时，用它产出或更新：- Success returns ok, source, and a compact summary. - Use raw output path…",
+  "skill_id": "00900-ncbi-pmc-skill-d87ca24c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ncbi-pmc-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ncbi-pmc-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "29875f22005b23903fd70721664ec861c0eaac51e36e786f62181364aac6ac17",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "A+ 模块化内容生成（吸奶器/母婴电器模板）",
+  "中文名称": "待补：A+ 模块化内容生成（吸奶器/母婴电器模板）",
+  "一句话作用": "在 Listing 文案合规通过后，生成亚马逊 A+（或等价富媒体）模块草稿：技术参数、场景、安全认证、用户故事等模块占位与文案；不自动上传。",
+  "关键输入": "- listing-compliance-checker = PASS （或等效签署）。 - ERP 或素材包中 图片版权/认证标 可用性已确认。",
+  "关键输出": "- module id title body image brief lang char count - 上传检查表 ：字符上限、禁止 HTML。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要在 Listing 文案合规通过后，生成亚马逊 A+（或等价富媒体）模块草稿：技术参数、场景、安全认证、用户故事等模块占位与文案；不自动上传。时，用它产出或更新：- module id title body image brief lang char count - 上传检查表 ：字符上限、禁止 HTML。",
+  "skill_id": "09867-a-90903b7c",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/aplus-content-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/aplus-content-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2cc849858fb3d8dab8284665bf788dae1f2251ef7f9c6a9a1bcac6494622758f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "mermaid-studio",
+  "中文名称": "待补：mermaid-studio",
+  "一句话作用": "Expert Mermaid diagram creation, validation, and rendering with dual-engine output (SVG/PNG/ASCII). Supports all 20+ diagram types including C4 architecture, AWS architecture-beta with service icons, flowcharts, sequenc…",
+  "关键输入": "Flowchart (with professional styling): For sequence diagram and ERD styling examples, read references/themes.md. C4 Context (with MANDATORY elegant styling): Architecture (AWS with Iconify icons): IMPORTANT: Architectur…",
+  "关键输出": "- Save .mmd source files alongside rendered outputs - Naming: {purpose}-{type}.mmd (e.g., auth-flow-sequence.mmd) - For batch: maintain input filename, change extension - Always provide both the .mmd source and rendered file to the user",
+  "最新更新时间": "2026-09-19T03:49:29+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Flowchart (with professional styling): For sequence diagram and ERD styling examples, read references/themes.md. C4 Context (with MANDATORY elegant styling): Architecture (AWS with Iconify icons): IMPORTANT: Architectur…时，用它产出或更新：- Save .mmd source files a…",
+  "skill_id": "04965-mermaid-studio-3b7b137a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/mermaid-studio/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/mermaid-studio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6611015b063dc0caf7b872826294cbfac801a94735c686fecc6790c68bc376f3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

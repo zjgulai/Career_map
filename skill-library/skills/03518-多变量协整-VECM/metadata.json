@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multivariate-cointegration",
+  "中文名称": "多变量协整 VECM）",
+  "一句话作用": "触发词：协整、VECM、关联品类、联动补货、长期均衡。何时不用：单品独立需求、无明显关联品时用常规时序预测；要判断缺货责任归属时用「供应链因果归因」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要吸奶器与法兰配件分别独立预测备货，导致主机有货但配件经常断货——多变量协整建模发现两者长期均衡关系，实现联动补货，配件断货率降低 40%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03518-p2s-multivariate-cointegration-40974988",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multivariate-cointegration/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multivariate-cointegration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "61c0b597a331c5ff718ea0ab0db92d8ea40180724f0cf1780bf156d3e527ec55",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

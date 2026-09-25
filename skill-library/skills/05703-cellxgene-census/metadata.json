@@ -1,0 +1,22 @@
+{
+  "英文名称": "cellxgene-census",
+  "中文名称": "待补：cellxgene-census",
+  "一句话作用": "Query the CELLxGENE Census (61M+ cells) programmatically. Use when you need expression data across tissues, diseases, or cell types from the largest curated single-cell atlas. Best for population-scale queries, referenc…",
+  "关键输入": "This skill should be used when: - Querying single-cell expression data by cell type, tissue, or disease - Exploring available single-cell datasets and metadata - Training machine learning models on single-cell data - Pe…",
+  "关键输出": "- Add more specific filters to reduce scope - Use tissue instead of tissue general for finer granularity - Filter by specific dataset id if known - Switch to out-of-core processing for large queries",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Querying single-cell expression data by cell type, tissue, or disease - Exploring available single-cell datasets and metadata - Training machine learning models on single-cell data - Pe…时，用它产出或更新：- Add more specific filter…",
+  "skill_id": "05703-cellxgene-census-4ed7536b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/cellxgene-census/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/cellxgene-census/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b689e85b43786d3bac77f6615b5aa57dfc67e310d8546c04941c60d64074a30",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-embedding-fundamentals",
+  "中文名称": "嵌入表示学习基础：从 ID 映射到多模态语义对齐",
+  "一句话作用": "触发词：嵌入表示、冷启动初始化、相似品热启动、语义对齐、多模态嵌入。何时不用：要在表格上加工或筛选特征时用特征工程/特征选择；要做图上的关系传播时用 GNN。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨境平台上架 50 款新款婴儿车，无任何历史购买数据，纯 ID 嵌入无法初始化，导致新品在推荐系统中几乎不曝光（冷启动问题）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03098-p2s-embedding-fundamentals-63976dce",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-embedding-fundamentals/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-embedding-fundamentals/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4735acccb08c9e81127a95c100fab98e677d8782320634fabba02d94fda1d02a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

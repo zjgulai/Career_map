@@ -1,0 +1,22 @@
+{
+  "英文名称": "latex-check",
+  "中文名称": "待补：latex-check",
+  "一句话作用": "Comprehensive LaTeX/TikZ/Beamer auditor. Validates document structure, package configuration, cross-references, bibliography setup, TikZ externalization, and Beamer presentations. Produces standards-backed reports with…",
+  "关键输入": "Generate MWEs for relevant fixes: 1. TikZ Externalization (if applicable): - Copy mwes/tikz externalization.tex - Customize for user's specific setup 2. Beamer 16:9 with Overlays (if applicable): - Copy mwes/beamer 16 9…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:23+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Generate MWEs for relevant fixes: 1. TikZ Externalization (if applicable): - Copy mwes/tikz externalization.tex - Customize for user's specific setup 2. Beamer 16:9 with Overlays (if applicable): - Copy mwes/beamer 16 9…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04939-latex-check-8c011953",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/latex-check/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/latex-check/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "610c7da88e45acd78ff6f4be7cf0bc1275087b080dad9683b098ff7bbdf31f01",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

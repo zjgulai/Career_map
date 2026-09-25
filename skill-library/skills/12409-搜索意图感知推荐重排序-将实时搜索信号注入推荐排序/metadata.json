@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-aware-recommendation-reranking",
+  "中文名称": "搜索意图感知推荐重排序 将实时搜索信号注入推荐排序",
+  "一句话作用": "触发词：搜索意图注入、推荐重排、搜索场景推荐、CTR 提升、Listing 优化优先级。何时不用：要用用户长期画像做搜索排序时用「个性化搜索排序」；要做召回层语义检索时用「密集段落检索」。安全边界：只做重排层融合，不改推荐模型本体。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要推荐算法工程师面临\"推荐系统不知道用户当前搜索意图导致推荐与搜索意图脱节\"——搜索意图向量注入重排序将搜索场景推荐CTR提升28%，年化$6.8万GMV增量时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12409-p2s-search-aware-recommendation-reranking-6d209342",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-aware-recommendation-reranking/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-aware-recommendation-reranking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "377ed0300d6c49e15e8580afbb39e692dc342234baf5f4c01bc307eaec431e3e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

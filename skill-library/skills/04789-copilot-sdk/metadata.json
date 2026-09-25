@@ -1,0 +1,22 @@
+{
+  "英文名称": "copilot-sdk",
+  "中文名称": "待补：copilot-sdk",
+  "一句话作用": "Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Python, Go, or .NET. Covers session management, custom tools, strea…",
+  "关键输入": "- GitHub Copilot CLI installed and authenticated (copilot --version to verify) - GitHub Copilot subscription (Individual, Business, or Enterprise) — not required for BYOK - Runtime: Node.js 18+ / Python 3.8+ / Go 1.21+ / .NET 8.0+",
+  "关键输出": "Field Type Description ------- ------ ------------- permissionDecision \"allow\" \\ \"deny\" \\ \"ask\" Whether to allow the tool call permissionDecisionReason string Explanation for deny/ask modifiedArgs object Modified arguments to pass",
+  "最新更新时间": "2026-09-19T03:56:01+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Python, Go, or .NET. Covers session management, custom tools, strea…时，用它产出或更新：Field Type Description ---…",
+  "skill_id": "04789-copilot-sdk-51d3252f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/copilot-sdk/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/copilot-sdk/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a77382da09f6fd82b4e0d380c0d50d2fa6e496d16ad929262daaa11d11f03ef",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

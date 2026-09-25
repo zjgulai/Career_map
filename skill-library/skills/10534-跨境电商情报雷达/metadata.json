@@ -1,0 +1,22 @@
+{
+  "英文名称": "跨境电商情报雷达",
+  "中文名称": "跨境电商情报雷达",
+  "一句话作用": "当用户需要生成跨境电商领域 Claude Skills 每日/每周情报简报时使用。按标准化流程搜索、分类、整理最新 Skills 动态。触发词：跨境电商情报雷达、每日简报、情报雷达、Skills 动态、跨境电商新闻、今日最热 Skills、Claude Skills 情报、Skills 情报简报、Skills 日报、Skills 周报。何时不用：非 Claude Skills 的通用跨境电商新闻、非跨境电商领域情报、深度分析报告而非速…",
+  "关键输入": "- 需要生成每日或每周 Claude Skills 跨境电商情报简报 - 需要追踪特定岗位方向（销售运营 / 数据洞察 / 产品企划 / 品牌营销 / 供应链 / GTM）的最新 Skills 动态 - 需要了解\"今日最热\"Skills 及其热度原因 - 需要收集实战案例、风险提示或平台动态 - 需要为团队或社区输出结构化的情报摘要",
+  "关键输出": "1. 生成 Markdown 简报 2. 默认保存到 drafts/analysis/skills-intelligence-daily-YYYYMMDD/cross-border-claude-skills-daily-YYYYMMDD.md 3. 若用户确认该简报已经转为长期方法论或战略资产，再晋升到 docs/knowledge/ 或其他正式目录 4. core skills library/ 仅作为既有核心资料和历史输入源读取，不再作为新日报默认落盘位置 5. 向用户汇报关键发现（Top 3 最热 Ski…",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 需要生成每日或每周 Claude Skills 跨境电商情报简报 - 需要追踪特定岗位方向（销售运营 / 数据洞察 / 产品企划 / 品牌营销 / 供应链 / GTM）的最新 Skills 动态 - 需要了解\"今日最热\"Skills 及其热度原因 - 需要收集实战案例、风险提示或平台动态 - 需要为团队或社区输出结构化的情报摘要时，用它产出或更新：1. 生成 Markdown 简报 2. 默认保存到 drafts/analysis/skills-intelligence-daily-YYYYMMDD/c…",
+  "skill_id": "10534-skill-391ff3a3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/跨境电商情报雷达/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/跨境电商情报雷达/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "91c1538da40303f1dac1937fb1954db96b0a50a2f27bc41689d55477ef12d863",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "north-star-metric",
+  "中文名称": "待补：north-star-metric",
+  "一句话作用": "选出一个能代表用户获得核心价值的指标作为北极星，并拆出可操作的支撑指标。触发词：北极星指标、north-star-metric、选出一个能代表用户获得核心价值的指标作为北极星，并拆出可操作的支撑指标。",
+  "关键输入": "- Defining your company's key metric framework - Setting up a metrics tracking system - Choosing what to measure and optimize for - Evaluating potential North Star candidates - Triggers: North Star metric, north star, k…",
+  "关键输出": "- Provide details about your business model and revenue model - Share your company's vision, mission, or long-term goals - Include current metrics you're tracking - Mention key customer segments and use cases - Describe the primary value you deliver to custom…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- Defining your company's key metric framework - Setting up a metrics tracking system - Choosing what to measure and optimize for - Evaluating potential North Star candidates - Triggers: North Star metric, north star, k…时，用它产出或更新：- Provide details about yo…",
+  "skill_id": "02653-north-star-metric-c699a589",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/north-star-metric/SKILL.md",
+  "relative_path": "lute/.dsh/skills/north-star-metric/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e6be687e89a0175222ec20b26a9fbb701188fa032f7cf6e275ea9b767b5d90d3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

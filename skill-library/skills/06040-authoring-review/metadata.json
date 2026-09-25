@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-authoring-review",
+  "中文名称": "待补：skill-authoring-review",
+  "一句话作用": "Create or review Agent Skills with correct SKILL.md frontmatter, trigger descriptions, concise workflow design, progressive disclosure, references, scripts, assets, safety rules, and installability. Use when writing a n…",
+  "关键输入": "- SKILL.md frontmatter and body. - references/, scripts/, assets/, and agents/ folders. - README catalog entries and install commands when reviewing a repo. - Validation output from npm run validate or an equivalent checker.",
+  "关键输出": "Return: 1. Verdict 2. Blocking issues 3. Non-blocking improvements 4. Suggested frontmatter or section rewrites 5. Validation result 6. Remaining risks",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks to create, rewrite, or review a skill. - A public skill repository needs an installability or quality check. - A skill has vague triggers, oversized instructions, unsafe scripts, or missing artifacts.时，用它产出或更新：Return: 1. Verdict 2. Blocking…",
+  "skill_id": "06040-skill-authoring-review-cc26b86c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/skill-maintenance/skill-authoring-review/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/skill-maintenance/skill-authoring-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a07b1b0831eae63c3e36a2db889d39663f4f1189af08ec7d84943361d2a93a2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

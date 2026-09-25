@@ -1,0 +1,22 @@
+{
+  "英文名称": "视觉情绪板",
+  "中文名称": "视觉情绪板",
+  "一句话作用": "视觉情绪板（Mood Board / Design System 起点）。基于 /用户旅程 + /用户故事 + /设计简报 上游 产出，推导 3-4 套色彩方向不同的设计方案，输出自包含 HTML（含氛围图 / 色板 / 字体 / 组件 demo 四行结构 + 标签页切换），用户选定后生成可被 /Web页面设计 /mobile页面设计 /动效规划 /数据可视化 消费的 design-tokens.json。 触发关键词：视觉情绪板、情…",
+  "关键输入": "输入项 必填？ 来源优先级 缺失时行为 --- --- --- --- project name ✅ 链式 brief.project name journey.project name 用户输入 Phase 2 追问 触点列表（3-8 个） ✅ 链式 journey.stages[ ].touchpoints stories.stories[ ].scenario 用户输入 Phase 1 引导 product type + 行业 ✅ 链式 brief.project type / project subtyp…",
+  "关键输出": "完成产出后 严格按以下顺序 ： 1. 先写盘 spark-output/context/board.json（schema 见 frontmatter） 2. 自检行 ：chat 输出 ✅ board.json 已写盘到 spark-output/context/board.json 3. present files 输出 HTML 给用户预览 4. 紧凑 marker ： 5. Handoff 引导 ：建议跑 /Web页面设计（消费 board.color + component）或 /动效规划（消费 boar…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要视觉情绪板（Mood Board / Design System 起点）。基于 /用户旅程 + /用户故事 + /设计简报 上游 产出，推导 3-4 套色彩方向不同的设计方案，输出自包含 HTML（含氛围图 / 色板 / 字体 / 组件 demo 四行结构 + 标签页切换），用户选定后生成可被 /Web页面设计 /mobile页面设计 /动效规划 /数据可视化 消费的 design-tokens.json。 触发关键词：视觉情绪板、情…时，用它产出或更新：完成产出后 严格按以下顺序 ： 1. 先写盘 spa…",
+  "skill_id": "04590-skill-72577834",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/board/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/board/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7cf2040b1a256eedd2b834165e24a0b4ecaaca1a6092fa74deeacb11488fbba",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

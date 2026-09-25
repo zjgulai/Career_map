@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-session-based-recommendation-sr-gnn",
+  "中文名称": "待补：p2s-session-based-recommendation-sr-gnn",
+  "一句话作用": "触发词：会话推荐、匿名会话、会话图、下一件商品、点击流切分。何时不用：要按行为先后顺序识别决策阶段用「用户行为序列建模」；要用实时行为流毫秒级刷新推荐用「流式实时推荐」。安全边界：匿名会话不得存可识别身份信息，会话标识不得与个人身份打通用于广告；采集范围须按隐私政策告知。",
+  "关键输入": "输入 ：匿名会话日志（时间戳、会话 ID、商品 ID）、商品 metadata（类目、品牌、价格带），卡页示例用最近 30 天会话数据训练；粒度为单个会话。 输出 ：会话内的 Top-K 下一件商品推荐与匿名会话转化率评估结果；供推荐工程在无登录场景做实时推荐。",
+  "关键输出": "输入 ：匿名会话日志（时间戳、会话 ID、商品 ID）、商品 metadata（类目、品牌、价格带），卡页示例用最近 30 天会话数据训练；粒度为单个会话。 输出 ：会话内的 Top-K 下一件商品推荐与匿名会话转化率评估结果；供推荐工程在无登录场景做实时推荐。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：会话推荐、匿名会话、会话图、下一件商品、点击流切分。何时不用：要按行为先后顺序识别决策阶段用「用户行为序列建模」；要用实时行为流毫秒级刷新推荐用「流式实时推荐」。安全边界：匿名会话不得存可识别身份信息，会话标识不得与个人身份打通用于广告；采集范围须按隐私政策告知。时，用它产出或更新：输入 ：匿名会话日志（时间戳、会话 ID、商品 ID）、商品 metadata（类目、品牌、价格带），卡页示例用最近 30 天会话数据训练；粒度为单个会话。 输出 ：会话内的 Top-K 下一件商品推荐与匿名会话转化率评…",
+  "skill_id": "03812-p2s-session-based-recommendation-sr-gnn-0a2627da",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-session-based-recommendation-sr-gnn/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-session-based-recommendation-sr-gnn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a595b5e32d863fa88abb1f9c07617c218f336db206976512d8178cc5cae36c7f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

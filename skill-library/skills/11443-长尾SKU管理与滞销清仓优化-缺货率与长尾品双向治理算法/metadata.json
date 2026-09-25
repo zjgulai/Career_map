@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-long-tail-sku-clearance-optimization",
+  "中文名称": "长尾SKU管理与滞销清仓优化 缺货率与长尾品双向治理算法",
+  "一句话作用": "触发词：长尾SKU、动销率、滞销清仓、降价阶梯、缺货预警、资金释放。何时不用：只做库龄触发的自动降价用「降价清仓触发」；临期与过季品的定价路径用「临期过季降价优化」。安全边界：清仓降价不得低于成本与平台规则底线，处置库存前须核验真实质量状态。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要50%SKU只贡献5%营收却占用45%仓位和$15万资金——多维长尾评分+动态规划Markdown清仓将动销率从43%提升至72%，年化释放资金$36万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11443-p2s-long-tail-sku-clearance-optimization-afd96fde",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-long-tail-sku-clearance-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-long-tail-sku-clearance-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "094887608aa7adbed0a6b2915a1a62a7fdd589221728514dd2dcd2232176030f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

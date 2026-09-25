@@ -1,0 +1,22 @@
+{
+  "英文名称": "claims",
+  "中文名称": "阶段二：权利要求书（必要特征 权利要求）",
+  "一句话作用": "doubao-patent-drafting 阶段二，权利要求书撰写。由根 skill 在材料审计完成后调用，不独立触发。核心任务：必要特征判定、有据上位化、独权/从权构建、权项数量由内容决定、发明与实用新型的类型规则、术语与说明书一致性。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要doubao-patent-drafting 阶段二，权利要求书撰写。由根 skill 在材料审计完成后调用，不独立触发。核心任务：必要特征判定、有据上位化、独权/从权构建、权项数量由内容决定、发明与实用新型的类型规则、术语与说明书一致性。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06281-claims-92a65b75",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-patent-drafting/sub-skills/claims/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-patent-drafting/sub-skills/claims/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "976009a77ba81b8035fd56fd9d73c637340d73abffb76d4db5ab7b16d43489c6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

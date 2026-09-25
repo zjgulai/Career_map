@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-order-accuracy-exception-rate-kpi",
+  "中文名称": "订单准确率与异常处理KPI 录单差错率错发漏发率订单异常闭环体系",
+  "一句话作用": "触发词：订单准确率、异常率、录单差错、错发漏发、订单异常闭环。何时不用：需要做履约漏斗拆解与 ODR 根因归因时用订单履约率与发货及时率；需要做交付周期阶段拆解时用订单交付周期OTD全链路分解。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"多渠道订单异常率高且人工处理成本大\"——分渠道+分类型自动化将异常率从1.5%降至0.3%，年省人力成本5.5万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11475-p2s-order-accuracy-exception-rate-kpi-2750d7b4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-order-accuracy-exception-rate-kpi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-order-accuracy-exception-rate-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63d7c6d89be248187bfe886356b8986685a9faaafadf1c5b2c088e249e653eed",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

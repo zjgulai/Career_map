@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-listing-compliance-auto-repair",
+  "中文名称": "驱动违规 Listing 自动修复",
+  "一句话作用": "触发词：违规修复、合规检测、违禁词改写、批量修复、上架窗口。何时不用：只要体检报告不要改写用「Listing 健康诊断」；本技能输出违规点的修复版本。安全边界：修复后仍需人工确认，不得以改词规避真实合规义务或保留未获证实的功效宣称。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要黑五前35个SKU需要合规修复人工每条需30分钟共需3-5天错过上架窗口——LLM驱动自动修复规则引擎30秒完成一条批量处理节省2-4天上架时机保护旺季GMV10-30万元并防止Amazon账号警告时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03315-p2s-listing-compliance-auto-repair-71df27d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-listing-compliance-auto-repair/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-listing-compliance-auto-repair/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e00d56c1b11106fde1c2bc90c8a0fffe970fc2061be48984147916a79134b0a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

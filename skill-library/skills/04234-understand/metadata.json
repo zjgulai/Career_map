@@ -1,0 +1,22 @@
+{
+  "英文名称": "understand",
+  "中文名称": "待补：understand",
+  "一句话作用": "Analyze a codebase to produce an interactive knowledge graph for understanding architecture, components, and relationships",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Write the following Node.js script to $UA DIR/tmp/ua-inline-validate.cjs: Execute it: If the script exits non-zero, read stderr, fix the script, and retry once. ---",
+  "最新更新时间": "2026-09-10T23:38:29+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Analyze a codebase to produce an interactive knowledge graph for understanding architecture, components, and relationships时，用它产出或更新：Write the following Node.js script to $UA DIR/tmp/ua-inline-validate.cjs: Execute it: If the script exits non-zero, read std…",
+  "skill_id": "04234-understand-86ff72bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/understand/SKILL.md",
+  "relative_path": "lute/.dsh/skills/understand/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b09dcea9aa162902e291ef65123d056c5b77b1ca24a038ab57ab404de13422cb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

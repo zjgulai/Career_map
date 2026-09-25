@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-new-product-opportunity-mining",
+  "中文名称": "新品机会挖掘模型)",
+  "一句话作用": "触发词：新品成功概率、机会挖掘、区域优先级、投资建议、组合取舍。何时不用：只判断品类容量大小用「Market Size Estimation」；只做单品加权评分卡用「Product Opportunity Scoring」。安全边界：概率评分用于内部排序取舍，不得对外承诺成功率；训练用历史样本与当前品类不可比时须标注置信度下降。",
+  "关键输入": "输入 ：区域市场数据（搜索量、竞品数量、价格带分布）、产品数据（功能清单、专利情况、预计成本价、FDA/CE 等认证状态）、团队数据（母婴品类运营经验、供应链稳定性评分）、时机数据（竞品上市时间、平台政策变化）。 输出 ：0-100% 的新品成功概率评分 + 市场可行性 / 产品可行性 / 执行能力三维细分得分 + 区域优先级排序 + 全力投入 / 试点测试 / 暂缓观望的投资建议与关键风险提示。",
+  "关键输出": "输入 ：区域市场数据（搜索量、竞品数量、价格带分布）、产品数据（功能清单、专利情况、预计成本价、FDA/CE 等认证状态）、团队数据（母婴品类运营经验、供应链稳定性评分）、时机数据（竞品上市时间、平台政策变化）。 输出 ：0-100% 的新品成功概率评分 + 市场可行性 / 产品可行性 / 执行能力三维细分得分 + 区域优先级排序 + 全力投入 / 试点测试 / 暂缓观望的投资建议与关键风险提示。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要触发词：新品成功概率、机会挖掘、区域优先级、投资建议、组合取舍。何时不用：只判断品类容量大小用「Market Size Estimation」；只做单品加权评分卡用「Product Opportunity Scoring」。安全边界：概率评分用于内部排序取舍，不得对外承诺成功率；训练用历史样本与当前品类不可比时须标注置信度下降。时，用它产出或更新：输入 ：区域市场数据（搜索量、竞品数量、价格带分布）、产品数据（功能清单、专利情况、预计成本价、FDA/CE 等认证状态）、团队数据（母婴品类运营经验、供应链稳定…",
+  "skill_id": "11287-p2s-new-product-opportunity-mining-7ba8e9b5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-new-product-opportunity-mining/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-new-product-opportunity-mining/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65a61a6edf33e64755580987bc0f680e2d3388a19e71dbc2864686b2f119aa78",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

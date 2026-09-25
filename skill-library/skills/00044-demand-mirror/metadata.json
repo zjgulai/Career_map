@@ -1,0 +1,22 @@
+{
+  "英文名称": "demand-mirror",
+  "中文名称": "待补：demand-mirror",
+  "一句话作用": "Mirror any product onto Amazon demand signals: category size, trend, seasonality, and variant demand signals (never per-variant unit sales). 用于评估某商品在 Amazon 的需求多大、何时是高峰、备哪些颜色尺码（如独立站/其他渠道选品）。",
+  "关键输入": "Amazon data comes from the host's Jungle Scout js MCP tools — there are no API keys or scripts. The tools this skill uses are js keywords by keyword, js historical search volume, js product database query, js share of voice, and (optionally) js sales estimate…",
+  "关键输出": "- An empty data[] is a successful call with no records ( observed empty ) — it is not proof of zero demand. Cross-check the seed, marketplace, and filters before concluding anything, and say \"no records returned,\" not \"no demand.\" A brand-new niche with no hi…",
+  "最新更新时间": "2026-09-12T16:24:28+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Mirror any product onto Amazon demand signals: category size, trend, seasonality, and variant demand signals (never per-variant unit sales). 用于评估某商品在 Amazon 的需求多大、何时是高峰、备哪些颜色尺码（如独立站/其他渠道选品）。时，用它产出或更新：- An empty data[] is a successful call with no records (…",
+  "skill_id": "00044-demand-mirror-9ec91b37",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/demand-mirror/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/demand-mirror/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7e7831c08228ad96908f688d2b5572cc63bdfc9fabe691541c0b8742e52daa5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

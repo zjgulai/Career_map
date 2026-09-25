@@ -1,0 +1,22 @@
+{
+  "英文名称": "univer-sheet",
+  "中文名称": "待补：univer-sheet",
+  "一句话作用": "Read, write, format, calculate, and verify Univer Sheet Units through DSH tools and the Lite Interface. Use proactively for spreadsheet values, formulas, ranges, tables, charts, images, formatting, validation, filters,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-29T19:01:14+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Read, write, format, calculate, and verify Univer Sheet Units through DSH tools and the Lite Interface. Use proactively for spreadsheet values, formulas, ranges, tables, charts, images, formatting, validation, filters,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10896-univer-sheet-3880b7a2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/dsh-univer-office/skills/univer-sheet/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/dsh-univer-office/skills/univer-sheet/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4599841af059e772c6d9af352359d22c50bd2438cc9a167b272ab2ebc2f4991a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-customization",
+  "中文名称": "待补：agent-customization",
+  "一句话作用": "WORKFLOW SKILL — Create, update, review, fix, or debug VS Code agent customization files (.instructions.md, .prompt.md, .agent.md, SKILL.md, copilot-instructions.md, AGENTS.md). USE FOR: saving coding preferences; troub…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:47:32+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要WORKFLOW SKILL — Create, update, review, fix, or debug VS Code agent customization files (.instructions.md, .prompt.md, .agent.md, SKILL.md, copilot-instructions.md, AGENTS.md). USE FOR: saving coding preferences; troub…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04692-agent-customization-31217d7d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/agent-customization/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/agent-customization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "36247ca594c7b1e79cf52fda15dbd372adef8bd602e460c79698e1c78af16e2a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

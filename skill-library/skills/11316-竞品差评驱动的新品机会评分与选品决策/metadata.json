@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-new-product-gap-scoring",
+  "中文名称": "竞品差评驱动的新品机会评分与选品决策",
+  "一句话作用": "触发词：新品机会评分、差评挖掘、痛点频率、解决率、差异化切入。何时不用：要找未满足需求清单与切入价格带用「跨竞品评论选品机会评分」；要估算品类容量用「Market Size Estimation」。安全边界：VOC 数据须脱敏、仅用于内部产品改进分析，不得用于对外竞品攻击；样本代表性不足时须降级表述结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临新品方向靠人工主观判断导致40%新品失败——竞品差评三维评分（痛点频率×竞品解决率×市场规模）将新品失败率降低40%，单次选品价值年化GMV约$180,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11316-p2s-voc-new-product-gap-scoring-33ce0c5f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-voc-new-product-gap-scoring/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-voc-new-product-gap-scoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "584af175af14134c9d6c2fa8739fa4795ce4c69194d762a1bac972a7933d4519",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

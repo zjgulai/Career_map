@@ -1,0 +1,22 @@
+{
+  "英文名称": "spring-session",
+  "中文名称": "待补：spring-session",
+  "一句话作用": "Spring Session for distributed session management with Redis, JDBC, or Hazelcast. Covers session configuration, security integration, and session events. USE WHEN: user mentions \"spring session\", \"distributed session\",…",
+  "关键输入": "Problem Diagnostic Fix --------- ------------ ----- Session not persisted Check store-type Configure Redis/JDBC Session lost between nodes Check store connectivity Verify Redis/DB connection Serialization error Check ob…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:50+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Problem Diagnostic Fix --------- ------------ ----- Session not persisted Check store-type Configure Redis/JDBC Session lost between nodes Check store connectivity Verify Redis/DB connection Serialization error Check ob…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05113-spring-session-cff92067",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spring-session/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spring-session/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0dbb804c2bff28da163f17c734d06607fe2f1d69fab9b3939ee719c380cfd4cb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

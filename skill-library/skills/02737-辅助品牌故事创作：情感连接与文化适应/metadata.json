@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-brand-storytelling",
+  "中文名称": "辅助品牌故事创作：情感连接与文化适应",
+  "一句话作用": "触发词：品牌故事、情感弧线、本地化叙事、跨市场文案、真实性评分。何时不用：要规模化生产 SEO 内容时用「AI 内容营销增长」；要优化 AI 搜索引用份额时用「GEO 生成式引擎优化」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌经理面临卖点讲不透——品牌叙事将点击率从2.1%提到3.4%，年化增收18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02737-p2s-ai-brand-storytelling-0bd298d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ai-brand-storytelling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ai-brand-storytelling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6f52ddb1d479975c1fe9dfd96a4854523758f6c7c54ec13da5c4f6aba1a76371",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

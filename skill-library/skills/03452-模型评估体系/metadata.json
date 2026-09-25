@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-model-evaluation-metrics",
+  "中文名称": "模型评估体系）",
+  "一句话作用": "触发词：模型评估、混淆矩阵、AUC、阈值权衡、模型选型。何时不用：评估排序策略的在线胜负用「交叉实验」系列；评估嵌入模型的检索质量用「MTEB 嵌入模型选型」。安全边界：阈值选择须结合假正例与假负例的业务成本，不得只报单一指标；测试集须与训练集按时间切分，避免数据泄漏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题： 我们训练了 3 个流失预测模型（XGBoost / LightGBM / Logistic Regression），需要决定用哪个模型上线到 WF-A 智能补货系统，触发对高风险用户的挽留优惠券时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03452-p2s-model-evaluation-metrics-8722f9b5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-model-evaluation-metrics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-model-evaluation-metrics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e076d086a6a0c411bfa2fc76f32046ffa2881079dd1c22ae72b6b7e70e8ed495",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

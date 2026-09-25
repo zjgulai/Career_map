@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-debugging-observability",
+  "中文名称": "待补：twilio-debugging-observability",
+  "一句话作用": "Debug Twilio integrations and set up production observability. Covers the Console Debugger, Monitor Alerts API, Event Streams for error log streaming, status callback tracking, common error codes, and a systematic debug…",
+  "关键输入": "- Twilio account with TWILIO ACCOUNT SID and TWILIO AUTH TOKEN -- see twilio-iam-auth-setup - SDK: pip install twilio requests / npm install twilio - For Event Streams: a publicly accessible HTTPS endpoint or AWS Kinesis stream ---",
+  "关键输出": "twilio api:core:messages:list --limit 5 -l debug",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Debug Twilio integrations and set up production observability. Covers the Console Debugger, Monitor Alerts API, Event Streams for error log streaming, status callback tracking, common error codes, and a systematic debug…时，用它产出或更新：twilio api:core:messages:l…",
+  "skill_id": "01081-twilio-debugging-observability-904397ca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-debugging-observability/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-debugging-observability/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d952cadae46dd7e95cec24347a2db04607113aeb28055c88ada2b8505d2e4fdc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

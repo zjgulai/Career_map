@@ -1,0 +1,22 @@
+{
+  "英文名称": "kanban-board",
+  "中文名称": "看板 / Kanban",
+  "一句话作用": "To do / In progress / In review / Done 四列, 卡片 + 头像 + 泳道",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "operations",
+  "解决具体问题": "当需要To do / In progress / In review / Done 四列, 卡片 + 头像 + 泳道时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10416-kanban-board-e2f0248c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/kanban-board/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/kanban-board/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2643fd4cf2342fce1e93ae61bae2072825dd9acecd25d73a156aae497833943",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

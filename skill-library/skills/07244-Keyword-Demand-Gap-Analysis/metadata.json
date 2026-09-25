@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Keyword-Demand-Gap-Analysis",
+  "中文名称": "待补：Keyword Demand Gap Analysis",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 78.0, \"best\": 78.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:09:47.219121\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"none\", \"ts\": \"202…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T13:09:37+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 78.0, \"best\": 78.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:09:47.219121\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"none\", \"ts\": \"202…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07244-skill-keyword-demand-gap-analysis-2ae8f2f3",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Keyword-Demand-Gap-Analysis.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Keyword-Demand-Gap-Analysis.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "8810f5100738a94b2fbf85f0f5d9ea74c08a3736bc5deb4a50d41b3587c574e7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

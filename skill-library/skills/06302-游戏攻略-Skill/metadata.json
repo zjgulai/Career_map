@@ -1,0 +1,22 @@
+{
+  "英文名称": "game-guide",
+  "中文名称": "游戏攻略 Skill",
+  "一句话作用": "用于生成具体游戏的实战攻略、任务流程、地图寻路、Boss打法、Build配装、角色培养、配队、解谜、收集成就和资源规划。当用户询问某个游戏怎么过、怎么打、去哪找、怎么配、怎么练或上传截图求下一步时使用。不用于游戏新闻、价格配置、主观测评、行业分析、同人创作、游戏开发设计、外挂破解、代练或账号交易。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "所有进入本 Skill 的正式游戏攻略必须生成可交付产物，最终格式只允许： 1. 飞书文档； 2. HTML。 格式选择规则： - 用户明确指定飞书文档 → 输出飞书文档； - 用户明确指定HTML → 输出HTML； - 用户未指定 → 必须先实际尝试创建飞书文档并默认交付飞书文档；只有满足 output.md 的严格飞书失败条件并记录失败证据时，才允许改生成HTML备用并说明原因。 禁止仅以普通聊天文本作为最终攻略。最终聊天回复只负责简要说明产物类型并交付产物，不重新复制完整攻略正文。 最终产物必须： - 包…",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用于生成具体游戏的实战攻略、任务流程、地图寻路、Boss打法、Build配装、角色培养、配队、解谜、收集成就和资源规划。当用户询问某个游戏怎么过、怎么打、去哪找、怎么配、怎么练或上传截图求下一步时使用。不用于游戏新闻、价格配置、主观测评、行业分析、同人创作、游戏开发设计、外挂破解、代练或账号交易。时，用它产出或更新：所有进入本 Skill 的正式游戏攻略必须生成可交付产物，最终格式只允许： 1. 飞书文档； 2. HTML。 格式选择规则： - 用户明确指定飞书文档 → 输出飞书文档； - 用户明确指定HT…",
+  "skill_id": "06302-game-guide-4be1334b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/branches/game-guide/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/branches/game-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "586cf40852a3e5d9d10279b73b5d644c27da61141e35cc1d27fc0bcd414d688c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "group-by-analysis",
+  "中文名称": "处理合并单元格：向前填充",
+  "一句话作用": "对多 Sheet 的 Excel 文件进行行数统计、大文件 Parquet 转换预处理、数据清洗及分组聚合分析，并生成带样式标记的统计表与可视化图表。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要对多 Sheet 的 Excel 文件进行行数统计、大文件 Parquet 转换预处理、数据清洗及分组聚合分析，并生成带样式标记的统计表与可视化图表。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04150-group-by-analysis-983a20fa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-analysis/group-by-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-analysis/group-by-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aff257049757bf5ac6afa7147cca0f6fcd683ef7fa85d0ed25a8c56fb18f61eb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

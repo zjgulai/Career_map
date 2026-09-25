@@ -1,0 +1,22 @@
+{
+  "英文名称": "requesting-code-review",
+  "中文名称": "待补：requesting-code-review",
+  "一句话作用": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when completing tasks, implementing major features, or before merging to verify work meets requirements时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05845-requesting-code-review-e0e79a16",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/superpowers/skills/requesting-code-review/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/superpowers/skills/requesting-code-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2da31af22a58938ab78f3ee6d5b4687fcca062b923b646459eb52ba72117ef97",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ctf-sandbox-orchestrator",
+  "中文名称": "待补：ctf-sandbox-orchestrator",
+  "一句话作用": "Default entrypoint and master ctf-sandbox-orchestrator workflow for CTF, exploit, reverse engineering, DFIR, pwnable, crypto, stego, mobile, AI-agent, cloud, container, Active Directory, Windows-host, and identity chall…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Default entrypoint and master ctf-sandbox-orchestrator workflow for CTF, exploit, reverse engineering, DFIR, pwnable, crypto, stego, mobile, AI-agent, cloud, container, Active Directory, Windows-host, and identity chall…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02291-ctf-sandbox-orchestrator-e0ad6971",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a60c4d3e844e507988a29a14c41b3111b50a03dd5a2030e68001624d7c0c418d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

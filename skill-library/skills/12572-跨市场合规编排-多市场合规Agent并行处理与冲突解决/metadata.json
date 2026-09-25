@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-cross-market-compliance-orchestrator",
+  "中文名称": "跨市场合规编排 多市场合规Agent并行处理与冲突解决",
+  "一句话作用": "触发词：跨市场编排、冲突消解、超集方案、区域变体、豁免判定、并行合规。何时不用：只做市场×检查项矩阵扫描时用「多市场合规矩阵本体」，只并行跑检查出报告时用「MAS 多市场合规检查编排」。安全边界：冲突消解方案须经合规负责人确认，本技能只出规则与建议，不执行冻结与下架。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规团队面临\"三市场合规串行耗时8周\"——并行Agent编排将合规周期压缩至2周，避免下架损失10-30万元/次时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12572-p2s-mas-cross-market-compliance-orchestrator-873888a5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-mas-cross-market-compliance-orchestrator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-mas-cross-market-compliance-orchestrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bcb03643d78efea6c36f0b9995e649d43dbe246f489a85891cac62bd1da4a427",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

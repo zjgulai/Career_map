@@ -1,0 +1,22 @@
+{
+  "英文名称": "weiyun",
+  "中文名称": "微云网盘 MCP 技能",
+  "一句话作用": "微云网盘 MCP 接口完整技能。包含 weiyun.list、weiyun.list by category、weiyun.download、weiyun.delete、weiyun.upload、weiyun.gen share link、weiyun.rename file、weiyun.rename dir、weiyun.create dir、weiyun.move dir、weiyun.move file、check skil…",
+  "关键输入": "仅计算上传参数（不执行上传），用于调试或手动调用 MCP： Windows (PowerShell) ：chcp 65001 nul && python scripts\\gen block info list.py C:\\path\\to\\file 输出包括：block sha list、file sha、file md5、check sha、check data、block size、block count。 两个脚本均包含纯 Python 的 SHA1 实现，支持提取未经 finalization 的内部状态…",
+  "关键输出": "调用 weiyun.list by category，参数： category id = 8 count = 50 local version = \" \"",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要1. 上传文件应该怎么做 ：直接用 python3 scripts/upload to weiyun.py --pdir key ，无需手动计算参数或调用 MCP 2. 下载时 pdir key 应该填什么 ：使用 weiyun.list 响应中 顶层的 pdir key ，而不是文件自身的 pdir key 字段（该字段可能为空字符串） 3. 生成分享链接时 pdir key 不能为空 ：必须先调用 weiyun.list，使用响应…时，用它产出或更新：调用 weiyun.list by category…",
+  "skill_id": "05385-weiyun-4939f443",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tencent-weiyun/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tencent-weiyun/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ee3172fce200289c0052125bd677b7dce5965156cee4d8ec935e67fcb361f6a3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

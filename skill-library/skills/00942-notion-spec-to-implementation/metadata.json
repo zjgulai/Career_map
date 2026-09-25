@@ -1,0 +1,22 @@
+{
+  "英文名称": "notion-spec-to-implementation",
+  "中文名称": "待补：notion-spec-to-implementation",
+  "一句话作用": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+  "关键输入": "- reference/ — parsing patterns, plan/task templates, progress cadence (e.g., spec-parsing.md, standard-implementation-plan.md, task-creation.md, progress-tracking.md). - examples/ — end-to-end walkthroughs (e.g., ui-co…",
+  "关键输出": "- Plan links to spec; tasks link to both plan and spec. - Optionally update the spec with a short “Implementation” section pointing to the plan and tasks using Notion:notion-update-page.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- reference/ — parsing patterns, plan/task templates, progress cadence (e.g., spec-parsing.md, standard-implementation-plan.md, task-creation.md, progress-tracking.md). - examples/ — end-to-end walkthroughs (e.g., ui-co…时，用它产出或更新：- Plan links to spec; task…",
+  "skill_id": "00942-notion-spec-to-implementation-0a292da3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/notion/skills/notion-spec-to-implementation/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/notion/skills/notion-spec-to-implementation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "43b304aaff38fbd4fd5d81efcefb2fd92f5450649eba8b02a2371edb4599cf3f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

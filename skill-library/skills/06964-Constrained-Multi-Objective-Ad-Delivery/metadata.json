@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Constrained-Multi-Objective-Ad-Delivery",
+  "中文名称": "待补：Constrained Multi Objective Ad Delivery",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T03:17:30.985486\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T18:17:30+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T03:17:30.985486\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06964-skill-constrained-multi-objective-ad-delivery-3f3c1f68",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Constrained-Multi-Objective-Ad-Delivery.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Constrained-Multi-Objective-Ad-Delivery.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "3c117ef20ae301a97c96bc7e93937412a2780c3e7211e7a6a84f863ea730fb3b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

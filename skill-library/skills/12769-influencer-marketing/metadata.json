@@ -1,0 +1,22 @@
+{
+  "英文名称": "influencer-marketing",
+  "中文名称": "待补：influencer-marketing",
+  "一句话作用": "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also us…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T14:44:05+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also us…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12769-influencer-marketing-d971af8e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/influencer-marketing/SKILL.md",
+  "relative_path": "lute/project/skills/influencer-marketing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "45d0d36d8c418f16fa25b59c9b392c9cb9b850f764357023b2d7b4f4cd08adc1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

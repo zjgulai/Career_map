@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-knowledge-base",
+  "中文名称": "商家知识库（knowledge-base）",
+  "一句话作用": "Alibaba.com GGS (Global Golden Supplier) seller knowledge base fallback Skill (exported from Yuque ggs-seller-kb v2.1.1, 199 articles). Use when sellers inquire about platform rules, product features, or operation guide…",
+  "关键输入": "场景 说明 ------ ------ GGS 商家咨询平台规则 禁限售、合规处罚、知识产权等 查询产品功能说明 直通车、橱窗、RFQ、信保、生意助手等 了解操作流程 商品发布、物流、营销推广等 会员与权益 会员等级差异、星等级等",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要场景 说明 ------ ------ GGS 商家咨询平台规则 禁限售、合规处罚、知识产权等 查询产品功能说明 直通车、橱窗、RFQ、信保、生意助手等 了解操作流程 商品发布、物流、营销推广等 会员与权益 会员等级差异、星等级等时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00175-alibaba-global-knowledge-base-ceea8bae",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-knowledge-base/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-knowledge-base/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ff2883e7e871e4cdb2a428ad83ff880ac6363b9c05011b3d9056ef2047f9b317",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

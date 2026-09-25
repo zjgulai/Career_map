@@ -1,0 +1,22 @@
+{
+  "英文名称": "pm-spec",
+  "中文名称": "PRD / 产品 Spec",
+  "一句话作用": "产品发布包的 PRD 汇报资产, 覆盖问题、指标、范围、用户故事和发布计划",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:27+08:00",
+  "业务场景": "product",
+  "解决具体问题": "当需要产品发布包的 PRD 汇报资产, 覆盖问题、指标、范围、用户故事和发布计划时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10262-pm-spec-fc9ed28a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/pm-spec/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/pm-spec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "057670baf64ed3efb87dfd220be2e3adf244daf16d751abcf55c5839937175d0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

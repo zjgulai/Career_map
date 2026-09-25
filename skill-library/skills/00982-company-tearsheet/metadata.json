@@ -1,0 +1,22 @@
+{
+  "英文名称": "company-tearsheet",
+  "中文名称": "待补：company-tearsheet",
+  "一句话作用": "Use when creating source-backed public issuer tearsheets. Do not use for private diligence, fund diligence, vendors, or market maps.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "User-facing response: 1. Tearsheet created: entity, profile type, scope, sources, as-of date. 2. Key takeaways: 3-5 bullets with estimates/assumptions marked. 3. Metric table: decision-useful metrics with period, units, source, confidence. 4. Risks/gaps: stal…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when creating source-backed public issuer tearsheets. Do not use for private diligence, fund diligence, vendors, or market maps.时，用它产出或更新：User-facing response: 1. Tearsheet created: entity, profile type, scope, sources, as-of date. 2. Key takeaways: 3-…",
+  "skill_id": "00982-company-tearsheet-0a12c054",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/company-tearsheet/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/company-tearsheet/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f019e98c2930e9ffbd3e9d4c8d9ffe819cdd5e005262ad65fc87d57a7c6d97fa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

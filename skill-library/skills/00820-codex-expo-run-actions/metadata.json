@@ -1,0 +1,22 @@
+{
+  "英文名称": "codex-expo-run-actions",
+  "中文名称": "待补：codex-expo-run-actions",
+  "一句话作用": "Wire Expo projects into the Codex app with project-local run scripts and .codex/environments/environment.toml actions. Use when the user wants the Codex app Run button, build/run actions, action buttons, or a stable Exp…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When setup changes are made, summarize: - the Expo app root you wired - the run script path - the Codex environment file path - the actions added or updated - how to launch the same path from shell",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Wire Expo projects into the Codex app with project-local run scripts and .codex/environments/environment.toml actions. Use when the user wants the Codex app Run button, build/run actions, action buttons, or a stable Exp…时，用它产出或更新：When setup changes are mad…",
+  "skill_id": "00820-codex-expo-run-actions-6320e58f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/expo/skills/codex-expo-run-actions/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/expo/skills/codex-expo-run-actions/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d8c01d9ac8d2171d42f66601996a892b96f5f8d813d66de6a44a16900c862c7c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

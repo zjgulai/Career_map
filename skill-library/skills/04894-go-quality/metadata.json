@@ -1,0 +1,22 @@
+{
+  "英文名称": "go-quality",
+  "中文名称": "待补：go-quality",
+  "一句话作用": "Go code quality with golangci-lint, staticcheck, and go vet. Covers linting, formatting, and best practices. USE WHEN: user works with \"Go\", \"Golang\", \"Gin\", \"Fiber\", \"Echo\", asks about \"golangci-lint\", \"staticcheck\", \"…",
+  "关键输入": "Issue Likely Cause Solution ------- -------------- ---------- golangci-lint timeout Too many linters Increase timeout or use --fast Conflicting linter rules Multiple formatters Disable duplicates",
+  "关键输出": "golangci-lint run -v",
+  "最新更新时间": "2026-09-19T04:12:22+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Issue Likely Cause Solution ------- -------------- ---------- golangci-lint timeout Too many linters Increase timeout or use --fast Conflicting linter rules Multiple formatters Disable duplicates时，用它产出或更新：golangci-lint run -v",
+  "skill_id": "04894-go-quality-5fea35be",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/go-quality/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/go-quality/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "29c8ad20fc7fa722f5fbb8bc580e13cbf3afd502edbf9023daddaf3395733d6a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

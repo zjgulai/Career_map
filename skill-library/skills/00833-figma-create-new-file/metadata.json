@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-create-new-file",
+  "中文名称": "待补：figma-create-new-file",
+  "一句话作用": "MANDATORY prerequisite — you MUST invoke this skill BEFORE every create new file tool call. NEVER call create new file directly without loading this skill first. Trigger whenever the user wants a new blank Figma file —…",
+  "关键输入": "This skill accepts optional arguments: /figma-create-new-file [editorType] [fileName] - editorType : design (default), figjam, or slides - fileName : Name for the new file (defaults to \"Untitled\") Examples: - /figma-create-new-file — creates a design file nam…",
+  "关键输出": "The tool returns: - file key — the key of the newly created file - file url — a direct URL to open the file in Figma Use the file key for subsequent tool calls like use figma.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要MANDATORY prerequisite — you MUST invoke this skill BEFORE every create new file tool call. NEVER call create new file directly without loading this skill first. Trigger whenever the user wants a new blank Figma file —…时，用它产出或更新：The tool returns: - file ke…",
+  "skill_id": "00833-figma-create-new-file-940caf79",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/figma/skills/figma-create-new-file/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/figma/skills/figma-create-new-file/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "82e0a018692d3d009b5d2c83ecce9203a4ce7dfbdb98b7b13a4f7e5b11832bc2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

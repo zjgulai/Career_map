@@ -1,0 +1,22 @@
+{
+  "英文名称": "test-driven-development",
+  "中文名称": "待补：test-driven-development",
+  "一句话作用": "Use when implementing any feature or bugfix, before writing implementation code",
+  "关键输入": "Always: - New features - Bug fixes - Refactoring - Behavior changes Exceptions (ask your human partner): - Throwaway prototypes - Generated code - Configuration files Thinking \"skip TDD just this once\"? Stop. That's rat…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Always: - New features - Bug fixes - Refactoring - Behavior changes Exceptions (ask your human partner): - Throwaway prototypes - Generated code - Configuration files Thinking \"skip TDD just this once\"? Stop. That's rat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01054-test-driven-development-27d07e94",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/superpowers/skills/test-driven-development/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/superpowers/skills/test-driven-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bf1b8216e523851a411e91d429a7c1c2a173e79d88957bc78e348218d50edd54",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

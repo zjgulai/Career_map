@@ -1,0 +1,22 @@
+{
+  "英文名称": "python-performance-optimization",
+  "中文名称": "待补：python-performance-optimization",
+  "一句话作用": "Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance.",
+  "关键输入": "- Identifying performance bottlenecks in Python applications - Reducing application latency and response times - Optimizing CPU-intensive operations - Reducing memory consumption and memory leaks - Improving database qu…",
+  "关键输出": "python -m pstats output.prof",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Identifying performance bottlenecks in Python applications - Reducing application latency and response times - Optimizing CPU-intensive operations - Reducing memory consumption and memory leaks - Improving database qu…时，用它产出或更新：python -m pstats output.pr…",
+  "skill_id": "05685-python-performance-optimization-8335bcdd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/python-development/skills/python-performance-optimization/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/python-development/skills/python-performance-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66c3fd00bf4fc2534316e52d0d60fe5f41469dc7076ef8c72d8550f619614db1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "prd-planner",
+  "中文名称": "待补：prd-planner",
+  "一句话作用": "Creates PRDs using persistent file-based planning. Use when user explicitly says \"PRD\", \"product requirements document\", or \"产品需求文档\". Combines PRD methodology with planning-with-files to avoid context switching.",
+  "关键输入": "(Add user requirements as they emerge)",
+  "关键输出": "Update {scope}-prd-notes.md with:",
+  "最新更新时间": "2026-09-19T03:49:41+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要To be filled after requirements gathering时，用它产出或更新：Update {scope}-prd-notes.md with:",
+  "skill_id": "05018-prd-planner-fb00c910",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/prd-planner/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/prd-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5cd8ee47a0b71165e024e5cb17c65ec239261bcc88980b673f85f5d4a4b6ac2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

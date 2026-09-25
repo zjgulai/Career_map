@@ -1,0 +1,22 @@
+{
+  "英文名称": "lexiang-knowledge-base",
+  "中文名称": "乐享知识库 MCP Skill",
+  "一句话作用": "乐享知识库 MCP 全功能 Skill。当用户提到「乐享」「知识库」「lexiang」，或提供 lexiangla.com 链接，或涉及知识库的搜索/写入/编辑/文件/配置等操作时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要乐享知识库 MCP 全功能 Skill。当用户提到「乐享」「知识库」「lexiang」，或提供 lexiangla.com 链接，或涉及知识库的搜索/写入/编辑/文件/配置等操作时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05295-lexiang-knowledge-base-a67655bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fa66b5ad7d3474e4348b8bfc86ae0ef1fa11639b42ca8320709df40ccfdc88c7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "interview-script",
+  "中文名称": "待补：interview-script",
+  "一句话作用": "Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Us…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:52+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Us…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11195-interview-script-8b0bb03a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/interview-script/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-discovery/skills/interview-script/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "892ca53da9852d4e6516d2305f0c0eb2db370bf39693c6c6797154b44bec9b4c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-policy-driven-meta-controller",
+  "中文名称": "策略驱动元控制器 内容审核延迟控制与多域通用控制面",
+  "一句话作用": "触发词：多域策略切换、策略元控制器、审核强度分级、延迟预算、合规域隔离。何时不用：只服务单一领域、一套策略即可覆盖时不必用元控制器；只校准置信度分数时用置信度校准技能。安全边界：合规域输出必须强制引用并附免责声明，不得给出法律意见；域策略切换不得放宽既有合规红线。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要同一MAS系统处理合规查询（需严格）和营销文案（需创意）却用单一策略导致合规域给出法律建议——多域策略元控制器零代码切换使合规查询零违规输出，营销文案创意度提升40%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12070-p2s-policy-driven-meta-controller-5dfb678a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-policy-driven-meta-controller/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-policy-driven-meta-controller/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "70c75ad24bf8cf1d41a84ac97c28d04c734c1b2e62fcb3d98e88b3be729a961c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

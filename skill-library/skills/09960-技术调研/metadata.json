@@ -1,0 +1,22 @@
+{
+  "英文名称": "LLM技术调研",
+  "中文名称": "技术调研",
+  "一句话作用": "当用户需要追踪 Cursor、Claude Code、Claude Code Skills 及相邻主题（MCP、Agents、Rules、Workflows）的最新实践，输出面向实操的 Markdown 研究简报时使用。触发词：LLM技术调研、最新用法、日报周报、专题追踪、信号去噪、交叉验证、技术简报、Cursor、Claude Code、Claude Code Skills。何时不用：只解释基础概念、只摘录单一网站、核心是写代码调试…",
+  "关键输入": "- 需要查看最近 24 小时、7 天或自定义窗口内的新功能、新技巧、新工作流 - 需要追踪 Cursor、Claude Code、Claude Code Skills 的最新使用方法 - 需要延展到 MCP、Agents、Rules、Workflows 等相邻主题 - 需要把多来源信息整理成一份高信噪比 Markdown 报告 - 需要把“新闻/帖子/讨论”转成可立即尝试的实践建议 - 需要区分高置信信号、低置信传闻和待验证线索",
+  "关键输出": "报告必须使用实践导向结构，而不是简单罗列资讯。模板见 references/report-template.md。 默认至少包含： - Executive Summary - High-Confidence Updates - New Tactics Available Today - Signals Worth Watching - Risks / Caveats - Suggested Experiments - Source Log 如果这是在 under review skill/ 中进行的试跑，请把当天…",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 需要查看最近 24 小时、7 天或自定义窗口内的新功能、新技巧、新工作流 - 需要追踪 Cursor、Claude Code、Claude Code Skills 的最新使用方法 - 需要延展到 MCP、Agents、Rules、Workflows 等相邻主题 - 需要把多来源信息整理成一份高信噪比 Markdown 报告 - 需要把“新闻/帖子/讨论”转成可立即尝试的实践建议 - 需要区分高置信信号、低置信传闻和待验证线索时，用它产出或更新：报告必须使用实践导向结构，而不是简单罗列资讯。模板见 ref…",
+  "skill_id": "09960-llm-933e6183",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/LLM技术调研/SKILL.md",
+  "relative_path": "lute/project/81-Skills/LLM技术调研/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "af8a8318c8f09e53df0136c401d7aaa1ea7b7945fd42cfa986db83990f6e3123",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

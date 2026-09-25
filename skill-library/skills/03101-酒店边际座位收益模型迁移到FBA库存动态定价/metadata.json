@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-emsr-bid-price-inventory-control",
+  "中文名称": "酒店边际座位收益模型迁移到FBA库存动态定价",
+  "一句话作用": "触发词：边际库存定价、影子价格、保护库存量、旺季动态定价、库存分层、清仓时点。何时不用：库存不构成约束、只按弹性调价用「动态定价与需求弹性」；要规划折扣清仓路径用「折扣清仓定价优化」。安全边界：仅输出建议价，Amazon 禁止基于竞品价格自动调价，改动须人工确认；调价频率不超过 1 次/3 天、单次幅度不超过 10%。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要定价负责人面临\"库存高峰期没有提价、淡季没有及时清仓错过收益窗口\"——酒店EMSR-b边际收益模型将SKU定价效率提升31%，年化毛利增量$4.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03101-p2s-emsr-bid-price-inventory-control-23881c53",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-emsr-bid-price-inventory-control/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-emsr-bid-price-inventory-control/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "134d9416047b96039f780de53529670ce115f55aa18d983e5651fb51dc8b7314",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

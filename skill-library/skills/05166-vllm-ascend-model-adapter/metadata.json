@@ -1,0 +1,22 @@
+{
+  "英文名称": "vllm-ascend-model-adapter",
+  "中文名称": "待补：vllm-ascend-model-adapter",
+  "一句话作用": "Adapt and debug existing or new models for vLLM on Ascend NPU. Implement in /vllm-workspace/vllm and /vllm-workspace/vllm-ascend, validate via direct vllm serve from /workspace, and deliver one signed commit in the curr…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Adapt and debug existing or new models for vLLM on Ascend NPU. Implement in /vllm-workspace/vllm and /vllm-workspace/vllm-ascend, validate via direct vllm serve from /workspace, and deliver one signed commit in the curr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05166-vllm-ascend-model-adapter-2608dcf6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/vllm-ascend-model-adapter/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/vllm-ascend-model-adapter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0ef9f14f2e7d1fe6c6967644158504542248965d1870b1a473fb74173ad1b119",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

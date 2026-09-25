@@ -1,0 +1,22 @@
+{
+  "英文名称": "moonbit-agent-guide",
+  "中文名称": "待补：moonbit-agent-guide",
+  "一句话作用": "Guide for writing, refactoring, and testing MoonBit projects. Use when working in MoonBit modules or packages, organizing MoonBit files, using moon tooling (build/check/run/test/doc/ide etc.), or following MoonBit-speci…",
+  "关键输入": "Good example: use labeled and optional parameters Misuse: arg : Type? is not an optional parameter. Callers still must pass it (as None/Some(...)). Anti-pattern: arg? : Type? (no default = double Option). If you want a defaulted optional parameter, write b? :…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Guide for writing, refactoring, and testing MoonBit projects. Use when working in MoonBit modules or packages, organizing MoonBit files, using moon tooling (build/check/run/test/doc/ide etc.), or following MoonBit-speci…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04551-moonbit-agent-guide-8e8be349",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/moonbit-skills/0.1.0/skills/moonbit-agent-guide/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/moonbit-skills/0.1.0/skills/moonbit-agent-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "00ffb3de741373666f0cb854f657275e5748e1e30e89bcfbea888b86a3b41ed6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "linkfox-ruiguan-text-trademark-detection",
+  "中文名称": "睿观-文本商标检测",
+  "一句话作用": "面向电商产品Listing的文字商标检测与侵权风险分析。当用户提到商标检测、商标风险检查、品牌侵权筛查、产品标题商标扫描、文字商标查询、Listing合规检查、知识产权风险评估、text trademark detection, trademark infringement, brand infringement screening, listing compliance, intellectual property risk, Ru…",
+  "关键输入": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- limit integer 是 默认 100；最大 500 返回结果数量限制 regions string 否 最长 1000；示例：US, EM, GB, DE, FR, IT, ES, AU 国家/地区代码，多个用逗号分隔，支持 AU,BX,CA,DE,EM,ES,FR,GB,IT,JP,MX,TR,US,WO,CN",
+  "关键输出": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- data array 否 商标列表（扁平化） type string 否 渲染的样式 total integer 否 记录数 columns array 否 渲染的列 detectId string 否 接口调用 id",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要当用户意图与“睿观-文本商标检测”匹配，或需要以下能力时使用本工具：工具中文名：睿观-文本商标检测 工具说明：支持按产品标题、产品的其他文本信息、国家来进行商标检测 调用前应先确认所有必填参数。涉及站点、国家、日期、语言、ASIN、SKU、图片或 URL 时，应使用用户提供的信息，不要擅自虚构真实业务标识。时，用它产出或更新：字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- data array 否 商标列表（扁平化） type string 否 渲染的样式 total in…",
+  "skill_id": "05332-linkfox-ruiguan-text-trademark-detection-dd3241b3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-ruiguan-text-trademark-detection/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-ruiguan-text-trademark-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "85ae9f98582d73ebba8b475c94e2617429535dc0861dfe72e930ffd25b60d899",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

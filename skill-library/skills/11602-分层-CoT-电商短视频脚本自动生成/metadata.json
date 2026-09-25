@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-video-script-generation",
+  "中文名称": "分层 CoT 电商短视频脚本自动生成",
+  "一句话作用": "触发词：分镜脚本、叙事弧设计、卖点映射、短视频脚本批量产出、A/B 变体扩展。何时不用：只需从痛点套模板出脚本文本用产品视频脚本生成技能，本技能用分层推理链产出带分镜与配音的完整脚本。安全边界：脚本不得含无依据的功效与比较宣称，AI 生成内容须按规定标注，母婴安全类表述须有依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要TikTok母婴广告运营面临脚本产能瓶颈——分层CoT三阶段脚本引擎（卖点映射→叙事弧→分镜配音）将每条脚本生产从2.5小时压缩至3分钟，A/B测试变体从每周5条扩展到40+条，CTR平均提升15-25%，年化内容制作成本节省12-18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11602-p2s-ai-video-script-generation-fd5bb579",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ai-video-script-generation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ai-video-script-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c3757eae5347ed3e6242b1a8f5895c59b0b8561aa6a0b85ba00844738a6faf1f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

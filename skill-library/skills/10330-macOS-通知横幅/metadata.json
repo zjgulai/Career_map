@@ -1,0 +1,22 @@
+{
+  "英文名称": "frame-macos-notification",
+  "中文名称": "macOS 通知横幅",
+  "一句话作用": "拟真 macOS 通知 banner + app icon + 标题正文, 适合 video overlay / 产品发布预告",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "video",
+  "解决具体问题": "当需要拟真 macOS 通知 banner + app icon + 标题正文, 适合 video overlay / 产品发布预告时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10330-frame-macos-notification-4597c2c8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/frame-macos-notification/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/frame-macos-notification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bcfe3092e297a4c6e46fe26fcbb3b9acd0b9d374b90c2900b1f38076de13ad62",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Prompt",
+  "中文名称": "迭代专用",
+  "一句话作用": "结构化地优化System Prompt——基于评估数据做决策，不是凭感觉改文字。",
+  "关键输入": "- 评估集和评估运行器（npm run eval）已就绪 - 最近的评估结果文件存在：evals/results/ - 目标Prompt文件在 prompts/ 目录下",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-03T18:04:52+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要结构化地优化System Prompt——基于评估数据做决策，不是凭感觉改文字。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09321-prompt-20f2f02e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_software/skills/prompt-iter/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_software/skills/prompt-iter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e0084042a8276e0e739520e7027d1e9bf027909fe799911914bccbc86a80141e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

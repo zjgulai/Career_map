@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-shipment-ri[REDACTED]",
+  "中文名称": "在途货物实时风险标签追踪器 海运空运全链路可视化与预警Tag实时更新",
+  "一句话作用": "触发词：在途风险标签、实时追踪、ETA修正、延误预警、在途可视化。何时不用：需要在途批次 ETA 预测与虚拟库存管理时用在途库存追踪与全链路可视化；需要港口拥堵因子预测时用港口拥堵ETA预测。安全边界：对客户的通知不得包含未确认的到达时间承诺；客户标识须匿名化后再进入预警流程，空运补货决策需设人工复核阈值。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购团队面临\"在途28-45天海运是黑盒，延误时才发现\"——实时风险标签将延误预警从\"货到才知\"提前至5-10天，减少紧急空运3次/年节省12万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11521-p2s-shipment-ri-redacted-62b054d8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-shipment-risk-tag-realtime-tracker/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-shipment-risk-tag-realtime-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ae881bdd4171ebeaeb6dbb9703d28427d49a69e225ef6d6552c6ff7cb6639220",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

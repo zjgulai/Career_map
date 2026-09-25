@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mnl-purchase-choice-model",
+  "中文名称": "购买选择模型 用效用函数建模为什么选A不选B",
+  "一句话作用": "触发词：离散选择模型、效用函数、属性权重、选择概率、竞品冲击。何时不用：要按支付意愿做分层报价用「LLM 谈判代理」；要做偏差校正的推荐排序用「去混淆因果推荐」。安全边界：会话级曝光与购买日志须符合平台数据使用政策并做用户 ID 脱敏、不存个人身份信息；排序调整须设业务兜底规则，不得用价格权重过度压低高毛利商品。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要推荐算法工程师面临\"推荐系统只能预测点击率但不知道用户为什么选这个不选那个\"——MNL离散选择模型将购买因果机制透明化，推荐精准度提升41%，年化GMV增量$8.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03449-p2s-mnl-purchase-choice-model-11397e62",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mnl-purchase-choice-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mnl-purchase-choice-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d001ea723322f4bf687ce62f7800a9058960651464641fa5e74b62853d3ca5b8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill结构医生",
+  "中文名称": "结构医生",
+  "一句话作用": "当用户需要检测 Skill 目录结构问题或执行目录结构自动修复时使用，支持单 Skill 和批量模式。触发词：Skill结构医生、修复 skill 结构、skill 目录整理、批量修复 skills、skill 结构检测、整理 skill 目录、修复目录结构、skill-doctor。何时不用：SKILL.md 内容质量问题（用 root-skills-eval + root-skills-opt）、完全重写 Skill（用 root…",
+  "关键输入": "- 需要检测单个 Skill 的目录结构问题 - 需要批量检测 skills/ 目录下全部 Skill 的结构问题 - 发现 Skill 根目录存在杂乱文件需要整理 - 需要自动创建缺失的目录或文件（README.md、manifest.yaml、.gitkeep） - 文件迁移后需要更新 SKILL.md 中的路径引用 - 批量新建 Skills 后需要统一标准化目录结构",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 需要检测单个 Skill 的目录结构问题 - 需要批量检测 skills/ 目录下全部 Skill 的结构问题 - 发现 Skill 根目录存在杂乱文件需要整理 - 需要自动创建缺失的目录或文件（README.md、manifest.yaml、.gitkeep） - 文件迁移后需要更新 SKILL.md 中的路径引用 - 批量新建 Skills 后需要统一标准化目录结构时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09972-skill-a5e3aaac",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/Skill结构医生/SKILL.md",
+  "relative_path": "lute/project/81-Skills/Skill结构医生/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "2842f977335c187ebd25f01e1321a9a78825ab64ebc107ca106f6125accad543",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

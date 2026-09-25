@@ -1,0 +1,22 @@
+{
+  "英文名称": "value-prop-statements",
+  "中文名称": "待补：value-prop-statements",
+  "一句话作用": "把产品对目标客户的核心价值写成若干句可直接对外使用的主张表述。触发词：价值主张表述、value-prop-statements、把产品对目标客户的核心价值写成若干句可直接对外使用的主张表述。",
+  "关键输入": "- Writing marketing copy and promotional content - Creating sales decks and pitch materials - Crafting customer onboarding messages - Developing segment-specific messaging - Triggers: value proposition statements, marke…",
+  "关键输出": "- Provide existing value propositions or key benefits - Specify target segments and their pain points - Include product features and differentiators - Share distribution channels (marketing, sales, onboarding) - Mention any brand tone or voice guidelines ---",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Writing marketing copy and promotional content - Creating sales decks and pitch materials - Crafting customer onboarding messages - Developing segment-specific messaging - Triggers: value proposition statements, marke…时，用它产出或更新：- Provide existing value p…",
+  "skill_id": "04239-value-prop-statements-39839214",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/value-prop-statements/SKILL.md",
+  "relative_path": "lute/.dsh/skills/value-prop-statements/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7d119baf2be41453e5daca720e5fa7edc15def3c3773031478d4a2a15fef427",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

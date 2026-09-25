@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-sizing",
+  "中文名称": "待补：market-sizing",
+  "一句话作用": "自上而下与自下而上估算总体、可服务与可获取的市场规模，给出测算依据。触发词：市场规模测算、market-sizing、自上而下与自下而上估算总体、可服务与可获取的市场规模，给出测算依据。",
+  "关键输入": "Your task is to estimate the market size for $ARGUMENTS within the specified market constraints (geography, industry vertical, customer type, etc.). If the user provides market research, industry reports, financial data, or competitor information, read and an…",
+  "关键输出": "Market Definition - Problem space and customer need - Geographic and segment boundaries - Key constraints or scoping decisions TAM (Total Addressable Market) - Top-down estimate with sources and reasoning - Bottom-up estimate for cross-validation - Reconcilia…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要自上而下与自下而上估算总体、可服务与可获取的市场规模，给出测算依据。触发词：市场规模测算、market-sizing、自上而下与自下而上估算总体、可服务与可获取的市场规模，给出测算依据。时，用它产出或更新：Market Definition - Problem space and customer need - Geographic and segment boundaries - Key constraints or scoping decisions TAM (Total Addressable Mar…",
+  "skill_id": "02634-market-sizing-344d70ed",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/market-sizing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/market-sizing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d5a86319471db9514cb17f1288a87f7a4d78c9c8c5828b7f438904b262f0f864",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

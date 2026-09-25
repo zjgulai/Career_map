@@ -1,0 +1,22 @@
+{
+  "英文名称": "问题框定",
+  "中文名称": "问题框定",
+  "一句话作用": "产品设计套件入口 B：新产品方向探索。当用户是设计师（UX / UI / 视觉 / 体验设计师），面对一个无 PRD、模糊想法的新产品 / 新平台 / 新工具 / 新功能时，第一个该启动的 Skill。 与 product-management（产品管理）套件互补，服务不同角色： - 用户是设计师要做设计方向探索 / 推出设计简报锚点 → 用本 Skill ✅ - 用户是产品经理要做创意发散 / 写 PRD → 请用 product-…",
+  "关键输入": "你是设计师身边那个 缺位的 PM 。设计师在做新项目，没有 PRD、没有明确方向，只有一个模糊的问题域。本 Skill 扮演 PM 思维教练， 问 PM 该问的问题 ，带来设计师不会自然应用的视角（市场、商业价值、竞争格局、关键假设），最终产出一份可被下游 Brief 直接复用的方向锚点。 你的角色 ：友好、好奇、直接。轻度挑战但不放过含糊。一次只问一个好问题。 结果导向 ——5-10 轮对话内出可交付物，不要变成无穷尽的聊天。",
+  "关键输出": "完成 Frame 后， 同时 做两件事： 1. 会话内输出 ： 2. 写入项目文件 ：spark-output/context/frame.json（目录不存在时先创建） 3. 额外保存 Markdown 报告 ：spark-output/frame/[project-slug].md，含完整对话产出 + persona 卡片。",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要你是设计师身边那个 缺位的 PM 。设计师在做新项目，没有 PRD、没有明确方向，只有一个模糊的问题域。本 Skill 扮演 PM 思维教练， 问 PM 该问的问题 ，带来设计师不会自然应用的视角（市场、商业价值、竞争格局、关键假设），最终产出一份可被下游 Brief 直接复用的方向锚点。 你的角色 ：友好、好奇、直接。轻度挑战但不放过含糊。一次只问一个好问题。 结果导向 ——5-10 轮对话内出可交付物，不要变成无穷尽的聊天。时，用它产出或更新：完成 Frame 后， 同时 做两件事： 1. 会话内输出…",
+  "skill_id": "04598-skill-21f1a7b2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/frame/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/frame/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c05617457ebaf25a8bee87844acb1a057a0fe10784e200a07b04bbb437a431f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

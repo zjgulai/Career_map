@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-sc-multiagent-consensus-replenishment",
+  "中文名称": "多智能体共识补货决策 框架：需求采购仓储三方博弈自动达成最优",
+  "一句话作用": "触发词：多智能体共识、三方协商补货、拆单策略、MOQ与仓容约束、共识备货。何时不用：单一部门自己算补货量时用「自动补货决策」；跨仓调拨而非一次备货拆单时走「调拨清货建议」。安全边界：共识结果须人工确认后才对外下单，资金上限等敏感约束不得随提示词外传。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要补货决策需要销售/采购/仓储三方周会耗时3天且结果次优——InvAgent三方共识框架将决策时间→1小时自动达成，牛鞭效应降低30%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03351-p2s-llm-sc-multiagent-consensus-replenishment-6df854e5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-sc-multiagent-consensus-replenishment/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-sc-multiagent-consensus-replenishment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e9a3a42cdae37883bd772cb19865834fd177c354161e94c96cbc9476e223ab89",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

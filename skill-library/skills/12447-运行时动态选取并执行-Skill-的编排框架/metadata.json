@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-skill-runtime-orchestrator",
+  "中文名称": "运行时动态选取并执行 Skill 的编排框架",
+  "一句话作用": "触发词：Skill 动态选取、运行时编排、置信打分、Skill 索引、工具路由。何时不用：要编排技能之间的依赖与并行顺序时用「Multi-Agent Skill Composition」；要生成学习路径时用「Skill 依赖路径规划器」。安全边界：置信分低于阈值时不得自动执行高影响技能（下单、改价、清库存），必须转人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要AI工程师面临\"Agent每次都调相同工具不知道该用哪个Skill最合适\"——Embedding+Tag三维打分将Skill动态选取准确率提升至92%，Agent执行效率提升3.4倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12447-p2s-agent-skill-runtime-orchestrator-5daa1c8a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-agent-skill-runtime-orchestrator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-agent-skill-runtime-orchestrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8de1baacadc136728945fe76a22ba6c8c6f179d2a7702d593678c6c0d026055d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

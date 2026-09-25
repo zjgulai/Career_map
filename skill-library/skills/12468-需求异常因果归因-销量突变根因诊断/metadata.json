@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-demand-anomaly-causal-attribution",
+  "中文名称": "需求异常因果归因（销量突变根因诊断）",
+  "一句话作用": "触发词：销量突降、根因诊断、销量异常归因、假设检验、BSR 下滑。何时不用：要在系统链路上实时溯源线上故障时用「ProRCA」；要从零学习全局因果图结构时用「PC算法因果发现」。安全边界：相关性不等于因果，结论必须结合业务判断；不得据单一归因排序直接执行降价或改价动作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"销量突降不知根因只能瞎猜导致错误应对延误止损\"——多假设并行因果检验5分钟内输出根因排序，年化减少诊断延迟损失15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12468-p2s-demand-anomaly-causal-attribution-7393cf8f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-demand-anomaly-causal-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-demand-anomaly-causal-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1e096d57dbcb0b7201e80c27e7f1888d8747931d46e068cf7743340a76465b14",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

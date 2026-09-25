@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-live-control",
+  "中文名称": "待补：excel-live-control",
+  "一句话作用": "Control an open or active Microsoft Excel workbook through the ChatGPT add-in or connected session. Use when the user tags the Microsoft Excel app in Codex or follows up on an established live Excel task. Do not use for…",
+  "关键输入": "- Do not invent missing source data or substitute a different metric. If required data is absent, leave the result unavailable and state the specific missing input beside its data or setting and briefly in the response. For a rate, preserve the requested nume…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-06T12:17:27+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Example Do Don't --- --- --- A1. Simple action tracker Use one Actions tab with owner, due date, status and the requested totals above the table. Add Cover, Readme, Inputs, Dashboard and Checks tabs around a small task…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00464-excel-live-control-9de35418",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/spreadsheets/skills/excel-live-control/SKILL.md",
+  "relative_path": "lute/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/spreadsheets/skills/excel-live-control/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cdc929cabe81c31e87a2df032ee5bb2ab1857eb78bcb6eb9e51ced4b1b65a863",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

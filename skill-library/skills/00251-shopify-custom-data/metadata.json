@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-custom-data",
+  "中文名称": "待补：shopify-custom-data",
+  "一句话作用": "MUST be used first when prompts mention Metafields or Metaobjects. Use Metafields and Metaobjects to model and store custom data for your app. Metafields extend built-in Shopify data types like products or customers, Me…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要MUST be used first when prompts mention Metafields or Metaobjects. Use Metafields and Metaobjects to model and store custom data for your app. Metafields extend built-in Shopify data types like products or customers, Me…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00251-shopify-custom-data-37fa46dc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-custom-data/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-custom-data/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f38afb6340e67cf4092814c0bd62663793d816dd1f7e42ea776464579db281c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

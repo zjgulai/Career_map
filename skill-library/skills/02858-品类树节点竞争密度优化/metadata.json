@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-category-tree-placement-optimizer",
+  "中文名称": "品类树节点竞争密度优化",
+  "一句话作用": "触发词：品类节点选择、竞争密度分析、BSR 徽章、Browse Node、节点机会评分。何时不用：要判断的是关键词层面高需求低竞争的蓝海词而非品类节点归属时用「关键词需求缺口矩阵分析」。安全边界：只输出节点分析与申请清单，不代为提交平台 Case。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要选品负责人面临\"品类节点竞争激烈排名难突破\"——最低竞争密度节点识别将新品首月BSR均值提升40%，上架成功率提高25%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02858-p2s-category-tree-placement-optimizer-ad619b17",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-category-tree-placement-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-category-tree-placement-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d08bd2215ac8ae6695ac01bfaf13944823e802b07426eec13c86b38e5b1c1489",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

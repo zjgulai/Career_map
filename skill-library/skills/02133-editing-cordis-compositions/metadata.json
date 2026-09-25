@@ -1,0 +1,22 @@
+{
+  "英文名称": "editing-cordis-compositions",
+  "中文名称": "待补：editing-cordis-compositions",
+  "一句话作用": "Use when creating, changing, or validating a Cordis composition for this harness — writing or editing an agent preset, adding or removing a plugin row, deciding whether something belongs to the host composition or to on…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T12:25:01+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use when creating, changing, or validating a Cordis composition for this harness — writing or editing an agent preset, adding or removing a plugin row, deciding whether something belongs to the host composition or to on…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02133-editing-cordis-compositions-d04649b9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/dsh-browser/node_modules/.pnpm/@deepseek-ai+dsh-agent-presets@0.1.2-rc.1_ba04eac613f92d66ff12b0df8dedf0e6/node_modules/@deepseek-ai/dsh-agent-presets/presets/cordis/skills/editing-cordis-compositions/SKILL.md",
+  "relative_path": "lute/.dsh/dsh-browser/node_modules/.pnpm/@deepseek-ai+dsh-agent-presets@0.1.2-rc.1_ba04eac613f92d66ff12b0df8dedf0e6/node_modules/@deepseek-ai/dsh-agent-presets/presets/cordis/skills/editing-cordis-compositions/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "861b3b8b798344ce22890da844b464f492a57c11941eb119d96f2e2dce88dce4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

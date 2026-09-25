@@ -1,0 +1,22 @@
+{
+  "英文名称": "docx",
+  "中文名称": "待补：docx",
+  "一句话作用": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional docume…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After creating the file, validate it. If validation fails, unpack, fix the XML, and repack.",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional docume…时，用它产出或更新：After creating the file, v…",
+  "skill_id": "05456-docx-942992c7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/document-skills/skills/docx/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/document-skills/skills/docx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bd7fb283c55df1dd06b53f4aff4df1c612e7b026be05c80e8f98b2898f14cf78",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "mcporter",
+  "中文名称": "待补：mcporter",
+  "一句话作用": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05930-mcporter-9946c329",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/mcporter/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/mcporter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3513e15be4f6c47b17ba9cd30e2a5b526a4da2166fff0e38bda043c4f57c870f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "open-design-landing",
+  "中文名称": "待补：open-design-landing",
+  "一句话作用": "Produce a world-class single-page editorial landing site in the Atelier Zero visual language (Monocle / Apartamento / Études editorial collage) — the same aesthetic Open Design uses for its own marketing surface. The ag…",
+  "关键输入": "Use AskQuestion (or the equivalent in your UI) to collect the brand brief in chunks; do not dump the entire schema.ts on the user. Map their answers into inputs.json matching the typed shape. The eight question groups, in order: Group Schema fields Min answer…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Produce a world-class single-page editorial landing site in the Atelier Zero visual language (Monocle / Apartamento / Études editorial collage) — the same aesthetic Open Design uses for its own marketing surface. The ag…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00119-open-design-landing-c0e7cda8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/open-design-landing/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/open-design-landing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eadf98ae5a75598793b1a2936b966754afe23d31804f1d8be16d7d07172f60dc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

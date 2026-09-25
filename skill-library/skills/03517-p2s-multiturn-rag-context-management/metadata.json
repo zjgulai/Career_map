@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multiturn-rag-context-management",
+  "中文名称": "待补：p2s-multiturn-rag-context-management",
+  "一句话作用": "触发词：多轮对话检索、上下文管理、会话状态追踪、约束继承、指代消解、少问一遍。何时不用：单轮问答不需要会话状态时用「主动检索」；要按角色过滤文档可见性用「知识库RBAC」。安全边界：会话上下文不得长期留存用户隐私信息，压缩上下文的留存期须符合合规要求；预算、型号等关键约束不得被模型自行改写。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要客服Agent面临\"多轮对话中前文业务上下文丢失导致重复询问用户\"——多轮RAG上下文管理引入会话状态追踪，上下文保留率提升75%，客服满意度提升28%，年化节省人工介入成本20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03517-p2s-multiturn-rag-context-management-1c0032fe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multiturn-rag-context-management/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multiturn-rag-context-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a77394e72d9bd5d4fc61ae56478e3ded7212f485f7b406ddf83a19f72e3d8efb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

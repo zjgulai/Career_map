@@ -1,0 +1,22 @@
+{
+  "英文名称": "factframe-script-storyboard",
+  "中文名称": "待补：factframe-script-storyboard",
+  "一句话作用": "Build or change FactFrame frozen Script Generation, Creative Pattern, provider boundary, deterministic validation, fact rebind, Storyboard preflight, preview, and approval workflows. Use for authoring and review after P…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T04:23:57+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Build or change FactFrame frozen Script Generation, Creative Pattern, provider boundary, deterministic validation, fact rebind, Storyboard preflight, preview, and approval workflows. Use for authoring and review after P…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10740-factframe-script-storyboard-3391f225",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/factframe-script-storyboard/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/factframe-script-storyboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e8436dc109d7ae24549482e8559f040e4e7ddf0676497a9a56df2ed871eecf36",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

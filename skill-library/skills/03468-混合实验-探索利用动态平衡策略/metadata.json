@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-armed-bandit-ab-hybrid",
+  "中文名称": "混合实验 探索利用动态平衡策略",
+  "一句话作用": "触发词：MAB 混合实验、流量浪费、多变体并发测试、探索利用平衡、测试周期压缩、效果收敛。何时不用：需要严格显著性报告与审计留痕（如价格类实验）时走「序列化 A/B 检验」或标准 A/B；只有单一变体或完全不接受探索损失时不必用。安全边界：策略切换过快会造成体验波动，必须设最小样本阈值与切换频率约束，并先确认平台 API 权限与数据合规。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营团队面临传统A/B测试流量浪费高达60%——MAB混合策略将最优方案收敛速度提升3倍，年化减少流量浪费价值42万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03468-p2s-multi-armed-bandit-ab-hybrid-2096f29e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-armed-bandit-ab-hybrid/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-armed-bandit-ab-hybrid/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dc15495d5e3e2a564e2fa939d5f6763d06085542f610844791d351fab1653e4b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

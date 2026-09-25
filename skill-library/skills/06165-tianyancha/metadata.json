@@ -1,0 +1,22 @@
+{
+  "英文名称": "tianyancha",
+  "中文名称": "待补：tianyancha",
+  "一句话作用": "Tianyancha Enterprise Database: query enterprise registration, operating, risk, listing, judicial, intellectual property, investment, relationship, group, qualification, private equity fund, personnel, report, and searc…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T17:52:13+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Tianyancha Enterprise Database: query enterprise registration, operating, risk, listing, judicial, intellectual property, investment, relationship, group, qualification, private equity fund, personnel, report, and searc…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06165-tianyancha-000fa601",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/tianyancha/skills/tianyancha/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/tianyancha/skills/tianyancha/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c697a64486d33e60a07cdb3449106b2fcd4c5495bbd3cd5b5e87e6ed2580ebd3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

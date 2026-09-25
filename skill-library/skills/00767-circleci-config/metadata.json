@@ -1,0 +1,22 @@
+{
+  "英文名称": "circleci-config",
+  "中文名称": "待补：circleci-config",
+  "一句话作用": "Optimize CircleCI configuration for speed, reliability, and maintainability. Use when users ask to improve .circleci/config.yml, reduce CI runtime, tune caching/workspaces/parallelism, remove pipeline waste, or fix flak…",
+  "关键输入": "- .yaml and .yml files in .circleci/ and any reusable config fragments - Current pain points: duration, flakiness, cost, or maintainability - Baseline metrics: slowest jobs, most frequent retries/failures, queue and run times - Risk tolerance for structural c…",
+  "关键输出": "Provide: 1. Baseline bottleneck summary. 2. Proposed or applied config changes with rationale. 3. Expected runtime/reliability impact. 4. Validation plan and rollback note.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Optimize CircleCI configuration for speed, reliability, and maintainability. Use when users ask to improve .circleci/config.yml, reduce CI runtime, tune caching/workspaces/parallelism, remove pipeline waste, or fix flak…时，用它产出或更新：Provide: 1. Baseline bottl…",
+  "skill_id": "00767-circleci-config-b0dd9a47",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/circleci/skills/config/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/circleci/skills/config/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9714e2de8552c5c0bf7600b2678482e829c363df035331f199ad4535f0679def",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

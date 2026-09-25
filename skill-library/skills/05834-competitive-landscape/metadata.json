@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitive-landscape",
+  "中文名称": "待补：competitive-landscape",
+  "一句话作用": "This skill should be used when the user asks to \"analyze competitors\", \"assess competitive landscape\", \"identify differentiation\", \"evaluate market positioning\", \"apply Porter's Five Forces\", or requests competitive str…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"analyze competitors\", \"assess competitive landscape\", \"identify differentiation\", \"evaluate market positioning\", \"apply Porter's Five Forces\", or requests competitive str…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05834-competitive-landscape-d7475600",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/startup-business-analyst/skills/competitive-landscape/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/startup-business-analyst/skills/competitive-landscape/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9c5ba2aea8f7c97bd34b5b5bf1ebb90e4e1d7837fce245b283f4c5da3bf3d948",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "validate-data",
+  "中文名称": "待补：validate-data",
+  "一句话作用": "Validate whether an analysis is accurate, well-supported, and ready to share or use for a decision. Use when reviewing methodology, calculations, comparisons, visuals, caveats, or conclusions.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Validate the claims the analysis actually makes, not just whether the artifact looks polished. - Prefer concrete evidence: recompute important numbers, inspect source data, check code paths, trace records, or reconcile against trusted sources when tools and…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Validate whether an analysis is accurate, well-supported, and ready to share or use for a decision. Use when reviewing methodology, calculations, comparisons, visuals, caveats, or conclusions.时，用它产出或更新：- Validate the claims the analysis actually makes, not…",
+  "skill_id": "00811-validate-data-313687cf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/data-analytics/skills/validate-data/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/data-analytics/skills/validate-data/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7aa5c77b22b9e5bf1b054e4ab6320a12dfd5342aa6cb18f8e497b46c713be20e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

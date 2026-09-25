@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill: GEO Report Builder（ Prompt ）",
+  "中文名称": "单 Prompt 报告）",
+  "一句话作用": "把「同一条 Prompt 重复采集 N 次」的深度分析结果，渲染成一份自包含的 8 段 HTML 报告。",
+  "关键输入": "来自 single query analyzer.py 的输出目录： 文件 字段 用途 --- --- --- mention rate.csv Brand, Mentioned Count, Total, Mention Rate ② 提及率 / ⑦ 竞对对比 domain dist.csv Domain, Count, Sample URLs ③ 引用率 / ④ 引用域名 answer consistency.csv Brand Combo, Count, Pct ⑥ 答案一致性",
+  "关键输出": "约定路径：data/outputs/single /report .html 自包含单文件 HTML，可直接 open 或转发。",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要对同一条 Prompt 重复采集 N 次（默认 10 次）并跑完 single query analyzer.py 之后，用本技能把 CSV 渲染成可交付的 HTML 报告。时，用它产出或更新：约定路径：data/outputs/single /report .html 自包含单文件 HTML，可直接 open 或转发。",
+  "skill_id": "00235-skill-geo-report-builder-prompt-cd2a21e5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-report-builder/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-report-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5b51b9e2b162654e93b0740838ebf3a077dc7eee01ece58d6028ed7d8cd3607a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

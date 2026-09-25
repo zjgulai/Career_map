@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-research-matrix",
+  "中文名称": "待补：product-research-matrix",
+  "一句话作用": "用多维选品矩阵做系统化产品调研与机会评估，支撑数据驱动的选品决策。触发词：产品调研矩阵、选品矩阵、市场矩阵、机会分析、供需分析、产品调研。何时不用：单一产品深度分析、已有明确选品方向、Listing优化/广告投放/邮件营销/social-content/品牌设计/合规认证等非选品矩阵任务。 Create and analyze product selection matrices for data-driven product dec…",
+  "关键输入": "- 候选品类列表（至少 2 个品类） - 市场数据（需求/供给/竞争），无数据时声明「我没有数据，请基于公开信息估算」 - 评估权重偏好（可选，默认使用 references/dimensions.md 的权重体系） - 目标市场参数",
+  "关键输出": "- 选品方向报告 - 多维度评分矩阵（含各维度得分、加权贡献、rubric 描述） - 风险收益分析（top risks、高风险候选） - 优先级排序（综合得分排名） - 执行建议（推荐进入、差异化方向、风险提示）",
+  "最新更新时间": "2026-09-13T03:00:36+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 新品开发方向探索 - 市场供需分析 - 多品类机会对比 - 选品决策支撑 - 差异化定位分析时，用它产出或更新：- 选品方向报告 - 多维度评分矩阵（含各维度得分、加权贡献、rubric 描述） - 风险收益分析（top risks、高风险候选） - 优先级排序（综合得分排名） - 执行建议（推荐进入、差异化方向、风险提示）",
+  "skill_id": "04085-product-research-matrix-9e186761",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/product-research-matrix/SKILL.md",
+  "relative_path": "lute/.dsh/skills/product-research-matrix/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "29d73df8a2ce1eeb5df1236397114a1b1038db15d565a04618846acc1d9cfee4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

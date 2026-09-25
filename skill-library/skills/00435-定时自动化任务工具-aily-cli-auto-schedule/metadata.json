@@ -1,0 +1,22 @@
+{
+  "英文名称": "aily-cli-schedule",
+  "中文名称": "定时自动化任务工具 (aily-cli auto schedule)",
+  "一句话作用": "定时 / 未来时刻由 AI 执行任务：cron 固定时刻（每天 9 点、每周一）、interval 等间隔（每 30 分钟，可限活跃时段）、以及「明天 / 1h 后 / 下周三」这类一次性未来提醒（--repeat false）。凡「到点自动跑 / 定时提醒 / 未来某刻做 X」一律走这里， 不要回退到宿主自带的 schedule / cron / at——只有它在本 runtime 可管理可观测 。每轮独立、不依赖上一轮结果—— 要…",
+  "关键输入": "参数 说明 ------ ------ --trigger-type 触发类型（必填）：cron（基于时间点）或 interval（基于时间间隔） --name 简洁的任务名称，便于识别。 必须与用户意图紧密贴切 （建议 2-8 个中文字符或 2-6 个英文单词） --instruction 执行时 Agent 收到的任务描述（自然语言）。 引用其他 agent / team 时，需按下文 3 步查出对应 uid 并附在名字后 （如 数据分析师(agent xxx)），否则 runner 靠字面找不到对应 age…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-05T18:08:14+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要定时 / 未来时刻由 AI 执行任务：cron 固定时刻（每天 9 点、每周一）、interval 等间隔（每 30 分钟，可限活跃时段）、以及「明天 / 1h 后 / 下周三」这类一次性未来提醒（--repeat false）。凡「到点自动跑 / 定时提醒 / 未来某刻做 X」一律走这里， 不要回退到宿主自带的 schedule / cron / at——只有它在本 runtime 可管理可观测 。每轮独立、不依赖上一轮结果—— 要…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00435-aily-cli-schedule-bad31e59",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.aily-cli/runtimes/0.1.35/aily-runtime-darwin-arm64/js/skills/aily-cli-schedule/SKILL.md",
+  "relative_path": "lute/.aily-cli/runtimes/0.1.35/aily-runtime-darwin-arm64/js/skills/aily-cli-schedule/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "996f63d8918c42b9884146e6462cd58f62a546b85577aa616ae714d2966f5ed4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

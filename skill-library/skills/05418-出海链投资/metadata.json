@@ -1,0 +1,22 @@
+{
+  "英文名称": "going-global",
+  "中文名称": "出海链投资",
+  "一句话作用": "用于出海链投资分析，聚焦全球化投资、制造业研究、行业比较优势、中长期成长。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户关注中国企业出海、海外扩张、全球份额提升时，希望知道公司出海是真成长还是概念故事，哪些环节最容易兑现，哪些有地缘、汇率、渠道、认证等风险。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于出海链投资分析，聚焦全球化投资、制造业研究、行业比较优势、中长期成长。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户关注中国企业出海、海外扩张、全球份额提升时，希望知道公司出海是真成长还是概念故事，哪些环节最容易兑现，哪些有地缘、汇率、渠道、认证等风险。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05418-going-global-bd0d7f1b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/going-global/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/going-global/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2db75baa6df2c813501fcee1a40936dc5d7081ce52b139ac7bcf20276544111",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

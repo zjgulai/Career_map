@@ -1,0 +1,22 @@
+{
+  "英文名称": "google-docs",
+  "中文名称": "待补：google-docs",
+  "一句话作用": "Prompt- and template-complete Google Docs creation and editing with explicit-instruction-authoritative structural preservation, including semantic roles, relationships, comparison dimensions, and instructed extensions;…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "A result is incomplete if it silently omits an explicit requirement, requested source content, template/reference field, required link or figure, requested native structure, mandatory smart chip, or distinct functional section. Matching visible text is not en…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Prompt- and template-complete Google Docs creation and editing with explicit-instruction-authoritative structural preservation, including semantic roles, relationships, comparison dimensions, and instructed extensions;…时，用它产出或更新：A result is incomplete if i…",
+  "skill_id": "00853-google-docs-a78b6f57",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/google-drive/skills/google-docs/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/google-drive/skills/google-docs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e5c26053d800e2980b74ab82c2ce95db94a17fbb443f8f6e30baeb442f1d464",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

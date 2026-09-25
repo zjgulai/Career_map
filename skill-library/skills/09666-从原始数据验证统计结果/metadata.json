@@ -1,0 +1,22 @@
+{
+  "英文名称": "从原始数据验证统计结果",
+  "中文名称": "从原始数据验证统计结果",
+  "一句话作用": "来源：https://claude.com/resources/use-cases/verify-statistics-from-raw-data",
+  "关键输入": "字段 说明 示例 ------ ------ ------ 任务描述 用户的具体需求或问题描述 我需要分析竞品SEO策略 上下文信息 相关背景数据、约束条件、业务场景 北美市场、母婴品类、Q4旺季 质量标准 输出要求、验收标准、格式规范 Markdown格式、包含数据支撑 目标受众 最终使用者或决策者 运营团队、管理层、外部客户 时间约束 交付时限、迭代周期 即时/24小时/周度",
+  "关键输出": "从原始数据验证统计结果 是一个专业的 来源：https://claude.com/resources/use-cases/verify-statistics-from-raw-data，帮助用户快速完成相关任务并输出标准化交付物。",
+  "最新更新时间": "2025-01-16",
+  "业务场景": "claude learn",
+  "解决具体问题": "当需要来源：https://claude.com/resources/use-cases/verify-statistics-from-raw-data时，用它产出或更新：从原始数据验证统计结果 是一个专业的 来源：https://claude.com/resources/use-cases/verify-statistics-from-raw-data，帮助用户快速完成相关任务并输出标准化交付物。",
+  "skill_id": "09666-skill-2d1c8869",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/从原始数据验证统计结果/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/从原始数据验证统计结果/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "a063918a85e36b1120a612801dd196e9476db481d2c9099742798867606de20b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

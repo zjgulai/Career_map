@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ip-trademark-brand-monitoring",
+  "中文名称": "知识产权主动监控：商标侵权自动检测与预警",
+  "一句话作用": "触发词：品牌侵权监控、仿冒品预警、图片盗用、证据包、平台举报。何时不用：要盯官方商标公告提前异议用「商标侵权追踪」；要在上架前评估我方侵权风险用「上架前 IP 侵权扫描」。安全边界：举报材料须有系统化证据并经品牌方确认；不得对正常竞品发起恶意投诉。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要竞品上架与我品牌名95%相似的仿冒品抢走流量但人工发现需要数周——多模态IP监控24小时内检测品牌名/Logo/图片侵权并生成证据包，快速举报保护品牌GMV年化避损20-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12564-p2s-ip-trademark-brand-monitoring-5b37cac7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-ip-trademark-brand-monitoring/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-ip-trademark-brand-monitoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2839d392e036ce9e046f546d6c74f0a95748e6a653355d6d302d778167ca692",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "diagnosing-bugs",
+  "中文名称": "诊断 Bug",
+  "一句话作用": "硬 bug 与性能回归的诊断循环。触发词：Bug 诊断、diagnosing-bugs、硬 bug 与性能回归的诊断循环。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要硬 bug 与性能回归的诊断循环。触发词：Bug 诊断、diagnosing-bugs、硬 bug 与性能回归的诊断循环。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02528-diagnosing-bugs-e313d2c1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/diagnosing-bugs/SKILL.md",
+  "relative_path": "lute/.dsh/skills/diagnosing-bugs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "348212eb51bb53dc0338d72bc92ec101c9c33f0ac1e6c948dda7b85b12daa817",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

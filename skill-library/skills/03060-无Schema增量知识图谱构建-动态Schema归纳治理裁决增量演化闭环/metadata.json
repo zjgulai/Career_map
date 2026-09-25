@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dial-kg-schema-free-incremental",
+  "中文名称": "无Schema增量知识图谱构建 动态Schema归纳治理裁决增量演化闭环",
+  "一句话作用": "触发词：无 Schema 建图、增量知识图谱、动态 Schema、治理裁决、双轨提取。何时不用：领域 Schema 已稳定、只需一次性按既定本体填充时用本体 Schema 设计类技能；本技能面向数据按批次持续到达、关系类型还会长出来的场景。安全边界：公开商品数据可用，用户评论与卖家内部数据需授权；自动归纳的关系若含竞品敏感信息，公开前须过治理裁决。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要传统KG构建需要2周人工设计Schema且无法应对快速演化的领域知识——DIAL-KG双轨提取+治理裁决+动态Schema归纳完全无需预定义，KG质量和Schema质量双SOTA，支持增量更新无需重建（2026 arXiv:2603.20059）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03060-p2s-dial-kg-schema-free-incremental-ca7cdf22",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dial-kg-schema-free-incremental/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dial-kg-schema-free-incremental/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eee1da03256f469979e4581fe26eeea5b661c21d90cfce7af935dbd06b871f1b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

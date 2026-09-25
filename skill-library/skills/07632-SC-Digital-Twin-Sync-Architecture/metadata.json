@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-SC-Digital-Twin-Sync-Architecture",
+  "中文名称": "待补：SC Digital Twin Sync Architecture",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 46.4, \"best\": 83.0, \"mutated\": \"D8 algo\", \"ts\": \"2026-07-04T05:03:35.800709\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T20:03:35+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 46.4, \"best\": 83.0, \"mutated\": \"D8 algo\", \"ts\": \"2026-07-04T05:03:35.800709\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07632-skill-sc-digital-twin-sync-architecture-fc2c65e5",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-SC-Digital-Twin-Sync-Architecture.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-SC-Digital-Twin-Sync-Architecture.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d67eb24e6ebdc5a1cb0603db52957f619f6da704c37f95a5b2d7a30fe0558913",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "speech",
+  "中文名称": "待补：speech",
+  "一句话作用": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (scripts/text to speech.py) with built-in vo…",
+  "关键输入": "- Generate a single spoken clip from text - Generate a batch of prompts (many lines, many files)",
+  "关键输出": "- Use tmp/speech/ for intermediate files (for example JSONL batches); delete when done. - Write final artifacts under output/speech/ when working in this repo. - Use --out or --out-dir to control output paths; keep filenames stable and descriptive.",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Generate a single spoken clip from text - Generate a batch of prompts (many lines, many files)时，用它产出或更新：- Use tmp/speech/ for intermediate files (for example JSONL batches); delete when done. - Write final artifacts under output/speech/ when working in t…",
+  "skill_id": "01636-speech-5a98c573",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/speech/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/speech/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d6120efc03ea0e80204f687801cfaec8efc4519a3430b68e13e4ebd8e1c69b52",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

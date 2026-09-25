@@ -1,0 +1,22 @@
+{
+  "英文名称": "review-security",
+  "中文名称": "待补：review-security",
+  "一句话作用": "Review code changes with Security Review subagent.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T14:38:42+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Review code changes with Security Review subagent.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02007-review-security-9ae7f1f1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cursor/skills-cursor/review-security/SKILL.md",
+  "relative_path": "lute/.cursor/skills-cursor/review-security/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d007ec5a617e9caeef03055cd9c5dad762d80acb4ae1b20377bde4b3b41c46fd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

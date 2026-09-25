@@ -1,0 +1,22 @@
+{
+  "英文名称": "classname-refactor",
+  "中文名称": "待补：classname-refactor",
+  "一句话作用": "自动检查并转换 React/Vue 文件中 className 的模板字符串为 cn 函数调用；支持递归扫描文件夹、详细报告所有 className 位置",
+  "关键输入": "判断是单个文件还是文件夹： - 单个文件 ：直接读取该文件内容 - 文件夹 ：递归扫描所有子文件夹，列出所有 .tsx/.jsx/.vue 文件",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:20+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Q: 文件夹嵌套很深怎么办？ A: 递归扫描所有子文件夹，无论嵌套多深都要扫描。 Q: 如何确保不遗漏文件？ A: 使用递归扫描，列出所有 .tsx/.jsx/.vue 文件，逐个检查。 Q: 文件太多报告会很长吗？ A: 提供详细的分类报告和统计摘要，便于快速了解整体情况。 Q: 为什么要使用 cn 函数？ A: cn 函数提供了更好的可读性、类型安全和条件类名处理能力。 Q: cn 函数从哪里导入？时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04761-classname-refactor-ac9cffa0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/classname-refactor/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/classname-refactor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b1fa28dc4477fd8a811ab9d7d8457ca5e5480a156ca27a5c2cdceb7111c55458",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ucp",
+  "中文名称": "待补：ucp",
+  "一句话作用": "Use when the user wants to use the UCP CLI to find, compare, buy, or track products from online merchants, or to set up and troubleshoot the local UCP profile required for merchant-scoped operations. Covers global catal…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Lead with products , not tool narration. The buyer asked \"find me X\" — answer with X. For each product, surface from response data: title, seller, price (apply minor-units conversion), one concrete differentiator from description or rating, available options,…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Use when the user wants to use the UCP CLI to find, compare, buy, or track products from online merchants, or to set up and troubleshoot the local UCP profile required for merchant-scoped operations. Covers global catal…时，用它产出或更新：Lead with products , not t…",
+  "skill_id": "01036-ucp-4ff159c3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/shopify/skills/ucp/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/shopify/skills/ucp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "387161a2505a95c02c3f4af3dd0bdbd1ca902ae6f044496a485fca7625236079",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

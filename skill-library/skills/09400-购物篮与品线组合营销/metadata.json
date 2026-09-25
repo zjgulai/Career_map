@@ -1,0 +1,22 @@
+{
+  "英文名称": "momcozy-product-line-basket-reporting",
+  "中文名称": "购物篮与品线组合营销",
+  "一句话作用": "Use when users ask for Momcozy basket analysis and product-line combination strategy, including Sheet⑤⑥⑦⑧、支持度置信度提升度、典型组合场景、专题05结论、专题01品线组合营销洞察、汇报故事线或演讲稿. Not for 专题01/专题02费率归因 or L0-L3指标树拆解.",
+  "关键输入": "- 用户要做 Sheet⑤⑥⑦⑧ 购物篮关联分析。 - 用户要输出专题05结论、组合场景、品线组合营销策略。 - 用户要把专题05与专题01洞察连成汇报故事线。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-16T20:51:55+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 用户要做 Sheet⑤⑥⑦⑧ 购物篮关联分析。 - 用户要输出专题05结论、组合场景、品线组合营销策略。 - 用户要把专题05与专题01洞察连成汇报故事线。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09400-momcozy-product-line-basket-reporting-b32b210e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/momcozy-product-line-basket-reporting/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/momcozy-product-line-basket-reporting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "729b8aaec2f817187d31804eef4b7673a010e5999c0070b7fd067e1a7a8b45c0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

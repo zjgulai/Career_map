@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-trade-agent-guide",
+  "中文名称": "待补：alibaba-icbu-trade-agent-guide",
+  "一句话作用": "Alibaba.com Trade Agent Guide Skill, covering pre-order validation and missing field guidance. Given a productId (numeric), calls the trade agent guide MCP tool to check negotiation contract completeness, then guides us…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "This Skill validates the completeness of a negotiation contract before order placement on Alibaba.com. It calls the trade agent guide MCP tool with a productId, parses the result, and guides users to fill in missing fields to reach an orderable or payable sta…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba.com Trade Agent Guide Skill, covering pre-order validation and missing field guidance. Given a productId (numeric), calls the trade agent guide MCP tool to check negotiation contract completeness, then guides us…时，用它产出或更新：This Skill validates the c…",
+  "skill_id": "00081-alibaba-icbu-trade-agent-guide-421d11c7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-agent-guide/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-trade-agent-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a290b67666054e5738713627404ab10d7fe98bc7cd1e5a4d689bc1af2c9a69f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

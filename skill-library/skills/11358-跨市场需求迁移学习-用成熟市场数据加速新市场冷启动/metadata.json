@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-market-transfer-demand",
+  "中文名称": "跨市场需求迁移学习 用成熟市场数据加速新市场冷启动",
+  "一句话作用": "触发词：跨市场迁移、域适应、负迁移、MMD阈值、新市场备货。何时不用：目标站点完全没有销售数据、要判断零销量概率用「跨境冷启动预测」，同站点新品冷启动用「对比学习冷启动」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要出海运营面临\"德国日本新市场没有历史数据需求预测完全是盲猜\"——Domain Adaptation跨市场迁移将新市场冷启动误差降低45%，年化$3.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11358-p2s-cross-market-transfer-demand-05fdcae7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-cross-market-transfer-demand/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-cross-market-transfer-demand/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6036cae7cb9eb99db57b613c98f05fc25cf04fca32b13c7f8fa4e318e3fd31f6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

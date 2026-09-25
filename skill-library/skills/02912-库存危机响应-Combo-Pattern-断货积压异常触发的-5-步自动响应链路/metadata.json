@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-combo-inventory-crisis-response",
+  "中文名称": "库存危机响应 Combo Pattern 断货积压异常触发的 5 步自动响应链路",
+  "一句话作用": "触发词：库存危机、断货预警、积压清仓、DSI 异常、五步响应。何时不用：只算单点补货量用补货模拟类技能；只评估调拨或清货渠道用调拨清货建议类技能。安全边界：紧急空运与甩货动作须人工确认金额与批次后才可执行，链路本身不得自动下单。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链总监面临\"断货或积压发生后应急响应需要多个系统多个人协调处理效率极低\"——5步自动响应链路将库存危机响应时间从3天人工协调压缩至4小时自动完成，年化避损$12万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02912-p2s-combo-inventory-crisis-response-0fc55dcd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-combo-inventory-crisis-response/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-combo-inventory-crisis-response/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "12c012c6f437abcf1f838017847b9a83d022b115ccae695d215832bf6827a8a2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

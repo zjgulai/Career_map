@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-ecommerce-compliance-tax-logistics",
+  "中文名称": "待补：doubao-ecommerce-compliance-tax-logistics",
+  "一句话作用": "Cross-border ecommerce compliance, tax, IP, customs, tariff, HS code, fulfillment, warehousing, China import, and clearance workflow for marketplace and independent-store sellers. Use when the user asks whether a produc…",
+  "关键输入": "- Target country/region and platform are required for specific compliance, tax, import, or platform-policy guidance. If missing, provide a generic checklist and ask for them. - Product details are required: commercial name, material, ingredients, function, ta…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Cross-border ecommerce compliance, tax, IP, customs, tariff, HS code, fulfillment, warehousing, China import, and clearance workflow for marketplace and independent-store sellers. Use when the user asks whether a produc…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06256-doubao-ecommerce-compliance-tax-logistics-e95fc9bd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-ecommerce-compliance-tax-logistics/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-ecommerce-compliance-tax-logistics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "43d3cf7e1bf505833a7bc07cf103acacf0a1b03945c4b2bd74f8291facb5dd1d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

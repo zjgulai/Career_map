@@ -1,0 +1,22 @@
+{
+  "英文名称": "GEO优化器",
+  "中文名称": "优化器",
+  "一句话作用": "优化AI搜索可见性、Product Schema 与 AI Shopping 占位，用于生成式引擎时代的SEO。触发词：GEO优化器、GEO优化、AI搜索优化、Product Schema、AI Shopping、结构化数据、LLM可见性。何时不用：传统技术SEO审计（使用 seo-technical-audit）、单页关键词内容优化（使用 seo-content-optimizer）、不涉及AI搜索的常规排名。缺产品信息/页面URL…",
+  "关键输入": "- 用户要优化 AI 搜索（Google SGE / Bing Copilot / Perplexity）里的可见性与占位 - 用户要生成 Product / FAQ / HowTo / Review / LocalBusiness 结构化数据（Schema.org JSON-LD） - 用户要做 AI Shopping 可见性优化、产品 feed 优化、视觉搜索优化 - 用户要做语音搜索适配、多模态搜索优化 - 用户要诊断「页面为什…",
+  "关键输出": "GEO/AI搜索可见性报告 :",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 用户要优化 AI 搜索（Google SGE / Bing Copilot / Perplexity）里的可见性与占位 - 用户要生成 Product / FAQ / HowTo / Review / LocalBusiness 结构化数据（Schema.org JSON-LD） - 用户要做 AI Shopping 可见性优化、产品 feed 优化、视觉搜索优化 - 用户要做语音搜索适配、多模态搜索优化 - 用户要诊断「页面为什…时，用它产出或更新：GEO/AI搜索可见性报告 :",
+  "skill_id": "10457-geo-a90ca5d5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/GEO优化器/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/GEO优化器/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "cacdf56fe5e098451d459d59243f6430637ada6e23c8ff0c338cce4167e36ebb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

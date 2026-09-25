@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-data-cleaning",
+  "中文名称": "跨境电商数据清洗 Skill",
+  "一句话作用": "跨境电商数据清洗专用Skill。自动检测并处理数据质量问题，包括缺失值、异常值、重复数据、格式不一致等。 触发条件: 1. 用户上传CSV/Excel文件并提到\"清洗\"、\"清理\"、\"预处理\" 2. 用户询问\"数据质量\"、\"缺失值处理\"、\"异常值检测\" 3. 用户需要\"数据标准化\"、\"格式转换\" 输出内容: - 清洗前后数据质量对比报告 - 清洗操作详细日志 - 清洗后的干净数据集 - 数据质量评分(0-100)",
+  "关键输入": "支持格式 : - CSV (.csv) - Excel (.xlsx, .xls) - JSON (.json) - Parquet (.parquet) 必需字段 （跨境电商常见）: 字段类别 示例字段 说明 --------- --------- ------ 订单信息 order id, order date 唯一标识和日期 产品信息 sku, product name, category 产品标识和分类 销售信息 quantity, price, amount 数量和金额",
+  "关键输出": "1. 数据质量报告 (Markdown/PDF)",
+  "最新更新时间": "2026-03-03T21:11:29+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Q: 清洗后数据量变少很多，正常吗？ A: 如果原始数据质量较差（大量缺失、重复），清洗后数据量减少是正常的。建议检查清洗日志，确认删除原因。 Q: 异常值被删除了，如何恢复？ A: 清洗时选择\"标记\"策略而非\"删除\"，异常值会被标记但保留在数据中，便于后续人工复核。 Q: 能否保存清洗规则供下次使用？ A: 可以。清洗完成后会生成规则配置文件(cleaning rules.json)，下次可直接加载应用。时，用它产出或更新：1. 数据质量报告 (Markdown/PDF)",
+  "skill_id": "09410-cbec-data-cleaning-585d7301",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/00-data-foundation/data-cleaning/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/00-data-foundation/data-cleaning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39e45bca19619063f92d73047d7382d59dc06816b6ab9ba44591b415edc98fb1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

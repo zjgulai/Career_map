@@ -1,0 +1,22 @@
+{
+  "英文名称": "whitepapers",
+  "中文名称": "待补：whitepapers",
+  "一句话作用": "Use when producing research-heavy whitepapers or technical guides that require structured argumentation and data.",
+  "关键输入": "- Deep-dives for regulated or technical buyers (finance, healthcare, energy). - Support ABM campaigns with detailed solution explainers. - Repurpose product research into demand-gen anchors.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:57:17+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Deep-dives for regulated or technical buyers (finance, healthcare, energy). - Support ABM campaigns with detailed solution explainers. - Repurpose product research into demand-gen anchors.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04254-whitepapers-560a08da",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/whitepapers/SKILL.md",
+  "relative_path": "lute/.dsh/skills/whitepapers/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0bf6b7f2a22101a94e09acd7ec31cdb100b56c439a602976124bc2bfed0b0167",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

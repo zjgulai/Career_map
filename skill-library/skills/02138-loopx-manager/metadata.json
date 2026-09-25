@@ -1,0 +1,22 @@
+{
+  "英文名称": "loopx-manager",
+  "中文名称": "待补：loopx-manager",
+  "一句话作用": "Inspect authorized LoopX Goals, Todos and deliveries to explain progress, identify owner decisions and delegate intent to the right worker.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T18:03:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Inspect authorized LoopX Goals, Todos and deliveries to explain progress, identify owner decisions and delegate intent to the right worker.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02138-loopx-manager-f2704c38",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/loopx-venv/lib/python3.14/site-packages/loopx/capabilities/manager_context/skills/loopx-manager/SKILL.md",
+  "relative_path": "lute/.dsh/loopx-venv/lib/python3.14/site-packages/loopx/capabilities/manager_context/skills/loopx-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ac9b1a27c60bfea8bf21fea7bef5ebad0c65367ed771b0167ee669f09fd2048",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

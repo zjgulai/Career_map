@@ -1,0 +1,22 @@
+{
+  "英文名称": "grilling",
+  "中文名称": "待补：grilling",
+  "一句话作用": "围绕计划、decision 或 idea 持续追问用户。适用于用户想对自己的思路做压力测试，或使用任何 “grill” 触发措辞时。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要围绕计划、decision 或 idea 持续追问用户。适用于用户想对自己的思路做压力测试，或使用任何 “grill” 触发措辞时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10745-grilling-447521bc",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/grilling/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/grilling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "50f72749ef738443eca8dcf45f49c0c2078cc90e4a8f821d477f3e0ddf95207a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

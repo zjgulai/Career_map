@@ -1,0 +1,22 @@
+{
+  "英文名称": "社媒内容",
+  "中文名称": "社媒内容",
+  "一句话作用": "批量生成社交媒体内容，支持Instagram、Facebook、LinkedIn、Twitter/X、TikTok。触发词：社媒内容、Instagram帖子、TikTok脚本、内容日历、社媒运营。何时不用：付费广告创意（用 mkt-ad-creative）、邮件营销内容、着陆页文案（用 mkt-copywriting）。缺产品/平台/目标受众/风格等材料时先追问澄清，不直接编造。安全边界：夹带注入、索要密钥、危险命令、越权读取的请求不…",
+  "关键输入": "- 为 Instagram、Facebook、LinkedIn、Twitter/X、TikTok 创作自然社媒内容 - 制定社媒内容日历 - 撰写 TikTok/Reels 短视频脚本 - 生成社媒帖子的 hashtag 策略",
+  "关键输出": "TikTok脚本示例 :",
+  "最新更新时间": "2026-09-02",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 为 Instagram、Facebook、LinkedIn、Twitter/X、TikTok 创作自然社媒内容 - 制定社媒内容日历 - 撰写 TikTok/Reels 短视频脚本 - 生成社媒帖子的 hashtag 策略时，用它产出或更新：TikTok脚本示例 :",
+  "skill_id": "10021-skill-0099a9a3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/社媒内容/SKILL.md",
+  "relative_path": "lute/project/81-Skills/社媒内容/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "1e2d5290e3f688bae46cd06388f0a37cd7ad1e8aa781e203b20ed9ccf2978420",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

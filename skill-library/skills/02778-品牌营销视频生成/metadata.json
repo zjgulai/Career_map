@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-aquarius-brand-video-generation",
+  "中文名称": "品牌营销视频生成）",
+  "一句话作用": "触发词：品牌视频批量生成、多市场本地化、模特形象切换、节日主题、品牌视觉一致。何时不用：单条视频精修或需要真人实拍品牌片时不用；品牌元素严格植入与校验用品牌植入类技能。安全边界：虚拟形象须标注 AI 生成；本地化节日元素须避免文化误用，文案不得虚假宣传。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴品牌需要在美/德/英/日 4 个市场投放品牌视频广告——每个市场需要不同模特、不同语言字幕、不同节日主题（美国感恩节/德国圣诞节/日本新年）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02778-p2s-aquarius-brand-video-generation-269ea15a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-aquarius-brand-video-generation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-aquarius-brand-video-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b15b83d2bde3f1721148b53c18c2f6f2b35716d8fb0f3719ed178f1737ad836c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

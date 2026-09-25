@@ -1,0 +1,22 @@
+{
+  "英文名称": "drawio",
+  "中文名称": "待补：drawio",
+  "一句话作用": "Optional Draw.io / diagrams.net delivery foundation. Use only when the user explicitly asks for Draw.io, .drawio, diagrams.net, editable diagram delivery, or local Draw.io MCP usage. Preserve the architecture evidence m…",
+  "关键输入": "- The user asks for an editable .drawio or diagrams.net delivery. - The user already has a Draw.io MCP server installed and asks the agent to open or update a diagram through it. - A stakeholder wants to continue manual…",
+  "关键输出": "These artifacts separate the canonical architecture source from any derived editable Draw.io delivery file. - .mmd dot dsl svg: canonical or intermediate diagram source used for delivery. - .drawio: optional derived editable Draw.io XML when generated.",
+  "最新更新时间": "2026-09-19T03:37:43+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- The user asks for an editable .drawio or diagrams.net delivery. - The user already has a Draw.io MCP server installed and asks the agent to open or update a diagram through it. - A stakeholder wants to continue manual…时，用它产出或更新：These artifacts separate t…",
+  "skill_id": "04400-drawio-d30ed450",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/drawio/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/architecture-visualization/0.1.0/skills/drawio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "721ad669c2b5450535e0d847f929952693c22f222b919ea67df0743fc4029bd1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

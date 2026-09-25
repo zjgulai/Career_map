@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Memory-as-Action",
+  "中文名称": "待补：Memory as Action",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 48.0, \"best\": 63.0, \"mutated\": \"D9 scenario\", \"ts\": \"2026-07-04T04:23:29.600086\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 51.8, \"best\": 79.0, \"mutated\": \"D10 three…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T17:53:47+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 48.0, \"best\": 63.0, \"mutated\": \"D9 scenario\", \"ts\": \"2026-07-04T04:23:29.600086\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 51.8, \"best\": 79.0, \"mutated\": \"D10 three…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07370-skill-memory-as-action-65fc226a",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Memory-as-Action.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Memory-as-Action.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "8a0f92d31cb3d2c6ddbaf0074cd89a522146a4cd55077f7dbce0e0244bb35488",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "—— Graphic",
+  "中文名称": "图形生成",
+  "一句话作用": "电商频道图形资产生成工具。图标、插画、Banner、装饰元素。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "文件组织： - output/{case-id}/graphic/{asset-name}.svg — SVG 文件 - output/{case-id}/graphic/{asset-name}.png — PNG 文件（AI 生图路径） - output/{case-id}/graphic/{asset-name}-preview.html — HTML 预览页 - output/{case-id}/graphic/{asset-name}-composite.html — 混合路径合成 HTML",
+  "最新更新时间": "2026-09-19T03:38:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要电商频道图形资产生成工具。图标、插画、Banner、装饰元素。时，用它产出或更新：文件组织： - output/{case-id}/graphic/{asset-name}.svg — SVG 文件 - output/{case-id}/graphic/{asset-name}.png — PNG 文件（AI 生图路径） - output/{case-id}/graphic/{asset-name}-preview.html — HTML 预览页 - output/{case-id}/graphic/{as…",
+  "skill_id": "04653-graphic-505ceaa4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/graphic/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/graphic/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fbc8a4c2c123f3ba43950219c8feef292163635904cd7f14d49799de1ead732c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

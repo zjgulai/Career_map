@@ -1,0 +1,22 @@
+{
+  "英文名称": "Moodboard Creator",
+  "中文名称": "待补：Moodboard Creator",
+  "一句话作用": "Create visual moodboards from collected inspiration with iterative refinement. Use after trend research or website analysis to synthesize design direction before implementation.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Final moodboard should directly inform: - Tailwind config colors - Google Fonts selection - Component styling decisions - Layout structure",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Create visual moodboards from collected inspiration with iterative refinement. Use after trend research or website analysis to synthesize design direction before implementation.时，用它产出或更新：Final moodboard should directly inform: - Tailwind config colors - Go…",
+  "skill_id": "05629-moodboard-creator-21ad542a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-design-pro/skills/moodboard-creator/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-design-pro/skills/moodboard-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f732203ecad05f9d5ea3d8dc9bd766765e878b80059ea556d4db8b1f81834a8b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

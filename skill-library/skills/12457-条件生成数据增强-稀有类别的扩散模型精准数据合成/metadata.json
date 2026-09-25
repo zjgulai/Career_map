@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-class-conditional-generation-augment",
+  "中文名称": "条件生成数据增强 稀有类别的扩散模型精准数据合成",
+  "一句话作用": "触发词：数据增强、扩散模型、稀有类别、合成样本、欺诈召回。何时不用：常规不平衡可用重采样与损失改造，用「类别不平衡处理」；做标签偏见审计用「标签公平性与偏见审计」。安全边界：合成数据只可用于模型训练，不得对外作为真实案例披露；须防范成员推断攻击导致的真实用户信息泄露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要风控团队面临\"欺诈退货仅1.8%极端不平衡导致XGBoost召回率42%\"——条件扩散模型生成多样化合成样本，召回率提升至68%，年化减少欺诈损失约35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12457-p2s-class-conditional-generation-augment-3f0d8916",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-class-conditional-generation-augment/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-class-conditional-generation-augment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "89b5cc007a3fc5ea29671fcf7a418b5fe0c46874046b85b21ec801c24b7609ee",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

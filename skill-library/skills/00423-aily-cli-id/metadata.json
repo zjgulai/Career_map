@@ -1,0 +1,22 @@
+{
+  "英文名称": "aily-cli-id",
+  "中文名称": "待补：aily-cli-id",
+  "一句话作用": "身份 ID 转换：user id（int64，跨 agent / 工程接口 / 持久化用）↔ open id（ou ，绑定 bot app，调 lark-cli / 开平接口用）。模型手里 ID 形态跟目标接口不匹配、或需要把他 app 的 open id 归一化到当前 agent 上下文时用本 skill。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-24T12:29:04+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要身份 ID 转换：user id（int64，跨 agent / 工程接口 / 持久化用）↔ open id（ou ，绑定 bot app，调 lark-cli / 开平接口用）。模型手里 ID 形态跟目标接口不匹配、或需要把他 app 的 open id 归一化到当前 agent 上下文时用本 skill。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00423-aily-cli-id-5818e583",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-id/SKILL.md",
+  "relative_path": "lute/.aily-cli/runtimes/0.1.19/aily-runtime-darwin-arm64/js/skills/aily-cli-id/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "13f82e5e3ae32b6798e9f1dd9a6cd6abab754e9e91373d76e0413206924fb55c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

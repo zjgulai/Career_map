@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tariff-fx-fba-cost-dynamics",
+  "中文名称": "关税-汇率-FBA费率三联动成本动态测算 跨境利润实时压力测试模型",
+  "一句话作用": "触发词：关税汇率FBA三联动、成本动态测算、利润压力测试、临界价格点、蒙特卡洛成本模拟。何时不用：只评估单一关税情景对毛利率的逐级影响时用「关税冲击利润压力测试」；只算每单贡献毛利与CAC/LTV时用「单位经济拆解」。安全边界：只做内部利润测算与定价预警，不代做关税申报；税率、汇率、FBA费率须以官方公告与财务台账为准，不得沿用过期参数。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要卖家用静态成本表决策被关税上调打蒙——三联动Monte Carlo压力测试在政策变化前4-6周找到临界价格点，保护3-5个百分点净利率（年化$9-15万）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12613-p2s-tariff-fx-fba-cost-dynamics-88b65fbb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-tariff-fx-fba-cost-dynamics/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-tariff-fx-fba-cost-dynamics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "85eb605ed9f665801c91cffa5ba4cc5e3d36a897eee427c37394313f5dcc02e1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

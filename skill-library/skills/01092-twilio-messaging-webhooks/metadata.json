@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-messaging-webhooks",
+  "中文名称": "待补：twilio-messaging-webhooks",
+  "一句话作用": "Receive and respond to inbound messages and track outbound delivery status via Twilio webhooks — across SMS, MMS, WhatsApp, and RCS. Covers webhook request parameters, replying with TwiML, validating webhook signatures…",
+  "关键输入": "- Twilio account with a messaging-capable sender configured with a webhook URL — New to Twilio? See twilio-account-setup — For sending outbound messages first, see twilio-send-message - Publicly accessible endpoint (use ngrok http 5000 for local dev) - TWILIO…",
+  "关键输出": "Python (Flask) Node.js ---",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Receive and respond to inbound messages and track outbound delivery status via Twilio webhooks — across SMS, MMS, WhatsApp, and RCS. Covers webhook request parameters, replying with TwiML, validating webhook signatures…时，用它产出或更新：Python (Flask) Node.js ---",
+  "skill_id": "01092-twilio-messaging-webhooks-ed8001ea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-messaging-webhooks/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-messaging-webhooks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d7abf91c32ef205f9653f1fe859e15cd4cc355b204e271e27f7e4d1dcddff2a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

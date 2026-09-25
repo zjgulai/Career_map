@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gnn-ecommerce-recommendation",
+  "中文名称": "图神经网络电商推荐：用户-商品图谱深度学习",
+  "一句话作用": "触发词：图神经网络推荐、用户商品图谱、LightGCN、高阶配套效应、嵌入向量、关联推荐 CTR。何时不用：要动态学习邻居权重、追求比 LightGCN 更高精度用「Graph Attention Network Recommendation」，只挑互补捆绑组合用「Bundle Recommendation Complementary」；本技能只做图卷积嵌入与 Top-K 排序。安全边界：推荐结果上线前须人工抽检，模型不直接覆盖线上推…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要独立站关联推荐只显示同品类热销榜CTR仅2%未利用婴儿推车用户60%会购买安全座椅的配套关系——LightGCN图神经网络消息传递捕捉高阶配套效应，关联推荐CTR从2%提升到5-8%AOV提升15-25%年化增益20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12307-p2s-gnn-ecommerce-recommendation-a43eb2d6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-gnn-ecommerce-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-gnn-ecommerce-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a6926867faf55f683b1bed697f8959ecbb65bf7be0faa6c2c6278e3d5fe66175",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

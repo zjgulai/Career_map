@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rag-production-observability",
+  "中文名称": "待补：p2s-rag-production-observability",
+  "一句话作用": "触发词：RAG可观测性、检索延迟监控、幻觉率监控、SLA达标、自动降级、大促保障。何时不用：要治理知识源权限与新鲜度用「知识库声明式编排」；要按角色过滤文档可见性用「知识库RBAC」。安全边界：幻觉率阈值与自动降级策略须经业务确认，降级不得静默关闭关键知识域；监控数据含用户咨询内容，须脱敏并限制留存。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要618/双11大促期间知识库检索延迟突破300ms且幻觉率上升导致投诉率飙升15%——引入 RAG 生产可观测性框架（延迟/幻觉/SLA 全链路监控），大促保障期服务 SLA 达标率 99.5%，投诉率降回基线，年化避免客服成本超标 300%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12085-p2s-rag-production-observability-14b997c1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-rag-production-observability/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-rag-production-observability/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6e08034a36578347b93fb9a7d71f6fb07bdc8dc7ef53c38b25f10965dd045a54",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

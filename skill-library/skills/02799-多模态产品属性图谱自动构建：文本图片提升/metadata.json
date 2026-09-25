@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-autopkg-multimodal-product-attribute-kg",
+  "中文名称": "多模态产品属性图谱自动构建：文本图片提升",
+  "一句话作用": "触发词：属性图谱构建、多模态属性提取、属性填充率、属性值规范化、商品主数据。何时不用：只核查图片是否覆盖必需角度、图文是否一致时用「VLM 电商适配」；只做商品图文统一检索与以图搜货时用「多模态商品理解」。安全边界：只产出属性键与属性值，不代改 Listing 文案，也不替代品类合规审查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴跨境团队面临\"商品属性人工填写耗时且不标准导致推荐失准\"——多模态多Agent自动构建产品属性图谱，属性填充率从60%→96%，Search GMV+5.32%（Lazada生产A/B实测）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02799-p2s-autopkg-multimodal-product-attribute-kg-e2b69672",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-autopkg-multimodal-product-attribute-kg/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-autopkg-multimodal-product-attribute-kg/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "38bd35c7001d56e08397cafcf8e2de01c4d2a4d341da51200cf88a4a91e75dec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

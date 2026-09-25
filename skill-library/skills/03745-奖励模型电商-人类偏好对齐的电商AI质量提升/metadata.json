@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-reward-model-rlhf-ecommerce",
+  "中文名称": "奖励模型电商 人类偏好对齐的电商AI质量提升",
+  "一句话作用": "触发词：RLHF、奖励模型、偏好标注、内容对齐、客服话术对齐。何时不用：只需生成文案不做偏好对齐用「Listing 文案 AI 生成」；本技能训练偏好模型来筛内容。安全边界：标注数据不得含用户隐私，虚假紧迫感与绝对化用语须设为负向权重。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容团队面临\"AI生成Listing虽准确但转化率低30%缺乏情感共鸣和紧迫感\"——RLHF奖励模型对齐母婴用户偏好，Listing转化率提升18%，年化GMV增量约100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03745-p2s-reward-model-rlhf-ecommerce-ec34d648",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-reward-model-rlhf-ecommerce/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-reward-model-rlhf-ecommerce/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cb6a8caffc0a82a7e6f84455cdbc27370f251ffa5b9645dfe0f63def3843ee95",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

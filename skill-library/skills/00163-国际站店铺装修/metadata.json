@@ -1,0 +1,22 @@
+{
+  "英文名称": "国际站店铺装修",
+  "中文名称": "待补：国际站店铺装修",
+  "一句话作用": "基于 Canvas 的可视化网站构建器，通过 workctl CLI（accio-cli site builder 命令）生成、预览和验证 React/Vite 站点。 涵盖商家信息采集、Canvas 设计规划、代码生成、本地运行时和安全门禁五大子能力，支持新建站点、重新设计、Bug 修复和发布上线。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After the publish command completes, report the result to the user: - If ok: true → show success with publish details (HTML OSS URL, publish result) - If ok: false → show the error message and suggest fixes (build error → fix code, upload error → retry, MCP e…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要基于 Canvas 的可视化网站构建器，通过 workctl CLI（accio-cli site builder 命令）生成、预览和验证 React/Vite 站点。 涵盖商家信息采集、Canvas 设计规划、代码生成、本地运行时和安全门禁五大子能力，支持新建站点、重新设计、Bug 修复和发布上线。时，用它产出或更新：After the publish command completes, report the result to the user: - If ok: true → show succes…",
+  "skill_id": "00163-skill-ea71cfbf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-create-website/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-create-website/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0f8e7d22d31cdf0e6b9a2890ee95d1eb996aa2e6dc56351b0e9d7312bac3325b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

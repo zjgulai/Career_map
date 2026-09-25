@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-skill-dependency-path-planner",
+  "中文名称": "依赖路径规划器 学习路径导航",
+  "一句话作用": "触发词：技能依赖、学习路径、前置关系、最短路径、培训规划。何时不用：做岗位可替代性与人力 ROI 评估用「AI Agent 人力替代计算器」；做技能选取与匹配用「Agent Skill 运行时编排器」。安全边界：前置关系错误会导致路径不完整，依赖图须每季度人工审核后再对外发布学习路径。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要学习用户面临\"想掌握某个高级Skill不知道要先学哪些基础\"——BFS依赖路径规划将最优学习路径生成时间从人工梳理1天压缩至毫秒级自动输出时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12495-p2s-skill-dependency-path-planner-f07cfbb8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-skill-dependency-path-planner/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-skill-dependency-path-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca40baad373119addab932f3319dab266d9c89b1e2de35bd8751aa2a58d9c1f9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

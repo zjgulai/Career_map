@@ -1,0 +1,22 @@
+{
+  "英文名称": "docs-audit",
+  "中文名称": "待补：docs-audit",
+  "一句话作用": "Audit repository documentation, README, examples, installation steps, onboarding flow, API docs, and contribution docs. Use when the user asks whether docs are clear, complete, current, or ready for a public repo.",
+  "关键输入": "- README, docs, examples, changelog, contributing guide, security policy, and license. - Package scripts, CLI help, config examples, and source files that docs mention. - Internal links, install commands, screenshots, and generated docs.",
+  "关键输出": "Return: 1. Summary 2. Blocking docs gaps 3. Confusing or stale sections 4. Missing examples 5. Suggested rewrite or new docs 6. Recommended next action",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks whether docs are clear, complete, current, or public-ready. - README, examples, onboarding, API docs, or contribution docs need review. - Documentation promises may have drifted from actual code and comm…时，用它产出或更新：Return: 1. Summary 2. Bloc…",
+  "skill_id": "06034-docs-audit-f671205b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/docs-audit/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/docs-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ab3edf0305b442ed1c2984854e365542df3355a092f6768b7878328399d48b16",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

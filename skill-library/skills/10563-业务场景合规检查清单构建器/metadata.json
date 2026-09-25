@@ -1,0 +1,22 @@
+{
+  "英文名称": "compliance-review-planner",
+  "中文名称": "业务场景合规检查清单构建器",
+  "一句话作用": "为特定业务场景构建合规检查清单，覆盖 GDPR、个保法、广告法、数据安全法等主要法规，输出包含检查项、法规依据、风险等级和整改建议的结构化清单。当用户描述业务场景并提及合规检查、合规清单、GDPR 检查、个保法合规、广告法审查、数据合规、隐私合规、compliance checklist、数据出境评估、个人信息保护、合规自查、隐私影响评估（PIA/DPIA）、上线前合规审查或询问“这个功能合不合规”时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:06:40+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要为特定业务场景构建合规检查清单，覆盖 GDPR、个保法、广告法、数据安全法等主要法规，输出包含检查项、法规依据、风险等级和整改建议的结构化清单。当用户描述业务场景并提及合规检查、合规清单、GDPR 检查、个保法合规、广告法审查、数据合规、隐私合规、compliance checklist、数据出境评估、个人信息保护、合规自查、隐私影响评估（PIA/DPIA）、上线前合规审查或询问“这个功能合不合规”时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10563-compliance-review-planner-507b2244",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/compliance-review-planner/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/compliance-review-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3adb78b8b4f7f9ef4bc3f1f3d82622ee0faef753cd9c60e3795606ad832fa6af",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

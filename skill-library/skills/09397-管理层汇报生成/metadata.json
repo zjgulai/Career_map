@@ -1,0 +1,22 @@
+{
+  "英文名称": "gamma-executive-ppt-generation",
+  "中文名称": "管理层汇报生成",
+  "一句话作用": "Use when users ask to generate or tune Gamma management decks from existing analysis, such as Gamma总Prompt、逐页Prompt、补丁Prompt、备注区、演讲稿、Deck Narrative, or AI生成PPT requests. Not for 指标公式拆解 or 原始数据重算.",
+  "关键输入": "- 用户已有分析/方案，需要转换为 Gamma 可生成 deck。 - 用户要求逐页 Prompt、关键页补丁、备注区、演讲稿。 - 用户希望降低首轮生成偏差并保留后续微调空间。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-16T20:51:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 用户已有分析/方案，需要转换为 Gamma 可生成 deck。 - 用户要求逐页 Prompt、关键页补丁、备注区、演讲稿。 - 用户希望降低首轮生成偏差并保留后续微调空间。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09397-gamma-executive-ppt-generation-30648ab5",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/gamma-executive-ppt-generation/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/gamma-executive-ppt-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "013cfa89b1ec373c88bd4d11cf8868317bacfa3553f08924d108aabe50ca514c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

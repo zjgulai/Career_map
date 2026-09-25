@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-procurement-email-extraction",
+  "中文名称": "采购邮件结构化提取：多供应商报价聚合与合规验证",
+  "一句话作用": "触发词：采购邮件解析、报价提取、MOQ与交期、价格梯度、多供应商比价。何时不用：输入是 PDF 报价单而不是邮件正文时用文档智能解析技能；只需把供应商变更写进图谱时用图谱自动更新技能。安全边界：邮件与报价属商业敏感数据，不得未经授权外发第三方模型，供应商条款须人工复核确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴跨境电商应用：自动解析供应商报价邮件→结构化 MOQ/交期/价格梯度，节省 4-6h/周人工录入时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03635-p2s-procurement-email-extraction-7780a0e5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-procurement-email-extraction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-procurement-email-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d010c3a64c26872fbf5adb0218ed06bbac9687850a8da16b37fa952771b71f75",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

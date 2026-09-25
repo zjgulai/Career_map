@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-price-sensitive-personalized-recommendation",
+  "中文名称": "价格感知个性化推荐：弹性用户偏好协同",
+  "一句话作用": "触发词：价格感知推荐、推荐重排、价格档位、舒适度分、首页排序、转化提升。何时不用：要按个体支付意愿直接定展示价用「个性化 ML 定价」；促销期按折扣响应排序用「营销活动驱动的推荐系统」。安全边界：价格档位只用于排序而非定价歧视，用户画像使用须符合个人信息保护要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要独立站首页推荐对高端用户推49美元低价品对价格敏感用户推299美元高端品导致CVR仅3.2%——价格感知推荐按用户历史购买价格档位差异化排序，CVR提升到5-6%年化增收30-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12388-p2s-price-sensitive-personalized-recommendation-5bd03b37",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-sensitive-personalized-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-sensitive-personalized-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f61d11a65a3d53b06e829dbde27cfdaab106e9b380ca74ac41394f9bb6f81d2e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

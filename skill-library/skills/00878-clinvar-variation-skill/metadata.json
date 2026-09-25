@@ -1,0 +1,22 @@
+{
+  "英文名称": "clinvar-variation-skill",
+  "中文名称": "待补：clinvar-variation-skill",
+  "一句话作用": "Submit compact ClinVar Clinical Tables and NCBI Variation requests for search, VCV, RCV, SCV, and RefSNP lookups. Use when a user wants variant-level summaries or identifier mapping",
+  "关键输入": "- Read one JSON object from stdin. - Required field: action - Action-specific required fields: - search: terms - vcv: vcv - rcv: rcv - scv: scv - refsnp: refsnp - Optional fields: params, max items, max depth, timeout sec, save raw, raw output path",
+  "关键输出": "- search returns total, identifiers, display rows, extra fields, and truncation metadata. - vcv rcv scv refsnp return a compact summary and optional top keys. - Use raw output path when save raw=true. - Failures return ok=false with error.code and error.messa…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact ClinVar Clinical Tables and NCBI Variation requests for search, VCV, RCV, SCV, and RefSNP lookups. Use when a user wants variant-level summaries or identifier mapping时，用它产出或更新：- search returns total, identifiers, display rows, extra fields,…",
+  "skill_id": "00878-clinvar-variation-skill-00a2a4f6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/clinvar-variation-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/clinvar-variation-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c1ba5e1278432ffe0aa57d2b52d57806321bdca6cab6ae3f5304fc99fb73a33c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

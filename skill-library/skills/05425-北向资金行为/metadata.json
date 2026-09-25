@@ -1,0 +1,22 @@
+{
+  "英文名称": "northbound-flow",
+  "中文名称": "北向资金行为",
+  "一句话作用": "用于北向资金行为分析，聚焦资金行为、市场风格、机构偏好。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户想知道北向资金到底在买什么、卖什么，这种买卖是趋势性信号还是短期扰动，对市场风格意味着什么。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于北向资金行为分析，聚焦资金行为、市场风格、机构偏好。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户想知道北向资金到底在买什么、卖什么，这种买卖是趋势性信号还是短期扰动，对市场风格意味着什么。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05425-northbound-flow-57da564d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/northbound-flow/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/northbound-flow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0bddae9f613e03a1d0bc83874e365b74c18f4f8c6be8723f416936178888a3cb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

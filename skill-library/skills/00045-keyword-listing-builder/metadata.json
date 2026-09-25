@@ -1,0 +1,22 @@
+{
+  "英文名称": "keyword-listing-builder",
+  "中文名称": "待补：keyword-listing-builder",
+  "一句话作用": "Build keyword-optimized Amazon listings (title, bullets, backend search terms) from search-volume data; Shopify copy reuses buyer language only. 用于写/优化 Listing、问该埋哪些关键词。",
+  "关键输入": "You need enough to seed good keyword research. Infer what you can from the request; ask concisely for the rest in one batch rather than interrogating. Ask in plain conversation — or use an interactive question tool such as ask user when the host provides one,…",
+  "关键输出": "- An empty data[] is a successful call with no records ( observed empty ) — it is not proof of zero demand. If a tool returns nothing for a seed, say \"no records returned,\" cross-check the seed, marketplace, and filters, and try other seeds — never conclude \"…",
+  "最新更新时间": "2026-09-12T16:24:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build keyword-optimized Amazon listings (title, bullets, backend search terms) from search-volume data; Shopify copy reuses buyer language only. 用于写/优化 Listing、问该埋哪些关键词。时，用它产出或更新：- An empty data[] is a successful call with no records ( observed empty ) — i…",
+  "skill_id": "00045-keyword-listing-builder-cb33f03e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/keyword-listing-builder/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-61471462U1788272-8A8E75-0569-C8CE60/agent-core/skills/keyword-listing-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7950e2f3e4fde5d27b3334be50ffb681930ffb4172669e8b109d05cb420c77a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mtl-cold-start-sku-demand",
+  "中文名称": "冷启动 SKU 需求预测 共享编码器加速新品上线",
+  "一句话作用": "触发词：MTL、冷启动、共享编码器、新品上线、同类迁移。何时不用：同批多规格新品需要层次一致性时用「概率层次预测 DPMN」；完全无同品类老品可借时用时序基础模型类技能。安全边界：仅用自有历史销售与促销日历；涉食品等品类需符合进出口与商检备案要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要需求预测工程师面临\"新SKU上市前2-4周需求预测误差高达±80%备货全靠赌\"——Multi-task Learning共享同类SKU需求模式将冷启动预测误差降至±25%，年化减少过备货损失$4.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11450-p2s-mtl-cold-start-sku-demand-3c384962",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-mtl-cold-start-sku-demand/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-mtl-cold-start-sku-demand/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d91758a0c595e6bd765f6df9f1436a066aa307ceb8f43336807513e535bc0a73",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

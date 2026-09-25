@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-churn-retention-attribution",
+  "中文名称": "因果用户流失归因与留存优化",
+  "一句话作用": "触发词：因果归因、Uplift、CATE、DiD、可说服用户、促销 ROI。何时不用：预测谁会流失但不问干预效果用流失预测卡；要判断发券到底有没有带来增量、流失是哪个因子造成时用本卡。安全边界：需有随机或近似随机的处理记录，结果须标注置信区间，结论须合规披露方法论，不得操作用户数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴订阅运营面临流失挽留精准度不足——DR-Learner uplift 模型识别可说服用户（30%），将挽留 ROI 从 1.2x 提升至 4.8x，DiD 三重交互精准分解价格/产品/竞品各因子净贡献，年化节省无效促销成本 30-100 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11630-p2s-causal-churn-retention-attribution-7603c2f4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-causal-churn-retention-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-causal-churn-retention-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1302b7dfb49e2b953768547b7cfad495800153b6570b16db5983fde45fcc455b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

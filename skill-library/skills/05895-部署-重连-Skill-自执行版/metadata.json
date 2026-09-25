@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-deploy",
+  "中文名称": "部署 重连（Skill 自执行版）",
+  "一句话作用": "仅当用户 只关心部署/重连本身 （部署 godot mcp / 安装 godot-mcp / setup mcp / godot mcp 连不上 / 端口 9080 没监听 / 重新连接 godot）， 或被 godot-dev 因 godot-editor 缺失而让位过来时激活。执行 5 步部署 （Node 检查 → server build → .mcp.json 校验 → 下载 godot-editor → 9080 探测）。…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要仅当用户 只关心部署/重连本身 （部署 godot mcp / 安装 godot-mcp / setup mcp / godot mcp 连不上 / 端口 9080 没监听 / 重新连接 godot）， 或被 godot-dev 因 godot-editor 缺失而让位过来时激活。执行 5 步部署 （Node 检查 → server build → .mcp.json 校验 → 下载 godot-editor → 9080 探测）。…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05895-godot-deploy-fe9cfdf9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-deploy/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "44422cfed39c73f3542b36520afe387a2437d883b7bb38ffc41bfbb539e608d6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

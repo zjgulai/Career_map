@@ -1,0 +1,22 @@
+{
+  "英文名称": "gh-fix-ci",
+  "中文名称": "待补：gh-fix-ci",
+  "一句话作用": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use gh to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat…",
+  "关键输入": "- repo: path inside the repo (default .) - pr: PR number or URL (optional; defaults to current branch PR) - gh authentication for the repo host",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use gh to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01616-gh-fix-ci-7e78e9ed",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/gh-fix-ci/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/gh-fix-ci/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

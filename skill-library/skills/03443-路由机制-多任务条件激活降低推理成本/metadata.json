@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mixture-of-experts-routing",
+  "中文名称": "路由机制（多任务条件激活降低推理成本）",
+  "一句话作用": "触发词：专家路由、多业务线共模型、条件激活、推理成本控制、任务分派网络。何时不用：只有单一业务线单一任务时单模型已足够；只是要压上下文长度时用上下文压缩。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要AI平台工程师面临\"同一模型服务多个业务线时专业性不足且推理成本高\"——MoE路由机制在相同推理成本下将各业务线任务准确率提升8-15%，年化增效价值20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03443-p2s-mixture-of-experts-routing-dec6350b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mixture-of-experts-routing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mixture-of-experts-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "17985ed3b5146daffaf26444faeb9ef783755ba6058cbf189fb0f8138e0a6357",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

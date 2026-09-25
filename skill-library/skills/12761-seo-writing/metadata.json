@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo-writing",
+  "中文名称": "待补：seo-writing",
+  "一句话作用": "Use when planning or drafting search-optimized content that balances keyword intent with GTM messaging.",
+  "关键输入": "- Need pillar/blog content that ranks for a target keyword cluster. - Building briefs for writers or agencies. - Auditing existing posts for optimization opportunities.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要- Need pillar/blog content that ranks for a target keyword cluster. - Building briefs for writers or agencies. - Auditing existing posts for optimization opportunities.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12761-seo-writing-5ab9757f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/content-marketing/skills/seo-writing/SKILL.md",
+  "relative_path": "lute/project/skills/content-marketing/skills/seo-writing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ce642873aea3e3f879a246aea91e3218da8f11c5e2aeaaf6b03cd1b53ccf3d3c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

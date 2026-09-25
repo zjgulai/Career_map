@@ -1,0 +1,22 @@
+{
+  "英文名称": "Agent Development",
+  "中文名称": "待补：Agent Development",
+  "一句话作用": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\",…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\",…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05975-agent-development-55906598",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/agent-development/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-dev/skills/agent-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ece8298beb7b9821c09bafab97eecffc6a98f47a105c6ffe96feb95dc1562de",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

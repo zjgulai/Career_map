@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multilevel-flp",
+  "中文名称": "多级设施选址优化)",
+  "一句话作用": "触发词：多级选址、仓网规划、仓网拓扑、设施选址、履约成本优化。何时不用：仓网结构已固定、短期无调整计划时不必用（此时应转向动态库存优化），只做仓间调拨协作与库存分配用「仓储协作」；本技能做多层级网络的选址与层级连通规划。安全边界：开仓、关仓与租约决策须人工评审后执行，模型不直接签约或关停设施。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓配规划经理面临仓网布局拍脑袋——多层选址将履约成本降8%，年化省30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11462-p2s-multilevel-flp-8879039f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-multilevel-flp/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-multilevel-flp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02e88ddf8555151b466e455048ddb633a7a6037d02ba632f671c1d208b4da557",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

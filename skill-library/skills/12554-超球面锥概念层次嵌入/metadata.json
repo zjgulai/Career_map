@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hcce-concept-hierarchy-embedding",
+  "中文名称": "超球面锥概念层次嵌入",
+  "一句话作用": "触发词：概念层次嵌入、超球面锥、IS-A 关系、本体建模、子类召回、向量索引。何时不用：要按 HTS 码直接打风险等级时用「HTS 码风险分类」，要从合同文档抽实体关系时用「文档级关系抽取」。安全边界：本体与索引属内部主数据资产，建模结果需人工抽检后再供合规 Agent 使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据分析师面临\"KG无法建模IS-A层次关系导致合规Agent无法通过产品分类找到所有子类合规要求\"——HCCE超球面锥表示将层次查询准确率从51%提升至84%，合规覆盖率提升65%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12554-p2s-hcce-concept-hierarchy-embedding-68332996",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-hcce-concept-hierarchy-embedding/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-hcce-concept-hierarchy-embedding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5ab7c484a1bfb8cccf56ad0392eefbf468d10657a0eb70680c53142a9c81839",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "meoo-cli",
+  "中文名称": "秒悟（Meoo）CLI 完整指南",
+  "一句话作用": "从零到上线的全栈应用构建指南，基于秒悟（Meoo）平台。 触发条件： (1) 用户提到\"秒悟\"或\"Meoo\"； (2) 用户要从零构建应用，且需求可被以下架构覆盖：前端 SPA（React/Vue）+ Supabase（数据库/Auth/Storage）+ Deno 边缘函数 + AI 大模型服务。 覆盖完整生命周期：项目初始化、本地开发、云服务开通、数据库管理、边缘函数部署、CDN 发布、沙箱代码同步、账户与权益管理。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Output directory: dist/ - Entry file: dist/index.html - Base path: ./ - Assets directory: assets/ - Assets inline limit: 1MB (images/fonts < 1MB are inlined as dataURL) These values are hardcoded in vite.config / webpack.config. Changing base, outDir, asset…",
+  "最新更新时间": "2026-09-19T03:38:19+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要从零到上线的全栈应用构建指南，基于秒悟（Meoo）平台。 触发条件： (1) 用户提到\"秒悟\"或\"Meoo\"； (2) 用户要从零构建应用，且需求可被以下架构覆盖：前端 SPA（React/Vue）+ Supabase（数据库/Auth/Storage）+ Deno 边缘函数 + AI 大模型服务。 覆盖完整生命周期：项目初始化、本地开发、云服务开通、数据库管理、边缘函数部署、CDN 发布、沙箱代码同步、账户与权益管理。时，用它产出或更新：- Output directory: dist/ - Entry…",
+  "skill_id": "04531-meoo-cli-77ab3083",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/meoo/0.1.0/skills/meoo-cli/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/meoo/0.1.0/skills/meoo-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ae8d18e046ec0e1eab55d363e384918928044536b4e3d7e9e69d10c728dd530",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

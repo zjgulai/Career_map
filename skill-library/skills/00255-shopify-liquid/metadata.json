@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-liquid",
+  "中文名称": "待补：shopify-liquid",
+  "一句话作用": "Liquid is an open-source templating language created by Shopify. It is the backbone of Shopify themes and is used to load dynamic content on storefronts. Keywords: liquid, theme, shopify-theme, liquid-component, liquid-…",
+  "关键输入": "- Modern browser features, evergreen environment - WCAG 2.1 accessibility, semantic HTML (\\ \\, \\ \\, \\ \\) - View Transitions API for smooth animations",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Liquid is an open-source templating language created by Shopify. It is the backbone of Shopify themes and is used to load dynamic content on storefronts. Keywords: liquid, theme, shopify-theme, liquid-component, liquid-…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00255-shopify-liquid-c1f0f14c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-liquid/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-liquid/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d43e7c0dc9d46b895ef76a237f9170d7cae1f680e2078cc879f64ee33d5c56ad",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

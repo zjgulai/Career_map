@@ -1,0 +1,22 @@
+{
+  "英文名称": "visual-qa",
+  "中文名称": "待补：visual-qa",
+  "一句话作用": "Rigorous visual QA for any UI you built or changed, across BOTH web/page UIs and TUI/terminal UIs. MUST USE after building or changing any UI to verify it visually before declaring it done. Captures objective reference…",
+  "关键输入": "- Use after you build or change any UI, before calling it done. Covers web/page UIs and TUI/terminal UIs. - Use when output must match a mock, a baseline, or a stated design intent; when you suspect a regression; when C…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T19:48:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Use after you build or change any UI, before calling it done. Covers web/page UIs and TUI/terminal UIs. - Use when output must match a mock, a baseline, or a stated design intent; when you suspect a regression; when C…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00549-visual-qa-2b1ee8e6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/packages/shared-skills/skills/visual-qa/SKILL.md",
+  "relative_path": "lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/packages/shared-skills/skills/visual-qa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a1e3694d43d2526a7bdc7003b11b2c9c53647956da8fc0e86e6a290f77ef1da",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

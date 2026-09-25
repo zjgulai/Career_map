@@ -1,0 +1,22 @@
+{
+  "英文名称": "cognitive-profile",
+  "中文名称": "认知画像",
+  "一句话作用": "在对话里慢慢形成一份可修正的用户画像。用于用户要求建立、查看、更新画像， 希望回答更贴合自己，或反复纠正\"不像我\"\"太官方\"\"理解错了\"的场景。 也用于用户说\"记住我的偏好\"\"以后默认这样\"\"按我之前习惯\"\"别再这样\" \"不要记录\"\"删掉画像\"\"你记了什么\"\"你忘了\"，或普通任务里需要沿用已知偏好的场景。 \"记住\"指向的是长期偏好时才触发；\"记住这个端口号\"这类任务内指令不算。 只记录会影响后续回答的偏好、判断习惯、表达边界和待确认的…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要在对话里慢慢形成一份可修正的用户画像。用于用户要求建立、查看、更新画像， 希望回答更贴合自己，或反复纠正\"不像我\"\"太官方\"\"理解错了\"的场景。 也用于用户说\"记住我的偏好\"\"以后默认这样\"\"按我之前习惯\"\"别再这样\" \"不要记录\"\"删掉画像\"\"你记了什么\"\"你忘了\"，或普通任务里需要沿用已知偏好的场景。 \"记住\"指向的是长期偏好时才触发；\"记住这个端口号\"这类任务内指令不算。 只记录会影响后续回答的偏好、判断习惯、表达边界和待确认的…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04633-cognitive-profile-57a0e169",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/cognitive-profile/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/cognitive-profile/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a6d36a0106a16604e2a5558a0569f9475ad1bcf71222c8e629a51b44cfdd99a2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

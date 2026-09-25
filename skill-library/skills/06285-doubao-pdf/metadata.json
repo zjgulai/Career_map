@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-pdf",
+  "中文名称": "待补：doubao-pdf",
+  "一句话作用": "用于处理所有 PDF 相关任务，包括读取、创建、编辑、转换、内容提取、页面处理、表单填写和扫描件解析。用户提供、提及或要求生成 PDF 时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-22T22:51:28+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用于处理所有 PDF 相关任务，包括读取、创建、编辑、转换、内容提取、页面处理、表单填写和扫描件解析。用户提供、提及或要求生成 PDF 时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06285-doubao-pdf-e3fcbd2a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-pdf/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-pdf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0374cfcdf0eb97617201fd7897c722a403eee641a7dab02156786801b98039e0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

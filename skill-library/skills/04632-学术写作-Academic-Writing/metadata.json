@@ -1,0 +1,22 @@
+{
+  "英文名称": "academic-writing",
+  "中文名称": "学术写作 Academic Writing",
+  "一句话作用": "面向科研成果的\"写—审—改—投\"学术写作全流程。当用户要撰写/改写论文或某个章节、做同行评审或生成审稿意见、回复审稿人(rebuttal)与规划修订、撰写基金/项目申请书、或准备投稿材料(摘要/标题/cover letter/期刊适配)时使用。聚焦学术文本的产出与打磨；不负责文献检索与综述综合(文献模块)，也不负责引用真实性与格式合规(引用合规技能)。",
+  "关键输入": "- \"帮我写/改这篇论文（或引言/方法/讨论）\"\"按 Nature/NeurIPS 风格重构这一节\" - \"审一下这篇论文 / 生成审稿意见\"\"从方法、统计、设计角度挑问题\" - \"帮我回复审稿人 / 排修订优先级 / 写 rebuttal\" - \"写一份 NSF / NIH / 面上项目 申请书\"\"把想法拆成 aims / significance / 可行性 / 预算\" - \"生成摘要 / 标题 / cover letter /…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- \"帮我写/改这篇论文（或引言/方法/讨论）\"\"按 Nature/NeurIPS 风格重构这一节\" - \"审一下这篇论文 / 生成审稿意见\"\"从方法、统计、设计角度挑问题\" - \"帮我回复审稿人 / 排修订优先级 / 写 rebuttal\" - \"写一份 NSF / NIH / 面上项目 申请书\"\"把想法拆成 aims / significance / 可行性 / 预算\" - \"生成摘要 / 标题 / cover letter /…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04632-academic-writing-a7719713",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/academic-writing/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/academic-writing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2ef2f673dec57e39ca162f7cd0af3c438f8ada12730b288d0eda642add160154",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

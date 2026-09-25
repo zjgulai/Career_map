@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-fraud-detection",
+  "中文名称": "物流链路欺诈检测：虚假收货刷单物流与地址篡改的识别与拦截",
+  "一句话作用": "触发词：物流欺诈、未收货纠纷、拒付拦截、地址篡改、欺诈阈值。何时不用：需要从轨迹异常识别刷单与虚假签收特征时用物流轨迹欺诈信号；需要预测包裹破损概率时用包裹破损预测。安全边界：阈值须用标注数据定期校准以避免误伤正常买家；买家个人信息须按隐私法规最小化使用，拦截与拒付处置需保留人工申诉通道。",
+  "关键输入": "严格模式（大促期间高风险）：RISK THRESHOLD HIGH = 0.55 宽松模式（新市场冷启动）：RISK THRESHOLD HIGH = 0.75 建议每月用标注数据重新校准阈值，避免 False Positive 影响正常买家体验",
+  "关键输出": "严格模式（大促期间高风险）：RISK THRESHOLD HIGH = 0.55 宽松模式（新市场冷启动）：RISK THRESHOLD HIGH = 0.75 建议每月用标注数据重新校准阈值，避免 False Positive 影响正常买家体验",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要\"Item Not Received\"（INR）欺诈是跨境母婴电商最常见的纠纷类型，占纠纷总量约 35%时，用它产出或更新：严格模式（大促期间高风险）：RISK THRESHOLD HIGH = 0.55 宽松模式（新市场冷启动）：RISK THRESHOLD HIGH = 0.75 建议每月用标注数据重新校准阈值，避免 False Positive 影响正常买家体验",
+  "skill_id": "03367-p2s-logistics-fraud-detection-db210c13",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-logistics-fraud-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-logistics-fraud-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "919271d26185016f6e2c26e7f05410991d23d2ab9194b9d92e9e60c47dd27136",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

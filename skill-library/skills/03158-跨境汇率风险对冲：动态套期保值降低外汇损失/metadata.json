@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fx-hedging-strategy",
+  "中文名称": "跨境汇率风险对冲：动态套期保值降低外汇损失",
+  "一句话作用": "触发词：汇率对冲、套期保值、最优对冲比例、远期与期权、汇率损失。何时不用：还没量化敞口时先用「外汇敞口测量」；要用采销币种匹配零成本降敞口时用「自然对冲策略」。安全边界：只给对冲比例与工具建议，不代下单衍生品；远期与期权须在持牌机构办理并做套期会计备案。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要人民币兑美元每年波动3-6%月收入15万美元的卖家年化汇率损失可达30-60万元却没有任何对冲——动态汇率对冲策略量化暴露评估最优对冲比例，汇率损失降低50-70%年化节省25-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03158-p2s-fx-hedging-strategy-af9d8c9e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-fx-hedging-strategy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-fx-hedging-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a88980951164b0e8c2696a0ad972c5caba2f439083e8f8f04078d86072788701",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

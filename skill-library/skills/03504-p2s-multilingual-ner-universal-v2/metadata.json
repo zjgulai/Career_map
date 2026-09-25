@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multilingual-ner-universal-v2",
+  "中文名称": "待补：p2s-multilingual-ner-universal-v2",
+  "一句话作用": "触发词：多语言实体抽取、多语评论打标、品牌产品症状识别、跨语言 NER、竞品提及抽取、实体归一。何时不用：只判评论正负用「多语言 NLP 管道」；要把实体连成图谱用「KG 自动构建（Agent 驱动）」；只做特征加工用「特征工程」。安全边界：只处理公开评论文本，不抽取或留存可关联到个人的身份信息；实体结果须抽检后再用于主数据与图谱。",
+  "关键输入": "输入 ：文本级数据：多语言原始评论（英 / 德 / 日 / 中），逐条一条评论；实体类型定义与各语言实体词典（品牌、产品、症状、年龄段、竞品），模板词典覆盖 en / de / ja / zh 四语；语言代码可留空由语言检测自动判定（默认只识别 zh / ja / de / en，其他语言回退 en）。下限：词典需覆盖目标实体且目标语言有对应词条，否则规则实现召回很低，生产环境须替换为预训练多语言 NER 模型。 输出 ：每条文本的实体抽取结果：统一实体类型（BRAND / PRODUCT / SYMPTOM /…",
+  "关键输出": "输入 ：文本级数据：多语言原始评论（英 / 德 / 日 / 中），逐条一条评论；实体类型定义与各语言实体词典（品牌、产品、症状、年龄段、竞品），模板词典覆盖 en / de / ja / zh 四语；语言代码可留空由语言检测自动判定（默认只识别 zh / ja / de / en，其他语言回退 en）。下限：词典需覆盖目标实体且目标语言有对应词条，否则规则实现召回很低，生产环境须替换为预训练多语言 NER 模型。 输出 ：每条文本的实体抽取结果：统一实体类型（BRAND / PRODUCT / SYMPTOM /…",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：多语言实体抽取、多语评论打标、品牌产品症状识别、跨语言 NER、竞品提及抽取、实体归一。何时不用：只判评论正负用「多语言 NLP 管道」；要把实体连成图谱用「KG 自动构建（Agent 驱动）」；只做特征加工用「特征工程」。安全边界：只处理公开评论文本，不抽取或留存可关联到个人的身份信息；实体结果须抽检后再用于主数据与图谱。时，用它产出或更新：输入 ：文本级数据：多语言原始评论（英 / 德 / 日 / 中），逐条一条评论；实体类型定义与各语言实体词典（品牌、产品、症状、年龄段、竞品），模板词典覆盖…",
+  "skill_id": "03504-p2s-multilingual-ner-universal-v2-3ff9b185",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multilingual-ner-universal-v2/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multilingual-ner-universal-v2/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c3eba3e4202e7035cbcb2888c137972f8ff6c8c4df6e1b0b97b101233ed93d4e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

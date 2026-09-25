@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-anchorcrafter-virtual-anchor-demo",
+  "中文名称": "虚拟主播带货视频生成）",
+  "一句话作用": "触发词：虚拟主播、带货演示视频、主播形象替换、手势演示、批量出片。何时不用：需要真人出镜建立信任或平台要求真人标识时不用；单纯剪辑已有素材用剪辑类技能。安全边界：虚拟主播须按平台与法规要求标注 AI 生成；不得虚构产品功能或伪造真人使用体验。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要在 TikTok 美国站推吸奶器，需要大量真人主播演示视频——但海外主播贵（$200-500/条），中文主播语言不通，且更换主播需重新拍摄时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11606-p2s-anchorcrafter-virtual-anchor-demo-135bfe5c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-anchorcrafter-virtual-anchor-demo/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-anchorcrafter-virtual-anchor-demo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af22a9448e477ac87ff196f72307b635eba3fc4964933abb2f8d743c48490247",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

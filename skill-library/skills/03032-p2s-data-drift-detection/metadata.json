@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-data-drift-detection",
+  "中文名称": "待补：p2s-data-drift-detection",
+  "一句话作用": "触发词：数据漂移、PSI监控、特征分布偏移、性能漂移、重训建议、季节性豁免。何时不用：要监控预测误差层面的模型劣化用「概念漂移检测」；要找时序指标的异常点而非分布偏移用「Agentic时序异常检测」。安全边界：大促等已知季节性窗口须走豁免规则，避免误告警触发无谓重训；漂移告警不得自动触发模型替换或参数变更，须人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：baby sterilizer 需求预测模型（TFT）上线 6 个月后，MAPE 从 12% 悄悄涨到 28%，直到库存积压才被发现，损失约 $8,000 滞销成本时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03032-p2s-data-drift-detection-ed88975a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-data-drift-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-data-drift-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3614a703fc461f0314dcbc551b24cb6cc6417e7f82866fa26e89b0512b4a292a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

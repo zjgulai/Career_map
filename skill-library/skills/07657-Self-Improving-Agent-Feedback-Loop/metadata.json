@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Self-Improving-Agent-Feedback-Loop",
+  "中文名称": "待补：Self Improving Agent Feedback Loop",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 70.0, \"best\": 70.0, \"mutated\": \"D6 code\", \"ts\": \"2026-07-04T02:52:04.835108\"} {\"round\": 0, \"status\": \"discard\", \"score\": 69.0, \"best\": 71.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"20…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T12:17:27+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 70.0, \"best\": 70.0, \"mutated\": \"D6 code\", \"ts\": \"2026-07-04T02:52:04.835108\"} {\"round\": 0, \"status\": \"discard\", \"score\": 69.0, \"best\": 71.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"20…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07657-skill-self-improving-agent-feedback-loop-9ace0c4e",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Self-Improving-Agent-Feedback-Loop.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Self-Improving-Agent-Feedback-Loop.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "1071c616b849364aae1f520bcd65e7b86d06a51bc03e78be2c626be578367a98",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

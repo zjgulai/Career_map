@@ -1,0 +1,22 @@
+{
+  "英文名称": "上市策略",
+  "中文名称": "上市策略",
+  "一句话作用": "制定产品发布策略与增长实验，覆盖GTM方案、冷启动、渠道分发和增长实验设计。触发词：上市策略、产品发布、GTM策略、冷启动、增长实验、launch plan。何时不用：日常营销运营、常规活动管理、纯内容营销、纯竞品分析、纯ICP画像。 缺产品/目标市场/发布时间/预算等上下文时先追问澄清，不编造。 Use when user needs go-to-market strategy, product launch planning, o…",
+  "关键输入": "- 为新产品上市规划 GTM 策略 - 设计冷启动策略以获取首批用户 - 制定增长实验与测试框架 - 为产品发布制定渠道分发计划",
+  "关键输出": "GTM时间线示例 : T-4周 : 预热期 - 着陆页上线 + 等候名单 - 社媒预热内容 - KOL合作确认 T-2周 : 早鸟期 - 种子用户内测 - 产品 Hunt 准备 - PR稿件准备 Launch Day : 发布日 - 全渠道同步发布 - 产品 Hunt 上线 - 邮件序列触发 T+2周 : 放大期 - 数据复盘 - 广告扩量 - 用户反馈收集",
+  "最新更新时间": "2026-09-01",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 为新产品上市规划 GTM 策略 - 设计冷启动策略以获取首批用户 - 制定增长实验与测试框架 - 为产品发布制定渠道分发计划时，用它产出或更新：GTM时间线示例 : T-4周 : 预热期 - 着陆页上线 + 等候名单 - 社媒预热内容 - KOL合作确认 T-2周 : 早鸟期 - 种子用户内测 - 产品 Hunt 准备 - PR稿件准备 Launch Day : 发布日 - 全渠道同步发布 - 产品 Hunt 上线 - 邮件序列触发 T+2周 : 放大期 - 数据复盘 - 广告扩量 - 用户反馈收集",
+  "skill_id": "10451-skill-13273bac",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/4-Skills/上市策略/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/4-Skills/上市策略/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "286bb871bdfe47d4491925787b72efd55182423107c53a0014056f291e7da01e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-return-root-cause-attribution-graph",
+  "中文名称": "退货根因归因图谱 多层次退货原因知识图谱与供应链改善闭环",
+  "一句话作用": "触发词：退货归因、退货率异常、根因图谱、批次质量排查、退货分流。何时不用：只做单条差评的归因与派单用「客诉聚类」类技能，要预测未来退货量用「需求预测」。安全边界：仅对置信度大于 70% 的根因建议触发行动，模型不直接扣货、冻结批次或向供应商追责。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"退货率从3%升至7%不知道根因\"——三层因果图谱精确定位到电机批次变更，供应商整改后退货率回归3%，年化减少退货成本8万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03723-p2s-return-root-cause-attribution-graph-6bb5d4e8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-return-root-cause-attribution-graph/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-return-root-cause-attribution-graph/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "74ec899715fb7ad46102a4fe73e9418484a9588f739a706af784ff31a425bdcd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

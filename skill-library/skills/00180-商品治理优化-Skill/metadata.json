@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-product-optimize",
+  "中文名称": "商品治理优化 Skill",
+  "一句话作用": "对店铺内已有商品进行批量字段优化（标题/价格/MOQ/交期等），或对新发品/素材进行优化建议。 凡是涉及「优化商品」「修改商品」「编辑商品」的意图，均走本 Skill。 支持两种模式： 1. 存量治理：接收本地 CSV 文件（圈品结果），走「优化预览 → 确认发布」流水线。 2. 新发品优化：接收商品 JSON 信息（含图片），走「JSON 转 CSV → 优化预览 → 导出」流水线。 支持的优化字段： - Title（标题）、Des…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要对店铺内已有商品进行批量字段优化（标题/价格/MOQ/交期等），或对新发品/素材进行优化建议。 凡是涉及「优化商品」「修改商品」「编辑商品」的意图，均走本 Skill。 支持两种模式： 1. 存量治理：接收本地 CSV 文件（圈品结果），走「优化预览 → 确认发布」流水线。 2. 新发品优化：接收商品 JSON 信息（含图片），走「JSON 转 CSV → 优化预览 → 导出」流水线。 支持的优化字段： - Title（标题）、Des…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00180-alibaba-global-product-optimize-74c32b0b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-optimize/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-optimize/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8202bd2e242b08a07c25cab9f0c087190d518a63f974b3722c2a201155697bb5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

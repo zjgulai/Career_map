@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Product-Lifecycle-Stage",
+  "中文名称": "待补：Product Lifecycle Stage",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 44.8, \"best\": 75.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T02:00:28.655665\"} {\"round\": 0, \"status\": \"rewrite failed\", \"score\": 60.0, \"best\": 60.0, \"mutated\": \"full rewr…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T17:46:33+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 44.8, \"best\": 75.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T02:00:28.655665\"} {\"round\": 0, \"status\": \"rewrite failed\", \"score\": 60.0, \"best\": 60.0, \"mutated\": \"full rewr…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07531-skill-product-lifecycle-stage-8c4e1d95",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Product-Lifecycle-Stage.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Product-Lifecycle-Stage.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "b4ce068f2a845e96b5fb4a5ee29b4d7b037f204ab75d1d77607016391f814146",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

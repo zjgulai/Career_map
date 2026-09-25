@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-pricing-causal-identification",
+  "中文名称": "工具变量 IV 识别真实价格弹性（去除内生性偏差）",
+  "一句话作用": "触发词：内生性偏差、工具变量、两阶段估计、真实弹性识别、与 OLS 对比、定价因果。何时不用：高维混淆变量下做去偏估计用「双重去偏机器学习价格弹性」；只想快速估一条基线弹性用「需求价格弹性估算」。安全边界：竞品价格监控须用合法数据源，不得直接爬取平台；识别结论需人工复核后才进入定价策略。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据科学家面临\"OLS估计弹性偏低导致放弃有效价格促销策略\"——工具变量IV将弹性估计偏差降低80%，年化基于真实弹性优化定价增收50-120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03621-p2s-pricing-causal-identification-a0b39c3b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-pricing-causal-identification/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-pricing-causal-identification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "91ab185eb725009e0a047d4eba027df7c8aee0ca2ea7ab550c8ad86a6973e510",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

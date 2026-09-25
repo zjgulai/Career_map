@@ -1,0 +1,22 @@
+{
+  "英文名称": "google-sheets",
+  "中文名称": "待补：google-sheets",
+  "一句话作用": "Analyze and edit connected Google Sheets with range precision. Use when the user wants to create Google Sheets, find a spreadsheet, inspect tabs or ranges, search rows, plan formulas, create or repair charts, clean or r…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Analyze and edit connected Google Sheets with range precision. Use when the user wants to create Google Sheets, find a spreadsheet, inspect tabs or ranges, search rows, plan formulas, create or repair charts, clean or r…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00856-google-sheets-42d9b0ad",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/google-drive/skills/google-sheets/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/google-drive/skills/google-sheets/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "54d160c27532e4ff610e9c5a7870fb80dc496b2d1d3f302996c21c505419c862",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

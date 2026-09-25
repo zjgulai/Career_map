@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-feature-engineering",
+  "中文名称": "待补：p2s-feature-engineering",
+  "一句话作用": "触发词：特征工程、特征复用、口径统一、流失特征、训练数据准备。何时不用：特征已经齐备、只想精简子集时用特征选择；要解释某次预测的特征贡献时用 SHAP 归因。安全边界：无。",
+  "关键输入": "输入 ：原始业务明细表：用户 ID、注册日期、订单记录、浏览记录（卡页示例为流失预测场景）；卡页第 4 段未给字段级规格，落地前需确认各字段口径与统计窗口。 输出 ：一张可复用的特征表（含 recency days、frequency 90d、monetary total、avg order value、browse to buy ratio、category diversity 等特征）与特征计算管线，供建模与指标口径对齐使用。",
+  "关键输出": "输入 ：原始业务明细表：用户 ID、注册日期、订单记录、浏览记录（卡页示例为流失预测场景）；卡页第 4 段未给字段级规格，落地前需确认各字段口径与统计窗口。 输出 ：一张可复用的特征表（含 recency days、frequency 90d、monetary total、avg order value、browse to buy ratio、category diversity 等特征）与特征计算管线，供建模与指标口径对齐使用。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：特征工程、特征复用、口径统一、流失特征、训练数据准备。何时不用：特征已经齐备、只想精简子集时用特征选择；要解释某次预测的特征贡献时用 SHAP 归因。安全边界：无。时，用它产出或更新：输入 ：原始业务明细表：用户 ID、注册日期、订单记录、浏览记录（卡页示例为流失预测场景）；卡页第 4 段未给字段级规格，落地前需确认各字段口径与统计窗口。 输出 ：一张可复用的特征表（含 recency days、frequency 90d、monetary total、avg order value、browse…",
+  "skill_id": "03129-p2s-feature-engineering-d14db66e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-feature-engineering/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-feature-engineering/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "900fb50ec29ee7f4bb492d81aae2f55d673378f2820d10ccd3a724d34abda61f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

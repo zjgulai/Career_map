@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-hydrogen-scaffold",
+  "中文名称": "脚手架(节点 02)",
+  "一句话作用": "脚手架并部署 Shopify Hydrogen(agent-first headless 店面)。当用户说\"headless/Hydrogen/自定义前端/Oxygen 部署\"时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-26T01:41:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要脚手架并部署 Shopify Hydrogen(agent-first headless 店面)。当用户说\"headless/Hydrogen/自定义前端/Oxygen 部署\"时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12739-shopify-hydrogen-scaffold-0eb45331",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/shopify/kb/skills/shopify-hydrogen-scaffold/SKILL.md",
+  "relative_path": "lute/project/shopify/kb/skills/shopify-hydrogen-scaffold/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "276a4fb550a9fa4dec89ddd5f2a837bcec60e0c5719d88125ccf8fc0d6e043ea",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

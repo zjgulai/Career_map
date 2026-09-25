@@ -1,0 +1,22 @@
+{
+  "英文名称": "deal-screening",
+  "中文名称": "待补：deal-screening",
+  "一句话作用": "Quickly screen inbound deal flow — CIMs, teasers, and broker materials — against the fund's investment criteria. Extracts key deal metrics, runs a pass/fail framework, and outputs a one-page screening memo. Use when rev…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "One-page screening memo suitable for sharing with partners or an IC quick screen.",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Quickly screen inbound deal flow — CIMs, teasers, and broker materials — against the fund's investment criteria. Extracts key deal metrics, runs a pass/fail framework, and outputs a one-page screening memo. Use when rev…时，用它产出或更新：One-page screening memo su…",
+  "skill_id": "05522-deal-screening-a6c8ee1b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/deal-screening/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/deal-screening/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6d3aaf149316ac10949b5ab1654bd2b37870f23c5965eec80a8fdc0c7e80303e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

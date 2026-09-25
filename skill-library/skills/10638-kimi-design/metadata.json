@@ -1,0 +1,22 @@
+{
+  "英文名称": "kimi-design",
+  "中文名称": "待补：kimi-design",
+  "一句话作用": "Create design assets such as infographics, posters, social media posters, and resumes. Use this skill when the user requests visual content such as an infographic or poster. The skill uses an internally defined DSL to c…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. Use the kimi-slides check command to validate and repair the generated file over multiple rounds. - Distinguish carefully among the results returned by check. Some warnings are produced by heuristic calculations and may be inaccurate; use the actual design…",
+  "最新更新时间": "2026-09-13T23:50:26+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create design assets such as infographics, posters, social media posters, and resumes. Use this skill when the user requests visual content such as an infographic or poster. The skill uses an internally defined DSL to c…时，用它产出或更新：1. Use the kimi-slides che…",
+  "skill_id": "10638-kimi-design-2ecf1dc8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/kimi-design/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/kimi-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "81e6b2a6d5ed7c29d5db86a65397f8fc879950f7858365bd038472d959627f9f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-nps-retention-predictor",
+  "中文名称": "代理NPS留存预测 无需问卷从评论语言预测用户留存率",
+  "一句话作用": "触发词：代理 NPS、留存预测、评论预测留存、NPS 仪表盘、品牌健康度。何时不用：要看方面级差评明细用「方面级情感分析」，要发现未知主题簇用「BERTopic 主题建模」；本技能只把评论语言折算成留存预测。安全边界：仅使用公开评论数据，不涉及用户隐私；预测结果不构成医疗或营养建议，也不得对外宣称。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要增长团队面临\"无NPS数据却需预测留存\"——评论代理NPS将留存预测提前21天给出，同等干预预算下留存提升效率提升30%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04019-p2s-voc-nps-retention-predictor-4951a353",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voc-nps-retention-predictor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voc-nps-retention-predictor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b6060bd0f7bbb25951c14e5d480e0c08c3da97acd58fe8db41bab917b5386932",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

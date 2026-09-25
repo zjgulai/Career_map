@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-referral-network-value-attribution",
+  "中文名称": "量化会员裂变价值定价推荐激励额度",
+  "一句话作用": "触发词：推荐激励定价、网络价值、传导价值、LTV 溢价、分层激励。何时不用：只想算 K 因子与增长曲线时用病毒传播建模技能；本技能算的是推荐关系带来的单客价值与激励额度。安全边界：推荐关系追踪须告知用户并符合隐私政策；激励支出须在营销费用与税务申报中如实列示。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营总监面临\"推荐激励额度拍脑袋定、不知道谁是超级推荐者、裂变传导价值被低估20-27%\"——网络价值精算将激励ROI从0.8x提升至2.2x+，分层激励设计年化增收约1.5万美元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03702-p2s-referral-network-value-attribution-c0afa124",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-referral-network-value-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-referral-network-value-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e68bbd649f4097bf2b18edb2cd05a388176af6fa1e6518586f29ccc4549595ec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

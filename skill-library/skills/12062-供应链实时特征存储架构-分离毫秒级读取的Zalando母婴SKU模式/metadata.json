@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-online-feature-store-sc-realtime",
+  "中文名称": "供应链实时特征存储架构 分离毫秒级读取的Zalando母婴SKU模式",
+  "一句话作用": "触发词：在线特征存储、低延迟读取、特征过期、离线在线分离、实时决策。何时不用：需要解决训练与线上口径不一致时用特征仓库架构技能；只做实时行为采集写入时用实时特征采集技能。安全边界：在线存储只放业务统计特征、不放个人敏感信息，并设置过期策略避免读到陈旧值。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Agent实时决策分别查询ERP/WMS/预测服务总延迟3秒影响决策效率——Online/Offline特征存储实现在线特征10-20ms读取，支撑每日100K+次实时决策时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12062-p2s-online-feature-store-sc-realtime-f99a13bf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-online-feature-store-sc-realtime/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-online-feature-store-sc-realtime/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b83c26716b22a8e2ffe5c5cd2c6ccabffa96a25db6594fee521de18db1d89f4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

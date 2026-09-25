@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cost-plus-dynamic-tariff-pricing",
+  "中文名称": "成本加成关税动态定价 关税波动下的自动调价模型",
+  "一句话作用": "触发词：关税调价、成本加成定价、成本传导、税率跳升、毛利率保护、最低售价测算。何时不用：只想判断该不该降价冲量时用「需求价格弹性估算」；成本增量来自汇率而非关税时用「汇率联动动态定价」。安全边界：调价建议须经人工确认后才可执行，且建议价不得突破竞品容忍溢价上限，避免份额被反噬。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务团队面临\"关税波动后未及时调价导致季度毛利率大幅下滑\"——成本加成动态定价在关税变化24小时内触发调价建议，年化保护毛利率2-5pp约15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12272-p2s-cost-plus-dynamic-tariff-pricing-70ab305e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cost-plus-dynamic-tariff-pricing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cost-plus-dynamic-tariff-pricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6842a9577fb1dd7bff45d52d594c240c9c1198ab3a854a19418bb7e922f81f7a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

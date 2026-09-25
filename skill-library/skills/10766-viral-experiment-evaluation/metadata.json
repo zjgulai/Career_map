@@ -1,0 +1,22 @@
+{
+  "英文名称": "viral-experiment-evaluation",
+  "中文名称": "待补：viral-experiment-evaluation",
+  "一句话作用": "Reconcile a frozen replication contract with execution state, artifacts, media checks, ledger, scorecard, and bounded findings; use after a Control/Variant run and never to infer production or causal success from one sa…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-23T00:49:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Reconcile a frozen replication contract with execution state, artifacts, media checks, ledger, scorecard, and bounded findings; use after a Control/Variant run and never to infer production or causal success from one sa…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10766-viral-experiment-evaluation-3c30f3d0",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/viral-experiment-evaluation/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/viral-experiment-evaluation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "674bfd93e3a7f848a9e2dfa17615f262022efb87d65687be9610db199818d28f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

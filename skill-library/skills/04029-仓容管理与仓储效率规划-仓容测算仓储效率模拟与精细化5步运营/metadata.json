@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-warehouse-capacity-efficiency-planning",
+  "中文名称": "仓容管理与仓储效率规划 仓容测算仓储效率模拟与精细化5步运营",
+  "一句话作用": "触发词：仓容测算、爆仓预警、分批入库、利用率控制。何时不用：缺少入库计划与需求预测时无法做峰值模拟；排查个别 SKU 的仓容问题用 SKU 级仓容监控类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要FBA旺季爆仓被强制移除或淡季空仓租金白付——仓容测算+双方案模拟将FBA利用率控制在82%，年化避免强制移除损失$5-8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04029-p2s-warehouse-capacity-efficiency-planning-a5aa6d8a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-warehouse-capacity-efficiency-planning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-warehouse-capacity-efficiency-planning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "06083a68d8b46192e8b721e96f9e45328830cec3967157bad66be6a5ff4d047b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

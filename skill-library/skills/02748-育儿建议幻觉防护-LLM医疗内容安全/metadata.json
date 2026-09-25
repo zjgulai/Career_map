@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-parenting-advice-hallucination-guard",
+  "中文名称": "育儿建议幻觉防护（LLM医疗内容安全）",
+  "一句话作用": "触发词：育儿建议安全、医疗内容幻觉、危险建议拦截、可信度评分、权威来源引用、强制转人工。何时不用：要做产品参数与法规逐条合规核对用「垂直领域RAG」；要管理用户信任与免责声明强度用「人机信任校准」。安全边界：医疗建议必须标注仅供参考并提示咨询儿科医生，符合 FTC/FDA 指引；命中高危说法（如 1 岁前蜂蜜、新生儿牛奶）一律 BLOCK 不得输出；阈值需持续校准，避免误杀正确建议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要产品团队面临\"AI育儿问答出现医疗错误建议危及婴儿安全\"——医疗内容安全检测将危险建议漏出率从12%降至1%，年化降低法律风险50-200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02748-p2s-ai-parenting-advice-hallucination-guard-dc5ae003",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ai-parenting-advice-hallucination-guard/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ai-parenting-advice-hallucination-guard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a1b7b48bd9deb4109a737eee199dbff14a2d51ba2c74895a8f3924ff4a865845",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

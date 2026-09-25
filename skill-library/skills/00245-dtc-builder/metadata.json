@@ -1,0 +1,22 @@
+{
+  "英文名称": "dtc-builder",
+  "中文名称": "待补：dtc-builder",
+  "一句话作用": "Shopify zero-to-launch build orchestrator with no GraphQL execution. Owns the ordered connection, optional sourcing, product-listing, Collection organization, theme-decoration, audit, resume, and advisory launch-checkli…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After a build session, give the user a short summary: store URL, theme, number of SKUs live, configured items, next steps, storefront preview link. Don't mechanically generate a .md report unless the user explicitly asks. Optional artifact templates (use only…",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Shopify zero-to-launch build orchestrator with no GraphQL execution. Owns the ordered connection, optional sourcing, product-listing, Collection organization, theme-decoration, audit, resume, and advisory launch-checkli…时，用它产出或更新：After a build session, giv…",
+  "skill_id": "00245-dtc-builder-b12e0028",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/dtc-builder/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/dtc-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f67a7fefa49fa4d125ff5d26f24cad8c66f439d47c434e1656c3dfba3230dea",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

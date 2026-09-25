@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitive-teardown",
+  "中文名称": "竞品拆解",
+  "一句话作用": "定位图 + 功能矩阵 + 价格对比 + 机会窗口, 把竞品资料转成产品决策报告",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-28T10:11:08+08:00",
+  "业务场景": "product",
+  "解决具体问题": "当需要定位图 + 功能矩阵 + 价格对比 + 机会窗口, 把竞品资料转成产品决策报告时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10371-competitive-teardown-7d78a86a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/src/lib/templates/skills/competitive-teardown/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/src/lib/templates/skills/competitive-teardown/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "29b7cd84a1be4f629b9f6dd22c968d00213bbf23bbc813cfd74b85d61a8cdf54",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

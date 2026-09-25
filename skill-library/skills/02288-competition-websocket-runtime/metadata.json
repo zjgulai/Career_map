@@ -1,0 +1,22 @@
+{
+  "英文名称": "competition-websocket-runtime",
+  "中文名称": "待补：competition-websocket-runtime",
+  "一句话作用": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for WebSocket and SSE handshakes, auth material, subscription state, realtime message schemas, reconnect behavior, and frame-driven runtime ef…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for WebSocket and SSE handshakes, auth material, subscription state, realtime message schemas, reconnect behavior, and frame-driven runtime ef…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02288-competition-websocket-runtime-d353f58d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-websocket-runtime/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-websocket-runtime/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8237cae908ea7f950215620bc82700124cc3a2ace0d8c3bc1a40f39963ffd193",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

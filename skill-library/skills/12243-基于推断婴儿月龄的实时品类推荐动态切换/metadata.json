@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-baby-age-aware-recommendation",
+  "中文名称": "基于推断婴儿月龄的实时品类推荐动态切换",
+  "一句话作用": "触发词：月龄感知推荐、月龄推断、品类优先级、首页推荐、实时切换。何时不用：新品无历史数据要解决曝光用「冷启动商品推荐」；要按标签约束做关联推荐用「标签感知个性化推荐」。安全边界：月龄是推断信息，不得当作确定性事实；月龄标签不得用于广告定向，只能用于商品匹配与页面排序。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要推荐算法团队面临\"母婴首页推荐CTR仅1.2%、对4月龄宝宝推荐学步车导致完全无效曝光\"——三层月龄感知推荐（月龄推断+品类优先级+个性化精排）将CTR从1.2%提升至2.8%，月GMV增量约2.16万美元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12243-p2s-baby-age-aware-recommendation-a9e637e7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-baby-age-aware-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-baby-age-aware-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "73a7fd50845faedd453cfbdb0b31689a4ed3e980a3209f564579c57659b8efbf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

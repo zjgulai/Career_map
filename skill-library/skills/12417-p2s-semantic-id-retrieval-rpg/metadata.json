@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-semantic-id-retrieval-rpg",
+  "中文名称": "待补：p2s-semantic-id-retrieval-rpg",
+  "一句话作用": "触发词：语义 ID、多语言检索、跨语言搜索、召回覆盖、前缀检索。何时不用：要用自然语言与商品文本对齐做推荐用「LLM 增强推荐」；要按多模态图文匹配用「多模态产品推荐」。安全边界：商品多语言描述须与实物一致，不得为扩召回堆砌无关语义 ID；语义 ID 的生成与检索须遵守各市场的语言与广告合规要求。",
+  "关键输入": "输入 ：商品多语言属性（标题、类目、关键特征）与用户搜索 query 文本；粒度为单商品 × 单 query。 输出 ：商品的多语言语义 ID、query 到商品语义 ID 的检索结果，以及跨语言搜索准确率与延迟指标；供搜索与商品运营接入检索链路。",
+  "关键输出": "输入 ：商品多语言属性（标题、类目、关键特征）与用户搜索 query 文本；粒度为单商品 × 单 query。 输出 ：商品的多语言语义 ID、query 到商品语义 ID 的检索结果，以及跨语言搜索准确率与延迟指标；供搜索与商品运营接入检索链路。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：语义 ID、多语言检索、跨语言搜索、召回覆盖、前缀检索。何时不用：要用自然语言与商品文本对齐做推荐用「LLM 增强推荐」；要按多模态图文匹配用「多模态产品推荐」。安全边界：商品多语言描述须与实物一致，不得为扩召回堆砌无关语义 ID；语义 ID 的生成与检索须遵守各市场的语言与广告合规要求。时，用它产出或更新：输入 ：商品多语言属性（标题、类目、关键特征）与用户搜索 query 文本；粒度为单商品 × 单 query。 输出 ：商品的多语言语义 ID、query 到商品语义 ID 的检索结果，以及跨语…",
+  "skill_id": "12417-p2s-semantic-id-retrieval-rpg-16e07508",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-semantic-id-retrieval-rpg/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-semantic-id-retrieval-rpg/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b093e9b8a7d2997f1dba7dd12495e88b2d73ee6f914e2fd887577a4dd53f11a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

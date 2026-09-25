@@ -1,0 +1,22 @@
+{
+  "英文名称": "content-to-skill",
+  "中文名称": "待补：content-to-skill",
+  "一句话作用": "Converts arbitrary source material into an executable structured Codex skill package. Use when the user provides text, notes, documents, PDFs, transcripts, videos, courses, articles, repositories, workflows, chat logs,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T01:24:19+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Converts arbitrary source material into an executable structured Codex skill package. Use when the user provides text, notes, documents, PDFs, transcripts, videos, courses, articles, repositories, workflows, chat logs,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06018-content-to-skill-475734e6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/Codex/2026-09-01/1-post-md-2-md-3-12/work/sources/content-to-skill/SKILL.md",
+  "relative_path": "lute/Documents/Codex/2026-09-01/1-post-md-2-md-3-12/work/sources/content-to-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e0e2d8afa6d9c7a8c5267121dc7d45729c54713dba9b2ea627869fc58f7d1e42",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

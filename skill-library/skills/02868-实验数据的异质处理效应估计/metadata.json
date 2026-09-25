@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-forest-hte-experiments",
+  "中文名称": "实验数据的异质处理效应估计",
+  "一句话作用": "触发词：因果森林、条件平均处理效应、优惠券精准投放、广告创意分群、实验异质性、投放效率。何时不用：要直接生成可执行的发券队列用「Uplift 干预优先级队列」；要从观测数据学策略用「观测数据策略学习」。安全边界：分析须遵守数据最小化原则，不得使用种族、宗教等敏感属性，结果不得用于个体识别。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"全量用户施相同促销政策导致高价值用户被补贴浪费\"——因果森林HTE将促销精准度提升40%，年化节省无效促销预算50-90万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02868-p2s-causal-forest-hte-experiments-c46f405b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-forest-hte-experiments/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-forest-hte-experiments/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d093f6e8f9cb18397e6654ec9850aad7aea5a07d2a22fb83361a93ea9f78e9d3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

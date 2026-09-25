@@ -1,0 +1,22 @@
+{
+  "英文名称": "analyze-data-quality",
+  "中文名称": "待补：analyze-data-quality",
+  "一句话作用": "Investigate whether structured datasets and query results are trustworthy enough to use. Use for underlying data-quality risks such as freshness, grain, missingness, duplicates, broken joins, schema drift, and conflicti…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For source-backed Desktop inline answers outside Work Mode, include the Sources receipt, even when no chart is needed. Return stakeholder-facing findings using the response mode selected by the Data index. The structure below defines the assessment content.",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Investigate whether structured datasets and query results are trustworthy enough to use. Use for underlying data-quality risks such as freshness, grain, missingness, duplicates, broken joins, schema drift, and conflicti…时，用它产出或更新：For source-backed Desktop…",
+  "skill_id": "01255-analyze-data-quality-5dadf64d",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/analyze-data-quality/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/analyze-data-quality/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b55f1fea16306899bc28060d2a46c5318e15f85da62f3f533926861458a6dc15",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

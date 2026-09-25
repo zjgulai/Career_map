@@ -1,0 +1,22 @@
+{
+  "英文名称": "swap-curve-strategy",
+  "中文名称": "待补：swap-curve-strategy",
+  "一句话作用": "Analyze the interest rate swap curve by pricing swaps at multiple tenors, overlaying government and inflation curves, and identifying curve trade opportunities. Use when analyzing swap curves, computing swap spreads, de…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Analyze the interest rate swap curve by pricing swaps at multiple tenors, overlaying government and inflation curves, and identifying curve trade opportunities. Use when analyzing swap curves, computing swap spreads, de…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05514-swap-curve-strategy-5cc06813",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/lseg/skills/swap-curve-strategy/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/lseg/skills/swap-curve-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7aa595a57090de79db65afda23361e102f082594391b814b1f8f75e9c21c3cd5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

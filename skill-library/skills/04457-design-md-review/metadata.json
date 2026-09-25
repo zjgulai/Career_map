@@ -1,0 +1,22 @@
+{
+  "英文名称": "design-md-review",
+  "中文名称": "待补：design-md-review",
+  "一句话作用": "Reviews, authors, or improves DESIGN.md as a machine-readable and human-readable design system contract. Use for design.md linting, token frontmatter, section completeness, design rationale, token references, component…",
+  "关键输入": "Look for: - DESIGN.md - Tailwind config and CSS variable files - design token JSON/YAML files - Figma Variables exports or references - component library docs and Storybook stories - SCREEN SPEC.md for page-level patterns - .design-qa/reports/design-md-audit.…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:45+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Reviews, authors, or improves DESIGN.md as a machine-readable and human-readable design system contract. Use for design.md linting, token frontmatter, section completeness, design rationale, token references, component…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04457-design-md-review-74db79af",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/design-md-review/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/design-md-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "76bfefbcbd084aaa9eefe4bb83d747e242706487a2782c0c6f08b60e468d787e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

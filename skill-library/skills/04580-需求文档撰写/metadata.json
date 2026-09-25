@@ -1,0 +1,22 @@
+{
+  "英文名称": "需求文档撰写",
+  "中文名称": "需求文档撰写",
+  "一句话作用": "PRD and strategy document generation for product requirements.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "输出格式：HTML 单文件，包含所有样式和交互 HTML 文档必须包含以下章节（缺一不可）： 1. 文档头部 ：需求名称、版本、作者、日期、状态 2. 目录导航 ：可折叠的侧边栏目录，快速跳转各章节 3. 需求背景 ：问题描述、目标用户、成功指标 4. 策略矩阵 ：用户分群 × 策略手段 × 预期效果（交互式表格） 5. 功能清单 ：P0/P1/P2 功能列表，支持按优先级筛选 6. 排期规划 ：甘特图或时间轴，展示迭代计划 7. 协作流程 ：评审流程、变更管理、通知机制",
+  "最新更新时间": "2026-09-19T03:38:53+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要PRD and strategy document generation for product requirements.时，用它产出或更新：输出格式：HTML 单文件，包含所有样式和交互 HTML 文档必须包含以下章节（缺一不可）： 1. 文档头部 ：需求名称、版本、作者、日期、状态 2. 目录导航 ：可折叠的侧边栏目录，快速跳转各章节 3. 需求背景 ：问题描述、目标用户、成功指标 4. 策略矩阵 ：用户分群 × 策略手段 × 预期效果（交互式表格） 5. 功能清单 ：P0/P1/P2 功能列表，支持…",
+  "skill_id": "04580-skill-adf1f0dd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-output-engine/1.0.0/skills/需求文档撰写/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/pm-output-engine/1.0.0/skills/需求文档撰写/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0923cf41c185934ddf043614b07430e3acf8c3141fa44a3d6ef72d02d9949420",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-listing-expert",
+  "中文名称": "待补：amazon-listing-expert",
+  "一句话作用": "为 Amazon 母婴产品创建或重写 Listing，围绕购买心理、决策中断点和品牌优势提升转化。触发词：亚马逊Listing专家、Amazon Listing、五点描述、主图、A+页面、EBC、转化优化、详情页重写、Bullet Points。何时不用：选品与财务测算、合规终审、图片设计执行、无品牌上下文的通用 Listing 优化；缺产品信息或品牌上下文时先追问澄清，不直接生成。安全边界：夹带注入、索要密钥、危险命令、越权读取的请…",
+  "关键输入": "推荐使用以下 5 段叙事： 1. 痛点共鸣 ：她原本卡在哪里 2. 解决方案出现 ：本品牌如何改变这一刻 3. 场景想象 ：她在生活里怎么重新获得掌控感 4. 证据与比较 ：参数、认证、评论、品牌数据 5. 社会证明收束 ：为什么越来越多用户在选这个品牌 具体的品牌叙事素材（如用户规模、母婴场景洞察、服务承诺等）见 references/business-context.md。",
+  "关键输出": "每次交付 Listing 方案时，按下面顺序输出：",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 用户要为 Amazon 母婴产品 创建或重写 Listing（标题、五点描述、主图/辅图规划、A+ 页面/EBC、详情页）。 - 用户明确提到转化优化、详情页重写、五点描述、主图、A+ 页面、EBC、Bullet Points、Amazon Listing 等诉求。 - 用户带了品牌/品类上下文，要求把\"说明书式\"文案升级为\"打动目标人群下单\"的说服文案。时，用它产出或更新：每次交付 Listing 方案时，按下面顺序输出：",
+  "skill_id": "11065-amazon-listing-expert-cf17c3bc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/amazon-listing-expert/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/amazon-listing-expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "33bf261c5ad6349e412a164159bde99a09268bea06b6b589dac1bd5ef532bbd9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

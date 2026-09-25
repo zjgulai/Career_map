@@ -1,0 +1,22 @@
+{
+  "英文名称": "factframe-workflows",
+  "中文名称": "待补：factframe-workflows",
+  "一句话作用": "Route substantial FactFrame work across Product Truth, safe product import, scripts and Storyboards, reliable execution, Creative Comparison, experiment evidence, Momcozy assets, and readiness verification. Use when a t…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Report the selected workflow, authoritative source, changed contract, validation run, proof level, and unresolved boundary. If a requested action would upgrade evidence, broaden permissions, alter historical records, or cross an unimplemented gate, stop and n…",
+  "最新更新时间": "2026-09-23T00:52:22+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Route substantial FactFrame work across Product Truth, safe product import, scripts and Storyboards, reliable execution, Creative Comparison, experiment evidence, Momcozy assets, and readiness verification. Use when a t…时，用它产出或更新：Report the selected workfl…",
+  "skill_id": "10741-factframe-workflows-fb712967",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/factframe-workflows/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/factframe-workflows/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c16f149b2e84369fbaeb7f3c8741837d9615af9df7aca8445da66fb98c49b477",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

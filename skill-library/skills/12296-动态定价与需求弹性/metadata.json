@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dynamic-pricing-elasticity",
+  "中文名称": "动态定价与需求弹性）",
+  "一句话作用": "触发词：动态定价、需求弹性、竞品跟价、贝叶斯弹性更新、最优价格区间、价格杠杆。何时不用：竞品用自动跟价工具、要打乱对方节奏用「混合策略定价不可预测性」；要按库存窗口保护高价档收益用「EMSR-b 边际库存定价」。安全边界：竞品价格须来自合规数据源，调价建议需人工确认，不得用于平台禁止的自动跟价与价格操纵。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要吸奶器在美国定价 $129，德国 €119，英国 £99时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12296-p2s-dynamic-pricing-elasticity-34c62671",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-dynamic-pricing-elasticity/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-dynamic-pricing-elasticity/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "609876f7d03fc6f32bb7d06e63c7110e8e42ad66a899aee6acbda006e1f2f7ef",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

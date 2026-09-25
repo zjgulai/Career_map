@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-position-click-elasticity",
+  "中文名称": "搜索位置点击弹性分析 用 Examination Model 分离位置偏差估计真实 CTR",
+  "一句话作用": "触发词：位置弹性、真实 CTR、Examination Model、竞价上限、排名投入、位置偏差。何时不用：关键词价值排序用搜索词业绩归因；要回答把排名从第 3 页提到第 1 页值不值、竞价上限该出多少时用本卡。安全边界：仅使用自家广告后台导出的位置级数据，不得通过刷点击或虚假转化伪造位置信号。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投手面临\"不知道把排名从第3页提到第1页值不值得投入\"——位置弹性量化将广告投决策ROI可见度提升至月化$3.8万增量GMV时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11806-p2s-search-position-click-elasticity-6d41b0ca",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-search-position-click-elasticity/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-search-position-click-elasticity/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "83945bc6e1adb22145a0fa7d41819039f0335b02f964fd28c363651d75be87a2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

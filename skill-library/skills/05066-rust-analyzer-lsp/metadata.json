@@ -1,0 +1,22 @@
+{
+  "英文名称": "rust-analyzer-lsp",
+  "中文名称": "待补：rust-analyzer-lsp",
+  "一句话作用": "Rust language server (rust-analyzer) providing code intelligence and analysis for .rs files. Use when working with Rust code that needs autocomplete, go-to-definition, find references, error detection, or refactoring su…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Rust language server (rust-analyzer) providing code intelligence and analysis for .rs files. Use when working with Rust code that needs autocomplete, go-to-definition, find references, error detection, or refactoring su…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05066-rust-analyzer-lsp-7cab41cc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/rust-analyzer-lsp/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/rust-analyzer-lsp/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d8125d74786771613b8a819dd64234f30c67cc89b3bd316507fdbaf3f34ab60",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

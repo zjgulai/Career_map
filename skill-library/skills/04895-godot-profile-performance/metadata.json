@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-profile-performance",
+  "中文名称": "待补：godot-profile-performance",
+  "一句话作用": "Detects performance bottlenecks in Godot projects including expensive process functions, get node() calls in loops, instantiations in process, and provides optimization suggestions with Godot profiler integration",
+  "关键输入": "Use when: - Frame rate drops or inconsistent performance - CPU usage is unexpectedly high - Game stutters during gameplay - process functions contain complex logic - Memory usage grows over time - Before releasing a gam…",
+  "关键输出": "1. Profile before: Record baseline metrics 2. Apply optimization: Make targeted changes 3. Profile after: Compare metrics 4. Verify in-game: Test actual gameplay feels smoother 5. Check edge cases: Ensure optimization works in all scenarios",
+  "最新更新时间": "2026-09-19T03:50:05+08:00",
+  "业务场景": "game-development",
+  "解决具体问题": "当需要Use when: - Frame rate drops or inconsistent performance - CPU usage is unexpectedly high - Game stutters during gameplay - process functions contain complex logic - Memory usage grows over time - Before releasing a gam…时，用它产出或更新：1. Profile before: Record…",
+  "skill_id": "04895-godot-profile-performance-684e1059",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/godot-profile-performance/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/godot-profile-performance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ee6b50f44eac6dd02488a41ce28e182347e5fe3055ae1914424921abd49594d7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

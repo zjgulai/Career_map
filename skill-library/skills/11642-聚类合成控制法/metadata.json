@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-clustersc-synthetic-control",
+  "中文名称": "聚类合成控制法",
+  "一句话作用": "触发词：区域投放增量、聚类合成控制、供体池缩减、地理面板、处理效应估计。何时不用：评估新市场整体准入且控制市场少而清晰用合成控制技能，单店时序增效用反事实时序技能，本技能面向大量地理单元的区域级投放评估。安全边界：区域面板数据须为自有或授权数据并聚合脱敏，结论不得对外披露为精确效果承诺。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：母婴品牌在黑五期间，仅对美国加州投放 50 万美元 TikTok 联动广告时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11642-p2s-clustersc-synthetic-control-b6c9f8e5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-clustersc-synthetic-control/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-clustersc-synthetic-control/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4a8b8716aa56d60b660800faf89addf134877c6fac0e3624542f99b524711c69",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

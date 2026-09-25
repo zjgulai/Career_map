@@ -1,0 +1,22 @@
+{
+  "英文名称": "ship-branch",
+  "中文名称": "待补：ship-branch",
+  "一句话作用": "Ship the current branch from local validation through to npm release. Orchestrates validate-branch, submit-branch, babysit-pr, and land-pr in sequence. Use when the user says \"ship\", \"ship it\", \"ship this branch\", \"ship…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Final report:",
+  "最新更新时间": "2026-05-14T21:03:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Ship the current branch from local validation through to npm release. Orchestrates validate-branch, submit-branch, babysit-pr, and land-pr in sequence. Use when the user says \"ship\", \"ship it\", \"ship this branch\", \"ship…时，用它产出或更新：Final report:",
+  "skill_id": "01911-ship-branch-8dbe3e4d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.claude/skills/ship-branch/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.claude/skills/ship-branch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c31117ffee1ea72c6278ec9d1b5463a861c0d93bb5eead91c518d3600b5c70ba",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

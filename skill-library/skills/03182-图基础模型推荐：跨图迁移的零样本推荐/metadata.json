@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-graph-foundation-model-recommendation",
+  "中文名称": "图基础模型推荐：跨图迁移的零样本推荐",
+  "一句话作用": "触发词：图基础模型、零样本推荐、跨图迁移、新站冷启动、商品属性图。何时不用：要靠商品内容与用户画像匹配首批人群用「冷启动商品推荐」；要生成商品嵌入做新品推荐用「扩散模型推荐」。安全边界：零样本结果不得宣称等同于有行为数据训练的个性化；商品属性须真实，不得为匹配度虚构类目或属性。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要新开设的独立站没有用户行为数据无法训练推荐系统只能展示热销榜——图基础模型零样本迁移第一天就有个性化推荐，比热销榜CVR提升15-25%解决新卖家推荐冷启动问题年化增益10-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03182-p2s-graph-foundation-model-recommendation-10268837",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-graph-foundation-model-recommendation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-graph-foundation-model-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "591b4a3e5807d74c96a871e53f85f4d9ec95c755c2a3907c36a531747f5a286c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

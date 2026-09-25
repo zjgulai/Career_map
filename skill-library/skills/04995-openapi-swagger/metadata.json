@@ -1,0 +1,22 @@
+{
+  "英文名称": "openapi-swagger",
+  "中文名称": "待补：openapi-swagger",
+  "一句话作用": "Expert skill for OpenAPI/Swagger specification analysis, validation, and documentation generation. Parse and validate specs, detect breaking changes, generate code samples, and lint for best practices.",
+  "关键输入": "Parameter Type Required Description ----------- ------ ---------- ------------- specPath string Yes Path to OpenAPI/Swagger spec file action string Yes validate, lint, generate-docs, diff, generate-samples outputDir string No Output directory for generated co…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Expert skill for OpenAPI/Swagger specification analysis, validation, and documentation generation. Parse and validate specs, detect breaking changes, generate code samples, and lint for best practices.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04995-openapi-swagger-0f78b0da",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/openapi-swagger/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/openapi-swagger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f07464a1d36838b4238fa8d771d79604bc4ac71ef4c38ace6f7c010746392a9f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

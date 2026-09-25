@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-data-reporting",
+  "中文名称": "跨境电商数据报告撰写",
+  "一句话作用": "跨境电商数据报告撰写 - 从基础报告到专业分析报告的撰写方法，包括报告结构设计、数据呈现、结论提炼与建议输出",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 整体结果 - 分层结果 - 统计显著性",
+  "最新更新时间": "2026-03-04T01:58:02+08:00",
+  "业务场景": "reporting-analysis",
+  "解决具体问题": "当需要跨境电商数据报告撰写 - 从基础报告到专业分析报告的撰写方法，包括报告结构设计、数据呈现、结论提炼与建议输出时，用它产出或更新：- 整体结果 - 分层结果 - 统计显著性",
+  "skill_id": "09439-cbec-data-reporting-4078aa44",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/14-reporting-analysis/data-reporting/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/14-reporting-analysis/data-reporting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "58c9eb4dcef9dcf24f293b105e2b80946e0678709ae34607040d32224fd4d050",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "graphql-architect",
+  "中文名称": "架构师",
+  "一句话作用": "按领域建模设计 GraphQL schema，覆盖 Apollo Federation 联合图、DataLoader 防 N+1 与订阅安全。触发词：GraphQL、设计 schema、Apollo Federation、DataLoader、GraphQL 订阅、graphql-architect。何时不用：REST/OpenAPI 方向的接口契约设计用 api-designer，本技能只覆盖 GraphQL 的 schema 优先…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T18:27:30+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要按领域建模设计 GraphQL schema，覆盖 Apollo Federation 联合图、DataLoader 防 N+1 与订阅安全。触发词：GraphQL、设计 schema、Apollo Federation、DataLoader、GraphQL 订阅、graphql-architect。何时不用：REST/OpenAPI 方向的接口契约设计用 api-designer，本技能只覆盖 GraphQL 的 schema 优先…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11032-graphql-architect-3ea2ce13",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/graphql-architect/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/graphql-architect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0196bea3ad93e9df1dad68b2ba7d865fc8b12a5e284fa2b12af4cc4633ac3f1d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-creator",
+  "中文名称": "待补：skill-creator",
+  "一句话作用": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integr…",
+  "关键输入": "Skip this step only when the skill's usage patterns are already clearly understood. It remains valuable even when working with an existing skill. To create an effective skill, clearly understand concrete examples of how…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Skip this step only when the skill's usage patterns are already clearly understood. It remains valuable even when working with an existing skill. To create an effective skill, clearly understand concrete examples of how…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05546-skill-creator-aba1785c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/skill-creator/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/skill-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c0ce23bb87be91f5b0853c2e9815617c3858b63acdddfe5da47d2c2d3a60816",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

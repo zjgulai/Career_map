@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-family-manager",
+  "中文名称": "待补：skill-family-manager",
+  "一句话作用": "当用户需要管理多个 Skills、按项目分组切换、解决上下文污染，或提及「Skill管理」「项目配置」「Skill切换」「上下文治理」时使用。触发词：Skill家族管理、Skill管理、项目级Skill编排、上下文治理、批量启停、Skill切换、降噪管理、Skills整理、项目配置、Skill分组、上下文隔离。何时不用：Skills 少于 10 个、无需项目切换、单个 Skill 质量问题（使用 root-skills-doctor…",
+  "关键输入": "- 安装了10个以上Skills，需要统一管理 - 需要按项目切换不同的Skill组合 - 遇到上下文污染问题（无关Skill频繁触发） - 希望降低Token消耗，只加载必要Skills - 需要防止Skill误触发，提升对话质量 - 多项目并行，需要隔离不同项目的Skills",
+  "关键输出": "- 项目配置是否正确持久化 - Skill切换是否流畅 - 上下文隔离是否有效 - 误触发率是否降低",
+  "最新更新时间": "2026-09-13T03:00:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 安装了10个以上Skills，需要统一管理 - 需要按项目切换不同的Skill组合 - 遇到上下文污染问题（无关Skill频繁触发） - 希望降低Token消耗，只加载必要Skills - 需要防止Skill误触发，提升对话质量 - 多项目并行，需要隔离不同项目的Skills时，用它产出或更新：- 项目配置是否正确持久化 - Skill切换是否流畅 - 上下文隔离是否有效 - 误触发率是否降低",
+  "skill_id": "04138-skill-family-manager-39574954",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/skill-family-manager/SKILL.md",
+  "relative_path": "lute/.dsh/skills/skill-family-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d5ffb45bd2dd18d530152261a327dd94df5625004777eec72e69f31c68c2f6fc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

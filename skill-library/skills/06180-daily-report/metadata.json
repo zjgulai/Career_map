@@ -1,0 +1,22 @@
+{
+  "英文名称": "daily-report",
+  "中文名称": "待补：daily-report",
+  "一句话作用": "Generate a professional daily intelligence brief PDF covering global geopolitics, macro policy, industrial supply chains, and tech trends. Use when user needs a comprehensive daily report similar to institutional resear…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-14T13:31:18+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Generate a professional daily intelligence brief PDF covering global geopolitics, macro policy, industrial supply chains, and tech trends. Use when user needs a comprehensive daily report similar to institutional resear…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06180-daily-report-03f58e5a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/daily-report/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/daily-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ec0668d050c0317ec921bd608db9786c5034bf2084f4ed328619eee5c6bd203",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

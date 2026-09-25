@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-decision-confidence-calibration-sc",
+  "中文名称": "供应链决策置信度校准与分层触发 从置信度到人机分工的动态决策框架",
+  "一句话作用": "触发词：置信度校准、分层触发、人机分工、低置信升级、温度缩放。何时不用：需要把不确定性表达成预测区间而不是校准置信分数时用信号不确定性量化技能；要设计审批流与留痕而不只是校准分数时用人工审批门控技能。安全边界：校准只使用模型输出 logits 与标签，不涉及用户隐私数据；校准数据分布漂移时须重新校准后再恢复自动执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要决策经理面临系统建议没把握——置信校准将低置信误用率从19%降到5%，年化省11万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03041-p2s-decision-confidence-calibration-sc-e16460dc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-decision-confidence-calibration-sc/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-decision-confidence-calibration-sc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "86027536482d04cd03dc6cde4f48e65cd988a7cf36bb48f7e68c91658bd22d50",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

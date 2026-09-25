@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-carbon-footprint-optimizer",
+  "中文名称": "母婴出海AI碳足迹优化器 绿色供应链的能耗与排放量化",
+  "一句话作用": "触发词：碳足迹、推理能耗、碳标签、绿色供应链、ESG 披露。何时不用：只关心云账单与 Token 成本、不做碳核算走「Agent 成本优化」；运输方式本身的成本时效决策走物流路由类技能。安全边界：排放因子与 PUE 必须取可追溯的公开或合同数据，不得为达标美化碳数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要技术团队面临AI系统碳排放无法量化——碳足迹优化器将推理能耗降低35%，年化减碳120吨CO2eq，ESG评级提升至B+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02738-p2s-ai-carbon-footprint-optimizer-9fbd6fca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ai-carbon-footprint-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ai-carbon-footprint-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2edc13886d20c21c142cea6e40336d11e6523d743aba2e513dc4c8eb720c87bc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

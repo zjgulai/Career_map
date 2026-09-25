@@ -1,0 +1,22 @@
+{
+  "英文名称": "dia-scoring",
+  "中文名称": "待补：dia-scoring",
+  "一句话作用": "Score HTML-vs-SVG diagram parity in compare-case pages, including message labels, fragment labels, sequence numbers, arrows, participant headers, icons, stereotypes, participant colors, participant groups, comments, and…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-14T21:03:15+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Score HTML-vs-SVG diagram parity in compare-case pages, including message labels, fragment labels, sequence numbers, arrows, participant headers, icons, stereotypes, participant colors, participant groups, comments, and…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01907-dia-scoring-c0b28c4d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.claude/skills/dia-scoring/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/patent-disclosure-skill/tools/node_modules/@zenuml/core/.claude/skills/dia-scoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "888e74731cf7279da3d19b9f0120bae6846a5bab99209ed5bf26ea8e371200b4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

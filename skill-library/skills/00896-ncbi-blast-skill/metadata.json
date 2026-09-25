@@ -1,0 +1,22 @@
+{
+  "英文名称": "ncbi-blast-skill",
+  "中文名称": "待补：ncbi-blast-skill",
+  "一句话作用": "Submit, poll, and summarize NCBI BLAST Common URL API jobs (Blast.cgi) for nucleotide or protein sequences. Use when a user wants RID status, BLAST results, or compact top-hit summaries; fetch raw Text/JSON2 only on req…",
+  "关键输入": "- The script reads one JSON object from stdin. - action must be one of submit, status, fetch, or run. - submit and run require program, database, query fasta, and email (or NCBI EMAIL). - status and fetch require rid. - program must be one of blastn, blastp,…",
+  "关键输出": "- Common success fields: ok, source, action, warnings. - submit returns rid, rtoe seconds, and status=\"SUBMITTED\". - status returns rid, normalized status, and has hits. - run and fetch with result format=json2 return rid, status, has hits, result format, que…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Submit, poll, and summarize NCBI BLAST Common URL API jobs (Blast.cgi) for nucleotide or protein sequences. Use when a user wants RID status, BLAST results, or compact top-hit summaries; fetch raw Text/JSON2 only on req…时，用它产出或更新：- Common success fields: o…",
+  "skill_id": "00896-ncbi-blast-skill-9bde2567",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ncbi-blast-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ncbi-blast-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea50015d98875e3f16b67d700e75e69a981c156b61ef66fe5b0230cf1e893690",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-storytelling",
+  "中文名称": "待补：data-storytelling",
+  "一句话作用": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations.",
+  "关键输入": "- Presenting analytics to executives - Creating quarterly business reviews - Building investor presentations - Writing data-driven reports - Communicating insights to non-technical audiences - Making recommendations bas…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Presenting analytics to executives - Creating quarterly business reviews - Building investor presentations - Writing data-driven reports - Communicating insights to non-technical audiences - Making recommendations bas…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05580-data-storytelling-561505a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/business-analytics/skills/data-storytelling/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/business-analytics/skills/data-storytelling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ab8643ba05c4ab5b805ef2c438fd8a825df280722a7032fae60c79f633d91fb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

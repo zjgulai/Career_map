@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-commerce-sync",
+  "中文名称": "待补：social-commerce-sync",
+  "一句话作用": "- Synchronize product catalogs across Meta (Facebook/Instagram), TikTok, and Pinterest. Implement real-time inventory updates, automated feed generation, and in-app checkout configurations to enable seamless social sell…",
+  "关键输入": "- The \"Ghost\" Product: An item is \"Approved\" in the catalog but doesn't show in the Instagram Shop. Solution: Check \"Visible to Instagram\" settings in Meta Commerce Manager under the \"Sets\" or \"Shops\" tab. - TikTok Sell…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:29:50+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- The \"Ghost\" Product: An item is \"Approved\" in the catalog but doesn't show in the Instagram Shop. Solution: Check \"Visible to Instagram\" settings in Meta Commerce Manager under the \"Sets\" or \"Shops\" tab. - TikTok Sell…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04192-social-commerce-sync-8a6d021f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/social-commerce-sync/SKILL.md",
+  "relative_path": "lute/.dsh/skills/social-commerce-sync/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e188376fdcbb2b18cc68f81ee0775b83c145a62e3c10c1a17e4c3d4d602de98a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

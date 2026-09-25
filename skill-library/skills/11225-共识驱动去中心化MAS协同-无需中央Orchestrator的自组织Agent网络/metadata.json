@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-concat-consensus-decentralized-mas",
+  "中文名称": "共识驱动去中心化MAS协同 无需中央Orchestrator的自组织Agent网络",
+  "一句话作用": "触发词：去中心化协同、共识聚类、组长选举、自组织 Agent、无中央编排。何时不用：需要拜占庭容错的严格共识用「MAS 共识机制」；需要中央调度与失败恢复用「MAS Orchestrator」。安全边界：去中心化只降低单点故障风险，不得取消跨市场合规结论的最终人工复核。",
+  "关键输入": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-12T10:58:29+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要中央Orchestrator是MAS的单点故障和通信瓶颈——CONCAT共识聚类+置信度组长选举+Theory of Mind效益修剪在无需训练的情况下实现2.02x效率提升和50.1%延迟降低（2026 arXiv:2605.29612）时，用它产出或更新：（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11225-p2s-concat-consensus-decentralized-mas-b5aa51aa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-concat-consensus-decentralized-mas/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-concat-consensus-decentralized-mas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fb7081d9230cde683bedff8738f548922f184cafb80f1437a26f988e957c0b0d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

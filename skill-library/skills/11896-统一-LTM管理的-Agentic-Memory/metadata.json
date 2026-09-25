@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentic-memory-management",
+  "中文名称": "统一 LTM管理的 Agentic Memory",
+  "一句话作用": "触发词：LTM与STM统一、记忆即策略动作、用户生命周期记忆、过期偏好清理、记忆质量评估。何时不用：单次会话、无跨会话画像需求时不适用；只做结构化记忆图谱走A-MEM记忆系统。安全边界：长期记忆涉及用户画像，须按最小必要收集并支持删除过期偏好，训练与评测数据须脱敏。",
+  "关键输入": "输入 ：用户跨会话的全部对话历史、商品互动与客服记录，HotpotQA 风格的上下文加干扰加任务训练对，以及用于强化学习记忆质量奖励的 ground-truth 记忆标注；数据要求高，训练集规模通常 5000 条以上。 输出 ：长期记忆、短期记忆与情景记忆条目及其检索结果，含随时间更新的属性（如宝宝月龄）与已删除的过期偏好，供业务 Agent 在后续会话中复用用户画像。",
+  "关键输出": "输入 ：用户跨会话的全部对话历史、商品互动与客服记录，HotpotQA 风格的上下文加干扰加任务训练对，以及用于强化学习记忆质量奖励的 ground-truth 记忆标注；数据要求高，训练集规模通常 5000 条以上。 输出 ：长期记忆、短期记忆与情景记忆条目及其检索结果，含随时间更新的属性（如宝宝月龄）与已删除的过期偏好，供业务 Agent 在后续会话中复用用户画像。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：LTM与STM统一、记忆即策略动作、用户生命周期记忆、过期偏好清理、记忆质量评估。何时不用：单次会话、无跨会话画像需求时不适用；只做结构化记忆图谱走A-MEM记忆系统。安全边界：长期记忆涉及用户画像，须按最小必要收集并支持删除过期偏好，训练与评测数据须脱敏。时，用它产出或更新：输入 ：用户跨会话的全部对话历史、商品互动与客服记录，HotpotQA 风格的上下文加干扰加任务训练对，以及用于强化学习记忆质量奖励的 ground-truth 记忆标注；数据要求高，训练集规模通常 5000 条以上。 输出…",
+  "skill_id": "11896-p2s-agentic-memory-management-84143605",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agentic-memory-management/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agentic-memory-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "737946b479032cc40d30e24e76d470cf92f6ca295fc53e0aaa6f657639ccf938",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

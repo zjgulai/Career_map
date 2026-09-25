@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multimodal-product-understanding",
+  "中文名称": "多模态商品理解：图文统一表示驱动搜索与推荐",
+  "一句话作用": "触发词：多模态商品理解、以图搜货、图文一致性、统一向量、相似商品召回。何时不用：要从图文归纳品类属性键建图谱时用「多模态产品属性图谱 AutoPKG」；要审核图片角度与质量时用「VLM 电商适配」。安全边界：只输出相似度与一致性判定，不代改图片、不下架商品。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要买家上传竞品图片询问有没有类似产品但文本搜索无法处理图片查询——多模态商品理解将图文统一为单一向量支持以图搜货和图文一致性检测，搜索CVR提升5-10%并发现Listing图文不符风险年化GMV增益15-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12373-p2s-multimodal-product-understanding-ba26c1dc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-multimodal-product-understanding/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-multimodal-product-understanding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "34ae0294839af3630cda402cc125a1a1e048cc8433b73fa56fd1e1bcb3c3b356",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-in-context-learning-tabular",
+  "中文名称": "表格数据 无需训练的少样本电商数据分析",
+  "一句话作用": "触发词：少样本建模、表格 ICL、TabPFN、新品类风控、冷启动预测、无需训练。何时不用：要抽长文档实体关系时用「文档级关系抽取」，要判知识库文档是否过期时用「Corrective-RAG 纠错检索」。安全边界：退货数据属个人数据，须脱敏后再入模，误判需用置信阈值转人工兜底。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临\"新品类只有80条样本传统ML过拟合AUC=0.62无法部署风控\"——TabPFN ICL 1秒内AUC提升至0.82，新品类上线即有风控保护年化15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03233-p2s-in-context-learning-tabular-cbe76c2a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-in-context-learning-tabular/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-in-context-learning-tabular/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bcb0d476a82778e3130fdab0cb8a7fbdb4e74903df848341a89bb2ab1fc3ee0d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

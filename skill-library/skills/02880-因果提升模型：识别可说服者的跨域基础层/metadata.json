@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-uplift-modeling",
+  "中文名称": "因果提升模型：识别可说服者的跨域基础层",
+  "一句话作用": "触发词：提升模型、可说服者、增量响应、发券阈值、因果归因、促销预算。何时不用：要按用户价格弹性排序推荐用「价格感知推荐」；要生成有限资源的执行队列用「Uplift 干预优先级队列」。安全边界：基于提升模型的差异化发券须避免对受保护属性的歧视，用户特征使用须符合个人信息保护要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴品牌发2万张优惠券时60-70%给了本来就会买的用户白白损失利润——因果提升模型从A/B实验数据识别「可说服者」，精准发券后ROI从1.2x提升至3-5x，年化节省无效促销50-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02880-p2s-causal-uplift-modeling-14fa058c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-uplift-modeling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-uplift-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "94412c1f0e3cf65d0123c911762d7426051827663c2ad54ffb0b3e93da72a37f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

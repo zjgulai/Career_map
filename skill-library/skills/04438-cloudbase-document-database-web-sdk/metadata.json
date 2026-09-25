@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudbase-document-database-web-sdk",
+  "中文名称": "待补：cloudbase-document-database-web-sdk",
+  "一句话作用": "Use CloudBase document database Web SDK only for confirmed NoSQL collection work. Query, create, update, and delete document data; if the task mentions PostgreSQL / CloudBase PG / app.rdb(), route to postgresql-developm…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:34+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use CloudBase document database Web SDK only for confirmed NoSQL collection work. Query, create, update, and delete document data; if the task mentions PostgreSQL / CloudBase PG / app.rdb(), route to postgresql-developm…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04438-cloudbase-document-database-web-sdk-5633334c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/cloudbase/0.2.0/skills/cloudbase-document-database-web-sdk/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/cloudbase/0.2.0/skills/cloudbase-document-database-web-sdk/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ea3b491912627b244243aff45e6d46a862f1c5dadaba2e9ca1f539bbd2685e8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

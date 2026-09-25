@@ -1,0 +1,22 @@
+{
+  "英文名称": "github",
+  "中文名称": "待补：github",
+  "一句话作用": "Interact with GitHub using the gh CLI. Use gh issue, gh pr, gh run, and gh api for issues, PRs, CI runs, and advanced queries.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Most commands support --json for structured output. You can use --jq to filter:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Interact with GitHub using the gh CLI. Use gh issue, gh pr, gh run, and gh api for issues, PRs, CI runs, and advanced queries.时，用它产出或更新：Most commands support --json for structured output. You can use --jq to filter:",
+  "skill_id": "05924-github-154c9263",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/github/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/github/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "51b28818a6f0359287d5c8244a6fdc59a4ac5504596deb193b28b81832221c86",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

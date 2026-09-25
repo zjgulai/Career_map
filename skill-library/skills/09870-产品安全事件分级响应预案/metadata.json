@@ -1,0 +1,22 @@
+{
+  "英文名称": "产品安全事件分级响应预案",
+  "中文名称": "待补：产品安全事件分级响应预案",
+  "一句话作用": "当发生或预判产品安全事件（平台下架、海关扣押、主动召回）需要输出分级响应步骤、对内 RACI 与对外沟通占位稿时调用；不替代法务定稿与监管报送。",
+  "关键输入": "- 已知 事件类型 （安全投诉升级、抽检不合格、批量退货异常等）与 涉及 SKU/批次 。 - 已能联系 质量/法务/客服负责人 （角色名即可）。 - 若来自客服安全通道，应已有 safety-flag-detector 的 ESCALATE 上下文。",
+  "关键输出": "- CrisisPlan v0：Level Timeline Actions Owner Evidence Comms draft ref - 升级条件 ：何时从 L1 升到 L2/L3（量化阈值占位）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当发生或预判产品安全事件（平台下架、海关扣押、主动召回）需要输出分级响应步骤、对内 RACI 与对外沟通占位稿时调用；不替代法务定稿与监管报送。时，用它产出或更新：- CrisisPlan v0：Level Timeline Actions Owner Evidence Comms draft ref - 升级条件 ：何时从 L1 升到 L2/L3（量化阈值占位）。",
+  "skill_id": "09870-skill-e1194411",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/crisis-response-planner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/crisis-response-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d823f74cc1e64d3b88836d9ef0d2ec2b50dad27f6c847b49166e822457974d0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "rag-system-builder",
+  "中文名称": "待补：rag-system-builder",
+  "一句话作用": "Build and deploy local RAG (Retrieval-Augmented Generation) systems with offline document processing, embedding models, and vector storage.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "python rag.py query --query \"AI applications\" --top-k 10",
+  "最新更新时间": "2026-09-19T03:53:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build and deploy local RAG (Retrieval-Augmented Generation) systems with offline document processing, embedding models, and vector storage.时，用它产出或更新：python rag.py query --query \"AI applications\" --top-k 10",
+  "skill_id": "05043-rag-system-builder-c1440443",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/rag-system-builder/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/rag-system-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2b5fbab10d3b1b0d12ffb41f6c09147ce6a0bd0a354dd75a67543fa79cbfc94f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-montecarlo-tariff-risk",
+  "中文名称": "蒙特卡洛地缘政治尾部风险量化 (Monte Carlo Tariff Risk)",
+  "一句话作用": "触发词：蒙特卡洛、关税突变、尾部风险、CVaR、伪高利润。何时不用：常规中断情景压力测试用「供应链弹性压力测试」；要绑定封号断供预案用「黑天鹅情景模拟标签」。安全边界：概率分布假设必须显式记录并定期复核，不得以单点最坏值替代分布结论对外决策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要选品团队发现一款利润率45%的婴儿监控器诱惑巨大——引入蒙特卡洛模拟量化301关税突变与海运封锁的尾部风险(CVaR)，在最坏5%场景下该SKU净亏损将吞噬全品类18个月利润，CEO反直觉否决了\"伪高利润\"的糖衣炮弹，6个月后关税突变，我方毫发无损。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03457-p2s-montecarlo-tariff-risk-dcbc11af",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-montecarlo-tariff-risk/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-montecarlo-tariff-risk/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ebbd53093746952f7084ea105c86523b1c92b50fbc3cc34c230ab1375dffcd17",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

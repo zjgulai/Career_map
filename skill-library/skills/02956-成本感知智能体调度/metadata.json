@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cost-aware-agent-scheduling",
+  "中文名称": "成本感知智能体调度）",
+  "一句话作用": "触发词：智能体调度、查询分级、客服路由、推理成本、响应延迟。何时不用：模型路由要细到工作流步骤级走「上下文感知模型路由」；API 账单整体治理走「Agent 成本优化」。安全边界：路由错判导致质量下降时须有人工兜底与升级路径，高风险咨询不得交给低价模型。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营总监面临高峰期Agent成本失控——Cost-Aware Scheduling将推理成本降28%，年化省24万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02956-p2s-cost-aware-agent-scheduling-33d5ee40",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cost-aware-agent-scheduling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cost-aware-agent-scheduling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e126dd6501ddcc7de7d9d6fd30f68850c302fcf011d054b95efd9503c4373889",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

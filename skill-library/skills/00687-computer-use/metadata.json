@@ -1,0 +1,22 @@
+{
+  "英文名称": "computer-use",
+  "中文名称": "待补：computer-use",
+  "一句话作用": "Control local Mac apps through Computer Use for tasks that require reading or operating app UI. Prefer purpose-built connectors, APIs, or CLIs when available.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-22T20:50:09+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Control local Mac apps through Computer Use for tasks that require reading or operating app UI. Prefer purpose-built connectors, APIs, or CLIs when available.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00687-computer-use-f2b9c7ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/computer-use/skills/computer-use/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/computer-use/skills/computer-use/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa25ae60e43b3b9af40aff50004ee35944733e4955068d3c8e3924cbd6d8bef6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

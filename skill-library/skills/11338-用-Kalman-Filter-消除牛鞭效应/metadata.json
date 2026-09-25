@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bullwhip-effect-kalman-mitigation",
+  "中文名称": "用 Kalman Filter 消除牛鞭效应",
+  "一句话作用": "触发词：牛鞭效应、卡尔曼滤波、需求去噪、补货平滑、订单波动。何时不用：需要分层量化放大系数并输出平滑系数建议时用牛鞭效应量化与抑制；做多SKU尾部风险组合优化时用CVaR库存风险组合。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链总监面临\"订单在链条上层层放大采购量波动是终端需求波动的3-5倍\"——Kalman最优滤波将牛鞭效应放大系数降低50%，年化上游备货成本节省$7.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11338-p2s-bullwhip-effect-kalman-mitigation-2f1983a4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-bullwhip-effect-kalman-mitigation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-bullwhip-effect-kalman-mitigation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4a7f9beab248048e98321ff3b28d4ac1a1ea5a205738de96d9eb77eec00e7c91",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

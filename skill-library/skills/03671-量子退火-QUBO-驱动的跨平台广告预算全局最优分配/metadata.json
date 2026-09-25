@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-qubo-ad-budget-allocation",
+  "中文名称": "量子退火 (QUBO) 驱动的跨平台广告预算全局最优分配",
+  "一句话作用": "触发词：量子退火、QUBO建模、跨平台预算、全局最优、局部极值。何时不用：渠道数很少、梯度法已能给出稳定解时不必要；常规多平台分配用幂函数响应曲线加约束优化。安全边界：只产出预算组合建议，不执行平台预算变更；高维归因数据不足时应放弃求解，不用退化结果替代全局解。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要投放主管陷入亚马逊/Google/TikTok三平台预算分配的局部最优陷阱——引入量子退火(QUBO)求解跨平台广告预算全局最优组合，打破传统梯度下降的局部极值，反直觉说服团队砍掉表面ROAS最高的亚马逊预算转投TikTok新客增量，年化ROAS综合提升15-25%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03671-p2s-qubo-ad-budget-allocation-b4267f49",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-qubo-ad-budget-allocation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-qubo-ad-budget-allocation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d0d91666afb2b9247d5ef11d2a7bf19209fef865805cc55b0570459e835c78f5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

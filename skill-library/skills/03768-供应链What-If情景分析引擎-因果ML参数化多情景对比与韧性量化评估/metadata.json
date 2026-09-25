@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sc-whatif-scenario-analysis-engine",
+  "中文名称": "供应链What-If情景分析引擎 因果ML参数化多情景对比与韧性量化评估",
+  "一句话作用": "触发词：What-If、情景对比、因果效应、促销力度、韧性评估。何时不用：验证单个高风险动作的净收益用「反事实情景仿真」；量化政策尾部风险用「蒙特卡洛地缘政治尾部风险量化」。安全边界：因果效应估计须标注识别假设与协变量，不得把混淆下的相关性当作因果结论。",
+  "关键输入": "促销力度/物流策略等决策缺乏量化多情景对比靠感觉——因果ML双重稳健估计将多情景分析从2天人工→30分钟引擎输出，避免过度折扣损失毛利5-10万元/年",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要促销力度/物流策略等决策缺乏量化多情景对比靠感觉——因果ML双重稳健估计将多情景分析从2天人工→30分钟引擎输出，避免过度折扣损失毛利5-10万元/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03768-p2s-sc-whatif-scenario-analysis-engine-20f86f18",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sc-whatif-scenario-analysis-engine/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sc-whatif-scenario-analysis-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "97ef3d5e4458c44afa1924b710472d551cf2eb5e71f9ab607aceb22c0d0ae600",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

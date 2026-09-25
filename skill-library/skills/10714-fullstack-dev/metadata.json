@@ -1,0 +1,22 @@
+{
+  "英文名称": "fullstack-dev",
+  "中文名称": "待补：fullstack-dev",
+  "一句话作用": "Full-stack backend architecture and frontend-backend integration guide. TRIGGER when: building a full-stack app, creating REST API with frontend, scaffolding backend service, building todo app, building CRUD app, buildi…",
+  "关键输入": "Before scaffolding anything, ask the user to clarify (or infer from context): 1. Stack : Language/framework for backend and frontend (e.g., Express + React, Django + Vue, Go + HTMX) 2. Service type : API-only, full-stack monolith, or microservice? 3. Database…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Full-stack backend architecture and frontend-backend integration guide. TRIGGER when: building a full-stack app, creating REST API with frontend, scaffolding backend service, building todo app, building CRUD app, buildi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10714-fullstack-dev-9bd88091",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/fullstack-dev/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/fullstack-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "94d2f5b3859611a0caeeb03e6562ba809c3d3747ac917b8675d5ce21d395c39e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cold-start-meta-learning-pam",
+  "中文名称": "待补：p2s-cold-start-meta-learning-pam",
+  "一句话作用": "触发词：元学习、冷启动推荐、流行度分层、快速适应。何时不用：新品完全没有属性或内容特征时无法迁移，先补特征；成熟品的常规推荐用通用排序模型。安全边界：无。",
+  "关键输入": "输入 ：用户与商品的交互记录、商品内容与属性特征，以及按流行度分层的 SKU 清单。 输出 ：分层元学习模型与新品专属推荐结果，输出新品首周转化率、达到成熟品转化率所需时间与长尾 SKU 的 GMV 占比变化。",
+  "关键输出": "输入 ：用户与商品的交互记录、商品内容与属性特征，以及按流行度分层的 SKU 清单。 输出 ：分层元学习模型与新品专属推荐结果，输出新品首周转化率、达到成熟品转化率所需时间与长尾 SKU 的 GMV 占比变化。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：元学习、冷启动推荐、流行度分层、快速适应。何时不用：新品完全没有属性或内容特征时无法迁移，先补特征；成熟品的常规推荐用通用排序模型。安全边界：无。时，用它产出或更新：输入 ：用户与商品的交互记录、商品内容与属性特征，以及按流行度分层的 SKU 清单。 输出 ：分层元学习模型与新品专属推荐结果，输出新品首周转化率、达到成熟品转化率所需时间与长尾 SKU 的 GMV 占比变化。",
+  "skill_id": "11251-p2s-cold-start-meta-learning-pam-2c98922e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-cold-start-meta-learning-pam/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-cold-start-meta-learning-pam/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1991bade6d8ce4b475420d930d0d8f1d431dc89b3370691417a367d10a45d553",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

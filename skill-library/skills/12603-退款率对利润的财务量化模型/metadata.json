@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-refund-rate-financial-impact",
+  "中文名称": "退款率对利润的财务量化模型",
+  "一句话作用": "触发词：退款真实成本、折旧与处理费、排名影响、退款率敏感度、利润挽回。何时不用：要把跨境退货运费与销毁成本还原到毛利率用「跨境退货成本建模」；要把头程与退货摊到 SKU 利润用「物流成本 P&L 归因」。安全边界：排名影响与差评溢价属估算参数，须标注假设；结论不代替退款政策的法律与平台合规判断。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要退款率 8% 看起来不高，但每件真实退款成本（含折旧/处理费/排名损失）超 50 美元，年化损失 $25,000——精确量化每 1pp 退款率的利润影响，驱动产品质量和描述优化决策时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12603-p2s-refund-rate-financial-impact-26112067",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-refund-rate-financial-impact/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-refund-rate-financial-impact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "891e085499fac28d3852e82a701b7fd70c9f57260211281bb5a743b09e8e5dce",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

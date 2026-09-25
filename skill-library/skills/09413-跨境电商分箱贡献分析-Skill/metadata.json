@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-binning-contribution",
+  "中文名称": "跨境电商分箱贡献分析 Skill",
+  "一句话作用": "跨境电商分箱贡献分析Skill。按任意维度分箱（客单价、客品数等），计算各分箱对指标的静态/动态贡献，支持等频/等距分箱策略。 触发条件: 1. 用户提到\"分箱分析\"、\"分档分析\"、\"区间分析\" 2. 用户询问\"客单价分档贡献\"、\"客品数区间贡献\" 3. 用户需要\"区间划分\"、\"贡献区间识别\" 4. 用户提到\"等频分箱\"、\"等距分箱\" 输出内容: - 分箱贡献度分析表 - 高贡献区间识别 - 分箱策略建议 - 区间优化建议",
+  "关键输入": "订单级数据格式 : 聚合数据格式 :",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T00:15:13+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Q: 分箱数量如何确定？ A: 一般5-10个区间，保证每个区间有足够样本量（建议 5%占比） Q: 区间边界如何定义？ A: 等频分箱自动计算，自定义分箱结合业务经验 Q: 动态分析一定要拆分结构和自身变动吗？ A: 是的，这是精准定位问题的关键时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09413-cbec-binning-contribution-a61c83cf",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/02-attribution-analysis/binning-contribution/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/02-attribution-analysis/binning-contribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cd782de27a294fda3d180417db62adc5cd9a0e41cc2c0a9f273d9aa4c2767b33",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

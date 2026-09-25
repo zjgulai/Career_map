@@ -1,0 +1,22 @@
+{
+  "英文名称": "playwright-cli",
+  "中文名称": "待补：playwright-cli",
+  "一句话作用": "Automate browser interactions, test web pages and work with Playwright tests.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "The global --raw option strips page status, generated code, and snapshot sections from the output, returning only the result value. Use it to pipe command output into other tools. Commands that don't produce output return nothing. For structured output wrappi…",
+  "最新更新时间": "2026-07-16T12:06:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Automate browser interactions, test web pages and work with Playwright tests.时，用它产出或更新：The global --raw option strips page status, generated code, and snapshot sections from the output, returning only the result value. Use it to pipe command output into ot…",
+  "skill_id": "09313-playwright-cli-f617463d",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_software/doccanvas/node_modules/playwright-core/lib/tools/cli-client/skill/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_software/doccanvas/node_modules/playwright-core/lib/tools/cli-client/skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b4c81c39e39f30e4790607e57b12283878f3751daca9c0e44f301899f2108b13",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

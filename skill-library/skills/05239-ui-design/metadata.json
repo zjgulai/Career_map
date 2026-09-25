@@ -1,0 +1,22 @@
+{
+  "英文名称": "ui-design",
+  "中文名称": "待补：ui-design",
+  "一句话作用": "Use when users need visual direction, interface hierarchy, layout decisions, design specifications, or prototypes before implementing a Web or mini program UI.",
+  "关键输入": "All interface prototypes must: - Production-Grade Quality : Functionally complete and ready for development - Visual Impact : Visually striking and memorable - Aesthetic Consistency : Have a clear aesthetic point-of-view, cohesive and unified - Meticulously R…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use this skill for frontend UI design and interface creation in any project that requires: - Creating web pages or interfaces - Creating mini-program pages or interfaces - Designing frontend components - Creating protot…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05239-ui-design-0550751d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/ui-design/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/cloudbase/skills/references/ui-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c9897a793880fd45c4cdb52bc601433e9dc096846f780ac4bd9b70df12a7aa7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

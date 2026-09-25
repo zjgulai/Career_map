@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibabacloud-ecs-code-deploy",
+  "中文名称": "待补：alibabacloud-ecs-code-deploy",
+  "一句话作用": "Install Alibaba Cloud CLI (aliyun) and deploy projects to Alibaba Cloud ECS using aliyun appmanager commands. Use when the user wants to deploy applications or AI agents to ECS, set up aliyun CLI, or use appmanager init…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "See references/deploy-output-and-management.md for: - List/Delete commands - Config validation - Config template reference - Critical notes & pitfalls - MANDATORY post-deploy output format (console link, cost reminder, usage guide)",
+  "最新更新时间": "2026-09-19T03:48:08+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Install Alibaba Cloud CLI (aliyun) and deploy projects to Alibaba Cloud ECS using aliyun appmanager commands. Use when the user wants to deploy applications or AI agents to ECS, set up aliyun CLI, or use appmanager init…时，用它产出或更新：See references/deploy-outp…",
+  "skill_id": "04704-alibabacloud-ecs-code-deploy-c3631472",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/alibabacloud-ecs-code-deploy/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/alibabacloud-ecs-code-deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "576d351145dd6a37d40fc404a87a814eaaabc9d2a481fdb715f2ff01b6874701",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

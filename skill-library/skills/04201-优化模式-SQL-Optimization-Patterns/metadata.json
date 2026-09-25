@@ -1,0 +1,22 @@
+{
+  "英文名称": "sql-optimization-patterns",
+  "中文名称": "优化模式（SQL Optimization Patterns）",
+  "一句话作用": "读 EXPLAIN 定位慢查询，用 B-Tree/GIN/覆盖索引消除全表扫描与 N+1，附 PostgreSQL 语句。触发词：SQL 查询优化、sql-optimization-patterns、读 EXPLAIN 定位慢查询，用 B-Tree/GIN/覆盖索引消除全表扫描与 N+1，附 PostgreSQL 语句。",
+  "关键输入": "- 调试运行缓慢的查询 - 设计高性能的数据库表结构 - 优化应用响应时间 - 降低数据库负载与成本 - 在数据量增长时提升可扩展性 - 分析 EXPLAIN 查询计划 - 实施高效的索引 - 解决 N+1 查询问题",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 调试运行缓慢的查询 - 设计高性能的数据库表结构 - 优化应用响应时间 - 降低数据库负载与成本 - 在数据量增长时提升可扩展性 - 分析 EXPLAIN 查询计划 - 实施高效的索引 - 解决 N+1 查询问题时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04201-sql-optimization-patterns-093d2809",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sql-optimization-patterns/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sql-optimization-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "985c5b9bb5d6ec50d617c292611515778d606d9b456557bcd1b5da1f77fac9b7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

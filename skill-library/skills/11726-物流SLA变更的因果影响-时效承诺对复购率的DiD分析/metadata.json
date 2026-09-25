@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-sla-causal-impact",
+  "中文名称": "物流SLA变更的因果影响 时效承诺对复购率的DiD分析",
+  "一句话作用": "触发词：SLA变更、双重差分、复购率、时效升级、平行趋势。何时不用：没有可比对照组、或平行趋势不成立时改用合成控制；本技能用于有时效未变更地区/竞品作对照的面板。安全边界：时效承诺需按平台要求备案，不得虚标配送时效。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要管理层对物流时效升级投入80万元但无法量化净复购率提升——引入 DiD 因果推断剥离季节性与自然增长，净复购率提升准确估计 +4.2%，投入产出决策依据从主观判断升级为严格因果证据，置信区间精度 95%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11726-p2s-logistics-sla-causal-impact-991eb959",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-logistics-sla-causal-impact/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-logistics-sla-causal-impact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f9ba7e608cd4a2de204c425273feb23f1566e9b8e9b356d3bba7d0527f0d4c6c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

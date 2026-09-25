@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fba-fee-waterfall-attribution",
+  "中文名称": "费用瀑布归因",
+  "一句话作用": "触发词：FBA 费用瀑布、费用归因、帕累托分析、掉利润定位、配送费超标。何时不用：只要 ASIN 级费用率与库龄预警用「FBA 费用结构分析」；要把头程与退货一并摊到每单利润用「物流成本 P&L 归因」。安全边界：结论只作内部成本优化，不对外披露成本结构，避免被竞品反推。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"FBA月账单20万元但不知道哪类费用在吃利润\"——逐层瀑布归因将仓储/配送/LTSF/移仓费分解到SKU粒度，锁定高费用集群，年化节省FBA费用15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12542-p2s-fba-fee-waterfall-attribution-fbeb4d64",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-fba-fee-waterfall-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-fba-fee-waterfall-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5c3b222b84e5123d59153728a21640d16babac9abc15a1813734f48e11c1ebfe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

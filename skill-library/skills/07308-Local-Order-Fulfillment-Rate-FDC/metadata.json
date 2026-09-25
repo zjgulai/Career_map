@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Local-Order-Fulfillment-Rate-FDC",
+  "中文名称": "待补：Local Order Fulfillment Rate FDC",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 88.0, \"best\": 88.0, \"ts\": \"2026-07-04T01:35:13.109542\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:35:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 88.0, \"best\": 88.0, \"ts\": \"2026-07-04T01:35:13.109542\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07308-skill-local-order-fulfillment-rate-fdc-266755eb",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Local-Order-Fulfillment-Rate-FDC.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Local-Order-Fulfillment-Rate-FDC.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "c795ac4601a8eadf7efa87a098f347ca547990cbdba6bd2008133df9cb323583",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

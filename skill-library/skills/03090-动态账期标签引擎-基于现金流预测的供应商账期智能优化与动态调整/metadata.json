@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dynamic-payment-terms-tag-engine",
+  "中文名称": "动态账期标签引擎 基于现金流预测的供应商账期智能优化与动态调整",
+  "一句话作用": "触发词：动态账期、供应商账期调整、早付折扣、现金流压力等级、账期标签。何时不用：只压缩 CCC 阶段天数与测算资金释放时用「现金转换周期优化」；只做采购预算偏差重测时用「采购预算滚动重测」。安全边界：账期变更须与供应商书面确认后再执行；不得单方违约或恶意拖欠，付款决定须走财务审批。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务面临\"现金流紧张但账期还是固定Net30\"——现金流驱动的动态账期决策，紧张时延长释放5万元资金，充裕时早付获折扣1万元/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03090-p2s-dynamic-payment-terms-tag-engine-59e71c7a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dynamic-payment-terms-tag-engine/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dynamic-payment-terms-tag-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c319136edc08bd0beda6955b5362303a424f33cfdbeb656ae193993b2c848699",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

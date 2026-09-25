@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-sizing-analysis",
+  "中文名称": "待补：market-sizing-analysis",
+  "一句话作用": "This skill should be used when the user asks to \"calculate TAM\", \"determine SAM\", \"estimate SOM\", \"size the market\", \"calculate market opportunity\", \"what's the total addressable market\", or requests market sizing analy…",
+  "关键输入": "Top-Down Analysis - Use when established market research exists - Best for mature, well-defined markets - Validates market existence and growth - Starts with industry reports and narrows down Bottom-Up Analysis - Use wh…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Top-Down Analysis - Use when established market research exists - Best for mature, well-defined markets - Validates market existence and growth - Starts with industry reports and narrows down Bottom-Up Analysis - Use wh…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05835-market-sizing-analysis-05fd50b2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/startup-business-analyst/skills/market-sizing-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/startup-business-analyst/skills/market-sizing-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "78599ef8779e9a0112e42d4426655290822e1da96f86d766067434572c2cd6d4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

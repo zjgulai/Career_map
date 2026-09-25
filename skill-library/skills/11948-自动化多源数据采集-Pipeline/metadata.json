@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-data-collection-agent-pipeline",
+  "中文名称": "自动化多源数据采集 Pipeline",
+  "一句话作用": "触发词：采集Agent、多源抓取、动作观察循环、指纹去重、批量数据采集。何时不用：页面结构固定、只需定时拉取接口时用普通采集管道；需要官方接口增量同步时用平台接口采集技能。安全边界：采集须遵守目标平台条款与 robots 协议，不得绕过反爬限制或采集受限数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要研究助理面临数据采集人工慢——采集Agent将抓数工时从8小时压到1小时，年化省14万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11948-p2s-data-collection-agent-pipeline-acbfec44",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-data-collection-agent-pipeline/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-data-collection-agent-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f4cd528c6dbdbaacc134c4b53898dc63245216be6fd8c0d37db5c2b11147f009",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

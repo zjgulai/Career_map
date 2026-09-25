@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-time-series-pretraining-foundation",
+  "中文名称": "时序基础模型预训练迁移（Moirai",
+  "一句话作用": "触发词：预训练、基础模型迁移、零样本、开源模型、概率区间。何时不用：要带产品标签条件的批量长尾预测用「时序基础模型零样本预测」；要跨市场需求分布迁移用「最优传输跨市场迁移」。安全边界：使用自有销量历史数据，无隐私风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"新品上线无历史数据传统预测模型完全失效只能靠拍脑袋备货\"——时序基础模型零样本预测将新品首月备货准确率从±60%改善至±25%，年化减少滞销积压损失20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03961-p2s-time-series-pretraining-foundation-e6ba5f62",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-time-series-pretraining-foundation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-time-series-pretraining-foundation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79020e38b1b9344a8c544190b3c459e076a755a173a89910c2d6bb63914374c8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

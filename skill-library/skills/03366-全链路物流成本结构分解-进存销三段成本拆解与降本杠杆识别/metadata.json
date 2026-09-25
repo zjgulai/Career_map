@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-cost-structure-decomposition",
+  "中文名称": "全链路物流成本结构分解 进存销三段成本拆解与降本杠杆识别",
+  "一句话作用": "触发词：物流成本拆解、物流费率、进存销成本、降本杠杆、备货成本模拟。何时不用：要逐条核对物流商账单差异用「收入与费用核对」，要按销量预测下达补货指令用「补货模拟」；本技能只做成本结构拆解、根因定位与降本杠杆识别。安全边界：清仓与补货建议须人工复核后执行，模型不直接改价、下架商品或改动库存。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要卖家只知道\"物流贵\"却不知道哪贵——进-存-销三段ABC成本拆解将物流费率从9.2%降至7.5%，月节省$8500（$50万GMV规模）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03366-p2s-logistics-cost-structure-decomposition-4b35599f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-logistics-cost-structure-decomposition/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-logistics-cost-structure-decomposition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a3f5949b9993b89f32edb33e8558b4cf36c3f65abf0051aa7ad21fe20e8a51a6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

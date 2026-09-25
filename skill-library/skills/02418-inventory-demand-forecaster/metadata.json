@@ -1,0 +1,22 @@
+{
+  "英文名称": "inventory-demand-forecaster",
+  "中文名称": "待补：inventory-demand-forecaster",
+  "一句话作用": "- Trigger: Predict future inventory needs and calculate reorder points using historical data and safety stock buffers to prevent stockouts.",
+  "关键输入": "- When chronic stockouts or overstock situations indicate that current reorder points are inaccurate. - When planning inventory for seasonal peaks (e.g., Q4 holiday season, back-to-school). - When integrating supplier l…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T20:36:07+08:00",
+  "业务场景": "business-operations",
+  "解决具体问题": "当需要- When chronic stockouts or overstock situations indicate that current reorder points are inaccurate. - When planning inventory for seasonal peaks (e.g., Q4 holiday season, back-to-school). - When integrating supplier l…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02418-inventory-demand-forecaster-6b1953ac",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/scratch/tree-0079/packages/capabilities/dsh-overseas-skills/backup/pre-81/inventory-demand-forecaster/SKILL.md",
+  "relative_path": "lute/.dsh/scratch/tree-0079/packages/capabilities/dsh-overseas-skills/backup/pre-81/inventory-demand-forecaster/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23057dbb61017d95733ec8a1f42848a004be9431ec1b84980c11a71186ce0877",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

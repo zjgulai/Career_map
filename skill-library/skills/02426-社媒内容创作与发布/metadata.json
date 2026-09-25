@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-content",
+  "中文名称": "社媒内容创作与发布",
+  "一句话作用": "When the user wants to create, repurpose, or optimize social media content across LinkedIn, X/Twitter, Instagram, TikTok, Facebook or other platforms, or wants to test creative variations (hooks, CTAs, formats) to fight…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 平台化帖子成品（含钩子、正文、话题标签、配图说明） - 单页创意简报 / 变体测试矩阵 / 常青素材库结构",
+  "最新更新时间": "2026-09-13T20:36:07+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要When the user wants to create, repurpose, or optimize social media content across LinkedIn, X/Twitter, Instagram, TikTok, Facebook or other platforms, or wants to test creative variations (hooks, CTAs, formats) to fight…时，用它产出或更新：- 平台化帖子成品（含钩子、正文、话题标签、配图说明…",
+  "skill_id": "02426-social-content-40a690aa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/scratch/tree-0079/packages/capabilities/dsh-overseas-skills/backup/pre-81/social-content/SKILL.md",
+  "relative_path": "lute/.dsh/scratch/tree-0079/packages/capabilities/dsh-overseas-skills/backup/pre-81/social-content/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b141319458796f43efdd9fb2e74651fec5455b093262f27d0fe26b45b4cd0c93",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

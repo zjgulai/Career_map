@@ -1,0 +1,22 @@
+{
+  "英文名称": "产品脑暴",
+  "中文名称": "产品脑暴",
+  "一句话作用": "围绕产品问题或机会点进行结构化创意发散，输出经过初步筛选的创意清单。 内置SCAMPER法、5Why追问、约束创新等发散框架，以及Impact/Effort快速评估矩阵。 帮助产品经理突破思维定式，在短时间内生成高质量的解决方案候选。 当用户说\"脑暴\"、\"头脑风暴\"、\"brainstorm\"、\"产品创意\"、\"功能点子\"、 \"需求发散\"、\"想方案\"、\"有什么办法\"、\"怎么解决\"、\"创意发散\"时触发。",
+  "关键输入": "字段 必填 说明 ------ ------ ------ 脑暴主题 是 要解决的问题或要探索的机会（越具体越好） 背景信息 否 用户画像、当前数据、已知约束等上下文 发散模式 否 全量发散/聚焦某框架（如仅用SCAMPER），默认\"全量发散\" 约束条件 否 技术约束、时间约束、资源约束 好的脑暴主题 ：\"如何让新用户在首次使用的5分钟内感受到产品价值\" 不好的脑暴主题 ：\"如何改进产品\"（太宽泛）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:51+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要在发散之前，先确保问题定义足够清晰： 追问清单 （逐项确认）： 1. 谁有这个问题？ 具体的用户类型和场景 2. 现在怎么解决的？ 用户当前的替代方案或workaround 3. 为什么重要？ 不解决的后果是什么 4. 什么算成功？ 好的解决方案长什么样 5. 有什么约束？ 技术/时间/资源的边界 将问题重述为 \"How Might We\" 句式： - \"我们如何能让{目标用户}在{场景}中更轻松地{完成目标}？\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04616-skill-165abb98",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/产品脑暴/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-management/1.1.1/skills/产品脑暴/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f618f6387dffd28d300ba9977c019fcef90cb410d0a71730fc17c7468a090a7c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

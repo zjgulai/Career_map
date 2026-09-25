@@ -1,0 +1,22 @@
+{
+  "英文名称": "app-router",
+  "中文名称": "待补：app-router",
+  "一句话作用": "This skill should be used when the user asks to \"create a Next.js route\", \"add a page\", \"set up layouts\", \"implement loading states\", \"add error boundaries\", \"organize routes\", \"create dynamic routes\", or needs guidance…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"create a Next.js route\", \"add a page\", \"set up layouts\", \"implement loading states\", \"add error boundaries\", \"organize routes\", \"create dynamic routes\", or needs guidance…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05666-app-router-973990d9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/nextjs-expert/skills/app-router/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/nextjs-expert/skills/app-router/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "77c68b284903faa5ced965ec5466bac77d0f5cf47941cce1e694b6fc52fbf68f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

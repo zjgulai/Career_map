@@ -1,0 +1,22 @@
+{
+  "英文名称": "aws-lambda-java-integration",
+  "中文名称": "待补：aws-lambda-java-integration",
+  "一句话作用": "Provides AWS Lambda integration patterns for Java with cold start optimization. Use when deploying Java functions to AWS Lambda, choosing between Micronaut and Raw Java approaches, optimizing cold starts below 1 second,…",
+  "关键输入": "Use this skill when: - Creating new Lambda functions in Java - Migrating existing Java applications to Lambda - Optimizing cold start performance for Java Lambda - Choosing between framework-based and minimal Java appro…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Creating new Lambda functions in Java - Migrating existing Java applications to Lambda - Optimizing cold start performance for Java Lambda - Choosing between framework-based and minimal Java appro…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04738-aws-lambda-java-integration-af06e59b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/aws-lambda-java-integration/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/aws-lambda-java-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3ed69512532d0bd1b6171e8004c2152a7119c63a55fcce9b0f344c004db31d3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "precise-image-editing",
+  "中文名称": "待补：precise-image-editing",
+  "一句话作用": "Use when one or more existing images are authoritative and must remain mostly unchanged while making controlled edits to text/brand, subject attributes, elements/background/composition, multi-reference transfer, output…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Load the domain reference first. It owns operation wording, fixed constraints, and scene-specific acceptance criteria. This section owns final prompt structure. Build prompts in concise English while retaining user-provided proper nouns and exact copy. Separa…",
+  "最新更新时间": "2026-09-18T02:00:27+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use when one or more existing images are authoritative and must remain mostly unchanged while making controlled edits to text/brand, subject attributes, elements/background/composition, multi-reference transfer, output…时，用它产出或更新：Load the domain reference f…",
+  "skill_id": "00029-precise-image-editing-13e59217",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-15471462U1788235-8A8E75-3158-DE52C4/agent-core/skills/precise-image-editing/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-15471462U1788235-8A8E75-3158-DE52C4/agent-core/skills/precise-image-editing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a1fd4d67dfcd085b33da2b8abeb94fd5a52ead46e027f3e4b2245b2a08758c3f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

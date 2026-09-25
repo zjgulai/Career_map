@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-compliance-assessment-public",
+  "中文名称": "公开版合规评估",
+  "一句话作用": "基于公开法律来源开展交互式合规评估并生成可审阅报告。用户要求评估业务法律风险、审阅 PRD、判断监管红线或生成合规报告时使用。",
+  "关键输入": "1. 读取 legal-issue-tree.md、compliance-domains.md 和 analysis-angles.md。 2. 先确定“谁与谁形成什么关系、评估对象可能处于什么法律地位”，再展开该地位引出的具体义务。 3. 标明前提依赖。前提无法确定时，使用“若属于 X，则……；若不属于 X，则……”的条件分析。 4. 用 dimensions.md 做查漏补缺，但不得按领域名称平铺报告。 5. 命中领域时加载 re…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要1. 读取 legal-issue-tree.md、compliance-domains.md 和 analysis-angles.md。 2. 先确定“谁与谁形成什么关系、评估对象可能处于什么法律地位”，再展开该地位引出的具体义务。 3. 标明前提依赖。前提无法确定时，使用“若属于 X，则……；若不属于 X，则……”的条件分析。 4. 用 dimensions.md 做查漏补缺，但不得按领域名称平铺报告。 5. 命中领域时加载 re…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06638-doubao-compliance-assessment-public-95eae0d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-compliance-assessment-public/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-compliance-assessment-public/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d80384bbcdaf2ba24a2b8eaeff3384c008429fbea0a44cfc66c2edbeffd561f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

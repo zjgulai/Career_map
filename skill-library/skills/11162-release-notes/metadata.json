@@ -1,0 +1,22 @@
+{
+  "英文名称": "release-notes",
+  "中文名称": "待补：release-notes",
+  "一句话作用": "Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, ann…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:17:01+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, ann…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11162-release-notes-7dc00a7d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/release-notes/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/release-notes/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b617edd39e721267c9726286b6304f086991f5e2215b848c952a8ad9e001a0d3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

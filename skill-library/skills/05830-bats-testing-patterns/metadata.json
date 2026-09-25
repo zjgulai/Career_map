@@ -1,0 +1,22 @@
+{
+  "英文名称": "bats-testing-patterns",
+  "中文名称": "待补：bats-testing-patterns",
+  "一句话作用": "Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities.",
+  "关键输入": "- Writing unit tests for shell scripts - Implementing test-driven development (TDD) for scripts - Setting up automated testing in CI/CD pipelines - Testing edge cases and error conditions - Validating behavior across di…",
+  "关键输出": "@test \"Function outputs correct result\" { run my function \"test\" [ \"$output\" = \"expected output\" ] }",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Writing unit tests for shell scripts - Implementing test-driven development (TDD) for scripts - Setting up automated testing in CI/CD pipelines - Testing edge cases and error conditions - Validating behavior across di…时，用它产出或更新：@test \"Function outputs co…",
+  "skill_id": "05830-bats-testing-patterns-fa425aa8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/shell-scripting/skills/bats-testing-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/shell-scripting/skills/bats-testing-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bbf2ab75641bf998873c2a25e408a7a800a8e727d876ce1c56b20b889772ac78",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

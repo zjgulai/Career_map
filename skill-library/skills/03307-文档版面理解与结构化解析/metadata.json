@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-layoutlm-document-structure-parsing",
+  "中文名称": "文档版面理解与结构化解析",
+  "一句话作用": "触发词：版面理解、区域分类、文本坐标、图注剔除、表格边界识别。何时不用：需要把表格内容还原成结构化字段时用文档智能解析技能；只需按语义切块入库时用语义分块技能。安全边界：解析只做结构分类与区域过滤，不得改动原文内容与法规条款表述。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要知识库运营面临\"PDF论文文本提取后图表说明污染正文导致Skill萃取质量差\"——LayoutLM联合文本+坐标+视觉将内容污染率从23%降至4%，萃取质量评分提升1.2分时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03307-p2s-layoutlm-document-structure-parsing-0cd37431",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-layoutlm-document-structure-parsing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-layoutlm-document-structure-parsing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c5b3f830cbd31c003491ae237784e4e3f84daf1cd0a9f0da37083c9e38c9a102",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

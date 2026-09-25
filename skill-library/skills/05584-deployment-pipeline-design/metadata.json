@@ -1,0 +1,22 @@
+{
+  "英文名称": "deployment-pipeline-design",
+  "中文名称": "待补：deployment-pipeline-design",
+  "一句话作用": "Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use when architecting deployment workflows, setting up continuous delivery, or implementing GitOps practices.",
+  "关键输入": "- Design CI/CD architecture - Implement deployment gates - Configure multi-environment pipelines - Establish deployment best practices - Implement progressive delivery",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Design CI/CD architecture - Implement deployment gates - Configure multi-environment pipelines - Establish deployment best practices - Implement progressive delivery时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05584-deployment-pipeline-design-a11d9663",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cicd-automation/skills/deployment-pipeline-design/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cicd-automation/skills/deployment-pipeline-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0c7343294b6f7e01651b37a687349b9eade2bbe6370be321ec038f91cf9e47a1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

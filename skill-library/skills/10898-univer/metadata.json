@@ -1,0 +1,22 @@
+{
+  "英文名称": "univer",
+  "中文名称": "待补：univer",
+  "一句话作用": "Create, inspect, edit, import, export, and hand off multi-Unit .univer files through DSH tools and isolated worktrees. Use proactively for any task involving .univer files, spreadsheets or .xlsx/.csv/.tsv data, presenta…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T09:20:58+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Create, inspect, edit, import, export, and hand off multi-Unit .univer files through DSH tools and isolated worktrees. Use proactively for any task involving .univer files, spreadsheets or .xlsx/.csv/.tsv data, presenta…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10898-univer-36acd1bc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/dsh-univer-office/skills/univer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/dsh-univer-office/skills/univer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2df0c15bddeb91b5160cd3482665be42ae130a9ca6a0a95aa4c505798e363781",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-ssh-key",
+  "中文名称": "待补：glab-ssh-key",
+  "一句话作用": "管理 GitLab 账户的 SSH 密钥，包括添加、列出和删除操作。适用于设置 SSH 认证、管理 SSH 密钥或配置 Git 通过 SSH 连接。触发关键词：SSH 密钥、添加 SSH 密钥、SSH 认证、Git SSH。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "head -c 20 ~/.ssh/id ed25519.pub",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理 GitLab 账户的 SSH 密钥，包括添加、列出和删除操作。适用于设置 SSH 认证、管理 SSH 密钥或配置 Git 通过 SSH 连接。触发关键词：SSH 密钥、添加 SSH 密钥、SSH 认证、Git SSH。时，用它产出或更新：head -c 20 ~/.ssh/id ed25519.pub",
+  "skill_id": "10616-glab-ssh-key-e0f5e84a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-ssh-key/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-ssh-key/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "322dcd1248f74baaf5da2a9e3fab6052a83dc77b60cc7d8b98d49559f4c39f3d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

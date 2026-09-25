@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-compliance-signal-mining",
+  "中文名称": "评论合规信号挖掘：NLP-VOC合规决策桥梁",
+  "一句话作用": "触发词：评论挖掘、合规信号、安全事故、召回门槛、违规宣称、周频预警。何时不用：要在推荐候选集里实时剔除违规品时用「推荐合规过滤」，要审自家素材宣称时用「AIGC 内容合规审查」。安全边界：预警属内部风险提示，不构成召回认定，也不得据此对外否认评论反映的问题。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要婴儿推车收到5条「夹扣突然断裂」评论但卖家不知道是否触发CPSC召回门槛——评论合规信号挖掘自动分类安全事故/宣传违规/化学风险并实时预警，提前4-8周发现召回风险避免损失100-500万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12622-p2s-voc-compliance-signal-mining-a6ff3995",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-voc-compliance-signal-mining/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-voc-compliance-signal-mining/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "304df1fb20e1055e4d2f3821426081278a29eab9e197828765e9d47044db5bf5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

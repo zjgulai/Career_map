@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-testing-verification",
+  "中文名称": "多智能体系统测试验证：覆盖制导 Fuzzing 跨框架可观测性",
+  "一句话作用": "触发词：MAS测试验证、多Agent流程测试、覆盖制导Fuzzing、跨框架对比、边界场景验证、死循环检测。何时不用：要诊断单个 Agent 的阶段能力短板用「Agent阶段评估」；要做上线可靠性三维评估用「Agent可靠性评估」。安全边界：Fuzzing 与故障注入只能在测试环境执行，严禁对生产 Agent 或真实 ERP 系统发起；测试数据须脱敏，不得带入真实订单与用户信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：选品扫描工作流由 5 个 Agent 串行协作（品类趋势 Agent → 竞品分析 Agent → 合规预筛 Agent → 利润计算 Agent → 综合评分 Agent）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03421-p2s-mas-testing-verification-4a7bbe3b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mas-testing-verification/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mas-testing-verification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8805729993a913ac6d36d38790dee369ea3ea9b13275af802b9afdd1ef0bf3f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "temporal-cloud-setup",
+  "中文名称": "待补：temporal-cloud-setup",
+  "一句话作用": "Set up Temporal Cloud and run a sample Workflow on it for the user, doing the work end to end. Use when the user wants to set up Temporal Cloud, get started on Temporal Cloud, install the unified Temporal CLI (prereleas…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For many users this is the first time they ever see Temporal. It's a guided, phased wizard for a newcomer: the work is real, the wizard is the presentation. The tracker + step checklists tell the story — not prose. The per-step loop — disclose every command,…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Set up Temporal Cloud and run a sample Workflow on it for the user, doing the work end to end. Use when the user wants to set up Temporal Cloud, get started on Temporal Cloud, install the unified Temporal CLI (prereleas…时，用它产出或更新：For many users this is the…",
+  "skill_id": "01060-temporal-cloud-setup-e2709bfa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/temporal/skills/temporal-cloud-setup/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/temporal/skills/temporal-cloud-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "084ace6d87df3794288701521106bf1af89ce847f3d241bc3cdbe03a795da21d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

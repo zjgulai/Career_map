@@ -1,0 +1,22 @@
+{
+  "英文名称": "data-model-creation",
+  "中文名称": "待补：data-model-creation",
+  "一句话作用": "Optional advanced tool for complex data modeling. For simple table creation, use relational-database-tool directly with SQL statements.",
+  "关键输入": "This is an OPTIONAL advanced modeling tool for complex database design. Most simple table creation should use relational-database-tool directly with SQL statements. ONLY use this skill when you specifically need:",
+  "关键输出": "- Check model completeness and consistency - Verify relationship rationality - Confirm field constraint correctness - Check naming convention compliance",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要This is an OPTIONAL advanced modeling tool for complex database design. Most simple table creation should use relational-database-tool directly with SQL statements. ONLY use this skill when you specifically need:时，用它产出或更新：- Check model completeness and con…",
+  "skill_id": "05877-data-model-creation-9e57f2a2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/data-model-creation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/data-model-creation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2bd443c1323568ceba569aa7d01dff9263f7ccccf662b0ba3e5f390ca46edc51",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

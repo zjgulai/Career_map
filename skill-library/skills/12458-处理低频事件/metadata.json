@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-class-imbalance-handling",
+  "中文名称": "处理低频事件",
+  "一句话作用": "触发词：类别不平衡、SMOTE、ADASYN、Focal Loss、低频事件。何时不用：少数类极少需要生成式合成用「条件生成数据增强」；做合规风险评分建模用「合规 ML 风险评分」。安全边界：过采样只能作用于训练集，禁止在验证集或测试集上重采样，避免评估指标泄漏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要风控运营面临\"欺诈/退货低频事件召回率仅38%、大量漏检导致月均损失15万元\"——SMOTE+Focal Loss将欺诈召回率从38%提升至78%，年化减损85-95万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12458-p2s-class-imbalance-handling-be0b342a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-class-imbalance-handling/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-class-imbalance-handling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8af96209cee6c379f3f556ea3584b70aa2f7bb0b63e209e9948de84963b6a0ed",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

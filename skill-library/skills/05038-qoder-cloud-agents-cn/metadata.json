@@ -1,0 +1,22 @@
+{
+  "英文名称": "qoder-cloud-agents-cn",
+  "中文名称": "待补：qoder-cloud-agents-cn",
+  "一句话作用": "Run and manage Qoder Cloud Agents CN tasks, conversations and schedules from third-party agents. Use available QCA MCP tools or the HTTP API.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:50:59+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Run and manage Qoder Cloud Agents CN tasks, conversations and schedules from third-party agents. Use available QCA MCP tools or the HTTP API.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05038-qoder-cloud-agents-cn-b2b5a72f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/qoder-cloud-agents-cn/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/qoder-cloud-agents-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c5ea06d963176d532b97710a780a89ee4e2b18182de678eb34cd5f3945cbbd43",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

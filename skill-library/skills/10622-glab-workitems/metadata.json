@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-workitems",
+  "中文名称": "待补：glab-workitems",
+  "一句话作用": "列出和管理 GitLab 工作项（任务、OKR、关键结果、史诗）。适用于使用标准 Issue 之外的 GitLab 工作项类型。触发词：work items、任务、OKR、关键结果、史诗列表、工作项列表。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "glab workitems list --output json",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要列出和管理 GitLab 工作项（任务、OKR、关键结果、史诗）。适用于使用标准 Issue 之外的 GitLab 工作项类型。触发词：work items、任务、OKR、关键结果、史诗列表、工作项列表。时，用它产出或更新：glab workitems list --output json",
+  "skill_id": "10622-glab-workitems-2e77c2f1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-workitems/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-workitems/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cd84e70ca7ef429209ff46ae6f70938f60085b1d4a67714bf2f449560fb76f7b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

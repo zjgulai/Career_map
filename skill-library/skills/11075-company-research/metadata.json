@@ -1,0 +1,22 @@
+{
+  "英文名称": "company-research",
+  "中文名称": "待补：company-research",
+  "一句话作用": "当用户需要对一家具名公司做公司级调研、尽职调查或融资估值核查时使用：给出公司画像、融资历程、估值逻辑、团队治理、业务与竞争优势、风险与负面、近期动态，产出可追溯、可交叉验证、带 confidence 标注的研究报告。触发词：公司调研、尽职调查、融资估值、公司画像、投资者尽调、BD尽调。何时不用：产品选品（用 product-research-matrix）、市场进入 Go/No-Go（用 market-viability-logic-…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Executive Summary，回答“它是谁 / 当前状态 / 为什么现在值得关注”。 - Results，按字段表输出 value、source、tier、quote、confidence。 - Analysis，按目标深度选择 SWOT、Five Forces、BMC、PEST 或 value chain。 - Insights，每条使用“事实 - 推理 - 结论 - 影响”。 - Sources，列出可追溯引用和 source tier。 - Notes，列出冲突、缺口、反向观点和二次核实项。",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当用户需要对一家具名公司做公司级调研、尽职调查或融资估值核查时使用：给出公司画像、融资历程、估值逻辑、团队治理、业务与竞争优势、风险与负面、近期动态，产出可追溯、可交叉验证、带 confidence 标注的研究报告。触发词：公司调研、尽职调查、融资估值、公司画像、投资者尽调、BD尽调。何时不用：产品选品（用 product-research-matrix）、市场进入 Go/No-Go（用 market-viability-logic-…时，用它产出或更新：- Executive Summary，回答“它是谁…",
+  "skill_id": "11075-company-research-f03d824f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/company-research/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/company-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ac03c5e142f122d994e357c9f619e7252b1940afb60b6d6c6fdb0a0d1812635d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

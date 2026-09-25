@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-chain-cot-critic",
+  "中文名称": "前车之鉴·CoT 验证链",
+  "一句话作用": "CoT + Critic 验证链（深度推理链（Chain of Thought）+ 批判者角色自我验证，用于高风险/高精度推理任务）：5 相位执行纪律模板，含每相位输入/输出/检查点/停止/回环条件。触发词：推理步骤多于3步，容易出现中间错误、结论需要高置信度，错误代价大、需要区分事实和推断、选执行模式、任务编排、Agent 工作流设计、subagent 派工。何时不用：见下方五链对照表选更合适的；日常低风险任务直接做，不必套链。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CoT + Critic 验证链（深度推理链（Chain of Thought）+ 批判者角色自我验证，用于高风险/高精度推理任务）：5 相位执行纪律模板，含每相位输入/输出/检查点/停止/回环条件。触发词：推理步骤多于3步，容易出现中间错误、结论需要高置信度，错误代价大、需要区分事实和推断、选执行模式、任务编排、Agent 工作流设计、subagent 派工。何时不用：见下方五链对照表选更合适的；日常低风险任务直接做，不必套链。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04279-xmind-chain-cot-critic-a0cc5207",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-chain-cot-critic/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-chain-cot-critic/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2bcc7394b35aa8d5a98b0ac925d3d241a0c3f6a32fe9b71a386220e58f8714b3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ppt-implement",
+  "中文名称": "待补：ppt-implement",
+  "一句话作用": "implement ppt(powerpoint) project with best practices, start's with \"ppt\" template. Trigger keywords include \"web ppt\", \"网页ppt\", \"html ppt\", \"生成ppt\", \"制作ppt\", \"制作教案\", \"write a ppt about\", or any request to create presen…",
+  "关键输入": "Extract all pages with image requirements marked from ${WORKSPACE DIR}/docs/product/chapters.md: Extraction Logic :",
+  "关键输出": "⚠️ Output ONLY the following 3 lines, say nothing more: 🚫 NEVER output the following: - ❌ Tables (any form of tables) - ❌ Page number lists - ❌ File paths - ❌ \"Summary\" / \"总结\" - ❌ \"All N pages completed\" - ❌ \"Files generated to...\" - ❌ Any validation statemen…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要implement ppt(powerpoint) project with best practices, start's with \"ppt\" template. Trigger keywords include \"web ppt\", \"网页ppt\", \"html ppt\", \"生成ppt\", \"制作ppt\", \"制作教案\", \"write a ppt about\", or any request to create presen…时，用它产出或更新：⚠️ Output ONLY the followi…",
+  "skill_id": "05519-ppt-implement-2d381184",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/ppt-implement/skills/ppt-implement/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/ppt-implement/skills/ppt-implement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e7738748143dc14b712e2943ab6f66faa2ff6da1dc3863aefdb6065fe31d66fc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

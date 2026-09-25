@@ -1,0 +1,22 @@
+{
+  "英文名称": "darwin-skill",
+  "中文名称": "待补：darwin-skill",
+  "一句话作用": "Darwin Skill (达尔文.skill): autonomous skill optimizer inspired by Karpathy's autoresearch. Evaluates SKILL.md files using an 8-dimension rubric (structure + effectiveness), runs hill-climbing with git version control, va…",
+  "关键输入": "- 测试输出偏离用户意图 → 检查skill是否有误导性指令 - 带skill比不带还差 → skill可能过度约束，考虑精简 - 输出格式不符合预期 → 补充明确的输出模板",
+  "关键输出": "新增 eval mode 列：full test（跑了子agent测试）或 dry run（模拟推演）。 文件位置：.claude/skills/darwin-skill/results.tsv ---",
+  "最新更新时间": "2026-04-19T02:55:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 测试输出偏离用户意图 → 检查skill是否有误导性指令 - 带skill比不带还差 → skill可能过度约束，考虑精简 - 输出格式不符合预期 → 补充明确的输出模板时，用它产出或更新：新增 eval mode 列：full test（跑了子agent测试）或 dry run（模拟推演）。 文件位置：.claude/skills/darwin-skill/results.tsv ---",
+  "skill_id": "09250-darwin-skill-07fbffcd",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/darwin-skill/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/darwin-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "229a72475699d7895837935afb49705b022002f58382ad50facf446221d4076a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

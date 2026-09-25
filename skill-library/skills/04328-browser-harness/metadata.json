@@ -1,0 +1,22 @@
+{
+  "英文名称": "browser-harness",
+  "中文名称": "待补：browser-harness",
+  "一句话作用": "Always use browser-harness for any web interaction: automation, scraping, testing, or site/app work.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T11:07:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Always use browser-harness for any web interaction: automation, scraping, testing, or site/app work.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04328-browser-harness-cf97213a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.local/share/uv/tools/macos-harness/lib/python3.12/site-packages/browser_harness/SKILL.md",
+  "relative_path": "lute/.local/share/uv/tools/macos-harness/lib/python3.12/site-packages/browser_harness/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f684448dfc4094cd67d5f2b859e76e994e4883349b6d7060ff85d93bd44df53f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

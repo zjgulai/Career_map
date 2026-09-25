@@ -1,0 +1,22 @@
+{
+  "英文名称": "verification-before-completion",
+  "中文名称": "待补：verification-before-completion",
+  "一句话作用": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04674-verification-before-completion-54fd3ce4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/superpowers/6.3.0/skills/verification-before-completion/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/superpowers/6.3.0/skills/verification-before-completion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

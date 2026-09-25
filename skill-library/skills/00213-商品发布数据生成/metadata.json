@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-product-data",
+  "中文名称": "商品发布数据生成",
+  "一句话作用": "当用户需要从已填写的商品发布素材包或商品信息表中提取商品信息、关联图片和视频素材，并为后续商品录入流程准备结构化业务数据时使用。不生成或执行 DSL，也不操作浏览器。",
+  "关键输入": "确认用户已提供当前环境可访问的商品发布素材包目录，或 .xlsx、.xls 商品信息表；未提供时，让用户提供。 - 用户提供素材包目录时，优先使用根目录下的 商品信息.xlsx。该文件不存在时，在素材包目录内递归查找 .xlsx、.xls 文件，只有一个候选文件时直接使用，存在多个候选文件时让用户选择，没有候选文件时说明素材包中缺少商品信息表。 - 用户直接提供 Excel 时使用该文件；其他格式需要用户另存为支持的格式。 - 平台、类目、商品字段和素材目录以表格中的实际内容为准，不根据商品标题、图片或描述推测类…",
+  "关键输出": "每个 最多执行一次数据生成命令。命令结束后，只读取本次指定的 /data generation result.json，不得搜索或复用其他运行目录的结果。 - 退出码非 0：属于技术执行失败，不信任目录中的任何产物，使用命令实际返回的错误信息说明原因。 - 退出码为 0，但结果文件不存在、无法解析或协议无效：属于技术执行失败，不自行构造或修改结果。 - 退出码为 0 且结果协议有效：脚本已正常完成，商品数据是否可用只根据 status 判断。 - ready：使用生成的全部商品数据。",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要以下错误表示 Excel 配置的素材绝对路径无法使用： 错误码 含义 --- --- invalid-asset-package-path 素材包根目录为空或不是绝对路径 unreadable-asset-package-path 素材包根目录不存在、不是目录或不可读 invalid-platform-asset-path 平台素材目录使用符号链接或超出素材包根目录 missing-platform-asset-path 当前平台没有…时，用它产出或更新：每个 最多执行一次数据生成命令。命令结束后，只读取本…",
+  "skill_id": "00213-excel-product-data-5fd27aab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/excel-product-data/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/excel-product-data/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "622970ba390769526cb0a807f8277179f90080a01ed54e7c5e23f1b3878641bd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

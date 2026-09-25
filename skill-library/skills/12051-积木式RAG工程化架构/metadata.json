@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-modular-rag-architecture",
+  "中文名称": "积木式RAG工程化架构",
+  "一句话作用": "触发词：模块化检索、可插拔架构、工作流编排、迭代提速、RAG工程化。何时不用：知识库规模小、单点检索够用时不必模块化；要做多范式选型对比时用 RAG 工具包。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要工程团队面临RAG系统牵一发动全身难以迭代——模块化RAG将单节点迭代周期从2周→2天，年化工程效率提升60%，间接价值50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12051-p2s-modular-rag-architecture-31fb4a1c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-modular-rag-architecture/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-modular-rag-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "31557cafc53c0d3468f77ff5b44d6af79ab7f03022b4e565804a6367a194a3d2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

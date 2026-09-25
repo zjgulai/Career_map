@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-use-figjam",
+  "中文名称": "待补：figma-use-figjam",
+  "一句话作用": "This skill helps agents use Figma's use figma MCP tool in the FigJam context. Can be used alongside figma-use which has foundational context for using the use figma tool.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要This skill helps agents use Figma's use figma MCP tool in the FigJam context. Can be used alongside figma-use which has foundational context for using the use figma tool.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01299-figma-use-figjam-5ca42867",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-use-figjam/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-use-figjam/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d566444a1aaf31c122682a5fbe3d6f14c6a844a4e05164cda3de872752cea24",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "checkout-flow-optimizer",
+  "中文名称": "待补：checkout-flow-optimizer",
+  "一句话作用": "- Trigger: Optimize the checkout flow with address autocomplete, express payments, and field reduction to increase conversion and reduce abandonment.",
+  "关键输入": "- When checkout abandonment exceeds 70% according to analytics. - When redesigning a storefront to prioritize mobile conversion. - When adding express payment options (Apple Pay, Shop Pay, Google Pay). - When A/B testin…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:21:44+08:00",
+  "业务场景": "payments-checkout",
+  "解决具体问题": "当需要- When checkout abandonment exceeds 70% according to analytics. - When redesigning a storefront to prioritize mobile conversion. - When adding express payment options (Apple Pay, Shop Pay, Google Pay). - When A/B testin…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02487-checkout-flow-optimizer-eb5298c9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/checkout-flow-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/checkout-flow-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a794a367c8a34b370fa931cf7b753c0b4850f4dd9c878d42c78582ec30e9b3e5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

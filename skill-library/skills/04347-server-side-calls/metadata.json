@@ -1,0 +1,22 @@
+{
+  "英文名称": "server-side-calls",
+  "中文名称": "待补：server-side-calls",
+  "一句话作用": "Call tRPC procedures directly from server code using t.createCallerFactory() and router.createCaller(context) for integration testing, internal server logic, and custom API endpoints. Catch TRPCError and extract HTTP st…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Call tRPC procedures directly from server code using t.createCallerFactory() and router.createCaller(context) for integration testing, internal server logic, and custom API endpoints. Catch TRPCError and extract HTTP st…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04347-server-side-calls-6e31770f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.npm/_npx/28bb5da791664809/node_modules/@trpc/server/skills/server-side-calls/SKILL.md",
+  "relative_path": "lute/.npm/_npx/28bb5da791664809/node_modules/@trpc/server/skills/server-side-calls/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "007a1518628f9affa23141e3129f61ae1c36d8740a9665c18e637d74b07f5d67",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

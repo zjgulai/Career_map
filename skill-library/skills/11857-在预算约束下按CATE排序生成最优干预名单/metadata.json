@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-uplift-intervention-queue-optimizer",
+  "中文名称": "在预算约束下按CATE排序生成最优干预名单",
+  "一句话作用": "触发词：干预名单、CATE排序、预算约束、期望价值、干预护栏。何时不用：还没有Uplift/CATE输出时先做建模；只要分群画像不需名单与预算分配时也不必用。安全边界：干预信息须明示告知且可撤销，干预前需获得明确授权并建立投诉反馈与季度合规审计机制。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营团队面临\"预算有限但干预名单未按Uplift分数优化排序\"——CATE贪心排序将干预ROI提升至3-5x，相比随机干预节省干预成本35%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11857-p2s-uplift-intervention-queue-optimizer-56aa1e4a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-uplift-intervention-queue-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-uplift-intervention-queue-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "48c5da1587c0f10e6343e6c5f90258efe48ccc4d593076a3b1094ad3197dfa3f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

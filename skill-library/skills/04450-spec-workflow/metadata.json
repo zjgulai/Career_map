@@ -1,0 +1,22 @@
+{
+  "英文名称": "spec-workflow",
+  "中文名称": "待补：spec-workflow",
+  "一句话作用": "Use when medium-to-large changes need explicit requirements, technical design, and task planning before implementation, especially for multi-module work, unclear acceptance criteria, or architecture-heavy requests.",
+  "关键输入": "Create specs/ /requirements.md. What to do: - Restate the problem and scope - Write user stories - Write acceptance criteria in EARS style - Clarify business rules, constraints, and non-goals EARS pattern: Example:",
+  "关键输出": "- requirements.md - problem, scope, user stories, EARS acceptance criteria - design.md - architecture, technical approach, data/API/security/test notes - tasks.md - actionable implementation checklist tied to requirements",
+  "最新更新时间": "2026-09-19T03:38:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this workflow for structured development when you need to: - Define or refine a new feature - Design complex architecture - Coordinate changes across modules - Plan database or UI-heavy work - Improve requirement qu…时，用它产出或更新：- requirements.md - proble…",
+  "skill_id": "04450-spec-workflow-ea842afa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/cloudbase/0.2.0/skills/spec-workflow/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/cloudbase/0.2.0/skills/spec-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b4f36f06d148bd84dc20a0a6a4f1d7e6c4e3ef9a2b4225e633fa142f97d1fae0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

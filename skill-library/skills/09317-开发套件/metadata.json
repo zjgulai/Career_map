@@ -1,0 +1,22 @@
+{
+  "英文名称": "API",
+  "中文名称": "开发套件",
+  "一句话作用": "为功能快速创建遵循项目规范的API路由。整套输出包含：zod校验、错误处理、速率限制、类型安全、流式支持、测试文件。",
+  "关键输入": "- 项目已初始化，AGENTS.md已配置 - 已确定API路由结构（app/api/ 或独立后端）",
+  "关键输出": "每个API路由生成时，同时创建： 1. 测试文件 （.http 文件，方便在IDE中手动测试）：",
+  "最新更新时间": "2026-07-03T18:04:29+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要为功能快速创建遵循项目规范的API路由。整套输出包含：zod校验、错误处理、速率限制、类型安全、流式支持、测试文件。时，用它产出或更新：每个API路由生成时，同时创建： 1. 测试文件 （.http 文件，方便在IDE中手动测试）：",
+  "skill_id": "09317-api-16caba34",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_software/skills/api-gen/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_software/skills/api-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8b7692e4f2ce5c59c6f8510d6c24eadc2dac7e8fb983a8c7294db78aefae5222",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

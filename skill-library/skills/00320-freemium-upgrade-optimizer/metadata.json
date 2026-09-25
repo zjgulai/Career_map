@@ -1,0 +1,22 @@
+{
+  "英文名称": "freemium-upgrade-optimizer",
+  "中文名称": "待补：freemium-upgrade-optimizer",
+  "一句话作用": "Optimize SaaS paywall conversion by timing triggers, refining value propositions, and implementing high-converting pricing structures.",
+  "关键输入": "Use this skill when designing or auditing a SaaS product's upgrade flow. It applies to freemium models, free trials, and usage-based products looking to increase the percentage of free users who convert to paid plans.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:28+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use this skill when designing or auditing a SaaS product's upgrade flow. It applies to freemium models, free trials, and usage-based products looking to increase the percentage of free users who convert to paid plans.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00320-freemium-upgrade-optimizer-fe563f9d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/freemium-upgrade-optimizer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/freemium-upgrade-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "552cb27d98c1373f3c7b2b7c95e5ca944ffd84ecf785ee480ef2a6ca17ef507f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

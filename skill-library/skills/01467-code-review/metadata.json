@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-review",
+  "中文名称": "待补：code-review",
+  "一句话作用": "Reviews code changes using CodeRabbit AI. Use when user asks for code review, PR feedback, code quality checks, security issues, or requests fix-review cycles.",
+  "关键输入": "1. Confirm the working directory is inside a git repository. 2. Check the CLI: If the command is not found or reports that CodeRabbit is not installed, do not stop at the error. Install it: Then re-run coderabbit --version to confirm the install succeeded bef…",
+  "关键输出": "- Parse each NDJSON line independently. - Collect finding events and group them by severity. - Ignore status events in the user-facing summary. - If an error event is returned, or the CLI fails for any other reason (auth failure, missing CLI, network error, t…",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Reviews code changes using CodeRabbit AI. Use when user asks for code review, PR feedback, code quality checks, security issues, or requests fix-review cycles.时，用它产出或更新：- Parse each NDJSON line independently. - Collect finding events and group them by seve…",
+  "skill_id": "01467-code-review-dc011cf7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/coderabbit/1dc19589/skills/coderabbit-review/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/coderabbit/1dc19589/skills/coderabbit-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "515ef4f096ff4ee9cd034e6bf110bbb002f15abefcac3da7d9ff9db526d8e40f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

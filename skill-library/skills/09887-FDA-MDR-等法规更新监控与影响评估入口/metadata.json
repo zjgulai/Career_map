@@ -1,0 +1,22 @@
+{
+  "英文名称": "FDA / MDR 等法规更新监控与影响评估入口",
+  "中文名称": "待补：FDA / MDR 等法规更新监控与影响评估入口",
+  "一句话作用": "当需要定期汇总 FDA、EU MDR/CPSC 等公开更新线索、生成「影响 SKU/证书」初筛表并触发缺口重评与日历时调用；不替代订阅服务与律师解读。",
+  "关键输入": "- 已维护 关注清单 （法规、指南、协调标准编号）。 - ERP 或表中可关联 证书类型 ↔ SKU/型号 （粗粒度即可）。 - 明确 评审周期 （如双周/月）。",
+  "关键输出": "- 表：UpdateID 来源 主题 生效日 影响等级 涉及证书/标准 建议动作 截止 - 附录 ：原文链接与存档说明（防链接失效）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要定期汇总 FDA、EU MDR/CPSC 等公开更新线索、生成「影响 SKU/证书」初筛表并触发缺口重评与日历时调用；不替代订阅服务与律师解读。时，用它产出或更新：- 表：UpdateID 来源 主题 生效日 影响等级 涉及证书/标准 建议动作 截止 - 附录 ：原文链接与存档说明（防链接失效）。",
+  "skill_id": "09887-fda-mdr-8d588f26",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/regulatory-update-monitor/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/regulatory-update-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c9ba3f8569bf11d3924143a3fad74b840712699d5708a4983453a76f083ff6a9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

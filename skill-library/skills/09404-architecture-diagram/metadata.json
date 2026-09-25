@@ -1,0 +1,22 @@
+{
+  "英文名称": "architecture-diagram",
+  "中文名称": "待补：architecture-diagram",
+  "一句话作用": "Create polished dark-themed architecture diagrams as self-contained HTML+SVG files. Use when the user asks for system, infrastructure, cloud, security, or network topology diagrams.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Always produce a single self-contained .html file with: - Embedded CSS (no external stylesheets except Google Fonts) - Inline SVG (no external images) - No JavaScript required (pure CSS animations) The file should render correctly when opened directly in any…",
+  "最新更新时间": "2026-06-04T17:13:19+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Create polished dark-themed architecture diagrams as self-contained HTML+SVG files. Use when the user asks for system, infrastructure, cloud, security, or network topology diagrams.时，用它产出或更新：Always produce a single self-contained .html file with: - Embedde…",
+  "skill_id": "09404-architecture-diagram-455aa8ae",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/scm/.agents/skills/architecture-diagram/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/scm/.agents/skills/architecture-diagram/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a8dc11b2a648d906cf883d65dbf4cbe16608f08b4641c19ee46c3428ec28ed1c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

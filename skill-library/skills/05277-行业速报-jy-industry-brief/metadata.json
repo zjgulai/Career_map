@@ -1,0 +1,22 @@
+{
+  "英文名称": "jy-industry-brief",
+  "中文名称": "行业速报（jy-industry-brief）",
+  "一句话作用": "基于恒生聚源 MCP 聚源金融数据库生成指定行业的 24 小时速报（默认 Markdown 格式，支持 HTML 输出）。覆盖备选简读素材、重要新闻信息、行业企业动态、投融资事件四大核心模块，所有信息可溯源、带原始发布时间戳。⚠️ 本技能仅提供资讯信息展示，不构成任何投资建议或投资参考。使用场景：当用户有以下意图时触发——生成指定行业的速报，快速了解某行业最新动态，如\"生成新能源汽车行业速报\"、\"人工智能行业今天有什么新闻\"、\"帮我看…",
+  "关键输入": "问题 可能原因 解决方案 ------ ---------- ---------- mcporter list 显示服务未配置 MCP 服务未正确配置 按步骤 2 重新配置服务，检查 JY API KEY 是否有效 调用工具返回空数据 行业 24 小时内新闻较少或 MCP 未覆盖 聚合多家相关公司数据，使用龙头股票代码查询，或放宽时间范围 投融资事件不足 该行业 24 小时内投融资事件较少 24 小时内无事件直接写\"无\"，不要编造",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要问题 可能原因 解决方案 ------ ---------- ---------- mcporter list 显示服务未配置 MCP 服务未正确配置 按步骤 2 重新配置服务，检查 JY API KEY 是否有效 调用工具返回空数据 行业 24 小时内新闻较少或 MCP 未覆盖 聚合多家相关公司数据，使用龙头股票代码查询，或放宽时间范围 投融资事件不足 该行业 24 小时内投融资事件较少 24 小时内无事件直接写\"无\"，不要编造时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05277-jy-industry-brief-b01b096c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/gildata/skills/jy-industry-brief/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/gildata/skills/jy-industry-brief/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d197177dc4bb952950e142203ded7254ddafe358786844bc63f9b0396bf9636e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

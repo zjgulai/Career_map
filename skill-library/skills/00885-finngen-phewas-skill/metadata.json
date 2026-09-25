@@ -1,0 +1,22 @@
+{
+  "英文名称": "finngen-phewas-skill",
+  "中文名称": "待补：finngen-phewas-skill",
+  "一句话作用": "Fetch compact FinnGen PheWAS summaries for single variants by accepting rsID, GRCh37, or GRCh38 input and resolving to the required GRCh38 query. Use when a user wants concise FinnGen association results for one variant",
+  "关键输入": "- Read one JSON object from stdin, or a single JSON string containing the variant. - Required input: exactly one of rsid, grch37, grch38, or variant - Optional fields: max results, save raw, raw output path, timeout sec - Common patterns: - {\"grch38\":\"10:1129…",
+  "关键输出": "- Success returns ok, source, input, query variant, max results applied, association count, association count total, truncated, associations, variant, regions, variant url, raw output path, and warnings. - Use raw output path when save raw=true.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Fetch compact FinnGen PheWAS summaries for single variants by accepting rsID, GRCh37, or GRCh38 input and resolving to the required GRCh38 query. Use when a user wants concise FinnGen association results for one variant时，用它产出或更新：- Success returns ok, sourc…",
+  "skill_id": "00885-finngen-phewas-skill-13be9b71",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/finngen-phewas-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/finngen-phewas-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "52d95688e71579be6dd5d31e7f62e976235ce13e3307cb39e78d81c054464f28",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

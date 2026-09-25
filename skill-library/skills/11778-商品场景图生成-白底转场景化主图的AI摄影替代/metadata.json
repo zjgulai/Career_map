@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-background-scene-generation",
+  "中文名称": "商品场景图生成 白底转场景化主图的AI摄影替代",
+  "一句话作用": "触发词：场景图生成、白底转场景、一图多场景、节日主题图、场景 A/B 测试。何时不用：需要真实使用场景证据的类目不要用生成场景图；成品图的质量评分与门控用主图评分技能。安全边界：Amazon 主图必须纯白底，场景图只能用于副图或 A+ 页面；场景中出现人脸须为 AI 生成而非真实人物。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要摄影预算有限的卖家面临\"每个SKU拍多场景图成本极高\"——SD Inpainting+ControlNet将场景化主图成本从$200/SKU降至$8/SKU，年化节省$28.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11778-p2s-product-background-scene-generation-792b2022",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-product-background-scene-generation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-product-background-scene-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "153c832d3f9b4a509f9a6a8c278fe4e788da3e08e2a8070f3cec52e77c5d8d8e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

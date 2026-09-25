@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-open-source-tool-use-model",
+  "中文名称": "开源 Tool Use 基座模型选型 混合推理家族",
+  "一句话作用": "触发词：开源基座模型、Tool Use、本地部署、数据主权、API 成本。何时不用：只把简单 tool call 交给小模型省钱走「SLM Tool Calling 优化」；按任务在模型间路由走「上下文感知模型路由」。安全边界：自部署须落实数据不出境与访问审计，模型输出不得绕过人工复核直接对客执行。",
+  "关键输入": "输入 ：需现有 Agent 的 tool 定义与调用日志、月调用量与 Token 规模（卡页示例月度 100k 工单、5B tokens）、部署算力与合规要求，调用级粒度；卡页称数据要求低，用开源权重不需训练数据。 输出 ：产出选型与部署方案、成本与延迟对照（卡页记录成本 -99%、本地 14B 推理比 API 快 3-5 倍）、数据不出境的合规说明，供技术负责人决策。",
+  "关键输出": "输入 ：需现有 Agent 的 tool 定义与调用日志、月调用量与 Token 规模（卡页示例月度 100k 工单、5B tokens）、部署算力与合规要求，调用级粒度；卡页称数据要求低，用开源权重不需训练数据。 输出 ：产出选型与部署方案、成本与延迟对照（卡页记录成本 -99%、本地 14B 推理比 API 快 3-5 倍）、数据不出境的合规说明，供技术负责人决策。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：开源基座模型、Tool Use、本地部署、数据主权、API 成本。何时不用：只把简单 tool call 交给小模型省钱走「SLM Tool Calling 优化」；按任务在模型间路由走「上下文感知模型路由」。安全边界：自部署须落实数据不出境与访问审计，模型输出不得绕过人工复核直接对客执行。时，用它产出或更新：输入 ：需现有 Agent 的 tool 定义与调用日志、月调用量与 Token 规模（卡页示例月度 100k 工单、5B tokens）、部署算力与合规要求，调用级粒度；卡页称数据要求低，用…",
+  "skill_id": "03556-p2s-open-source-tool-use-model-ebd3f685",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-open-source-tool-use-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-open-source-tool-use-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e993b6cc77408afc64574259f59269035918a2ff6d70e3d6807178ede895c0a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

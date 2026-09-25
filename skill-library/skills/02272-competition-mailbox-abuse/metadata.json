@@ -1,0 +1,22 @@
+{
+  "英文名称": "competition-mailbox-abuse",
+  "中文名称": "待补：competition-mailbox-abuse",
+  "一句话作用": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for enterprise mail abuse, OAuth consent, inbox or forwarding rules, transport rules, shared mailbox access, phishing chains, and token-to-mai…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for enterprise mail abuse, OAuth consent, inbox or forwarding rules, transport rules, shared mailbox access, phishing chains, and token-to-mai…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02272-competition-mailbox-abuse-b0f757c5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-mailbox-abuse/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-mailbox-abuse/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e83476c6a9882ddd0258e9d6bd217d8770a901b264f2f7b20195ace6a5f3df7a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

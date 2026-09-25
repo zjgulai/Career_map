@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-session-personalization-cache",
+  "中文名称": "驱动的会话意图缓存与千人千面推荐",
+  "一句话作用": "触发词：千人千面、意图缓存、三层画像、首页重排、会话个性化。何时不用：要在毫秒级用行为流实时刷新推荐用「流式实时推荐」；要按宝宝月龄切换品类推荐用「月龄感知推荐」。安全边界：浏览加购数据属个人信息，画像生成与使用须在隐私政策中告知并获同意；实时 CTR 预估不得用于站外广告定向或对外转售。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴独立站首页对所有用户展示相同商品，哺乳妈妈和奶爸看到的首屏完全一样导致CTR仅2.3%——LLM会话意图三层缓存（长期偏好+近期行为+即时session）驱动千人千面排序，首页CTR提升到4-5%，年化GMV增益40-120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12340-p2s-llm-session-personalization-cache-25e5720d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-llm-session-personalization-cache/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-llm-session-personalization-cache/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ffce87c2661c8a68af3f557ee6f3b58046c725fd0b6e952ec2d4d16b524a9ae2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

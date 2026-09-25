@@ -1,0 +1,22 @@
+{
+  "英文名称": "gtm-motions",
+  "中文名称": "待补：gtm-motions",
+  "一句话作用": "比较自助、销售驱动、渠道合作等进入市场的打法，选出与客单价和产品形态匹配的一种。触发词：上市打法选择、gtm-motions、比较自助、销售驱动、渠道合作等进入市场的打法，选出与客单价和产品形态匹配的一种。",
+  "关键输入": "Use $ARGUMENTS to pass: - Product description and positioning - Target customer profile and market - Price point and sales cycle - Team size and capabilities - Budget and timeline constraints - Existing channels or data",
+  "关键输出": "A comprehensive GTM motions analysis including: - Scoring of all 7 motions for your product - Recommended motion stack (primary and secondary) - Tool recommendations for each motion - 90-day execution plan with milestones - Resource and budget requirements -…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Selecting marketing channels for your product - Choosing between inbound vs outbound strategy - Building your GTM toolkit and tech stack - Evaluating PLG vs traditional sales motion - Planning cross-channel marketing…时，用它产出或更新：A comprehensive GTM motions…",
+  "skill_id": "02578-gtm-motions-36eade3d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/gtm-motions/SKILL.md",
+  "relative_path": "lute/.dsh/skills/gtm-motions/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e61a3ac8ebbdcb5ab9cb45af57b0b948527886df39393e63695a0678d2c03466",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ato-spatio-temporal-graph",
+  "中文名称": "账号盗用时空图检测 因果标签传播",
+  "一句话作用": "触发词：账号盗用、时空图、登录异常、设备指纹、标签传播。何时不用：只有单账号孤立行为、没有账号间关系数据时用常规规则风控；本技能依赖设备、IP、账号构成的关系网络。安全边界：账号与登录数据属高敏个人信息，需授权采集、最小化留存，并按 PIPL 与 GDPR 处理。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要风控面临账号异常检出率低——时空图神经网络将ATO欺诈检测率从62%提升至91%，年化挽回损失35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02786-p2s-ato-spatio-temporal-graph-c1b14844",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ato-spatio-temporal-graph/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ato-spatio-temporal-graph/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bf16592f66aa1004d107d60a35bfc9dc7c7b2f1c7590415b17740bc55bec49d1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

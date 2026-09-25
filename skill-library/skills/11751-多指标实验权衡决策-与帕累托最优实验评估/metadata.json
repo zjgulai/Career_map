@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-metric-experiment-tradeoff",
+  "中文名称": "多指标实验权衡决策 与帕累托最优实验评估",
+  "一句话作用": "触发词：多指标权衡、OEC、护栏指标、帕累托最优、指标加权、发布裁定。何时不用：只关心单一北极星指标且无体验副作用时用常规显著性检验；尚未定义指标体系与权重时先做指标设计，不要套 OEC。安全边界：促销与价格实验须遵守平台限制（不得对同一用户展示不同价格）；OEC 权重应由跨部门委员会决定并定期回顾，避免指标操纵。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"GMV上升但用户体验下降的A/B结果团队争论无标准\"——OEC+护栏框架量化多指标权衡，避免错误发布，年化LTV增量约80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11751-p2s-multi-metric-experiment-tradeoff-cb7e2934",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-metric-experiment-tradeoff/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-metric-experiment-tradeoff/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b7af53b775ba3846060c0390d69292112a314a83464df0234eb0f8993b23514f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

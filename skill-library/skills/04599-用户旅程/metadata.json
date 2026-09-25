@@ -1,0 +1,22 @@
+{
+  "英文名称": "用户旅程",
+  "中文名称": "用户旅程",
+  "一句话作用": "用户旅程地图（User /用户旅程 Map）。基于 /问题框定.persona + /设计简报 等上游产出，按用户全生命周期阶段（Awareness → Consideration → Onboarding → Activation → Engagement → Retention → Advocacy）输出一张 HTML /用户旅程 Map 图——含每 stage 的 user goal / touchpoints / emotio…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成 Journey 后， 同时 做三件事： 1. 保存 HTML Journey Map 文件 （核心可视产物）：spark-output/journey/[project-slug].html 2. 会话内输出 chain context marker （marker 之间放裸 JSON）： 3. 写入项目文件 ：spark-output/context/journey.json（含元数据 + stage 数据） 下游可消费 Skill： - Brief.strategy dimensions ← 每个 st…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要用户旅程地图（User /用户旅程 Map）。基于 /问题框定.persona + /设计简报 等上游产出，按用户全生命周期阶段（Awareness → Consideration → Onboarding → Activation → Engagement → Retention → Advocacy）输出一张 HTML /用户旅程 Map 图——含每 stage 的 user goal / touchpoints / emotio…时，用它产出或更新：完成 Journey 后， 同时 做三件事： 1.…",
+  "skill_id": "04599-skill-59f24933",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/journey/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/journey/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "99c3382afbfde9387f0cc2cd6d69ef5e7af5444fa5106ff52dacfa148999cf4b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

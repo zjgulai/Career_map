@@ -1,0 +1,22 @@
+{
+  "英文名称": "genebass-gene-burden-skill",
+  "中文名称": "待补：genebass-gene-burden-skill",
+  "一句话作用": "Submit compact Genebass gene burden requests for one Ensembl gene ID and one burden set. Use when a user wants concise Genebass PheWAS summaries",
+  "关键输入": "- Read JSON from stdin as either a string Ensembl ID or an object. - String form: - \"ENSG00000173531\" - Object form: - {\"ensembl gene id\":\"ENSG00000173531\",\"burden set\":\"pLoF\",\"max results\":25}",
+  "关键输出": "- Success returns ok, source, input metadata, gene, association counts, truncated, and compact associations. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact Genebass gene burden requests for one Ensembl gene ID and one burden set. Use when a user wants concise Genebass PheWAS summaries时，用它产出或更新：- Success returns ok, source, input metadata, gene, association counts, truncated, and compact associa…",
+  "skill_id": "00886-genebass-gene-burden-skill-a2bf18f8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/genebass-gene-burden-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/genebass-gene-burden-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4be9fa67dd20351ddcb1e9b62aec8ad7f5cde0af7cb69d1c3e363d07355eeb98",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-resource-scheduling",
+  "中文名称": "调度原语驱动的多智能体资源管理",
+  "一句话作用": "触发词：Agent 资源调度、API 配额、并发限流、优先级队列、僵尸 Agent。何时不用：Agent 规模扩张后的架构与治理走「MAS 规模管理」；Token 预算在 Agent 间的分配走「动态上下文预算分配」。安全边界：调度只产出配额与优先级规则，不得绕过平台 API 速率限制或伪造配额。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要双 11 大促前 20 个选品 Agent 同时调用 GPT-4o，API 配额耗尽导致任务排队超时——MAS 资源调度层通过 Token 预算感知分配避免配额溢出，大促期间 Agent 吞吐量提升 3.5 倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12035-p2s-mas-resource-scheduling-077f8ddc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mas-resource-scheduling/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mas-resource-scheduling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5a548ef1f90a555162051527fd6123738bd39a1e1615c9b60665d7f916fde70",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

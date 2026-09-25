@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-data-analysis-and-report-generation",
+  "中文名称": "分类映射函数骨架",
+  "一句话作用": "从Excel提取多类型数据，并生成包含可视化图表与下载链接的综合分析报告。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "output path = os.path.join(output dir, 'analysis result.xlsx') category counts.to excel(output path, index=False) print(f\"统计结果已保存至: {output path}\") print(f\"下载链接: 下载统计结果\") print(f\"图表下载链接: 下载图表\")",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要从Excel提取多类型数据，并生成包含可视化图表与下载链接的综合分析报告。时，用它产出或更新：output path = os.path.join(output dir, 'analysis result.xlsx') category counts.to excel(output path, index=False) print(f\"统计结果已保存至: {output path}\") print(f\"下载链接: 下载统计结果\") print(f\"图表下载链接: 下载图表\")",
+  "skill_id": "04184-excel-data-analysis-and-report-generation-8f0f68aa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-result-export/report-generation-export/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-result-export/report-generation-export/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f1a618db974e69ee7f38ceaf7b7d846e361a12d8c3078bf15e282f1f7376811",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

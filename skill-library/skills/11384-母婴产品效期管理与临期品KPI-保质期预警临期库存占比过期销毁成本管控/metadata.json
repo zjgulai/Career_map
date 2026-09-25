@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-expiry-date-aging-baby-products-kpi",
+  "中文名称": "母婴产品效期管理与临期品KPI 保质期预警临期库存占比过期销毁成本管控",
+  "一句话作用": "触发词：效期管理、临期库存、保质期预警、FIFO执行率、过期损失。何时不用：需要做库龄分段持有成本精算与清仓触发时用库龄分段管理与资金成本化；需要做保税仓完税时机与资金占用优化时用保税仓智能库存。安全边界：母婴食品效期与批次追溯涉及安全红线，临期与过期品处置须符合食品安全法规与平台新鲜度政策，过期品不得重新上架销售。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴运营面临\"奶粉/辅食临期库存蚕食利润\"——180天三级预警+FIFO执行率100%，临期品占比从8%降至3%，过期损失归零时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11384-p2s-expiry-date-aging-baby-products-kpi-f5015261",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-expiry-date-aging-baby-products-kpi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-expiry-date-aging-baby-products-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d0d12213dbd5851edbf769f42150d207c71d8fca7d2e315681d409739a6103e9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

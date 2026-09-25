@@ -1,0 +1,22 @@
+{
+  "英文名称": "上架门禁决策引擎（合规扫描结果判定）",
+  "中文名称": "待补：上架门禁决策引擎（合规扫描结果判定）",
+  "一句话作用": "当需要把合规扫描结果转化为可执行上架决策（通过、补充资料、阻断）并输出可审计判定原因时调用。",
+  "关键输入": "- 已完成 listing-compliance-scanner 输出 - 已有目标站点与类目规则版本",
+  "关键输出": "表：SKU 市场 判定结果 风险等级 证据项 补充清单",
+  "最新更新时间": "2026-03-22T01:17:39+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要把合规扫描结果转化为可执行上架决策（通过、补充资料、阻断）并输出可审计判定原因时调用。时，用它产出或更新：表：SKU 市场 判定结果 风险等级 证据项 补充清单",
+  "skill_id": "09882-skill-a5761c3b",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/listing-gate-decision-engine/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/listing-gate-decision-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d07d6d952f893c3bec809762705a0c6199a6f804b7b200d9279805673012e7a4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

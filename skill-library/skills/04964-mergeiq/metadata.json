@@ -1,0 +1,22 @@
+{
+  "英文名称": "mergeiq",
+  "中文名称": "待补：mergeiq",
+  "一句话作用": "Score the complexity of any GitLab MR or GitHub PR using a 4-dimension framework: Size (20%), Cognitive Load (30%), Review Effort (30%), and Risk/Impact (20%). Works with GitLab or GitHub. Zero external dependencies. Us…",
+  "关键输入": "- Triaging a backlog of open PRs by complexity before a review session - Flagging high-complexity MRs for mandatory second review - Generating weekly complexity trend reports for a team - Understanding why a PR is takin…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:12:16+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Triaging a backlog of open PRs by complexity before a review session - Flagging high-complexity MRs for mandatory second review - Generating weekly complexity trend reports for a team - Understanding why a PR is takin…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04964-mergeiq-21b75ffa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/mergeiq/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/mergeiq/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6295ba5e68bd55080930c4ab029b84b880696a91f01032fef81eb14bf769fdc8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

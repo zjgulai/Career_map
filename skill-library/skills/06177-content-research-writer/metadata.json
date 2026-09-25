@@ -1,0 +1,22 @@
+{
+  "英文名称": "content-research-writer",
+  "中文名称": "待补：content-research-writer",
+  "一句话作用": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effor…",
+  "关键输入": "- Writing blog posts, articles, or newsletters - Creating educational content or tutorials - Drafting thought leadership pieces - Researching and writing case studies - Producing technical documentation with sources - W…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-14T13:31:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Writing blog posts, articles, or newsletters - Creating educational content or tutorials - Drafting thought leadership pieces - Researching and writing case studies - Producing technical documentation with sources - W…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06177-content-research-writer-470fde34",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/content-research-writer/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/content-research-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5c5b1fadc01026d5194d0bf9a08ecf8d0dfb58f9ea2b242ac22ae2a234ae33d7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

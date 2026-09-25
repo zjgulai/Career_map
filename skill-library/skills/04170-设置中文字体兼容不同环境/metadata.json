@@ -1,0 +1,22 @@
+{
+  "英文名称": "statistical-distribution-and-outlier-analysis",
+  "中文名称": "设置中文字体兼容不同环境",
+  "一句话作用": "执行数值型数据的分布分析与异常值检测，支持通过正则表达式从文本中提取误差项并生成高分辨率的箱线图与直方图报告。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要执行数值型数据的分布分析与异常值检测，支持通过正则表达式从文本中提取误差项并生成高分辨率的箱线图与直方图报告。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04170-statistical-distribution-and-outlier-analysis-7245e57e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-visualization/histogram-visualization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-visualization/histogram-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "148e4ece36fe3717873183f1a67ff05f0abd1714924aea6f4ac4d09561eabc04",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

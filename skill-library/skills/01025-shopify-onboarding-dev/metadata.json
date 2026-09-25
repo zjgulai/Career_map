@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-onboarding-dev",
+  "中文名称": "待补：shopify-onboarding-dev",
+  "一句话作用": "Get started building on Shopify. Use when a developer asks to build an app, build a theme, create a dev store, set up a partner account, scaffold a project, or get started developing for Shopify. NOT for merchants manag…",
+  "关键输入": "Check if Shopify CLI is installed by running shopify version. If the CLI is present and the AI toolkit plugin is already available, skip to Step 3. Shopify CLI — if not found, install using your package manager (npm, pnpm, yarn, and bun all work): If no Node…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Get started building on Shopify. Use when a developer asks to build an app, build a theme, create a dev store, set up a partner account, scaffold a project, or get started developing for Shopify. NOT for merchants manag…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01025-shopify-onboarding-dev-17c3e111",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-onboarding-dev/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-onboarding-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2cf4f4894b2a2a98513cf8e9b4af440f3b4aa0c35214bab781a29809afa5244e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

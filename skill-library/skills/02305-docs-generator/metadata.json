@@ -1,0 +1,22 @@
+{
+  "英文名称": "docs-generator",
+  "中文名称": "待补：docs-generator",
+  "一句话作用": "Creates task-oriented technical documentation with progressive disclosure. Use when writing READMEs, API docs, architecture docs, or markdown documentation. Also use this skill at the END of any completed reverse engine…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "当逆向/渗透/CTF/安全分析任务完成后，本 skill 负责在 用户项目目录 生成正式技术文档。",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Creates task-oriented technical documentation with progressive disclosure. Use when writing READMEs, API docs, architecture docs, or markdown documentation. Also use this skill at the END of any completed reverse engine…时，用它产出或更新：当逆向/渗透/CTF/安全分析任务完成后，本 ski…",
+  "skill_id": "02305-docs-generator-8a4f9c5a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/docs-generator/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/docs-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ceb99a41426a91e69521a6232d44691f4cb299b0e1bda2390ef48a3a047db85",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-deploy-key",
+  "中文名称": "待补：glab-deploy-key",
+  "一句话作用": "管理 GitLab 项目的 SSH 部署密钥（deploy key），包括添加、列出和删除操作。适用于为 CI/CD 设置部署密钥、管理只读访问权限或配置部署认证。触发关键词：deploy key、SSH 密钥、部署密钥、只读访问。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要管理 GitLab 项目的 SSH 部署密钥（deploy key），包括添加、列出和删除操作。适用于为 CI/CD 设置部署密钥、管理只读访问权限或配置部署认证。触发关键词：deploy key、SSH 密钥、部署密钥、只读访问。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10596-glab-deploy-key-6abb5eba",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-deploy-key/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-deploy-key/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3fe71e53101b122b0506b06cb7f03a6b1984d173af89729b6d6949f0fd860025",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

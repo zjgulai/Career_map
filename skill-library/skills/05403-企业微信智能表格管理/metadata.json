@@ -1,0 +1,22 @@
+{
+  "英文名称": "wecomcli-smartsheet",
+  "中文名称": "企业微信智能表格管理",
+  "一句话作用": "企业微信智能表格（smartsheet）管理技能。提供智能表格的新建（doc type=10）、结构管理（子表、字段/列）和数据管理（记录增删改查）。适用场景：(1) 从零新建智能表格 (2) 管理智能表格子表和字段/列 (3) 查询、添加、更新、删除智能表格记录。支持通过 docid 或文档 URL 定位文档。当用户提到「企业微信智能表格」「智能表格」，或链接形如 https://doc.weixin.qq.com/smartshe…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要企业微信智能表格（smartsheet）管理技能。提供智能表格的新建（doc type=10）、结构管理（子表、字段/列）和数据管理（记录增删改查）。适用场景：(1) 从零新建智能表格 (2) 管理智能表格子表和字段/列 (3) 查询、添加、更新、删除智能表格记录。支持通过 docid 或文档 URL 定位文档。当用户提到「企业微信智能表格」「智能表格」，或链接形如 https://doc.weixin.qq.com/smartshe…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05403-wecomcli-smartsheet-7a5d84e1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-smartsheet/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-smartsheet/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63f6b594bd5b53a17f814cdca32ede9d41ee1aa921842aa79c4f64f7437b1e78",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

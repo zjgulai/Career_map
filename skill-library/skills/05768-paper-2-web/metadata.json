@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-2-web",
+  "中文名称": "待补：paper-2-web",
+  "一句话作用": "This skill should be used when converting academic papers into promotional and presentation formats including interactive websites (Paper2Web), presentation videos (Paper2Video), and conference posters (Paper2Poster). U…",
+  "关键输入": "1. Install Paper2All : 2. Configure API Keys (create .env file): 3. Install System Dependencies : - LibreOffice (document conversion) - Poppler utilities (PDF processing) - NVIDIA GPU with 48GB (optional, for talking-head videos) → See references/installation…",
+  "关键输出": "Generated outputs are organized by paper and component:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Use this skill when: - Creating conference materials : Posters, presentation videos, and companion websites for academic conferences - Promoting research : Converting published papers or preprints into accessible, engag…时，用它产出或更新：Generated outputs are orga…",
+  "skill_id": "05768-paper-2-web-2a3d3200",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/paper-2-web/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/paper-2-web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3fa6a4a8908436df56ae882c5942003f14a4c48c5bbb73fbc2c7650932225c54",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

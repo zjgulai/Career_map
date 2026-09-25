@@ -1,0 +1,22 @@
+{
+  "英文名称": "portfolio-risk-management",
+  "中文名称": "待补：portfolio-risk-management",
+  "一句话作用": "Use when sizing Public Equity Investing positions, finding equity hedges, or building an integrated position-and-hedge risk plan from a listed-equity thesis. Do not use for thesis construction, standalone event underwri…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Default output should include: 1. Decision summary: mode, recommendation or conditional screen status, action readiness, confidence, and binding constraint. 2. Exposure objective: intended alpha, unwanted risk, and retained exposure. 3. Constraint interpretat…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when sizing Public Equity Investing positions, finding equity hedges, or building an integrated position-and-hedge risk plan from a listed-equity thesis. Do not use for thesis construction, standalone event underwri…时，用它产出或更新：Default output should incl…",
+  "skill_id": "00998-portfolio-risk-management-36657984",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/portfolio-risk-management/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/portfolio-risk-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2309006d9a7b618aeb5e74067d17b828aa5cd8e4e61d57142f972d3bbab07e93",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "image-ocr",
+  "中文名称": "待补：image-ocr",
+  "一句话作用": "Extract text content from images using Tesseract OCR via Python",
+  "关键输入": "- File formats : JPG, JPEG, PNG, WEBP - Image quality : Minimum 300 DPI recommended for printed text; clear and legible text - File size : Under 5MB per image (resize if necessary) - Text language : Specify if non-English to improve accuracy",
+  "关键输出": "All extracted content must be returned as valid JSON conforming to this schema:",
+  "最新更新时间": "2026-09-19T03:47:01+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- Extracting text from scanned documents or photos - Reading text from screenshots or image captures - Processing batch image files that contain textual information - Converting visual documents to machine-readable text…时，用它产出或更新：All extracted content must…",
+  "skill_id": "04909-image-ocr-8f94942c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/image-ocr/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/image-ocr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "69dd1065075d53f02c33d3c9c7b3f07eaab26686048675a971fb3a2f8c297359",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

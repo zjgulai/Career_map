@@ -1,0 +1,22 @@
+{
+  "英文名称": "realtime-task-development",
+  "中文名称": "实时任务开发助手",
+  "一句话作用": "实时任务开发与排错全流程引导。用于设计、开发、调试 Flink 实时任务时使用——覆盖业务需求梳理、数据源对齐、字段映射、数据流转设计、窗口/乱序/延迟决策、ETL SQL 开发、结果校验、上线发布 8 个阶段。窗口选型、Watermark、反压排查不写死阈值，而是通过\"决策因子清单\"引导用户基于业务场景逐项判断。当用户说\"帮我设计这个实时任务\"、\"这个 Flink 任务怎么写\"、\"任务跑不动怎么排查\"、\"窗口/watermark 怎…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- 提供本地/小流量验证方法： - 用 LIMIT 100 起调 - 对照口径文档抽样核对几条记录 - 与离线相同口径任务做 T+1 数据对比（如有） - 列出常见 case：null 值、边界时间、迟到数据、维表 miss",
+  "最新更新时间": "2026-09-19T03:38:09+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要实时任务开发与排错全流程引导。用于设计、开发、调试 Flink 实时任务时使用——覆盖业务需求梳理、数据源对齐、字段映射、数据流转设计、窗口/乱序/延迟决策、ETL SQL 开发、结果校验、上线发布 8 个阶段。窗口选型、Watermark、反压排查不写死阈值，而是通过\"决策因子清单\"引导用户基于业务场景逐项判断。当用户说\"帮我设计这个实时任务\"、\"这个 Flink 任务怎么写\"、\"任务跑不动怎么排查\"、\"窗口/watermark 怎…时，用它产出或更新：- 提供本地/小流量验证方法： - 用 LIMIT…",
+  "skill_id": "04630-realtime-task-development-84981640",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/realtime-task-development/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/realtime-task-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5c65ccf9c38081bfe6a636039fc2c6d96b3d1bfccf73068dcc282928ea30d663",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

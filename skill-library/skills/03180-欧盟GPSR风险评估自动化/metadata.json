@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gpsr-eu-ri[REDACTED]",
+  "中文名称": "欧盟GPSR风险评估自动化",
+  "一句话作用": "触发词：GPSR 风险评估、Error 5995、欧盟责任人、安全报告草稿、多站点差异。何时不用：要办包装回收 EPR 注册时用「EPR 标签体系」，要规划单市场认证组合时用「AI 产品安全认证」。安全边界：输出仅为报告草稿，正式提交前须律师或合规顾问审核，高风险产品漏判风险约 15% 需人工二审。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要卖家面临\"欧盟站收到Error 5995无法生成GPSR风险评估报告库存面临30天自动销毁\"——GPSR评估矩阵将合规准入周期从3周改善为2天，年化节省第三方报告费18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03180-p2s-gpsr-eu-ri-redacted-69a65c7e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-gpsr-eu-risk-assessment-auto/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-gpsr-eu-risk-assessment-auto/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2ad8537d1022a480396b08ed9e511154d58f23d095b1274b76337747cad7dccc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

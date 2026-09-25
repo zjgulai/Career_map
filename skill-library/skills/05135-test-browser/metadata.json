@@ -1,0 +1,22 @@
+{
+  "英文名称": "test-browser",
+  "中文名称": "待补：test-browser",
+  "一句话作用": "Run browser tests on pages affected by current PR or branch",
+  "关键输入": "[PR number, branch name, or 'current' for current branch]",
+  "关键输出": "Test Scope: PR [number] / [branch name] Server: http://prompts:localhost-3000",
+  "最新更新时间": "2026-09-19T03:49:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run browser tests on pages affected by current PR or branch时，用它产出或更新：Test Scope: PR [number] / [branch name] Server: http://prompts:localhost-3000",
+  "skill_id": "05135-test-browser-b1b27215",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/test-browser/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/test-browser/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "638fee8077b16f9a9470e6701c60b8dddad1d88d2bcbf6d1d9a314e1090af813",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

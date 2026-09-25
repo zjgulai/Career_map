@@ -1,0 +1,22 @@
+{
+  "英文名称": "turborepo",
+  "中文名称": "待补：turborepo",
+  "一句话作用": "配置并排查 Turborepo 构建：任务依赖流水线、本地与远程缓存、--affected 增量构建。触发词：Monorepo、turborepo、配置并排查 Turborepo 构建：任务依赖流水线、本地与远程缓存、--affected 增量构建。",
+  "关键输入": "不要用 ../ 这类相对路径引用包外的文件。改用 $TURBO ROOT$。",
+  "关键输出": "在报「缺 outputs」之前，先看清这个任务到底产出了什么： 1. 读该包的脚本（例如 \"build\": \"tsc\"、\"test\": \"vitest\"） 2. 判断它是往磁盘写文件，还是只往 stdout 输出 3. 只有当它产出的文件确实该被缓存时才报 各框架常见的 outputs： - Next.js：[\".next/ \", \"!.next/cache/ \", \"!.next/dev/ \"] - Vite/Rollup：[\"dist/ \"] - tsc：[\"dist/ \"]，或自定义的 outDir",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要配置并排查 Turborepo 构建：任务依赖流水线、本地与远程缓存、--affected 增量构建。触发词：Monorepo、turborepo、配置并排查 Turborepo 构建：任务依赖流水线、本地与远程缓存、--affected 增量构建。时，用它产出或更新：在报「缺 outputs」之前，先看清这个任务到底产出了什么： 1. 读该包的脚本（例如 \"build\": \"tsc\"、\"test\": \"vitest\"） 2. 判断它是往磁盘写文件，还是只往 stdout 输出 3. 只有当它产出的文件确实…",
+  "skill_id": "04230-turborepo-48ed2e32",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/turborepo/SKILL.md",
+  "relative_path": "lute/.dsh/skills/turborepo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "81c71331d1c0d68ead5a1b42e028815ff6cc77085ff79e57ce43870cd29d1538",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

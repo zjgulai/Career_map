@@ -1,0 +1,22 @@
+{
+  "英文名称": "typescript-advanced-types",
+  "中文名称": "待补：typescript-advanced-types",
+  "一句话作用": "Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating…",
+  "关键输入": "- Building type-safe libraries or frameworks - Creating reusable generic components - Implementing complex type inference logic - Designing type-safe API clients - Building form validation systems - Creating strongly-ty…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Building type-safe libraries or frameworks - Creating reusable generic components - Implementing complex type inference logic - Designing type-safe API clients - Building form validation systems - Creating strongly-ty…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05649-typescript-advanced-types-3bebe6a8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/javascript-typescript/skills/typescript-advanced-types/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/javascript-typescript/skills/typescript-advanced-types/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2c2dea20ce6d164b63aa85cc3010b20fc0beb3d34f52826aaec1c9c41ab27587",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

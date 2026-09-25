@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-app-builder",
+  "中文名称": "待补：doubao-app-builder",
+  "一句话作用": "统一处理网页应用的生成、编辑，以及围绕已生成产物的问答。既负责把自然语言需求端到端转成可运行、可预览、可交付的网页应用产物，也负责在用户追问产物时基于真实产物作答。当用户要生成网站、H5、网页应用、管理后台、数据看板时使用。当用户要编辑已有网页应用、做功能新增、页面调整或 Bug 修复时使用。当用户提供 PRD、文档、截图或素材包并要求产出可预览网页应用时使用。当用户针对已生成的网页应用，要求总结或解读网页内容、查看或分析源码、解释或…",
+  "关键输入": "- app id（可选）：当需要编辑，或读取/问答已有网页应用（总结内容、看源码、排查报错、查运营数据）时传入对应的应用 ID。 若用户提供了形如 https://xxx/app/app xxxxxx 的应用 URL，则 /app/ 后面的 app xxxxxx 就是该应用的 app id ，直接据此调用 app builder agent，无需再向用户追问 ID - arch type：当需要创建应用时，必须传入对应的应用技术类型—— 仅接受 jspage、fullstack 两个值，本参数无默认值 ；调用前必…",
+  "关键输出": "- 语言与用户一致（默认中文） - 先整理需求与素材，再通过工具调用方式执行 app builder agent（若需要生成/编辑） - 调用 app builder agent 时，user prompt 必须包含完整信息（禁止自行补充用户未提及的风格设计：视觉风格、配色、布局、字体、动效、页面结构、抽象风格词等） - 静默执行，禁止暴露内部逻辑：无论是在思考过程（thinking/reasoning）还是在回复用户的文本中，都禁止提及或透露 app id、arch type、user prompt 这三个参数…",
+  "最新更新时间": "2026-09-22T22:51:27+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要统一处理网页应用的生成、编辑，以及围绕已生成产物的问答。既负责把自然语言需求端到端转成可运行、可预览、可交付的网页应用产物，也负责在用户追问产物时基于真实产物作答。当用户要生成网站、H5、网页应用、管理后台、数据看板时使用。当用户要编辑已有网页应用、做功能新增、页面调整或 Bug 修复时使用。当用户提供 PRD、文档、截图或素材包并要求产出可预览网页应用时使用。当用户针对已生成的网页应用，要求总结或解读网页内容、查看或分析源码、解释或…时，用它产出或更新：- 语言与用户一致（默认中文） - 先整理需求与素材…",
+  "skill_id": "06233-doubao-app-builder-94929176",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-app-builder/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-app-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e997d8ca25f2238e283f3a0bcfbfefd730cebdac49a5b6fc8a0a1ebd526347fb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

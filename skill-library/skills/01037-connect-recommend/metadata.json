@@ -1,0 +1,22 @@
+{
+  "英文名称": "connect-recommend",
+  "中文名称": "待补：connect-recommend",
+  "一句话作用": "Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get started with Connect, is building a marketplace, platform, multi-vendor store, gig platform, or subs…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Before generating any user-facing output, read . Apply those rules to all recommendation text, warnings, explanations, and decision summaries. Key principle: describe configurations using field values (Dashboard + fee ownership + negative balance liability ow…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get started with Connect, is building a marketplace, platform, multi-vendor store, gig platform, or subs…时，用它产出或更新：Before generating any user…",
+  "skill_id": "01037-connect-recommend-38ba9b2a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/stripe/skills/connect-recommend/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/stripe/skills/connect-recommend/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "84dc5a2622ca88cf80de8e5975d0e08112e596e97d7d6f453fbbfae9b76b1e1b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

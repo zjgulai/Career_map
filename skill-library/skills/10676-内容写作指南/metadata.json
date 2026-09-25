@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo-copywriting-guide",
+  "中文名称": "内容写作指南",
+  "一句话作用": "通过 12 步结构化工作流生成搜索引擎优化内容，产出一篇包含完整草稿、备选标题、Meta描述、FAQ结构化内容及CORE-EEAT自评清单的SEO文章。当用户提出“写一篇SEO文章”、“帮我写博客”、“创建针对某关键词的内容”、“撰写产品描述”、“写落地页文案”或“SEO文案写作”等请求时触发。",
+  "关键输入": "- [ ] 已确认主关键词且匹配搜索意图 - [ ] 已指定目标字数（实质性内容最少 800 字） - [ ] 已明确定义内容类型和目标受众 - [ ] 已审查竞争对手 URL 或已确定目标 SERP 特性",
+  "关键输出": "- [ ] 主关键词密度在 1-2% 范围内（注意：关键词密度是参考指标，非硬性规则。现代搜索引擎更重视语义相关性和自然语言，而非精确的密度目标。应专注于使用语义变体全面覆盖主题，而不是追求特定百分比。） - [ ] 大纲中所有章节均已完整覆盖 - [ ] 已包含内链（2-5 个相关链接） - [ ] FAQ 部分已包含至少 3 个问题 - [ ] 可读性评分适合目标受众 - [ ] 每个数据点的来源已明确标注（SEO 工具数据、用户提供或估算）",
+  "最新更新时间": "2026-09-14T00:06:13+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 撰写针对特定关键词的博客文章 - 创建针对搜索优化的落地页 - 开发主题集群的支柱内容 - 撰写电商产品描述 - 创建本地 SEO 服务页面 - 制作操作指南和教程 - 撰写对比评测文章时，用它产出或更新：- [ ] 主关键词密度在 1-2% 范围内（注意：关键词密度是参考指标，非硬性规则。现代搜索引擎更重视语义相关性和自然语言，而非精确的密度目标。应专注于使用语义变体全面覆盖主题，而不是追求特定百分比。） - [ ] 大纲中所有章节均已完整覆盖 - [ ] 已包含内链（2-5 个相关链接） - [ ]…",
+  "skill_id": "10676-seo-copywriting-guide-c9c59746",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/seo-copywriting-guide/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/seo-copywriting-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "037087d20f6f81fa772ea88fa2597b6a9d9d29ee3d3ff82ebb3753d4a48e7eba",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

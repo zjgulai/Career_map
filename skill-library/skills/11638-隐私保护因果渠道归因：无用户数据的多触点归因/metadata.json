@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cda-privacy-causal-attribution",
+  "中文名称": "隐私保护因果渠道归因：无用户数据的多触点归因",
+  "一句话作用": "触发词：隐私合规归因、无用户级数据、多触点权重、渠道因果影响、种草效应修正。何时不用：可用用户级数据做匹配或分层效应用 KOL 因果归因与 DML 类技能，本技能在不能追踪个体的约束下做渠道级归因。安全边界：不得为归因目的绕过用户同意获取个体数据，只使用渠道汇总数据，结论不得用于个体定向。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投放经理面临隐私下归因失真——CDA将归因偏差降25%，年化增收30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11638-p2s-cda-privacy-causal-attribution-34026f10",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-cda-privacy-causal-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-cda-privacy-causal-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6df25dffd044d0f9c53d9b242170abead67da6fbba782c40b39e4c839acfd906",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "ui-ux-pro-max",
+  "中文名称": "待补：ui-ux-pro-max",
+  "一句话作用": "UI/UX design intelligence with searchable database",
+  "关键输入": "Check if Python is installed: If Python is not installed, install it based on user's OS: macOS: Ubuntu/Debian: Windows: ---",
+  "关键输出": "The --design-system flag supports two output formats:",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要UI/UX design intelligence with searchable database时，用它产出或更新：The --design-system flag supports two output formats:",
+  "skill_id": "05518-ui-ux-pro-max-11de6c68",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/modern-webapp/skills/ui-ux-pro-max/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/modern-webapp/skills/ui-ux-pro-max/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b4f16d368d4c22972e2523c9f5bf7e24f1d6230224899b18ff7d6001b10c6bf4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

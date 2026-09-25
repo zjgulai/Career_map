@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-review-coach",
+  "中文名称": "学术同行评审模拟器",
+  "一句话作用": "模拟学术同行评审，从原创性、方法论、结果、写作四个维度系统分析论文，给出明确的 Major/Minor Revision 建议和可操作的修改意见。当用户提出审稿请求，例如“帮我审一下论文”、“模拟审稿”、“给我的 paper 做 peer review”、“论文投稿前想找人看看”或提及自查、诊断、评审练习等场景时触发。",
+  "关键输入": "请用户提供以下信息（至少提供前两项）： 1. 论文内容 ：摘要、全文、或需要评审的特定章节 2. 学科领域 ：如计算机科学、生物医学、经济学、心理学等 3. 目标期刊/会议 （可选）：如 Nature、ICML、The Lancet 等，用于校准评审标准 4. 评审侧重点 （可选）：如用户特别关注方法论合理性或写作润色 若用户未指定目标期刊，按该学科领域高水平期刊的通用标准进行评审。 ---",
+  "关键输出": "评估实验结果的可靠性、完整性和解释的合理性。 评审要点： - 结果的可靠性 ：实验是否有多次运行的结果？是否报告了标准差或置信区间？ - 数据呈现的清晰度 ：图表是否清晰、准确、信息完整？数值精度是否合适？ - 结果与结论的一致性 ：结论是否得到了实验数据的充分支持？是否存在过度解读或选择性报告？ - 负面结果的处理 ：是否诚实地报告了不符合预期的结果？是否给出了合理解释？ - 局限性分析 ：是否充分讨论了方法和结果的局限性？是否指出了未来改进方向？ 常见问题示例： - Major：关键实验缺少误差棒或统计显著性…",
+  "最新更新时间": "2026-09-14T00:06:17+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要模拟学术同行评审，从原创性、方法论、结果、写作四个维度系统分析论文，给出明确的 Major/Minor Revision 建议和可操作的修改意见。当用户提出审稿请求，例如“帮我审一下论文”、“模拟审稿”、“给我的 paper 做 peer review”、“论文投稿前想找人看看”或提及自查、诊断、评审练习等场景时触发。时，用它产出或更新：评估实验结果的可靠性、完整性和解释的合理性。 评审要点： - 结果的可靠性 ：实验是否有多次运行的结果？是否报告了标准差或置信区间？ - 数据呈现的清晰度 ：图表是否清晰、…",
+  "skill_id": "10653-paper-review-coach-7369f4f5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/paper-review-coach/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/paper-review-coach/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fcf9f3f68829eb4964b5fa034fc2180d1046b11a9ea639577832041a8851ad00",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

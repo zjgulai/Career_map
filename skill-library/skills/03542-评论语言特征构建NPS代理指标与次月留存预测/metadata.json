@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nps-proxy-retention-predictor",
+  "中文名称": "评论语言特征构建NPS代理指标与次月留存预测",
+  "一句话作用": "触发词：NPS代理指标、评论语言特征、留存预测、复购信号、无调研估算、激励投放。何时不用：已有完整 NPS 调研体系时不需要代理指标；要做差评维度优先级排序用「差评根因分析」。安全边界：代理指标不得冒充正式 NPS 调研结论对外披露；评论采集须遵守平台数据政策与隐私法规；冷启动阶段评论量不足（卡页口径低于 100 条）误差较大，结果须标注不确定性。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临无NPS调研数据无法判断用户满意度、复购激励预算盲目投放——评论语言特征构建NPS代理分替代季度调研，年化节省调研成本$36,000+减少无效促销浪费$8,000时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03542-p2s-nps-proxy-retention-predictor-26a8fccb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-nps-proxy-retention-predictor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-nps-proxy-retention-predictor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ed4cdaa7a1cc0ff0579feaeb6cc6e44433d86b6d6a8902ffbd5b09e8cce4f37a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

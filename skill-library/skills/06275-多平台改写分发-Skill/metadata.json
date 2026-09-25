@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-multiplatform-rewrite",
+  "中文名称": "多平台改写分发 Skill",
+  "一句话作用": "基于用户提供的已有素材（母稿、文章、新闻稿、活动稿、产品稿、报告摘要、访谈素材、口播稿、散乱素材等），改写成可发布的多平台分发版本，标准场景为≥2个平台，有素材的单平台改写也可支持，覆盖微信公众号、短视频脚本、微博等平台。当用户提到\"一稿多发\"\"多平台分发\"\"内容矩阵\"\"跨平台改写\"\"同一内容发多个平台\"\"分发执行包\"，或提供母稿并说\"适合不同平台\"\"不同平台都能发\"\"平台化处理\"\"适合平台传播\"\"改成某平台版\"时触发。不适用场景包括…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要基于用户提供的已有素材（母稿、文章、新闻稿、活动稿、产品稿、报告摘要、访谈素材、口播稿、散乱素材等），改写成可发布的多平台分发版本，标准场景为≥2个平台，有素材的单平台改写也可支持，覆盖微信公众号、短视频脚本、微博等平台。当用户提到\"一稿多发\"\"多平台分发\"\"内容矩阵\"\"跨平台改写\"\"同一内容发多个平台\"\"分发执行包\"，或提供母稿并说\"适合不同平台\"\"不同平台都能发\"\"平台化处理\"\"适合平台传播\"\"改成某平台版\"时触发。不适用场景包括…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06275-doubao-multiplatform-rewrite-00f470d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-multiplatform-rewrite/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-multiplatform-rewrite/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b50dc9440bd2e1ec103e55ae48930bdc528804303187142126e25a21dd9085c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

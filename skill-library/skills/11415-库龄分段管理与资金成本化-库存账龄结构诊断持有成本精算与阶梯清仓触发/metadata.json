@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-aging-cost-management",
+  "中文名称": "库龄分段管理与资金成本化 库存账龄结构诊断持有成本精算与阶梯清仓触发",
+  "一句话作用": "触发词：库龄管理、持有成本、资金成本化、清仓触发、库存账龄。何时不用：需要做批次效期预警与 FIFO 管理时用母婴产品效期管理与临期品KPI；需要做多SKU尾部风险组合优化时用CVaR库存风险组合。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要卖家只看\"总库存量\"不知道其中多少是\"时间炸弹\"——四段库龄成本精算将90天+高危库存年额外持有成本$9.2/件可视化，主动清仓比被动等待多回收$4250/批（250件规模）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11415-p2s-inventory-aging-cost-management-7c37c3f1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-inventory-aging-cost-management/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-inventory-aging-cost-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "675053755809380ee8a7ec20f9c3b240abd7ae2fbe9558f1d4a35f473baa827a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-multi-metric-correlation",
+  "中文名称": "跨境电商多指标联动分析 Skill",
+  "一句话作用": "跨境电商多指标联动分析Skill。提供多指标联动规则、联动条件判定、告警升级逻辑，支持指标关系图谱分析。 触发条件: 1. 用户提到\"多指标联动\"、\"指标关联\"、\"联动告警\" 2. 用户询问\"GMV和退款率的关系\"、\"毛利率和折扣率的关系\" 3. 用户需要\"联动分析\"、\"关联分析\" 4. 用户提到\"告警升级\"、\"联动升级\" 输出内容: - 多指标联动规则配置 - 联动条件判定结果 - 告警升级建议 - 指标关系图谱",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T00:18:52+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商多指标联动分析Skill。提供多指标联动规则、联动条件判定、告警升级逻辑，支持指标关系图谱分析。 触发条件: 1. 用户提到\"多指标联动\"、\"指标关联\"、\"联动告警\" 2. 用户询问\"GMV和退款率的关系\"、\"毛利率和折扣率的关系\" 3. 用户需要\"联动分析\"、\"关联分析\" 4. 用户提到\"告警升级\"、\"联动升级\" 输出内容: - 多指标联动规则配置 - 联动条件判定结果 - 告警升级建议 - 指标关系图谱时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09424-cbec-multi-metric-correlation-6237868c",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/07-monitoring-analysis/multi-metric-correlation/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/07-monitoring-analysis/multi-metric-correlation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "57cae351dcc373875605ddc0731ad0b9b6daf72ee9773e63b4748e11bdc4b4eb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-同步",
+  "中文名称": "同步",
+  "一句话作用": "This skill should be used when the user asks to \"同步skill\", \"多端同步\", \"同步到github\", \"同步到notion\". Synchronizes skill cards and code templates to multiple platforms.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T18:02:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when the user asks to \"同步skill\", \"多端同步\", \"同步到github\", \"同步到notion\". Synchronizes skill cards and code templates to multiple platforms.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12683-paper-c8d3e3b9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/paper_to_skills/paper2skills-skills/paper-同步/SKILL.md",
+  "relative_path": "lute/project/paper_to_skills/paper2skills-skills/paper-同步/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "262ca29936b6810e1886d54e9fc2e533005c2a486455be272a3e16976b24582b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

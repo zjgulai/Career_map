@@ -1,0 +1,22 @@
+{
+  "英文名称": "user-story-canvas",
+  "中文名称": "用户故事地图 HTML 生成器",
+  "一句话作用": "将产品需求可视化为交互式HTML用户故事地图，按Epic → Feature → Story三层结构组织，支持MoSCoW优先级色标和版本发布划线分组。当用户提到用户故事地图、story mapping、需求地图、epic feature story、backlog可视化、MoSCoW优先级、release planning、版本规划地图、产品路线图可视化，或直接说“帮我画一张故事地图”、“把需求按版本排列出来”时触发。",
+  "关键输入": "参数 必填 说明 ------ ------ ------ --input ❌ 输入 JSON 文件路径（不提供则从 stdin 读取） --output ✅ 输出 HTML 文件路径",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:05:20+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要将产品需求可视化为交互式HTML用户故事地图，按Epic → Feature → Story三层结构组织，支持MoSCoW优先级色标和版本发布划线分组。当用户提到用户故事地图、story mapping、需求地图、epic feature story、backlog可视化、MoSCoW优先级、release planning、版本规划地图、产品路线图可视化，或直接说“帮我画一张故事地图”、“把需求按版本排列出来”时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10695-user-story-canvas-0c5d49b8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/user-story-canvas/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/user-story-canvas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "47dbb47641c55134a89e5ed071699225d748a1ada83061efaed9331e74e37ab6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

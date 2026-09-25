@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-3d-visualization-ar-preview",
+  "中文名称": "产品 3D 可视化与 AR 预览降低退货率",
+  "一句话作用": "触发词：3D 可视化、AR 预览、退货率、尺寸感知、多角度采集。何时不用：轻小件商品退货主因不是尺寸感知时，AR 预览收益有限，平面主图优化用主图生成类技能。安全边界：3D 模型尺寸精度须达标（展示失真会构成误导）；不得使用真人肖像素材。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"大件母婴产品退货率高因尺寸感知偏差\"——AR预览将退货率从18%降至9%，年化节省退货处理成本约$67,500时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11777-p2s-product-3d-visualization-ar-preview-abbcead9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-product-3d-visualization-ar-preview/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-product-3d-visualization-ar-preview/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8defbbf976f6c0d33a77ffcba42076dd33f14aa1e69d824613cbd12e15dc0180",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

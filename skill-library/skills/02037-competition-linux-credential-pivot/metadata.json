@@ -1,0 +1,22 @@
+{
+  "英文名称": "competition-linux-credential-pivot",
+  "中文名称": "待补：competition-linux-credential-pivot",
+  "一句话作用": "Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for Linux credential artifacts, service tokens, SSH material, cloud and container secrets, socket-level trust, and host-to-host pivot chains.…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Record SSH keys, agent sockets, kubeconfigs, cloud tokens, service-account secrets, env vars, config files, and process memory clues. - Note sudoers rules, capabilities, setuid binaries, systemd unit context, and namespace boundaries. - Keep each artifact t…",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Internal downstream skill for ctf-sandbox-orchestrator. CTF-sandbox workflow for Linux credential artifacts, service tokens, SSH material, cloud and container secrets, socket-level trust, and host-to-host pivot chains.…时，用它产出或更新：- Record SSH keys, agent so…",
+  "skill_id": "02037-competition-linux-credential-pivot-1440913e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/SKILL.md",
+  "relative_path": "lute/.dsh-2010-eval/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f00c32a3361cf34ce93a095cab5b416ddbcc7bf97d4a868c5bc57cd4db8eb125",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

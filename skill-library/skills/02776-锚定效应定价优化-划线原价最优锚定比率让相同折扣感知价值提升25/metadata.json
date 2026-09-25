@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-anchoring-effect-pricing-optimization",
+  "中文名称": "锚定效应定价优化 划线原价最优锚定比率让相同折扣感知价值提升25",
+  "一句话作用": "触发词：锚定效应、划线价、感知折扣、锚定比率、折扣 A/B。何时不用：按长期价值定实售价用「AIGP 动态定价」；本技能只管划线原价与折扣呈现方式。安全边界：划线价须有历史销售记录支撑，禁止虚假原价，须留存定价决策日志备审计。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要定价运营面临\"划线原价定多少完全靠感觉不知道什么比例锚定效果最强\"——锚定比率1.5-2.0x感知折扣最强的实验结论将CTR提升12%，年化$4.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02776-p2s-anchoring-effect-pricing-optimization-8676eacb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-anchoring-effect-pricing-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-anchoring-effect-pricing-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "52b4259cdaf8c0da5370af27ce502d04af6a36b45f473961d2677a3512a527c5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

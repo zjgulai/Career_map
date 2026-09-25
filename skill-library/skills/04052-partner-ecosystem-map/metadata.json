@@ -1,0 +1,22 @@
+{
+  "英文名称": "partner-ecosystem-map",
+  "中文名称": "待补：partner-ecosystem-map",
+  "一句话作用": "Visualization toolkit for mapping partner landscape, coverage, and priorities. 触发词：伙伴版图、渠道伙伴生态、伙伴覆盖分析、生态空白分析、伙伴策略规划。",
+  "关键输入": "- Planning partner strategy, territorial coverage, or whitespace analysis. - Presenting ecosystem status to executives or cross-functional stakeholders. - Tracking progress against partner recruitment and ramp goals.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:13:35+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Planning partner strategy, territorial coverage, or whitespace analysis. - Presenting ecosystem status to executives or cross-functional stakeholders. - Tracking progress against partner recruitment and ramp goals.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04052-partner-ecosystem-map-b2be4f9c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/partner-ecosystem-map/SKILL.md",
+  "relative_path": "lute/.dsh/skills/partner-ecosystem-map/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a9e244da3bbc380a1b0b34fe125f01181d43f037d1f366095cd4af84c20a922f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

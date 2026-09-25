@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-synthetic-data-ecommerce",
+  "中文名称": "电商合成数据生成：解决新品冷启动与长尾数据稀缺",
+  "一句话作用": "触发词：合成数据、新品冷启动、数据稀缺、分布校验、电商仿真。何时不用：已有足量真实历史数据时不必合成；只是补整段缺失的格子走缺失数据补全。安全边界：合成数据不含真实用户 PII 可规避 GDPR/CCPA，但必须确认生成分布未复制原始数据中的偏见（如性别/地域歧视），否则可能违反 Amazon 公平定价政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴跨境电商应用：新品上市无历史数据时生成高质量合成数据，驱动冷启动推荐和库存预测时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03909-p2s-synthetic-data-ecommerce-de0b81f6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-synthetic-data-ecommerce/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-synthetic-data-ecommerce/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2fe256f8785893ac8d355ad93b97d7ff59e827ccc61d9a5e679ecf2b16e9bcdc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

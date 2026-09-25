@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-cell-factorial-experiment",
+  "中文名称": "多因素析因实验设计（电商 2实验）",
+  "一句话作用": "触发词：析因实验、多因素并发测试、2^k 设计、主效应与交互效应、实验格流量、部分因子设计。何时不用：因素之间不可拆或会互相污染（价格与库存联动）时退回顺序实验；只测单一因素时用标准 A/B 单变量实验。安全边界：负向交互必须有回滚机制，且需先确认平台允许同时测试多个页面变体。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品经理面临\"需要同时测试价格+文案+图片三个维度但资源有限\"——析因实验设计将测试效率提升3-4倍，年化加速产品迭代节省实验成本20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11750-p2s-multi-cell-factorial-experiment-4500891e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-cell-factorial-experiment/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-multi-cell-factorial-experiment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bc94233d0757ba074e1bdcf4f6e9ec9306bef8c5ac822c73bbfba7ef19eef2fa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

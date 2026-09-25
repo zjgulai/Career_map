@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sku-level-pl-dashboard",
+  "中文名称": "单品利润核算：每个 SKU 今天赚了多少钱",
+  "一句话作用": "触发词：单品利润核算、五层成本、贡献毛利、亏损配件、现金流诊断。何时不用：要对海量 SKU 做标签化利润诊断用「SKU 利润归因本体」；要按渠道比较贡献毛利用「渠道贡献毛利分析」。安全边界：佣金率、仓储费与旺季系数须按最新费率表维护；结论只作内部运营决策依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要账号整体毛利率 22% 看似正常，但 CFO 发现现金流持续很紧，不知道哪些 SKU 在拖后腿——SKU 粒度五层 P&L 拆解（FBA/广告/退货/仓储/关税）识别亏损 SKU，清退后整体毛利率提升至 28-32%，年化释放现金流 15-40 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03833-p2s-sku-level-pl-dashboard-c6e82bfe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sku-level-pl-dashboard/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sku-level-pl-dashboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7dbaac5fe0635841c1029c2955cb3d85842fa87464641d4bcb359c62a9ed386",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

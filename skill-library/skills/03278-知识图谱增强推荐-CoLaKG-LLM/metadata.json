@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-kg-augmented-recommendation-colakg",
+  "中文名称": "知识图谱增强推荐 - CoLaKG (LLM",
+  "一句话作用": "触发词：知识图谱推荐、属性三元组、LLM 语义化、跨品类推荐、冷启动新品。何时不用：要用 LLM 提炼意图再加图模型精排做交叉销售用「交叉销售 LLM+GNN」；要图文多模态融合用「多模态产品推荐」。安全边界：图谱中品牌、成分、认证信息必须真实可溯源，未授权不得标注有机、非转基因等声明；LLM 生成语义不得包含主观评价表述。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要海外华人妈妈购买奶粉需综合考量品牌(HiPP/Aptamil)、成分(DHA/HMO 益生元)、段位(1段/2段)、认证(EU 有机/Non-GMO),传统 CF 无法解读这些维度时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03278-p2s-kg-augmented-recommendation-colakg-0b1bdfcd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-kg-augmented-recommendation-colakg/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-kg-augmented-recommendation-colakg/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "808a99418b0be6ee9fdec1fe27be4f0b46cc20bed402e48f2b5a40d6b889a0ea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "business-model",
+  "中文名称": "待补：business-model",
+  "一句话作用": "梳理价值创造、传递与获取的完整链条，明确收入来源、成本结构与关键合作方。触发词：商业模式设计、business-model、梳理价值创造、传递与获取的完整链条，明确收入来源、成本结构与关键合作方。",
+  "关键输入": "- Product or service description - Target customer(s) and market - Current business operations or assumptions - Competitive context or industry dynamics",
+  "关键输出": "1. Identify and profile customer segments 2. Define the core value proposition(s) 3. Map customer relationships and channels 4. List key activities and resources 5. Identify key partners 6. Outline cost structure 7. Define revenue streams 8. Ensure all 9 bloc…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要梳理价值创造、传递与获取的完整链条，明确收入来源、成本结构与关键合作方。触发词：商业模式设计、business-model、梳理价值创造、传递与获取的完整链条，明确收入来源、成本结构与关键合作方。时，用它产出或更新：1. Identify and profile customer segments 2. Define the core value proposition(s) 3. Map customer relationships and channels 4. List key activities…",
+  "skill_id": "02479-business-model-05ac9447",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/business-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/business-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dce25a3d28107951f5a3ebd67030f20b9e71374204237819be6a27440b7d3a3f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

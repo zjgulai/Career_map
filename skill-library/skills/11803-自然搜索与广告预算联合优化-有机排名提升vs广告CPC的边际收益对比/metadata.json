@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-ad-budget-roi-integration",
+  "中文名称": "自然搜索与广告预算联合优化 有机排名提升vs广告CPC的边际收益对比",
+  "一句话作用": "触发词：自然排名、边际ROI对比、广告与SEO取舍、长尾词再分配、防御性投放。何时不用：拿不到自然排名数据或关键词数量过少时不适用；纯渠道级预算分配走多平台分配技能。安全边界：只做边际收益对比与分配建议，不操纵自然排名；削减广告预算时须保留防御性投放额度。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投手面临\"不知道投广告提排名和直接出价各自的边际ROI哪个更高\"——自然+付费联合边际收益对比将广告预算ROI提升19%，年化$8.4万效率增量时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11803-p2s-search-ad-budget-roi-integration-a8e4a649",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-search-ad-budget-roi-integration/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-search-ad-budget-roi-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a63609ca1ff6866b07fc2d3b0c9d7a65868ba5cec6fba6f2d1326277ecf9430",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

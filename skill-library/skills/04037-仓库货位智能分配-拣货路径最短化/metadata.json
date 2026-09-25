@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-warehouse-slotting-optimization",
+  "中文名称": "仓库货位智能分配（拣货路径最短化）",
+  "一句话作用": "触发词：货位分配、拣货效率、路径最短、仓库布局。何时不用：需要结合订单共现与货位坐标做精细优化时优先用货位 AI 优化；缺少货位坐标时先补基础数据。安全边界：使用自有业务数据，无隐私合规风险。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仓储运营面临\"仓库货位不合理导致拣货效率低下人工成本高\"——货位智能分配将拣货效率提升30%，年化节省仓储人工成本20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04037-p2s-warehouse-slotting-optimization-5f03ca20",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-warehouse-slotting-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-warehouse-slotting-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4726e5ab0bd7cb3caa8eac39e39df4cd04620d86ec726bad612f1010872e84bf",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

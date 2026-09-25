@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-combo-new-product-launch-playbook",
+  "中文名称": "新品上市全链路 Combo Pattern 从蓝海选品到首月排名突破的 7 步编排",
+  "一句话作用": "触发词：新品上市、上架链路、关键词蓝海、主图合规、多语言 Listing。何时不用：只做关键词需求缺口用选品或关键词类技能；只做链路效果评估用 Playbook 评估类技能。安全边界：AI 生成的商品描述与合规文案必须人工审核医疗宣称与进口国广告法风险后才能发布。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要新品负责人面临\"新品上市要协调SEO/合规/图文/广告多个团队流程混乱且各自为战\"——7步Skill执行链路将新品从开发到首页排名的时间从3个月压缩至6周，首月GMV提升$2.8万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12460-p2s-combo-new-product-launch-playbook-2c5c0b57",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-combo-new-product-launch-playbook/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-combo-new-product-launch-playbook/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ed566028c172058136f417bd6053310b38800fe2fde0571ef333c66e55061577",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

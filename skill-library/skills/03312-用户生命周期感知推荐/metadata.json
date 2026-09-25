@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-lifecycle-stage-aware-rec",
+  "中文名称": "用户生命周期感知推荐",
+  "一句话作用": "触发词：生命周期阶段、阶段跃迁、品类切换推荐、月龄标注、HMM、交叉销售。何时不用：算用户价值分层用 LTV 类卡；要在用户从孕期到幼儿的阶段跃迁点切换推荐品类时用本卡。安全边界：不采集儿童年龄等敏感信息，仅用商品与行为信号推断阶段；阶段不确定时走通用推荐兜底，避免误推。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"用户从新生儿期过渡到辅食期时品类切换推荐错失商机\"——生命周期阶段感知推荐将辅食CTR从1.2%提升至4.8%、NTB用户数提升35%，年化品类GMV增量约200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03312-p2s-lifecycle-stage-aware-rec-a100fcd5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-lifecycle-stage-aware-rec/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-lifecycle-stage-aware-rec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1bdc64a46e007498352d253a56ff46322dac897d88e0ebc1a955cc52462e4b0b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

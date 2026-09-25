@@ -1,0 +1,22 @@
+{
+  "英文名称": "node-link-and-diagram-layout",
+  "中文名称": "待补：node-link-and-diagram-layout",
+  "一句话作用": "Choose and apply automatic layout strategies for node-link diagrams and connected-node visuals. Use when the user asks how to auto-arrange nodes, reduce line crossings, route edges, avoid overlaps, stabilize layout, or…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- State the graph family and why it was classified that way. - State the recommended layout family and one fallback. - State the routing style, overlap strategy, and stability strategy. - Call out whether ports, order constraints, fixed nodes, or compounds re…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Choose and apply automatic layout strategies for node-link diagrams and connected-node visuals. Use when the user asks how to auto-arrange nodes, reduce line crossings, route edges, avoid overlaps, stabilize layout, or…时，用它产出或更新：- State the graph family an…",
+  "skill_id": "00745-node-link-and-diagram-layout-5e60eadd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/node-link-and-diagram-layout/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-web-data-visualization/skills/node-link-and-diagram-layout/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3da1d3c598ad9298ca49f8728d816490d542ca5eed2fe204e2790cb693fe5ece",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

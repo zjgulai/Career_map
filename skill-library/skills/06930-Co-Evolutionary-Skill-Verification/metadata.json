@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Co-Evolutionary-Skill-Verification",
+  "中文名称": "待补：Co Evolutionary Verification",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 55.0, \"best\": 70.0, \"mutated\": \"D9 scenario\", \"ts\": \"2026-07-04T04:19:27.729648\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 60.4, \"best\": 81.0, \"mutated\": \"D10 three…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-05T20:47:43+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 55.0, \"best\": 70.0, \"mutated\": \"D9 scenario\", \"ts\": \"2026-07-04T04:19:27.729648\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 60.4, \"best\": 81.0, \"mutated\": \"D10 three…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06930-skill-co-evolutionary-skill-verification-0fe1cbea",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Co-Evolutionary-Skill-Verification.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Co-Evolutionary-Skill-Verification.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "bf2503259884eac75a5c31d7835e9e1aa3e775225b4c984aae5f330d3d7f35bc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

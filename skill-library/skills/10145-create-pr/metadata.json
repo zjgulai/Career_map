@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-pr",
+  "中文名称": "待补：create-pr",
+  "一句话作用": "Package code changes into reviewable, mergeable, communicable pull requests with proper title, description, scope, test results, risks, screenshots, and rollback notes. Use whenever local changes need to land on remote…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-16T19:20:11+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Package code changes into reviewable, mergeable, communicable pull requests with proper title, description, scope, test results, risks, screenshots, and rollback notes. Use whenever local changes need to land on remote…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10145-create-pr-6fa586c2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/Agent_skills/registry/create-pr/source/SKILL.md",
+  "relative_path": "lute/project/Agent/Agent_skills/registry/create-pr/source/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e67820b68e24bef33f299d422bed9d2e7d3eb2aa0e2e695a4835b208cb8cc21",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

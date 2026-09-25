@@ -1,0 +1,22 @@
+{
+  "英文名称": "remove-deadcode",
+  "中文名称": "待补：remove-deadcode",
+  "一句话作用": "Remove unused code from this project with ultrawork mode, LSP-verified safety, atomic commits. Triggers: remove dead code, dead code, cleanup, remove unused.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Remove unused code from this project with ultrawork mode, LSP-verified safety, atomic commits. Triggers: remove dead code, dead code, cleanup, remove unused.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01649-remove-deadcode-6c8e9143",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/remove-deadcode/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/.agents/skills/remove-deadcode/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2323273413f220a68e43c46c81d97396d46d28adfce02c935c38d9c434d10d2f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

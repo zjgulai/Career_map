@@ -1,0 +1,22 @@
+{
+  "英文名称": "context-driven-development",
+  "中文名称": "待补：context-driven-development",
+  "一句话作用": "Use this skill when working with Conductor's context-driven development methodology, managing project context artifacts, or understanding the relationship between product.md, tech-stack.md, and workflow.md files.",
+  "关键输入": "- Setting up new projects with Conductor - Understanding the relationship between context artifacts - Maintaining consistency across AI-assisted development sessions - Onboarding team members to an existing Conductor pr…",
+  "关键输出": "Ensure changes in one artifact reflect in related documents: - New feature in product.md → Update tech-stack.md if new dependencies needed - Completed track → Update product.md to reflect new capabilities - Workflow change → Update all affected track plans",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Setting up new projects with Conductor - Understanding the relationship between context artifacts - Maintaining consistency across AI-assisted development sessions - Onboarding team members to an existing Conductor pr…时，用它产出或更新：Ensure changes in one arti…",
+  "skill_id": "05597-context-driven-development-925f3c72",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/conductor/skills/context-driven-development/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/conductor/skills/context-driven-development/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ddb6d5c0c71531cb797aede24ec01f2b47d55f67061281d67db6b977fda6bb41",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

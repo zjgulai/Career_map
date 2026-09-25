@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-churn-signal-extraction",
+  "中文名称": "差评文本语义流失信号提取与流失概率预测",
+  "一句话作用": "触发词：差评语义流失、竞品提及、双通道召回、流失预警提前量、文本流失概率。何时不用：需要同时纳入客服工单等多源信号时用较全的 VOC 预警技能；本技能聚焦差评文本到流失概率这一条通道。安全边界：差评数据须脱敏且仅用于产品缺陷与流失分析；跨境传输须符合数据出境规定。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临差评区出现大量「换品牌」「推荐竞品」信号但行为数据滞后45天——双通道语义流失信号提取将流失预警时间从45天压缩到19天，挽回高危用户年化GMV约$98,400时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11869-p2s-voc-churn-signal-extraction-f61e1f74",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-voc-churn-signal-extraction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-voc-churn-signal-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e241d6c9a9c0238a67fffc6aa217c326cd5166ba4b3948cdf22024c5e626abd2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

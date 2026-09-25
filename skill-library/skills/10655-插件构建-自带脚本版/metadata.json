@@ -1,0 +1,22 @@
+{
+  "英文名称": "plugin-builder",
+  "中文名称": "插件构建（自带脚本版）",
+  "一句话作用": "把想法 / 文件 / GitHub 仓库变成 Kimi 插件，脚手架+校验后登记进个人市场（daimon-share，缺省 personal 市场），用户在插件页「个人」页签点 ＋ 一键安装、免重启。自带脚本（scripts/）+ 官方登记 CLI（kimi-daimon kimi-plugin register-personal）+ cachebuster，全程本地无 token。描述创建尽量自动填字段，只在真推不出（如 MCP U…",
+  "关键输入": "- A. 描述 → 进 §2 自动填。 - B. 上传文件 （SKILL.md / 脚本 / manifest）→ 以它为基础。 - C. GitHub 仓库 → git clone --depth 1 /tmp/ ，读 README/package.json 判断包法（CLI+skills → skill-only；有 MCP → 配 MCP；纯脚本 → 写 SKILL.md 指导调用）。 若仓库本身是插件/技能集合（带 marketplace.json / plugins.json 索引或多插件 monore…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T23:50:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要把想法 / 文件 / GitHub 仓库变成 Kimi 插件，脚手架+校验后登记进个人市场（daimon-share，缺省 personal 市场），用户在插件页「个人」页签点 ＋ 一键安装、免重启。自带脚本（scripts/）+ 官方登记 CLI（kimi-daimon kimi-plugin register-personal）+ cachebuster，全程本地无 token。描述创建尽量自动填字段，只在真推不出（如 MCP U…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10655-plugin-builder-d9a96743",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/plugin-builder/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/plugin-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7915ad037be53d6657d1103117cfa3770e7b356952c255d9e7fb4cfdbd53eaf6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

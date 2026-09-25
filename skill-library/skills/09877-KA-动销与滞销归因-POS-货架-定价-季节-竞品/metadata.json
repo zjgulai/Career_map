@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 动销与滞销归因（POS/货架/定价/季节/竞品）",
+  "中文名称": "待补：KA 动销与滞销归因（POS/货架/定价/季节/竞品）",
+  "一句话作用": "当需要解读 KA 门店 POS 或零售商报表、识别动销慢的原因并给出可执行改善建议时调用；输出供补货、陈列与谈判使用。",
+  "关键输入": "- 零售商提供 POS/库存 或 我方 sell-in + 对方估算 sell-out ；口径在任务头声明。 - 日历 ：节假日、促销周、当地竞品大促（若知）。",
+  "关键输出": "- 表：sku region sell through weeks on hand vs ly tier top cause action - 会议用 5 行摘要 。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要解读 KA 门店 POS 或零售商报表、识别动销慢的原因并给出可执行改善建议时调用；输出供补货、陈列与谈判使用。时，用它产出或更新：- 表：sku region sell through weeks on hand vs ly tier top cause action - 会议用 5 行摘要 。",
+  "skill_id": "09877-ka-pos-dda711c9",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-sell-through-analyzer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-sell-through-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2de0aa2d495987cef5c732c6cdcadb78a7232a72e08f26e51c046bf77e645a9d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentic-workflow-compilation",
+  "中文名称": "将工作流 SOP 编译进 LLM 权重",
+  "一句话作用": "触发词：工作流编译、SOP 固化、模型微调、单次调用、串行编排。何时不用：把经验做成案例库注入上下文走「SOP 蒸馏」；技能自动生成与演化走「技能自演化萃取」。安全边界：合规检查等强约束步骤不得因编译而削弱，编译后模型须通过质量保留率评估才可上线。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要每日需要上架数百个 SKU，每个 SKU 经过「标题优化→图片描述生成→合规检查→关键词填写」4 步 SOP，当前用 LangGraph 编排，frontier 模型成本约 $0.15/SKU × 1000 SKU = $150/天时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11898-p2s-agentic-workflow-compilation-5a84e9e0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agentic-workflow-compilation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agentic-workflow-compilation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "46264c82b5938dcec611101aea99bb9421bd68b7fb0abed305b206504b5cd1ec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

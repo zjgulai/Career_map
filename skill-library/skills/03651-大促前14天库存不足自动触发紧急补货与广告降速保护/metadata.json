@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-promo-inventory-pulse-auto-trigger",
+  "中文名称": "大促前14天库存不足自动触发紧急补货与广告降速保护",
+  "一句话作用": "触发词：大促库存脉冲、14天触发窗、紧急补货、广告降速、库存覆盖率。何时不用：大促前的缺口盘点与空运决策用「大促前盘货」；直播闪购的分钟级脉冲走「直播闪购库存脉冲」。安全边界：广告降速与紧急补货均为建议动作，改出价与下补货单须人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"大促前备货不足导致爆单断货\"——14天前自动触发紧急补货+广告降速将大促断货率从18%降至5%，年化多增GMV120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03651-p2s-promo-inventory-pulse-auto-trigger-ad27a3d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-promo-inventory-pulse-auto-trigger/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-promo-inventory-pulse-auto-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a522d39613b15e168b3105a99e4b253ee458df2a45c960142f9840688aa28d6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

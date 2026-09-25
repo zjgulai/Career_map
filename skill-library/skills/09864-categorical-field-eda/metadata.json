@@ -1,0 +1,22 @@
+{
+  "英文名称": "categorical-field-eda",
+  "中文名称": "待补：categorical-field-eda",
+  "一句话作用": "当用户需要对分类型字段进行探索性数据分析，判断字段质量、类别分布、业务含义、目标关系和后续处理策略时使用。 触发词：分类型EDA、分类变量探索、类别变量分析、categorical EDA、字段分布分析、类别变量质量检查、VOC分类字段分析、社媒标签分析。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "如果存在目标变量或业务结果，检查： - 各类别对应的目标率 / 风险率 / 转化率 / 复购率 / 升级率 / 退款率 - 相对整体均值的 lift - 样本量是否足够 - 差异是否稳定 - 差异是否具备业务意义 若适用，可使用： - 列联表 - 卡方检验 - Cramér's V - 类别目标率对比 - 分国家 / 分平台 / 分阶段的分层分析",
+  "最新更新时间": "2026-03-28T18:18:35+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当用户需要对分类型字段进行探索性数据分析，判断字段质量、类别分布、业务含义、目标关系和后续处理策略时使用。 触发词：分类型EDA、分类变量探索、类别变量分析、categorical EDA、字段分布分析、类别变量质量检查、VOC分类字段分析、社媒标签分析。时，用它产出或更新：如果存在目标变量或业务结果，检查： - 各类别对应的目标率 / 风险率 / 转化率 / 复购率 / 升级率 / 退款率 - 相对整体均值的 lift - 样本量是否足够 - 差异是否稳定 - 差异是否具备业务意义 若适用，可使用： -…",
+  "skill_id": "09864-categorical-field-eda-1d64b283",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills-temp/数据分析通用级 skills/EDA/categorical-field-eda/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills-temp/数据分析通用级 skills/EDA/categorical-field-eda/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "08f31cad4f52f6023a07d4047a250b4fbe776c95eaf4421c3bac4eb2407cc9c7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

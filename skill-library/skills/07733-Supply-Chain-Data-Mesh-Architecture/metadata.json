@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Supply-Chain-Data-Mesh-Architecture",
+  "中文名称": "待补：Supply Chain Data Mesh Architecture",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 66.0, \"best\": 66.4, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T05:05:00.082573\"} {\"round\": 0, \"status\": \"discard\", \"score\": 80.4, \"best\": 80.4, \"mutated\": \"D10 three track…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-05T17:43:01+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 66.0, \"best\": 66.4, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T05:05:00.082573\"} {\"round\": 0, \"status\": \"discard\", \"score\": 80.4, \"best\": 80.4, \"mutated\": \"D10 three track…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07733-skill-supply-chain-data-mesh-architecture-947ec8e2",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Supply-Chain-Data-Mesh-Architecture.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Supply-Chain-Data-Mesh-Architecture.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "91053ae7dee7c5da932df43fa8c3ca0a522fd88b831498e7d86634d4f8af6057",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

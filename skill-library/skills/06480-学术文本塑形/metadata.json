@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-shape",
+  "中文名称": "学术文本塑形",
+  "一句话作用": "学术论文结构设计与忠实润色。用户只要提纲、论证主线、章节安排、段落蓝图、结构诊断或重排方案，且不要求本轮实际移动段落或重写正文时使用STRUCTURE；用户已有中文或英文文本，只要求修改语法、措辞、衔接、段内表达、段内信息顺序或做不新增研究内容的中译英时使用POLISH。若要求把结构方案实际应用到正文、移动段落、重写章节，或起草、续写、扩写、补写正文，以及改变主张、证据、章节职责、段落归属或内容取舍，转paper-write-zh或p…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要学术论文结构设计与忠实润色。用户只要提纲、论证主线、章节安排、段落蓝图、结构诊断或重排方案，且不要求本轮实际移动段落或重写正文时使用STRUCTURE；用户已有中文或英文文本，只要求修改语法、措辞、衔接、段内表达、段内信息顺序或做不新增研究内容的中译英时使用POLISH。若要求把结构方案实际应用到正文、移动段落、重写章节，或起草、续写、扩写、补写正文，以及改变主张、证据、章节职责、段落归属或内容取舍，转paper-write-zh或p…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06480-paper-shape-c32b5802",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-shape/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-shape/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07f1cb33eed98ccd19717665168d975b848ad52d8b943fad4055d1616fe35348",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

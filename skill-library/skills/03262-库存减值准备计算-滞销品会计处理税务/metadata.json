@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inventory-write-down-impairment",
+  "中文名称": "库存减值准备计算（滞销品会计处理税务）",
+  "一句话作用": "触发词：库存减值、可变现净值、滞销计提、资产虚高、税务处理时点。何时不用：要算库存持有全口径成本与订货量用「库存持有成本模型」；要用 GMROI 决定资金在 SKU 间怎么分配用「GMROI 库存资金回报」。安全边界：减值计提属会计与税务处理，须经财务负责人与审计确认；不替代执业会计师判断。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要财务团队面临\"滞销母婴产品未及时计提减值导致资产虚高和税务风险\"——自动减值识别和计算将税务处理及时性提升100%，年化税务节省5-15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03262-p2s-inventory-write-down-impairment-50522914",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-inventory-write-down-impairment/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-inventory-write-down-impairment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3811d92e8364be2c3ca821455053cc12d23a24a9a2f3d2343d9afd7987cb92cc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

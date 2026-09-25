@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-email-sequence-multiarm-optimizer",
+  "中文名称": "驱动的邮件序列多臂老虎机优化",
+  "一句话作用": "触发词：多臂老虎机、Thompson Sampling、邮件 A/B、文案优选、探索与利用、序列优化。何时不用：要按用户个体学习最优序列用邮件序列 RL 那种做法；本卡解决多版本文案在线择优、替代慢速人工 A/B。安全边界：折扣须标注有效期与限制条件，不得使用最优惠等绝对化用语；发送频率须符合 CAN-SPAM 并提供退订。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要邮件运营面临\"多版本邮件文案靠感觉选一个A/B测试太慢\"——Thompson Sampling将最优邮件文案发现速度提升3倍，开启率年化提升$2.2万GMV时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11677-p2s-email-sequence-multiarm-optimizer-315f20f8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-email-sequence-multiarm-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-email-sequence-multiarm-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6123b69be483732a8d7c7a1486a49e5410c84c6356efe100c3e78dda92188f02",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

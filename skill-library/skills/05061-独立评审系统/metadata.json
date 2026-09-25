@@ -1,0 +1,22 @@
+{
+  "英文名称": "reviewer-agent",
+  "中文名称": "独立评审系统",
+  "一句话作用": "独立评审Agent。为每个项目提供第三方视角的评审，确保质量、可维护性和进度可控。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. 写入文件 : /tmp/review-result-{project}.md 2. 发送飞书通知 : 把结论发给用户 3. 保持独立 : 不受主Agent声称完成的内容影响",
+  "最新更新时间": "2026-09-19T04:11:27+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要独立评审Agent。为每个项目提供第三方视角的评审，确保质量、可维护性和进度可控。时，用它产出或更新：1. 写入文件 : /tmp/review-result-{project}.md 2. 发送飞书通知 : 把结论发给用户 3. 保持独立 : 不受主Agent声称完成的内容影响",
+  "skill_id": "05061-reviewer-agent-75902d40",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/reviewer-agent/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/reviewer-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6a00d95b1db74451d88d1f5a7782e301fefc9a7e5bc3a08ffff7007b9ac0271a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-creator",
+  "中文名称": "待补：skill-creator",
+  "一句话作用": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill p…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Take best description from the JSON output and update the skill's SKILL.md frontmatter. Show the user before/after and report the scores. ---",
+  "最新更新时间": "2026-09-19T04:18:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill p…时，用它产出或更新：Take best description from…",
+  "skill_id": "04290-skill-creator-41103dc9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.finch/skills/skill-creator/SKILL.md",
+  "relative_path": "lute/.finch/skills/skill-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7982d4a657111b3065603a50da688eabae45c4cc95daaaaf5447e3dd746886b3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

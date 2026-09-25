@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-fba-inventory-optimizer",
+  "中文名称": "待补：amazon-fba-inventory-optimizer",
+  "一句话作用": "Manage Amazon FBA inventory health, IPI score, restock limits, and storage fees. Trigger this skill for questions about improving IPI scores, managing FBA storage/capacity limits, avoiding long-term storage fees or aged…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:22+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Manage Amazon FBA inventory health, IPI score, restock limits, and storage fees. Trigger this skill for questions about improving IPI scores, managing FBA storage/capacity limits, avoiding long-term storage fees or aged…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00272-amazon-fba-inventory-optimizer-5faab47d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/amazon-fba-inventory-optimizer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/amazon-fba-inventory-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de77061e429e2e6a24ddc40acfaa3aa7959ad8838449680c646e9f1fe9b44aad",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

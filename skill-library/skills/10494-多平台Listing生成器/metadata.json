@@ -1,0 +1,22 @@
+{
+  "英文名称": "多平台Listing生成器",
+  "中文名称": "多平台Listing生成器",
+  "一句话作用": "从同一产品信息生成 Amazon、Shopify、eBay 等多平台优化 Listing。触发词：多平台Listing生成器、跨平台Listing、多渠道Listing、generate listings for Amazon and Shopify、铺货上架。何时不用：单一平台优化（使用对应平台的专用Skill）、关键词调研、竞品分析、PPC广告、物流方案、品牌命名、翻译任务、小红书/TikTok文案、用户评论分析、平台规则科普、选…",
+  "关键输入": "- 产品名称和描述 - 产品图片和规格 - 目标平台列表 - 品牌调性要求",
+  "关键输出": "- Amazon优化版（标题、卖点、描述、后台关键词） - Shopify优化版（产品页文案、Meta描述、标签） - eBay优化版（标题、Item Specifics、描述） - Walmart优化版（标题、卖点、规格参数、后台关键词） - Etsy优化版（标题、标签、材质、属性）",
+  "最新更新时间": "2026-09-04",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 多平台铺货上架 - Listing内容跨平台适配 - 品牌一致性维护 - 新品全渠道发布时，用它产出或更新：- Amazon优化版（标题、卖点、描述、后台关键词） - Shopify优化版（产品页文案、Meta描述、标签） - eBay优化版（标题、Item Specifics、描述） - Walmart优化版（标题、卖点、规格参数、后台关键词） - Etsy优化版（标题、标签、材质、属性）",
+  "skill_id": "10494-listing-4cab075a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/多平台Listing生成器/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/多平台Listing生成器/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "db18edf95d334a4b1529f19159ea254a60af66bf826042bbef5eed13d9379534",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

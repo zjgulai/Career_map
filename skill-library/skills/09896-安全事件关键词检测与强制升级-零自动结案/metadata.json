@@ -1,0 +1,22 @@
+{
+  "英文名称": "安全事件关键词检测与强制升级（零自动结案）",
+  "中文名称": "待补：安全事件关键词检测与强制升级（零自动结案）",
+  "一句话作用": "当客服文本中出现人身伤害风险、产品安全、婴儿健康相关描述时调用；输出「升级人工」结论，禁止进入自动回复闭环。",
+  "关键输入": "- 输入为 已分类工单 （来自 inquiry-classifier-multilingual）或原始文本。 - 升级联系人表 （值班手机、邮件组）已配置在附录或外部 wiki。",
+  "关键输出": "- result: SAFE TO ASSIST ESCALATE IMMEDIATE - ESCALATE 时：brief suggested owner compliance refs",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当客服文本中出现人身伤害风险、产品安全、婴儿健康相关描述时调用；输出「升级人工」结论，禁止进入自动回复闭环。时，用它产出或更新：- result: SAFE TO ASSIST ESCALATE IMMEDIATE - ESCALATE 时：brief suggested owner compliance refs",
+  "skill_id": "09896-skill-3b014634",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/safety-flag-detector/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/customer-care-support/safety-flag-detector/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3511edd1e4bddd4a8f83e2a694fa4ce1992597f4a458c5fabc354c42725f5297",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

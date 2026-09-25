@@ -1,0 +1,22 @@
+{
+  "英文名称": "zhihu-viral-answer",
+  "中文名称": "知乎高赞回答生成知识库",
+  "一句话作用": "知乎高赞回答生成助手。分析问题类型（经验求助、观点讨论、知识科普、情感共鸣、盘点推荐），匹配故事+干货+金句的最佳回答结构，生成符合知乎社区调性的高质量长文。当用户直接请求写知乎回答、生成知乎内容、制作高赞爆款，或提到知乎写作、知乎体、zhihu answer等关键词时触发。",
+  "关键输入": "每个知乎问题都有隐含的\"期待回答方式\"，识别问题类型是写出高赞回答的第一步。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:06:05+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要每个知乎问题都有隐含的\"期待回答方式\"，识别问题类型是写出高赞回答的第一步。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10709-zhihu-viral-answer-2b385182",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/zhihu-viral-answer/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/zhihu-viral-answer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3003ec7d23373402f5402894b403e62e6b9a38b7fbd862f4fbfa673201c50f38",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

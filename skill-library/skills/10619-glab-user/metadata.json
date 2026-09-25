@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-user",
+  "中文名称": "待补：glab-user",
+  "一句话作用": "查看和管理 GitLab 用户信息，包括个人资料、事件和 SSH 密钥。适用于查看用户档案、检查用户活动或管理用户设置。触发词：user、个人资料、用户信息、查看用户、用户活动。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要查看和管理 GitLab 用户信息，包括个人资料、事件和 SSH 密钥。适用于查看用户档案、检查用户活动或管理用户设置。触发词：user、个人资料、用户信息、查看用户、用户活动。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10619-glab-user-445a7326",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-user/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-user/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b3e0ea9efda460d0b867e96d572db67b506202f6c1a8510e0fc6a33c7295ff5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentic-sckg-risk",
+  "中文名称": "供应链知识图谱智能风险分析框架",
+  "一句话作用": "触发词：供应链图谱、断供预警、链路穿透、风险诊断。何时不用：缺少供应商层级或供应关系数据时无法穿透多级链路；对单个供应商做综合评分用供应商评估类技能。安全边界：合规结论须由人工复核，图谱数据涉跨境传输时需符合数据出境安全评估要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要手动 ERP 排查可能要 2-3 周，到时候竞争对手早把备货扫空了时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11325-p2s-agentic-sckg-risk-bfc0d75b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-agentic-sckg-risk/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-agentic-sckg-risk/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ef64c06101310f7595a0bfd52536f9d169248ac3c8dd23c1b40e38699ae3cd5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

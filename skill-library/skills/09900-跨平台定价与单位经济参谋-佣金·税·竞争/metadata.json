@@ -1,0 +1,22 @@
+{
+  "英文名称": "跨平台定价与单位经济参谋（佣金·税·竞争）",
+  "中文名称": "待补：跨平台定价与单位经济参谋（佣金·税·竞争）",
+  "一句话作用": "当需要基于 ERP 成本与各平台佣金/物流/退货假设输出指导价区间、促销折扣底线与多市场价差建议时调用；输出为决策草稿，对外报价须财务与渠道负责人确认。",
+  "关键输入": "- ERP 或表格提供 采购/到岸成本、包装、目标毛利率底线 （可部分缺失标 TBD）。 - 各平台 佣金与履约费规则版本 （日期标注）。 - 竞品锚点价格 来源说明 （爬虫/手工/第三方）。",
+  "关键输出": "- 表：SKU Channel List price band Promo floor Margin indic Fees ver Notes - 决策摘要 ：5 条以内，含 须人工确认 项。",
+  "最新更新时间": "2026-03-25T17:18:43+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要基于 ERP 成本与各平台佣金/物流/退货假设输出指导价区间、促销折扣底线与多市场价差建议时调用；输出为决策草稿，对外报价须财务与渠道负责人确认。时，用它产出或更新：- 表：SKU Channel List price band Promo floor Margin indic Fees ver Notes - 决策摘要 ：5 条以内，含 须人工确认 项。",
+  "skill_id": "09900-skill-d7b8e667",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/pricing-strategy-advisor/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/finance-cost-management/pricing-strategy-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6720a964f22866d21cd57d25c892b376dbc6ff37f60988478acd590a94f5a502",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

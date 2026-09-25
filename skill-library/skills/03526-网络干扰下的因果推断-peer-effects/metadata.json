@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-network-interference-causal",
+  "中文名称": "网络干扰下的因果推断（peer effects）",
+  "一句话作用": "触发词：网络干扰、溢出效应、peer effects、集群随机化、暴露映射、口碑溢出量化。何时不用：已确认无组间互动时不必做暴露映射；只是想让实验更灵敏时改用方差缩减或控制变量。安全边界：社交关系数据使用需符合 GDPR 等法规、建议聚合层面分析，竞品与平台数据采集需走官方 API 而非爬虫。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要增长团队面临\"同一平台用户互动导致AB实验组污染\"——网络干扰识别将实验偏差降低50%，年化提升实验决策准确率节省无效推广费20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03526-p2s-network-interference-causal-02e0b0e6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-network-interference-causal/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-network-interference-causal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dd9eb76ba1c68b1b92115108ccdcbc0526ecbf6e8aa224b0f242008e4ea4474f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

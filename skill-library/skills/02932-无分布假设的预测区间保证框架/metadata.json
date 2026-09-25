@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-conformal-prediction-framework",
+  "中文名称": "无分布假设的预测区间保证框架",
+  "一句话作用": "触发词：共形预测、预测区间、分布无关、覆盖率保证、备货两档方案。何时不用：只要单 SKU 的滚动校准实现用「共形时序预测区间」，只要点估计用「Agent时序预测」。安全边界：区间须向业务方说明是统计保证而非确定性，避免被误读为保证备货量；大促期须单独校准。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链团队面临\"备货点预测不知道置信度是多少\"——Conformal Prediction提供统计保证的区间，断货率降低35%、过度备货减少25%，年化资金效率提升200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02932-p2s-conformal-prediction-framework-2cb7bf62",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-conformal-prediction-framework/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-conformal-prediction-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "56077f60c2d3ee59574f3f048226950d1d9177dc98b67d2bf8bce98eeeb72ac6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

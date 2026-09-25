@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-identity-verification-advisor",
+  "中文名称": "待补：twilio-identity-verification-advisor",
+  "一句话作用": "Planning skill for identity verification and fraud prevention. Qualifies the developer's needs across authentication method, channel selection, fraud risk level, and user experience to recommend the right Twilio Verify…",
+  "关键输入": "- Recommended for signup (validate the number is real before sending a code) - Recommended for high-value transactions (check line type; add SIM swap for KYC businesses) - Optional for routine 2FA (if you trust the numb…",
+  "关键输出": "After qualifying the developer, recommend:",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Recommended for signup (validate the number is real before sending a code) - Recommended for high-value transactions (check line type; add SIM swap for KYC businesses) - Optional for routine 2FA (if you trust the numb…时，用它产出或更新：After qualifying the devel…",
+  "skill_id": "01086-twilio-identity-verification-advisor-eefddb94",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-identity-verification-advisor/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-identity-verification-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "789f1a6c35d038b929705d44f8e3685be9e40764a043710aa46d063a60fd4118",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

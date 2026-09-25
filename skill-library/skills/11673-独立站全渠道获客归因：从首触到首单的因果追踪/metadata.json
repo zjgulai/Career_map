@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dtc-customer-acquisition-attribution",
+  "中文名称": "独立站全渠道获客归因：从首触到首单的因果追踪",
+  "一句话作用": "触发词：多触点归因、Shapley值、独立站首单、上漏斗误判、切断后果模拟。何时不用：没有用户级触点序列或订单无法按用户关联时不适用；站内无用户级路径的归因走MMM类技能。安全边界：用户级触点与订单数据须脱敏使用，归因结论用于预算决策，不直接改动渠道投放。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要DTC独立站TikTok ROAS看起来亏损于是砍掉投放但整体流量随之崩塌——Shapley多触点因果归因揭示TikTok是Google搜索的上游触发器，正确预算分配后真实ROAS提升20-40%，年化保护GMV50-150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11673-p2s-dtc-customer-acquisition-attribution-4fb2af3d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-dtc-customer-acquisition-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-dtc-customer-acquisition-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7f1477fc3a2744d328d297e1a4d2f0b92c1a70ce2c70eee5f1d653d840367623",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

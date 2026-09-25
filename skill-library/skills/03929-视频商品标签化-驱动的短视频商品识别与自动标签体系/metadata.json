@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-video-commerce-tagging",
+  "中文名称": "视频商品标签化 驱动的短视频商品识别与自动标签体系",
+  "一句话作用": "触发词：视频商品识别、自动打标、SKU 关联、购物链接配置、达人视频标签化。何时不用：判断视频内容好坏或爆款潜力用内容归因与钩子优化类技能，本技能只解决视频里出现了什么商品、该挂哪个 SKU。安全边界：识别结果不得用于关联竞品或未授权商品，视频中出镜人物信息须脱敏，低置信结果必须走人工抽检，禁止把模型标签直接对外发布。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要视频电商团队面临\"每天50个达人视频需手工4小时识别商品并关联SKU\"——多模态LLM自动标签化准确率88%节省75%人工，新增购物链接驱动年化GMV增量约50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03929-p2s-tag-video-commerce-tagging-f3256d5f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tag-video-commerce-tagging/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tag-video-commerce-tagging/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "85605610da3c6cb400b3e976d09829ad3aa75705b20e66614c37e2d4a9806855",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

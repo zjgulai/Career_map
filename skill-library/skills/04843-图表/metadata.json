@@ -1,0 +1,22 @@
+{
+  "英文名称": "drawio-diagram",
+  "中文名称": "图表",
+  "一句话作用": "生成标准 Draw.io (.drawio) 格式的可视化图表；支持从零生成与风格迁移两种模式。从零生成：AI/深度学习模型架构图、算法流程图、系统架构图；教育/考试示意图（数学几何、物理受力/电路/光路、化学实验/分子结构、生物细胞/遗传/食物链、地理经纬/圈层/地形、历史时间轴/朝代/制度、语文结构图）。风格迁移：参考图 + 内容 → 按参考图风格生成新图。确保 XML 格式正确，可直接在 Draw.io 中打开编辑。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. 图表说明（2-3 行） 2. 使用指南：Draw.io 打开、导出 PNG/SVG/PDF、图题与论文引用示例",
+  "最新更新时间": "2026-09-19T03:48:33+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要生成标准 Draw.io (.drawio) 格式的可视化图表；支持从零生成与风格迁移两种模式。从零生成：AI/深度学习模型架构图、算法流程图、系统架构图；教育/考试示意图（数学几何、物理受力/电路/光路、化学实验/分子结构、生物细胞/遗传/食物链、地理经纬/圈层/地形、历史时间轴/朝代/制度、语文结构图）。风格迁移：参考图 + 内容 → 按参考图风格生成新图。确保 XML 格式正确，可直接在 Draw.io 中打开编辑。时，用它产出或更新：1. 图表说明（2-3 行） 2. 使用指南：Draw.io 打开…",
+  "skill_id": "04843-drawio-diagram-7c5b79c3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/drawio-diagram/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/drawio-diagram/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad6a9c55ca8dac460831ff8ba1b5362001b3ec75621317528ef443f0be98152f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

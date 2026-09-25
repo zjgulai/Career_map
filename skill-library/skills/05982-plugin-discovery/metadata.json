@@ -1,0 +1,22 @@
+{
+  "英文名称": "plugin-discovery",
+  "中文名称": "待补：plugin-discovery",
+  "一句话作用": "This skill should be used when the user asks to \"推荐插件\", \"查找插件\", \"搜索插件\", \"有什么插件\", \"安装插件\", \"plugin recommendation\", \"find plugins\", \"search plugins\", or needs help discovering and managing CodeBuddy Code plugins from mark…",
+  "关键输入": "Activate this skill when users: - Request plugin recommendations for specific needs - Want to explore available plugins in marketplaces - Need help installing plugins - Want to compare multiple plugins for the same task…",
+  "关键输出": "Collect for each plugin: - Output quality : Completeness, accuracy, usefulness - Execution time : How long it took - Artifacts generated : Files, reports, modifications - User experience : Ease of use, clarity",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Activate this skill when users: - Request plugin recommendations for specific needs - Want to explore available plugins in marketplaces - Need help installing plugins - Want to compare multiple plugins for the same task…时，用它产出或更新：Collect for each plugin: -…",
+  "skill_id": "05982-plugin-discovery-49523ba9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-finder/skills/plugin-discovery/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/plugin-finder/skills/plugin-discovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3496d425f2be51741f60917c9455b1d92325482141da896007968d7da4380bdb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

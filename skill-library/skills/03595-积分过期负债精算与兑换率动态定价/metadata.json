@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-points-expiry-redemption-liability-model",
+  "中文名称": "积分过期负债精算与兑换率动态定价",
+  "一句话作用": "触发词：积分负债、兑换率精算、Breakage、过期策略、递延收入。何时不用：要算用户流失的财务损失用「流失财务影响量化」；要算促销活动的真实 ROI 用「促销供应侧 ROI」。安全边界：积分负债与收入确认涉及会计准则，须经财务与审计确认；结论不代替会计判断。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CFO面临\"积分负债估算误差±$3000影响月度P&L准确性、过期策略不当导致积分成本倒挂\"——贝叶斯兑换率精算+动态积分价值调整将负债估算误差降至±$800，年化节省积分成本3-5万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03595-p2s-points-expiry-redemption-liability-model-9c258826",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-points-expiry-redemption-liability-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-points-expiry-redemption-liability-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dfcb4bdc7dd1887d0d001cdf4e34f4277986fa85e0b864a3409280b5836f2706",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

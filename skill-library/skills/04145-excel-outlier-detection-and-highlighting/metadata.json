@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-outlier-detection-and-highlighting",
+  "中文名称": "待补：excel-outlier-detection-and-highlighting",
+  "一句话作用": "识别 Excel 中的超限数值与错误单元格并进行高亮标注。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "print(f\"处理完成。结果文件：{output path}\") print(f\"汇总报告：{summary path}\")",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要识别 Excel 中的超限数值与错误单元格并进行高亮标注。时，用它产出或更新：print(f\"处理完成。结果文件：{output path}\") print(f\"汇总报告：{summary path}\")",
+  "skill_id": "04145-excel-outlier-detection-and-highlighting-8837fff7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-cell-coloring/outlier-coloring/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-cell-coloring/outlier-coloring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d9f4512bf7ac409a7455669e1847d482172e82be16ebcfbc2eebd9705a78ca6e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-creator",
+  "中文名称": "待补：skill-creator",
+  "一句话作用": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Kimi's capabilities with specialized knowledge, workflows, or tool integrat…",
+  "关键输入": "Skip this step only when the skill's usage patterns are already clearly understood. It remains valuable even when working with an existing skill. To create an effective skill, clearly understand concrete examples of how…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T23:50:26+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Skip this step only when the skill's usage patterns are already clearly understood. It remains valuable even when working with an existing skill. To create an effective skill, clearly understand concrete examples of how…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10678-skill-creator-5f17e521",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/skill-creator/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/skill-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f072f1677412a5623b5ec3e636805572e3435fdcc1d8d8b402467a323c0e4e27",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

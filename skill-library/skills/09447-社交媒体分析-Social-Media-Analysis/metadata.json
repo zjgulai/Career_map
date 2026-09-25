@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-social-media-analysis",
+  "中文名称": "社交媒体分析 (Social Media Analysis)",
+  "一句话作用": "跨境电商社交媒体分析技能，用于评估社媒营销效果、分析用户行为和优化内容策略。 触发条件: 1. 用户询问\"社媒效果如何\" 2. 需要分析社媒内容表现时 3. 构建社媒用户画像时 4. 优化社媒营销策略时 5. 评估KOL合作效果时 输出内容: - 社媒效果指标分析 - 内容表现评估 - 用户画像洞察 - 内容优化建议",
+  "关键输入": "数据类型 必需字段 说明 --------- --------- ------ 账户数据 account id, platform, followers 账户基础信息 内容数据 post id, content type, publish time 发布内容信息 互动数据 likes, comments, shares, saves 互动指标 用户数据 user id, demographics, interests 用户属性",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T19:28:30+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商社交媒体分析技能，用于评估社媒营销效果、分析用户行为和优化内容策略。 触发条件: 1. 用户询问\"社媒效果如何\" 2. 需要分析社媒内容表现时 3. 构建社媒用户画像时 4. 优化社媒营销策略时 5. 评估KOL合作效果时 输出内容: - 社媒效果指标分析 - 内容表现评估 - 用户画像洞察 - 内容优化建议时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09447-cbec-social-media-analysis-546158c7",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/17-content-analysis/social-media-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/17-content-analysis/social-media-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7239853bd06b59e46eeb8d3095c0836c3ac4ea984883464cc7138e2037555996",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

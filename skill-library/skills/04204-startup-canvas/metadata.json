@@ -1,0 +1,22 @@
+{
+  "英文名称": "startup-canvas",
+  "中文名称": "待补：startup-canvas",
+  "一句话作用": "用一页画布梳理初创产品的客户、价值主张、渠道与收入，暴露最不确定的一环。触发词：创业画布填写、startup-canvas、用一页画布梳理初创产品的客户、价值主张、渠道与收入，暴露最不确定的一环。",
+  "关键输入": "- Product or startup idea - Target market and customer insights - Competitive landscape - Founder/team constraints and resources",
+  "关键输出": "1. Define the vision and aspirational impact 2. Identify 2–3 target market segments with JTBD 3. Establish cost positioning (low cost vs premium) 4. Develop value propositions for each segment 5. List explicit trade-offs 6. Set North Star and quarterly OMTM 7…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要用一页画布梳理初创产品的客户、价值主张、渠道与收入，暴露最不确定的一环。触发词：创业画布填写、startup-canvas、用一页画布梳理初创产品的客户、价值主张、渠道与收入，暴露最不确定的一环。时，用它产出或更新：1. Define the vision and aspirational impact 2. Identify 2–3 target market segments with JTBD 3. Establish cost positioning (low cost vs premium) 4.…",
+  "skill_id": "04204-startup-canvas-e89b4023",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/startup-canvas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/startup-canvas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c08f17384a559d13f6a71fed8bdc77d8945ef68d29e73b37b1517059ecdf967a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-query-intent-classification-routing",
+  "中文名称": "查询意图分类与动态路由",
+  "一句话作用": "触发词：查询意图分类、动态路由、FAQ 与分析意图、多知识库分流、检索精准率。何时不用：要给电商搜索词做意图与月龄分桶投广告时用「搜索层次化意图分类」。安全边界：只做分类与路由，不生成最终答案，也不保证知识库内容质量。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要智能搜索面临\"用户查询意图混杂导致同一问题触发多套RAG逻辑响应不一\"——查询意图分类路由精准识别FAQ/分析/探索三类意图并分流，首答准确率提升46%，无效检索次数降低55%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03672-p2s-query-intent-classification-routing-792419d7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-query-intent-classification-routing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-query-intent-classification-routing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c4aec420eb503e3e7b4fb68128d5168a6313e3d115115cf50dab10add72fab48",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

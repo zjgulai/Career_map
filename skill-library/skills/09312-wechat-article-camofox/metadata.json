@@ -1,0 +1,22 @@
+{
+  "英文名称": "wechat-article-camofox",
+  "中文名称": "待补：wechat-article-camofox",
+  "一句话作用": "使用本机部署的 camofox-browser 稳定抓取微信公众号文章链接内容，优先读取浏览器 accessibility snapshot，并对公众号页噪音做专用清洗，输出 Markdown 或 JSON。",
+  "关键输入": "- 抓取微信公众号文章正文 - 输出 Markdown 或 JSON - 普通静态抓取噪音过多，或浏览器兜底更稳时 - 后续想把公众号抓取能力接到 Hermes 或自己的脚本链路里",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-05T01:33:42+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 抓取微信公众号文章正文 - 输出 Markdown 或 JSON - 普通静态抓取噪音过多，或浏览器兜底更稳时 - 后续想把公众号抓取能力接到 Hermes 或自己的脚本链路里时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09312-wechat-article-camofox-53d5a5fc",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_pm_library/draco-content/wechat-article-camofox/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_pm_library/draco-content/wechat-article-camofox/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aad842b4972f1c10a66b1ebfd37122749e2ae226f4654acf1edd8cff7c673209",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

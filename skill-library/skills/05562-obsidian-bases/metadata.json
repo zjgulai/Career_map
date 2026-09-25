@@ -1,0 +1,22 @@
+{
+  "英文名称": "obsidian-bases",
+  "中文名称": "待补：obsidian-bases",
+  "一句话作用": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card vie…",
+  "关键输入": "- Creating database-like views of notes in Obsidian - Building task trackers, reading lists, or project dashboards - Filtering and organizing notes by properties or tags - Creating calculated/formula fields - Setting up…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "document-processing",
+  "解决具体问题": "当需要- Creating database-like views of notes in Obsidian - Building task trackers, reading lists, or project dashboards - Filtering and organizing notes by properties or tags - Creating calculated/formula fields - Setting up…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05562-obsidian-bases-d5c1b308",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/obsidian-bases/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/all-skills/skills/obsidian-bases/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8fe13a4c444e08d10a5b98a77331ded331a54f537427cc4592ab955716733098",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

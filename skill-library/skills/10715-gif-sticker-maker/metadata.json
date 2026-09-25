@@ -1,0 +1,22 @@
+{
+  "英文名称": "gif-sticker-maker",
+  "中文名称": "待补：gif-sticker-maker",
+  "一句话作用": "Convert photos (people, pets, objects, logos) into 4 animated GIF stickers with captions. Use when: user wants to create cartoon stickers, GIF expressions, emoji packs, animated avatars, or convert photos to Funko Pop /…",
+  "关键输入": "Before starting any generation step, ensure: 1. Python venv is activated with dependencies from requirements.txt installed 2. MINIMAX API KEY is exported (e.g. export MINIMAX API KEY='your-key') 3. ffmpeg is available on PATH (for Step 3 GIF conversion)",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Convert photos (people, pets, objects, logos) into 4 animated GIF stickers with captions. Use when: user wants to create cartoon stickers, GIF expressions, emoji packs, animated avatars, or convert photos to Funko Pop /…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10715-gif-sticker-maker-85a72df5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/gif-sticker-maker/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/gif-sticker-maker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "57002b47b7aaffb784acedae2750e14a75dc18ba58edb003f846755d7eb0c447",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

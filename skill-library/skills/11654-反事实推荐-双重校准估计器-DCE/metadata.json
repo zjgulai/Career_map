@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-counterfactual-recommendation-dce",
+  "中文名称": "反事实推荐 - 双重校准估计器（DCE）",
+  "一句话作用": "触发词：反事实推荐、DCE、去偏CTR、曝光偏差、冷启动。何时不用：曝光策略已随机分流、可直接读线上A/B或交错实验结论时不用本技能。安全边界：按平台个性化推荐规范需算法备案与月度歧视审计（性别/年龄），并完善用户知情权提示。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要增长分析师面临推荐因果不清——DCE将虚高转化率18%修正到7%，年化省27万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11654-p2s-counterfactual-recommendation-dce-bd126dad",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-counterfactual-recommendation-dce/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-counterfactual-recommendation-dce/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "915829bb3cd64191f63de558bc4cb8e24a05dbaa3578d764c4c6c9f6e68b37ef",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

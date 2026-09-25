@@ -1,0 +1,22 @@
+{
+  "英文名称": "pdf",
+  "中文名称": "待补：pdf",
+  "一句话作用": "Create and process PDF files. Creation covers reports, papers, and documents with charts, tables, math formulas, and code listings. Processing covers text/table extraction, form filling, and page operations (merge, spli…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Output language must match user's query language. - User writes in Chinese → PDF content in Chinese - User writes in English → PDF content in English - User explicitly specifies language → Follow user's specification",
+  "最新更新时间": "2026-07-25T17:52:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create and process PDF files. Creation covers reports, papers, and documents with charts, tables, math formulas, and code listings. Processing covers text/table extraction, form filling, and page operations (merge, spli…时，用它产出或更新：Output language must match…",
+  "skill_id": "06190-pdf-10b3360c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/pdf/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/pdf/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b5850d326b6fee5cd4c9a305a9ca5f0329095cb4a77784503dd43ba10835ffe6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

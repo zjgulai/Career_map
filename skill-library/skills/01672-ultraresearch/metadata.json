@@ -1,0 +1,22 @@
+{
+  "英文名称": "ultraresearch",
+  "中文名称": "待补：ultraresearch",
+  "一句话作用": "Maximum-saturation research orchestration: parallel explore+librarian swarms across codebase, web, official docs, and OSS repos; a recursive EXPAND loop driven by leads workers return in message text; empirical verifica…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Maximum-saturation research orchestration: parallel explore+librarian swarms across codebase, web, official docs, and OSS repos; a recursive EXPAND loop driven by leads workers return in message text; empirical verifica…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01672-ultraresearch-368ce3fe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/dist/skills/ultraresearch/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/dist/skills/ultraresearch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e5b54e57971e31d69054482cdf00792ac39a707f711b5bdd5821a0dc091fb34",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

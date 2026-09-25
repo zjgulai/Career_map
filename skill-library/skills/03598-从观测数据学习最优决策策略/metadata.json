@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-policy-learning-observational",
+  "中文名称": "从观测数据学习最优决策策略",
+  "一句话作用": "触发词：策略学习、观测数据、倾向得分、双重稳健、规则导出、个性化决策。何时不用：有干净实验数据时用「因果森林异质处理效应」或「Uplift 干预优先级队列」；只判断促销整体增量用「促销效果因果评估」。安全边界：使用平台内部数据须遵守隐私与最小化原则，导出规则须满足平台促销公平性要求并定期重训复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务策略师面临\"依赖历史AB实验数据制定促销政策速度太慢\"——观测数据策略学习将最优促销政策更新周期从30天缩短至3天，年化GMV提升15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03598-p2s-policy-learning-observational-c7d79f39",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-policy-learning-observational/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-policy-learning-observational/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "095162a16986d14c4f351524dfff2930c41a00324464a763ffc4911c18a9e0fb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "mlops-industrialization-cn",
+  "中文名称": "待补：mlops-industrialization-cn",
+  "一句话作用": "Transform prototypes into distributable Python packages",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:22+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Transform prototypes into distributable Python packages时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04969-mlops-industrialization-cn-7665423e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/mlops-industrialization-cn/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/mlops-industrialization-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d259a694f6aabd6c4eb624393c7867bb68dae239a26ff5d679b66c1b7e683696",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

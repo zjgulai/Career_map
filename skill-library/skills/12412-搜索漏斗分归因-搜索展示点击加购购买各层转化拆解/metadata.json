@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-funnel-attribution",
+  "中文名称": "搜索漏斗分归因 搜索展示点击加购购买各层转化拆解",
+  "一句话作用": "触发词：搜索漏斗归因、五层转化拆解、关键词瓶颈层、高展示低购买、ACOS优化。何时不用：只做多触点广告归因分配时用「多触点归因建模」；只做关键词维度CVR预测时用「搜索词级CVR预测」。安全边界：关键词与Listing优化须遵守平台搜索公平竞争规范，不得堆砌虚假属性；母婴类目内容需满足母婴产品质量安全标准并建立内容审核机制。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要广告投手面临\"高展示低购买、不清楚哪层漏斗在流失\"——搜索漏斗分归因将关键词 CVR 提升15-25%，相同预算年化增收30-45万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12412-p2s-search-funnel-attribution-74909f82",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-funnel-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-search-funnel-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93def1472882fb14b880bb80220272ef0d9ba457506326be9fb66c6dd7261574",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

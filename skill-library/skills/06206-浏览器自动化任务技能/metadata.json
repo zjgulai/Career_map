@@ -1,0 +1,22 @@
+{
+  "英文名称": "browser-task",
+  "中文名称": "浏览器自动化任务技能",
+  "一句话作用": "浏览器自动化任务处理技能。仅在以下情况使用：1) 其他 skill/工具（搜索、API、数据接口等）都无法满足需求，需要通过真实浏览器 GUI 兜底执行；2) 任务必须在具体网站完成登录 / 授权 / 账号内动作（点赞 / 收藏 / 评论 / 发布 / 加购）；3) 命中白名单网站（淘宝/天猫、微博、小红书）的站内检索 / 互动 / 发布需求。当用户仅需要信息检索、文本生成、代码或数据处理时，不要使用本 skill。",
+  "关键输入": "下列场景必须拒绝进入本 skill，改用更合适的能力或如实告知： - 纯文本生成、改写、翻译、总结类任务（无需访问任何网页） - 代码开发 / 代码审查 / 调试类任务 - 已有结构化数据文件（csv/json/excel 等）的数据分析任务 - 可通过开放 API / 官方 SDK / 公共数据源直接获取的信息 - 通用搜索引擎已能满足的事实性检索（除非用户明确要求进入某站点内核实或登录态操作） - 需要登录第三方平台但无可用凭证且…",
+  "关键输出": "- 信息采集输出：若无指定，默认输出 markdown 格式的结构化报告（含摘要、主要结果、数据来源） - 操作验证输出：明确说明操作是否成功，如失败需说明原因 - 异常处理输出：标注异常类型、影响程度、处理方式 - 白名单站点任务：优先遵守对应子 Skill 的交付物规范（例如微博模块的\"双份文档交付\"规则、小红书的\"最终交付可直接保存为 .md\"规则、淘宝的\"加购清单 + 备选清单 + 待确认问题\"三段式）",
+  "最新更新时间": "2026-09-10T17:00:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要下列场景必须拒绝进入本 skill，改用更合适的能力或如实告知： - 纯文本生成、改写、翻译、总结类任务（无需访问任何网页） - 代码开发 / 代码审查 / 调试类任务 - 已有结构化数据文件（csv/json/excel 等）的数据分析任务 - 可通过开放 API / 官方 SDK / 公共数据源直接获取的信息 - 通用搜索引擎已能满足的事实性检索（除非用户明确要求进入某站点内核实或登录态操作） - 需要登录第三方平台但无可用凭证且…时，用它产出或更新：- 信息采集输出：若无指定，默认输出 markdow…",
+  "skill_id": "06206-browser-task-bbb693d1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/browser-task/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/browser-task/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c99e4e53229d53fc197825710e6931d0b0fac91cf9484b6522da188a54cef8a8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

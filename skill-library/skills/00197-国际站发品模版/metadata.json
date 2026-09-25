@@ -1,0 +1,22 @@
+{
+  "英文名称": "国际站智能发品",
+  "中文名称": "国际站发品模版",
+  "一句话作用": "支持素材包/URL 发品、批量发品/裂变，以及发品模版的创建、引用与复用。 rlab 云端链路（素材包 / URL 含修改需求）收敛为单命令：node /scripts/run publish.js --work-dir --decoration-plan --user-query \" \" 一条命令完成「素材提取 → 图片 CDN 化 → 播种 user query.json / decoration plan.json + 打包上传…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "node \"$SKILL PATH/scripts/run publish.js\" \\ --work-dir \\ --decoration-plan \\ --mode url-publish --format json",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要支持素材包/URL 发品、批量发品/裂变，以及发品模版的创建、引用与复用。 rlab 云端链路（素材包 / URL 含修改需求）收敛为单命令：node /scripts/run publish.js --work-dir --decoration-plan --user-query \" \" 一条命令完成「素材提取 → 图片 CDN 化 → 播种 user query.json / decoration plan.json + 打包上传…时，用它产出或更新：node \"$SKILL PATH/scripts/…",
+  "skill_id": "00197-skill-4410c5e3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-publish/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-product-publish/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "85c853732dd6a3049de23551b2c3cae6406216e495f737343ddcfcd2beb05102",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

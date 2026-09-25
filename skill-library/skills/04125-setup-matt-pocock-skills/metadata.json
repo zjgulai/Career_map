@@ -1,0 +1,22 @@
+{
+  "英文名称": "setup-matt-pocock-skills",
+  "中文名称": "待补：setup-matt-pocock-skills",
+  "一句话作用": "为工程技能集配置仓库（issue tracker/分诊标签/领域文档）。触发词：技能集仓库接线、setup-matt-pocock-skills、为工程技能集配置仓库（issue tracker/分诊标签/领域文档）。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要为工程技能集配置仓库（issue tracker/分诊标签/领域文档）。触发词：技能集仓库接线、setup-matt-pocock-skills、为工程技能集配置仓库（issue tracker/分诊标签/领域文档）。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04125-setup-matt-pocock-skills-505642c8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/setup-matt-pocock-skills/SKILL.md",
+  "relative_path": "lute/.dsh/skills/setup-matt-pocock-skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e76a6511009a24909a7cb13f7950494fc2b9ff97e714472f49a5a19b4c68ffaa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

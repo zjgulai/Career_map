@@ -1,0 +1,22 @@
+{
+  "英文名称": "video-deconstruct",
+  "中文名称": "待补：video-deconstruct",
+  "一句话作用": "Deconstruct video, keyframes, screenshots, or a description into evidence on shots, motion, sound, and continuity, and deliver a recreation prompt and edit plan. Not for critique or plain editing.",
+  "关键输入": "1. When the user uploads a video, first read metadata and semantics with media analysis; record duration, aspect ratio, resolution, subjects, scenes, actions, shots, lighting, pacing, and audible sound. 2. When semantic analysis fails, is too coarse, or the u…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:02:45+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Deconstruct video, keyframes, screenshots, or a description into evidence on shots, motion, sound, and continuity, and deliver a recreation prompt and edit plan. Not for critique or plain editing.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04320-video-deconstruct-adaa018e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/video-deconstruct/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/video-deconstruct/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f18b619350b7c2214ed73c1c903b64271f9a49125168884fc667999edce2f00f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

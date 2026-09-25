@@ -1,0 +1,22 @@
+{
+  "英文名称": "dingtalk-h5-signature-pad",
+  "中文名称": "电子签字实现 (signature pad)",
+  "一句话作用": "Implement electronic signature capture using signature pad in DingTalk WebView H5 pages. Covers canvas initialization, touch coordinate mapping pitfalls, DPR scaling issues, and backend integration for training/course s…",
+  "关键输入": "在钉钉 WebView 内的 H5 页面中实现手写电子签名，用于培训确认签字、课程完成签退等场景。技术栈：Vue 3 + signature pad + FastAPI 后端。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:01+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要在钉钉 WebView 内的 H5 页面中实现手写电子签名，用于培训确认签字、课程完成签退等场景。技术栈：Vue 3 + signature pad + FastAPI 后端。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04814-dingtalk-h5-signature-pad-33c46b99",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dingtalk-h5-signature-pad/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dingtalk-h5-signature-pad/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "796d9fd0733c11f810208346a927e7cbd6b33b5caffdc25227747349c240e48c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

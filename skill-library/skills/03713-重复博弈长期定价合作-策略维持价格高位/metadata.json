@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-repeated-game-long-term-pricing-cooperation",
+  "中文名称": "重复博弈长期定价合作 策略维持价格高位",
+  "一句话作用": "触发词：重复博弈、以牙还牙、价格战、贴现因子、合作均衡、跟价报复。何时不用：只求某一时点的静态均衡价格用「纳什均衡定价模型」；要判断领导者主动先动用「Stackelberg 价格领导策略」。安全边界：不得与竞品沟通协调价格或达成垄断协议，本技能只输出自身响应规则，不得用于合谋抬价。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要寡头市场卖家面临\"不知道什么时候跟价什么时候坚守价格\"——重复博弈Tit-for-Tat策略将价格高位维持时间延长3倍，年化毛利保护$11.2万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03713-p2s-repeated-game-long-term-pricing-cooperation-7286e7d5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-repeated-game-long-term-pricing-cooperation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-repeated-game-long-term-pricing-cooperation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0878a2e0a7e7072ffebf8072058cee7219f98303bc32ee2abc0a6f05df1fd9c9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

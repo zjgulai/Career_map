@@ -1,0 +1,22 @@
+{
+  "英文名称": "seedance-storyboard",
+  "中文名称": "分镜提示词生成器",
+  "一句话作用": "将任何想法转换成即梦 Seedance 2.0 专业分镜提示词。当用户想要生成视频、制作短视频、创作分镜、使用 Seedance/即梦/剪映 AI 视频时调用。",
+  "关键输入": "输入类型 格式要求 数量限制 大小限制 --------- --------- --------- --------- 图片 jpeg、png、webp、bmp、tiff、gif ≤ 9 张 < 30 MB 视频 mp4、mov ≤ 3 个，总时长 2-15s < 50 MB 音频 mp3、wav ≤ 3 个，总时长 ≤ 15s < 15 MB 文本 自然语言 - - 混合输入总上限：12 个文件",
+  "关键输出": "最终输出应包含： 1. 理解确认 ：确认我理解的故事内容 2. 分镜提示词 ：可直接复制到 Seedance 2.0 使用的完整提示词 3. 素材建议 ：建议上传什么类型的参考素材 4. 使用提示 ：如何即梦平台使用（@素材语法等） ---",
+  "最新更新时间": "2026-09-19T03:51:25+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要将任何想法转换成即梦 Seedance 2.0 专业分镜提示词。当用户想要生成视频、制作短视频、创作分镜、使用 Seedance/即梦/剪映 AI 视频时调用。时，用它产出或更新：最终输出应包含： 1. 理解确认 ：确认我理解的故事内容 2. 分镜提示词 ：可直接复制到 Seedance 2.0 使用的完整提示词 3. 素材建议 ：建议上传什么类型的参考素材 4. 使用提示 ：如何即梦平台使用（@素材语法等） ---",
+  "skill_id": "05086-seedance-storyboard-3b087e3a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/seedance-storyboard/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/seedance-storyboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3841ef9bf855eeb33f7ff1697f37a061607c0681f152381bc85b94dc896b4246",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

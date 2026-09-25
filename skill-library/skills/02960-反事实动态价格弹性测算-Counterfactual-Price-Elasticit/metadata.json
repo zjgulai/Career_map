@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-counterfactual-price-elasticity",
+  "中文名称": "反事实动态价格弹性测算 (Counterfactual Price Elasticity via DML)",
+  "一句话作用": "触发词：反事实弹性、涨价影响测算、弹性偏差修正、折扣损耗、因果弹性、定价复盘。何时不用：要用工具变量处理内生性时用「工具变量 IV 识别价格弹性」；要输出人群级差异效应用于投放时用「因果森林异质处理效应」。安全边界：弹性估计属内部分析产物，不得据单一估计值自动改价或形成价格歧视，最终价格决策需人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要定价分析师面临涨价影响估不准——反事实弹性将收入损失率从11%降到4%，年化增利22万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02960-p2s-counterfactual-price-elasticity-86b51f71",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-counterfactual-price-elasticity/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-counterfactual-price-elasticity/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8679ab868acc05e32526d4c428714b7a05c6b98cde158d6dfe7aab70e07f6877",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

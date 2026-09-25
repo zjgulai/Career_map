@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-short-video-commerce-attribution",
+  "中文名称": "短视频内容归因建模 视频特征 XGBoost 驱动转化分析",
+  "一句话作用": "触发词：短视频内容归因、视频特征重要性、高转化内容配方、素材优先级排序、低效素材识别。何时不用：要判断达人本身带来的真实增量用 KOL 因果归因类技能，只优化开场留存用钩子优化类技能，本技能只拆解视频内容特征对转化的贡献。安全边界：素材与转化数据须来自自有或已授权后台，不得抓取他人内容；输出是相关性排序，不得当因果结论对外使用，涉用户明细须脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要内容运营面临\"短视频哪些特征真正带来转化靠直觉判断效率极低\"——XGBoost内容特征归因将爆款视频特征提炼准确率提升至83%，内容ROI提升41%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03822-p2s-short-video-commerce-attribution-6a5eb43e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-short-video-commerce-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-short-video-commerce-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1b08d16306f57b3a7f0eea8572dd4cd2c1b218b6abb0dface8719ba736dc1d73",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

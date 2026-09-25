@@ -1,0 +1,22 @@
+{
+  "英文名称": "finding-discovery",
+  "中文名称": "待补：finding-discovery",
+  "一句话作用": "Use when Codex is already in the finding-discovery phase of a security scan or the user explicitly asks to discover candidate security findings in a repository or code change. Do not use as the primary trigger for full…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "If there are no plausible candidates, return a no-findings result. Otherwise, for each candidate include: - candidate id - title - affected locations, with labels when more than one applies: entrypoint/wrapper, root control, sink, and concrete implementation",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when Codex is already in the finding-discovery phase of a security scan or the user explicitly asks to discover candidate security findings in a repository or code change. Do not use as the primary trigger for full…时，用它产出或更新：If there are no plausible c…",
+  "skill_id": "00782-finding-discovery-e828983a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/codex-security/skills/finding-discovery/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/codex-security/skills/finding-discovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "938b73329188aa124770fcdf7cf7916e2941c8fdbf20acd9df96bc1a80185fe7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

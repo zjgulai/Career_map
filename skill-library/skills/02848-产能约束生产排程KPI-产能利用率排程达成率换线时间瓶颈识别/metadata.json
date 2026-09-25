@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-capacity-constraint-production-schedule-kpi",
+  "中文名称": "产能约束生产排程KPI 产能利用率排程达成率换线时间瓶颈识别",
+  "一句话作用": "触发词：产能利用率、排程达成、换线优化、瓶颈识别。何时不用：缺少工厂月产能与订单占用数据时无法测算；只判断需求预测量级用需求预测类技能。安全边界：需符合跨境电商商品质量管理规范与平台库存政策，婴配粉类目需满足对应食品安全标准。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链计划者面临\"不知工厂产能约束就做计划\"——产能利用率75-85%目标+换线优化提升8%有效产能，旺季提前识别断货风险保护50万GMV时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02848-p2s-capacity-constraint-production-schedule-kpi-6bfb3f6d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-capacity-constraint-production-schedule-kpi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-capacity-constraint-production-schedule-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e12399af62f150b46c3c13d74295c36da7869bb4c2e16aa1679b0c48c97cb99",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

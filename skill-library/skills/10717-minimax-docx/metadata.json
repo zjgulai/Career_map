@@ -1,0 +1,22 @@
+{
+  "英文名称": "minimax-docx",
+  "中文名称": "待补：minimax-docx",
+  "一句话作用": "Professional DOCX document creation, editing, and formatting using OpenXML SDK (.NET). Three pipelines: (A) create new documents from scratch, (B) fill/edit content in existing documents, (C) apply template formatting w…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Run after every write operation. For Scenario C the full pipeline is mandatory ; for A/B it is recommended (skip only if the operation was trivially simple). If XSD fails, auto-repair and retry: If XSD still fails, fall back to business rules + preview:",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Professional DOCX document creation, editing, and formatting using OpenXML SDK (.NET). Three pipelines: (A) create new documents from scratch, (B) fill/edit content in existing documents, (C) apply template formatting w…时，用它产出或更新：Run after every write oper…",
+  "skill_id": "10717-minimax-docx-0df554d5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/minimax-docx/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/minimax-docx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "45c169630f30b8f034bc7d53edf73d592fbd82e82188beec7da3ca1996a97fb5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

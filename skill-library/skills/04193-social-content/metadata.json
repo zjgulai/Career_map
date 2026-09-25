@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-content",
+  "中文名称": "待补：social-content",
+  "一句话作用": "批量生成社交媒体内容，支持Instagram、Facebook、LinkedIn、Twitter/X、TikTok。触发词：社媒内容、Instagram帖子、TikTok脚本、内容日历、社媒运营。何时不用：paid-advertising创意（用 ad-creative）、邮件营销内容、着陆页文案（用 copywriting）。缺不可推定的关键材料（账号/文件/数值）才追问；可依行业惯例或品牌既定风格推定的，标注假设后继续，绝不编造数…",
+  "关键输入": "- 为 Instagram、Facebook、LinkedIn、Twitter/X、TikTok 创作自然social-content - 制定social-content日历 - 撰写 TikTok/Reels 短视频脚本 - 生成社媒帖子的 hashtag 策略",
+  "关键输出": "TikTok脚本示例 :",
+  "最新更新时间": "2026-09-13T03:00:38+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 为 Instagram、Facebook、LinkedIn、Twitter/X、TikTok 创作自然social-content - 制定social-content日历 - 撰写 TikTok/Reels 短视频脚本 - 生成社媒帖子的 hashtag 策略时，用它产出或更新：TikTok脚本示例 :",
+  "skill_id": "04193-social-content-92edfcef",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/social-content/SKILL.md",
+  "relative_path": "lute/.dsh/skills/social-content/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a4ca36b89299431d40a0636e2eb66c288c668f4bea176749c0f8995fc1892a89",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

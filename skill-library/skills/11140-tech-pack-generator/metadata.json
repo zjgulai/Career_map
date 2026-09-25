@@ -1,0 +1,22 @@
+{
+  "英文名称": "tech-pack-generator",
+  "中文名称": "待补：tech-pack-generator",
+  "一句话作用": "当用户需要把母婴产品资料整理成工厂能沟通、能导入生产的技术包（Tech Pack）， 提及\"工艺包生成器\"、\"tech pack\"、\"工艺图\"、\"技术图纸\"、\"规格图\"、\"BOM\"、\"装配图\"， 或要求生成三视图、DFM 制造风险审查、装配/BOM、母婴合规关注点等面向工厂的技术文档时使用。 缺产品名称、材质、尺寸或图纸等关键材料时，先追问澄清再生成，不凭空编造。 何时不用：产品概念提案、开模执行、法务合规终审、工业设计方向探索、供应…",
+  "关键输入": "- 需要生成面向工厂的 Tech Pack / 工艺包 / 技术包（含三视图、制造工艺图、装配图、BOM） - 需要做 DFM（可制造性）审查，提前暴露壁厚、脱模、装配公差等制造风险 - 需要清单化母婴品类合规关注点（皮肤接触、食品接触、小零件脱落、尖角/勒压、电器安全等） - 需要输出制造风险摘要，作为打样前的排雷清单",
+  "关键输出": "- 三视图 - 制造工艺图 - 装配图 / BOM 每一部分都附带 风险标注位 ，而不是只有尺寸和材质。",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 需要生成面向工厂的 Tech Pack / 工艺包 / 技术包（含三视图、制造工艺图、装配图、BOM） - 需要做 DFM（可制造性）审查，提前暴露壁厚、脱模、装配公差等制造风险 - 需要清单化母婴品类合规关注点（皮肤接触、食品接触、小零件脱落、尖角/勒压、电器安全等） - 需要输出制造风险摘要，作为打样前的排雷清单时，用它产出或更新：- 三视图 - 制造工艺图 - 装配图 / BOM 每一部分都附带 风险标注位 ，而不是只有尺寸和材质。",
+  "skill_id": "11140-tech-pack-generator-f0b15c90",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/tech-pack-generator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/tech-pack-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "213705f25674b371e22d75514962569a0c35b1ce728b0e494c5a54c3662ea1ed",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-winback-automator",
+  "中文名称": "待补：customer-winback-automator",
+  "一句话作用": "Identify and re-engage lapsed customers through automated multi-stage reactivation sequences. Implement tiered discounting based on historical LTV and establish sunsetting protocols for unengaged contacts.",
+  "关键输入": "- The \"Zombie\" Open: A customer who opens every email but hasn't bought in 2 years. These are \"Low Intent\" profiles. Treat them as \"Lapsed\" even if they are \"Active\" in email stats. - Overlapping Flows: Ensure a custome…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:19+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- The \"Zombie\" Open: A customer who opens every email but hasn't bought in 2 years. These are \"Low Intent\" profiles. Treat them as \"Lapsed\" even if they are \"Active\" in email stats. - Overlapping Flows: Ensure a custome…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00017-customer-winback-automator-43e44be2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-12471462U1788237-8A8E75-5976-D5C7B4/agent-core/skills/customer-winback-automator/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-12471462U1788237-8A8E75-5976-D5C7B4/agent-core/skills/customer-winback-automator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d0a621780e2197b596f735a5ff0bbe8f5ed8ab43c8adc71ce199b68cc381842",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

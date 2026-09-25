@@ -1,0 +1,22 @@
+{
+  "英文名称": "humanizer-zh",
+  "中文名称": "去除 AI 写作痕迹",
+  "一句话作用": "按中文语料特征改写文本，去掉 AI 腔的套话、排比与过度修饰，读起来像人写的。触发词：去 AI 味、太像 AI 写的、润色成真人语气、humanize、humanizer-zh。何时不用：需要的是严格校对纠错而不是语感改写时，用 copy-editor。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "提供： 1. 重写后的文本 2. 所做更改的简要总结（如果有帮助，可选） ---",
+  "最新更新时间": "2026-09-15T11:05:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要按中文语料特征改写文本，去掉 AI 腔的套话、排比与过度修饰，读起来像人写的。触发词：去 AI 味、太像 AI 写的、润色成真人语气、humanize、humanizer-zh。何时不用：需要的是严格校对纠错而不是语感改写时，用 copy-editor。时，用它产出或更新：提供： 1. 重写后的文本 2. 所做更改的简要总结（如果有帮助，可选） ---",
+  "skill_id": "02585-humanizer-zh-0f1eb986",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/humanizer-zh/SKILL.md",
+  "relative_path": "lute/.dsh/skills/humanizer-zh/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "11461c7d3b6501832c064ff8edfed8de674bf7b4004497864276bd2fe88b38a0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

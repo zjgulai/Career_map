@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibabacloud-video-translation",
+  "中文名称": "待补：alibabacloud-video-translation",
+  "一句话作用": "Alibaba Cloud IMS (Intelligent Media Services) based video translation Skill. Supports subtitle extraction (ASR/OCR), translation, and speech synthesis translation modes. Trigger words: \"视频翻译\", \"translate video\", \"翻译视频\"…",
+  "关键输入": "IMPORTANT : Different APIs use different address formats!",
+  "关键输出": "Condition Processing Method ----------- ------------------- User explicitly specifies Use user's path User does not specify Use default path and inform user Default Output Rules : - Bucket: Same bucket as input video - Directory: Same directory as input video",
+  "最新更新时间": "2026-09-19T03:49:42+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba Cloud IMS (Intelligent Media Services) based video translation Skill. Supports subtitle extraction (ASR/OCR), translation, and speech synthesis translation modes. Trigger words: \"视频翻译\", \"translate video\", \"翻译视频\"…时，用它产出或更新：Condition Processing Metho…",
+  "skill_id": "04706-alibabacloud-video-translation-307ea59b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/alibabacloud-video-translation/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/alibabacloud-video-translation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f7e5f4c341da4645169f02e516e40f1132d56ca7396366283ebec0967f21283c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

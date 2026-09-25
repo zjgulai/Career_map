@@ -1,0 +1,22 @@
+{
+  "英文名称": "internal-comms",
+  "中文名称": "待补：internal-comms",
+  "一句话作用": "- A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (stat…",
+  "关键输入": "To write internal communications, use this skill for: - 3P updates (Progress, Plans, Problems) - Company newsletters - FAQ responses - Status reports - Leadership updates - Project updates - Incident reports",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:29:50+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要To write internal communications, use this skill for: - 3P updates (Progress, Plans, Problems) - Company newsletters - FAQ responses - Status reports - Leadership updates - Project updates - Incident reports时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02598-internal-comms-adf0a11a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/internal-comms/SKILL.md",
+  "relative_path": "lute/.dsh/skills/internal-comms/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5499945dbe30b7113e7444a3859e6b5f3b281dad306f6ab796d5e9637be0ef18",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

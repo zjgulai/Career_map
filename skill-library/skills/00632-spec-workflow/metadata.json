@@ -1,0 +1,22 @@
+{
+  "英文名称": "spec-workflow",
+  "中文名称": "待补：spec-workflow",
+  "一句话作用": "Use when medium-to-large changes need explicit requirements, technical design, and task planning before implementation, especially for multi-module work, unclear acceptance criteria, or architecture-heavy requests.",
+  "关键输入": "Create specs/ /requirements.md. What to do: - Restate the problem and scope - Write user stories - Write acceptance criteria in EARS style - Clarify business rules, constraints, and non-goals EARS pattern: Example:",
+  "关键输出": "- requirements.md - problem, scope, user stories, EARS acceptance criteria - design.md - architecture, technical approach, data/API/security/test notes - tasks.md - actionable implementation checklist tied to requirements",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this workflow for structured development when you need to: - Define or refine a new feature - Design complex architecture - Coordinate changes across modules - Plan database or UI-heavy work - Improve requirement qu…时，用它产出或更新：- requirements.md - proble…",
+  "skill_id": "00632-spec-workflow-2fb29ae6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.claude/skills/spec-workflow/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.claude/skills/spec-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1db54acdc1b60bc5efde2fc7ac38019769f8feea4b32c124ba2474a0fbf6702d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "automate",
+  "中文名称": "待补：automate",
+  "一句话作用": "Use this skill to create Cursor Automations.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Recap the draft as a compact Markdown table in plain language. Don't write a planning document, checklist, or \"steps I'll take\": Draft field What will open in the editor ------------- ------------------------------ Name / description Short plain-language value",
+  "最新更新时间": "2026-07-25T14:38:42+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Use this skill to create Cursor Automations.时，用它产出或更新：Recap the draft as a compact Markdown table in plain language. Don't write a planning document, checklist, or \"steps I'll take\": Draft field What will open in the editor ------------- ------------------…",
+  "skill_id": "01995-automate-4b38465e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cursor/skills-cursor/automate/SKILL.md",
+  "relative_path": "lute/.cursor/skills-cursor/automate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a0aadc25417c7cd16fc968a31f04011509b1d3946c29a09887f39a5f194c9e7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

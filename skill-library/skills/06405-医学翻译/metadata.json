@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-medical-literature-translation",
+  "中文名称": "医学翻译",
+  "一句话作用": "医学文献翻译 Skill，面向医学领域文献资料翻译。用于英译中或中译英，覆盖论文、摘要、指南、临床试验、药品资料等医学文献的翻译需求；支持文本片段、指定章节、网页、PDF、飞书文件、文章全文的翻译，中译英只在不改变原意下使用常见医学学术表达。全文翻译默认创建飞书文档提供翻译结果，论文片段、短论文使用 quick answer 模式翻译后直接回答。仅做来源内语言转换，检索或综合多篇证据用医学文献检索技能，具体病例诊疗用临床诊疗与循证技能…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "不回读飞书正文。整篇 create 后只校验原始创建结果： 若分段兜底或修复需要 update，逐次校验更新目标和 revision： 只有命令退出码为 0 且报告 valid=true，门槛 B 才通过。它只检查： - ok=true，且 data.result 存在时为 success； - 返回可用且内部一致的 document ID、文档 URL 和正整数 revision； - update 写入同一 document ID，实际修改了块，且 revision 比上一次成功写入更大；",
+  "最新更新时间": "2026-09-10T16:27:36+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要医学文献翻译 Skill，面向医学领域文献资料翻译。用于英译中或中译英，覆盖论文、摘要、指南、临床试验、药品资料等医学文献的翻译需求；支持文本片段、指定章节、网页、PDF、飞书文件、文章全文的翻译，中译英只在不改变原意下使用常见医学学术表达。全文翻译默认创建飞书文档提供翻译结果，论文片段、短论文使用 quick answer 模式翻译后直接回答。仅做来源内语言转换，检索或综合多篇证据用医学文献检索技能，具体病例诊疗用临床诊疗与循证技能…时，用它产出或更新：不回读飞书正文。整篇 create 后只校验原始创建…",
+  "skill_id": "06405-doubao-medical-literature-translation-704c54c9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-medical-literature-translation/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/530e09a7308532d9c7fa3855f4bea848/doubao/.doubao/agent_mode/workspace/.skills/doubao-medical-literature-translation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ab9cfae9531cc41ed05039977dd255ae228ae7dd6630f3e4fb6cb4783772ef38",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

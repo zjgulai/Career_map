@@ -1,0 +1,22 @@
+{
+  "英文名称": "starrocks-business-analysis-sly",
+  "中文名称": "待补：starrocks-business-analysis-sly",
+  "一句话作用": "该技能用于通过 MCP 查询餐饮企业门店经营数据，涵盖门店画像、营收客流、优惠结算、菜品套餐、渠道来源、员工绩效、运营效率、会员分析、供应链进销存等多维分析，支持跨品牌跨区域对比。典型场景：查门店列表/营收排名/客单价/翻台率/优惠占比/套餐占比/小程序渠道/服务员排名/环比同比/会员消费排行/复购留存/积分流转/优惠券核销/RFM分层/采购分析/耗用分差/毛利/进销存/盘点差异等。",
+  "关键输入": "若 SL UNIFIED G ID 缺失或为空： ⚠️ 当前账号未配置集团编码权限，无法执行数据查询。请联系管理员在机器人配置中添加 SL UNIFIED G ID 参数。 💡 详细补全逻辑与降级行为 → rules/param-fallback.md",
+  "关键输出": "CLI 返回 门店候选 JSON 数组 ，每条候选含： 字段 用途 ------ ------ omShopCode 后续 omShopCodes 参数的取值 （门店 C 号） orgName 向用户展示的门店名称（消歧用） 命中数 AI 行为 -------- -------- 0 条（空数组） 🛑 停止，提示「未找到匹配门店」 1 条 ✅ 直接使用该 omShopCode，无需确认 ≥ 2 条 ⚠️ 列表展示让用户确认 ， 禁止静默选第一条",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要该技能用于通过 MCP 查询餐饮企业门店经营数据，涵盖门店画像、营收客流、优惠结算、菜品套餐、渠道来源、员工绩效、运营效率、会员分析、供应链进销存等多维分析，支持跨品牌跨区域对比。典型场景：查门店列表/营收排名/客单价/翻台率/优惠占比/套餐占比/小程序渠道/服务员排名/环比同比/会员消费排行/复购留存/积分流转/优惠券核销/RFM分层/采购分析/耗用分差/毛利/进销存/盘点差异等。时，用它产出或更新：CLI 返回 门店候选 JSON 数组 ，每条候选含： 字段 用途 ------ ------ omSho…",
+  "skill_id": "05378-starrocks-business-analysis-sly-29bdfaa9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/shanlong-claw/skills/starrocks-business-analysis-sly/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/shanlong-claw/skills/starrocks-business-analysis-sly/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e7e63a39e16aecfdecf1a74c085b04ded08879ec585cbd5e73815881d08e0f22",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

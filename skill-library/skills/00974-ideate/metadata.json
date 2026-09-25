@@ -1,0 +1,22 @@
+{
+  "英文名称": "ideate",
+  "中文名称": "待补：ideate",
+  "一句话作用": "Generate image-based alternatives, remixes, or new design directions from a Product Design brief. Use when the user asks for design variants, visual exploration, remixes, or image-generated approaches from provided cont…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Wait until all Image Gen calls have returned before sending the final message that asks the user to choose. Do not send the final selection message until every requested generated image is visible exactly once in the main chat. If fewer Image Gen outputs are…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Generate image-based alternatives, remixes, or new design directions from a Product Design brief. Use when the user asks for design variants, visual exploration, remixes, or image-generated approaches from provided cont…时，用它产出或更新：Wait until all Image Gen c…",
+  "skill_id": "00974-ideate-d1894e90",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/product-design/skills/ideate/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/product-design/skills/ideate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "649e8782ca93d5aece712964fae5be2b111cc3143577e1507b98df7f9d8e6bde",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

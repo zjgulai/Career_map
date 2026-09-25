@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-did-difference-in-differences",
+  "中文名称": "待补：p2s-did-difference-in-differences",
+  "一句话作用": "触发词：双重差分、平行趋势、处理组对照、促销因果效应、事件研究。何时不用：要评估单站点功能增量的因果影响用「推荐系统财务归因」；要看促销的供应侧全成本用「促销供应侧 ROI」。安全边界：平行趋势假设需业务判断，不满足时结论不可用；分析所需用户级数据须脱敏并遵守隐私法规。",
+  "关键输入": "输入 ：处理组与对照组的单元级时间序列数据，列为单元标识、时间、处理标志与结果变量（销量、转化率等），需覆盖干预前后足够期数。 输出 ：干预的净因果效应估计（系数、标准误、t 值、p 值与置信区间）及事件研究结果，用于评估促销或政策变化的真实增量。",
+  "关键输出": "输入 ：处理组与对照组的单元级时间序列数据，列为单元标识、时间、处理标志与结果变量（销量、转化率等），需覆盖干预前后足够期数。 输出 ：干预的净因果效应估计（系数、标准误、t 值、p 值与置信区间）及事件研究结果，用于评估促销或政策变化的真实增量。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：双重差分、平行趋势、处理组对照、促销因果效应、事件研究。何时不用：要评估单站点功能增量的因果影响用「推荐系统财务归因」；要看促销的供应侧全成本用「促销供应侧 ROI」。安全边界：平行趋势假设需业务判断，不满足时结论不可用；分析所需用户级数据须脱敏并遵守隐私法规。时，用它产出或更新：输入 ：处理组与对照组的单元级时间序列数据，列为单元标识、时间、处理标志与结果变量（销量、转化率等），需覆盖干预前后足够期数。 输出 ：干预的净因果效应估计（系数、标准误、t 值、p 值与置信区间）及事件研究结果，用于评估…",
+  "skill_id": "12535-p2s-did-difference-in-differences-82b04ed6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-did-difference-in-differences/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-did-difference-in-differences/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e84366bcd4ef2a54ef437e6d16543f411f0d3eb56e55d2682763f9b213b250c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

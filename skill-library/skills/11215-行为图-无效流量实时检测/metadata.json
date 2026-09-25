@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ad-fraud-ivt-detection",
+  "中文名称": "行为图 无效流量实时检测",
+  "一句话作用": "触发词：无效流量、IVT 检测、点击农场、行为图、异常会话、无效点击申诉。何时不用：只有正常波动或缺少会话级行为日志时不要下作弊结论；流量真实但 ROI 低时用归因或饱和分析。安全边界：行为分析需符合个保法要求并留存审计日志，不得凭单次判定封禁真实用户，申诉只走平台官方渠道。",
+  "关键输入": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-12T10:58:29+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴品牌 TikTok/Google 广告月均 30 万投放中 15-25% 为无效点击（Bot/竞品刷量），ROAS 被高估 30%——行为图 WTG + DGCNN 将 IVT 识别率提升至 95%+，年化节省无效广告支出 5-15 万元，并为平台申诉提供量化证据时，用它产出或更新：（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11215-p2s-ad-fraud-ivt-detection-6b8f2d53",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-ad-fraud-ivt-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-ad-fraud-ivt-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6d6479fe0a1bbf887fc465e27362ced3f4f803bcacbeb479c94fe2cf536e2b24",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

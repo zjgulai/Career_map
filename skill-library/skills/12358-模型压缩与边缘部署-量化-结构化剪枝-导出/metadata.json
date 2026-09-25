@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-model-compression-edge-deployment",
+  "中文名称": "模型压缩与边缘部署 量化 结构化剪枝 导出",
+  "一句话作用": "触发词：模型压缩、INT8 量化、结构化剪枝、ONNX 导出、边缘部署、推理延迟。何时不用：模型还在训练与精度调优阶段时用不到本技能；要优化实时改价决策本身用「实时竞品重定价」。安全边界：量化后须在目标硬件上验证精度再上线；本地推理不得记录无关员工行为数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要工程师面临\"预测模型推理延迟500ms无法满足实时调价要求\"——INT8量化+ONNX将推理延迟从500ms降至38ms，在边缘设备部署成本降低80%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12358-p2s-model-compression-edge-deployment-74dedb42",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-model-compression-edge-deployment/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-model-compression-edge-deployment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "104b778009d10b7d41e35d360f3d3305d1f30901e05ee28e4269a379a0f1a4a6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

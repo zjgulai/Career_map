@@ -1,0 +1,22 @@
+{
+  "英文名称": "ai-product-designer",
+  "中文名称": "待补：ai-product-designer",
+  "一句话作用": "Product development workflow with design image generation. Use ONLY when the user explicitly asks for design images (设计图/产品设计/visualize product): create 3 distinct design proposals with generated images, compare them, t…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T20:36:07+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Product development workflow with design image generation. Use ONLY when the user explicitly asks for design images (设计图/产品设计/visualize product): create 3 distinct design proposals with generated images, compare them, t…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02405-ai-product-designer-acb795fe",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/scratch/tree-0079/packages/capabilities/dsh-overseas-skills/backup/pre-81/ai-product-designer/SKILL.md",
+  "relative_path": "lute/.dsh/scratch/tree-0079/packages/capabilities/dsh-overseas-skills/backup/pre-81/ai-product-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "846609bdb4a1eab277b4ef0ab261534f37e29c069d12dc678e5423312e1f4aa5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

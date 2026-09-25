@@ -1,0 +1,22 @@
+{
+  "英文名称": "营销文案",
+  "中文名称": "营销文案",
+  "一句话作用": "撰写营销文案，覆盖销售文案、品牌故事、产品描述（含电商详情页/Listing文案）和Landing Page文案。触发词：营销文案、文案写作、销售文案、品牌故事、产品描述、landing page文案。何时不用：广告创意/slogan（用 mkt-ad-creative）、任何邮件正文（用 mkt-email-sequence）、社媒帖子/推文/短视频脚本/内容日历（用 mkt-social-content）、冷邮件/网红邀约（用 m…",
+  "关键输入": "- 为着陆页和销售物料撰写销售文案 - 创作品牌故事与起源叙事 - 为电商撰写产品描述 - 优化着陆页内容以提升转化",
+  "关键输出": "Landing Page首屏文案 : 主标题: \"告别[痛点]，开启[愿景]\" 副标题: \"[产品名]帮助[目标用户]在[时间]内实现[具体结果]，无需[常见障碍]\" CTA按钮: \"立即开始免费试用\" 完整落地页文案范式与多行业销售文案样例见 references/copywriting-frameworks.md；可直接套用的成稿范例见 examples/sales-copy-sample.md。",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 为着陆页和销售物料撰写销售文案 - 创作品牌故事与起源叙事 - 为电商撰写产品描述 - 优化着陆页内容以提升转化时，用它产出或更新：Landing Page首屏文案 : 主标题: \"告别[痛点]，开启[愿景]\" 副标题: \"[产品名]帮助[目标用户]在[时间]内实现[具体结果]，无需[常见障碍]\" CTA按钮: \"立即开始免费试用\" 完整落地页文案范式与多行业销售文案样例见 references/copywriting-frameworks.md；可直接套用的成稿范例见 examples/sales-c…",
+  "skill_id": "10528-skill-b7532167",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/81-Skills/营销文案/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/81-Skills/营销文案/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "31224c07e50731a2c95cd8123d0c6bc014b9067f028180005eb3364ea4a34c2d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

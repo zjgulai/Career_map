@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-tscn-format",
+  "中文名称": "场景文件格式规范",
+  "一句话作用": "Godot .tscn 场景文件格式规范。让 AI 能够直接读写 Godot 场景文件，理解节点树结构、外部/内嵌资源引用、Transform 变换、信号连接等。当需要创建或修改 .tscn 文件时使用此 Skill。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Godot .tscn 场景文件格式规范。让 AI 能够直接读写 Godot 场景文件，理解节点树结构、外部/内嵌资源引用、Transform 变换、信号连接等。当需要创建或修改 .tscn 文件时使用此 Skill。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05960-godot-tscn-format-b5f34d06",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-tscn-format/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/godot-tscn-format/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "82a39a565ed572b628cba0c877af2065a2a2a74f4747d10dbfa1b9e1bfb075b7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

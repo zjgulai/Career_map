@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-insight-product-selection",
+  "中文名称": "待补：market-insight-product-selection",
+  "一句话作用": "Single-category / single-product trend and market analysis: validate demand, momentum, competitive intensity, and customer pain from reviews and comments (TikTok/Amazon, US/UK markets) to produce a confident shortlist o…",
+  "关键输入": "Cross-source validation : Connect insights from multiple sources to form structured judgments - Example: \"Google Trends shows 2x search growth + Amazon data shows $60-80 trail shoes have high ratings but limited supply + Alibaba shows only X suppliers = blue…",
+  "关键输出": "Text conclusions : Include reasoning chains that connect data to insights. Visual evidence (include whenever possible to enhance user understanding): - Images from search results : When tool results return images with reference IDs, display 3-6 representative…",
+  "最新更新时间": "2026-09-23T02:20:00+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Single-category / single-product trend and market analysis: validate demand, momentum, competitive intensity, and customer pain from reviews and comments (TikTok/Amazon, US/UK markets) to produce a confident shortlist o…时，用它产出或更新：Text conclusions : Include…",
+  "skill_id": "10968-market-insight-product-selection-cc51122c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-3bbee86f/packages/capabilities/dsh-overseas-skills/backup/pre-81/market-insight-product-selection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-3bbee86f/packages/capabilities/dsh-overseas-skills/backup/pre-81/market-insight-product-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0652b7a56304e41e801d77995bb043fbaa9bbad3e54410acc3686f2e267d9983",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

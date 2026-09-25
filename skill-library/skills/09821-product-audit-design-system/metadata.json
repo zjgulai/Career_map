@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-audit-design-system",
+  "中文名称": "待补：product-audit-design-system",
+  "一句话作用": "Use for AuditScope medical insurance audit interfaces, evidence review workflows, knowledge-base query pages, review-task desks, audit logs, and operational consoles that require serious, traceable, professional healthc…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-11T16:21:54+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Use for AuditScope medical insurance audit interfaces, evidence review workflows, knowledge-base query pages, review-task desks, audit logs, and operational consoles that require serious, traceable, professional healthc…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09821-product-audit-design-system-82d1ec29",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/medical_audit/opendesign/design-systems/product-audit/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/medical_audit/opendesign/design-systems/product-audit/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ecf34a70786455ff2adfb840321b0fd50b47a13810228c53ae8d5be0488233d9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

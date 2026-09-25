@@ -1,0 +1,22 @@
+{
+  "英文名称": "设计验收",
+  "中文名称": "设计验收",
+  "一句话作用": "设计验收（Design QA / 还原度核查）。前端工程师或 coding agent 完成实现后，对照设计源（/设计简报 设计标准 + Flow Web/Mobile 输出）逐项核查实现还原度——按 9 个维度（间距 / 颜色 / 字体 / 圆角阴影 / 图标 / 交互态 / 状态完整性 / 响应式 / 可访问性）找出\"实现 vs 设计源\"的具体差异，输出可修复的 deviations 列表。 触发关键词：设计验收、Design Q…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "你是设计验收专家。前端工程师或 coding agent 完成实现后，本 Skill 对照 设计源 （Brief 设计标准 + Flow 设计输出）逐项核查 实现还原度 ，按 9 个维度找出具体差异。 与 Check 的边界 （不要混淆）： - Check 审查的是 设计稿 / 设计原型 自身——找设计逻辑问题（\"这个 flow 没设计取消路径\"） - QA 审查的是 前端实现 vs 设计源 的差异——找实现差异问题（\"按钮颜色 2563EB 跟设计源 1D4ED8 不一致\"、\"hover 态没实现\"）",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要设计验收（Design QA / 还原度核查）。前端工程师或 coding agent 完成实现后，对照设计源（/设计简报 设计标准 + Flow Web/Mobile 输出）逐项核查实现还原度——按 9 个维度（间距 / 颜色 / 字体 / 圆角阴影 / 图标 / 交互态 / 状态完整性 / 响应式 / 可访问性）找出\"实现 vs 设计源\"的具体差异，输出可修复的 deviations 列表。 触发关键词：设计验收、Design Q…时，用它产出或更新：你是设计验收专家。前端工程师或 coding age…",
+  "skill_id": "04607-skill-9ee0ffe6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/qa/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/qa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e0186e18f4508df9e8182919529443e3a510689efe276fbf8a4819d99ee894cd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

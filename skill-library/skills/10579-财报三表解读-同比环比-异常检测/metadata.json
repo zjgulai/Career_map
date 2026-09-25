@@ -1,0 +1,22 @@
+{
+  "英文名称": "financial-report-reader",
+  "中文名称": "财报三表解读 同比环比 异常检测",
+  "一句话作用": "财报三表（利润表、资产负债表、现金流量表）深度解读，自动进行同比/环比变动分析并执行多维度财务异常检测（如应收账款暴增、经营现金流与净利润背离、存货积压及毛利率突变等）。当用户需要解读财报、分析三表、做同比/环比比较、检测财务异常信号、评估现金流质量或计算关键财务比率时触发，关键词包括财报、三表、同比、环比、异常检测、应收账款、现金流背离、毛利率、financial statements、earnings report。",
+  "关键输入": "脚本接受 JSON 文件，格式如下： 字段说明： - periods 支持季度格式（2024Q1）和年度格式（2024），脚本自动识别 - 各数组长度必须与 periods 长度一致 - 缺少的字段会跳过对应分析（不会报错） - unit 为显示单位，仅用于报告展示",
+  "关键输出": "python scripts/analyze financials.py data.json --json",
+  "最新更新时间": "2026-09-14T00:06:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要财报三表（利润表、资产负债表、现金流量表）深度解读，自动进行同比/环比变动分析并执行多维度财务异常检测（如应收账款暴增、经营现金流与净利润背离、存货积压及毛利率突变等）。当用户需要解读财报、分析三表、做同比/环比比较、检测财务异常信号、评估现金流质量或计算关键财务比率时触发，关键词包括财报、三表、同比、环比、异常检测、应收账款、现金流背离、毛利率、financial statements、earnings report。时，用它产出或更新：python scripts/analyze financials.…",
+  "skill_id": "10579-financial-report-reader-cacf0f88",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/financial-report-reader/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/financial-report-reader/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "68ecc63a68f2c35d7f0fdf875ea5343c0d0dbbba9a85c26fcdd3e432c85055f5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

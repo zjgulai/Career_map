@@ -1,0 +1,22 @@
+{
+  "英文名称": "uniprot-skill",
+  "中文名称": "待补：uniprot-skill",
+  "一句话作用": "Submit compact UniProt REST API requests for UniProtKB, UniRef, UniParc, and FASTA stream endpoints. Use when a user wants concise UniProt summaries; save raw JSON or FASTA only on request.",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common UniProt patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records, a compact summary, or text head. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact UniProt REST API requests for UniProtKB, UniRef, UniParc, and FASTA stream endpoints. Use when a user wants concise UniProt summaries; save raw JSON or FASTA only on request.时，用它产出或更新：- Success returns ok, source, path, method, status code,…",
+  "skill_id": "00915-uniprot-skill-5e30eb93",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/uniprot-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/uniprot-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "456b5f2cb25b12403b5f000fa808bbc1f1278709bedbffdc4919a7677d31fe2c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

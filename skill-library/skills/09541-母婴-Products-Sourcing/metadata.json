@@ -1,0 +1,22 @@
+{
+  "英文名称": "china-toys-sourcing",
+  "中文名称": "母婴 Products Sourcing",
+  "一句话作用": "China toys and母婴 products sourcing agent. Specialized for玩具、童车、早教用品采购. Supplier audit, safety certification verification (EN71, ASTM F963, CPSIA, CCC), quality inspection, and export logistics coordination.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要China toys and母婴 products sourcing agent. Specialized for玩具、童车、早教用品采购. Supplier audit, safety certification verification (EN71, ASTM F963, CPSIA, CCC), quality inspection, and export logistics coordination.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09541-china-toys-sourcing-b481fe4d",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/china-toys-sourcing/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/china-toys-sourcing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "38a54a042a1635272187732b850df0166b2aeba8652a6988a9112594a305eb24",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

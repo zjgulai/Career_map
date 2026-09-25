@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-pricing-optimization",
+  "中文名称": "母婴跨境电商定价优化分析 Skill",
+  "一句话作用": "母婴跨境电商定价优化分析Skill。基于价格弹性分析、竞品定价对比、促销效果评估，充分考虑母婴行业特性(安全溢价、订阅定价、生命周期定价)，提供科学的定价策略建议。 触发条件: 1. 用户提到\"定价策略\"、\"价格优化\"、\"调价建议\"、\"母婴定价\" 2. 用户询问\"价格弹性\"、\"最优定价\"、\"动态定价\"、\"安全溢价\" 3. 用户需要\"竞品价格对比\"、\"促销定价\"、\"订阅定价\"分析 4. 用户询问\"订阅制定价\"、\"宝宝月龄定价\"、\"节日定…",
+  "关键输入": "必需字段 : 字段 类型 说明 ------ ------ ------ sku string 产品SKU date date 日期 price numeric 销售价格 quantity numeric 销售数量 cost numeric 单位成本 可选字段 : 字段 类型 说明 ------ ------ ------ competitor price numeric 竞品价格",
+  "关键输出": "1. 价格弹性报告",
+  "最新更新时间": "2026-03-04T17:04:54+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要母婴跨境电商定价优化分析Skill。基于价格弹性分析、竞品定价对比、促销效果评估，充分考虑母婴行业特性(安全溢价、订阅定价、生命周期定价)，提供科学的定价策略建议。 触发条件: 1. 用户提到\"定价策略\"、\"价格优化\"、\"调价建议\"、\"母婴定价\" 2. 用户询问\"价格弹性\"、\"最优定价\"、\"动态定价\"、\"安全溢价\" 3. 用户需要\"竞品价格对比\"、\"促销定价\"、\"订阅定价\"分析 4. 用户询问\"订阅制定价\"、\"宝宝月龄定价\"、\"节日定…时，用它产出或更新：1. 价格弹性报告",
+  "skill_id": "09426-cbec-pricing-optimization-0a42ebc8",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/09-pricing-analysis/pricing-optimization/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/09-pricing-analysis/pricing-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c82f7d6e2c94f093b8668cc665a6fe4657b7d75e9b4f2c85dd0e6a2cfb680d47",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

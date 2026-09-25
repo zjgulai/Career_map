@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-compliance-violation-auto-escalation",
+  "中文名称": "平台合规警告按严重程度自动分级升级响应",
+  "一句话作用": "触发词：违规分级升级、合规警告、P0/P1/P2、响应 SLA、申诉草稿。何时不用：要修 Amazon 合规报错码做字段级修复用「合规错误自动修复」；要提前监控政策页变更用「平台政策变更自适应监控」。安全边界：分级判据与响应规程是产物，申诉文本与整改动作须合规专员复核后提交；含医疗声明、安全声明等敏感表述不得由模型单方面定稿。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规负责人面临\"平台警告响应不及时导致升级为封号\"——按P0/P1/P2自动分级响应将合规警告处理时效从48h缩短至4h，年化避免封号损失100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02927-p2s-compliance-violation-auto-escalation-2e5cfc75",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-compliance-violation-auto-escalation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-compliance-violation-auto-escalation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b65da72fbeca00f36e36035f0c172987bfa729bb3896cd01c68f611f6f40a3d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-prelaunch-ad-budget",
+  "中文名称": "待补：amazon-prelaunch-ad-budget",
+  "一句话作用": "- Size a pre-launch Amazon ad test budget: keyword CPC, budget scenarios, expected vs breakeven vs target ACoS. Use when the user has a product, price and launch plan and asks about ad spend. 【需Jungle Scout MCP】",
+  "关键输入": "You need at minimum an ASIN or one or more seed keywords . Everything else has a sensible default. Confirm or collect: - ASIN and/or keywords. An ASIN drives a reverse-ASIN lookup (js keywords by asin) to discover the product's real ranking keywords; seed",
+  "关键输出": "Lead with the numbers people came for: starter budget (daily and monthly), launch budget , and the ACoS block — market-expected ACoS, breakeven ACoS (or \"not computable — profit inputs missing\"), and suggested target ACoS — plus the one-line affordability ver…",
+  "最新更新时间": "2026-09-08T00:49:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要详见 references/when-to-use.md（要点：涉及预算/ACoS/出价/“多少钱”的广告测算即触发；路由前置：demand-check → margin-check → 本技能）。时，用它产出或更新：Lead with the numbers people came for: starter budget (daily and monthly), launch budget , and the ACoS block — market-expected ACoS, breakeven ACo…",
+  "skill_id": "02444-amazon-prelaunch-ad-budget-7985b192",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/amazon-prelaunch-ad-budget/SKILL.md",
+  "relative_path": "lute/.dsh/skills/amazon-prelaunch-ad-budget/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cf1bac0afbef641406c77c570038add069a5b21e2ee14ad5bf1a45b6172e2121",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

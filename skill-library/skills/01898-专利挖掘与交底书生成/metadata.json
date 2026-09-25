@@ -1,0 +1,22 @@
+{
+  "英文名称": "patent-disclosure-skill",
+  "中文名称": "专利挖掘与交底书生成",
+  "一句话作用": "通用中国专利挖掘发现与交底书生成全流程：扫描项目文档挖掘专利点、讨论融合、基于脱敏模版生成技术交底书、联网查新、生成后自检含逻辑闭环与公式参数一致性。 Patent mining, disclosure drafting, prior-art search, and consistency self-check.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-14T20:59:07+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要通用中国专利挖掘发现与交底书生成全流程：扫描项目文档挖掘专利点、讨论融合、基于脱敏模版生成技术交底书、联网查新、生成后自检含逻辑闭环与公式参数一致性。 Patent mining, disclosure drafting, prior-art search, and consistency self-check.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01898-patent-disclosure-skill-a8e1ee74",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/patent-disclosure-skill/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/patent-disclosure-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f415914f692e8d5ac8e480410ac6a9a42aa57864f170b21560c01eeb260f9ad2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

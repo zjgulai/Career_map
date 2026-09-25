@@ -1,0 +1,22 @@
+{
+  "英文名称": "dtc-voc-3layer-analysis",
+  "中文名称": "待补：dtc-voc-3layer-analysis",
+  "一句话作用": "DTC 母婴品牌三层用户声音（VOC）交叉分析 SOP： Layer 1 = Amazon 评论（购买后结构化反馈）； Layer 2 = 社交 VOC（Reddit + X，自发讨论，更真实）； Layer 3 = DTC 差评（品牌官网 1-3★，痛点最集中）。 三层交叉验证，输出统一洞察报告 + 竞品对比 + 内容弹药。 触发场景：「用户怎么说」「痛点挖掘」「VOC 分析」「差评分析」 「竞品对比」「内容素材」「用户洞察」「社交…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T18:56:14+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要DTC 母婴品牌三层用户声音（VOC）交叉分析 SOP： Layer 1 = Amazon 评论（购买后结构化反馈）； Layer 2 = 社交 VOC（Reddit + X，自发讨论，更真实）； Layer 3 = DTC 差评（品牌官网 1-3★，痛点最集中）。 三层交叉验证，输出统一洞察报告 + 竞品对比 + 内容弹药。 触发场景：「用户怎么说」「痛点挖掘」「VOC 分析」「差评分析」 「竞品对比」「内容素材」「用户洞察」「社交…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01789-dtc-voc-3layer-analysis-f7c80c75",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/dtc-voc-3layer-analysis/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/dtc-voc-3layer-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d01a0fc3135b88977a43d5b6d9c604b858837a27a565f92d2234e583e05a53b4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

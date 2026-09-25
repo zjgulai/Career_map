@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-smart-assistant-settings",
+  "中文名称": "自然语言设置控制",
+  "一句话作用": "Smart Assistant natural-language settings control skill for Alibaba.com sellers. Use when the merchant wants the agent to view, explain, compare, enable, disable, or update any Smart Assistant feature switch or setting…",
+  "关键输入": "用户意图 / User Intent 中文示例 English Examples --- --- --- 查看某个功能的当前状态 “我想看 Auto reception 现在怎么配的” “Show my Auto reception settings” 更新某个功能的开关或字段 “把 Smart RFQ quote 打开” “Turn on Smart RFQ quote” 查看某个 section 下有哪些功能在运行 “看看 Pro…",
+  "关键输出": "先检测用户输入语言，再执行和回复。输出语言必须跟随用户输入语言；若无法识别，则默认英文。无论输出语言是什么， 官方功能名始终保持英文 ，不要翻译为中文别名或其他语种译名。 输入语言 输出语言 保持英文的专有名词 --- --- --- 中文 中文 Smart Assistant, Message, Product, RFQ, Risk & compliance, Auto reception, Smart visitor reception, Smart buyer reconnect, Smart RFQ qu…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要用户意图 / User Intent 中文示例 English Examples --- --- --- 查看某个功能的当前状态 “我想看 Auto reception 现在怎么配的” “Show my Auto reception settings” 更新某个功能的开关或字段 “把 Smart RFQ quote 打开” “Turn on Smart RFQ quote” 查看某个 section 下有哪些功能在运行 “看看 Pro…时，用它产出或更新：先检测用户输入语言，再执行和回复。输出语言必须跟随用…",
+  "skill_id": "00183-alibaba-global-smart-assistant-settings-a54ace1e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-smart-assistant-settings/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-smart-assistant-settings/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3a807450f9296981ffd2b7dcd841ae9245370633a1d39febac7ef46f01cce696",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

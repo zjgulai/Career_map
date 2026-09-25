@@ -1,0 +1,22 @@
+{
+  "英文名称": "ios-ettrace-performance",
+  "中文名称": "待补：ios-ettrace-performance",
+  "一句话作用": "Capture and interpret iOS Simulator ETTrace profiles. Use when profiling launch or runtime latency, comparing traces, or finding CPU-heavy stacks.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "The next ETTrace run can overwrite processed flamegraph files, so preserve fresh output .json files immediately. Do not analyze a saved output.json; ETTrace also serves a viewer route with that name, and raw emerge-output/output.json files are not the process…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Capture and interpret iOS Simulator ETTrace profiles. Use when profiling launch or runtime latency, comparing traces, or finding CPU-heavy stacks.时，用它产出或更新：The next ETTrace run can overwrite processed flamegraph files, so preserve fresh output .json files…",
+  "skill_id": "00713-ios-ettrace-performance-9a919861",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-ios-apps/skills/ios-ettrace-performance/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-ios-apps/skills/ios-ettrace-performance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1888c0b2fc6b7d9f3d54d06333e9628a2c4660b9d9b5ddf3edc37f126c773935",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

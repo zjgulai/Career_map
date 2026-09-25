@@ -1,0 +1,22 @@
+{
+  "英文名称": "acc-create-object-pool",
+  "中文名称": "待补：acc-create-object-pool",
+  "一句话作用": "Generates Object Pool pattern for PHP 8.5. Creates reusable object containers for expensive resources like connections. Includes unit tests.",
+  "关键输入": "Scenario Example ---------- --------- Expensive creation Database connections Limited resources HTTP client handles Connection reuse Socket connections Memory management Large object caching",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:24+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Scenario Example ---------- --------- Expensive creation Database connections Limited resources HTTP client handles Connection reuse Socket connections Memory management Large object caching时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04686-acc-create-object-pool-4562e1f4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/acc-create-object-pool/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/acc-create-object-pool/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2869907b47b04ed975af93bacc6e5e314be589f0cf2f91392ba6ec61d9cd195d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

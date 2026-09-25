@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-price-signal-collection",
+  "中文名称": "竞品价格信号实时采集与结构化",
+  "一句话作用": "触发词：竞品价格采集、价格信号融合、多平台比价、价格突变检测、调价响应。何时不用：要判断的是自家 SKU 的定价效率（销售额/可售库存）时用「REVPAS 定价效率」。安全边界：采集须遵守平台条款与数据使用规范；只做采集与融合，不自动发起调价。",
+  "关键输入": "dt min=15（促销期可调至 5 min） dt max=1440（非活跃 SKU 每天一次） lam=3.0（调高 → 更激进高频；调低 → 更平滑） 反爬应对：建议使用住宅 IP 代理池 + User-Agent 轮换 + 随机延迟 [0.5, 3.0]s 汇率更新：CURRENCY RATES 应每小时从 ECB/OpenExchangeRates 刷新",
+  "关键输出": "dt min=15（促销期可调至 5 min） dt max=1440（非活跃 SKU 每天一次） lam=3.0（调高 → 更激进高频；调低 → 更平滑） 反爬应对：建议使用住宅 IP 代理池 + User-Agent 轮换 + 随机延迟 [0.5, 3.0]s 汇率更新：CURRENCY RATES 应每小时从 ECB/OpenExchangeRates 刷新",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要价格运营面临市场价信号分散——价格信号采集将监控覆盖率提40%，年化省8万元时，用它产出或更新：dt min=15（促销期可调至 5 min） dt max=1440（非活跃 SKU 每天一次） lam=3.0（调高 → 更激进高频；调低 → 更平滑） 反爬应对：建议使用住宅 IP 代理池 + User-Agent 轮换 + 随机延迟 [0.5, 3.0]s 汇率更新：CURRENCY RATES 应每小时从 ECB/OpenExchangeRates 刷新",
+  "skill_id": "03620-p2s-price-signal-collection-0b4754e5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-price-signal-collection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-price-signal-collection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "89e56608b6196b495cb4c8319a5e051adedbfc730dcfb27a2649d3e8c26e2b2c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

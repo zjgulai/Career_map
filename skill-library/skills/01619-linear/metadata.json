@@ -1,0 +1,22 @@
+{
+  "英文名称": "linear",
+  "中文名称": "待补：linear",
+  "一句话作用": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
+  "关键输入": "- Linear MCP server must be connected and accessible via OAuth - Confirm access to the relevant Linear workspace, teams, and projects",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Authentication: Clear browser cookies, re-run OAuth, verify workspace permissions, ensure API access is enabled. - Tool Calling Errors: Confirm the model supports multiple tool calls, provide all required fields, and…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01619-linear-8727cd58",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/linear/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/linear/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ce0f39c95b6c9190f8ea33614393cdb556b2684dd8388ded394e9cb915f42601",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

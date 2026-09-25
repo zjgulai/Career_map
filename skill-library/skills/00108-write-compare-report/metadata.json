@@ -1,0 +1,22 @@
+{
+  "英文名称": "write-compare-report",
+  "中文名称": "待补：write-compare-report",
+  "一句话作用": "Unified compare skill for product comparisons, supplier comparisons, and inquiry/auto-chat seller-response comparisons. Trigger when the buyer wants to compare, rank, choose, or decide between products, suppliers, quote…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "These hold for every branch and every rendered block, and they are stated here only — §4a and §4b list nothing but their own branch extras: - No raw IDs in buyer output : taskId, sellerId, supplierId, productId, detailId are internal-only. Buyer-facing copy u…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Unified compare skill for product comparisons, supplier comparisons, and inquiry/auto-chat seller-response comparisons. Trigger when the buyer wants to compare, rank, choose, or decide between products, suppliers, quote…时，用它产出或更新：These hold for every branc…",
+  "skill_id": "00108-write-compare-report-bba445aa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/write-compare-report/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/write-compare-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "51d2759b39e2a9a91c65f7c44e60243a27693bcbe8c2ae83c5468ea121806bb6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

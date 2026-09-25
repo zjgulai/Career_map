@@ -1,0 +1,22 @@
+{
+  "英文名称": "image-to-code",
+  "中文名称": "待补：image-to-code",
+  "一句话作用": "Implement a selected image, screenshot, mockup, or Image Gen reference as a faithful, responsive frontend.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Implement a selected image, screenshot, mockup, or Image Gen reference as a faithful, responsive frontend.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00975-image-to-code-aa4f484c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/product-design/skills/image-to-code/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/product-design/skills/image-to-code/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "694b4102bc339e3038173f8063d83a19e08d2a2cfab1f2e478d6412870a61ff0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-messaging-services",
+  "中文名称": "待补：twilio-messaging-services",
+  "一句话作用": "Create and configure Twilio Messaging Services for production messaging. Covers sender pools, geo-match, sticky sender, message scheduling, compliance toolkit, SMS pumping protection, link shortening, and intelligent al…",
+  "关键输入": "- Twilio account with at least one SMS-capable phone number — New to Twilio? See twilio-account-setup - Environment variables: - TWILIO ACCOUNT SID - TWILIO AUTH TOKEN — See twilio-iam-auth-setup for credential setup and best practices - SDK: pip install twil…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create and configure Twilio Messaging Services for production messaging. Covers sender pools, geo-match, sticky sender, message scheduling, compliance toolkit, SMS pumping protection, link shortening, and intelligent al…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01091-twilio-messaging-services-4944a03c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-messaging-services/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-messaging-services/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a97ec167553e1d1832e8a8a13d29ad40fcbcab65ef56f873d1f659937dda67a0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-laca-crosslingual-absa",
+  "中文名称": "跨语言 ABSA - LLM 数据增强多语种情感分析",
+  "一句话作用": "触发词：跨语言 ABSA、多语种评论、伪标签增强、客服工单分类、低资源语种。何时不用：能直接用英文语料分析或只需机翻粗看时用「AGRS 属性引导评论摘要」；要处理的是评分口径而非方面抽取，用「跨文化 VOC 对齐」。安全边界：LLM 合成句子只能用于训练、不得当作真实用户反馈引用；客服日志须按《个人信息保护法》与跨境数据合规要求脱敏。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Momcozy 在德/法/西市场每月接收 5000+ 母语客服工单(如德语 \"Die Verpackung ist sehr schwer zu öffnen\"). 传统做法用 Google Translate 翻译成英文后跑英文 ABSA,翻译会丢失 aspect 对齐(\"Verpackung\" → \"package\" 时 BIO 边界错位 30%+). 跨境品牌每月因机翻错误导致工单时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11273-p2s-laca-crosslingual-absa-ea175178",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-laca-crosslingual-absa/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-laca-crosslingual-absa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7ab66c946ad727f6f6c898d59a7d6f127248f98bfad4f93c01a18daf07c3c57",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

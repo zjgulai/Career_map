@@ -1,0 +1,22 @@
+{
+  "英文名称": "architecture-patterns",
+  "中文名称": "待补：architecture-patterns",
+  "一句话作用": "Implement proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design. Use when architecting complex backend systems or refactoring existing applications for bette…",
+  "关键输入": "- Designing new backend systems from scratch - Refactoring monolithic applications for better maintainability - Establishing architecture standards for your team - Migrating from tightly coupled to loosely coupled archi…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- Designing new backend systems from scratch - Refactoring monolithic applications for better maintainability - Establishing architecture standards for your team - Migrating from tightly coupled to loosely coupled archi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05567-architecture-patterns-7668e7fa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/architecture-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/architecture-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bfab0b9bd2521a86eeb47edc7ef939adcd7f60666c996d7461e6cb73c18327d3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

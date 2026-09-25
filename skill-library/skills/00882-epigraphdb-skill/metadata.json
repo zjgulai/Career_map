@@ -1,0 +1,22 @@
+{
+  "英文名称": "epigraphdb-skill",
+  "中文名称": "待补：epigraphdb-skill",
+  "一句话作用": "Submit compact EpiGraphDB API requests for ontology, literature, MR, gene-drug, and support-path evidence. Use when a user wants concise EpiGraphDB summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common EpiGraphDB patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact EpiGraphDB API requests for ontology, literature, MR, gene-drug, and support-path evidence. Use when a user wants concise EpiGraphDB summaries时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, and either compact rec…",
+  "skill_id": "00882-epigraphdb-skill-5fea70bd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/epigraphdb-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/epigraphdb-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ef2dd77e3dbafa518ba07dde2617a285622288923f1d0568d4e2f1c2b502004",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

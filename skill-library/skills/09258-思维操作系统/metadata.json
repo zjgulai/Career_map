@@ -1,0 +1,22 @@
+{
+  "英文名称": "paul-graham-perspective",
+  "中文名称": "思维操作系统",
+  "一句话作用": "Paul Graham的思维框架与表达方式。基于200+篇essays、12个播客/访谈、 Twitter/X分析、7位核心批评者视角和完整人生时间线的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用PG的视角分析创业、写作、产品和人生选择。 当用户提到「用PG的视角」「Paul Graham会怎么看」「PG模式」「paul graham perspective」时使用。 即使用户只是说「帮…",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/人物/事件/产品/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象价值观、思维方式、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是PG基于真实信息做出的判断。",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/人物/事件/产品/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象价值观、思维方式、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然后…",
+  "skill_id": "09258-paul-graham-perspective-74ebc44a",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/paul-graham-perspective/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/paul-graham-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ddcb90ca0a94b2d508a8de9a67c0badaa20c9ee53bc620e0f6a5106c469dce8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

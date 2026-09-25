@@ -1,0 +1,22 @@
+{
+  "英文名称": "supply-chain-solution-storyline",
+  "中文名称": "供应链方案故事线与评估",
+  "一句话作用": "Use when users ask to convert supply chain diagnostics into executive storylines, assessment reports, kickoff narratives, co-creation briefings, roadmap decisions, or management-level alignment materials. Not for L0-L3指…",
+  "关键输入": "- 用户要把诊断结果讲成管理层可拍板故事线。 - 用户要做方案评估报告、立项叙事、联合汇报。 - 用户强调“怎么讲给总监听”“怎么收口到拍板事项”。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-16T20:51:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 用户要把诊断结果讲成管理层可拍板故事线。 - 用户要做方案评估报告、立项叙事、联合汇报。 - 用户强调“怎么讲给总监听”“怎么收口到拍板事项”。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09402-supply-chain-solution-storyline-c1334e03",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/supply-chain-solution-storyline/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.cursor/skills/supply-chain-solution-storyline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e79547df2728b8bba1aff5e88cf1b54cfac3e699736a35d7a92e6ead61a769ff",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

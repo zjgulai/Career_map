@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-context-kubernetes-kb-orchestration",
+  "中文名称": "知识库声明式编排治理 右知识右Agent右权限右新鲜度",
+  "一句话作用": "触发词：知识库声明式编排、知识架构即代码、权限矩阵、知识新鲜度、跨域数据隔离、语义路由。何时不用：只在单个知识库内做文档与字段级角色过滤时用「知识库RBAC」；只做检索延迟与幻觉率监控时用「RAG生产可观测性」；只按用户画像调整回答深度时用「画像驱动检索」。安全边界：Agent 权限矩阵与知识源可见范围必须显式声明，默认拒绝；涉及个人信息与供应商数据须满足 GDPR/CCPA 与跨境电商数据合规要求，未经授权的数据源不得纳入编排。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要无治理的多Agent知识系统在26.5%的查询中返回幽灵内容或发生跨域泄露——Context Kubernetes声明式YAML配置+调谐循环+三层权限模型将此降为0，新鲜度检测延迟仅0.65ms（2026 arXiv:2604.11623）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02943-p2s-context-kubernetes-kb-orchestration-94d7b1d9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-context-kubernetes-kb-orchestration/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-context-kubernetes-kb-orchestration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d011b9fed809673d56265d4341a69d69aca19b3589c1d5879bd857186b0d9c9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-live-real-time-cvr-prediction",
+  "中文名称": "直播间实时CVR预测 基于弹幕情绪与互动信号的秒级转化率预测",
+  "一句话作用": "触发词：弹幕情绪、实时 CVR 预测、直播告警、福利时机、秒级预警。何时不用：要用实时运营指标做转化预测与切品建议用「直播转化率实时预测」；要按弹幕意图切换话术用「直播间实时受众画像」。安全边界：弹幕仅用关键词匹配做情绪分析、不存用户个人身份信息；告警提示语不得含虚假承诺，措辞只能是建议主播动作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要TikTok直播运营面临\"不知道直播间转化率什么时候会下跌无法提前干预\"——秒级CVR预测将转化率下跌预警时间提前90秒，福利话术触发后CVR回升23%，年化$8.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12430-p2s-tiktok-live-real-time-cvr-prediction-7f2ce0d8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-tiktok-live-real-time-cvr-prediction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-tiktok-live-real-time-cvr-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3a62fa8a6211e8d52718cdfb150d76c5b34be43f5083d05f2610eac7db14f1f8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

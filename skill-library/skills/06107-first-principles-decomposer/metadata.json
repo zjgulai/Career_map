@@ -1,0 +1,22 @@
+{
+  "英文名称": "first-principles-decomposer",
+  "中文名称": "待补：first-principles-decomposer",
+  "一句话作用": "Break any problem down to fundamental truths, then rebuild solutions from atoms up. Use when user says \"firstp\", \"first principles\", \"from scratch\", \"what are we assuming\", \"break this down\", \"atomic\", \"fundamental trut…",
+  "关键输入": "- Designing new products or features - Feeling stuck on a complex problem - Existing solutions seem overcomplicated - Need to challenge assumptions - Starting any new project or initiative",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:01:28+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Designing new products or features - Feeling stuck on a complex problem - Existing solutions seem overcomplicated - Need to challenge assumptions - Starting any new project or initiative时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06107-first-principles-decomposer-695f69c6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/first-principles-decomposer/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/first-principles-decomposer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0482fe6979ff37597309058d6e97b28436c6dec71c19feccd46397fe2c9777f2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

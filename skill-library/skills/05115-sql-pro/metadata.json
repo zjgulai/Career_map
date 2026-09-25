@@ -1,0 +1,22 @@
+{
+  "英文名称": "sql-pro",
+  "中文名称": "待补：sql-pro",
+  "一句话作用": "Use when user needs SQL development, database design, query optimization, performance tuning, or database administration across PostgreSQL, MySQL, SQL Server, and Oracle platforms.",
+  "关键输入": "- Writing complex SQL queries with joins, CTEs, window functions, or recursive queries - Designing database schema for new application or refactoring existing schema - Optimizing slow SQL queries with execution plan ana…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Writing complex SQL queries with joins, CTEs, window functions, or recursive queries - Designing database schema for new application or refactoring existing schema - Optimizing slow SQL queries with execution plan ana…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05115-sql-pro-f82f5764",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/sql-pro/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/sql-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c2d927984e494c23799bb6473e94e399d0b9aee4e39a09409d92714cc42a484f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

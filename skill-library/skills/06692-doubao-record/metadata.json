@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-record",
+  "中文名称": "待补：doubao-record",
+  "一句话作用": "启动当前飞书会话的录音。当用户需要发起录音，或对录音进行中的内容询问的时候，可以使用此技能。用户如果选择了该技能但未做任何输入则默认用户意图为启动录音。",
+  "关键输入": "- 用户明确有语音记录/开始录音记录 → start recording - 用户录音中，要读取、查看、总结录音相关内容时 → get recording",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "其他待归类",
+  "解决具体问题": "当需要- 用户明确有语音记录/开始录音记录 → start recording - 用户录音中，要读取、查看、总结录音相关内容时 → get recording时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06692-doubao-record-defad1ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-record/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-record/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1743eeae29a45a501c2d2524d6f61fd9e145ab342a3e10264c05476449158499",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

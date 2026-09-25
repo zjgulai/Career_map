@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-payment-status",
+  "中文名称": "待补：alibaba-icbu-payment-status",
+  "一句话作用": "【Payment SubAgent internal handler — main Agent MUST route payment requests to buyer-payment-intent first】 Keywords 支付状态/支付结果/支付了吗/支付历史/支付记录/payment status/payment result/has it been paid/payment history. Alibaba.com Pa…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Used only when neither orderId nor MCP response is available. Returns { status, orderId?, errorCode?, errorMsg?, summaryMarkdown }. en/zh dictionary built-in.",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要【Payment SubAgent internal handler — main Agent MUST route payment requests to buyer-payment-intent first】 Keywords 支付状态/支付结果/支付了吗/支付历史/支付记录/payment status/payment result/has it been paid/payment history. Alibaba.com Pa…时，用它产出或更新：Used only when neither ord…",
+  "skill_id": "00077-alibaba-icbu-payment-status-c5c08251",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-payment-status/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-payment-status/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "536e49d130f463f685605679476216234bc105bb2e1a47c97f8536161371bc76",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

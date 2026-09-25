@@ -1,0 +1,22 @@
+{
+  "英文名称": "parsearger-core",
+  "中文名称": "待补：parsearger-core",
+  "一句话作用": "Core functionality for parseArger. Use this skill to GENERATE new bash argument parsers or PARSE/MODIFY existing ones. Handles definition of positional arguments, flags, and options.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Without --output, output goes to stdout only.",
+  "最新更新时间": "2026-09-19T03:56:09+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Core functionality for parseArger. Use this skill to GENERATE new bash argument parsers or PARSE/MODIFY existing ones. Handles definition of positional arguments, flags, and options.时，用它产出或更新：Without --output, output goes to stdout only.",
+  "skill_id": "05002-parsearger-core-1eb801e7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/parsearger-core/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/parsearger-core/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5336e3b98bdb8c291b4d94f4d946396ea32918d855e0ce3eee3dd3ea4a7c8ac0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-insight-report",
+  "中文名称": "市场洞察报告技能",
+  "一句话作用": "生成具有顶级咨询公司视觉风格的数据驱动市场洞察报告，内容涵盖高管摘要、趋势分析和战略建议，输出为PDF、DOCX或PPTX格式。当用户需要创建、撰写或制作市场研究报告、行业分析报告、消费者行为报告、竞争格局分析、市场趋势报告、战略洞察报告、行业白皮书或购物者报告时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- PDF （主格式，与参考素材一致） - DOCX （可编辑版本） - PPTX （演示版本）",
+  "最新更新时间": "2026-09-14T00:06:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要生成具有顶级咨询公司视觉风格的数据驱动市场洞察报告，内容涵盖高管摘要、趋势分析和战略建议，输出为PDF、DOCX或PPTX格式。当用户需要创建、撰写或制作市场研究报告、行业分析报告、消费者行为报告、竞争格局分析、市场趋势报告、战略洞察报告、行业白皮书或购物者报告时触发。时，用它产出或更新：- PDF （主格式，与参考素材一致） - DOCX （可编辑版本） - PPTX （演示版本）",
+  "skill_id": "10648-market-insight-report-23e998d3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/market-insight-report/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/market-insight-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cf6903791364c5bd93c94b8d4012051f0fe01d4a7c694b58d237c0b6c045a98b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

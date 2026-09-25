@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skywork Design",
+  "中文名称": "待补：Skywork Design",
+  "一句话作用": "Generate or edit images via backend Skywork Image API. Use for any image creation, poster design, logo design, visual asset generation, or image modification request. Supports text-to-image and image-to-image editing wi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Script prints the local file path and the OSS URL. - Depending on the platform, use the most appropriate way to deliver the image (e.g. send as image message, display inline, or print the URLs). By default, return both the local path and OSS URL to the user…",
+  "最新更新时间": "2026-05-25T22:03:32+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Generate or edit images via backend Skywork Image API. Use for any image creation, poster design, logo design, visual asset generation, or image modification request. Supports text-to-image and image-to-image editing wi…时，用它产出或更新：- Script prints the local…",
+  "skill_id": "06130-skywork-design-c06baa0b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/Skywork Design/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/Skywork Design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "143fb05d8b2e2257a96315ada4be1d711cf4e69221ae4f8f0afe34a723274df8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

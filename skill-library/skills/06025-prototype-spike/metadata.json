@@ -1,0 +1,22 @@
+{
+  "英文名称": "prototype-spike",
+  "中文名称": "待补：prototype-spike",
+  "一句话作用": "Build or plan an explicitly throwaway prototype to answer a design, API, UX, performance, or integration question, then capture findings and cleanup. Use when the user asks for a spike, prototype, proof of concept, or e…",
+  "关键输入": "- The exact question the prototype must answer. - Existing architecture, ADRs, validation commands, and domain docs. - Constraints on where prototype files may live and how they should be cleaned up.",
+  "关键输出": "Return: 1. Question or hypothesis 2. Prototype boundary and files touched 3. Evidence gathered 4. Decision recommendation 5. Cleanup performed or remaining 6. Production follow-up tasks",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks for a spike, proof of concept, prototype, or throwaway experiment. - A design choice needs evidence before production implementation. - An integration, API, performance assumption, or UI interaction is u…时，用它产出或更新：Return: 1. Question or hyp…",
+  "skill_id": "06025-prototype-spike-4588750e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/engineering-workflows/prototype-spike/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/engineering-workflows/prototype-spike/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0cb3dca766ba3d4cd7745a28cb3d75f76a243a00adc428d58dcca96ef7a3be4d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

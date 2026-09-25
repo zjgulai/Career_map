@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-procurement-cost-kpi-price-achievement",
+  "中文名称": "采购价格达成率与降本KPI体系 全链路降本量化追踪与价格偏差归因",
+  "一句话作用": "触发词：采购价格达成率、PAR、价格偏差归因、急采溢价、降本KPI。何时不用：算 BOM 层级成本传导用「BOM成本卷积」，算 MOQ 与账期现金流用「MOQ与账期联动优化」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要采购团队面临\"价格超支无法追因\"——PAR达成率+四象限归因将急采溢价识别并归零，年化降本20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11495-p2s-procurement-cost-kpi-price-achievement-b0d6e10c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-procurement-cost-kpi-price-achievement/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-procurement-cost-kpi-price-achievement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66244d1b180dbc6e4cce28ebe2b4c982a2e9d274a17b1315093d70d2edddaf73",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

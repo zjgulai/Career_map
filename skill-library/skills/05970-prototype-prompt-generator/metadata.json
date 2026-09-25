@@ -1,0 +1,22 @@
+{
+  "英文名称": "prototype-prompt-generator",
+  "中文名称": "待补：prototype-prompt-generator",
+  "一句话作用": "This skill should be used when users need to generate detailed, structured prompts for creating UI/UX prototypes. Trigger when users request help with \"create a prototype prompt\", \"design a mobile app\", \"generate UI spe…",
+  "关键输入": "Begin by collecting essential information from the user. Ask targeted questions to understand: Application Type & Purpose: - What kind of application? (e.g., enterprise tool, e-commerce, social media, dashboard) - Who are the target users? - What are the prim…",
+  "关键输出": "Please output complete [file type] code, ensuring: 1. [Requirement 1] 2. [Requirement 2] ... The output should be production-ready and viewable at [viewport] on [device].",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Issue: User requirements are too vague Solution: Ask focused questions, provide examples of similar apps, suggest design systems to choose from, or create a default prompt and offer iteration. Issue: User wants multiple…时，用它产出或更新：Please output complete [fi…",
+  "skill_id": "05970-prototype-prompt-generator-79949619",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/prototype-prompt-generator/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/prototype-prompt-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1aad6514936a72f213be20bc5aa898f67ac3508555c9caaef33a225c6b96d7fc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

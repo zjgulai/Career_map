@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-border-payment-fraud-detection",
+  "中文名称": "跨境支付欺诈检测：多源信号图谱风险建模",
+  "一句话作用": "触发词：支付欺诈、拒付、图特征、多跳关联、风险评分。何时不用：没有历史欺诈标签、订单量很小时，规则阈值方案更划算；本技能依赖足够的关系结构与标签。安全边界：支付与设备数据属敏感信息，采集与留存须合规；高风险订单只能拒付或送审，不得使用歧视性特征做判定。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要独立站支付欺诈率3-8%每月因拒付损失3000美元以上但传统规则只能拦截60-70%——图神经网络多跳关联分析发现盗刷信用卡团伙，检测率提升至85-90%年化避免欺诈损失25-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11938-p2s-cross-border-payment-fraud-detection-c933eada",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-border-payment-fraud-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-cross-border-payment-fraud-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "161967078ce714e228d70bc56a170e2d0e4aa3abf99331caeeea6d6dc9bd6675",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

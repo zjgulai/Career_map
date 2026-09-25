@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dml-cohort-causal-effect",
+  "中文名称": "因果效应 - 群体异质性 HTE 估计",
+  "一句话作用": "触发词：异质性处理效应、CATE 估计、双机器学习、分群响应差异、促销分层投放。何时不用：只看整体活动增量用增量分析与合成控制类技能，本技能估计的是不同人群之间的效应差异。安全边界：宝宝生日等注册信息采集须获明确授权并遵守儿童数据保护规定，促销券发放不得涉及虚假宣传或价格欺诈。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要平台对所有新妈妈用户统一发放\"新生儿满减券\",ROI 整体回归到 1.2-1.5x,猜测某些群体响应强、某些群体弱,但不知如何切分 - 数据要求:用户注册时填写宝宝生日 + 高维行为日志(2000 维:RFM、品类偏好、渠道、地理) - DML 配置: - 第一阶段:XGBoost 拟合 $E[Y X]$,LightGBM 拟合 $E[D X]$ - PCA 降维至 10 维,K-mea时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03069-p2s-dml-cohort-causal-effect-9aa44d3f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dml-cohort-causal-effect/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dml-cohort-causal-effect/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e3ff577eaa44a9d23fa9450f0cb9e7c67b4cc43294c6bf3b07512b916e88492b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

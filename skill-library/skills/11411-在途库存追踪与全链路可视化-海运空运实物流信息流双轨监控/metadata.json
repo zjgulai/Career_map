@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-in-transit-inventory-tracking-visibility",
+  "中文名称": "在途库存追踪与全链路可视化 海运空运实物流信息流双轨监控",
+  "一句话作用": "触发词：在途库存、ETA预测、在途可视化、到港延误、虚拟ATP。何时不用：需要把 ETA 准确率等过程指标做成 KPI 体系时用在途ETA准确率与到货履约率KPI；需要做港口拥堵的多因子到港预测时用港口拥堵ETA预测。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要海运35天是信息黑洞导致重复采购和断货——ETA预测+虚拟ATP将在途异常响应时间从5天压缩至24小时，年化防损$8-15万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11411-p2s-in-transit-inventory-tracking-visibility-79421eac",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-in-transit-inventory-tracking-visibility/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-in-transit-inventory-tracking-visibility/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4527ed4d006c99e42f1c328a4b7038f19fe31c5f74bc60586c41679a087fd06e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

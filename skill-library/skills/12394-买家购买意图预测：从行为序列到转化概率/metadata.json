@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-purchase-intent-prediction",
+  "中文名称": "买家购买意图预测：从行为序列到转化概率",
+  "一句话作用": "触发词：购买意图预测、行为序列、弃购分层、触达阈值、退订率。何时不用：要按弃购用户类型选内容用「弃购挽回机器学习」；要按加购后固定时点跑序列用「加购未购自动挽回触发」。安全边界：触达须在用户同意范围内并提供退订入口，低意图用户不触达；意图分是概率估计，不得据此对用户做差别定价或歧视性对待。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要独立站每月800个弃购用户全部发同一封挽回邮件点击率仅4%——买家意图预测只对高意图用户（P 0.7）精准触达CVR从4%提升到12-18%，年化GMV增益30-80万元同时降低低意图用户退订率时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12394-p2s-purchase-intent-prediction-ef9a5a67",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-purchase-intent-prediction/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-purchase-intent-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ffed5c990e91d80a8d89f3c5b92d7ef0ded6b1a73d5624ae4d27ab53544f9a41",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

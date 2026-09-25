@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cold-start-product-recommendation",
+  "中文名称": "冷启动商品推荐)",
+  "一句话作用": "触发词：冷启动推荐、新品曝光、内容特征匹配、目标人群、零销量上架。何时不用：要跨站点零样本迁移推荐用「图基础模型推荐」；要生成商品嵌入做新品推荐用「扩散模型推荐」。安全边界：商品标题与描述必须真实，不得为提高匹配度堆砌未经验证的属性或认证；无描述、无图片的商品不适用本技能。",
+  "关键输入": "输入 ：商品内容特征（标题、描述、类目、价格、图片）与用户画像及历史交互（浏览、购买、偏好标签）；粒度为单个新品 × 用户。 输出 ：针对新品的候选用户与推荐清单（含匹配依据）；供运营与推荐系统做首批曝光与人群投放。",
+  "关键输出": "输入 ：商品内容特征（标题、描述、类目、价格、图片）与用户画像及历史交互（浏览、购买、偏好标签）；粒度为单个新品 × 用户。 输出 ：针对新品的候选用户与推荐清单（含匹配依据）；供运营与推荐系统做首批曝光与人群投放。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：冷启动推荐、新品曝光、内容特征匹配、目标人群、零销量上架。何时不用：要跨站点零样本迁移推荐用「图基础模型推荐」；要生成商品嵌入做新品推荐用「扩散模型推荐」。安全边界：商品标题与描述必须真实，不得为提高匹配度堆砌未经验证的属性或认证；无描述、无图片的商品不适用本技能。时，用它产出或更新：输入 ：商品内容特征（标题、描述、类目、价格、图片）与用户画像及历史交互（浏览、购买、偏好标签）；粒度为单个新品 × 用户。 输出 ：针对新品的候选用户与推荐清单（含匹配依据）；供运营与推荐系统做首批曝光与人群投放。",
+  "skill_id": "12262-p2s-cold-start-product-recommendation-53fe629d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cold-start-product-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cold-start-product-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e0315a4e9ae2808e94e9a4037a506c1396c9b77b6dc1550be0b30a9a52061a47",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

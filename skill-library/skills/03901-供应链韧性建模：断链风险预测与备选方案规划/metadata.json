@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-resilience-modeling",
+  "中文名称": "供应链韧性建模：断链风险预测与备选方案规划",
+  "一句话作用": "触发词：供应链韧性、断链风险、双重采购、备选供应商认证、安全库存优化。何时不用：只做网络瓶颈节点排序时用供应链网络中介中心性韧性分析；只做月度供需对齐与计划闭环时用S&OP销售与运营计划协同。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广东单一电机供应商停产6周损失80万但事前不知道应该备几家备选——贝叶斯网络量化各组件断链概率和恢复时间，双重采购最优分割策略将年预期断链损失降低60-80%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03901-p2s-supply-chain-resilience-modeling-54288352",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supply-chain-resilience-modeling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supply-chain-resilience-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4a0204fc876399f25f74709d1d7b1d9decfcfadf2469909d27cfbcf59409583a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

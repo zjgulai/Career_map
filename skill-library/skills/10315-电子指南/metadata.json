@@ -1,0 +1,22 @@
+{
+  "英文名称": "digital-eguide",
+  "中文名称": "电子指南",
+  "一句话作用": "两页跨页电子指南, 封面 + 课程页 + pull-quote + 步骤列表",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要两页跨页电子指南, 封面 + 课程页 + pull-quote + 步骤列表时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10315-digital-eguide-8a047645",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/digital-eguide/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/digital-eguide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2bc065e062db0b5e945ca2052a9d9f38acb72050a05208e13536ca624cdbb74",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

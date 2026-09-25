@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-margin-attribution",
+  "中文名称": "跨境电商毛利率多维归因分析 Skill",
+  "一句话作用": "跨境电商毛利率多维归因分析Skill。深度拆解毛利率变动的多维因素，支持静态/动态贡献计算、结构变动vs自身变动分解、订单分箱分析。 触发条件: 1. 用户提到\"毛利率归因\"、\"毛利下滑原因\"、\"毛利率贡献\" 2. 用户询问\"为什么毛利率下降\"、\"哪个因素影响毛利率\" 3. 用户需要\"毛利率分析\"、\"盈利能力分析\" 4. 用户提到\"订单分箱\"、\"客单价分档\"、\"客品数分析\" 输出内容: - 毛利率变动贡献度排序表 - 结构变动vs自身…",
+  "关键输入": "基础数据格式 : 字段说明 : 字段 说明 示例 ------ ------ ------ period 时间周期 2024-01, Q1, Week1 bin name 分箱名称 高客单, 中高客单 sales 区间销售额 2400000 gross profit 区间毛利 912000 gross margin 区间毛利率 0.38",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T00:12:08+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境电商毛利率多维归因分析Skill。深度拆解毛利率变动的多维因素，支持静态/动态贡献计算、结构变动vs自身变动分解、订单分箱分析。 触发条件: 1. 用户提到\"毛利率归因\"、\"毛利下滑原因\"、\"毛利率贡献\" 2. 用户询问\"为什么毛利率下降\"、\"哪个因素影响毛利率\" 3. 用户需要\"毛利率分析\"、\"盈利能力分析\" 4. 用户提到\"订单分箱\"、\"客单价分档\"、\"客品数分析\" 输出内容: - 毛利率变动贡献度排序表 - 结构变动vs自身…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09416-cbec-margin-attribution-432216ee",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/02-attribution-analysis/margin-attribution/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/02-attribution-analysis/margin-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c1993cc1a77546b26e954a2c62f94ee7a45d23aff6e6819db3f9c3b5e42e185",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

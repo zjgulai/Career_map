@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-flash-sale-inventory-pulse",
+  "中文名称": "直播闪购库存脉冲管理 泊松实时估计 动态补货触发",
+  "一句话作用": "触发词：直播闪购、库存脉冲、泊松到达率、EWMA平滑、分级补货触发。何时不用：日级大促备货与广告降速用「大促库存脉冲触发」；稳态补货用「自动补货决策」。安全边界：补货建议须保留主播临时加推等人工确认环节，实时订单数据仅用于库存预测。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链负责人面临\"直播闪购10分钟卖完平时3天的量库存脉冲完全不可控\"——泊松分布实时购买率估计将断货概率降低78%，年化避损$12.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11559-p2s-tiktok-flash-sale-inventory-pulse-e60006c4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-tiktok-flash-sale-inventory-pulse/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-tiktok-flash-sale-inventory-pulse/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9581e7846215f1ded097f4c30c87c40660552ef1a7de1fd1ebae1bd3c79c5b84",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

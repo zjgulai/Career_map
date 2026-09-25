@@ -1,0 +1,22 @@
+{
+  "英文名称": "statistical-and-uncertainty-visualization",
+  "中文名称": "待补：statistical-and-uncertainty-visualization",
+  "一句话作用": "Design statistically honest and uncertainty-aware visualizations. Use when the user needs help showing distributions, intervals, confidence, missingness, sampling effects, or analytical rigor in charts and dashboards.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Name the statistical question, not just the chart type. - Explain why the chosen encoding is more truthful than the tempting alternative. - Call out when aggregation, smoothing, or interval choice can mislead.",
+  "最新更新时间": "2026-09-17T09:36:42+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Design statistically honest and uncertainty-aware visualizations. Use when the user needs help showing distributions, intervals, confidence, missingness, sampling effects, or analytical rigor in charts and dashboards.时，用它产出或更新：- Name the statistical questi…",
+  "skill_id": "01461-statistical-and-uncertainty-visualization-411a7e96",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/statistical-and-uncertainty-visualization/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/statistical-and-uncertainty-visualization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "544542158d7b2302ca34f8d992349b4048d106b30b238bf7184a57c457f95b3a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

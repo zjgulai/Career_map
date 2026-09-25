@@ -1,0 +1,22 @@
+{
+  "英文名称": "dtc-commercial-image-gen",
+  "中文名称": "待补：dtc-commercial-image-gen",
+  "一句话作用": "DTC 产品商业级图片生成 SOP：从参考图 URL + 商业 prompt 参数，批量调用 Cliproxy/Gemini Flash 图像 API， Vision LM 4-up grid 选优，6 项合规自查，输出可上架的最终图集。 触发场景：「生图」「重做商业图」「产品主图」「Hero Shot」「SOP-B Step 3」「批量生图」。 本 Skill 封装了 Day 1（纯文本 ~6/10）→ Day 4（image-to…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "每次执行完成后输出：",
+  "最新更新时间": "2026-05-25T17:08:55+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要DTC 产品商业级图片生成 SOP：从参考图 URL + 商业 prompt 参数，批量调用 Cliproxy/Gemini Flash 图像 API， Vision LM 4-up grid 选优，6 项合规自查，输出可上架的最终图集。 触发场景：「生图」「重做商业图」「产品主图」「Hero Shot」「SOP-B Step 3」「批量生图」。 本 Skill 封装了 Day 1（纯文本 ~6/10）→ Day 4（image-to…时，用它产出或更新：每次执行完成后输出：",
+  "skill_id": "01785-dtc-commercial-image-gen-c678f55d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/dtc-commercial-image-gen/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/dtc-commercial-image-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f7f0aee22dc2cdaec8f1d301239b7f67d360b0903b2db3654d90419df155c112",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

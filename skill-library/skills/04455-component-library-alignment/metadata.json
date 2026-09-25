@@ -1,0 +1,22 @@
+{
+  "英文名称": "component-library-alignment",
+  "中文名称": "待补：component-library-alignment",
+  "一句话作用": "Checks whether frontend implementation uses the intended design-system component library instead of raw HTML, local one-off components, arbitrary Tailwind variants, or mixed UI libraries. Use for component consistency,…",
+  "关键输入": "Look for: - design.qa.yaml, especially components.libraryImportPatterns and components.rawElementPolicy - DESIGN.md component rules - component library directories such as src/components/ui, src/design-system, packages/ui, or equivalent - UI source files in a…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:45+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Good evidence: Weak evidence: Always include file path, component name, import pattern, and observed bypass.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04455-component-library-alignment-7dfec457",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/component-library-alignment/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/design-review/0.1.0/skills/component-library-alignment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ebe4c00cf6456a077138399bdc8a10d51547194e73b7f653c45211056aaaea04",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

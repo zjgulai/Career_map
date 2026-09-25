@@ -1,0 +1,22 @@
+{
+  "英文名称": "markdown-to-html",
+  "中文名称": "转 HTML",
+  "一句话作用": "把 Markdown 文档转成 HTML：给出 marked、pandoc、gomarkdown 三条工具链的用法与配置，以及 Jekyll、Hugo 模板系统的转换路径与安全注意项。触发词：markdown 转 html、md 转 html、渲染 markdown、静态站点模板、pandoc、hugo、markdown-to-html。何时不用：只做 Markdown → HTML 的转换、渲染与模板接入，不负责 Markdown…",
+  "关键输入": "- 已安装 Node.js（用于 CLI 或编程方式调用） - 全局安装 marked 以使用 CLI：npm install -g marked - 或在本地安装：npm install marked",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T15:32:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 用户要求「把 markdown 转成 html」或「转换 md 文件」 - 用户想把「markdown 渲染成」HTML 输出 - 需要从 .md 文件生成 HTML 文档 - 正在用 Markdown 内容搭建静态站点 - 正在搭建把 markdown 转成 html 的模板系统 - 正在为已有模板系统开发工具、组件或自定义模板 - 想预览 Markdown 渲染成 HTML 后的样子时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10910-markdown-to-html-ca78ae5f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/markdown-to-html/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-composer-e136/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/markdown-to-html/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2629ad12e79feaceb9ce7e13f5ef09c79fda3e8f925f21c3d23743ae14aabedd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

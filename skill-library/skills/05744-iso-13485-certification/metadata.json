@@ -1,0 +1,22 @@
+{
+  "英文名称": "iso-13485-certification",
+  "中文名称": "待补：iso-13485-certification",
+  "一句话作用": "Comprehensive toolkit for preparing ISO 13485 certification documentation for medical device Quality Management Systems. Use when users need help with ISO 13485 QMS documentation, including (1) conducting gap analysis o…",
+  "关键输入": "When to use: User needs to understand specific ISO 13485 requirements Available references: - references/iso-13485-requirements.md - Complete clause-by-clause breakdown - references/mandatory-documents.md - All 31 required procedures explained - references/ga…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Comprehensive toolkit for preparing ISO 13485 certification documentation for medical device Quality Management Systems. Use when users need help with ISO 13485 QMS documentation, including (1) conducting gap analysis o…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05744-iso-13485-certification-278914de",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/iso-13485-certification/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/iso-13485-certification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a98dd076a6621bc781bded7c99c12a0cb2d855647d461c83f457c8b6256e192d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

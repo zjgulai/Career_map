@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-trend-signal-forecasting",
+  "中文名称": "评论趋势信号预测：用用户声音预测未来需求拐点",
+  "一句话作用": "触发词：VOC 情感、领先指标、Granger 检验、需求拐点、高峰预测。何时不用：只要缺货与竞品迁移的规则信号时用「VOC 供应链信号桥」；没有评论数据时用常规时序预测。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要圣诞节前推车需求高峰时间每年不固定用历史销量预测总缺货或积压——评论情感领先指标（提前7-14天）增强时序预测精度8-15%，提前准确识别高峰备货减少缺货损失年化25-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11572-p2s-voc-trend-signal-forecasting-72d6442f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-voc-trend-signal-forecasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-voc-trend-signal-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90b4420457c03e9fc5131561f2c44cfef047e96081aba39337456a0774990986",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "positioning-ideas",
+  "中文名称": "待补：positioning-ideas",
+  "一句话作用": "为产品生成多个候选定位表述，比较各自面向的替代方案与差异化理由。触发词：定位方案发散、positioning-ideas、为产品生成多个候选定位表述，比较各自面向的替代方案与差异化理由。",
+  "关键输入": "- Developing product positioning strategy - Differentiating from competitors - Crafting brand positioning statements - Identifying market positioning gaps - Triggers: positioning, brand positioning, differentiation, how…",
+  "关键输出": "- Provide detailed target audience profiles and their pain points - Share your product's unique capabilities and differentiators - Mention current positioning (if any) and what's working or not working - Include information about competitor positioning and me…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- Developing product positioning strategy - Differentiating from competitors - Crafting brand positioning statements - Identifying market positioning gaps - Triggers: positioning, brand positioning, differentiation, how…时，用它产出或更新：- Provide detailed target…",
+  "skill_id": "04071-positioning-ideas-6580d197",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/positioning-ideas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/positioning-ideas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a620cc81055373fabc9d7fa408dbc5d026657f870712488827efab970db7158",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

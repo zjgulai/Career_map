@@ -1,0 +1,22 @@
+{
+  "英文名称": "rust-guidelines",
+  "中文名称": "待补：rust-guidelines",
+  "一句话作用": "Pragmatic Rust conventions to keep code readable, testable, and performant for this project.",
+  "关键输入": "Required parameters should be passed when creating the builder, not as setter methods. For builders with multiple required parameters, encapsulate them into a parameters struct and use the deps: impl Into pattern to provide flexibility: Note: A dedicated deps…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:41+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Pragmatic Rust conventions to keep code readable, testable, and performant for this project.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05069-rust-guidelines-b2fb0fb4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/rust-guidelines/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/rust-guidelines/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bd4e78e32baef07f3f1fea96dd180d3a25e6915c997f5b0a241f8a16cbd82eec",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

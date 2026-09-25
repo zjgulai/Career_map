@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-po-exception-handling-workflow",
+  "中文名称": "采购异常处理工作流 延误取消变更的Tag驱动自动处置与升级机制",
+  "一句话作用": "触发词：采购异常、PO延误、订单取消、Tag驱动处置、升级规则。何时不用：要预测交期分布做预警时用「提前期分布建模」；补货量决策用「自动补货决策」。安全边界：自动处置仅限提醒与建单，涉及取消订单、索赔与更换供应商的动作须人工审批。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要采购面临\"采购异常靠邮件通知处理延迟1-2天\"——Tag驱动工作流将PO延误/取消响应从2天→4小时，减少断货损失5-10万元/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03594-p2s-po-exception-handling-workflow-853d85d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-po-exception-handling-workflow/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-po-exception-handling-workflow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f650d495736946b216903fd0492252d8e7200313a93ed0e1d4af1e542efb6837",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-facebook-audience-lookalike-scaling",
+  "中文名称": "相似受众建模与 LTV 种子优化",
+  "一句话作用": "触发词：相似受众、种子优化、LTV 分层、高分位种子、受众扩展、投放对照。何时不用：没有预测 LTV 的能力时先用双塔或 LTV 预测技能；只判断扩展比例风险时用置信度校准。安全边界：客户数据上传平台需符合平台数据条款与隐私法规，种子筛选不得使用敏感个人信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用全量客户做 Lookalike 种子导致 ROAS 只有 2.1x——MetaHeac 高 LTV 种子优化将种子筛选至 P80 分位，ROAS 从 2.1x 提升到 3.8x，同等预算带来 81% 更多 GMV时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03120-p2s-facebook-audience-lookalike-scaling-d680fa8b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-facebook-audience-lookalike-scaling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-facebook-audience-lookalike-scaling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8f070f896c788193bed7085eb075fd5a9b776b781a765d5bbd9fb274ef18e064",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

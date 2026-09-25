@@ -1,0 +1,22 @@
+{
+  "英文名称": "figma-use-slides",
+  "中文名称": "待补：figma-use-slides",
+  "一句话作用": "This skill helps agents use Figma's use figma MCP tool in the Slides context. Can be used alongside figma-use which has foundational context for using the use figma tool.",
+  "关键输入": "use figma + this skill (default): Handles any Slides task — new decks, edits to existing decks, brand-matched designs, reference-file styling, iterative refinement, speaker notes, and full creative control over layout,…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要use figma + this skill (default): Handles any Slides task — new decks, edits to existing decks, brand-matched designs, reference-file styling, iterative refinement, speaker notes, and full creative control over layout,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01301-figma-use-slides-c69367c0",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-use-slides/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/figma/12.0.0/skills/figma-use-slides/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a69a65e686dcc223581afb409a4d31cf318716e2c65cc9c926839a8737e71a4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "clinical-decision-support",
+  "中文名称": "待补：clinical-decision-support",
+  "一句话作用": "Generate professional clinical decision support (CDS) documents for pharmaceutical and clinical research settings, including patient cohort analyses (biomarker-stratified with outcomes) and treatment recommendation repo…",
+  "关键输入": "This skill is specifically designed for pharmaceutical and clinical research applications: Drug Development - Phase 2/3 Trial Analyses : Biomarker-stratified efficacy and safety analyses - Subgroup Analyses : Forest plo…",
+  "关键输出": "MANDATORY FIRST PAGE REQUIREMENT: - Page 1 : Full-page executive summary with 3-5 colored tcolorbox elements - Page 2 : Table of contents (optional) - Page 3+ : Detailed sections with methods, results, figures, tables Document Specifications: - Primary : LaTe…",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill is specifically designed for pharmaceutical and clinical research applications: Drug Development - Phase 2/3 Trial Analyses : Biomarker-stratified efficacy and safety analyses - Subgroup Analyses : Forest plo…时，用它产出或更新：MANDATORY FIRST PAGE REQUI…",
+  "skill_id": "05707-clinical-decision-support-40116c7a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/clinical-decision-support/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/clinical-decision-support/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7701d3b6ca6f76c5bf2d1f52b775bb61d687d2cb54504d6ff6221ad83c0aca2c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudbase-declarative-deploy",
+  "中文名称": "待补：cloudbase-declarative-deploy",
+  "一句话作用": "CloudBase declarative deployment from a cloudbaserc config (声明式部署, 配置式部署, cloudbaserc 部署) through the deployBuild / deployPlan / deployApply MCP tools. Use when deploying database, functions, app, hosting, or gateway re…",
+  "关键输入": "- The project has a cloudbaserc.json / .yaml / .yml / .js describing multiple resources, and the user wants to deploy them together as one config. - The user asks for 声明式部署 / 配置式部署 / \"deploy from cloudbaserc\" / \"deploy…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The project has a cloudbaserc.json / .yaml / .yml / .js describing multiple resources, and the user wants to deploy them together as one config. - The user asks for 声明式部署 / 配置式部署 / \"deploy from cloudbaserc\" / \"deploy…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00650-cloudbase-declarative-deploy-d38691c5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.codebuddy/skills/cloudbase-declarative-deploy/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.codebuddy/skills/cloudbase-declarative-deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fc6c17f908e90613c1fe76774253668a3c7dee599f67be5be6e2fe8623605ecd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

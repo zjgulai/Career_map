@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-blue-ocean-finder",
+  "中文名称": "待补：alibaba-global-blue-ocean-finder",
+  "一句话作用": "B2B cross-border blue ocean opportunity discovery expert. Finds high-potential, low-competition profit opportunities by analyzing demand-supply mismatches. Uses Alibaba.com platform search data for supply-side analysis…",
+  "关键输入": "1. assets/report template zh.md (zh) or assets/report template.md (en) 2. reports/opportunities.json 3. reports/opportunity answers.json (if saved in Step 4)",
+  "关键输出": "- Input : Opportunities (Step 3) + deep-dive insights (Step 4) + report template - Action : Assemble 7-section report, output directly in conversation - Output : Complete markdown report (Sections 1-7) rendered in chat Your next message IS the report. No tool…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Scenario Example ------ ------ Cross-platform supply-demand mismatch \"Find products hot externally but undersupplied on Alibaba\" Alibaba blue ocean \"Low competition high sales categories on Alibaba.com\"时，用它产出或更新：- Input : Opportunities (Step 3) + deep-dive…",
+  "skill_id": "00166-alibaba-global-blue-ocean-finder-1b23cba6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-blue-ocean-finder/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-blue-ocean-finder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c6fc3f0ab6f2651e7332d46e80ba402954df3413a207ca900d082d8051a30810",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

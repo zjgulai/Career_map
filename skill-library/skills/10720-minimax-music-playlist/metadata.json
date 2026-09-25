@@ -1,0 +1,22 @@
+{
+  "英文名称": "minimax-music-playlist",
+  "中文名称": "待补：minimax-music-playlist",
+  "一句话作用": "Generate personalized music playlists by analyzing the user's music taste and generation feedback history. Triggers on any request involving playlist generation, music taste profiling, or personalized music recommendati…",
+  "关键输入": "- mmx CLI — music & image generation. Install: npm install -g mmx-cli. Auth: mmx auth login --api-key . - Python 3 — for scanning scripts you write on the fly (stdlib only, no pip). - Audio player — mpv, ffplay, or afplay (macOS built-in).",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Generate personalized music playlists by analyzing the user's music taste and generation feedback history. Triggers on any request involving playlist generation, music taste profiling, or personalized music recommendati…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10720-minimax-music-playlist-9f0b8b13",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/minimax-music-playlist/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/minimax-music-playlist/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "87891a7959e3e26f54e1985216f574e77391ff015ed8062f10b2eefd77089ec3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

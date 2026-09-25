@@ -1,0 +1,22 @@
+{
+  "英文名称": "tdd",
+  "中文名称": "待补：tdd",
+  "一句话作用": "测试驱动开发。适用于用户想用先写测试的方式构建功能或修复缺陷、提到 “red-green-refactor”，或需要集成测试时。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要测试驱动开发。适用于用户想用先写测试的方式构建功能或修复缺陷、提到 “red-green-refactor”，或需要集成测试时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10758-tdd-7895b3a4",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/tdd/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/tdd/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a36a6860bb0ec87e52551d878ee486e6435102a973c5aa8c791852add2609aaa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

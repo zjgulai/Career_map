@@ -1,0 +1,22 @@
+{
+  "英文名称": "security-scan",
+  "中文名称": "待补：security-scan",
+  "一句话作用": "Qoder security scanning. Use when the user invokes /security-scan, explicitly requests a full repository or named-path cloud scan, asks for an L2 lightweight or L3 deep security review, or asks to push, git push, push i…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Choose the binary from main-host OS information. Do not probe files or read manifests to decide the binary name: - Windows uses ~/.qodersec/bin/qodersec.exe. - macOS or Linux uses ~/.qodersec/bin/qodersec. Invoke scan and review commands directly. Do not invo…",
+  "最新更新时间": "2026-09-19T00:55:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Qoder security scanning. Use when the user invokes /security-scan, explicitly requests a full repository or named-path cloud scan, asks for an L2 lightweight or L3 deep security review, or asks to push, git push, push i…时，用它产出或更新：Choose the binary from mai…",
+  "skill_id": "04682-security-scan-ab71895e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/security-resources/security-scan/skills/security-scan/SKILL.md",
+  "relative_path": "lute/.qoder-cn/security-resources/security-scan/skills/security-scan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b0d41d3bdfb4c54624fcb611553fcbb636e51afa95857a0310355758f62eec2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

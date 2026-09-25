@@ -1,0 +1,22 @@
+{
+  "英文名称": "deepgram-hello-world",
+  "中文名称": "待补：deepgram-hello-world",
+  "一句话作用": "Create a minimal working Deepgram transcription example. Use when starting a new Deepgram integration, testing your setup, or learning basic Deepgram API patterns. Trigger with phrases like \"deepgram hello world\", \"deep…",
+  "关键输入": "- Completed deepgram-install-auth setup - Valid API credentials configured - Audio file for transcription (or use URL)",
+  "关键输出": "- Working code file with Deepgram client initialization - Successful transcription response - Console output showing transcribed text",
+  "最新更新时间": "2026-09-19T03:55:11+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create a minimal working Deepgram transcription example. Use when starting a new Deepgram integration, testing your setup, or learning basic Deepgram API patterns. Trigger with phrases like \"deepgram hello world\", \"deep…时，用它产出或更新：- Working code file with D…",
+  "skill_id": "04802-deepgram-hello-world-5c6b0e88",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/deepgram-hello-world/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/deepgram-hello-world/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0931b5fa0d2a752d8e98d59aec20420f93c5327f740c30176936a2ba2522fa80",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-ab-experiment-design",
+  "中文名称": "标签-AB实验设计 基于用户标签的精准实验分层与分析",
+  "一句话作用": "触发词：标签分层、分层分析、选择偏差、活跃度标签、人群分层、效果修正。何时不用：没有可用标签或标签口径不稳定时先补标签体系；分组已均衡且只关心整体效果时用常规 A/B。安全边界：标签应基于行为而非敏感个人信息并满足匿名化要求，精准营销需保证用户可退订，对高效果人群设置频次上限。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"AB实验因高活跃标签用户分布不均导致效果高估7pp造成浪费\"——标签分层消除选择偏差并发现新生儿段效果达+20%精准投放，年化节省+增量约70万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03913-p2s-tag-ab-experiment-design-a940f473",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tag-ab-experiment-design/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tag-ab-experiment-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e5137bc7bb85d3fbb0eea777a71c7244a50e4e7f5c1ebcbd94ba05bc732b92c5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

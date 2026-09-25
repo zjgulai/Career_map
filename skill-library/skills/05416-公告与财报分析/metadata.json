@@ -1,0 +1,22 @@
+{
+  "英文名称": "financial-report",
+  "中文名称": "公告与财报分析",
+  "一句话作用": "用于公告影响力与财报质量分析，聚焦公告解读/财报分析/基本面验证。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户上传或粘贴公告、年报、季报、业绩预告，想快速知道：到底有没有用，对股价意味着什么。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要用于公告影响力与财报质量分析，聚焦公告解读/财报分析/基本面验证。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户上传或粘贴公告、年报、季报、业绩预告，想快速知道：到底有没有用，对股价意味着什么。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05416-financial-report-4f995e35",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/financial-report/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/financial-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eea99a4559b2c49e32522b3a47c9666e0e1e987648479fa46383c648511988a9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

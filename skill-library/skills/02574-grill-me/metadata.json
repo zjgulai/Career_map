@@ -1,0 +1,22 @@
+{
+  "英文名称": "grill-me",
+  "中文名称": "待补：grill-me",
+  "一句话作用": "转发器：调用 grilling 执行无情访谈。触发词：方案访谈（转发）、grill-me、转发器：调用 grilling 执行无情访谈。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要转发器：调用 grilling 执行无情访谈。触发词：方案访谈（转发）、grill-me、转发器：调用 grilling 执行无情访谈。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02574-grill-me-14e65d59",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/grill-me/SKILL.md",
+  "relative_path": "lute/.dsh/skills/grill-me/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2f28b0f07fa4bf8b14786fbdfc458f8dc86d0b28880052618bdbe5765100a09",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

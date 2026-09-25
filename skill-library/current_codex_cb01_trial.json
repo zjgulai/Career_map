@@ -1,0 +1,188 @@
+{
+  "id": "CB01-C01D",
+  "name": "产品与经营选项分析：受控试跑准备",
+  "state": "准备完成，待指定独立复核人，尚未启动",
+  "status_explanation": "任务、合成输入、提交模板和评分表已准备；没有候选提交、没有评分、没有通过或失败结论。",
+  "candidate": {
+    "skill": "Product And Business Analysis",
+    "cn": "产品与经营选项分析",
+    "source": "/Users/lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.11/skills/product-business-analysis/SKILL.md",
+    "version": "data-analytics 1.0.11",
+    "existing_readiness": "暂停竞聘"
+  },
+  "position": {
+    "code": "B01-C01D",
+    "name": "商业论证：数据支持的经营选项分析",
+    "relationship_to_existing_b01": "与 B01 现有 C01 的情景比较候选平行竞争，不替代、不合并，也不继承其条件入围状态。"
+  },
+  "selection_reason": [
+    "它的原文要求从明确决策出发，以数据、背景、比较和不确定性形成推荐，直接贴合 C-021 的最小交付。",
+    "现有 B01 的 D01/D02 仍在独立盲测硬门槛前；CB01 不复用其输出、标签或分数，只复用“受控、可追溯、独立复核”的方法纪律。",
+    "本任务可用完全合成输入检验交付结构，不读取真实消费者、市场、财务或供应链数据。"
+  ],
+  "fixture": {
+    "fixture_id": "CB01-SYN-001",
+    "classification": "完全合成；不含真实消费者、市场、SKU、渠道或财务数据",
+    "decision_question": "在一个虚构的家用喂养辅助设备品类中，团队应优先验证哪个改善方向，还是暂不投入？",
+    "audience": "负责商业论证的经营事项主责与独立复核人",
+    "scope": "仅评价候选能否把证据、前提、选项、未知和验证建议组织成可比较的经营材料。",
+    "decision_options": [
+      {
+        "option": "A",
+        "name": "夜间静音配件包",
+        "customer_value_hypothesis": "降低夜间使用时的噪声干扰和准备成本。",
+        "economics": {
+          "proposed_price_usd": 18,
+          "estimated_unit_cost_usd": 7,
+          "estimated_fulfillment_usd": 3,
+          "gross_margin_before_marketing": "44%"
+        },
+        "delivery_condition": "现有供应商声称 10 周可完成首批样件；噪声改善没有外部验证。",
+        "known_risk": "用户是否愿意为配件单独付费未知；现有产品兼容范围待定义。"
+      },
+      {
+        "option": "B",
+        "name": "易清洁部件套装",
+        "customer_value_hypothesis": "减少清洗与晾干的时间成本，并降低部件残留担忧。",
+        "economics": {
+          "proposed_price_usd": 22,
+          "estimated_unit_cost_usd": 8,
+          "estimated_fulfillment_usd": 3,
+          "gross_margin_before_marketing": "50%"
+        },
+        "delivery_condition": "现有供应商声称 14 周可完成首批样件；材料耐久性和合规适用范围待验证。",
+        "known_risk": "清洁痛点是否足以形成购买转换未知；材料变更可能影响交付条件。"
+      },
+      {
+        "option": "N",
+        "name": "维持现有计划，不新增配件",
+        "customer_value_hypothesis": "不增加新的用户价值假设，保留当前资源与交付安排。",
+        "economics": {
+          "proposed_price_usd": 0,
+          "estimated_unit_cost_usd": 0,
+          "estimated_fulfillment_usd": 0,
+          "gross_margin_before_marketing": "不适用"
+        },
+        "delivery_condition": "不新增开发与验证工作。",
+        "known_risk": "可能错过需要进一步验证的用户问题，但不应把机会成本量化为事实。"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E01",
+        "type": "合成购买后反馈",
+        "coverage": "300 条虚构、已去重的短反馈",
+        "finding": "108 条提及清洗步骤繁琐；81 条提及夜间使用噪声或干扰；同一条可命中多个主题。",
+        "limit": "不代表真实人群、真实比例、真实语言或真实购买行为。"
+      },
+      {
+        "id": "E02",
+        "type": "合成购买前搜索表达",
+        "coverage": "180 条虚构搜索表达",
+        "finding": "64 条包含易清洁相关词；51 条包含静音或夜间相关词；意图与实际成交均未知。",
+        "limit": "不代表真实搜索量、排名、需求规模或转化意愿。"
+      },
+      {
+        "id": "E03",
+        "type": "合成竞品观察",
+        "coverage": "12 个虚构产品页面摘要",
+        "finding": "7 个页面强调易清洁，4 个页面强调静音；没有价格、销量、真实性或同口径比较保证。",
+        "limit": "不能推导市场份额、差异化强弱或竞争优势。"
+      },
+      {
+        "id": "E04",
+        "type": "合成单位经济假设",
+        "coverage": "A/B 的价格、成本和履约假设",
+        "finding": "B 的假设毛利高于 A；两者均未包含退货、渠道、投放、研发、认证或现金占用。",
+        "limit": "不是财务预测、承诺、预算或利润结论。"
+      },
+      {
+        "id": "E05",
+        "type": "合成交付条件",
+        "coverage": "供应商的假定样件周期和待验证条件",
+        "finding": "A 假定 10 周，B 假定 14 周；均含尚未证明的前提。",
+        "limit": "不等同于供应商承诺、采购计划或量产准备。"
+      }
+    ],
+    "required_lenses": [
+      "客户价值与证据覆盖",
+      "经济条件与遗漏成本",
+      "兑现条件与风险",
+      "不行动基线",
+      "不确定性与下一步验证"
+    ],
+    "prohibited_claims": [
+      "把合成信号说成真实消费者或市场事实",
+      "把相关主题数写成需求规模、转化率或因果结论",
+      "把毛利假设写成盈利承诺",
+      "把候选推荐写成采购、发布、投放、资源或产品定义授权"
+    ]
+  },
+  "submission_contract": [
+    "候选只能使用任务包中的 E01-E05，不得补造外部来源或把虚构数据写成真实事实。",
+    "提交一份不超过 1,200 字的经营选项备忘录，并附一张 A/B/N 对照表。",
+    "逐条标出事实、假设、推断和未知；每个关键判断回指 E01-E05。",
+    "给出暂定推荐或“证据不足不推荐”，并说明最小验证行动，但不得授权任何真实业务动作。"
+  ],
+  "rubric": [
+    {
+      "dimension": "决策边界",
+      "max_score": 12,
+      "look_for": "问题、读者、范围、A/B/N 比较和不在范围内的事项明确。"
+    },
+    {
+      "dimension": "证据可追溯",
+      "max_score": 18,
+      "look_for": "关键主张能回到 E01-E05，且不误读合成证据。"
+    },
+    {
+      "dimension": "选项可比较",
+      "max_score": 20,
+      "look_for": "客户价值、经济条件、兑现条件、风险和不行动基线同框比较。"
+    },
+    {
+      "dimension": "前提与不确定性",
+      "max_score": 16,
+      "look_for": "假设、遗漏成本、覆盖缺口与可能改变结论的条件明确。"
+    },
+    {
+      "dimension": "建议与验证",
+      "max_score": 16,
+      "look_for": "建议与证据强度相称，给出最小、可验证的下一步而非伪确定结论。"
+    },
+    {
+      "dimension": "交接与业务边界",
+      "max_score": 18,
+      "look_for": "输出可交给商业论证责任方；不越权到产品定义、采购、发布、投放或资源决定。"
+    }
+  ],
+  "hard_gates": [
+    "独立复核人未指定，不得启动候选提交或评分。",
+    "候选提交人与复核人不得参与本任务包的设计、数据构造或评分规则改写。",
+    "任何将合成数据表述成真实事实、遗漏 A/B/N 任一选项、或产生真实业务授权的提交，直接判为不合格。",
+    "完成独立复核后，只能得到“交付结构是否达到受控门槛”的结论，不能得到真实新品、市场或投资结论。"
+  ],
+  "role_separation": [
+    {
+      "role": "候选执行人",
+      "must_do": "按固定任务包提交备忘录与对照表。",
+      "must_not": "不得改输入、评分规则或自评。"
+    },
+    {
+      "role": "独立复核人",
+      "must_do": "在未参与任务包设计与候选执行的前提下，逐项记录评分和硬门槛裁决。",
+      "must_not": "不得替候选补写结论、补造数据或在评分后修改任务包。"
+    },
+    {
+      "role": "商业论证接收方",
+      "must_do": "仅判断交付能否作为后续材料，记录缺口和下一步。",
+      "must_not": "不得把受控试跑结果转成投入、资源或执行授权。"
+    }
+  ],
+  "non_conclusions": [
+    "不证明真实消费者需求、市场规模、价格弹性、竞争差异化、供应可行性或财务收益。",
+    "不产生产品定义、采购、合规、渠道、投放、资源、岗位、Preset、Agent 或生产上线决定。",
+    "不改变 Product And Business Analysis 在总表中的“暂停竞聘”准备度。"
+  ],
+  "next_gate": "由用户指定一名未参与包设计或候选提交的独立复核人；其确认角色分离后，才可向候选执行人发放固定任务包。"
+}

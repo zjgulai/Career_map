@@ -1,0 +1,22 @@
+{
+  "英文名称": "mcp-criticagent",
+  "中文名称": "待补：mcp-criticagent",
+  "一句话作用": "Evaluate MCP (Model Context Protocol) servers and tools end to end — deploy from a GitHub URL or npm package, test protocol communication and tool calls, run AI-generated smart tests, and score repository sustainability…",
+  "关键输入": "Run from the repository root (contains src/ and pyproject.toml). - Python deps: uv sync (or pip install -e .) - Node.js 18+ with npx (MCP tools are deployed as npm packages) - Optional env in .env: DASHSCOPE API KEY for layer 2 smart tests (apply at https://h…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Evaluate MCP (Model Context Protocol) servers and tools end to end — deploy from a GitHub URL or npm package, test protocol communication and tool calls, run AI-generated smart tests, and score repository sustainability…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04639-mcp-criticagent-3cbf320e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/mcp-criticagent/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/mcp-criticagent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb756938ce9ef9c61c22a6cfaa800311779c6b68917839a7255b41e908b7d263",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

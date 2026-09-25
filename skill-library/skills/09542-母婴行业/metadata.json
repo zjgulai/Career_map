@@ -1,0 +1,22 @@
+{
+  "英文名称": "competitor-price-analysis",
+  "中文名称": "母婴行业",
+  "一句话作用": "Analyze competitor pricing strategies across e-commerce platforms for母婴 products. v2.0 adds auto-monitoring rules, price change alerts (JSON payload), price elasticity estimation, promo strategy recommendations, and dat…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "本 skill 输出到 data-to-strategy-bridge 的标准接口格式：",
+  "最新更新时间": "2026-05-04T18:39:05+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Analyze competitor pricing strategies across e-commerce platforms for母婴 products. v2.0 adds auto-monitoring rules, price change alerts (JSON payload), price elasticity estimation, promo strategy recommendations, and dat…时，用它产出或更新：本 skill 输出到 data-to-strate…",
+  "skill_id": "09542-competitor-price-analysis-9ec368c0",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/competitor-price-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/ecommerce/competitor-price-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e0324b09dbb950e887ec8b90b84b70fb79e711b4638f42d54f529d9938367f9f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "employment-contract-templates",
+  "中文名称": "待补：employment-contract-templates",
+  "一句话作用": "Create employment contracts, offer letters, and HR policy documents following legal best practices. Use when drafting employment agreements, creating HR policies, or standardizing employment documentation.",
+  "关键输入": "- Drafting employment contracts - Creating offer letters - Writing employee handbooks - Developing HR policies - Standardizing employment documentation - Onboarding documentation",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- Drafting employment contracts - Creating offer letters - Writing employee handbooks - Developing HR policies - Standardizing employment documentation - Onboarding documentation时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05638-employment-contract-templates-5ea0ca1d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/hr-legal-compliance/skills/employment-contract-templates/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/hr-legal-compliance/skills/employment-contract-templates/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa8ea2c629cd21841fa513e91ca5919cf8d0e516ee0b439956a65c907e6aca31",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

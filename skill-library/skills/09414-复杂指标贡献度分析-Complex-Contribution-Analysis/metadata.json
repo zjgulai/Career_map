@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-complex-contribution",
+  "中文名称": "复杂指标贡献度分析 (Complex Contribution Analysis)",
+  "一句话作用": "跨境电商复杂指标贡献度分析Skill。处理任意四则运算组合的指标关系，基于偏微分和全微分计算各过程指标的静态贡献度、波动贡献度和贡献占比。 触发条件: 1. 用户提到\"复杂贡献度\"、\"偏微分贡献\"、\"全微分归因\" 2. 用户询问\"多因素贡献\"、\"复合指标归因\"、\"四则运算贡献\" 3. 指标关系包含加减乘除混合运算 4. 需要精确计算各因素的敏感度和贡献占比 5. 用户提到\"弹性系数\"、\"敏感度分析\"、\"贡献分解\" 输出内容: - 各因…",
+  "关键输入": "1. 指标关系定义 2. 数据格式",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-05T00:14:52+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商复杂指标贡献度分析Skill。处理任意四则运算组合的指标关系，基于偏微分和全微分计算各过程指标的静态贡献度、波动贡献度和贡献占比。 触发条件: 1. 用户提到\"复杂贡献度\"、\"偏微分贡献\"、\"全微分归因\" 2. 用户询问\"多因素贡献\"、\"复合指标归因\"、\"四则运算贡献\" 3. 指标关系包含加减乘除混合运算 4. 需要精确计算各因素的敏感度和贡献占比 5. 用户提到\"弹性系数\"、\"敏感度分析\"、\"贡献分解\" 输出内容: - 各因…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09414-cbec-complex-contribution-7c185835",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/02-attribution-analysis/complex-contribution/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/02-attribution-analysis/complex-contribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f18edf139b44004f78440268c707f42176e72af43ed480e0f00cd333e2a3a1fe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

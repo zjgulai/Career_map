@@ -1,0 +1,22 @@
+{
+  "英文名称": "AppleScript",
+  "中文名称": "待补：AppleScript",
+  "一句话作用": "Write and run safe AppleScript automation on macOS with dictionary discovery, robust quoting, and deterministic read-first workflows.",
+  "关键输入": "- macOS with osascript available. - Target app installed and scriptable when app automation is requested. - Explicit user confirmation before destructive operations.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:36+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要User needs AppleScript automation on macOS for app control, data extraction, or scripted UI actions. Agent handles script design, safe execution with osascript, output parsing, and troubleshooting.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04722-applescript-a12d7964",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/AppleScript/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/AppleScript/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "376f829903e4836f0e6203320e1de3a1b0e1df77261044879876268fee1b07d0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

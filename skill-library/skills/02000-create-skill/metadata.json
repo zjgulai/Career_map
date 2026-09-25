@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-skill",
+  "中文名称": "待补：create-skill",
+  "一句话作用": "Create Cursor Agent Skills. Use when authoring a new skill or asking about SKILL.md structure.",
+  "关键输入": "Before creating a skill, gather essential information from the user about: 1. Purpose and scope : What specific task or workflow should this skill help with? 2. Target location : Should this be a personal skill (~/.cursor/skills/) or project skill (.cursor/sk…",
+  "关键输出": "\\\\\\`",
+  "最新更新时间": "2026-05-16T16:33:00+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Concrete examples of using this skill.时，用它产出或更新：\\\\\\`",
+  "skill_id": "02000-create-skill-30b67cf9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cursor/skills-cursor/create-skill/SKILL.md",
+  "relative_path": "lute/.cursor/skills-cursor/create-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3df382ea9cf2119ee8f121143b2ec0cacbd8bbc6dc3a15fd981ea547cef42f8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

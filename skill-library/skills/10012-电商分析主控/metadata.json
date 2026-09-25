@@ -1,0 +1,22 @@
+{
+  "英文名称": "电商分析主控",
+  "中文名称": "电商分析主控",
+  "一句话作用": "当用户需要分析电商订单数据、生成经营报告（日报/周报/月度复盘/季度战略/大促分析）或不确定该调用哪个数据分析子Skill时使用。电商数据分析技能包主协调器，整合日报/周报、月度复盘、季度战略、大促分析、CSV处理等电商数据技能。触发词：电商分析主控、电商分析、订单CSV分析、经营复盘、数据报告、电商数据、数据分析技能包、电商主控、Skill路由。何时不用：单一明确分析需求（直接调用子Skill）、非电商数据分析（营销文案/SEO/竞…",
+  "关键输入": "- 需要分析电商订单数据但不确定调用哪个具体子Skill - 需要生成经营报告（日报/月报/季度报告） - 需要协调多个子Skill完成复杂分析任务 - 需要了解电商数据分析技能包的整体能力 - 需要选择合适的数据分析工具/流程",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 需要分析电商订单数据但不确定调用哪个具体子Skill - 需要生成经营报告（日报/月报/季度报告） - 需要协调多个子Skill完成复杂分析任务 - 需要了解电商数据分析技能包的整体能力 - 需要选择合适的数据分析工具/流程时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10012-skill-9b02bb5e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/81-Skills/电商分析主控/SKILL.md",
+  "relative_path": "lute/project/81-Skills/电商分析主控/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "aba3c938a56c6d6fd431d30941fcd64a41e828a0bef45b2f39e34878c62b8d3b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

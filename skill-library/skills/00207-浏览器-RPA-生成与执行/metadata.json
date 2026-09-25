@@ -1,0 +1,22 @@
+{
+  "英文名称": "browser-rpa-run",
+  "中文名称": "浏览器 RPA 生成与执行",
+  "一句话作用": "当需要根据已准备的业务数据生成并执行浏览器 RPA 时使用；已有可执行 DSL 时使用 browser-rpa-launch。",
+  "关键输入": "调用 browser rpa run： 输入规则： - type、platform、url、dataPaths、platformId、storeId 和 storeAccountId 必填，closeOnFinish 可选。三个 Profile ID 必须来自同一条 discover store accounts.accounts[] 记录，缺失或只传一部分时停止调用。 - platformName、storeName、account 可作为展示和日志元数据一起传入；account 仅使用工具返回的 L3 脱敏值…",
+  "关键输出": "结果码 含义与处理 --- --- BROWSER RPA RUN SUCCEEDED、BROWSER RPA RUN PARTIAL、BROWSER RPA RUN FAILED 表示总体汇总状态；继续检查每个 item。 BROWSER RPA RUN INPUT INVALID 输入参数无效。根据顶层 message 修正参数后，可以重新提交。 BROWSER RPA RUN NOT CONFIGURED、BROWSER RPA RUN ORIGIN NOT ALLOWED、BROWSER RPA RUN…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要当需要根据已准备的业务数据生成并执行浏览器 RPA 时使用；已有可执行 DSL 时使用 browser-rpa-launch。时，用它产出或更新：结果码 含义与处理 --- --- BROWSER RPA RUN SUCCEEDED、BROWSER RPA RUN PARTIAL、BROWSER RPA RUN FAILED 表示总体汇总状态；继续检查每个 item。 BROWSER RPA RUN INPUT INVALID 输入参数无效。根据顶层 message 修正参数后，可以重新提交。 BROWSE…",
+  "skill_id": "00207-browser-rpa-run-f97ee5ff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/browser-rpa-run/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/browser-rpa-run/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f4cb884b11a0444a74b9cebda62bb2c83cb564940c2cc900c0b94f7b487ca71",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

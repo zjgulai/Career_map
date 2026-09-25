@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-blockecho-missing-data",
+  "中文名称": "块缺失数据补全 - 整段流量数据丢失时的恢复",
+  "一句话作用": "触发词：块缺失、整段缺失、数据补全、GAN 补数、流量恢复。何时不用：只是零散单元格缺失（点缺失）时常规插补即可；要监控采集延迟与缺失告警走数据质量监控。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要数据经理面临缺失值拖慢分析——BlockEcho将补数耗时从4小时降到30分，年化省8万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11916-p2s-blockecho-missing-data-bc1521b4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-blockecho-missing-data/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-blockecho-missing-data/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a957eb0f0b787a10cc4c0ec841c61c28dfdfa4d82fe2e898d2323fd041ee3383",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

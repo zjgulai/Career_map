@@ -1,0 +1,22 @@
+{
+  "英文名称": "dashboard",
+  "中文名称": "管理后台仪表板",
+  "一句话作用": "固定侧栏 + 顶栏 + KPI 网格 + 1-2 张图",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "operations",
+  "解决具体问题": "当需要固定侧栏 + 顶栏 + KPI 网格 + 1-2 张图时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10291-dashboard-f26f8ff1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/dashboard/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/dashboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f244f2565bcf0fd2ab3ca84e37f50d0cde0527eef641dbab1909b9ecf089ee8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "circleci-builds",
+  "中文名称": "待补：circleci-builds",
+  "一句话作用": "Diagnose and fix failing CircleCI builds quickly and safely. Use when users ask to investigate failed CircleCI jobs, triage flaky pipelines, identify root causes from logs, and implement minimal fixes in configuration,…",
+  "关键输入": "- Failing pipeline/workflow/job identifier - Branch and commit SHA - First failing step and key log lines - Whether rerun on same commit reproduces failure",
+  "关键输出": "Provide: 1. Failure summary (pipeline/workflow/job/step). 2. Root-cause hypothesis with confidence. 3. Applied changes with file list. 4. Validation plan and expected pass signal. 5. Remaining risk.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Diagnose and fix failing CircleCI builds quickly and safely. Use when users ask to investigate failed CircleCI jobs, triage flaky pipelines, identify root causes from logs, and implement minimal fixes in configuration,…时，用它产出或更新：Provide: 1. Failure summary…",
+  "skill_id": "00764-circleci-builds-eb9e69b7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/circleci/skills/builds/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/circleci/skills/builds/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cc46ce138f51555c68c6dbe326e8abd79bcc9bb5b881e105c1c8399e75f88830",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

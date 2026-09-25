@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ssbc-small-sample-conformal",
+  "中文名称": "小样本Beta修正共形预测 - 50个样本也能保证覆盖",
+  "一句话作用": "触发词：小样本校准、共形预测、覆盖保证、区间可信度、预算决策置信。何时不用：要做的是把推荐结果讲清楚（可解释推荐）而不是给区间覆盖保证时用「可解释推荐」。安全边界：只保证区间覆盖概率，不提升底层模型精度，也不作因果断言。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：日本市场刚上线，只收集了50条带标签的转化数据做校准时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12424-p2s-ssbc-small-sample-conformal-18b7a14e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-ssbc-small-sample-conformal/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-ssbc-small-sample-conformal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5661d39e2ab78a4ae7944b3d9a39b2e7aa59f038b7238af0c14c36ba0e327f7d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

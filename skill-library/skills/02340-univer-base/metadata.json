@@ -1,0 +1,22 @@
+{
+  "英文名称": "univer-base",
+  "中文名称": "待补：univer-base",
+  "一句话作用": "Create, edit, calculate, inspect, export, and review Univer Base database Units through DSH tools and the Lite Interface. Use proactively for Base tables, fields, records, views, Formula fields, structured references, S…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T09:20:58+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Create, edit, calculate, inspect, export, and review Univer Base database Units through DSH tools and the Lite Interface. Use proactively for Base tables, fields, records, views, Formula fields, structured references, S…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02340-univer-base-701b2219",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop/node_modules/dsh-univer-office/skills/univer-base/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop/node_modules/dsh-univer-office/skills/univer-base/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "918cc5b541ad7ebdb5be23aac43f11e082d10086e87b8b44f0d638610f820d23",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

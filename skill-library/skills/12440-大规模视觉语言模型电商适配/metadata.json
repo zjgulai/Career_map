@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-vlm-ecommerce-adaptation",
+  "中文名称": "大规模视觉语言模型电商适配",
+  "一句话作用": "触发词：视觉语言模型适配、多图属性提取、图片覆盖度、图片质量评分、认证标识识别。何时不用：要把整个品类的属性键归纳成图谱并接下游搜索推荐时用「多模态产品属性图谱 AutoPKG」。安全边界：只做图片审核与属性抽取，不判定商品真实合规、不代改 Listing。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要电商运营面临视觉判图不准——VLM适配将商品误判率11%降到2%，年化省18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12440-p2s-vlm-ecommerce-adaptation-c1cf9bbc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-vlm-ecommerce-adaptation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-vlm-ecommerce-adaptation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "80e2ec54fd4abebc5c9447a8abe913f3424baebf60f0fbca4a8e68f21b5e8047",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

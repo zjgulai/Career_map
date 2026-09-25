@@ -1,0 +1,22 @@
+{
+  "英文名称": "use-dom",
+  "中文名称": "待补：use-dom",
+  "一句话作用": "Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally.",
+  "关键输入": "Use DOM components when you need: - Web-only libraries — Charts (recharts, chart.js), syntax highlighters, rich text editors, or any library that depends on DOM APIs - Migrating web code — Bring existing React web compo…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use DOM components when you need: - Web-only libraries — Charts (recharts, chart.js), syntax highlighters, rich text editors, or any library that depends on DOM APIs - Migrating web code — Bring existing React web compo…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00831-use-dom-243dfa5a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/expo/skills/use-dom/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/expo/skills/use-dom/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7041bb26db02e24c45eb6c4c4879138a0f52786dd928eefd66c90a35b0e3197d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

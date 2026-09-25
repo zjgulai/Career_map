@@ -1,0 +1,22 @@
+{
+  "英文名称": "站点地图",
+  "中文名称": "站点地图",
+  "一句话作用": "站点地图（IA 骨架）。基于 /设计简报（业务目标 / 用户）+ /用户故事（功能拆解 + 设计触点）输出可被 Flow Web/Mobile 直接消费的站点结构——主导航 + 页面层级 + 路由命名 + 关键 flow 概览。设计师不必从零拉树状图，AI 从上游字段直接生成 IA 骨架，再让设计师调整。 触发关键词：站点地图、sitemap、信息架构、IA、页面结构、路由设计、导航结构、有哪些页面、页面层级、Flow 之前的 IA…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "完成 Sitemap 后， 同时 做两件事： 1. 会话内输出 （marker 之间放裸 JSON，不要嵌套 ``json 代码块）： 2. 写入项目文件 ：spark-output/context/sitemap.json（目录不存在时先创建） 3. 额外保存 Markdown 报告 ：spark-output/sitemap/[project-slug].md`，含树状图 + 路由表 + 关键 flow 序列。 下游可消费 Skill： Flow Web / Flow Mobile （Step 0 优先读 S…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要站点地图（IA 骨架）。基于 /设计简报（业务目标 / 用户）+ /用户故事（功能拆解 + 设计触点）输出可被 Flow Web/Mobile 直接消费的站点结构——主导航 + 页面层级 + 路由命名 + 关键 flow 概览。设计师不必从零拉树状图，AI 从上游字段直接生成 IA 骨架，再让设计师调整。 触发关键词：站点地图、sitemap、信息架构、IA、页面结构、路由设计、导航结构、有哪些页面、页面层级、Flow 之前的 IA…时，用它产出或更新：完成 Sitemap 后， 同时 做两件事： 1. 会…",
+  "skill_id": "04611-skill-4ab4608f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/sitemap/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/sitemap/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "491a08e2fe150801e8d05164a8b52fc1ec0e15104a8d9a8b703465f0db033ff2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

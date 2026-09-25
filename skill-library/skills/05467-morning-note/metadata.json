@@ -1,0 +1,22 @@
+{
+  "英文名称": "morning-note",
+  "中文名称": "待补：morning-note",
+  "一句话作用": "Draft concise morning meeting notes summarizing overnight developments, trade ideas, and key events for coverage stocks. Designed for the 7am morning meeting format — tight, opinionated, actionable. Triggers on \"morning…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Markdown text for email/Slack distribution - Word document if formal distribution is needed - Keep to 1 page max — PMs and traders won't read more",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Draft concise morning meeting notes summarizing overnight developments, trade ideas, and key events for coverage stocks. Designed for the 7am morning meeting format — tight, opinionated, actionable. Triggers on \"morning…时，用它产出或更新：- Markdown text for email/…",
+  "skill_id": "05467-morning-note-70f5ebe2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/morning-note/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/morning-note/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "38f0b36cd414bb0b702bdef0f7f3d53480f8338f8495286d7ebb012f0a92774c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

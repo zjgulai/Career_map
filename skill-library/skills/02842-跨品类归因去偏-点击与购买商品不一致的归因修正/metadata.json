@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cabb-cross-category-attribution",
+  "中文名称": "跨品类归因去偏 - 点击与购买商品不一致的归因修正",
+  "一句话作用": "触发词：跨品类归因、点击 A 购买 B、归因权重修正、品类相似度、Session 分析、广告被砍。何时不用：点击与购买品类基本一致时用常规归因；没有品类层级或共现日志时先补数据。安全边界：Session 与共现日志涉及用户行为，需在隐私政策覆盖范围内使用，品类树与商品数据须为自有或授权数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要用户点击吸奶器广告，进入品牌店铺后转而购买了储奶袋和奶瓶时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02842-p2s-cabb-cross-category-attribution-9e637092",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cabb-cross-category-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cabb-cross-category-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "127414c5d5a2fd19b2367a96374f685164054a545cfa6ce7fa3ec5d8534ecd69",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

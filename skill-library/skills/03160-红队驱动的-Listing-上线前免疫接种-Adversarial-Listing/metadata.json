@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gan-red-team-listing",
+  "中文名称": "红队驱动的 Listing 上线前免疫接种 (Adversarial Listing Defense)",
+  "一句话作用": "触发词：红队演练、对抗生成、Listing 劫持、专利碰瓷、上架前免疫。何时不用：上架后的跟卖发现与侵权处置不属本技能；本技能只做上架前的对抗预演。安全边界：红队模拟仅用于自身防御演练，不得用于生成攻击、劫持他人 Listing 的内容。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营团队在爆款上架前始终找不到潜在攻击点——引入生成对抗网络(GAN)红队Agent，以灰色市场攻击者视角自动生成Listing劫持与专利碰瓷模拟，在上架前完成免疫接种，防止爆款上架2周即被恶意跟卖摧毁。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03160-p2s-gan-red-team-listing-68af479d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-gan-red-team-listing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-gan-red-team-listing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a1af4b0932e42ffbc5e19308df32d1ba06bf2b398cbc63996fc4037f1f98fc0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

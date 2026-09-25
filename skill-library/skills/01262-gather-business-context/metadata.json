@@ -1,0 +1,22 @@
+{
+  "英文名称": "gather-business-context",
+  "中文名称": "待补：gather-business-context",
+  "一句话作用": "Gather business context from connected or provided sources so downstream analysis starts with the right framing. Use when an analytical question depends on missing context, such as what a metric means, what changed rece…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. Explore all possible sources. Search every enabled or provided source family that could contain useful context or task-relevant data. Within each structured-data source, run fresh catalog or metadata discovery for relevant schemas, datasets, tables, views,…",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Gather business context from connected or provided sources so downstream analysis starts with the right framing. Use when an analytical question depends on missing context, such as what a metric means, what changed rece…时，用它产出或更新：1. Explore all possible so…",
+  "skill_id": "01262-gather-business-context-89a61e02",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/gather-business-context/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.9/skills/gather-business-context/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c61aaab29796c5c5a101f8d802a9ab0d1c4366e31a5acadddec56ca4849d7237",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

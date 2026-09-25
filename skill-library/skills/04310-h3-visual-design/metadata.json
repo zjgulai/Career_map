@@ -1,0 +1,22 @@
+{
+  "英文名称": "h3-visual-design",
+  "中文名称": "待补：h3-visual-design",
+  "一句话作用": "Create H3 motion-design video using kinetic typography, tracking graphics, or live-action and hand-drawn interaction. Requires a visible moving technique; not for static design or generic animation.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:02:46+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create H3 motion-design video using kinetic typography, tracking graphics, or live-action and hand-drawn interaction. Requires a visible moving technique; not for static design or generic animation.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04310-h3-visual-design-c82f90db",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/h3-visual-design/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/h3-visual-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "99fe5a9650905fd19bc54c6c83d92d6df9f49a6077bf245d84e52c8891a04319",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

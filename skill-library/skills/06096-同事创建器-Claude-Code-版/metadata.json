@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-colleague",
+  "中文名称": "同事创建器（Claude Code 版）",
+  "一句话作用": "Distill a colleague into an AI Skill. Auto-collect Feishu/DingTalk data, generate Work Skill + Persona, with continuous evolution. 把同事蒸馏成 AI Skill，自动采集飞书/钉钉数据，生成 Work + Persona，支持持续进化。",
+  "关键输入": "参考 ${CLAUDE SKILL DIR}/prompts/intake.md 的问题序列，只问 3 个问题： 1. 花名/代号 （必填） 2. 基本信息 （一句话：公司、职级、职位、性别，想到什么写什么） - 示例：字节 2-1 后端工程师 男 3. 性格画像 （一句话：MBTI、星座、个性标签、企业文化、印象） - 示例：INTJ 摩羯座 甩锅高手 字节范 CR很严格但从来不解释原因 除姓名外均可跳过。收集完后汇总确认再进入下一…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:03:43+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要参考 ${CLAUDE SKILL DIR}/prompts/intake.md 的问题序列，只问 3 个问题： 1. 花名/代号 （必填） 2. 基本信息 （一句话：公司、职级、职位、性别，想到什么写什么） - 示例：字节 2-1 后端工程师 男 3. 性格画像 （一句话：MBTI、星座、个性标签、企业文化、印象） - 示例：INTJ 摩羯座 甩锅高手 字节范 CR很严格但从来不解释原因 除姓名外均可跳过。收集完后汇总确认再进入下一…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06096-create-colleague-16008058",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-colleague/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/create-colleague/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63899ff02c33f9ef953f048be692508e39542464089cc90e2c4692cbec9962b5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

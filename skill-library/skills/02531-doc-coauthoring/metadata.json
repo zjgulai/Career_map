@@ -1,0 +1,22 @@
+{
+  "英文名称": "doc-coauthoring",
+  "中文名称": "待补：doc-coauthoring",
+  "一句话作用": "- Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users…",
+  "关键输入": "- 结构化流程共写文档、提案与技术规格。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:24:57+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- 结构化流程共写文档、提案与技术规格。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02531-doc-coauthoring-fc7cc03c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/doc-coauthoring/SKILL.md",
+  "relative_path": "lute/.dsh/skills/doc-coauthoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "39c6759dd9dedb215355878b4dccf50a5fcabb3099e15040af7475b49f5581b6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

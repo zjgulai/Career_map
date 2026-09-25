@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-contextual-dynamic-pricing-optimal",
+  "中文名称": "最优上下文定价：O(隐私保护",
+  "一句话作用": "触发词：上下文动态定价、个性化报价、在线学习定价、隐私保护定价、序贯试价、新客收敛。何时不用：只有离线历史价格-销量序列、没有在线试价回路时用「需求价格弹性估算」；要按买家档位而非逐单报价时用「Price Fence 分档定价」。安全边界：个性化报价须遵守平台反价格歧视与隐私合规要求，产出的是报价建议与仿真结论，不是自动改价指令。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：不同用户群（海外华人/本地消费者/新生儿家庭）对同款婴幼儿奶粉的购买意愿差异显著时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12268-p2s-contextual-dynamic-pricing-optimal-ea618fa9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-contextual-dynamic-pricing-optimal/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-contextual-dynamic-pricing-optimal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "174dc6df4b935152f2c7407322a117e09b09525b0a58dac0772402fe2fff2337",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

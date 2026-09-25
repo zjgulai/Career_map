@@ -1,0 +1,22 @@
+{
+  "英文名称": "pb-008",
+  "中文名称": "待补：pb-008",
+  "一句话作用": "PB-008 经营资源与组织能力复盘（材料《AI组织变革》手册原文，逐字）。触发与责任。 经营复盘节奏或重大目标偏差触发FLOW-08，AGT-001担任AI结果负责人。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-11T22:55:54+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要PB-008 经营资源与组织能力复盘（材料《AI组织变革》手册原文，逐字）。触发与责任。 经营复盘节奏或重大目标偏差触发FLOW-08，AGT-001担任AI结果负责人。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04062-pb-008-c773e294",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/pb-008/SKILL.md",
+  "relative_path": "lute/.dsh/skills/pb-008/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "99d3fabb913cca8e404390821c73d587326ceb1551440a02c7b80747b3f4f2d3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-scpa-autonomous-sc-planning-agent",
+  "中文名称": "自主供应链规划智能体SCPA 自然语言结构化规划报告的JD完整框架",
+  "一句话作用": "触发词：供应链晨报、自然语言规划、规划智能体、库存健康报告、补货草案。何时不用：需要端到端多智能体自动补货链路时用多Agent供应链端到端自动化；需要计算缺口分配优先级时用供需缺口分析与优先级分配。安全边界：自动生成的是补货草案与行动建议，正式发 PO 或改价前必须由人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要日常供应链晨报人工准备30分钟且双十一备货规划需3天——JD.com SCPA自然语言→结构化规划报告，晨报2分钟/备货规划1小时，运营人效提升2-3倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11517-p2s-scpa-autonomous-sc-planning-agent-02564e18",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-scpa-autonomous-sc-planning-agent/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-scpa-autonomous-sc-planning-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "80be36f045fcccccf33231c7c9a24b4368d818b198c29300a81f2113897bac51",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

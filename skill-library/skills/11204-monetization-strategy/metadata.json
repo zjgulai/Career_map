@@ -1,0 +1,22 @@
+{
+  "英文名称": "monetization-strategy",
+  "中文名称": "待补：monetization-strategy",
+  "一句话作用": "Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.",
+  "关键输入": "- Product or feature description - Target market segment(s) and customer profile - Current willingness to pay or budget constraints - Competitive monetization approaches - Company priorities (revenue growth, user growth, profitability)",
+  "关键输出": "- Low-cost test to validate customer willingness to pay - Method: survey, landing page, pilot, freemium, waitlist - Success metric and decision criteria - Timeline and resources required",
+  "最新更新时间": "2026-09-16T00:16:54+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.时，用它产出或更新：- Low-cost test to validate customer willingness…",
+  "skill_id": "11204-monetization-strategy-d22efbf2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/monetization-strategy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/monetization-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2306d3c987e9572258fa1327a864049965dda3e4e873093482c6b671d686eea5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

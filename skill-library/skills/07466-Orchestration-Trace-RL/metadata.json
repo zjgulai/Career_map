@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Orchestration-Trace-RL",
+  "中文名称": "待补：Orchestration Trace RL",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 40.0, \"best\": 63.0, \"mutated\": \"D9 scenario\", \"ts\": \"2026-07-04T04:23:30.119618\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 29.8, \"best\": 72.0, \"mutated\": \"D10 three…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T17:54:42+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 40.0, \"best\": 63.0, \"mutated\": \"D9 scenario\", \"ts\": \"2026-07-04T04:23:30.119618\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 29.8, \"best\": 72.0, \"mutated\": \"D10 three…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07466-skill-orchestration-trace-rl-e42fd368",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Orchestration-Trace-RL.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Orchestration-Trace-RL.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "b4e497a8b0e9784e38dd75dcac9cf548b9ca4b6fb90a8a462f2623285ef413be",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

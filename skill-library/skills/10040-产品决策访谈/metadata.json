@@ -1,0 +1,22 @@
+{
+  "英文名称": "grill-me",
+  "中文名称": "产品决策访谈",
+  "一句话作用": "在开发前用决策树逐轮澄清产品方向、用户选择和范围边界，直到双方确认共同理解。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T03:52:28+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要在开发前用决策树逐轮澄清产品方向、用户选择和范围边界，直到双方确认共同理解。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10040-grill-me-ff3d5fd1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-product-developer/skills/grill-me/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/ai-product-developer/skills/grill-me/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "300c00c2a7003cc4dd8ed4d404c6bd217186e0272e671a97c096f04f09c47e84",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

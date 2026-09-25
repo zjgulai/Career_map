@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-design-studio",
+  "中文名称": "智能体设计工坊",
+  "一句话作用": "智能体设计工坊：引导教师完成从选题到测试的完整智能体设计流程。四步工作流：选题（从场景清单中选择）→ 设计（先建模，再对话式需求采集）→ 制作（自动生成SKILL.md）→ 测试（价值验证+三关质量验证）。当用户提到设计智能体、创建教学助手、制作Agent、智能体工坊、做一个skill、做一个技能、创建skill、设计skill、新建智能体时使用。注意：教师说'做一个skill'或'创建一个技能'时，指的是设计教学智能体，不是创建通用…",
+  "关键输入": "问教师： - \"这个智能体，你会在什么时候用它？是备课的时候、上课的时候、还是批作业的时候？\" - \"用的时候，你希望先输入什么信息？比如课题、学生数据、还是某个教学困惑？\" - \"用完之后，你期望得到什么样的结果？一份方案、一些练习题、还是一个分析报告？\" 记录：使用场景描述 + 输入信息 + 期望输出。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:37+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要问教师： - \"这个智能体，你会在什么时候用它？是备课的时候、上课的时候、还是批作业的时候？\" - \"用的时候，你希望先输入什么信息？比如课题、学生数据、还是某个教学困惑？\" - \"用完之后，你期望得到什么样的结果？一份方案、一些练习题、还是一个分析报告？\" 记录：使用场景描述 + 输入信息 + 期望输出。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04376-agent-design-studio-bf16b632",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/agent-design-studio/1.1.0/skills/agent-design-studio/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/agent-design-studio/1.1.0/skills/agent-design-studio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "87a8755debba19ad8a754dfa5a3f5cb04e6650a261b814c58042be21e852565c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

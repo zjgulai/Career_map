@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-amazon-compliance-error-auto-resolver",
+  "中文名称": "合规错误码语义解析与修复自动化",
+  "一句话作用": "触发词：合规错误码、错误码解析、修复清单、eFiling 报错、Listing 压制。何时不用：要处理平台违规警告的分级升级与申诉用「合规违规自动分级升级」；要监控政策页变更本身用「平台政策变更自适应监控」。安全边界：修复动作与模板邮件属建议，提交前须人工核验；模型对条款理解存在偏差（卡页口径误判率 8%），置信度低于 85% 的案例必须人工复审。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"50个SKU触发8572/8574合规错误不知如何处理导致Listing压制3天\"——错误码语义解析将处理时间从3天/个改善为4小时/批次，年化减少Listing压制GMV损失超60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02768-p2s-amazon-compliance-error-auto-resolver-42887a6f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-amazon-compliance-error-auto-resolver/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-amazon-compliance-error-auto-resolver/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "88d0fc3996cf34d4cbdd28e46bcaeef34f85ee8fa623defc518aa01744754862",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

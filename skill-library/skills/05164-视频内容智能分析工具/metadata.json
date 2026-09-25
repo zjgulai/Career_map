@@ -1,0 +1,22 @@
+{
+  "英文名称": "videos-content-analyzer",
+  "中文名称": "视频内容智能分析工具",
+  "一句话作用": "分析视频内容，支持今日头条、抖音、B站、西瓜视频、小红书、快手等平台。自动下载视频、语音转文字、繁简转换、支持普通话、粤语等方言及外语、支持提取音频文案、提取口播文案、理解场景描述文案。当用户提供视频链接并要求分析视频内容、总结视频、看看视频讲什么时使用此技能。调用大模型自动转写并剔除语气词、口误与重复内容，并可通过自定义 Prompt 生成总结、改写、金句提取、分镜头、中英翻译等风格化文案。",
+  "关键输入": "参数 别名 说明 是否必填 -------------------- ---- --------------------------------------------------- ------------------ --file -F 视频链接（抖音/小红书等公网 URL）或本地视频文件路径 与 --id 二选一",
+  "关键输出": "node scripts/video2text/index.js --file \"/path/to/your/video.mp4\" --prompt \"请用三个要点总结这个视频的核心内容\"",
+  "最新更新时间": "2026-09-19T03:51:56+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 实时 / 直播流转写 ：不支持，仅处理已完成的点播视频或本地文件。 - 加密 / 会员专属 / 需登录才能播放的链接 ：可能无法解析，建议先下载再用 --file 传本地路径。 - 纯音乐 / 无人声视频 ：无说话内容，转写价值低，建议改用音乐识别类工具。 - 批量处理 ：原生命令单次一个视频，可用 shell 循环调用（注意控制并发）。 - 计费以服务端实际解析时长为准 ，详见第11节。时，用它产出或更新：node scripts/video2text/index.js --file \"/path/t…",
+  "skill_id": "05164-videos-content-analyzer-a9d082b5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/videos-content-analyzer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/videos-content-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e546f6374eebc1370af41907e447b22858e482b76799e125add3be3900f68c7c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

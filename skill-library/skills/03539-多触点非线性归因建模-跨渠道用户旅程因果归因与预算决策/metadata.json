@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nonlinear-multi-touch-attribution",
+  "中文名称": "多触点非线性归因建模 跨渠道用户旅程因果归因与预算决策",
+  "一句话作用": "触发词：多触点归因、Shapley 值、跨渠道预算、Last-Click 偏差、归因重构、反事实。何时不用：只做单渠道内部关键词诊断用投放诊断；要重算 TikTok/Google/Amazon 之间的贡献并重分配预算时用本卡。安全边界：跨平台用户级数据回传违反 Amazon 广告政策，须用聚合级归因；GDPR 下须有 Cookie 同意，不得回传个人标识。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Last-Click归因导致TikTok预算被严重低估而Amazon SP被高估——Shapley值归因重新分配后整体ROAS从2.3x提升至3.1x，月增收$6.4万（$8万预算规模）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03539-p2s-nonlinear-multi-touch-attribution-593b2bf0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-nonlinear-multi-touch-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-nonlinear-multi-touch-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a6f6e5adabd88425faf77ea79e1606519694984181cfdc1374d469b7f3286e4f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

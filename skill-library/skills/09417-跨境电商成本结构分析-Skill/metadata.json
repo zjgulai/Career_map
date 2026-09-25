@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-cost-structure-analysis",
+  "中文名称": "跨境电商成本结构分析 Skill",
+  "一句话作用": "跨境电商成本结构分析Skill。系统拆解各项成本，计算关键费率指标，识别成本优化机会，支持定价和利润优化决策。 触发条件: 1. 用户提到\"成本结构\"、\"成本分析\"、\"费率分析\" 2. 用户需要\"定价策略\"、\"利润优化\" 3. 用户询问\"头程费率\"、\"广告费率\"等 4. 用户上传成本数据需要分析 输出内容: - 成本结构金字塔图 - 各项费率指标分析 - 同行业对比 - 成本优化建议",
+  "关键输入": "成本数据格式 : 字段说明 : 字段 说明 计算方式 ------ ------ --------- sales revenue 销售额 售价 × 销量 product cost 产品成本 采购价 + 包装 + 质检 headway fee 头程运费 国内到海外仓运费 fulfillment fee 尾程配送费 FBA或自发货费用 storage fee 仓储费 仓库租金或FBA仓储 platform fee 平台费用 佣金 + 订阅费",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-03T21:16:30+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商成本结构分析Skill。系统拆解各项成本，计算关键费率指标，识别成本优化机会，支持定价和利润优化决策。 触发条件: 1. 用户提到\"成本结构\"、\"成本分析\"、\"费率分析\" 2. 用户需要\"定价策略\"、\"利润优化\" 3. 用户询问\"头程费率\"、\"广告费率\"等 4. 用户上传成本数据需要分析 输出内容: - 成本结构金字塔图 - 各项费率指标分析 - 同行业对比 - 成本优化建议时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09417-cbec-cost-structure-analysis-8639388d",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/03-cost-analysis/cost-structure-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/03-cost-analysis/cost-structure-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a919425ee07b91e93caa475bec063777c30b76a7a63d4284027efd8af2de9c86",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

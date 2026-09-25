@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-alias",
+  "中文名称": "待补：glab-alias",
+  "一句话作用": "创建、列出和删除 GitLab CLI 命令别名和快捷方式。适用于创建自定义 glab 命令、管理 CLI 快捷方式或查看现有别名。触发词：alias、快捷方式、自定义命令、CLI 别名。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要创建、列出和删除 GitLab CLI 命令别名和快捷方式。适用于创建自定义 glab 命令、管理 CLI 快捷方式或查看现有别名。触发词：alias、快捷方式、自定义命令、CLI 别名。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10586-glab-alias-30e7ea68",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-alias/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-alias/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca849c37c66e13fea7e028b89fb46197fd9a471235abeae2cb4b7860bfd058f4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

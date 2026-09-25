@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-algorithmic-fairness-in-pricing",
+  "中文名称": "算法定价公平性审计 群体公平指标与价格歧视检测",
+  "一句话作用": "触发词：定价公平、价格歧视、群体公平指标、显著性检验、合规审计。何时不用：审计推荐曝光的群体差异用「AI 公平性审计」；为欧洲推荐系统交付合规材料用「AI 算法偏见审计」。安全边界：价格与用户数据须按隐私法规脱敏；结论须经法务复核，审计中间结果不得直接对外发布为定价说明。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规运营面临\"动态定价算法存在隐性歧视风险、EU AI Act合规存在潜在6%营收罚款\"——群体公平审计将歧视率降至阈值以下，年化规避法律风险50万元+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11242-p2s-algorithmic-fairness-in-pricing-037d2bf0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-algorithmic-fairness-in-pricing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-algorithmic-fairness-in-pricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6455435a178777a522cc5352336fc23df37dfb5378d659db6ede8d4081f60418",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

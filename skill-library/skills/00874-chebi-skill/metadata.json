@@ -1,0 +1,22 @@
+{
+  "英文名称": "chebi-skill",
+  "中文名称": "待补：chebi-skill",
+  "一句话作用": "Submit compact ChEBI 2.0 API requests for chemical search, compound lookup, ontology traversal, and structure metadata. Use when a user wants concise ChEBI summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common ChEBI patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Submit compact ChEBI 2.0 API requests for chemical search, compound lookup, ontology traversal, and structure metadata. Use when a user wants concise ChEBI summaries时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, and either com…",
+  "skill_id": "00874-chebi-skill-bbb3e200",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/chebi-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/chebi-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "59ff122f08639279f077c4f9bce85a5abfe0ef25430b4f3be29ee074b0dc94f0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

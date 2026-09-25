@@ -1,0 +1,22 @@
+{
+  "英文名称": "dd-meeting-prep",
+  "中文名称": "待补：dd-meeting-prep",
+  "一句话作用": "Prepare for due diligence meetings — management presentations, expert network calls, customer references, and advisor sessions. Generates targeted question lists, benchmarks to reference, and red flags to probe. Use bef…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "One-page meeting prep doc: 1. Meeting logistics : Who, when, where, duration 2. Objectives : Top 3 things you need to learn from this meeting 3. Question list : Prioritized, grouped by topic (star the must-asks) 4. Benchmarks : Key numbers to reference",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Prepare for due diligence meetings — management presentations, expert network calls, customer references, and advisor sessions. Generates targeted question lists, benchmarks to reference, and red flags to probe. Use bef…时，用它产出或更新：One-page meeting prep doc:…",
+  "skill_id": "05521-dd-meeting-prep-9243ccdc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/dd-meeting-prep/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/dd-meeting-prep/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a74eecadece794106d515ce3d00e07b3857ed123e841e8962e26363d2413d94f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

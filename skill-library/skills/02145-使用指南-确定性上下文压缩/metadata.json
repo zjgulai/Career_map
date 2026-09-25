@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-dcp-config",
+  "中文名称": "使用指南（确定性上下文压缩）",
+  "一句话作用": "dsh 压缩引擎插件（@aiwayds/dsh-dcp）使用与配置指南。凡涉及上下文压缩、/dcp 命令、压缩调参（阈值/密度/语言/轮数触发/模型切换），或要配置 dcp 时先读本指南：裸 /dcp 即压缩、/dcp status 看状态与 /dcp set 十二个可调键、持久化到 cordis.patch.yml 挂载块 config: 段（dsh-dcp-setup 管理）、ask user question 调参向导、五类触发…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T00:53:50+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要dsh 压缩引擎插件（@aiwayds/dsh-dcp）使用与配置指南。凡涉及上下文压缩、/dcp 命令、压缩调参（阈值/密度/语言/轮数触发/模型切换），或要配置 dcp 时先读本指南：裸 /dcp 即压缩、/dcp status 看状态与 /dcp set 十二个可调键、持久化到 cordis.patch.yml 挂载块 config: 段（dsh-dcp-setup 管理）、ask user question 调参向导、五类触发…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02145-dsh-dcp-config-0a117e9f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@aiwayds/dsh-dcp/skills/dsh-dcp-config/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@aiwayds/dsh-dcp/skills/dsh-dcp-config/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "90d38df003e7c29df336e112e044e068bb5bea611536ba18fc51bea8ee43e201",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-quality-coverage-kpi",
+  "中文名称": "标签质量KPI监控体系 覆盖率准确率时效性一致性的全维度Tag质量仪表盘",
+  "一句话作用": "触发词：标签质量、覆盖率 KPI、SLA 监控、时效性、标签仪表盘。何时不用：要给单批商品目录做入湖前质量门控走商品数据质量评估；要监控 ML 输入漂移走管道可观测性。安全边界：标签涉及母婴产品安全与合规，误标可能导致违规下架，卡页原文要求保留抽样准确率验证与人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要自动化团队面临\"标签错误后几个月才发现\"——五维质量KPI(覆盖率/准确率/时效/一致性/完整性)将标签错误MTTD从数月降至实时，防止误触发Action损失20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03927-p2s-tag-quality-coverage-kpi-bf8517f0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tag-quality-coverage-kpi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tag-quality-coverage-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30f0d0335d01fa6668d4b4e3784a8bee123b5c952c2adbe60526fbb16886a2ea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

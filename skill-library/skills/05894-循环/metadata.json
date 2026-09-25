@@ -1,0 +1,22 @@
+{
+  "英文名称": "godot-debug",
+  "中文名称": "循环",
+  "一句话作用": "仅当用户明确报告 Godot 项目 已经出错 （报错 / 崩溃 / 编译失败 / 脚本错误 / fix this error / 帮我看下这个 bug），或 build godot scene 执行后返回了错误日志时激活。调用 get debug errors / get script errors / get editor output 三个 MCP 单元查询工具并美化呈现。 用户在做新内容开发、部署、新建项目时 不要 激活本 Sk…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "直接原样转发 MCP 工具返回的报告文本， 不要复述、不要总结、不要省略 。 报告里 ── Error N ── 的分块、行号、suggestion、完整脚本块都要保留。 末尾追加一句简短引导，例如： 请按上面 suggestion 修改对应脚本后，再让我「检查一次错误」。",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要仅当用户明确报告 Godot 项目 已经出错 （报错 / 崩溃 / 编译失败 / 脚本错误 / fix this error / 帮我看下这个 bug），或 build godot scene 执行后返回了错误日志时激活。调用 get debug errors / get script errors / get editor output 三个 MCP 单元查询工具并美化呈现。 用户在做新内容开发、部署、新建项目时 不要 激活本 Sk…时，用它产出或更新：直接原样转发 MCP 工具返回的报告文本， 不要复述…",
+  "skill_id": "05894-godot-debug-9df69f25",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-debug/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/godot-mcp/skills/godot-debug/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f28ccaad803d86f2b9700e020a4af2291b1a642700500c112aeda3f208f385e1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "postgres",
+  "中文名称": "最佳实践）",
+  "一句话作用": "按主题索引 PostgreSQL 的 schema 设计、索引优化、MVCC/VACUUM、WAL、复制、备份恢复与 PgBouncer 配置参考。触发词：PostgreSQL、Postgres、慢查询、索引优化、连接池、VACUUM、postgres。何时不用：管「某个 Postgres 实例的运维与调优」；写 SQL 语句本身、跨 Snowflake/BigQuery 等方言的查询用 sql-queries，数仓内的分层建模与增量…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T02:31:18+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要按主题索引 PostgreSQL 的 schema 设计、索引优化、MVCC/VACUUM、WAL、复制、备份恢复与 PgBouncer 配置参考。触发词：PostgreSQL、Postgres、慢查询、索引优化、连接池、VACUUM、postgres。何时不用：管「某个 Postgres 实例的运维与调优」；写 SQL 语句本身、跨 Snowflake/BigQuery 等方言的查询用 sql-queries，数仓内的分层建模与增量…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12701-postgres-cc5f1c92",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Sanbao/repository-snapshot/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/postgres/SKILL.md",
+  "relative_path": "lute/project/Sanbao/repository-snapshot/packages/capabilities/dsh-overseas-skills/backup/intake-2026-09/overwritten/postgres/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d5966e4f2ba0bd9bb417b0f7ae82f9db5121fa2eada8de5482e9cf65f85ff1b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

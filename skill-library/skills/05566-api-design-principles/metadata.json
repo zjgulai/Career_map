@@ -1,0 +1,22 @@
+{
+  "英文名称": "api-design-principles",
+  "中文名称": "待补：api-design-principles",
+  "一句话作用": "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards.",
+  "关键输入": "input CreateUserInput { email: String! name: String! [REDACTED] }",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Designing new REST or GraphQL APIs - Refactoring existing APIs for better usability - Establishing API design standards for your team - Reviewing API specifications before implementation - Migrating between API paradi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05566-api-design-principles-0bf54dd5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/api-design-principles/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/backend-development/skills/api-design-principles/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fa44aba6c2687e281dbd400de3c1bf81d24cd1d9ffa34532c652b90e6fb63ecd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

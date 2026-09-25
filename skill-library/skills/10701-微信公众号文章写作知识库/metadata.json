@@ -1,0 +1,22 @@
+{
+  "英文名称": "wechat-post-craft",
+  "中文名称": "微信公众号文章写作知识库",
+  "一句话作用": "微信公众号文章写作助手，帮你写出高打开率、高转发率的爆款文章。掌握标题党技巧、排版规范、引流CTA设计，并适配专业、情感、干货、娱乐等不同公众号调性。当用户提到写公众号、微信推文、公众号标题、公众号排版、引流文案、爆款文章、10万+，或直接说“帮我写一篇推文”、“公众号怎么写能火”、“帮我起个标题”时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:06:08+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要微信公众号文章写作助手，帮你写出高打开率、高转发率的爆款文章。掌握标题党技巧、排版规范、引流CTA设计，并适配专业、情感、干货、娱乐等不同公众号调性。当用户提到写公众号、微信推文、公众号标题、公众号排版、引流文案、爆款文章、10万+，或直接说“帮我写一篇推文”、“公众号怎么写能火”、“帮我起个标题”时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10701-wechat-post-craft-e04ff7a6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/wechat-post-craft/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/wechat-post-craft/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2a9de61d68e31842fe91bbda4e176458d28baf43ce5e45fd04ec7434bdb7689",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-currency-checkout",
+  "中文名称": "待补：multi-currency-checkout",
+  "一句话作用": "Configure multi-currency support to allow international customers to browse and pay in their local currency with automated exchange rates and localized rounding",
+  "关键输入": "- When expanding to international markets where customers expect localized pricing. - When analytics show high \"Add to Cart\" rates from foreign countries but low \"Checkout Completion.\" - When implementing a global store…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:31+08:00",
+  "业务场景": "payments-checkout",
+  "解决具体问题": "当需要- When expanding to international markets where customers expect localized pricing. - When analytics show high \"Add to Cart\" rates from foreign countries but low \"Checkout Completion.\" - When implementing a global store…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00342-multi-currency-checkout-19866b16",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/multi-currency-checkout/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/multi-currency-checkout/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b0b6ba8d5b6ea6583d70944109676be88e52fb2b42beb9767d7bc2844cb6e73",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

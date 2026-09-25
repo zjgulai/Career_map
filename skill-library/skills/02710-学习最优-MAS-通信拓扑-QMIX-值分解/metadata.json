@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-qmix-topology-learning",
+  "中文名称": "学习最优 MAS 通信拓扑（QMIX 值分解）",
+  "一句话作用": "触发词：MAS 拓扑、QMIX 值分解、通信剪枝、token 成本、多 Agent 协同。何时不用：要固定 DAG 的稳定调度与失败重试用「MAS Orchestrator」；要做状态机级合法性拦截用「SDOF 状态机约束编排」。安全边界：拓扑学习只产出通信策略与阈值，不得让模型据此自动扩权或跳过审批环节。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要调度运营面临多Agent协同路径固定——QMix拓扑学习将任务返工率14%降至5%，年化省12万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02710-p2s-agent-qmix-topology-learning-8690cb7e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agent-qmix-topology-learning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agent-qmix-topology-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "27a496b238d2bc5a76c700afae2c3e911200481a7a4773ec1e7d3fa36f8e6a0f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

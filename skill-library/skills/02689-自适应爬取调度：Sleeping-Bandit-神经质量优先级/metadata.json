@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-adaptive-crawl-scheduling",
+  "中文名称": "自适应爬取调度：Sleeping Bandit 神经质量优先级",
+  "一句话作用": "触发词：爬取调度、自适应采集、Bandit分配、抓取预算、质量优先级。何时不用：只需按固定频率抓取且预算充裕时用普通采集管道；需要解析文档版面结构时用文档解析类技能。安全边界：抓取须遵守目标站点 robots 协议与平台条款，不得用调度策略绕开限流或反爬约束。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据采集主管面临爬虫频繁失效——Adaptive Crawl将采集中断率12%压到3%，年化省19万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02689-p2s-adaptive-crawl-scheduling-64b3374b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-adaptive-crawl-scheduling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-adaptive-crawl-scheduling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "10b203542720ddbcf9e370fc523bc437bb9f9999aec7fac29cb7166754834256",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

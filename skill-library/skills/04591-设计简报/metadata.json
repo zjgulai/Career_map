@@ -1,0 +1,22 @@
+{
+  "英文名称": "设计简报",
+  "中文名称": "设计简报",
+  "一句话作用": "设计简报（Design Brief）。生成一页纸 HTML 文档，在设计开始前对齐业务目标、用户需求、设计策略、设计标准与边界约束。是链式上下文的核心锚点节点——所有下游 Skill（/用户故事 /站点地图 /用户旅程 /Web页面设计 /mobile页面设计 /设计走查 /写PRD 等）都从 Brief 读取项目背景，避免重复填写。HTML 可一键导出 PNG 分享给 UX/PM/工程/业务方。 触发关键词：写设计简报、设计简报、d…",
+  "关键输入": "输入项 必填？ 来源优先级 缺失时行为 --- --- --- --- project name ✅ 链式 frame / scope 用户输入 Phase 3 追问 project type + project subtype ✅ 用户输入（Phase 1 六大类选择） 进入 Phase 1 引导 business context ✅ 链式 frame.persona.situation / scope.background 用户输入 Phase 3 追问",
+  "关键输出": "完成 Brief 内容后， 同时 做两件事： 1. 会话内输出 ： 2. 写入项目文件 ：spark-output/context/brief.json（目录不存在时先创建） 下游可消费 Skill：Stories / Sitemap / Journey / Flow Web / Flow Mobile / Landing / Campaign / Chart / Edge / Motion / Check / Access / Metric / QA / PRD / Pitch / Retro。",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要设计简报（Design Brief）。生成一页纸 HTML 文档，在设计开始前对齐业务目标、用户需求、设计策略、设计标准与边界约束。是链式上下文的核心锚点节点——所有下游 Skill（/用户故事 /站点地图 /用户旅程 /Web页面设计 /mobile页面设计 /设计走查 /写PRD 等）都从 Brief 读取项目背景，避免重复填写。HTML 可一键导出 PNG 分享给 UX/PM/工程/业务方。 触发关键词：写设计简报、设计简报、d…时，用它产出或更新：完成 Brief 内容后， 同时 做两件事： 1.…",
+  "skill_id": "04591-skill-20bc850c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/brief/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/brief/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "918d4e85c46ea737f9285895a6585b964def1ea4e91668a5927afb176080fe4d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

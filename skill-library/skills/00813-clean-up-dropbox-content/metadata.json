@@ -1,0 +1,22 @@
+{
+  "英文名称": "clean-up-dropbox-content",
+  "中文名称": "待补：clean-up-dropbox-content",
+  "一句话作用": "Clean up Dropbox content by identifying obsolete, duplicate, temporary, or unwanted files and deleting only after explicit review. Use when the user explicitly asks to delete, remove, or clean up Dropbox files or folder…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Before deletion, present: - Candidate path - Type - Modified time when available - Sharing status when relevant - Copy destination when preserving a copy first - Reason it appears safe to delete After deletion, present: - Copied items when relevant - Deleted…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Clean up Dropbox content by identifying obsolete, duplicate, temporary, or unwanted files and deleting only after explicit review. Use when the user explicitly asks to delete, remove, or clean up Dropbox files or folder…时，用它产出或更新：Before deletion, present:…",
+  "skill_id": "00813-clean-up-dropbox-content-969897ec",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/dropbox/skills/clean-up-dropbox-content/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/dropbox/skills/clean-up-dropbox-content/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0befed62b8dd03a7cd2a2ce56df16331b64355d3362f136bff289b8dd34a021b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

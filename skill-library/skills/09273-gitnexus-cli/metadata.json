@@ -1,0 +1,22 @@
+{
+  "英文名称": "gitnexus-cli",
+  "中文名称": "待补：gitnexus-cli",
+  "一句话作用": "Use when the user needs to run GitNexus CLI commands like analyze/index a repo, check status, clean the index, generate a wiki, or list indexed repos. Examples: \"Index this repo\", \"Reanalyze the codebase\", \"Generate a w…",
+  "关键输入": "- \"Not inside a git repository\" : Run from a directory inside a git repo - Index is stale after re-analyzing : Restart Claude Code to reload the MCP server - Embeddings slow : Omit --embeddings (it's off by default) or…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-04-19T23:19:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- \"Not inside a git repository\" : Run from a directory inside a git repo - Index is stale after re-analyzing : Restart Claude Code to reload the MCP server - Embeddings slow : Omit --embeddings (it's off by default) or…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09273-gitnexus-cli-dfba8b2c",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/projects/report02/.claude/skills/gitnexus/gitnexus-cli/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/projects/report02/.claude/skills/gitnexus/gitnexus-cli/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e28f79d4ea2473efa0f197611a75bc25428fb4296aeeb54d1e31de2e39ccd8ad",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

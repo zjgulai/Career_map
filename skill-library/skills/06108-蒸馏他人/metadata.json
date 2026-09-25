@@ -1,0 +1,22 @@
+{
+  "英文名称": "forge-persona",
+  "中文名称": "蒸馏他人",
+  "一句话作用": "蒸馏一个你身边的人。通过聊天记录、朋友圈、描述等素材，生成 ta 的人格档案，让 ta 以自己的方式和你对话。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:04:25+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要蒸馏一个你身边的人。通过聊天记录、朋友圈、描述等素材，生成 ta 的人格档案，让 ta 以自己的方式和你对话。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06108-forge-persona-1f4ac6d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/forge-persona/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/forge-persona/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9c4a53c35a0b0369783863b97c80203765ddbc8096e91091d13e9844ca40b188",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

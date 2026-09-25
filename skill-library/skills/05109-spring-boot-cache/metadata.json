@@ -1,0 +1,22 @@
+{
+  "英文名称": "spring-boot-cache",
+  "中文名称": "待补：spring-boot-cache",
+  "一句话作用": "Provides patterns for enabling and operating the Spring Cache abstraction in Spring Boot. Use when implementing application-level caching for performance-sensitive workloads.",
+  "关键输入": "- Java 17+ project based on Spring Boot 3.5.x (records encouraged for DTOs). - Dependency spring-boot-starter-cache; add provider-specific starters as needed (spring-boot-starter-data-redis, caffeine, ehcache, etc.). - Constructor-injected services that expos…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:31+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Add @Cacheable, @CachePut, or @CacheEvict to Spring Boot service methods. - Configure Caffeine, Redis, or JCache cache managers for Spring Boot. - Diagnose cache invalidation, eviction scheduling, or cache key issues.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05109-spring-boot-cache-43ef1ffc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spring-boot-cache/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spring-boot-cache/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d885bd3c0e7838e8ead92035e340d5adcef5e16826c2cf5cb2a7ef6398d061ef",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

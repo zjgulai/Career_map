@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-channel-price-consistency",
+  "中文名称": "多渠道价格一致性管理（防跨平台价格冲突）",
+  "一句话作用": "触发词：价格一致性、多渠道比价、Buy Box 风险、价格奇偶检查、跨平台冲突、底价保护。何时不用：跨国家站点的 PPP 价差治理用「跨境价格协调」；汇率驱动的毛利问题用「汇率联动动态定价」。安全边界：调价须在平台允许范围内、不得低于 MSRP，并设底价保护以防引发价格战。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"多渠道促销导致Amazon价格奇偶检查触发Buy Box丢失\"——价格一致性实时监控将Buy Box丢失事件减少90%，年化保护销售额30-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03473-p2s-multi-channel-price-consistency-b3ca0f09",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-channel-price-consistency/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-channel-price-consistency/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "970008382973621e64fb40c2c5f4a9088b9ce8bf7b23a33ba75e3a88dbad9369",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

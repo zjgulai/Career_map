@@ -1,0 +1,22 @@
+{
+  "英文名称": "testing-data-visualizations",
+  "中文名称": "待补：testing-data-visualizations",
+  "一句话作用": "Test data visualizations and dashboards. Use when the user needs chart or diagram test strategy, screenshot or image diff testing, visual regression, mocked or synthetic chart data, component or unit tests, E2E dashboar…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Propose a layered test plan instead of a single-tool answer. - Separate data correctness, visual stability, and workflow coverage. - Explain where real data, mocked data, and synthetic fixtures each belong. - Call out brittleness risks and how to keep the s…",
+  "最新更新时间": "2026-09-17T09:36:42+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Test data visualizations and dashboards. Use when the user needs chart or diagram test strategy, screenshot or image diff testing, visual regression, mocked or synthetic chart data, component or unit tests, E2E dashboar…时，用它产出或更新：- Propose a layered test p…",
+  "skill_id": "01462-testing-data-visualizations-fef34660",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/testing-data-visualizations/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/build-web-data-visualization/1dc19589/skills/testing-data-visualizations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fba1423c24dac1f401c76d85cbc39d7b354bd2fb18cc9055d62798e6cca6d28e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

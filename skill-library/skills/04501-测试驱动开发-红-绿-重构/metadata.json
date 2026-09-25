@@ -1,0 +1,22 @@
+{
+  "英文名称": "tdd",
+  "中文名称": "测试驱动开发（红-绿-重构）",
+  "一句话作用": "测试驱动开发的红-绿-重构循环，一次一个行为逐片构建。当用户说\"tdd\"\"测试驱动\"\"红绿重构\"\"先写测试\"或需要逐行为构建功能/修复bug时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要测试驱动开发的红-绿-重构循环，一次一个行为逐片构建。当用户说\"tdd\"\"测试驱动\"\"红绿重构\"\"先写测试\"或需要逐行为构建功能/修复bug时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04501-tdd-ddd3f28e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/grillme-matt/0.1.0/skills/tdd/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/grillme-matt/0.1.0/skills/tdd/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66ef4b1c63b600c992d1faf6367e060ff54618882258018c2e913f992db848fe",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

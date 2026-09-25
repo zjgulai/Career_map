@@ -1,0 +1,22 @@
+{
+  "英文名称": "trading-analysis",
+  "中文名称": "交易智能体 主协调器（Orchestrator）",
+  "一句话作用": "多角色辩论式交易智能体 — 主协调器（Orchestrator）。调度11个专业角色 Agent， 通过并行 Agent Team 执行系统性投资分析，输出 BUY/SELL/HOLD 建议。 数据源：NeoData 金融数据服务（neodata-financial-search skill）。 触发词：交易分析、投资分析、股票分析、买卖决策、多空分析、风险评估、 技术分析、基本面分析、投资建议、买入卖出、持有建议、投资决策、 该不该…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要多角色辩论式交易智能体 — 主协调器（Orchestrator）。调度11个专业角色 Agent， 通过并行 Agent Team 执行系统性投资分析，输出 BUY/SELL/HOLD 建议。 数据源：NeoData 金融数据服务（neodata-financial-search skill）。 触发词：交易分析、投资分析、股票分析、买卖决策、多空分析、风险评估、 技术分析、基本面分析、投资建议、买入卖出、持有建议、投资决策、 该不该…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05550-trading-analysis-4bd3bbd9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/trading-agent/skills/trading-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/trading-agent/skills/trading-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f27f92c2d44964de5c80f22362f2cf4077a6971b4f5f57f17c8e8e862d31f7b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

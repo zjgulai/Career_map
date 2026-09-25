@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-conversation-orchestrator",
+  "中文名称": "待补：twilio-conversation-orchestrator",
+  "一句话作用": "Configure automatic conversation capture and routing with Twilio Conversation Orchestrator. Covers Configuration creation, channel capture rules, grouping types, status timeouts, Memory Store linkage, Intelligence linka…",
+  "关键输入": "Conversation Orchestrator powers automatic conversation capture and integration with existing voice implementations — replacing manual conversation creation with either: - Passive ingestion : Declarative capture rules t…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Conversation Orchestrator powers automatic conversation capture and integration with existing voice implementations — replacing manual conversation creation with either: - Passive ingestion : Declarative capture rules t…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01077-twilio-conversation-orchestrator-757f9fe3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-conversation-orchestrator/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-conversation-orchestrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3eef11766010d07bb0ce9d2b8c27a5e200e3f1a6a892033499e090324aef0add",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

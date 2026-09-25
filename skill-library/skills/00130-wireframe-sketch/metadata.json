@@ -1,0 +1,22 @@
+{
+  "英文名称": "wireframe-sketch",
+  "中文名称": "待补：wireframe-sketch",
+  "一句话作用": "A hand-drawn wireframe exploration — graph-paper background, marker / pencil tone, multiple tab labels for variants, sticky-note annotations, scribbled chart placeholders, hatched fills. Reads like a designer's whiteboa…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Emit between tags: One sentence before the artifact, nothing after.",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要A hand-drawn wireframe exploration — graph-paper background, marker / pencil tone, multiple tab labels for variants, sticky-note annotations, scribbled chart placeholders, hatched fills. Reads like a designer's whiteboa…时，用它产出或更新：Emit between tags: One sen…",
+  "skill_id": "00130-wireframe-sketch-897e1f60",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/wireframe-sketch/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/canvas-design-library/references/open-design/upstream/design-templates/wireframe-sketch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd4e93e2cfea8ba71792490528a00f9c4ea4ff228c83bfea4ebe4fe2493f404a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

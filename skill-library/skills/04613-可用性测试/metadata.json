@@ -1,0 +1,22 @@
+{
+  "英文名称": "可用性测试",
+  "中文名称": "可用性测试",
+  "一句话作用": "产品设计套件 Validate 阶段。当用户是设计师想做可用性测试（验证已有设计或原型是否好用）—— 从测试方案设计、任务剧本编写、现场观察记录、到严重度评级与修复优先级输出时启动的 Skill。与 Probe（探索性用研，设计前）形成阶段互补 —— Probe 挖\"用户是谁、为什么\"，Test 验\"这个设计能不能用、卡在哪\"。与 Check（设计师自查走查）的区别：Check 不需要真实用户，Test 必须真实用户操作。 本 Ski…",
+  "关键输入": "- 用户没有原型 ：明确告知 Test 需要可操作物，建议先做完 Flow Web/Mobile 或最简 hi-fi 再回来 - 用户没有上游 brief / stories ：先问 3 个最小问题（\"测什么、测哪些任务、用户是谁\"），再启动 Plan - 用户只想\"快速测一下\" ：推荐 RITE（3-5 人即时迭代）或 5-Second（第一印象），不必跑全套 8 人 - 样本量过少（< 3 人） ：明确标\"早期信号\"，不出量化结论 - 没有录屏权限 ：可用纸笔记录 + 时间戳；告知\"verbatim 准确度会…",
+  "关键输出": "完成 Test 后， 同时 做两件事： 1. 写盘 ：spark-output/context/test.json（目录不存在先创建） 2. 会话内输出紧凑 marker ： 3. 降级 fallback ：若写盘失败（chat-only 平台），输出完整 JSON marker 作为唯一持久化通道",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要按 brief.goals 和测试目的生成 3-5 个 research questions，每个： - 围绕\"能不能完成 / 在哪卡 / 为什么卡\"， 不是 \"喜不喜欢 / 觉得好不好看\" - 可被任务行为直接验证（不是态度问卷题） Steve Krug 提醒 ：\"Don't make me think.\" —— 研究问题应该可以通过观察用户是否需要\"想一下\"来回答，而不是问用户感受。时，用它产出或更新：完成 Test 后， 同时 做两件事： 1. 写盘 ：spark-output/context/tes…",
+  "skill_id": "04613-skill-8d2d98a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/test/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/test/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c7ea69459b419b70ae8671475a955c9f59834cb52c35f6d615cf732282a99c38",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

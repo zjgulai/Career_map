@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-call-recordings",
+  "中文名称": "待补：twilio-call-recordings",
+  "一句话作用": "Record Twilio voice calls correctly. Covers the critical distinction between Record verb (voicemail) and Dial record (call recording), dual-channel for QA, mid-call pause for PCI, Conference recording, and the Conversat…",
+  "关键输入": "- Twilio account with a voice-capable phone number — see twilio-account-setup - TWILIO ACCOUNT SID and TWILIO AUTH TOKEN — see twilio-iam-auth-setup - SDK: pip install twilio / npm install twilio - A webhook endpoint for recording status callbacks - Complianc…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Record Twilio voice calls correctly. Covers the critical distinction between Record verb (voicemail) and Dial record (call recording), dual-channel for QA, mid-call pause for PCI, Conference recording, and the Conversat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01070-twilio-call-recordings-4d618e99",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-call-recordings/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-call-recordings/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b28ac7f3e4fb01af892c5d645ea0ba688933ced02fb59c49cc94c79d11e76a8a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

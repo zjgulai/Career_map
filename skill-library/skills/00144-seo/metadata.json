@@ -1,0 +1,22 @@
+{
+  "英文名称": "seo",
+  "中文名称": "待补：seo",
+  "一句话作用": "Audit, implement, and verify SEO for public websites. Use when the user asks for SEO, search visibility, metadata, indexing, crawlability, sitemaps, robots rules, canonical URLs, or accepts an SEO follow-up. Use schema…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Audit, implement, and verify SEO for public websites. Use when the user asks for SEO, search visibility, metadata, indexing, crawlability, sitemaps, robots rules, canonical URLs, or accepts an SEO follow-up. Use schema…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00144-seo-022b7b53",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/seo/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/seo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eb9cb7f18525fe0711c3240f21e29ecea24db850e871b3c7133c4d7586582764",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

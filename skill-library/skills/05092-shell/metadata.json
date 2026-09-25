@@ -1,0 +1,22 @@
+{
+  "英文名称": "shell",
+  "中文名称": "待补：shell",
+  "一句话作用": "Bash/POSIX shell rules: quote variables, set -euo pipefail, no eval, check exit codes.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "unquoted variable expansions missing exit-code checks after critical commands word splitting or glob expansion on untrusted input subshell vs. current-shell scope confusion",
+  "最新更新时间": "2026-09-19T03:58:27+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Bash/POSIX shell rules: quote variables, set -euo pipefail, no eval, check exit codes.时，用它产出或更新：unquoted variable expansions missing exit-code checks after critical commands word splitting or glob expansion on untrusted input subshell vs. current-shell sco…",
+  "skill_id": "05092-shell-50561f1d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/shell/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/shell/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "10295ccf8312732b55f4528e299cfd2649a79984f3f0969dec821c4fd313844a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

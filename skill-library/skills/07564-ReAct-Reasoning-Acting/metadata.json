@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-ReAct-Reasoning-Acting",
+  "中文名称": "待补：ReAct Reasoning Acting",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 65.0, \"best\": 65.0, \"mutated\": \"D4 roi\", \"ts\": \"2026-07-04T02:50:53.557216\"} {\"round\": 0, \"status\": \"discard\", \"score\": 58.2, \"best\": 68.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"202…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-05T18:02:34+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 65.0, \"best\": 65.0, \"mutated\": \"D4 roi\", \"ts\": \"2026-07-04T02:50:53.557216\"} {\"round\": 0, \"status\": \"discard\", \"score\": 58.2, \"best\": 68.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"202…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07564-skill-react-reasoning-acting-54d0f341",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-ReAct-Reasoning-Acting.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-ReAct-Reasoning-Acting.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d2d488381394cd1ba740b7fd8451eed10be030071f120176950794512d02849a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

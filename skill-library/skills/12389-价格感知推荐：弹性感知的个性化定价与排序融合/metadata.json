@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-price-sensitive-recommendation",
+  "中文名称": "价格感知推荐：弹性感知的个性化定价与排序融合",
+  "一句话作用": "触发词：价格感知推荐、个体弹性、折扣精准触达、去偏排序、价格效用、促销推送。何时不用：只按价格档位做排序时用「价格感知个性化推荐」；要按增量效应生成发券队列时用「Uplift 干预优先级队列」。安全边界：折扣展示须与真实促销一致，不得制造虚假原价；个体弹性的使用须符合个人信息保护要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "final score：价格效用 + MF 锚定 + 促销增益的综合分 segment label：用户弹性分层（low/medium/high elastic），可用于前端展示逻辑差异化",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务背景：Prime Day / Black Friday 母婴类目促销期间，某品牌对婴儿消毒器打折30%（$59.99→$41.99）时，用它产出或更新：final score：价格效用 + MF 锚定 + 促销增益的综合分 segment label：用户弹性分层（low/medium/high elastic），可用于前端展示逻辑差异化",
+  "skill_id": "12389-p2s-price-sensitive-recommendation-3b7d185f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-sensitive-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-price-sensitive-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4b58be11835e48d50b440911983ad6aef4339b3c825b5340c3f5d6e8f709d6e4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentic-pnl-analyst",
+  "中文名称": "驱动的 P归因分析 级成本拆解",
+  "一句话作用": "触发词：SKU 级 P&L、成本拆解、异常成本项、盈亏拐点、大促利润诊断。何时不用：要多 Agent 分部门做月末责任归因用「多智能体 P&L 协同」；要按费用层级看单品盈利结构用「ASIN 盈利瀑布」。安全边界：模型只给分析建议不做财务决策；财务数据须审计留痕且禁止向外部系统传输。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务团队面临\"SKU级P&L拆解耗时3天且人工汇总容易出错\"——Agent驱动P&L归因分析将SKU级成本拆解时间从3天压缩至30分钟，年化节省财务分析人力成本20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02724-p2s-agentic-pnl-analyst-5c4f436b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agentic-pnl-analyst/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agentic-pnl-analyst/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ecfa2a913589bf4ae27b6183f80cbff28618d18a7d14492a1ad6581185fc7ca4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

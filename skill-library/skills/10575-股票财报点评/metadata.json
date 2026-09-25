@@ -1,0 +1,22 @@
+{
+  "英文名称": "equity-earnings-review",
+  "中文名称": "股票财报点评",
+  "一句话作用": "生成专业的卖方股票财报点评文档，覆盖上市公司季度或年度业绩回顾。输出内容包括EPS超预期/不及预期分析、业绩指引点评、盈利预测调整、估值更新、分部业务评述，以及实际业绩与市场一致预期的对比分析，并可整理财报电话会要点形成结构化报告。支持任意行业和公司。当用户请求撰写财报点评、业绩总结、财务模型差异分析，或提及EPS超预期、业绩指引、盈利预测调整、估值更新等关键词时触发。",
+  "关键输入": "撰写前需要的必要信息： - 公司名称、股票代码、交易所 - 回顾的财务期间（如4Q25、F4Q26） - 实际报告数据（收入、EPS、EBIT/EBITDA、分部利润率） - 市场一致预期（FactSet / Visible Alpha / StreetAccount） - 自有（分析师）预测（此前/更新后） - 公司业绩指引（下季度+全年） - 财报电话会或业绩公告中管理层的关键评论要点 - 当前股价、12个月目标价、评级",
+  "关键输出": "- PDF（默认高保真视觉输出） - DOCX（可编辑文档） - PPTX（管理层摘要的演示文稿格式） 默认输出选择 ：用户未指定格式时默认为PDF。需要可编辑性时选择DOCX。",
+  "最新更新时间": "2026-09-14T00:06:50+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要生成专业的卖方股票财报点评文档，覆盖上市公司季度或年度业绩回顾。输出内容包括EPS超预期/不及预期分析、业绩指引点评、盈利预测调整、估值更新、分部业务评述，以及实际业绩与市场一致预期的对比分析，并可整理财报电话会要点形成结构化报告。支持任意行业和公司。当用户请求撰写财报点评、业绩总结、财务模型差异分析，或提及EPS超预期、业绩指引、盈利预测调整、估值更新等关键词时触发。时，用它产出或更新：- PDF（默认高保真视觉输出） - DOCX（可编辑文档） - PPTX（管理层摘要的演示文稿格式） 默认输出选择 ：…",
+  "skill_id": "10575-equity-earnings-review-85ba6e5c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/equity-earnings-review/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/equity-earnings-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65e03025c3bb8002f204e5e31a58851852e0c5f7037f08c29536cb1bbdadf169",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

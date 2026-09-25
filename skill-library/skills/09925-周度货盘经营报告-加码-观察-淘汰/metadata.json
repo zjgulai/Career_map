@@ -1,0 +1,22 @@
+{
+  "英文名称": "周度货盘经营报告（加码/观察/淘汰）",
+  "中文名称": "待补：周度货盘经营报告（加码/观察/淘汰）",
+  "一句话作用": "每周汇总 SKU 健康、利润、动销、退货与库存周转，输出货盘分层与经营动作建议。",
+  "关键输入": "- SKU 健康评分与生命周期标签 - 单位经济测算结果 - 动销、退货、库存周转数据",
+  "关键输出": "表：SKU 生命周期 毛利率 动销 退货率 周转天数 分层 建议动作",
+  "最新更新时间": "2026-03-22T01:31:57+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要每周汇总 SKU 健康、利润、动销、退货与库存周转，输出货盘分层与经营动作建议。时，用它产出或更新：表：SKU 生命周期 毛利率 动销 退货率 周转天数 分层 建议动作",
+  "skill_id": "09925-skill-34ad345e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/product-manage/weekly-assortment-report/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/product-manage/weekly-assortment-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fe21bb7919f3b4ed80dba0b50e7c5a76f4fbc7870cb519a493235ef3a5a800b8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

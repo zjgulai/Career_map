@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-listing-ab-testing-automation",
+  "中文名称": "驱动的 Listing A测试自动化",
+  "一句话作用": "触发词：A/B 测试、买家 persona、零流量预测、主图版本对比、上线前取舍。何时不用：要看真实流量实验用平台自带实验工具；本技能是用 persona 模拟做上线前预测。安全边界：不涉真实用户数据，模拟结论须用少量真实流量复核，不得绕过平台实验规范。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要主图/标题/Bullet 哪个版本更好需要 3 周真实流量测试，期间低效版本持续损耗转化——LLM Agent 模拟 500 个买家 persona 零流量预测最优版本，CTR+12.5%/CVR+8.3%，年化自然流量提升 60%+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03313-p2s-listing-ab-testing-automation-cf907295",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-listing-ab-testing-automation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-listing-ab-testing-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d7ce5c18b596ce29fbfcf35d186a5f12f52aa13488e2eaada033ccfadaafd532",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

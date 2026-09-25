@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-dashboard-design",
+  "中文名称": "跨境电商数据看板设计",
+  "一句话作用": "跨境电商数据看板设计 - 从业务需求出发，设计高质量数据看板，包括指标选择、布局设计、可视化呈现与交互设计",
+  "关键输入": "问题 表现 解决方案 ------ ------ --------- 没人看 访问量低 重新梳理需求，聚焦核心 看不懂 用户反馈难理解 简化指标，增加说明 用不上 无法指导决策 增加对比基准，增加建议 太慢了 加载时间长 优化查询，增加缓存 ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T01:56:39+08:00",
+  "业务场景": "reporting-analysis",
+  "解决具体问题": "当需要问题 表现 解决方案 ------ ------ --------- 没人看 访问量低 重新梳理需求，聚焦核心 看不懂 用户反馈难理解 简化指标，增加说明 用不上 无法指导决策 增加对比基准，增加建议 太慢了 加载时间长 优化查询，增加缓存 ---时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09438-cbec-dashboard-design-dc3a23f2",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/14-reporting-analysis/dashboard-design/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/14-reporting-analysis/dashboard-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e5b41e4e9c85880296cb3764c322d576c38f0188d38bf9ba2cd5b748190913f1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-semantic-blueprint-compiler",
+  "中文名称": "语义蓝图编译器",
+  "一句话作用": "触发词：语义蓝图、Schema 约束生成、结构化输出、实体关系校验、VOC 数据标准。何时不用：还没有抽取结果、需要从原文抽取实体关系时先做上游抽取；只要人读的评论摘要用「AGRS 属性引导评论摘要」。安全边界：Schema 变更须版本化管理以免下游失配；蓝图中的实体不得含可识别个人的信息。",
+  "关键输入": "输入 ：上游抽取的原始结果（实体、关系、事件字符串）+ VOC 语义 Schema 定义（实体类型枚举、关系类型枚举、事件框架）+ 置信度阈值配置。 输出 ：标准化的 VOC 语义蓝图：类型统一、引用完整、低置信条目被过滤或标记，供下游异构图（HGT/HGCN）与分析系统直接消费。",
+  "关键输出": "输入 ：上游抽取的原始结果（实体、关系、事件字符串）+ VOC 语义 Schema 定义（实体类型枚举、关系类型枚举、事件框架）+ 置信度阈值配置。 输出 ：标准化的 VOC 语义蓝图：类型统一、引用完整、低置信条目被过滤或标记，供下游异构图（HGT/HGCN）与分析系统直接消费。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：语义蓝图、Schema 约束生成、结构化输出、实体关系校验、VOC 数据标准。何时不用：还没有抽取结果、需要从原文抽取实体关系时先做上游抽取；只要人读的评论摘要用「AGRS 属性引导评论摘要」。安全边界：Schema 变更须版本化管理以免下游失配；蓝图中的实体不得含可识别个人的信息。时，用它产出或更新：输入 ：上游抽取的原始结果（实体、关系、事件字符串）+ VOC 语义 Schema 定义（实体类型枚举、关系类型枚举、事件框架）+ 置信度阈值配置。 输出 ：标准化的 VOC 语义蓝图：类型统一、引用…",
+  "skill_id": "03802-p2s-semantic-blueprint-compiler-2a9fb7b6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-semantic-blueprint-compiler/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-semantic-blueprint-compiler/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad9f88fe83f33e9ee358675dcf451becaf3ececc65b448d04d7bdecd7654fbc1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

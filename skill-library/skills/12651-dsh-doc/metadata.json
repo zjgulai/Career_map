@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-doc",
+  "中文名称": "待补：dsh-doc",
+  "一句话作用": "Create, restructure, review, audit, or migrate DeepSeek Harness Markdown documentation, package READMEs, and the documentation website using audience-first hierarchy, kind-mapped YAML metadata, bilingual line alignment,…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Validate the affected format, not merely Markdown syntax. A strong promise needs a focused valid fixture and an invalid fixture that proves the top-level gate can fail. - README metadata: parse YAML, map kind to its template and document standard, reject name…",
+  "最新更新时间": "2026-09-17T11:00:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Create, restructure, review, audit, or migrate DeepSeek Harness Markdown documentation, package READMEs, and the documentation website using audience-first hierarchy, kind-mapped YAML metadata, bilingual line alignment,…时，用它产出或更新：Validate the affected form…",
+  "skill_id": "12651-dsh-doc-9a4e1ac8",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-doc/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-doc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f4c1072a5418b281d92342ebcab9700915db8f9d6ec63eb856ac87baec5d9e79",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

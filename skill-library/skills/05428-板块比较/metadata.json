@@ -1,0 +1,22 @@
+{
+  "英文名称": "sector-comparison",
+  "中文名称": "板块比较",
+  "一句话作用": "用于板块比较，聚焦行业比较/板块轮动/投资选择。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户在两个或多个板块之间犹豫时，想知道哪个更强、哪个更有性价比、哪个更适合当前阶段。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于板块比较，聚焦行业比较/板块轮动/投资选择。主要用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户在两个或多个板块之间犹豫时，想知道哪个更强、哪个更有性价比、哪个更适合当前阶段。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05428-sector-comparison-794846ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/sector-comparison/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/sector-comparison/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "15843e1f373f315cd43c4fb782ff02a65b451f261d72fd2050da5fcdc1068f38",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

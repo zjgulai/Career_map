@@ -1,0 +1,22 @@
+{
+  "英文名称": "visualize-data",
+  "中文名称": "待补：visualize-data",
+  "一句话作用": "Design, build, revise, or QA quantitative charts and figures. Use when an analytical answer needs visual judgment, whether for an inline answer, report, dashboard, notebook, or artifact.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Design, build, revise, or QA quantitative charts and figures. Use when an analytical answer needs visual judgment, whether for an inline answer, report, dashboard, notebook, or artifact.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00812-visualize-data-ece86c6f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/data-analytics/skills/visualize-data/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/data-analytics/skills/visualize-data/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ff2601669022a2ef43524e0225eb4833acc03260db90b996a2d6f74fbbce7b12",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

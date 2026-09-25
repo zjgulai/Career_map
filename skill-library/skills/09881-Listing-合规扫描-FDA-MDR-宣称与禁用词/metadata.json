@@ -1,0 +1,22 @@
+{
+  "英文名称": "Listing 合规扫描（FDA/MDR 宣称与禁用词）",
+  "中文名称": "待补：Listing 合规扫描（FDA/MDR 宣称与禁用词）",
+  "一句话作用": "当需要上架或批量更新标题/五点/描述/A+ 文案时调用；按北美或欧洲规则扫描医疗宣称与禁用表述，未通过则不得进入 listing-bulk-generator 定稿环节。",
+  "关键输入": "- 已选定 market profile： NA 与 EU 不得混用同一扫描表 。 - 已具备经批准的 品牌宣称边界 （可由法务提供关键词白/黑名单）；本 Skill 可挂载附录占位。 - 吸奶器等 医疗器械 品类：欧盟文案默认按 IIa 严口径扫描。",
+  "关键输出": "- 摘要：PASS FAIL（Block 数量） - 表格：位置 原文片段 级别 规则依据（简写） 建议替换 - FAIL 时 ：禁止输出「可上架」结论。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要上架或批量更新标题/五点/描述/A+ 文案时调用；按北美或欧洲规则扫描医疗宣称与禁用表述，未通过则不得进入 listing-bulk-generator 定稿环节。时，用它产出或更新：- 摘要：PASS FAIL（Block 数量） - 表格：位置 原文片段 级别 规则依据（简写） 建议替换 - FAIL 时 ：禁止输出「可上架」结论。",
+  "skill_id": "09881-listing-fda-mdr-a5a8aced",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/listing-compliance-scanner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/listing-compliance-scanner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7d2af3beb4b6f93b79c45aff72ece682515fb4e62b7903f6f4cac64bc6d1402",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

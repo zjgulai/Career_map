@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-seasonal-keyword-rotation-strategy",
+  "中文名称": "季节性关键词轮换策略",
+  "一句话作用": "触发词：季节性关键词轮换、旺季关键词布局、搜索峰值预判、STL分解、竞价节奏排期、旺季备货提前量。何时不用：要建模搜索趋势本身用「季节性搜索趋势建模」；要找竞品覆盖缺口用「竞品关键词缺口分析」；要清理无效搜索词用「搜索词否定优化」；要做广告预算全局分配用「ROAS预算优化」。安全边界：只输出峰值窗口与竞价增减建议，不代投广告、不改账户预算；关键词轮换须遵守平台搜索公平竞争规范与季节性词库政策，落地前按平台要求申报并人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"节假日流量峰值前关键词布局不足\"——峰值预判提前布局将Prime Day当天自然流量比平日高出4倍，年化多增GMV60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12416-p2s-seasonal-keyword-rotation-strategy-2bf69c44",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-seasonal-keyword-rotation-strategy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-seasonal-keyword-rotation-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c89874f8f1fc492b61b5bd7a397b9703ea03019eae9b381aafd9aa640ae912a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "image-understanding-native",
+  "中文名称": "图片结构化语义分析",
+  "一句话作用": "图片结构化语义分析。Agent 直接看图输出结构化 JSON，零外部依赖。四种分析任务：全页面结构分析、设计风格提取、区域语义描述、对比差异分析。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要图片结构化语义分析。Agent 直接看图输出结构化 JSON，零外部依赖。四种分析任务：全页面结构分析、设计风格提取、区域语义描述、对比差异分析。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05435-image-understanding-native-9bd1089d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/ardot-design-generator/skills/image-understanding-native/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/ardot-design-generator/skills/image-understanding-native/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ed4afa891f8d162b918e4605adddd3a28e3229c0b79c87d2f0cb8a25a4f2184b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

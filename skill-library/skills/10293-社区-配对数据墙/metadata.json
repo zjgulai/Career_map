@@ -1,0 +1,22 @@
+{
+  "英文名称": "dating-web",
+  "中文名称": "社区 / 配对数据墙",
+  "一句话作用": "消费感配对仪表板: 信号 ticker + KPI + 30 天柱状 + 趋势",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "personal",
+  "解决具体问题": "当需要消费感配对仪表板: 信号 ticker + KPI + 30 天柱状 + 趋势时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10293-dating-web-db41b045",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/dating-web/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/dating-web/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5500bf54deda0f9f3d92acea1ed5954c70dece61893eaa9c1f0321351a893c01",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

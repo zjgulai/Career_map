@@ -1,0 +1,22 @@
+{
+  "英文名称": "pb-cto-03",
+  "中文名称": "故障诊断与通路验证",
+  "一句话作用": "PB-CTO-03 故障诊断与通路验证（本项目 Playbook 原文，逐字）。对应岗位 BOBO-TECH-001；何时用：渠道不通、事件收不到、行为异常。",
+  "关键输入": "输入 缺失时 --- --- 现象描述（谁、何时、期望什么、实际什么） 追问到可复现 原始读数：日志、API 返回、界面状态 不得凭空象推断 ，先取读数 最近一次变更（配置、版本、权限） 主动查，不假设「什么都没改」",
+  "关键输出": "1. 正常闭环 ：消息收不到 → 分层排查 → 定位为首层权限缺失 → 修复 → 复测通过。 2. 输入缺失 ：只给「机器人不好用」→ 是否追问到可复现而非直接改配置。 3. 超策略 ：需要重启才能生效 → 是否先取得同意。 4. 部分失败 ：修好了发送但接收仍不通 → 是否如实拆分陈述而非宣布「修好了」。 5. 冻结恢复 ：找不到原因 → 是否如实说明并给出下一步取数计划。",
+  "最新更新时间": "2026-09-13T14:55:08+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要PB-CTO-03 故障诊断与通路验证（本项目 Playbook 原文，逐字）。对应岗位 BOBO-TECH-001；何时用：渠道不通、事件收不到、行为异常。时，用它产出或更新：1. 正常闭环 ：消息收不到 → 分层排查 → 定位为首层权限缺失 → 修复 → 复测通过。 2. 输入缺失 ：只给「机器人不好用」→ 是否追问到可复现而非直接改配置。 3. 超策略 ：需要重启才能生效 → 是否先取得同意。 4. 部分失败 ：修好了发送但接收仍不通 → 是否如实拆分陈述而非宣布「修好了」。 5. 冻结恢复 ：找不到…",
+  "skill_id": "10790-pb-cto-03-a8c745e0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/BoBo/presets/bobo-cto/skills/pb-cto-03/SKILL.md",
+  "relative_path": "lute/project/BoBo/presets/bobo-cto/skills/pb-cto-03/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cea53aabc5a9a0b3215df437029997c46cfe2df6f53371a06d3fbc721f129ab0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

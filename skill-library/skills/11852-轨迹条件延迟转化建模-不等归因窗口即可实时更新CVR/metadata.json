@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-trace-delayed-cvr",
+  "中文名称": "轨迹条件延迟转化建模 - 不等归因窗口即可实时更新CVR",
+  "一句话作用": "触发词：延迟转化、实时 CVR、行为轨迹、归因窗口、回收率、渠道价值。何时不用：要扣除退款算净转化用级联净转化那张卡；本卡只解决点击到购买的单段延迟、需在窗口未满时实时更新 CVR 的问题。安全边界：点击后行为轨迹属用户行为数据，须最小化采集并遵守平台与隐私政策，不得输出个体画像。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要投放分析师面临延迟转化漏记——TRACE将回收率62%提到91%，年化增26万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11852-p2s-trace-delayed-cvr-f76a3251",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-trace-delayed-cvr/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-trace-delayed-cvr/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "298283b305d52811a90f9acba8ced11ec23791d86411e79a55a2cb75d7db2783",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

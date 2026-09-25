@@ -1,0 +1,22 @@
+{
+  "英文名称": "tailwind-design-system",
+  "中文名称": "待补：tailwind-design-system",
+  "一句话作用": "Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.",
+  "关键输入": "- Creating a component library with Tailwind - Implementing design tokens and theming - Building responsive and accessible components - Standardizing UI patterns across a codebase - Migrating to or extending Tailwind CS…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Creating a component library with Tailwind - Implementing design tokens and theming - Building responsive and accessible components - Standardizing UI patterns across a codebase - Migrating to or extending Tailwind CS…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05635-tailwind-design-system-ea9661b7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-mobile-development/skills/tailwind-design-system/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/frontend-mobile-development/skills/tailwind-design-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "105ce59b1d1a4676fde6eff3a6ab2f38af395412b81ee190d1456546cc9d699c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

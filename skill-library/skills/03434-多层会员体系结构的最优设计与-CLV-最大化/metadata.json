@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-membership-tier-design-optimization",
+  "中文名称": "多层会员体系结构的最优设计与 CLV 最大化",
+  "一句话作用": "触发词：会员等级设计、门槛优化、Markov CLV、权益成本、升级率停滞、等级结构。何时不用：要在用户达标时自动执行升级与礼遇通知用「VIP晋级自动触达」；要重算权益成本与 CLV 结构同样属本技能而非活动执行。安全边界：等级门槛与权益成本测算必须基于真实历史购买数据，不得沿用拍脑袋的整数门槛；调整涉及用户既有承诺时须提前公示，不得单方面缩减已承诺权益。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要会员运营面临\"三等级体系中间层用户停滞不升级、权益成本倒挂\"——Markov CLV最优等级结构设计将CLV提升12-18%，5000会员年化增收48-72万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03434-p2s-membership-tier-design-optimization-0e5fc079",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-membership-tier-design-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-membership-tier-design-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8b739fc94df94c7e4f06373ced2edb53c29e30315764c2b5195584a48c74de85",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

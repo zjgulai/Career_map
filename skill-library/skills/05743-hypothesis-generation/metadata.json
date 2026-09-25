@@ -1,0 +1,22 @@
+{
+  "英文名称": "hypothesis-generation",
+  "中文名称": "待补：hypothesis-generation",
+  "一句话作用": "Structured hypothesis formulation from observations. Use when you have experimental observations or data and need to formulate testable hypotheses with predictions, propose mechanisms, and design experiments to test the…",
+  "关键输入": "This skill should be used when: - Developing hypotheses from observations or preliminary data - Designing experiments to test scientific questions - Exploring competing explanations for phenomena - Formulating testable…",
+  "关键输出": "Generate a professional LaTeX document using the template in assets/hypothesis report template.tex. The report should be well-formatted with colored boxes for visual organization and divided into a concise main text with comprehensive appendices. Document Str…",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Developing hypotheses from observations or preliminary data - Designing experiments to test scientific questions - Exploring competing explanations for phenomena - Formulating testable…时，用它产出或更新：Generate a professional LaT…",
+  "skill_id": "05743-hypothesis-generation-abb1072f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/hypothesis-generation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/hypothesis-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f779ddef502b53df097ee2dc929ab4c69ad0987d23920bae314047c72f4d4710",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "risk-checkup",
+  "中文名称": "持仓体检风险管理",
+  "一句话作用": "用于持仓体检与组合风险管理，聚焦组合管理、风险控制、投资顾问。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户把当前持仓发给你，希望知道组合有没有问题、风险暴露在哪里、仓位是否合理。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于持仓体检与组合风险管理，聚焦组合管理、风险控制、投资顾问。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户把当前持仓发给你，希望知道组合有没有问题、风险暴露在哪里、仓位是否合理。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05427-risk-checkup-23400aca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/risk-checkup/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/risk-checkup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a10546a0f09e3def064762a3a474e76024cd82f72781badf4c49acdd195a267",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

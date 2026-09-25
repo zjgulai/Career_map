@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-personalized-ml-pricing",
+  "中文名称": "个性化 ML 定价：用户级支付意愿驱动的差异化定价",
+  "一句话作用": "触发词：个性化定价、支付意愿预测、差异化展示、用户分层定价、价格实验、WTP 建模。何时不用：用购买条件分档定价时用「Price Fence 分档定价」；从评论读价格信号时用「评论价格信号分析」。安全边界：差异化定价须避开受保护属性与价格歧视红线，个人信息使用需取得授权，模型输出人工审核后才可上线。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要DTC独立站对所有用户展示相同价格$149但高消费老用户愿意付$169而新用户最多付$129——ML预测用户个体支付意愿并差异化展示价格，利润提升10-18%加上价格敏感用户转化率提升年化增益20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12378-p2s-personalized-ml-pricing-b63b13cc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-personalized-ml-pricing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-personalized-ml-pricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb6a11856b1b58774aeada7fd7924f8d9747eebf99d17c9c99a486c3df1e61dd",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

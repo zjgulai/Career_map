@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ad-spend-time-series-attribution",
+  "中文名称": "衰减 因果 MMM 广告效果归因",
+  "一句话作用": "触发词：Adstock 衰减、carryover、饱和曲线、因果 MMM、渠道贡献拆分、大促延续投放。何时不用：只有一两周数据时无法拟合衰减率；要判断个体级归因时用多触点归因。安全边界：使用渠道级聚合数据、不涉及用户级隐私，平台数据获取需走官方导出或 API。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴跨境运营黑五大促后不知道广告效果是当周还是前 6 周积累所致，导致次日关停广告恰是最高 ROI 时段——Adstock 时序衰减模型识别各渠道 carryover 窗口，ROAS 计算准确率提升 40%，年化避免错误关停损失 20-80 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02685-p2s-ad-spend-time-series-attribution-09743880",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ad-spend-time-series-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ad-spend-time-series-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1a8cab4dc5c7ce39a5150b303c60b0acba3eb66fb0968b7bd40cf7f9cedab6b9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-reddit-community-signal-mining",
+  "中文名称": "社区信号挖掘与品牌口碑监测",
+  "一句话作用": "触发词：Reddit 挖掘、社区口碑、竞品弱点、情感同质性、品牌监测。何时不用：只做站内评论横向对标用「Competitive VOC Benchmarking」；要监控竞品价格与 Listing 变动用「多 Agent 竞品情报系统」。安全边界：遵守 Reddit 用户协议、禁止爬取私密子版块；不得在 listing 中直接引用 Reddit 用户原话。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要竞品的 Reddit 弱点从未被系统发掘——情感同质性模型（同质性 0.198-0.228）挖掘 r/beyondthebump 真实声音，发现竞品 Elvie 高票投诉集中在\"App 蓝牙断连\"，精准制定差异化策略时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03701-p2s-reddit-community-signal-mining-9960593a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-reddit-community-signal-mining/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-reddit-community-signal-mining/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "382c720ee8f5f61503ef38fe0d864db65069ab87edf22f3980533b3bbd93d138",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

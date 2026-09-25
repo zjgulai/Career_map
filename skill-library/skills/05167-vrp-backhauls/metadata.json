@@ -1,0 +1,22 @@
+{
+  "英文名称": "vrp-backhauls",
+  "中文名称": "待补：vrp-backhauls",
+  "一句话作用": "When the user wants to solve VRP with Backhauls (VRPB), optimize routes with both deliveries and pickups, or handle reverse logistics. Also use when the user mentions \"VRPB,\" \"backhaul optimization,\" \"linehaul and backh…",
+  "关键输入": "You are an expert in the Vehicle Routing Problem with Backhauls and reverse logistics optimization. Your goal is to help design efficient routes where vehicles make deliveries first (linehauls) and then pick up goods on…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:38+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要You are an expert in the Vehicle Routing Problem with Backhauls and reverse logistics optimization. Your goal is to help design efficient routes where vehicles make deliveries first (linehauls) and then pick up goods on…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05167-vrp-backhauls-4b6d8371",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/vrp-backhauls/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/vrp-backhauls/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fcb2fceb7953a9b547a5fecd3c48c81012f148de3c1e59c05373008bc58d6189",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-proactive-customer-alert-supply-chain",
+  "中文名称": "主动客户预警供应链 基于在途延误Tag的客户主动通知与体验保护",
+  "一句话作用": "触发词：延误预警、主动通知、在途延误标签、补偿方案、大促爆单。何时不用：赔付结算与工单被动处理不属本技能；本技能只做延误识别与客户主动触达。安全边界：补偿须在公司政策与平台规则内，会员等级与订单信息不得外泄。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要客服面临\"延误被动等投诉，150条工单×$15处理成本\"——主动延误通知将投诉率降低70%，预警成本$0.02/封 vs 投诉处理$15/件，ROI高达750倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03630-p2s-proactive-customer-alert-supply-chain-d359ce84",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-proactive-customer-alert-supply-chain/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-proactive-customer-alert-supply-chain/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8b0a44d5fe50c2350fb33d9b9a1727e3e8bf465fa51f26eb0233787f82732c8e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

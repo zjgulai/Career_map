@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multimodal-ugc-cross-platform-fusion",
+  "中文名称": "跨平台UGC多模态融合采集 图文视频评论统一信号采集与去噪",
+  "一句话作用": "触发词：多模态UGC融合、跨平台信号、图文视频对齐、质量预警、新品机会验证。何时不用：只做单市场文本评论的文化差异分析时用跨文化UGC采集技能；只做单一平台评论情感时用情感 ML 管道技能。安全边界：UGC 采集须遵守各平台条款与版权要求，引用用户内容不得超出授权范围。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌质量问题在TikTok已爆发而Amazon评分仍正常——跨平台多模态UGC融合将质量预警提前6周，保护年销$500万SKU避免$50-80万评分下滑损失时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03516-p2s-multimodal-ugc-cross-platform-fusion-66c6fa4a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multimodal-ugc-cross-platform-fusion/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multimodal-ugc-cross-platform-fusion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dcc02e12a56053b18ac52b3118bb0049347350fa2eaf667b0d861e25721a5511",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Privacy-COPPA-Compliance",
+  "中文名称": "内容信号",
+  "一句话作用": "核心思想：《儿童在线隐私保护法》（COPPA，1998，FTC 执法）要求面向 13 岁以下儿童的网站/App 在收集个人信息前 必须获得父母可核实同意（VPC） ，违者最高罚款 $50,119/条/天。母婴 App（婴儿成长追踪/胎教音乐/购物 App）因目标用户是婴儿家庭，极易触发 COPPA 监管。",
+  "关键输入": "论文/研究主题文件；来源位置：paper to skills / paper2skills-vault / 21-合规决策",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-16T18:09:38+08:00",
+  "业务场景": "21-合规决策",
+  "解决具体问题": "当需要核心思想：《儿童在线隐私保护法》（COPPA，1998，FTC 执法）要求面向 13 岁以下儿童的网站/App 在收集个人信息前 必须获得父母可核实同意（VPC） ，违者最高罚款 $50,119/条/天。母婴 App（婴儿成长追踪/胎教音乐/购物 App）因目标用户是婴儿家庭，极易触发 COPPA 监管。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09031-skill-privacy-coppa-compliance-e63cd447",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/paper2skills-vault/21-合规决策/Skill-Privacy-COPPA-Compliance.md",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/paper2skills-vault/21-合规决策/Skill-Privacy-COPPA-Compliance.md",
+  "date_source": "file_mtime",
+  "content_hash": "be15a46ca5ecdd253535227680f9c84adb21268562ea3e10f1fc550719ea464f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

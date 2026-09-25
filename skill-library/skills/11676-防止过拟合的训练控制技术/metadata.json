@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-early-stopping-regularization",
+  "中文名称": "防止过拟合的训练控制技术",
+  "一句话作用": "触发词：过拟合、Early Stopping、Elastic Net、特征稀疏化、泛化差距、模型正则化。何时不用：数据充足且验证集稳定时不必额外正则；要提升模型能力上限时用多任务学习或双塔建模。安全边界：用户特征与 LTV 标签属敏感业务数据，训练评估需在授权环境内进行，不对外泄露个体数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据科学团队面临\"LTV预测模型训练集AUC=0.91但测试集仅0.73、严重过拟合导致广告CPO虚高\"——Elastic Net+Early Stopping将测试集AUC提升至0.84，年化提升广告效益8-12万元+降低仓储成本25-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11676-p2s-early-stopping-regularization-2c6a55ff",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-early-stopping-regularization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-early-stopping-regularization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "70b2e58ebda82c0a6893ef89d9d582e1b1f9fa12deadaf913ca5a26c4b2dde06",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

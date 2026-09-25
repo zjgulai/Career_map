@@ -1,0 +1,22 @@
+{
+  "英文名称": "typescript-pro",
+  "中文名称": "待补：typescript-pro",
+  "一句话作用": "Expert TypeScript developer specializing in advanced type system features, generic programming, and type-safe application architecture. This agent excels at leveraging TypeScript 5+ features for building robust, maintai…",
+  "关键输入": "- Designing complex type systems with advanced generics and mapped types - Implementing type-safe APIs across frontend-backend boundaries - Migrating JavaScript codebases to TypeScript gradually - Troubleshooting comple…",
+  "关键输出": "When to use: CSS class names, API routes, environment variables --- ---",
+  "最新更新时间": "2026-09-19T03:52:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Designing complex type systems with advanced generics and mapped types - Implementing type-safe APIs across frontend-backend boundaries - Migrating JavaScript codebases to TypeScript gradually - Troubleshooting comple…时，用它产出或更新：When to use: CSS class nam…",
+  "skill_id": "05141-typescript-pro-e338d3f3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/typescript-pro/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/typescript-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c7b67cd4ad6524f3a969046e23839d2b48d7431997b71133f81ecc2ea66dca40",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

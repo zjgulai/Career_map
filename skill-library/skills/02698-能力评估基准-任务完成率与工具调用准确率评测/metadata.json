@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-capability-evaluation",
+  "中文名称": "能力评估基准 任务完成率与工具调用准确率评测",
+  "一句话作用": "触发词：Agent评测、任务完成率、工具调用准确率、多版本对比、能力退化拦截。何时不用：没有标准测试集与ground-truth工具序列时不适用；系统级framework选型对比走MASEval系统评估。安全边界：评测集与轨迹涉及生产数据时须脱敏，评测只用于上线前判定，不替代线上监控。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要技术运营面临\"Agent版本迭代无量化评估、上线后才发现能力退化引发运营事故\"——5D评估框架将Agent退化问题在上线前拦截，年化规避运营事故损失50万元+时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02698-p2s-agent-capability-evaluation-b6a1c34b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agent-capability-evaluation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agent-capability-evaluation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b3fa8056be8a50cb73d5d889c0c551d25ec0c0d8e4a2c6f2487a04a62cf9b6a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

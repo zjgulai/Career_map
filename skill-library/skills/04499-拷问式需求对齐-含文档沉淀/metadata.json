@@ -1,0 +1,22 @@
+{
+  "英文名称": "grill-with-docs",
+  "中文名称": "拷问式需求对齐（含文档沉淀）",
+  "一句话作用": "对方案或设计进行拷问式逐条对齐访谈，同时将术语沉淀到 CONTEXT.md、将不可逆决策记录为 ADR。当用户说\"拷问\"\"对齐需求\"\"grill\"\"帮我审方案\"\"需求还不清晰\"时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要对方案或设计进行拷问式逐条对齐访谈，同时将术语沉淀到 CONTEXT.md、将不可逆决策记录为 ADR。当用户说\"拷问\"\"对齐需求\"\"grill\"\"帮我审方案\"\"需求还不清晰\"时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04499-grill-with-docs-8255d27d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/grillme-matt/0.1.0/skills/grill-with-docs/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/grillme-matt/0.1.0/skills/grill-with-docs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ce4ec9df70fbc4e564acc9c93186717cd356404a99300311feefa37923e1758",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

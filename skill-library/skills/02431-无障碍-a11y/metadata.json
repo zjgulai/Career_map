@@ -1,0 +1,22 @@
+{
+  "英文名称": "accessibility",
+  "中文名称": "无障碍（a11y）",
+  "一句话作用": "按 WCAG 2.2 逐条审计并修复网页无障碍：对比度阈值、键盘与焦点、目标尺寸、表单标签、ARIA 与测试清单。触发词：无障碍合规审计、accessibility、按 WCAG 2.2 逐条审计并修复网页无障碍：对比度阈值、键盘与焦点、目标尺寸、表单标签、ARIA 与测试清单。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要按 WCAG 2.2 逐条审计并修复网页无障碍：对比度阈值、键盘与焦点、目标尺寸、表单标签、ARIA 与测试清单。触发词：无障碍合规审计、accessibility、按 WCAG 2.2 逐条审计并修复网页无障碍：对比度阈值、键盘与焦点、目标尺寸、表单标签、ARIA 与测试清单。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02431-accessibility-c86b10cb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/accessibility/SKILL.md",
+  "relative_path": "lute/.dsh/skills/accessibility/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "15dc474514d6f11599aee01e60bf885c22c5fe8cd2f5122543e4d5e40e6647bf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

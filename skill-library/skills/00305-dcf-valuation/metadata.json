@@ -1,0 +1,22 @@
+{
+  "英文名称": "dcf-valuation",
+  "中文名称": "待补：dcf-valuation",
+  "一句话作用": "Performs discounted cash flow (DCF) valuation analysis to estimate intrinsic value per share. Triggers when user asks for fair value, intrinsic value, DCF, valuation, \"what is X worth\", price target, undervalued/overval…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Before presenting, verify these sanity checks: 1. EV comparison : Calculated EV should be within 30% of reported enterprise value - If off by 30%, revisit WACC or growth assumptions 2. Terminal value ratio : Terminal value should be 50-80% of total EV for mat…",
+  "最新更新时间": "2026-09-21T17:35:26+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Performs discounted cash flow (DCF) valuation analysis to estimate intrinsic value per share. Triggers when user asks for fair value, intrinsic value, DCF, valuation, \"what is X worth\", price target, undervalued/overval…时，用它产出或更新：Before presenting, verify…",
+  "skill_id": "00305-dcf-valuation-61b592be",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/dcf-valuation/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/dcf-valuation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c05acd3cae08135737381f795deb9337ce5006299805ed53e3f009adf4647a3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

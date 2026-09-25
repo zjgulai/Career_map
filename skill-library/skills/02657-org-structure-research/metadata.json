@@ -1,0 +1,22 @@
+{
+  "英文名称": "org-structure-research",
+  "中文名称": "待补：org-structure-research",
+  "一句话作用": "- Systematically research a company's organizational structure, build org charts, and create employee profiles per business line. Use when the user asks to \\\"调研组织架构\\\", \\\"org chart\\\", \\\"组织架构图\\\", \\\"员工画像\\\", \\\"业务线/部门结构\\\", o…",
+  "关键输入": "- User asks to research a company's org structure or org chart - User wants employee profiles per business line or department - User asks \"who are the key people at [company]\" or \"调研 [company] 的组织架构\" - Output should inc…",
+  "关键输出": "- Department from title : \"Software Engineer\" → Engineering; \"Product Manager\" → Product; \"Head of Growth\" → Growth/Marketing; \"Researcher\" / \"Research Scientist\" → Research. - Deduplication : Match by normalized name + company; prefer LinkedIn as canonical i…",
+  "最新更新时间": "2026-09-08T00:49:03+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- User asks to research a company's org structure or org chart - User wants employee profiles per business line or department - User asks \"who are the key people at [company]\" or \"调研 [company] 的组织架构\" - Output should inc…时，用它产出或更新：- Department from title :…",
+  "skill_id": "02657-org-structure-research-40b0d860",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/org-structure-research/SKILL.md",
+  "relative_path": "lute/.dsh/skills/org-structure-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c708f8b3c2ebb5b77395f4b74c0beb648233957557aa9ef85635d98e9149b9ae",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

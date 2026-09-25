@@ -1,0 +1,22 @@
+{
+  "英文名称": "spatie-laravel-data",
+  "中文名称": "待补：spatie-laravel-data",
+  "一句话作用": "Expert knowledge about the Spatie Laravel Data package (v4). Use when the user asks about laravel-data, Data objects, DTOs in Laravel, data transformation, validation with Data classes, lazy properties, Eloquent casting…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "---",
+  "最新更新时间": "2026-09-19T03:55:29+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Expert knowledge about the Spatie Laravel Data package (v4). Use when the user asks about laravel-data, Data objects, DTOs in Laravel, data transformation, validation with Data classes, lazy properties, Eloquent casting…时，用它产出或更新：---",
+  "skill_id": "05102-spatie-laravel-data-6d6015b1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spatie-laravel-data/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spatie-laravel-data/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04bcd0f1c381593864c6babc550f51bfcafb504d63c30630af8ad9475c19b8e2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

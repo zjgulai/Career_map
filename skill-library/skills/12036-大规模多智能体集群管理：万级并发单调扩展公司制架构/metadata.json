@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-scale-management",
+  "中文名称": "大规模多智能体集群管理：万级并发单调扩展公司制架构",
+  "一句话作用": "触发词：多智能体集群、规模扩张、万级并发、单调扩展、公司制架构。何时不用：一次性的配额争抢与限流走「MAS 资源调度」；Agent 能力注册与灰度路由走「Agent 注册与发现」。安全边界：扩容动作与决策日志须留痕可审计，不得在没有监控的情况下盲目扩容 Agent。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营负责人面临Agent规模扩张失控——Scale Management将单人可管Agent数从8个提到30个，年化省20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12036-p2s-mas-scale-management-48ff92f4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mas-scale-management/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-mas-scale-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cbd7ec31ab730b7c9f5eb2148a8eb26219aa780e3fcd11d5b34f1d8117ff20f2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

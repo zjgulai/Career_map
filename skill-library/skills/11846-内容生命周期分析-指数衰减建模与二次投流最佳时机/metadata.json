@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-content-lifecycle-analytics",
+  "中文名称": "内容生命周期分析 指数衰减建模与二次投流最佳时机",
+  "一句话作用": "触发词：内容生命周期、指数衰减、二次投流、流量窗口、视频投流、播放量预测。何时不用：素材创意与脚本优化不走本卡；要在视频发布后用衰减曲线判断何时加投、是否出现二次传播时用本卡。安全边界：须遵守平台内容与投流规则，AI 生成内容须标注，母婴类医疗健康信息需具备相应资质。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要内容运营面临\"视频发出去不知道什么时候二次推流效果最好错过流量窗口\"——指数衰减模型+二次上升信号识别将视频总播放量提升2.3倍，年化节省$3.6万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11846-p2s-tiktok-content-lifecycle-analytics-4e00582c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tiktok-content-lifecycle-analytics/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tiktok-content-lifecycle-analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cbc84a7b5322e68797b816195172f6da2705d50e8b0c079b631d9550b828d184",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

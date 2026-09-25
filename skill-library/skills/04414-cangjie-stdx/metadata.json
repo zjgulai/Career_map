@@ -1,0 +1,22 @@
+{
+  "英文名称": "cangjie-stdx",
+  "中文名称": "待补：cangjie-stdx",
+  "一句话作用": "Cangjie extended standard library (stdx) quick reference: configuration, JSON encoding/decoding, logging, compression, serialization, HTTP client/server, WebSocket, and TLS.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:55+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Cangjie extended standard library (stdx) quick reference: configuration, JSON encoding/decoding, logging, compression, serialization, HTTP client/server, WebSocket, and TLS.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04414-cangjie-stdx-113189f3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/cangjie-skills/1.0.0/skills/cangjie-stdx/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/cangjie-skills/1.0.0/skills/cangjie-stdx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "353361285914de9e9dab5c6e8d3150fab115ff502d0e8cd52ffc222c0ca0b089",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

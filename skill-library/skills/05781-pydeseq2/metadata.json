@@ -1,0 +1,22 @@
+{
+  "英文名称": "pydeseq2",
+  "中文名称": "待补：pydeseq2",
+  "一句话作用": "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis.",
+  "关键输入": "System requirements: - Python 3.10-3.11 - pandas 1.4.3+ - numpy 1.23.0+ - scipy 1.11.0+ - scikit-learn 1.1.1+ - anndata 0.8.0+ Optional for visualization: - matplotlib - seaborn",
+  "关键输出": "results = ds.results df significant = results[results.padj < 0.05] print(f\"Found {len(significant)} significant genes\")",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Analyzing bulk RNA-seq count data for differential expression - Comparing gene expression between experimental conditions (e.g., treated vs control) - Performing multi-factor designs ac…时，用它产出或更新：results = ds.results df si…",
+  "skill_id": "05781-pydeseq2-fffef0f4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pydeseq2/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pydeseq2/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af6119adf1dfaa81c65e6e1950f945757f68eed2d2bd13b93484dbf056bc961e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

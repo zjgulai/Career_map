@@ -1,0 +1,22 @@
+{
+  "英文名称": "ulw-plan",
+  "中文名称": "待补：ulw-plan",
+  "一句话作用": "MUST USE for planning before coding: 5+ steps, ambiguous scope, multiple modules, architecture decisions, a vague 'just make it good / figure out what to build' brief, or any request to plan, interview, or break work do…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-23T18:54:26+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要MUST USE for planning before coding: 5+ steps, ambiguous scope, multiple modules, architecture decisions, a vague 'just make it good / figure out what to build' brief, or any request to plan, interview, or break work do…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01720-ulw-plan-fde1701d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/node_modules/oh-my-openagent/packages/shared-skills/skills/ulw-plan/SKILL.md",
+  "relative_path": "lute/.config/opencode/node_modules/oh-my-openagent/packages/shared-skills/skills/ulw-plan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be6f97240062ef01923a8006c3458057d58d5cb0d2bb6a75b412a37958285686",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

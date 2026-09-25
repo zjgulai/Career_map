@@ -1,0 +1,22 @@
+{
+  "英文名称": "cross-border-market-research",
+  "中文名称": "待补：cross-border-market-research",
+  "一句话作用": "[Market-level research] Use when the user wants a MARKET-LEVEL view of a cross-border track — market size, demand trend / seasonality, competitive landscape, and profit — rather than a list of specific products to buy.…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "core keywords.json in — the market-size representative keyword group consumed by the downstream Steps 2–5. It records query / query level / matched category / marketplace / recent window, and per keyword its source (query / sibling category / child category /…",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要[Market-level research] Use when the user wants a MARKET-LEVEL view of a cross-border track — market size, demand trend / seasonality, competitive landscape, and profit — rather than a list of specific products to buy.…时，用它产出或更新：core keywords.json in — the…",
+  "skill_id": "00092-cross-border-market-research-60e5500f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/cross-border-market-research/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/cross-border-market-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3372552ac57ac822fc6e9c49b1658eef0aaeea75254149dfa2473e0a0ec76bb2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

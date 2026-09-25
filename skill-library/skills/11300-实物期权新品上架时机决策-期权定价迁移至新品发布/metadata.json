@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-real-options-product-launch-timing",
+  "中文名称": "实物期权新品上架时机决策 期权定价迁移至新品发布",
+  "一句话作用": "触发词：实物期权、上架时机、备货批量、需求波动率。何时不用：无法估计需求波动率、或市场窗口极短无等待价值时不用本卡；需求已定只需算补货量时用补货模拟类技能。安全边界：产品须先满足目标市场认证（如 CE、ECE R44 或 R129），否则期权策略无效。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"新款上市备货量难以决策、押注过多滞销过少断货\"——实物期权Black-Scholes将首批备货误差从±45%改善为±18%，年化减少押注损失30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11300-p2s-real-options-product-launch-timing-6cfb5e42",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-real-options-product-launch-timing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-real-options-product-launch-timing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "21f06c8e4410814d6906ee9b33630172fa8bffbe7842e35d48a91390b40baf8c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

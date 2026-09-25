@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-development-roadmap-tracking",
+  "中文名称": "供应商发展路线图追踪 改进计划执行跟踪与供应商升降级Tag管理",
+  "一句话作用": "触发词：供应商培育、升降级、改进计划、路线图追踪。何时不用：只有一次性评分、缺少月度 KPI 记录时无法判断升降级；一次性选型打分用供应商评估模型类技能。安全边界：升降级结论需与供应商沟通确认，不得仅凭模型结果单方面调整合作条件。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购面临\"供应商管理只有评分没有培育路径\"——阶梯式发展路线图将战略供应商比例从10%提升至25%，年采购降本20-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03878-p2s-supplier-development-roadmap-tracking-b490cb94",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supplier-development-roadmap-tracking/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supplier-development-roadmap-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa9e838a0e64b156ad6032d09a08dcd0c6bd1e08f536a62a6d7141d610813d03",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

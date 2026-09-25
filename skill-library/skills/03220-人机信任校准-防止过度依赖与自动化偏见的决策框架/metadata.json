@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-human-ai-calibrated-trust",
+  "中文名称": "人机信任校准 防止过度依赖与自动化偏见的决策框架",
+  "一句话作用": "触发词：人机信任校准、自动化偏见、人工审核阈值、置信度门控、审核工作量。何时不用：只生成模型解释帮助理解决策时用「AI Transparency Explanation」；算法偏见审计用「Algorithmic Accountability Audit」。安全边界：人类保留最终决策权，不得用高自动化率替代必要的复核；高风险决策（断货、合规等）不得全自动放行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要决策团队面临AI建议过度依赖导致错误备货——信任校准框架将人工审核介入率优化至18%，备货误差率降低31%，年化节省库存损失28万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03220-p2s-human-ai-calibrated-trust-32434bf3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-human-ai-calibrated-trust/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-human-ai-calibrated-trust/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b695c6f73e022c379fd37fcb52e995b3336317f72e724c6de1f054a0db6ec7ec",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

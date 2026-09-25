@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-medical-report",
+  "中文名称": "医学检验检查报告解读",
+  "一句话作用": "必须在用户需要医学报告解读时使用。包括：用户上传体检报告、检验报告、检查单、化验单、血常规/尿常规/生化/肝肾功能/血脂血糖等检验检查图片、照片、截图、PDF、文档、表格或文件；用户只发报告图片/附件且没有文字说明；用户说“帮我看看”“看下这个报告”“这个结果正常吗”“有什么问题”“报告怎么解读”；用户表达体检报告解读、医院报告解读、影像/超声/CT/MRI/内镜/病理报告解读等需求。用于梳理报告内容，解释异常指标和检查发现，识别需要…",
+  "关键输入": "当用户上传、提供或提到体检报告、检验报告、检查单、化验单、影像报告、内镜报告、病理结果、专科报告或历年健康数据，并希望理解报告内容、异常含义和下一步该怎么观察或就医沟通时使用本 skill。只要识别到用户表达的是“医学检验检查报告解读”或“体检报告解读”需求，或上传了疑似医疗报告的图片、照片、截图、PDF、文档、表格、压缩包/文件，即使没有明确说“解读”，甚至只发附件没有正文，也应调用本 skill。典型需求包括： - 解读体检、检验…",
+  "关键输出": "默认输出为飞书云文档链接。除非用户明确说“只要口头分析/不要创建飞书文档”，否则不要停留在对话摘要。 不要生成本地 HTML 文件，不要交付 .html 路径。若飞书文档创建失败，应说明失败原因，并保留可重试的文档草稿内容或草稿文件位置。 最终回复不能只说“已生成报告”。必须同时给出飞书文档链接。示例： 飞书文档已生成： 个人健康管理报告",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当用户上传、提供或提到体检报告、检验报告、检查单、化验单、影像报告、内镜报告、病理结果、专科报告或历年健康数据，并希望理解报告内容、异常含义和下一步该怎么观察或就医沟通时使用本 skill。只要识别到用户表达的是“医学检验检查报告解读”或“体检报告解读”需求，或上传了疑似医疗报告的图片、照片、截图、PDF、文档、表格、压缩包/文件，即使没有明确说“解读”，甚至只发附件没有正文，也应调用本 skill。典型需求包括： - 解读体检、检验…时，用它产出或更新：默认输出为飞书云文档链接。除非用户明确说“只要口头分…",
+  "skill_id": "06539-doubao-medical-report-601378ab",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-medical-report/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-medical-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d552ef47c6e070c1c8194d74b68847e944cc9f6d7f26febec3334cf9062cf27",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

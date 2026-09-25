@@ -1,0 +1,22 @@
+{
+  "英文名称": "cdn-caching",
+  "中文名称": "待补：cdn-caching",
+  "一句话作用": "Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01129-cdn-caching-c8d4e6f9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/vercel/skills/cdn-caching/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/vercel/skills/cdn-caching/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b4024155cacc4d2d385ee0ee7ad1b5e6c1079e1b2599885fc2b3d197ea433f64",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

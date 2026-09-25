@@ -1,0 +1,22 @@
+{
+  "英文名称": "define-goal",
+  "中文名称": "待补：define-goal",
+  "一句话作用": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitat…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-01T10:25:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitat…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01606-define-goal-dd702176",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/define-goal/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/define-goal/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "708df89ff19cbae82a762efae036735d1914b5c7e44df1832e0b723f6cd9ee30",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

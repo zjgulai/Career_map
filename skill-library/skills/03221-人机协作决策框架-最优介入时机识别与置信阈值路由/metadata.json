@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-human-ai-collaborative-decision",
+  "中文名称": "人机协作决策框架 最优介入时机识别与置信阈值路由",
+  "一句话作用": "触发词：置信阈值路由、人工介入时机、人机分流、复核队列、阈值寻优。何时不用：按问题类型固定三级分流用「MAS 客服智能升级路由」；本技能决定的是置信度边缘案例该不该转人工。安全边界：需使用校准后的概率而非原始打分，赔付与安全事故类案例必须保留人工兜底。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要客服运营面临\"客服机器人对复杂投诉乱答引发客户愤怒、CSAT持续下滑\"——置信阈值路由将人工介入量减少40%同时CSAT提升12分，年化节省客服人力8万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03221-p2s-human-ai-collaborative-decision-251868ac",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-human-ai-collaborative-decision/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-human-ai-collaborative-decision/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "20c45c437d03de2488d2321831112456392650e2b35784fb19b178237f85ed70",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

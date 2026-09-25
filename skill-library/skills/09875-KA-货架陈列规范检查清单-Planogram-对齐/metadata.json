@@ -1,0 +1,22 @@
+{
+  "英文名称": "KA 货架陈列规范检查清单（Planogram 对齐）",
+  "中文名称": "待补：KA 货架陈列规范检查清单（Planogram 对齐）",
+  "一句话作用": "当需要按零售商 planogram 或品类协议、检查门店实拍/巡检表是否满足陈列面位、价签、认证贴标与竞品对比时调用；输出整改清单与照片要求。",
+  "关键输入": "- 零售商提供 最新 planogram PDF 或 文字规范 （面数、货架类型）。 - 现场照片或巡检表（按门店/区域）。",
+  "关键输出": "- store id sku check item result evidence photo fix by date - 汇总 ：合格率、Top 3 问题类型。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要按零售商 planogram 或品类协议、检查门店实拍/巡检表是否满足陈列面位、价签、认证贴标与竞品对比时调用；输出整改清单与照片要求。时，用它产出或更新：- store id sku check item result evidence photo fix by date - 汇总 ：合格率、Top 3 问题类型。",
+  "skill_id": "09875-ka-planogram-e9124b87",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-planogram-checker/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/channel-operate/ka-planogram-checker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c31e9099f66006eb665a9ad603ac6812a82e7c6fce6a58e6c6cd3e95b6093b58",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

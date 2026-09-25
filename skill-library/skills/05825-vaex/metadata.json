@@ -1,0 +1,22 @@
+{
+  "英文名称": "vaex",
+  "中文名称": "待补：vaex",
+  "一句话作用": "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualizati…",
+  "关键输入": "Use Vaex when: - Processing tabular datasets larger than available RAM (gigabytes to terabytes) - Performing fast statistical aggregations on massive datasets - Creating visualizations and heatmaps of large datasets - B…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use Vaex when: - Processing tabular datasets larger than available RAM (gigabytes to terabytes) - Performing fast statistical aggregations on massive datasets - Creating visualizations and heatmaps of large datasets - B…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05825-vaex-55442dee",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/vaex/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/vaex/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f16edeb3566ebb7e732fac92aca4f0ecda7250b3917e18930002298ad13a6422",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

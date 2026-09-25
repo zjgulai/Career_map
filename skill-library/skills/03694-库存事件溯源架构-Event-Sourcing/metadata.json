@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-real-time-inventory-event-stream",
+  "中文名称": "库存事件溯源架构（Event Sourcing",
+  "一句话作用": "触发词：库存事件流、读写分离、损耗定位、实时物化视图、库存缺口归因。何时不用：只做单仓库库存变更追溯与重放时用库存事件溯源技能；只做订单结算对账时用结算采集技能。安全边界：事件日志只追加不可修改，库存数据的使用须符合平台授权要求并用于自有店铺运营。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营总监面临\"库存数据延迟12小时导致断货识别总是迟到\"——Event Sourcing+CQRS将库存事件处理延迟从12小时降至30秒，断货预警准确率提升至97%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03694-p2s-real-time-inventory-event-stream-8177c56c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-real-time-inventory-event-stream/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-real-time-inventory-event-stream/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "61e142ef5f886c1181abdae48aab2f0840ad4b25d2a6737e34781105016b66b4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

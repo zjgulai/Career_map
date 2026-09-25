@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-safety-alert",
+  "中文名称": "安全 / 风险红色 Deck",
+  "一句话作用": "红琥珀警示色 + hazard 条纹 + L1/L2/L3 tier 卡片 + 删除线标题",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "engineering",
+  "解决具体问题": "当需要红琥珀警示色 + hazard 条纹 + L1/L2/L3 tier 卡片 + 删除线标题时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10308-deck-safety-alert-3f559af4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/deck-safety-alert/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/deck-safety-alert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "72bd743f1e2951c796875db141651719fd2c79d420c368c90c60936dd966f0f3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

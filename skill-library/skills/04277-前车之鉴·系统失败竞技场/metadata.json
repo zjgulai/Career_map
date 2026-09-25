@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-arena-sysfail",
+  "中文名称": "前车之鉴·系统失败竞技场",
+  "一句话作用": "系统失败竞技场：三个对立角色（系统结构分析师/假设审计师/第二层思维观察者）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：做了正确的事，结果却越来越差、团队努力工作，系统却持续退化、短期改善，长期恶化、越努力越糟、饮鸩止渴、舍本逐末。何时不用：单点问题反复出现 → xmind-arena-rootcause；在选项间纠结 → xmind-arena-decision。安全边界：涉及组织变革、裁员等重大人事决策…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要系统失败竞技场：三个对立角色（系统结构分析师/假设审计师/第二层思维观察者）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：做了正确的事，结果却越来越差、团队努力工作，系统却持续退化、短期改善，长期恶化、越努力越糟、饮鸩止渴、舍本逐末。何时不用：单点问题反复出现 → xmind-arena-rootcause；在选项间纠结 → xmind-arena-decision。安全边界：涉及组织变革、裁员等重大人事决策…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04277-xmind-arena-sysfail-196a5a1b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-arena-sysfail/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-arena-sysfail/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c20ac089e9f7dcd948dbb9399ba7a882ba50938b24143853a57f9bb0d59dc3cf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

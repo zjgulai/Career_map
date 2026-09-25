@@ -1,0 +1,22 @@
+{
+  "英文名称": "supabase-mcp-backend",
+  "中文名称": "待补：supabase-mcp-backend",
+  "一句话作用": "Supabase provider playbook for MCP-first project access, migrations, RLS, generated types, Edge Functions, logs, advisors, and Postgres design.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T02:00:48+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Supabase provider playbook for MCP-first project access, migrations, RLS, generated types, Edge Functions, logs, advisors, and Postgres design.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00148-supabase-mcp-backend-4e4e5934",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/supabase-mcp-backend/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-site-builder/skills/supabase-mcp-backend/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3d824ad2edda1bb4fd84c9db0aae16ec9dc26b2d46771029d8e9e37efb4de13",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

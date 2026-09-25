@@ -1,0 +1,22 @@
+{
+  "英文名称": "lexiang-blocks",
+  "中文名称": "乐享 Block 操作",
+  "一句话作用": "乐享知识库已有页面的内容编辑与排版操作。【核心特征：用户提供了 lexiangla.com/pages/ 链接，并要求对该页面进行修改/编辑/追加/删除/移动操作】。当用户提到「乐享」「知识库」「lexiang」并明确指向已有页面做内容变更时使用。典型触发：「修改这个页面」「编辑一下这篇文档」「在页面里加个标题」「更新一下内容」「调整排版」「追加一段内容」「帮我改一下这个表格」「在这个页面后面插入…」「把这段移到前面」「删掉这个段落」…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要乐享知识库已有页面的内容编辑与排版操作。【核心特征：用户提供了 lexiangla.com/pages/ 链接，并要求对该页面进行修改/编辑/追加/删除/移动操作】。当用户提到「乐享」「知识库」「lexiang」并明确指向已有页面做内容变更时使用。典型触发：「修改这个页面」「编辑一下这篇文档」「在页面里加个标题」「更新一下内容」「调整排版」「追加一段内容」「帮我改一下这个表格」「在这个页面后面插入…」「把这段移到前面」「删掉这个段落」…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05290-lexiang-blocks-9014e0ce",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/blocks/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/blocks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0f78ba687361fdd41c38ae1a1748c6af5bdcb6074c50473e5d48d5311935262b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

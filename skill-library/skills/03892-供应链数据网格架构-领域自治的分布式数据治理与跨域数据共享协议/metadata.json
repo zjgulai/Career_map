@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-data-mesh-architecture",
+  "中文名称": "供应链数据网格架构 领域自治的分布式数据治理与跨域数据共享协议",
+  "一句话作用": "触发词：数据网格、Data Mesh、数据产品、领域自治、跨域数据共享、数据 SLA。何时不用：单一数据团队、中央交付不构成瓶颈时不用；只给某个标签做质量评分走标签质量 KPI。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临\"中央数据团队成为所有业务部门的数据瓶颈\"——Data Mesh领域自治将数据需求响应从2周→1天，数据产品化提升吞吐量3-5倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03892-p2s-supply-chain-data-mesh-architecture-29c11af6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supply-chain-data-mesh-architecture/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supply-chain-data-mesh-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02a6391e602ae1a7dee9cef6e8e63a1f4e95349037c18fb03505f7dd839d2ff9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

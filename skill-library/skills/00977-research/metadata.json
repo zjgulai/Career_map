@@ -1,0 +1,22 @@
+{
+  "英文名称": "research",
+  "中文名称": "待补：research",
+  "一句话作用": "Run fast, source-grounded UX research on the highest-signal problems users are experiencing with a user-specified digital product. Use when the user asks to research user pain, UX friction, onboarding issues, docs/help…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Default to an in-chat research brief unless the user asks for another format. Include: - Executive read: the core story in 5-7 sentences. - Ranked UX problems: for each problem, include the problem, user goal, surface, what breaks, evidence, severity, frequen…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Run fast, source-grounded UX research on the highest-signal problems users are experiencing with a user-specified digital product. Use when the user asks to research user pain, UX friction, onboarding issues, docs/help…时，用它产出或更新：Default to an in-chat resea…",
+  "skill_id": "00977-research-d2ff2bcc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/product-design/skills/research/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/product-design/skills/research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bf824e72dd93941c8d591e4af13bb7e3a09380cd6ed7dd8c1f61a295648fa023",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

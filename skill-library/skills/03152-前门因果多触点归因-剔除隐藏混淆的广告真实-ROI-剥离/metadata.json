@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-frontdoor-causal-mta",
+  "中文名称": "前门因果多触点归因 - 剔除隐藏混淆的广告真实 ROI 剥离",
+  "一句话作用": "触发词：前门准则、未观测混淆、归因水分、行为代理、重定向 ROAS、真实因果贡献。何时不用：找不到合适的行为代理指标时前门估计不成立；只有渠道级汇总数据时用大盘数据归因。安全边界：用户级触点与行为序列属个人信息，需在隐私政策与平台授权范围内使用，创作者与 KOL 数据需遵守平台 API 条款。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要孕晚期用户购买周期 6-8 周，在\"下定决心买推车\"后主动搜索并点击所有重定向短信/DPA 广告时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03152-p2s-frontdoor-causal-mta-677c20ef",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-frontdoor-causal-mta/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-frontdoor-causal-mta/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fe7745df7ce9070e4673a846681e36901114483cfc63c1cc8841ac5680ff910c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

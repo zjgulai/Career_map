@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-file-excel-parquet-analysis",
+  "中文名称": "获取所有 sheet 名称",
+  "一句话作用": "读取多 Sheet Excel 文件并统计规模，支持大文件向 Parquet 格式转换、分类数据统计及可视化报告生成。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "target col = '剪裁结果' if target col in df analyzed.columns:",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要读取多 Sheet Excel 文件并统计规模，支持大文件向 Parquet 格式转换、分类数据统计及可视化报告生成。时，用它产出或更新：target col = '剪裁结果' if target col in df analyzed.columns:",
+  "skill_id": "04176-multi-file-excel-parquet-analysis-89d65003",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-reading/multi-file-reading/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-reading/multi-file-reading/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bede26fe4dd8c7ef43b1913a727f64b05be844da615c2b8c9765e1b5d94f7f50",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

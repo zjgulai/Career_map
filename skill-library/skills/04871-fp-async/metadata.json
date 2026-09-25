@@ -1,0 +1,22 @@
+{
+  "英文名称": "fp-async",
+  "中文名称": "待补：fp-async",
+  "一句话作用": "Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:04+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04871-fp-async-74141051",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/fp-async/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/fp-async/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9dbf3da28e52220ca983f727361d36bd9302ab46556f340c2284a335445a6981",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

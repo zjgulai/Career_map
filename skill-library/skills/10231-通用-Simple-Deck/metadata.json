@@ -1,0 +1,22 @@
+{
+  "英文名称": "deck-simple",
+  "中文名称": "通用 Simple Deck",
+  "一句话作用": "通用 horizontal-swipe HTML deck, 不要 magazine 调",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:26+08:00",
+  "业务场景": "product",
+  "解决具体问题": "当需要通用 horizontal-swipe HTML deck, 不要 magazine 调时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10231-deck-simple-ba640e60",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-simple/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/deck-simple/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6ba090ad3fe63feebe64b8ce42b1f850b5875accf2be11d80b06b391d0d37aef",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

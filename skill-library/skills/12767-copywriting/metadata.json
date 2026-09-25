@@ -1,0 +1,22 @@
+{
+  "英文名称": "copywriting",
+  "中文名称": "待补：copywriting",
+  "一句话作用": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When writing copy, provide:",
+  "最新更新时间": "2026-09-03T14:44:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for…时，用它产出或更新：When writing copy, provide:",
+  "skill_id": "12767-copywriting-26a2704d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/copywriting/SKILL.md",
+  "relative_path": "lute/project/skills/copywriting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ce18137ae31ab37f261078501431649865ab6b403054d97490754e82acb002d8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "pdf-analysis",
+  "中文名称": "待补：pdf-analysis",
+  "一句话作用": "PDF 文档解析。自动区分文字型 PDF 与扫描型 PDF，覆盖：文本/表格提取、多页全量扫描、嵌入图表 caption、单位感知数值计算。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要PDF 文档解析。自动区分文字型 PDF 与扫描型 PDF，覆盖：文本/表格提取、多页全量扫描、嵌入图表 caption、单位感知数值计算。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04188-pdf-analysis-7fee784b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-non-spreadsheet-analysis/capability/pdf-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-non-spreadsheet-analysis/capability/pdf-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "24a006cb7e92116adc4b309a404b7480730e1395d7cacdb7658d295ef50f9cbd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

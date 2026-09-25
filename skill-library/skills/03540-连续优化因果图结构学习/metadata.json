@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-notears-causal-discovery",
+  "中文名称": "连续优化因果图结构学习",
+  "一句话作用": "触发词：NOTEARS、DAGMA、连续优化因果发现、复购驱动、伪相关。何时不用：样本极小需要领域先验时用「LLM 辅助因果图先验」；只判断一次复购实验的处理效应时用增量估计类技能。安全边界：线性假设可能低估非线性关系，结论须用非线性版本或 A/B 实验复核，不得直接据图放大投放。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"不知道哪些操作真正驱动复购而非巧合相关\"——NOTEARS因果图发现将伪相关决策占比从35%降至8%，年化避免无效投放损失50-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03540-p2s-notears-causal-discovery-cddb39a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-notears-causal-discovery/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-notears-causal-discovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1250bfc4616aa0f5e020d791c5472b7ead66cc46e6d269d13e89db3e30518010",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

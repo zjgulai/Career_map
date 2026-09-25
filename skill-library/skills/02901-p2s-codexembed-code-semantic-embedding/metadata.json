@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-codexembed-code-semantic-embedding",
+  "中文名称": "待补：p2s-codexembed-code-semantic-embedding",
+  "一句话作用": "触发词：代码语义嵌入、自然语言到代码、语义召回、签名与文档字符串、语义检索准确率。何时不用：代码缺少签名与文档字符串、或片段过短无有效语义时不适用；需要跨文件组合与报错修复走代码库检索。安全边界：只做检索排序，不生成或修改代码；召回结果须标注来源，代码库更新后须重建索引。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要技术团队面临\"关键词检索漏掉38%的语义相关Skill代码导致重复开发\"——CodeXEmbed(NeurIPS2024)代码语义嵌入将检索准确率提升至72%，Agent代码生成准确率+25%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02901-p2s-codexembed-code-semantic-embedding-273320f2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-codexembed-code-semantic-embedding/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-codexembed-code-semantic-embedding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b77ae02803631219d4196a096f5ff21a76bcbfda33198d601c197002b7de26e2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

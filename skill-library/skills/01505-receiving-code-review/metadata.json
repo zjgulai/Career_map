@@ -1,0 +1,22 @@
+{
+  "英文名称": "receiving-code-review",
+  "中文名称": "待补：receiving-code-review",
+  "一句话作用": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind…",
+  "关键输入": "Performative Agreement (Bad): Technical Verification (Good): YAGNI (Good): Unclear Item (Good):",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Performative Agreement (Bad): Technical Verification (Good): YAGNI (Good): Unclear Item (Good):时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01505-receiving-code-review-035ffe5d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/superpowers/1dc19589/skills/receiving-code-review/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/superpowers/1dc19589/skills/receiving-code-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "migrate-to-codex",
+  "中文名称": "待补：migrate-to-codex",
+  "一句话作用": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-18T15:18:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01620-migrate-to-codex-a76edd3e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/vendor_imports/skills/skills/.curated/migrate-to-codex/SKILL.md",
+  "relative_path": "lute/.codex/vendor_imports/skills/skills/.curated/migrate-to-codex/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "145b7fe48360642cb7a42bad3a817f10833fa8a387ffcb4c2df8a47c01a832e2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

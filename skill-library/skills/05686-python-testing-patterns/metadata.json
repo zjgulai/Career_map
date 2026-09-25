@@ -1,0 +1,22 @@
+{
+  "英文名称": "python-testing-patterns",
+  "中文名称": "待补：python-testing-patterns",
+  "一句话作用": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
+  "关键输入": "- Writing unit tests for Python code - Setting up test suites and test infrastructure - Implementing test-driven development (TDD) - Creating integration tests for APIs and services - Mocking external dependencies and s…",
+  "关键输出": "import pytest def is valid email(email: str) - bool: \"\"\"Check if email is valid.\"\"\" return \"@\" in email and \".\" in email.split(\"@\")[1] @pytest.mark.parametrize(\"email,expected\", [ (\"user@example.com\", True), (\"test.user@domain.co.uk\", True), (\"invalid.email\",…",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- Writing unit tests for Python code - Setting up test suites and test infrastructure - Implementing test-driven development (TDD) - Creating integration tests for APIs and services - Mocking external dependencies and s…时，用它产出或更新：import pytest def is valid…",
+  "skill_id": "05686-python-testing-patterns-14078db7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/python-development/skills/python-testing-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/python-development/skills/python-testing-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b6b5b1d9fbd34eb45664ab54978716a264322b03c42b1a188f24d874b8ee854",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

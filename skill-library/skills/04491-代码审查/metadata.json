@@ -1,0 +1,22 @@
+{
+  "英文名称": "代码审查",
+  "中文名称": "代码审查",
+  "一句话作用": "Bidirectional code review for Java and Vue, covering security, performance, correctness, and best practices",
+  "关键输入": "- 大列表未用虚拟滚动 - v-for 使用 index 作为 key（列表会变时） - 频繁触发的事件未防抖/节流（scroll / resize / input） - 大组件未异步加载（defineAsyncComponent） - 计算属性内有副作用（API 调用、修改数据） - 不必要的 watch（可用 computed 替代）",
+  "关键输出": "格式：",
+  "最新更新时间": "2026-09-19T03:37:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 大列表未用虚拟滚动 - v-for 使用 index 作为 key（列表会变时） - 频繁触发的事件未防抖/节流（scroll / resize / input） - 大组件未异步加载（defineAsyncComponent） - 计算属性内有副作用（API 调用、修改数据） - 不必要的 watch（可用 computed 替代）时，用它产出或更新：格式：",
+  "skill_id": "04491-skill-0604130d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/代码审查/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/代码审查/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "082963d6e7a10cda40cc4ec06e7b3dc7e7d017b4e5fba0bfd88725ac0ffe9d2a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

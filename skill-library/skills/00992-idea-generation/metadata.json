@@ -1,0 +1,22 @@
+{
+  "英文名称": "idea-generation",
+  "中文名称": "待补：idea-generation",
+  "一句话作用": "Use when triaging public-equity idea candidates. Do not use for final trade recommendations, pitches, memos, or models.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Default output: - scope and assumptions; - methodology and data/source caveats; - headline research-priority conclusion and candidate funnel; - beneficiary-pathway map when relevant to a thematic screen; - ranked idea table with exposure proof and expectation…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Use when triaging public-equity idea candidates. Do not use for final trade recommendations, pitches, memos, or models.时，用它产出或更新：Default output: - scope and assumptions; - methodology and data/source caveats; - headline research-priority conclusion and can…",
+  "skill_id": "00992-idea-generation-4bd731a6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/idea-generation/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/idea-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b229510fbe3ec7338103f2db1606e1b3760ab7a7c80bd461e9a368845767757a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

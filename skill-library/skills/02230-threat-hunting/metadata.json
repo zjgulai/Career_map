@@ -1,0 +1,22 @@
+{
+  "英文名称": "threat-hunting",
+  "中文名称": "待补：threat-hunting",
+  "一句话作用": "Use for blue-team threat hunting, detection engineering with Sigma/YARA, SIEM query design, and incident detection validation.",
+  "关键输入": "- 威胁狩猎（hypothesis-driven） - Sigma / YARA 检测工程 - 告警调优、误报分析 - 与 malware-analysis/：样本侧 IOC → 本 skill 落地检测 - 与 digital-forensics/：案件伪影 → 横向狩猎",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 威胁狩猎（hypothesis-driven） - Sigma / YARA 检测工程 - 告警调优、误报分析 - 与 malware-analysis/：样本侧 IOC → 本 skill 落地检测 - 与 digital-forensics/：案件伪影 → 横向狩猎时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02230-threat-hunting-95cf381a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/threat-hunting/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/threat-hunting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b14ecc481830186bd8780e529f57d64d8e6bb6568df3b2fdc58b3b1c7e2b01c9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

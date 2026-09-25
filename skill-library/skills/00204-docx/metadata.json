@@ -1,0 +1,22 @@
+{
+  "英文名称": "docx",
+  "中文名称": "待补：docx",
+  "一句话作用": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. Use when working with professional documents (.docx files) for: (1) Creati…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After creating or editing a .docx, run both checks below before reporting success. They are complementary: structural validity ≠ content correctness.",
+  "最新更新时间": "2026-09-01T12:02:13+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. Use when working with professional documents (.docx files) for: (1) Creati…时，用它产出或更新：After creating or editing…",
+  "skill_id": "00204-docx-df65b37c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/documents/skills/docx/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/documents/skills/docx/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2553b02ac78b7e96391f6bc4dcbf1712cc137c139d156032fc7eb97bba8926fc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

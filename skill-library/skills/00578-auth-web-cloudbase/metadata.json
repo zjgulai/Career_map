@@ -1,0 +1,22 @@
+{
+  "英文名称": "auth-web-cloudbase",
+  "中文名称": "待补：auth-web-cloudbase",
+  "一句话作用": "CloudBase Web Authentication Quick Guide for frontend integration after auth-tool has already been checked. Provides concise and practical Web authentication solutions with multiple login methods and complete user manag…",
+  "关键输入": "- Automatically use auth-tool-cloudbase to check app-side auth readiness via queryAppAuth / manageAppAuth, then get the publishable key and configure login methods. - Publishable key readiness (do not skip): call queryAppAuth(action=\"getPublishableKey\"). If i…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要CloudBase Web Authentication Quick Guide for frontend integration after auth-tool has already been checked. Provides concise and practical Web authentication solutions with multiple login methods and complete user manag…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00578-auth-web-cloudbase-0c7a596c",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.agents/skills/auth-web-cloudbase/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.agents/skills/auth-web-cloudbase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7c2113fa46f517d8e818d554f358be6c309b4bbbcfe5cc65c3818efd88918c46",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

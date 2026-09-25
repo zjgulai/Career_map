@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multimodal-table-understanding",
+  "中文名称": "表格理解：规格对比认证矩阵价格表",
+  "一句话作用": "触发词：表格理解、规格对比、认证矩阵、价格表核对、截图录入。何时不用：表格能落成结构化表时用 SQL 查询更准；要跨多份文档抽条款时用分层检索。安全边界：表格识别结果不替代认证机构与平台的准入结论，认证真伪须回源核验。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要分析师面临表格截图难读——多模态表理解将录入错误率从12%降到3%，年化省8万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03515-p2s-multimodal-table-understanding-09de88a6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multimodal-table-understanding/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multimodal-table-understanding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b359032f1599f0cafa0400564ecac912e7563803bba1687fa2a20e8e697a590",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

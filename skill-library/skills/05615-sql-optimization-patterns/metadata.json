@@ -1,0 +1,22 @@
+{
+  "英文名称": "sql-optimization-patterns",
+  "中文名称": "待补：sql-optimization-patterns",
+  "一句话作用": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizin…",
+  "关键输入": "- Debugging slow-running queries - Designing performant database schemas - Optimizing application response times - Reducing database load and costs - Improving scalability for growing datasets - Analyzing EXPLAIN query…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Debugging slow-running queries - Designing performant database schemas - Optimizing application response times - Reducing database load and costs - Improving scalability for growing datasets - Analyzing EXPLAIN query…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05615-sql-optimization-patterns-d4dea80a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/sql-optimization-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/sql-optimization-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bfd74fb05aa7e6cc40358f6360043f1db9c2c914b5dd9a22bd82b43d49b86a8a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

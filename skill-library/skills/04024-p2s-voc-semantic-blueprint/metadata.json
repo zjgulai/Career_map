@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-semantic-blueprint",
+  "中文名称": "待补：p2s-voc-semantic-blueprint",
+  "一句话作用": "触发词：p2s-voc-semantic-blueprint。Skill Card: VOC 语义蓝图生成",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:36+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-voc-semantic-blueprint。Skill Card: VOC 语义蓝图生成时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04024-p2s-voc-semantic-blueprint-ef313be2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voc-semantic-blueprint/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voc-semantic-blueprint/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2dc9f60aa75ce9e251e5cd7038d34e2c6e99e37b6d71a7e78deba4b7c16d28cf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

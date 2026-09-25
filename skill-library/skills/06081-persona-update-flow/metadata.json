@@ -1,0 +1,22 @@
+{
+  "英文名称": "persona-update-flow",
+  "中文名称": "待补：persona-update-flow",
+  "一句话作用": "gAAAAABqYL4ReDsrYh39dgmMvzWAWtrT ASriI32bguK72QG0ZzlN4rh2QJg9LOl52gEvKnDqE7PiJYrJaS1wnEksapmLi1f7t7IYlJaRF oy9tTopsDjZKDcRCN7VaKXK-GQKGlt-FphBhPEX0a8jZtYETHgFUXY5RlYi2ScD5dk5NA1yh6eWPCcbYuTeTl-SLJecLWLQPVQQvhqjC4k-L6Tma…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-22T20:56:49+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要gAAAAABqYL4ReDsrYh39dgmMvzWAWtrT ASriI32bguK72QG0ZzlN4rh2QJg9LOl52gEvKnDqE7PiJYrJaS1wnEksapmLi1f7t7IYlJaRF oy9tTopsDjZKDcRCN7VaKXK-GQKGlt-FphBhPEX0a8jZtYETHgFUXY5RlYi2ScD5dk5NA1yh6eWPCcbYuTeTl-SLJecLWLQPVQQvhqjC4k-L6Tma…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06081-persona-update-flow-197c27a5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/persona-update-flow/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/persona-update-flow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8b647e0c2e1f8b8887abeeef6ba6c843681af3b3545fcecdf3074f1615ebda48",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

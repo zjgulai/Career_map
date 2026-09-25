@@ -1,0 +1,22 @@
+{
+  "英文名称": "metabolomics-workbench-database",
+  "中文名称": "待补：metabolomics-workbench-database",
+  "一句话作用": "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery.",
+  "关键输入": "Use the MetStat context to find studies matching specific experimental conditions. Key operations: - Filter by analytical method (LCMS, GCMS, NMR) - Specify ionization polarity (POSITIVE, NEGATIVE) - Filter by chromatography type (HILIC, RP, GC) - Target spec…",
+  "关键输出": "Query metabolomics studies by various criteria and retrieve complete experimental datasets. Key operations: - Search studies by metabolite, institute, investigator, or title - Access study summaries, experimental factors, and analysis details - Retrieve compl…",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when querying metabolite structures, accessing study data, standardizing nomenclature, performing mass spectrometry searches, or retrieving gene/protein-metabolite associations through the Meta…时，用它产出或更新：Query metabolomics studies…",
+  "skill_id": "05757-metabolomics-workbench-database-ca822893",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/metabolomics-workbench-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/metabolomics-workbench-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9bb87c8f5fd9e4f90cb08fb44a7780984cb8e99ea6632c5fd96bff5025529b0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

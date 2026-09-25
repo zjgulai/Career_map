@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-transparency-explanation",
+  "中文名称": "决策透明度与可解释性 合规说明生成",
+  "一句话作用": "触发词：可解释性、SHAP值、LIME、自然语言解释、拒审原因说明。何时不用：面向监管的合规报告自动化时用「XAI Regulatory Compliance」；算法问责审计报告用「Algorithmic Accountability Audit」。安全边界：解释不得泄露用户隐私特征或商业敏感权重细节；用户可读解释须避免暴露可用于反向推断的信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规运营面临\"推荐和定价算法缺乏可解释性、EU AI Act高风险系统合规审查无法通过\"——SHAP解释引擎将算法决策透明度达标，解锁欧盟市场准入资格时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02752-p2s-ai-transparency-explanation-b947fe8a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ai-transparency-explanation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ai-transparency-explanation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b6855e3b83732cc7a1e6ab131b546a50ad09882886fa587c03337fa675cfd78b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

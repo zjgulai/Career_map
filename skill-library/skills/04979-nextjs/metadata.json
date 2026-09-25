@@ -1,0 +1,22 @@
+{
+  "英文名称": "nextjs",
+  "中文名称": "待补：nextjs",
+  "一句话作用": "Next.js 15/16 App Router patterns — async APIs, caching semantics, Turbopack, Server Components, Route Handlers, and migration from v14",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:07+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Next.js 15/16 App Router patterns — async APIs, caching semantics, Turbopack, Server Components, Route Handlers, and migration from v14时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04979-nextjs-1ee45223",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/nextjs/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/nextjs/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2f5f0c74bf56ded67002018c8db3aa9531045fdc140c455440cc9ae1fbe613c1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

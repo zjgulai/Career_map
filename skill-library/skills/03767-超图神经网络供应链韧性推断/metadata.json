@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sc-resilience-hypergraph",
+  "中文名称": "超图神经网络供应链韧性推断",
+  "一句话作用": "触发词：供应韧性、单点故障、级联风险、备选供应商。何时不用：供应关系只到一级、缺少多跳数据时推断会失真；只评估单个供应商交货表现用准时足量交货分析类技能。安全边界：供应商地理位置数据涉跨境传输时需符合数据出境安全评估要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要80% 硅胶配件来自同一东莞工厂但无法量化停产 2 周的影响烈度——超图神经网络识别单点故障节点和级联风险传播路径，提前建立双供应商体系，中断事件损失降低 50-70%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03767-p2s-sc-resilience-hypergraph-12c0cd8b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sc-resilience-hypergraph/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sc-resilience-hypergraph/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "408cf2126e847a7a7f9d8861df1a5adaee1b7406e5a6f9689f61270212731669",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

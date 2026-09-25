@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agenttrace-causal-rca",
+  "中文名称": "因果图根因分析：0定位多 Agent 故障",
+  "一句话作用": "触发词：根因分析、执行 DAG、反向 BFS、故障定位、MTTR 压缩。何时不用：需要区分多步交互各自贡献比例时用因果 Shapley 归因类技能；本技能只能定位失败节点，不量化贡献。安全边界：本技能只读日志产出定位结论，不执行重启、回滚或冻结动作。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：WF-A 智能补货工作流由 3 个 Agent 串联（需求预测 Agent → 采购决策 Agent → PO 下单 Agent）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02732-p2s-agenttrace-causal-rca-d7e5598a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agenttrace-causal-rca/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agenttrace-causal-rca/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66020f1be1bca9d07ba7c976de893f3550e0e3c08a9d4b1e43b2cbfda360a2aa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

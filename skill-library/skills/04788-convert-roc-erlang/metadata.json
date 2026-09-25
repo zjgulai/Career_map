@@ -1,0 +1,22 @@
+{
+  "英文名称": "convert-roc-erlang",
+  "中文名称": "待补：convert-roc-erlang",
+  "一句话作用": "Convert Roc code to idiomatic Erlang. Use when migrating Roc projects to Erlang/OTP, translating functional patterns to process-based architectures, or refactoring Roc codebases. Extends meta-convert-dev with Roc-to-Erl…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Roc: Erlang: Why this translation: - Roc Result type maps to {ok, Value} / {error, Reason} - Pattern matching on result works like case - Result.withDefault becomes case with fallback - Error tags become atoms",
+  "最新更新时间": "2026-09-19T03:55:53+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Convert Roc code to idiomatic Erlang. Use when migrating Roc projects to Erlang/OTP, translating functional patterns to process-based architectures, or refactoring Roc codebases. Extends meta-convert-dev with Roc-to-Erl…时，用它产出或更新：Roc: Erlang: Why this tran…",
+  "skill_id": "04788-convert-roc-erlang-5d258f34",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/convert-roc-erlang/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/convert-roc-erlang/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "66e927ce0548b0714b3759f60a085c96deb219486b85a06f4f10d2e2aea65405",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

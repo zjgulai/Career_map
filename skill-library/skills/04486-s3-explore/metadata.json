@@ -1,0 +1,22 @@
+{
+  "英文名称": "s3-explore",
+  "中文名称": "待补：s3-explore",
+  "一句话作用": "Explore and query data on S3, Cloudflare R2, GCS, MinIO, or any S3-compatible storage. Use when the user mentions an s3://, r2://, gs://, or gcs:// URL, asks \"what's in this bucket\", wants to list remote files, preview…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:16+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Explore and query data on S3, Cloudflare R2, GCS, MinIO, or any S3-compatible storage. Use when the user mentions an s3://, r2://, gs://, or gcs:// URL, asks \"what's in this bucket\", wants to list remote files, preview…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04486-s3-explore-ee779706",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/s3-explore/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/duckdb/1.0.0/skills/s3-explore/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dfd81bbe0bac004e30e53e03d2f6836c64cd359ec6c8ba81b3f045a07466cbb4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

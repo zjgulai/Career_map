@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agentic-ab-testing",
+  "中文名称": "驱动 A实验：假设设计解读决策",
+  "一句话作用": "触发词：Agent实验、假设生成、自动解读、实验推荐、心跳监控。何时不用：只跑一个标准实验并自行解读时，用A/B实验设计与结果解读类技能即可。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要实验平台主管面临测试流程靠人盯——Agentic AB将上线周期从7天缩到2天，年化省18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02719-p2s-agentic-ab-testing-0c7fa33e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-agentic-ab-testing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-agentic-ab-testing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "25246b4092228ae2f089678a4b056695095a2190fdb22b062fc4846c394998af",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

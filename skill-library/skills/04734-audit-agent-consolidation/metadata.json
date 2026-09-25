@@ -1,0 +1,22 @@
+{
+  "英文名称": "audit-agent-consolidation",
+  "中文名称": "待补：audit-agent-consolidation",
+  "一句话作用": "Analyze agents for consolidation opportunities. Groups agents by configuration, tracks references, and manages refactoring.",
+  "关键输入": "Argument Description --- --- (none) Analyze mode: discover agents, group by config, recommend consolidation --force Re-analyze even if recent analysis exists (<24h) --plugin-only Only analyze plugin agents (plugins/ /agents/)",
+  "关键输出": "After subagent(s) complete: 1. Read JSON output file(s) from .claude/temp/ 2. Aggregate groups and recommendations 3. Calculate totals",
+  "最新更新时间": "2026-09-19T04:11:47+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Analyze agents for consolidation opportunities. Groups agents by configuration, tracks references, and manages refactoring.时，用它产出或更新：After subagent(s) complete: 1. Read JSON output file(s) from .claude/temp/ 2. Aggregate groups and recommendations 3. Calcu…",
+  "skill_id": "04734-audit-agent-consolidation-55ad98dd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/audit-agent-consolidation/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/audit-agent-consolidation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "acaeea875f54a3a5db5fa816b01e538614855a015d4124d9fa336af2145e2d7d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloudbase",
+  "中文名称": "待补：cloudbase",
+  "一句话作用": "CloudBase AI Development - Complete toolkit for building Web, Mini Program, and Native App projects with CloudBase. Includes authentication, database (NoSQL/MySQL), cloud functions, CloudRun, storage, AI models, and UI…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要CloudBase AI Development - Complete toolkit for building Web, Mini Program, and Native App projects with CloudBase. Includes authentication, database (NoSQL/MySQL), cloud functions, CloudRun, storage, AI models, and UI…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05887-cloudbase-937f0a1b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "149dc88d340c273cc3b5ad9e24282b212b4eb42f391d2fc716050ea58d6a04fc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

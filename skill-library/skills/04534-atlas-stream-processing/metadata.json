@@ -1,0 +1,22 @@
+{
+  "英文名称": "atlas-stream-processing",
+  "中文名称": "待补：atlas-stream-processing",
+  "一句话作用": "Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data source/sink connections, processor lifecycle operations, debugging diagnostics, and tier sizing. Supports Kafka, Atlas cluste…",
+  "关键输入": "This skill requires the MongoDB MCP Server connected with: - Atlas API credentials (apiClientId and apiClientSecret) The 4 tools: atlas-streams-discover, atlas-streams-build, atlas-streams-manage, atlas-streams-teardown. All operations require an Atlas projec…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:11+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要See references/development-workflow.md for the complete troubleshooting table covering processor failures, API errors, configuration issues, and performance problems.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04534-atlas-stream-processing-3eacccf2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/mongodb-agent-skills/skills/atlas-stream-processing/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/mongodb-agent-skills/skills/atlas-stream-processing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "721df47d53b0fe1755ace24d2c2787d5a9f532cafec9d9e8e7d8e40b3a8feaff",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

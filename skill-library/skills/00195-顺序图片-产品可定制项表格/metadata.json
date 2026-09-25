@@ -1,0 +1,22 @@
+{
+  "英文名称": "定制模板生成",
+  "中文名称": "顺序图片 产品可定制项表格",
+  "一句话作用": "将商品目录、产品画册 PDF 或已确认页序的手册图片转换为定制商品表格，并在校验通过后导入定制商品。 用于目录级产品族、定制项和代表图提取；不用于通用 PDF 阅读、普通发品模板、已有商品优化或单纯图片处理。",
+  "关键输入": "- 当前任务附件和用户输入：用户提供的 PDF、按上传顺序排列的图片，或相应目录；不得使用其他任务附件。 - SKILL DIR：从本轮 Skill read 返回的绝对 install path 取得；不得猜测账号目录。 - ：用户明确指定可写目录时使用该目录，否则使用当前可写任务目录。 - RUNTIME PYTHON：宿主 Python 依赖检查成功后返回的绝对解释器路径。 选择宿主提供的 Python 3 命令运行一次： bootstrap 只检查 fitz 和 PIL；缺少任一模块时使用当前解释器和附属…",
+  "关键输出": "- source from images.pdf：仅纯图片输入时生成；严格一张图片对应一页，页序等于用户确认的上传顺序。 - pass1 pages.jsonl：逐页召回与页面分类。 - result.json：最终产品族、定制项、证据和代表图路径。 - semantic audit.jsonl：候选项关系、证据作用域和 include/exclude 决策。 - image attempts.jsonl 与 images/：代表图尝试审计和最终图片。 - image urls.json：代表图本地路径、内容摘要…",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要将商品目录、产品画册 PDF 或已确认页序的手册图片转换为定制商品表格，并在校验通过后导入定制商品。 用于目录级产品族、定制项和代表图提取；不用于通用 PDF 阅读、普通发品模板、已有商品优化或单纯图片处理。时，用它产出或更新：- source from images.pdf：仅纯图片输入时生成；严格一张图片对应一页，页序等于用户确认的上传顺序。 - pass1 pages.jsonl：逐页召回与页面分类。 - result.json：最终产品族、定制项、证据和代表图路径。 - semantic audit…",
+  "skill_id": "00195-skill-fbe72ac7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-pdf-to-catalog-table/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-pdf-to-catalog-table/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f5867edb0dbbb990e0ca17f06b668bd49df74da3f3604167ccdbfbb9a00557b2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "email-drafter",
+  "中文名称": "待补：email-drafter",
+  "一句话作用": "Professional email composition for business communication across various contexts. Use when: writing emails, drafting professional messages, composing replies, or when user mentions email, message drafting, or needs hel…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-26T11:57:03+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Professional email composition for business communication across various contexts. Use when: writing emails, drafting professional messages, composing replies, or when user mentions email, message drafting, or needs hel…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09373-email-drafter-94cdcb77",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.claude/skills/email-drafter/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.claude/skills/email-drafter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "df135e30264fae1975127746a1fe82d0f8d966eba2ee07ee8c9c4f831b6ceb8b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

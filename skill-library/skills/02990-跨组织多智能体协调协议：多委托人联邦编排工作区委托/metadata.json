@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-org-agent-protocol",
+  "中文名称": "跨组织多智能体协调协议：多委托人联邦编排工作区委托",
+  "一句话作用": "触发词：跨组织协作、多委托人、联邦编排、消息签名、工作区委托。何时不用：同一组织内的多 Agent 调度用「MAS Orchestrator」；跨组织双方要严格共识与容错用「MAS 共识机制」。安全边界：跨组织消息必须签名验签；未建立委托关系前不得交换价格、产能等商业敏感数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要项目经理面临跨部门协作口径不一——Cross-Org Protocol将需求回传时长48小时压到8小时，年化省15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02990-p2s-cross-org-agent-protocol-b9087ce1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-org-agent-protocol/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-org-agent-protocol/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1e93bb9d2580f5c2d57b196caaa2a08f15071656363d2b37f8c2d01f46511f72",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

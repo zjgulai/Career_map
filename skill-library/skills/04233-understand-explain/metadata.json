@@ -1,0 +1,22 @@
+{
+  "英文名称": "understand-explain",
+  "中文名称": "待补：understand-explain",
+  "一句话作用": "Use when you need a deep-dive explanation of a specific file, function, or module in the codebase",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T23:38:28+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use when you need a deep-dive explanation of a specific file, function, or module in the codebase时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04233-understand-explain-47153992",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/understand-explain/SKILL.md",
+  "relative_path": "lute/.dsh/skills/understand-explain/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "661389c81c9133e6cdc99ba033678300ba7a7a377031396b259a23dad39496fe",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

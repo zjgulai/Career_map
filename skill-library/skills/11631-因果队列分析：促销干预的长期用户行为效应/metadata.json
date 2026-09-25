@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-cohort-analysis",
+  "中文名称": "因果队列分析：促销干预的长期用户行为效应",
+  "一句话作用": "触发词：因果队列、平行趋势检验、动态效应、长期留存、促销反噬识别。何时不用：只看干预后短窗口的增效用合成控制或时序因果技能，判断渠道归因份额用因果归因类技能，本技能追踪促销对长期用户价值的动态效应。安全边界：队列划分与对照选择须有业务依据并留档，不得为得到预期结论挑选用例，涉用户数据须在授权范围内使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要增长经理面临留存变化找不到真因——因果队列将误判率从28%降到9%，年化增收18万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11631-p2s-causal-cohort-analysis-e7d74f5f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-causal-cohort-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-causal-cohort-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fc7c941bfec98014eeab07ef79888a171783b62fdd91a5c02927b1fa56c44326",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

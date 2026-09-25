@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-memory-as-action",
+  "中文名称": "内嵌式记忆操作策略 (DCPO 训练)",
+  "一句话作用": "触发词：记忆即动作、策略内嵌记忆、多目标客诉、强化学习训练、一次解决率。何时不用：单目标简单对话用规则化上下文管理即可；要按容量做分层淘汰时用分级记忆管理。安全边界：训练需要客户对话轨迹，须脱敏并取得授权，不得把客户个人信息写入可被检索的长期记忆。",
+  "关键输入": "输入 ：多目标客服对话轨迹与训练样本（卡页示例：800+ 条冷启动轨迹、8k+ RL 训练样本）、工具调用记录，以及训练资源（示例 8×H100 级别）。 输出 ：内嵌记忆动作的策略模型与训练管线：卡页示例以一次解决率从 72% 提升到 89% 为目标，并给出自训模型把单位成本降到约十分之一的成本账。",
+  "关键输出": "输入 ：多目标客服对话轨迹与训练样本（卡页示例：800+ 条冷启动轨迹、8k+ RL 训练样本）、工具调用记录，以及训练资源（示例 8×H100 级别）。 输出 ：内嵌记忆动作的策略模型与训练管线：卡页示例以一次解决率从 72% 提升到 89% 为目标，并给出自训模型把单位成本降到约十分之一的成本账。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：记忆即动作、策略内嵌记忆、多目标客诉、强化学习训练、一次解决率。何时不用：单目标简单对话用规则化上下文管理即可；要按容量做分层淘汰时用分级记忆管理。安全边界：训练需要客户对话轨迹，须脱敏并取得授权，不得把客户个人信息写入可被检索的长期记忆。时，用它产出或更新：输入 ：多目标客服对话轨迹与训练样本（卡页示例：800+ 条冷启动轨迹、8k+ RL 训练样本）、工具调用记录，以及训练资源（示例 8×H100 级别）。 输出 ：内嵌记忆动作的策略模型与训练管线：卡页示例以一次解决率从 72% 提升到 89%…",
+  "skill_id": "12043-p2s-memory-as-action-8bdcf1e9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-memory-as-action/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-memory-as-action/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3a0c115ce5072ed56b38994ede8759bd4c5ab72a94441368f819a692ccd98d2c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

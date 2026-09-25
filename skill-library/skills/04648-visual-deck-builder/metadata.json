@@ -1,0 +1,22 @@
+{
+  "英文名称": "visual-deck-builder",
+  "中文名称": "待补：visual-deck-builder",
+  "一句话作用": "Build image-model-driven PPT decks from a user topic, source materials, papers, reports, notes, datasets, existing slides, or style references. Use when the user asks to create, redesign, package, or QA a PowerPoint dec…",
+  "关键输入": "Classify input before generating: - topic only: user gives a topic, goal, audience, or theme but no source material. - source grounded: user provides papers, PDFs, reports, notes, webpages, data, or extracted text. - style reference: user provides screenshots…",
+  "关键输出": "Every publishable deck run must keep these artifacts under one run directory: - input summary.md: user intent, source materials, audience, page count, language, style, and assumptions. - visual style contract.json: deck-level design contract built from script…",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Build image-model-driven PPT decks from a user topic, source materials, papers, reports, notes, datasets, existing slides, or style references. Use when the user asks to create, redesign, package, or QA a PowerPoint dec…时，用它产出或更新：Every publishable deck run…",
+  "skill_id": "04648-visual-deck-builder-be4eda80",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/visual-deck-builder/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/visual-deck-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3b44c72a758fe33c22f761c02622136ff83d0d4401a59f93f443bae03f1dc1d7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

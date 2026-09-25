@@ -1,0 +1,22 @@
+{
+  "英文名称": "subtitles",
+  "中文名称": "待补：subtitles",
+  "一句话作用": "Burn timed subtitles onto a finished video or configure Whisper-timed caption burning during faceless-video assembly. Takes video/audio generation jobs or a local finished video, optionally with authored narration text,…",
+  "关键输入": "Input (required): the finished video file. Input (optional but recommended): the authored narration text — the exact lines/phrases that were spoken (e.g. a script manifest.json with blocks[].vo line or beats[].phrase, or a plain list). When present, Whisper is",
+  "关键输出": "Input (required): the finished video file. Input (optional but recommended): the authored narration text — the exact lines/phrases that were spoken (e.g. a script manifest.json with blocks[].vo line or beats[].phrase, or a plain list). When present, Whisper is",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Burn timed subtitles onto a finished video or configure Whisper-timed caption burning during faceless-video assembly. Takes video/audio generation jobs or a local finished video, optionally with authored narration text,…时，用它产出或更新：Input (required): the fini…",
+  "skill_id": "00860-subtitles-9b9aff87",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/higgsfield/skills/subtitles/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/higgsfield/skills/subtitles/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7dde91324817a453f8579ecbd4e24cafa8d2e57e96efffee030b7d3973fda978",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

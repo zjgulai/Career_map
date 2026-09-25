@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-collaborative-recommendation",
+  "中文名称": "多智能体协同个性化推荐：LLM Agent 异构协作框架",
+  "一句话作用": "触发词：多智能体协同、异构Agent、多维评分、推荐融合。何时不用：单一目标即可决策时用常规评分模型；没有多智能体调用预算时不用本卡。安全边界：认证与合规维度（FDA、CE）的判断只作提示，准入结论须由合规负责人确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "final score：综合所有 Agent 加权 + MF 锚定后的最终分 explanation：包含主要决策 Agent 和具体推理链，可直接展示给用户",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：跨境母婴电商选品需要同时考虑：① 当前趋势（TikTok热词）② 安全认证（FDA/CE）③ 价格竞争力 ④ 用户历史偏好时，用它产出或更新：final score：综合所有 Agent 加权 + MF 锚定后的最终分 explanation：包含主要决策 Agent 和具体推理链，可直接展示给用户",
+  "skill_id": "11278-p2s-mas-collaborative-recommendation-bb4c127c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-mas-collaborative-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-mas-collaborative-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f5717b1e7e94e75e295a031821ec25e3e2dbb6ffbecc02e30a7bddfa27db448",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

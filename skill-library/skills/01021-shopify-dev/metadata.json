@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-dev",
+  "中文名称": "待补：shopify-dev",
+  "一句话作用": "Search Shopify developer documentation across all APIs. Use only when no API-specific skill applies.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Search Shopify developer documentation across all APIs. Use only when no API-specific skill applies.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01021-shopify-dev-2b6d6755",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-dev/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ba5e5a39351173c8bdd3e506e398eb4f8e3b5f810c07c4c3d34b13fc2a65bde2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

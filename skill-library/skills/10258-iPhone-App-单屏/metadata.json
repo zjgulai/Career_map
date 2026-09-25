@@ -1,0 +1,22 @@
+{
+  "英文名称": "mobile-app",
+  "中文名称": "iPhone App 单屏",
+  "一句话作用": "像素级 iPhone 15 Pro 边框, 一屏 app 截图",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:27+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要像素级 iPhone 15 Pro 边框, 一屏 app 截图时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10258-mobile-app-85e3ccf5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/mobile-app/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/mobile-app/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0e31a3e696061b089830457138ad2086c4e951f661bd64281bf56a7bd52bb843",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-rfm-analyzer",
+  "中文名称": "待补：customer-rfm-analyzer",
+  "一句话作用": "- Analyze customer purchase patterns using RFM scoring, cohort retention grids, and lifecycle segmentation to drive repeat revenue. 触发词：客户RFM分析、用户分群、客户生命周期、留存分析、复购分析、RFM打分。",
+  "关键输入": "- When your acquisition costs (CAC) are rising and you need to maximize the value of existing customers. - When you need to identify \"VIP\" or \"Champion\" customers for loyalty programs or early-access launches. - When th…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:13:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- When your acquisition costs (CAC) are rising and you need to maximize the value of existing customers. - When you need to identify \"VIP\" or \"Champion\" customers for loyalty programs or early-access launches. - When th…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02521-customer-rfm-analyzer-2c5e6874",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/customer-rfm-analyzer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/customer-rfm-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a51e25d11159cb2a754249f46ee060b98f9b2e37aeaf9430454cbc0a5de9e28c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

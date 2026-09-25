@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-forecast-bias-adjustment-detection",
+  "中文名称": "预测偏差加减码检测与校正 供应链计划主动修正行为的量化分析与偏差溯源",
+  "一句话作用": "触发词：人工修正评估、加减码分析、修正TheilU、系统性偏差、最优修正系数。何时不用：要建立准确率口径与行业对标用「预测准确率MAPE体系」，做上线后漂移修正用「自适应预测精准化」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链团队凭经验打折预测反而可能比直接使用原始预测更差——修正Theil's U量化人工修正价值（ 1说明修正有害），发现有害修正后停止此类干预使计划准确率提升约5-8%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11395-p2s-forecast-bias-adjustment-detection-a5082e63",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-forecast-bias-adjustment-detection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-forecast-bias-adjustment-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a59715142a8427c74c18e8bddbf2fd4cf6b4b12989ddec0c8e0808034ff0c3be",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

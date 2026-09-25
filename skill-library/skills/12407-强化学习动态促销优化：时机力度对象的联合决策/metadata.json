@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rl-dynamic-promotion-optimization",
+  "中文名称": "强化学习动态促销优化：时机力度对象的联合决策",
+  "一句话作用": "触发词：强化学习促销、时机力度对象、折扣动作空间、预算精准投放、退订率、增量成交。何时不用：只按增量响应分群分配预算用「个性化促销定向」；要把效应写成可读规则用「观测数据策略学习」。安全边界：折扣上限受 SKU 利润率约束，不得超出最大折扣空间；触达频次须合规，退订与骚扰须计入奖励惩罚。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要每月平摊$5000优惠券给2000用户其中80%用户根本不会因券而改变购买决策——强化学习联合优化促销时机折扣力度和目标人群，增量GMV提升20-35%退订率降低30%年化ROI提升20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12407-p2s-rl-dynamic-promotion-optimization-2a0734ae",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-rl-dynamic-promotion-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-rl-dynamic-promotion-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4d550080ac4b81c654b61fcfbad51f5636d7146827c8ef9e96a9144f9569166e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

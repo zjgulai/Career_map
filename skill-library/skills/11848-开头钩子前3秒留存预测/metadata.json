@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tiktok-hook-optimizer",
+  "中文名称": "开头钩子前3秒留存预测",
+  "一句话作用": "触发词：开头钩子、前 3 秒留存、完播率提升、钩子打分排序、开场文案 A/B。何时不用：诊断整条视频为何被限流、要不要换发布时段用 FYP 内容助推类技能，本技能只针对开场文案做留存预测与排序。安全边界：钩子不得使用虚假承诺、恐吓式表述或医疗功效暗示，AI 生成的开场须符合平台内容规范后再投放。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要内容创作面临\"短视频前3秒流失率高算法不推流\"——留存率预测模型将完播率从28%提升至45%，自然流量增加2倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11848-p2s-tiktok-hook-optimizer-41fcc979",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tiktok-hook-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-tiktok-hook-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8dccf9c01724eafc9e993eaa135c79d010748d9e3d699985e3a7a4005cfacd6a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "co-marketing",
+  "中文名称": "待补：co-marketing",
+  "一句话作用": "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with…",
+  "关键输入": "- Finding potential co-marketing partners - Brainstorming campaign ideas with a specific partner - Planning joint launches or promotions - Evaluating partnership fit - Structuring co-marketing agreements ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:29:50+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- Finding potential co-marketing partners - Brainstorming campaign ideas with a specific partner - Planning joint launches or promotions - Evaluating partnership fit - Structuring co-marketing agreements ---时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02491-co-marketing-2149992c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/co-marketing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/co-marketing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "71047416835ac3f597beb92001dfb24fda69585431d6d7a433023cf3a285342a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

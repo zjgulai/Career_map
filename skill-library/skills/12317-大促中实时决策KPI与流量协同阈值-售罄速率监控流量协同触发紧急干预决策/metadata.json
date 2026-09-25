@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-inpromo-realtime-decision-kpi",
+  "中文名称": "大促中实时决策KPI与流量协同阈值 售罄速率监控流量协同触发紧急干预决策",
+  "一句话作用": "触发词：大促实时决策、售罄速率、流量协同、预算迁移、减流阈值、紧急干预。何时不用：活动前的折扣与库存规划用「闪购定价优化」；活动后的效果归因用「促销效果因果评估」。安全边界：本技能承载的是阈值规则与判据，不是执行器；预算迁移与出价调整由模型外的确定性控制层或人工执行，并须遵守平台出价与预算规则。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要大促中供应链和广告是两个独立系统没有联动导致爆款提前售罄时广告仍在浪费——售罄速率监控+流量协同阈值（减流量/加流量/迁移预算），书中供应链-流量协同大促GMV提升约12%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12317-p2s-inpromo-realtime-decision-kpi-d128b765",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-inpromo-realtime-decision-kpi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-inpromo-realtime-decision-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "cd71d639ab26bf4b5a4e67b649afa022238373b84733584cb143b32fbdda90b9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

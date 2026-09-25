@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-emotional-ai-customer-care",
+  "中文名称": "情感感知客服：高压场景的同理心 AI",
+  "一句话作用": "触发词：情绪识别、同理心回复、高压客诉、安全事件安抚、人工升级。何时不用：多语言会话的情绪与意图翻译用「多语言客服翻译」；本技能处理高压场景的安抚与升级。安全边界：涉及召回或安全事件的对话必须升级人工，AI 不得替品牌下安全结论或承诺赔偿。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要客服主管面临高压客诉难安抚——情绪AI将升级工单率从14%降到5%，年化省11万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12177-p2s-emotional-ai-customer-care-ac3787f2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-emotional-ai-customer-care/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-emotional-ai-customer-care/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "154d2823984e6acca0ae74d3b54f27e87443351013d47691e854c66a3c614a98",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "assess-patch-risk",
+  "中文名称": "待补：assess-patch-risk",
+  "一句话作用": "Assess an immutable patch artifact's program impact, regression risk, and auto-merge eligibility. Use for generated patch files, provider pull-request diffs, or commit ranges when reviewers need evidence about affected…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Return both a concise Markdown report and a JSON object conforming to ../../schemas/patch-risk-assessment.schema.json. Include: 1. exact patch identity and analyzed base; 2. recommendation and workflow label;",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Assess an immutable patch artifact's program impact, regression risk, and auto-merge eligibility. Use for generated patch files, provider pull-request diffs, or commit ranges when reviewers need evidence about affected…时，用它产出或更新：Return both a concise Markd…",
+  "skill_id": "00778-assess-patch-risk-af5fad92",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/codex-security/skills/assess-patch-risk/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/codex-security/skills/assess-patch-risk/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7fbbd0eb220408c0a0b27aaac8b43a165c7be3c49b48404f850546727133c97e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

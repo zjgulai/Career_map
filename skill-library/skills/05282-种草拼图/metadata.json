@@ -1,0 +1,22 @@
+{
+  "英文名称": "koc-seeding",
+  "中文名称": "种草拼图",
+  "一句话作用": "根据用户主动选择的商品图，生成 KOC 种草、买家秀或小红书风格的营销拼图。",
+  "关键输入": "当用户提出“KOC 种草图”“买家秀拼图”“小红书风格拼图”“商品种草九宫格”等需求时使用本技能。产出仅是营销风格的模拟内容，不代表真实买家、真实评价、真实使用经历或第三方背书。不得虚构商品名称、卖点、材质、价格、功效、适用人群、使用场景及其他事实；尤其不得把生成文案描述成真实消费者证言。",
+  "关键输出": "用户输入：“用我选中的 3 张图给‘便携咖啡机’做九宫格 KOC 种草拼图，卖点是 400 ml 水箱。”其中商品名和卖点均由用户明确提供。 调用一次 create koc collage task。以下图片占位文字仅用于说明对应关系；调用前必须替换为 WorkBuddy 当前会话实际提供的本地图片路径或公网 URL，绝不能把占位文字原样传给工具： 创建返回示例： 工具返回数字任务编号后，按上述固定参数轮询。只有父任务统计整体收口且存在成功结果时，最终输出才可包含真实状态和真实返回图片，例如：“任务已完成，以下为…",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要当用户提出“KOC 种草图”“买家秀拼图”“小红书风格拼图”“商品种草九宫格”等需求时使用本技能。产出仅是营销风格的模拟内容，不代表真实买家、真实评价、真实使用经历或第三方背书。不得虚构商品名称、卖点、材质、价格、功效、适用人群、使用场景及其他事实；尤其不得把生成文案描述成真实消费者证言。时，用它产出或更新：用户输入：“用我选中的 3 张图给‘便携咖啡机’做九宫格 KOC 种草拼图，卖点是 400 ml 水箱。”其中商品名和卖点均由用户明确提供。 调用一次 create koc collage task。以…",
+  "skill_id": "05282-koc-seeding-fc6ee904",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/infimind-ecommerce-image/skills/koc-seeding/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/infimind-ecommerce-image/skills/koc-seeding/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3a9d8e1f1631e083297b70b7ddeb1d34587556f9cbf0bf40a2f1e67ac0962b5e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

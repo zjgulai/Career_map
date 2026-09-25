@@ -1,0 +1,22 @@
+{
+  "英文名称": "domain-modeling",
+  "中文名称": "待补：domain-modeling",
+  "一句话作用": "建立并打磨项目领域模型（术语/ADR/词汇表）。触发词：领域建模、domain-modeling、建立并打磨项目领域模型（术语/ADR/词汇表）。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要建立并打磨项目领域模型（术语/ADR/词汇表）。触发词：领域建模、domain-modeling、建立并打磨项目领域模型（术语/ADR/词汇表）。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02532-domain-modeling-268ea899",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/domain-modeling/SKILL.md",
+  "relative_path": "lute/.dsh/skills/domain-modeling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "abaa0989d068f85858ce4131528f4133c355029bb1352a5175bf13cb7ada4504",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

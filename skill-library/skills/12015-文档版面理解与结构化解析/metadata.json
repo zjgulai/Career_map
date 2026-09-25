@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-layoutlm-document-structure-parsing",
+  "中文名称": "文档版面理解与结构化解析",
+  "一句话作用": "触发词：版面理解、区域分类、文本坐标、图注剔除、表格边界识别。何时不用：需要把表格内容还原成结构化字段时用文档智能解析技能；只需按语义切块入库时用语义分块技能。安全边界：解析只做结构分类与区域过滤，不得改动原文内容与法规条款表述。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要知识库运营面临\"PDF论文文本提取后图表说明污染正文导致Skill萃取质量差\"——LayoutLM联合文本+坐标+视觉将内容污染率从23%降至4%，萃取质量评分提升1.2分时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12015-p2s-layoutlm-document-structure-parsing-caadcf84",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-layoutlm-document-structure-parsing/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-layoutlm-document-structure-parsing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec5b58e7fb094da62156630d28d6c8b7af17d9da53b11d47f6a244f87aa4accc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

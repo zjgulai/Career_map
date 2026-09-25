@@ -1,0 +1,22 @@
+{
+  "英文名称": "ansoff-matrix",
+  "中文名称": "待补：ansoff-matrix",
+  "一句话作用": "在现有与新产品、现有与新市场四个组合上评估增长选项并排出优先顺序。触发词：增长路径矩阵、ansoff-matrix、在现有与新产品、现有与新市场四个组合上评估增长选项并排出优先顺序。",
+  "关键输入": "- Current product(s) and market definition - Current market penetration and performance - Customer insights and market opportunities - Company capabilities and constraints - Growth targets and timelines - Competitive dynamics",
+  "关键输出": "1. Define current market and product clearly 2. Analyze each quadrant: - Identify 2-3 specific opportunities per quadrant - Assess market size and growth potential - Estimate required resources and investment - Evaluate competitive dynamics - Define success m…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要在现有与新产品、现有与新市场四个组合上评估增长选项并排出优先顺序。触发词：增长路径矩阵、ansoff-matrix、在现有与新产品、现有与新市场四个组合上评估增长选项并排出优先顺序。时，用它产出或更新：1. Define current market and product clearly 2. Analyze each quadrant: - Identify 2-3 specific opportunities per quadrant - Assess market size and growth p…",
+  "skill_id": "02456-ansoff-matrix-bf31a2f6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/ansoff-matrix/SKILL.md",
+  "relative_path": "lute/.dsh/skills/ansoff-matrix/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c79cc79c75e62348242b00502179c48b4a91b9d2d4507643002a04860349c9d9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

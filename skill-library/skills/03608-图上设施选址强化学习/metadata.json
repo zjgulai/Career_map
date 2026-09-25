@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ppo-swap",
+  "中文名称": "图上设施选址强化学习）",
+  "一句话作用": "触发词：仓库选址、仓网搬迁、站点重规划、调拨网络优化。何时不用：要算补多少货用「补货模拟」，要出具体调拨清货动作清单用「调拨清货建议」；本技能只回答哪个仓该搬到哪个节点。安全边界：搬迁结论仅作候选与优先级建议，实际关仓、开仓须人工复核租约与运营条件后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营经理面临补货与调拨规则难调参——PPO策略将调拨准确率提升18%，年化省13万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03608-p2s-ppo-swap-fc0cf400",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ppo-swap/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ppo-swap/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dbf46af85325ef25955e3926edd90712616c20b477af9dc03470ea58ef013d96",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

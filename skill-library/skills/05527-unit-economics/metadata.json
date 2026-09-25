@@ -1,0 +1,22 @@
+{
+  "英文名称": "unit-economics",
+  "中文名称": "待补：unit-economics",
+  "一句话作用": "Analyze unit economics for PE targets — ARR cohorts, LTV/CAC, net retention, payback periods, revenue quality, and margin waterfall. Essential for software/SaaS, recurring revenue, and subscription businesses. Use when…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Excel workbook with ARR bridge, cohort matrix, unit economics dashboard - Summary slide with key metrics and benchmarks - Red flags and areas for further diligence",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Analyze unit economics for PE targets — ARR cohorts, LTV/CAC, net retention, payback periods, revenue quality, and margin waterfall. Essential for software/SaaS, recurring revenue, and subscription businesses. Use when…时，用它产出或更新：- Excel workbook with ARR b…",
+  "skill_id": "05527-unit-economics-03ae5a0b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/unit-economics/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/unit-economics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2d1493ca6d312723eb60132ec0ab155d8c763761fd47a5af79ca93a701d6ac3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

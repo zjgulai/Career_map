@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Combo-Ad-ROI-Maximizer",
+  "中文名称": "待补：Combo Ad ROI Maximizer",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 78.0, \"best\": 78.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:07:32.018311\"} {\"round\": 0, \"status\": \"patch improved\", \"score\": 89.0, \"best\": 89.0, \"mutated\": \"track\", \"ts\": \"202…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T12:16:50+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 78.0, \"best\": 78.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:07:32.018311\"} {\"round\": 0, \"status\": \"patch improved\", \"score\": 89.0, \"best\": 89.0, \"mutated\": \"track\", \"ts\": \"202…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06937-skill-combo-ad-roi-maximizer-f63f4a46",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Combo-Ad-ROI-Maximizer.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Combo-Ad-ROI-Maximizer.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "b9219066ae386a590717bc4b061aad88165617188f6bddf9acb6737cc64fae53",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

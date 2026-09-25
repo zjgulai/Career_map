@@ -1,0 +1,22 @@
+{
+  "英文名称": "agent-md-refactor",
+  "中文名称": "指令文件重构",
+  "一句话作用": "把臃肿的 AGENTS.md、CLAUDE.md 按渐进式披露重构：找矛盾、留必需、归类、建链接文件、标可删除项，根文件压到 50 行内。触发词：Agent 指令重构、agent-md-refactor、把臃肿的 AGENTS.md、CLAUDE.md 按渐进式披露重构：找矛盾、留必需、归类、建链接文件、标可删除项，根文件压到 50 行内。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "重构完成后，逐项核对： 1. 根文件极简 —— 50 行以内，只放通用信息 2. 链接可用 —— 被引用的文件都存在 3. 没有矛盾 —— 指令彼此一致 4. 内容可执行 —— 每条指令都足够具体 5. 覆盖完整 —— 没有指令丢失（被标为可删除的除外） 6. 文件自洽 —— 每个被链接的文件都能独立读懂 ---",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要把臃肿的 AGENTS.md、CLAUDE.md 按渐进式披露重构：找矛盾、留必需、归类、建链接文件、标可删除项，根文件压到 50 行内。触发词：Agent 指令重构、agent-md-refactor、把臃肿的 AGENTS.md、CLAUDE.md 按渐进式披露重构：找矛盾、留必需、归类、建链接文件、标可删除项，根文件压到 50 行内。时，用它产出或更新：重构完成后，逐项核对： 1. 根文件极简 —— 50 行以内，只放通用信息 2. 链接可用 —— 被引用的文件都存在 3. 没有矛盾 —— 指令彼此一…",
+  "skill_id": "02435-agent-md-refactor-58169ba9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/agent-md-refactor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/agent-md-refactor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d4a2cc766e4db5f6bea0c74458854ca38bf99a5b09511af6873f826ee786362f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

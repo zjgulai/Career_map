@@ -1,0 +1,22 @@
+{
+  "英文名称": "ncbi-datasets-skill",
+  "中文名称": "待补：ncbi-datasets-skill",
+  "一句话作用": "Submit compact NCBI Datasets v2 requests for assembly, genome, taxonomy, and related metadata endpoints. Use when a user wants concise NCBI Datasets summaries; save raw JSON or text only on request.",
+  "关键输入": "- Read one JSON object from stdin. - Required field: path - Optional fields: params, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common Datasets patterns: - {\"path\":\"genome/taxon/9606/dataset report\",\"params\":{…",
+  "关键输出": "- Success returns ok, source, path metadata, and either compact records, a compact summary, or text head. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact NCBI Datasets v2 requests for assembly, genome, taxonomy, and related metadata endpoints. Use when a user wants concise NCBI Datasets summaries; save raw JSON or text only on request.时，用它产出或更新：- Success returns ok, source, path metadata, and…",
+  "skill_id": "00898-ncbi-datasets-skill-d1ca6301",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ncbi-datasets-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/ncbi-datasets-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7bf1c1a588fd91249cb90d0c0c6b3202579abc8ab650566d5d2477c691a68d87",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

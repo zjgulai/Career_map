@@ -1,0 +1,22 @@
+{
+  "英文名称": "zoom-video-sdk-macos",
+  "中文名称": "待补：zoom-video-sdk-macos",
+  "一句话作用": "Zoom Video SDK for macOS native desktop apps. Use when building custom macOS video sessions with native UI control, tokenized join, and desktop-oriented media/device workflows.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:40+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Zoom Video SDK for macOS native desktop apps. Use when building custom macOS video sessions with native UI control, tokenized join, and desktop-oriented media/device workflows.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01215-zoom-video-sdk-macos-6b6b7d7c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/macos/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/zoom/skills/video-sdk/macos/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7e9ba1781151498f8adc982f7544989cd7bc633885b1bfb9725e351da428c3e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

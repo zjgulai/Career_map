@@ -1,0 +1,22 @@
+{
+  "英文名称": "prd-html-prototype",
+  "中文名称": "原型与需求说明制作",
+  "一句话作用": "Turn a one-line idea into a clickable, demo-ready PRD (text + single-file HTML). Interactions are clear and intuitive so anyone gets it; preview locally with zero setup, or publish to share with teammates online. Built-…",
+  "关键输入": "- 你想要一份 PRD，且希望它\"能点、能演示\"，而不只是文字。 - 你只有一个模糊想法 / 一句话需求，希望用标准产品方法论帮你补全成完整 PRD 与可交互原型。 - 你已有 PRD 草稿，需要诊断缺什么、补全章节、或加上可交互原型。 - 你需要把方案发布成可访问的链接（可选，需确认）。",
+  "关键输出": "两套都给，确保评审方既看得到\"长什么样\"也看得到\"怎么动\"： 1. 原型内 ：右下角\"交互\"悬浮面板，列出所有 data-ix 交互，可点击定位高亮。 2. PRD 文档内 ：独立\"交互说明\"章节，按\"触发 — 行为 — 状态变化\"描述关键交互。",
+  "最新更新时间": "2026-09-19T03:49:26+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 你想要一份 PRD，且希望它\"能点、能演示\"，而不只是文字。 - 你只有一个模糊想法 / 一句话需求，希望用标准产品方法论帮你补全成完整 PRD 与可交互原型。 - 你已有 PRD 草稿，需要诊断缺什么、补全章节、或加上可交互原型。 - 你需要把方案发布成可访问的链接（可选，需确认）。时，用它产出或更新：两套都给，确保评审方既看得到\"长什么样\"也看得到\"怎么动\"： 1. 原型内 ：右下角\"交互\"悬浮面板，列出所有 data-ix 交互，可点击定位高亮。 2. PRD 文档内 ：独立\"交互说明\"章节，按\"…",
+  "skill_id": "05017-prd-html-prototype-b035021f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/prd-html-prototype/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/prd-html-prototype/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a11d69036a3310fa7cd0becd83c6abcbc668e9248a382e64910583e35982a1e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

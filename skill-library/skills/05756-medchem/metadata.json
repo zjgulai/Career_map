@@ -1,0 +1,22 @@
+{
+  "英文名称": "medchem",
+  "中文名称": "待补：medchem",
+  "一句话作用": "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering.",
+  "关键输入": "This skill should be used when: - Applying drug-likeness rules (Lipinski, Veber, etc.) to compound libraries - Filtering molecules by structural alerts or PAINS patterns - Prioritizing compounds for lead optimization -…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要This skill should be used when: - Applying drug-likeness rules (Lipinski, Veber, etc.) to compound libraries - Filtering molecules by structural alerts or PAINS patterns - Prioritizing compounds for lead optimization -…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05756-medchem-6e3699e2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/medchem/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/medchem/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "82fd288dcce7ea5fc140ba72532d07c00910742793703a7416fd5298ee96dd7c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

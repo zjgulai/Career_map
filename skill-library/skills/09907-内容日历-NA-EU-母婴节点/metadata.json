@@ -1,0 +1,22 @@
+{
+  "英文名称": "内容日历（NA/EU 母婴节点）",
+  "中文名称": "待补：内容日历（NA/EU 母婴节点）",
+  "一句话作用": "当需要按北美与欧洲市场分别排布月度或季度内容主题、大促与节日节点（含哺乳周、母亲节等）并输出可执行日历表时调用；不替代具体脚本与合规审阅。",
+  "关键输入": "- 已明确 market profile （NA / EU / 双轨分表）。 - 已知本阶段主推 SKU 或系列（可从 ERP 或货盘会摘要粘贴）。",
+  "关键输出": "- 表：周次 日期范围 市场 主题 节点类型(节日/战役/常设) 关联SKU/系列 优先级 备注 - 附 一页摘要 ：本月 Top 3 主题与风险（合规敏感周单独标黄）。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要按北美与欧洲市场分别排布月度或季度内容主题、大促与节日节点（含哺乳周、母亲节等）并输出可执行日历表时调用；不替代具体脚本与合规审阅。时，用它产出或更新：- 表：周次 日期范围 市场 主题 节点类型(节日/战役/常设) 关联SKU/系列 优先级 备注 - 附 一页摘要 ：本月 Top 3 主题与风险（合规敏感周单独标黄）。",
+  "skill_id": "09907-na-eu-fb77edac",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/content-calendar-planner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/content-calendar-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8d6acbce3a9557cdb94711f6f06f9426a36381204eab369a0bf4fa69200d515a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

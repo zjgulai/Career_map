@@ -1,0 +1,22 @@
+{
+  "英文名称": "numeric-format-normalization",
+  "中文名称": "数据清洗：去除空值强制转换为数值格式",
+  "一句话作用": "对 Excel 数据进行数值格式标准化与清洗，支持大规模数据的 Parquet 转换流程，并完成关键指标的合计核对与结果文件导出。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "result data = { '统计项': ['总行数', f'{target col}合计（计算值）', f'{target col}合计（指定值）', '一致性', '差异值'], '数值': [total rows, total calculated, expected total, consistency, difference] } result df = pd.DataFrame(result data)",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要对 Excel 数据进行数值格式标准化与清洗，支持大规模数据的 Parquet 转换流程，并完成关键指标的合计核对与结果文件导出。时，用它产出或更新：result data = { '统计项': ['总行数', f'{target col}合计（计算值）', f'{target col}合计（指定值）', '一致性', '差异值'], '数值': [total rows, total calculated, expected total, consistency, difference] } result…",
+  "skill_id": "04158-numeric-format-normalization-ddf61674",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/numeric-format-normalization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-cleaning/numeric-format-normalization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28576fb2cc40ba5c9a4ba7c6349af7ef9a8a35b53eb9f2e89d75362e3426c57a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

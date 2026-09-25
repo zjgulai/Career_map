@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-decision-conditioned-forecasting",
+  "中文名称": "待补：p2s-decision-conditioned-forecasting",
+  "一句话作用": "触发词：p2s-decision-conditioned-forecasting。Skill-Decision-Conditioned-Forecasting",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:13+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-decision-conditioned-forecasting。Skill-Decision-Conditioned-Forecasting时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11369-p2s-decision-conditioned-forecasting-9d0f17e8",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-decision-conditioned-forecasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-decision-conditioned-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4fc7c604875c75f02ad5961f3e78350a10f45aee0a7bcbe3ba97b68a0e6b7716",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

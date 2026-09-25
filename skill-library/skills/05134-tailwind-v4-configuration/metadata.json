@@ -1,0 +1,22 @@
+{
+  "英文名称": "tailwind-v4-configuration",
+  "中文名称": "待补：tailwind-v4-configuration",
+  "一句话作用": "Configure Tailwind CSS v4 with CSS-first approach. Use when installing, migrating from v3, setting up build tools (Vite/PostCSS/CLI), customizing themes with @theme, or configuring plugins.",
+  "关键输入": "- Installing Tailwind v4 for the first time in a new project - Migrating from Tailwind v3 to v4 (breaking changes and setup differences) - Setting up build tools : Vite, PostCSS, or standalone CLI - Customizing themes u…",
+  "关键输出": "The build tool automatically minifies CSS in production. No separate CSS minifier needed.",
+  "最新更新时间": "2026-09-19T03:58:56+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- Installing Tailwind v4 for the first time in a new project - Migrating from Tailwind v3 to v4 (breaking changes and setup differences) - Setting up build tools : Vite, PostCSS, or standalone CLI - Customizing themes u…时，用它产出或更新：The build tool automatical…",
+  "skill_id": "05134-tailwind-v4-configuration-ade8909b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/tailwind-v4-configuration/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/tailwind-v4-configuration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "78fe797e299a07cc2bb6aa1bd1364e2fc13506b91dec1982f0f558ab4d19af92",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

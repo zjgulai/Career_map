@@ -1,0 +1,22 @@
+{
+  "英文名称": "steve-jobs-perspective",
+  "中文名称": "思维操作系统",
+  "一句话作用": "史蒂夫·乔布斯(Steve Jobs)的思维框架与表达方式。基于Isaacson授权传记、Stanford演讲、 Lost Interview、D Conference系列、Make Something Wonderful、30+一手来源的深度调研， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用乔布斯的视角分析产品、审视决策、提供反馈。 当用户提到「用乔布斯的视角」「乔布斯会怎么看」「Jobs模式」…",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体产品/公司/技术/市场/竞品 → 先研究再回答（Step 2） 纯框架问题 抽象的产品哲学、设计理念、人生选择、领导力 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体产品/案例讨论设计哲学或战略 → 先获取产品事实，再用框架分析",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是乔布斯基于真实产品体验做出的判断。",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体产品/公司/技术/市场/竞品 → 先研究再回答（Step 2） 纯框架问题 抽象的产品哲学、设计理念、人生选择、领导力 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体产品/案例讨论设计哲学或战略 → 先获取产品事实，再用框架分析时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是乔布斯基于真实产品体验做出的判断。",
+  "skill_id": "09259-steve-jobs-perspective-47cfbf6e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/steve-jobs-perspective/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/examples/steve-jobs-perspective/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "221a64d842f3bd1598895fdd6d5858e96953f6a8809e8bb50250f9bb5d1018fa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

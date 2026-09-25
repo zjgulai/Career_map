@@ -1,0 +1,22 @@
+{
+  "英文名称": "satori",
+  "中文名称": "待补：satori",
+  "一句话作用": "Expert guidance for Satori — Vercel's library that converts HTML and CSS to SVG, commonly used to generate dynamic OG images for Next.js and other frameworks.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "npm install satori",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Expert guidance for Satori — Vercel's library that converts HTML and CSS to SVG, commonly used to generate dynamic OG images for Next.js and other frameworks.时，用它产出或更新：npm install satori",
+  "skill_id": "01549-satori-a56ce2b1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/satori/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/satori/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e18bc83ab691fa888301a3678b7d7d888f2d8989d9ee9344ec192dec3c75fddc",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-car-agent-causal-shapley",
+  "中文名称": "步骤因果Shapley归因：多步交互效应定量拆解",
+  "一句话作用": "触发词：因果归因、Shapley 值、贡献拆解、反事实干预、责任量化。何时不用：只需要定位到哪个节点失败时用图遍历根因分析即可，本技能成本更高；安全边界：反事实重跑需在隔离环境进行，不得对生产系统做干预实验。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营技术团队面临\"补货/广告Agent决策失效但不知哪步出错\"——结构因果模型+蒙特卡洛Shapley将多步交互责任定量拆解，MTTR从3天降至0.5天，年化断货损失预防50-150万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02850-p2s-car-agent-causal-shapley-a1808f44",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-car-agent-causal-shapley/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-car-agent-causal-shapley/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2d55c3203859b33d4537723946b163401d2b3806d00b9840faa9976851b47efb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

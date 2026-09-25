@@ -1,0 +1,22 @@
+{
+  "英文名称": "specification",
+  "中文名称": "阶段三：说明书与摘要（汇成 draft",
+  "一句话作用": "doubao-patent-drafting 阶段三，说明书与摘要撰写，并汇总为 draft.md 交付草稿。由根 skill 在权利要求定稿后调用，不独立触发。覆盖背景技术、发明内容（技术问题/技术方案/有益效果）、具体实施方式、附图说明、摘要五个部分，末尾给出 draft.md 固定骨架。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要doubao-patent-drafting 阶段三，说明书与摘要撰写，并汇总为 draft.md 交付草稿。由根 skill 在权利要求定稿后调用，不独立触发。覆盖背景技术、发明内容（技术问题/技术方案/有益效果）、具体实施方式、附图说明、摘要五个部分，末尾给出 draft.md 固定骨架。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06548-specification-abe316cf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-patent-drafting/sub-skills/specification/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-patent-drafting/sub-skills/specification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3be1be98e27d13bd7ebddf52e35dd4822df80cfe3bc4d09a8a2a42f91fa98e2e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

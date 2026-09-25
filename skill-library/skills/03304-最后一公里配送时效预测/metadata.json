@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-last-mile-delivery-prediction",
+  "中文名称": "最后一公里配送时效预测）",
+  "一句话作用": "触发词：时效预测、配送时效、承运商选择、超时率、选路优化。何时不用：要规划仓网与配送网络用「物流方案」类技能中的仓网规划，要逐票追踪在途异常用「到货异常追踪」；本技能只预测签收时长分布并给出承运商分档规则。安全边界：预测与分档结果用于比价和制定时效承诺，切换承运商与赔付承诺须人工确认后执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要跨境母婴订单选择快递时仅凭经验判断，东海岸送 FedEx、西海岸送 USPS——最后一公里时效预测模型基于历史配送数据精准选路，每单节省 $1.2，年化 3000 单 = 节省 36 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03304-p2s-last-mile-delivery-prediction-f0f4069f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-last-mile-delivery-prediction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-last-mile-delivery-prediction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c718263fd1b257ca9a28de84081dcbd391147983ca501d9aa84a06a704ca703c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

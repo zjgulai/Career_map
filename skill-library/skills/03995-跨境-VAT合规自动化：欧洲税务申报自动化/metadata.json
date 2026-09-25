@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-vat-gst-compliance-automation",
+  "中文名称": "跨境 VAT合规自动化：欧洲税务申报自动化",
+  "一句话作用": "触发词：VAT 自动申报、税率分类、OSS 申报、多国税制、商品税率匹配。何时不用：只需在破阈前预警注册义务用「税务风险信号监控」；要处理关税与 HTS 编码用「HTS 关税分类与节税」。安全边界：税率分类存在争议的 SKU 必须标记并交税务顾问确认，不得以模型分类直接申报；申报文件须人工复核后提交。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要进入德国法国意大利三国VAT税率各不同商品分类也各异每月手工申报需10小时还容易出错——ML自动分类商品税率+自动计算申报，准确率提升到99.5%人工时间降低90%年化节省15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03995-p2s-vat-gst-compliance-automation-7ab54350",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-vat-gst-compliance-automation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-vat-gst-compliance-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30db3284e2aa24ab6b2af24bba95d7187ed557551cb036061d343cb4d43fcc3b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

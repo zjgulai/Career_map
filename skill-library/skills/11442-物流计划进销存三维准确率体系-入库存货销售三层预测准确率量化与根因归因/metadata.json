@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-logistics-plan-three-dimension-accuracy",
+  "中文名称": "物流计划进销存三维准确率体系 入库存货销售三层预测准确率量化与根因归因",
+  "一句话作用": "触发词：进销存准确率、入库准确率、存货预测、件单比、误差归因。何时不用：只算单一预测精度指标、不做环节归因时用常规预测评估；要做因果层面的归因时用「供应链因果归因」。安全边界：仅用内部进销存数据，不涉用户隐私；涉奶粉等品类需符合相应食品安全与标签合规要求。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要发现备货不足时不知道是入库出问题还是预测本身偏差——进销存三维准确率（入库准确率/存货预测/销售件数）独立追踪，误差传播链精准归因，解决幽灵库存和计划失效问题时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11442-p2s-logistics-plan-three-dimension-accuracy-68c2fc36",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-logistics-plan-three-dimension-accuracy/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-logistics-plan-three-dimension-accuracy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f7453c42250178b386e5825a7ab7ea639910123f99185a016c2557ccab950208",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

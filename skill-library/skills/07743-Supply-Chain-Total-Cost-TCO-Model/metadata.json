@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Supply-Chain-Total-Cost-TCO-Model",
+  "中文名称": "待补：Supply Chain Total Cost TCO Model",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 88.0, \"best\": 88.0, \"ts\": \"2026-07-04T01:44:36.417852\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:44:36+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 88.0, \"best\": 88.0, \"ts\": \"2026-07-04T01:44:36.417852\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07743-skill-supply-chain-total-cost-tco-model-8c3dce93",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Supply-Chain-Total-Cost-TCO-Model.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Supply-Chain-Total-Cost-TCO-Model.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "446ca3a0c374ae8272818f05870b160c69fcd911e0ff36274cd96aa41427ec77",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

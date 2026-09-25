@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-data-analysis",
+  "中文名称": "业务数据分析",
+  "一句话作用": "结构化业务数据分析：附件读取与口径核验、定向筛选、规则/阈值判定、指标异动归因、漏斗/留存/实验分析、经营复盘及可审计报告。当用户提供 Excel、CSV、PDF、图片或多份业务材料，要求查数、判异常、解释变化、比较方案或形成行动建议时使用。Use for evidence-grounded analysis of structured business data, including filtering, rule checks,…",
+  "关键输入": "1. 在内部拆解用户的验收项，记录对象、时间窗、业务键、指标、方向、边界和规则来源。 2. 先建立逐附件读取回执：对当前轮和会话中与任务相关的业务文件记录“文件名/类型 → 成功或失败 → 实际读到的 sheet、页码、时间范围或关键字段”；技能包和历史无关附件不计入。L1 先建立文件、sheet/页和字段索引，只加载目标命中区域及核验所需上下文，未命中再逐级扩大范围；L2/L3 再覆盖全部相关区域。用户要求的字段在主表中缺失时，必须继续检查相关图片、PDF、说明页及其他附件。完整读取指确认覆盖边界，不把原始全表…",
+  "关键输出": "1. 完成前在内部建立两张覆盖表： 用户验收项 → 结论/无法判断 → 证据 ，以及 关键发现 → 是否已进入摘要或对应正文 。每个验收项都要得到“结论 + 证据”或“无法判断 + 缺失证据”；每个会改变数字、口径、可信度或行动的发现都要明确写出，不能用模糊总括替代。 2. 建立关键数字清单，覆盖主结论、摘要、合计、比率、排序、目标与影响金额。每个关键数字须来自源字段、可复算公式或显式情景假设；跨章节必须一致。 3. 区分 预期收益 与 情景测算 ： - 预期收益需要可追溯基数、已验证的响应/可比证据、改善幅度依…",
+  "最新更新时间": "2026-09-10T17:00:47+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要结构化业务数据分析：附件读取与口径核验、定向筛选、规则/阈值判定、指标异动归因、漏斗/留存/实验分析、经营复盘及可审计报告。当用户提供 Excel、CSV、PDF、图片或多份业务材料，要求查数、判异常、解释变化、比较方案或形成行动建议时使用。Use for evidence-grounded analysis of structured business data, including filtering, rule checks,…时，用它产出或更新：1. 完成前在内部建立两张覆盖表： 用户验收项 → 结…",
+  "skill_id": "06253-doubao-data-analysis-94aff16a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-data-analysis/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-data-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ce7cbdd9ef53de737c1d5595766434c07bce8fc257fb8e788583af5b2354da7a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

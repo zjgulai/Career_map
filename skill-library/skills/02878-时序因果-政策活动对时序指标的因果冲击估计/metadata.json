@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-time-series-causalimpact",
+  "中文名称": "时序因果 政策活动对时序指标的因果冲击估计",
+  "一句话作用": "触发词：活动增量、反事实预测、控制序列、促销复核、新品溢出效应。何时不用：需要以跨市场加权构造反事实评估市场准入用合成控制技能，做长周期结构分解用贝叶斯结构时序技能，本技能针对单次促销或上新窗口估计冲击增量。安全边界：对外使用效果提升表述须注明是统计估计而非精确值，控制序列与竞品数据须在授权范围内使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"促销后销量增加但无法分离趋势贡献与真实促销增量\"——BSTS反事实模型将真实增量从表面+22%修正至+8%，精准ROI指导下年化优化约200万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02878-p2s-causal-time-series-causalimpact-8642eb17",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-time-series-causalimpact/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-time-series-causalimpact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e0db3331ffa91007415f0fe13a5c0530aa504cef27eecad816fb32d8e9858fde",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

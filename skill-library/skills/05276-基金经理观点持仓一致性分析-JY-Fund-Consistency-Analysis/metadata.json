@@ -1,0 +1,22 @@
+{
+  "英文名称": "(JY Fund Consistency Analysis)",
+  "中文名称": "基金经理观点持仓一致性分析 (JY Fund Consistency Analysis)",
+  "一句话作用": "基于聚源金融数据库的专业基金经理\"言行一致性\"分析工具，通过 MCP 服务获取真实数据，按照标准化模板输出高质量的基金经理观点与持仓一致性检验分析报告。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "1. 报告格式 ：默认 Markdown，支持 HTML 导出，PDF 需手动打印 2. 基金数量限制 ：单次分析最多处理 20 只基金 3. 重仓股数量 ：每只基金分析前十大重仓股",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要基于聚源金融数据库的专业基金经理\"言行一致性\"分析工具，通过 MCP 服务获取真实数据，按照标准化模板输出高质量的基金经理观点与持仓一致性检验分析报告。时，用它产出或更新：1. 报告格式 ：默认 Markdown，支持 HTML 导出，PDF 需手动打印 2. 基金数量限制 ：单次分析最多处理 20 只基金 3. 重仓股数量 ：每只基金分析前十大重仓股",
+  "skill_id": "05276-jy-fund-consistency-analysis-350daa74",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/gildata/skills/jy-fund-consistency-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/gildata/skills/jy-fund-consistency-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3f77ceb8a0f4eaad984e27b8647fc5750b1017a145ee7eaf52098696a0aed97",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

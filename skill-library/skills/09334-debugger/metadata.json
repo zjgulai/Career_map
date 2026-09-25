@@ -1,0 +1,22 @@
+{
+  "英文名称": "debugger",
+  "中文名称": "待补：debugger",
+  "一句话作用": "Systematic debugging and root cause analysis for identifying and fixing software issues. Use when: debugging errors, troubleshooting bugs, investigating crashes, analyzing stack traces, fixing broken code, or when user…",
+  "关键输入": "- What is the expected behavior? - What is the actual behavior? - Can you reproduce it consistently? - When did it start happening? - What changed recently?",
+  "关键输出": "Structure debugging analysis as:",
+  "最新更新时间": "2026-06-02T10:50:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- What is the expected behavior? - What is the actual behavior? - Can you reproduce it consistently? - When did it start happening? - What changed recently?时，用它产出或更新：Structure debugging analysis as:",
+  "skill_id": "09334-debugger-257e6d71",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/debugger/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/debugger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "85b6e69ec7aa7bb06455b41a18c4429e9970cd5ae36bfec1049da1196ba38544",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

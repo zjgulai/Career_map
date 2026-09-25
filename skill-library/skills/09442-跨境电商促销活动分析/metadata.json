@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-promotion-analysis",
+  "中文名称": "跨境电商促销活动分析",
+  "一句话作用": "跨境电商促销活动分析 - 活动全流程分析方法，包括活动前规划、活动中监控、活动后复盘，评估活动真实增量效果",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T01:59:11+08:00",
+  "业务场景": "campaign-analysis",
+  "解决具体问题": "当需要跨境电商促销活动分析 - 活动全流程分析方法，包括活动前规划、活动中监控、活动后复盘，评估活动真实增量效果时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09442-cbec-promotion-analysis-e9e156f2",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/15-campaign-analysis/promotion-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/15-campaign-analysis/promotion-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ef0a48610401d70d27f858d8bb67e79e384b58246ca74d5e1d961a699d9b7f6b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

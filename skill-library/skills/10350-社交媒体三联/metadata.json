@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-carousel",
+  "中文名称": "社交媒体三联",
+  "一句话作用": "三张方形卡片轮播, 标题串联, 品牌 mark + 编号",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-29T17:06:03+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要三张方形卡片轮播, 标题串联, 品牌 mark + 编号时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10350-social-carousel-7b2569e2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/social-carousel/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/next/.next/standalone/next/src/lib/templates/skills/social-carousel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c899e1f5cd8fd17a2de57e833776cd6072f368696213db9b589f468b2252609f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-feature-store-architecture",
+  "中文名称": "特征工程平台化",
+  "一句话作用": "触发词：特征仓库、特征注册、离线在线一致、时间点回填、特征复用。何时不用：只需在线毫秒级读取特征值、不涉及训练一致性时用实时特征仓库技能；只做数据质量监控时用数据质量类技能。安全边界：特征存储须做数据最小化、不存 PII，并按删除权要求支持按实体删除。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据工程师面临\"特征计算逻辑散落各处导致训练线上不一致\"——特征工程平台化将训练线上一致性从75%提升至98%，年化减少模型性能损耗节省20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11978-p2s-feature-store-architecture-484a1f34",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-feature-store-architecture/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-feature-store-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a81bf8e856fdc1e2e24c6328f8ba640fe6d0a1e69d16fc318e342de644bafb2d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

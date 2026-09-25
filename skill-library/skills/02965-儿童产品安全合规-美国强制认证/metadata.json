@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cpsc-children-product-safety",
+  "中文名称": "儿童产品安全合规（美国强制认证）",
+  "一句话作用": "触发词：CPSC 合规、CPC 证书、ASTM F963、第三方检测、上架预检、实验室选择。何时不用：只想按 HTS 码打多标签风险时用「HTS 码风险分类」，只核对已有 GCC/CPC 字段完整性时用「GCC/CPC 文档验证」。安全边界：证书与报告须由 CPSC 认可实验室出具，本技能只做路径梳理，不代办申报。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴新品上架美国 Amazon 时被要求提供 CPSC 合规文件，但不清楚需要哪些认证、找哪家实验室——CPSC 三层合规框架（法规识别→测试路径→证书管理）让合规准备从 3 个月压缩到 2-3 周时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02965-p2s-cpsc-children-product-safety-4712b4a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cpsc-children-product-safety/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cpsc-children-product-safety/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d0ddc21bbaf94a806448e10fc82ef94acf74c979dc85787c08f81c9be9f0b1cb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

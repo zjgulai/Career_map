@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-representation-learning",
+  "中文名称": "因果表示学习 从观测数据中学习干预不变的因果潜变量",
+  "一句话作用": "触发词：因果表示学习、环境不变特征、跨市场迁移、干预标签、分布鲁棒。何时不用：要用协方差对齐把源域特征迁到小样本目标域时用「因果表示学习跨域迁移」；要做因子解耦与效应归因时用「解耦因果表示学习」。安全边界：因果假设错误时迁移可能不升反降，落地前须预留 A/B 验证。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要算法团队面临\"从美国市场训练的模型在德国市场性能下降30%无法直接迁移\"——环境不变因果表示将跨市场性能下降从30%降至8%，年化新市场冷启动价值100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12256-p2s-causal-representation-learning-3be8de21",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-causal-representation-learning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-causal-representation-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "08deb0ae90294a8dace26ddb5a88bf7afd7037ea99b21a9559f19da4d31ed456",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

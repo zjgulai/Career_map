@@ -1,0 +1,22 @@
+{
+  "英文名称": "video-outline-planner",
+  "中文名称": "站视频大纲生成器 选题分析 结构设计 互动设计",
+  "一句话作用": "为B站知识区、生活区、科技区UP主生成完整的视频策划方案，包含选题分析（热度评估与差异化定位）、结构设计（黄金节奏与开头钩子）以及互动设计（弹幕引导与一键三连话术）。当用户提及B站视频大纲、脚本、选题策划、视频结构，或讨论知识区、科技区、生活区的内容创作，以及弹幕互动、一键三连等具体需求时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要为B站知识区、生活区、科技区UP主生成完整的视频策划方案，包含选题分析（热度评估与差异化定位）、结构设计（黄金节奏与开头钩子）以及互动设计（弹幕引导与一键三连话术）。当用户提及B站视频大纲、脚本、选题策划、视频结构，或讨论知识区、科技区、生活区的内容创作，以及弹幕互动、一键三连等具体需求时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10698-video-outline-planner-a59bdcd2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/video-outline-planner/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/video-outline-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "92ce153e39c8d63dcea7215c6208828d25b1228808a85287811679df5b6fa5b3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

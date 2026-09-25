@@ -1,0 +1,22 @@
+{
+  "英文名称": "tc-chengxin",
+  "中文名称": "同程旅行 WorkBuddy Skill",
+  "一句话作用": "同程旅行官方旅游查询 Skill。用于机票、火车票、酒店、景区、汽车票、度假产品、行程规划、综合交通等实时查询，并提供 PC 预订入口、手机打开入口和微信扫码二维码。",
+  "关键输入": "执行脚本前必须先注入本机同程授权令牌和 WorkBuddy 展示契约： macOS/Linux shell： Windows PowerShell： 令牌处理： - tc-chengxin token 无输出或失败时，提示用户在 WorkBuddy「连应用」中重新连接「同程旅行」。 - 不要要求用户手动输入 API Key。 参数提取： - --departure：出发城市或出发地。 - --destination：目的城市、目的地、酒店/景区所在城市。 - --flight-number / --train-n…",
+  "关键输出": "必须执行： - 对用户直接输出 markdown 字段原文，保留所有标题、分组、表头、表格列、链接和客服支持。 - summaryMarkdown 仅用于兼容，不得替代 markdown 作为最终回复。 - markdown 顶部包含脚本生成的「推荐建议」或「行程安排建议」，这是基于接口结果、用户偏好和通用旅行经验生成的建议性回答，必须保留。 - 当用户询问“规划行程/玩几天/自由行/路线/攻略”时，脚本会输出 Day 1 / Day 2 / Day 3 形式的行程安排；必须原样输出，不要压缩成普通资源列表或一句…",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要同程旅行官方旅游查询 Skill。用于机票、火车票、酒店、景区、汽车票、度假产品、行程规划、综合交通等实时查询，并提供 PC 预订入口、手机打开入口和微信扫码二维码。时，用它产出或更新：必须执行： - 对用户直接输出 markdown 字段原文，保留所有标题、分组、表头、表格列、链接和客服支持。 - summaryMarkdown 仅用于兼容，不得替代 markdown 作为最终回复。 - markdown 顶部包含脚本生成的「推荐建议」或「行程安排建议」，这是基于接口结果、用户偏好和通用旅行经验生成的建议…",
+  "skill_id": "05379-tc-chengxin-fdbf8633",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tc-chengxin/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tc-chengxin/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b567f8a6cd82e5b2976c5ce43a3c5cfc16d12ce8e3650aac2dfb2ab764a03a69",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

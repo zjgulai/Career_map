@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-intelligent-prediction-doubly-robust",
+  "中文名称": "智能预测 - 双重稳健估计 (Doubly Robust Estimation)",
+  "一句话作用": "触发词：促销增量预测、双重稳健、反事实销量、促销决策、置信区间。何时不用：促销已结束只需复盘净增量时用反事实评估（合成控制）；渠道间效应对比走渠道效应类技能。安全边界：无。",
+  "关键输入": "输入 ：历史特征：过去 6 个月以上（卡页建议 2 年日度、730+ 样本）的销量、库存水平、竞品价格；用户特征：新老客户比例、平均客单价、复购率；干预数据：历史促销活动记录（是否促销、促销力度）；外部特征：节假日标识、季节性指数、市场趋势；标签为销量、销售额。 输出 ：促销带来的增量销量估计与置信区间、倾向评分与结果模型谁更可靠的稳健性诊断，以及增量大于成本才建议促销的决策建议。",
+  "关键输出": "输入 ：历史特征：过去 6 个月以上（卡页建议 2 年日度、730+ 样本）的销量、库存水平、竞品价格；用户特征：新老客户比例、平均客单价、复购率；干预数据：历史促销活动记录（是否促销、促销力度）；外部特征：节假日标识、季节性指数、市场趋势；标签为销量、销售额。 输出 ：促销带来的增量销量估计与置信区间、倾向评分与结果模型谁更可靠的稳健性诊断，以及增量大于成本才建议促销的决策建议。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：促销增量预测、双重稳健、反事实销量、促销决策、置信区间。何时不用：促销已结束只需复盘净增量时用反事实评估（合成控制）；渠道间效应对比走渠道效应类技能。安全边界：无。时，用它产出或更新：输入 ：历史特征：过去 6 个月以上（卡页建议 2 年日度、730+ 样本）的销量、库存水平、竞品价格；用户特征：新老客户比例、平均客单价、复购率；干预数据：历史促销活动记录（是否促销、促销力度）；外部特征：节假日标识、季节性指数、市场趋势；标签为销量、销售额。 输出 ：促销带来的增量销量估计与置信区间、倾向评分与结果…",
+  "skill_id": "11709-p2s-intelligent-prediction-doubly-robust-ae33cdfa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-intelligent-prediction-doubly-robust/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-intelligent-prediction-doubly-robust/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5a217ca4654b9b1046042991933fb09f638d4bdf4141332a74a974503b9e27c5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

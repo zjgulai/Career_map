@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-causal-graph-prior",
+  "中文名称": "辅助因果图先验注入",
+  "一句话作用": "触发词：因果图先验、小样本因果发现、新品冷启动、领域知识注入、结构学习。何时不用：样本充足无需先验时用「NOTEARS/DAGMA」；要做多情景推演与方案比较时用「供应链 What-If 情景分析引擎」。安全边界：LLM 先验可能带入领域偏见，必须用数据反驳与验证；不得把先验边当作已证实的因果结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据科学家面临\"因果图结构学习依赖大量数据且无法融合领域专家知识\"——LLM辅助因果图先验将结构学习数据需求降低60%且准确率提升25%，年化加速因果决策分析节省20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12474-p2s-llm-causal-graph-prior-b731950d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-causal-graph-prior/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-causal-graph-prior/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e3b8ba25fc24667ce4b3134f22236421e5920e893b2bbbcf001680306ca122e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

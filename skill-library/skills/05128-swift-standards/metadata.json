@@ -1,0 +1,22 @@
+{
+  "英文名称": "swift-standards",
+  "中文名称": "待补：swift-standards",
+  "一句话作用": "MANDATORY for ALL Swift output - files AND conversational snippets. Covers SPM, strict concurrency, Result types, enums with associated values, let over var, async/await, SwiftUI. Trigger: any Swift code, iOS, macOS, Pa…",
+  "关键输入": "This skill should be triggered when: - Writing or reviewing Swift code - Setting up Swift packages or Xcode projects - Working with iOS, macOS, watchOS, tvOS, or visionOS - Discussing Swift patterns, concurrency, or arc…",
+  "关键输出": "For async operations or when you want to pass errors as values:",
+  "最新更新时间": "2026-09-19T03:54:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be triggered when: - Writing or reviewing Swift code - Setting up Swift packages or Xcode projects - Working with iOS, macOS, watchOS, tvOS, or visionOS - Discussing Swift patterns, concurrency, or arc…时，用它产出或更新：For async operations or wh…",
+  "skill_id": "05128-swift-standards-f99d5024",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/swift-standards/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/swift-standards/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1ee8260b350f748dc21d4cafaa6733a5efad0db66562d8c73c8d9f491559cdf8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "invoice-retrieval",
+  "中文名称": "待补：invoice-retrieval",
+  "一句话作用": "gAAAAABqYL4RFAmy7DH4A69aqkxLPWwoOT8eyu3y1MJyUG-27I1Gf49KAIEvrNVOQVyIG hMRFXqNPm1-f J4KpV9TWkJk9JB2dgTQ EQBhS6I4 -XpN5rO72 Tq8BS-f V9t4QErW92PoEx2XPBT93xtp cIOVllBEfImilWC4q259XJM6VOB z5MNPam05esGN79eyNV qJQatRfRmEGDUHJt…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-22T20:56:49+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要gAAAAABqYL4RFAmy7DH4A69aqkxLPWwoOT8eyu3y1MJyUG-27I1Gf49KAIEvrNVOQVyIG hMRFXqNPm1-f J4KpV9TWkJk9JB2dgTQ EQBhS6I4 -XpN5rO72 Tq8BS-f V9t4QErW92PoEx2XPBT93xtp cIOVllBEfImilWC4q259XJM6VOB z5MNPam05esGN79eyNV qJQatRfRmEGDUHJt…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06075-invoice-retrieval-3e60c607",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/invoice-retrieval/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/skills/invoice-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "55406d7e4cbd358cd4e32e6738d06eacaa05eab77e45e91fb8c9ce1a4e95871a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

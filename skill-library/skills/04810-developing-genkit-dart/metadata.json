@@ -1,0 +1,22 @@
+{
+  "英文名称": "developing-genkit-dart",
+  "中文名称": "待补：developing-genkit-dart",
+  "一句话作用": "Generates code and provides documentation for the Genkit Dart SDK. Use when the user asks to build AI agents in Dart, use Genkit flows, or integrate LLMs into Dart/Flutter applications.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:19+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generates code and provides documentation for the Genkit Dart SDK. Use when the user asks to build AI agents in Dart, use Genkit flows, or integrate LLMs into Dart/Flutter applications.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04810-developing-genkit-dart-6c8f2289",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/developing-genkit-dart/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/developing-genkit-dart/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b2b3c47b0fb245651aea5d6245a859e38321a1ae2bb87e05ce718a8522bd80e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

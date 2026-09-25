@@ -1,0 +1,22 @@
+{
+  "英文名称": "organize-dropbox-folder",
+  "中文名称": "待补：organize-dropbox-folder",
+  "一句话作用": "Organize Dropbox files and folders by creating folders, copying content, or moving content into a cleaner structure. Use when the user asks to organize, archive, consolidate, restructure, copy, or move Dropbox content.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Before mutation, present a plan: - Folders to create - Files or folders to copy - Files or folders to move - Items that need clarification After mutation, report: - Successfully created folders - Successfully copied items - Successfully moved items - Pending…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Organize Dropbox files and folders by creating folders, copying content, or moving content into a cleaner structure. Use when the user asks to organize, archive, consolidate, restructure, copy, or move Dropbox content.时，用它产出或更新：Before mutation, present a p…",
+  "skill_id": "00817-organize-dropbox-folder-7215f54a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/dropbox/skills/organize-dropbox-folder/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/dropbox/skills/organize-dropbox-folder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ac628ecb0fe11803011d4a2703cfc725d099546384fb023ce60b812dd3d362c8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

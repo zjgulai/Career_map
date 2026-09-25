@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-adversarial-defense",
+  "中文名称": "多智能体系统攻防：群体合谋检测规划时攻击防御路由感知注入",
+  "一句话作用": "触发词：对抗防御、群体合谋、规划时攻击、路由注入、决策拦截。何时不用：单 Agent 且不读外部数据源时不存在合谋与路由注入面；本技能面向多 Agent 从外部数据源取数的系统。安全边界：检测判据与拦截规则是契约产物，实际拦截由执行层完成；误判会直接影响备货决策，须保留人工覆盖。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要风控运营面临对抗式Agent投毒——Adversarial Defense将异常决策拦截率从70%提到96%，年化省25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03398-p2s-mas-adversarial-defense-0857d884",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mas-adversarial-defense/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mas-adversarial-defense/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b7c8807e92d7cd695d269a80599362ac5f53ca77f2262918856f9cb283f18124",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

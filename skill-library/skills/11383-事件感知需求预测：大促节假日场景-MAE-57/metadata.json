@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-eventcast-llm-event-forecasting",
+  "中文名称": "事件感知需求预测：大促节假日场景 MAE-57",
+  "一句话作用": "触发词：大促需求预测、事件感知、直播排期、事件贡献度、618备货。何时不用：只需搜索量领先信号做短周期修正用「需求信号Nowcasting」，按分位数做三级备货用「需求分位数预测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要某母婴品牌618大促备货奶粉 SKU（如 A2 奶粉 900g），需提前 7 天向供应商下 PO时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11383-p2s-eventcast-llm-event-forecasting-c393f225",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-eventcast-llm-event-forecasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-eventcast-llm-event-forecasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "049e719093980bfe5080a9dde517be9f5386d71a3cc04ed8518f430c8ff1d5c8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "stable-baselines3",
+  "中文名称": "待补：stable-baselines3",
+  "一句话作用": "Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for…",
+  "关键输入": "params = model.get parameters()",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05813-stable-baselines3-d033e1ea",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/stable-baselines3/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/stable-baselines3/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "51c48a8adea7c79c4613e45a7ed6b0dbc59be53a716f8b8a2f2b4d0c3394765e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-synthetic-data-generation-tabular",
+  "中文名称": "合成表格数据生成 隐私保护的数据增强与分享框架",
+  "一句话作用": "触发词：合成表格数据、类别不平衡、数据增强、欺诈样本、隐私保护分享。何时不用：样本分布已平衡、或问题是缺失值而非稀缺样本时走缺失数据补全。安全边界：训练数据含真实欺诈用户信息，须遵循数据最小化；合成数据用于模型训练而非对外共享，若对外共享需额外隐私评估。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据团队面临\"欺诈退货样本仅2%严重不平衡导致检测F1低至0.43\"——TAEGAN合成欺诈样本使检测F1提升至0.71，年化减少欺诈损失约84万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03910-p2s-synthetic-data-generation-tabular-a3db5003",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-synthetic-data-generation-tabular/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-synthetic-data-generation-tabular/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "10acb9cf0966822943c2deebe0a2b6e2dea4afd440412c31c8e19164163902d7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

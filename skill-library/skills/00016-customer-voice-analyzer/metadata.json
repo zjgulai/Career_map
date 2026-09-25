@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-voice-analyzer",
+  "中文名称": "待补：customer-voice-analyzer",
+  "一句话作用": "Mines customer reviews into 6 actionable dimensions — personas, scenarios, pros, cons, unmet needs, and buying motives. Use when analyzing Amazon product reviews to identify product flaws, extract high-converting market…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:19+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Mines customer reviews into 6 actionable dimensions — personas, scenarios, pros, cons, unmet needs, and buying motives. Use when analyzing Amazon product reviews to identify product flaws, extract high-converting market…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00016-customer-voice-analyzer-5f01ac39",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-12471462U1788237-8A8E75-5976-D5C7B4/agent-core/skills/customer-voice-analyzer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-12471462U1788237-8A8E75-5976-D5C7B4/agent-core/skills/customer-voice-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0ecf585b54fd131ed27cf06552e16d0dbbc44c9c1709580858269ead7edfa6c2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-cultural-marketing-adaptation",
+  "中文名称": "多语言 CAM 嵌入驱动的跨文化营销适配",
+  "一句话作用": "触发词：跨语言关键词匹配、多语言嵌入、CAM、语言捷径、东南亚本地化、机翻Listing修正。何时不用：要按文化维度改写文案风格用「跨文化内容自动适配」；要做文化禁忌与合规风险替换用「文化感知内容本地化」；要按目标市场偏好重写叙事框架用「跨文化适应 Agent」。安全边界：词库与 Listing 落位须符合目标国消费者权益保护法与平台搜索政策，落地前人工与母语复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴跨境品牌进入东南亚（TH/VN/ID）时英文 Listing 直接机翻，本地用户搜索无法匹配——Compass-Embedding v4 CAM 多语言嵌入将跨语言产品匹配准确率从 11% 提升至 88%，Top-3 关键词召回率提升 70pp，东南亚自然流量翻倍，年化增量 GMV 20-60 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12277-p2s-cross-cultural-marketing-adaptation-e586cb38",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-cultural-marketing-adaptation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-cultural-marketing-adaptation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e47a93d630fc16a92af3759a0b3185f3920b020583925c15a49e6d6c2030a0b5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

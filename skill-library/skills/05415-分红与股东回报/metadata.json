@@ -1,0 +1,22 @@
+{
+  "英文名称": "dividend-returns",
+  "中文名称": "分红与股东回报",
+  "一句话作用": "用于分红与股东回报分析，聚焦股东回报、价值投资、资本配置、长线研究。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户想知道一家公司分红高不高、是否稳定、是不是\"真红利\"，以及公司整体资本配置是否尊重股东回报。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要用于分红与股东回报分析，聚焦股东回报、价值投资、资本配置、长线研究。适用于问题回答、撰写报告、撰写金融类文章等场景。输出内容较多，不适合简单对话场景。各类信息与数据通过 finance-data plugin 获取。用户想知道一家公司分红高不高、是否稳定、是不是\"真红利\"，以及公司整体资本配置是否尊重股东回报。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05415-dividend-returns-20cb767d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/dividend-returns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/dividend-returns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9babbb68fc996da3ffc0cd0baf44992780576d5b1aa8e4d3c3cc492f55661ea8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

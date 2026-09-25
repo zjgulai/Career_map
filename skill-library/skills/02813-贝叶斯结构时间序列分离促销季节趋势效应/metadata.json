@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bayesian-structural-time-series",
+  "中文名称": "贝叶斯结构时间序列分离促销季节趋势效应",
+  "一句话作用": "触发词：反事实预测、季节与活动分离、干预后增量、贝叶斯时序、投放复盘。何时不用：用多市场加权构造反事实用合成控制技能，判断达人层级真实回报用 KOL 因果归因技能，本技能用时间序列反事实分离季节与活动效应。安全边界：销售与花费数据须为自有数据，结论须给出不确定性区间，不得把反事实预测当作实际结果对外披露。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要品牌运营面临\"30万美元Influencer Campaign后销量涨40%但不确定是Campaign效果还是季节旺季\"——贝叶斯结构时序反事实分析将Campaign净iROAS从4.5修正为2.3，年化节省20-40万元无效投放时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02813-p2s-bayesian-structural-time-series-64c31f02",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-bayesian-structural-time-series/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-bayesian-structural-time-series/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ef0a042e2aa4970c188eb13f08cac5f272040e50da917fe6c351dee22444dccc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

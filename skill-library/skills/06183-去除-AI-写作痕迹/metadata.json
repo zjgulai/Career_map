@@ -1,0 +1,22 @@
+{
+  "英文名称": "humanizer-zh",
+  "中文名称": "去除 AI 写作痕迹",
+  "一句话作用": "去除文本中的 AI 生成痕迹。适用于编辑或审阅文本，使其听起来更自然、更像人类书写。 基于维基百科的\"AI 写作特征\"综合指南。检测并修复以下模式：夸大的象征意义、 宣传性语言、以 -ing 结尾的肤浅分析、模糊的归因、破折号过度使用、三段式法则、 AI 词汇、否定式排比、过多的连接性短语。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "提供： 1. 重写后的文本 2. 所做更改的简要总结（如果有帮助，可选） ---",
+  "最新更新时间": "2026-06-14T13:31:18+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要去除文本中的 AI 生成痕迹。适用于编辑或审阅文本，使其听起来更自然、更像人类书写。 基于维基百科的\"AI 写作特征\"综合指南。检测并修复以下模式：夸大的象征意义、 宣传性语言、以 -ing 结尾的肤浅分析、模糊的归因、破折号过度使用、三段式法则、 AI 词汇、否定式排比、过多的连接性短语。时，用它产出或更新：提供： 1. 重写后的文本 2. 所做更改的简要总结（如果有帮助，可选） ---",
+  "skill_id": "06183-humanizer-zh-bdfb5c7f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/humanizer-zh/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/skills/humanizer-zh/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9ba14dd6e19c836a0b55e4199e7fc4a21b22afa012cba168398796b67bf49b6e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

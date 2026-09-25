@@ -1,0 +1,22 @@
+{
+  "英文名称": "higgsfield-guide",
+  "中文名称": "待补：higgsfield-guide",
+  "一句话作用": "Generate images and videos using Higgsfield AI platform via accio-mcp-cli. Use when the user wants to generate images from text, create videos from images, check generation status, or manage Higgsfield credentials. Trig…",
+  "关键输入": "Ensure the user has connected Higgsfield credentials:",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:29+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate images and videos using Higgsfield AI platform via accio-mcp-cli. Use when the user wants to generate images from text, create videos from images, check generation status, or manage Higgsfield credentials. Trig…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00324-higgsfield-guide-6215bbae",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/higgsfield-guide/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/higgsfield-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5faf45d9210de29935f2c556a26cbbdf0dac62ca36be4f42843b5a2a81206f51",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

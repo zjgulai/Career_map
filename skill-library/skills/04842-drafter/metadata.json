@@ -1,0 +1,22 @@
+{
+  "英文名称": "drafter",
+  "中文名称": "待补：drafter",
+  "一句话作用": "Generate technical diagrams using HTML/CSS in Flat Engineering Blueprint style. Use when the user wants to create architecture diagrams, system diagrams, flowcharts, or technical specification sheets that look like engi…",
+  "关键输入": "1. Use ONLY system fonts, NO external CDN (like Google Fonts) 2. Return ONLY the complete HTML content, NO markdown code blocks 3. HTML must be a complete, self-contained document with 4. All styles must be inline within tags 5. Prefer Chinese text when appro…",
+  "关键输出": "Return a complete HTML document:",
+  "最新更新时间": "2026-09-19T03:46:49+08:00",
+  "业务场景": "design-ui",
+  "解决具体问题": "当需要Generate technical diagrams using HTML/CSS in Flat Engineering Blueprint style. Use when the user wants to create architecture diagrams, system diagrams, flowcharts, or technical specification sheets that look like engi…时，用它产出或更新：Return a complete HTML doc…",
+  "skill_id": "04842-drafter-4ba5d553",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/drafter/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/drafter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0dcb5509bfde9f57b71379cddc9a1ca684ae573516d6e112c7aca7d2b766b8fd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

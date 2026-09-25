@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-email-send",
+  "中文名称": "待补：twilio-email-send",
+  "一句话作用": "Use when the caller has Twilio credentials (Account SID + Auth Token or API Key SID + Secret) and needs to send email via comms.twilio.com/v1/Emails. This is Twilio-native email — NOT SendGrid. Do NOT use if the caller…",
+  "关键输入": "- A Twilio account — see twilio-account-setup for signup and credentials - A Verified Sender : an approved domain identity configured in the Twilio console that must match the from address domain - Compliance with regional anti-spam regulations (CAN-SPAM, GDP…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when the caller has Twilio credentials (Account SID + Auth Token or API Key SID + Secret) and needs to send email via comms.twilio.com/v1/Emails. This is Twilio-native email — NOT SendGrid. Do NOT use if the caller…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01083-twilio-email-send-d2d5ed54",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-email-send/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-email-send/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8aa92d66301d73d9ec9a12396f9f4f0b6d626826ca8e639f7253022d93b61468",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

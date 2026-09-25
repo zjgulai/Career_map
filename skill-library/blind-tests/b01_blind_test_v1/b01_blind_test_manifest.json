@@ -1,0 +1,20 @@
+{
+  "protocol_id": "B01-BLIND-01",
+  "pack_state": "待独立评审",
+  "sample_classification": "全量合成的独立盲测输入包",
+  "d01_input_count": 48,
+  "d02_input_count": 40,
+  "input_sha256": "c52bbcc94e33bde5d982497f7d50bddf475a884c33a48bc474188362ff1ebf42",
+  "proposed_gold_sha256": "f9b67e8064b5b58806f762d206a881ebc08493f3f6ce65e64a0933058afc4627",
+  "required_before_scoring": [
+    "未参与本轮实现和标注的人复核拟议金标。",
+    "独立评审人写入 gold_label_lock.json，记录金标指纹与锁定责任。",
+    "独立执行人提交候选输出与候选代码指纹。",
+    "评分脚本生成可复核结果；结果通过只允许设计真实样本数据合同。"
+  ],
+  "not_authorized": [
+    "真实评论、搜索、订单、投放或经营数据接入。",
+    "消费者需求、市场规模、产品定义、投入、发布或业务动作结论。",
+    "岗位、Preset、Agent、权限或生产能力任命。"
+  ]
+}

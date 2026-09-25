@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fx-exposure-measurement",
+  "中文名称": "外汇敞口测量 跨境电商货币风险定量分析",
+  "一句话作用": "触发词：外汇敞口、净敞口测算、汇率压力测试、多币种损益、VaR。何时不用：要定对冲比例与工具选择时用「FX Hedging Strategy」；要用采销币种匹配做零成本对冲时用「自然对冲策略」。安全边界：只做敞口计量与情景推演，不代执行结汇或衍生品交易；汇率数据来源须可追溯。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CFO面临\"人民币汇率波动导致利润不可预测\"——外汇敞口测量将汇率损益从黑盒变为可量化，年GMV5000万美元品牌规避汇率损失约45-120万美元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12547-p2s-fx-exposure-measurement-51b3d55f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-fx-exposure-measurement/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-fx-exposure-measurement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9a411cd13d8abfbc54423ce134a2c531b377806c3ed33d0b687ba56c1f5a5b9c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

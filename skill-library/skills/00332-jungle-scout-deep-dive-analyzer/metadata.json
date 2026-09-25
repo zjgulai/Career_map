@@ -1,0 +1,22 @@
+{
+  "英文名称": "jungle-scout-deep-dive-analyzer",
+  "中文名称": "待补：jungle-scout-deep-dive-analyzer",
+  "一句话作用": "Jungle Scout API-powered deep market analysis for Amazon product selection. Uses real keyword, competitor, trend and brand-share data to compute an Indicator Data Framework, produce an 8-dimension deep-dive, 3-tier prod…",
+  "关键输入": "See references/subquestion templates.md for full template library, anomaly detection rules, per-type examples, and detailed good/bad examples. Every sub-question MUST satisfy ALL 5 criteria : Data-Premised (start with a specific number from indicators), Cross…",
+  "关键输出": "See references/csv schema.md. Both required: - final recommendations.csv — 13 columns (including reference id from info search) - alibaba supply.csv — 8 columns - final report.md — the deliverable, per Step 7",
+  "最新更新时间": "2026-09-21T17:35:29+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Question Type Example (EN) Example (ZH) -------------- ------------- ------------- Market Opportunity \"Find blue ocean opportunities in Home & Kitchen\" \"寻找家居厨房品类的蓝海机会\" Competitive Analysis \"Analyze competitor ASIN B0XXX…时，用它产出或更新：See references/csv schema.…",
+  "skill_id": "00332-jungle-scout-deep-dive-analyzer-2e8d028f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/jungle-scout-deep-dive-analyzer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/jungle-scout-deep-dive-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "11e2d41668510cccf2e2e59d1d4d54a5856cd74c9b95fa9b0748324944550da6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

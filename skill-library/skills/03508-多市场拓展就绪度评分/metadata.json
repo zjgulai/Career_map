@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multimarket-expansion-readiness-scorer",
+  "中文名称": "多市场拓展就绪度评分）",
+  "一句话作用": "触发词：就绪度评分、多市场拓展、GO/WAIT/NO-GO、阻塞项识别、五维评估。何时不用：要判断单品在目标市场的适销性时用「跨市场产品适配性预测」；要自动生成进入 Checklist 与任务分配时用「新市场进入评分门控」。安全边界：只输出评分与裁决建议，不代替法务与供应链的取证与执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境品牌进入德国市场时，CE 认证未完成就提前烧 50 万广告费——五维就绪度评分模型（合规/物流/需求/内容/财务）输出 GO/WAIT/NO-GO，识别阻塞点并给出优先行动清单，避免因时机错误造成的首年损失 30-200 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03508-p2s-multimarket-expansion-readiness-scorer-81cef908",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multimarket-expansion-readiness-scorer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multimarket-expansion-readiness-scorer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d63bc778a8073e51afdae316f6fd87f92745f438bc9417eb2f9991842f2aedc6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

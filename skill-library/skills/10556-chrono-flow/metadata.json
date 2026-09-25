@@ -1,0 +1,22 @@
+{
+  "英文名称": "chrono-flow",
+  "中文名称": "待补：chrono-flow",
+  "一句话作用": "根据JSON数据生成精美的交互式时间线HTML页面，支持垂直、水平、双侧三种布局，可自定义主题色、展开详情，并适配移动端。适合展示项目里程碑、产品版本记录、公司发展历程或个人简历。当用户提及制作时间线、历程图、历史记录可视化，或需要将一系列事件、日期与描述数据转换为网页时触发。",
+  "关键输入": "- 项目里程碑展示 - 产品发布历史 - 公司发展历程 - 个人简历时间线 - 教学课程大纲 - 任何需要按时间顺序展示信息的场景",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:57+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 项目里程碑展示 - 产品发布历史 - 公司发展历程 - 个人简历时间线 - 教学课程大纲 - 任何需要按时间顺序展示信息的场景时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10556-chrono-flow-9d44ac4b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/chrono-flow/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/chrono-flow/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9829f60a9f774d28b73257dc12dbadbafa3ca5bb3548af4f0737ca4a0db9e04b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

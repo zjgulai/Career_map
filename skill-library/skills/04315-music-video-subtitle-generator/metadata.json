@@ -1,0 +1,22 @@
+{
+  "英文名称": "music-video-subtitle-generator",
+  "中文名称": "待补：music-video-subtitle-generator",
+  "一句话作用": "Create a stylized AI music video or emotional short with lyric typography from music, lyrics, references, characters, mood, and platform needs. Analyze beat and vocals, separate visual and text references, design beat-r…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T21:30:15+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create a stylized AI music video or emotional short with lyric typography from music, lyrics, references, characters, mood, and platform needs. Analyze beat and vocals, separate visual and text references, design beat-r…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04315-music-video-subtitle-generator-bdc79ab2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.hub-global/skills/music-video-subtitle-generator/SKILL.md",
+  "relative_path": "lute/.hub-global/skills/music-video-subtitle-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a2c05e0ef8e841ab1d385d3fcd193e0dcbfe20d395463c3afdab120fcc9a8179",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

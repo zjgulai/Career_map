@@ -1,0 +1,22 @@
+{
+  "英文名称": "digital-life",
+  "中文名称": "数字人生",
+  "一句话作用": "数字人生.skills — 5 个以数字痕迹为证据的人文自我考古工具，用来照见真实的自己。 触发词：遗产清算、社死考古、AI替身、前世、墓志铭、数字人生、考古工具箱、digital life",
+  "关键输入": "用户可以通过以下方式提供数据（不强制全部提供，说 3 句话就能启动）： 方式 能力 说明 ------ ------ ------ 文字描述 ✅ 直接口述行为、习惯、经历——最低门槛 浏览器代操作 ✅ 推荐 用户在自己浏览器登录后，agent 用 browser 工具直接抓取个人页面 文件/截图 ✅ 读取 聊天记录导出、平台年度报告截图、照片等 公开 URL ⚠️ 谨慎 公开页面存在同名风险，必须先确认是用户本人再抓取",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:04:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数字人生.skills — 5 个以数字痕迹为证据的人文自我考古工具，用来照见真实的自己。 触发词：遗产清算、社死考古、AI替身、前世、墓志铭、数字人生、考古工具箱、digital life时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06104-digital-life-9e973136",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/digital-life/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/digital-life/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d54f5a48e060f7c22137ddf5f09f4353c7257bdf81a48c061b451e6273007362",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

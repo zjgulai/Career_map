@@ -1,0 +1,22 @@
+{
+  "英文名称": "numeric-extraction-and-distribution-analysis",
+  "中文名称": "待补：numeric-extraction-and-distribution-analysis",
+  "一句话作用": "从带单位的字符串列中提取数值并清洗，生成包含直方图、饼图、条形图和累积分布图的多维度综合分布可视化图表，用于展示数据的集中趋势与分布特征。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要从带单位的字符串列中提取数值并清洗，生成包含直方图、饼图、条形图和累积分布图的多维度综合分布可视化图表，用于展示数据的集中趋势与分布特征。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04148-numeric-extraction-and-distribution-analysis-b38b7eeb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-conditional-formatting/data-bar-formatting/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-conditional-formatting/data-bar-formatting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f22a438b327233606622e70e3474c02f975248d14f4632a38ae51a1eefcd4b77",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

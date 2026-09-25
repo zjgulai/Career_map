@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-amazon-lending-decision",
+  "中文名称": "电商平台卖家信用评估与融资决策",
+  "一句话作用": "触发词：平台贷款、融资时机、融资额度、信用评分、供应链金融比价。何时不用：只看回款到账时间排资金用「Amazon 回款周期预测」；做多批次备货的融资组合优化时用「库存融资与供应链金融决策优化」。安全边界：不代卖家提交贷款申请、不承诺授信结果；不得虚构交易或订单凭证，平台贷款须确保账号历史无违规记录。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要备货资金需求与平台贷款/供应链融资时机不匹配，高息渠道浪费或现金流断裂——基于 GMV/退款率/账龄的信用评分模型推荐最优融资时机和金额，年化节省利息成本 5-20 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12512-p2s-amazon-lending-decision-ff9182af",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-amazon-lending-decision/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-amazon-lending-decision/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d55367d63cd75f464a142c00735bda44931e311bd2cec3e973fae0561893c784",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

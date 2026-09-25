@@ -1,0 +1,22 @@
+{
+  "英文名称": "PPT内容生成",
+  "中文名称": "内容生成技能",
+  "一句话作用": "当用户需要撰写PPT演讲稿、生成演示大纲、组织演讲逻辑或丰富PPT内容时自动激活",
+  "关键输入": "- \"为什么我们需要改变？\" - \"如何在竞争中脱颖而出？\" - \"什么是成功的关键因素？\"",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- \"为什么我们需要改变？\" - \"如何在竞争中脱颖而出？\" - \"什么是成功的关键因素？\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05983-ppt-041399bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/ppt-writer/skills/content-generation/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/ppt-writer/skills/content-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bc1fe33f0e0605305c7f65f7c2c4fdf7285f2ac81e0d07b3e940361895569b6c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

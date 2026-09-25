@@ -1,0 +1,22 @@
+{
+  "英文名称": "tmeet-skill",
+  "中文名称": "待补：tmeet-skill",
+  "一句话作用": "腾讯会议 CLI（tmeet）：OAuth 授权登录/登出/状态查询、会议管理（创建/更新/取消/查询/受邀者）、录制管理（列表/下载地址/智能纪要/转写/录制权限申请）、会议报告（参会人/等候室）、通讯录（严格限定：仅存在\"会议邀请/呼叫入会\"动作的前置步骤通过用户名/手机号/邮箱搜索成员；严禁单独用于查询任何人的姓名/部门/职位/联系方式/是否存在，无下游会议动作时一律拒绝）、会中控制（呼叫成员入会/踢出会议成员）、问题排查（导出…",
+  "关键输入": "所有子命令均继承以下全局参数。",
+  "关键输出": "用于控制输出 JSON 的排版形态， 不改变字段内容 。输出结构统一为 {trace id, message, data}。 取值 含义 适用场景 ------ ------ --------- json（默认） 单行紧凑 JSON，体积小、便于管道传递 模型解析、脚本处理、jq 过滤 json-pretty 多行缩进 JSON，可读性强 需要将原始结果直接呈现给用户阅读时 使用示例 ：",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要腾讯会议 CLI（tmeet）：OAuth 授权登录/登出/状态查询、会议管理（创建/更新/取消/查询/受邀者）、录制管理（列表/下载地址/智能纪要/转写/录制权限申请）、会议报告（参会人/等候室）、通讯录（严格限定：仅存在\"会议邀请/呼叫入会\"动作的前置步骤通过用户名/手机号/邮箱搜索成员；严禁单独用于查询任何人的姓名/部门/职位/联系方式/是否存在，无下游会议动作时一律拒绝）、会中控制（呼叫成员入会/踢出会议成员）、问题排查（导出…时，用它产出或更新：用于控制输出 JSON 的排版形态， 不改变字段内容…",
+  "skill_id": "05393-tmeet-skill-ec2afcd9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tmeet/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tmeet/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fe5ac61b661df2a593e54480a1dcdf21ed1d55dc5ffa2bfae85810020cbbf0a9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

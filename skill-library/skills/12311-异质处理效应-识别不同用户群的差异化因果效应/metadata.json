@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-heterogeneous-treatment-effect-xlearner",
+  "中文名称": "异质处理效应 识别不同用户群的差异化因果效应",
+  "一句话作用": "触发词：异质处理效应、X-Learner、个体效应、差异化发券、广告定向、交叉拟合。何时不用：只需筛出可说服者做发券用「因果提升模型」；要做实验子群挖掘与规则解释用「因果森林异质处理效应」。安全边界：基于个体效应的差异化发券与定价须注意价格歧视合规，优先使用中性属性（如月龄），不使用受保护属性。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"发券无差别，低效用户占用预算\"——X-Learner识别高CATE人群，缩减72%发券量仍保持高效果覆盖，年化节省+增量约80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12311-p2s-heterogeneous-treatment-effect-xlearner-0dfd7fb2",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-heterogeneous-treatment-effect-xlearner/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-heterogeneous-treatment-effect-xlearner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b054523c86e24cc4ba89a765a7aa0975aa383ef4969a2f973987817cb3915a00",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

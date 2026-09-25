@@ -1,0 +1,22 @@
+{
+  "英文名称": "zod",
+  "中文名称": "待补：zod",
+  "一句话作用": "Zod v4 best practices, patterns, and API guidance for schema validation, parsing, error handling, and type inference in TypeScript applications. Covers safeParse, object composition, refinements, transforms, codecs, bra…",
+  "关键输入": "Zod is for runtime type validation — parsing untrusted data at system boundaries (API input, form data, env vars, external services). For compile-time-only types, plain TypeScript is sufficient. Need Recommended Tool",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:15+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Zod is for runtime type validation — parsing untrusted data at system boundaries (API input, form data, env vars, external services). For compile-time-only types, plain TypeScript is sufficient. Need Recommended Tool时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05194-zod-5276fe4a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/zod/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/zod/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "71a07d23f581114fa9e4aa429a74720e2cde08d7449ff43171acd1beed867cd7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

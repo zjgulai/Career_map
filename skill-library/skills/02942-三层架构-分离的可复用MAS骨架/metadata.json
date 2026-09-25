@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-context-engine-architecture",
+  "中文名称": "三层架构 分离的可复用MAS骨架",
+  "一句话作用": "触发词：Context Engine、三层架构、Agent编排拆分、注册表治理、MAS骨架。何时不用：一次性脚本或不需要长期扩展的 MAS 不必引入三层拆分；只是要把同一引擎换到新业务域复用时，用域无关 Context Engine。安全边界：上线前必须跑预生产检查（Agent 能否实例化、工具端点是否可达、Token 上限与上下文窗口是否充足），未通过不得接入生产。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要紧耦合MAS中改一个Agent需要2天且担心影响其他Agent——engine/agents/registry三层分离使新增Agent从2天压缩至2小时，单Agent可独立测试无副作用时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02942-p2s-context-engine-architecture-daf02e00",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-context-engine-architecture/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-context-engine-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ba1f7e5213bc73ab5b808c302ba40ca874fd2a85220f06905867026adae41ef8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

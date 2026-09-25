@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-resmas-resilience-topology-optimization",
+  "中文名称": "韧性拓扑优化 韧性预测拓扑生成拓扑感知Prompt优化",
+  "一句话作用": "触发词：拓扑优化、韧性评估、冗余验证、依赖重构、高负载降级。何时不用：只有一两个 Agent 的简单链路，重构拓扑收益有限；本技能面向 3 个以上 Agent、单点失效会放大成全链路失败的系统。安全边界：拓扑方案与切换判据是契约产物，在线切换的编排动作由控制层执行，本技能不做在线切换。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要线性Pipeline是最脆弱的MAS拓扑，单节点失效导致性能下降23.7%——ResMAS用GNN韧性预测+GRPO自动生成层次拓扑，失效10%时性能下降仅5.5%（+30%韧性）（2026 arXiv:2601.04694）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12097-p2s-resmas-resilience-topology-optimization-9ffe5b14",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-resmas-resilience-topology-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-resmas-resilience-topology-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e1af55a815d30340729f102ef7f40f7d7e8a4ba89ea5daa504c599924f313211",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

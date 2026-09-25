@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-helmet-longcontext-rag-evaluation",
+  "中文名称": "待补：p2s-helmet-longcontext-rag-evaluation",
+  "一句话作用": "触发词：长上下文评测、RAG 评估、模型选型、理解边界、多维度评测。何时不用：嵌入模型选型用「MTEB 嵌入模型选型」；分类或预测模型的指标与阈值评估用「Model Evaluation Metrics」。安全边界：卡页未给出评测数据集与合规要求，评测结论须标注上下文长度与样本范围，不得外推到未覆盖的任务。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要技术团队面临128K上下文LLM选型标准缺失——HELMET 20+维度评测识别真正理解边界，选型准确避免上线后翻车，年化决策价值35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11265-p2s-helmet-longcontext-rag-evaluation-daf155c5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-helmet-longcontext-rag-evaluation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-helmet-longcontext-rag-evaluation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e3055daf0a6ade1a07a1076b33f99b7a55a3abdc9e1702bcb08c8824d584876c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-review-velocity-anomaly-detector",
+  "中文名称": "差评速率异常检测 区分竞品恶意攻击与真实产品问题",
+  "一句话作用": "触发词：差评速率、CUSUM、异常告警、攻击识别、批次质量预警。何时不用：要逐条判断评论真伪走假评论检测；只看长期评分趋势可用更轻的统计分析。安全边界：采集须遵守平台爬虫协议与个人信息保护要求，卡页建议取得官方数据合作授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要触发词：差评速率、CUSUM、异常告警、攻击识别、批次质量预警。何时不用：要逐条判断评论真伪走假评论检测；只看长期评分趋势可用更轻的统计分析。安全边界：采集须遵守平台爬虫协议与个人信息保护要求，卡页建议取得官方数据合作授权。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12102-p2s-review-velocity-anomaly-detector-8eac77a4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-review-velocity-anomaly-detector/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-review-velocity-anomaly-detector/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e129b1999440cc24103d7ce630a03a9bfbab075af728dd90fea7a6151a907375",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

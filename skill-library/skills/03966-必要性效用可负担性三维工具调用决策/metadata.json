@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tool-call-decision-framework",
+  "中文名称": "必要性效用可负担性三维工具调用决策",
+  "一句话作用": "触发词：工具调用决策、必要性判断、效用评估、预算约束、调用去冗余。何时不用：工具还没注册进来、找不到可调对象时用工具自动发现技能；工具描述本身质量差导致选错工具时用工具描述审核技能。安全边界：涉及下单、改价、发信等写操作的工具不得因预算紧张被静默跳过，必须显式确认后再决定。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题：选品 Agent 包含三个 API（市场搜索 / 价格查询 / 合规检查）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03966-p2s-tool-call-decision-framework-2c4e2837",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tool-call-decision-framework/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tool-call-decision-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d0162d05378ad38be6d11b0c22a3812e8090051f0ddc3f8769a4bed0cc0c7524",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

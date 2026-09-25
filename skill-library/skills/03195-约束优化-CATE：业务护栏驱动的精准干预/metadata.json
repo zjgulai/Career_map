@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-guardrailed-uplift-targeting",
+  "中文名称": "约束优化 CATE：业务护栏驱动的精准干预",
+  "一句话作用": "触发词：Uplift 定向、CATE、约束优化、业务护栏、Qini 曲线、可说服用户。何时不用：没有随机对照数据时改用流失预测或因果归因卡；要在成本与覆盖约束下选出真正会被优惠券说动的用户时用本卡。安全边界：护栏约束（预算、触达上限、排除人群）须先与业务确认，不得用敏感属性定向，结论须附置信区间。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当前做法是向所有\"高流失风险\"用户统一发\"免费延长30天\"优惠券，ROI 极低——很多用户即使不发券也会续订时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03195-p2s-guardrailed-uplift-targeting-aaec485a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-guardrailed-uplift-targeting/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-guardrailed-uplift-targeting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62885052e48f98d65f629e0ee4913bd1dcdfa3ad423bf2c6a196d5bc4ffba5da",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

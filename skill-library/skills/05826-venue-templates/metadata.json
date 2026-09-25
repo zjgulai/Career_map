@@ -1,0 +1,22 @@
+{
+  "英文名称": "venue-templates",
+  "中文名称": "待补：venue-templates",
+  "一句话作用": "Access comprehensive LaTeX templates, formatting requirements, and submission guidelines for major scientific publication venues (Nature, Science, PLOS, IEEE, ACM), academic conferences (NeurIPS, ICML, CVPR, CHI), resea…",
+  "关键输入": "Access venue-specific templates and formatting guidelines: For Journals :",
+  "关键输出": "python scripts/validate format.py \\ --file my paper.pdf \\ --venue \"Science\" \\ --report validation report.txt",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要This skill should be used when: - Preparing a manuscript for submission to a specific journal (Nature, Science, PLOS, IEEE, etc.) - Writing a conference paper with specific formatting requirements (NeurIPS, ICML, CHI, e…时，用它产出或更新：python scripts/validate fo…",
+  "skill_id": "05826-venue-templates-0881be03",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/venue-templates/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/venue-templates/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a4b2cbc18b30d86b471f403203ab0a7c8873949f7c3fe2917c9ee98bae5f392f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

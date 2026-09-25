@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tag-driven-ad-audience-segmentation",
+  "中文名称": "标签工程驱动广告受众精准分割",
+  "一句话作用": "触发词：标签受众、受众包、人群分割、冷启动定向、交叉销售、Lookalike 替代。何时不用：种子集脏导致效果差用种子净化那张卡；要用 SKU 属性标签与行为标签重新组合受众包时用本卡。安全边界：须去除 PII 与健康、怀孕等敏感属性，Amazon DSP 禁止以健康或孕期状态定向，受众包需设最小规模阈值。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告投手面临\"SKU属性标签和广告受众定向完全割裂无法联动\"——标签体系自动映射DSP受众包将受众精准度提升68%，广告ROAS年化提升53万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03915-p2s-tag-driven-ad-audience-segmentation-2cd61472",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tag-driven-ad-audience-segmentation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tag-driven-ad-audience-segmentation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "437b087e807cf6b388dfe763a1d759d0d83e797ca469d5b2d3da69f4dad710c7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

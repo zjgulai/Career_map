@@ -1,0 +1,22 @@
+{
+  "英文名称": "build-modern-redux-apps/modern-redux",
+  "中文名称": "待补：build-modern-redux-apps/modern-redux",
+  "一句话作用": "Use this when setting up a new Redux Toolkit app or modernizing an existing React + Redux codebase. Covers configureStore, Provider wiring, typed hooks, hooks-first React-Redux usage, feature folders, and the correct st…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-19T14:43:56+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this when setting up a new Redux Toolkit app or modernizing an existing React + Redux codebase. Covers configureStore, Provider wiring, typed hooks, hooks-first React-Redux usage, feature folders, and the correct st…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10157-build-modern-redux-apps-modern-redux-98581728",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/lute-momcozy-platform/node_modules/@reduxjs/toolkit/skills/build-modern-redux-apps/modern-redux/SKILL.md",
+  "relative_path": "lute/project/Agent/lute-momcozy-platform/node_modules/@reduxjs/toolkit/skills/build-modern-redux-apps/modern-redux/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "92ccadd334b31e97a3962d4e049ee19ccd4ecaaabe9246fa8c499bb47f4a1567",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "seedance-2-0-video",
+  "中文名称": "待补：seedance-2-0-video",
+  "一句话作用": "Generate AI videos using ByteDance Seedance 2.0. Use when the user wants to: (1) generate videos from text prompts, (2) generate videos from images (first frame, first+last frame), (3) generate long videos ( 15s) by cha…",
+  "关键输入": "The user must set the ARK API KEY environment variable. You can set it by running: Base URL : https://ark.cn-beijing.volces.com/api/v3",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:48:18+08:00",
+  "业务场景": "file-generation",
+  "解决具体问题": "当需要Generate AI videos using ByteDance Seedance 2.0. Use when the user wants to: (1) generate videos from text prompts, (2) generate videos from images (first frame, first+last frame), (3) generate long videos ( 15s) by cha…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05085-seedance-2-0-video-75c38320",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/seedance-2-0-video/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/seedance-2-0-video/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e21d8e83647329ccb6dde8ab93985e600d51af80dc535c36ecde387205b17c80",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

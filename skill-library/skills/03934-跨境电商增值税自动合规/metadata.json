@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tax-compliance-vat-gst",
+  "中文名称": "跨境电商增值税自动合规",
+  "一句话作用": "触发词：VAT 税率分类、GST 申报、季度核算、争议税率、ASIN 税率。何时不用：要在破阈前做注册预警用「税务风险信号监控」；要按包装材质测算 EPR 费用用「EPR 费用测算」。安全边界：争议分类的商品必须标记并咨询税务顾问；注册与申报由持牌代理执行，本技能不代替税务意见。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要多欧洲站 VAT 手动核算耗时 3-4 天且吸奶器税率（7% 还是 19%）经常出错面临罚款——LLM 自动分类 + 税率数据库引擎，申报时间压缩至 1 天，避免错误分类罚款（未缴金额 20-100%）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03934-p2s-tax-compliance-vat-gst-ba6abafa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tax-compliance-vat-gst/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tax-compliance-vat-gst/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9f069ecae885dcdbdc03476956d9d706c3e0766eb8d71f7a4981abf7b133d083",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

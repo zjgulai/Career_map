@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hts-tariff-classification",
+  "中文名称": "关税编码分类与优化（跨境电商关税合规）",
+  "一句话作用": "触发词：HTS 编码查询、税率对比、Section 301、重分类裁定、睡袋归类。何时不用：要用多 Agent 共识与不确定性分流做批量分类用「HTS 多 Agent 分类」；要用 LLM 分层推理加 GRI 依据做节税方案用「HTS 关税分类与节税」。安全边界：编码变更须走正式重分类或裁定流程，不得自行改单；不构成海关法律意见。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要吸奶器套装被默认归类为液体泵（关税 3%）而非呼吸治疗器具（0%），每年多付 15 万元关税——AI 驱动 HTS 精准分类识别节税机会，配合 CBP Binding Ruling 申请实现合规节税 20-200 万元/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12557-p2s-hts-tariff-classification-97be17dc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-hts-tariff-classification/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-hts-tariff-classification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "22d2cf2c44b1a101dbf491060c91fe24f352ae2a207f4141fa610f7c87ebc2d6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

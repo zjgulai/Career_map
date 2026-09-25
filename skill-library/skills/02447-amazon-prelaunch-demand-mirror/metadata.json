@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-prelaunch-demand-mirror",
+  "中文名称": "待补：amazon-prelaunch-demand-mirror",
+  "一句话作用": "- Mirror any product onto Amazon demand signals: category size, trend, seasonality, and variant demand signals (never per-variant unit sales). Use for products not yet sold on Amazon. 【需Jungle Scout MCP】 触发词：亚马逊需求镜像、品类需…",
+  "关键输入": "Amazon data comes from the host's Jungle Scout js MCP tools — there are no API keys or scripts. The tools this skill uses are js keywords by keyword, js historical search volume, js product database query, js share of voice, and (optionally) js sales estimate…",
+  "关键输出": "See references/mcp-errors.md",
+  "最新更新时间": "2026-09-08T01:13:35+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 把任意产品映射到亚马逊需求信号。时，用它产出或更新：See references/mcp-errors.md",
+  "skill_id": "02447-amazon-prelaunch-demand-mirror-0fb1936f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/amazon-prelaunch-demand-mirror/SKILL.md",
+  "relative_path": "lute/.dsh/skills/amazon-prelaunch-demand-mirror/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b8730cb52066af39c807225ffde1334c47dc96534e9cb4fe83f1dff56b49580",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "clawdirect-dev",
+  "中文名称": "待补：clawdirect-dev",
+  "一句话作用": "Build agent-facing web experiences with ATXP-based authentication, following the ClawDirect pattern. Use this skill when building websites that AI agents interact with via MCP tools, implementing cookie-based agent auth…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Create src/api.ts:",
+  "最新更新时间": "2026-09-19T03:56:09+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要Build agent-facing web experiences with ATXP-based authentication, following the ClawDirect pattern. Use this skill when building websites that AI agents interact with via MCP tools, implementing cookie-based agent auth…时，用它产出或更新：Create src/api.ts:",
+  "skill_id": "04763-clawdirect-dev-fded6e8c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/clawdirect-dev/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/clawdirect-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4f8af1d119393bce296e2d8adc6d546b24fc85b879ffbe76ab016725af1252df",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

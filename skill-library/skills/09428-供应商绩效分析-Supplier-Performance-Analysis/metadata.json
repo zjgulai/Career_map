@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-supplier-performance",
+  "中文名称": "供应商绩效分析 (Supplier Performance Analysis)",
+  "一句话作用": "跨境电商供应商绩效分析技能，用于评估供应商表现、分级管理和优化供应商策略。 触发条件: 1. 用户询问\"供应商表现如何\" 2. 需要评估供应商绩效时 3. 进行供应商分级管理时 4. 供应商选择决策时 5. 供应链优化时 输出内容: - 供应商绩效评估报告 - 供应商分级管理建议 - 供应商优化策略 - 风险预警提示",
+  "关键输入": "数据类型 必需字段 说明 --------- --------- ------ 基础信息 supplier id, name, category 供应商标识 质量数据 defect rate, complaint count 质量指标 交付数据 on time rate, lead time 交付指标 成本数据 unit cost, cost trend 成本指标 服务数据 response time, issue resolve rate 服务指标",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T19:29:27+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要跨境电商供应商绩效分析技能，用于评估供应商表现、分级管理和优化供应商策略。 触发条件: 1. 用户询问\"供应商表现如何\" 2. 需要评估供应商绩效时 3. 进行供应商分级管理时 4. 供应商选择决策时 5. 供应链优化时 输出内容: - 供应商绩效评估报告 - 供应商分级管理建议 - 供应商优化策略 - 风险预警提示时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09428-cbec-supplier-performance-5049a344",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/10-supply-chain-analysis/supplier-performance/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/10-supply-chain-analysis/supplier-performance/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "caa61ac74f7e79e3bc8f0a34bd0bfbafc687ddf0adf749e97c12ee36cd87dbc9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

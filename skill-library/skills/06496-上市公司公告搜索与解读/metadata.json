@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-announcement-analysis",
+  "中文名称": "上市公司公告搜索与解读",
+  "一句话作用": "搜索并解读上市公司公告，覆盖 A股（沪深北）、港股（HKEX）、美股（SEC EDGAR）三大市场。支持两种模式：①单条/多条具体公告的深度解读（拆解公告要点、判断重要性、给出多视角分析）；②按公司或时间段批量监控并生成公告摘要合集（时效优先、覆盖面广）。适用于业绩报告解读、重大合同/协议公告解读、股权变动（增减持/回购）解读、股权激励（期权/限制性股票/员工持股计划）解读、监管问询函/关注函及回复公告解读、停牌复牌与退市风险公告解读…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "本 Skill 用于对上市公司公告做 搜索（时效、准确、全面）+ 解读（多视角、有深度） ，覆盖 A股、港股、美股三大市场。同一次任务里，用户意图落在两种交付模式之一： 1. 单条深度解读 ：针对用户指定的一条或几条具体公告（给了公司+事项，或给了公告链接/编号），产出结构化的深度解读——公告讲了什么、为什么重要、和此前信息/市场预期的关系、需要继续跟踪什么。 2. 批量监控摘要 ：针对某公司/某组公司在某个时间段内的公告，产出按类型分组的摘要合集，时效性和覆盖面优先于单条深度。 两种模式共享同一套\"市场识别 →…",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要搜索并解读上市公司公告，覆盖 A股（沪深北）、港股（HKEX）、美股（SEC EDGAR）三大市场。支持两种模式：①单条/多条具体公告的深度解读（拆解公告要点、判断重要性、给出多视角分析）；②按公司或时间段批量监控并生成公告摘要合集（时效优先、覆盖面广）。适用于业绩报告解读、重大合同/协议公告解读、股权变动（增减持/回购）解读、股权激励（期权/限制性股票/员工持股计划）解读、监管问询函/关注函及回复公告解读、停牌复牌与退市风险公告解读…时，用它产出或更新：本 Skill 用于对上市公司公告做 搜索（时效、准…",
+  "skill_id": "06496-doubao-announcement-analysis-e674f0a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-announcement-analysis/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-announcement-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e2461a18ab4a799e6904ecb6dea4ab65b8cb6021a856c44e7156498dd679f51c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "feishu-digital-employee",
+  "中文名称": "飞书数字员工",
+  "一句话作用": "在 DeepSeek Harness 中处理飞书数字员工对话，并使用飞书 MCP 创建真实任务、查询空闲会议室、预订会议室并创建日程。用户要求在飞书发布、安排、指派或创建任务、查询/预订会议室时使用；普通寒暄只回复，不调用工具。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T15:34:27+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要在 DeepSeek Harness 中处理飞书数字员工对话，并使用飞书 MCP 创建真实任务、查询空闲会议室、预订会议室并创建日程。用户要求在飞书发布、安排、指派或创建任务、查询/预订会议室时使用；普通寒暄只回复，不调用工具。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10045-feishu-digital-employee-0a03cb73",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/feishu-digital-employee/skills/feishu-digital-employee/SKILL.md",
+  "relative_path": "lute/project/_archive/Magpie-Horch-20260911/agent-presets-user-20260911/feishu-digital-employee/skills/feishu-digital-employee/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "337b635eaad96d8d49c1400d3321f4150f5d7eb60d4f0a4c9ce11e33f1f9982d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

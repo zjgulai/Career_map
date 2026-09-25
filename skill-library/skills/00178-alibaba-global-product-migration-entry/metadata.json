@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-global-product-migration-entry",
+  "中文名称": "待补：alibaba-global-product-migration-entry",
+  "一句话作用": "搬品入口与任务管理。负责搬品意图识别、预检查、物流模版选择、币种确认、搬品模式判定、恢复历史任务、取消任务。 本 Skill 是搬品流程的总调度中心，完成所有前置准备后，将参数传递给 alibaba-global-product-migration-executor 执行实际搬品任务。 When to use: - 用户想把其他平台的商品发布/搬运/迁移到 Alibaba 国际站（如\"帮我把1688商品搬到国际站\"、\"I want t…",
+  "关键输入": "模式判定完成后，Agent 将以下参数传递给 alibaba-global-product-migration-executor Skill： 参数 来源 ------ ------ productFrom 搬品模式判定结果 logisticsTemplateId 用户选择的物流模版 ID（可选） currency 用户确认的币种 originSite 当 productFrom 为 API 时传 SHOPIFY，其他模式下不传",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要搬品入口与任务管理。负责搬品意图识别、预检查、物流模版选择、币种确认、搬品模式判定、恢复历史任务、取消任务。 本 Skill 是搬品流程的总调度中心，完成所有前置准备后，将参数传递给 alibaba-global-product-migration-executor 执行实际搬品任务。 When to use: - 用户想把其他平台的商品发布/搬运/迁移到 Alibaba 国际站（如\"帮我把1688商品搬到国际站\"、\"I want t…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00178-alibaba-global-product-migration-entry-8caa57e5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-migration-entry/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-global-product-migration-entry/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f6ce930819fbe8b15e64d491e29d5e74f4a4b745788e273f1d4ddce56b744723",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

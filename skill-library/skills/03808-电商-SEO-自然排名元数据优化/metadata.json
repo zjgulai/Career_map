@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-seo-organic-ranking-optimization",
+  "中文名称": "电商 SEO 自然排名元数据优化",
+  "一句话作用": "触发词：自然排名、元数据优化、竞品关键词差距、后台搜索词、排名追踪。何时不用：站外引流对排名的影响用「站外流量加速」；本技能改的是标题、要点与后台词这类站内元数据。安全边界：后台搜索词不得重复堆砌，标题不得使用未经证实的绝对化用语。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要吸奶器主词排名第 8，每天自然点击 20 次，Top 3 竞品标题里有\"hospital grade/quiet/rechargeable\"等词我们完全缺失——多智能体元数据差距分析 + 关键词优化，排名 Top 3 后自然流量增加 3-5 倍时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03808-p2s-seo-organic-ranking-optimization-9266ec41",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-seo-organic-ranking-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-seo-organic-ranking-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c305da8bef1b2eb14d010034ff3f4464dfbd50ce4545d784ff2123eebb85341",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

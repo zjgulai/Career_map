@@ -1,0 +1,22 @@
+{
+  "英文名称": "gdscript-codegen",
+  "中文名称": "代码生成 Skill",
+  "一句话作用": "AI 生成高质量 GDScript 代码的规范和模板。当用户要求生成、修改或审查 GDScript 代码时使用此 Skill。涵盖 Godot 4.x 类型系统、信号声明、导出变量、代码模板和最佳实践。",
+  "关键输入": "func take damage(amount: int) - void: health -= amount func get health ratio() - float: return float(health) / float(max health)",
+  "关键输出": "var x groups f := (size.x - 1) / 8.0",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要AI 生成高质量 GDScript 代码的规范和模板。当用户要求生成、修改或审查 GDScript 代码时使用此 Skill。涵盖 Godot 4.x 类型系统、信号声明、导出变量、代码模板和最佳实践。时，用它产出或更新：var x groups f := (size.x - 1) / 8.0",
+  "skill_id": "05955-gdscript-codegen-286809ba",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/gdscript-codegen/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/magicai-hub/skills/gdscript-codegen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d23962653da31a710b4922f3600c00b1fc6b2ea5854bbac6b71929bc90ddefa",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

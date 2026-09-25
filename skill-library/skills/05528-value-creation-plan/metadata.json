@@ -1,0 +1,22 @@
+{
+  "英文名称": "value-creation-plan",
+  "中文名称": "待补：value-creation-plan",
+  "一句话作用": "Structure post-acquisition value creation plans with revenue, cost, and operational levers mapped to an EBITDA bridge. Includes 100-day priorities, KPI targets, and accountability frameworks. Use when planning post-clos…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Word document or PowerPoint with: - Executive summary (1 page) - EBITDA bridge chart - Value creation levers detail (1 page per lever) - 100-day plan timeline - KPI dashboard - Accountability matrix (who owns what) - Excel model backing the EBITDA bridge",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Structure post-acquisition value creation plans with revenue, cost, and operational levers mapped to an EBITDA bridge. Includes 100-day priorities, KPI targets, and accountability frameworks. Use when planning post-clos…时，用它产出或更新：- Word document or PowerPo…",
+  "skill_id": "05528-value-creation-plan-ba1c520a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/value-creation-plan/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/private-equity/skills/value-creation-plan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3440bd7821020634b2bc1a566bb76ff4199e9645fdaac2a8db4e13a683809336",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

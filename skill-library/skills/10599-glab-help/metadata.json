@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-help",
+  "中文名称": "待补：glab-help",
+  "一句话作用": "显示 glab 命令和子命令的帮助信息。适用于了解 glab 命令、查看命令语法或获取使用示例。触发词：help、命令帮助、用法、glab help。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要显示 glab 命令和子命令的帮助信息。适用于了解 glab 命令、查看命令语法或获取使用示例。触发词：help、命令帮助、用法、glab help。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10599-glab-help-8a7f4983",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-help/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-help/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3aac12d6595ba132a0bca1ea6a84ee091e1e06aa8222d6b90c74906ea4b36ed4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

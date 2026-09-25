@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cannibalization-corrected-attribution",
+  "中文名称": "待补：p2s-cannibalization-corrected-attribution",
+  "一句话作用": "触发词：p2s-cannibalization-corrected-attribution。Skill-Cannibalization-Corrected-Attribution",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：p2s-cannibalization-corrected-attribution。Skill-Cannibalization-Corrected-Attribution时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11626-p2s-cannibalization-corrected-attribution-96b2ebaf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-cannibalization-corrected-attribution/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-cannibalization-corrected-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f2c20aa653dd792e0ee2b3835dd02e835ab45baac8e2a03ed1e1aa8b7d25daa7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "retention-manager",
+  "中文名称": "流失防控",
+  "一句话作用": "用户挽留与流失防控助手，帮助设计取消流程、制定挽留方案、搭建催款邮件体系并优化支付失败恢复逻辑，以降低用户流失。当用户提及取消流程优化、挽留策略、降低流失率、催款、支付恢复、退出调查、用户召回或解决支付失败等需求时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "你的需求 你会得到 --------- --------- \"设计一个取消流程\" 五阶段流程图（文本形式），包含每阶段的文案、挽留方案映射和确认邮件模板 \"审查我的取消流程\" 评分卡（0-100），含问题清单、挽留率基准和优先修复建议 \"搭建催款体系\" 重试计划、5 封邮件序列（含标题和正文）、银行卡更新服务配置清单 \"设计退出调查\" 6-8 个原因分类及对应的挽留方案映射表 \"评估流失影响\" 运行 churn impact calculator.py，输入你的数据——输出月度挽回 MRR 和年度影响",
+  "最新更新时间": "2026-09-14T00:08:31+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要用户挽留与流失防控助手，帮助设计取消流程、制定挽留方案、搭建催款邮件体系并优化支付失败恢复逻辑，以降低用户流失。当用户提及取消流程优化、挽留策略、降低流失率、催款、支付恢复、退出调查、用户召回或解决支付失败等需求时触发。时，用它产出或更新：你的需求 你会得到 --------- --------- \"设计一个取消流程\" 五阶段流程图（文本形式），包含每阶段的文案、挽留方案映射和确认邮件模板 \"审查我的取消流程\" 评分卡（0-100），含问题清单、挽留率基准和优先修复建议 \"搭建催款体系\" 重试计划、5 封邮…",
+  "skill_id": "10668-retention-manager-dca1e95e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/retention-manager/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/retention-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "022ed2d1bc91261b7c9021c2b2490cc4a56397b095d48236f1aadcdf4e4945ba",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "货盘结构分析（引流·利润·形象款比例）",
+  "中文名称": "待补：货盘结构分析（引流·利润·形象款比例）",
+  "一句话作用": "当需要基于 ERP 销售与毛利数据评估 SKU 组合中引流款/利润款/形象款占比、与品类经验区间对比并输出结构调整建议时调用；不替代选品会最终拍板。",
+  "关键输入": "- 已有 sku-lifecycle-classifier 或等效 S/A/B/C 分级 与本期扫描时间窗。 - ERP 可提供 销量、净收入、毛利或贡献毛利 （缺一则用占位并标 TBD）。 - 已约定 角色定义规则 （按价格带、margin%、或内部标签字段）。",
+  "关键输出": "- 表：Role SKU count Rev share Margin share Flag - 摘要 ：3 条结论 + 2 条「需数据补全」。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要基于 ERP 销售与毛利数据评估 SKU 组合中引流款/利润款/形象款占比、与品类经验区间对比并输出结构调整建议时调用；不替代选品会最终拍板。时，用它产出或更新：- 表：Role SKU count Rev share Margin share Flag - 摘要 ：3 条结论 + 2 条「需数据补全」。",
+  "skill_id": "09917-skill-6a037be9",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/product-manage/assortment-structure-analyzer/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/product-manage/assortment-structure-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d39769b5c29ef8f405920b18785e3b75d92cc5f7288794a918412b86d07720b3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

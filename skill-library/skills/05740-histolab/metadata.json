@@ -1,0 +1,22 @@
+{
+  "英文名称": "histolab",
+  "中文名称": "待补：histolab",
+  "一句话作用": "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing tissue detection, tile extraction, stain normalization for H&E images. Best for simple pipelines, dataset preparation, quick tile-based a…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Implement custom annotation-exclusion masks - Adjust filter parameters for artifact removal - Increase small object removal threshold - Apply post-extraction quality filtering",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Lightweight WSI tile extraction and preprocessing. Use for basic slide processing tissue detection, tile extraction, stain normalization for H&E images. Best for simple pipelines, dataset preparation, quick tile-based a…时，用它产出或更新：- Implement custom annotat…",
+  "skill_id": "05740-histolab-a80d1815",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/histolab/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/histolab/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e25c276841b9f3dee638cc60fa7774d7b0509f5273e735e89d0785e31df72ac8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

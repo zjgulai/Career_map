@@ -1,0 +1,22 @@
+{
+  "英文名称": "social",
+  "中文名称": "待补：social",
+  "一句话作用": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T14:44:05+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12790-social-ad40aa1f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/social/SKILL.md",
+  "relative_path": "lute/project/skills/social/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8cc93d9b361622cdb640e87969747b85603bed2d268e923179f8dfb4799ec8c7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

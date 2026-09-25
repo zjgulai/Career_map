@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-epicscore-uncertainty",
+  "中文名称": "认知不确定性共形评分 - 数据稀疏区域自适应区间加宽",
+  "一句话作用": "触发词：共形区间、认知不确定性、稀疏路径置信、区间加宽、小样本转化率。何时不用：只做小样本场景的共形覆盖修正时用「小样本Beta修正共形预测」；只做ROI区间估计时用「共形预测ROI区间估计」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要桑基图中每条边代表一条用户路径转化，观测量差异极大时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12300-p2s-epicscore-uncertainty-16e76375",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-epicscore-uncertainty/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-epicscore-uncertainty/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "065fe1f5b2db68aecaf8d49da58ffe7b507cc0d8389268b2d9d2811fef4a4f8f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

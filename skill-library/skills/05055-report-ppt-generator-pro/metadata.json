@@ -1,0 +1,22 @@
+{
+  "英文名称": "report-ppt-generator-pro",
+  "中文名称": "待补：report-ppt-generator-pro",
+  "一句话作用": "Generate professional PowerPoint presentations from text manuscripts and style examples. Use when users want to create PPT slides from written content, especially for work reports. Triggers: generate PPT, create slides,…",
+  "关键输入": "- 风格示例图：用户提供的一张或多张 PPT 截图 - 可选：用户的风格偏好说明",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:13+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Generate professional PowerPoint presentations from text manuscripts and style examples. Use when users want to create PPT slides from written content, especially for work reports. Triggers: generate PPT, create slides,…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05055-report-ppt-generator-pro-ada639e6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/report-ppt-generator-pro/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/report-ppt-generator-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7530c3e891a3c6f246c719d91bc83e8e6454acb17f7ba59c3538fc0e7d7b6e3a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

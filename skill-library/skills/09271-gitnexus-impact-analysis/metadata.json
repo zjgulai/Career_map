@@ -1,0 +1,22 @@
+{
+  "英文名称": "gitnexus-impact-analysis",
+  "中文名称": "待补：gitnexus-impact-analysis",
+  "一句话作用": "Use when the user wants to know what will break if they change something, or needs safety analysis before editing code. Examples: \"Is it safe to change X?\", \"What depends on this?\", \"What will break?\"",
+  "关键输入": "- \"Is it safe to change this function?\" - \"What will break if I modify X?\" - \"Show me the blast radius\" - \"Who uses this code?\" - Before making non-trivial code changes - Before committing — to understand what your chan…",
+  "关键输出": "Depth Risk Level Meaning ----- ---------------- ------------------------ d=1 WILL BREAK Direct callers/importers d=2 LIKELY AFFECTED Indirect dependencies d=3 MAY NEED TESTING Transitive effects",
+  "最新更新时间": "2026-05-02T23:14:16+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- \"Is it safe to change this function?\" - \"What will break if I modify X?\" - \"Show me the blast radius\" - \"Who uses this code?\" - Before making non-trivial code changes - Before committing — to understand what your chan…时，用它产出或更新：Depth Risk Level Meaning -…",
+  "skill_id": "09271-gitnexus-impact-analysis-575b9b79",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/projects/report02/.agents/skills/gitnexus/gitnexus-impact-analysis/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/projects/report02/.agents/skills/gitnexus/gitnexus-impact-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a4d6e8003c4a822c380b0e81b2fa0d642612236c734a9d51834e362c4be52f33",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

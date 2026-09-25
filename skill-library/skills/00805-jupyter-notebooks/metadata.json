@@ -1,0 +1,22 @@
+{
+  "英文名称": "jupyter-notebooks",
+  "中文名称": "待补：jupyter-notebooks",
+  "一句话作用": "Create, edit, or validate reproducible SQL or Python notebooks. Use for notebooks, SQL/Python scratchpads, reproducible exploration, audit trails, or runnable companions where the analysis should be reviewable or rerunn…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Required section order is present for the notebook mode. - The notebook executes without runtime errors, or execution failure is called out explicitly. - Outputs are present where expected and are not dominated by raw debug dumps. - The tl;dr, results, and…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Create, edit, or validate reproducible SQL or Python notebooks. Use for notebooks, SQL/Python scratchpads, reproducible exploration, audit trails, or runnable companions where the analysis should be reviewable or rerunn…时，用它产出或更新：- Required section order i…",
+  "skill_id": "00805-jupyter-notebooks-1e274e42",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/data-analytics/skills/jupyter-notebooks/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/data-analytics/skills/jupyter-notebooks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8303d33041a5d5ccbfbb5addbb60bd8b0559027f01a586f98b7728e58c4127ed",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

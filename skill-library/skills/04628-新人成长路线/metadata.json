@@ -1,0 +1,22 @@
+{
+  "英文名称": "newcomer-growth-path",
+  "中文名称": "新人成长路线",
+  "一句话作用": "新人 onboarding 学习路线生成。基于经验等级（无基础/有离线/有 Java）出 4 周阶段化学习路线——理论→工具→项目演练→上手实战。提供资料清单、考核点、week 级里程碑、mentor 1on1 问题。先做画像再定路线，避免通用模板水土不服。当用户说\"帮新人定个学习路线\"、\"我刚来怎么入门实时数仓\"、\"onboarding 计划\"时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "新人路线文档 （含）： - 新人画像表（5 维度评级 + 备注） - 4 周路线表（每周主题 / 资料 / 产出 / 考核） - 资料清单（带优先级 P0/P1/P2） - 周末 1on1 问题清单（mentor 用） - 风险提示（哪些维度可能拖慢进度，预案是什么）",
+  "最新更新时间": "2026-09-19T03:38:09+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要新人 onboarding 学习路线生成。基于经验等级（无基础/有离线/有 Java）出 4 周阶段化学习路线——理论→工具→项目演练→上手实战。提供资料清单、考核点、week 级里程碑、mentor 1on1 问题。先做画像再定路线，避免通用模板水土不服。当用户说\"帮新人定个学习路线\"、\"我刚来怎么入门实时数仓\"、\"onboarding 计划\"时触发。时，用它产出或更新：新人路线文档 （含）： - 新人画像表（5 维度评级 + 备注） - 4 周路线表（每周主题 / 资料 / 产出 / 考核） - 资料清…",
+  "skill_id": "04628-newcomer-growth-path-ff750bd2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/newcomer-growth-path/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/newcomer-growth-path/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c650f0b6ed215b69a2cb9de1cc6b8631c4747021097614704065fd255cb6bb54",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

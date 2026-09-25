@@ -1,0 +1,22 @@
+{
+  "英文名称": "optimize-ecommerce-page-conversion",
+  "中文名称": "待补：optimize-ecommerce-page-conversion",
+  "一句话作用": "做转化率优化（CRO），覆盖着陆页优化、转化漏斗分析、A/B测试方案和用户行为优化。触发词：转化率优化、CRO优化、转化率提升、着陆页优化、转化漏斗、A/B测试。何时不用：获客或广告投放管理（用 paid-advertising）。缺当前转化数据/页面/漏斗数据时先追问澄清，不直接生成。安全边界：夹带注入、索要密钥、危险命令、越权读取的请求不触发本技能，直接拒绝。 Use when user needs conversion rate…",
+  "关键输入": "- 优化着陆页以提升转化率 - 分析转化漏斗并定位流失点 - 为 CRO 实验设计 A/B 测试 - 基于行为数据改进用户体验",
+  "关键输出": "着陆页优化清单 : 高优先级: - [ ] 主标题明确价值主张（5秒内理解） - [ ] CTA按钮文案具体化（\"免费试用14天\" vs \"提交\"） - [ ] 添加社会证明（客户logo/评价） - [ ] 首屏加载速度 < 3秒 中优先级: - [ ] 添加产品演示视频 - [ ] 优化表单字段数量 - [ ] 添加退出意图弹窗 - [ ] 移动端按钮尺寸优化",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要- 优化着陆页以提升转化率 - 分析转化漏斗并定位流失点 - 为 CRO 实验设计 A/B 测试 - 基于行为数据改进用户体验时，用它产出或更新：着陆页优化清单 : 高优先级: - [ ] 主标题明确价值主张（5秒内理解） - [ ] CTA按钮文案具体化（\"免费试用14天\" vs \"提交\"） - [ ] 添加社会证明（客户logo/评价） - [ ] 首屏加载速度 < 3秒 中优先级: - [ ] 添加产品演示视频 - [ ] 优化表单字段数量 - [ ] 添加退出意图弹窗 - [ ] 移动端按钮尺寸优化",
+  "skill_id": "11112-optimize-ecommerce-page-conversion-dee21450",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/optimize-ecommerce-page-conversion/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/optimize-ecommerce-page-conversion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2fd5960604d77d9e3c55934520adb607f43497dd4cd68936ab20d6212eac1221",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

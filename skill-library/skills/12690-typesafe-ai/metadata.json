@@ -1,0 +1,22 @@
+{
+  "英文名称": "typesafe-ai",
+  "中文名称": "待补：typesafe-ai",
+  "一句话作用": "Build AI-powered software with TypeSafe: small units of AI intelligence you can use like programming primitives. Its System One models, including Jev, turn natural language and application state into typed judgments and…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T23:38:00+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Build AI-powered software with TypeSafe: small units of AI intelligence you can use like programming primitives. Its System One models, including Jev, turn natural language and application state into typed judgments and…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12690-typesafe-ai-85b1b469",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Sanbao/.agents/skills/typesafe-ai/SKILL.md",
+  "relative_path": "lute/project/Sanbao/.agents/skills/typesafe-ai/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "71ea90d7906c6554c4f4c460ef7361b2d26f59116ccdae986dc6d997b9389f52",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

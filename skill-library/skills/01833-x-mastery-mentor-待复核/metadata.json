@@ -1,0 +1,22 @@
+{
+  "英文名称": "examples:x-mastery-mentor",
+  "中文名称": "待补：examples:x-mastery-mentor",
+  "一句话作用": "�}",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T16:16:26+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要�}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01833-examples-x-mastery-mentor-e334e2f1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/huashu-nuwa/examples/x-mastery-mentor/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/huashu-nuwa/examples/x-mastery-mentor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "16a4ac2a770369f2df35b546ae9619e17e74dbc810645aa98ee516847d0b70e8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-slide",
+  "中文名称": "待补：create-slide",
+  "一句话作用": "Use this skill when the user wants to create, draft, author, or generate new slides / a presentation in this open-slide repo. Triggers on phrases like \"make slides about X\", \"create a presentation\", \"draft slides for\",…",
+  "关键输入": "Before writing any code, lock in the four key style decisions below via AskUserQuestion. They shape every downstream choice (layout, type scale, asset needs, motion code), so locking them in up front avoids rework. Only skip a question when the user's origina…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-07T12:40:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when the user wants to create, draft, author, or generate new slides / a presentation in this open-slide repo. Triggers on phrases like \"make slides about X\", \"create a presentation\", \"draft slides for\",…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09240-create-slide-c8a9358f",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/agent_tools/openslider/open-slide/packages/cli/template/.agents/skills/create-slide/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/agent_tools/openslider/open-slide/packages/cli/template/.agents/skills/create-slide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d3f452ec8b2f3535fc1a0ce499b5b5e7770760afabf553febeb7a9c0b0a6c29",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

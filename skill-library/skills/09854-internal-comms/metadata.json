@@ -1,0 +1,22 @@
+{
+  "英文名称": "internal-comms",
+  "中文名称": "待补：internal-comms",
+  "一句话作用": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status…",
+  "关键输入": "To write internal communications, use this skill for: - 3P updates (Progress, Plans, Problems) - Company newsletters - FAQ responses - Status reports - Leadership updates - Project updates - Incident reports",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-25T23:10:46+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要To write internal communications, use this skill for: - 3P updates (Progress, Plans, Problems) - Company newsletters - FAQ responses - Status reports - Leadership updates - Project updates - Incident reports时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09854-internal-comms-79cab445",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills-temp/claude skills/skills/internal-comms/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills-temp/claude skills/skills/internal-comms/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

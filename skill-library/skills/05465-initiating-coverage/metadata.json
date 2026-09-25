@@ -1,0 +1,22 @@
+{
+  "英文名称": "initiating-coverage",
+  "中文名称": "待补：initiating-coverage",
+  "一句话作用": "Create institutional-quality equity research initiation reports through a 5-task workflow. Tasks must be executed individually with verified prerequisites - (1) company research, (2) financial modeling, (3) valuation an…",
+  "关键输入": "Executing a single task: Completing full report (requires 5 separate requests):",
+  "关键输出": "DELIVER ONLY THE SPECIFIED OUTPUTS. DO NOT CREATE EXTRA DOCUMENTS. Each task specifies exact deliverables. Do NOT create: - ❌ \"Completion summaries\" - ❌ \"Executive summaries\" - ❌ \"Quick reference guides\" - ❌ \"Next steps documents\" - ❌ \"Task completion reports\"",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Executing a single task: Completing full report (requires 5 separate requests):时，用它产出或更新：DELIVER ONLY THE SPECIFIED OUTPUTS. DO NOT CREATE EXTRA DOCUMENTS. Each task specifies exact deliverables. Do NOT create: - ❌ \"Completion summaries\" - ❌ \"Executive sum…",
+  "skill_id": "05465-initiating-coverage-75eb52cc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/initiating-coverage/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/initiating-coverage/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c6ee05ea42bd28b077095d5f3aa68fec490d95e436e08266668dbb2f63f7830",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

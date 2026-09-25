@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-text-to-edit-video-ad",
+  "中文名称": "母婴视频广告智能剪辑",
+  "一句话作用": "触发词：自然语言剪辑、素材库匹配、剪辑方案生成、多平台适配、素材复用。何时不用：素材库里没有可用片段时无法执行指令式剪辑；从零构思的创意广告片不用本技能。安全边界：字幕与标签宣称（如皮肤科测试）须有认证依据；音乐须免版权或已授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营提交\"把产品视频第 5-8 秒换成使用场景\"的需求，人工剪辑需 2 天、外包成本 $500+——Text-to-Edit 视频编辑将自然语言指令直接执行，从\"需求到成品\"缩短到 10 分钟，广告素材迭代成本降低 90%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03941-p2s-text-to-edit-video-ad-5f527989",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-text-to-edit-video-ad/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-text-to-edit-video-ad/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d44e87b64e6501baeb357b7d56b07838319ffc6f947f8e85a0316ce385383d8b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

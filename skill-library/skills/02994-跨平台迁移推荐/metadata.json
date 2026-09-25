@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-platform-transfer-rec",
+  "中文名称": "跨平台迁移推荐",
+  "一句话作用": "触发词：跨平台迁移、冷启动推荐、用户映射、偏好迁移、首推 CTR。何时不用：要解决的是爆款挤压长尾的曝光结构时用「推荐去偏」；要优化搜索排序时用「个性化搜索排序」。安全边界：跨平台数据使用需用户授权，映射须单向哈希、不存明文。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"TikTok Shop新店冷启动首推CTR仅3%\"——跨平台用户embedding迁移将已匹配用户CTR提升至11%、冷启动期缩短60%，年化增量LTV约120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02994-p2s-cross-platform-transfer-rec-f067b28f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-platform-transfer-rec/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-platform-transfer-rec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b5456da0451cfbfb1dd6ace281db58ba7b9c24c46d6b68189360747dea0c899b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

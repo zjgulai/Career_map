@@ -1,0 +1,22 @@
+{
+  "英文名称": "architecture-lint",
+  "中文名称": "待补：architecture-lint",
+  "一句话作用": "Detect clean architecture layer violations and check dependency rule violations. Verify dependency direction of events→facades→services→repository.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:12:17+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Detect clean architecture layer violations and check dependency rule violations. Verify dependency direction of events→facades→services→repository.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04729-architecture-lint-1ce21225",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/architecture-lint/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/architecture-lint/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "594b846d6672c55618c586732cf9c8d8f26eb0d8abd34538dd79a79dff99ae8f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-adaptive-forecast-accuracy-optimization",
+  "中文名称": "自适应预测精准化：滚动误差修正驱动库存精度",
+  "一句话作用": "触发词：预测漂移、滚动误差修正、MAPE优化、自适应预测、竞品冲击。何时不用：无历史销售的新品用「新品冷启动预测」，要按口径体系衡量预测精度的用「预测准确率MAPE体系」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当促销季或竞品冲击导致需求模式骤变时，静态预测模型会持续积累系统性误差——自适应滚动误差修正实时检测偏移并调整参数，将 MAPE 降低 15-25%，让库存精准度随环境变化持续保优。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11322-p2s-adaptive-forecast-accuracy-optimization-2047d7e3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-adaptive-forecast-accuracy-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-adaptive-forecast-accuracy-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8065e9c2c4f6fba913f88aa8999cb389eb5ce48fd6e973121c33fea34ae6642",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

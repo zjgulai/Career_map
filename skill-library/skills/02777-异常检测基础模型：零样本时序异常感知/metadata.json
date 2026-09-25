@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-anomaly-detection-foundation-model",
+  "中文名称": "异常检测基础模型：零样本时序异常感知",
+  "一句话作用": "触发词：时序异常检测、零样本异常感知、SKU 指标巡检、异常优先级排序、缺货预警。何时不用：只判断自然流量骤降而广告流量正常这类单点突变时用「Listing 压制检测」；只判断核心词是否跌出 Page1 并触发恢复动作时用「排名跌出自动恢复」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营每天需手动检查35个SKU×8个指标共280个时序数据点是否异常——时序基础模型零样本异常检测1小时内自动发现全域异常按优先级排队处理，提前发现缺货/竞品攻击/点击欺诈年化挽回20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02777-p2s-anomaly-detection-foundation-model-15e5d25e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-anomaly-detection-foundation-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-anomaly-detection-foundation-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a18677d7706cd23e0147bfbc70899ee7b12482649fa8cba88fe46da13433d59",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

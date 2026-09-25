@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-phantom-product-showcase-i2v",
+  "中文名称": "商品主体一致性视频生成）",
+  "一句话作用": "触发词：图生视频、商品旋转展示、主体一致性、Listing 视频、变体批量化。何时不用：需要展示真实使用过程与真人演示时静态图生视频不够用；素材已有实拍视频用剪辑类技能。安全边界：生成视频不得改变商品真实外观与颜色，不得虚构功能演示。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要商品运营面临静图卖点展示弱——I2V将详情页停留时长从45秒提到72秒，年化增收20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11768-p2s-phantom-product-showcase-i2v-f1fe7ac1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-phantom-product-showcase-i2v/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-phantom-product-showcase-i2v/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "584630829549a5a0b89fad77a0ad42ae1390d821f200215b64022842419ca59f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

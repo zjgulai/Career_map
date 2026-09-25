@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-property-graph-query-optimization",
+  "中文名称": "属性图查询工程",
+  "一句话作用": "触发词：属性图查询、Cypher 优化、图索引、最短路径、查询超时。何时不用：图谱嵌入的增量更新走「增量 LoRA 图谱嵌入」；向量检索索引优化走「HNSW 向量索引工程」。安全边界：查询优化不得绕过数据权限与脱敏规则，子图导出须限定在授权范围内。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"知识图谱Skill路径查询卡顿需要8秒用户直接放弃\"——属性图索引+APOC优化将3跳查询从8秒降至200ms，用户体验从卡顿变为实时响应时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12079-p2s-property-graph-query-optimization-b3d8fd3e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-property-graph-query-optimization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-property-graph-query-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f1b429dc4270102cb9b12ebfc6c27ad30c00f8f8c0ec810941dccf25c2673d62",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

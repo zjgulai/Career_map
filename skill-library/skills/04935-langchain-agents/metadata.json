@@ -1,0 +1,22 @@
+{
+  "英文名称": "langchain-agents",
+  "中文名称": "待补：langchain-agents",
+  "一句话作用": "Expert guidance for building LangChain agents with proper tool binding, memory, and configuration. Use when creating agents, configuring models, or setting up tool integrations in LangConfig.",
+  "关键输入": "1. Agent loops infinitely - Add stopping criteria to system prompt - Set max retries and recursion limit - Check if tools are returning useful results 2. Agent doesn't use tools - Verify tools are in native tools list",
+  "关键输出": "When responding, always: - [Format requirement 1] - [Format requirement 2]",
+  "最新更新时间": "2026-09-19T03:57:43+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要1. Agent loops infinitely - Add stopping criteria to system prompt - Set max retries and recursion limit - Check if tools are returning useful results 2. Agent doesn't use tools - Verify tools are in native tools list时，用它产出或更新：When responding, always: - [F…",
+  "skill_id": "04935-langchain-agents-17510386",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/langchain-agents/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/langchain-agents/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "781e931494fc067b18eb86fb0f789e9f9d047dbd17bf2c03e44af17138e8482a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "gantt-chart-builder",
+  "中文名称": "交互式甘特图与关键路径分析",
+  "一句话作用": "根据任务列表和依赖关系生成交互式HTML甘特图，支持关键路径分析（CPM），可视化项目时间线、依赖关系和可延迟的浮动时间。当用户提到甘特图、项目时间线、关键路径、任务排期、项目进度图、依赖关系可视化、工期计算或直接说“帮我排一下项目时间”、“生成一个项目进度图”、“分析一下哪些任务是关键路径”时触发。",
+  "关键输入": "JSON 对象，包含以下字段： 字段 必填 类型 说明 ------ ------ ------ ------ project 否 string 项目标题，默认\"项目甘特图\" start date 否 string YYYY-MM-DD 格式，可被 CLI --start-date 覆盖 tasks 是 array 任务列表 tasks[].id 是 string 任务唯一标识 tasks[].name 是 string 任务名称",
+  "关键输出": "生成的 HTML 文件是完全自包含的（无外部依赖），包含以下交互功能： - 甘特图可视化 ：任务条形图，横轴为时间，纵轴为任务 - 关键路径高亮 ：红色标记关键任务，蓝色标记非关键任务 - 依赖关系箭头 ：SVG 绘制的依赖连线，关键依赖用红色加粗 - 浮动时间显示 ：橙色半透明区域展示任务可延迟空间 - 悬停详情 ：鼠标悬停显示完整的 CPM 分析数据 - 任务高亮 ：点击任务可高亮其直接依赖和后续任务 - 缩放控制 ：滑块调整时间轴精度 - 关键路径筛选 ：一键切换仅显示关键路径任务",
+  "最新更新时间": "2026-09-14T00:05:35+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要根据任务列表和依赖关系生成交互式HTML甘特图，支持关键路径分析（CPM），可视化项目时间线、依赖关系和可延迟的浮动时间。当用户提到甘特图、项目时间线、关键路径、任务排期、项目进度图、依赖关系可视化、工期计算或直接说“帮我排一下项目时间”、“生成一个项目进度图”、“分析一下哪些任务是关键路径”时触发。时，用它产出或更新：生成的 HTML 文件是完全自包含的（无外部依赖），包含以下交互功能： - 甘特图可视化 ：任务条形图，横轴为时间，纵轴为任务 - 关键路径高亮 ：红色标记关键任务，蓝色标记非关键任务 -…",
+  "skill_id": "10583-gantt-chart-builder-ec13964a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gantt-chart-builder/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gantt-chart-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "59ce50b5807bb41a96d2ba1cf809b58117d36dec5b5190b5ff0aba828e3057fe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

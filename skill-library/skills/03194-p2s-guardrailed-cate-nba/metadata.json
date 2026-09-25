@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-guardrailed-cate-nba",
+  "中文名称": "待补：p2s-guardrailed-cate-nba",
+  "一句话作用": "触发词：增量名单、CATE、预算护栏、食人化防护、触达频次。何时不用：只需要CATE排序或人群画像、没有预算与频次约束时不用本技能（改走因果森林/Uplift类）。安全边界：只产出带约束的行动名单，不自动发券或触达；预算、频次与高净值保护阈值须由业务方给定。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务问题 数据库里 80 万 90 天未下单的沉默用户，运营想全量发 50 元满减券激活，但财务要求总促销预算不超过 1 万美元，且担心本来明天就要下单的老客\"白吃\"优惠时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03194-p2s-guardrailed-cate-nba-2c391c4e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-guardrailed-cate-nba/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-guardrailed-cate-nba/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e736df4eb556eae96bb84642afce24531b06cdf60ea87b4c80dd4748e1e48c29",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

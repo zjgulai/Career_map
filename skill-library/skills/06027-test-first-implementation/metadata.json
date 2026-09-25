@@ -1,0 +1,22 @@
+{
+  "英文名称": "test-first-implementation",
+  "中文名称": "待补：test-first-implementation",
+  "一句话作用": "Implement behavior with a red-green-refactor loop, observable tests, and small vertical slices. Use when the user asks for TDD, test-first work, regression-first fixes, or a feature that needs clear behavior before impl…",
+  "关键输入": "- User story, acceptance criteria, bug reproduction, or expected behavior. - Existing tests, test helpers, fixtures, and package scripts. - docs/agents/validation.md when present. - Nearby production code only after selecting the behavior boundary.",
+  "关键输出": "Return: 1. Behavior slice selected 2. Test boundary and why it was chosen 3. Red result 4. Implementation summary 5. Green result 6. Follow-up validation 7. Remaining risks",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks for TDD, red-green-refactor, test-first implementation, or regression-first work. - A feature can be expressed as observable behavior, API output, UI state, CLI output, or integration behavior. - A bug f…时，用它产出或更新：Return: 1. Behavior slice…",
+  "skill_id": "06027-test-first-implementation-2370b2dd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/engineering-workflows/test-first-implementation/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/engineering-workflows/test-first-implementation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65ff574e437232a6bbb7db7417962b4d77b2f779c89c00b7d0e75b504b121fc1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

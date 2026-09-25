@@ -1,0 +1,22 @@
+{
+  "英文名称": "pestle-analysis",
+  "中文名称": "待补：pestle-analysis",
+  "一句话作用": "Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecti…",
+  "关键输入": "- Industry and market context - Geographic market or region(s) - Product or business type - Current strategic challenges or questions - Any known regulatory or market changes",
+  "关键输出": "1. For each PESTLE category, identify 3-5 relevant factors 2. Assess impact on product/business (High, Medium, Low) 3. Assess probability or likelihood (High, Medium, Low) 4. Prioritize factors by impact x probability 5. Develop strategic responses: - Which f…",
+  "最新更新时间": "2026-09-16T00:16:56+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecti…时，用它产出或更新：1. For each PESTLE categor…",
+  "skill_id": "11205-pestle-analysis-ad126278",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/pestle-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/pestle-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b264055b74a8632ad41edf51766a56c4f20c7e90a4d16603915f4e17194c857",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

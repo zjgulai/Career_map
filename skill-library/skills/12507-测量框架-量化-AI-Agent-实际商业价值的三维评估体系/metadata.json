@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-roi-measurement-framework",
+  "中文名称": "测量框架 量化 AI Agent 实际商业价值的三维评估体系",
+  "一句话作用": "触发词：Agent ROI、三维评估、对照组实验、Token 成本、净收益量化。何时不用：要衡量搜索等单一渠道的利润贡献用「搜索流量财务归因」；要评估促销活动的因果增量用「促销 ROI 前后对比」。安全边界：对照组须预留比例并说明机会成本；调价类 Agent 的下限须硬编码为成本加毛利底线，日志留存备查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要CEO面临\"AI Agent投入了几十万但不知道真正带来了多少商业价值ROI算不清楚\"——三维归因框架（成本节省/收入增长/决策加速）将Agent ROI可见度从0提升至量化仪表盘，定价Agent净ROI达689%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12507-p2s-agent-roi-measurement-framework-bfdd6fac",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-agent-roi-measurement-framework/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-agent-roi-measurement-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "988531986e0125a6563f1b04f9d47c881a8137758065d8c3b5dfc65a19c8a387",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ppc-rule-automation-engine",
+  "中文名称": "规则自动化引擎：条件触发的广告出价智能运营",
+  "一句话作用": "触发词：规则引擎、条件触发、高ACOS降价、无转化暂停、冷却与变更上限。何时不用：没有关键词维度每日报告或未设目标ACOS时规则无法判定；需要按转化率估计最优出价走PPC出价自动化。安全边界：改价须受冷却小时数与每日最大变更次数约束，须获平台广告API授权并留存执行日志。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要中型卖家每周花6小时手动调整200个关键词出价规则不一致还有遗漏——条件触发规则引擎7×24小时自动执行高ACOS降价/无转化暂停/低曝光提价，ACOS降低15-20%运营时间节省80%年化20-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11774-p2s-ppc-rule-automation-engine-e0c84ff6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ppc-rule-automation-engine/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ppc-rule-automation-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "45fa208de0f7081d69203abd19fd6eb0391c1552107d10ac38ce916724afc2a9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

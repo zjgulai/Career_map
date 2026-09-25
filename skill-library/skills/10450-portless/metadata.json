@@ -1,0 +1,22 @@
+{
+  "英文名称": "portless",
+  "中文名称": "待补：portless",
+  "一句话作用": "Set up and use portless for named local dev server URLs (e.g. https://myapp.localhost instead of http://localhost:3000). Use when integrating portless into a project, configuring dev server names, setting up the local p…",
+  "关键输入": "- Node.js 20+ - macOS, Linux, or Windows - openssl (for --https cert generation; ships with macOS and most Linux distributions; on Windows, install via winget install -e --id ShiningLight.OpenSSL.Dev or use the copy bundled with Git for Windows) - tailscale C…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-15T14:47:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Set up and use portless for named local dev server URLs (e.g. https://myapp.localhost instead of http://localhost:3000). Use when integrating portless into a project, configuring dev server names, setting up the local p…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10450-portless-5162e1f9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/portless/skills/portless/SKILL.md",
+  "relative_path": "lute/project/Agent/product/portless/skills/portless/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dbddc644532bf9927b96f61cf80f664ddab5a371fbdcab1d4b2647ac902cfec1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

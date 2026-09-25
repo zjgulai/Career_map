@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-subscription-renewal-intervention-gate",
+  "中文名称": "订阅到期前14天沉默用户自动触发个性化续订挽回",
+  "一句话作用": "触发词：订阅续费挽回、到期前触达、沉默分层、续订折扣门控、流失拦截。何时不用：一次性买断客户没有续订概念，改用复购时点或裂变类技能；本技能只面向有到期日的订阅制业务。安全边界：邮件发送前须取得用户同意并提供一键退订；折扣信息须标注适用人群，避免虚假宣传。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"订阅用户到期前默默流失\"——到期前14天+近30天无登录自动触发续订挽回序列将续订率从64%提升至78%，年化保护订阅收入45万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11829-p2s-subscription-renewal-intervention-gate-4e0cc62f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-subscription-renewal-intervention-gate/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-subscription-renewal-intervention-gate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b41b87fdd3d26fb0e9b4c514db209200afa1863b1a0fe2e15f3af9ad51102ee8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

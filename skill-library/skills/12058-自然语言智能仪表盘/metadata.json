@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nl2dashboard-automation",
+  "中文名称": "自然语言智能仪表盘）",
+  "一句话作用": "触发词：自然语言问数、图表自动生成、多市场对比、趋势线、BI需求秒级响应。何时不用：指标口径还没统一时先做数仓规范化再上问数；要归因分析而非出图时用 SHAP 或分析类技能。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要运营询问\"美德两国周销量对比加趋势线\"需等 BI 工程师排期 3-5 天——NL2Dashboard 将自然语言直接转为可视化图表，BI 需求响应从天级压缩到秒级，节省开发人力 15-25 万元/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12058-p2s-nl2dashboard-automation-886924cc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-nl2dashboard-automation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-nl2dashboard-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de2ba0ffd011bfe4c110357ac8bacef9d44247f2f161095ca7563ddd034cec29",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

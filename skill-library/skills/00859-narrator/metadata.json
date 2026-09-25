@@ -1,0 +1,22 @@
+{
+  "英文名称": "narrator",
+  "中文名称": "待补：narrator",
+  "一句话作用": "Activate when the user explicitly names the narrator skill or requests production-ready narration in either case: (1) numbered takes fitted to fixed video windows, or (2) one continuous long-form story read in a locked…",
+  "关键输入": "Required input: the lines to speak (numbered, in order) and the voice pair voice id + voice type (preset element) chosen by the caller. Optional input: target window per line (default 9.4–9.8s of speech for a 10s block), delivery direction, per-line mood, lan…",
+  "关键输出": "Required input: the lines to speak (numbered, in order) and the voice pair voice id + voice type (preset element) chosen by the caller. Optional input: target window per line (default 9.4–9.8s of speech for a 10s block), delivery direction, per-line mood, lan…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Activate when the user explicitly names the narrator skill or requests production-ready narration in either case: (1) numbered takes fitted to fixed video windows, or (2) one continuous long-form story read in a locked…时，用它产出或更新：Required input: the lines t…",
+  "skill_id": "00859-narrator-7febef51",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/higgsfield/skills/narrator/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/higgsfield/skills/narrator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "847a2f00c153dc9a7ddac809b022839e12f33cc384ae605a306e2aa39843f5e0",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

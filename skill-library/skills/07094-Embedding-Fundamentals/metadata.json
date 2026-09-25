@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Embedding-Fundamentals",
+  "中文名称": "待补：Embedding Fundamentals",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 43.8, \"best\": 64.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T03:03:53.883202\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 61.8, \"best\": 83.0, \"mutated\": \"D6 cod…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-05T18:38:20+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 43.8, \"best\": 64.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T03:03:53.883202\"} {\"round\": 0, \"status\": \"collapsed revert\", \"score\": 61.8, \"best\": 83.0, \"mutated\": \"D6 cod…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07094-skill-embedding-fundamentals-76abe90c",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Embedding-Fundamentals.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Embedding-Fundamentals.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "93b977d13b3021716213448472a992b6a953825d17008f938e9d412205c4d399",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-knowledge-conflict-detection-resolution",
+  "中文名称": "知识冲突检测与消解",
+  "一句话作用": "触发词：知识冲突、NLI 检测、条件声明、参数矛盾、一致性评分。何时不用：要判定回答中的事实是否编造走三元组幻觉检测；要清理重复文档走去重技能。安全边界：涉及用户评论的数据须脱敏处理，不得关联个人身份信息，须符合数据最小化原则。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要知识库运营面临\"不同论文对同一参数给出矛盾值导致Agent输出矛盾建议\"——三层冲突检测将参数声明冲突检出率达到91%，知识库一致性评分从5.2→8.4分时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03293-p2s-knowledge-conflict-detection-resolution-d2b50b58",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-knowledge-conflict-detection-resolution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-knowledge-conflict-detection-resolution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0c887bc137a2e36993bf74f8590f603a8f6305099b6d5549f42ccd290a9e8f10",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-workflow-standup-report",
+  "中文名称": "日程待办摘要工作流",
+  "一句话作用": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。",
+  "关键输入": "仅支持 user 身份 。执行前确保已授权：",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要- \"今天有什么安排\" / \"今天的日程和待办\" - \"明天有什么会\" / \"明日日程与未完成任务\" - \"帮我看看今天要做什么\" / \"早报摘要\" - \"开工摘要\" / \"standup report\" - \"这周还有哪些安排\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05274-lark-workflow-standup-report-4e8cc3d5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-workflow-standup-report/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-workflow-standup-report/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a283de746e65f97d7d25c3b9e351c2e5c16702be81c0f004d5be718c50994690",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

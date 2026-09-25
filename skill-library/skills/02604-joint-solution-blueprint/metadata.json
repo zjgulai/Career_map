@@ -1,0 +1,22 @@
+{
+  "英文名称": "joint-solution-blueprint",
+  "中文名称": "待补：joint-solution-blueprint",
+  "一句话作用": "Template for documenting co-built solutions, integrations, and GTM motions 触发词：联合方案文档、合作共建方案、集成方案、GTM 协同、方案蓝图。",
+  "关键输入": "- Launching or refreshing a co-built integration or packaged service. - Equipping field teams with architecture, value props, and proof points. - Coordinating enablement across product, marketing, and partner teams.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T00:32:56+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Launching or refreshing a co-built integration or packaged service. - Equipping field teams with architecture, value props, and proof points. - Coordinating enablement across product, marketing, and partner teams.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02604-joint-solution-blueprint-13eb8208",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/joint-solution-blueprint/SKILL.md",
+  "relative_path": "lute/.dsh/skills/joint-solution-blueprint/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04624d13ba8260850d3843b5865d073807440de32cb363e7d688988eb37f7149",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

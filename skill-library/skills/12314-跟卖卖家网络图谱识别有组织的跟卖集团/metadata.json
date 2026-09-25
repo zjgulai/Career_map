@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hijacker-seller-network-analysis",
+  "中文名称": "跟卖卖家网络图谱识别有组织的跟卖集团",
+  "一句话作用": "触发词：跟卖集团识别、卖家网络图谱、社群发现、共享图片取证、批量举报。何时不用：只做单次 Buy Box 劫持的分钟级告警时用「Buy Box 劫持实时监控」；只给单个 ASIN 算卖家风险分时用「Listing 劫持网络检测」。安全边界：只输出集团识别与证据整理，不代平台举报、不作法律定性。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌方面临\"跟卖处理完一个3天后换号再来无法从根源解决\"——跟卖集团图谱分析一次性向Amazon举报12人集团，Buy Box损失率从35%降至8%，年化保护GMV 50-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12314-p2s-hijacker-seller-network-analysis-1ef2ec6e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-hijacker-seller-network-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-hijacker-seller-network-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f22a47060301726487731430863656ca2426bda0c64ff59bcd6492f3f02d95b7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

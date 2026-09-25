@@ -1,0 +1,22 @@
+{
+  "英文名称": "lean-canvas",
+  "中文名称": "待补：lean-canvas",
+  "一句话作用": "Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new…",
+  "关键输入": "- Product or feature description - Target customer segment(s) - Market context and problem space - Any available metrics or business constraints",
+  "关键输出": "8. Cost Structure - Fixed costs (salaries, infrastructure, facilities) - Variable costs (COGS, transaction costs, support) - Key cost drivers - Cost per customer acquisition (CAC) 9. Key Metrics - Activation: How do users get value quickly? - Retention: How m…",
+  "最新更新时间": "2026-09-16T00:16:53+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new…时，用它产出或更新：8. Cost Structure - Fixed c…",
+  "skill_id": "11203-lean-canvas-ef88f2b6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/lean-canvas/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-product-strategy/skills/lean-canvas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5bafe7a33cf57631937fa863ebc6c3d3b0679808a6e5b5fa04b70be615fbc240",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

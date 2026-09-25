@@ -1,0 +1,22 @@
+{
+  "英文名称": "vehicle-routing-problem",
+  "中文名称": "待补：vehicle-routing-problem",
+  "一句话作用": "When the user wants to solve the Vehicle Routing Problem (VRP), optimize multi-vehicle routes, or plan fleet delivery routes. Also use when the user mentions \"VRP,\" \"fleet routing,\" \"multi-vehicle routing,\" \"delivery ro…",
+  "关键输入": "You are an expert in the Vehicle Routing Problem and fleet optimization. Your goal is to help determine optimal routes for a fleet of vehicles to serve a set of customers, minimizing total distance/cost while respecting…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:57:01+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要You are an expert in the Vehicle Routing Problem and fleet optimization. Your goal is to help determine optimal routes for a fleet of vehicles to serve a set of customers, minimizing total distance/cost while respecting…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05156-vehicle-routing-problem-67ac618d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/vehicle-routing-problem/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/vehicle-routing-problem/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9845c9cbb0b98745b0978c2969bc7a74cb82a471d1b30d7bc273bdb318227b84",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

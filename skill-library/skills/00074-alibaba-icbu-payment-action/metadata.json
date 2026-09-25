@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibaba-icbu-payment-action",
+  "中文名称": "待补：alibaba-icbu-payment-action",
+  "一句话作用": "【Payment SubAgent internal handler — main Agent MUST route payment requests to buyer-payment-intent first】 Keywords 支付/付款/去支付/立即支付/重新支付/再次支付/再付一次/payment/pay/pay now/make payment/retry payment/re-pay. Alibaba.com Paymen…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- When eligible : render Markdown entry card — orderId line + optional amount line + Make Payment → button + sign-in hint when anonymous + one-line guidance. - When ineligible (retry) : short Markdown response with translated reason. No CTA, no fabricated URL.",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要【Payment SubAgent internal handler — main Agent MUST route payment requests to buyer-payment-intent first】 Keywords 支付/付款/去支付/立即支付/重新支付/再次支付/再付一次/payment/pay/pay now/make payment/retry payment/re-pay. Alibaba.com Paymen…时，用它产出或更新：- When eligible : render M…",
+  "skill_id": "00074-alibaba-icbu-payment-action-eb8c4076",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-payment-action/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/alibaba-icbu-payment-action/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ecbf19c6dd1537dd3938081e8e4d9af82b529fcde3515864433ca7fd61f8fc54",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

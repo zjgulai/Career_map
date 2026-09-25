@@ -1,0 +1,3874 @@
+{
+  "trial_id": "B01-TRIAL-02",
+  "generated_on": "2026-09-23",
+  "sample_classification": "人工标注的合成受控复测样本",
+  "labeling_boundary": "标注由本轮测试设计者定义，尚非独立盲评；所有数据均为合成文本和合成量级。",
+  "business_question": "在不触碰真实消费者或经营数据的前提下，D01 与 D02 的候选修复能否正确保留局部语义、问题/属性边界和未覆盖主题？",
+  "scope": "本轮只检验候选适配器对 60 条评论和 48 条购买前搜索表达的合成标注是否一致。它不测模型泛化、真实数据接入、样本代表性、市场规模或业务价值。",
+  "baseline": {
+    "trial_id": "B01-TRIAL-01",
+    "d01_exact": "14/24（58.3%）",
+    "d02_exact": "15/18（83.3%）",
+    "meaning": "原始只读实现的失败基线；本轮不修改该实现。"
+  },
+  "original_read_only_implementations": {
+    "D01": {
+      "path": "/Users/lute/.dsh/skills/p2s-voc-aspect-sentiment-extraction/references/implementation.py",
+      "sha256": "cb724d3de888bbe13129574d5f440ea439c3cf511a215379d386ccf23a84dba0"
+    },
+    "D02": {
+      "path": "/Users/lute/.dsh/skills/p2s-search-voc-signal-loop/references/implementation.py",
+      "sha256": "922d6ecec7219e330ce9b2536890aa8b48ad1fb42b68ae50d46da15a169ddf34"
+    }
+  },
+  "candidate_implementations": {
+    "D01": {
+      "path": "/Users/lute/project/Career/skill-library/candidates/b01_trial_02/controlled_d01_adapter.py",
+      "sha256": "6acf500aa97146cab391caa20981f30ffea86327cff63cf2cf58df2d274c0c5f"
+    },
+    "D02": {
+      "path": "/Users/lute/project/Career/skill-library/candidates/b01_trial_02/controlled_d02_adapter.py",
+      "sha256": "2ff3be670626fb16b614fbe221f37875d44d6e3543dfcdb7c39a6fb968d4b7dc"
+    }
+  },
+  "d01": {
+    "rows": [
+      {
+        "review_id": "R001",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "噪音",
+            "opinion": "loud",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The noise is loud enough that I would not"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "安静使用"
+      },
+      {
+        "review_id": "R002",
+        "overall_sentiment": "positive",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "噪音",
+            "opinion": "quiet",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "It is quiet and discreet enough for a share"
+          },
+          {
+            "aspect": "尺寸重量",
+            "opinion": "compact",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "fice. I love the compact size."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "安静使用"
+      },
+      {
+        "review_id": "R003",
+        "overall_sentiment": "neutral",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "吸力",
+            "opinion": "weak",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The suction feels weak after fifteen minute"
+          },
+          {
+            "aspect": "充电",
+            "opinion": "good",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "s, although the battery is good."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "吸力持续性"
+      },
+      {
+        "review_id": "R004",
+        "overall_sentiment": "positive",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "吸力",
+            "opinion": "strong",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "Strong suction helped me finish quickly and th"
+          },
+          {
+            "aspect": "充电",
+            "opinion": "quickly",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "quickly and the charging cable is easy to use."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "吸力持续性"
+      },
+      {
+        "review_id": "R005",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "舒适度",
+            "opinion": "painful",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "comfortable and painful by the end of the session."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "佩戴舒适度"
+      },
+      {
+        "review_id": "R006",
+        "overall_sentiment": "positive",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "尺寸重量",
+            "opinion": "portable",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "e small pump is portable for travel."
+          },
+          {
+            "aspect": "舒适度",
+            "opinion": "comfortable",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "e flange fit is comfortable and the small pump is portable "
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "佩戴舒适度"
+      },
+      {
+        "review_id": "R007",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "充电",
+            "opinion": "poor",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "Battery life is poor and charging is slow du"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "续航与充电"
+      },
+      {
+        "review_id": "R008",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "充电",
+            "opinion": "great",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "Battery life is great. It lasts a full workd"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "续航与充电"
+      },
+      {
+        "review_id": "R009",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "易用性",
+            "opinion": "complicated",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "licated and the instructions made assembly difficult."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R010",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "易用性",
+            "opinion": "easy",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The setup is easy and simple even when I "
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R011",
+        "overall_sentiment": "negative",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "噪音",
+            "opinion": "loud",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "ll makes a loud sound."
+          },
+          {
+            "aspect": "价格",
+            "opinion": "expensive",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The price feels expensive for something that still makes "
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "安静使用"
+      },
+      {
+        "review_id": "R012",
+        "overall_sentiment": "positive",
+        "tuple_count": 3,
+        "tuples": [
+          {
+            "aspect": "噪音",
+            "opinion": "quiet",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "e because it is quiet and easy to use."
+          },
+          {
+            "aspect": "易用性",
+            "opinion": "easy",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "it is quiet and easy to use."
+          },
+          {
+            "aspect": "价格",
+            "opinion": "worth",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "It is worth the price because it is quiet and easy to"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "安静使用"
+      },
+      {
+        "review_id": "R013",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "客服",
+            "opinion": "slow",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "Customer service was slow to respond when I aske"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R014",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "客服",
+            "opinion": "fast",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "Customer support was fast and helpful when I nee"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R015",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "物流",
+            "opinion": "late",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "rrived late and delivery updates were poor."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R016",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "物流",
+            "opinion": "fast",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "Shipping was fast and the package arrive"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R017",
+        "overall_sentiment": "neutral",
+        "tuple_count": 0,
+        "tuples": [],
+        "mapping_state": "未映射，保留未知",
+        "topic": "防漏与密封"
+      },
+      {
+        "review_id": "R018",
+        "overall_sentiment": "neutral",
+        "tuple_count": 0,
+        "tuples": [],
+        "mapping_state": "未映射，保留未知",
+        "topic": "防漏与密封"
+      },
+      {
+        "review_id": "R019",
+        "overall_sentiment": "neutral",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "吸力",
+            "opinion": "weak",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "s quiet but the suction is weak, so my experience is mi"
+          },
+          {
+            "aspect": "噪音",
+            "opinion": "quiet",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "It is quiet but the suction is weak, so my "
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "吸力持续性"
+      },
+      {
+        "review_id": "R020",
+        "overall_sentiment": "neutral",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "尺寸重量",
+            "opinion": "compact",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The compact size is great, but the flange f"
+          },
+          {
+            "aspect": "舒适度",
+            "opinion": "comfortable",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "ange fit is not comfortable for a long session."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "佩戴舒适度"
+      },
+      {
+        "review_id": "R021",
+        "overall_sentiment": "neutral",
+        "tuple_count": 0,
+        "tuples": [],
+        "mapping_state": "未映射，保留未知",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R022",
+        "overall_sentiment": "neutral",
+        "tuple_count": 0,
+        "tuples": [],
+        "mapping_state": "未映射，保留未知",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R023",
+        "overall_sentiment": "negative",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "吸力",
+            "opinion": "weak",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "s noisy and the suction power is weak. I regret the purchase."
+          },
+          {
+            "aspect": "噪音",
+            "opinion": "noisy",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The sound is noisy and the suction power "
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "吸力持续性"
+      },
+      {
+        "review_id": "R024",
+        "overall_sentiment": "positive",
+        "tuple_count": 4,
+        "tuples": [
+          {
+            "aspect": "吸力",
+            "opinion": "powerful",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "Quiet, powerful, comfortable and easy. This mad"
+          },
+          {
+            "aspect": "噪音",
+            "opinion": "quiet",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "Quiet, powerful, comfortable and easy"
+          },
+          {
+            "aspect": "舒适度",
+            "opinion": "comfortable",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "uiet, powerful, comfortable and easy. This made commuting m"
+          },
+          {
+            "aspect": "易用性",
+            "opinion": "easy",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "comfortable and easy. This made commuting much easie"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "吸力持续性"
+      },
+      {
+        "review_id": "R025",
+        "overall_sentiment": "positive",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "吸力",
+            "opinion": "strong",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "t loud, and the suction is strong."
+          },
+          {
+            "aspect": "噪音",
+            "opinion": "loud",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The pump is not loud, and the suction is strong."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "吸力持续性"
+      },
+      {
+        "review_id": "R026",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "噪音",
+            "opinion": "quiet",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The pump is not quiet; the noise is loud during calls"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "安静使用"
+      },
+      {
+        "review_id": "R027",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "充电",
+            "opinion": "slow",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "Charging is not slow at all, and the bat"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "续航与充电"
+      },
+      {
+        "review_id": "R028",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "充电",
+            "opinion": "drains",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The battery drains before lunch, even when "
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "续航与充电"
+      },
+      {
+        "review_id": "R029",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "充电",
+            "opinion": "fast",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": " lasts long and charging is fast."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "续航与充电"
+      },
+      {
+        "review_id": "R030",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "尺寸重量",
+            "opinion": "bulky",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "feels heavy and bulky in a work bag."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R031",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "尺寸重量",
+            "opinion": "lightweight",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The small, lightweight design is portable for travel."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R032",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "舒适度",
+            "opinion": "sore",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The flange is sore after a short session."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "佩戴舒适度"
+      },
+      {
+        "review_id": "R033",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "舒适度",
+            "opinion": "comfortable",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "ft flange stays comfortable throughout the session."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "佩戴舒适度"
+      },
+      {
+        "review_id": "R034",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "易用性",
+            "opinion": "difficult",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "Assembly is difficult without help."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R035",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "易用性",
+            "opinion": "clear",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The setup guide is clear and easy to foll"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R036",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "客服",
+            "opinion": "ignored",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "Customer service ignored my request for a replac"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R037",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "客服",
+            "opinion": "quickly",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "Support replied quickly and gave a help"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R038",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "物流",
+            "opinion": "delayed",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "Shipping was delayed for a week."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R039",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "物流",
+            "opinion": "early",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "Delivery arrived early and the package w"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R040",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "价格",
+            "opinion": "high",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "This price is too high for the build quali"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R041",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "价格",
+            "opinion": "affordable",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The cost is affordable for a daily-use pump."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R042",
+        "overall_sentiment": "positive",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "噪音",
+            "opinion": "quiet",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The noise is quiet. The flange is comfort"
+          },
+          {
+            "aspect": "舒适度",
+            "opinion": "comfortable",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "t. The flange is comfortable for a full session."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "安静使用"
+      },
+      {
+        "review_id": "R043",
+        "overall_sentiment": "negative",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "噪音",
+            "opinion": "noisy",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The sound is noisy. The fit hurts after t"
+          },
+          {
+            "aspect": "舒适度",
+            "opinion": "hurts",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "nd is noisy. The fit hurts after ten minutes."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "安静使用"
+      },
+      {
+        "review_id": "R044",
+        "overall_sentiment": "neutral",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "吸力",
+            "opinion": "powerful",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The suction is powerful, however battery li"
+          },
+          {
+            "aspect": "充电",
+            "opinion": "poor",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "werful, however battery life is poor."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "吸力持续性"
+      },
+      {
+        "review_id": "R045",
+        "overall_sentiment": "neutral",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "吸力",
+            "opinion": "weak",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The suction is weak; the size is compact."
+          },
+          {
+            "aspect": "尺寸重量",
+            "opinion": "compact",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "eak; the size is compact."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "吸力持续性"
+      },
+      {
+        "review_id": "R046",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "易用性",
+            "opinion": "easy",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The device is easy to clean."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R047",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "易用性",
+            "opinion": "difficult",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The device is difficult to clean."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R048",
+        "overall_sentiment": "neutral",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "物流",
+            "opinion": "late",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "s worth it, but delivery was late."
+          },
+          {
+            "aspect": "价格",
+            "opinion": "worth",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The value is worth it, but delivery was late."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R049",
+        "overall_sentiment": "neutral",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "客服",
+            "opinion": "helpful",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": " expensive, but customer support was helpful."
+          },
+          {
+            "aspect": "价格",
+            "opinion": "expensive",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The price is expensive, but customer support was helpf"
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R050",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "噪音",
+            "opinion": "silent",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The pump is silent during calls."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "安静使用"
+      },
+      {
+        "review_id": "R051",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "噪音",
+            "opinion": "loud",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "e because it is loud."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "安静使用"
+      },
+      {
+        "review_id": "R052",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "舒适度",
+            "opinion": "painful",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The fit is not painful after a full session."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "佩戴舒适度"
+      },
+      {
+        "review_id": "R053",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "舒适度",
+            "opinion": "comfortable",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The fit is not comfortable after a full session."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "佩戴舒适度"
+      },
+      {
+        "review_id": "R054",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "充电",
+            "opinion": "dead",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The battery is dead before lunch."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "续航与充电"
+      },
+      {
+        "review_id": "R055",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "充电",
+            "opinion": "strong",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The battery remains strong all day."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "续航与充电"
+      },
+      {
+        "review_id": "R056",
+        "overall_sentiment": "negative",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "物流",
+            "opinion": "damaged",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The delivery package arrived damaged."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R057",
+        "overall_sentiment": "positive",
+        "tuple_count": 1,
+        "tuples": [
+          {
+            "aspect": "物流",
+            "opinion": "safely",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "ived safely and shipping was fast."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R058",
+        "overall_sentiment": "neutral",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "易用性",
+            "opinion": "complicated",
+            "sentiment": "negative",
+            "confidence": 0.82,
+            "raw_span": "The instructions are complicated, although custo"
+          },
+          {
+            "aspect": "客服",
+            "opinion": "responsive",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "cated, although customer support is responsive."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R059",
+        "overall_sentiment": "positive",
+        "tuple_count": 2,
+        "tuples": [
+          {
+            "aspect": "易用性",
+            "opinion": "simple",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "sonable and the setup is simple."
+          },
+          {
+            "aspect": "价格",
+            "opinion": "reasonable",
+            "sentiment": "positive",
+            "confidence": 0.82,
+            "raw_span": "The price is reasonable and the setup is simple."
+          }
+        ],
+        "mapping_state": "已映射",
+        "topic": "其他受控表达"
+      },
+      {
+        "review_id": "R060",
+        "overall_sentiment": "neutral",
+        "tuple_count": 0,
+        "tuples": [],
+        "mapping_state": "未映射，保留未知",
+        "topic": "防漏与密封"
+      }
+    ],
+    "aspect_report": {
+      "价格": {
+        "total_mentions": 7,
+        "positive_rate": 0.57,
+        "negative_rate": 0.43,
+        "top_negative_opinions": [
+          "expensive",
+          "worth",
+          "affordable"
+        ]
+      },
+      "充电": {
+        "total_mentions": 10,
+        "positive_rate": 0.6,
+        "negative_rate": 0.4,
+        "top_negative_opinions": [
+          "poor",
+          "strong",
+          "good"
+        ]
+      },
+      "吸力": {
+        "total_mentions": 8,
+        "positive_rate": 0.5,
+        "negative_rate": 0.5,
+        "top_negative_opinions": [
+          "weak",
+          "strong",
+          "powerful"
+        ]
+      },
+      "噪音": {
+        "total_mentions": 13,
+        "positive_rate": 0.54,
+        "negative_rate": 0.46,
+        "top_negative_opinions": [
+          "quiet",
+          "loud",
+          "noisy"
+        ]
+      },
+      "客服": {
+        "total_mentions": 6,
+        "positive_rate": 0.67,
+        "negative_rate": 0.33,
+        "top_negative_opinions": [
+          "fast",
+          "helpful",
+          "quickly"
+        ]
+      },
+      "尺寸重量": {
+        "total_mentions": 6,
+        "positive_rate": 0.83,
+        "negative_rate": 0.17,
+        "top_negative_opinions": [
+          "compact",
+          "bulky",
+          "lightweight"
+        ]
+      },
+      "易用性": {
+        "total_mentions": 10,
+        "positive_rate": 0.6,
+        "negative_rate": 0.4,
+        "top_negative_opinions": [
+          "easy",
+          "complicated",
+          "difficult"
+        ]
+      },
+      "物流": {
+        "total_mentions": 7,
+        "positive_rate": 0.43,
+        "negative_rate": 0.57,
+        "top_negative_opinions": [
+          "late",
+          "damaged",
+          "safely"
+        ]
+      },
+      "舒适度": {
+        "total_mentions": 10,
+        "positive_rate": 0.5,
+        "negative_rate": 0.5,
+        "top_negative_opinions": [
+          "comfortable",
+          "painful",
+          "hurts"
+        ]
+      }
+    },
+    "unmapped_review_ids": [
+      "R017",
+      "R018",
+      "R021",
+      "R022",
+      "R060"
+    ]
+  },
+  "d02": {
+    "rows": [
+      {
+        "query_id": "Q001",
+        "month": "2026-07",
+        "query": "wearable breast pump leaking milk",
+        "volume_proxy": 6200,
+        "click_proxy": 0.14,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 5332.0,
+        "topic": "防漏与密封"
+      },
+      {
+        "query_id": "Q002",
+        "month": "2026-08",
+        "query": "quiet breast pump office",
+        "volume_proxy": 5400,
+        "click_proxy": 0.31,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "安静使用"
+      },
+      {
+        "query_id": "Q003",
+        "month": "2026-09",
+        "query": "wearable pump suction too weak",
+        "volume_proxy": 4900,
+        "click_proxy": 0.1,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4410.0,
+        "topic": "吸力持续性"
+      },
+      {
+        "query_id": "Q004",
+        "month": "2026-10",
+        "query": "hands free breast pump spill",
+        "volume_proxy": 4500,
+        "click_proxy": 0.12,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 3960.0,
+        "topic": "防漏与密封"
+      },
+      {
+        "query_id": "Q005",
+        "month": "2026-07",
+        "query": "comfortable wearable pump flange",
+        "volume_proxy": 3800,
+        "click_proxy": 0.22,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "佩戴舒适度"
+      },
+      {
+        "query_id": "Q006",
+        "month": "2026-08",
+        "query": "wearable breast pump cleaning",
+        "volume_proxy": 3200,
+        "click_proxy": 0.25,
+        "intent": "functional",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q007",
+        "month": "2026-09",
+        "query": "wearable breast pump leaking milk",
+        "volume_proxy": 6500,
+        "click_proxy": 0.13,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 5655.0,
+        "topic": "防漏与密封"
+      },
+      {
+        "query_id": "Q008",
+        "month": "2026-10",
+        "query": "silent breast pump work office",
+        "volume_proxy": 5900,
+        "click_proxy": 0.29,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "安静使用"
+      },
+      {
+        "query_id": "Q009",
+        "month": "2026-07",
+        "query": "wearable pump suction too weak",
+        "volume_proxy": 5300,
+        "click_proxy": 0.09,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4823.0,
+        "topic": "吸力持续性"
+      },
+      {
+        "query_id": "Q010",
+        "month": "2026-08",
+        "query": "hands free breast pump spill",
+        "volume_proxy": 4700,
+        "click_proxy": 0.11,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4183.0,
+        "topic": "防漏与密封"
+      },
+      {
+        "query_id": "Q011",
+        "month": "2026-09",
+        "query": "wearable pump flange size",
+        "volume_proxy": 4100,
+        "click_proxy": 0.19,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "佩戴舒适度"
+      },
+      {
+        "query_id": "Q012",
+        "month": "2026-10",
+        "query": "best wearable breast pump",
+        "volume_proxy": 7600,
+        "click_proxy": 0.35,
+        "intent": "comparison",
+        "sentiment": "positive_expectation",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q013",
+        "month": "2026-07",
+        "query": "wearable breast pump leaking milk",
+        "volume_proxy": 6800,
+        "click_proxy": 0.12,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 5984.0,
+        "topic": "防漏与密封"
+      },
+      {
+        "query_id": "Q014",
+        "month": "2026-08",
+        "query": "quiet breast pump office",
+        "volume_proxy": 5600,
+        "click_proxy": 0.3,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "安静使用"
+      },
+      {
+        "query_id": "Q015",
+        "month": "2026-09",
+        "query": "wearable pump suction too weak",
+        "volume_proxy": 5100,
+        "click_proxy": 0.1,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4590.0,
+        "topic": "吸力持续性"
+      },
+      {
+        "query_id": "Q016",
+        "month": "2026-10",
+        "query": "hands free breast pump spill",
+        "volume_proxy": 4800,
+        "click_proxy": 0.1,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4320.0,
+        "topic": "防漏与密封"
+      },
+      {
+        "query_id": "Q017",
+        "month": "2026-07",
+        "query": "wearable breast pump battery life",
+        "volume_proxy": 3900,
+        "click_proxy": 0.24,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "续航与充电"
+      },
+      {
+        "query_id": "Q018",
+        "month": "2026-08",
+        "query": "breast pump return policy",
+        "volume_proxy": 2900,
+        "click_proxy": 0.18,
+        "intent": "navigational",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q019",
+        "month": "2026-09",
+        "query": "how to clean wearable breast pump",
+        "volume_proxy": 3300,
+        "click_proxy": 0.21,
+        "intent": "functional",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q020",
+        "month": "2026-10",
+        "query": "wearable breast pump how to use",
+        "volume_proxy": 3700,
+        "click_proxy": 0.2,
+        "intent": "functional",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q021",
+        "month": "2026-07",
+        "query": "quiet wearable breast pump night shift",
+        "volume_proxy": 4300,
+        "click_proxy": 0.18,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "安静使用"
+      },
+      {
+        "query_id": "Q022",
+        "month": "2026-08",
+        "query": "silent breast pump meetings",
+        "volume_proxy": 4100,
+        "click_proxy": 0.21,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "安静使用"
+      },
+      {
+        "query_id": "Q023",
+        "month": "2026-09",
+        "query": "wearable pump leaking while bending",
+        "volume_proxy": 5200,
+        "click_proxy": 0.11,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4628.0,
+        "topic": "防漏与密封"
+      },
+      {
+        "query_id": "Q024",
+        "month": "2026-10",
+        "query": "breast pump flange pain after use",
+        "volume_proxy": 4600,
+        "click_proxy": 0.12,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4048.0,
+        "topic": "佩戴舒适度"
+      },
+      {
+        "query_id": "Q025",
+        "month": "2026-07",
+        "query": "wearable pump uncomfortable fit",
+        "volume_proxy": 4400,
+        "click_proxy": 0.14,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 3784.0,
+        "topic": "佩戴舒适度"
+      },
+      {
+        "query_id": "Q026",
+        "month": "2026-08",
+        "query": "breast pump suction weak after 10 minutes",
+        "volume_proxy": 4900,
+        "click_proxy": 0.1,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4410.0,
+        "topic": "吸力持续性"
+      },
+      {
+        "query_id": "Q027",
+        "month": "2026-09",
+        "query": "breast pump battery life long",
+        "volume_proxy": 3900,
+        "click_proxy": 0.23,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "续航与充电"
+      },
+      {
+        "query_id": "Q028",
+        "month": "2026-10",
+        "query": "wearable breast pump charge usb c",
+        "volume_proxy": 3600,
+        "click_proxy": 0.22,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "续航与充电"
+      },
+      {
+        "query_id": "Q029",
+        "month": "2026-07",
+        "query": "compare wearable breast pump models",
+        "volume_proxy": 6100,
+        "click_proxy": 0.28,
+        "intent": "comparison",
+        "sentiment": "positive_expectation",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q030",
+        "month": "2026-08",
+        "query": "wearable pump vs standard pump",
+        "volume_proxy": 5800,
+        "click_proxy": 0.27,
+        "intent": "comparison",
+        "sentiment": "positive_expectation",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q031",
+        "month": "2026-09",
+        "query": "breast pump replacement parts",
+        "volume_proxy": 3100,
+        "click_proxy": 0.19,
+        "intent": "functional",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q032",
+        "month": "2026-10",
+        "query": "breast pump return policy",
+        "volume_proxy": 3000,
+        "click_proxy": 0.17,
+        "intent": "navigational",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q033",
+        "month": "2026-07",
+        "query": "portable breast pump size guide",
+        "volume_proxy": 4200,
+        "click_proxy": 0.2,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q034",
+        "month": "2026-08",
+        "query": "hands free breast pump office quiet",
+        "volume_proxy": 5100,
+        "click_proxy": 0.24,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "安静使用"
+      },
+      {
+        "query_id": "Q035",
+        "month": "2026-09",
+        "query": "wearable breast pump sound too loud",
+        "volume_proxy": 4700,
+        "click_proxy": 0.11,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4183.0,
+        "topic": "安静使用"
+      },
+      {
+        "query_id": "Q036",
+        "month": "2026-10",
+        "query": "noisy wearable breast pump",
+        "volume_proxy": 4500,
+        "click_proxy": 0.13,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 3915.0,
+        "topic": "安静使用"
+      },
+      {
+        "query_id": "Q037",
+        "month": "2026-07",
+        "query": "hands free pump spill while walking",
+        "volume_proxy": 4300,
+        "click_proxy": 0.12,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 3784.0,
+        "topic": "防漏与密封"
+      },
+      {
+        "query_id": "Q038",
+        "month": "2026-08",
+        "query": "breast pump leak after bending",
+        "volume_proxy": 5000,
+        "click_proxy": 0.11,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4450.0,
+        "topic": "防漏与密封"
+      },
+      {
+        "query_id": "Q039",
+        "month": "2026-09",
+        "query": "best quiet wearable breast pump",
+        "volume_proxy": 7000,
+        "click_proxy": 0.33,
+        "intent": "comparison",
+        "sentiment": "positive_expectation",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "安静使用"
+      },
+      {
+        "query_id": "Q040",
+        "month": "2026-10",
+        "query": "wearable breast pump cleaning instructions",
+        "volume_proxy": 3400,
+        "click_proxy": 0.2,
+        "intent": "functional",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q041",
+        "month": "2026-07",
+        "query": "electric breast pump double",
+        "volume_proxy": 5200,
+        "click_proxy": 0.22,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q042",
+        "month": "2026-08",
+        "query": "breast pump shipping status",
+        "volume_proxy": 2800,
+        "click_proxy": 0.16,
+        "intent": "navigational",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q043",
+        "month": "2026-09",
+        "query": "wearable breast pump breast shield size",
+        "volume_proxy": 3900,
+        "click_proxy": 0.2,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q044",
+        "month": "2026-10",
+        "query": "painful breast pump flange",
+        "volume_proxy": 4700,
+        "click_proxy": 0.12,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 4136.0,
+        "topic": "佩戴舒适度"
+      },
+      {
+        "query_id": "Q045",
+        "month": "2026-07",
+        "query": "breast pump strong suction",
+        "volume_proxy": 4400,
+        "click_proxy": 0.24,
+        "intent": "attribute",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "吸力持续性"
+      },
+      {
+        "query_id": "Q046",
+        "month": "2026-08",
+        "query": "wearable breast pump battery drains fast",
+        "volume_proxy": 4600,
+        "click_proxy": 0.15,
+        "intent": "problem_solving",
+        "sentiment": "negative_pain",
+        "opportunity_rule_hit": true,
+        "opportunity_score": 3910.0,
+        "topic": "续航与充电"
+      },
+      {
+        "query_id": "Q047",
+        "month": "2026-09",
+        "query": "how to sterilize wearable pump",
+        "volume_proxy": 3200,
+        "click_proxy": 0.19,
+        "intent": "functional",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      },
+      {
+        "query_id": "Q048",
+        "month": "2026-10",
+        "query": "wearable breast pump customer service",
+        "volume_proxy": 2700,
+        "click_proxy": 0.18,
+        "intent": "navigational",
+        "sentiment": "neutral",
+        "opportunity_rule_hit": false,
+        "opportunity_score": null,
+        "topic": "其他受控表达"
+      }
+    ],
+    "pain_words": [
+      {
+        "word": "wearable",
+        "freq": 11,
+        "score": 5.619
+      },
+      {
+        "word": "free",
+        "freq": 4,
+        "score": 5.545
+      },
+      {
+        "word": "hands",
+        "freq": 4,
+        "score": 5.545
+      },
+      {
+        "word": "leaking",
+        "freq": 4,
+        "score": 5.545
+      },
+      {
+        "word": "spill",
+        "freq": 4,
+        "score": 5.545
+      },
+      {
+        "word": "suction",
+        "freq": 4,
+        "score": 5.545
+      },
+      {
+        "word": "too",
+        "freq": 4,
+        "score": 5.545
+      },
+      {
+        "word": "weak",
+        "freq": 4,
+        "score": 5.545
+      },
+      {
+        "word": "after",
+        "freq": 3,
+        "score": 4.828
+      },
+      {
+        "word": "milk",
+        "freq": 3,
+        "score": 4.828
+      }
+    ],
+    "rule_hit_count": 19
+  },
+  "semantic_quality": {
+    "threshold": 0.9,
+    "d01": {
+      "exact_match_count": 60,
+      "total": 60,
+      "exact_match_rate": 1.0,
+      "quality_gate": "通过：仅可进入独立盲测",
+      "records": [
+        {
+          "record_id": "R001",
+          "expected": [
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R002",
+          "expected": [
+            [
+              "噪音",
+              "positive"
+            ],
+            [
+              "尺寸重量",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "噪音",
+              "positive"
+            ],
+            [
+              "尺寸重量",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R003",
+          "expected": [
+            [
+              "充电",
+              "positive"
+            ],
+            [
+              "吸力",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "positive"
+            ],
+            [
+              "吸力",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R004",
+          "expected": [
+            [
+              "充电",
+              "positive"
+            ],
+            [
+              "吸力",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "positive"
+            ],
+            [
+              "吸力",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R005",
+          "expected": [
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R006",
+          "expected": [
+            [
+              "尺寸重量",
+              "positive"
+            ],
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "尺寸重量",
+              "positive"
+            ],
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R007",
+          "expected": [
+            [
+              "充电",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R008",
+          "expected": [
+            [
+              "充电",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R009",
+          "expected": [
+            [
+              "易用性",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "易用性",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R010",
+          "expected": [
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R011",
+          "expected": [
+            [
+              "价格",
+              "negative"
+            ],
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "价格",
+              "negative"
+            ],
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R012",
+          "expected": [
+            [
+              "价格",
+              "positive"
+            ],
+            [
+              "噪音",
+              "positive"
+            ],
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "价格",
+              "positive"
+            ],
+            [
+              "噪音",
+              "positive"
+            ],
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R013",
+          "expected": [
+            [
+              "客服",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "客服",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R014",
+          "expected": [
+            [
+              "客服",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "客服",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R015",
+          "expected": [
+            [
+              "物流",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "物流",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R016",
+          "expected": [
+            [
+              "物流",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "物流",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R017",
+          "expected": [],
+          "actual": [],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R018",
+          "expected": [],
+          "actual": [],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R019",
+          "expected": [
+            [
+              "吸力",
+              "negative"
+            ],
+            [
+              "噪音",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "吸力",
+              "negative"
+            ],
+            [
+              "噪音",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R020",
+          "expected": [
+            [
+              "尺寸重量",
+              "positive"
+            ],
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "尺寸重量",
+              "positive"
+            ],
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R021",
+          "expected": [],
+          "actual": [],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R022",
+          "expected": [],
+          "actual": [],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R023",
+          "expected": [
+            [
+              "吸力",
+              "negative"
+            ],
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "吸力",
+              "negative"
+            ],
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R024",
+          "expected": [
+            [
+              "吸力",
+              "positive"
+            ],
+            [
+              "噪音",
+              "positive"
+            ],
+            [
+              "易用性",
+              "positive"
+            ],
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "吸力",
+              "positive"
+            ],
+            [
+              "噪音",
+              "positive"
+            ],
+            [
+              "易用性",
+              "positive"
+            ],
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R025",
+          "expected": [
+            [
+              "吸力",
+              "positive"
+            ],
+            [
+              "噪音",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "吸力",
+              "positive"
+            ],
+            [
+              "噪音",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R026",
+          "expected": [
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R027",
+          "expected": [
+            [
+              "充电",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R028",
+          "expected": [
+            [
+              "充电",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R029",
+          "expected": [
+            [
+              "充电",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R030",
+          "expected": [
+            [
+              "尺寸重量",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "尺寸重量",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R031",
+          "expected": [
+            [
+              "尺寸重量",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "尺寸重量",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R032",
+          "expected": [
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R033",
+          "expected": [
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R034",
+          "expected": [
+            [
+              "易用性",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "易用性",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R035",
+          "expected": [
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R036",
+          "expected": [
+            [
+              "客服",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "客服",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R037",
+          "expected": [
+            [
+              "客服",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "客服",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R038",
+          "expected": [
+            [
+              "物流",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "物流",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R039",
+          "expected": [
+            [
+              "物流",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "物流",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R040",
+          "expected": [
+            [
+              "价格",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "价格",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R041",
+          "expected": [
+            [
+              "价格",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "价格",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R042",
+          "expected": [
+            [
+              "噪音",
+              "positive"
+            ],
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "噪音",
+              "positive"
+            ],
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R043",
+          "expected": [
+            [
+              "噪音",
+              "negative"
+            ],
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "噪音",
+              "negative"
+            ],
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R044",
+          "expected": [
+            [
+              "充电",
+              "negative"
+            ],
+            [
+              "吸力",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "negative"
+            ],
+            [
+              "吸力",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R045",
+          "expected": [
+            [
+              "吸力",
+              "negative"
+            ],
+            [
+              "尺寸重量",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "吸力",
+              "negative"
+            ],
+            [
+              "尺寸重量",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R046",
+          "expected": [
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R047",
+          "expected": [
+            [
+              "易用性",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "易用性",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R048",
+          "expected": [
+            [
+              "价格",
+              "positive"
+            ],
+            [
+              "物流",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "价格",
+              "positive"
+            ],
+            [
+              "物流",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R049",
+          "expected": [
+            [
+              "价格",
+              "negative"
+            ],
+            [
+              "客服",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "价格",
+              "negative"
+            ],
+            [
+              "客服",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R050",
+          "expected": [
+            [
+              "噪音",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "噪音",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R051",
+          "expected": [
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "噪音",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R052",
+          "expected": [
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "舒适度",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R053",
+          "expected": [
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "舒适度",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R054",
+          "expected": [
+            [
+              "充电",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R055",
+          "expected": [
+            [
+              "充电",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "充电",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R056",
+          "expected": [
+            [
+              "物流",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "物流",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R057",
+          "expected": [
+            [
+              "物流",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "物流",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R058",
+          "expected": [
+            [
+              "客服",
+              "positive"
+            ],
+            [
+              "易用性",
+              "negative"
+            ]
+          ],
+          "actual": [
+            [
+              "客服",
+              "positive"
+            ],
+            [
+              "易用性",
+              "negative"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R059",
+          "expected": [
+            [
+              "价格",
+              "positive"
+            ],
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "actual": [
+            [
+              "价格",
+              "positive"
+            ],
+            [
+              "易用性",
+              "positive"
+            ]
+          ],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        },
+        {
+          "record_id": "R060",
+          "expected": [],
+          "actual": [],
+          "missing": [],
+          "unexpected": [],
+          "exact_match": true
+        }
+      ]
+    },
+    "d02": {
+      "exact_match_count": 48,
+      "total": 48,
+      "exact_match_rate": 1.0,
+      "rule_match_count": 48,
+      "rule_match_rate": 1.0,
+      "quality_gate": "通过：仅可进入独立盲测",
+      "records": [
+        {
+          "record_id": "Q001",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q002",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q003",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q004",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q005",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q006",
+          "expected": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q007",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q008",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q009",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q010",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q011",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q012",
+          "expected": {
+            "intent": "comparison",
+            "sentiment": "positive_expectation"
+          },
+          "actual": {
+            "intent": "comparison",
+            "sentiment": "positive_expectation"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q013",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q014",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q015",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q016",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q017",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q018",
+          "expected": {
+            "intent": "navigational",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "navigational",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q019",
+          "expected": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q020",
+          "expected": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q021",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q022",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q023",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q024",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q025",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q026",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q027",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q028",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q029",
+          "expected": {
+            "intent": "comparison",
+            "sentiment": "positive_expectation"
+          },
+          "actual": {
+            "intent": "comparison",
+            "sentiment": "positive_expectation"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q030",
+          "expected": {
+            "intent": "comparison",
+            "sentiment": "positive_expectation"
+          },
+          "actual": {
+            "intent": "comparison",
+            "sentiment": "positive_expectation"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q031",
+          "expected": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q032",
+          "expected": {
+            "intent": "navigational",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "navigational",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q033",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q034",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q035",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q036",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q037",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q038",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q039",
+          "expected": {
+            "intent": "comparison",
+            "sentiment": "positive_expectation"
+          },
+          "actual": {
+            "intent": "comparison",
+            "sentiment": "positive_expectation"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q040",
+          "expected": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q041",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q042",
+          "expected": {
+            "intent": "navigational",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "navigational",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q043",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q044",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q045",
+          "expected": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "attribute",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q046",
+          "expected": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "actual": {
+            "intent": "problem_solving",
+            "sentiment": "negative_pain"
+          },
+          "expected_rule_hit": true,
+          "actual_rule_hit": true,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q047",
+          "expected": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "functional",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        },
+        {
+          "record_id": "Q048",
+          "expected": {
+            "intent": "navigational",
+            "sentiment": "neutral"
+          },
+          "actual": {
+            "intent": "navigational",
+            "sentiment": "neutral"
+          },
+          "expected_rule_hit": false,
+          "actual_rule_hit": false,
+          "exact_match": true,
+          "rule_match": true
+        }
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "D01 逐条回溯",
+      "passed": true,
+      "detail": "每条评论输出保留唯一 review_id。"
+    },
+    {
+      "name": "D01 保留未知",
+      "passed": true,
+      "detail": "防漏、会话记录与应用主题未被强行归类。"
+    },
+    {
+      "name": "D02 逐条回溯",
+      "passed": true,
+      "detail": "每条搜索输出保留唯一 query_id、月份与合成量级。"
+    },
+    {
+      "name": "D02 规则边界",
+      "passed": true,
+      "detail": "非问题表达和低量级问题没有被静默写成高优先级机会。"
+    },
+    {
+      "name": "原始实现保持只读",
+      "passed": true,
+      "detail": "本轮只载入本地 candidate adapter；原始路径仅记录指纹作失败基线。"
+    }
+  ],
+  "cross_source_view": [
+    {
+      "topic": "防漏与密封",
+      "review_positive": 0,
+      "review_negative": 0,
+      "review_neutral": 0,
+      "search_records": 9,
+      "search_rule_hits": 9,
+      "controlled_reading": "搜索侧保留问题型表达，评论侧仍保留为未映射主题；这说明候选适配器没有伪造评论方面覆盖，不代表真实防漏问题成立。"
+    },
+    {
+      "topic": "吸力持续性",
+      "review_positive": 12,
+      "review_negative": 6,
+      "review_neutral": 0,
+      "search_records": 5,
+      "search_rule_hits": 4,
+      "controlled_reading": "两侧均为合成受控记录，只用于检查分类和未知保留；不得将记录数量、正负标签或规则命中解释为真实需求强度。"
+    },
+    {
+      "topic": "安静使用",
+      "review_positive": 8,
+      "review_negative": 7,
+      "review_neutral": 0,
+      "search_records": 9,
+      "search_rule_hits": 2,
+      "controlled_reading": "两侧均为合成受控记录，只用于检查分类和未知保留；不得将记录数量、正负标签或规则命中解释为真实需求强度。"
+    },
+    {
+      "topic": "佩戴舒适度",
+      "review_positive": 5,
+      "review_negative": 4,
+      "review_neutral": 0,
+      "search_records": 5,
+      "search_rule_hits": 3,
+      "controlled_reading": "两侧均为合成受控记录，只用于检查分类和未知保留；不得将记录数量、正负标签或规则命中解释为真实需求强度。"
+    },
+    {
+      "topic": "续航与充电",
+      "review_positive": 4,
+      "review_negative": 3,
+      "review_neutral": 0,
+      "search_records": 4,
+      "search_rule_hits": 1,
+      "controlled_reading": "两侧均为合成受控记录，只用于检查分类和未知保留；不得将记录数量、正负标签或规则命中解释为真实需求强度。"
+    }
+  ],
+  "decision": {
+    "status": "可进入独立盲测（不进入真实样本）",
+    "reason": "候选适配器在同一设计者人工标注的合成集上达到了语义门槛；仍存在同源设计与实现的过拟合风险。"
+  },
+  "non_conclusions": [
+    "不代表真实消费者偏好、市场规模、品牌、品类问题或需求优先级。",
+    "不构成产品定义、功能改版、投入优先级、投放、采购、发布、岗位任命或业务授权。",
+    "不证明候选适配器在独立盲测、真实语言、真实数据质量或生产运行中可靠。"
+  ]
+}

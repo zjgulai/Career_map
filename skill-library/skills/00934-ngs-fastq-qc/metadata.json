@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-fastq-qc",
+  "中文名称": "待补：ngs-fastq-qc",
+  "一句话作用": "Validate FASTQ inputs, run local FastQC/MultiQC QC, interpret QC signals, and optionally execute fastp or Cutadapt trimming branches without overwriting raw reads.",
+  "关键输入": "Confirm: - FASTQ paths and pairing convention - whether output should be QC-only or trimmed FASTQs - known adapter or primer sequences - organism if contamination screening or host depletion is requested - output directory - whether FASTQs are raw, demultiple…",
+  "关键输出": "Return a short QC interpretation with: 1. sample/read-pair inventory 2. QC modules that look normal 3. QC modules that require action or user confirmation 4. trimming or no-trimming recommendation with rationale 5. downstream caveats such as short reads, cont…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Validate FASTQ inputs, run local FastQC/MultiQC QC, interpret QC signals, and optionally execute fastp or Cutadapt trimming branches without overwriting raw reads.时，用它产出或更新：Return a short QC interpretation with: 1. sample/read-pair inventory 2. QC modules…",
+  "skill_id": "00934-ngs-fastq-qc-a39831e7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-fastq-qc/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-fastq-qc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4cb6a3f454e07d6ea5cc483537c4656abbcef2e3eb6316fc727f9d506fe0b864",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ppc-bid-manipulation-defense",
+  "中文名称": "识别竞品恶意点击耗费广告费",
+  "一句话作用": "触发词：恶意点击、点击欺诈、预算早耗尽、分时预算、无效点击退款、CVR 异常。何时不用：常规竞价效率与位置优化走投放诊断其他卡；出现预算在黄金时段前耗尽、某时段 CVR 断崖下跌时用本卡。安全边界：只做检测与证据整理，不得对竞品反向点击报复，退款申诉须走平台官方渠道。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要广告运营面临\"$300/天广告预算在上午11点就被耗尽黄金时段失去曝光\"——PPC点击欺诈检测+分时预算分配，月GMV提升8-15万元并追讨无效点击退款2-5万元/年时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03605-p2s-ppc-bid-manipulation-defense-59f8f4d0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ppc-bid-manipulation-defense/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ppc-bid-manipulation-defense/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "926a627cd0b015751bff7e3951c5b8246bf48b415038a19d28325ebc58c4d05d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

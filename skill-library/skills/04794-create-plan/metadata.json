@@ -1,0 +1,22 @@
+{
+  "英文名称": "create-plan",
+  "中文名称": "待补：create-plan",
+  "一句话作用": "Convert requirements into executable stories with tasks, dependencies, and targeted technical guidance for coding execution. Use when user wants a requirements doc or feature brief turned into an implementation plan or…",
+  "关键输入": "- Requirements from user or file - Repo path from user - If either is missing, ask before planning",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:50:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Convert requirements into executable stories with tasks, dependencies, and targeted technical guidance for coding execution. Use when user wants a requirements doc or feature brief turned into an implementation plan or…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04794-create-plan-f9a3cc16",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/create-plan/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/create-plan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b2dd657b291131e708167680fdb73d07ad09fe6dc6b6906ac5634dc7c10f406e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

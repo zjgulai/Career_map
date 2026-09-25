@@ -1,0 +1,22 @@
+{
+  "英文名称": "github-research-assistant",
+  "中文名称": "待补：github-research-assistant",
+  "一句话作用": "GitHub Research Assistant. Use this skill when the user wants to analyze a GitHub repository. Analysis dimensions -- 1) Basic information; 2) Purpose, what it can be used for; 3) Tech stack, including frameworks, langua…",
+  "关键输入": "- Installation steps - Environment configuration requirements - Basic usage examples (executable code) - Configuration file explanation",
+  "关键输出": "Output the analysis report in clear markdown format.",
+  "最新更新时间": "2026-09-19T03:50:19+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Installation steps - Environment configuration requirements - Basic usage examples (executable code) - Configuration file explanation时，用它产出或更新：Output the analysis report in clear markdown format.",
+  "skill_id": "04889-github-research-assistant-8e987328",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/github-research-assistant/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/github-research-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "20ac2a6c3a5edb2546a1b2bcab9020e0415aa85b9968d7bdfcabae311d1e6df8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

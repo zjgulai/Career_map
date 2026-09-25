@@ -1,0 +1,22 @@
+{
+  "英文名称": "pixpix-ecommerce",
+  "中文名称": "电商视觉 · 业务指引",
+  "一句话作用": "PixPix 电商视觉工作台：爆款复刻海报、商品套图、服装套图、模特试穿（服装/鞋/内衣/通用穿戴）、A+ 详情页、15 秒带货视频、竞品视频复刻、商品精修/换色/抠图、图片与视频高清化、视频压缩/去水印/抠背景、AI 生图/生视频/配音、生成模特、积分与会员权益查询。触发词：爆款复刻、竞品海报、商品套图、主图、白底图、服装套图、模特试穿、试穿海报、A+ 详情页、详情页模块、带货视频、电商视频、视频复刻、商品精修、修图、换色、抠图、去…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T14:11:11+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要PixPix 电商视觉工作台：爆款复刻海报、商品套图、服装套图、模特试穿（服装/鞋/内衣/通用穿戴）、A+ 详情页、15 秒带货视频、竞品视频复刻、商品精修/换色/抠图、图片与视频高清化、视频压缩/去水印/抠背景、AI 生图/生视频/配音、生成模特、积分与会员权益查询。触发词：爆款复刻、竞品海报、商品套图、主图、白底图、服装套图、模特试穿、试穿海报、A+ 详情页、详情页模块、带货视频、电商视频、视频复刻、商品精修、修图、换色、抠图、去…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04067-pixpix-ecommerce-9d866e79",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/pixpix-ecommerce/SKILL.md",
+  "relative_path": "lute/.dsh/skills/pixpix-ecommerce/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "350885ae2d43a05bf613dfcfbc1003b2179359e73aa875a6d05156fd4b1068fb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

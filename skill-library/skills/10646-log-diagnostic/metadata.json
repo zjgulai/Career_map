@@ -1,0 +1,22 @@
+{
+  "英文名称": "log-diagnostic",
+  "中文名称": "待补：log-diagnostic",
+  "一句话作用": "分析日志文件的错误模式，支持JSON、syslog、Nginx等常见格式，自动检测并输出错误聚类、频率统计和时间分布报告，用于排查问题、定位高发时段。当用户上传.log文件并要求排查错误、分析错误分布、定位高发时段，或提及错误统计、日志分析等关键词时触发。",
+  "关键输入": "参数 说明 默认值 ------ ------ -------- log file 日志文件路径（必填） - --format 指定日志格式：auto/json/syslog/nginx auto --top 显示 Top N 错误聚类 20 --output 输出结果到 JSON 文件 仅终端输出 --level 过滤日志级别（如 ERROR、WARN） 所有级别 --since 只分析此时间之后的日志（ISO 格式） 不限",
+  "关键输出": "python scripts/analyze logs.py app.log --level ERROR --output report.json",
+  "最新更新时间": "2026-09-14T00:09:18+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要分析日志文件的错误模式，支持JSON、syslog、Nginx等常见格式，自动检测并输出错误聚类、频率统计和时间分布报告，用于排查问题、定位高发时段。当用户上传.log文件并要求排查错误、分析错误分布、定位高发时段，或提及错误统计、日志分析等关键词时触发。时，用它产出或更新：python scripts/analyze logs.py app.log --level ERROR --output report.json",
+  "skill_id": "10646-log-diagnostic-2d6dc43e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/log-diagnostic/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/log-diagnostic/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "af6a91923271ba6ca91e8b08d64cef0516ec676bb721509c59b7c17eb917f4f4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

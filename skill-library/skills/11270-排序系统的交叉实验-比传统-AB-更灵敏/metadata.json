@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-interleaving-ranking-ab-test",
+  "中文名称": "排序系统的交叉实验（比传统 AB 更灵敏）",
+  "一句话作用": "触发词：交叉实验、排序灵敏度、搜索排序迭代、置信度加速、独立站推荐。何时不用：只对比两套 Listing 排序权重用「Interleaving 实验设计」；只评估推荐位算法迭代用「推荐系统交错实验」。安全边界：Amazon 等平台不允许控制自然搜索排序，本技术只用于站内推荐位与自有独立站；须记录文档来源算法并设质量下限保护体验。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要搜索产品经理面临\"排序算法微调传统AB实验不灵敏需要30天才能得出结论\"——交叉实验将相同置信度所需实验时间从30天缩短至7天，年化加速搜索排序优化周期节省机会成本25-45万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11270-p2s-interleaving-ranking-ab-test-ff63b097",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-interleaving-ranking-ab-test/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-interleaving-ranking-ab-test/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "afee29c288aa880782583c54c6429cd3f439bb48d7ae93bf0b9b6f2c84b908c8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

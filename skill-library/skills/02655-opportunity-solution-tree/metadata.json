@@ -1,0 +1,22 @@
+{
+  "英文名称": "opportunity-solution-tree",
+  "中文名称": "待补：opportunity-solution-tree",
+  "一句话作用": "从目标出发逐层挂出用户机会、候选方案与验证实验，让选做哪件事有据可依。触发词：机会方案树、opportunity-solution-tree、从目标出发逐层挂出用户机会、候选方案与验证实验，让选做哪件事有据可依。",
+  "关键输入": "- A desired outcome or business metric to improve - Customer research data (interviews, surveys, analytics, feedback) - Optionally: existing opportunities or solution ideas to organize",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要从目标出发逐层挂出用户机会、候选方案与验证实验，让选做哪件事有据可依。触发词：机会方案树、opportunity-solution-tree、从目标出发逐层挂出用户机会、候选方案与验证实验，让选做哪件事有据可依。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02655-opportunity-solution-tree-e3870f0f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/opportunity-solution-tree/SKILL.md",
+  "relative_path": "lute/.dsh/skills/opportunity-solution-tree/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "20e16686c153b4aa214bdd8ba025ccdb0ac2af2cfb04b45c0c0a72fbcf008811",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

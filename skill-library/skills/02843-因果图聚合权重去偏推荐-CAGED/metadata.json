@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-caged-debiased-rec",
+  "中文名称": "因果图聚合权重去偏推荐 - CAGED",
+  "一句话作用": "触发词：推荐去偏、长尾曝光、流行度偏差、GNN 权重聚合、长尾覆盖率。何时不用：要解决的是推荐结果说不清、用户不信任（需要一句话解释）时用「可解释推荐」；要优化的是搜索结果排序时用「个性化搜索排序」。安全边界：只产出无偏权重与推荐列表，不改推荐服务架构。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Momcozy 吸奶器爆款 SKU 占全部流量的 60%+，200 余款配件（替换配件、特殊尺码）几乎零曝光时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02843-p2s-caged-debiased-rec-3e1bb3c8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-caged-debiased-rec/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-caged-debiased-rec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea3160368f35726e3e96b64b39eed91025e56322592e10d7c02b77a2f910c60a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

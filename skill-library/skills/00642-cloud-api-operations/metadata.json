@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloud-api-operations",
+  "中文名称": "待补：cloud-api-operations",
+  "一句话作用": "Operate Tencent Cloud control-plane resources (monitoring/alarms, CLB, CAM roles, COS, MySQL, SCF) via cloud APIs when no dedicated MCP tool covers the task. Use when a task needs control-plane operations beyond CloudBa…",
+  "关键输入": "- The user asks to manage/operate Tencent Cloud resources beyond CloudBase's dedicated MCP tools (e.g. configure alarm policies, inspect CLB, attach CAM policies). - The user wants to control these resources from code a…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T20:00:48+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要- The user asks to manage/operate Tencent Cloud resources beyond CloudBase's dedicated MCP tools (e.g. configure alarm policies, inspect CLB, attach CAM policies). - The user wants to control these resources from code a…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00642-cloud-api-operations-8d3045b2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cloudbase-mcp/web-template/.codebuddy/skills/cloud-api-operations/SKILL.md",
+  "relative_path": "lute/.cloudbase-mcp/web-template/.codebuddy/skills/cloud-api-operations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8fdf65f77778a1ebae139912247d81193c2dad21c9bad8bf8a14448f4fd9d119",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

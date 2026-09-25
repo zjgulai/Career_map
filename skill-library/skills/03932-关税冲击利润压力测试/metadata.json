@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-tariff-impact-margin-stress-test",
+  "中文名称": "关税冲击利润压力测试",
+  "一句话作用": "触发词：关税冲击、利润压力测试、盈亏临界税率、毛利率逐级影响、价格转嫁模拟。何时不用：关税、汇率、FBA费率要三因子联动测算时用「关税-汇率-FBA费率三联动成本动态测算」；只算订单级贡献毛利时用「单位经济拆解」。安全边界：只做内部毛利推演，不代申报关税；税率取值以官方公告与 HTS 归类结果为准，价格转嫁比例需业务确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链负责人面临\"对等关税从25%升至54%不知道SKU是否还有毛利\"——情景压力测试找到盈亏临界关税率，提前6个月决策供应商转移，年化关税节省20-100万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03932-p2s-tariff-impact-margin-stress-test-3714cda2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-tariff-impact-margin-stress-test/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-tariff-impact-margin-stress-test/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2bc9aa7338c6b8089d68fefb0799de0f92a06d5ad158510bcd89aa0aa4c2f7e4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "value-prop-statements",
+  "中文名称": "待补：value-prop-statements",
+  "一句话作用": "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.",
+  "关键输入": "- Writing marketing copy and promotional content - Creating sales decks and pitch materials - Crafting customer onboarding messages - Developing segment-specific messaging - Triggers: value proposition statements, marke…",
+  "关键输出": "- Provide existing value propositions or key benefits - Specify target segments and their pain points - Include product features and differentiators - Share distribution channels (marketing, sales, onboarding) - Mention any brand tone or voice guidelines ---",
+  "最新更新时间": "2026-09-16T00:17:07+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- Writing marketing copy and promotional content - Creating sales decks and pitch materials - Crafting customer onboarding messages - Developing segment-specific messaging - Triggers: value proposition statements, marke…时，用它产出或更新：- Provide existing value p…",
+  "skill_id": "11187-value-prop-statements-b145fb85",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-marketing-growth/skills/value-prop-statements/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-marketing-growth/skills/value-prop-statements/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5f4e89542439b16d18af608d91d0a319c0e66a6d89257da38d6652a655aae5bc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

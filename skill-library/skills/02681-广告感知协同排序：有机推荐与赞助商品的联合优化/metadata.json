@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ad-aware-recommendation",
+  "中文名称": "广告感知协同排序：有机推荐与赞助商品的联合优化",
+  "一句话作用": "触发词：广告感知推荐、联合排序、ROAS 约束、付费与有机混排、出价权重、推荐广告协同。何时不用：没有广告位、纯有机推荐的场景不需要；要判断广告的真实增量时用实验方法。安全边界：需使用 mock 或授权数据，不得用真实用户隐私数据做演示，接入出价数据前需确认接口授权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "combined score：综合排序分（越高越靠前），已包含广告价值和预算约束 item type：\"ad-boosted\" 表示受广告加权影响；\"organic\" 表示纯有机排序 当 lambda budget < 0.05 时，广告商品不参与竞价（避免透支预算）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：某母婴品牌同时运营 Sponsored Products 广告和自然搜索排名时，用它产出或更新：combined score：综合排序分（越高越靠前），已包含广告价值和预算约束 item type：\"ad-boosted\" 表示受广告加权影响；\"organic\" 表示纯有机排序 当 lambda budget < 0.05 时，广告商品不参与竞价（避免透支预算）",
+  "skill_id": "02681-p2s-ad-aware-recommendation-327a05a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ad-aware-recommendation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ad-aware-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1048c8dd7ba2252eff884f95dee81968ce0af12b9bd545590e1ba37c2c1da815",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "flink-sql-code-review",
+  "中文名称": "待补：flink-sql-code-review",
+  "一句话作用": "Flink SQL Code Review 助手。三层审查（语法/性能、业务规范、红线）+ 红/黄/蓝分级反馈。审查内容包括 state 大小、join 类型、window 定义、watermark、命名规范、注释、分层等。提供具体修改建议而非\"建议优化\"等笼统结论。当用户说\"Review 这段 Flink SQL\"、\"看下这个 PR\"、\"帮我审一下代码\"时触发。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:09+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Flink SQL Code Review 助手。三层审查（语法/性能、业务规范、红线）+ 红/黄/蓝分级反馈。审查内容包括 state 大小、join 类型、window 定义、watermark、命名规范、注释、分层等。提供具体修改建议而非\"建议优化\"等笼统结论。当用户说\"Review 这段 Flink SQL\"、\"看下这个 PR\"、\"帮我审一下代码\"时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04627-flink-sql-code-review-4ffbc775",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/flink-sql-code-review/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/flink-sql-code-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "95b477a175107adfb7c2ce00496453dac2fceb13ba0ed79114e5b2d9edc4e2f2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

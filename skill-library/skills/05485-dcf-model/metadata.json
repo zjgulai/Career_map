@@ -1,0 +1,22 @@
+{
+  "英文名称": "dcf-model",
+  "中文名称": "待补：dcf-model",
+  "一句话作用": "Real DCF (Discounted Cash Flow) model creation for equity valuation. Retrieves financial data from SEC filings and analyst reports, builds comprehensive cash flow projections with proper WACC calculations, performs sens…",
+  "关键输入": "If you encounter errors or unreasonable results, read TROUBLESHOOTING.md for detailed debugging guidance.",
+  "关键输出": "Fetch data from MCP servers, user provided data, and the web. Data Sources Priority: 1. MCP Servers (if configured) - Structured financial data from providers like Daloopa 2. User-Provided Data - Historical financials from their research 3. Web Search/Fetch -…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要If you encounter errors or unreasonable results, read TROUBLESHOOTING.md for detailed debugging guidance.时，用它产出或更新：Fetch data from MCP servers, user provided data, and the web. Data Sources Priority: 1. MCP Servers (if configured) - Structured financial da…",
+  "skill_id": "05485-dcf-model-e6fee096",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/dcf-model/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/dcf-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "77f28dcf6fe990c5365c83794920c15e2896d44bb7839dcd3c062982dcb7f491",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

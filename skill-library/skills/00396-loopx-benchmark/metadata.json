@@ -1,0 +1,22 @@
+{
+  "英文名称": "loopx-benchmark",
+  "中文名称": "待补：loopx-benchmark",
+  "一句话作用": "Use when a LoopX-managed goal runs, tracks, scores, or analyzes a benchmark experiment through benchmark-toolkit, including experiment-board rows, solver arms, integrity qualification, matched comparisons, or case insig…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-05T21:56:04+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Use when a LoopX-managed goal runs, tracks, scores, or analyzes a benchmark experiment through benchmark-toolkit, including experiment-board rows, solver arms, integrity qualification, matched comparisons, or case insig…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00396-loopx-benchmark-b6596f4b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.agents/runtime/dsh-loopx-plugin/site-packages/share/loopx/skills/loopx-benchmark/SKILL.md",
+  "relative_path": "lute/.agents/runtime/dsh-loopx-plugin/site-packages/share/loopx/skills/loopx-benchmark/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7332fc5ac013d6fda5057dc87943088e2abe030680a9450c0a8ff3389cf1c714",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

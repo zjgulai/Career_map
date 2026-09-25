@@ -1,0 +1,22 @@
+{
+  "英文名称": "spec-driven-development",
+  "中文名称": "待补：spec-driven-development",
+  "一句话作用": "Spec-Driven Development (SDD) methodology based on GitHub's SpecKit. Use for structured AI-assisted development with constitutional governance, phased workflows, and multi-agent coordination. Implements 7-phase process…",
+  "关键输入": "Comprehensive constitution with enterprise constraints. Mandate analysis phase before implementation.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2025-12-23",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Starting new projects that require structured development - Coordinating multiple AI agents or developers on complex features - Ensuring consistent quality through constitutional governance - Breaking down complex fea…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05103-spec-driven-development-8e8d2ace",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/spec-driven-development/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/spec-driven-development/SKILL.md",
+  "date_source": "frontmatter.updated",
+  "content_hash": "de264459be0c6f2d86d047e12629997e517d46b5a65b9596966bf67c66a3c019",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "tec-do-guide",
+  "中文名称": "待补：tec-do-guide",
+  "一句话作用": "Guide WorkBuddy on when and how to use the Tec-Do MCP tools and local Skill blueprints for ad benchmarks, TikTok ad research, competitor analysis, and VOC sentiment analysis for global advertising and growth teams.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Guide WorkBuddy on when and how to use the Tec-Do MCP tools and local Skill blueprints for ad benchmarks, TikTok ad research, competitor analysis, and VOC sentiment analysis for global advertising and growth teams.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05381-tec-do-guide-43b8cd9a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/tec-do/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/tec-do/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30b2e4f6bf3afd0462b24fbd09cdcfd87c15d7726faba800ba8d7d0c39dbd6b7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

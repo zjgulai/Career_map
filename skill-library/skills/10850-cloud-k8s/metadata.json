@@ -1,0 +1,22 @@
+{
+  "英文名称": "cloud-k8s",
+  "中文名称": "待补：cloud-k8s",
+  "一句话作用": "Use for authorized cloud, container, and Kubernetes security assessment including metadata SSRF, IAM misconfig, container escape paths, and cluster RBAC review.",
+  "关键输入": "- 云元数据 SSRF（169.254.169.254 / IMDS） - IAM 过度权限、公开存储桶、错误安全组 - Docker/containerd 逃逸路径评估 - Kubernetes RBAC、Secrets、Admission、供应链镜像 - 容器镜像漏洞（可联动 supply-chain-security/）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- 云元数据 SSRF（169.254.169.254 / IMDS） - IAM 过度权限、公开存储桶、错误安全组 - Docker/containerd 逃逸路径评估 - Kubernetes RBAC、Secrets、Admission、供应链镜像 - 容器镜像漏洞（可联动 supply-chain-security/）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10850-cloud-k8s-a08b29f4",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/cloud-k8s/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/cloud-k8s/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "86fdb2c06275b3acf501ec438a8d00f1737f5f831942e80b841bec007a5d5585",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

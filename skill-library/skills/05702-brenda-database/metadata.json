@@ -1,0 +1,22 @@
+{
+  "英文名称": "brenda-database",
+  "中文名称": "待补：brenda-database",
+  "一句话作用": "Access BRENDA enzyme database via SOAP API. Retrieve kinetic parameters (Km, kcat), reaction equations, organism data, and substrate-specific enzyme information for biochemical research and metabolic pathway analysis.",
+  "关键输入": "Access optimal conditions and environmental parameters: Get pH and Temperature Data : Cofactor Requirements :",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Searching for enzyme kinetic parameters (Km, kcat, Vmax) - Retrieving reaction equations and stoichiometry - Finding enzymes for specific substrates or reactions - Comparing enzyme prop…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05702-brenda-database-998fc4a0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/brenda-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/brenda-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f82f6d8e067e9ec5a10341aac8be84f1447c14dcae4a5952214c5bca2b961e0f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

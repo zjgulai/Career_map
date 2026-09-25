@@ -1,0 +1,22 @@
+{
+  "英文名称": "dioxus-framework",
+  "中文名称": "待补：dioxus-framework",
+  "一句话作用": "Dioxus 是一个 Rust 的全栈跨平台应用框架，支持服务端渲染、实时更新和类似 React 的组件模型。当用户需要使用 Dioxus 构建 Web 应用、创建组件、处理状态、路由、或处理数据获取时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:17+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Dioxus 是一个 Rust 的全栈跨平台应用框架，支持服务端渲染、实时更新和类似 React 的组件模型。当用户需要使用 Dioxus 构建 Web 应用、创建组件、处理状态、路由、或处理数据获取时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04816-dioxus-framework-3275ae68",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dioxus-framework/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dioxus-framework/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7145fba7a7f0b3cf76c36818c6b7e7220d1a27a7ccf91a2a004c25c61ca6d4b8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

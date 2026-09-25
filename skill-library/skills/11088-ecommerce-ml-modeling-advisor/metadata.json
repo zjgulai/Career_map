@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-ml-modeling-advisor",
+  "中文名称": "待补：ecommerce-ml-modeling-advisor",
+  "一句话作用": "当用户需要把电商预测、分群、推荐、优惠券定向、流失、LTV、风险、VOC 聚类或复购问题转化为 ML 建模方案时使用。触发词：电商机器学习建模顾问、复购预测、流失预警、LTV、优惠券定向、VOC 聚类、推荐模型、ML建模方案、机器学习建模。何时不用：常规销售复盘（使用 ecommerce-analytics-controller）、库存补货（使用 supply-chain-controller）、产品市场备忘、选品调研、评论情感分析、…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "每次输出必须覆盖： - Business Decision - Modeling Task Definition - Label And Time Window - Data Source And Feature Plan - Model Candidate Plan - Validation Plan - Explainability Plan - Deployment/Scoring Plan - Monitoring Plan - Business Action Mapping - Risks And No…",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要当用户需要把电商预测、分群、推荐、优惠券定向、流失、LTV、风险、VOC 聚类或复购问题转化为 ML 建模方案时使用。触发词：电商机器学习建模顾问、复购预测、流失预警、LTV、优惠券定向、VOC 聚类、推荐模型、ML建模方案、机器学习建模。何时不用：常规销售复盘（使用 ecommerce-analytics-controller）、库存补货（使用 supply-chain-controller）、产品市场备忘、选品调研、评论情感分析、…时，用它产出或更新：每次输出必须覆盖： - Business Decis…",
+  "skill_id": "11088-ecommerce-ml-modeling-advisor-57f5cf38",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ecommerce-ml-modeling-advisor/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/ecommerce-ml-modeling-advisor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "026958f0d987d87db211bdbe0df52170bf8428dc5a8b02141d8a3c2a48cf6336",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

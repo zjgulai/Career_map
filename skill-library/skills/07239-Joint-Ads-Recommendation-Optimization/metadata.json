@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Joint-Ads-Recommendation-Optimization",
+  "中文名称": "待补：Joint Ads Recommendation Optimization",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 89.0, \"best\": 89.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T03:32:49.683941\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T18:32:49+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 89.0, \"best\": 89.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T03:32:49.683941\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07239-skill-joint-ads-recommendation-optimization-95078f07",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Joint-Ads-Recommendation-Optimization.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Joint-Ads-Recommendation-Optimization.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "1a39e789187a06b5dd1c4f810e6a410ccd02e47960eb7996f2eb8f8a4e080af7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

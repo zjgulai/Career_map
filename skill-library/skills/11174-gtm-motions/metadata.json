@@ -1,0 +1,22 @@
+{
+  "英文名称": "gtm-motions",
+  "中文名称": "待补：gtm-motions",
+  "一句话作用": "Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, o…",
+  "关键输入": "Use $ARGUMENTS to pass: - Product description and positioning - Target customer profile and market - Price point and sales cycle - Team size and capabilities - Budget and timeline constraints - Existing channels or data",
+  "关键输出": "A comprehensive GTM motions analysis including: - Scoring of all 7 motions for your product - Recommended motion stack (primary and secondary) - Tool recommendations for each motion - 90-day execution plan with milestones - Resource and budget requirements -…",
+  "最新更新时间": "2026-09-16T00:16:50+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Selecting marketing channels for your product - Choosing between inbound vs outbound strategy - Building your GTM toolkit and tech stack - Evaluating PLG vs traditional sales motion - Planning cross-channel marketing…时，用它产出或更新：A comprehensive GTM motions…",
+  "skill_id": "11174-gtm-motions-0fc9098a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-go-to-market/skills/gtm-motions/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-go-to-market/skills/gtm-motions/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b26db17f9eee4f04aa3d53bf3c393da0574a3fa54d59eb7427e0cf5edf2377c3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

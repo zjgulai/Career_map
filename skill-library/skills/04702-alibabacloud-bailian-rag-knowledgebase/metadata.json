@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibabacloud-bailian-rag-knowledgebase",
+  "中文名称": "待补：alibabacloud-bailian-rag-knowledgebase",
+  "一句话作用": "Alibaba Cloud Bailian Knowledge Base Retrieval Tool. Use HTTPS API to query and retrieve knowledge base content. Use when: User needs to query knowledge base, retrieve document content, or answer questions based on know…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:48:07+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba Cloud Bailian Knowledge Base Retrieval Tool. Use HTTPS API to query and retrieve knowledge base content. Use when: User needs to query knowledge base, retrieve document content, or answer questions based on know…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04702-alibabacloud-bailian-rag-knowledgebase-905b075e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/alibabacloud-bailian-rag-knowledgebase/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/alibabacloud-bailian-rag-knowledgebase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b7d36227756ae5529198d8bf63759fa6bfac46f6348efcd56c60c796c4ad7b49",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

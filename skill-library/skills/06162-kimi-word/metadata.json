@@ -1,0 +1,22 @@
+{
+  "英文名称": "kimi-word",
+  "中文名称": "待补：kimi-word",
+  "一句话作用": "Create, edit, repair, and review Word documents (.docx). Use for docx-js document creation, in-place editing of existing .docx files, comments, tracked changes, Markdown-to-docx conversion with citations, and DOCX packa…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T18:47:01+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Create, edit, repair, and review Word documents (.docx). Use for docx-js document creation, in-place editing of existing .docx files, comments, tracked changes, Markdown-to-docx conversion with citations, and DOCX packa…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06162-kimi-word-f2caf099",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/kimi-word/skills/kimi-word/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/kimi-word/skills/kimi-word/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c89e6882a84523f29abab6bad650f4bbfe241d0a7ed06a1464461ee1589662a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

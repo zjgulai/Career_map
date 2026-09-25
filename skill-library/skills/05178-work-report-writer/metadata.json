@@ -1,0 +1,22 @@
+{
+  "英文名称": "work-report-writer",
+  "中文名称": "待补：work-report-writer",
+  "一句话作用": "Work report generator. 工作汇报生成器、周报生成、工作周报、每周总结、weekly report、周报模板、周报怎么写、日报生成、工作日报、daily report、日报模板、月报生成、月度总结、monthly report、项目汇报、年终总结、年度总结、annual review、站会汇报、standup report、OKR报告、工作总结、述职报告、季度总结、Q1Q2Q3Q4总结、项目复盘、经验教训、改进措施…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "All reports include where applicable: - 工作内容/完成事项 — What was done, with specifics - 数据与成果 — Quantified results and highlights - 下步计划 — Next steps and upcoming work - 风险/问题 — Blockers, risks, or issues to flag",
+  "最新更新时间": "2026-09-19T03:49:12+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Work report generator. 工作汇报生成器、周报生成、工作周报、每周总结、weekly report、周报模板、周报怎么写、日报生成、工作日报、daily report、日报模板、月报生成、月度总结、monthly report、项目汇报、年终总结、年度总结、annual review、站会汇报、standup report、OKR报告、工作总结、述职报告、季度总结、Q1Q2Q3Q4总结、项目复盘、经验教训、改进措施…时，用它产出或更新：All reports include where…",
+  "skill_id": "05178-work-report-writer-3481dfe5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/work-report-writer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/work-report-writer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f40bb881277adaf031b34db79a0b07a0a3fdc6533bbabe87f393388c8a117b3b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

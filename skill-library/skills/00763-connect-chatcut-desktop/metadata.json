@@ -1,0 +1,22 @@
+{
+  "英文名称": "connect-chatcut-desktop",
+  "中文名称": "待补：connect-chatcut-desktop",
+  "一句话作用": "Install, open, connect, or repair ChatCut Desktop when the chatcut desktop MCP tools are missing or unavailable. Do not use from a managed agent already running inside ChatCut Desktop, or when chatcut desktop tools are…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Install, open, connect, or repair ChatCut Desktop when the chatcut desktop MCP tools are missing or unavailable. Do not use from a managed agent already running inside ChatCut Desktop, or when chatcut desktop tools are…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00763-connect-chatcut-desktop-58c7a913",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/chatcut/skills/connect-chatcut-desktop/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/chatcut/skills/connect-chatcut-desktop/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "572693a786dedb9c25bc37197e1af473d8341eb65b9c82a14bb092c8b0ef6364",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-newmedia-writing",
+  "中文名称": "豆包新媒体写作",
+  "一句话作用": "用于生成、改写、优化并默认以飞书文档/Lark Doc 交付中文新媒体内容，覆盖小红书图文笔记、微信公众号文章、3 分钟以内短视频分镜脚本，以及上述类型的复合创作方案；明确命中创作类型后必须创建并交付飞书文档/Lark Doc。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要用于生成、改写、优化并默认以飞书文档/Lark Doc 交付中文新媒体内容，覆盖小红书图文笔记、微信公众号文章、3 分钟以内短视频分镜脚本，以及上述类型的复合创作方案；明确命中创作类型后必须创建并交付飞书文档/Lark Doc。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06541-doubao-newmedia-writing-87fed8fd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-newmedia-writing/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-newmedia-writing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ac8eaf4ea83a4780be78d3aa794375e4ec73b1405a664502386196cbcd8628bb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

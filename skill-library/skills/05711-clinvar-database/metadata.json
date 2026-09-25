@@ -1,0 +1,22 @@
+{
+  "英文名称": "clinvar-database",
+  "中文名称": "待补：clinvar-database",
+  "一句话作用": "Query NCBI ClinVar for variant clinical significance. Search by gene/position, interpret pathogenicity classifications, access via E-utilities API or FTP, annotate VCFs, for genomic medicine.",
+  "关键输入": "This skill should be used when: - Searching for variants by gene, condition, or clinical significance - Interpreting clinical significance classifications (pathogenic, benign, VUS) - Accessing ClinVar data programmatica…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when: - Searching for variants by gene, condition, or clinical significance - Interpreting clinical significance classifications (pathogenic, benign, VUS) - Accessing ClinVar data programmatica…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05711-clinvar-database-5e8d6c53",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/clinvar-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/clinvar-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "674743c148b07806382dd410420f5a901b47386032d7ad4ee10c60fe8fc1c877",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "API接口设计",
+  "中文名称": "接口设计",
+  "一句话作用": "Design RESTful APIs, generate OpenAPI 3.0 docs, standardize request/response structures",
+  "关键输入": "场景 参数格式 示例 ------ ---------- ------ 分页 page + size ?page=1&size=20 排序 sort=field:asc/desc ?sort=createTime:desc 筛选 直接字段名 ?status=1&name=xx 模糊搜索 keyword 或 search ?keyword=张三 时间范围 startXxx + endXxx ?startTime=...&endTime=...",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:48+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Design RESTful APIs, generate OpenAPI 3.0 docs, standardize request/response structures时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04488-api-290abe40",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/API接口设计/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/API接口设计/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a7cf7fe6c430c44487dc9789ff219936c9dc1e1b9a050fe7b1eb2805f16e4c1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

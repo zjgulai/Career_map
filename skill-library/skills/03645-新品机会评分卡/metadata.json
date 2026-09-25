@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-opportunity-scoring",
+  "中文名称": "新品机会评分卡）",
+  "一句话作用": "触发词：机会评分卡、新品打分、多维加权、候选池、选品决策。何时不用：要对整个品类做三维机会评分时用「品类机会评分引擎」；要预测新品成功概率与首发区域时用「New Product Opportunity Mining」。安全边界：权重与阈值须按业务复核留档，评分只做候选分层、不等于立项结论；利润字段必须使用真实成本数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要产品总监面临机会排序混乱——Opportunity Scoring将误判率28%压到9%，年化省19万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03645-p2s-product-opportunity-scoring-030922e1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-product-opportunity-scoring/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-product-opportunity-scoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "715aebd975b24906aebfe68d4b160bdfb6ca68d17933077cc8f9fb2e8cb26cc4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "aiq-research",
+  "中文名称": "待补：aiq-research",
+  "一句话作用": "Use when asked to run deep research or AI-Q research through a reachable NVIDIA AI-Q Blueprint backend.",
+  "关键输入": "Users need: - Python 3.11+ available as python3. - A reachable local or self-hosted AI-Q Blueprint backend. - AIQ SERVER URL set when the backend is not running at http://localhost:8000; non-local values must be trusted by the user before any query is sent.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when asked to run deep research or AI-Q research through a reachable NVIDIA AI-Q Blueprint backend.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00944-aiq-research-af0bed3e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/aiq-research/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/aiq-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a765670f3d460a7ef6849070b4a95a28d66c92eb678d720ca9fd1731f80189fc",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

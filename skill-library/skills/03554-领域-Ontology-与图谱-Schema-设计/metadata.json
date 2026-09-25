@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ontology-schema-design",
+  "中文名称": "领域 Ontology 与图谱 Schema 设计",
+  "一句话作用": "触发词：本体设计、Schema 统一、SHACL 约束、关系命名、覆盖率检查。何时不用：Schema 已稳定、只需按既有本体填数据时用建图类技能；本技能解决多人建模导致关系命名不一致、查询返回空结果的问题。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要业务背景：某跨境母婴品牌 KG 建设初期，不同工程师对\"吸奶器配件\"的关系建模方式各不相同（有人用 hasPart，有人用 compatibleWith，有人用 accessoryOf）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03554-p2s-ontology-schema-design-52952c9c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ontology-schema-design/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ontology-schema-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "448b0ade5e31809bc1423495831df38d378a265e82a9e5c8afdbb1624d62720e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

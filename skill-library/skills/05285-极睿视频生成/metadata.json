@@ -1,0 +1,22 @@
+{
+  "英文名称": "infimind-video-generation",
+  "中文名称": "极睿视频生成",
+  "一句话作用": "根据用户提供的文本与媒体素材，通过极睿视频完成视频生成预检、费用确认、任务创建和状态跟踪。",
+  "关键输入": "正式调用前逐项确认： 1. 明确用户要生成的内容、用途、时长、画幅、清晰度、语言和声音要求；缺失的关键条件先询问。 2. 本地素材必须来自用户在当前对话中主动选择的文件；远程素材只接受可安全读取的公网 HTTP/HTTPS URL，不猜测本地路径。 3. 视频支持 MP4/MOV，音频支持 MP3/WAV。私网、localhost、file: URL 或无法安全访问的远程文件应停止处理并请用户更换。 4. 逐项核对素材数量、顺序和模型限制。首尾帧中第一张必须是首帧；引用 @imageN 时必须与图片顺序一致。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "design",
+  "解决具体问题": "当需要- 根据文字生成视频，或用单张图片驱动画面。 - 用首帧与尾帧控制镜头过渡。 - 组合多张图片、参考视频或音频生成视频。 - 用多张人物、商品或场景图片保持参考一致性。 - 基于一个视频和可选参考图完成视频编辑。 - 查询当前对话中已创建任务的进度和结果。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05285-infimind-video-generation-971d0482",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/infimind-video/skills/infimind-video-generation/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/infimind-video/skills/infimind-video-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d3a853b25266c560b9d6fba3d5edc50e9b946116e13330131fca6d9214e37286",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "wechat-chat-tool",
+  "中文名称": "微信小程序聊天工具开发指南",
+  "一句话作用": "微信小程序聊天工具开发指南。当开发聊天工具分包、配置 chatTools、发送消息到群聊、动态消息、获取群成员信息、wx.openChatTool、wx.getChatToolInfo 时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:50:06+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要微信小程序聊天工具开发指南。当开发聊天工具分包、配置 chatTools、发送消息到群聊、动态消息、获取群成员信息、wx.openChatTool、wx.getChatToolInfo 时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05173-wechat-chat-tool-c3316212",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/wechat-chat-tool/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/wechat-chat-tool/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "26c1949fe4dbeba7d317e3fd93b351782a8098f36e44c786a331a2eecc9d203d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

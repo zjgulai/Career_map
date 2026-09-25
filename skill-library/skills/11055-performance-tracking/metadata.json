@@ -1,0 +1,22 @@
+{
+  "英文名称": "performance-tracking",
+  "中文名称": "待补：performance-tracking",
+  "一句话作用": "Use when establishing measurement frameworks, dashboards, and optimization rhythms for live campaigns.",
+  "关键输入": "- Before launch to define metrics, data sources, and reporting cadence. - During active campaigns to monitor pacing vs goals and trigger optimizations. - Post-campaign retros to capture learnings and benchmarks.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-05T16:57:10+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Before launch to define metrics, data sources, and reporting cadence. - During active campaigns to monitor pacing vs goals and trigger optimizations. - Post-campaign retros to capture learnings and benchmarks.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11055-performance-tracking-cf876e15",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/backup/pre-81/performance-tracking/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/backup/pre-81/performance-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b11734698829021e9d0449dbcd162c922d3284537e42e6f25f370dd4dd42fdb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cost-optimization",
+  "中文名称": "待补：cost-optimization",
+  "一句话作用": "Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing infrastructure costs, or implementing cost governance policie…",
+  "关键输入": "- Reduce cloud spending - Right-size resources - Implement cost governance - Optimize multi-cloud costs - Meet budget constraints",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Reduce cloud spending - Right-size resources - Implement cost governance - Optimize multi-cloud costs - Meet budget constraints时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05588-cost-optimization-64eb127b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cloud-infrastructure/skills/cost-optimization/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cloud-infrastructure/skills/cost-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2a56b05ee1e0f39f55c512d4a8097b50d86efbcc9cf7ccf7368871cfce9d2107",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

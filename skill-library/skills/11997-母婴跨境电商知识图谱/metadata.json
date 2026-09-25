@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hybrid-sql-vector-rag",
+  "中文名称": "母婴跨境电商知识图谱",
+  "一句话作用": "触发词：混合检索、结构化加语义、指标联合查询、财务与评论对账、双路召回。何时不用：问题只涉及数值统计时用 Text2SQL；只涉及文本语义时用普通 RAG。安全边界：财务与利润数据仅限内部只读查询，输出不得包含个人隐私字段，原始财务明细不得外发。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据分析师面临\"结构化订单数据与语义评论数据割裂无法联合分析\"——Hybrid SQL-Vector RAG将SQL精确查询与语义向量检索融合，联合查询覆盖率提升60%，跨模态分析响应时间降低70%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11997-p2s-hybrid-sql-vector-rag-ce553e46",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-hybrid-sql-vector-rag/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-hybrid-sql-vector-rag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9bb9b6e2257c30bd8f138721aefb83b160cefd1e99af9000323efaa1de97e6ce",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

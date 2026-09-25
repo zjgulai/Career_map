@@ -1,0 +1,22 @@
+{
+  "英文名称": "Project Bootstrapping",
+  "中文名称": "项目快速建置)",
+  "一句话作用": "快速创建项目骨架、Gradle Convention Plugins 与标准化架构",
+  "关键输入": "- packageName（例如：com.company.app） - compileSdk / targetSdk / minSdk - jdkVersion / jvmTarget - CI provider（GitHub Actions / GitLab CI / Jenkins） - 模块清单（app、core/ 、feature/ ）",
+  "关键输出": "- settings.gradle.kts：含模块声明与 includeBuild(\"build-logic\") - gradle/libs.versions.toml：集中管理版本与 plugins - build-logic/convention/...：至少含 app/library/feature plugin - app/build.gradle.kts：不直接写版本号，全部走 Version Catalog - CI workflow：至少包含 lint、detekt、test、assemble",
+  "最新更新时间": "2026-09-19T03:55:59+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Scenario A：从零创建新项目时，用它产出或更新：- settings.gradle.kts：含模块声明与 includeBuild(\"build-logic\") - gradle/libs.versions.toml：集中管理版本与 plugins - build-logic/convention/...：至少含 app/library/feature plugin - app/build.gradle.kts：不直接写版本号，全部走 Version Catalog - CI workflow：…",
+  "skill_id": "05025-project-bootstrapping-07884542",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Project-Bootstrapping/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Project-Bootstrapping/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d7f5838c1a9b4249d7084a2b55e4a33c99339b33709d6ad47566775137d2988",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skywork-ppt",
+  "中文名称": "待补：Skywork-ppt",
+  "一句话作用": "Use this skill when the user wants to work with PowerPoint presentations. Triggers include: - Generating a new PPT from a topic: 'generate a PPT' / '帮我做个PPT' / 'PPTを作って' / 'PPT 만들어줘', 'create a presentation about X' / '…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:03:30+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Use this skill when the user wants to work with PowerPoint presentations. Triggers include: - Generating a new PPT from a topic: 'generate a PPT' / '帮我做个PPT' / 'PPTを作って' / 'PPT 만들어줘', 'create a presentation about X' / '…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06132-skywork-ppt-cef709ad",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/Skywork-ppt/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/Skywork-ppt/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "76e3b0206129a7974f3912d281b4f603ed3e35308825b2e50bc848bb4f0ac120",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "kotlin-coroutines-expert",
+  "中文名称": "待补：kotlin-coroutines-expert",
+  "一句话作用": "Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.",
+  "关键输入": "- Use when implementing asynchronous operations in Kotlin. - Use when designing reactive data streams with Flow. - Use when debugging coroutine cancellations or exceptions. - Use when writing unit tests for suspending f…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:46+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Use when implementing asynchronous operations in Kotlin. - Use when designing reactive data streams with Flow. - Use when debugging coroutine cancellations or exceptions. - Use when writing unit tests for suspending f…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04932-kotlin-coroutines-expert-4996936d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/kotlin-coroutines-expert/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/kotlin-coroutines-expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e61a5ce1344b01f7c1bac623a9189cb889ab9c20156242224a172225d69d91b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "跨域触发中枢（分析结果 → 下游 Skill 路由）",
+  "中文名称": "待补：跨域触发中枢（分析结果 → 下游 Skill 路由）",
+  "一句话作用": "当 anomaly-detector 或其它 H 域分析产出异常事件、需要映射到产品/供应链/渠道/客服等具体 Skill id 并去重时调用；不自动执行下游，只输出路由建议与优先级。",
+  "关键输入": "- 输入为结构化 异常列表 （可来自 anomaly-detector）。 - 已维护 路由表 ：异常类型 → 候选 Skill（可在 YAML 块中粘贴）。",
+  "关键输出": "- 表：event id target skill id severity reason depends on auto eligible - summary ：供周会朗读用 5 行内。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当 anomaly-detector 或其它 H 域分析产出异常事件、需要映射到产品/供应链/渠道/客服等具体 Skill id 并去重时调用；不自动执行下游，只输出路由建议与优先级。时，用它产出或更新：- 表：event id target skill id severity reason depends on auto eligible - summary ：供周会朗读用 5 行内。",
+  "skill_id": "09927-skill-26761678",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/strategy-insight/cross-domain-trigger-hub/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/strategy-insight/cross-domain-trigger-hub/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "23a5868254d27c6c8143297f7952522945c1f2e8f6c357b99039d5d7ecebf234",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

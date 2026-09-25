@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-app-store-review",
+  "中文名称": "待补：shopify-app-store-review",
+  "一句话作用": "Run a pre-submission compliance check against your Shopify app's codebase. Reviews App Store requirements and surfaces likely issues before you submit for official review.",
+  "关键输入": "To manage context efficiently, process each requirement independently using a sub-agent or separate evaluation pass. For each requirement: 1. Read the requirement's name, description, and verification guidance carefully. 2. Search the codebase for relevant co…",
+  "关键输出": "After evaluating all requirements, compile the results into a single report using the format below. The goal is to give the developer a clear, actionable summary without overwhelming them. You'll notice we don't list details for passing requirements, we only…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run a pre-submission compliance check against your Shopify app's codebase. Reviews App Store requirements and surfaces likely issues before you submit for official review.时，用它产出或更新：After evaluating all requirements, compile the results into a single report…",
+  "skill_id": "01018-shopify-app-store-review-d660e48d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-app-store-review/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-app-store-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "418e521a56613a4b5922884e512a57d184a5c5085e868649e94be00f63da71d9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

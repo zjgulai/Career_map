@@ -1,0 +1,22 @@
+{
+  "英文名称": "pestle-analysis",
+  "中文名称": "待补：pestle-analysis",
+  "一句话作用": "从政治、经济、社会、技术与法律环境扫描外部变化，识别对业务的机会与威胁。触发词：宏观环境分析、pestle-analysis、从政治、经济、社会、技术与法律环境扫描外部变化，识别对业务的机会与威胁。",
+  "关键输入": "- Industry and market context - Geographic market or region(s) - Product or business type - Current strategic challenges or questions - Any known regulatory or market changes",
+  "关键输出": "1. For each PESTLE category, identify 3-5 relevant factors 2. Assess impact on product/business (High, Medium, Low) 3. Assess probability or likelihood (High, Medium, Low) 4. Prioritize factors by impact x probability 5. Develop strategic responses: - Which f…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要从政治、经济、社会、技术与法律环境扫描外部变化，识别对业务的机会与威胁。触发词：宏观环境分析、pestle-analysis、从政治、经济、社会、技术与法律环境扫描外部变化，识别对业务的机会与威胁。时，用它产出或更新：1. For each PESTLE category, identify 3-5 relevant factors 2. Assess impact on product/business (High, Medium, Low) 3. Assess probability or likeli…",
+  "skill_id": "04066-pestle-analysis-936dba25",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/pestle-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/pestle-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5e8c334e5efe7eae0740c1754551da8e068ff3ed0efb5a1e206ae3f8bdcfaa0b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mas-revenue-operations",
+  "中文名称": "运营财务协同 多智能体驱动的P实时归因与决策",
+  "一句话作用": "触发词：多智能体 P&L、月末归因、责任部门定位、驱动因素贡献、P&L 协同。何时不用：只要单链路归因报告用「多步推理 BI 归因」；只看广告费与净利关系用「广告 TACoS 与 P&L 集成」。安全边界：自动归因可能过度简化业务，须设人工审核节点与预算硬上限；不得自动调高出价，数据须符合平台开发者协议且不存 PII。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要财务团队面临\"月度P&L归因需3天多部门对接且互相推诿\"——多智能体P&L协同20分钟生成结构化归因报告，年化节省财务分析人力40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03418-p2s-mas-revenue-operations-32b8f815",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mas-revenue-operations/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mas-revenue-operations/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fbd73654a7e02491554aa39af94bc374ed9269745fb65cfcbb6fb70cd07306df",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

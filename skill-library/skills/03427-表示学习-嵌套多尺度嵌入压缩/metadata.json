@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-matryoshka-representation-learning",
+  "中文名称": "表示学习 嵌套多尺度嵌入压缩",
+  "一句话作用": "触发词：嵌入压缩、MRL、向量维度、存储成本、多尺度检索。何时不用：索引结构与检索参数优化走「HNSW 向量索引工程」；千万级数据的召回治理走「向量数据库生产工程」。安全边界：训练数据须脱敏，压缩后的向量不得保留可还原用户隐私的表示。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据工程师面临百万级商品向量存储成本高——MRL将嵌入维度压缩16倍，存储成本-93.75%，精度损失<2%，年化节省基础设施费用55万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03427-p2s-matryoshka-representation-learning-2f6eb40b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-matryoshka-representation-learning/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-matryoshka-representation-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e9b9451d86f446cb24999f73f3d9a120c4b558b8fa7ac7900b733847a7d4c462",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

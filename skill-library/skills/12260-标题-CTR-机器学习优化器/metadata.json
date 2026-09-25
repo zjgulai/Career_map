@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-click-through-rate-title-optimizer",
+  "中文名称": "标题 CTR 机器学习优化器",
+  "一句话作用": "触发词：标题优化、CTR 提升、关键词位置、位置权重、标题 A/B。何时不用：量化文案与搜索意图的语义匹配用「Listing 语义相关性评分」；本技能算的是标题结构与点击率。安全边界：标题不得使用绝对化用语或违禁宣称，改动须按平台规则做 A/B 验证。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"Listing标题CTR低广告浪费\"——ML预测最佳关键词位置将标题CTR从3.2%提升至5.1%，年化节省广告费15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12260-p2s-click-through-rate-title-optimizer-bd8351da",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-click-through-rate-title-optimizer/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-click-through-rate-title-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ab711cc7f3e15737d0b85036de4fc2a2bc4733f5db8cccf945231d672975153",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

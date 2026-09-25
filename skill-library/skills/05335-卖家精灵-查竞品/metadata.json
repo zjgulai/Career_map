@@ -1,0 +1,22 @@
+{
+  "英文名称": "linkfox-sellersprite-competitor-lookup",
+  "中文名称": "卖家精灵-查竞品",
+  "一句话作用": "使用卖家精灵数据在亚马逊上查找和分析竞品，覆盖12个站点，包含销量、BSR、定价、评分和增长趋势等商品指标。当用户提到竞品查询、竞品分析、ASIN反查、竞争商品研究、查找相似商品、市场竞品发现、商品对标、竞品销量估算、分析竞争Listing、competitor analysis, ASIN reverse lookup, competitor sales, competitor research, SellerSprite, mar…",
+  "关键输入": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- uid string 否 最长 1000 用户id page integer 否 默认 1 页码，从1开始 size integer 否 默认 50；最小 10 每页条数,返回10-100条数据 brand string 否 最长 1000 品牌 order object 否",
+  "关键输出": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- type string 否 渲染的样式 total integer 否 总行数 columns array 否 渲染的列 message string 否 执行消息 products array 否 竞品列表 costToken integer 否 消耗token",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当用户意图与“卖家精灵-查竞品”匹配，或需要以下能力时使用本工具：支持按亚马逊站点、多个asin、关键词、卖家名称来 查询 亚马逊的商品。 调用前应先确认所有必填参数。涉及站点、国家、日期、语言、ASIN、SKU、图片或 URL 时，应使用用户提供的信息，不要擅自虚构真实业务标识。时，用它产出或更新：字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- type string 否 渲染的样式 total integer 否 总行数 columns array 否 渲染的列 mes…",
+  "skill_id": "05335-linkfox-sellersprite-competitor-lookup-55055517",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-sellersprite-competitor-lookup/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-sellersprite-competitor-lookup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "54c79722f81c0881517876363569a6266f6030966d6c3480301c985ade6ce0a5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

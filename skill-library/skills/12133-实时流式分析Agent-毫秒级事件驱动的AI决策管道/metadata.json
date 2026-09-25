@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-streaming-analytics-agent",
+  "中文名称": "实时流式分析Agent 毫秒级事件驱动的AI决策管道",
+  "一句话作用": "触发词：实时流式分析、事件驱动决策、大促库存告警、销速异常、竞品降价响应、滑动窗口统计。何时不用：只做离线按天跑批的分布检查用「数据漂移检测」；只做指标异常点检测用「时序异常检测」。安全边界：自动触发的补货动作必须有人工审批 gate（卡页口径：金额超 5 万元必须人工确认）并具备回滚机制；分析只使用聚合订单数据，不得处理用户级 PII；告警须设最小持续时间阈值以抑制单点噪声误报。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要电商团队面临\"大促广告消耗异常要等T+1才发现每次损失数万元\"——ADWIN流式检测+LLM实时分析在2分钟内告警，年化大促保护GMV约137万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12133-p2s-streaming-analytics-agent-ea3239e1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-streaming-analytics-agent/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-streaming-analytics-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "173db87c134daf0d02ff5544b5241928c5ee068e5588df7348cb15a2fb3cec7e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

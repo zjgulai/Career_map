@@ -1,0 +1,22 @@
+{
+  "英文名称": "elixir-pro",
+  "中文名称": "待补：elixir-pro",
+  "一句话作用": "Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Idiomatic Elixir following community style guide - OTP applications with proper supervision trees - Phoenix apps with contexts and clean boundaries - ExUnit tests with doctests and async where possible - Dialyzer specs for type safety - Performance benchmar…",
+  "最新更新时间": "2026-09-19T03:57:06+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.时，用它产出或更新：- Idiomatic Elixir following community style guide - OTP applications with proper supervision tr…",
+  "skill_id": "04851-elixir-pro-c67bce17",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/elixir-pro/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/elixir-pro/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "47158bfd4fc9ac229c0faa8a3a5352597407404e7d645b9465bd73661f233e22",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

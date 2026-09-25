@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-forecast-driven-inventory",
+  "中文名称": "预测驱动库存优化）",
+  "一句话作用": "触发词：预测驱动补货、最优服务水平、安全库存计算、报童临界比、再订货点。何时不用：需求分布还没建立、要先做预测时走「需求预测」类技能；要把缺货损失口径算全时用「缺货成本量化」。安全边界：按卡页合规轨要求，预测结果需经质检部门审核后方可补货，预测数据须可追溯。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要吸奶器月需求预测 1200±200，提前期 30 天，缺货成本 $25/件，持有成本 $3/件时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03145-p2s-forecast-driven-inventory-562ae679",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-forecast-driven-inventory/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-forecast-driven-inventory/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b55b906ebfbe24865e70d00e813bc6cf2e59c756da7b2d248b72c6f120f9f280",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

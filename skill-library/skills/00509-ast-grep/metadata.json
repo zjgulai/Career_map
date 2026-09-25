@@ -1,0 +1,22 @@
+{
+  "英文名称": "ast-grep",
+  "中文名称": "待补：ast-grep",
+  "一句话作用": "Use ast-grep (sg) for AST-aware code search and rewrite across 25 languages. Trigger for structural code matching or deterministic codemods: find every function/call/class/import shaped like X, rewrite console.log to lo…",
+  "关键输入": "Use it whenever the user's question is about code structure , not bytes: - \"Find every function that takes a Request parameter.\" - \"Rewrite every console.log(x) to logger.info(x).\" - \"Strip every as any cast.\" - \"Replac…",
+  "关键输出": "sg run -p ' ' --lang --debug-query=ast --stdin '",
+  "最新更新时间": "2026-06-23T19:48:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use it whenever the user's question is about code structure , not bytes: - \"Find every function that takes a Request parameter.\" - \"Rewrite every console.log(x) to logger.info(x).\" - \"Strip every as any cast.\" - \"Replac…时，用它产出或更新：sg run -p ' ' --lang --deb…",
+  "skill_id": "00509-ast-grep-37422ed5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/packages/omo-codex/plugin/skills/ast-grep/SKILL.md",
+  "relative_path": "lute/.cache/opencode/packages/oh-my-openagent@latest/node_modules/oh-my-openagent/packages/omo-codex/plugin/skills/ast-grep/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c5512fb494945183219f23fe3edd05c601a09c396c5771bd750bf8a079b62d3e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

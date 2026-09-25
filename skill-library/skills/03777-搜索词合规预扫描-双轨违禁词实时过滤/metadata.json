@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-search-compliance-guard",
+  "中文名称": "搜索词合规预扫描 双轨违禁词实时过滤",
+  "一句话作用": "触发词：搜索词合规、违禁词、健康声明、双轨过滤、关键词预审、脚本预审。何时不用：要按平台条款改写整段文案时用「Amazon ToS 合规护栏」，要检测订阅页暗模式时用「Nudge 架构伦理」。安全边界：词库须经法律团队审定，过滤过广会误伤合法关键词，且漏报风险高于误报。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"关键词上架后才发现含违禁宣称导致Listing被下架\"——上架前合规预扫描将违禁词漏报率从22%降至3%，年化避免账号受限保护广告预算50-120万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03777-p2s-search-compliance-guard-83b1eb9f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-search-compliance-guard/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-search-compliance-guard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "30dea93d46954112673c96af4fedadada61379466896766ed77f3a73fde0b951",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

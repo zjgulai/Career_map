@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-listing-localization",
+  "中文名称": "待补：doubao-listing-localization",
+  "一句话作用": "Cross-border ecommerce Listing and Product Optimization for Amazon, TEMU, Walmart Marketplace, TikTok Shop, Shopify, AliExpress, Etsy, Google Shopping, Shopee, Lazada, Ozon, and other marketplace or independent-store pr…",
+  "关键输入": "- Platform and target country/site are the highest-value inputs. If missing and the answer depends on platform rules or local language, ask a concise question. If proceeding asynchronously, default to Amazon US only when the query implies Amazon; otherwise us…",
+  "关键输出": "Use this structure unless the user asks for a different format: 1. Task understanding and assumptions 2. Source / official verification plan 3. Product fact and current-state extraction 4. Keyword / positioning map 5. Listing or PDP optimization output",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Cross-border ecommerce Listing and Product Optimization for Amazon, TEMU, Walmart Marketplace, TikTok Shop, Shopify, AliExpress, Etsy, Google Shopping, Shopee, Lazada, Ozon, and other marketplace or independent-store pr…时，用它产出或更新：Use this structure unless…",
+  "skill_id": "06266-doubao-listing-localization-4c280660",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-listing-localization/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-listing-localization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "35e7561f5610493305ab2af30fadb16d9d8f7d3439aae0546e7b63d260b9d83d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

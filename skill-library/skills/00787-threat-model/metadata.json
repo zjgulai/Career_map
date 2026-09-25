@@ -1,0 +1,22 @@
+{
+  "英文名称": "threat-model",
+  "中文名称": "待补：threat-model",
+  "一句话作用": "Use when Codex is already in the threat-modeling phase of a security scan, the user explicitly invokes $threat-model, or the user explicitly asks to create, update, or persist a repository threat model. Do not use as th…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use when Codex is already in the threat-modeling phase of a security scan, the user explicitly invokes $threat-model, or the user explicitly asks to create, update, or persist a repository threat model. Do not use as th…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00787-threat-model-34deb48b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/codex-security/skills/threat-model/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/codex-security/skills/threat-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9aa474aed20b89a350a1e9181c8fdf80c89b6ca05a300e5cc4727cd31ae3eadd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "scrapling",
+  "中文名称": "待补：scrapling",
+  "一句话作用": "Use this skill whenever the user asks to scrape a website, extract structured data from web pages, handle anti-bot/Cloudflare pages, crawl multiple pages, or explicitly mentions Scrapling. This skill provides a practica…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "When executing a user task with this skill, respond with: 1. chosen fetcher/spider strategy and why 2. runnable script (or patch) tailored to target site 3. exact install/run commands for current machine 4. output path and data schema 5. anti-bot reliability…",
+  "最新更新时间": "2026-09-19T03:50:12+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Use this skill whenever the user asks to scrape a website, extract structured data from web pages, handle anti-bot/Cloudflare pages, crawl multiple pages, or explicitly mentions Scrapling. This skill provides a practica…时，用它产出或更新：When executing a user task…",
+  "skill_id": "05083-scrapling-6d2617dc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/scrapling/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/scrapling/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f8d950b012e8683fc6b6bd701905566cf454e81ba1968dde6918782a907df7a8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

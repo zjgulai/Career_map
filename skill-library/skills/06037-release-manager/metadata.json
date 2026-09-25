@@ -1,0 +1,22 @@
+{
+  "英文名称": "release-manager",
+  "中文名称": "待补：release-manager",
+  "一句话作用": "Prepare repository releases. Use when the user asks to draft release notes, update changelog, check semver, verify CI, create a release checklist, or decide whether a public repo is ready to tag and publish.",
+  "关键输入": "- Changelog, package manifests, tags, commits since last release, and merged PRs. - CI status, test results, docs changes, migration notes, and breaking-change signals. - Publishing workflow and maintainer approval policy.",
+  "关键输出": "Return: 1. Release readiness verdict 2. Recommended version bump 3. Changelog draft 4. Release notes draft 5. Preflight checklist 6. Approval needed",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- The user asks to prepare, review, or draft a release. - A changelog, semver bump, tag, or release note needs review. - CI and package readiness need preflight checks.时，用它产出或更新：Return: 1. Release readiness verdict 2. Recommended version bump 3. Changelog…",
+  "skill_id": "06037-release-manager-8a0904b2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/release-manager/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/repo-maintenance/release-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a982482c58ce45f44679ab19dc930d34800820d3c50f8af41b31dde6db80b050",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "SKU 健康度批量扫描（ERP 驱动）",
+  "中文名称": "待补：SKU 健康度批量扫描（ERP 驱动）",
+  "一句话作用": "当需要按周/月对大量 SKU 做销量趋势、利润、库存周转、评分等健康度分级（S/A/B/C）并输出货盘周报素材时调用。",
+  "关键输入": "- ERP 片段含：sku、销量（30/90 天）、毛利或成本、inventory on hand、评分/评论数（可来自平台报表合并）、渠道/站点维度。 - 口径（币种、时间窗）在任务开始时声明。",
+  "关键输出": "- 明细表：sku 站点 分数 等级 主因标签 建议动作 - 附录 ：本次权重与阈值。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要按周/月对大量 SKU 做销量趋势、利润、库存周转、评分等健康度分级（S/A/B/C）并输出货盘周报素材时调用。时，用它产出或更新：- 明细表：sku 站点 分数 等级 主因标签 建议动作 - 附录 ：本次权重与阈值。",
+  "skill_id": "09923-sku-erp-266b2648",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/product-manage/sku-health-scanner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/product-manage/sku-health-scanner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "deae94ecd2a78f3e3e8a628d77988687da9c5152f16fc0a5de7401aad46beeeb",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

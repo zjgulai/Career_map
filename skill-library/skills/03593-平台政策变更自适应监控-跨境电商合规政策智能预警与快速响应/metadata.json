@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-platform-policy-change-adaptive-monitor",
+  "中文名称": "平台政策变更自适应监控 跨境电商合规政策智能预警与快速响应",
+  "一句话作用": "触发词：平台政策变更、政策预警、语义变更检测、影响分级、合规响应。何时不用：要把 FDA/CPSC/EU 等监管机构法规映射到受影响品类时用「法规变更监控」；要对 Amazon 合规报错码做字段级修复时用「合规错误自动修复」。安全边界：只做政策页监控、变更判定与响应动作建议，不代替法务出具合规结论；抓取须遵守目标站访问频率与 robots 约束，不得绕过平台反爬。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要卖家因政策变更滞后被封号——语义变更检测+影响分级将政策响应时间从7天缩短至8小时，相当于每年避免一次封号损失（价值$10-30万）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03593-p2s-platform-policy-change-adaptive-monitor-d266ae9d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-platform-policy-change-adaptive-monitor/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-platform-policy-change-adaptive-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d4cb59f667194c7faaa52efd1afd07b6aedfabdd4438301f8e6cfa83b43bf3d2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

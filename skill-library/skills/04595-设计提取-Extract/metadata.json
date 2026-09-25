@@ -1,0 +1,22 @@
+{
+  "英文名称": "设计提取",
+  "中文名称": "设计提取（Extract）",
+  "一句话作用": "设计系统提取（Design System Extract）。三模式：① 外部模式——薄包装 designlang CLI，从任意线上站点反向抽取完整 design tokens（颜色 / 字体 / 间距 / 圆角 / 阴影 / 动效等 19 类），产物供 /竞品拆解 / /视觉情绪板 / /设计简报 借鉴；② 内部模式——扫描自己的代码仓库（package.json / tailwind.config / components/ /…",
+  "关键输入": "情况 处理方式 --- --- 用户只给 URL 没说目的 默认外部模式 + 默认全 target，但 Step 1 询问是否要 --dark / --responsive / --interactions 用户给路径但仓库是空仓 提示\"项目里没有任何源码 / 配置文件，无法走内部模式\"，引导补内容或改外部模式 用户给的 URL 是登录后内容 主动询问是否提供 --cookie，并强调凭据不入产物 用户没装 Node / Playwright Step 2 fallback：截图 + 手贴主色，产 fallbac…",
+  "关键输出": "写出 extract.json 后，下游可以这样消费： - /设计简报（Brief）—— 外部模式产物作为\"参考方向 token 库\"喂给设计标准段落；内部模式产物作为\"已有设计语言基线\" - /视觉情绪板（Board）—— 反向场景：把外部站点的 token 提取结果作为情绪板候选方案的 seed；正向场景已通过本 Skill chain.reads: board 实现增量 Diff - /竞品拆解（Bench）—— 多个外部 extract 的产物拼成对比矩阵 - /Web页面设计 /mobile页面设计（F…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要设计系统提取（Design System Extract）。三模式：① 外部模式——薄包装 designlang CLI，从任意线上站点反向抽取完整 design tokens（颜色 / 字体 / 间距 / 圆角 / 阴影 / 动效等 19 类），产物供 /竞品拆解 / /视觉情绪板 / /设计简报 借鉴；② 内部模式——扫描自己的代码仓库（package.json / tailwind.config / components/ /…时，用它产出或更新：写出 extract.json 后，下游可以这样消费：…",
+  "skill_id": "04595-skill-968a031d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/extract/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/extract/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7bb593d2976270152df3c7794ea0bfa7b4004aa1216e896c86ec0f27f76e529b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

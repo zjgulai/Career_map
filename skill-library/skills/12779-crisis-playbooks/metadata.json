@@ -1,0 +1,22 @@
+{
+  "英文名称": "crisis-playbooks",
+  "中文名称": "待补：crisis-playbooks",
+  "一句话作用": "Use when incidents occur and you need pre-approved workflows, templates, and escalation paths.",
+  "关键输入": "- Service outages, security incidents, compliance/regulatory events. - Negative press cycles or social media escalations. - Sensitive executive/HR news requiring coordinated messaging.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Service outages, security incidents, compliance/regulatory events. - Negative press cycles or social media escalations. - Sensitive executive/HR news requiring coordinated messaging.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12779-crisis-playbooks-e1bbef6d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/pr-communications/skills/crisis-playbooks/SKILL.md",
+  "relative_path": "lute/project/skills/pr-communications/skills/crisis-playbooks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f59bc56227eab0348c66afbc9ff64a08b3c4583c03c0773e24a44f6f3fd17ba5",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

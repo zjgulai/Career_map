@@ -1,0 +1,22 @@
+{
+  "英文名称": "lexiang-setup",
+  "中文名称": "乐享 MCP 配置向导",
+  "一句话作用": "乐享知识库 MCP 连接配置与故障排查。WorkBuddy 用户通过内置连接器 OAuth 授权；其他平台用户手动配置 Bearer Token。当用户提到「乐享」「知识库」「lexiang」并包含配置/连接/setup 意图，或遇到 MCP 连接失败、401 未授权错误时使用。典型触发：「配置乐享」「连接乐享」「乐享连不上」「token 过期了」「401 错误怎么办」「切换企业/租户」「重新授权」。",
+  "关键输入": "访问：https://lexiangla.com/mcp 登录后获取： - COMPANY FROM ：你的企业标识 - LEXIANG TOKEN ：访问令牌（格式 lxmcp xxx） 校验规则 ：两个参数都不能为空。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要乐享知识库 MCP 连接配置与故障排查。WorkBuddy 用户通过内置连接器 OAuth 授权；其他平台用户手动配置 Bearer Token。当用户提到「乐享」「知识库」「lexiang」并包含配置/连接/setup 意图，或遇到 MCP 连接失败、401 未授权错误时使用。典型触发：「配置乐享」「连接乐享」「乐享连不上」「token 过期了」「401 错误怎么办」「切换企业/租户」「重新授权」。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05294-lexiang-setup-dfd84c12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/setup/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/lexiang/skill/setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1d70062fd58a2684636af7dabef9228cdfec849aed5b9dbadff1815af40b9cd3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

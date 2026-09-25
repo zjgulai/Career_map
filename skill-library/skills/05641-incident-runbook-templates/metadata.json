@@ -1,0 +1,22 @@
+{
+  "英文名称": "incident-runbook-templates",
+  "中文名称": "待补：incident-runbook-templates",
+  "一句话作用": "Create structured incident response runbooks with step-by-step procedures, escalation paths, and recovery actions. Use when building runbooks, responding to incidents, or establishing incident response procedures.",
+  "关键输入": "- Creating incident response procedures - Building service-specific runbooks - Establishing escalation paths - Documenting recovery procedures - Responding to active incidents - Onboarding on-call engineers",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Creating incident response procedures - Building service-specific runbooks - Establishing escalation paths - Documenting recovery procedures - Responding to active incidents - Onboarding on-call engineers时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05641-incident-runbook-templates-0cbc1338",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/incident-response/skills/incident-runbook-templates/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/incident-response/skills/incident-runbook-templates/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f636740f2e8fe9bb98f95d7ab8431eeab8c41fa4adac2d0985b7d11c5a9feb4e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

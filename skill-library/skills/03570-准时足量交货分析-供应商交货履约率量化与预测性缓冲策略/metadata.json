@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-otif-on-time-in-full-analytics",
+  "中文名称": "准时足量交货分析 供应商交货履约率量化与预测性缓冲策略",
+  "一句话作用": "触发词：准时足量、交货履约、隐性成本、缓冲策略。何时不用：采购订单记录不足或字段缺失时交货率不可靠；对供应商做多准则综合评分用供应商评估模型类技能。安全边界：预测结论需达到既定精度门槛才可用于备货决策，并建议第三方审计验证。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要供应商OTIF 71%被当成\"还行\"，实际月隐性成本$2653——OTIF量化将供应商真实成本水落石出，迁移至高OTIF供应商年净节省$23436（即使报价高5%）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03570-p2s-otif-on-time-in-full-analytics-068ee8d6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-otif-on-time-in-full-analytics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-otif-on-time-in-full-analytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "099662299af0dafd970b66d9ba2d4e9cfec123bae7c5063279df99d3f1df4f2d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

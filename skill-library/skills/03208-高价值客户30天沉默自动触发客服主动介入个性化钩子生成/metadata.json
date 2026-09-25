@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-high-value-customer-alert-action",
+  "中文名称": "高价值客户30天沉默自动触发客服主动介入个性化钩子生成",
+  "一句话作用": "触发词：高价值客户、沉默预警、RFM、WhatsApp 介入、个性化钩子、主动挽留。何时不用：只要沉默信号检测与工单触发用高价值客户告警那张基础卡；要按 LTV 分级把客服、邮件、轻触达落到具体人时用本卡。安全边界：触达前必须查重（CRM 触达记录），同一客户近 30 天不重复生成工单；画像须脱敏并获授权，不得虚假宣传。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要客户成功经理面临\"Champions客户沉默25天后流失但全靠人工盯单无法规模化预警\"——15天沉默自动触发WhatsApp+客服介入将高LTV流失率降低28%，年化挽回GMV约4-6万美元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03208-p2s-high-value-customer-alert-action-cfe8962d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-high-value-customer-alert-action/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-high-value-customer-alert-action/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f22b73a0e3d3a3d31194ceb4732ef028d6ed0a25bbef30b8f3c4a40eb0ba8635",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

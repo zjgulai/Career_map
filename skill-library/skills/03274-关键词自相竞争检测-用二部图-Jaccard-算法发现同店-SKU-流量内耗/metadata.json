@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-keyword-cannibalization-detection",
+  "中文名称": "关键词自相竞争检测 用二部图 Jaccard 算法发现同店 SKU 流量内耗",
+  "一句话作用": "触发词：关键词内耗、自相竞争检测、Jaccard 重叠、关键词主权分配、同店抢词。何时不用：要找的是竞品有而自己没有的词缺口时用「竞品关键词缺口分析」；要判断品类节点竞争密度时用「品类树节点竞争密度优化」。安全边界：只输出重叠诊断与词主权建议，不代改 Listing。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要多SKU卖家面临\"同店产品互相抢关键词流量越打越内耗\"——Jaccard二部图检测将关键词重叠SKU识别精度达94%，流量集中度提升35%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03274-p2s-keyword-cannibalization-detection-75ef2a83",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-keyword-cannibalization-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-keyword-cannibalization-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "680b51a447a4b12240f33e8873b59d15bcf77e8a5428b8d6348c87ed9375a489",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

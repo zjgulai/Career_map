@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-web-page-change-detection",
+  "中文名称": "网页变化检测：VLM 视觉差异识别与 DOM 原子性保护",
+  "一句话作用": "触发词：网页变化检测、增量抓取、视觉差异、DOM 原子性、爬取降本。何时不用：页面变动没有稳定判据、或业务要求每次全量校验时不用；只校验数据本身对不对走数据质量监控告警。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴跨境电商应用：仅在竞品价格/库存/图片发生变化时触发全量抓取，减少 70% 无效爬取时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04039-p2s-web-page-change-detection-d8dfc3b8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-web-page-change-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-web-page-change-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2876cad193487a8b995a604f2401fac11f3bf5fe4f8354c667b434915e5ec035",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

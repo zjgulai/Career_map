@@ -1,0 +1,22 @@
+{
+  "英文名称": "realtime-data-requirement-review",
+  "中文名称": "实时数据需求评审",
+  "一句话作用": "实时数据需求评审专家。当业务方/PM/数据团队评审实时需求时，引导工程师按三阶段流程：(A) 可选的需求合理性评估——真实时 vs 伪实时 / SLA 严格度 / 优先级 / 历史数据回刷 4 维度；(B) 5 维度口径拆解（指标定义/计算逻辑/时间口径/边界 case/字段映射）；(C) 评审决议（做/不做/推后/改离线 + sign off）。决策因子驱动，区分\"真实时\"和\"伪实时\"，避免接下不应该接的需求。当用户说\"评审实时需求…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "评估结论 + 选型建议（做实时 / 做双链路 / 改离线 / 推后拒绝）+ 理由。 ---",
+  "最新更新时间": "2026-09-19T03:38:09+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要实时数据需求评审专家。当业务方/PM/数据团队评审实时需求时，引导工程师按三阶段流程：(A) 可选的需求合理性评估——真实时 vs 伪实时 / SLA 严格度 / 优先级 / 历史数据回刷 4 维度；(B) 5 维度口径拆解（指标定义/计算逻辑/时间口径/边界 case/字段映射）；(C) 评审决议（做/不做/推后/改离线 + sign off）。决策因子驱动，区分\"真实时\"和\"伪实时\"，避免接下不应该接的需求。当用户说\"评审实时需求…时，用它产出或更新：评估结论 + 选型建议（做实时 / 做双链路 / 改…",
+  "skill_id": "04629-realtime-data-requirement-review-f9f98255",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/realtime-data-requirement-review/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/realtime-data-engineer/1.0.0/skills/realtime-data-requirement-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ac0c0d8ac00116bd242a14e7245a25b80d5f2fe6b59d3c155a7c0bc6cb5839a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

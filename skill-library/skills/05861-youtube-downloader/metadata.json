@@ -1,0 +1,22 @@
+{
+  "英文名称": "youtube-downloader",
+  "中文名称": "待补：youtube-downloader",
+  "一句话作用": "Download YouTube videos with customizable quality and format options. Use this skill when the user asks to download, save, or grab YouTube videos. Supports various quality settings (best, 1080p, 720p, 480p, 360p), multi…",
+  "关键输入": "1. Download video in 1080p as MP4: 2. Download audio only as MP3: 3. Download in 720p as WebM to custom directory:",
+  "关键输出": "Use -o or --output to specify a different output directory:",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要1. Download video in 1080p as MP4: 2. Download audio only as MP3: 3. Download in 720p as WebM to custom directory:时，用它产出或更新：Use -o or --output to specify a different output directory:",
+  "skill_id": "05861-youtube-downloader-5e4e4474",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/video-downloader/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/video-downloader/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "093c29459a2e05eb076f64d069817d24f98e327b3dab24d9b72085b8ac2909c6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

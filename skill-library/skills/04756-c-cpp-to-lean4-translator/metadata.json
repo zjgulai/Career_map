@@ -1,0 +1,22 @@
+{
+  "英文名称": "c-cpp-to-lean4-translator",
+  "中文名称": "待补：c-cpp-to-lean4-translator",
+  "一句话作用": "Translate C or C++ programs into equivalent Lean4 code, preserving program semantics and ensuring the generated code is well-typed, executable, and can run successfully. Use when the user asks to convert C/C++ code to L…",
+  "关键输入": "Understand the C/C++ program structure and semantics: 1. Identify program components: - Functions and their signatures - Data structures (structs, classes, arrays) - Control flow patterns (loops, conditionals) - Memory management (allocation, pointers) - I/O…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:54:45+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Translate C or C++ programs into equivalent Lean4 code, preserving program semantics and ensuring the generated code is well-typed, executable, and can run successfully. Use when the user asks to convert C/C++ code to L…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04756-c-cpp-to-lean4-translator-8ffe1297",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/c-cpp-to-lean4-translator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/c-cpp-to-lean4-translator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3e1e46b9078a26ccb985a56c8eb0448649cee2e6d6b13f53339da6b26d1eca06",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

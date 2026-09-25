@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-forecast-to-pl-bridge",
+  "中文名称": "需求预测误差的财务损失量化与成本优化",
+  "一句话作用": "触发词：预测误差量化、Newsvendor 模型、持货成本、缺货成本、分位数订货。何时不用：要决定具体订多少货用补货与库存优化类技能；要做成本因子因果归因用「供应链成本因果归因」。安全边界：成本与服务参数须来自真实财务口径，假设变更要留痕；结论用于内部决策，不构成财务承诺。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要供应链团队无法向 CFO 证明预测精度提升的价值——Newsvendor 成本函数将 MAPE 18%→12% 的改善转化为年化 ¥80-120 万节省，打通技术指标到财务语言的翻译层时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03147-p2s-forecast-to-pl-bridge-6878f090",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-forecast-to-pl-bridge/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-forecast-to-pl-bridge/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2416feeea9e533f453be9ff0980aadb23c404fa7f75a44e0e24e63bcb98bb4a3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

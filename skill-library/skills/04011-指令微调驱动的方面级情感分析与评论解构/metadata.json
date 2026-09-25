@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-voc-aspect-sentiment-extraction",
+  "中文名称": "指令微调驱动的方面级情感分析与评论解构",
+  "一句话作用": "触发词：评论方面拆解、差评维度定位、方面级情感分析、评论三元组抽取、改版方向定位。何时不用：要看整体情绪走势与新兴主题聚类时用「BERTopic 主题建模」或「Review 时序趋势挖掘」，本技能只做单条评论的方面级情感拆解。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴品类改版方向不明——InstructABSA 方面级情感分析将差评维度拆解从 2 周人工 → 2 小时自动完成，精准定位高差评方面（噪音/尺寸），避免错误改版投入 ¥5 万+ MOQ 成本时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "04011-p2s-voc-aspect-sentiment-extraction-6afb1dae",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-voc-aspect-sentiment-extraction/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-voc-aspect-sentiment-extraction/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28add3864ac46a69ad4f6eabcd5b6776cbad242da127dc90d58f8411dcb51d43",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

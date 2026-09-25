@@ -1,0 +1,22 @@
+{
+  "英文名称": "intended-vs-implemented",
+  "中文名称": "待补：intended-vs-implemented",
+  "一句话作用": "对照规格与设计意图核查代码实际行为，找出被实现走样或被悄悄改动的部分。触发词：意图实现比对、intended-vs-implemented、对照规格与设计意图核查代码实际行为，找出被实现走样或被悄悄改动的部分。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要对照规格与设计意图核查代码实际行为，找出被实现走样或被悄悄改动的部分。触发词：意图实现比对、intended-vs-implemented、对照规格与设计意图核查代码实际行为，找出被实现走样或被悄悄改动的部分。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02597-intended-vs-implemented-566d01af",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/intended-vs-implemented/SKILL.md",
+  "relative_path": "lute/.dsh/skills/intended-vs-implemented/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c21add8f7051af2b362a66ee758355b6f3d994cf1913b016272c28982fb2a2e8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

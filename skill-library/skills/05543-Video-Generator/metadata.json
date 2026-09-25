@@ -1,0 +1,22 @@
+{
+  "英文名称": "Video Generator",
+  "中文名称": "待补：Video Generator",
+  "一句话作用": "Orchestrates complete Remotion video generation workflow from user request to MP4 output. Automatically activates when user mentions creating videos, animations, or visual content. Handles environment setup, storyboardi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Orchestrates complete Remotion video generation workflow from user request to MP4 output. Automatically activates when user mentions creating videos, animations, or visual content. Handles environment setup, storyboardi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05543-video-generator-0b671602",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/remotion-video-generator/skills/video-generator/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/remotion-video-generator/skills/video-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0ffd40772a24dac8e81825c92a17b96406dac1e4176934267b872405f1d03a7f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "influencer-campaign-manager",
+  "中文名称": "待补：influencer-campaign-manager",
+  "一句话作用": "Scale creator collaborations and measure multi-channel ROI when moving from manual outreach to high-volume performance-driven influencer programs.",
+  "关键输入": "- When managing more than 10 active influencer partnerships simultaneously. - When influencer ROI is currently unmeasured or attribution is purely anecdotal. - When building a self-service affiliate portal for creator a…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:29+08:00",
+  "业务场景": "marketing-growth",
+  "解决具体问题": "当需要- When managing more than 10 active influencer partnerships simultaneously. - When influencer ROI is currently unmeasured or attribution is purely anecdotal. - When building a self-service affiliate portal for creator a…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00326-influencer-campaign-manager-fbbe791a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/influencer-campaign-manager/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/influencer-campaign-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5946096ce3daab86ed8e569b5937a848862aeb2ea8fc02fc9caf607e7d0948f6",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

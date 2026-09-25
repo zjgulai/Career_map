@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Causal-RL-Dynamic-Pricing",
+  "中文名称": "待补：Causal RL Dynamic Pricing",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:27:31.510293\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:27:31+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:27:31.510293\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06906-skill-causal-rl-dynamic-pricing-e196d940",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Causal-RL-Dynamic-Pricing.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Causal-RL-Dynamic-Pricing.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "48399f2ef3b26caf15953b8a5ad46834cc95f3043a29053d7492552d58f21086",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

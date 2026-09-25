@@ -1,0 +1,22 @@
+{
+  "英文名称": "gtars",
+  "中文名称": "待补：gtars",
+  "一句话作用": "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "overlapping peaks.to bed(\"peaks in promoters.bed\")",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis…时，用它产出或更新：overlapping peaks.to bed(\"…",
+  "skill_id": "05738-gtars-99b6fe72",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/gtars/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/gtars/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c9f778bf1e49cc7f65bbfa8256b59f42cccf578ad1c3cbec432b57facd969662",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

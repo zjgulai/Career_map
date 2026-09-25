@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-data-analyst",
+  "中文名称": "电商数据分析代理 (v2",
+  "一句话作用": "Data Agent for 母婴跨境电商 — 全量升级版。不只是数据分析工具，而是可独立运行的 Data Agent。 覆盖：数据采集→清洗→分析→异常检测→归因→自动报告→策略输入。 3 种执行模式：单次查询 / 定时报告 / 异常驱动告警。 内置 RFM 客户分群、Cohort 留存分析、A/B 测试评估、自动归因分析。 输出可直接被下游策略层消费的结构化载荷。",
+  "关键输入": "分析结果直接输出为可供下游消费的结构化信号：",
+  "关键输出": "输入 : 输出 : 上述 JSON 结构化负载",
+  "最新更新时间": "2026-05-04T18:39:12+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Data Agent for 母婴跨境电商 — 全量升级版。不只是数据分析工具，而是可独立运行的 Data Agent。 覆盖：数据采集→清洗→分析→异常检测→归因→自动报告→策略输入。 3 种执行模式：单次查询 / 定时报告 / 异常驱动告警。 内置 RFM 客户分群、Cohort 留存分析、A/B 测试评估、自动归因分析。 输出可直接被下游策略层消费的结构化载荷。时，用它产出或更新：输入 : 输出 : 上述 JSON 结构化负载",
+  "skill_id": "09525-ecommerce-data-analyst-05c1bb2e",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/hermes-skills/skills/data-science/ecommerce-data-analyst/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/hermes-skills/skills/data-science/ecommerce-data-analyst/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d296f64f6d0232bf70e94992ad099fa99de5d8982db2b2f804029e07d3762178",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

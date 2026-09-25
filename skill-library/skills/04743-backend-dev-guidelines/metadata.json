@@ -1,0 +1,22 @@
+{
+  "英文名称": "backend-dev-guidelines",
+  "中文名称": "待补：backend-dev-guidelines",
+  "一句话作用": "Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma database access, Sent…",
+  "关键输入": "Automatically activates when working on: - Creating or modifying routes, endpoints, APIs - Building controllers, services, repositories - Implementing middleware (auth, validation, error handling) - Database operations…",
+  "关键输出": "Zod schemas, validation, DTO pattern",
+  "最新更新时间": "2026-09-19T03:58:41+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Automatically activates when working on: - Creating or modifying routes, endpoints, APIs - Building controllers, services, repositories - Implementing middleware (auth, validation, error handling) - Database operations…时，用它产出或更新：Zod schemas, validation, DT…",
+  "skill_id": "04743-backend-dev-guidelines-4265fc2d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/backend-dev-guidelines/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/backend-dev-guidelines/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7129685d12fab4fd1b8b881c467a455583374c314e4d0d20f4940f69f77ae23b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "dingtalk-drive",
+  "中文名称": "钉盘",
+  "一句话作用": "钉钉文件管理（存储层，覆盖钉盘与文档空间）。Use when 用户说 钉盘/文档空间/我的文档中的普通文件或文件夹、查找/上传/下载/复制/移动/重命名/删除/回收站/权限/元信息，或本地与钉盘文件夹比较、拉取、推送、双向同步；也承接在线文档节点的存储管理。文档正文编辑与导出走 dingtalk-doc；明确的知识库空间及空间内节点组织走 dingtalk-wiki。命令前缀：dws drive。",
+  "关键输入": "- --node、--folder 使用 dentryUuid/fileId，不使用数字型 dentryId；回收站 restore 使用 recycleItemId。 - +list --limit 最大 50，+search --limit 最大 30；超过时分页，不以非法参数反复试错。 - 写操作只按精确 leaf Runtime 判定确认；已明确授权具体对象、动作与影响时，首次正式执行直接带 --yes，否则先确认。预览不带，参数变化重新确认；禁止用缺少 --yes 的失败探测。 - 普通文件覆盖前确认真…",
+  "关键输出": "- +list/+search/+recent 检查集合、hasMore 和 nextCursor；缺少集合不能当空结果，多候选禁止默认第一项。 - +download 验证相对路径存在且 sizeBytes 0；+upload 检查最终 nodeId、名称、类型和大小。只有源端与结果都提供可比哈希时才核对 checksum；缺失时保留现有证据，不虚构端到端校验和。 - copy/move/rename/create-folder 检查 ok/outcome 和读回；partial success 不是完成。",
+  "最新更新时间": "2026-09-19T03:39:21+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要钉钉文件管理（存储层，覆盖钉盘与文档空间）。Use when 用户说 钉盘/文档空间/我的文档中的普通文件或文件夹、查找/上传/下载/复制/移动/重命名/删除/回收站/权限/元信息，或本地与钉盘文件夹比较、拉取、推送、双向同步；也承接在线文档节点的存储管理。文档正文编辑与导出走 dingtalk-doc；明确的知识库空间及空间内节点组织走 dingtalk-wiki。命令前缀：dws drive。时，用它产出或更新：- +list/+search/+recent 检查集合、hasMore 和 nextCur…",
+  "skill_id": "04470-dingtalk-drive-ca677286",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-drive/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/dingtalk/0.1.0/skills/dingtalk-drive/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b08c2f0459948917d49488ddc7114f8ae0d333fe4d7383ebe679987122157db4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

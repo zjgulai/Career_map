@@ -1,0 +1,22 @@
+{
+  "英文名称": "sentiment-analysis",
+  "中文名称": "待补：sentiment-analysis",
+  "一句话作用": "Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying…",
+  "关键输入": "Your task is to analyze user feedback data for $ARGUMENTS and identify market segments with associated sentiment insights. If the user provides CSV files, PDFs, survey responses, review data, social listening reports, or other feedback sources, read and analy…",
+  "关键输出": "For each identified segment: Segment Profile - Name/identifier and common characteristics - User count or proportion in feedback dataset - Primary use case or context Jobs-to-be-Done - Core job this segment is trying to accomplish - Associated desired outcomes",
+  "最新更新时间": "2026-09-16T00:17:02+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying…时，用它产出或更新：For each identified segmen…",
+  "skill_id": "11181-sentiment-analysis-9d942504",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/sentiment-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-market-research/skills/sentiment-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "516357ba8366845d13c4ee17acf96884571ad0fc8d3d48a2809c5cb84c95a01c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

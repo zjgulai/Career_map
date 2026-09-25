@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-pl-attribution-analysis",
+  "中文名称": "级损益归因分析）",
+  "一句话作用": "触发词：损益归因、四层拆解、亏损 SKU、广告归因修正、预算转移。何时不用：要按费用层级做瀑布并锁定高费用集群用「ASIN 盈利瀑布」；要算广告费对净利率的归因用「广告 TACoS 与 P&L 集成」。安全边界：广告归因份额属假设参数，须标注并做敏感性；结论用于内部策略，不对外披露单 SKU 成本结构。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要月度总利润率 18% 但不知道是哪个 SKU 在拖累整体——P&L 四层拆解（毛利/运营/净利/因果归因修正）识别亏损 SKU，停止无效广告投放年节省 10-30 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03591-p2s-pl-attribution-analysis-563f7904",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-pl-attribution-analysis/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-pl-attribution-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b978817ce7282958525f5234451c8db92d23bf96caf9eb741b264ae7c2c7a3fb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

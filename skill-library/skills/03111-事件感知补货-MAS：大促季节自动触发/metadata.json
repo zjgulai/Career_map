@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-event-driven-demand-mas",
+  "中文名称": "事件感知补货 MAS：大促季节自动触发",
+  "一句话作用": "触发词：事件驱动补货、大促备货触发、需求事件、多Agent并行响应、紧急补货。何时不用：按日常节奏算补货量时用「自动补货决策」；需要跨仓调拨库存时走「调拨清货建议」。安全边界：事件阈值（安全库存线、影响百分比）须业务标定，向供应商锁产能锁价的对外动作须人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链经理面临促销需求突发波动——Event-Driven Demand MAS将缺货率6%降到2%，年化增收22万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03111-p2s-event-driven-demand-mas-824851fd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-event-driven-demand-mas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-event-driven-demand-mas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ee3870482ad1e507b3c6b52571c621b6905c08915b31309ed473941715fc9ae",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

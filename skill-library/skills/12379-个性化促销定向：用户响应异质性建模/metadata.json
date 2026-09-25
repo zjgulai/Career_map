@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-personalized-promotion-targeting",
+  "中文名称": "个性化促销定向：用户响应异质性建模",
+  "一句话作用": "触发词：个性化促销定向、增量响应、预算分配、背包分配、换购提升、分群投放。何时不用：要估个体级效应用于精准发券用「因果提升模型」；要做价格形式实验用「心理定价 A/B 测试」。安全边界：分群不得使用受保护属性；促销成本与预算约束须真实，不得对已自然转化的用户重复补贴。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要增长经理面临促销一刀切——个性化定向将转化率从3.2%提到4.6%，年化增收24万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12379-p2s-personalized-promotion-targeting-eaeace1f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-personalized-promotion-targeting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-personalized-promotion-targeting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8e4724e39e9e075bb040fd41031c758741d7972d4d3b03386073ff9925903b9d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

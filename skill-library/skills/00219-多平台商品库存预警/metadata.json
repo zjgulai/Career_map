@@ -1,0 +1,22 @@
+{
+  "英文名称": "multi-platform-inventory-warning",
+  "中文名称": "多平台商品库存预警",
+  "一句话作用": "仅在用户显式调用 /multi-platform-inventory-warning、$multi-platform-inventory-warning 或明确点名 multi-platform-inventory-warning 时执行。面向多平台只读采集店铺商品总可售库存，当前支持淘宝、天猫，支持按单个商品 ID/商品链接、库存列表当前顺序的前 N 个商品或店铺全部商品查询，输出商品维度库存 JSON 和 Excel；不采集 SK…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "正式 JSON 只能包含以下结构，不得增加 Profile ID、原始页面文本、内部路径或调试字段： 正式 Excel 的 Sheet 名为“商品库存”，每个商品一行。列顺序固定为：平台名称、店铺名称、账号名、采集时间、日期、商品ID、商品名称、商品详情链接、商品主图链接、商品状态、库存模式、可售库存、预扣库存。平台名称、店铺名称、账号名、采集时间和日期必须在每个商品行中冗余；账号名沿用账号发现结果中的脱敏值，不得还原。商品ID、账号名、采集时间和日期按文本保存，两个库存字段按整数保存。采集时间为准备脚本在启动浏…",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要仅在用户显式调用 /multi-platform-inventory-warning、$multi-platform-inventory-warning 或明确点名 multi-platform-inventory-warning 时执行。面向多平台只读采集店铺商品总可售库存，当前支持淘宝、天猫，支持按单个商品 ID/商品链接、库存列表当前顺序的前 N 个商品或店铺全部商品查询，输出商品维度库存 JSON 和 Excel；不采集 SK…时，用它产出或更新：正式 JSON 只能包含以下结构，不得增加 Prof…",
+  "skill_id": "00219-multi-platform-inventory-warning-b26f8520",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-inventory-warning/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/multi-platform-inventory-warning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a282d14660588d90e7a69b4abcd51edca437e3f229ff038a3b37531417ed9e75",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

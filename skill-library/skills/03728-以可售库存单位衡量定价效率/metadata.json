@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-revenue-per-available-sku-revpas",
+  "中文名称": "以可售库存单位衡量定价效率",
+  "一句话作用": "触发词：REVPAS、定价效率、可售库存单位、售罄率、低效 SKU 识别。何时不用：要解决的是竞品价格信号的采集与实时响应时用「竞品价格信号采集」。安全边界：只给指标排名与调价建议，不做自动改价，也不替代定价合规审查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品类运营面临\"只看ROAS和销量看不到哪个SKU的库存效率最差\"——RevPAR思维迁移为REVPAS指标将定价效率最低SKU识别精准度提升至92%，年化毛利提升$2.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03728-p2s-revenue-per-available-sku-revpas-7f035a5d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-revenue-per-available-sku-revpas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-revenue-per-available-sku-revpas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c4bd8a86728b0e43e7af0446b08f1e9da6c2c862b352a0cd6e2edff3b50bcf7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

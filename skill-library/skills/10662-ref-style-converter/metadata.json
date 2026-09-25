@@ -1,0 +1,22 @@
+{
+  "英文名称": "ref-style-converter",
+  "中文名称": "待补：ref-style-converter",
+  "一句话作用": "参考文献格式转换工具，可在APA、MLA、IEEE、Harvard四种主流学术格式间相互转换，支持批量处理和格式错误检查。当用户需要转换参考文献格式、检查引用是否正确，或提到citation、bibliography、APA/MLA/IEEE/Harvard格式、批量格式化引用等关键词时触发。",
+  "关键输入": "将 APA 格式引用转为 IEEE 格式：",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:13+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要参考文献格式转换工具，可在APA、MLA、IEEE、Harvard四种主流学术格式间相互转换，支持批量处理和格式错误检查。当用户需要转换参考文献格式、检查引用是否正确，或提到citation、bibliography、APA/MLA/IEEE/Harvard格式、批量格式化引用等关键词时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10662-ref-style-converter-17a82340",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/ref-style-converter/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/ref-style-converter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02ddbc79d76ca920e381d3a4fcbbc145c619dbf6dc1e3dc38820dd85f697af28",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

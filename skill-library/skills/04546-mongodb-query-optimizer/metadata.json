@@ -1,0 +1,22 @@
+{
+  "英文名称": "mongodb-query-optimizer",
+  "中文名称": "待补：mongodb-query-optimizer",
+  "一句话作用": "Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or performance: \"How do I optimize this query?\", \"How do I index this?\", \"Why is this query slow?\", \"Can you fix my slow qu…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Keep answers short and clear: a few sentences on index and optimization suggestions, and reasoning behind them (e.g. general indexing principles, observing slow query logs in the cluster, or seeing advice in Performance Advisor) - Focus on highest impact in…",
+  "最新更新时间": "2026-09-19T03:38:11+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or performance: \"How do I optimize this query?\", \"How do I index this?\", \"Why is this query slow?\", \"Can you fix my slow qu…时，用它产出或更新：- Keep answers short and c…",
+  "skill_id": "04546-mongodb-query-optimizer-238b1a01",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/skills/mongodb-query-optimizer/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/mongodb/1.0.0/skills/mongodb-query-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b9b82bb2df908751b17f530384e3fd3cf73f5d6fc5d3d10281ab894b61fb03b4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

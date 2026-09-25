@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-nudge-architecture-ethics",
+  "中文名称": "暗模式vs正向助推：电商UX伦理边界识别",
+  "一句话作用": "触发词：暗模式、UX 伦理、虚假倒计时、预勾选订阅、强迫续订、退款率。何时不用：要扫文案违禁宣称时用「Amazon ToS 合规护栏」，要多市场广告法规差异时用「多市场广告文案合规矩阵」。安全边界：审计结论为改进建议，不代替 FTC 判定，也不得用暗模式规避消费者取消权。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"订阅页暗模式导致FTC投诉和高退款率损害品牌信誉\"——UX伦理审计识别暗模式并修复，退款率降低45%，年化减少成本15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03543-p2s-nudge-architecture-ethics-84051d52",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-nudge-architecture-ethics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-nudge-architecture-ethics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9bca1bf712d4e0917d5693a8d00ebd653fef2ce2e5ce425d30a8d90580f83b77",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

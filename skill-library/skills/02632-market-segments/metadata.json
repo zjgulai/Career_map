@@ -1,0 +1,22 @@
+{
+  "英文名称": "market-segments",
+  "中文名称": "待补：market-segments",
+  "一句话作用": "按需求、场景或付费能力把整体市场切成若干块，评估各块规模与可进入性。触发词：市场细分、market-segments、按需求、场景或付费能力把整体市场切成若干块，评估各块规模与可进入性。",
+  "关键输入": "Your task is to identify and analyze potential customer segments for $ARGUMENTS . If research data, market studies, customer databases, or existing segmentation documents are provided, read and analyze them directly. Look for behavioral patterns, demographic…",
+  "关键输出": "For each of the 3-5 segments, provide: Segment Name & Overview - Clear, memorable segment identifier - Size estimate (% of total market or absolute numbers if data available) - Growth trajectory and market dynamics Key Demographics & Firmographics - Core char…",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要按需求、场景或付费能力把整体市场切成若干块，评估各块规模与可进入性。触发词：市场细分、market-segments、按需求、场景或付费能力把整体市场切成若干块，评估各块规模与可进入性。时，用它产出或更新：For each of the 3-5 segments, provide: Segment Name & Overview - Clear, memorable segment identifier - Size estimate (% of total market or absolute numbe…",
+  "skill_id": "02632-market-segments-200bdac9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/market-segments/SKILL.md",
+  "relative_path": "lute/.dsh/skills/market-segments/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93ac1896e17c916c51c06cb137eab8e38176367d48ebc2a6fbc2d93627c064ff",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

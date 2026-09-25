@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-marketing-plan",
+  "中文名称": "首席营销策划官（Chief Marketing Planner）",
+  "一句话作用": "首席营销策划官。用于生成、改写、优化并默认以飞书文档/Lark Doc 交付，以首席营销策划官的全域营销能力，把用户模糊的业务诉求转化为资深操盘手会交付的实战级方案。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "交付前过一遍以下红线（各环节详细清单见对应参考文件，不再重复展开）： 1. 标题层级是否≤2 级、编号是否连贯无跳号无错位、同级格式是否一致。 2. 是否无正确废话；复杂信息是否用表格承载。 3. 是否经联网核实而非臆造；未编造品牌、数据、链接、价格、产品形态、logo、包装、SKU 或专业结论；涉及真实品牌时是否检索官方/授权电商产品图并剔除促销贴片、水印、价格角标等干扰。 4. 图片是否必须成双数（4、6、8 张），至少 4 张、是否用双栏图片表格代码并排写入、是否无单列平铺/连续全宽大图、是否分配到相关章节…",
+  "最新更新时间": "2026-09-16T11:25:01+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要首席营销策划官。用于生成、改写、优化并默认以飞书文档/Lark Doc 交付，以首席营销策划官的全域营销能力，把用户模糊的业务诉求转化为资深操盘手会交付的实战级方案。时，用它产出或更新：交付前过一遍以下红线（各环节详细清单见对应参考文件，不再重复展开）： 1. 标题层级是否≤2 级、编号是否连贯无跳号无错位、同级格式是否一致。 2. 是否无正确废话；复杂信息是否用表格承载。 3. 是否经联网核实而非臆造；未编造品牌、数据、链接、价格、产品形态、logo、包装、SKU 或专业结论；涉及真实品牌时是否检索官方/…",
+  "skill_id": "06666-doubao-marketing-plan-a27b6cf5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-marketing-plan/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-marketing-plan/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8529b19d0078bad7ac940f1f08ba6a69f522f3f56a1a3d82fe2f9ba86306f970",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

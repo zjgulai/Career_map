@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-wealth-planning",
+  "中文名称": "财富规划",
+  "一句话作用": "为个人或家庭构建目标导向的财富规划，覆盖现金流、应急资金、债务、保障、教育/养老等目标、资产配置、情景压力测试与行动清单。用于新规划、年度复盘或重大人生变化。必须先确认司法辖区和风险承受能力；不替代持牌投资、税务、保险或法律意见。",
+  "关键输入": "关键输入未知时，被禁止的是\"替用户假设一个值\"，不是\"给出可执行内容\"。把结论改写为以该未知量为自变量的分档表： 档位 触发条件（未知量取值区间） 该档下的动作方向与优先顺序 该档被推翻的信号 分档表给方向、顺序和取舍理由。三条硬约束： - 档内不得出现绝对金额，只能出现相对量（占可投资金额的比例区间、覆盖月数、倍数区间）；该约束同样适用于行动清单、配置方案和情景段，全文任何位置都不得出现替用户拍定的绝对金额； - 通用默认区间（如覆盖月数、仓位比例、折价幅度的\"常见范围\"）本身就是替用户假设，必须作为分档的自变…",
+  "关键输出": "无附件自然问答只交付正文：不创建文件、不修脚本Schema、不输出内部过程。以下五条优先于本文件其余内容。约束的是\"数字怎么归位、怎么标注\"，不是\"少写内容\"；不得用减少分析深度的方式满足本节。",
+  "最新更新时间": "2026-09-10T17:00:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要问题再短、看起来再简单，也必须先联网核验以下四类，然后才能写结论： - 主体身份：是否仍独立存在、上市/退市/被收购/私有化/更名、交易所与证券代码。存在证券代码、存在 IR 页面或能查到财报，都不能证明当前仍在上市；必须逐个主体检索\"是否发生过收购要约、私有化、退市、并入母公司\"，并把核验来源限定为交易所上市/退市公告、监管公告或公司自身的要约结果公告，且核验结论必须写明 as-of 日期； - 规则身份：政策、法规、条款是否已由发…时，用它产出或更新：无附件自然问答只交付正文：不创建文件、不修脚本Sch…",
+  "skill_id": "06307-doubao-wealth-planning-dbb295f8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-wealth-planning/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-wealth-planning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7fa55cabf5b03aa1de5f6295188d489516d63014609338c17f216e7a1bd50d20",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

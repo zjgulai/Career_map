@@ -1,0 +1,22 @@
+{
+  "英文名称": "verifier-hub",
+  "中文名称": "待补：verifier-hub",
+  "一句话作用": "Deterministic artifact verifier CLI (file/xlsx/docx/pdf/pptx/text/archive/rubric) for pre-delivery artifact checks and agentic judges. 58 subcommands callable as verifier {family} {subcmd} [args]. Use before delivering…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "每次调用在 stdout 输出 一个 JSON 对象，参数写错时也一样： - ok 表示 工具本身 是否执行成功，不表示校验结论。 - 校验结论在 result.passed（true / false / null，null 表示该子命令只报告事实、不做断言）。 所以「文件格式不符合预期」这种情况是 ok: true + result.passed: false。 - evidence.quote 是可直接引用的一句话证据。 - rubric 家族在 result 里额外给 passed 和 evidence q…",
+  "最新更新时间": "2026-09-12T03:26:20+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Deterministic artifact verifier CLI (file/xlsx/docx/pdf/pptx/text/archive/rubric) for pre-delivery artifact checks and agentic judges. 58 subcommands callable as verifier {family} {subcmd} [args]. Use before delivering…时，用它产出或更新：每次调用在 stdout 输出 一个 JSON 对象，…",
+  "skill_id": "06600-verifier-hub-eb4b1bc8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/verifier-hub/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/verifier-hub/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6b711df2fb82a33ae4d5642ddf2c222283f3f239b3019aab215a68fc9505dc7d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

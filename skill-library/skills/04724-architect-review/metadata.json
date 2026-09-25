@@ -1,0 +1,22 @@
+{
+  "英文名称": "architect-review",
+  "中文名称": "待补：architect-review",
+  "一句话作用": "Master software architect specializing in modern architecture",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:19+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Master software architect specializing in modern architecture时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04724-architect-review-c77fb459",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/architect-review/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/architect-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec2c9552942b50e29d6434bb026f69746e35b93f3ee71c1c139119913ad2ee3a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

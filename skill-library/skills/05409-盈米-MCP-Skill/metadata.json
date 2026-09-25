@@ -1,0 +1,22 @@
+{
+  "英文名称": "yingmi-mcp-skill",
+  "中文名称": "盈米 MCP Skill",
+  "一句话作用": "盈米 MCP 金融工具使用技能，支持基金与市场数据查询、投研分析、组合诊断、财富规划和金融内容生成",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "获取指定基金在指定时间区间下每个一级行业的行业名称、绝对收益、相对收益、收益率、收益率得分 请求：POST /bmdj/v1/internal/fund-data/fund-industry-returns 参数 类型 必填 位置 说明 --- --- :---: --- --- fundCode string ✅ body 基金代码，必传参数 timeRange string - body 时间区间枚举字符串，可选参数，默认为近一年 (可选值: 'LAST 3 MONTH', 'LAST 6 MONTH', '…",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "通用规划与咨询",
+  "解决具体问题": "当需要盈米 MCP 金融工具使用技能，支持基金与市场数据查询、投研分析、组合诊断、财富规划和金融内容生成时，用它产出或更新：获取指定基金在指定时间区间下每个一级行业的行业名称、绝对收益、相对收益、收益率、收益率得分 请求：POST /bmdj/v1/internal/fund-data/fund-industry-returns 参数 类型 必填 位置 说明 --- --- :---: --- --- fundCode string ✅ body 基金代码，必传参数 timeRange string - body…",
+  "skill_id": "05409-yingmi-mcp-skill-2ac606c5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/yingmi-mcp/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/yingmi-mcp/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "10448cd70df9c2745fbfd008a5433ccc7bcae14c413479429b531b5da24b8167",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

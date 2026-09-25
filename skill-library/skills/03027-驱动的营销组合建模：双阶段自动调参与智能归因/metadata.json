@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dara-agentic-mmm",
+  "中文名称": "驱动的营销组合建模：双阶段自动调参与智能归因",
+  "一句话作用": "触发词：营销组合建模、MMM自动调参、adstock衰减、渠道饱和、智能归因。何时不用：时序不足26周或渠道超过8个未分组时不适用；只想在一期预算内出多档方案时用贝叶斯MMM情景技能。安全边界：仅消费周级渠道聚合数据，不处理用户级信息，参数与归因结论须经数据科学团队复核后才可用于预算调整。",
+  "关键输入": "时序长度：≥ 26 周（半年）；推荐 52+ 周以覆盖年度季节性 渠道数：2-8 个（超过 8 个建议分组） 数据粒度：周级；日级数据需先聚合 外部变量（可选）：节假日指标、竞争对手促销标记",
+  "关键输出": "时序长度：≥ 26 周（半年）；推荐 52+ 周以覆盖年度季节性 渠道数：2-8 个（超过 8 个建议分组） 数据粒度：周级；日级数据需先聚合 外部变量（可选）：节假日指标、竞争对手促销标记",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要某母婴辅食品牌在美国市场同时投放 Amazon Ads、Meta（FB+IG）、TikTok，月均广告预算 $15 万美元，但各渠道的 adstock 效应差异显著（TikTok 内容影响力可持续 2-4 周，Amazon 关键词效果衰减快）时，用它产出或更新：时序长度：≥ 26 周（半年）；推荐 52+ 周以覆盖年度季节性 渠道数：2-8 个（超过 8 个建议分组） 数据粒度：周级；日级数据需先聚合 外部变量（可选）：节假日指标、竞争对手促销标记",
+  "skill_id": "03027-p2s-dara-agentic-mmm-4a54d3ca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dara-agentic-mmm/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dara-agentic-mmm/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ff1bcb9b0b5e5b980f30fb2498b0ac2bcfd892b020e54fd73a4d4e95e07b4bc3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

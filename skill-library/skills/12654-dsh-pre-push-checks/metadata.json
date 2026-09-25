@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-pre-push-checks",
+  "中文名称": "待补：dsh-pre-push-checks",
+  "一句话作用": "Use before pushing, force-pushing, marking ready for review, or claiming checks pass on a deepseek-harness branch, and immediately after gh stack sync publishes rewritten branches, to select the smallest tests and check…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "gh stack sync fetches, cascade-rebases, and pushes as one operation, so it cannot place local validation between rewrite and publication. Before running it, require a clean worktree and record the official stack order and exact remote heads. After it returns:",
+  "最新更新时间": "2026-09-17T11:00:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use before pushing, force-pushing, marking ready for review, or claiming checks pass on a deepseek-harness branch, and immediately after gh stack sync publishes rewritten branches, to select the smallest tests and check…时，用它产出或更新：gh stack sync fetches, cas…",
+  "skill_id": "12654-dsh-pre-push-checks-6fd70178",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-pre-push-checks/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-pre-push-checks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "37922ee9e6fdbe304427df91c9b0b3eb699139e0f30633c52e83052ba5a9f8aa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-border-cold-start-forecast",
+  "中文名称": "跨境冷启动需求预测）",
+  "一句话作用": "触发词：跨境冷启动、新站点首单、零销量概率、双域迁移、备货量建议。何时不用：目标市场已有 3 周以上销售要做迁移建模用「跨市场需求迁移」，同站点新品借相似品扩散曲线用「Bass扩散新品预测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境品类经理面临新品销量难估——冷启动预测将备货偏差35%压到12%，年化省24万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11354-p2s-cross-border-cold-start-forecast-559c20ff",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-cross-border-cold-start-forecast/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-cross-border-cold-start-forecast/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c173ef473e08b4b27f7f8825a6d5407ccb23145022dc45f73781745914584cac",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

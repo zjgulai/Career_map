@@ -1,0 +1,22 @@
+{
+  "英文名称": "saas-analyzer",
+  "中文名称": "指标教练",
+  "一句话作用": "SaaS业务财务分析助手：接收MRR、客户数、获客成本等原始数据，计算ARR、流失率、LTV、CAC、NRR等关键指标，对标行业基准，并生成结构化的健康报告与优先行动建议。当用户提供收入或客户数据，或询问涉及ARR、MRR、流失率、LTV、CAC、NRR等指标的业务健康状况时触发。",
+  "关键输入": "如果用户尚未提供，请在一次请求中统一询问以下信息： - 收入：当前 MRR、上月 MRR、扩展 MRR、流失 MRR - 客户：活跃客户总数、本月新增客户数、本月流失客户数 - 成本：销售和营销支出、毛利率 % 可以在数据不完整的情况下工作。需明确说明哪些数据缺失，以及做了哪些假设。",
+  "关键输出": "始终使用以下固定结构：",
+  "最新更新时间": "2026-09-14T00:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要SaaS业务财务分析助手：接收MRR、客户数、获客成本等原始数据，计算ARR、流失率、LTV、CAC、NRR等关键指标，对标行业基准，并生成结构化的健康报告与优先行动建议。当用户提供收入或客户数据，或询问涉及ARR、MRR、流失率、LTV、CAC、NRR等指标的业务健康状况时触发。时，用它产出或更新：始终使用以下固定结构：",
+  "skill_id": "10673-saas-analyzer-ec4e8729",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/saas-analyzer/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/saas-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c315e634194608932e541fc167536726bc4cf0335ad946587b5e97c99085e6d7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

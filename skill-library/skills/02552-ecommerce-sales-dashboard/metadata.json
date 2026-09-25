@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-sales-dashboard",
+  "中文名称": "待补：ecommerce-sales-dashboard",
+  "一句话作用": "- Design and implement comprehensive sales dashboards to track revenue, AOV, conversion rates, and channel performance. Establish a single source of truth for daily, weekly, and monthly executive reporting. 触发词：电商销售仪表盘、…",
+  "关键输入": "- Bot Traffic: High session counts with 0% conversion rate can skew CR. Filter out non-residential IP ranges in GA4. - Refund Lag: Refunds often happen 7-14 days after a sale. Your \"Real-time\" revenue will always look h…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:13:35+08:00",
+  "业务场景": "data-analytics",
+  "解决具体问题": "当需要- Bot Traffic: High session counts with 0% conversion rate can skew CR. Filter out non-residential IP ranges in GA4. - Refund Lag: Refunds often happen 7-14 days after a sale. Your \"Real-time\" revenue will always look h…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02552-ecommerce-sales-dashboard-935c9c26",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/ecommerce-sales-dashboard/SKILL.md",
+  "relative_path": "lute/.dsh/skills/ecommerce-sales-dashboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f7c46572c1cb8d788fd6d1abda971bf14acb61bac925d5d3ebd7aac55ed78b1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

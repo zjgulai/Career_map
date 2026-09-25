@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-graph-attention-network-recommendation",
+  "中文名称": "图注意力网络推荐：动态权重的高精度图推荐",
+  "一句话作用": "触发词：图注意力网络、GAT 推荐、邻居权重、注意力可视化、交叉销售精度、NDCG 对比。何时不用：只要一版图卷积基线推荐用「GNN Ecommerce Recommendation」，只挑互补捆绑组合用「Bundle Recommendation Complementary」；本技能解决的是邻居权重该有高有低而不是一视同仁。安全边界：注意力解释输出须人工复核，不能替代合规认证；模型不直接覆盖线上推荐位。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要LightGCN推荐对吸奶器和汽车座椅给予相同权重但实际购买吸奶器后买储奶袋概率是汽车座椅8倍——GAT图注意力机制动态学习邻居权重，推荐精度比LightGCN提升8-15%配件交叉销售客单价提升10-20%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12308-p2s-graph-attention-network-recommendation-999d5cdc",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-graph-attention-network-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-graph-attention-network-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e6fa91d688e0ee901de304e407ae03025d1ebd0cd34683113b379d3e23d38160",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

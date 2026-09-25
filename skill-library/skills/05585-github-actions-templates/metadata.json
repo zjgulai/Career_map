@@ -1,0 +1,22 @@
+{
+  "英文名称": "github-actions-templates",
+  "中文名称": "待补：github-actions-templates",
+  "一句话作用": "Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or creating reusable workflo…",
+  "关键输入": "- Automate testing and deployment - Build Docker images and push to registries - Deploy to Kubernetes clusters - Run security scans - Implement matrix builds for multiple environments",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Automate testing and deployment - Build Docker images and push to registries - Deploy to Kubernetes clusters - Run security scans - Implement matrix builds for multiple environments时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05585-github-actions-templates-d4f033d2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cicd-automation/skills/github-actions-templates/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/cicd-automation/skills/github-actions-templates/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "99944dea1985520eb8ae04aade53687b456f38d216f722ba86bd18ce7af999e2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

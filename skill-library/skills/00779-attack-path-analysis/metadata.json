@@ -1,0 +1,22 @@
+{
+  "英文名称": "attack-path-analysis",
+  "中文名称": "待补：attack-path-analysis",
+  "一句话作用": "Use when Codex is already in the attack-path-analysis phase of a security scan or the user explicitly asks to trace a security finding from source to sink and calibrate severity. Do not use as the primary trigger for fu…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "In compact diff mode, every candidate with validation disposition reportable or deferred must receive exactly one nested attack-path decision. The recorded decisions are the complete phase output; do not also create narrative reports or receipts. Otherwise, u…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use when Codex is already in the attack-path-analysis phase of a security scan or the user explicitly asks to trace a security finding from source to sink and calibrate severity. Do not use as the primary trigger for fu…时，用它产出或更新：In compact diff mode, ever…",
+  "skill_id": "00779-attack-path-analysis-3c3fd0ca",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/codex-security/skills/attack-path-analysis/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/codex-security/skills/attack-path-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "63e820ce598dd62c897283eab91d60ba0e4d81ecae8dc6e516d709e2ba6b0eaa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

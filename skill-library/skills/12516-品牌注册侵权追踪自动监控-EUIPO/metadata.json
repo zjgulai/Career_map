@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-brand-registry-infringement-tracker",
+  "中文名称": "品牌注册侵权追踪自动监控 EUIPO",
+  "一句话作用": "触发词：商标监控、近似商标、异议窗口、EUIPO 扫描、USPTO 公告。何时不用：要监控平台在售仿冒与图片盗用用「商标侵权主动监控」；要在上架前评估我方侵权风险用「上架前 IP 侵权扫描」。安全边界：异议与举报材料须经商标代理人或法务确认；只用公开公告数据，不得用于恶意抢注或骚扰竞争者。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌运营面临\"竞品在欧洲以近似商标抢注3个月后才发现错过Opposition窗口\"——商标相似度自动扫描每周监控EUIPO/USPTO新申请，提前3个月提交Opposition，年化保护品牌价值100-500万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12516-p2s-brand-registry-infringement-tracker-18384e20",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-brand-registry-infringement-tracker/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-brand-registry-infringement-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea1dee21eefc87512d4c00d8c2877ba432484ac6530e7a933c088a55b103d113",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

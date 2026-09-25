@@ -1,0 +1,22 @@
+{
+  "英文名称": "flowio",
+  "中文名称": "待补：flowio",
+  "一句话作用": "Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing.",
+  "关键输入": "This skill should be used when: - FCS files requiring parsing or metadata extraction - Flow cytometry data needing conversion to NumPy arrays - Event data requiring export to FCS format - Multi-dataset FCS files needing…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要This skill should be used when: - FCS files requiring parsing or metadata extraction - Flow cytometry data needing conversion to NumPy arrays - Event data requiring export to FCS format - Multi-dataset FCS files needing…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05729-flowio-abb2d088",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/flowio/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/flowio/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "55f12d4b6cddc1815e5c72b722b0121f79fb69e43d43a37b33f8c4346183e584",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

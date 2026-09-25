@@ -1,0 +1,22 @@
+{
+  "英文名称": "signing-entitlements",
+  "中文名称": "待补：signing-entitlements",
+  "一句话作用": "Inspect macOS signing, entitlements, and Gatekeeper issues. Use when diagnosing code signing, sandbox, hardened runtime, or trust failures.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Provide: - what artifact was inspected - what signing state it is in - the exact failure class - the minimum fix or validation sequence",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Inspect macOS signing, entitlements, and Gatekeeper issues. Use when diagnosing code signing, sandbox, hardened runtime, or trust failures.时，用它产出或更新：Provide: - what artifact was inspected - what signing state it is in - the exact failure class - the minimu…",
+  "skill_id": "00724-signing-entitlements-712a2b13",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/signing-entitlements/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/build-macos-apps/skills/signing-entitlements/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "79326e5096325b53c4350db9e1586c9a2ef56976705f01c24d3643a592dc3030",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

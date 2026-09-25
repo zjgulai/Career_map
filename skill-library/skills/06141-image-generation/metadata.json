@@ -1,0 +1,22 @@
+{
+  "英文名称": "image generation",
+  "中文名称": "待补：image generation",
+  "一句话作用": "Create an image based on a text description using AI image generation. Features: - Generate high-quality images from text prompts - Support explicit pixel sizes (WIDTHxHEIGHT): both dimensions are multiples of 16 up to…",
+  "关键输入": "- description (required): detailed text description of the image to generate. - size: WIDTHxHEIGHT in pixels. Default 1024x1024. Both dimensions must be positive multiples of 16 and at most 3840, the aspect ratio at most 3:1, and total pixels between 655,360…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T18:47:07+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Create an image based on a text description using AI image generation. Features: - Generate high-quality images from text prompts - Support explicit pixel sizes (WIDTHxHEIGHT): both dimensions are multiples of 16 up to…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06141-image-generation-096a55bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/plugin-packages/image_generation/skills/image_generation/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/plugin-packages/image_generation/skills/image_generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "445c23d23bb4aee4c1ad48b05587583b1edf39053efd812bb61043c361baf807",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

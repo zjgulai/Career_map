@@ -1,0 +1,22 @@
+{
+  "英文名称": "lbo-model",
+  "中文名称": "待补：lbo-model",
+  "一句话作用": "This skill should be used when completing LBO (Leveraged Buyout) model templates in Excel for private equity transactions, deal materials, or investment committee presentations. The skill fills in formulas, validates ca…",
+  "关键输入": "Before filling any formulas: Examine the template structure - Identify all sections, understand the timeline (which columns are which periods), note any existing formulas Ask the user if anything is unclear - If the template structure, calculation methods, or…",
+  "关键输出": "Cash flows must have correct signs: Investment = negative, Proceeds = positive If using XIRR, need corresponding dates If using IRR, cash flows should be in consecutive periods MOIC = Total Proceeds / Total Investment",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要The following calculation patterns frequently cause issues across LBO models. Pay special attention when you encounter these:时，用它产出或更新：Cash flows must have correct signs: Investment = negative, Proceeds = positive If using XIRR, need corresponding dates If…",
+  "skill_id": "05486-lbo-model-f23600a4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/lbo-model/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/financial-analysis/skills/lbo-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "405e7ad1222c6ccf5a21cd7f6dcf6cf30a87df6a00e312721e2dd3b358a1c9a3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

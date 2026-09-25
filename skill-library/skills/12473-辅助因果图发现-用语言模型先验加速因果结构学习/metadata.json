@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-causal-discovery",
+  "中文名称": "辅助因果图发现 用语言模型先验加速因果结构学习",
+  "一句话作用": "触发词：因果图、LLM 先验、投放诊断、中介路径、排名路径。何时不用：不引入 LLM 先验的纯统计发现用「PC算法因果发现」或「NOTEARS/DAGMA」；已知因果图只想分解某条路径贡献时用「中介效应分析」。安全边界：LLM 因果先验来自通用语料，可能不反映平台实际机制，只能作参考，必须用真实数据做最终验证。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据团队面临\"广告→销量的因果路径不清晰无法确定优化策略\"——LLM先验+统计方法构建因果DAG，识别排名路径贡献62%，策略优化后ROAS提升20%，年化增量约40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12473-p2s-llm-causal-discovery-888499f6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-causal-discovery/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/经营与组织/p2s-llm-causal-discovery/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6aa8c3aa6f9baba96368036e40cf73146407d99750bd1f7a2a03fbd2eb124089",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

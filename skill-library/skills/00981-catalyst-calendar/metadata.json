@@ -1,0 +1,22 @@
+{
+  "英文名称": "catalyst-calendar",
+  "中文名称": "待补：catalyst-calendar",
+  "一句话作用": "Use when building public-equity-investing catalyst calendars. Do not use for full event underwriting; use event-driven-analyzer.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Recommend the full catalyst package: PM summary, top-catalysts table, full catalyst register or clearly scoped subset, prep plan, source/freshness notes, refresh change log when relevant, decision implications, and recommended adjacent work. For substantive s…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Use when building public-equity-investing catalyst calendars. Do not use for full event underwriting; use event-driven-analyzer.时，用它产出或更新：Recommend the full catalyst package: PM summary, top-catalysts table, full catalyst register or clearly scoped subset,…",
+  "skill_id": "00981-catalyst-calendar-ec1e1c78",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/catalyst-calendar/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/public-equity-investing/skills/catalyst-calendar/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb2eab03fc32c33148dbcebf2278dc6160d7931377457d7424c3985b80d2d578",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

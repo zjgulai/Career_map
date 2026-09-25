@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-crag-comprehensive-rag-benchmark",
+  "中文名称": "综合RAG评测基准",
+  "一句话作用": "触发词：RAG 基准、CRAG、幻觉率分布、过期信息排查、矛盾检测。何时不用：只需周期性轻量巡检时用 ARES 一类评测即可；要专测多跳事实性走 FRAMES 类基准。安全边界：评测结论依赖外部权威源与测试题集质量，题集覆盖不足会低估问题，须补齐来源后再下结论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据团队面临知识库质量无法量化——CRAG综合评测将质检周期从2周→2小时，识别高幻觉问题类别准确率93%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11937-p2s-crag-comprehensive-rag-benchmark-d8889d6d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-crag-comprehensive-rag-benchmark/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-crag-comprehensive-rag-benchmark/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de1fdbcb763729370f23ffb88fa1fbbcf4abcbeffc95172cbfe701a4aa34c5e7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

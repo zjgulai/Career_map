@@ -1,0 +1,22 @@
+{
+  "英文名称": "grouped-statistics",
+  "中文名称": "设定目标列名",
+  "一句话作用": "对多 Sheet 的 Excel 文件进行行数统计、数据合并与前向填充。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "top5 df = merged df.nlargest(5, target val 1).reset index(drop=True) top5 df.index = top5 df.index + 1 print(top5 df) from openpyxl import Workbook from openpyxl.styles import Font, PatternFill, Alignment, Border, Side output path = 'analysis report.xlsx' wb…",
+  "最新更新时间": "2026-09-15T11:05:41+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要对多 Sheet 的 Excel 文件进行行数统计、数据合并与前向填充。时，用它产出或更新：top5 df = merged df.nlargest(5, target val 1).reset index(drop=True) top5 df.index = top5 df.index + 1 print(top5 df) from openpyxl import Workbook from openpyxl.styles import Font, PatternFill, Alignment, Bord…",
+  "skill_id": "04167-grouped-statistics-257985bb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-statistics/grouped-statistics/SKILL.md",
+  "relative_path": "lute/.dsh/skills/sn-da-excel-workflow/capability/excel-data-statistics/grouped-statistics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6f9c47608f23c2d05a127408be6930b42ec495c9a1d8b9bbb37d1b0c0113c2f1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

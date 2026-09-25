@@ -1,0 +1,22 @@
+{
+  "英文名称": "国际站广告分析",
+  "中文名称": "国际站广告分析",
+  "一句话作用": "使用 workctl 和广告 HATEOAS 能力查询、分析和管理国际站广告。覆盖全站推与标准推的计划、商品、关键词、地域、时段、效果报表、账户财务和账户/计划诊断，也处理预算、出价、暂停、删除、加删商品等写入意图。只有用户原话明确出现“标准推广”“手动推广”或“关键词”时才使用标准推；包括 P4P、直通车、广告、推广、计划在内的其他表述均默认全站推，不得主动补写“关键词推广”或“标准推广”改变用户意图。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要使用 workctl 和广告 HATEOAS 能力查询、分析和管理国际站广告。覆盖全站推与标准推的计划、商品、关键词、地域、时段、效果报表、账户财务和账户/计划诊断，也处理预算、出价、暂停、删除、加删商品等写入意图。只有用户原话明确出现“标准推广”“手动推广”或“关键词”时才使用标准推；包括 P4P、直通车、广告、推广、计划在内的其他表述均默认全站推，不得主动补写“关键词推广”或“标准推广”改变用户意图。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00150-skill-e08db981",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-ads-marketing-analysis/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-ads-marketing-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b8979e06f821074e37cabb3bdec04ed526b78b5f1141aa0956db826a2a36ffaf",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

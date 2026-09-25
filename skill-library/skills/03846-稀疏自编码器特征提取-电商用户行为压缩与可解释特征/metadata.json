@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-sparse-autoencoder-feature",
+  "中文名称": "稀疏自编码器特征提取（电商用户行为压缩与可解释特征）",
+  "一句话作用": "触发词：稀疏自编码器、可解释特征、用户行为压缩、概念激活、异常用户检测。何时不用：需要分档与触达策略用 RFM 类技能，需要跨品类语义推荐用知识图谱画像技能，本技能只做用户表示的可解释压缩。安全边界：训练与推理仅限自有用户行为数据，异常检测结论只能作为排查线索，不得直接作为处罚依据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据科学家面临\"用户嵌入是黑盒运营无法理解推荐逻辑导致信任度低\"——稀疏自编码器将用户表示转化为可解释概念，运营理解推荐决策率提升80%，年化通过可解释 AI 提升业务协同价值15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03846-p2s-sparse-autoencoder-feature-dd3a2e06",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-sparse-autoencoder-feature/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-sparse-autoencoder-feature/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8ca6bd972a7eb8420e1440769fcc0323134d211ddb90d42a46ed28cc02d3e302",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

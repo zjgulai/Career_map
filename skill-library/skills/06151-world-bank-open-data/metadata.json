@@ -1,0 +1,22 @@
+{
+  "英文名称": "world bank open data",
+  "中文名称": "待补：world bank open data",
+  "一句话作用": "World Bank Open Data is a free global development data platform with access to countries worldwide and 29,000+ indicators covering economic, social, and environmental metrics including GDP, GNP, population, poverty, une…",
+  "关键输入": "- Country-level time series for GDP, GNP, population, poverty rates, unemployment, trade, inflation, education, health, and environmental data. - Cross-country comparison of development indicators. - Long-run trend anal…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T17:52:11+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Country-level time series for GDP, GNP, population, poverty rates, unemployment, trade, inflation, education, health, and environmental data. - Cross-country comparison of development indicators. - Long-run trend anal…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06151-world-bank-open-data-2acfaacd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/kimi-desktop/daimon-share/daimon/plugin-packages/world_bank_open_data/skills/world_bank_open_data/SKILL.md",
+  "relative_path": "lute/Library/Application Support/kimi-desktop/daimon-share/daimon/plugin-packages/world_bank_open_data/skills/world_bank_open_data/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ccb0c43b560cdff4495e1f5740a6012a99fd13f6329e199393ea4e578467301f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

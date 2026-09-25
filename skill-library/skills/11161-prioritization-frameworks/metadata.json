@@ -1,0 +1,22 @@
+{
+  "英文名称": "prioritization-frameworks",
+  "中文名称": "待补：prioritization-frameworks",
+  "一句话作用": "Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing frameworks…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:16:58+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing frameworks…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11161-prioritization-frameworks-d8f3e358",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/prioritization-frameworks/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/prioritization-frameworks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5dab45be9e46397ec1c35a6a6aaa85233843184fd1e9d8e5f279dd02d6e4fc21",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

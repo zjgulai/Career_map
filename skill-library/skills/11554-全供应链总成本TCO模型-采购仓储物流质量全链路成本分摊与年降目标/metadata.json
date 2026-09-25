@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supply-chain-total-cost-tco-model",
+  "中文名称": "全供应链总成本TCO模型 采购仓储物流质量全链路成本分摊与年降目标",
+  "一句话作用": "触发词：TCO总成本、成本分摊、供应商切换评估、成本率超标诊断、年降目标。何时不用：只看采购价格偏差归因用「采购价格达成率KPI」，算 BOM 层级原料成本传导用「BOM成本卷积」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要决策层面临\"只看采购价格误选供应商\"——TCO=采购+仓储+物流+质量+资金全成本，识别真实TCO后年化避免误决策损失15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11554-p2s-supply-chain-total-cost-tco-model-6343d1f7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supply-chain-total-cost-tco-model/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-supply-chain-total-cost-tco-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e4001a149b2a61f1a3b7e56f459cb8f5de7ca20a1194c3c96418a5ad26833e4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

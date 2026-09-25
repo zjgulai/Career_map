@@ -1,0 +1,22 @@
+{
+  "英文名称": "SKU 退场决策树（清仓/下架/迁移/捆绑）",
+  "中文名称": "待补：SKU 退场决策树（清仓/下架/迁移/捆绑）",
+  "一句话作用": "当 SKU 为 C 级危险或生命周期衰退且归因后仍无改善路径、需输出可执行的退场方案与时间表时调用；重大财务影响需战略侧确认。",
+  "关键输入": "- sku-health-scanner / sku-lifecycle-classifier / attribution-analyzer 中至少一项结论支持「退场或收缩」。 - 具备：当前库存、在途、采购成本、近 90 天毛利、平台费用假设。",
+  "关键输出": "- 推荐方案 备选 财务测算摘要 时间表 风险与缓解 - 附 SKU 清单表 供 ERP/运营批量执行。",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当 SKU 为 C 级危险或生命周期衰退且归因后仍无改善路径、需输出可执行的退场方案与时间表时调用；重大财务影响需战略侧确认。时，用它产出或更新：- 推荐方案 备选 财务测算摘要 时间表 风险与缓解 - 附 SKU 清单表 供 ERP/运营批量执行。",
+  "skill_id": "09922-sku-15adf519",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/product-manage/sku-exit-decision-tree/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/product-manage/sku-exit-decision-tree/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "45f12e81608f2cd935571e9cfddaed60375a7289ea7a9890e1dd4eab9dc0aa84",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

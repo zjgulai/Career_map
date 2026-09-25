@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-clickstream-persona-pipeline",
+  "中文名称": "点击流用户画像：VQ-VAE 离散 Persona 多层行为 KG",
+  "一句话作用": "触发词：点击流画像、Persona离散化、行为知识图谱、个性化推荐、用户分群。何时不用：只把评论转成情感特征时用情感 ML 管道技能；只需在线读取特征值、不涉及分群时用实时特征仓库技能。安全边界：用户行为数据须去标识化并按隐私授权使用，画像标签不得用于歧视性区别对待。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴跨境电商应用：独立站/APP 原始点击流 → 离散 persona token，驱动个性化推荐和 A/B 实验时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02896-p2s-clickstream-persona-pipeline-83c29c71",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-clickstream-persona-pipeline/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-clickstream-persona-pipeline/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "97c72393e808da85a1f1c1110513788929e1ecac70fb09fcb8b4083b5b71d92b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

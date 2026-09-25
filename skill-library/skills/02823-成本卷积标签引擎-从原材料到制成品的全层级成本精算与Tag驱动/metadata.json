@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-bom-cost-rollup-tag-engine",
+  "中文名称": "成本卷积标签引擎 从原材料到制成品的全层级成本精算与Tag驱动",
+  "一句话作用": "触发词：BOM成本、成本卷积、涨价传导、成本Tag、价格倒挂预警。何时不用：算采购加仓储加物流加质量的全链路总成本用「供应链总成本TCO模型」，算采购价格达成率用「采购价格达成率KPI」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购面临\"铜价上涨但不知道影响哪些产品成本多少\"——BOM卷积Tag实时传播价格变动，避免价格倒挂季度亏损约5万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02823-p2s-bom-cost-rollup-tag-engine-5ce37880",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-bom-cost-rollup-tag-engine/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-bom-cost-rollup-tag-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "42b1d4ce776d58fbba0e277b96ed538aedf31cd6b63507dc9198b96e2e9aeb51",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

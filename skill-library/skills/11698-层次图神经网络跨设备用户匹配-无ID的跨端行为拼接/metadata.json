@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hgnn-cross-device-matching",
+  "中文名称": "层次图神经网络跨设备用户匹配 - 无ID的跨端行为拼接",
+  "一句话作用": "触发词：层次图神经网络、跨设备匹配、URL 序列、异构图、无 ID 拼接、行为相似度。何时不用：每台设备日志过少或只有 IP 维度时图方法不可靠；有确定性 ID 时直接用 ID 图谱。安全边界：URL 仅保留域名与前两级路径、剔除查询参数中的个人信息，处理流程需符合隐私法规且不依赖第三方 Cookie。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要业务问题：母婴 DTC 站在 Instagram 投广告，用户在手机看到广告、到电脑搜索品牌词下单时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11698-p2s-hgnn-cross-device-matching-3fea09c0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-hgnn-cross-device-matching/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-hgnn-cross-device-matching/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c7e73357867b972153da0f12090d8477ec083c6301f97e1f7c2597e651543a9c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

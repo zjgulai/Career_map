@@ -1,0 +1,22 @@
+{
+  "英文名称": "playwright-cli",
+  "中文名称": "待补：playwright-cli",
+  "一句话作用": "Automate browser interactions, test web pages and work with Playwright tests.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "playwright-cli snapshot --filename=after-click.yaml",
+  "最新更新时间": "2026-07-22T20:56:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Automate browser interactions, test web pages and work with Playwright tests.时，用它产出或更新：playwright-cli snapshot --filename=after-click.yaml",
+  "skill_id": "06063-playwright-cli-82fcffa0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/_internal/playwright/driver/package/lib/tools/cli-client/skill/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/components/MarvisAgent/Versions/1.0.0.10203/_internal/playwright/driver/package/lib/tools/cli-client/skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8fc9ec712b9cfbeae8937bef4bab83b291083ecbc4a60065e1325b786c5dcaf5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

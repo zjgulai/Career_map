@@ -1,0 +1,22 @@
+{
+  "英文名称": "openalex-database",
+  "中文名称": "待补：openalex-database",
+  "一句话作用": "Query and analyze scholarly literature using the OpenAlex database. This skill should be used when searching for academic papers, analyzing research trends, finding works by authors or institutions, tracking citations,…",
+  "关键输入": "Install required package using uv: No API key required - OpenAlex is completely open.",
+  "关键输出": "Use for : Comprehensive analysis of author or institution research",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要See references/common queries.md for: - Complete working examples - Real-world use cases - Complex query patterns - Data export workflows - Multi-step analysis procedures时，用它产出或更新：Use for : Comprehensive analysis of author or institution research",
+  "skill_id": "05765-openalex-database-eb86e952",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/openalex-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/openalex-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ae987caf9f6dd9c2cef746753d43e5a86560f90c1209560909ef1bd297b015be",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

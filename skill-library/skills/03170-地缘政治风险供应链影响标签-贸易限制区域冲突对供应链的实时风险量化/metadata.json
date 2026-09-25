@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-geopolitical-ri[REDACTED]",
+  "中文名称": "地缘政治风险供应链影响标签 贸易限制区域冲突对供应链的实时风险量化",
+  "一句话作用": "触发词：地缘风险、贸易限制、影响量化、链路传播。何时不用：供应链实体与依赖关系不全时传播分析会失真；只做单一环节异常监控用库存异常检测类技能。安全边界：风险事件信息需以公开可信来源为准，不据此做政治性判断。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购面临\"红海危机/关税变动时无法量化供应链影响\"——地缘风险BFS传播引擎实时评估影响范围，提前14天预警节省空运费$8,000/批次时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03170-p2s-geopolitical-ri-redacted-fcb789e4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-geopolitical-risk-tag-supply-impact/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-geopolitical-risk-tag-supply-impact/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3f8ac89f7899c0cdba82207fede88bf8677d84fdc74b5d234e881255b209c9a4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

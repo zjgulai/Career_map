@@ -1,0 +1,22 @@
+{
+  "英文名称": "slo-implementation",
+  "中文名称": "落地",
+  "一句话作用": "定义 SLI、SLO 与错误预算，给出目标值与停机时长对照表、Prometheus 记录规则、燃烧率告警与看板结构。触发词：SLO 与错误预算、slo-implementation、定义 SLI、SLO 与错误预算，给出目标值与停机时长对照表、Prometheus 记录规则、燃烧率告警与看板结构。",
+  "关键输入": "- 定义服务的可靠性目标 - 度量用户可感知的可靠性 - 落地错误预算 - 创建基于 SLO 的告警 - 跟踪可靠性目标",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- 定义服务的可靠性目标 - 度量用户可感知的可靠性 - 落地错误预算 - 创建基于 SLO 的告警 - 跟踪可靠性目标时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04142-slo-implementation-c6214409",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/slo-implementation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/slo-implementation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8106c1562851f92dfe43c3d97dfd0fd713ea94ae55c18e8af9141a96e1ecce0b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

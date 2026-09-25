@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-partial-identification-bounds",
+  "中文名称": "部分识别与 ATE 边界估计（Manski Bounds）",
+  "一句话作用": "触发词：部分识别、效果边界区间、无随机实验、效果下界、区间汇报。何时不用：有可用的实验或面板数据、需要点估计用 DML 或合成控制类技能，本技能只在无法做随机实验、只能给区间时使用。安全边界：结论只能表述为区间与下界，不得把边界区间当作点估计汇报或据此承诺收益。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要合规团队面临\"无随机对照数据但需要评估政策效果\"——部分识别边界为决策提供可信区间而非点估计，年化降低错误政策落地风险节省50-80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11765-p2s-partial-identification-bounds-7acbf3f1",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-partial-identification-bounds/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-partial-identification-bounds/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "89ad594dc6d53cd122d485ded54bef4fbfbec8d2200488b0ba62efb60ad0db2e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

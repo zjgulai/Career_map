@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cash-conversion-cycle-optimization",
+  "中文名称": "现金转换周期优化",
+  "一句话作用": "触发词：现金转换周期、CCC、流动资金占用、交期压缩、账期优化。何时不用：做旺季备货资金缺口的概率模拟时用「营运资金压力测试」；做 DIO/DSO/DPO 三角诊断与多平台打款周期对比时用「供应链营运资金优化」。安全边界：只做内部资金测算，不代与供应商改签账期；账期与融资条款变更须合同与法务确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要卖家面临\"月销200万但需垫付1000万流动资金差点断链\"——现金转换周期建模将CCC从150天压至103天，释放流动资金313万元，年化节省资金成本50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02855-p2s-cash-conversion-cycle-optimization-acd343fc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cash-conversion-cycle-optimization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cash-conversion-cycle-optimization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "da6eaf664500818659417f917ae0fb240ea940f6fa6b8ac72fa5d896fe066bea",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

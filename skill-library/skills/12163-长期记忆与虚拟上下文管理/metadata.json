@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-memory-learning",
+  "中文名称": "长期记忆与虚拟上下文管理",
+  "一句话作用": "触发词：长期记忆、虚拟上下文、分层存储、记忆压缩、跨会话连续。何时不用：只做商品偏好字段用「长期偏好记忆」；本技能是通用记忆架构，不限导购场景。安全边界：无。",
+  "关键输入": "输入 ：用户历史对话记录、购买记录与产品反馈、用户画像（偏好、阶段、关注点）、产品知识库，用于初始化分层记忆。 输出 ：分层记忆体系（主上下文与外部记忆的换入换出）与可复用的个性化上下文，支持跨会话连续服务。",
+  "关键输出": "输入 ：用户历史对话记录、购买记录与产品反馈、用户画像（偏好、阶段、关注点）、产品知识库，用于初始化分层记忆。 输出 ：分层记忆体系（主上下文与外部记忆的换入换出）与可复用的个性化上下文，支持跨会话连续服务。",
+  "最新更新时间": "2026-09-13T21:15:12+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：长期记忆、虚拟上下文、分层存储、记忆压缩、跨会话连续。何时不用：只做商品偏好字段用「长期偏好记忆」；本技能是通用记忆架构，不限导购场景。安全边界：无。时，用它产出或更新：输入 ：用户历史对话记录、购买记录与产品反馈、用户画像（偏好、阶段、关注点）、产品知识库，用于初始化分层记忆。 输出 ：分层记忆体系（主上下文与外部记忆的换入换出）与可复用的个性化上下文，支持跨会话连续服务。",
+  "skill_id": "12163-p2s-agent-memory-learning-e0d9d59c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-agent-memory-learning/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/服务与体验/p2s-agent-memory-learning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4008237ce9c3e1006cb0640b7203c8d2f341a3ea4fb9a37d4c3439a593d80da9",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

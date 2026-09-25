@@ -1,0 +1,22 @@
+{
+  "英文名称": "sites-building",
+  "中文名称": "待补：sites-building",
+  "一句话作用": "Use Sites when the user wants a complete website built for them, such as a landing page, portfolio, dashboard, portal, tracker, hub, or internal tool, or wants to modify a website built with Sites. Do not use for develo…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "1970-01-01T08:00:01+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要Use Sites when the user wants a complete website built for them, such as a landing page, portfolio, dashboard, portal, tracker, hub, or internal tool, or wants to modify a website built with Sites. Do not use for develo…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01346-sites-building-aa54bf55",
+  "source_type": "remote_plugin_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated-remote/sites/0.1.70/skills/sites-building/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated-remote/sites/0.1.70/skills/sites-building/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a8f913497a846825f2011a8e49dd9250f821cd99fad21fcbfbd94be823595a30",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

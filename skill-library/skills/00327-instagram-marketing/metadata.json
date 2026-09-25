@@ -1,0 +1,22 @@
+{
+  "英文名称": "instagram-marketing",
+  "中文名称": "待补：instagram-marketing",
+  "一句话作用": "Generate Instagram marketing content from product URLs. Extract product information and create engaging Instagram posts with image suggestions, captions, and hashtags optimized for engagement. Use when user provides a p…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:29+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Generate Instagram marketing content from product URLs. Extract product information and create engaging Instagram posts with image suggestions, captions, and hashtags optimized for engagement. Use when user provides a p…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00327-instagram-marketing-664070d9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/instagram-marketing/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/instagram-marketing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "144cebe55821409d0acd1b9c0e1b14576e3d5ecb88620eea9ab7a1acf0dff6b0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

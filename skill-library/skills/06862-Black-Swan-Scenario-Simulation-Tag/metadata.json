@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Black-Swan-Scenario-Simulation-Tag",
+  "中文名称": "待补：Black Swan Scenario Simulation Tag",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 73.0, \"best\": 73.4, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:58:51.621914\"} {\"round\": 0, \"status\": \"patch nothing\", \"score\": 84.4, \"best\": 84.4, \"mutated\": \"none\", \"t…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T18:34:46+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 73.0, \"best\": 73.4, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T04:58:51.621914\"} {\"round\": 0, \"status\": \"patch nothing\", \"score\": 84.4, \"best\": 84.4, \"mutated\": \"none\", \"t…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06862-skill-black-swan-scenario-simulation-tag-a8e5c364",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Black-Swan-Scenario-Simulation-Tag.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Black-Swan-Scenario-Simulation-Tag.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "855b2651e372135f5cce5018976c77eaf9d1d9969835e3044c7b6e02574fab55",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "pylabrobot",
+  "中文名称": "待补：pylabrobot",
+  "一句话作用": "Vendor-agnostic lab automation framework. Use when controlling multiple equipment types (Hamilton, Tecan, Opentrons, plate readers, pumps) or needing unified programming across different vendors. Best for complex workfl…",
+  "关键输入": "Use this skill when: - Programming liquid handling robots (Hamilton STAR/STARlet, Opentrons OT-2, Tecan EVO) - Automating laboratory workflows involving pipetting, sample preparation, or analytical measurements - Managi…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: - Programming liquid handling robots (Hamilton STAR/STARlet, Opentrons OT-2, Tecan EVO) - Automating laboratory workflows involving pipetting, sample preparation, or analytical measurements - Managi…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05784-pylabrobot-091f792a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pylabrobot/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/pylabrobot/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2f99a6d6f6d60c27bcc0b02d2f5e6f3238f56a6738b55058d8ca392d14d70229",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

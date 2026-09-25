@@ -1,0 +1,22 @@
+{
+  "英文名称": "rust-quality",
+  "中文名称": "待补：rust-quality",
+  "一句话作用": "Rust code quality with Clippy, rustfmt, and cargo tools. Covers linting, formatting, and idiomatic Rust patterns. USE WHEN: user works with \"Rust\", \"Cargo\", \"Actix\", \"Axum\", asks about \"Clippy\", \"rustfmt\", \"Rust linting…",
+  "关键输入": "too-many-arguments-threshold = 5",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:12:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要cargo clippy --all-targets --all-features时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05073-rust-quality-f469c7a7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/rust-quality/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/rust-quality/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f6832a3822b034cf532e878c628d1231b16816e17b6cfe3df636287ae91c0a34",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

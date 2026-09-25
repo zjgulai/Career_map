@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rfm-segment-campaign-dispatcher",
+  "中文名称": "分群结果自动触发差异化营销序列调度器",
+  "一句话作用": "触发词：RFM分群触达、营销序列调度、挽回邮件编排、VIP礼遇触发、分层差异化触达。何时不用：分群结果尚未产出、只想拿到 R/F/M 分层名单时，先用『RFM 客户分群』；本技能只负责把既有分群转成触达序列。安全边界：触达须符合《个人信息保护法》并提供一键退订；对近 3 天内已被客服联系的客户跳过本批次，避免重复触达。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴品牌运营面临\"RFM分群完成但挽回邮件/VIP礼遇仍靠人工手动发送\"——自动调度器将At-Risk群挽回率稳定在12%，年化增量复购GMV约6-10万元时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11796-p2s-rfm-segment-campaign-dispatcher-83d03efa",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-rfm-segment-campaign-dispatcher/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-rfm-segment-campaign-dispatcher/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "470a115aa5dab487705acb46c3d03101d59147b48f1f2dc16f8efceb03d45a5e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

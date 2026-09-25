@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causalrag-causal-graph-retrieval",
+  "中文名称": "因果图增强检索：语义相似 因果链路双轨 RAG",
+  "一句话作用": "触发词：因果图检索、因果三元组、沿链路取证、知识溯源、相关不等于因果。何时不用：知识库中没有明确因果表述、或问题只需单跳事实检索时不适用；只按复杂度路由检索次数用自适应查询路由。安全边界：只做检索与因果路径组织，不判定因果真伪；节点须保留来源与置信度，答案须可回溯出处。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要研究经理面临知识检索只会相关不会因果——因果检索将方案误判率降35%，年化省10万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02883-p2s-causalrag-causal-graph-retrieval-822a6e7b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causalrag-causal-graph-retrieval/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causalrag-causal-graph-retrieval/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6311d0fcd928f0ac800b460eb25181505e79241060fa10b75a32a8bab0a5ed63",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

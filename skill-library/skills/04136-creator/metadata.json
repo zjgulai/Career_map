@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-creator",
+  "中文名称": "待补：skill-creator",
+  "一句话作用": "当用户需要创建 Agent Skill、把流程固化成可复用技能、或询问 Iron Law Testing / CSO 优化 / Skill 类型 / 渐进式披露时使用。 创建生产级 Agent Skill，整合 Iron Law Testing、CSO 优化、Universal Skill Schema 标准。 触发词：Skill创建器、创建 skill、写一个 skill、做一个 skill、Iron Law、Iron Law 测试…",
+  "关键输入": "- 用户要创建一个新 skill，或把现有流程/SOP 固化成可复用 skill - 用户询问 Iron Law Testing（RED→GREEN→REFACTOR）、CSO 优化、渐进式披露、Skill 类型等创建方法论 - 用户要从零学如何创建合格 skill，或需要选择复杂度/模板/结构",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T03:00:38+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 用户要创建一个新 skill，或把现有流程/SOP 固化成可复用 skill - 用户询问 Iron Law Testing（RED→GREEN→REFACTOR）、CSO 优化、渐进式披露、Skill 类型等创建方法论 - 用户要从零学如何创建合格 skill，或需要选择复杂度/模板/结构时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04136-skill-creator-8792858d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/skill-creator/SKILL.md",
+  "relative_path": "lute/.dsh/skills/skill-creator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bc563a502aa9ac2c717396f6381762469649b48290c02bda714e566e8868e799",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

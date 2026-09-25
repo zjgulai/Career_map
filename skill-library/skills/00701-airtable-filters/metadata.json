@@ -1,0 +1,22 @@
+{
+  "英文名称": "airtable-filters",
+  "中文名称": "待补：airtable-filters",
+  "一句话作用": "Use this skill when the user wants to find, filter, or narrow down Airtable records by field values, even when they don't explicitly say \"filter.\"",
+  "关键输入": "Filter where a text field equals \"orange\" OR a number field is greater than 5: Filter for records where a date field is within the past week:",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要Filter where a text field equals \"orange\" OR a number field is greater than 5: Filter for records where a date field is within the past week:时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00701-airtable-filters-524bceda",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/airtable/skills/airtable-filters/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/airtable/skills/airtable-filters/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a73cf412d5f806483eb90f0d4b0b820bdebddca999311d6c7798f888b6e70a73",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

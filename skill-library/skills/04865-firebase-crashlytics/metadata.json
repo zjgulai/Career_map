@@ -1,0 +1,22 @@
+{
+  "英文名称": "firebase-crashlytics",
+  "中文名称": "待补：firebase-crashlytics",
+  "一句话作用": "Integrates Firebase Crashlytics into Flutter apps. Use when setting up crash reporting, handling fatal and non-fatal errors, customizing crash reports with keys/logs/user identifiers, or configuring opt-in reporting.",
+  "关键输入": "Use this skill when: Setting up Crashlytics in a Flutter project. Configuring fatal and non-fatal error handling. Customizing crash reports with keys, logs, and user identifiers. Testing crash reporting or configuring o…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:56:22+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when: Setting up Crashlytics in a Flutter project. Configuring fatal and non-fatal error handling. Customizing crash reports with keys, logs, and user identifiers. Testing crash reporting or configuring o…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04865-firebase-crashlytics-12304de1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/firebase-crashlytics/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/firebase-crashlytics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2087cdef1ef48d0c47b52264686a879e4891dac42b40fc1996817bba6e0102a4",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

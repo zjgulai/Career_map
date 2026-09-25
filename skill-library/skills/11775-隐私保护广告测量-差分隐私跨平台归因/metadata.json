@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-privacy-preserving-ad-measurement",
+  "中文名称": "隐私保护广告测量 差分隐私跨平台归因",
+  "一句话作用": "触发词：隐私保护归因、OPRF、差分隐私、跨平台测量、ID 隔离、PSI。何时不用：自有站点可正常使用 Cookie 与用户级归因时不必上本卡；本卡针对平台间用户 ID 隔离、无法回传用户级数据的场景。安全边界：只允许交换哈希集合与加噪聚合结果，不得回传明文用户 ID 或可重识别的个体数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要TikTok 投放→Amazon 购买的跨平台归因因用户 ID 隔离完全依赖平台自报误差——引入 OPRF+差分隐私跨平台归因，跨平台归因准确率提升50%，广告预算再分配年化 ROI 提升 20%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11775-p2s-privacy-preserving-ad-measurement-46c10f90",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-privacy-preserving-ad-measurement/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-privacy-preserving-ad-measurement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d83688ad6f2ff38708338c14b03457e5fe8ef947ce59060fa3b637a96616e3b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

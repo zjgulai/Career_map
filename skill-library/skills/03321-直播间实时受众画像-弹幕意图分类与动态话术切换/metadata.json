@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-live-audience-real-time-personalization",
+  "中文名称": "直播间实时受众画像 弹幕意图分类与动态话术切换",
+  "一句话作用": "触发词：直播弹幕、意图分类、话术切换、实时受众画像、直播运营。何时不用：要预测直播间转化率下滑并预警用「直播转化率实时预测」；要事后挖掘话术与成交的因果时机用「直播话术优化 NLP」。安全边界：弹幕仅用于实时意图分析、不存储用户个人身份信息；话术模板不得含虚假宣传或价格误导内容。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要直播运营面临\"不同类型观众混在一起用同一套话术导致大量用户流失\"——弹幕意图分类+话术切换规则将转化率提升18%，年化$6.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03321-p2s-live-audience-real-time-personalization-be2a2bcd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-live-audience-real-time-personalization/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-live-audience-real-time-personalization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e257de33a650bf2e76d8dfe2bd850a1df115d584bf7acd20f898c83da5924508",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

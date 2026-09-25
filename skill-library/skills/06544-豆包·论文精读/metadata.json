@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-paper-close-reading",
+  "中文名称": "豆包·论文精读",
+  "一句话作用": "用于用户提供一篇或少量学术论文后，进行专业深度精读，讲清研究问题、研究故事、方法或理论机制、关键证据、实验结果、可信边界、复现风险与研究启示，并生成高级 Markdown 报告和飞书文档。用户要求“论文精读”“深度解读”“分析方法与实验”“判断论文价值或局限”时使用。开放主题综述、单纯题录核验、论文代写或语言润色时不使用。",
+  "关键输入": "支持： - PDF； - DOCX； - Markdown、TXT和可读取的网页导出； - arXiv、DOI、出版社或作者公开页面； - 用户粘贴的摘要、正文或论文片段； - 一篇或少量论文及用户的研究问题。 只提供标题、DOI或链接时，优先定位官方版本、作者公开版本或用户已授权访问的全文。无法取得全文时，可以提供摘要级解读，但必须明确覆盖范围。 默认只使用公开或用户已授权的材料，不绕过登录、付费墙或版权保护。",
+  "关键输出": "摘要和引言中的贡献声明只是作者主张。论文的主要结论应回到方法、实验、图表、数据和附录判断。",
+  "最新更新时间": "2026-09-12T03:26:21+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要适用于： - 精读一篇论文，理解核心贡献、方法、实验和局限； - 判断一篇论文是否值得引用、复现、跟进或作为研究基线； - 为组会、开题、选题、研究设计或方法学习整理专业笔记； - 分析论文的关键公式、模型结构、理论机制或识别策略； - 检查论文的实验结果是否真正支持作者的主要结论； - 从论文中提炼可复用的设计思想和后续研究方向； - 对少量论文进行围绕共同问题的深度比较。 不适用于： - 没有种子论文的开放主题检索或系统综述（应使…时，用它产出或更新：摘要和引言中的贡献声明只是作者主张。论文的主要结论应…",
+  "skill_id": "06544-doubao-paper-close-reading-94e65cb2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-paper-close-reading/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/5b3669c42481147a33c063d12907b58c/doubao/.doubao/agent_mode/workspace/.skills/doubao-paper-close-reading/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dcc328e4dea8de5e40d6a0324f569b56c098298d9a9edfab8331d8adf347bd34",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

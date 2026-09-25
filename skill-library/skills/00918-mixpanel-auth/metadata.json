@@ -1,0 +1,22 @@
+{
+  "英文名称": "mixpanel-auth",
+  "中文名称": "待补：mixpanel-auth",
+  "一句话作用": "Manage Mixpanel Headless authentication: check session state, list/add/use accounts, run OAuth login, switch projects/workspaces, manage targets, and check bridge credentials.",
+  "关键输入": "Run: python3 $PLUGIN ROOT/skills/mixpanelyst/scripts/auth manager.py session Switch on state: - ok — show one line: \"Active: account.name → project project.id\" (add workspace workspace.id if non-null). Mention that the account-list and project-list workflows…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Manage Mixpanel Headless authentication: check session state, list/add/use accounts, run OAuth login, switch projects/workspaces, manage targets, and check bridge credentials.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00918-mixpanel-auth-ad806231",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/mixpanel-headless/skills/mixpanel-auth/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/mixpanel-headless/skills/mixpanel-auth/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d813765d0f36fad6f5dc15f6041e33be5554ed0e6b572e13bf11fb1e17669548",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

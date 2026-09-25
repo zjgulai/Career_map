@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-social-proof-viral-rec",
+  "中文名称": "社交证明病毒式推荐",
+  "一句话作用": "触发词：社交证明、KOL 背书时效、UGC 得分、退货率、动态重排。何时不用：没有 KOL 发布记录或评论流数据时无法构建时效得分；纯行为序列推荐用序列推荐技能。安全边界：背书数据须来自真实付费或自然合作，不得使用刷量数据；UGC 使用须符合平台评论政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"KOL推荐后24h内流量峰值未被利用、错失转化窗口\"——KOL背书+UGC时效融合将当日CVR提升25%、退货率从18%降至11%，年化综合贡献约200-350万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11823-p2s-social-proof-viral-rec-62cf8091",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-social-proof-viral-rec/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-social-proof-viral-rec/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8001a6ac5e2a8d075641800a0f08be3dd1ac88acd585b761ffcc50086dcc8eb7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

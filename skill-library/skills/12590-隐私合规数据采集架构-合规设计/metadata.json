@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-privacy-gdpr-ccpa-collection",
+  "中文名称": "隐私合规数据采集架构 合规设计",
+  "一句话作用": "触发词：评论数据合规、假名化、IP截断、CCPA不出售、采集改造。何时不用：需要同意管理与 DSAR 全流程架构设计时用「Privacy-Compliant Data Collection GDPR/CCPA」；儿童场景审查用「Privacy COPPA Compliance」。安全边界：公开评论采集也不得留存真实邮箱与完整 IP；未经同意不得采集，拒绝授权的用户须自动跳过采集。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要欧洲评论数据采集系统存储用户真实邮箱/IP 面临 GDPR 违规高风险——引入隐私合规架构（假名化+差分隐私+数据最小化），违规暴露风险清零，合规改造成本仅为被罚款金额的 3%。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12590-p2s-privacy-gdpr-ccpa-collection-d951095b",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-privacy-gdpr-ccpa-collection/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-privacy-gdpr-ccpa-collection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28d99c997601fe6bf18e48fe1dbaacb401c2e02b24814031b781481cd95e04d6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

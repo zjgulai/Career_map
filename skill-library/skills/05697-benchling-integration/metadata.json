@@ -1,0 +1,22 @@
+{
+  "英文名称": "benchling-integration",
+  "中文名称": "待补：benchling-integration",
+  "一句话作用": "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation.",
+  "关键输入": "This skill should be used when: - Working with Benchling's Python SDK or REST API - Managing biological sequences (DNA, RNA, proteins) and registry entities - Automating inventory operations (samples, containers, locati…",
+  "关键输出": "sequences = benchling.dna sequences.list() for page in sequences: for seq in page: print(f\"{seq.name} ({seq.id})\")",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要This skill should be used when: - Working with Benchling's Python SDK or REST API - Managing biological sequences (DNA, RNA, proteins) and registry entities - Automating inventory operations (samples, containers, locati…时，用它产出或更新：sequences = benchling.dna…",
+  "skill_id": "05697-benchling-integration-30b20d0b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/benchling-integration/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/benchling-integration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "81e66c6162d2598f31ecd782e9fe3425a16dd978c1956197cbf15af6f5b98f34",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

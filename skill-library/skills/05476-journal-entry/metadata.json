@@ -1,0 +1,22 @@
+{
+  "英文名称": "journal-entry",
+  "中文名称": "待补：journal-entry",
+  "一句话作用": "Prepare journal entries with proper debits, credits, and supporting detail. Use when booking month-end accruals (AP, payroll, prepaid), recording depreciation or amortization, posting revenue recognition or deferred rev…",
+  "关键输入": "- type — The journal entry type. One of: - ap-accrual — Accounts payable accruals for goods/services received but not yet invoiced - fixed-assets — Depreciation and amortization entries for fixed assets and intangibles - prepaid — Amortization of prepaid expe…",
+  "关键输出": "Provide: 1. The formatted journal entry 2. Supporting calculations 3. Comparison to prior period entry of the same type (if available) 4. Any items flagged for review or follow-up 5. Instructions for posting (manual entry or upload format for the user's ERP)",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Prepare journal entries with proper debits, credits, and supporting detail. Use when booking month-end accruals (AP, payroll, prepaid), recording depreciation or amortization, posting revenue recognition or deferred rev…时，用它产出或更新：Provide: 1. The formatted…",
+  "skill_id": "05476-journal-entry-4bd160e1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/journal-entry/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/journal-entry/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c085de41feb0b8c74771cdd631fff1f668ec253938c69fee47b6a953fc03a266",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

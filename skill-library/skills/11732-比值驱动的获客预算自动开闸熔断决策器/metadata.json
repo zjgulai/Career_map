@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ltv-acquisition-budget-gate",
+  "中文名称": "比值驱动的获客预算自动开闸熔断决策器",
+  "一句话作用": "触发词：LTV/CAC比值、获客熔断、预算开闸、LTV分位数、样本量门控。何时不用：没有LTV预测输出或新客样本不足时不评估；只按渠道饱和度削预算走再分配触发器。安全边界：熔断只暂停新客获取预算，已有客户再营销与品牌最低预算不受影响，扩增须受连续扩增次数上限约束。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要增长负责人面临\"TikTok获客LTV/CAC比值跌至2.1但无自动熔断机制每月白烧$6800\"——LTV/CAC双向阈值门控将低效渠道预算自动归零，年化节省无效获客费用15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11732-p2s-ltv-acquisition-budget-gate-2d34b905",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ltv-acquisition-budget-gate/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ltv-acquisition-budget-gate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b890e818b42c892fef24eaf7eb3e0e2945454868b728fd8daf4c90208dbd0f88",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

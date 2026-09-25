@@ -1,0 +1,22 @@
+{
+  "英文名称": "research-router-skill",
+  "中文名称": "待补：research-router-skill",
+  "一句话作用": "Route broad or ambiguous life-sciences research requests to the right skills, normalize core entities, optionally parallelize independent evidence gathering with subagents when available, and synthesize a concise eviden…",
+  "关键输入": "Use this skill when any of the following are true: - the user asks a broad question such as what is known about ... - the question could require more than one evidence type - the right source is unclear at the start - t…",
+  "关键输出": "Return a concise answer structured around the user's question, not around the tools. Unless the user asks for a different format, include: 1. direct answer or working conclusion 2. key evidence by lane 3. main caveats or unresolved questions 4. recommended ne…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill when any of the following are true: - the user asks a broad question such as what is known about ... - the question could require more than one evidence type - the right source is unclear at the start - t…时，用它产出或更新：Return a concise answer st…",
+  "skill_id": "00909-research-router-skill-dd3ac5a3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/research-router-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/research-router-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e9e39c6c411da80f9fd62a62e70cbedac2404bdcfb51ddb8fda1dc3332c7e357",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

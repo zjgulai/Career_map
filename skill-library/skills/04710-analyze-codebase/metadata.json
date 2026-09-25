@@ -1,0 +1,22 @@
+{
+  "英文名称": "analyze-codebase",
+  "中文名称": "待补：analyze-codebase",
+  "一句话作用": "Analyze a codebase to generate a comprehensive architecture and structure report. Use when user wants to understand a codebase, explore project structure, or generate analysis.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Goal: Present output options and deliver analysis results in the user's preferred format. 1. Ask user for output preferences using AskUserQuestion with multi-select: 2. Handle the user's selection:",
+  "最新更新时间": "2026-09-19T03:47:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Analyze a codebase to generate a comprehensive architecture and structure report. Use when user wants to understand a codebase, explore project structure, or generate analysis.时，用它产出或更新：Goal: Present output options and deliver analysis results in the user'…",
+  "skill_id": "04710-analyze-codebase-816d9276",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/analyze-codebase/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/analyze-codebase/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "dce32c8c0ce256d527a8686aa59d1f39554949837ba92a7658ef53d8555e6ee9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

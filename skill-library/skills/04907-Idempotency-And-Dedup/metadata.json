@@ -1,0 +1,22 @@
+{
+  "英文名称": "Idempotency And Dedup",
+  "中文名称": "待补：Idempotency And Dedup",
+  "一句话作用": "Idempotency and Deduplication are strategies for ensuring operations can be safely retried without causing unintended side effects. Idempotent operations produce the same result regardless of how many",
+  "关键输入": "Inputs : - API endpoint definitions and operation types - Message queue configuration - Data models and schemas Entry Conditions : - Idempotency keys are defined for non-idempotent operations - Deduplication stores are configured - Message queue has deduplica…",
+  "关键输出": "Inputs : - API endpoint definitions and operation types - Message queue configuration - Data models and schemas Entry Conditions : - Idempotency keys are defined for non-idempotent operations - Deduplication stores are configured - Message queue has deduplica…",
+  "最新更新时间": "2026-02-22",
+  "业务场景": "Backend",
+  "解决具体问题": "当需要Internal documentation and examples Official documentation and best practices Community resources and discussions时，用它产出或更新：Inputs : - API endpoint definitions and operation types - Message queue configuration - Data models and schemas Entry Conditions : -…",
+  "skill_id": "04907-idempotency-and-dedup-08a3add7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Idempotency-And-Dedup/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Idempotency-And-Dedup/SKILL.md",
+  "date_source": "frontmatter.last_updated",
+  "content_hash": "0bcafa00e37d4a549165b51f2c491c34daff7c49adc1a53bbbc928bd7501150b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

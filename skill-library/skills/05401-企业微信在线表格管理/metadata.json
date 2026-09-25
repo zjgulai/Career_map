@@ -1,0 +1,22 @@
+{
+  "英文名称": "wecomcli-sheet",
+  "中文名称": "企业微信在线表格管理",
+  "一句话作用": "企业微信在线表格（sheet）管理技能。提供在线表格的新建、内容读取、内容修改、追加行数据，以及子工作表的增删管理。适用场景：(1) 新建空白在线表格 (2) 读取表格完整内容（Markdown）(3) 读取基础信息与子表列表 (4) 读取表格子表数据 (5) 修改指定区域内容 (6) 末尾追加一行数据 (7) 添加/删除子工作表。当用户提到「企业微信表格」「企业微信在线表格」「企微 Excel 表格」，或链接形如 https://d…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要企业微信在线表格（sheet）管理技能。提供在线表格的新建、内容读取、内容修改、追加行数据，以及子工作表的增删管理。适用场景：(1) 新建空白在线表格 (2) 读取表格完整内容（Markdown）(3) 读取基础信息与子表列表 (4) 读取表格子表数据 (5) 修改指定区域内容 (6) 末尾追加一行数据 (7) 添加/删除子工作表。当用户提到「企业微信表格」「企业微信在线表格」「企微 Excel 表格」，或链接形如 https://d…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05401-wecomcli-sheet-c447dc3a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-sheet/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/wecom/skills/wecomcli-sheet/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f452ae953bea389de73d0d8fe8ef11fc94db1799ed7497b2f275dcfe91194ccb",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

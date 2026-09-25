@@ -1,0 +1,22 @@
+{
+  "英文名称": "ot-ics",
+  "中文名称": "待补：ot-ics",
+  "一句话作用": "Use for authorized OT/ICS security assessment covering Purdue model zoning, PLC/SCADA exposure, industrial protocol discovery, and safe passive-first evaluation.",
+  "关键输入": "- 工控/SCADA/DCS 安全评估（授权） - Purdue 模型分区与跨区通道 - Modbus/DNP3/S7/EtherNet/IP 等协议暴露 - 工程师站、HMI、历史库、跳板主机 - IT/OT 融合边界（防火墙规则、单向闸）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- 工控/SCADA/DCS 安全评估（授权） - Purdue 模型分区与跨区通道 - Modbus/DNP3/S7/EtherNet/IP 等协议暴露 - 工程师站、HMI、历史库、跳板主机 - IT/OT 融合边界（防火墙规则、单向闸）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10871-ot-ics-1a97fc24",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/ot-ics/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch-backups/pre-2.0.10-migration/DSH Desktop.app/Contents/Resources/dsh-profile/profiles/desktop/node_modules/@dhicoc/dsh-reverse-skill/skills/ot-ics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "81bf7ff97d1e0d446ec262a2fed726e52abe3cce88e07c01ce31afcd0061bc9e",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

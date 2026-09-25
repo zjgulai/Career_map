@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-email-sequence-rl-optimizer",
+  "中文名称": "邮件序列强化学习优化：自动发现最优营养序列",
+  "一句话作用": "触发词：强化学习邮件、个性化序列、发送时机、退订预测、CTR 提升、CLV。何时不用：只做固定文案的在线择优用多臂老虎机那张卡；要按用户状态学何时发、发什么的最优序列时用本卡。安全边界：不得对已退订用户触达，发送频率须合规并可一键退订；训练只用营销响应数据，不得引入敏感个人信息。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要静态邮件规则对所有用户相同序列导致CTR仅8%高频用户被骚扰低频用户错失时机——强化学习为每个用户学习个性化发送策略，CTR提升到12-15%复购率提升35%年化GMV增益20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03097-p2s-email-sequence-rl-optimizer-39dff337",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-email-sequence-rl-optimizer/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-email-sequence-rl-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a7abf0b655ea8f3f11846ac7ff6dc5dacb67b8e11799f14f41a2552de8dd607e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

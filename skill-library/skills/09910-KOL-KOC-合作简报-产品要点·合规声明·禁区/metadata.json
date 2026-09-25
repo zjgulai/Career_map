@@ -1,0 +1,22 @@
+{
+  "英文名称": "KOL/KOC 合作简报（产品要点·合规声明·禁区）",
+  "中文名称": "待补：KOL/KOC 合作简报（产品要点·合规声明·禁区）",
+  "一句话作用": "当需要向达人交付标准化合作 Brief（产品使用要点、必须口播的合规声明、禁止场景与素材授权）且已有信任型内容框架时调用；不替代合同与付款条款。",
+  "关键输入": "- 已有 trust-content-generator 中的 事实与认证 列表。 - 已知合作形式： 佣金 / 赠品 / 现金 （影响披露文案）。 - 已选平台与地区（TikTok/IG/YouTube，NA 或具体欧盟国家）。",
+  "关键输出": "- Brief 1pager：Markdown；含 Disclosure Talking points Forbidden Deliverables Legal note - 表：检查项 是/否 证据",
+  "最新更新时间": "2026-03-22T00:38:55+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要当需要向达人交付标准化合作 Brief（产品使用要点、必须口播的合规声明、禁止场景与素材授权）且已有信任型内容框架时调用；不替代合同与付款条款。时，用它产出或更新：- Brief 1pager：Markdown；含 Disclosure Talking points Forbidden Deliverables Legal note - 表：检查项 是/否 证据",
+  "skill_id": "09910-kol-koc-4a8d27ea",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/influencer-brief-generator/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/skills_graph/skills/marketing-promote/influencer-brief-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9b9da41b67c3e12d62123ef5a168c154f7407d391e100a8edd6e6499bc28e8e7",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

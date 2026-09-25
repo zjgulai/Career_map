@@ -1,0 +1,22 @@
+{
+  "英文名称": "pdfkit-py",
+  "中文名称": "原生 PDF 处理工具",
+  "一句话作用": "Pure-Python PDF toolkit with 50 commands covering reading, editing, conversion, forms, encryption, OCR, and IR. Trigger on: PDF 阅读, 编辑, 转换, 合并, 拆分, 加密, 签名, OCR, 表单, 水印, 书签, 压缩, 裁剪, 旋转, pdfkit.",
+  "关键输入": "$ARGUMENTS 如果用户未提供具体参数，先问：需要处理哪个 PDF 文件？要做什么操作？",
+  "关键输出": "pdfkit.py extract text --input doc.pdf --format html --output /tmp/out.html",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要场景 说明 ------ ------ 批量处理流程 如批量加水印、批量压缩、批量转格式 多步骤组合 如先提取 → 处理 → 重新生成的 pipeline 业务定制 如发票批量解析、合同模板填充、报告自动生成 实验性功能 在内置命令基础上做定制化调整时，用它产出或更新：pdfkit.py extract text --input doc.pdf --format html --output /tmp/out.html",
+  "skill_id": "05458-pdfkit-py-7cce0510",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/document-skills/skills/pdfkit-py/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/document-skills/skills/pdfkit-py/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7489e9e4fd2f22814c5836810ce3f50674758c2aba07e5ce257462e005afc73d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

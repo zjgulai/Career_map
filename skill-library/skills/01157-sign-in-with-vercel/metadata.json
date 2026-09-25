@@ -1,0 +1,22 @@
+{
+  "英文名称": "sign-in-with-vercel",
+  "中文名称": "待补：sign-in-with-vercel",
+  "一句话作用": "Sign in with Vercel guidance — OAuth 2.0/OIDC identity provider for user authentication via Vercel accounts. Use when implementing user login with Vercel as the identity provider.",
+  "关键输入": "- Build tools/dashboards that need Vercel account identity - Grant users access to their own Vercel resources via your app - Developer-facing apps where users already have Vercel accounts",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Build tools/dashboards that need Vercel account identity - Grant users access to their own Vercel resources via your app - Developer-facing apps where users already have Vercel accounts时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01157-sign-in-with-vercel-93e6c2cc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/vercel/skills/sign-in-with-vercel/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/vercel/skills/sign-in-with-vercel/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7e2484055684e96d6c2f3b968939b32cad8e75c224189110ae09e4de7cb1fadf",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

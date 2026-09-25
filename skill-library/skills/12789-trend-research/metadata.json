@@ -1,0 +1,22 @@
+{
+  "英文名称": "trend-research",
+  "中文名称": "待补：trend-research",
+  "一句话作用": "Use when identifying cultural moments, audio trends, memes, or creator collaborations to inform social content.",
+  "关键输入": "1. Platform Signals – TikTok Creative Center, Instagram Reels Trends, X trending topics, Reddit threads. 2. Industry Signals – Gartner/Forrester briefings, customer communities, competitor feeds. 3. Audience Signals – social listening alerts, community polls,…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- Planning reactive or moment-based content. - Refreshing creative direction for campaigns that feel stale. - Arming leadership/content teams with timely POVs.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12789-trend-research-408d1d1e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/social-media/skills/trend-research/SKILL.md",
+  "relative_path": "lute/project/skills/social-media/skills/trend-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "46c35575baa9bb3ab5f516a0a785e103cc4a084f1914115f0a261474f1439b2d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

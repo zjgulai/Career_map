@@ -1,0 +1,22 @@
+{
+  "英文名称": "agentmail",
+  "中文名称": "待补：agentmail",
+  "一句话作用": "Email inbox for AI agents. Check messages, send emails, and communicate via your own @agentmail.to address.",
+  "关键输入": "- Account signups — Verify email for services - Notifications — Receive alerts from external systems - Professional communication — Send emails as your agent - Job alerts — Get notified of marketplace opportunities",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- Account signups — Verify email for services - Notifications — Receive alerts from external systems - Professional communication — Send emails as your agent - Job alerts — Get notified of marketplace opportunities时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05919-agentmail-c1997ff3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/agent-mail/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/agent-mail/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3537d981b8b11943111cd755b4bcd262f75272a62a58e65679d517896ce03408",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

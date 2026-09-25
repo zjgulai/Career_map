@@ -1,0 +1,22 @@
+{
+  "英文名称": "swift-expert",
+  "中文名称": "待补：swift-expert",
+  "一句话作用": "Expert in the Swift ecosystem, specializing in iOS/macOS/visionOS development, Swift 6 concurrency, and deep system integration.",
+  "关键输入": "- Building native iOS/macOS apps with SwiftUI and SwiftData - Migrating legacy Objective-C/UIKit code to modern Swift - Implementing advanced concurrency with Actors and structured Tasks - Optimizing performance (Instru…",
+  "关键输出": "Use case: Creating a custom DSL for configuring API requests. --- ---",
+  "最新更新时间": "2026-09-19T03:57:32+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Building native iOS/macOS apps with SwiftUI and SwiftData - Migrating legacy Objective-C/UIKit code to modern Swift - Implementing advanced concurrency with Actors and structured Tasks - Optimizing performance (Instru…时，用它产出或更新：Use case: Creating a custo…",
+  "skill_id": "05127-swift-expert-638f606f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/swift-expert/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/swift-expert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9167d87d9cfdc8b879ac8de54cd2bfc787bbc64efa84c5bbb7f1ab25a214b2fd",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

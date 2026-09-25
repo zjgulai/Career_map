@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-iia-substitution-pattern-analysis",
+  "中文名称": "替代模式分析 建立商品品类树竞争结构",
+  "一句话作用": "触发词：替代模式、品类树、促销蚕食、竞品冲击。何时不用：只做单品排序打分、不关心替代关系时用常规选品评分；无搜索会话与品类标签时无法估计。安全边界：仅使用内部搜索与购买数据，不采集竞品价格，会话数据需去标识化。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要选品负责人面临\"不知道新增一个竞品对现有产品的流量影响是按比例均匀分配还是有偏向\"——Nested Logit打破IIA假设将替代模式精准建模，选品决策误差降低35%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11266-p2s-iia-substitution-pattern-analysis-93b74dee",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-iia-substitution-pattern-analysis/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-iia-substitution-pattern-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "68019524e1fd85b3efa3607de6e4f2c4916f9d435324265cf5e3788b167cff6d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

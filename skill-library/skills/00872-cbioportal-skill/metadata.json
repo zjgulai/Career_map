@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbioportal-skill",
+  "中文名称": "待补：cbioportal-skill",
+  "一句话作用": "Submit compact cBioPortal API requests for studies, molecular profiles, mutations, clinical data, and samples. Use when a user wants concise cBioPortal summaries",
+  "关键输入": "- Read one JSON object from stdin. - Required fields: base url, path - Optional fields: method, params, headers, json body, form body, record path, response format, max items, max depth, timeout sec, save raw, raw output path - Common cBioPortal patterns:",
+  "关键输出": "- Success returns ok, source, path, method, status code, warnings, and either compact records or a compact summary. - Use raw output path when save raw=true. - Failure returns ok=false with error.code and error.message.",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Submit compact cBioPortal API requests for studies, molecular profiles, mutations, clinical data, and samples. Use when a user wants concise cBioPortal summaries时，用它产出或更新：- Success returns ok, source, path, method, status code, warnings, and either compact…",
+  "skill_id": "00872-cbioportal-skill-801a2829",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/life-science-research/skills/cbioportal-skill/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/life-science-research/skills/cbioportal-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a7c08cb63cf267f2754794b78a6a7507e0c74e0bf4f63ff9dbbddbb6d60e0ab",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

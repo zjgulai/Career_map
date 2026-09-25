@@ -1,0 +1,22 @@
+{
+  "英文名称": "ecommerce-financial-dashboard",
+  "中文名称": "待补：ecommerce-financial-dashboard",
+  "一句话作用": "Build integrated P&L, balance sheet, and cash flow dashboards with ecommerce-specific waterfalls and channel-level drill-downs.",
+  "关键输入": "- When preparing monthly financial reviews for leadership or a Board of Directors. - When you need to identify which sales channels (e.g., DTC vs. Amazon) are actually profitable after all allocated costs. - When reconc…",
+  "关键输出": "Returns often happen 15–30 days after the sale. - Nuance : To avoid overstating profit in high-volume months (like November), establish a \"Returns Reserve.\" Estimate the expected return rate (e.g., 5%) and deduct it from your monthly Gross Revenue as a provis…",
+  "最新更新时间": "2026-09-21T17:35:27+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- When preparing monthly financial reviews for leadership or a Board of Directors. - When you need to identify which sales channels (e.g., DTC vs. Amazon) are actually profitable after all allocated costs. - When reconc…时，用它产出或更新：Returns often happen 15–30…",
+  "skill_id": "00312-ecommerce-financial-dashboard-cd4941e7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/ecommerce-financial-dashboard/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/ecommerce-financial-dashboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "251e66ad50aa257a8f93fdbce38ed7e86a0bda94a807f0831f6cf05509a5f785",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

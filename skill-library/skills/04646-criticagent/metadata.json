@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-criticagent",
+  "中文名称": "待补：skill-criticagent",
+  "一句话作用": "Evaluate Agent Skills (SKILL.md directories) and answer \"is this skill any good / safe to install\" — spec compliance with security scanning, with/without behavior comparison, and description trigger testing, ending in a…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Evaluate Agent Skills (SKILL.md directories) and answer \"is this skill any good / safe to install\" — spec compliance with security scanning, with/without behavior comparison, and description trigger testing, ending in a…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04646-skill-criticagent-5d91d084",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/skill-criticagent/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/skill-criticagent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ab063cc612239eb95f41b4a76982344f4d569b906d47b0adb4f4b09daa3e1dec",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

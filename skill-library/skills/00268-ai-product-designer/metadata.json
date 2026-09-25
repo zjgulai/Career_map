@@ -1,0 +1,22 @@
+{
+  "英文名称": "ai-product-designer",
+  "中文名称": "待补：ai-product-designer",
+  "一句话作用": "Product development workflow with design image generation . 🚫 SKIP IF (research tasks, NOT design): - \"流行趋势\" / \"trend analysis\" / \"market trends\" - \"推荐产品\" / \"recommend products\" / \"产品属性\" - \"开发要素\" / \"how to develop\" (wit…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Product development workflow with design image generation . 🚫 SKIP IF (research tasks, NOT design): - \"流行趋势\" / \"trend analysis\" / \"market trends\" - \"推荐产品\" / \"recommend products\" / \"产品属性\" - \"开发要素\" / \"how to develop\" (wit…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00268-ai-product-designer-e125b9ac",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/ai-product-designer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/ai-product-designer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d1e1c5d41bf024bf5591d4ad69bfca2496c94f2d017cab0cb608e20dcbbcb2a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

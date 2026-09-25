@@ -1,0 +1,22 @@
+{
+  "英文名称": "superpowers-brainstorming",
+  "中文名称": "想法到设计",
+  "一句话作用": "Use before any creative work - creating features, building components, adding functionality, or modifying behavior - guides through exploration, questioning, design proposal, and spec documentation before any implementa…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:48:10+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Use before any creative work - creating features, building components, adding functionality, or modifying behavior - guides through exploration, questioning, design proposal, and spec documentation before any implementa…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05125-superpowers-brainstorming-9a0922d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/superpowers-brainstorming/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/superpowers-brainstorming/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b86e20735b1938059f520be5e204a49f26a2a999181e878d45e5c65ffed6ac7a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

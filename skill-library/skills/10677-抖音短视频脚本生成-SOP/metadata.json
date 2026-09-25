@@ -1,0 +1,22 @@
+{
+  "英文名称": "short-video-script",
+  "中文名称": "抖音短视频脚本生成 SOP",
+  "一句话作用": "生成抖音、TikTok、Reels等平台的短视频脚本，按照「3秒Hook → 冲突 → 反转 → CTA」黄金结构输出完整脚本，并附带逐镜分镜提示和精确时长控制。当用户直接说“帮我写一条抖音”、“策划一个短视频”、“写个带货视频文案”，或提及短视频脚本、视频文案、3秒hook、短视频分镜、口播脚本、带货脚本、种草视频、TikTok脚本等关键词时触发。",
+  "关键输入": "本 skill 不需要外部参数或 API Key。以下为可选的定制项： 配置项 默认值 说明 -------- -------- ------ 语言 中文 脚本输出语言 视频时长 30秒 支持 10-180 秒 口播语速 正常（4-5字/秒） 可选：快速/正常/慢速 分镜详细度 标准 标准（景别+画面描述）/ 详细（含运镜+灯光+收音） CTA 强度 适中 轻/适中/强（带货类建议\"强\"） ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:07+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要生成抖音、TikTok、Reels等平台的短视频脚本，按照「3秒Hook → 冲突 → 反转 → CTA」黄金结构输出完整脚本，并附带逐镜分镜提示和精确时长控制。当用户直接说“帮我写一条抖音”、“策划一个短视频”、“写个带货视频文案”，或提及短视频脚本、视频文案、3秒hook、短视频分镜、口播脚本、带货脚本、种草视频、TikTok脚本等关键词时触发。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10677-short-video-script-7265d410",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/short-video-script/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/short-video-script/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "de570a49b8baa8754d37aa721726a253e80f506cfb5d7020cfecc438c4314942",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

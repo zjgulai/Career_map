@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Mixed-Strategy-Pricing-Unpredictability",
+  "中文名称": "待补：Mixed Strategy Pricing Unpredictability",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 78.0, \"best\": 78.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:29:32.630927\"} {\"round\": 0, \"status\": \"patch nothing\", \"score\": 80.0, \"best\": 80.0, \"mutated\": \"none\", \"ts\": \"2026-…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T13:26:50+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 78.0, \"best\": 78.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:29:32.630927\"} {\"round\": 0, \"status\": \"patch nothing\", \"score\": 80.0, \"best\": 80.0, \"mutated\": \"none\", \"ts\": \"2026-…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07374-skill-mixed-strategy-pricing-unpredictability-fe2e29cc",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Mixed-Strategy-Pricing-Unpredictability.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Mixed-Strategy-Pricing-Unpredictability.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d73f0a8a1fd008b0a8e5d6cd1c7653471e4ed6a09d1fcf70b660249ff2434e44",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

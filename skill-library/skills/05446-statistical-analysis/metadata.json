@@ -1,0 +1,22 @@
+{
+  "英文名称": "statistical-analysis",
+  "中文名称": "待补：statistical-analysis",
+  "一句话作用": "Apply statistical methods including descriptive stats, trend analysis, outlier detection, and hypothesis testing. Use when analyzing distributions, testing for significance, detecting anomalies, computing correlations,…",
+  "关键输入": "Use hypothesis testing when you need to determine whether an observed difference is likely real or could be due to random chance. Common scenarios: - A/B test results: Is variant B actually better than A? - Before/after…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Use hypothesis testing when you need to determine whether an observed difference is likely real or could be due to random chance. Common scenarios: - A/B test results: Is variant B actually better than A? - Before/after…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05446-statistical-analysis-3a65351b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/data/skills/statistical-analysis/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/data/skills/statistical-analysis/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bc3ba97bd77717a9a2a9defcec4f3d1bdf6921d587306754396c9a6ba40e22c2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

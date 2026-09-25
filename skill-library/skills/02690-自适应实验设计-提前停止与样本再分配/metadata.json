@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-adaptive-experiment-design",
+  "中文名称": "自适应实验设计（提前停止与样本再分配）",
+  "一句话作用": "触发词：自适应实验、提前停止、样本再分配、序贯检验、中期分析。何时不用：平台不支持中期分析API、或只需固定周期结论时用固定样本量设计。安全边界：动态分配流量需确保对照组流量不低于20%（卡页合规要求）。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要实验平台工程师面临\"AB实验跑满30天才能停止造成大量错误配置暴露\"——自适应实验设计将实验周期缩短50%且假阳性率不增加，年化节省无效实验损失30-50万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02690-p2s-adaptive-experiment-design-00ace9d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-adaptive-experiment-design/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-adaptive-experiment-design/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "41bd2c4c409cb507d0d37b67a4d674ad3fff3277d310f9c73b4021624e666fd3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

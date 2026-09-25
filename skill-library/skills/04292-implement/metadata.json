@@ -1,0 +1,22 @@
+{
+  "英文名称": "implement",
+  "中文名称": "待补：implement",
+  "一句话作用": "Run the full implement-review-fix loop using implementer and reviewer personas. Supports effort-based multi-reviewer scaling (1-5 reviewers) with automatic specialization selection. Includes memory-based feedback loop t…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-16T12:09:44+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run the full implement-review-fix loop using implementer and reviewer personas. Supports effort-based multi-reviewer scaling (1-5 reviewers) with automatic specialization selection. Includes memory-based feedback loop t…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04292-implement-2f4b8d88",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.grok/bundled/skills/implement/SKILL.md",
+  "relative_path": "lute/.grok/bundled/skills/implement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "92d99a4183d9bc129d9b00f04e0fc866be5c45259a83f18b8d77f6825f7d6745",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

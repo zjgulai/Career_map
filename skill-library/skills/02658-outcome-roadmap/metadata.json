@@ -1,0 +1,22 @@
+{
+  "英文名称": "outcome-roadmap",
+  "中文名称": "待补：outcome-roadmap",
+  "一句话作用": "以要达成的业务成果而非功能清单来编排路线图，说明每个阶段的验证目标。触发词：成果导向路线图、outcome-roadmap、以要达成的业务成果而非功能清单来编排路线图，说明每个阶段的验证目标。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要以要达成的业务成果而非功能清单来编排路线图，说明每个阶段的验证目标。触发词：成果导向路线图、outcome-roadmap、以要达成的业务成果而非功能清单来编排路线图，说明每个阶段的验证目标。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02658-outcome-roadmap-9e0be5d7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/outcome-roadmap/SKILL.md",
+  "relative_path": "lute/.dsh/skills/outcome-roadmap/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f6f82ed4d4ba5ed00c94511c2aaf808648f2026dd325a1fcf673008343bbed93",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,36 @@
+---
+name: target-market-research
+description: Research broader demand, trends, keyword sets, shop benchmarks and rankings on the user's platform and country, including Alibaba.com, WB, Ozon, TikTok, Shopee or Google research. Small explicit Amazon data lookups use the orchestrator quick lane. Not a full Amazon approval decision or Listing-writing workflow.
+---
+# Target-market evidence
+
+1. Capture platform, country, requested period, metric and requested grain (keyword/product/category/shop). For JS/Amazon research, preserve the explicit/contextual market or default to US without asking; disclose the queried market and briefly offer other supported markets after the result. This default does not apply to an explicitly named non-Amazon platform. Read supplied catalogs or spreadsheets as candidate inputs, not as already measured demand.
+2. Resolve genuinely conflicting names such as "WB (Wish)" before platform-specific retrieval. Clear "WB Russia" does not default to Amazon US.
+3. Discover available tools through the host's actual tool/skill discovery interface. Read schemas before use; do not invent connector commands or install packages merely because a skill mentions them.
+4. Retrieve on the named platform first. Record source URL/tool, time, country, metric name/unit, product or keyword identity and coverage. Amazon evidence can supplement only a requested comparison; it cannot establish WB demand, TikTok engagement or Google search traffic.
+5. If given keywords with no traffic values, use them to obtain the requested platform's values if accessible. Preserve missing values as unknown. Do not sort the input file's qualitative tiers and call that a search-volume ranking.
+6. For rankings, sort only same-platform, same-period, same-unit values. Explicitly distinguish search index, estimated sales, actual orders, listing order and click counts. A recommendation block or default search order does not prove a click/sales ranking.
+7. Deliver a table: candidate, requested metric, value/unit, period, market, evidence, coverage status. State requested N, delivered N and remaining gaps. Separate country rows rather than relabelling one country's data as global.
+
+## Amazon keyword data and comparisons
+
+Small explicit Amazon keyword lookups/comparisons use the orchestrator's [quick lookup](../new-product-approval-orchestrator/references/quick-lookup.md), without loading this broader workflow first. This section covers larger keyword sets or research requiring multiple evidence sources. Listing copy belongs to `keyword-listing-builder`; a complete investment decision belongs to the approval orchestrator. Carry forward an established marketplace; if no Amazon market is specified, use US and disclose it rather than asking. Do not reinterpret a non-Amazon request.
+
+Use the actual tool schema already discovered for this task, or discover it once if absent. Consult [JS contract examples](../../references/js-contract-examples.md) for unknown shapes or errors; account-global market-intel Skills are not a substitute for this contract. In the bundled adapter, `js_keywords_by_keyword.search_terms` is one string: compare “electric dirt bike” and “electric motorcycles” with two separately identified calls, never a `search_terms` array. Do not add unsupported `sort` or `max_results` fields. If the live schema differs, follow that schema and record the discrepancy rather than forcing this snapshot.
+
+For two or more independent seeds, read [bounded independent collection](../new-product-approval-orchestrator/references/bounded_parallel.md) and use its helper or bounded native parallel calls after schema discovery. Preserve seed-specific results and missingness; a failed seed must not erase a successful one or be filled with the other seed's values. Sort only retrieved samples locally, label their coverage, and report the actual keyword metrics without turning this into unsolicited Listing production.
+
+## Missing target-platform evidence
+
+When a tool attempt fails, apply the shared [execution boundaries](../../references/execution-boundaries.md) within this task, without loading another Skill; when the host simply lacks the requested source or field, explain that boundary without inventing a fault. Preserve the original market and deliver the answerable part now. Do not claim exhaustive coverage after a capped page scan. For a request to show all sold/high-click products, expose unavailable click data and incomplete catalog coverage instead of inventing a proxy.
+
+Use a compact missing-evidence handoff, not a substitute-market report:
+- **What is unavailable:** name the platform, country, time window and metric/coverage that cannot be verified. Distinguish no supported source, inaccessible source, a failed call and a successful query with no matches. Do not call an empty result zero demand.
+- **What can be established now:** provide the verified rows or public observations, with sources and their limits. Current listing pages may establish assortment or displayed prices, not a historical sales trend. If nothing supports the requested conclusion, say no conclusion is supported; do not fill a ranking with guessed values.
+- **Next choices, low user effort first:** offer 2–3 feasible paths instead of ending with an upload request. First offer Agent-led research on the original platform through accessible sources or a useful narrower evidence/hypothesis comparison, stating what it can and cannot establish. Next, where relevant and not explicitly excluded, offer a separate Amazon analysis via an available Jungle Scout channel for the user to choose; it is not a substitute for WB evidence and must not start without that choice. Put optional user inputs last: an existing export/link/page excerpt with identifiers, comparable dates and the requested metric/unit, which the Agent will organize. Never ask the user to assemble a long dataset as the only path, promise an unregistered connector or request passwords. Adapt to actual capabilities and previous attempts using [response guidance](../../references/response-evidence-and-next-steps.md).
+- **Keep progress bounded:** finish available subtasks and identify the blocked conclusion. Do not end with only a promised background scrape, offer Amazon as the default fallback, or require the user to change platforms. A user-requested Amazon comparison remains a separate, labelled section and cannot fill the missing target-platform cells.
+
+Add source notes in the actual response near each table or key finding: provider/page, market, metric, returned period and coverage, with estimate/assumption labels. Cite a read page as read evidence and a search snippet only as a snippet. If a requested source returned no usable data, state that rather than merely displaying its provider name. Do not add a new research round just to format citations.
+
+For examples of platform-specific gaps and useful next inputs, read [references/missing-data-examples.md](references/missing-data-examples.md) when evidence is unavailable.
+Keep uncertain compliance requirements as verification items, never guarantees. Retain the existing no-Google-conclusion rule without independent Google evidence.

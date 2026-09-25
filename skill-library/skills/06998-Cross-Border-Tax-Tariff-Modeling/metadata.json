@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Cross-Border-Tax-Tariff-Modeling",
+  "中文名称": "待补：Cross Border Tax Tariff Modeling",
+  "一句话作用": "{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T04:55:54.358528\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:55:54+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": -1, \"status\": \"skip\", \"score\": 93.0, \"best\": 93.0, \"ts\": \"2026-07-04T04:55:54.358528\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06998-skill-cross-border-tax-tariff-modeling-1c0317b5",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Cross-Border-Tax-Tariff-Modeling.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Cross-Border-Tax-Tariff-Modeling.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "bb8b8d3326ad0202a82e68bf5bbb7febf9f3dce12cc0d909cecfb4c88f199167",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

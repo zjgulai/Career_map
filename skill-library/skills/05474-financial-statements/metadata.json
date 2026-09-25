@@ -1,0 +1,22 @@
+{
+  "英文名称": "financial-statements",
+  "中文名称": "待补：financial-statements",
+  "一句话作用": "Generate income statements, balance sheets, and cash flow statements with GAAP presentation and period-over-period comparison. Use when preparing financial statements, running flux analysis, or creating P&L reports with…",
+  "关键输入": "- Present all items of income and expense recognized in a period - Classify expenses either by nature (materials, labor, depreciation) or by function (COGS, R&D, S&M, G&A) — function is more common for US companies - If classified by function, disclose deprec…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate income statements, balance sheets, and cash flow statements with GAAP presentation and period-over-period comparison. Use when preparing financial statements, running flux analysis, or creating P&L reports with…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05474-financial-statements-52e8c3bf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/financial-statements/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/finance/skills/financial-statements/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "430a41aeec6d283987058290394681e4563a8f472679a0a665fc614afe5f7d19",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-lead-time-distribution-risk-genqot",
+  "中文名称": "提前期分布建模 - 动态安全库存防海运延误",
+  "一句话作用": "触发词：提前期分布建模、海运延误预警、分位数安全库存、在途异常、动态安全库存。何时不用：前置期稳定、只算常规安全库存时用「安全库存与补货策略」；要按 P95 与承诺期之比自动触发上调时走「前置期安全库存自动调整」。安全边界：预警后的提前下单须人工复核，防止假阳性造成过度备货。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要物流经理面临海运时效波动——风险分布建模将晚到率从18%降至6%，年化避损20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03310-p2s-lead-time-distribution-risk-genqot-c02e6a12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-lead-time-distribution-risk-genqot/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-lead-time-distribution-risk-genqot/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "76ede16fbef7d5c35d3ea9771f4babd3992d40b221d33fc23c32e11f195560e8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

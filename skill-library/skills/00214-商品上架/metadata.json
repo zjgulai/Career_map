@@ -1,0 +1,22 @@
+{
+  "英文名称": "excel-product-publish",
+  "中文名称": "商品上架",
+  "一句话作用": "根据已填写的商品上架素材包或商品信息 Excel，编排多平台、多店铺的商品发品任务。用于商品上架、批量商品上架、批量录入商品或创建商品发品任务；仅生成模板时使用 product-package-template，仅准备或校验数据时使用 excel-product-data。最终结果以商品发品成功或商品发品未成功为准。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "本次运行只允许在 中产生以下业务产物： 最终回复必须： - 遵循 商品上架状态报告模板 的字段来源、任务筛选、状态规则和生成前校验。报告格式采用中等自由度，可调整标题、措辞、段落顺序或合并重复内容，但不得省略关键信息或改变计数、成功条件和发品结果边界。 - 最终报告必须直接以 Markdown 输出并遵循模板。 - 只汇报 savedComplete + unknown 0 的平台-店铺任务；已尝试为 0 的任务及其商品不进入报告。",
+  "最新更新时间": "2026-09-21T12:36:51+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要根据已填写的商品上架素材包或商品信息 Excel，编排多平台、多店铺的商品发品任务。用于商品上架、批量商品上架、批量录入商品或创建商品发品任务；仅生成模板时使用 product-package-template，仅准备或校验数据时使用 excel-product-data。最终结果以商品发品成功或商品发品未成功为准。时，用它产出或更新：本次运行只允许在 中产生以下业务产物： 最终回复必须： - 遵循 商品上架状态报告模板 的字段来源、任务筛选、状态规则和生成前校验。报告格式采用中等自由度，可调整标题、措辞、…",
+  "skill_id": "00214-excel-product-publish-065f5399",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/excel-product-publish/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/ecommerce-automation-toolkit/skills/excel-product-publish/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d6fcbb1efdcb7de10dead19b6d915a541af6643d44b7ca34a856da7d6246bc7",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

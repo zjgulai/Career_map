@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-market-content-localization",
+  "中文名称": "文化感知内容本地化 跨市场文化风险识别与自动替换",
+  "一句话作用": "触发词：文化风险审查、上架前合规、文化知识图谱、风险词替换、节日营销本地化、市场语境审查。何时不用：只做文案风格层面的文化维度适配用「跨文化内容自动适配」；只做跨语言关键词匹配用「跨文化营销适配」；只做语言翻译不做文化重写用「多语言 Listing 生成」。安全边界：只能给出风险识别与替换建议，不替代目标国法律意见；needs human review 为真时必须人工复核后才可上架。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要出海运营面临\"进入新市场内容文化风险词不知道有哪些导致差评\"——文化知识图谱LLM风险检测将上架前文化误区发现率提升至98%，避免封号损失时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12278-p2s-cross-market-content-localization-92e80a10",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-market-content-localization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-cross-market-content-localization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "176ae88aaf6cdd48e1b05589f5b42eba8279cdeb8127f277ef6f388768a8c667",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

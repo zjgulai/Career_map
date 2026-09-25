@@ -1,0 +1,22 @@
+{
+  "英文名称": "dr-jskill",
+  "中文名称": "待补：dr-jskill",
+  "一句话作用": "Creates Java + Spring Boot projects: Web applications, full-stack apps with Vue.js or Angular or React or vanilla JS, PostgreSQL, REST APIs, and Docker. Use when creating Spring Boot projects, setting up Java microservi…",
+  "关键输入": "1. Java 25 installed 2. Node.js 22.x and NPM 10.x (for front-end development) 3. Docker installed and running",
+  "关键输出": "What Command --- ------ --------- 1 Build backend ./mvnw clean install 2 Unit tests ./mvnw test 3 Integration tests ./mvnw verify (uses Testcontainers 2 + @ServiceConnection) 4 Front-end dev server cd frontend && npm run dev",
+  "最新更新时间": "2026-09-19T03:57:40+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Creates Java + Spring Boot projects: Web applications, full-stack apps with Vue.js or Angular or React or vanilla JS, PostgreSQL, REST APIs, and Docker. Use when creating Spring Boot projects, setting up Java microservi…时，用它产出或更新：What Command --- ------ --…",
+  "skill_id": "04841-dr-jskill-ac666eef",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/dr-jskill/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/dr-jskill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ff1b115b57a42ada7b9e37e34eea0bdf173d10606957d368787b29a43a72acab",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

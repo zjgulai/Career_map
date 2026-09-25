@@ -1,0 +1,22 @@
+{
+  "英文名称": "posthog",
+  "中文名称": "待补：posthog",
+  "一句话作用": "Analyze product data and manage product tooling in PostHog. Use when the user wants product analytics or insights, HogQL/SQL queries, feature flags, experiments and A/B tests, error tracking, session replay, surveys, LL…",
+  "关键输入": "- The PostHog app must be connected and accessible via OAuth. - Confirm which PostHog organization and project the request targets before reading or writing. - Self-hosted users connect against their own instance during the app's OAuth flow.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Tools missing : re-run the app connection/OAuth flow (Step 0); verify org/project access. - Empty or surprising results : re-check event/property names, date range, filters, and timezone; confirm the events exist via…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00970-posthog-5170c96e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/posthog/skills/posthog/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/posthog/skills/posthog/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a0b17693e926fd8ff090e87c2483e28016546863b1e2aa54e46a345f2719b29a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

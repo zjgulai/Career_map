@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-payment-security-red-team",
+  "中文名称": "支付协议安全红队：Branded攻击",
+  "一句话作用": "触发词：支付协议安全、提示注入、商品描述投毒、排名操控、红队检测。何时不用：Agent 不读取外部可控内容时没有这一攻击面；本技能面向会消费第三方文本的 Agent。安全边界：红队载荷只能在自有或已授权环境生成与投放，不得对第三方系统投放攻击载荷。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要WF-D 选品扫描工作流中，AI 导购 Agent 根据母婴产品描述为用户推荐商品时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11889-p2s-agent-payment-security-red-team-f3b0fa2f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-payment-security-red-team/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-agent-payment-security-red-team/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a24733a783e41e12eb4137c48f77f76661f4910a504333006d6f99c7a5267a2d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

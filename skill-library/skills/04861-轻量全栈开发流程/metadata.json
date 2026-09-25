@@ -1,0 +1,22 @@
+{
+  "英文名称": "fastapi-vue-fullstack-dev",
+  "中文名称": "轻量全栈开发流程",
+  "一句话作用": "轻量全栈项目标准化开发流程，覆盖 FastAPI 后端、Vue3 CDN 前端、SQLite/Alembic 数据库、Docker 容器化与生产部署的完整链路（需求分析→架构设计→编码→安全加固→测试→部署上线）。当用户要新建或迭代 FastAPI/Vue3/SQLite 技术栈的 Web 项目、设计数据库迁移、编写部署脚本、做安全加固或生产发布时使用。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:13+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要轻量全栈项目标准化开发流程，覆盖 FastAPI 后端、Vue3 CDN 前端、SQLite/Alembic 数据库、Docker 容器化与生产部署的完整链路（需求分析→架构设计→编码→安全加固→测试→部署上线）。当用户要新建或迭代 FastAPI/Vue3/SQLite 技术栈的 Web 项目、设计数据库迁移、编写部署脚本、做安全加固或生产发布时使用。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04861-fastapi-vue-fullstack-dev-6608dd2a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/fastapi-vue-fullstack-dev/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/fastapi-vue-fullstack-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ad78e7390bb8b70538df394cd1e65e39db281b74536c3a53ada4c4f5cca9e10e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

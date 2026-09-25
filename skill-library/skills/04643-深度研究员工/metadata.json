@@ -1,0 +1,22 @@
+{
+  "英文名称": "sci-employee-deep-research",
+  "中文名称": "深度研究员工",
+  "一句话作用": "调用或模拟 Deep Research 流程，把论文检索、关键词拆解、候选证据和最终 answer 组织成可核验研究报告。适用于赛题讲解、开题调研、方案依据整理。",
+  "关键输入": "- 研究问题。 - 已有候选论文或允许调用的检索接口。 - 页码、每页数量、是否返回原始检索结果。 - 需要的输出形态：报告、PPT 依据、赛题讲法、实操路线。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:39:05+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要调用或模拟 Deep Research 流程，把论文检索、关键词拆解、候选证据和最终 answer 组织成可核验研究报告。适用于赛题讲解、开题调研、方案依据整理。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04643-sci-employee-deep-research-f50b1570",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/sci-employee-deep-research/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/research-copilot/1.0.0/skills/sci-employee-deep-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "46bacaaa126975422bcff343fc1fb893d566805a4eb697c384092af3a8d7ef10",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-lmm-searcher-multimodal-context",
+  "中文名称": "长链多模态 Agent：UID 占位符按需加载图片",
+  "一句话作用": "触发词：多模态上下文、图片按需加载、占位符注册、长链搜索、token瘦身。何时不用：会话里只有一两张图时直接内联更快；纯文本检索场景用文本检索技能。安全边界：图片存外部注册中心时须设访问控制与过期清理，避免业务图片被长期暴露为公开地址。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营分析师面临图文资料检索低效——LMM Searcher将检索命中率58%提到86%，年化省13万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12027-p2s-lmm-searcher-multimodal-context-0b261cc5",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-lmm-searcher-multimodal-context/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-lmm-searcher-multimodal-context/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "289e3bb3895199a967b10373c1733b58bd5430d97d83236d7d4f80331bd0006e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

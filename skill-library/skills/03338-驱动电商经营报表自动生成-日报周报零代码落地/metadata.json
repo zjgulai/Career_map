@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-ecommerce-report-automation",
+  "中文名称": "驱动电商经营报表自动生成 日报周报零代码落地",
+  "一句话作用": "触发词：日报周报、报表自动化、飞书推送、异常标注、行动建议。何时不用：需要假设与验证式推理分析用「LLM 商业智能推理」；要做目标达成与差异分解用「生意规模三维 KPI 监控」。安全边界：报告中的数字必须由代码计算并做一致性校验，LLM 不得凭空生成或改写数字。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"每天手动整理销售数据制作日报耗时2-3小时\"——LLM自动报告生成将日报制作时间从150分钟压缩至5分钟，年化节省运营人力成本15-25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03338-p2s-llm-ecommerce-report-automation-faf4ef25",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-ecommerce-report-automation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-ecommerce-report-automation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e439240e3dc78edbe1808efee3973e7902e413e52950258e1813023958e7292e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

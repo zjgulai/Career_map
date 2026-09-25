@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-conformal-ts-intervals",
+  "中文名称": "时序 Conformal 预测区间）",
+  "一句话作用": "触发词：共形时序区间、区间收紧、安全库存优化、库存周转、季节性分层。何时不用：需要框架级校准集设计用「共形预测区间框架」，需要把区间翻成补货与加急规则用「共形时序预测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要传统正态假设需求预测区间过宽（±25%），导致安全库存过度备货——Conformal 预测在无分布假设下输出紧致 90% 覆盖区间，减少过度备货成本 500 元/月/SKU时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11350-p2s-conformal-ts-intervals-d0e6e087",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-conformal-ts-intervals/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-conformal-ts-intervals/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d618bd65353e560f9238fd56978d42e33366a6d9ff3652120800ce2348b1021",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

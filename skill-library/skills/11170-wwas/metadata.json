@@ -1,0 +1,22 @@
+{
+  "英文名称": "wwas",
+  "中文名称": "待补：wwas",
+  "一句话作用": "Create product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA f…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Complete set of backlog items for the feature - Each item includes Why, What, and Acceptance Criteria sections - Items are independent and deliverable in any order - Items are sized for estimation and completion in one sprint - Strategic context is clear fo…",
+  "最新更新时间": "2026-09-16T00:17:07+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Create product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA f…时，用它产出或更新：- Complete set of backlog…",
+  "skill_id": "11170-wwas-d6c92038",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/wwas/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/third-party/phuryn__pm-skills/pm-execution/skills/wwas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7fad2bed16046679a9eb2941573f978c692db425e5e5b7a7c31a8be2e4dd10a4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

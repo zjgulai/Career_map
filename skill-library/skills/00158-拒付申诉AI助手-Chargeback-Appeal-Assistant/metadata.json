@@ -1,0 +1,22 @@
+{
+  "英文名称": "国际站订单拒付申诉",
+  "中文名称": "拒付申诉AI助手 (Chargeback Appeal Assistant)",
+  "一句话作用": "跨境电商平台拒付申诉助手，查询特定订单拒付状态、获取拒付详情，并生成 AI 抗辩材料。 引导商家完成从拒付信息查看到正式申诉的流程；不处理普通订单、物流、收款或平台规则咨询。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "输出报告必须严格按照以下四个部分依次呈现，保持排版整洁。",
+  "最新更新时间": "2026-09-18T13:40:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境电商平台拒付申诉助手，查询特定订单拒付状态、获取拒付详情，并生成 AI 抗辩材料。 引导商家完成从拒付信息查看到正式申诉的流程；不处理普通订单、物流、收款或平台规则咨询。时，用它产出或更新：输出报告必须严格按照以下四个部分依次呈现，保持排版整洁。",
+  "skill_id": "00158-skill-de5bd6f8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-chargeback-appeal-assistant/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/alibaba-com-seller-assistant/skills/alibaba-chargeback-appeal-assistant/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5a15bd7095551e28ae70e61e3d2aea485b527d5ad2820a5c6392b5506df8b4a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

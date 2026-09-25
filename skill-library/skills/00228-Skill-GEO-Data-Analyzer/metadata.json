@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill: GEO Data Analyzer",
+  "中文名称": "待补：Skill: GEO Data Analyzer",
+  "一句话作用": "Metric Source field Definition --- --- --- Mention Rate answer text Brand name appears in AI answer text Citation Rate citations[].url domain Brand's own domain cited as a source ~~Link Rate~~ ~~links attached~~ Depreca…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T12:02:26+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Metric Source field Definition --- --- --- Mention Rate answer text Brand name appears in AI answer text Citation Rate citations[].url domain Brand's own domain cited as a source ~~Link Rate~~ ~~links attached~~ Depreca…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00228-skill-geo-data-analyzer-4e312a12",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-analyzer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/geo-agent/skills/geo-analyzer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a59a4777c8dfc62944181d0febdf15ecbe21e83285ee8ab732661f605a478606",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

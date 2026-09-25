@@ -1,0 +1,22 @@
+{
+  "英文名称": "product-selection",
+  "中文名称": "待补：product-selection",
+  "一句话作用": "Product selection and procurement planning for buyers who need to decide what category, product, style, SKU mix, equipment, or solution route to procure. Use for resale-profit questions such as what to sell, best seller…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-20T21:35:21+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Product selection and procurement planning for buyers who need to decide what category, product, style, SKU mix, equipment, or solution route to procure. Use for resale-profit questions such as what to sell, best seller…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00098-product-selection-de9b2892",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/product-selection/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/accio-com-buyer-assistant/skills/product-selection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e46aa6468f49e9535ff69993338a4d277968341ceb13b3644cfe45b6d2500d3",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,686 @@
+{
+  "protocol_id": "B01-BLIND-01",
+  "label_state": "待独立复核并锁定",
+  "access_boundary": "文件层级没有技术隔离；独立性依赖交接时由未参与本轮实现与标注的人限制访问、复核并记录。未生成 gold_label_lock.json 前，本金标不得用于正式评分。",
+  "thresholds": {
+    "d01_exact_match": 0.9,
+    "d02_semantic_exact_match": 0.9,
+    "d02_rule_boundary": 1.0
+  },
+  "d01": [
+    {
+      "record_id": "BR001",
+      "expected_tuples": [
+        [
+          "噪音",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR002",
+      "expected_tuples": [
+        [
+          "噪音",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR003",
+      "expected_tuples": [
+        [
+          "噪音",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR004",
+      "expected_tuples": [
+        [
+          "噪音",
+          "positive"
+        ],
+        [
+          "吸力",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR005",
+      "expected_tuples": [
+        [
+          "吸力",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR006",
+      "expected_tuples": [
+        [
+          "吸力",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR007",
+      "expected_tuples": [
+        [
+          "吸力",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR008",
+      "expected_tuples": [
+        [
+          "吸力",
+          "positive"
+        ],
+        [
+          "充电",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR009",
+      "expected_tuples": [
+        [
+          "充电",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR010",
+      "expected_tuples": [
+        [
+          "充电",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR011",
+      "expected_tuples": [
+        [
+          "充电",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR012",
+      "expected_tuples": [
+        [
+          "充电",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR013",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR014",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR015",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR016",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "positive"
+        ],
+        [
+          "舒适度",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR017",
+      "expected_tuples": [
+        [
+          "舒适度",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR018",
+      "expected_tuples": [
+        [
+          "舒适度",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR019",
+      "expected_tuples": [
+        [
+          "舒适度",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR020",
+      "expected_tuples": [
+        [
+          "舒适度",
+          "positive"
+        ],
+        [
+          "噪音",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR021",
+      "expected_tuples": [
+        [
+          "易用性",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR022",
+      "expected_tuples": [
+        [
+          "易用性",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR023",
+      "expected_tuples": [
+        [
+          "易用性",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR024",
+      "expected_tuples": [
+        [
+          "易用性",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR025",
+      "expected_tuples": [
+        [
+          "价格",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR026",
+      "expected_tuples": [
+        [
+          "价格",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR027",
+      "expected_tuples": [
+        [
+          "价格",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR028",
+      "expected_tuples": [
+        [
+          "价格",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR029",
+      "expected_tuples": [
+        [
+          "客服",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR030",
+      "expected_tuples": [
+        [
+          "客服",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR031",
+      "expected_tuples": [
+        [
+          "客服",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR032",
+      "expected_tuples": [
+        [
+          "客服",
+          "positive"
+        ],
+        [
+          "物流",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR033",
+      "expected_tuples": [
+        [
+          "物流",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR034",
+      "expected_tuples": [
+        [
+          "物流",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR035",
+      "expected_tuples": [
+        [
+          "物流",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR036",
+      "expected_tuples": [
+        [
+          "物流",
+          "positive"
+        ],
+        [
+          "客服",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR037",
+      "expected_tuples": []
+    },
+    {
+      "record_id": "BR038",
+      "expected_tuples": []
+    },
+    {
+      "record_id": "BR039",
+      "expected_tuples": []
+    },
+    {
+      "record_id": "BR040",
+      "expected_tuples": []
+    },
+    {
+      "record_id": "BR041",
+      "expected_tuples": []
+    },
+    {
+      "record_id": "BR042",
+      "expected_tuples": []
+    },
+    {
+      "record_id": "BR043",
+      "expected_tuples": []
+    },
+    {
+      "record_id": "BR044",
+      "expected_tuples": []
+    },
+    {
+      "record_id": "BR045",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "positive"
+        ],
+        [
+          "充电",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR046",
+      "expected_tuples": [
+        [
+          "噪音",
+          "positive"
+        ],
+        [
+          "价格",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR047",
+      "expected_tuples": [
+        [
+          "噪音",
+          "positive"
+        ],
+        [
+          "易用性",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "record_id": "BR048",
+      "expected_tuples": [
+        [
+          "尺寸重量",
+          "positive"
+        ],
+        [
+          "吸力",
+          "negative"
+        ]
+      ]
+    }
+  ],
+  "d02": [
+    {
+      "record_id": "BQ001",
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ002",
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ003",
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ004",
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ005",
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ006",
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ007",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": true
+    },
+    {
+      "record_id": "BQ008",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ009",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": true
+    },
+    {
+      "record_id": "BQ010",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": true
+    },
+    {
+      "record_id": "BQ011",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ012",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": true
+    },
+    {
+      "record_id": "BQ013",
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ014",
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ015",
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ016",
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ017",
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ018",
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ019",
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ020",
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ021",
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ022",
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ023",
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ024",
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ025",
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ026",
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ027",
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ028",
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ029",
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ030",
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ031",
+      "expected_intent": "comparison",
+      "expected_sentiment": "positive_expectation",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ032",
+      "expected_intent": "functional",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ033",
+      "expected_intent": "navigational",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ034",
+      "expected_intent": "attribute",
+      "expected_sentiment": "neutral",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ035",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": true
+    },
+    {
+      "record_id": "BQ036",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ037",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": true
+    },
+    {
+      "record_id": "BQ038",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": false
+    },
+    {
+      "record_id": "BQ039",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": true
+    },
+    {
+      "record_id": "BQ040",
+      "expected_intent": "problem_solving",
+      "expected_sentiment": "negative_pain",
+      "expected_rule_hit": false
+    }
+  ]
+}

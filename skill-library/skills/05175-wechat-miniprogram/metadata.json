@@ -1,0 +1,22 @@
+{
+  "英文名称": "wechat-miniprogram",
+  "中文名称": "待补：wechat-miniprogram",
+  "一句话作用": "WeChat Mini Program (微信小程序) development framework. Use when building WeChat mini apps with WXML templates, WXSS styles, WXS scripting, component development, WeChat API integration, cloud development (云开发), and Mini Pro…",
+  "关键输入": "This skill should be triggered when: - Developing WeChat Mini Programs (微信小程序) - Working with WXML, WXSS, or WXS - Using WeChat Mini Program APIs - Building WeChat components - Implementing WeChat open capabilities (开放能…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:31+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be triggered when: - Developing WeChat Mini Programs (微信小程序) - Working with WXML, WXSS, or WXS - Using WeChat Mini Program APIs - Building WeChat components - Implementing WeChat open capabilities (开放能…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05175-wechat-miniprogram-07ba34c6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/wechat-miniprogram/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/wechat-miniprogram/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b86ad44638a22465c9678dfc663df36ce0d6db01f23a3cf9fb02ddd6405dc8b8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

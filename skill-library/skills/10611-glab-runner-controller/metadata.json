@@ -1,0 +1,22 @@
+{
+  "英文名称": "glab-runner-controller",
+  "中文名称": "待补：glab-runner-controller",
+  "一句话作用": "管理 GitLab Runner 控制器和认证令牌。创建、更新、删除控制器；生成、轮换和撤销令牌。仅管理员可用的实验性功能，用于管理 Runner 控制器的生命周期。触发词：runner controller、控制器令牌、实验性 runner、管理员 runner。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "glab runner-controller list --output json",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要管理 GitLab Runner 控制器和认证令牌。创建、更新、删除控制器；生成、轮换和撤销令牌。仅管理员可用的实验性功能，用于管理 Runner 控制器的生命周期。触发词：runner controller、控制器令牌、实验性 runner、管理员 runner。时，用它产出或更新：glab runner-controller list --output json",
+  "skill_id": "10611-glab-runner-controller-9d78e413",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-runner-controller/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/glab-runner-controller/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "58cbdfc3b5c43c95f7488181d063904fa7861d83a6703247915a997276add436",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

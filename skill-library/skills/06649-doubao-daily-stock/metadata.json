@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-daily-stock",
+  "中文名称": "待补：doubao-daily-stock",
+  "一句话作用": "用于单一上市股票的个股日报，解释涨跌和异动原因，梳理行情、资金流、新闻公告、板块联动、技术面、预期与风险。适用于“某股今天为什么涨跌”“做个日报”“近期表现”“资金面和消息面”等问题；默认先输出结构完整、观点深入的对话版分析，并询问是否写入飞书文档；不用于长期商业模式/护城河、财报业绩、行业/板块、多股主题、一级市场或大盘事件解读。",
+  "关键输入": "本 skill 用于单一上市股票或二级市场公司的当日/近期个股日报，重点分析行情表现、涨跌原因、资金变化、新闻公告、板块联动、技术面、预期与风险。 适用于用户询问“某股今天为什么涨跌”“做个日报”“近期表现如何”“资金面和消息面怎么样”“生成飞书文档版完整报告”等场景。核心判断标准是：单一公司 + 短期动态 / 行情复盘。 不用于长期商业模式/护城河、财报业绩深度分析、行业研究、板块热度、多股主题、一级市场或大盘事件解读；遇到这些问题…",
+  "关键输出": "- 完成数据获取和分析后，默认先输出对话版完整日报，不直接生成飞书文档版完整报告。 - 完成取数/搜索与内部数据核验记录后、生成完整 Markdown 内容底稿前，必须读取 references/content-rules.md；不得在取数前提前读取该文件。 - 完整 Markdown 内容底稿必须先独立完成；底稿完成后、输出聊天渲染结果前，再读取 references/dialogue-style.md，只做展示层调优和展示检查。",
+  "最新更新时间": "2026-09-16T11:25:00+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要本 skill 用于单一上市股票或二级市场公司的当日/近期个股日报，重点分析行情表现、涨跌原因、资金变化、新闻公告、板块联动、技术面、预期与风险。 适用于用户询问“某股今天为什么涨跌”“做个日报”“近期表现如何”“资金面和消息面怎么样”“生成飞书文档版完整报告”等场景。核心判断标准是：单一公司 + 短期动态 / 行情复盘。 不用于长期商业模式/护城河、财报业绩深度分析、行业研究、板块热度、多股主题、一级市场或大盘事件解读；遇到这些问题…时，用它产出或更新：- 完成数据获取和分析后，默认先输出对话版完整日报，…",
+  "skill_id": "06649-doubao-daily-stock-ba06a774",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-daily-stock/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-daily-stock/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "362306cf3277e810bfde3c6a30f4b7e530142bbccb33e451d03edd4c586c677d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

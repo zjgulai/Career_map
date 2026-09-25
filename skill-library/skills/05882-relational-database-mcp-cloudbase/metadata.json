@@ -1,0 +1,22 @@
+{
+  "英文名称": "relational-database-mcp-cloudbase",
+  "中文名称": "待补：relational-database-mcp-cloudbase",
+  "一句话作用": "This is the required documentation for agents operating on the CloudBase Relational Database. It lists the only four supported tools for running SQL and managing security rules. Read the full content to understand why y…",
+  "关键输入": "Use this skill when an agent needs to operate on CloudBase Relational Database via MCP tools , for example: - Inspecting or querying data in tables - Modifying data or schema (INSERT/UPDATE/DELETE/DDL) - Reading or chan…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要Use this skill when an agent needs to operate on CloudBase Relational Database via MCP tools , for example: - Inspecting or querying data in tables - Modifying data or schema (INSERT/UPDATE/DELETE/DDL) - Reading or chan…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05882-relational-database-mcp-cloudbase-469ed14e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/relational-database-tool/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/cloudbase/skills/cloudbase/references/relational-database-tool/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1de9c7516b38ea97992ed5b40a2cb0203a6e61751d0d21c0ae6961553dcd68c9",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

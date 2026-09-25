@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-webhook-architecture",
+  "中文名称": "待补：twilio-webhook-architecture",
+  "一句话作用": "Design, secure, and operate Twilio webhook endpoints. Covers inbound event handling, status callbacks, signature validation, connection overrides for retry and timeout tuning, local development tunneling, and production…",
+  "关键输入": "- Twilio account with a phone number or service configured with a webhook URL -- New to Twilio? See twilio-account-setup - TWILIO ACCOUNT SID and TWILIO AUTH TOKEN -- see twilio-iam-auth-setup - SDK: pip install twilio flask / npm install twilio express",
+  "关键输出": "Twilio signs every webhook with an X-Twilio-Signature header (HMAC-SHA1 using your Auth Token). Always validate before processing. Form-encoded requests (application/x-www-form-urlencoded): Pass the full URL and POST body parameters to the validator. Python",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Design, secure, and operate Twilio webhook endpoints. Covers inbound event handling, status callbacks, signature validation, connection overrides for retry and timeout tuning, local development tunneling, and production…时，用它产出或更新：Twilio signs every webhook…",
+  "skill_id": "01118-twilio-webhook-architecture-03e88f40",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-webhook-architecture/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-webhook-architecture/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "82147ea632fe53d3fb674d374dd88ed117b0c978db96341bbdba70013d2b4999",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

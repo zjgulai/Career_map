@@ -1,0 +1,22 @@
+{
+  "英文名称": "email-automation-flow-builder",
+  "中文名称": "待补：email-automation-flow-builder",
+  "一句话作用": "- Build automated email sequences for welcome, post-purchase, browse abandonment, and win-back to maximize customer lifetime value. 【需Klaviyo】",
+  "关键输入": "- When a store has high traffic but low conversion (Browse Abandonment). - When the \"One-Time Buyer\" rate is over 70% (Post-Purchase & Win-back). - When manual email campaigns take too much team time for low return. - W…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T15:30:52+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- When a store has high traffic but low conversion (Browse Abandonment). - When the \"One-Time Buyer\" rate is over 70% (Post-Purchase & Win-back). - When manual email campaigns take too much team time for low return. - W…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "11002-email-automation-flow-builder-c8add001",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-ddc7a3f1/packages/capabilities/dsh-overseas-skills/backup/pre-81/email-automation-flow-builder/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/.qoder/worktrees/agent-general-purpose-ddc7a3f1/packages/capabilities/dsh-overseas-skills/backup/pre-81/email-automation-flow-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "69add3b7012eef97b8284486d64fed8854d1975d0f29d700df9ab0ff54011031",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

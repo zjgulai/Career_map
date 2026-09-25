@@ -1,0 +1,22 @@
+{
+  "英文名称": "modern-java",
+  "中文名称": "待补：modern-java",
+  "一句话作用": "Transforms legacy Java code to modern idioms. Use when migrating Java versions, converting verbose POJOs/DTOs to records, platform threads to virtual threads, for-loops to streams, anonymous classes to lambdas, or when…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:48:27+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Transforms legacy Java code to modern idioms. Use when migrating Java versions, converting verbose POJOs/DTOs to records, platform threads to virtual threads, for-loops to streams, anonymous classes to lambdas, or when…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04972-modern-java-b3d01b24",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/modern-java/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/modern-java/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c8c8b638848db6efe12dd1e29df5d81fa79ec18a8bc3537fb692b90230a2fca",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

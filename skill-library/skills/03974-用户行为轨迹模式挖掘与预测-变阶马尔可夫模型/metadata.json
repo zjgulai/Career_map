@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-trajectory-pattern-mining",
+  "中文名称": "用户行为轨迹模式挖掘与预测 - 变阶马尔可夫模型",
+  "一句话作用": "触发词：用户轨迹挖掘、页面路径桑基图、页面转移概率、下一步页面预测、典型轨迹聚类、频繁子序列。何时不用：只想知道漏斗各步转化率与流失人数用「User-Funnel-Analysis」；只在搜索链路上拆归因用「Search-Funnel-Attribution」；本技能只做路径聚类、频繁子轨迹与变阶马尔可夫预测。安全边界：会话与用户标识须脱敏后再建模，输出仅用于站点体验诊断，不得用于识别或画像具体个人。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要母婴电商需要桑基图展示用户从首页→搜索→PDP→加购→支付的流量宽度时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03974-p2s-trajectory-pattern-mining-ee80a32c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-trajectory-pattern-mining/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-trajectory-pattern-mining/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c095d8efc32a558eb008b0fe75e5626040eb60e711833f016fb5722153cacebe",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

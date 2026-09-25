@@ -1,0 +1,22 @@
+{
+  "英文名称": "bi-prompt-engineering",
+  "中文名称": "数据分析提示词工程",
+  "一句话作用": "BI 数据分析提示词工程 SOP：将真实接口数据（JSON/CSV）与现有提示词做字段核对、矛盾诊断、计算鲁棒性加固，最终输出面向 DeepSeek-V3/V4-Pro 的高准确率分析提示词。核心输出物：字段映射表、边界场景清单、逐步计算规则、CoT 自我核查模板、标准答案锚定表。适用场景：「提示词准确率低」「AI 算错数」「字段读不到」「毛利率/达成率/环比算错」「BI 报告数值不一致」「新接口接入提示词适配」。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "用 SYSTEM PROMPT 强制隔离推理过程与输出结果： ---",
+  "最新更新时间": "2026-06-05T18:14:59+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要BI 数据分析提示词工程 SOP：将真实接口数据（JSON/CSV）与现有提示词做字段核对、矛盾诊断、计算鲁棒性加固，最终输出面向 DeepSeek-V3/V4-Pro 的高准确率分析提示词。核心输出物：字段映射表、边界场景清单、逐步计算规则、CoT 自我核查模板、标准答案锚定表。适用场景：「提示词准确率低」「AI 算错数」「字段读不到」「毛利率/达成率/环比算错」「BI 报告数值不一致」「新接口接入提示词适配」。时，用它产出或更新：用 SYSTEM PROMPT 强制隔离推理过程与输出结果： ---",
+  "skill_id": "01740-bi-prompt-engineering-42ef821b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/bi-prompt-engineering/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/bi-prompt-engineering/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d44a986829f9314fe2f4277f89acd83a9386df68eb0d485f66d7cafbcd21cd59",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

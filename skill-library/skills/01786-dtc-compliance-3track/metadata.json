@@ -1,0 +1,22 @@
+{
+  "英文名称": "dtc-compliance-3track",
+  "中文名称": "待补：dtc-compliance-3track",
+  "一句话作用": "DTC 产品上架前的合规三轨交叉验证 SOP： Track 1 = Sisyphus 全量 grep 扫描（含大小写变体）； Track 2 = Reality Checker subagent 逐条判例； Track 3 = Legal Compliance Checker 多机构交叉验证（FDA + EPA + FTC）。 三轨缺一不可——任何单轨都会漏报。 触发场景：「ToV 字典审查」「合规检查」「上架前法规」「SOP-B S…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T18:53:20+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要DTC 产品上架前的合规三轨交叉验证 SOP： Track 1 = Sisyphus 全量 grep 扫描（含大小写变体）； Track 2 = Reality Checker subagent 逐条判例； Track 3 = Legal Compliance Checker 多机构交叉验证（FDA + EPA + FTC）。 三轨缺一不可——任何单轨都会漏报。 触发场景：「ToV 字典审查」「合规检查」「上架前法规」「SOP-B S…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01786-dtc-compliance-3track-abf41d55",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/dtc-compliance-3track/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/dtc-compliance-3track/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8488721317e337f1785cc86654bc42614ef0691daa8fb457d1fc1e66ffd98c3f",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

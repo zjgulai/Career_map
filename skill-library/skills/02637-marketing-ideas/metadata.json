@@ -1,0 +1,22 @@
+{
+  "英文名称": "marketing-ideas",
+  "中文名称": "待补：marketing-ideas",
+  "一句话作用": "- When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketin…",
+  "关键输入": "- 140+ 已验证的营销打法，按品类提供增长创意。",
+  "关键输出": "When recommending ideas: For each recommended idea: - Idea name : One-line description - Why it fits : Connection to their situation - How to start : First 2-3 implementation steps - Expected outcome : What success looks like - Resources needed : Time, budget…",
+  "最新更新时间": "2026-09-08T00:41:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 140+ 已验证的营销打法，按品类提供增长创意。时，用它产出或更新：When recommending ideas: For each recommended idea: - Idea name : One-line description - Why it fits : Connection to their situation - How to start : First 2-3 implementation steps - Expected outcome : What success looks…",
+  "skill_id": "02637-marketing-ideas-c55a3ecf",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/marketing-ideas/SKILL.md",
+  "relative_path": "lute/.dsh/skills/marketing-ideas/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9e0337748230f655fee59870b94d4293eb82453a82382ec795dd91895145b285",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

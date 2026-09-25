@@ -1,0 +1,22 @@
+{
+  "英文名称": "gitlab-cli-guide",
+  "中文名称": "技能集",
+  "一句话作用": "提供 GitLab 命令行工具（glab）的完整参考与自动化脚本，涵盖超过30个子命令，包括合并请求创建与审查、CI/CD流水线调试、Issue管理、仓库操作和认证配置等核心工作流。适用于通过终端管理MR/Issue、调试CI失败任务、批量打标签、同步Fork和发布Release等场景。当用户提到glab、GitLab命令行、GitLab CLI、MR管理、流水线调试、glab auth、glab ci或glab mr等关键词时触发。",
+  "关键输入": "适合使用 glab 的场景： - 在脚本中自动化 GitLab 操作 - 以终端为中心的工作流 - 批量操作（处理多个 MR/Issue） - 与其他 CLI 工具集成 - CI/CD 流水线工作流 - 无需切换浏览器即可快速导航 适合使用 Web 界面的场景： - 带行内评论的复杂 diff 审查 - 可视化合并冲突解决 - 配置仓库设置与权限 - 跨项目的高级搜索/筛选 - 查看安全扫描结果 - 管理群组/实例级别的设置",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:09:36+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要适合使用 glab 的场景： - 在脚本中自动化 GitLab 操作 - 以终端为中心的工作流 - 批量操作（处理多个 MR/Issue） - 与其他 CLI 工具集成 - CI/CD 流水线工作流 - 无需切换浏览器即可快速导航 适合使用 Web 界面的场景： - 带行内评论的复杂 diff 审查 - 可视化合并冲突解决 - 配置仓库设置与权限 - 跨项目的高级搜索/筛选 - 查看安全扫描结果 - 管理群组/实例级别的设置时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10623-gitlab-cli-guide-0448eaf0",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/gitlab-cli-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "67c4afedb61c400932e4e9ca9ed8277e53c33bf5248b2df6a1dcf10bdb956cc7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

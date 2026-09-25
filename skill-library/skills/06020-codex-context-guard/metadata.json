@@ -1,0 +1,22 @@
+{
+  "英文名称": "codex-context-guard",
+  "中文名称": "待补：codex-context-guard",
+  "一句话作用": "Prevent Codex context-window exhaustion during long-running refactors, repo audits, migrations, debugging sessions, or tasks with large logs, many file reads, or repeated tool output. Use when Codex context is getting h…",
+  "关键输入": "- Current objective, recent user instructions, changed files, validation output, and unresolved blockers. - Use git status --short and git diff --stat before reading large diffs.",
+  "关键输出": "Return: 1. Current objective 2. Context risks 3. What to keep in active context 4. What to move to a handoff 5. Recommended next bounded action",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Use when context budget, log volume, or file-reading scope is becoming a risk. - Use before compacting a long session or moving work to another thread.时，用它产出或更新：Return: 1. Current objective 2. Context risks 3. What to keep in active context 4. What to mo…",
+  "skill_id": "06020-codex-context-guard-89d4afad",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/codex-operations/codex-context-guard/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/codex-operations/codex-context-guard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0d4444b1494f30a0e8cafdaa6fdf7bda4ea85b5539eaf6fd51c91195e0663c2b",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

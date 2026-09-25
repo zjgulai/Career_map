@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gcf-counterfactual-unobserved-demand",
+  "中文名称": "图因果预测GCF 时空GNN估计Listing删除的隐性需求",
+  "一句话作用": "触发词：反事实需求、断货期补数、合成控制、零值污染、Listing断货。何时不用：常规时段的需求预测用「Agent时序预测」，要评估人工预测修正用「预测偏差加减码检测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Listing断货/广告暂停期间观测销量为0导致预测系统性低估备货量——GCF时空GNN+合成控制估计真实需求，MAPE降低75.3%，备货推荐准确率提升61.2%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11399-p2s-gcf-counterfactual-unobserved-demand-f051a973",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-gcf-counterfactual-unobserved-demand/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-gcf-counterfactual-unobserved-demand/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "607eeb2008dbea94d584ab07ad9c72db252892d7db2491ac2a7699a4af21cc88",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

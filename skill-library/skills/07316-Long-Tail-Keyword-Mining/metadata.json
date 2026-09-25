@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Long-Tail-Keyword-Mining",
+  "中文名称": "待补：Long Tail Keyword Mining",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:10:10.507508\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T20:10:10+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 85.0, \"best\": 85.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T05:10:10.507508\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07316-skill-long-tail-keyword-mining-375eb02c",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Long-Tail-Keyword-Mining.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Long-Tail-Keyword-Mining.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "76eb7562d6b1977b135464a505b96c9dad2eaf55b235ae9dccb4952273407ad8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

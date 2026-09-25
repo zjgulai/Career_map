@@ -1,0 +1,22 @@
+{
+  "英文名称": "solo-build",
+  "中文名称": "待补：solo-build",
+  "一句话作用": "Execute implementation plan tasks with TDD workflow, auto-commit, and phase gates. Use when user says \"build it\", \"start building\", \"execute plan\", \"implement tasks\", \"ship it\", or references a track ID. Do NOT use for…",
+  "关键输入": "- Validate: {plan root}/{argument}/plan.md exists (check docs/plan/). - If not found: search docs/plan/ /plan.md for partial matches, suggest corrections.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:07+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要After /plan has created a track with spec.md + plan.md. This is the execution engine. Pipeline: /plan → /build → /deploy → /review时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05100-solo-build-8d21949c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/solo-build/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/solo-build/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ea8c4762903a7f9d5f72c19342b9b0634262ccc60892d5ec4d777c7d19dafb09",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

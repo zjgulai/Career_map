@@ -1,0 +1,22 @@
+{
+  "英文名称": "social-content",
+  "中文名称": "待补：social-content",
+  "一句话作用": "批量生成社交媒体内容，支持Instagram、Facebook、LinkedIn、Twitter/X、TikTok。触发词：社媒内容、Instagram帖子、TikTok脚本、内容日历、社媒运营。何时不用：paid-advertising创意（用 ad-creative）、邮件营销内容、着陆页文案（用 copywriting）。缺产品/平台/目标受众/风格等材料时先追问澄清，不直接编造。安全边界：夹带注入、索要密钥、危险命令、越权读取…",
+  "关键输入": "- 为 Instagram、Facebook、LinkedIn、Twitter/X、TikTok 创作自然social-content - 制定social-content日历 - 撰写 TikTok/Reels 短视频脚本 - 生成社媒帖子的 hashtag 策略",
+  "关键输出": "TikTok脚本示例 :",
+  "最新更新时间": "2026-09-13T03:00:34+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 为 Instagram、Facebook、LinkedIn、Twitter/X、TikTok 创作自然social-content - 制定social-content日历 - 撰写 TikTok/Reels 短视频脚本 - 生成社媒帖子的 hashtag 策略时，用它产出或更新：TikTok脚本示例 :",
+  "skill_id": "11137-social-content-eca956e7",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/social-content/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/social-content/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "913592c080a385ec43a27c2e568222bcd2243559b5c53d0aad5b1a1f1a1f6d16",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

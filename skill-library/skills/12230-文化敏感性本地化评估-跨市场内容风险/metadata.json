@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ai-cultural-sensitivity-localization",
+  "中文名称": "文化敏感性本地化评估（跨市场内容风险）",
+  "一句话作用": "触发词：文化敏感性扫描、跨市场内容风险、禁忌元素识别、本地化审核、上线前风险评分。何时不用：要审查的是翻译质量与本地化语言自然度，不是文化冒犯风险的专项审查。安全边界：文化判断存在主观性，输出仅作初筛，必须结合当地合规团队复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌团队面临\"产品图文进入新市场后因文化冒犯导致紧急下架危机\"——多市场文化敏感性扫描将跨市场内容风险识别率提升80%，年化节省危机公关成本20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12230-p2s-ai-cultural-sensitivity-localization-9ce67444",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-ai-cultural-sensitivity-localization/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-ai-cultural-sensitivity-localization/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "75c54b7045bed11543c4c28b78eaf4e0f1a23e72818b7b8a8557535bfec80953",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

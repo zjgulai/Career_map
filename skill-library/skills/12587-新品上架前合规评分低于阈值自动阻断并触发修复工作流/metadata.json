@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-pre-launch-compliance-gate",
+  "中文名称": "新品上架前合规评分低于阈值自动阻断并触发修复工作流",
+  "一句话作用": "触发词：上架门控、合规评分、阈值阻断、修复工作流、五维评分、放行决策。何时不用：要做含供应与财务的跨维度就绪评估时用「新品上市准入门控」，要按品类×市场列测试需求时用「产品安全测试需求映射」。安全边界：阻断与放行结论须由合规负责人确认，本技能只出评分与判据，不执行冻结。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规负责人面临\"新品上架后才发现合规问题导致下架\"——五维评分<80自动阻断并生成修复清单将上架后合规问题发生率降低70%，年化减少下架损失25万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12587-p2s-pre-launch-compliance-gate-eb5cabac",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-pre-launch-compliance-gate/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-pre-launch-compliance-gate/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3247699576cd9fe90c5d159f04a87d37c29eae82ae051651675e99536c95342e",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

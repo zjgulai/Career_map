@@ -1,0 +1,22 @@
+{
+  "英文名称": "xmind-arena-comms",
+  "中文名称": "前车之鉴·沟通与表达竞技场",
+  "一句话作用": "沟通与表达竞技场：三个对立角色（金字塔建筑师/反问对话师/故事设计者）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：话到嘴边组织不起来，说了半天对方没接住重点、汇报被打断「说重点」，自己也说不清重点是什么、跨部门传话，信息传着传着就变形、说不到重点、汇报没重点、传话变形。何时不用：营销文案打磨 → copy-editor；向上汇报口径分层 → audience-adapter。安全边界：叙事框架用于数据呈现时…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:39:57+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要沟通与表达竞技场：三个对立角色（金字塔建筑师/反问对话师/故事设计者）分析同一个问题，用张力与交集产生高可信结论，替代单视角反复权衡。触发词：话到嘴边组织不起来，说了半天对方没接住重点、汇报被打断「说重点」，自己也说不清重点是什么、跨部门传话，信息传着传着就变形、说不到重点、汇报没重点、传话变形。何时不用：营销文案打磨 → copy-editor；向上汇报口径分层 → audience-adapter。安全边界：叙事框架用于数据呈现时…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04267-xmind-arena-comms-e66c85f7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/xmind-arena-comms/SKILL.md",
+  "relative_path": "lute/.dsh/skills/xmind-arena-comms/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d5f54e6d7bb3b388b01d9b7e1ae7b08b9c583db0426b6e7e89c4d42b2304e59",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

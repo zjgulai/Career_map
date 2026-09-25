@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-agent-cost-optimization-budget-control",
+  "中文名称": "成本优化与预算管控 让 LLM Agent 可持续运行的 Token 经济学",
+  "一句话作用": "触发词：LLM 成本、Token 账单、预算管控、语义缓存、模型降级。何时不用：按步骤复杂度设计模型路由走「上下文感知模型路由」；提升单次推理速度走「投机解码」。安全边界：缓存竞品价格等第三方数据须遵守平台数据使用与反爬条款，标注数据时间戳并设 TTL，避免用过期价格定价。",
+  "关键输入": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-12T10:58:29+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要技术负责人面临\"LLM API费用失控每月账单超预算但不知道哪里可以优化\"——语义缓存+模型动态降级将LLM运行成本降低40-70%，年化节省$1.4万-$6.2万时，用它产出或更新：（卡页此段为占位内容，实际输入/输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11216-p2s-agent-cost-optimization-budget-control-a3a4e115",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-agent-cost-optimization-budget-control/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/eval/out/skillopt-backup/p2s-agent-cost-optimization-budget-control/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "baf211318a6c31b46133339e90a9b82e87b108add2490793edfcc11c43a6f241",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

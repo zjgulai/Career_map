@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Cross-Validation-Strategies",
+  "中文名称": "待补：Cross Validation Strategies",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 63.0, \"best\": 63.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T03:02:49.783052\"} {\"round\": 0, \"status\": \"keep\", \"score\": 75.0, \"best\": 75.0, \"mutated\": \"D2 frontmatter\", \"t…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-05T17:58:32+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 63.0, \"best\": 63.0, \"mutated\": \"D2 frontmatter\", \"ts\": \"2026-07-04T03:02:49.783052\"} {\"round\": 0, \"status\": \"keep\", \"score\": 75.0, \"best\": 75.0, \"mutated\": \"D2 frontmatter\", \"t…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07016-skill-cross-validation-strategies-d1a237b3",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Cross-Validation-Strategies.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Cross-Validation-Strategies.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "23b1fec77ac4f9a9b43abadeb35355bbb28287b7d762f517dafd8ef4d2574663",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

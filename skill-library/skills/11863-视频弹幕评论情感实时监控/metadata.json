@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-video-sentiment-analysis-voc",
+  "中文名称": "视频弹幕评论情感实时监控",
+  "一句话作用": "触发词：评论情感监控、弹幕舆情、负面预警、评论维度分析、内容信号提取。何时不用：做竞品属性的定位对比用竞争定位地图技能，做内容合规分级用品牌安全过滤技能，本技能只做评论情感的实时监控与维度挖掘。安全边界：评论数据须按平台条款与授权方式获取，涉用户个人信息须脱敏，不得删改用户评论。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"直播/短视频评论情感趋势无法实时监控\"——实时情感监控将负面舆情响应时间从24h缩短至2h，年化减少危机处理成本15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11863-p2s-video-sentiment-analysis-voc-ee1e75f6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-video-sentiment-analysis-voc/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-video-sentiment-analysis-voc/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4c71bb1d4871962afee1572c671cbe54fd7829e533fcb7902bec3bb4317eb5ee",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

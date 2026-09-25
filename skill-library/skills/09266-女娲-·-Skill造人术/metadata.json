@@ -1,0 +1,22 @@
+{
+  "英文名称": "huashu-nuwa",
+  "中文名称": "女娲 · Skill造人术",
+  "一句话作用": "女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。 两种入口：(1)明确人名→直接蒸馏 (2)模糊需求→诊断推荐→再蒸馏。 触发词：「造skill」「蒸馏XX」「女娲」「造人」「XX的思维方式」「做个XX视角」「更新XX的skill」。 模糊需求也触发：「我想提升决策质量」「有没有一种思维方式能帮我...」「我需要一个思维顾问」。",
+  "关键输入": "收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/人物/事件/产品/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象价值观、思维方式、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。",
+  "关键输出": "研究完成后，先在内部整理事实摘要（不输出给用户），然后进入Step 3。 用户看到的不是调研报告，而是[人物名]基于真实信息做出的判断。",
+  "最新更新时间": "2026-04-19T02:56:13+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要收到问题后，先判断类型： 类型 特征 行动 ------ ------ ------ 需要事实的问题 涉及具体公司/人物/事件/产品/市场现状 → 先研究再回答（Step 2） 纯框架问题 抽象价值观、思维方式、人生建议 → 直接用心智模型回答（跳到Step 3） 混合问题 用具体案例讨论抽象道理 → 先获取案例事实，再用框架分析 判断原则 ：如果回答质量会因为缺少最新信息而显著下降，就必须先研究。宁可多搜一次，也不要凭训练语料编造。时，用它产出或更新：研究完成后，先在内部整理事实摘要（不输出给用户），然后…",
+  "skill_id": "09266-huashu-nuwa-a511b642",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_nlp_voc/archive/external/auto_evolution_self/resourse/nuwa-skill/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "120f4b19a7677d7dca9c761d5ce7dc3a15f4511daf0ed4a15ecce7ff529e51d7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

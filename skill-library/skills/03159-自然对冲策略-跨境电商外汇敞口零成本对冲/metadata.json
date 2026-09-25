@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fx-natural-hedging-strategy",
+  "中文名称": "自然对冲策略 跨境电商外汇敞口零成本对冲",
+  "一句话作用": "触发词：自然对冲、采销币种匹配、零成本对冲、本地仓支出、对冲比率。何时不用：需要用远期或期权等金融工具对冲时用「FX Hedging Strategy」；只做敞口计量时用「外汇敞口测量」。安全边界：供应链重构与本地化运营投入需先做合规与税务评估；不代签约本地供应商或租赁合同。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境运营总监面临\"汇率敞口全额暴露但无预算购买金融工具\"——自然对冲将USD净敞口降低50%，零额外对冲成本实现年化风险降低80-150万CNY时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03159-p2s-fx-natural-hedging-strategy-8cedeafb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-fx-natural-hedging-strategy/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-fx-natural-hedging-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9781e64fd44cf0b45915a889683c7561e59b710f08bda8e221b714413515279b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

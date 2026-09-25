@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-collection-management",
+  "中文名称": "待补：shopify-collection-management",
+  "一句话作用": "Manage Shopify Collections as first-class catalog resources. MUST be used for collection search/detail reads and for any collection write: create, update, delete, publish/unpublish, core SEO, manual or smart rules, titl…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- success — every confirmed Collection outcome passed a post-write read. - partial — an independent earlier step succeeded but a later Collection capability failed; completed writes are not replayed or rolled back automatically. - failed — no requested write…",
+  "最新更新时间": "2026-09-12T16:24:57+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Manage Shopify Collections as first-class catalog resources. MUST be used for collection search/detail reads and for any collection write: create, update, delete, publish/unpublish, core SEO, manual or smart rules, titl…时，用它产出或更新：- success — every confirme…",
+  "skill_id": "00250-shopify-collection-management-6213b807",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-collection-management/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/plugins/installed/shopify-plugin/skills/shopify-collection-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5c0f49935a29fc63b0f8fedae06651fdf4c0977abcdae5d731f3cddbc891e8d8",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

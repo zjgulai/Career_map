@@ -1,0 +1,22 @@
+{
+  "英文名称": "b2b-payment-terms-optimizer",
+  "中文名称": "待补：b2b-payment-terms-optimizer",
+  "一句话作用": "Establish and manage B2B trade credit, net-terms, and automated invoicing to accelerate sales cycles while mitigating credit risk",
+  "关键输入": "- When transitioning from a retail (B2C) model to a wholesale (B2B) or distribution model. - When high-value customers request \"Pay on Invoice\" options to align with their own cash flow cycles. - When you need to automa…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:23+08:00",
+  "业务场景": "payments-checkout",
+  "解决具体问题": "当需要- When transitioning from a retail (B2C) model to a wholesale (B2B) or distribution model. - When high-value customers request \"Pay on Invoice\" options to align with their own cash flow cycles. - When you need to automa…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00284-b2b-payment-terms-optimizer-bd697a9f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/b2b-payment-terms-optimizer/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/b2b-payment-terms-optimizer/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bd3f9f2e937a1775b4dda10ed64e6c253c5eb1b54b0f93d1959f91f0debae47a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

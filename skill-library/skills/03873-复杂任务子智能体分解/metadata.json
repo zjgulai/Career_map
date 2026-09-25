@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-subagent-decomposition",
+  "中文名称": "复杂任务子智能体分解",
+  "一句话作用": "触发词：任务分解、子 Agent 并行、VOC 周报、增量更新、上下文超限。何时不用：有依赖需要 DAG 定序与局部重算用「DAG 任务解耦规划」；按任务形态选拓扑用「任务自适应拓扑路由」。安全边界：子 Agent 只能访问本分区数据，分片权限必须在分解时显式声明，不得越界读取他区数据。",
+  "关键输入": "输入 ：按品类分区的评论数据、各品类的分析技能（抽取、情感、汇总）、报告模板，以及任务定义与技能边界信息。 输出 ：各分区分析结果与汇总后的 VOC 周报，以及可增量更新的中间产物；供运营与分析师使用。",
+  "关键输出": "输入 ：按品类分区的评论数据、各品类的分析技能（抽取、情感、汇总）、报告模板，以及任务定义与技能边界信息。 输出 ：各分区分析结果与汇总后的 VOC 周报，以及可增量更新的中间产物；供运营与分析师使用。",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：任务分解、子 Agent 并行、VOC 周报、增量更新、上下文超限。何时不用：有依赖需要 DAG 定序与局部重算用「DAG 任务解耦规划」；按任务形态选拓扑用「任务自适应拓扑路由」。安全边界：子 Agent 只能访问本分区数据，分片权限必须在分解时显式声明，不得越界读取他区数据。时，用它产出或更新：输入 ：按品类分区的评论数据、各品类的分析技能（抽取、情感、汇总）、报告模板，以及任务定义与技能边界信息。 输出 ：各分区分析结果与汇总后的 VOC 周报，以及可增量更新的中间产物；供运营与分析师使用。",
+  "skill_id": "03873-p2s-subagent-decomposition-7ac6f37f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-subagent-decomposition/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-subagent-decomposition/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c85aa035cbc7e2f9d04263316c75958f83f00315a3fb6880d8d5a73b1b5b5755",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

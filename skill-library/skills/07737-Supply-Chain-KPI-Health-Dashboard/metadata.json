@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-Supply-Chain-KPI-Health-Dashboard",
+  "中文名称": "待补：Supply Chain KPI Health Dashboard",
+  "一句话作用": "{\"round\": 0, \"status\": \"discard\", \"score\": 62.8, \"best\": 75.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:45:07.177437\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"none\",…",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-06T12:00:50+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"discard\", \"score\": 62.8, \"best\": 75.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T01:45:07.177437\"} {\"round\": 0, \"status\": \"skip high score\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"none\",…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07737-skill-supply-chain-kpi-health-dashboard-0050d5b5",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-Supply-Chain-KPI-Health-Dashboard.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-Supply-Chain-KPI-Health-Dashboard.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "ddeee0682e025c4ebb0eb22352b22ee90b2cd0a60193b71662907e2b6ff29850",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

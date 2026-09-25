@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ml-pipeline-observability",
+  "中文名称": "数据管道可观测性 数据漂移监控与告警",
+  "一句话作用": "触发词：数据漂移、PSI 监控、模型劣化预警、管道健康、特征监控。何时不用：要盯的是数据采集本身的延迟与缺失走数据质量监控告警；要评 RAG 质量走 RAG 评测。安全边界：监控日志不含用户 PII；卡页原文提示阈值过敏感会造成报警疲劳，须按业务校准。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要数据工程师面临\"ML模型上线后数据漂移静默导致预测质量悄然劣化\"——管道可观测性将数据漂移发现时间从14天缩短至6小时，年化减少模型效果损耗保护20-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03446-p2s-ml-pipeline-observability-d19d41d9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-ml-pipeline-observability/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-ml-pipeline-observability/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4fdadf454be184472b0d4ac792ed380201551784e00065b697e893ac10d0fdf0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

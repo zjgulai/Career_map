@@ -1,0 +1,22 @@
+{
+  "英文名称": "baoyu-xhs-images",
+  "中文名称": "待补：baoyu-xhs-images",
+  "一句话作用": "[Deprecated: use baoyu-image-cards] Generates Xiaohongshu (Little Red Book) image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for XHS…",
+  "关键输入": "When this skill prompts the user, follow this tool-selection rule (priority order): 1. Prefer built-in user-input tools exposed by the current agent runtime — e.g., AskUserQuestion, request user input, clarify, ask user, or any equivalent. 2. Fallback : if no…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-05-25T22:01:58+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要[Deprecated: use baoyu-image-cards] Generates Xiaohongshu (Little Red Book) image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for XHS…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06093-baoyu-xhs-images-09acee56",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/baoyu-xhs-images/SKILL.md",
+  "relative_path": "lute/Library/Application Support/com.tencent.mac.marvis/MarvisData/User/oAN1i2aJtrd7LDbf8NsnKkf45oTQ/skills/market/baoyu-xhs-images/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d035672cc3716ac36bef902b026807661ca561c4d112227874c54ad13be59cf1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

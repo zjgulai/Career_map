@@ -1,0 +1,22 @@
+{
+  "英文名称": "linkfox-amazon-opportunity-search-by-metrics",
+  "中文名称": "亚马逊-商业洞察(反向)",
+  "一句话作用": "亚马逊反向选品：基于历史商业洞察报告沉淀的指标数据池，按 30+ 项商业维度（市场规模与增长、价格区间与档位份额、竞争密度与头部集中度、人群画像如年龄/性别/收入、评论卖点与痛点等）反向筛选亚马逊赛道与关键词。当用户提到反向选品、指标筛选、细分市场反查、蓝海赛道挖掘、低竞争赛道、新人友好赛道、品牌分散市场、痛点切入、卖点反查、定价档位机会、人群画像选品、Amazon niche reverse search, niche metric…",
+  "关键输入": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- limit integer 否 默认 25；示例：25, 100 返回条数上限（1-200 整数）。本接口没有 page 参数，不支持翻页，只按 source collected at 倒序返回最近 N 条。不传默认 25 条；首次探索建议保持默认值，用户明确要求「看更多」「扩大候选」「尽量多给一些」时再提高。 keyword string 否 最长 1000；示例：whoop band 搜索关键词文本片段（模糊匹配）。用户提到具体…",
+  "关键输出": "字段 类型 必填 约束/默认值 说明 --- --- :---: --- --- msg string 否 提示信息。成功为 ok。 code string 否 响应码。成功为 200。 data array 否 命中关键词指标列表。每条等于 1 个 (站点, 关键词) 的完整 37 字段记录；按报告采集时间倒序。 type string 否 响应类型。前端按 tableListWorkbenches 渲染表格。",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当用户意图与“亚马逊-商业洞察(反向)”匹配，或需要以下能力时使用本工具：基于历史商业洞察报告沉淀的指标数据池，支持以选品视角反向筛选亚马逊赛道与关键词。能够将用户口语化的需求映射为具体的查询条件，支持通过 30+ 项商业维度（包含市场规模与增长势能、价格区间与档位份额、竞争密度与头部集中度、人群画像如年龄/性别/收入、评论卖点与痛点标签等）精准圈选细分市场。工具会反向匹配出符合条件的关键词候选池，并输出结构化的赛道指标对比表，辅助选…时，用它产出或更新：字段 类型 必填 约束/默认值 说明 --- ---…",
+  "skill_id": "05301-linkfox-amazon-opportunity-search-by-metrics-880c382d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-amazon-opportunity-search-by-metrics/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/linkfox-product-selection/skills/linkfox-amazon-opportunity-search-by-metrics/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a17b5ef7270aefd1ac421d6ca1d2bd6317ccc8634ee27139462085f4cf6c521a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

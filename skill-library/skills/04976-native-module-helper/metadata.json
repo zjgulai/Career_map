@@ -1,0 +1,22 @@
+{
+  "英文名称": "native-module-helper",
+  "中文名称": "待补：native-module-helper",
+  "一句话作用": "Create custom React Native native modules for iOS and Android. Use when integrating native SDKs, optimizing performance-critical code, or accessing platform-specific APIs. Trigger words include \"native module\", \"bridge\"…",
+  "关键输入": "Module not found: - Verify package.json configuration - Run pod install (iOS) or rebuild (Android) - Check module name matches in native code Methods not available: - Ensure RCT EXPORT METHOD is used - Check method sign…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Module not found: - Verify package.json configuration - Run pod install (iOS) or rebuild (Android) - Check module name matches in native code Methods not available: - Ensure RCT EXPORT METHOD is used - Check method sign…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04976-native-module-helper-597eabc9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/native-module-helper/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/native-module-helper/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3fdc20ec884cdf1495afd5d20f072d341da06322e043136e7c8b0b33e32f5b4d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

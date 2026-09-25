@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-brand-keyword-hijack-alert",
+  "中文名称": "品牌词搜索下竞品展示份额超30触发品牌防守广告扩展",
+  "一句话作用": "触发词：品牌词劫持、竞品展示份额、防守告警、SB 广告扩展、出价提权、竞品情报。何时不用：展示份额波动属于季节性正常变化时不必触发；缺少品牌备案与广告份额数据时不适用。安全边界：只监测竞品公开投放数据，不使用非公开信息；多账号监测需规避同 IP 关联风控，误判需人工复核。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要品牌负责人面临\"竞品在品牌词搜索截流\"——竞品展示份额 30%自动扩展品牌词防守广告将品牌词流量截流率从28%降至9%，年化保护品牌流量价值35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02828-p2s-brand-keyword-hijack-alert-f2fb6608",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-brand-keyword-hijack-alert/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-brand-keyword-hijack-alert/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "61adf4845fb29ae148d37a1969c5f5c60e9b0935d9318a28985a9641915d839b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-experiment-hypothesis-generation",
+  "中文名称": "辅助实验假设生成与优先级排序",
+  "一句话作用": "触发词：假设生成、ICE框架、实验路线图、排期规划、假设筛选。何时不用：需要单个实验的样本量与分流设计时用A/B实验设计类技能；本技能只产出假设清单与排期。安全边界：生成内容不涉用户数据且须人工审核后才可执行；Prompt需加入平台规则约束，避免生成违规假设。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要产品经理面临\"每周实验排期需要1天头脑风暴且假设质量参差不齐\"——LLM辅助假设生成将高质量实验假设产出效率提升4倍，年化加速产品迭代节省规划成本10-20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03339-p2s-llm-experiment-hypothesis-generation-955ce98f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-experiment-hypothesis-generation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-experiment-hypothesis-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fafbf22764fd73c12061b38805680d55133dafa044f152b42d461d4d82caf145",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

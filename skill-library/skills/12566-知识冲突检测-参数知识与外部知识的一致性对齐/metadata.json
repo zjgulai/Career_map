@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-knowledge-conflict-detection-llm",
+  "中文名称": "知识冲突检测 参数知识与外部知识的一致性对齐",
+  "一句话作用": "触发词：知识冲突、版本矛盾、一致性校验、字段级定位、修复建议、知识对齐。何时不用：要修正检索到的过期文档时用「Corrective-RAG 纠错检索」，要抽文档跨句关系时用「文档级关系抽取」。安全边界：冲突判定与修复建议须保留新旧条款出处，不得直接覆盖原始法规文本。",
+  "关键输入": "合规团队面临新旧版本法规在知识库中冲突——知识冲突检测将矛盾条目识别率95%，法规审查效率提升8倍，年化节省32万元",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要合规团队面临新旧版本法规在知识库中冲突——知识冲突检测将矛盾条目识别率95%，法规审查效率提升8倍，年化节省32万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12566-p2s-knowledge-conflict-detection-llm-f976abd3",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-knowledge-conflict-detection-llm/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-knowledge-conflict-detection-llm/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "46c6e160f025fb433e1ba3e8960dfc51ea11cde5732ef4c7d581118582117f3b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

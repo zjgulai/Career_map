@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-klong-long-horizon-agent-training",
+  "中文名称": "超长时域 Agent 训练：轨迹分割 SFT 渐进 RL",
+  "一句话作用": "触发词：长时域任务、轨迹分割、渐进式强化学习、选品调研训练、长链路Agent。何时不用：任务只有几步、提示工程即可满足时不必训练；缺 GPU 资源时先用检索增强的通用模型。安全边界：训练轨迹须来自自有业务并按隐私要求脱敏，不得把客户数据或平台受限数据用于训练。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要训练工程师面临长链路任务学不会——KLong将长任务成功率42%提到68%，年化省20万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12010-p2s-klong-long-horizon-agent-training-ac7fef8a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-klong-long-horizon-agent-training/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-klong-long-horizon-agent-training/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b75cbb594b565c05e21cd58533ea113086f4d3b76dccd3f9cd436264bc5f3b3d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

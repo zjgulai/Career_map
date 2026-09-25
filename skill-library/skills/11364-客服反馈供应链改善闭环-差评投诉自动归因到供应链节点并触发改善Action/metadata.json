@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cs-supply-chain-feedback-loop-tag",
+  "中文名称": "客服反馈供应链改善闭环 差评投诉自动归因到供应链节点并触发改善Action",
+  "一句话作用": "触发词：差评归因、客诉聚类、反馈打标签、改善任务派发、投诉分类。何时不用：要把退货事件追到批次与供应商多层根因用「退货根因归因图谱」，只判定差评率是否异常用「VOC 预警」类技能。安全边界：生成的任务与责任归属须人工复核，模型不自动扣罚供应商、不直接对外回复客户。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"差评反复出现同一问题却没有系统性改善\"——NLP自动归因将客服反馈→供应链改善从1周人工→即时自动，降低差评率40%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11364-p2s-cs-supply-chain-feedback-loop-tag-939771fd",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-cs-supply-chain-feedback-loop-tag/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-cs-supply-chain-feedback-loop-tag/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d55dbc8a9c25fa78c1cc9f33b7f055ab0378bbc68caf487e833e6e1d23656ac",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

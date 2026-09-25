@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-aigc-content-detection",
+  "中文名称": "生成内容鉴别：母婴评论真实性保护",
+  "一句话作用": "触发词：AI 评论鉴别、虚假好评过滤、模板式好评、内容标签、数据净化。何时不用：要评估整批素材（含图片）的上架风险时用双轨真实性检测框架；本技能只做文本级 AI 生成鉴别。安全边界：鉴别结论只用于内部数据净化，不得据此公开指控评论者，不确定样本须保留人工复核通道。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要内容审核员面临AI稿混入人工库——AIGC检测将误放率从15%降到2%，年化省9万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02757-p2s-aigc-content-detection-88ad3599",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-aigc-content-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-aigc-content-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bfcfce569fea52e2459c9a059c7f86c10dc23c8264b62b913c179b9a3ce823da",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

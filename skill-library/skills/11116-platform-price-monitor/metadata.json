@@ -1,0 +1,22 @@
+{
+  "英文名称": "platform-price-monitor",
+  "中文名称": "待补：platform-price-monitor",
+  "一句话作用": "当用户需要监控Amazon、eBay、AliExpress等电商平台竞品价格变化时使用。触发词：平台价格监控、价格监控、竞品价格追踪、Amazon价格预警、eBay比价、AliExpress监控、重定价策略、价格情报、动态定价。何时不用：非电商平台价格监控（如线下零售/B2B/股票/加密货币/汇率）、需要实时秒级更新、无API凭证且不接受Mock数据、仅需一次性价格查询、纯竞品分析/SEO/选品/广告/文案等非价格监控任务。缺材料（A…",
+  "关键输入": "- 需要监控Amazon、eBay、AliExpress等平台的竞品价格 - 跟踪竞品促销动态和上新情况 - 进行价格情报分析和竞争态势评估 - 制定自动化重定价策略 - 需要历史价格数据用于趋势分析 - 需要价格预警通知（价格下降、库存变化）",
+  "关键输出": "- PriceData 结构是否完整（product id, price, currency等） - 预警通知是否及时准确 - 历史价格曲线是否正确生成 - 降级策略是否按预期工作",
+  "最新更新时间": "2026-09-13T03:00:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- 需要监控Amazon、eBay、AliExpress等平台的竞品价格 - 跟踪竞品促销动态和上新情况 - 进行价格情报分析和竞争态势评估 - 制定自动化重定价策略 - 需要历史价格数据用于趋势分析 - 需要价格预警通知（价格下降、库存变化）时，用它产出或更新：- PriceData 结构是否完整（product id, price, currency等） - 预警通知是否及时准确 - 历史价格曲线是否正确生成 - 降级策略是否按预期工作",
+  "skill_id": "11116-platform-price-monitor-98de1619",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/platform-price-monitor/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-overseas-skills/staging/81-skills/platform-price-monitor/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3d662985a88eb2ab808b9c2c94227ce445de5f429d3e3c611dab36f46e80b491",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-fx-dynamic-pricing-adjustment",
+  "中文名称": "汇率联动动态定价 保持目标毛利率的实时定价调整",
+  "一句话作用": "触发词：汇率联动、毛利保价、目标毛利率、汇率敞口、批量重算、多市场调价。何时不用：成本增量来自关税而非汇率时用「成本加成+关税动态定价」；跨市场价差投诉与走廊治理用「跨境价格协调」。安全边界：调价须保留价格变动日志以备审计，并满足平台反价格歧视条款；建议价需人工确认。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要定价负责人面临\"EUR贬值2%后欧洲站毛利率跌破目标\"——汇率联动定价将价格响应时间从7天→24小时，年均保护毛利约15-30万CNY每千万GMV时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12305-p2s-fx-dynamic-pricing-adjustment-f1527015",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-fx-dynamic-pricing-adjustment/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-fx-dynamic-pricing-adjustment/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "122c86d94a5dd80d7cfca44b41f4edc7c023c5fc639e782d94d5793d72876943",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "nemoclaw-user-get-started",
+  "中文名称": "待补：nemoclaw-user-get-started",
+  "一句话作用": "Installs NemoClaw, launches a sandbox, and runs the first agent prompt. Use when onboarding, installing, or launching a NemoClaw sandbox for the first time. Trigger keywords - nemoclaw quickstart, install nemoclaw openc…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要Installs NemoClaw, launches a sandbox, and runs the first agent prompt. Use when onboarding, installing, or launching a NemoClaw sandbox for the first time. Trigger keywords - nemoclaw quickstart, install nemoclaw openc…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00948-nemoclaw-user-get-started-f55cfb5c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/nvidia/skills/nemoclaw-user-get-started/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/nvidia/skills/nemoclaw-user-get-started/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f0be3e455e3447a0bc1d253ce0f4eda45d8a42ffb4220188b00745be8fce2edd",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

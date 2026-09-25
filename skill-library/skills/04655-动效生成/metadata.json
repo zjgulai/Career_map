@@ -1,0 +1,22 @@
+{
+  "英文名称": "motion",
+  "中文名称": "动效生成",
+  "一句话作用": "Generate motion effects and animations for e-commerce channel design — splash screen animations, micro-interactions, demo presentations, and transition effects. Uses Galacean Effects API to generate animation JSON confi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "将动效打包为前端可直接使用的代码： 代码包内容： - animation.json — Galacean Effects 动效配置 JSON - demo.html — 预览 Demo 页面 - integration-guide.md — 前端集成指南（如何在项目中引入此动效） 集成指南模板：",
+  "最新更新时间": "2026-09-19T03:38:48+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要Generate motion effects and animations for e-commerce channel design — splash screen animations, micro-interactions, demo presentations, and transition effects. Uses Galacean Effects API to generate animation JSON confi…时，用它产出或更新：将动效打包为前端可直接使用的代码： 代码包内容： -…",
+  "skill_id": "04655-motion-7815b54c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/motion/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/super-design-studio/1.0.0/skills/motion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f3485bec9067d27f0107a543f6542a09d685cd61cc62e3ae1b9cb6b8c13bafd0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

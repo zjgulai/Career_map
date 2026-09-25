@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-refactoring-patterns",
+  "中文名称": "待补：code-refactoring-patterns",
+  "一句话作用": "Systematic approach to refactoring code for improved maintainability, performance, and clarity while preserving functionality",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:20+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Systematic approach to refactoring code for improved maintainability, performance, and clarity while preserving functionality时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04776-code-refactoring-patterns-ba262570",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/code-refactoring-patterns/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/code-refactoring-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "96cf227b2ff8914bd3b8f79448d8f23dfa7da7414344146688d2777efdf7e6c0",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "wpf-mvvm-generator",
+  "中文名称": "待补：wpf-mvvm-generator",
+  "一句话作用": "WPF MVVM code generator. Creates ViewModel, View, and Model with CommunityToolkit.Mvvm source generators. Use when scaffolding new WPF features or entities following MVVM pattern.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:53:55+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要WPF MVVM code generator. Creates ViewModel, View, and Model with CommunityToolkit.Mvvm source generators. Use when scaffolding new WPF features or entities following MVVM pattern.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05179-wpf-mvvm-generator-e90e628e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/wpf-mvvm-generator/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/wpf-mvvm-generator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f4a9c8c7423c059d2dd92225a36bc58b828a176ededcb8759b03448ec6f83908",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

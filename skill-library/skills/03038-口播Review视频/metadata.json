@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-dawn-talking-head-review",
+  "中文名称": "口播Review视频）",
+  "一句话作用": "触发词：口播视频、AI 测评、口型同步、多语种配音、批量出片。何时不用：需要真实用户证言的合规场景不用合成口播；只剪辑已有真人素材用剪辑类技能。安全边界：合成口播须标注 AI 生成，不得伪造真实用户身份与使用证言，不得虚构产品效果。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要审核主管面临口播视频不合规——DAWN审核将下架率从9%降到1%，年化省10万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03038-p2s-dawn-talking-head-review-d4825fa7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-dawn-talking-head-review/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-dawn-talking-head-review/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "28e9f05db240cfd25137e3cf0c7a331ab7ca6c3da52d3dae520363c28f73d9b4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

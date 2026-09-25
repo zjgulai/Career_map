@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-hierarchical-search-intent-classification",
+  "中文名称": "电商搜索层次化意图分类 - 母婴跨境广告自动词分类",
+  "一句话作用": "触发词：搜索意图分类、层次标签、月龄分桶、信息与购买意图、广告分流。何时不用：要优化的是结果排序时用「NeuralNDCG 排序优化」；要做运营多知识库的查询路由时用「查询意图分类与动态路由」。安全边界：只产出意图标签与投放分流建议，不代建广告活动。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要搜索运营面临意图分桶混乱——Intent Classification将误分类率15%压到4%，年化省17万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03206-p2s-hierarchical-search-intent-classification-c5a84bfb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-hierarchical-search-intent-classification/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-hierarchical-search-intent-classification/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b6bebd8a17dee7cfe22c20f5103e4f728fcc526c86ce9f4a0a5b71d3357a9831",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

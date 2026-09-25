@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mental-accounting-bundle-psychology",
+  "中文名称": "心理账户捆绑定价心理学 识别同一心智账户商品组合使 AOV 提升22",
+  "一句话作用": "触发词：心理账户、捆绑组合设计、捆绑定价、WTP 估计、AOV 提升、跨账户失败识别。何时不用：只估价格弹性用「Skill-Price-Elasticity-Estimation」；设计锚点价格用「Skill-Anchoring-Effect-Pricing-Optimization」；设计促销损失厌恶用「Skill-Loss-Aversion-Promotion-Design」；多 SKU 联合定价与利润分利用「MAS多SKU定价联…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要产品运营面临\"捆绑套装卖得比单品加起来还贵但有时反而转化率更低\"——心理账户同账户识别让捆绑感知价值提升，AOV提升22%，年化$6.4万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03438-p2s-mental-accounting-bundle-psychology-18233c57",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mental-accounting-bundle-psychology/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mental-accounting-bundle-psychology/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7b89dcf0095a9996d3bdac68160af54e1a87f13bfaafb612452712e8a86d816d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

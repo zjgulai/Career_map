@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-rl-dynamic-pricing",
+  "中文名称": "因果强化学习动态定价：可信赖的自适应价格策略",
+  "一句话作用": "触发词：因果定价、价格弹性、混淆剔除、Double ML、反事实分析。何时不用：单点跟价与实时监测用「竞品价格监测」；本技能要剔除广告等混淆后再估真实弹性。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要纯RL定价因广告混淆错误学到促销期降价总是有效策略大促后无效降价继续损耗利润——因果强化学习DoubleML剔除广告混淆后才估计真实价格弹性，防止策略崩溃年化避免错误策略损失20-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02874-p2s-causal-rl-dynamic-pricing-a2502e2f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-rl-dynamic-pricing/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-rl-dynamic-pricing/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e9945858410535eb6df749c51a01001ce5ce20ebbf2cd7999351ea5025b98ec2",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

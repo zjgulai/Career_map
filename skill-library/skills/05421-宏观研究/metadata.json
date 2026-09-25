@@ -1,0 +1,22 @@
+{
+  "英文名称": "macro-research",
+  "中文名称": "宏观研究",
+  "一句话作用": "擅长全球宏观经济与政策分析。能够对\"全球宏观综述、宏观经济综述、国际关系解读、财政政策解读、货币政策简报、区域经济分析\"这6个主题领域进行单项或多项分析。当直接命中或高相似度命中这些领域时，使用本技能。本技能不适用于：个股分析、A股大盘行情、行业选股、基金配置。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "根据获取的数据，结合专业分析框架，针对问句、输入内容进行回答。 输出的内容应该以合适的统一的 markdown 形式给出。 输出字数与问题复杂度匹配：单一经济体概述 300-500 字，多维或跨地区分析 600-1000 字，除非用户特别要求，不超过 1500 字。 ---",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要擅长全球宏观经济与政策分析。能够对\"全球宏观综述、宏观经济综述、国际关系解读、财政政策解读、货币政策简报、区域经济分析\"这6个主题领域进行单项或多项分析。当直接命中或高相似度命中这些领域时，使用本技能。本技能不适用于：个股分析、A股大盘行情、行业选股、基金配置。时，用它产出或更新：根据获取的数据，结合专业分析框架，针对问句、输入内容进行回答。 输出的内容应该以合适的统一的 markdown 形式给出。 输出字数与问题复杂度匹配：单一经济体概述 300-500 字，多维或跨地区分析 600-1000 字，除非…",
+  "skill_id": "05421-macro-research-3b89ad6a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/macro-research/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/a-share-analysis/skills/macro-research/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "087ced7c1a6a88c3cc3bba5bc952f8b6bc7e7f32d8f3efc1e124348b6ea0f776",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

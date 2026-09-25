@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gmroi-inventory-investment-efficiency",
+  "中文名称": "库存资金投资回报优化 毛利润平均库存比率最大化决策模型",
+  "一句话作用": "触发词：GMROI、库存资金回报、资金重配置、库存分层、新品引入门槛。何时不用：要算单个 SKU 的持有成本率与订货量用「库存持有成本模型」；要拆 FBA 各项费用结构用「FBA 费用结构分析」。安全边界：调整库存配置不得跌破安全库存，避免断货；结论只作资金配置参考，不替代采购与现金流审批。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要高ITO低毛利的消毒袋占用大量资金却产生极低收益——GMROI资金最优分配将相同$80万预算年度组合毛利从$144万增至$192万（+$48万），零成本增收时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12551-p2s-gmroi-inventory-investment-efficiency-2a764a6a",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-gmroi-inventory-investment-efficiency/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-gmroi-inventory-investment-efficiency/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "07e13c17757dac8e22ca7fe8886495caad5c8028352dbdddfeb1be2df7f361a3",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

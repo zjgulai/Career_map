@@ -1,0 +1,22 @@
+{
+  "英文名称": "cashflow-valuation",
+  "中文名称": "现金流折现估值模型",
+  "一句话作用": "DCF现金流折现估值模型，支持完整的自由现金流预测、终值计算和企业价值推导，并生成增长率 × 折现率的敏感性分析矩阵。当用户需要进行企业估值、DCF分析、现金流折现计算、WACC折现、终值计算、敏感性分析、股权价值或每股价值估算，或提及关键词如DCF、估值、折现、现金流、WACC、terminal value、sensitivity analysis、企业价值、equity value、Gordon Growth Model、自由现金…",
+  "关键输入": "参数 必填 默认值 说明 ------ ------ -------- ------ --fcf 是 - 基准年自由现金流（正数） --growth 是 - 年增长率，如 0.15 表示 15% --discount 是 - 折现率 / WACC，如 0.10 表示 10% --terminal-growth 否 0.03 永续增长率（必须 < 折现率） --years 否 5 预测年数（1-30）",
+  "关键输出": "添加 --json 参数可将完整结果以 JSON 格式输出到 stdout，便于程序化处理：",
+  "最新更新时间": "2026-09-14T00:06:44+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- 对目标公司进行 DCF 估值，评估其合理价格区间 - 投资决策前的估值敏感性检验（关键假设变化多大会改变结论） - 财务建模时快速生成估值矩阵表格 - 输出 CSV/JSON 结果，嵌入更大的分析流程或报告中时，用它产出或更新：添加 --json 参数可将完整结果以 JSON 格式输出到 stdout，便于程序化处理：",
+  "skill_id": "10554-cashflow-valuation-a3bf7c0f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/cashflow-valuation/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/cashflow-valuation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a369f761de8bedd22bbd5e57bb5c37bde74aa54b876ea9019a1db4d0e65c4d19",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

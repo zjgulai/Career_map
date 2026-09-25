@@ -1,0 +1,22 @@
+{
+  "英文名称": "model-update",
+  "中文名称": "待补：model-update",
+  "一句话作用": "Update financial models with new data — quarterly earnings, management guidance, macro changes, or revised assumptions. Adjusts estimates, recalculates valuation, and flags material changes. Use after earnings, guidance…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Updated Excel model (if user provides the existing model) - Estimate change summary (markdown or Word) - Updated price target derivation",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Update financial models with new data — quarterly earnings, management guidance, macro changes, or revised assumptions. Adjusts estimates, recalculates valuation, and flags material changes. Use after earnings, guidance…时，用它产出或更新：- Updated Excel model (if…",
+  "skill_id": "05466-model-update-c9967e85",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/model-update/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/equity-research/skills/model-update/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "62b2256bf3b52ac3759cb446a10aaa3066a51b4909e09bae0e3b98b741a37fb5",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

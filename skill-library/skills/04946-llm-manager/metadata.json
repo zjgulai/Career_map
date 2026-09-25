@@ -1,0 +1,22 @@
+{
+  "英文名称": "llm-manager",
+  "中文名称": "待补：llm-manager",
+  "一句话作用": "Claude acts as manager/architect while delegating all coding to external LLM CLIs (Gemini, Codex, Qwen). Claude never writes code - only plans, delegates, and verifies. Use when user says \"manage\", \"architect mode\", \"de…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "After backend completes: 1. Read the modified files - Check what was actually done 2. Verify correctness - Does it match requirements? 3. Check for issues - Security problems, bugs, incomplete work 4. Run tests if applicable - But have the backend fix failures",
+  "最新更新时间": "2026-09-19T03:58:00+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Claude acts as manager/architect while delegating all coding to external LLM CLIs (Gemini, Codex, Qwen). Claude never writes code - only plans, delegates, and verifies. Use when user says \"manage\", \"architect mode\", \"de…时，用它产出或更新：After backend completes: 1…",
+  "skill_id": "04946-llm-manager-9edb83de",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/llm-manager/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/llm-manager/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8459f52a898d6a9f259c24deaac8c4d912e1adc93e781ff80b7b559614a7d2e1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "cleye",
+  "中文名称": "待补：cleye",
+  "一句话作用": "cleye CLI development tool — argv parsing with typed parameters, flags, commands, and auto-generated help. Use when building Node.js CLI scripts with cleye or when the user imports cli or command from cleye.",
+  "关键输入": "Positional arguments mapped to named properties on argv. . Format Description -------- ------------- Required [name] Optional Required spread (1+) [name...] Optional spread (0+) -- End-of-flags separator",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T01:24:50+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要cleye CLI development tool — argv parsing with typed parameters, flags, commands, and auto-generated help. Use when building Node.js CLI scripts with cleye or when the user imports cli or command from cleye.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04368-cleye-cc48aa31",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.npm/_npx/d9550ed0284f53f5/node_modules/cleye/skills/cleye/SKILL.md",
+  "relative_path": "lute/.npm/_npx/d9550ed0284f53f5/node_modules/cleye/skills/cleye/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "18869d81a0917b6b07d93b1796491060aed2af06b6f750ec5ac6763a7372a748",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-click-fraud-detection",
+  "中文名称": "广告刷量检测）",
+  "一句话作用": "触发词：点击欺诈、刷量检测、CTR 异常、IP 集中、退款申诉、无效点击过滤。何时不用：点击与转化同步波动时属正常市场变化；没有 IP 或设备维度数据时无法判断集中度。安全边界：需遵守反不正当竞争与消费者权益相关法规并留存审计日志，误杀需人工复核，检测结果不得用于攻击或报复竞品。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要竞品对母婴广告发动 IVT 攻击，FB 广告 CTR 虚高 8.5% 但转化率跌至 0.1%，月广告预算 30% 被无效点击消耗——时序异常检测实时识别刷量 IP 并向平台申请退款，年均挽回 6-15 万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02894-p2s-click-fraud-detection-d42ca97a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-click-fraud-detection/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-click-fraud-detection/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a96a1cda820c3eb6b9ffa5300e1ddf49f13c6d08c15560716f543b33b48f1b8d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-DECRL-Temporal-KG-Evolution-Prediction",
+  "中文名称": "待补：DECRL Temporal KG Evolution Prediction",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T02:12:29.511963\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T17:12:29+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 88.0, \"best\": 88.0, \"mutated\": \"D10 three track\", \"ts\": \"2026-07-04T02:12:29.511963\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07048-skill-decrl-temporal-kg-evolution-prediction-5512a2be",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-DECRL-Temporal-KG-Evolution-Prediction.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-DECRL-Temporal-KG-Evolution-Prediction.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "d1a6cdda020ce83c4caea6883b251e9e2c660bad11fc2b325a068729b1ed3538",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

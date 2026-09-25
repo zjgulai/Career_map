@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-relate-rl-ad-text-generation",
+  "中文名称": "强化学习广告文案生成 端到端优化CTCVR的LLM广告创意框架",
+  "一句话作用": "触发词：广告文案生成、文案转化率优化、强化学习文案、候选文案批量生成、文案 A/B 素材。何时不用：只审文案合规与宣称风险用品牌安全类技能，只做投放实验设计与分流用广告实验类技能，本技能负责用转化信号训练并生成文案。安全边界：奖励模型须内置广告法关键词黑名单，禁止绝对化用语与无认证支撑的功效宣称，历史点击与转化数据须匿名化脱敏后使用。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要AI生成的\"流畅专业\"广告文案转化率提升不明显因为优化了语言质量而非真实转化——RELATE用RL直接把CTCVR作为奖励信号端到端训练LLM，在线部署CTCVR提升+9.19%（2026 arXiv:2602.11780）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03711-p2s-relate-rl-ad-text-generation-f987c158",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-relate-rl-ad-text-generation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-relate-rl-ad-text-generation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "37d93fc21f0a6da9420afaffa6f2df8020fe22daa42bb29fa8d5b72f93168af0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

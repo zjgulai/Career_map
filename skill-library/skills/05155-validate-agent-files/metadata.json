@@ -1,0 +1,22 @@
+{
+  "英文名称": "validate-agent-files",
+  "中文名称": "待补：validate-agent-files",
+  "一句话作用": "Validates AI coding assistant customization files (agents, skills, prompts, instructions) for correct format and structure. Works with GitHub Copilot, Claude Code, Codex, OpenCode, and other providers. Use when checking…",
+  "关键输入": "- Before committing new agents, skills, prompts, or instructions - When an agent isn't behaving as expected - To audit existing customization files for issues - After modifying any .gemini customization files",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T04:11:34+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Before committing new agents, skills, prompts, or instructions - When an agent isn't behaving as expected - To audit existing customization files for issues - After modifying any .gemini customization files时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05155-validate-agent-files-8909f722",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/validate-agent-files/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/validate-agent-files/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "40688dd1f0702ac7856d6d9b5c80e415fb4e808ad5800001d28ce97b224d2132",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

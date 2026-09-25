@@ -1,0 +1,22 @@
+{
+  "英文名称": "cbec-alert-management",
+  "中文名称": "跨境电商预警分级管理 Skill",
+  "一句话作用": "跨境电商预警分级管理Skill。提供预警分级（P0-P3）、告警内容生成、活动日历管理、SLA标准，支持多渠道告警通知。 触发条件: 1. 用户提到\"预警分级\"、\"告警等级\"、\"P0P1P2P3\" 2. 用户询问\"如何设置告警\"、\"告警内容怎么写\" 3. 用户需要\"告警管理\"、\"预警系统\" 4. 用户提到\"SLA\"、\"响应时限\"、\"告警关闭\" 输出内容: - 预警分级标准 - 告警卡片模板 - 活动日历与白名单配置 - SLA响应标准",
+  "关键输入": "Q: 告警太多怎么办？ A: 优化阈值、合并同类告警、使用白名单 Q: 误报率高怎么办？ A: 增加联动条件、调整阈值、完善活动日历 Q: 响应不及时怎么办？ A: 优化通知渠道、升级机制、SLA考核",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-03-04T00:15:13+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Q: 告警太多怎么办？ A: 优化阈值、合并同类告警、使用白名单 Q: 误报率高怎么办？ A: 增加联动条件、调整阈值、完善活动日历 Q: 响应不及时怎么办？ A: 优化通知渠道、升级机制、SLA考核时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09421-cbec-alert-management-172adb7d",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/07-monitoring-analysis/alert-management/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/skills/cross_border_ecommerce/skills/07-monitoring-analysis/alert-management/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6185eb82b35d63fad91aecc5258a411d045f6de50781c30ffc3cf2c1090a8f84",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

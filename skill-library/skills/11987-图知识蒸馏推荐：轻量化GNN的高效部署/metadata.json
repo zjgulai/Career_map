@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-graph-knowledge-distillation-recommendation",
+  "中文名称": "图知识蒸馏推荐：轻量化GNN的高效部署",
+  "一句话作用": "触发词：图知识蒸馏、轻量推荐、边缘部署、教师学生模型、算力不足。何时不用：向量索引与检索延迟优化走「HNSW 向量索引工程」；服务端量化与异步推理走「模型服务优化」。安全边界：只用匿名化交互记录训练，不得把用户敏感数据带入蒸馏过程。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要当独立站/中小卖家因算力不足无法部署 LightGCN 等大型 GNN 推荐系统时，图知识蒸馏将大模型知识压缩至边缘可部署的轻量模型，保留 90-95% 精度、推理延迟从 100ms 降至 5ms，让小卖家也能用上企业级推荐。时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11987-p2s-graph-knowledge-distillation-recommendation-e449572d",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-graph-knowledge-distillation-recommendation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-graph-knowledge-distillation-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e7439456eb3e24bcbdb67c455c122a84fe83e1bef9f84e2ca06834ac34f348a6",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

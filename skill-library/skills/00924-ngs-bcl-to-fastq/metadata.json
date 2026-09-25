@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-bcl-to-fastq",
+  "中文名称": "待补：ngs-bcl-to-fastq",
+  "一句话作用": "Validate Illumina BCL run folders and sample sheets, plan demultiplexing, review index/UMI/lane choices, run BCL-to-FASTQ conversion, and interpret demux metrics while surfacing license/download boundaries.",
+  "关键输入": "Confirm: - run folder path with RunInfo.xml - sample sheet path and format - output directory - instrument/run metadata from RunInfo.xml and RunParameters.xml - lane handling: split by lane or combine lanes - index mismatch tolerance - index read structure an…",
+  "关键输出": "Before conversion, validate: - RunInfo.xml exists and its read structure matches the expected sequencing design. - SampleSheet.csv exists, is the intended version, and has no duplicate sample/index combinations within each lane. - Index sequence lengths match…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Validate Illumina BCL run folders and sample sheets, plan demultiplexing, review index/UMI/lane choices, run BCL-to-FASTQ conversion, and interpret demux metrics while surfacing license/download boundaries.时，用它产出或更新：Before conversion, validate: - RunInfo.x…",
+  "skill_id": "00924-ngs-bcl-to-fastq-592a9c57",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-bcl-to-fastq/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-bcl-to-fastq/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02c0cc840bc3bb2dc0c01ae1f62cfb21203ea7f72a70fb9f3bbfb6ea0bab9f86",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

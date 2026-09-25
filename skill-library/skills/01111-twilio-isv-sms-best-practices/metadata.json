@@ -1,0 +1,22 @@
+{
+  "英文名称": "twilio-isv-sms-best-practices",
+  "中文名称": "待补：twilio-isv-sms-best-practices",
+  "一句话作用": "Best practices for ISVs (Independent Software Vendors) building SMS features into multi-tenant SaaS platforms using Twilio. Covers customer onboarding for A2P and toll-free compliance, subaccount architecture, sender ma…",
+  "关键输入": "- Twilio parent account (for your platform) - Understanding of A2P 10DLC requirements — See twilio-compliance-onboarding for registration basics - Understanding of Messaging Services — See twilio-messaging-services for sender pool management - Environment var…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要Best practices for ISVs (Independent Software Vendors) building SMS features into multi-tenant SaaS platforms using Twilio. Covers customer onboarding for A2P and toll-free compliance, subaccount architecture, sender ma…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01111-twilio-isv-sms-best-practices-714143ff",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sms-isv-setup/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/twilio-developer-kit/skills/twilio-sms-isv-setup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "053b358c2f28b558534a2671b3bc3f427ccddb452294b64a1281e8da3e1bcf6d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

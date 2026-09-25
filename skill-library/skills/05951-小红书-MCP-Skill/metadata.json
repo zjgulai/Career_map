@@ -1,0 +1,22 @@
+{
+  "英文名称": "xiaohongshu",
+  "中文名称": "小红书 MCP Skill",
+  "一句话作用": "小红书（RedNote）内容工具。使用场景： - 搜索小红书笔记并获取详情 - 获取首页推荐列表 - 获取帖子详情（正文、图片、互动数据、评论） - 发表评论 / 回复评论 - 获取用户主页和笔记列表 - 点赞、收藏帖子 - 发布图文或视频笔记 - 热点话题跟踪与分析报告 - 帖子导出为长图 触发词示例： - \"搜一下小红书上的XX\" - \"跟踪一下小红书上的XX热点\" - \"分析小红书上关于XX的讨论\" - \"小红书XX话题报告\"…",
+  "关键输入": "未登录时需扫码：mcp-call.sh get login qrcode 获取二维码，用小红书 App 扫码。 服务端口可通过 MCP URL 环境变量覆盖（默认 http://localhost:18060/mcp）。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要小红书（RedNote）内容工具。使用场景： - 搜索小红书笔记并获取详情 - 获取首页推荐列表 - 获取帖子详情（正文、图片、互动数据、评论） - 发表评论 / 回复评论 - 获取用户主页和笔记列表 - 点赞、收藏帖子 - 发布图文或视频笔记 - 热点话题跟踪与分析报告 - 帖子导出为长图 触发词示例： - \"搜一下小红书上的XX\" - \"跟踪一下小红书上的XX热点\" - \"分析小红书上关于XX的讨论\" - \"小红书XX话题报告\"…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05951-xiaohongshu-ab59ca86",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/xiaohongshu/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/hot-skills/skills/xiaohongshu/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "54e65dc79c7cf4e4285ee563ff3a96cbab427bf2f257c7e20f18b922046b6f01",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

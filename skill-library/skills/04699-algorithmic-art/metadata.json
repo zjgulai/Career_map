@@ -1,0 +1,22 @@
+{
+  "英文名称": "algorithmic-art",
+  "中文名称": "待补：algorithmic-art",
+  "一句话作用": "使用 p5.js 创建带有种子随机性和交互式参数探索的算法艺术。当用户请求使用代码创建艺术、生成艺术、算法艺术、流场或粒子系统时使用此技能。创作原创算法艺术，而不是复制现有艺术家的作品，以避免版权侵犯。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "输出： 1. 算法哲学 - 作为 markdown 或文本解释生成美学 2. 单一 HTML 工件 - 基于 templates/viewer.html 构建的自包含交互式生成艺术（参见步骤 0 和下一节） HTML 工件包含一切：p5.js（来自 CDN）、算法、参数控件和 UI——全部在一个文件中，可立即在 claude.ai 工件或任何浏览器中工作。从模板文件开始，而不是从头开始。 ---",
+  "最新更新时间": "2026-09-19T03:56:45+08:00",
+  "业务场景": "网站与部署",
+  "解决具体问题": "当需要使用 p5.js 创建带有种子随机性和交互式参数探索的算法艺术。当用户请求使用代码创建艺术、生成艺术、算法艺术、流场或粒子系统时使用此技能。创作原创算法艺术，而不是复制现有艺术家的作品，以避免版权侵犯。时，用它产出或更新：输出： 1. 算法哲学 - 作为 markdown 或文本解释生成美学 2. 单一 HTML 工件 - 基于 templates/viewer.html 构建的自包含交互式生成艺术（参见步骤 0 和下一节） HTML 工件包含一切：p5.js（来自 CDN）、算法、参数控件和 UI——全部…",
+  "skill_id": "04699-algorithmic-art-f0bbfd7f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/algorithmic-art/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/algorithmic-art/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "606867a05702a739d59aa1b10e92185c4e7a8b9b415682b992c7302147331493",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

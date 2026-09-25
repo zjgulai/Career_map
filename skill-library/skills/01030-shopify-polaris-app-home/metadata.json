@@ -1,0 +1,22 @@
+{
+  "英文名称": "shopify-polaris-app-home",
+  "中文名称": "待补：shopify-polaris-app-home",
+  "一句话作用": "Build your app's primary user interface embedded in the Shopify admin. If the prompt just mentions Polaris and you can't tell based off of the context what API they meant, assume they meant this API.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Build your app's primary user interface embedded in the Shopify admin. If the prompt just mentions Polaris and you can't tell based off of the context what API they meant, assume they meant this API.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01030-shopify-polaris-app-home-899d3033",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-polaris-app-home/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/shopify/skills/shopify-polaris-app-home/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6be8e236ce2a9a5385c1f0a38fd89aa7d762d1a406feacea665529bf47fad8ab",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

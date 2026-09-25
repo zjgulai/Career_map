@@ -1,0 +1,22 @@
+{
+  "英文名称": "ngs-bulk-rnaseq-differential-expression",
+  "中文名称": "待补：ngs-bulk-rnaseq-differential-expression",
+  "一句话作用": "Run or plan bulk RNA-seq differential-expression analysis from count matrices with replicate, design formula, contrast, batch, normalization, QC plot, and result-table checks.",
+  "关键输入": "Confirm: - raw count matrix path and sample metadata path - gene ID type and annotation mapping requirement - biological conditions, replicates, batch variables, donor pairing, covariates, and exclusions - exact contrasts and baseline levels - preferred stati…",
+  "关键输出": "Produce: - design formula and contrast manifest - QC plots: library size, detected genes, PCA/sample distance, mean-variance trend, and outlier review - input-mode-aware matrix exports plus the modeling/log-scale matrix used for DE - differential-expression t…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Run or plan bulk RNA-seq differential-expression analysis from count matrices with replicate, design formula, contrast, batch, normalization, QC plot, and result-table checks.时，用它产出或更新：Produce: - design formula and contrast manifest - QC plots: library siz…",
+  "skill_id": "00926-ngs-bulk-rnaseq-differential-expression-d17e9c97",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-bulk-rnaseq-differential-expression/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/ngs-analysis/skills/ngs-bulk-rnaseq-differential-expression/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0726a62fb607beef7a19efaf9972821a1fe7127f9f0cca5934d1d16b4aa37a07",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

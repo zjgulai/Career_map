@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-supplier-ontology-capability-map",
+  "中文名称": "供应商本体能力图谱 产能质量认证风险四维供应商Ontology设计与实例化",
+  "一句话作用": "触发词：供应商本体、能力图谱、供应商画像、认证标签、供应商主数据。何时不用：只做单次准入打分与证书到期预警时用供应商准入认证KPI；只做月度绩效评分与趋势预警时用供应商绩效积分卡。安全边界：供应商资质与财务数据须本地化存储并按需脱敏，涉及消费者偏好等个人数据须先签署数据处理协议。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要采购团队面临\"供应商评估靠表单+面谈需要2周\"——四维本体(能力/认证/绩效/风险)将评估时间从2周→2天，认证标签自动传播消除合规盲区时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03882-p2s-supplier-ontology-capability-map-c0920018",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-supplier-ontology-capability-map/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-supplier-ontology-capability-map/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "36fa7a2fc6aecff52f504c6d889b83fa6ef28111160c668f74169e98d01d2f95",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

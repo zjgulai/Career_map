@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-demand-signal-nowcasting",
+  "中文名称": "用搜索词评论量实时修正需求预测",
+  "一句话作用": "触发词：Nowcasting、搜索量领先信号、评论数监测、紧急补货、病毒传播。何时不用：要提前数周预警旺季拐点用「预订曲线预测」，要在大促活动期逐日预测用「LLM事件感知预测」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"TikTok视频病毒传播后6小时搜索量暴涨但销量数据延迟3天已经缺货\"——领先信号Nowcasting提前3天响应，避免缺货损失10-15万元/次时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11374-p2s-demand-signal-nowcasting-d96f7e32",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-demand-signal-nowcasting/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-demand-signal-nowcasting/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "4bdff7dc62fafa50fef35a3d03ab9ef7e6d4a163bdee532feadd19ae434a9832",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

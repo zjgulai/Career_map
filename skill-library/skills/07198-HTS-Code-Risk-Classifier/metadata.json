@@ -1,0 +1,22 @@
+{
+  "英文名称": "Skill-HTS-Code-Risk-Classifier",
+  "中文名称": "待补：HTS Code Risk Classifier",
+  "一句话作用": "{\"round\": 0, \"status\": \"keep\", \"score\": 80.0, \"best\": 80.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:49:32.551887\"}",
+  "关键输入": "论文/研究主题文件；来源位置：com~apple~CloudDocs / paper to skills / .evo",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-04T19:49:32+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要{\"round\": 0, \"status\": \"keep\", \"score\": 80.0, \"best\": 80.0, \"mutated\": \"D3 paper\", \"ts\": \"2026-07-04T04:49:32.551887\"}时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "07198-skill-hts-code-risk-classifier-1e8c1c15",
+  "source_type": "icloud_paper_file_skill",
+  "entry_type": "paper_file_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills/.evo/Skill-HTS-Code-Risk-Classifier.jsonl",
+  "relative_path": "com~apple~CloudDocs/paper_to_skills/.evo/Skill-HTS-Code-Risk-Classifier.jsonl",
+  "date_source": "file_mtime",
+  "content_hash": "4f461d98a9db597cb111cc313cb3dcd2d3163457813760d568c86a2aa347ec2c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "单元测试",
+  "中文名称": "单元测试",
+  "一句话作用": "Unit test generation for JUnit 5 + Mockito (Java) and Vitest + Vue Test Utils (Vue)",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:37:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Unit test generation for JUnit 5 + Mockito (Java) and Vitest + Vue Test Utils (Vue)时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04492-skill-73b4dac3",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/单元测试/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/fullstack-dev-expert/1.0.0/skills/单元测试/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ddd8b29078a349e3cf412865eefe84afa27f10c34efff69e808ae3e2e896e52",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "audience-adapter",
+  "中文名称": "待补：audience-adapter",
+  "一句话作用": "按受众（CEO、VP、技术负责人、运营）调整同一件事的信息粒度与语言，产出邮件或汇报要点。触发词：向上汇报、给老板写邮件、跨部门同步、汇报材料、对齐口径、audience-adapter。何时不用：把一段时间的工作汇总成周期汇报用 work-report-writer；会议过程记录用 meeting-minutes。",
+  "关键输入": "- 问题1 ：描述 → 对目标的影响 → 需要的资源/决策 - 问题2 ：...",
+  "关键输出": "- 按用户选择的输出形式生成内容 - 输出后询问用户是否需要调整语气、补充信息或转换为其他受众版本 - 如果同一内容需要发送给多个不同受众，可以一次生成多个版本",
+  "最新更新时间": "2026-09-15T11:05:39+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 问题1 ：描述 → 对目标的影响 → 需要的资源/决策 - 问题2 ：...时，用它产出或更新：- 按用户选择的输出形式生成内容 - 输出后询问用户是否需要调整语气、补充信息或转换为其他受众版本 - 如果同一内容需要发送给多个不同受众，可以一次生成多个版本",
+  "skill_id": "02462-audience-adapter-08ebc73a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/audience-adapter/SKILL.md",
+  "relative_path": "lute/.dsh/skills/audience-adapter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "05348d1afbc67c8ca29f5635af9a898e79fd9bbdfa91a809aa7a7dc773346916",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

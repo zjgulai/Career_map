@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-augmented-recommendation",
+  "中文名称": "大语言模型增强个性化推荐：自然语言驱动的跨域用户意图理解",
+  "一句话作用": "触发词：LLM 推荐、自然语言意图、新用户冷启动、语义相似度、澄清追问。何时不用：要做多语言语义 ID 检索用「语义 ID 检索 RPG」；要生成商品嵌入做新品推荐用「扩散模型推荐」。安全边界：用户自然语言输入属个人信息，采集与使用须告知并获同意；语义相似度阈值低于卡页建议下限时会引入噪声商品，不得直接上线。",
+  "关键输入": "alpha（语义权重）：冷启动用 0.7-0.9，热启动用 0.2-0.4 CLARIFICATION ENTROPY THRESHOLD：调低 → 更多澄清问题（精准但体验差），调高 → 更快推荐（体验好但不精准） Grounding 相似度阈值：建议 0.3 以上，过低会引入噪声物品",
+  "关键输出": "alpha（语义权重）：冷启动用 0.7-0.9，热启动用 0.2-0.4 CLARIFICATION ENTROPY THRESHOLD：调低 → 更多澄清问题（精准但体验差），调高 → 更快推荐（体验好但不精准） Grounding 相似度阈值：建议 0.3 以上，过低会引入噪声物品",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要母婴跨境电商新用户注册率高但转化低，约 65% 新用户第一屏浏览 ≤3 个商品后跳出时，用它产出或更新：alpha（语义权重）：冷启动用 0.7-0.9，热启动用 0.2-0.4 CLARIFICATION ENTROPY THRESHOLD：调低 → 更多澄清问题（精准但体验差），调高 → 更快推荐（体验好但不精准） Grounding 相似度阈值：建议 0.3 以上，过低会引入噪声物品",
+  "skill_id": "03329-p2s-llm-augmented-recommendation-6ad86b75",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-llm-augmented-recommendation/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-llm-augmented-recommendation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd07d338f074d707a7b5f6fafb90b7828bdb0ed721e8dda2c5311830c1805630",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

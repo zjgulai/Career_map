@@ -1,0 +1,22 @@
+{
+  "英文名称": "dsh-find-simplifications",
+  "中文名称": "待补：dsh-find-simplifications",
+  "一句话作用": "Use when working in the deepseek-harness repo to find non-obvious simplification candidates, remove redundant comments or implementation-heavy documentation, write proposed Agent Notes or inline TODO/FIXME/XXX notes, au…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "For docs-only Agent Note work, run at least pnpm run doc-sync, pnpm run lint, and git diff --check. For code comments or skill changes, also run the relevant validator when one exists. Select any other evidence from the outgoing diff; the pre-push hook contri…",
+  "最新更新时间": "2026-09-17T11:00:12+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when working in the deepseek-harness repo to find non-obvious simplification candidates, remove redundant comments or implementation-heavy documentation, write proposed Agent Notes or inline TODO/FIXME/XXX notes, au…时，用它产出或更新：For docs-only Agent Note w…",
+  "skill_id": "12652-dsh-find-simplifications-399a086e",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-find-simplifications/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/vendor/dsh-desktop/deepseek-harness/.agents/skills/dsh-find-simplifications/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "03d56b6412abfaa770e406d680ee0bd3af2c8dd0499707aba3c0607279f22ff4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

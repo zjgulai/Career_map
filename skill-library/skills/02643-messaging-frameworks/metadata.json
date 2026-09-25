@@ -1,0 +1,22 @@
+{
+  "英文名称": "messaging-frameworks",
+  "中文名称": "待补：messaging-frameworks",
+  "一句话作用": "Use when building message houses, key statements, and proof structures",
+  "关键输入": "- Preparing PR/AR launches or executive communications. - Aligning cross-functional teams on talking points. - Rapid response situations requiring consistent statements.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T01:21:44+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- Preparing PR/AR launches or executive communications. - Aligning cross-functional teams on talking points. - Rapid response situations requiring consistent statements.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02643-messaging-frameworks-032dd661",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/messaging-frameworks/SKILL.md",
+  "relative_path": "lute/.dsh/skills/messaging-frameworks/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7cf0fce7810b9f6305cb02a9ddd512289474b8ee3ade4159c5600b1a8a6b4eca",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

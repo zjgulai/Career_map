@@ -1,0 +1,22 @@
+{
+  "英文名称": "canva-resize-for-social-media",
+  "中文名称": "待补：canva-resize-for-social-media",
+  "一句话作用": "Resize a Canva design into multiple social media formats (Facebook post, Facebook story, Instagram post, Instagram story, LinkedIn post). Use this skill when users want to resize Canva designs specifically for multiple…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Present comprehensive results to the user: Provide the user with a summary including: 1. Summary : Confirm which formats were created successfully 2. Design edit links : Canva editor URLs for each resized design so users can make further edits or download dir…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Resize a Canva design into multiple social media formats (Facebook post, Facebook story, Instagram post, Instagram story, LinkedIn post). Use this skill when users want to resize Canva designs specifically for multiple…时，用它产出或更新：Present comprehensive resul…",
+  "skill_id": "00761-canva-resize-for-social-media-e83dc050",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/canva/skills/canva-resize-for-social-media/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/canva/skills/canva-resize-for-social-media/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d1e4d31c6c2f6e1507249e0b5c9d726d0ddbc29dea4ea29708f773df6c843e1",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "launch-strategy",
+  "中文名称": "待补：launch-strategy",
+  "一句话作用": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-21T17:35:30+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00334-launch-strategy-49f9a9cd",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/launch-strategy/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/launch-strategy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ec0662ee5fca69ee754021efa7b78294ddcd39d9a1dd83bf0782a7c2242c2470",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

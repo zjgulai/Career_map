@@ -1,0 +1,22 @@
+{
+  "英文名称": "shader-dev",
+  "中文名称": "待补：shader-dev",
+  "一句话作用": "Comprehensive GLSL shader techniques for creating stunning visual effects — ray marching, SDF modeling, fluid simulation, particle systems, procedural generation, lighting, post-processing, and more.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- webgl-pitfalls — Common WebGL2/GLSL errors: fragCoord, main() wrapper, function order, macro limitations, uniform null",
+  "最新更新时间": "2026-04-18T17:48:33+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Comprehensive GLSL shader techniques for creating stunning visual effects — ray marching, SDF modeling, fluid simulation, particle systems, procedural generation, lighting, post-processing, and more.时，用它产出或更新：- webgl-pitfalls — Common WebGL2/GLSL errors: f…",
+  "skill_id": "10725-shader-dev-13721109",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/MinMax/skills/shader-dev/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/MinMax/skills/shader-dev/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7d3cc9d69da2b598e423da5ec927ff61371edab669e2b9a2f4bcf3ec0f29db4d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

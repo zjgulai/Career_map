@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-automated-replenishment-decision-engine",
+  "中文名称": "备货决策自动化引擎：从规则到智能补货",
+  "一句话作用": "触发词：自动补货、备货决策、补货量计算、安全库存补货、批量补货建议。何时不用：需求均值方差还没算出来时先走「需求预测」；要决定清仓还是调拨时走「调拨清货建议」。安全边界：只输出补货建议、风险分与理由，下单付款与入库动作须人工确认后交外部系统执行。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要50个SKU每月手动备货决策耗时25小时且遗漏风险高——三层自动化引擎（预测→优化→执行）接管80%决策，人工只需审核5小时高风险决策，年化节省人力+库存效率15-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02796-p2s-automated-replenishment-decision-engine-f48bcc7a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-automated-replenishment-decision-engine/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-automated-replenishment-decision-engine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "f80719de99934fede3cde3ec1ec67fa41b003f3a0458243232f5dad27f97c7c0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

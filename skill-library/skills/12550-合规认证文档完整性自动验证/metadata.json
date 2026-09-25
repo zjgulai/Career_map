@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-gcc-cpc-document-validator",
+  "中文名称": "合规认证文档完整性自动验证",
+  "一句话作用": "触发词：GCC 文档、CPC 证书、文档完整性、百分制评分、缺件清单、标准版本核查。何时不用：要批量填 eFiling 申报字段时用「CPSC eFiling 字段映射」，要先梳理该做哪些认证时用「CPSC 儿童产品安全合规」。安全边界：验证结论只代表文档字段完整，不代表产品实测合格或平台审核通过。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"15份GCC/CPC文档不知道是否符合eFiling要求导致FBA入库被拒\"——规则Schema验证将文档合规率从65%改善为95%，年化节省检测返工费8万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12550-p2s-gcc-cpc-document-validator-18ee8663",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-gcc-cpc-document-validator/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/财务与合规/p2s-gcc-cpc-document-validator/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "43e9dececb731269f5c42462e5d1f1ac363f703484d379f1d4f071d24ec6e5b4",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

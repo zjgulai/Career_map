@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-fragments",
+  "中文名称": "待补：writing-fragments",
+  "一句话作用": "先收碎片再拼装，适合长文与文档的分段成稿。触发词：写法·碎片、writing-fragments、先收碎片再拼装，适合长文与文档的分段成稿。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-16T00:21:15+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要先收碎片再拼装，适合长文与文档的分段成稿。触发词：写法·碎片、writing-fragments、先收碎片再拼装，适合长文与文档的分段成稿。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04261-writing-fragments-1dd8466c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/writing-fragments/SKILL.md",
+  "relative_path": "lute/.dsh/skills/writing-fragments/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5fcbb14d8cc0875e8e6467175663d83e5f74ae6f45fb70790a89cd10a12210a2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

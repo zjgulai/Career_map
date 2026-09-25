@@ -1,0 +1,22 @@
+{
+  "英文名称": "fundraising-bp-planner",
+  "中文名称": "待补：fundraising-bp-planner",
+  "一句话作用": "生成融资BP大纲，完整覆盖从问题定义到融资需求的六大核心模块，并为每个模块提供具体的数据呈现建议与视觉化指引。当用户提及融资BP、商业计划书、pitch deck、融资大纲等关键词，或表达如“帮我写个BP”、“理一下融资思路”、“准备投资人材料”等需求时触发。",
+  "关键输入": "目标 ：清晰定义目标用户面临的痛点，让投资人感受到问题的真实性和紧迫性。 操作步骤 ： 1. 痛点描述 ： - 用一句话概括核心痛点 - 描述目标用户当前的解决方式及其不足 - 量化痛点的影响（时间成本、金钱损失、效率损耗等） 2. 建议的大纲内容 ： - 核心痛点陈述（1 句话） - 现状描述（用户当前如何应对） - 痛点的规模和影响 3. 数据呈现建议 ： 数据类型 呈现方式 说明 ---------- ---------- --…",
+  "关键输出": "目标 ：将前七个阶段的产出组装成完整的 BP 大纲文档。 BP 大纲文档模板 ：",
+  "最新更新时间": "2026-09-14T00:05:46+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要目标 ：清晰定义目标用户面临的痛点，让投资人感受到问题的真实性和紧迫性。 操作步骤 ： 1. 痛点描述 ： - 用一句话概括核心痛点 - 描述目标用户当前的解决方式及其不足 - 量化痛点的影响（时间成本、金钱损失、效率损耗等） 2. 建议的大纲内容 ： - 核心痛点陈述（1 句话） - 现状描述（用户当前如何应对） - 痛点的规模和影响 3. 数据呈现建议 ： 数据类型 呈现方式 说明 ---------- ---------- --…时，用它产出或更新：目标 ：将前七个阶段的产出组装成完整的 BP 大纲文…",
+  "skill_id": "10582-fundraising-bp-planner-86f62647",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/fundraising-bp-planner/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/fundraising-bp-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a5d39778f2411069ec1d3da7c6ddfbaf7e567713146b724c5e68f05973dd15b2",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-first-last-mile-cost-kpi-crossborder",
+  "中文名称": "跨境头程末程成本KPI与路线优化 头程运费率末程成本率跨境物流综合成本体系",
+  "一句话作用": "触发词：物流成本率、头程末程成本、空运海运决策、物流成本拆解、多市场成本对比。何时不用：单条路线在多家承运商之间比选用「承运商动态选择」，要看碳排与碳税的路线取舍用「碳最优路径规划」；本技能只拆段算成本率并做补货运输方式决策。安全边界：空运等补货决策涉及资金与断货风险，须人工确认后执行；奶粉等品类仍须满足进口国营养标准、商检备案与原产地证明。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要财务面临\"物流成本率高达18%但降本无从下手\"——三段成本拆解+空运vs海运ROI决策将物流成本率降至14%，年化节省40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11389-p2s-first-last-mile-cost-kpi-crossborder-96eee23f",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-first-last-mile-cost-kpi-crossborder/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-first-last-mile-cost-kpi-crossborder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b7f23aacd89657c93dbaaa2730e2c27263c7029b613b8e011105a16174a2869c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

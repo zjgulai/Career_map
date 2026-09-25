@@ -1,0 +1,22 @@
+{
+  "英文名称": "routing-middleware",
+  "中文名称": "待补：routing-middleware",
+  "一句话作用": "Vercel Routing Middleware guidance — request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes. Use when intercepting requests at the pla…",
+  "关键输入": "- Geo-personalization of static pages (runs before cache) - A/B testing rewrites with Edge Config - Custom redirects based on request properties - Header injection (CSP, CORS, custom headers) - Lightweight auth checks (…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Geo-personalization of static pages (runs before cache) - A/B testing rewrites with Edge Config - Custom redirects based on request properties - Header injection (CSP, CORS, custom headers) - Lightweight auth checks (…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01547-routing-middleware-63d1d498",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/routing-middleware/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/routing-middleware/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0b9144b76ee253d169453505a7c9d8d42ceefe8ab835bc136b7c56402ae9877f",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "B2B",
+  "中文名称": "买家心理模型",
+  "一句话作用": "引用方 : C组Agent（C01-C04）核心参考 核心原则 : 理解买家心理是成交转化的基础，所有沟通策略均基于本模型。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-01T22:14:26+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要引用方 : C组Agent（C01-C04）核心参考 核心原则 : 理解买家心理是成交转化的基础，所有沟通策略均基于本模型。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "00033-b2b-239a4ffb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-buyer-psychology/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/agents/MID-36471462U1788272-8A8E75-0660-3375D6/agent-core/skills/shared-buyer-psychology/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "36ad7dc3ad828f79278f8eb3aceefb8b0aa7afb5ba6ceab93f175588e5a5ff31",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

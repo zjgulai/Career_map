@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-postpromo-retrospective-kpi",
+  "中文名称": "大促后复盘KPI体系 售罄率分析备货vs实销对比履约回顾改善行动计划",
+  "一句话作用": "触发词：大促复盘、售罄率分析、备货对比实销、履约回顾、改善行动计划、大促后补货。何时不用：大促前备货盘点用「Skill-Pre-Promo-Stocktaking-KPI」；大促中实时决策用「Skill-InPromo-Realtime-Decision-KPI」；预测偏差成因校正用「Skill-Forecast-Bias-Adjustment-Detection」；尾货清仓用「Skill-Long-Tail-SKU-Clearanc…",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要大促后总结会浮于表面每年重复相同错误——四维系统化复盘（售罄率分级/备货准确率归因/物流履约回顾/改善行动追踪），建立数字化学习飞轮下次大促准确率提升15%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12383-p2s-postpromo-retrospective-kpi-bbd1641e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-postpromo-retrospective-kpi/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-postpromo-retrospective-kpi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "92c3f724e5317bf4ab89efcf64836f918bb951cfeef0f3c52394dc6ec3a6185c",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

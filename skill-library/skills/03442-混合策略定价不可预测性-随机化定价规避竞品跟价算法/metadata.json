@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-mixed-strategy-pricing-unpredictability",
+  "中文名称": "混合策略定价不可预测性 随机化定价规避竞品跟价算法",
+  "一句话作用": "触发词：混合策略、随机化调价、反跟价、调价规律、价格优势窗口、不可预测定价。何时不用：还不确定竞品是否在用自动跟价工具时先用「价格爬取防御」做检测；要与竞品维持长期合作高价用「重复博弈长期定价合作」。安全边界：随机化调价不得击穿最低利润保护价；公开的价格与促销表述须真实，不得构成虚假宣传。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营负责人面临\"定价策略被竞品算法完全预测跟价响应不到10分钟\"——混合策略随机化将竞品跟价有效率降低68%，价格优势窗口扩大至4-8小时时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03442-p2s-mixed-strategy-pricing-unpredictability-560036a0",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-mixed-strategy-pricing-unpredictability/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-mixed-strategy-pricing-unpredictability/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c1466d3ee2578c351f4b035e1cde9288df2e854ce4cbbe5e8b28def1d4e62cac",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

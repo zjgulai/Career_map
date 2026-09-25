@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-ml-ab-randomization-test",
+  "中文名称": "辅助A随机化检验 有限样本随机化测试检测异质处理效应与干扰效应",
+  "一句话作用": "触发词：随机化检验、异质处理效应、子群漏报、干扰效应检验、排列检验。何时不用：整体平均效果已足够、只需判断显著性时走「功效分析与样本量」或常规 A/B 检验；不存在子群差异与组间干扰疑虑时不必上 ML 统计量。安全边界：社交网络与行为关联分析需先确认用户同意条款覆盖，且仅用于检测，不做库存或流量的操纵性干预。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要传统t检验漏报异质处理效应导致真实有价值的实验被错误回滚——ML随机化检验将ML交叉验证误差差作为统计量，精准检测HTE和干扰效应，有限样本精确保证（2025 arXiv:2501.07722）时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11742-p2s-ml-ab-randomization-test-7cfe0d45",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ml-ab-randomization-test/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/品牌与增长/p2s-ml-ab-randomization-test/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "15c9520ae3d81719f87a131e971d1dc6015d764ea78748506d3912c471f21bed",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-step-reasoning-bi",
+  "中文名称": "多步推理BI分析 链式推理自动生成财务归因报告",
+  "一句话作用": "触发词：多步推理、链式推理、代码辅助计算、利润归因报告、实时根因分析。何时不用：要多 Agent 分部门把差异落到责任部门用「多智能体 P&L 协同」；要阅读原始账单并做数值验证的财务解读用「财务报告解读 Agent」。安全边界：财务数据发给外部模型前须脱敏；对外报告须人工审核；数值计算交由代码执行，避免模型直接算错。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要财务团队面临\"月度P&L归因报告需2天人工分析且框架不一致\"——CoT+PAL多步推理链20分钟自动生成可信归因报告，年化节省80万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03492-p2s-multi-step-reasoning-bi-93b216a1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-step-reasoning-bi/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-step-reasoning-bi/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "02421b3ca8cf9fee07c14ae8b35e0c4785610c2de8096538f593c8380e843d7a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

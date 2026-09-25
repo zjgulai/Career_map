@@ -1,0 +1,22 @@
+{
+  "英文名称": "Preserving Productive Tensions",
+  "中文名称": "待补：Preserving Productive Tensions",
+  "一句话作用": "Recognize when disagreements reveal valuable context, preserve multiple valid approaches instead of forcing premature resolution",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:49:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Recognize when disagreements reveal valuable context, preserve multiple valid approaches instead of forcing premature resolution时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05021-preserving-productive-tensions-4e894a0f",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/Preserving-Productive-Tensions/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/Preserving-Productive-Tensions/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c627a76126957e40b185b28cd71b3486348582601318e7759b0ce147e2940d3e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

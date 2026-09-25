@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-llm-schema-inference",
+  "中文名称": "自动推断数据结构 无 schema 的电商 API 接入",
+  "一句话作用": "触发词：Schema自动推断、无文档API接入、字段类型推断、数据字典生成、Schema变更检测。何时不用：已有正式契约、只需校验兼容性时用数据契约与 Schema 演化技能；要把推断结果直接落成采集管道时用采集管道类技能。安全边界：金额与 ID 类字段的推断结果必须人工校验，不得直接用于对外结算或合规声明。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要数据工程师面临\"接入新电商API时手动解析无文档schema耗时数天\"——LLM自动推断数据结构将新API接入时间从3天缩短至2小时，年化加速业务集成节省工程成本20-35万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12025-p2s-llm-schema-inference-88baaa99",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-schema-inference/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-llm-schema-inference/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "9d41e9c95fb243ab4c06d7094b15b645f1a4535ad524162f290182edcf67e5f7",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "datapack-builder",
+  "中文名称": "待补：datapack-builder",
+  "一句话作用": "Build professional financial services data packs from various sources including CIMs, offering memorandums, SEC filings, web search, or MCP servers. Extract, normalize, and standardize financial data into investment com…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Step 5.1: Data accuracy checks Validate: - Every number traces to source (check spot samples, cite documents/URLs/servers) - All calculations are formula-based (no hardcoded values) - Subtotals and totals are mathematically correct - Years display without com…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要Build professional financial services data packs from various sources including CIMs, offering memorandums, SEC filings, web search, or MCP servers. Extract, normalize, and standardize financial data into investment com…时，用它产出或更新：Step 5.1: Data accuracy ch…",
+  "skill_id": "05500-datapack-builder-32802c0e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/datapack-builder/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/datapack-builder/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "eb5e83d1a166525eebab1b776ab6974feacee3e2a6332a7ee07b3b1821a1411e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

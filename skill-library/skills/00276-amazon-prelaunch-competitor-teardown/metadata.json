@@ -1,0 +1,22 @@
+{
+  "英文名称": "amazon-prelaunch-competitor-teardown",
+  "中文名称": "待补：amazon-prelaunch-competitor-teardown",
+  "一句话作用": "Tear down a competing Amazon ASIN or brand: revenue, price history, keyword footprint, share of voice, and where it is weak. Use when the user shares a competitor ASIN or brand to beat.",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- An empty data[] is a successful call with no records ( observed empty ) — it is not proof of zero demand or a dead competitor. Cross-check the ASIN, brand spelling, marketplace, and filters before concluding anything, and say \"no records returned,\" not \"no…",
+  "最新更新时间": "2026-09-21T17:35:22+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Tear down a competing Amazon ASIN or brand: revenue, price history, keyword footprint, share of voice, and where it is weak. Use when the user shares a competitor ASIN or brand to beat.时，用它产出或更新：- An empty data[] is a successful call with no records ( obse…",
+  "skill_id": "00276-amazon-prelaunch-competitor-teardown-f59d62b5",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.accio/accounts/1786471462/skills/amazon-prelaunch-competitor-teardown/SKILL.md",
+  "relative_path": "lute/.accio/accounts/1786471462/skills/amazon-prelaunch-competitor-teardown/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bee4c3cc588b08a789332fc0cc628b79e26d2d5324c7f9c9a703b11ad25e162b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

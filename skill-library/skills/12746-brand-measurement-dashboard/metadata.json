@@ -1,0 +1,22 @@
+{
+  "英文名称": "brand-measurement-dashboard",
+  "中文名称": "待补：brand-measurement-dashboard",
+  "一句话作用": "KPI framework and reporting system for tracking brand health, consistency, and impact.",
+  "关键输入": "- Establishing KPIs for brand initiatives or campaigns. - Building recurring dashboards for ELT, marketing, or product leadership. - Connecting creative execution metrics to business outcomes.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- Establishing KPIs for brand initiatives or campaigns. - Building recurring dashboards for ELT, marketing, or product leadership. - Connecting creative execution metrics to business outcomes.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12746-brand-measurement-dashboard-81e7344e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/brand-strategy/skills/brand-measurement-dashboard/SKILL.md",
+  "relative_path": "lute/project/skills/brand-strategy/skills/brand-measurement-dashboard/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "983e0de17400f53b4427d3757e586acdcadd5c3775dfd16a59cba69640e8ac34",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

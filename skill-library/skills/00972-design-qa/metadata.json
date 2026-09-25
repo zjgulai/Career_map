@@ -1,0 +1,22 @@
+{
+  "英文名称": "design-qa",
+  "中文名称": "待补：design-qa",
+  "一句话作用": "Internal prototype QA helper. Use only after a Product Design prototype, URL-to-code build, or image-to-code build has a source visual target and a rendered implementation to compare before handoff. Do not use for broad…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Use this structure unless the user asks otherwise: If there are no substantive mismatches, say that clearly and list any residual test gaps. When this skill is used before handoff, save the latest QA report as project-root design-qa.md. design-qa.md must incl…",
+  "最新更新时间": "2026-09-17T16:31:39+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要Internal prototype QA helper. Use only after a Product Design prototype, URL-to-code build, or image-to-code build has a source visual target and a rendered implementation to compare before handoff. Do not use for broad…时，用它产出或更新：Use this structure unless…",
+  "skill_id": "00972-design-qa-7587adb1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/.tmp/plugins/plugins/product-design/skills/design-qa/SKILL.md",
+  "relative_path": "lute/.codex/.tmp/plugins/plugins/product-design/skills/design-qa/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "19303684c7c84e279f3582d784493a6f09d207d92a29e9b15b7056020bcf306e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

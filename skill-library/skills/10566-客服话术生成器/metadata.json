@@ -1,0 +1,22 @@
+{
+  "英文名称": "customer-reply-craft",
+  "中文名称": "客服话术生成器",
+  "一句话作用": "客服话术生成器，为售前咨询、售后服务、投诉处理、退换货四大场景生成专业回复，包含五级客户情绪安抚策略与禁忌用语规避。当用户说“帮我写个客服回复”、“客户很生气怎么办”、“退货话术怎么说”，或提及客服话术、客诉应对、情绪安抚、回复模板等关键词时触发。",
+  "关键输入": "请用户提供以下信息（至少提供前两项）： 1. 场景类型 ：售前咨询 / 售后服务 / 投诉处理 / 退换货 2. 具体问题 ：客户遇到的问题或提出的需求 3. 客户情绪 （可选）：平静、焦急、愤怒、失望、犹豫 4. 行业领域 （可选）：电商、SaaS、餐饮、教育、金融等 5. 沟通渠道 （可选）：在线客服、电话、邮件、社交媒体 若用户未指定客户情绪，默认按\"焦急\"处理。若未指定行业，默认按电商场景处理。 ---",
+  "关键输出": "对用户的每次请求，按以下结构输出话术方案：",
+  "最新更新时间": "2026-09-14T00:08:52+08:00",
+  "业务场景": "其他待归类",
+  "解决具体问题": "当需要[需要升级处理时的回复文本] ---时，用它产出或更新：对用户的每次请求，按以下结构输出话术方案：",
+  "skill_id": "10566-customer-reply-craft-9e735269",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/customer-reply-craft/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/customer-reply-craft/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "69383ffcdcbbefb1ad98d09db22273ad9061db7db7f75196a80c1f844d22d920",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-workflow-meeting-summary",
+  "中文名称": "会议纪要汇总工作流",
+  "一句话作用": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。",
+  "关键输入": "仅支持 user 身份 。所需 vc 域 token（读取纪要文档正文、生成文档时另需 drive 域；无 note id 时的妙记备选路径另需 minutes 域）由 agent 平台注入。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-22T22:51:27+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- \"帮我整理这周的会议纪要\" / \"总结最近的会议\" / \"生成会议周报\" - \"看看今天开了哪些会\" / \"回顾过去一周开了哪些会\"时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06326-lark-workflow-meeting-summary-ca77e43c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/lark-workflow-meeting-summary/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/lark-workflow-meeting-summary/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "628db6e66799aedd12184225e35daab47a2bbc118370c6498229f95669bb2b09",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

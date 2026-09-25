@@ -1,0 +1,22 @@
+{
+  "英文名称": "xiaoe-cloud-cli",
+  "中文名称": "小鹅通",
+  "一句话作用": "小鹅通：使用当前登录账号和店铺上下文管理课程、内容资产、章节、直播、订单和素材。",
+  "关键输入": "- 连接失败：先在 WorkBuddy 连接器面板重新连接；如果仍然失败，请联系管理员检查服务的外网配置。 - 可用工具为空：先确认登录成功和当前店铺选择无误；如果仍为空，可能是当前账号、店铺或能力策略未开放工具。 - 能力不可用：刷新当前会话的可用工具并重新规划，不自动重放原请求。 - 写操作要求确认：展示业务摘要并等待用户明确确认，不自动继续。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要- 连接失败：先在 WorkBuddy 连接器面板重新连接；如果仍然失败，请联系管理员检查服务的外网配置。 - 可用工具为空：先确认登录成功和当前店铺选择无误；如果仍为空，可能是当前账号、店铺或能力策略未开放工具。 - 能力不可用：刷新当前会话的可用工具并重新规划，不自动重放原请求。 - 写操作要求确认：展示业务摘要并等待用户明确确认，不自动继续。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05408-xiaoe-cloud-cli-2865842e",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/xiaoe-cloud-cli/skills/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/xiaoe-cloud-cli/skills/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d2e96ee0b09289e8b1dbb8a87990e277c158461283dd37bb73eb674f708ac22b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

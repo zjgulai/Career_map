@@ -1,0 +1,22 @@
+{
+  "英文名称": "alibabacloud-docmind-parse",
+  "中文名称": "待补：alibabacloud-docmind-parse",
+  "一句话作用": "Alibaba Cloud DocMind intelligent document parsing tool. Supports PDF, Word, PPT, Excel, images and more, outputting structured Markdown/JSON/HTML. Offers two invocation modes — V2 API direct access and Alibaba Cloud PO…",
+  "关键输入": "Parameter Description Default ----------- ------------- --------- Local file path or file URL Required --mode Invocation mode: auto, v2, pop auto --enhancement Enhancement mode: VLM, LLM, DIGITAL, OCR, AUTO None",
+  "关键输出": "python scripts/docmind parse.py ./report.pdf --pages 1-5 --output-file result.md",
+  "最新更新时间": "2026-09-19T03:49:48+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Alibaba Cloud DocMind intelligent document parsing tool. Supports PDF, Word, PPT, Excel, images and more, outputting structured Markdown/JSON/HTML. Offers two invocation modes — V2 API direct access and Alibaba Cloud PO…时，用它产出或更新：python scripts/docmind par…",
+  "skill_id": "04703-alibabacloud-docmind-parse-2f4bad8a",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/alibabacloud-docmind-parse/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/alibabacloud-docmind-parse/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "65887a03444b4ce2e3185c4609287a08ac69f0547b1c8cfd16717b5d9401900c",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "fda-database",
+  "中文名称": "待补：fda-database",
+  "一句话作用": "Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA), substance identification (UNII), for FDA regulatory data analysis and safety research.",
+  "关键输入": "Clean and validate search terms:",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要This skill should be used when working with: - Drug research : Safety profiles, adverse events, labeling, approvals, shortages - Medical device surveillance : Adverse events, recalls, 510(k) clearances, PMA approvals时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05728-fda-database-9daec485",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/fda-database/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/scientific-skills/fda-database/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "05cd0bd278045fff3357be107c2a75453d050b02c277964a2517b4b611de3b7a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

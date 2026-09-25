@@ -1,0 +1,22 @@
+{
+  "英文名称": "turborepo",
+  "中文名称": "待补：turborepo",
+  "一句话作用": "Turborepo expert guidance. Use when setting up or optimizing monorepo builds, configuring task caching, remote caching, parallel execution, or the --affected flag for incremental CI.",
+  "关键输入": "Scenario Recommended? ---------- ------------- Multiple teams owning independent features Yes — independent deploys + shared packages Single team, single app No — standard Next.js is simpler Shared component library acr…",
+  "关键输出": "turbo build --graph=graph.dot",
+  "最新更新时间": "2026-09-17T09:36:43+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Scenario Recommended? ---------- ------------- Multiple teams owning independent features Yes — independent deploys + shared packages Single team, single app No — standard Next.js is simpler Shared component library acr…时，用它产出或更新：turbo build --graph=graph.…",
+  "skill_id": "01554-turborepo-b5d3f797",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/turborepo/SKILL.md",
+  "relative_path": "lute/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/turborepo/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3c4b0658cedf2f342b49919d5116371a6f3c03a03759d1d6ff29a52d22059704",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

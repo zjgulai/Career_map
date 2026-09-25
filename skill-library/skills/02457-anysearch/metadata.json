@@ -1,0 +1,22 @@
+{
+  "英文名称": "anysearch",
+  "中文名称": "待补：anysearch",
+  "一句话作用": "统一实时搜索引擎技能：通用网页搜索、垂直领域搜索（Stock/CVE/DOI/IATA/专利等）、并行批量搜索与整页内容提取。用于信息检索、事实核查、网页内容读取与深度研究；配置 API Key 获得更高配额，匿名可用。触发词：anysearch、实时搜索、批量搜索、网页提取、事实核查、查最新数据。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-07T17:13:17+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要统一实时搜索引擎技能：通用网页搜索、垂直领域搜索（Stock/CVE/DOI/IATA/专利等）、并行批量搜索与整页内容提取。用于信息检索、事实核查、网页内容读取与深度研究；配置 API Key 获得更高配额，匿名可用。触发词：anysearch、实时搜索、批量搜索、网页提取、事实核查、查最新数据。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02457-anysearch-858af2b8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/anysearch/SKILL.md",
+  "relative_path": "lute/.dsh/skills/anysearch/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "890911688fb512ae14bdcf7d0b29100d8b9ac9ed70b910e064a10bc1237db03d",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

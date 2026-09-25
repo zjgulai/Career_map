@@ -1,0 +1,22 @@
+{
+  "英文名称": "scaffold-exercises",
+  "中文名称": "待补：scaffold-exercises",
+  "一句话作用": "创建包含章节、题目、答案和讲解的练习目录结构，并确保通过 linting。适用于用户想 scaffold exercises、创建 exercise stubs，或设置新的课程章节时。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-30T16:41:54+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要创建包含章节、题目、答案和讲解的练习目录结构，并确保通过 linting。适用于用户想 scaffold exercises、创建 exercise stubs，或设置新的课程章节时。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10754-scaffold-exercises-4b5e9d35",
+  "source_type": "local_agent_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/ai_video/.agents/skills/scaffold-exercises/SKILL.md",
+  "relative_path": "lute/project/ai_video/.agents/skills/scaffold-exercises/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a73110cc7e1e96f47407c94c4d31956155da52d73368b572f233c29bfd0b686c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

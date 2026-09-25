@@ -1,0 +1,22 @@
+{
+  "英文名称": "code-to-chart",
+  "中文名称": "待补：code-to-chart",
+  "一句话作用": "解析代码仓库的 import/依赖关系，自动生成架构图、流程图和组织架构图，输出 Mermaid 文本或 SVG 图片。支持 Python、JavaScript、TypeScript、Go 和 Java 项目。当用户需要可视化代码结构、分析模块依赖、生成架构文档，或提及“代码架构图”、“依赖关系图”、“流程图”、“组织架构图”、“Mermaid 图”等关键词时触发。",
+  "关键输入": "参数 说明 ------ ------ directory 要分析的代码目录（必填） --type, -t 图表类型：architecture、flowchart、org、all（默认 all） --output, -o 输出目录（默认当前目录） --format, -f 输出格式：mermaid、svg、both（默认 mermaid） --max-files 最大扫描文件数（默认 500）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-14T00:07:55+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要- 快速了解陌生项目的模块结构 - 代码审查时可视化依赖关系 - 编写技术文档中的架构图 - 发现循环依赖或过度耦合 - 项目重构前的结构分析时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10560-code-to-chart-5ca6031e",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/code-to-chart/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/code-to-chart/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aca58ba265f01bdaee0a417908f6e17f7e6d48664c323d3e067652ba1a08a5c8",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

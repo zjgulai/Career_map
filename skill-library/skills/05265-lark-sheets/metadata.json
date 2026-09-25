@@ -1,0 +1,22 @@
+{
+  "英文名称": "lark-sheets",
+  "中文名称": "待补：lark-sheets",
+  "一句话作用": "飞书电子表格：创建和操作电子表格。支持创建表格、管理工作表与行列结构（增删/合并/调整尺寸/隐藏/冻结）、读写单元格（值/公式/样式/批注/单元格图片）、查找替换、多操作原子批量更新，以及图表、透视表、条件格式、筛选器、迷你图、浮动图片等对象的创建与维护。当用户需要创建电子表格、管理工作表、批量读写或编辑数据、统计汇总与可视化、表格美化、公式计算（含 Excel 公式迁移）、金融/财务建模（DCF、三张表、预算、Sensitivity…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- flag 表里 JSON 类入参标三类： 复合 JSON = 深层嵌套对象（用 --print-schema 取完整结构）； 简单 JSON = 一维 / 二维标量数组（如 [\"sheet1!A1:B2\",...] / [[\"alice\",95]]，结构简单无需 print-schema）； 非 JSON 文本 = 原样文本（如 CSV）。--print-schema 只对 复合 JSON flag 有效（同一 shortcut 的简单 JSON flag 如 --colors 不在此列）。",
+  "最新更新时间": "2026-07-30T01:42:30+08:00",
+  "业务场景": "数据分析与BI",
+  "解决具体问题": "当需要飞书电子表格：创建和操作电子表格。支持创建表格、管理工作表与行列结构（增删/合并/调整尺寸/隐藏/冻结）、读写单元格（值/公式/样式/批注/单元格图片）、查找替换、多操作原子批量更新，以及图表、透视表、条件格式、筛选器、迷你图、浮动图片等对象的创建与维护。当用户需要创建电子表格、管理工作表、批量读写或编辑数据、统计汇总与可视化、表格美化、公式计算（含 Excel 公式迁移）、金融/财务建模（DCF、三张表、预算、Sensitivity…时，用它产出或更新：- flag 表里 JSON 类入参标三类： 复合…",
+  "skill_id": "05265-lark-sheets-626e1afa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-sheets/SKILL.md",
+  "relative_path": "lute/.workbuddy/connectors-marketplace/connectors/feishu/skills/lark-sheets/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "8c470db8e85b38ff81de56255f878f63ba4822bc892ba3355386435eca41e2fa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

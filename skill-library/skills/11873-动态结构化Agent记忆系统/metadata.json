@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-a-mem-agentic-memory-system",
+  "中文名称": "动态结构化Agent记忆系统",
+  "一句话作用": "触发词：结构化记忆、记忆节点、关联检索、决策一致性、Zettelkasten式管理。何时不用：一次性任务、无跨会话一致性需求时不适用；只压缩当轮上下文走主动上下文剪枝。安全边界：记忆节点须加密存储并符合个人数据处理规范，错误决策被强化的记忆污染风险须用人工审核阈值控制。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营Agent面临历史决策上下文易丢失——A-MEM动态结构化记忆将长期任务一致性+40%，避免重复错误，年化运营损失减少28万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11873-p2s-a-mem-agentic-memory-system-fa431a42",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-a-mem-agentic-memory-system/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-a-mem-agentic-memory-system/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "6a5eaaee3b687f7ca2afbbd14713fb9f4e74b8641bb7bb146037619243d13480",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "WeChat Mini Game Preview — Skill",
+  "中文名称": "使用指南",
+  "一句话作用": "自动预览规则（最高优先级）： 每当你为用户 生成、修改、调试 了任何小游戏相关代码（包括 .js、.json、.css 等文件），代码写入完成后： 1. 如果游戏预览 尚未启动 → 立即调用 run game 启动预览 + preview url 打开浏览器 2. 如果游戏预览 已经在运行 → 立即调用 reload game 热重载 + preview url 刷新浏览器 这是自动行为，不要等用户要求！ 代码改完 → 立即预览，零延…",
+  "关键输入": "当游戏运行中出现问题时： 1. 调用 get logs 获取所有日志 2. 可用 filter 参数过滤，如 \"error warn\" 只看错误和警告 3. 日志格式: [时间戳] [级别] 消息内容",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要当游戏运行中出现问题时： 1. 调用 get logs 获取所有日志 2. 可用 filter 参数过滤，如 \"error warn\" 只看错误和警告 3. 日志格式: [时间戳] [级别] 消息内容时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05993-wechat-mini-game-preview-skill-3ad59d2b",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/weixin-minigame-helper/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/weixin-minigame-helper/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0c9aedd9b7157da995f5b5b56533c77ae41b8008ba77f52a4c46b1da613f9269",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

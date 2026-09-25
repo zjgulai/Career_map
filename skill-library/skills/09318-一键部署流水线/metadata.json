@@ -1,0 +1,22 @@
+{
+  "英文名称": "deploy",
+  "中文名称": "一键部署流水线",
+  "一句话作用": "从检查到部署到验证的完整发布流程。区分代码部署和Prompt部署——两者是独立的流程。",
+  "关键输入": "- CI/CD流水线已配置（GitHub Actions + Vercel/Railway） - Langfuse已配置（用于Prompt独立部署） - Playwright MCP可用（用于部署后E2E验证） ---",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-03T18:05:41+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要从检查到部署到验证的完整发布流程。区分代码部署和Prompt部署——两者是独立的流程。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09318-deploy-22c8583b",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ai_software/skills/deploy/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ai_software/skills/deploy/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e118d015a6794e6a57bbb76f186a281c1e64c0c32fbe41687bc0b8ef03eac5b1",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

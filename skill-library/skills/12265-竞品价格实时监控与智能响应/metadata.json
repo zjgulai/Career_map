@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-competitor-price-intelligence",
+  "中文名称": "竞品价格实时监控与智能响应",
+  "一句话作用": "触发词：价格突变、CUSUM 检测、Buy Box、自动响应、竞品跟价。何时不用：只要预警与建议不做自动响应用「竞品价格监测」；本技能覆盖突变检测到响应执行。安全边界：竞品价格须合法获取并签署数据使用协议，价格执行动作须留存日志、人工可随时接管。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要主要竞品每周五降价抢流量，每次被动应对要么跟降太晚要么过度跟降损失利润——CUSUM 实时检测价格突变、分类变动类型、自动执行响应策略，Buy Box 获取率 65%→82%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12265-p2s-competitor-price-intelligence-f0011c5c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-competitor-price-intelligence/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/渠道经营/p2s-competitor-price-intelligence/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "286ef88ad075c3a75dde515805a0323606ce1c90fbb1c7913d99b94742d7a7a8",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

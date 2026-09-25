@@ -1,0 +1,22 @@
+{
+  "英文名称": "tencent-yuanbao-gaokao-score-to-rank-lookup",
+  "中文名称": "待补：tencent-yuanbao-gaokao-score-to-rank-lookup",
+  "一句话作用": "高考一分一段信息检索助手，帮助考生根据分数查询全省排名位次，或根据位次估算对应分数区间，或提供一分一段表。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要高考一分一段信息检索助手，帮助考生根据分数查询全省排名位次，或根据位次估算对应分数区间，或提供一分一段表。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05492-tencent-yuanbao-gaokao-score-to-rank-lookup-35adcf34",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/gaokao-advisor/skills/tencent-yuanbao-gaokao-score-to-rank-lookup/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/gaokao-advisor/skills/tencent-yuanbao-gaokao-score-to-rank-lookup/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "51192a586f86279557181220603b232abdb6ec4fc7d4b853f7f28fc1fbb79580",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

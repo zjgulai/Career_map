@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multilingual-live-virtual-anchor-clone",
+  "中文名称": "多语言直播虚拟主播实时克隆 跨语言直播带货数字人生成与实时驱动",
+  "一句话作用": "触发词：数字人直播、声音克隆、全天候直播、多语言 TTS、弹幕应答。何时不用：能安排真人主播的时段、或平台要求真人直播的场景不用；单条录播视频制作不用本技能。安全边界：数字人直播须标注 AI 生成并按平台规则申报；弹幕应答须限定在产品事实范围，不得做医疗或功效承诺。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要美国TikTok Shop黄金时段（本地晚7-10点）无法派驻中国主播——多语言数字人实现24/7英语直播，月运营成本$800替代$5000真人主播，月GMV增加$1.5-3万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03503-p2s-multilingual-live-virtual-anchor-clone-28963e0d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multilingual-live-virtual-anchor-clone/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multilingual-live-virtual-anchor-clone/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "69b4a3af7e274044c28c9e19b88ffb5ae6f9766af4bb6b4eefc0bf4f07b74f46",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

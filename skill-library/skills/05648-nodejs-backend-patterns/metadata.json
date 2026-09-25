@@ -1,0 +1,22 @@
+{
+  "英文名称": "nodejs-backend-patterns",
+  "中文名称": "待补：nodejs-backend-patterns",
+  "一句话作用": "Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js serv…",
+  "关键输入": "- Building REST APIs or GraphQL servers - Creating microservices with Node.js - Implementing authentication and authorization - Designing scalable backend architectures - Setting up middleware and error handling - Integ…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "数据库与后端服务",
+  "解决具体问题": "当需要- Building REST APIs or GraphQL servers - Creating microservices with Node.js - Implementing authentication and authorization - Designing scalable backend architectures - Setting up middleware and error handling - Integ…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05648-nodejs-backend-patterns-afb75ccb",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/javascript-typescript/skills/nodejs-backend-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/javascript-typescript/skills/nodejs-backend-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "ca74d6ff3d515709c471af789ac94a93c0b5c020a52939722f651d40b618c657",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included_redacted"
+}

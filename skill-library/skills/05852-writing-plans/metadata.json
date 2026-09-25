@@ -1,0 +1,22 @@
+{
+  "英文名称": "writing-plans",
+  "中文名称": "待补：writing-plans",
+  "一句话作用": "Use when you have a spec or requirements for a multi-step task, before touching code",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use when you have a spec or requirements for a multi-step task, before touching code时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05852-writing-plans-c9df34cc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/superpowers/skills/writing-plans/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/superpowers/skills/writing-plans/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2046e5b955aa16c288f9c7290c58f237628dfb6ba6d4817fad3da0fa830b46c2",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "article-magazine",
+  "中文名称": "杂志文章",
+  "一句话作用": "产品发布包的发布长文资产, 适合公众号、博客和知识平台发布",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-18T15:45:26+08:00",
+  "业务场景": "marketing",
+  "解决具体问题": "当需要产品发布包的发布长文资产, 适合公众号、博客和知识平台发布时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "10210-article-magazine-115d58f6",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/article-magazine/SKILL.md",
+  "relative_path": "lute/project/Agent/product/html_everything/.next/standalone/src/lib/templates/skills/article-magazine/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c3c95d558e2ec1758c2af1165812270e411505663ee155203fd971a40d09624b",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

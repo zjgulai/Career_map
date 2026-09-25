@@ -1,0 +1,22 @@
+{
+  "英文名称": "数字人头像",
+  "中文名称": "数字人头像",
+  "一句话作用": "数字人头像生成专项。支持两种风格预设（realistic 写实摄影 / 3d-cartoon Pixar-Disney 3D 渲染）+ 两种主体（human 人 / non-human 动物・吉祥物・生物），用户在 Phase 1 显式确认后才进入生成。所有输出强制正脸 / 头不歪 / 直视镜头（永久锁定，不可协商）；身体取景（headshot / half-body / full-body）+ 背景类型（solid / gradie…",
+  "关键输入": "缺失 处理 --- --- 既无 reference 也无 appearance 描述 AskUserQuestion 要求二选一补充，至少给一项才能进 Phase 1 有 reference 无描述 用 Read 分析 reference 提炼 style profile + appearance，然后向用户回放确认 有描述无 reference 进 Phase 1 五参数确认时同时给文字 style 选项预览；3d-cartoon 默认推荐 brief 上下文不存在 跳过 brief 建议环节，所有参数完全由…",
+  "关键输出": "完成最终交付后， 同时 做三件事： 1. 会话内输出 （marker 之间放裸 JSON，不要嵌套 ``json 代码块）： 2. 写入项目文件 ：spark-output/context/avatar.json（目录不存在时先创建） 3. 保存图片产物 ：spark-output/avatar/[project-slug]/` 下含 4 张初版 + 迭代版 + 最终选定版，文件名遵循 Phase 3 命名规范。 下游可消费 Skill： Flow Web / Flow Mobile （在 IP 出现的屏插入头像…",
+  "最新更新时间": "2026-09-19T03:38:47+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要- User provides reference images and wants to generate a digital avatar/persona - User describes a digital human's appearance and asks for image generation - User wants multiple avatar variations to choose from - User h…时，用它产出或更新：完成最终交付后， 同时 做三件事： 1. 会话内输出…",
+  "skill_id": "04588-skill-11a0aafc",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/avatar/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/product-design/0.5.10/skills/avatar/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "d447fef72c5009acb979d5d9c6417ae6ed69a808b0a1d8d02215cc1b420250d5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

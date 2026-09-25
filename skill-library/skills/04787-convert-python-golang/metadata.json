@@ -1,0 +1,22 @@
+{
+  "英文名称": "convert-python-golang",
+  "中文名称": "待补：convert-python-golang",
+  "一句话作用": "Convert Python code to idiomatic Go. Use when migrating Python projects to Go, translating Python patterns to idiomatic Go, or refactoring Python codebases for performance and concurrency. Extends meta-convert-dev with…",
+  "关键输入": "requests==2.31.0 pytest =7.4.0",
+  "关键输出": "Python:",
+  "最新更新时间": "2026-09-19T03:54:37+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Convert Python code to idiomatic Go. Use when migrating Python projects to Go, translating Python patterns to idiomatic Go, or refactoring Python codebases for performance and concurrency. Extends meta-convert-dev with…时，用它产出或更新：Python:",
+  "skill_id": "04787-convert-python-golang-a5854d36",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/convert-python-golang/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/convert-python-golang/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c1abf7a738623a1a160493f3b82b892cbd2be81e27536d5ea272f5e850d826c1",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

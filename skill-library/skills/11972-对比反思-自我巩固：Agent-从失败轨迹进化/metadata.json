@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-evosc-self-consolidation",
+  "中文名称": "对比反思 自我巩固：Agent 从失败轨迹进化",
+  "一句话作用": "触发词：失败轨迹、反思改进、策略收敛、自我巩固、版本分叉。何时不用：靠案例检索在线适应走「案例推理部署时学习」；靠记忆层在线学习走「梯度无关持续学习」。安全边界：反思只基于真实执行与合规结果，不得为收敛策略而放宽合规检查。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链分析师面临策略版本越滚越散——EvoSC自收敛将策略分叉数20个压到6个，年化省10万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11972-p2s-evosc-self-consolidation-58d0d9cf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-evosc-self-consolidation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-evosc-self-consolidation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c07710c3345c4f907c3db40ce288793cb198a3b5cdef4618931a444218c86b9a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

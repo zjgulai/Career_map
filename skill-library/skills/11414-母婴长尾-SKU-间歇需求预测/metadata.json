@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-intermittent-demand-croston-tsb",
+  "中文名称": "母婴长尾 SKU 间歇需求预测",
+  "一句话作用": "触发词：间歇需求、长尾 SKU、Croston、TSB、需求频率。何时不用：主销连续动销 SKU 不必用间歇模型；要处理促销脉冲与基线分离时用「大促需求分解」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"400个配件SKU中70%月均销量不足5件传统补货公式导致长期缺货或积压\"——TSB间歇需求预测将长尾SKU库存周转天数从180天压缩至90天，年化释放库存资金20-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11414-p2s-intermittent-demand-croston-tsb-43b313b9",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-intermittent-demand-croston-tsb/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-intermittent-demand-croston-tsb/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "a25a1c13499de7e306d3701b7afed566db51ea345d63c6d06b673b27161b69e5",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

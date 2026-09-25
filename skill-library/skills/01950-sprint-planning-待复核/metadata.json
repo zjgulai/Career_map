@@ -1,0 +1,22 @@
+{
+  "英文名称": "sprint-planning",
+  "中文名称": "待补：sprint-planning",
+  "一句话作用": "�} \u0002� K\u0002� �5{3\u0004��V�� �$Q��5��/�ņ\u0016��/�d��:�ܤ��N��\u0007�\u000f�j��\u0003���γ8�E�9�?�~�1��Ný/�d{\u0005�bBU��\u000e/A[+��\u0019~< u\u0000FMbw\u000e\u0017",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-03T10:28:26+08:00",
+  "业务场景": "本地诊断与运维",
+  "解决具体问题": "当需要�} \u0002� K\u0002� �5{3\u0004��V�� �$Q��5��/�ņ\u0016��/�d��:�ܤ��N��\u0007�\u000f�j��\u0003���γ8�E�9�?�~�1��Ný/�d{\u0005�bBU��\u000e/A[+��\u0019~< u\u0000FMbw\u000e\u0017时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "01950-sprint-planning-008c58c9",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.config/opencode/skills/sprint-planning/SKILL.md",
+  "relative_path": "lute/.config/opencode/skills/sprint-planning/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "68ffeea3bfaea4a5bf29eadac57423ad613578c580bb0cc7d5205cfccae3ad93",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

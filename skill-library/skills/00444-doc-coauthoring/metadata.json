@@ -1,0 +1,22 @@
+{
+  "英文名称": "doc-coauthoring",
+  "中文名称": "待补：doc-coauthoring",
+  "一句话作用": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users e…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Ask what Reader Claude got wrong or struggled with. Indicate intention to fix those gaps. Loop back to refinement for any problematic sections. ---",
+  "最新更新时间": "2026-05-16T19:25:41+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users e…时，用它产出或更新：Ask what Reader Claude got…",
+  "skill_id": "00444-doc-coauthoring-2b5f22f2",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.cache/agent-skills/anthropics_skills-at-main/skills/doc-coauthoring/SKILL.md",
+  "relative_path": "lute/.cache/agent-skills/anthropics_skills-at-main/skills/doc-coauthoring/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

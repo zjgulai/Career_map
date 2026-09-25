@@ -1,0 +1,22 @@
+{
+  "英文名称": "self-improvement",
+  "中文名称": "待补：self-improvement",
+  "一句话作用": "知识进：把会话中的错误、纠正、缺失能力、外部故障沉淀为可复用的经验笔记（.learnings/ .md），并在重要任务前回顾经验；重要经验提升到项目记忆。触发词：知识进、自我改进、经验记录、错误学习、记录教训、持续改进、沉淀经验、回顾经验。何时不用：与经验沉淀无关的普通任务。Captures learnings, errors, and corrections to enable continuous improvement. Use…",
+  "关键输入": "Learning (verbose): Project uses pnpm workspaces. Attempted npm install but failed. Lock file is pnpm-lock.yaml. Must use pnpm install. In CLAUDE.md (concise):",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-08T02:26:46+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Learning (verbose): Project uses pnpm workspaces. Attempted npm install but failed. Lock file is pnpm-lock.yaml. Must use pnpm install. In CLAUDE.md (concise):时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04114-self-improvement-68901118",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/self-improvement/SKILL.md",
+  "relative_path": "lute/.dsh/skills/self-improvement/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5808d2b767bb093c7d8141336d240f284390fda67c5d79c3037c8b206889b90a",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

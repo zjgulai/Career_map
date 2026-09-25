@@ -1,0 +1,22 @@
+{
+  "英文名称": "brand-narrative-playbook",
+  "中文名称": "待补：brand-narrative-playbook",
+  "一句话作用": "Messaging and storytelling template that keeps positioning consistent across audiences.",
+  "关键输入": "- Defining or refreshing core messaging pillars. - Translating positioning into talk tracks for different personas/channels. - Auditing campaigns for narrative consistency.",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-03T11:09:43+08:00",
+  "业务场景": "演示与内容",
+  "解决具体问题": "当需要- Defining or refreshing core messaging pillars. - Translating positioning into talk tracks for different personas/channels. - Auditing campaigns for narrative consistency.时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "12747-brand-narrative-playbook-590864eb",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/skills/brand-strategy/skills/brand-narrative-playbook/SKILL.md",
+  "relative_path": "lute/project/skills/brand-strategy/skills/brand-narrative-playbook/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7a962025db0208f26db42534f003d8b136005bae891cf7cff5fc0622ed97f1c3",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "doubao-ultimate-guide",
+  "中文名称": "待补：doubao-ultimate-guide",
+  "一句话作用": "统一攻略创作总控 Skill：根据用户需求路由到旅游攻略、健身攻略、美食烹饪教程、游戏攻略四个分支，默认先创建飞书/Lark 文档容器，再读取对应分支 Skill 生成内容并写入同一个文档。适用于旅行行程、训练健身、菜谱烹饪、游戏实战攻略等中文攻略类创作；不适用于泛资讯、商业分析、医疗诊断、金融投资、法律意见、纯文案包装、无明确攻略目标或不安全/违规请求。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "无论进入哪个分支，最终攻略必须做到： - 逻辑清楚：先解决用户最关心的核心问题； - 内容充盈：不能只有几行表格或泛泛建议； - 可执行：用户知道今天/第一步做什么； - 边界清楚：知道什么时候不该继续、哪里要复查、哪些条件会改变方案； - 结构服务内容：表格、callout、grid、checkbox、bookmark 都要服务用户决策或执行；旅游不用图片，健身只用真实可靠图片，美食/游戏按各自规则使用图片； - 不模板化：结构跟随用户需求，不每次套同一目录； - 不泄漏代码：不出现 XML 代码块、HTML…",
+  "最新更新时间": "2026-09-16T11:25:01+08:00",
+  "业务场景": "图像/视频/创意生产",
+  "解决具体问题": "当需要统一攻略创作总控 Skill：根据用户需求路由到旅游攻略、健身攻略、美食烹饪教程、游戏攻略四个分支，默认先创建飞书/Lark 文档容器，再读取对应分支 Skill 生成内容并写入同一个文档。适用于旅行行程、训练健身、菜谱烹饪、游戏实战攻略等中文攻略类创作；不适用于泛资讯、商业分析、医疗诊断、金融投资、法律意见、纯文案包装、无明确攻略目标或不安全/违规请求。时，用它产出或更新：无论进入哪个分支，最终攻略必须做到： - 逻辑清楚：先解决用户最关心的核心问题； - 内容充盈：不能只有几行表格或泛泛建议； - 可执…",
+  "skill_id": "06701-doubao-ultimate-guide-997d0266",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/cec1b2b33d6606577ad2f4c21b87e213/doubao/.doubao/agent_mode/workspace/.skills/doubao-ultimate-guide/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "481c231ea5dbb439c3fcfda2d0b7d4be9713a522a9228460b2fbc9c46e149d9c",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

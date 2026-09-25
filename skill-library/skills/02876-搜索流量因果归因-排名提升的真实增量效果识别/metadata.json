@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-causal-seo-search-attribution",
+  "中文名称": "搜索流量因果归因 排名提升的真实增量效果识别",
+  "一句话作用": "触发词：搜索增量、排名提升效果、共同趋势剔除、关键词投入产出、SEO 预算分配。何时不用：搜索侧内容结构与特色摘要优化用零点击搜索优化技能，判断达人层级回报用 KOL 因果归因技能，本技能量化排名提升带来的真实流量增量。安全边界：关键词与流量数据须通过平台或授权工具获取，不得爬取受限数据，优化须符合平台内容政策、禁止关键词堆砌。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要SEO团队面临\"关键词排名提升后流量+22%但无法分离趋势混淆\"——DiD去除共同趋势后真实增量+12%，年化SEO预算效率提升30%约60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "02876-p2s-causal-seo-search-attribution-0cb41356",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-causal-seo-search-attribution/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-causal-seo-search-attribution/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fe6fbc32a0af3f900008fbe8677667e5cc2374e5570a4a1793f570d6ee8a0bcb",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "skill-installation-support",
+  "中文名称": "待补：skill-installation-support",
+  "一句话作用": "Help install, list, update, remove, or troubleshoot Agent Skills using the Vercel skills CLI. Use when the user asks about npx skills add, installing a whole repo, installing one skill, global vs project installs, symli…",
+  "关键输入": "- Repository path or GitHub owner/repo. - Desired skill name, target agent, and global or project install preference. - Error output from npx skills@latest. - Local skills/ tree and SKILL.md frontmatter when troubleshooting discovery.",
+  "关键输出": "Return: 1. Recommended command 2. What it installs 3. Scope and target agent 4. Verification command 5. Troubleshooting notes",
+  "最新更新时间": "2026-06-14T13:42:18+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- The user asks how to install a skills repo or one skill. - npx skills@latest add fails or does not discover expected skills. - The user asks about Codex, Claude Code, Cursor, or all-agent installation targets.时，用它产出或更新：Return: 1. Recommended command 2. W…",
+  "skill_id": "06041-skill-installation-support-449b75d4",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/skill-maintenance/skill-installation-support/SKILL.md",
+  "relative_path": "lute/Documents/文稿 - lute的MacBook Pro (573)/Codex/2026-06-13/codegraph-skill/work/agent-skills/incubator/skills/skill-maintenance/skill-installation-support/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c923c0d659dda5f0cd285342c742abe0e0ec705834baf0c76095f23791def636",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

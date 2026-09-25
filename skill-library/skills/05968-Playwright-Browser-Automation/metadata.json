@@ -1,0 +1,22 @@
+{
+  "英文名称": "Playwright Browser Automation",
+  "中文名称": "待补：Playwright Browser Automation",
+  "一句话作用": "Browser automation with Playwright MCP. Use for web scraping, testing, screenshots, and browser interactions.",
+  "关键输入": "- Node.js 14+ (for npx) - Internet connection (to install MCP server on first use) - Sufficient disk space for Chromium browser",
+  "关键输出": "- Get element attributes and properties - Extract text content - Verify element existence - Check element visibility - Validate page state",
+  "最新更新时间": "2026-07-25T16:45:03+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Use this skill for: - Web scraping and data extraction - Automated browser testing - Taking screenshots of web pages - Form filling and user interaction simulation - Monitoring and validation of web applications - DOM e…时，用它产出或更新：- Get element attributes a…",
+  "skill_id": "05968-playwright-browser-automation-bdefa155",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/playwright/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/oh-my-codebuddy/skills/playwright/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "e0429d3046f0609209b93301db7a99b2f7768948c891b68216c40541ca90f151",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "process-letter",
+  "中文名称": "待补：process-letter",
+  "一句话作用": "Draft process letters and bid instructions for sell-side M&A processes. Covers initial indication of interest (IOI) instructions, final bid procedures, and management meeting logistics. Triggers on \"process letter\", \"bi…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Word document (.docx) with professional letter formatting - Firm letterhead placeholder - Track changes version for client review",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Draft process letters and bid instructions for sell-side M&A processes. Covers initial indication of interest (IOI) instructions, final bid procedures, and management meeting logistics. Triggers on \"process letter\", \"bi…时，用它产出或更新：- Word document (.docx) wi…",
+  "skill_id": "05504-process-letter-d69746f6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/process-letter/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/process-letter/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "348771f577d943f8b46b64ee8cce6465d7419b51390f74a81d19f459e1582120",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

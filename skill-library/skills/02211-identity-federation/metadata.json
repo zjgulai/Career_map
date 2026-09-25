@@ -1,0 +1,22 @@
+{
+  "英文名称": "identity-federation",
+  "中文名称": "待补：identity-federation",
+  "一句话作用": "Use for authorized assessment of federated identity systems including SAML, OIDC, OAuth2 flows, SSO misconfiguration, and token confusion issues.",
+  "关键输入": "- SAML Response 签名/断言篡改面（经典缺陷模式） - OIDC 隐式/授权码 + PKCE 缺失 - redirect uri / state / nonce 问题 - IdP 与 SP 元数据、多租户 issuer 混淆 - 与 api-security JWT 攻击互补（本 skill 偏联邦与 SSO 流）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-08-31T19:49:39+08:00",
+  "业务场景": "安全与治理",
+  "解决具体问题": "当需要- SAML Response 签名/断言篡改面（经典缺陷模式） - OIDC 隐式/授权码 + PKCE 缺失 - redirect uri / state / nonce 问题 - IdP 与 SP 元数据、多租户 issuer 混淆 - 与 api-security JWT 攻击互补（本 skill 偏联邦与 SSO 流）时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02211-identity-federation-8553b3e8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/identity-federation/SKILL.md",
+  "relative_path": "lute/.dsh/profiles/desktop.pre-lute-20260914-131827/node_modules/@dhicoc/dsh-reverse-skill/skills/identity-federation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "673e4222ed9c06fd9e03fac7ce8b015ff21a93765b236138539081c10e3ced24",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

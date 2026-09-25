@@ -1,0 +1,22 @@
+{
+  "英文名称": "retro-tech-illustration-cn",
+  "中文名称": "待补：retro-tech-illustration-cn",
+  "一句话作用": "创建复古科技艺术风格的视觉内容，包括图像、插画与设计文档。覆盖 Synthwave、Vaporwave、Cyberpunk、复古漫画与复古未来主义美学。适用于霓虹网格风景、像素艺术、蒸汽波场景、CRT 与半调效果、配色方案与字体系统，服务于 80/90 年代科技黑色主题项目。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Output Purpose -------- --------- Image (PNG/JPG) Primary output - retro art illustrations, concept art, comic panels PDF Styled design guides, reference documents DOCX Editable design guides, style manuals PPTX Presentation decks about retro art styles",
+  "最新更新时间": "2026-09-14T00:08:06+08:00",
+  "业务场景": "产品设计与UIUX",
+  "解决具体问题": "当需要创建复古科技艺术风格的视觉内容，包括图像、插画与设计文档。覆盖 Synthwave、Vaporwave、Cyberpunk、复古漫画与复古未来主义美学。适用于霓虹网格风景、像素艺术、蒸汽波场景、CRT 与半调效果、配色方案与字体系统，服务于 80/90 年代科技黑色主题项目。时，用它产出或更新：Output Purpose -------- --------- Image (PNG/JPG) Primary output - retro art illustrations, concept art, com…",
+  "skill_id": "10669-retro-tech-illustration-cn-209b6a3c",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/AgentTools/SKILL/skills/kimi/skills/retro-tech-illustration-cn/SKILL.md",
+  "relative_path": "lute/project/AgentTools/SKILL/skills/kimi/skills/retro-tech-illustration-cn/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "abc80a2de953dbd876deabbce8be3bd8459f2e7e8045b496581aa0fc6367deb9",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

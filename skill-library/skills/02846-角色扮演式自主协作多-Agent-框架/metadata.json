@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-camel-role-playing-agents",
+  "中文名称": "角色扮演式自主协作多 Agent 框架",
+  "一句话作用": "触发词：角色扮演、双视角协作、评论洞察、自主对话、VOC 分析。何时不用：要中央调度与角色分工的完整对话框架用「AutoGen」；要 SOP 与统一产出格式用「MetaGPT」。安全边界：提示词中不得注入用户隐私字段；洞察结论须标注来自评论样本，不得当作因果结论。",
+  "关键输入": "输入 ：用户评论文本（Amazon/Trustpilot/Zendesk）、产品品类信息，以及明确的分析目标（如找出某产品的 Top 3 负面驱动因素）。 输出 ：一次对话产出的多维度评论洞察（重要属性、负面驱动因素、改进优先级）；供产品与运营团队使用。",
+  "关键输出": "输入 ：用户评论文本（Amazon/Trustpilot/Zendesk）、产品品类信息，以及明确的分析目标（如找出某产品的 Top 3 负面驱动因素）。 输出 ：一次对话产出的多维度评论洞察（重要属性、负面驱动因素、改进优先级）；供产品与运营团队使用。",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要触发词：角色扮演、双视角协作、评论洞察、自主对话、VOC 分析。何时不用：要中央调度与角色分工的完整对话框架用「AutoGen」；要 SOP 与统一产出格式用「MetaGPT」。安全边界：提示词中不得注入用户隐私字段；洞察结论须标注来自评论样本，不得当作因果结论。时，用它产出或更新：输入 ：用户评论文本（Amazon/Trustpilot/Zendesk）、产品品类信息，以及明确的分析目标（如找出某产品的 Top 3 负面驱动因素）。 输出 ：一次对话产出的多维度评论洞察（重要属性、负面驱动因素、改进优先级…",
+  "skill_id": "02846-p2s-camel-role-playing-agents-594d29d8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-camel-role-playing-agents/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-camel-role-playing-agents/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "3674fd8741e51253ae78d73828f02bfed551c3accd324863286e4bf6aa3c2168",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

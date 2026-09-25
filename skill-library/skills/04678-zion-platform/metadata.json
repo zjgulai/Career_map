@@ -1,0 +1,22 @@
+{
+  "英文名称": "zion-platform",
+  "中文名称": "待补：zion-platform",
+  "一句话作用": "Orientation and entry point for working on a Zion project. Load first for any Zion app task — designing or changing the data model, UI, server-side action flows, permissions, payments, or data bindings, or reading runti…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:38:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Orientation and entry point for working on a Zion project. Load first for any Zion app task — designing or changing the data model, UI, server-side action flows, permissions, payments, or data bindings, or reading runti…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04678-zion-platform-ec28d2f1",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/plugins/cache/qoder-marketplace/zion-nocode/2.7.5/skills/zion-platform/SKILL.md",
+  "relative_path": "lute/.qoder-cn/plugins/cache/qoder-marketplace/zion-nocode/2.7.5/skills/zion-platform/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fe977d835f18418297882745f7d23dfe0d7e62e0c96b61405d462e96a6b52f44",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

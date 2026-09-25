@@ -1,0 +1,22 @@
+{
+  "英文名称": "paper-write-zh-hss",
+  "中文名称": "人文社科与法学学科写作专项",
+  "一句话作用": "paper-write-zh内部的人文社科与法学正文写作参考，仅在中文正文写作流程已命中后按学科分支读取，不作为独立入口。用于选择学科结构、研究范式、论证组织、引用体例、材料真实性和正文写作过程中的学科约束，避免套用理工或通用模板。理工与医学读取paper-write-zh-stem；独立提纲或纯语言润色转paper-shape；研究评价转/doubao-academic-evaluator。",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-10T17:00:47+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要paper-write-zh内部的人文社科与法学正文写作参考，仅在中文正文写作流程已命中后按学科分支读取，不作为独立入口。用于选择学科结构、研究范式、论证组织、引用体例、材料真实性和正文写作过程中的学科约束，避免套用理工或通用模板。理工与医学读取paper-write-zh-stem；独立提纲或纯语言润色转paper-shape；研究评价转/doubao-academic-evaluator。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "06218-paper-write-zh-hss-69292b1c",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/hss/SKILL.md",
+  "relative_path": "lute/Library/Application Support/LarkShell/aha/users/3c450c90db2ea8e96e6987f879fec25d/doubao/.doubao/agent_mode/workspace/.skills/doubao-academic-polish/paper-write-zh/references/hss/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fd25154d61da8535e096073323cdf9390ef0f24e8606d4a36cb554016f0b241e",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

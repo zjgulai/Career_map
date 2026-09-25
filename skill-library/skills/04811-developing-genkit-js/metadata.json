@@ -1,0 +1,22 @@
+{
+  "英文名称": "developing-genkit-js",
+  "中文名称": "待补：developing-genkit-js",
+  "一句话作用": "Develop AI-powered applications using Genkit in Node.js/TypeScript. Use when the user asks about Genkit, AI agents, flows, or tools in JavaScript/TypeScript, or when encountering Genkit errors, validation issues, type e…",
+  "关键输入": "Ensure the genkit CLI is available. - Run genkit --version to verify. Minimum CLI version needed: 1.29.0 - If not found or if an older version (1.x < 1.29.0) is present, install/upgrade it: npm install -g genkit-cli@^1.29.0. New Projects : If you are setting…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:58:05+08:00",
+  "业务场景": "文档与知识",
+  "解决具体问题": "当需要When you encounter ANY error related to Genkit (ValidationError, API errors, type errors, 404s, etc.): 1. MANDATORY FIRST STEP : Read Common Errors 2. Identify if the error matches a known pattern时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "04811-developing-genkit-js-85cc26c7",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/developing-genkit-js/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/developing-genkit-js/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c89cd0b93d14653d174895e8273ecfcc8d89cd91d22ce74256c00e75e98e5bff",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

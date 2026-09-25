@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-rag-structured-data-fusion",
+  "中文名称": "与结构化数据混合检索 向量检索与SQL查询融合",
+  "一句话作用": "触发词：双路检索、结构化加非结构化、订单查询、口碑问答、问题路由。何时不用：问题只涉及数值统计时用 Text2SQL；只涉及评论文本理解时用普通 RAG。安全边界：生成内容须过人工审核机制以避免虚假宣传，对外答复不得包含个人隐私数据。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要客服运营面临\"智能客服单一检索路径、结构化查单与语义问答无法同时满足、首答解决率仅58%\"——双路混合检索将首答解决率从58%提升至82%，年化节省人工客服成本15万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03680-p2s-rag-structured-data-fusion-9a80fdd6",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-rag-structured-data-fusion/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-rag-structured-data-fusion/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "c0626cd714e0b1d9bc314bfb6e240ab3bf0064486da68a3dbe473803a526d93f",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

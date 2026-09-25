@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-cross-border-returns-cost-model",
+  "中文名称": "跨境退货成本建模",
+  "一句话作用": "触发词：退货成本建模、真实毛利率、退货率预测、逆向物流核算、高退货 SKU 排查。何时不用：只算退款造成的利润损失用「退款率财务影响」；只拆 FBA 账单费用结构用「FBA 费用结构分析」。安全边界：退货率预测结论不得单独作为停售依据；退货与客诉数据须脱敏，不得据订单信息反向识别个人。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要运营面临\"欧洲市场高退货率的真实成本在PnL中被低估导致利润虚高\"——跨境退货全成本建模将利润率核算准确率提升90%，年化避免高退货SKU持续备货损失20-40万元时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "02979-p2s-cross-border-returns-cost-model-0372bfc8",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-cross-border-returns-cost-model/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-cross-border-returns-cost-model/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "1e227c192905706c418bb27d396c17e104452bfd27296a721e577f5dd5950b0b",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

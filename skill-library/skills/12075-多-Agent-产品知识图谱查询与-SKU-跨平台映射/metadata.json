@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-product-knowledge-graph-query",
+  "中文名称": "多 Agent 产品知识图谱查询与 SKU 跨平台映射",
+  "一句话作用": "触发词：跨平台SKU映射、产品知识图谱查询、多Agent匹配、消歧问题生成、同款判定、多平台ID打通。何时不用：要对离线多源实体做去重合并时用「KG实体消歧与去重」；要做统一标识建立与标签一致性同步时用「SKU统一标识与标签同步」。安全边界：匹配结果必须保留可人工审计的推理链，低于相似度阈值的候选不得自动打通平台 ID；平台数据使用须遵守各平台政策，禁止跨平台价格同步与将平台数据用于竞品分析。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要跨境运营面临多平台 SKU 数据孤岛——Q2K 多 Agent 自动匹配将跨平台 SKU 对齐准确率从人工 78% 提升至 92%，运营手工比对时间从 3-4 小时/款降至自动完成，年化节省 ¥15-30 万时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "12075-p2s-product-knowledge-graph-query-233ca113",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-product-knowledge-graph-query/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/数据与AI运行/p2s-product-knowledge-graph-query/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93a8ca533e642aaf6ec9b45eb017131507b8b4a4012d01239b7438423255eabc",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

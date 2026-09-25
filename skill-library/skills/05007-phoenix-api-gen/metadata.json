@@ -1,0 +1,22 @@
+{
+  "英文名称": "phoenix-api-gen",
+  "中文名称": "待补：phoenix-api-gen",
+  "一句话作用": "Generate a full Phoenix JSON API from an OpenAPI spec or natural language description. Creates contexts, Ecto schemas, migrations, controllers, JSON views/renderers, router entries, ExUnit tests with factories, auth plu…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-09-19T03:55:09+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Generate a full Phoenix JSON API from an OpenAPI spec or natural language description. Creates contexts, Ecto schemas, migrations, controllers, JSON views/renderers, router entries, ExUnit tests with factories, auth plu…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05007-phoenix-api-gen-58b40138",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/phoenix-api-gen/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/phoenix-api-gen/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "b1da08b5abb30e0c26621d7139148c220a0a46b168fe7a9edf3c89793f71031a",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

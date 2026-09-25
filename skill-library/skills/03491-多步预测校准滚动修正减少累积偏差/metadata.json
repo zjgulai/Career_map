@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-step-ahead-forecast-calibration",
+  "中文名称": "多步预测校准滚动修正减少累积偏差",
+  "一句话作用": "触发词：多步校准、分步偏差、滚动修正、系统性低估、Conformal。何时不用：单步短期预测不需要分步校准；要修正大促脉冲本身时用「节日峰值分解」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链团队面临\"大促前8周预测系统性低估18%导致每次缺货但不知道修正方法\"——分步偏差滚动校正将大促缺货率从12%降至3%，年化减少缺货损失40-60万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03491-p2s-multi-step-ahead-forecast-calibration-16b40e47",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-multi-step-ahead-forecast-calibration/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-multi-step-ahead-forecast-calibration/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "be372d0826593301a61c9b1bda5bf62e83aa410d911a54bbd920464d3848674a",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

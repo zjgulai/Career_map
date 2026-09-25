@@ -1,0 +1,22 @@
+{
+  "英文名称": "error-handling-patterns",
+  "中文名称": "待补：error-handling-patterns",
+  "一句话作用": "Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error handling, designing APIs, or i…",
+  "关键输入": "- Implementing error handling in new features - Designing error-resilient APIs - Debugging production issues - Improving application reliability - Creating better error messages for users and developers - Implementing r…",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:02+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要- Implementing error handling in new features - Designing error-resilient APIs - Debugging production issues - Improving application reliability - Creating better error messages for users and developers - Implementing r…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05611-error-handling-patterns-4e7a60fa",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/error-handling-patterns/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/external_plugins/developer-essentials/skills/error-handling-patterns/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "aa8f11361c893893a0007b58f9322bb92cfcffa5b7b91f506059935192a3e68d",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-baby-age-stage-demand-segmentation",
+  "中文名称": "婴儿月龄需求分层",
+  "一句话作用": "触发词：月龄分层、评论挖掘、卖点提炼、Listing优化。何时不用：评论中不含月龄信息时无法分层；纯关键词排名优化用常规方法。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "业务经营与AgenticOS",
+  "解决具体问题": "当需要运营面临\"婴儿玩具垫Listing写'适合0-3岁'但4-6月龄关键词排名第12位始终无法提升\"——月龄需求分层从1200条评论挖掘各阶段专属痛点，Listing精准化后目标关键词排名升至第4位，转化率+22%时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11245-p2s-baby-age-stage-demand-segmentation-b3bb6b86",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-baby-age-stage-demand-segmentation/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/产品与创新/p2s-baby-age-stage-demand-segmentation/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "0a0df8329392f287f6ae497386f85a98be0d257e8afb6834d777314937d530e0",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

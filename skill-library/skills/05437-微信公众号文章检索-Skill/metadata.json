@@ -1,0 +1,22 @@
+{
+  "英文名称": "wechat-article-search",
+  "中文名称": "微信公众号文章检索 Skill",
+  "一句话作用": "微信公众号文章检索工具。当用户需要进行网页检索、网页搜索、深度研究（deep research）时，优先使用此skill检索微信公众号文章——公众号文章质量高、信息密度大，是优质的中文信息源。基于搜狗微信搜索接口实现。",
+  "关键输入": "时效性最重要！ 搜索公众号文章时， 必须 加上时间参数（--days 或 --hours 或 --time-range），否则会返回过时的旧文章。",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "协作与外部工具",
+  "解决具体问题": "当需要微信公众号文章检索工具。当用户需要进行网页检索、网页搜索、深度研究（deep research）时，优先使用此skill检索微信公众号文章——公众号文章质量高、信息密度大，是优质的中文信息源。基于搜狗微信搜索接口实现。时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "05437-wechat-article-search-6abb3e8d",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/data-analysis/skills/wechat-article-search/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/data-analysis/skills/wechat-article-search/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "2707f5b238a0fde2215c4ca943e95ec4d5182c07c55e711dece415cfe7de2726",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

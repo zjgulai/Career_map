@@ -1,0 +1,22 @@
+{
+  "英文名称": "hermes-agent",
+  "中文名称": "待补：hermes-agent",
+  "一句话作用": "Complete guide to using and extending Hermes Agent — CLI usage, setup, configuration, spawning additional agents, gateway platforms, skills, voice, tools, profiles, and a concise contributor reference. Load this skill w…",
+  "关键输入": "delegate task Spawning hermes process - ----------------- -------------------------- Isolation Separate conversation, shared process Fully independent process Duration Minutes (bounded by parent loop) Hours/days",
+  "关键输出": "terminal(command=\"sleep 20 && tmux capture-pane -t agent1 -p\", timeout=5)",
+  "最新更新时间": "2026-09-19T03:49:35+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要delegate task Spawning hermes process - ----------------- -------------------------- Isolation Separate conversation, shared process Fully independent process Duration Minutes (bounded by parent loop) Hours/days时，用它产出或更新：terminal(command=\"sleep 20 && tmux…",
+  "skill_id": "04905-hermes-agent-de3f0f25",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.qoder-cn/skills/hermes-agent/SKILL.md",
+  "relative_path": "lute/.qoder-cn/skills/hermes-agent/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "fe5037d127cc2a81852f1ac75ea7682e7885ea449421f76c4d3b0c0e8d7cb781",
+  "needs_review": true,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

@@ -1,0 +1,22 @@
+{
+  "英文名称": "metrics-tracking",
+  "中文名称": "待补：metrics-tracking",
+  "一句话作用": "Define, track, and analyze product metrics with frameworks for goal setting and dashboard design. Use when setting up OKRs, building metrics dashboards, running weekly metrics reviews, identifying trends, or choosing th…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "Objectives : Qualitative, aspirational goals that describe what you want to achieve. - Inspiring and memorable - Time-bound (quarterly or annually) - Directional, not metric-specific Key Results : Quantitative measures that tell you if you achieved the object…",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Define, track, and analyze product metrics with frameworks for goal setting and dashboard design. Use when setting up OKRs, building metrics dashboards, running weekly metrics reviews, identifying trends, or choosing th…时，用它产出或更新：Objectives : Qualitative,…",
+  "skill_id": "05531-metrics-tracking-d7bbe667",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/metrics-tracking/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/product-management/skills/metrics-tracking/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "5ec7a51caf1368b16195ffb51024d26c7bf6724308d15700879cee247ecb89aa",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

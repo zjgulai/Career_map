@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-multi-sku-copula-risk",
+  "中文名称": "多SKU库存风险联合建模：Copula 协动分析",
+  "一句话作用": "触发词：多SKU联合风险、Copula、相关矩阵、组合断货概率、应急产能配额。何时不用：SKU 需求彼此独立、只算单 SKU 安全库存时用「安全库存与补货策略」；只做预算切分时用「多SKU采购预算分配」。安全边界：无。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:09:51+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要供应链面临\"多SKU联合断货风险被独立模型低估525倍\"——Copula联合分布建模使旺季组合断货概率从18.7%降至6%，年化GMV保护25-40万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "11456-p2s-multi-sku-copula-risk-bf43c315",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-multi-sku-copula-risk/SKILL.md",
+  "relative_path": "lute/project/Magpie-Horch/packages/capabilities/dsh-paper2skills/staging/供应与履约/p2s-multi-sku-copula-risk/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "7f17293cd4a51d18013fec708f73ebb4d0a6adce71de8f24fc44d3a825824a54",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

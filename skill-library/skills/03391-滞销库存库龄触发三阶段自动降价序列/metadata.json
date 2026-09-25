@@ -1,0 +1,22 @@
+{
+  "英文名称": "p2s-markdown-schedule-auto-trigger",
+  "中文名称": "滞销库存库龄触发三阶段自动降价序列",
+  "一句话作用": "触发词：三阶段降价、库龄门控、销速观察窗、节假日保护期、长期仓储费。何时不用：按毛利最优求解降价路径用「临期过季降价优化」；一次性匹配降价档位用「自动降价清仓」。安全边界：降价序列须设节假日保护期与人工复核，改价不得绕过平台价格政策。",
+  "关键输入": "（卡页此段是占位串，实际输入规格见下方「输入 / 输出契约」。）",
+  "关键输出": "（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "最新更新时间": "2026-09-13T21:15:38+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要FBA运营面临\"吸奶器配件库龄66天滞压1200件但无自动降价机制\"——双条件门控+三阶段降价序列将LTSF长期仓储费压降60%，年化节省15-30万元时，用它产出或更新：（卡页此段是占位串，实际输出规格见下方「输入 / 输出契约」。）",
+  "skill_id": "03391-p2s-markdown-schedule-auto-trigger-49e0db65",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.dsh/skills/p2s-markdown-schedule-auto-trigger/SKILL.md",
+  "relative_path": "lute/.dsh/skills/p2s-markdown-schedule-auto-trigger/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "bb365f226d1f71658f737cc48595efe9569176e76eb828ef1ebc951090dd4dda",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

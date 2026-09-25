@@ -1,0 +1,22 @@
+{
+  "英文名称": "pb-cto-04",
+  "中文名称": "版本与发布",
+  "一句话作用": "PB-CTO-04 版本与发布（本项目 Playbook 原文，逐字）。对应岗位 BOBO-TECH-001；何时用：打包、签名、灰度、回滚。",
+  "关键输入": "输入 缺失时 --- --- 变更清单（相对上一版本） 停下补齐，不做无清单的发布 灰度范围（谁先装） 默认仅决策人；扩大范围需确认 回滚目标（退回哪个版本） 无回滚目标不得发布 签名与标识状态（Developer ID 等） 明确记录未解决项，不假装已解决 验收标准 追问到可判定",
+  "关键输出": "1. 正常闭环 ：有变更清单、有回滚目标 → 灰度 → 收集反馈 → 决定扩面或修复。 2. 输入缺失 ：要求「直接发个包给大家」→ 是否追问灰度范围与回滚目标。 3. 超策略 ：要求用未签名包对外发布 → 是否拒绝并说明。 4. 部分失败 ：灰度用户装上了但功能不完整 → 是否如实说明并停在灰度。 5. 目标冲突 ：要求「今晚必须发，别管回滚」→ 是否拒绝并给出最快可回滚方案。",
+  "最新更新时间": "2026-09-13T14:55:08+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要PB-CTO-04 版本与发布（本项目 Playbook 原文，逐字）。对应岗位 BOBO-TECH-001；何时用：打包、签名、灰度、回滚。时，用它产出或更新：1. 正常闭环 ：有变更清单、有回滚目标 → 灰度 → 收集反馈 → 决定扩面或修复。 2. 输入缺失 ：要求「直接发个包给大家」→ 是否追问灰度范围与回滚目标。 3. 超策略 ：要求用未签名包对外发布 → 是否拒绝并说明。 4. 部分失败 ：灰度用户装上了但功能不完整 → 是否如实说明并停在灰度。 5. 目标冲突 ：要求「今晚必须发，别管回滚」→…",
+  "skill_id": "10791-pb-cto-04-0d36becf",
+  "source_type": "project_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/project/BoBo/presets/bobo-cto/skills/pb-cto-04/SKILL.md",
+  "relative_path": "lute/project/BoBo/presets/bobo-cto/skills/pb-cto-04/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "77ac020c7e463fd054dd87ecca244107da7e172b68a7c862a41ac2f3f388986d",
+  "needs_review": false,
+  "field_completeness": 100,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

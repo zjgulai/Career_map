@@ -1,0 +1,22 @@
+{
+  "英文名称": "deal-tracker",
+  "中文名称": "待补：deal-tracker",
+  "一句话作用": "Track multiple live deals with milestones, deadlines, action items, and status updates. Maintains a deal pipeline view and surfaces upcoming deadlines and overdue items. Use when managing a book of business, tracking pr…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "- Excel workbook with: - Pipeline overview (all deals, one row each) - Per-deal milestone tracker tabs - Action item master list - Weekly review summary - Optional: Markdown summary for email/Slack distribution",
+  "最新更新时间": "2026-07-25T16:45:04+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Track multiple live deals with milestones, deadlines, action items, and status updates. Maintains a deal pipeline view and surfaces upcoming deadlines and overdue items. Use when managing a book of business, tracking pr…时，用它产出或更新：- Excel workbook with: - P…",
+  "skill_id": "05501-deal-tracker-7bb2c676",
+  "source_type": "home_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "Home",
+  "source_path": "/Users/lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/deal-tracker/SKILL.md",
+  "relative_path": "lute/.workbuddy/plugins/marketplaces/cb_teams_marketplace/plugins/investment-banking/skills/deal-tracker/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "04538ceb21129667add105a5ae052f284cc3e2428d70d09c8c4634e69bb9cfa6",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}

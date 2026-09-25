@@ -1,0 +1,22 @@
+{
+  "英文名称": "sprint-planner",
+  "中文名称": "待补：sprint-planner",
+  "一句话作用": "Agile sprint planning with story estimation, capacity planning, and sprint goal setting. Use when: planning sprints, estimating stories, defining sprint goals, managing sprint backlogs, or when user mentions sprint plan…",
+  "关键输入": "待补：原文未明确关键输入",
+  "关键输出": "过程辅助，无固定交付物",
+  "最新更新时间": "2026-06-02T10:50:39+08:00",
+  "业务场景": "研发与代码",
+  "解决具体问题": "当需要Agile sprint planning with story estimation, capacity planning, and sprint goal setting. Use when: planning sprints, estimating stories, defining sprint goals, managing sprint backlogs, or when user mentions sprint plan…时，用它完成对应判断、生成或操作流程。",
+  "skill_id": "09349-sprint-planner-38d6e8f9",
+  "source_type": "icloud_skill",
+  "entry_type": "directory_skill",
+  "scan_scope": "iCloud Drive",
+  "source_path": "/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/sprint-planner/SKILL.md",
+  "relative_path": "com~apple~CloudDocs/project/ecom_ana_overview/.agents/skills/sprint-planner/SKILL.md",
+  "date_source": "file_mtime",
+  "content_hash": "93db11ad6b720228fb4b64e3c91a1fce4ef94f5c6124061f071be72f23939847",
+  "needs_review": true,
+  "field_completeness": 83,
+  "truncated_read": false,
+  "redaction_status": "included"
+}
