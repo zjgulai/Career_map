@@ -6,12 +6,7 @@
 
 仓库 README 将本仓库定义为“公开、脱敏设计投影”。当前连续设计资料中仍有历史性的本机路径与内部讨论引用；这些不应因为文件历史上已被 Git 跟踪，就被视为可以无审查公开发布。
 
-因此，下一位执行者在任何 `push` 前必须确认二选一：
-
-1. 用户明确同意将这一次完整连续设计资料发布到公开仓库；或
-2. 先产出并核验脱敏的公开投影，再向公开仓库推送。
-
-在此确认前，可以继续本地检查与受控设计讨论，但不得把“已写入”或“本地提交”描述为公开发布成功，更不得携带凭据、会话、浏览器状态、真实业务数据或原始资料。
+本次用户已经明确同意将当前完整连续设计资料发布到公开仓库，因此本 checkpoint 已完成公开发布。后续继续追加内容时仍需重新检查公开范围，不得携带凭据、会话、浏览器状态、真实业务数据或原始资料。
 
 ## 1. 从哪里恢复
 
@@ -178,9 +173,11 @@ HANDOFF.md
 
 本文件随交接 checkpoint 一起维护。接手时用真实命令结果补充或核验下表；绝不根据旧口头状态假设 push 已成功：
 
-本次本地 checkpoint 已实际提交，提交信息为 `docs(career): consolidate C-224 canvas and handoff`；接手时以 `git rev-parse HEAD` 和 `git log -1` 取得真实 SHA。它只表示当前 `main` 的本地提交完成；在公开范围和历史祖先边界确认前，不表示已经 push。
+本次本地 checkpoint 先以 `docs(career): consolidate C-224 canvas and handoff` 提交，随后以 `merge: preserve remote Career_map history` 将远端公开历史作为第二父提交保留。该 merge 提交为 `c2f773a2fd2c34ebd6db3fc5a3579d2f5cdc4ce8`；接手时仍以 `git rev-parse HEAD` 和 `git log -1` 取得当前真实 SHA。
 
 本次执行已实际通过 `git diff --check`、画布最终 `<script>` 编译、C-224 静态标记检查和本机 HTTP 返回检查；浏览器控制连接本轮未恢复，因此没有把浏览器交互验收写成已通过。
+
+已实际执行 `git push origin main`，并由 `git ls-remote --heads origin main` 核验远端 `main` 返回 `c2f773a2fd2c34ebd6db3fc5a3579d2f5cdc4ce8`，与本次发布 merge 提交一致。GitHub 仅返回了大文件建议警告：`skill-library/` 中有三个 JSON 超过 50 MB 推荐值；推送未被拒绝。
 
 | 字段 | 要求 |
 | --- | --- |
