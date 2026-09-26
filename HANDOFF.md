@@ -177,7 +177,7 @@ HANDOFF.md
 
 本次执行已实际通过 `git diff --check`、画布最终 `<script>` 编译、C-224 静态标记检查和本机 HTTP 返回检查；浏览器控制连接本轮未恢复，因此没有把浏览器交互验收写成已通过。
 
-已实际执行 `git push origin main`，并由 `git ls-remote --heads origin main` 核验远端 `main` 返回 `c2f773a2fd2c34ebd6db3fc5a3579d2f5cdc4ce8`，与本次发布 merge 提交一致。GitHub 仅返回了大文件建议警告：`skill-library/` 中有三个 JSON 超过 50 MB 推荐值；推送未被拒绝。
+已实际执行 `git push origin main`，并由 `git ls-remote --heads origin main` 核验首个发布 merge 提交 `c2f773a2fd2c34ebd6db3fc5a3579d2f5cdc4ce8`。随后本文件随 handoff 修订再次正常 push；接手时仍以 `git rev-parse HEAD` 与 `git ls-remote --heads origin main` 的实际结果为最终准据。GitHub 仅返回了大文件建议警告：`skill-library/` 中有三个 JSON 超过 50 MB 推荐值；推送未被拒绝。
 
 | 字段 | 要求 |
 | --- | --- |
