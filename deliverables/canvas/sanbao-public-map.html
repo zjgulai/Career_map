@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Career_map：三宝跨境电商 Native AgenticOS 的公开设计地图。">
+  <title>Career_map · 三宝设计地图</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #e9eef8;
+      --muted: #9caac0;
+      --bg: #07101f;
+      --panel: rgba(13, 28, 50, .92);
+      --line: rgba(166, 190, 228, .22);
+      --blue: #70b7ff;
+      --teal: #55d6c1;
+      --amber: #ffc46b;
+      --violet: #ba9cff;
+      --rose: #ff9ea6;
+      --shadow: 0 18px 56px rgba(0, 0, 0, .35);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      color: var(--ink);
+      background: radial-gradient(circle at 10% 0%, #17335c 0, transparent 30%), var(--bg);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    a { color: #9fd1ff; }
+    .page-header {
+      max-width: 1800px;
+      margin: 0 auto;
+      padding: 30px 32px 20px;
+      display: flex;
+      gap: 24px;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    .eyebrow { margin: 0 0 8px; color: var(--teal); font-size: 12px; font-weight: 750; letter-spacing: .11em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(28px, 4vw, 46px); letter-spacing: -.045em; }
+    .subtitle { max-width: 760px; margin: 12px 0 0; color: var(--muted); line-height: 1.7; }
+    .state { max-width: 350px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 14px; background: rgba(7, 16, 31, .55); color: var(--muted); font-size: 13px; line-height: 1.55; }
+    .state strong { display: block; color: var(--amber); margin-bottom: 3px; }
+    .layout { max-width: 1800px; margin: 0 auto; padding: 0 32px 36px; display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 18px; }
+    .board { min-height: min(74vh, 880px); overflow: hidden; position: relative; border: 1px solid var(--line); border-radius: 20px; background-color: #0a172b; background-image: linear-gradient(rgba(151,180,224,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(151,180,224,.055) 1px, transparent 1px); background-size: 34px 34px; box-shadow: var(--shadow); cursor: grab; touch-action: none; }
+    .board.is-dragging { cursor: grabbing; }
+    .canvas { position: absolute; inset: 0; width: 1720px; height: 1120px; transform-origin: 0 0; }
+    .wires { position: absolute; inset: 0; width: 1720px; height: 1120px; overflow: visible; pointer-events: none; }
+    .wire { fill: none; stroke: rgba(165, 200, 242, .43); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .wire.dashed { stroke-dasharray: 7 9; stroke: rgba(85, 214, 193, .65); }
+    .node { position: absolute; width: 250px; padding: 16px; color: inherit; text-align: left; border: 1px solid var(--line); border-radius: 18px; background: linear-gradient(145deg, rgba(25, 48, 82, .96), rgba(13, 25, 45, .96)); box-shadow: 0 12px 30px rgba(0,0,0,.22); cursor: pointer; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+    .node:hover, .node:focus-visible { outline: none; transform: translateY(-4px); border-color: var(--blue); box-shadow: 0 16px 38px rgba(30, 92, 160, .34); }
+    .node .kind { display: block; margin-bottom: 7px; color: var(--muted); font-size: 11px; font-weight: 750; letter-spacing: .08em; }
+    .node h2 { margin: 0 0 8px; font-size: 18px; letter-spacing: -.025em; }
+    .node p { margin: 0; color: #b9c7da; font-size: 13px; line-height: 1.55; }
+    .node.source { border-top: 3px solid var(--blue); }
+    .node.frame { width: 410px; border-top: 3px solid var(--teal); background: linear-gradient(145deg, rgba(18, 72, 84, .98), rgba(9, 37, 57, .98)); }
+    .node.frame h2 { font-size: 23px; }
+    .node.chain { border-top: 3px solid var(--amber); }
+    .node.pending { border-top: 3px solid var(--violet); }
+    .node.target { border-top: 3px solid var(--rose); }
+    .lens-list { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin-top: 12px; }
+    .lens { padding: 7px 8px; border: 1px solid rgba(117, 227, 209, .25); border-radius: 9px; background: rgba(6, 30, 44, .46); color: #d0f8f0; font-size: 12px; line-height: 1.35; }
+    .lens:last-child { grid-column: 1 / span 2; }
+    .controls { position: absolute; z-index: 3; right: 14px; top: 14px; display: flex; gap: 7px; }
+    .controls button { width: 36px; height: 36px; border: 1px solid var(--line); border-radius: 10px; background: rgba(7,16,31,.87); color: var(--ink); font-size: 20px; cursor: pointer; }
+    .controls button:hover, .controls button:focus-visible { border-color: var(--blue); outline: none; }
+    .board-hint { position: absolute; z-index: 2; left: 16px; bottom: 15px; margin: 0; padding: 7px 10px; border-radius: 9px; background: rgba(7,16,31,.75); color: var(--muted); font-size: 12px; pointer-events: none; }
+    .detail { align-self: stretch; padding: 22px; border: 1px solid var(--line); border-radius: 20px; background: var(--panel); box-shadow: var(--shadow); }
+    .detail h2 { margin: 4px 0 12px; font-size: 23px; letter-spacing: -.035em; }
+    .detail p, .detail li { color: #becbdb; font-size: 14px; line-height: 1.7; }
+    .detail ul { padding-left: 19px; }
+    .detail .boundary { margin-top: 20px; padding: 14px; border-left: 3px solid var(--amber); border-radius: 0 10px 10px 0; background: rgba(255,196,107,.08); color: #f6deb2; font-size: 13px; line-height: 1.6; }
+    .legend { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .legend span { padding: 5px 8px; border: 1px solid var(--line); border-radius: 99px; color: var(--muted); font-size: 11px; }
+    .footer { max-width: 1800px; margin: 0 auto; padding: 0 32px 32px; color: #7f91aa; font-size: 12px; line-height: 1.6; }
+    @media (max-width: 1050px) { .layout { grid-template-columns: 1fr; } .detail { min-height: 260px; } }
+    @media (max-width: 680px) { .page-header, .layout, .footer { padding-left: 16px; padding-right: 16px; } .page-header { display: block; } .state { margin-top: 16px; } .board { min-height: 620px; } }
+  </style>
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">公开、脱敏设计投影 · C-068</p>
+      <h1>Career_map · 三宝</h1>
+      <p class="subtitle">从组织变革、经营价值流与来源证据，逐项走向有边界的原子 Skill、Bundle、Native Agent 产品矩阵与三宝 AgenticOS。点击节点查看它在当前设计中的作用。</p>
+    </div>
+    <div class="state"><strong>当前状态：设计研究，不是运行平台</strong>画布表达已确认的连接与待验证边界；不代表已完成 53 个数字分身、DSH preset、系统集成或真实业务动作。</div>
+  </header>
+
+  <main class="layout">
+    <section class="board" id="board" aria-label="Career_map 可缩放设计画布">
+      <div class="controls" aria-label="画布缩放控制"><button type="button" id="zoom-in" aria-label="放大">+</button><button type="button" id="zoom-out" aria-label="缩小">−</button><button type="button" id="reset" aria-label="重置视图">↺</button></div>
+      <div class="canvas" id="canvas">
+        <svg class="wires" viewBox="0 0 1720 1120" aria-hidden="true">
+          <path class="wire" d="M330 190 C470 190 500 290 600 350"></path>
+          <path class="wire" d="M330 455 C470 455 500 455 600 455"></path>
+          <path class="wire" d="M330 720 C480 720 510 640 600 585"></path>
+          <path class="wire dashed" d="M805 225 C805 280 805 300 805 350"></path>
+          <path class="wire" d="M1010 450 C1110 405 1130 275 1230 275"></path>
+          <path class="wire" d="M1010 480 C1120 480 1130 500 1230 500"></path>
+          <path class="wire" d="M1010 560 C1110 635 1140 750 1230 750"></path>
+          <path class="wire dashed" d="M805 650 C775 750 715 798 620 850"></path>
+          <path class="wire" d="M870 910 C930 910 965 910 1030 910"></path>
+          <path class="wire" d="M1280 910 C1350 910 1390 910 1450 910"></path>
+          <path class="wire dashed" d="M1480 810 C1510 750 1510 215 1460 185"></path>
+        </svg>
+
+        <button class="node source" style="left:80px;top:105px" data-detail="organization" type="button"><span class="kind">来源层 · 组织</span><h2>AI 原生组织</h2><p>3+50=53 数字分身的组织目标、经营职责与协作设计来源。</p></button>
+        <button class="node source" style="left:80px;top:370px" data-detail="products" type="button"><span class="kind">来源层 · 产品与仓库</span><h2>产品、知识与代码来源</h2><p>产品目录与公开仓库逐项建立来源卡，不把名称或函数直接当成 Skill。</p></button>
+        <button class="node source" style="left:80px;top:635px" data-detail="scenarios" type="button"><span class="kind">来源层 · 场景</span><h2>端到端经营场景</h2><p>用授权场景检验能力是否能服务真实的新品、持续经营和新市场问题。</p></button>
+        <button class="node pending" style="left:680px;top:105px" data-detail="fiftythree" type="button"><span class="kind">组装目标 · 待逐项核对</span><h2>53 个数字分身</h2><p>不是复制 53 套产品；未来由可复用 Bundle 在明确职责与边界下组装。</p></button>
+
+        <button class="node frame" style="left:600px;top:350px" data-detail="c068" type="button"><span class="kind">共同语义承载 · 已确认</span><h2>共享经营事项 · C-068</h2><p>三条经营主链共用比较语义，不共用一套万能流程。</p><div class="lens-list"><span class="lens">经营范围与版本</span><span class="lens">证据、条件与未知</span><span class="lens">可比较的经营选项</span><span class="lens">业务依赖就绪</span><span class="lens">实际结果、偏差与经验反馈</span></div></button>
+
+        <button class="node chain" style="left:1230px;top:165px" data-detail="newproduct" type="button"><span class="kind">经营主链</span><h2>新品经营</h2><p>客户价值、兑现能力、经营可行性，以及范围化接续。</p></button>
+        <button class="node chain" style="left:1230px;top:390px" data-detail="ongoing" type="button"><span class="kind">经营主链</span><h2>持续经营</h2><p>需求变化下供给、渠道/触达与现金的联合调整与结果核对。</p></button>
+        <button class="node chain" style="left:1230px;top:640px" data-detail="newmarket" type="button"><span class="kind">经营主链</span><h2>新市场经营</h2><p>国家/区域范围、准入、首单与持续经营能力的分范围验证。</p></button>
+
+        <button class="node pending" style="left:500px;top:835px" data-detail="atoms" type="button"><span class="kind">能力层 · 研究候选</span><h2>原子 Skill 候选</h2><p>从来源证据中抽取输入、输出、依赖、适用边界与失败边界。</p></button>
+        <button class="node pending" style="left:1030px;top:835px" data-detail="bundle" type="button"><span class="kind">组装层 · 待设计</span><h2>Skill Bundle → DSH Preset</h2><p>在职责、方法、工具与验证依据明确后，才讨论可组装的 preset。</p></button>
+        <button class="node target" style="left:1450px;top:835px" data-detail="sanbao" type="button"><span class="kind">目标层 · 后续融合</span><h2>Native Agent 产品矩阵 → 三宝</h2><p>用经营工作台承接经验证的能力组合；不等于已完成系统接入。</p></button>
+      </div>
+      <p class="board-hint">拖动空白处平移 · 滚轮缩放 · 点击节点查看边界</p>
+    </section>
+
+    <aside class="detail" aria-live="polite">
+      <p class="eyebrow" id="detail-kind">共同语义承载 · 已确认</p>
+      <h2 id="detail-title">共享经营事项 · C-068</h2>
+      <div id="detail-copy"><p>新品经营、持续经营、新市场经营以同一“经营事项”语义承载跨角色协作。五个对照面让能力可以被横向比较，同时不抹去各主链的业务本质。</p><ul><li>新品经营保留客户价值、兑现能力与经营可行性。</li><li>持续经营保留需求变化下的供给、触达和现金联动。</li><li>新市场经营保留范围、准入、首单和持续经营能力验证。</li></ul></div>
+      <div class="boundary" id="detail-boundary">边界：这不是统一 Schema、固定流程、万能 Agent、总评分、权限模型或 Harness 选型；没有因 C-068 自动生成原子 Skill 或真实业务动作。</div>
+      <div class="legend"><span>蓝：来源</span><span>青：共同对照面</span><span>黄：经营主链</span><span>紫：待设计组装</span><span>粉：目标融合</span></div>
+    </aside>
+  </main>
+
+  <footer class="footer">公开投影只保留允许公开的设计轮廓。原始资料、内部讨论、运行状态、访问凭据与未审查原型均不包含在此仓库中。</footer>
+
+  <script>
+    const details = {
+      organization: ['来源层 · 组织', 'AI 原生组织', '“3+50=53”是组织与数字分身的设计目标来源。先核对职责、经营问题、输入、交付、验收和权限边界，再判断哪些能力可以复用或组合。', '不以角色数量倒推能力数量；不把旧组织图、岗位名称或能力配置直接当成可运行 Agent。'],
+      products: ['来源层 · 产品与仓库', '产品、知识与代码来源', '产品目录、Sanbao、AI-Native-Organization、Kb2Agent，以及公开仓库目录都是来源路由。每一项先建立“证据 → 场景/知识对象 → 候选能力 → 适用边界”的来源卡。', '仓库名称、README、产品页面、函数、fork 或历史报告都不是已验证的原子 Skill、运行模块或业务授权。'],
+      scenarios: ['来源层 · 场景', '端到端经营场景', '授权的端到端场景用来检验设计：能力是否能支撑真实经营判断、交接、依赖兑现和结果反馈。', '场景用于检验设计，不自动变成完整流程、自动化任务或真实业务操作。'],
+      fiftythree: ['组装目标 · 待逐项核对', '53 个数字分身', '未来可把被验证的 Skill、工具和方法组合为针对明确职责的 Bundle。数字分身的差异来自经营责任、适用边界和协作接口，而不是机械复制。', '尚未完成 53 人映射、能力包、胜任判断、权限或执行安排。'],
+      c068: ['共同语义承载 · 已确认', '共享经营事项 · C-068', '三条主链以共享经营事项承载跨角色协作，并先用五个对照面识别可复用能力和不可替代的业务判断。', '这不是新的通用 Case、统一 Schema、UI 字段合同、工作流、万能 Agent、评分、权限模型或 Harness 结论。'],
+      newproduct: ['经营主链', '新品经营', '保留客户价值、兑现能力、经营可行性三维判断，以及按明确范围发生的责任接续。它可引用共同对照面，但不会被持续经营或新市场的规则覆盖。', '具体指标、观察窗口、阈值、岗位、系统接口与业务授权仍待逐项设计。'],
+      ongoing: ['经营主链', '持续经营', '围绕需求变化，比较供给、渠道/触达和现金的联合调整，核对依赖兑现、实际结果和经营经验反馈。', '预测、候选方案、承诺和实际兑现保持区分；不把销量直接等同真实需求或自动触发业务动作。'],
+      newmarket: ['经营主链', '新市场经营', '围绕国家或区域范围，验证市场进入条件、准入、首单和持续经营能力。它借用共同语义对照面，但保留市场特有的判断和交接。', '这不是已完成的专业网络或跨境执行方案；具体市场、法规、渠道、支付和履约条件需逐项核对。'],
+      atoms: ['能力层 · 研究候选', '原子 Skill 候选', '原子 Skill 的最低交付不是一个函数或产品卡，而是一张可审查的能力卡：服务什么问题、需要什么输入、交出什么、依赖什么、引用什么证据、在哪些条件下不适用。', '候选边界不等于实现、运行质量、跨域复用、权限或真实业务效果已经验证。'],
+      bundle: ['组装层 · 待设计', 'Skill Bundle → DSH Preset', '只有在职责、方法、工具、证据、验证与适用范围分别清楚后，才讨论把相关 Skill 组装为 Bundle，并进一步研究 DSH preset 形式。', '尚未决定 Harness、runtime、密钥、部署、预设合同或生产操作；不把来源项目的目录结构直接复制为 preset。'],
+      sanbao: ['目标层 · 后续融合', 'Native Agent 产品矩阵 → 三宝', '三宝是未来承接经营工作台、Native Agent 产品矩阵与可追溯协作链路的目标平台。融合从经验证的能力组合和明确接口开始，而不是从复制旧产品模块开始。', '当前没有声称完成系统接入、数据同步、运行时选型、业务动作或生产验收。']
+    };
+    const board = document.getElementById('board');
+    const canvas = document.getElementById('canvas');
+    let scale = .62;
+    let pan = { x: 24, y: 32 };
+    let drag = null;
+    function applyView() { canvas.style.transform = `translate(${pan.x}px, ${pan.y}px) scale(${scale})`; }
+    function zoomBy(step, anchor) {
+      const old = scale;
+      scale = Math.max(.32, Math.min(1.35, scale + step));
+      if (anchor) { pan.x = anchor.x - (anchor.x - pan.x) * scale / old; pan.y = anchor.y - (anchor.y - pan.y) * scale / old; }
+      applyView();
+    }
+    board.addEventListener('pointerdown', event => { if (event.target.closest('.node, .controls')) return; drag = { x: event.clientX, y: event.clientY, panX: pan.x, panY: pan.y }; board.classList.add('is-dragging'); board.setPointerCapture(event.pointerId); });
+    board.addEventListener('pointermove', event => { if (!drag) return; pan.x = drag.panX + event.clientX - drag.x; pan.y = drag.panY + event.clientY - drag.y; applyView(); });
+    function stopDrag() { drag = null; board.classList.remove('is-dragging'); }
+    board.addEventListener('pointerup', stopDrag); board.addEventListener('pointercancel', stopDrag);
+    board.addEventListener('wheel', event => { event.preventDefault(); const rect = board.getBoundingClientRect(); zoomBy(event.deltaY < 0 ? .08 : -.08, { x: event.clientX - rect.left, y: event.clientY - rect.top }); }, { passive: false });
+    document.getElementById('zoom-in').addEventListener('click', () => zoomBy(.1));
+    document.getElementById('zoom-out').addEventListener('click', () => zoomBy(-.1));
+    document.getElementById('reset').addEventListener('click', () => { scale = .62; pan = { x: 24, y: 32 }; applyView(); });
+    document.querySelectorAll('[data-detail]').forEach(node => node.addEventListener('click', () => { const [kind, title, copy, boundary] = details[node.dataset.detail]; document.getElementById('detail-kind').textContent = kind; document.getElementById('detail-title').textContent = title; document.getElementById('detail-copy').innerHTML = `<p>${copy}</p>`; document.getElementById('detail-boundary').textContent = `边界：${boundary}`; }));
+    applyView();
+  </script>
+</body>
+</html>

@@ -22,6 +22,24 @@
 
 打开 [公开画布](docs/index.html)。画布支持拖动平移、滚轮缩放，以及点击节点查看边界说明。
 
+## 给其他项目的使用索引
+
+如果你是从另一个项目接入三宝能力图谱，先读 [外部项目使用 Playbook](playbook.md)，再按它的顺序进入完整方案、3+50 名册、画布规则、来源台账和 Ticket 记录。这个入口说明如何复用能力边界，也明确哪些内容仍是候选、设计态或待补证，不能直接当作运行能力。
+
+| 你要查什么 | 从哪里开始 |
+| --- | --- |
+| 项目定位、公开边界、当前总链 | 本页与 [完整方案](deliverables/strategy/sanbao-canvas-complete-plan.md) |
+| 三条主链、3+50、E2E 和路线图 | [三宝完整方案](deliverables/strategy/sanbao-canvas-complete-plan.md) |
+| 姓名、岗位名称、责任平面和能力站位 | [3+50 名册](deliverables/strategy/sanbao-3plus50-roster.md) |
+| 画布读图、卡片下钻、状态和验收 | [画布 Playbook](deliverables/canvas/sanbao-canvas-playbook.md) |
+| 来源、版本、用途和证据边界 | [来源台账](deliverables/research/sanbao-sources.md) |
+| 已完成、RETURN 和下一步 Tickets | [Ticket 批次记录](deliverables/execution/sanbao-ticket-batch-2026-10-09.md) |
+| 所有结果文件的分类入口 | [交付总索引](deliverables/SANBAO-RESULTS.md) |
+
+## 结果文件分类
+
+本项目的交付副本集中在 [`deliverables/`](deliverables/)，按画布、方案、研究、执行四类管理；总索引见 [`deliverables/SANBAO-RESULTS.md`](deliverables/SANBAO-RESULTS.md)。连续讨论的 canonical 文件仍保留在 `.codex/` 与 `.superpowers/`，不会因为整理交付副本而改变路径。
+
 ## 从来源到平台的主线
 
 ```text
