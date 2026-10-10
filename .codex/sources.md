@@ -2137,3 +2137,103 @@ C-162不改变C-161三条链各自的专业交接、C-014 Lead／Worker边界、
 - **`voc-source-pilot/SKILL.md` 第10—31、33—51行。**在来源权利通过后以小规模真实请求验证endpoint、匹配、字段、成本、日期覆盖和重复风险，输出pilot raw、run ledger、scorecard与gate decision；它产生新的采集事实，不能证明一份既有报告实际采用同样方法。
 - **`voc-stratified-collection/SKILL.md` 第10—32、34—53行。**在taxonomy与sample plan冻结后按来源、市场、时间、评分、variant和evidence role执行规模采集，输出collection matrix、raw、ledger、gap report与hash；它建设新语料，不核已定位报告的五面资格。
 - **来源结论。**在上述实际登记、可定位并按C-167核对的最近邻中，能独立交出C-228完整「报告级来源资格说明」的直接候选为0。该结论不覆盖未登记Skill、未获准目录、未跟踪产物、其他仓库、互联网或外部市场；也不表示C-228无意义。C-229与C-230仍是两张并列局部卡，C-228保留未来竞聘空位，不从这些片段拼装候选。
+
+### NM-R01 · 03新市场经营完整性 Deep Research 来源台账
+
+日期：2026-10-01。用户在确认C-313时要求同步考虑“03 新市场经营”的补全，本地没有的部分使用Deep Research。本轮先只读核对Career中C-232—249、C-294—297、C-300—309以及`/Users/lute/project/shopify`的相关静态材料，再用公开一手来源核对新市场经营所需研究面。结论只进入研究差距账，不形成新岗位、Skill、进入决定、国家排名、法律意见、业务授权或运行事实。
+
+- **本地覆盖结论。**新市场经营并非空白。已有高层责任地址覆盖机会与范围、商业论证、GTM、市场准入、供给与履约、发布与实际可售、商品资料、内容／本地化、品牌、价格、经济性、付费媒体、实验、数据／口径／知识方法、交易资金、客户问题及向持续经营的范围化接续；50岗四平面也已提供高层调用地址。外部研究面逐项对照后，高层能力地址缺口为0。真正未完成的是目标市场证据账实例和完整新市场多岗E2E装配验收。
+- **本地Shopify候选材料。**`/Users/lute/project/shopify/kb/00-战略与定位/README.md`、`kb/01-选品与市场调研/README.md`和`kb/02-建站与基础设施/平台运营Wiki_独立站0到1建站SOP.md`包含市场／细分、DTC／站群／混合模式、需求／竞争／价格／经济性、主体／支付／物流／追踪和首单前检查等经验片段；`drafts/analysis/abi-shopify-product-value-report-20260630.md`另有多市场复制线索与缺口自述。这些材料只作为后续方法／E2E候选来源；其自身已提醒价格、支付、平台规则等时效信息不得替代当前官方事实，本轮没有修改来源项目。
+- **[ITC · Export Potential and Diversification Assessments](https://umbraco.exportpotential.intracen.org/media/cklh2pi5/epa-methodology_230627.pdf)。**方法把供给能力、目标市场需求和贸易便利作为识别产品—市场出口机会的主要因素，并公开模型假设与局限。可作为C-232／BO-02的机会依据或反证来源；潜力值和排名不能直接成为国家优先级、消费者需求成立、准入、经济性、进入决定或经营效果。
+- **[U.S. International Trade Administration · Selecting International Markets](https://www.trade.gov/selecting-international-markets)。**官方指南把监管、物流、文化、语言、进口要求、售后、运输、未付款／争议风险及本地合作方尽调列为进入市场需要核对的问题。它支持把问题分别回到C-237／239／240、BO／IC等已有责任，不支持所有市场必须采用合作方，也不把尽调完成写成签约、批准、订单或履约。
+- **[European Commission · Access2Markets](https://policy.trade.ec.europa.eu/help-exporters-and-importers/eu-companies-accessing-world-markets_en)。**欧盟委员会列出的市场进入信息面包括关税、原产地规则、税费、进口手续、产品要求、贸易壁垒和贸易流统计。它只作带产品分类、原产地、目的地、产品版本、用途／宣称、查询时间和来源版本的外部事实索引；门户结果不等于法律意见、准入批准或产品已经合规，也不能外推到其他市场。
+- **[OECD · International VAT/GST Guidelines](https://www.oecd.org/en/publications/international-vat-gst-guidelines_9789264271401-en.html)。**指南区分跨境B2B／B2C、消费地原则与征收机制，提供国际协调原则而非各国详细立法处方。它可支持IC-02按市场、交易、实体、客户和期间形成范围化判断；不能推出某国税率、注册门槛、申报路径或必须设立本地实体，也不能把估算当最终税务事实。
+- **Shopify官方产品参照。**[Markets概览](https://help.shopify.com/en/manual/markets/getting-started/overview)、[Duties and taxes](https://help.shopify.com/en/manual/markets/customizations/duties-and-taxes)、[Rollouts](https://help.shopify.com/en/manual/markets/rollouts)与[Rollout analytics](https://help.shopify.com/en/manual/markets/rollouts/analytics)把市场范围、目录、币种、域名／语言、税费／实体、launch／event／experiment、分析、暂停／回滚／应用等产品状态分开；税费估算还依赖HS code、原产地和顾客位置，实际海关金额可能不同。这可用于检验C-240／247和BO-18／21／23／25／30是否把配置、发布、体验、观察和效果判断分开；Shopify菜单和状态不是三宝流程、经营授权、可售／履约／税务事实、因果效果或持续经营责任接续。
+- **证据账的正确八面。**市场机会与范围；贸易条件与准入事实；产品合规与适配缺口；渠道路径与合作方；本地化客户体验；支付／税务／落地成本；供给／物流／履约；受控试运行、效果判断与持续经营接续。这八面是目标市场事实和证据的阅读栏目，分别回既有C／BO／IC／DA／OM地址；不是八个新能力位、八步流程、总分或审批门。
+- **工具边界。**当前可用工具没有暴露Firecrawl／Exa，故按Deep Research技能的回退要求使用网页搜索与官方页面深读；研究优先一手来源，区分来源事实、项目映射推断与不能推出项。未登录外部账户，未使用用户凭据，未修改任何来源仓库，未形成具体国家法规、税率、阈值、实体、渠道或市场进入结论。
+
+### C-315 · M5 Smart × 德国 × Amazon.de目标市场证据账 · 官方来源初账
+
+日期与范围：2026-10-01。用户明确范围为`M5 Smart × 德国 × 免手持吸奶及App控制相关宣称 × Amazon.de`。本节只登记官方来源支持的事实、适用边界、冲突和未知；不构成法律意见、市场推荐、Go／No-Go、准入通过、平台可售、经营就绪或真实业务动作。
+
+#### 产品、德国公开存在与渠道入口
+
+- **[Momcozy德国M5 Smart商品页](https://de.momcozy.com/products/m5-smart-wearable-breast-pump-upgraded-with-app-control)。**支持M5 Smart德语商品身份、无线免手持和App调节／记录等品牌功能表达，并通过“Bei Amazon kaufen”指向Amazon.de ASIN `B0GHG2W8WS`。不能证明Amazon实时listing、库存、卖家、履约、成交或独立性能效果。同页出现€209.99与€129.99冲突及异常日期占位，不能作为实时价格或库存真源。
+- **[M5 Smart官方支持页](https://support.momcozy.com/product/m-5-smart)、[M5 Smart与M5差异](https://support.momcozy.com/article/51791429423129)、[App控制说明](https://support.momcozy.com/article/53435658837657)。**支持M5 Smart是独立产品和M5升级版本，增加App控制、奶量记录与统计，并可控制启停、左右泵、三种模式和1—9档。升级关系不等于同一版本、同一listing或同一合规材料；当前没有可靠官方证据把M5 Pro等同M5 Smart。
+- **[Momcozy App德语／德国支持](https://support.momcozy.com/de/article/48048120784793)、[德国地区入口](https://de.momcozy.com/pages/choose-country-region)、[德国配送说明](https://de.momcozy.com/pages/shipping-delivery)、[德国官方产品比较](https://de.momcozy.com/blogs/stillen/wearable-breast-pump-comparison)。**共同证明德国已有品牌、产品、App和配送公开触点；不支持“品牌尚未进入德国”的空白市场假设，也不证明具体SKU实时可售、所有功能稳定或内部经营责任已接续。
+- **[Amazon.de ASIN B0GHG2W8WS](https://www.amazon.de/dp/B0GHG2W8WS)。**由品牌德国商品页直接链接；本轮访问返回503，只能定位详情页标识，不能确认实时价格、库存、卖家、Buy Box、FBA／FBM、变体、评分或德国地址可配送性。
+- **[Momcozy Declaration of Conformity页面](https://de.momcozy.com/pages/declaration-of-conformity-momcozy)。**C-315初查只按商品名检索，未识别M5 Smart同名条目；C-316随后通过官方型号表确认`M5 Smart＝BP380`，并定位到列表中的`BP380 CE-DOC`。本条保留初查路径，当前证据状态以C-316为准；M5与M5 Smart仍不能混用。
+- **需求背景只作情境。**[Destatis德国出生数据](https://www.destatis.de/EN/Themes/Society-Environment/Population/Births/Tables/lrbev04.html)支持2024年德国活产677,117；[RKI母乳喂养资料](https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Studien-und-Surveillance/Studien/Adipositas-Monitoring/Vor_und_nach_Geburt/HTML_Themenblatt_Stillen.html)来自2014—2017队列。二者不能直接推导吸奶器需求、市场规模、份额、增长、目标人群或进入建议。
+
+#### 产品监管、宣称、隐私与数字产品边界
+
+- **[EU MDR](https://eur-lex.europa.eu/eli/reg/2017/745/2026-01-01/eng)与[BfArM产品／Medical App法律状态指引](https://www.bfarm.de/DE/Medizinprodukte/Aufgaben/Feststellung-rechtlicher-Status-und-Klassifizierung/_node.html)。**正式intended purpose需结合标签、说明书、推广和销售材料判断；“免手持”或“App控制”本身不能决定MDR适用，也不能凭一句免责声明排除实际医疗用途。
+- **[GPSR](https://eur-lex.europa.eu/eli/reg/2023/988)与[欧委会GPSR问答](https://webgate.ec.europa.eu/safety/consumers/consumers_safety_gate/obligationsForBusinesses/documents/Q%26A.pdf)。**支持线上商品页的制造商／EU责任人、产品识别及警告安全信息义务；不能在未核对德国listing、主体与专项法规时宣布满足。
+- **[RED](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0053)与[BNetzA市场监管](https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Technik/Marktueberwachung/artikel.html)。**Bluetooth等有意无线功能通常需要核对RED安全、EMC、频谱、技术文件、EU DoC和CE路径；App控制只是无线线索，协议、频段、功率、模块和固件仍未知。若RED适用，不应把整机LVD／EMC机械重复累加；独立适配器仍需按自身范围核对。
+- **[RED Delegated Regulation 2022/30](https://eur-lex.europa.eu/eli/reg_del/2022/30/oj/eng)与[欧委会RED说明](https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en)。**在本轮截止日，处理个人数据的wearable radio equipment可能涉及隐私与个人数据保护要求；M5 Smart是否落入取决于真实穿戴、无线、数据处理和MDR边界，不能仅凭产品名自动认定。
+- **[RoHS](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011L0065)、[WEEE](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32012L0019)、[德国UBA ElektroG](https://www.umweltbundesamt.de/themen/abfall-ressourcen/produktverantwortung-in-der-abfallwirtschaft/elektroaltgeraete/elektro-elektronikgeraetegesetz)、[EU Battery Regulation](https://eur-lex.europa.eu/eli/reg/2023/1542/2023-07-28)与[UBA电池制度](https://www.umweltbundesamt.de/themen/abfall-ressourcen/produktverantwortung-in-der-abfallwirtschaft/batterien-altbatterien)。**支持EEE材料、德国WEEE和内置电池产品责任／注册等核对方向；不能在缺BOM、品牌／进口／远程销售主体、设备／电池类别、授权代表和登记状态时写成已满足。
+- **[德国UWG §5](https://www.gesetze-im-internet.de/uwg_2004/__5.html)与[欧委会UCPD指引](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021XC1229%2805%29)。**功能宣称须与实际能力、条件和限制一致；免手持与App控制不自动支持效率、增乳、无痛、治疗或比较优势。
+- **[GDPR](https://eur-lex.europa.eu/eli/reg/2016/679)、[EDPB Privacy by Design](https://www.edpb.europa.eu/topics/ai-and-technology/privacy-by-design-and-by-default_en)、[Data Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R2854)与[CRA](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2847)。**App／云数据的法律基础、透明度、最小化、安全、用户数据访问和数字产品漏洞责任取决于字段、用途、设备—App—云架构、主体、投放日期与分类；不能把所有泵奶数据自动称为健康数据，也不能在缺架构证据时宣布适用或符合。
+
+#### Amazon经营条件、德国税务／EPR、履约与资金证据
+
+- **[Amazon Germany pricing](https://sell.amazon.de/en/preisgestaltung?mons_sel_locale=en_GB)、[FBA](https://sell.amazon.de/en/versand-durch-amazon?mons_sel_locale=en_GB)与[EPR Knowledge Centre](https://sell.amazon.de/en/einhaltung-der-erweiterten-herstellerverantwortung?mons_sel_locale=en_GB)。**支持订阅费、referral fee、按尺寸重量计的FBA／仓储费及德国包装／EEE证明核对；不能在缺ASIN类目、尺寸重量、库存路线、Seller账户和fee preview时计算M5 Smart实际成本、利润或就绪状态。
+- **[ZSVR电商包装责任](https://www.verpackungsregister.org/en/knowledge-bases/mail-order-companies-and-online-retailers)与[授权代表](https://www.verpackungsregister.org/en/knowledge-bases/authorising-a-representative)、[stiftung ear生产者义务](https://www.stiftung-ear.de/en/topic-areas/find-out-your-obligation-as-a-producer/)。**支持LUCID、system participation、包装申报、WEEE／电池生产者和境外主体授权代表的核对；责任主体取决于真实品牌、包装、进口、销售和履约链，登记申请／提交不等于Amazon接受或持续有效。
+- **[BZSt境外经营者VAT说明](https://www.bzst.de/SharedDocs/Downloads/DE/Allgemein/informationsblatt_umsatzsteuerpflichten_en.pdf?__blob=publicationFile&v=3)、[欧委会VAT征税地](https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/place-taxation_en)、[OSS](https://online.portal.bzst.de/SharedDocs/Leistungsbeschreibung/EN/besteuerungsverfahren_one-stop-shop_fuer_EU_unternehmen.html?nn=23996)、[EORI](https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en)与[进口说明](https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en)。**支持按销售实体、库存、运输终点、进口主体和路线分别判断德国VAT、OSS／IOSS、EORI与清关；不能在缺实体、税则号、原产地、货值和Importer of Record时选择路径或估算到岸成本。
+- **[EU B2C远程销售与撤回](https://europa.eu/youreurope/business/selling-in-eu/selling-goods-services/ecommerce-distance-selling/index_en.htm)。**支持通常14日撤回及特定卫生密封例外的范围化核对；不能未经包装和法律事实把所有开封吸奶器自动判为不可退，也不能把退款写成退货入库或损失已确认。
+- **Amazon Seller Central的[Payment reports](https://sellercentral.amazon.de/help/hub/reference/external/G791)与[Transaction View](https://sellercentral.amazon.de/help/hub/reference/external/G200378780)。**支持把订单付款、退款、拒付、费用、reserve、平台结算和释放日期分别留据；平台状态不等于银行到账、会计确认、利润或自由现金。
+
+#### 当前证据状态与下一组最小取证
+
+- **已确认：**范围五元组；M5 Smart独立产品身份；德国已有公开品牌／产品／App／配送触点；品牌页指向Amazon.de ASIN。
+- **C-315初查仍未知：**准确德国拟售SKU与版本、intended purpose、最终德语宣称、BOM／无线／电池／App—云架构、M5 Smart自身DoC与测试、经济经营者和德国登记、Amazon listing实时状态、卖家／类目／履约、税务进口路线、费用、退货和真实交易资金证据。其中产品身份、公开用途、BP380 RED DoC与Amazon范围化快照已经由C-316补证，不再沿用本段旧状态。
+- **C-316只收：**准确SKU／硬件／固件／App版本；intended purpose及德语listing／IFU／包装宣称；M5 Smart DoC、测试与标准映射；Amazon ASIN实时商品页或Seller Central状态。其余问题仍留在原责任地址，不以法规清单扩成固定Gate或整套进入方案。
+
+### C-316 · M5 Smart／BP380产品身份、宣称、DoC与Amazon在售快照 · 官方证据
+
+日期与边界：2026-10-01。本节只登记C-315点名的第一组阻塞证明。`已定位`、`公开未定位`和`必须由实机／内部系统补证`分别表达；未定位不等于不存在，公开页面快照不等于企业证明、准入结论、全德国持续可售或真实交易。
+
+#### 产品身份、SKU、App与固件版本
+
+- **[Momcozy官方德语型号映射](https://support.momcozy.com/de/article/54801143113369)与[M5／M5 Smart区别说明](https://support.momcozy.com/article/59744615343769)。**明确`M5 Smart ↔ BP380`，且M5 Smart支持Bluetooth／App，普通M5不支持；这使BP380专用资料可回指本证据账对象，但不能自动建立每个零售SKU、ASIN、颜色、硬件revision或批次的一一映射。
+- **[M5 Smart德国商品页](https://de.momcozy.com/products/m5-smart-wearable-breast-pump-upgraded-with-app-control)与[官方Shopify产品JSON](https://de.momcozy.com/products/m5-smart-wearable-breast-pump-upgraded-with-app-control.js)。**截止日可定位四个设备SKU：双泵红`BP380-MR71000B00104-C`、双泵灰`BP380-GR71000B00104-C`、单泵红`BP380-MR70000B00104-C`、单泵灰`BP380-GR70000B00104-C`。BP078／BP080是含储奶袋的商业套装SKU，不应反作设备型号；页面本身不能证明ASIN↔SKU↔批次交叉表。
+- **[FDA K253934](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K253934.pdf)。**美国官方文件支持BP380／BP380-A／B／C属于带Bluetooth的系列、M5系列关闭Bluetooth，并支持三种泵控模式；它只作产品身份和版本差异旁证，不能替代德国／EU最终标签、分类、DoC或准入判断，也不能推定A／B／C与德国颜色SKU的关系。
+- **[德国Apple App Store](https://apps.apple.com/de/app/momcozy/id6473000053)、[Google Play](https://play.google.com/store/apps/details?id=com.lute.momcozy)与[官方固件升级说明](https://support.momcozy.com/article/49073773158681)。**截至2026-10-01，德国iOS商店显示Momcozy App 3.5.1；Android可确认package`com.lute.momcozy`，公开页面未可靠给出数值版本。官方升级说明确认M5 Smart可在App的Device Management中检查固件，但不公开当前固件数值版、发布日期、硬件revision或兼容矩阵；这些必须由目标设备、App About页或内部发布记录取证。
+
+#### 德语说明书、正式用途与功能宣称
+
+- **[Momcozy官方M5 Smart德语说明书](https://cdn.shopify.com/s/files/1/0559/2321/2486/files/Momcozy-M5_Smart_-DE_-20260720.pdf?v=1785401205)。**40页PDF，文档码`BP380-SM1EU00-001`，明确型号BP380；用途为供哺乳期女性通过真空吸出并收集乳汁，仅限单一用户，含刺激、吸乳、混合三种模式。说明书明确App不是使用泵的必要条件，断开后仍可用机身完成基本泵控；`BP380-SM1EU00-001`是说明书文档码，不是固件版本。说明书出现Type BF等医疗化措辞，但未明确EU Medical Device属性、MDR分类或UDI，不能据此判定EU医械身份。
+- **[M5 Smart德国商品页](https://de.momcozy.com/products/m5-smart-wearable-breast-pump-upgraded-with-app-control)、[德国官方对比文章](https://de.momcozy.com/blogs/stillen/momcozy-m5smart-vs-s12proquick)与[App控制说明](https://support.momcozy.com/article/53435658837657)。**共同支持可穿戴／免手持、App远程控制、三模式九档、左右泵控制与记录／统计等当前品牌表达；官方德语文章明确奶量由用户手工录入，不是泵体自动测量。它们不能支持自动奶量测量、临床效果、增乳、无痛、比较优势或所有批次／渠道的最终文案一致。
+
+#### BP380 RED DoC及测试边界
+
+- **[Momcozy德国DoC目录](https://de.momcozy.com/pages/declaration-of-conformity-momcozy)与[BP380 EU Declaration of Conformity](https://cdn.shopify.com/s/files/1/0747/0068/5552/files/EU_Declaration_Of_Conformity_BP380.pdf?v=1783503052)。**官方1页PDF可确认Device Name`Wearable Breast Pump`、Test model`BP380`、制造商Shenzhen Root Innovation Technology、德国Düsseldorf欧代、2026-01-15签发和RED 2014/53/EU声明；列出EN 300 328、EN 301 489-1／-17、EN IEC 55014-1／-2、EN IEC 61000-3-2／-3-3、EN 62479、EN 60335-1及EN 62233等标准。文件没有测试报告号、实验室、App／固件版本或全部销售变体覆盖，且正文说明基于单一样品评估；因此只能记“BP380公开RED声明及标准表已定位”，不能记完整EU合规包、德国准入通过或整批一致。
+- **公开未闭合项。**在本轮官方页面、说明书和DoC定向核对中，没有定位BP380专属RoHS声明／报告、EU RED原测试报告号及原报告、电芯型号与Battery Regulation／UN38.3／IEC 62133资料、RED网络／隐私安全测试或完整App—固件—云版本边界。正确表述是`公开未定位／需专业与内部证明包核对`，不是`不存在`或`不合规`。
+
+#### Amazon.de范围化在售快照
+
+- **[Amazon.de ASIN B0GHG2W8WS](https://www.amazon.de/dp/B0GHG2W8WS?th=1&psc=1&language=de_DE&currency=EUR)。**核验时间2026-10-01 12:18:01 CST；未登录、非Prime，Amazon官方地址会话接受`DE／10115 Berlin`。同一官方商品页返回HTTP 200，显示标题`Momcozy M5Smart Milchpumpe Elektrische, handsfree App-steuerbar 2 Pack Rot`、选中变体`(mit App) Rot - 2 Pack`、209.99欧元、`Auf Lager`、卖家Smartlin、Amazon履约，并存在购买框、加入购物车、立即购买及该邮编配送承诺。这可以把C-315的“实时状态未核验”更新为“特定时间／邮编／匿名会话下在售已核验”。
+- **快照边界。**同页在默认中国位置曾呈现不同价格、运费和交期，直接说明价格、Featured Offer和交付受地点／会话影响。Berlin快照不能外推全德国邮编、登录账户、Prime、持续库存、库存数量、卖家品牌授权、库存所在国、最终税费、真实订单接受、发货、退款、平台结算或银行到账；FBA只表示Amazon履约，不等于库存必在德国。
+
+#### 本轮状态
+
+- **公开范围闭合：**德语说明书中的正式用途；Amazon特定时间／邮编／会话在售快照。
+- **部分闭合：**产品身份与运行版本；最终德语宣称包；DoC与原测试／技术证据包。
+- **只向内部收四包：**实机身份／硬件／固件／App版本；ASIN—SKU—批次交叉表；Amazon详情／包装／德语随箱说明／广告素材的最终宣称版本与依据；DoC引用的原测试报告、实验室、适用硬件／软件版本及其他被专业判断为适用的技术证据。
+- **不能推出：**德国整体准入或持续可售、产品完整合规、市场进入建议、Go／No-Go、岗位／Skill承接、权限、上架、广告、库存、订单、履约或资金动作。
+- **C-317责任回位边界：**C-317只对本节已登记的四类内部缺口分配既有责任地址并明确最小交付；没有新增外部来源、法规判断或业务事实，本节的公开证据、未知项及快照范围均不变。完整责任边界只见`.codex/product-responsibility-research.md`的C-317。
+- **C-318内部请求边界：**C-318只定义ASIN—企业商品SKU—设备SKU—revision／批次映射所需的内部证据和可接受形式；本轮未联网补证，未访问Seller Central、PIM／MDM、ERP、WMS、实机或内部发布记录，也未取得任何内部映射值。因此本节外部证据、未知项和Amazon快照范围均不变，详细请求合同只见`.codex/product-responsibility-research.md`的C-318。
+- **[Amazon Listings Items指南](https://developer-docs.amazon.com/sp-api/docs/manage-product-listings-guide)与[`searchListingsItems`接口](https://developer-docs.amazon.com/sp-api/reference/searchlistingsitems)。**Amazon官方说明Listings Items API访问selling partner listings；`searchListingsItems`路径带`sellerId`，要求`marketplaceIds`，并可按ASIN等标识查询。官方响应模型把seller-provided `sku`与`summaries[].marketplaceId／asin`放在同一Item中，因此一份来自正确账号、德国Marketplace、完整分页且可回查的生产响应可以证明C-319第一跳。文档定义与示例本身不包含`B0GHG2W8WS`的真实账号映射，也不能替代授权后的原始响应。
+- **[Amazon Inventory Reports](https://developer-docs.amazon.com/sp-api/docs/report-type-values-inventory)。**Amazon官方说明Inventory Report `GET_FLAT_FILE_OPEN_LISTINGS_DATA`包含`sku／asin`，All Listings Report `GET_MERCHANT_LISTINGS_ALL_DATA`包含`seller-sku／asin1／asin2／asin3`，且一次只接受一个Amazon store。它们可作为账号内备用第一跳证据，但必须保留账号与Marketplace范围、reportType、报告回执、时间、目标原始行和完整原文件；字段清单不等于该ASIN已经有记录。
+- **[Amazon `createReport`](https://developer-docs.amazon.com/sp-api/reference/createreport)、[`getReport`](https://developer-docs.amazon.com/sp-api/reference/getreport)与[报告请求流程](https://developer-docs.amazon.com/sp-api/docs/request-a-report)。**官方Reports API用reportType与marketplaceIds限定请求，并通过报告状态、处理时间和reportDocumentId等返回报告回执。C-320只把这些字段用于核对账号内原始报表的来源范围、完成状态和可回查性；接口定义与回执格式本身仍不能证明目标ASIN原始行存在。
+- **C-319实际证据状态：**对Career以及Magpie-Horch、shopify、lute-momcozy-audit、lute-momcozy-platform的可检索文本做了定向核对，没有定位`B0GHG2W8WS ↔ Seller／Merchant SKU`账号记录或可追溯Amazon导出。Sanbao全根和二进制资产未完成覆盖，因此只登记`BLOCKED_NO_ACCOUNT_EVIDENCE`，不登记“映射不存在”。本轮未访问Seller Central、未调用SP-API、未取得Seller SKU；公开卖家名Smartlin不能替代Seller SKU。完整核对及停止线见`.codex/product-responsibility-research.md`的C-319。
+- **C-320材料接收状态：**本轮没有收到用户提供的`searchListingsItems`原始响应，也没有收到Inventory／All Listings Report原文件和报告回执，因此没有执行账号范围、德国Marketplace、请求／报告回执、完整分页／原文件、校验值或`B0GHG2W8WS`目标原始行核验；第一跳没有新增实证，状态保持`WAITING_FOR_ARTIFACT／BLOCKED_NO_ACCOUNT_EVIDENCE`。近期本地工件再核对未发现目标账号材料；旧`listing优化模板.xlsx`的结构化索引显示它属于竞品、卖点、评价、关键词和销量规划资产，不是账号响应／报表，原XLSX本体未解包。项目内部capability report的`reportId`也不是Amazon reportId。该结论只对已检查范围成立，不能外推企业账号不存在记录；本轮没有读取凭据、Seller Central、PIM、ERP或WMS。
+
+### C-321 · 德国Amazon进入路径经营关系对照 · 官方依据
+
+日期与边界：2026-10-01。本节只支持C-314问题B中的高层经营关系分层，不据此替企业选择进入路径，也不判断当前Smartlin与企业之间的真实关系。C-320继续等待账号级原始材料。
+
+- **[Amazon Seller Central与Vendor Central](https://sell.amazon.com/zh/tools/seller-central?lang=en-US)。**Amazon官方将Seller Central说明为第三方卖家直接面向消费者销售的入口，将Vendor Central说明为受邀加入、由企业以第一方批发关系向Amazon供货的入口。由此，境外主体第三方Seller、德国／EU本地主体或授权伙伴第三方Seller，以及受邀Vendor第一方批发可以作为三个同层经营关系候选；是否已获邀请、合同条款、账号权利和真实主体仍需内部原始材料证明。
+- **[Amazon德国配送选择](https://sell.amazon.de/versenden?mons_sel_locale=de_DE)与[FBA说明](https://sell.amazon.de/versand-durch-amazon/)。**Amazon官方把FBA、商家自行配送及组合使用说明为卖家履约选择。因此FBA／MFN属于第三方Seller路径下的履约子选择，不应与Seller／Vendor关系并列成第四条进入路径；公开页面显示Amazon履约，也不能反推出账号主体、库存权利、结算关系或企业授权。
+- **[Amazon德国注册指引](https://sell.amazon.de/online-verkaufen/registrierungsleitfaden?mons_sel_locale=de_DE)与[卖家合规中心](https://sell.amazon.de/verkaufspartner-compliance-hub?mons_sel_locale=de_DE)。**官方页面提示注册、身份、税务、产品与EPR等信息会影响卖家开展业务。C-321只把这些放入“准入、税务与EPR”比较面；页面要求本身不证明M5 Smart／BP380已经满足，也不是完整法律意见或固定Gate。
+- **当前可证明与不可证明。**公开快照只支持特定时间／邮编／会话下由Smartlin销售、Amazon履约；不能识别Smartlin属于境外直售还是德国／EU本地或授权伙伴承接，也不能证明企业可复用该关系。当前没有Vendor邀请、商业条款、账号控制、结算、库存、税务、EPR或授权原始证据，故C-321保持`已选路径0｜进入决定0｜业务动作／Runtime 0`。
