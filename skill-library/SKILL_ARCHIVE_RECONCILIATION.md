@@ -1,5 +1,7 @@
 # Skill 归档入口核对
 
+> **历史主机注记**：本报告记录的绝对路径来自扫描主机 `/Users/lute`。工作区已迁移，当前本机路径为 `/Users/pray/project/Sage_hub/Career`。报告内的 `/Users/lute/...` 是历史事实，不等于当前可访问路径；需要当前路径时以仓库内实际文件为准。
+
 - 核对时间：2026-09-25T12:21:36+08:00
 - 对照清单：`skill_inventory_enriched.json`
 - Excel/JSON 记录数：12871

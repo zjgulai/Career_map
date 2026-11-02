@@ -1,6 +1,6 @@
 # 三宝项目结果文件索引
 
-本目录是 `/Users/lute/project/Career/deliverables/` 下的交付副本，按画布、方案、研究、执行四类管理，方便直接拿取和交接。
+本目录是仓库内的交付层 `deliverables/`，按画布、方案、研究、执行四类管理，方便直接拿取和交接。canonical 文件位置见文末「Canonical 路径说明」。
 
 ## 画布
 
