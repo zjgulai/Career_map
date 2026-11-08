@@ -2,7 +2,7 @@
 // 重新生成：python3 -I scripts/build-canvas-graph.py
 window.SANBAO_GRAPH = {
  "schema_version": 1,
- "graph_version": "4a23a8bfcacea691",
+ "graph_version": "b750340e2be2ef3d",
  "status": "draft_pending_owner_signoff",
  "counts": {
   "decisions": 377,

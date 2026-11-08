@@ -2,8 +2,8 @@
 // 设计态展示，不是运行系统。人物完全静止；MGT 只是铜牌，不是人。
 import * as THREE from './vendor/three.module.min.js';
 import { layoutOrg, layoutNetwork } from './layout.js?v=14';
-import { createPerson, createPlaque } from './avatars.js?v=14';
-import { buildFlowLines } from './flow.js?v=14';
+import { createPerson, createPlaque, renderAvatarSvg } from './avatars.js?v=22';
+import { buildFlowLines } from './flow.js?v=22';
 
 const G = window.SANBAO_GRAPH;
 const stage = document.querySelector('#stage');
@@ -117,8 +117,8 @@ const MAT = {
   screen: new THREE.MeshStandardMaterial({ color: 0x0f1316, roughness: 0.15, metalness: 0.10 }),
   seat: new THREE.MeshStandardMaterial({ color: 0x2a3036, roughness: 0.92, metalness: 0.04 }),
   glass: new THREE.MeshStandardMaterial({ color: 0xb9d6d4, roughness: 0.06, metalness: 0.0,
-    transparent: true, opacity: 0.14, side: THREE.DoubleSide, depthWrite: false }),
-  rail: new THREE.MeshStandardMaterial({ color: 0x8d949a, roughness: 0.34, metalness: 0.85 }),
+    transparent: true, opacity: 0.24, side: THREE.DoubleSide, depthWrite: false }),
+  rail: new THREE.MeshStandardMaterial({ color: 0xb4bec7, roughness: 0.26, metalness: 0.88 }),
   stone: new THREE.MeshStandardMaterial({ color: 0x1b1f23, roughness: 0.88, metalness: 0.04 }),
   pedestal: new THREE.MeshStandardMaterial({ color: 0x3d4650, roughness: 0.42, metalness: 0.45 }),
   cap: new THREE.MeshStandardMaterial({ color: 0xe8e4d4, roughness: 0.45, metalness: 0.15 }),
@@ -153,7 +153,7 @@ scene.add(archGroup, orgOnly, netGroup, lightGroup);
       new THREE.MeshBasicMaterial({ color: d.fill, transparent: true, opacity: 0.92, depthWrite: false }));
     fill.rotation.x = -Math.PI / 2;
     fill.position.set(z.x0 + w / 2, 0.4, z.z0 + dd / 2);
-    orgOnly.add(edge, fill);
+    archGroup.add(edge, fill);
   }
 })();
 
@@ -348,18 +348,34 @@ const deskSeatMap = [];
   }
 })();
 
-// ---------- 50 个分身 ----------
+// ---------- 50 个分身 + FLOW-02 试点 3D 标记 ----------
 const peopleGroup = new THREE.Group();
+const pilotRingGroup = new THREE.Group();
+pilotRingGroup.visible = false;
 const personBySeat = new Map();
+const plData = G.org.pilot_lens || { seats: [], context_injected_seats: [], target_nodes: [], stages: [] };
+const pilotCoreIds = new Set((plData.seats || []).map(x => x.seat_id));
+const pilotCtxIds = new Set((plData.context_injected_seats || []).map(x => x.seat_id));
+const pilotNodeIds = new Set(plData.target_nodes || []);
+
 (function buildPeople() {
+  const ringGeo = new THREE.RingGeometry(38, 48, 28);
+  const coreMat = new THREE.MeshBasicMaterial({ color: 0x64c8d8, side: THREE.DoubleSide, transparent: true, opacity: 0.92, depthWrite: false });
+  const ctxMat = new THREE.MeshBasicMaterial({ color: 0xe0a95a, side: THREE.DoubleSide, transparent: true, opacity: 0.82, depthWrite: false });
   for (const s of org.seats) {
     const p = createPerson({ ...s, seat_id: s.id, level1: s.level1, status: s.status, tier: s.tier });
     const cx = s.x + s.w / 2, cz = s.y + s.h / 2;
     p.position.set(cx, 0, cz);
     peopleGroup.add(p);
     personBySeat.set(s.id, p);
+    if (pilotCoreIds.has(s.id) || pilotCtxIds.has(s.id)) {
+      const ring = new THREE.Mesh(ringGeo, pilotCoreIds.has(s.id) ? coreMat : ctxMat);
+      ring.rotation.x = -Math.PI / 2;
+      ring.position.set(cx, 1.2, cz + 6);
+      pilotRingGroup.add(ring);
+    }
   }
-  orgOnly.add(peopleGroup);
+  orgOnly.add(peopleGroup, pilotRingGroup);
 })();
 
 // ---------- 网络台座 + 流动线 ----------
@@ -388,6 +404,20 @@ let flow = null;
     bands.setMatrixAt(i, m);
   });
   for (const im of [peds, caps, bands]) { im.frustumCulled = false; im.castShadow = true; netGroup.add(im); }
+
+  const netRingGeo = new THREE.RingGeometry(36, 48, 28);
+  const netRingMat = new THREE.MeshBasicMaterial({ color: 0xe0a95a, side: THREE.DoubleSide, transparent: true, opacity: 0.9, depthWrite: false });
+  const netPilotGroup = new THREE.Group();
+  netPilotGroup.visible = false;
+  nodes.forEach(nd => {
+    if (!pilotNodeIds.has(nd.id)) return;
+    const r = new THREE.Mesh(netRingGeo, netRingMat);
+    r.rotation.x = -Math.PI / 2;
+    r.position.set(nd.x + nd.w / 2, 1.5, nd.y + nd.h / 2);
+    netPilotGroup.add(r);
+  });
+  netGroup.add(netPilotGroup);
+  netGroup.userData.pilotRings = netPilotGroup;
 
   flow = buildFlowLines(net.nodes, G.network.relations);
   flow.setPixelRatio(PR);
@@ -439,13 +469,14 @@ let flow = null;
 
 // ---------- DOM 标签 ----------
 const labels = [];
-function addLabel(text, pos, cls, data) {
+function addLabel(html, pos, cls, data, isHtml = false) {
   const el = document.createElement('div');
   el.className = cls;
-  el.textContent = text;
+  if (isHtml) el.innerHTML = html;
+  else el.textContent = html;
   if (data) Object.assign(el.dataset, data);
   labelLayer.appendChild(el);
-  labels.push({ el, pos: pos.clone(), kind: data ? data.kind : 'misc', shown: true });
+  labels.push({ el, pos: pos.clone(), kind: data ? data.kind : 'misc', id: data ? data.id : null, shown: true });
   return el;
 }
 (function buildLabels() {
@@ -458,18 +489,22 @@ function addLabel(text, pos, cls, data) {
     new THREE.Vector3(FCX + (i - 1) * 320, 152, wallZ + 15), 'lbl gov', { kind: 'gov', id: gv.seat_id }));
   addLabel('T4 决策权规则包 · 非 Agent 席位',
     new THREE.Vector3(FCX, 196, wallZ + 15), 'lbl gov', { kind: 'govnote' });
+  const netOffX = FCX - 800, netOffZ = FCZ - 800;
   for (const nd of net.nodes) addLabel(nd.title,
-    new THREE.Vector3(nd.x + nd.w / 2, 70 + (nd.pages ? nd.pages.length : 1) * 6 + 34, nd.y + nd.h / 2),
+    new THREE.Vector3(netOffX + nd.x + nd.w / 2, 70 + (nd.pages ? nd.pages.length : 1) * 6 + 34, netOffZ + nd.y + nd.h / 2),
     'lbl node', { kind: 'node', id: nd.id });
-  // 席位标签：50 个都建，按相机距离动态显隐（最多 20 个）
-  for (const s of org.seats) addLabel(`${s.alias}`,
-    new THREE.Vector3(s.x + s.w / 2, 140, s.y + s.h / 2), 'lbl seat', { kind: 'seat', id: s.id });
+  // 席位名片标签（含确定性 SVG 类人头像 + 姓名 + 编号）
+  for (const s of org.seats) {
+    const svg = renderAvatarSvg({ ...s, seat_id: s.id, level1: s.level1 }, 20);
+    addLabel(`${svg}<span>${s.alias}</span><small>${s.id}</small>`,
+      new THREE.Vector3(s.x + s.w / 2, 142, s.y + s.h / 2), 'lbl seat', { kind: 'seat', id: s.id }, true);
+  }
 })();
 
 // ---------- 相机 ----------
 const camera = new THREE.PerspectiveCamera(35, 1, 10, 12000);
 const orbit = {
-  theta: Math.PI * 0.25, phi: Math.PI * 0.31, radius: 3500,
+  theta: Math.PI * 0.25, phi: Math.PI * 0.33, radius: 2550,
   target: new THREE.Vector3(FCX, 60, FCZ),
 };
 let autoRotate = true;
@@ -566,26 +601,51 @@ stage.addEventListener('click', e => {
 // ---------- 详情 ----------
 const SEAT_MAP = new Map([...G.org.seats, ...G.org.governance].map(s => [s.seat_id, s]));
 
+let closeupMode = false;
+let pilotMode = false;
+
 function showDetail(kind, id) {
-  if (kind === 'seat') {
+  if (kind === 'pilot') {
+    side.innerHTML = `<h2>${plData.title}</h2>
+      <p><span class="tag warn">准备态 · 尚未运行</span><span class="tag">${plData.active_sessions} 并发 session</span></p>
+      <p>授权依据：<code>${plData.authorization_ref}</code></p>
+      <h3>核心参与席位（${plData.seats.length}）</h3>
+      ${plData.seats.map(s => {
+        const meta = SEAT_MAP.get(s.seat_id);
+        return `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${meta ? meta.alias : ''} · ${s.mode}<br><small style="color:#8f9d97">${s.stages.join('/')} · ${s.duty}</small></div>`;
+      }).join('')}
+      <h3>T3 上下文注入/装配席位（${plData.context_injected_seats.length}）</h3>
+      ${plData.context_injected_seats.map(s => {
+        const meta = SEAT_MAP.get(s.seat_id);
+        return `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${meta ? meta.alias : ''}（${s.stages.join('/')}） · ${s.duty}</div>`;
+      }).join('')}
+      <h3>关联主网节点（${plData.target_nodes.length}）</h3>
+      ${plData.target_nodes.map(nid => {
+        const nd = net.nodes.find(x => x.id === nid);
+        return `<div class="jump" data-jump3d="node:${nid}">→ ${nd ? nd.title : nid}（${nd ? nd.codes : ''}）</div>`;
+      }).join('')}
+      <h3>八阶段只读合同（STG-01..08）</h3>
+      ${plData.stages.map(st => `<p><strong>${st.id} ${st.name}</strong> · ${st.artifact}<br><small>${st.actor}｜${st.gate}</small></p>`).join('')}`;
+  } else if (kind === 'seat') {
     const s = SEAT_MAP.get(id);
     if (!s) return;
+    const deptKey = PLANE2DEPT[s.plane] || 'ops';
+    const avatar = renderAvatarSvg({ ...s, level1: deptKey }, 52);
     const links = s.node_links || [];
-    side.innerHTML = `<h2>${s.alias} · ${s.seat_id}</h2>
-      <p>${s.title}</p>
+    side.innerHTML = `<div class="profile-head">${avatar}<div><h2>${s.alias} · ${s.seat_id}</h2><p style="margin:0">${s.title}</p></div></div>
       <p><span class="tag">${s.plane}</span><span class="tag">${s.source_group}</span>
       <span class="tag">${s.tier}</span><span class="tag warn">${s.admission_status}</span></p>
-      <p>能力站位：${s.slot_id} · ${s.slot_title}</p>
+      <p>能力站位：${s.slot_id} · ${s.slot_title}（${s.slot_basis}）</p>
       <p>目标运行层：<code>${s.runtime_layer || '—'}</code></p>
       <p>生产授权：否 · 运行身份：否</p>
-      ${links.length ? `<p><strong>关联经营网络节点（${links.length}）</strong></p>` + links.map(lk => {
+      ${links.length ? `<h3>关联经营网络节点（${links.length}）</h3>` + links.map(lk => {
         const nd = net.nodes.find(x => x.id === lk.node_id);
-        return `<p class="jump" data-jump3d="node:${lk.node_id}">→ ${nd ? nd.title : lk.node_id}（${lk.basis.join('/')}）</p>`;
+        return `<div class="jump" data-jump3d="node:${lk.node_id}">→ ${nd ? nd.title : lk.node_id}（${lk.basis.join('/')}）<br><small style="color:#8f9d97">${lk.note}</small></div>`;
       }).join('') : `<p>无直接主网节点映射（跨事项按题进入）。</p>`}`;
   } else if (kind === 'gov') {
     const g = SEAT_MAP.get(id);
-    side.innerHTML = `<h2>${g.alias} · ${g.seat_id}</h2>
-      <p>${g.title}</p>
+    const avatar = renderAvatarSvg(g, 48);
+    side.innerHTML = `<div class="profile-head">${avatar}<div><h2>${g.alias} · ${g.seat_id}</h2><p style="margin:0">${g.title}</p></div></div>
       <p><span class="tag">${g.slot_id}</span><span class="tag">${g.slot_title}</span></p>
       <p><strong>T4 决策权规则，不是 Agent 席位，不是部门。</strong></p>
       <p>治理参照：T4 决策权规则包。不挂 session、不进事项、不发 ActionIntent。</p>`;
@@ -614,8 +674,8 @@ function switchView(v) {
   orgOnly.visible = v === 'org';
   netGroup.visible = v === 'network';
   orbit.target.set(FCX, v === 'org' ? 60 : 40, FCZ);
-  orbit.radius = v === 'org' ? 3500 : 4000;
-  orbit.phi = v === 'org' ? Math.PI * 0.31 : Math.PI * 0.40;
+  orbit.radius = v === 'org' ? (closeupMode ? 1180 : 2550) : 2900;
+  orbit.phi = v === 'org' ? (closeupMode ? Math.PI * 0.36 : Math.PI * 0.33) : Math.PI * 0.38;
   for (const l of labels) {
     if (l.kind === 'node' || l.kind === 'sub') l.shown = v === 'network' || l.kind === 'sub';
     if (l.kind === 'node') l.shown = v === 'network';
@@ -626,6 +686,32 @@ function switchView(v) {
 stage.dataset.view = 'org';
 netGroup.visible = false;
 document.querySelectorAll('#views button').forEach(btn => btn.addEventListener('click', () => switchView(btn.dataset.view)));
+
+document.querySelector('#closeup-btn').addEventListener('click', e => {
+  closeupMode = !closeupMode;
+  e.currentTarget.classList.toggle('active', closeupMode);
+  if (stage.dataset.view !== 'org') switchView('org');
+  orbit.radius = closeupMode ? 1180 : 2550;
+  orbit.phi = closeupMode ? Math.PI * 0.36 : Math.PI * 0.33;
+  orbit.target.set(FCX, closeupMode ? 85 : 60, closeupMode ? FCZ - 320 : FCZ);
+});
+
+document.querySelector('#pilot3d-btn').addEventListener('click', e => {
+  pilotMode = !pilotMode;
+  e.currentTarget.classList.toggle('active', pilotMode);
+  pilotRingGroup.visible = pilotMode;
+  if (netGroup.userData.pilotRings) netGroup.userData.pilotRings.visible = pilotMode;
+  if (flow) flow.setPilotNodes(pilotMode ? pilotNodeIds : null);
+  for (const [sid, mesh] of personBySeat.entries()) {
+    const inPilot = pilotCoreIds.has(sid) || pilotCtxIds.has(sid);
+    mesh.scale.setScalar(pilotMode && inPilot ? 1.12 : 1);
+  }
+  for (const l of labels) {
+    const pinned = pilotMode && ((l.kind === 'seat' && (pilotCoreIds.has(l.id) || pilotCtxIds.has(l.id))) || (l.kind === 'node' && pilotNodeIds.has(l.id)));
+    l.el.classList.toggle('pilot-pin', pinned);
+  }
+  if (pilotMode) showDetail('pilot', 'FLOW-02-SCN-002');
+});
 
 document.querySelector('#toggle-rotate').addEventListener('click', e => {
   autoRotate = !autoRotate;
@@ -649,9 +735,14 @@ function projectLabels() {
   const w = stage.clientWidth, h = stage.clientHeight;
   const orgView = stage.dataset.view === 'org';
 
-  // 席位标签：仅近景，最多 20 个，按相机距离排序
+  // 席位标签：试点镜头下常驻显示 9 个试点席位；近景（radius < 1750）显示视锥内最近 22 个
   const seatShown = new Set();
-  if (orgView && orbit.radius < 1600) {
+  if (orgView && pilotMode) {
+    for (const l of labels) {
+      if (l.kind === 'seat' && (pilotCoreIds.has(l.id) || pilotCtxIds.has(l.id))) seatShown.add(l);
+    }
+  }
+  if (orgView && orbit.radius < 1750) {
     const cands = [];
     for (const l of labels) {
       if (l.kind !== 'seat') continue;
@@ -660,7 +751,7 @@ function projectLabels() {
       cands.push({ l, d: v3.z });
     }
     cands.sort((a, b) => a.d - b.d);
-    for (const c of cands.slice(0, 20)) seatShown.add(c.l);
+    for (const c of cands.slice(0, 22)) seatShown.add(c.l);
   }
 
   // 收集本轮候选：先算屏幕矩形，再按优先级贪心避让
@@ -677,7 +768,7 @@ function projectLabels() {
     const y = Math.max(14, Math.min(h - 14, (-v3.y * 0.5 + 0.5) * h));
     const hw = l.w / 2 + 3, hh = l.h / 2 + 3;
     cands.push({ l, x, y, rect: { x0: x - hw, x1: x + hw, y0: y - hh, y1: y + hh },
-                 p: LBL_PRIORITY[l.kind] || 1 });
+                 p: (l.el.classList.contains('pilot-pin') ? 6 : (LBL_PRIORITY[l.kind] || 1)) });
   }
   cands.sort((a, b) => b.p - a.p);
 

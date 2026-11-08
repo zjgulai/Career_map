@@ -31,8 +31,8 @@ main{flex:1;display:flex;min-height:0}
 #labels{position:absolute;inset:0;pointer-events:none}
 #labels > *{position:absolute;left:0;top:0;transform:translate(-50%,-50%);pointer-events:auto}
 #hint{position:absolute;left:14px;bottom:12px;font-size:11px;color:var(--muted);background:#fffcf5cc;border:1px solid var(--line);border-radius:16px;padding:3px 10px}
-.seat{display:flex;flex-direction:column;align-items:center;justify-content:center;
-  width:96px;height:44px;background:var(--card);border:1px solid #cfd9cb;border-radius:7px;
+.seat{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:5px;
+  width:112px;height:44px;background:var(--card);border:1px solid #cfd9cb;border-radius:7px;
   font-size:13px;line-height:1.15;color:var(--ink);white-space:nowrap;cursor:pointer}
 .seat.compact{width:44px;height:24px;font-size:12px;flex-direction:row}
 .seat.compact small{display:none}
@@ -91,3 +91,10 @@ main{flex:1;display:flex;min-height:0}
 #pilot-btn.pilot-on{background:#7a5f28;border-color:#7a5f28;color:#fff}
 .seat.pilot-core,.node.pilot-core{border-color:#2d6756;border-style:solid;box-shadow:0 0 0 2px #2d675655}
 .seat.pilot-ctx{border-color:#a8792c;border-style:solid;box-shadow:0 0 0 2px #a8792c44}
+
+.seat svg{flex-shrink:0;border-radius:50%}
+.seat-txt{display:flex;flex-direction:column;align-items:flex-start;line-height:1.1;min-width:0;overflow:hidden}
+.seat-txt b,.seat-txt small{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.seat.compact svg{display:none}
+.profile-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.profile-head svg{flex-shrink:0;border-radius:50%}

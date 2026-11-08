@@ -163,13 +163,23 @@ export function buildFlowLines(nodes, relations) {
   const edgeWeight = new Float32Array(valid.length).fill(1);
   const edgeTarget = new Float32Array(valid.length).fill(1);
   let hoverNode = null;
+  let pilotNodes = null;
 
-  function setHover(nodeId) {
-    hoverNode = nodeId;
+  function recomputeTargets() {
     valid.forEach((e, i) => {
-      edgeTarget[i] = !nodeId ? 1 : (e.a.id === nodeId || e.b.id === nodeId) ? 1 : 0.07;
+      if (hoverNode) {
+        edgeTarget[i] = (e.a.id === hoverNode || e.b.id === hoverNode) ? 1 : 0.07;
+      } else if (pilotNodes && pilotNodes.size) {
+        const both = pilotNodes.has(e.a.id) && pilotNodes.has(e.b.id);
+        const one = pilotNodes.has(e.a.id) || pilotNodes.has(e.b.id);
+        edgeTarget[i] = both ? 1.25 : one ? 0.55 : 0.06;
+      } else {
+        edgeTarget[i] = 1;
+      }
     });
   }
+  function setHover(nodeId) { hoverNode = nodeId; recomputeTargets(); }
+  function setPilotNodes(nodeSet) { pilotNodes = nodeSet; recomputeTargets(); }
 
   const vHead = new THREE.Vector3(), vTail = new THREE.Vector3();
   let t = 0;
@@ -185,7 +195,8 @@ export function buildFlowLines(nodes, relations) {
     for (let i = 0; i < comet.length; i++) {
       const c = comet[i];
       const w = edgeWeight[valid.indexOf(c.e)];
-      const speedScale = hoverNode ? (w > 0.5 ? 1 : 0.16) : 1;
+      const activeFilter = !!(hoverNode || (pilotNodes && pilotNodes.size));
+      const speedScale = activeFilter ? (w > 0.45 ? 1.15 : 0.16) : 1;
       c.pos = (c.pos + dt * c.conf.speed * speedScale) % 1;
       const head = (c.phase + c.pos) % 1;
       const tail = (head - c.conf.tail + 1) % 1;
@@ -195,19 +206,19 @@ export function buildFlowLines(nodes, relations) {
       ptPos[o] = vHead.x; ptPos[o + 1] = vHead.y; ptPos[o + 2] = vHead.z;
       ptPos[o + 3] = vTail.x; ptPos[o + 4] = vTail.y; ptPos[o + 5] = vTail.z;
       // 无关边压暗（写 opacity 属性太贵，直接缩着色）
-      const aScale = hoverNode ? (w > 0.5 ? 1 : 0.12) : 1;
+      const aScale = activeFilter ? (w > 0.45 ? Math.min(1.25, w) : 0.10) : 1;
       ptAlpha[i * 2] = c.conf.alpha * aScale;
       ptAlpha[i * 2 + 1] = c.conf.alpha * 0.25 * aScale;
     }
     ptGeo.attributes.position.needsUpdate = true;
     ptGeo.attributes.aAlpha.needsUpdate = true;
     // 静态线随 hover 整体压暗（一次 uniform 写入）
-    lineMat.opacity = hoverNode ? 0.55 : 1;
+    lineMat.opacity = (hoverNode || (pilotNodes && pilotNodes.size)) ? 0.52 : 1;
   }
   function setPixelRatio(pr) { ptMat.uniforms.uPR.value = pr; }
 
   return {
-    group, update, setHover, setPixelRatio,
+    group, update, setHover, setPilotNodes, setPixelRatio,
     stats: { edges: valid.length, comets: comet.length, lineVerts: linePos.length / 3, pointVerts: P },
   };
 }

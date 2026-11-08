@@ -29,8 +29,10 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTEXT_PACK = ROOT / ".codex/context-pack.md"
 SEAT_REGISTRY = ROOT / ".codex/pilot/seat-registry.json"
 ROSTER = ROOT / ".codex/3plus50-roster.md"
+TRACKED_ROSTER = ROOT / "deliverables/strategy/sanbao-3plus50-roster.md"
 CROSSWALK = ROOT / "configs/seat-node-crosswalk.json"
 CARDS_DIR = ROOT / ".superpowers/brainstorm/38196-1789923100/content"
+SNAPSHOT = ROOT / "src/orgmap/sources/source-snapshot.json"
 OUTPUT = ROOT / "src/orgmap/data/graph.js"
 
 EXPECTED = {"decisions": 377, "cards": 63, "graph_cards": 33, "nodes": 20, "relations": 126, "seats": 53, "crosswalk_seats": 53, "crosswalk_links": 38}
@@ -238,7 +240,8 @@ def build_departments(seats: list[dict]) -> tuple[list[dict], list[dict]]:
 
 def verify_roster(seats: list[dict], governance: list[dict]) -> list[str]:
     rows = {}
-    for line in read(ROSTER).splitlines():
+    roster_path = ROSTER if ROSTER.is_file() else TRACKED_ROSTER
+    for line in read(roster_path).splitlines():
         m = re.match(r"\|\s*(AGT-\d{3}|MGT-\d{3})\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|", line)
         if m:
             rows[m.group(1)] = (m.group(2), m.group(3))
@@ -260,10 +263,72 @@ def fingerprint(paths: list[Path]) -> str:
     return h.hexdigest()[:16]
 
 
-def build() -> dict:
-    decisions = collect_decisions()
-    cards, nodes, relations = collect_cards()
-    seat_data = collect_seats()
+def has_local_raw_sources() -> bool:
+    return CONTEXT_PACK.is_file() and SEAT_REGISTRY.is_file() and CARDS_DIR.is_dir()
+
+
+def load_or_sync_sources(write_snapshot: bool) -> tuple[list[dict], list[dict], list[dict], list[dict], dict, str]:
+    if has_local_raw_sources():
+        decisions = collect_decisions()
+        cards, nodes, relations = collect_cards()
+        registry = json.loads(read(SEAT_REGISTRY))
+        raw_fp = fingerprint([CONTEXT_PACK, SEAT_REGISTRY, ROSTER if ROSTER.is_file() else TRACKED_ROSTER] +
+                             sorted(CARDS_DIR.glob("*.html")))
+        snap = {
+            "schema_version": 1,
+            "raw_fingerprint": raw_fp,
+            "decisions": decisions,
+            "cards": cards,
+            "nodes": nodes,
+            "relations": relations,
+            "seat_registry": registry,
+        }
+        if write_snapshot:
+            SNAPSHOT.parent.mkdir(parents=True, exist_ok=True)
+            SNAPSHOT.write_text(json.dumps(snap, ensure_ascii=False, indent=1) + chr(10), encoding="utf-8")
+    elif SNAPSHOT.is_file():
+        snap = json.loads(read(SNAPSHOT))
+        decisions = snap["decisions"]
+        cards = snap["cards"]
+        nodes = snap["nodes"]
+        relations = snap["relations"]
+        registry = snap["seat_registry"]
+        raw_fp = snap["raw_fingerprint"]
+    else:
+        raise SystemExit("缺少本地源（.codex/.superpowers）且无 src/orgmap/sources/source-snapshot.json")
+
+    cw_raw = json.loads(read(CROSSWALK))
+    cw_by_seat = {item["seat_id"]: item for item in cw_raw.get("seats", [])}
+    seats, governance = [], []
+    for s in registry["seats"]:
+        plane, group = s.get("plane"), s.get("source_group")
+        cw = cw_by_seat.get(s["seat_id"], {})
+        row = {"seat_id": s["seat_id"], "alias": s.get("alias", ""), "title": s.get("title", ""),
+               "namespace": s.get("namespace", ""), "plane": plane, "source_group": group,
+               "tier": s.get("tier", ""), "admission_status": s.get("admission_status", ""),
+               "production_authorized": bool(s.get("production_authorized")),
+               "runtime_identity_status": bool(s.get("runtime_identity_status")),
+               "catalog_ref": s.get("catalog_ref", ""),
+               "runtime_layer": s.get("runtime_layer", ""),
+               "human_owner_ref": s.get("human_owner_ref", ""),
+               "slot_id": cw.get("slot_id", ""), "slot_title": cw.get("slot_title", ""),
+               "slot_basis": cw.get("slot_basis", ""), "pilot_role": cw.get("pilot_role"),
+               "node_links": cw.get("node_links", [])}
+        if plane == GOVERNANCE_PLANE:
+            governance.append(row)
+        else:
+            seats.append(row)
+    seat_data = {"seats": seats, "governance": governance, "crosswalk": cw_raw,
+                 "meta": {k: registry.get(k) for k in ("version", "status", "artifact_kind",
+                                                        "seat_count", "tier_definitions")}}
+    h = hashlib.sha256()
+    h.update(raw_fp.encode())
+    h.update(CROSSWALK.read_bytes())
+    return decisions, cards, nodes, relations, seat_data, h.hexdigest()[:16]
+
+
+def build(write_snapshot: bool = False) -> dict:
+    decisions, cards, nodes, relations, seat_data, graph_ver = load_or_sync_sources(write_snapshot)
     level1, level2 = build_departments(seat_data["seats"])
     node_ids = {n["id"] for n in nodes}
     decision_ids = {d["id"] for d in decisions}
@@ -324,8 +389,7 @@ def build() -> dict:
         raise SystemExit("构建失败：\n  - " + "\n  - ".join(problems))
     return {
         "schema_version": 1,
-        "graph_version": fingerprint([CONTEXT_PACK, SEAT_REGISTRY, ROSTER, CROSSWALK] +
-                                     sorted(CARDS_DIR.glob("*.html"))),
+        "graph_version": graph_ver,
         "status": "draft_pending_owner_signoff",
         "counts": counts,
         "org": {"level1": level1, "level2": level2,
@@ -359,7 +423,7 @@ def main() -> int:
     ap.add_argument("--report")
     ap.add_argument("--stdout", action="store_true")
     args = ap.parse_args()
-    data = build()
+    data = build(write_snapshot=not args.check and not args.stdout)
     rendered = render(data)
     if args.stdout:
         sys.stdout.write(rendered)

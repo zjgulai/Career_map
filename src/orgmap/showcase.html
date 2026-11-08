@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>三宝 · 组织空间 3D（展示视图）</title>
 <link rel="icon" href="data:,">
-<link rel="stylesheet" href="./showcase.css?v=20">
+<link rel="stylesheet" href="./showcase.css?v=22">
 </head>
 <body>
 <header class="topbar">
@@ -15,13 +15,15 @@
     <button data-view="org" class="active">办公层</button>
     <button data-view="network">网络层</button>
   </nav>
+  <button id="closeup-btn" type="button" title="拉近镜头至工位近景（显示人物头像名片与工牌）">近景模式</button>
+  <button id="pilot3d-btn" type="button" title="在 3D 空间高亮 FLOW-02 × SCN-002 四席只读试点">FLOW-02 试点镜头</button>
   <button id="toggle-rotate" class="active">暂停旋转</button>
 </header>
 <main>
   <section id="stage" aria-label="三维组织空间"><canvas id="gl"></canvas><div id="labels3d"></div></section>
   <aside id="side">
     <h2>未选择</h2>
-    <p>拖拽旋转 · 滚轮缩放 · 点击人物或台座查看。</p>
+    <p>拖拽旋转 · 滚轮缩放 · 点击人物或台座查看详情（或点顶栏「近景模式」查看人物肖像名片）。</p>
     <p><strong>分身 = 能力站位符号，不是已任命员工；准入状态不是在线状态。</strong></p>
     <p>精确阅读请回<strong>工作视图</strong>（正交、0° 倾角、文字在 DOM）。</p>
     <dl class="facts">
@@ -42,7 +44,7 @@
   <span><a href="./">← 工作视图</a></span>
   <span>数据 <code id="gv">—</code></span>
 </footer>
-<script src="./data/graph.js?v=14"></script>
-<script type="module" src="./showcase.js?v=14"></script>
+<script src="./data/graph.js?v=22"></script>
+<script type="module" src="./showcase.js?v=22"></script>
 </body>
 </html>

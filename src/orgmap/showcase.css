@@ -6,14 +6,15 @@
 html,body{height:100%}
 body{margin:0;background:var(--bg);color:var(--ink);display:flex;flex-direction:column;overflow:hidden;
   font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.5}
-.topbar{display:flex;align-items:center;gap:14px;padding:10px 18px;background:#0b0e11;border-bottom:1px solid var(--line);z-index:10}
+.topbar{display:flex;align-items:center;gap:10px;padding:10px 18px;background:#0b0e11;border-bottom:1px solid var(--line);z-index:10}
 .brand{display:flex;align-items:center;gap:9px;white-space:nowrap}
 .mark{display:grid;place-items:center;width:26px;height:26px;background:#2b3a36;color:#cfe6dc;border-radius:7px;font-weight:700}
 .brand strong{font-size:15px;letter-spacing:1.2px}
 .banner{flex:1;text-align:center;font-size:12px;color:#c9b98a;background:#1b1810;border:1px solid #332c1c;border-radius:20px;padding:4px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 nav{display:flex;gap:6px}
-nav button,#toggle-rotate{font:inherit;font-size:13px;padding:6px 14px;border:1px solid var(--line);background:#141a1e;color:var(--muted);border-radius:7px;cursor:pointer;white-space:nowrap}
-nav button.active,#toggle-rotate.active{background:#2f5c4d;border-color:#3d7461;color:#e8f4ee}
+nav button,#toggle-rotate,#closeup-btn,#pilot3d-btn{font:inherit;font-size:12px;padding:6px 12px;border:1px solid var(--line);background:#141a1e;color:var(--muted);border-radius:7px;cursor:pointer;white-space:nowrap}
+nav button.active,#toggle-rotate.active,#closeup-btn.active{background:#2f5c4d;border-color:#3d7461;color:#e8f4ee}
+#pilot3d-btn.active{background:#7a5f28;border-color:#a88438;color:#fff}
 main{flex:1;display:flex;min-height:0}
 #stage{position:relative;flex:1;min-width:0;overflow:hidden;cursor:grab;
   box-shadow:inset 0 0 220px 60px rgba(0,0,0,0.55)}
@@ -28,16 +29,23 @@ main{flex:1;display:flex;min-height:0}
 .lbl.sub{font-size:12px;color:#93a89c;background:#0a0e10b3;padding:2px 6px;border-color:#243029}
 .lbl.gov{font-size:12px;color:#e0cf9c;background:#1a150cd9;border-color:#4a3d22}
 .lbl.node{font-size:12px;color:#e6e2d2;background:#101613d9;border-color:#33423a}
-.lbl.seat{font-size:12px;color:#9fb5aa;background:#0a0e10b3;padding:1px 5px;border-color:#1f2a26}
-#side{width:310px;border-left:1px solid var(--line);background:var(--panel);padding:18px;overflow:auto}
-#side h2{font-size:15px;margin:0 0 6px;font-weight:600}
-#side p{font-size:12px;color:var(--muted);margin:8px 0}
+.lbl.seat{display:flex;align-items:center;gap:5px;font-size:12px;color:#d6e6de;
+  background:#0d1412e6;padding:2px 7px 2px 3px;border-color:#2d4a3e;border-radius:14px}
+.lbl.seat svg{display:block;border-radius:50%;flex-shrink:0}
+.lbl.seat small{font-size:11px;color:#8fa69b}
+.lbl.pilot-pin{border-color:#e0a95a;box-shadow:0 0 0 1.5px #e0a95a88;background:#1c160be6;color:#f5dfa8}
+#side{width:320px;border-left:1px solid var(--line);background:var(--panel);padding:18px;overflow:auto}
+#side h2{font-size:15px;margin:0 0 4px;font-weight:600}
+#side h3{font-size:13px;margin:14px 0 6px;font-weight:600;color:#dfeae4}
+#side p{font-size:12px;color:var(--muted);margin:6px 0}
 #side strong{color:#dfeae4}
+.profile-head{display:flex;align-items:center;gap:12px;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.profile-head svg{flex-shrink:0;border-radius:50%}
 .tag{display:inline-block;font-size:11px;border:1px solid var(--line);border-radius:12px;padding:1px 8px;margin:2px 4px 2px 0;color:var(--muted)}
 .tag.warn{border-color:#4a3d22;background:#1b1810;color:#d8c99a}
-.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 10px;font-size:12px;margin-top:16px}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 10px;font-size:12px;margin-top:14px}
 .facts dt{color:var(--muted)}.facts dd{margin:0}
-.jump{cursor:pointer;color:#8fd0b0}
+.jump{cursor:pointer;color:#8fd0b0;padding:4px 0;border-top:1px solid #1c2428;font-size:12px}
 .jump:hover{color:#b6e8cf}
 .statusbar{display:flex;gap:16px;align-items:center;padding:5px 16px;border-top:1px solid var(--line);
   background:#0b0e11;font-size:11px;color:var(--muted)}

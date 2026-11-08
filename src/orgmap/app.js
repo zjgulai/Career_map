@@ -1,6 +1,7 @@
 // 正交工作视图：使用 Canvas2D 绘制板面与折线（零 WebGL 依赖），DOM overlay 承载全部文字与交互。
 // three.module.min.js 仅由独立 3D 展示页 showcase.html 加载，工作视图冷启动立降 671KB。
-import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=10';
+import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=22';
+import { renderAvatarSvg } from './avatars.js?v=22';
 
 const G = window.SANBAO_GRAPH;
 const $ = sel => document.querySelector(sel);
@@ -117,7 +118,8 @@ function buildLabels() {
     for (const b of org.bands) labelEls.push({ el: mk('div', 'band-label', `${b.name} · ${b.seat_count} 席`, { kind: 'band', id: b.id }), x: b.x + 4, y: b.y + 12, kind: 'band' });
     for (const g of org.blocks) labelEls.push({ el: mk('div', 'block-label' + (g.shared ? ' shared' : ''), `${g.level2Name} · ${g.seats.length}`, { kind: 'block', id: g.level2 }), x: g.x + g.w / 2, y: g.y + 15, kind: 'block' });
     for (const s of org.seats) {
-      const el = mk('div', 'seat' + (s.status === 'UNVERIFIED' ? ' unverified' : s.status === 'PARTIAL' ? ' partial' : ''), `<b>${s.alias}</b><small>${s.id}</small>`, { kind: 'seat', id: s.id });
+      const svg = renderAvatarSvg({ ...s, seat_id: s.id, level1: s.level1 }, 20);
+      const el = mk('div', 'seat' + (s.status === 'UNVERIFIED' ? ' unverified' : s.status === 'PARTIAL' ? ' partial' : ''), `${svg}<div class="seat-txt"><b>${s.alias}</b><small>${s.id}</small></div>`, { kind: 'seat', id: s.id });
       el.title = `${s.id} ${s.alias} · ${s.title}（${s.slot_id}）`;
       el.addEventListener('click', ev => { ev.stopPropagation(); select({ kind: 'seat', id: s.id }); });
       labelEls.push({ el, x: s.x + s.w / 2, y: s.y + s.h / 2, kind: 'seat' });
@@ -382,9 +384,10 @@ function side(sel) {
   if (sel.kind === 'seat' || sel.kind === 'gov') {
     const meta = [...G.org.seats, ...G.org.governance].find(x => x.seat_id === sel.id);
     if (!meta) return;
+    const deptMap = { 经营管理: 'mgmt', 业务运营: 'ops', 独立控制: 'control', '数据与Agent平台': 'platform' };
+    const avatar = renderAvatarSvg({ ...meta, level1: deptMap[meta.plane] || 'ops' }, 48);
     const links = meta.node_links || [];
-    el.innerHTML = `<h2>${meta.alias} · ${meta.seat_id}</h2>
-      <p>${meta.title}</p>
+    el.innerHTML = `<div class="profile-head">${avatar}<div><h2>${meta.alias} · ${meta.seat_id}</h2><p style="margin:0">${meta.title}</p></div></div>
       <p><span class="tag">${meta.plane}</span><span class="tag">${meta.source_group}</span><span class="tag">${meta.tier}</span>
       <span class="tag warn">${meta.admission_status}</span>
       ${meta.pilot_role ? `<span class="tag">FLOW-02: ${meta.pilot_role}</span>` : ''}</p>

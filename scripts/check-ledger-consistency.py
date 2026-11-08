@@ -63,6 +63,7 @@ ABS_PATH_FILES = (
     "deliverables/SANBAO-RESULTS.md",
     "src/orgmap/README.md",
     "src/orgmap/data/graph.js",
+    "src/orgmap/sources/source-snapshot.json",
 )
 
 # 记录历史扫描主机的文档：里面的绝对路径是历史事实，不要求在本机存在。
