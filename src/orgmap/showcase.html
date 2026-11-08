@@ -3,44 +3,46 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>三宝 · 3D 展示（非验收视图）</title>
+<title>三宝 · 组织空间 3D（展示视图）</title>
 <link rel="icon" href="data:,">
-<link rel="stylesheet" href="./showcase.css?v=7">
+<link rel="stylesheet" href="./showcase.css?v=20">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><span class="mark">三</span><strong>三宝 · 3D 展示</strong></div>
+  <div class="brand"><span class="mark">三</span><strong>三宝 · 组织空间</strong></div>
   <div class="banner" role="status">展示视图 · 不参与可读性验收 · 不是运行系统</div>
   <nav id="views">
-    <button data-view="org" class="active">组织空间</button>
-    <button data-view="network">网络空间</button>
+    <button data-view="org" class="active">办公层</button>
+    <button data-view="network">网络层</button>
   </nav>
   <button id="toggle-rotate" class="active">暂停旋转</button>
 </header>
 <main>
-  <section id="stage" aria-label="三维展示"><canvas id="gl"></canvas><div id="labels3d"></div></section>
+  <section id="stage" aria-label="三维组织空间"><canvas id="gl"></canvas><div id="labels3d"></div></section>
   <aside id="side">
     <h2>未选择</h2>
-    <p>拖拽旋转 · 滚轮缩放 · 点击立柱查看。</p>
-    <p>本页的透视与倾斜只用于展示空间关系。<strong>精确阅读请回工作视图</strong>（组织席位 / 经营网络），那里是正交、0° 倾角、文字在 DOM。</p>
+    <p>拖拽旋转 · 滚轮缩放 · 点击人物或台座查看。</p>
+    <p><strong>分身 = 能力站位符号，不是已任命员工；准入状态不是在线状态。</strong></p>
+    <p>精确阅读请回<strong>工作视图</strong>（正交、0° 倾角、文字在 DOM）。</p>
     <dl class="facts">
       <dt>席位</dt><dd id="f-seats">—</dd>
       <dt>生产授权</dt><dd>0 / 53</dd>
+      <dt>运行身份</dt><dd>0 / 53</dd>
       <dt>准入状态</dt><dd>52 UNVERIFIED · 1 PARTIAL</dd>
     </dl>
   </aside>
 </main>
 <footer class="statusbar">
   <span id="legend3d">
-    <i class="sw baseline"></i>主线 18
-    <i class="sw feedback"></i>反馈 36
-    <i class="sw plain"></i>未标注 69
+    <i class="sw baseline"></i>主线
+    <i class="sw feedback"></i>反馈
+    <i class="sw plain"></i>未标注
   </span>
-  <span>柱高 = 被引用卡数</span>
-  <span><a href="./">← 回工作视图</a></span>
+  <span>曲线 = 关系结构 · 粒子方向 = source→target · 非运行流量</span>
+  <span><a href="./">← 工作视图</a></span>
   <span>数据 <code id="gv">—</code></span>
 </footer>
-<script src="./data/graph.js?v=12"></script>
-<script type="module" src="./showcase.js?v=12"></script>
+<script src="./data/graph.js?v=14"></script>
+<script type="module" src="./showcase.js?v=14"></script>
 </body>
 </html>

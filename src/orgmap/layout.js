@@ -12,23 +12,30 @@ const BAND_GAP = 30;
 const MAX_W = BOARD - MARGIN * 2;
 const BAND_TITLE_H = 46;
 
-function packBlocks(blocks, maxWidth) {
+function packBlocks(blocks, maxWidth, gap) {
   const rows = [];
   let row = { items: [], w: 0, h: 0 };
   for (const b of blocks) {
-    if (row.items.length && row.w + BLOCK_GAP + b.w > maxWidth) {
+    if (row.items.length && row.w + gap + b.w > maxWidth) {
       rows.push(row);
       row = { items: [], w: 0, h: 0 };
     }
     row.items.push(b);
-    row.w += (row.items.length > 1 ? BLOCK_GAP : 0) + b.w;
+    row.w += (row.items.length > 1 ? gap : 0) + b.w;
     row.h = Math.max(row.h, b.h);
   }
   if (row.items.length) rows.push(row);
   return rows;
 }
 
-export function layoutOrg(org) {
+export function layoutOrg(org, opt = {}) {
+  // 可选尺寸包：不传时逐项等于原常量，工作视图输出不变；3D 办公场景传入厘米级尺寸复用同一算法。
+  const CELL_W = opt.cellW ?? 110, CELL_H = opt.cellH ?? 56;
+  const PAD = opt.pad ?? 12, LABEL_H = opt.labelH ?? 30;
+  const BLOCK_GAP = opt.blockGap ?? 22, BAND_GAP = opt.bandGap ?? 30;
+  const BAND_TITLE_H = opt.bandTitleH ?? 46, MARGIN = opt.margin ?? 40;
+  const BOARD_SIZE = opt.board ?? BOARD;
+  const MAX_W = opt.maxW ?? BOARD_SIZE - MARGIN * 2;
   const level1 = [...org.level1].sort((a, b) => b.seat_count - a.seat_count);
   const seatById = new Map(org.seats.map(s => [s.seat_id, s]));
   const groupsByLevel1 = new Map();
@@ -63,7 +70,7 @@ export function layoutOrg(org) {
   for (const l1 of level1) {
     const bandBlocks = blocks.filter(b => b.level1 === l1.id);
     if (!bandBlocks.length) continue;
-    const rows = packBlocks(bandBlocks, MAX_W);
+    const rows = packBlocks(bandBlocks, MAX_W, BLOCK_GAP);
     const bandH = BAND_TITLE_H + rows.reduce((s, r) => s + r.h, 0) + (rows.length - 1) * BLOCK_GAP;
     bands.push({ id: l1.id, name: l1.name, x: MARGIN, y, w: MAX_W, h: bandH, seat_count: l1.seat_count });
     let ry = y + BAND_TITLE_H;
@@ -92,7 +99,7 @@ export function layoutOrg(org) {
   }
 
   const contentH = y - BAND_GAP - MARGIN;
-  const offset = (BOARD - contentH) / 2 - MARGIN;
+  const offset = (BOARD_SIZE - contentH) / 2 - MARGIN;
   for (const s of seats) s.y += offset;
   for (const b of blocksOut) b.y += offset;
   for (const b of bands) b.y += offset;
@@ -105,7 +112,7 @@ export function layoutOrg(org) {
       slot_id: g.slot_id, slot_title: g.slot_title, slot_basis: g.slot_basis,
       x: MARGIN + i * 300, y: top - 96, w: 280, h: 46,
     })),
-    bounds: { w: BOARD, h: BOARD },
+    bounds: { w: BOARD_SIZE, h: BOARD_SIZE },
   };
 }
 
