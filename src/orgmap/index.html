@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三宝 · 组织索引（设计态原型）</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./style.css?v=8">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="mark">三</span><strong>三宝 · 组织索引</strong></div>
+  <div class="banner" role="status">设计态原型 · 非运行系统 · 无真实业务动作</div>
+  <nav class="tabs" aria-label="视图">
+    <button data-view="org" class="active">组织席位</button>
+    <button data-view="network">经营网络</button>
+  </nav>
+</header>
+
+<main>
+  <section id="stage" aria-label="索引画布">
+    <canvas id="gl"></canvas>
+    <div id="labels"></div>
+    <div id="hint">拖拽平移 · 滚轮缩放 · 点击查看详情</div>
+    <div id="audit" hidden></div>
+  </section>
+  <aside id="side" aria-live="polite">
+    <div class="side-empty">
+      <h2>未选择</h2>
+      <p>点击席位或节点查看详情。本页只读，不创建任务、不授权动作、不改变任何经营状态。</p>
+      <dl class="facts">
+        <dt>席位</dt><dd id="f-seats">—</dd>
+        <dt>并发进程</dt><dd id="f-proc">—</dd>
+        <dt>生产授权</dt><dd id="f-auth">—</dd>
+        <dt>准入状态</dt><dd id="f-adm">—</dd>
+      </dl>
+    </div>
+  </aside>
+</main>
+
+<footer class="statusbar">
+  <span id="zoom">100%</span>
+  <span id="legend">
+    <i class="sw baseline"></i>主线
+    <i class="sw feedback"></i>反馈
+    <i class="sw plain"></i>未标注
+    <i class="sw seat"></i>席位（空心 = 未核验）
+  </span>
+  <span>数据 <code id="gv">—</code></span>
+</footer>
+
+<script src="./data/graph.js?v=3"></script>
+<script type="module" src="./app.js?v=8"></script>
+</body>
+</html>

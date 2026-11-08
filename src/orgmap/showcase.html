@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三宝 · 3D 展示（非验收视图）</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./showcase.css?v=7">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="mark">三</span><strong>三宝 · 3D 展示</strong></div>
+  <div class="banner" role="status">展示视图 · 不参与可读性验收 · 不是运行系统</div>
+  <nav id="views">
+    <button data-view="org" class="active">组织空间</button>
+    <button data-view="network">网络空间</button>
+  </nav>
+  <button id="toggle-rotate" class="active">暂停旋转</button>
+</header>
+<main>
+  <section id="stage" aria-label="三维展示"><canvas id="gl"></canvas><div id="labels3d"></div></section>
+  <aside id="side">
+    <h2>未选择</h2>
+    <p>拖拽旋转 · 滚轮缩放 · 点击立柱查看。</p>
+    <p>本页的透视与倾斜只用于展示空间关系。<strong>精确阅读请回工作视图</strong>（组织席位 / 经营网络），那里是正交、0° 倾角、文字在 DOM。</p>
+    <dl class="facts">
+      <dt>席位</dt><dd id="f-seats">—</dd>
+      <dt>生产授权</dt><dd>0 / 53</dd>
+      <dt>准入状态</dt><dd>52 UNVERIFIED · 1 PARTIAL</dd>
+    </dl>
+  </aside>
+</main>
+<footer class="statusbar">
+  <span id="legend3d">
+    <i class="sw baseline"></i>主线 18
+    <i class="sw feedback"></i>反馈 36
+    <i class="sw plain"></i>未标注 69
+  </span>
+  <span>柱高 = 被引用卡数</span>
+  <span><a href="./">← 回工作视图</a></span>
+  <span>数据 <code id="gv">—</code></span>
+</footer>
+<script src="./data/graph.js?v=4"></script>
+<script type="module" src="./showcase.js?v=11"></script>
+</body>
+</html>
