@@ -1,158 +1,162 @@
 :root{
-  --ink:#e6ece8;--muted:#8f9d97;--bg:#0f1215;--panel:#121619;--line:#232a2e;
-  --cyan:#64c8d8;--amber:#e0a95a;--gray:#6f7f86;--brass:#c9a96a;
-  --dos-paper:#0f1215;--dos-card:#151b1f;--dos-card-2:#182026;
-  --dos-ink:#e6ece8;--dos-ink-2:#cfdad4;--dos-muted:#8f9d97;
-  --dos-line:#232a2e;--dos-hairline:#1c2428;
-  --dos-accent:#8fd0b0;--dos-accent-wash:#11231c;
-  --dos-brass:#c9a96a;--dos-brass-ink:#e0cf9c;--dos-brass-wash:#1f1a10;
-  --dos-rust:#d08a72;--dos-rust-ink:#e5aa95;--dos-rust-wash:#261613;
-  --dos-direct:#8fd0b0;--dos-partial:#e0cf9c;--dos-gap:#d08a72;--dos-candidate:#84939a;
-  --dos-portrait-ring:#3a454d;--dos-portrait-keyline:#a88438;
-  --dos-serif:'Source Han Serif SC','Noto Serif SC','Songti SC','SimSun',Georgia,serif;
+  --ink:#f4f7fb;--muted:#aab8ca;--bg:#030408;--panel:#0b1521;--line:#26344a;
+  --cyan:#74bfe8;--amber:#edb76c;--gray:#63758a;--titanium:#c4d0dc;--action:#aec8e2;
+  --dos-paper:#07121c;--dos-card:#142033;--dos-card-2:#1b3042;
+  --dos-ink:#f4f7fb;--dos-ink-2:#d7e2ed;--dos-muted:#aab8ca;
+  --dos-line:#26344a;--dos-hairline:#1e2d40;
+  --dos-accent:#8adac4;--dos-accent-wash:#12293e;
+  --dos-brass:#aec8e2;--dos-brass-ink:#e3ebf5;--dos-brass-wash:#142332;
+  --dos-rust:#f19b9b;--dos-rust-ink:#f5b5b5;--dos-rust-wash:#352326;
+  --dos-direct:#8adac4;--dos-partial:#edb76c;--dos-gap:#f19b9b;--dos-candidate:#74bfe8;
+  --dos-portrait-ring:#396397;--dos-portrait-keyline:#aec8e2;
+  --dos-serif:Arial,"PingFang SC","Microsoft YaHei",sans-serif;
   --dos-mono:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
 body{margin:0;background:var(--bg);color:var(--ink);display:flex;flex-direction:column;overflow:hidden;
-  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.5}
-.topbar{display:flex;align-items:center;gap:10px;padding:10px 18px;background:#0b0e11;border-bottom:1px solid var(--line);z-index:10}
+  font-family:Arial,-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.55}
+.topbar{display:flex;align-items:center;gap:10px;padding:10px 18px;background:rgba(3,4,8,0.94);backdrop-filter:blur(18px);border-bottom:1px solid var(--line);z-index:10}
 .brand{display:flex;align-items:center;gap:9px;white-space:nowrap}
-.mark{display:grid;place-items:center;width:26px;height:26px;background:#2b3a36;color:#cfe6dc;border-radius:7px;font-weight:700}
-.brand strong{font-size:15px;letter-spacing:1.2px}
-.banner{flex:1;text-align:center;font-size:12px;color:#c9b98a;background:#1b1810;border:1px solid #332c1c;border-radius:20px;padding:4px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mark{display:grid;place-items:center;width:26px;height:26px;background:linear-gradient(145deg,#396397,#1b3042);color:#f4f7fb;border:1px solid #aec8e266;border-radius:8px;font-weight:700}
+.brand strong{font-size:15px;letter-spacing:1.2px;color:#f4f7fb}
+.banner{flex:1;text-align:center;font-size:12px;color:#d7e2ed;background:#142033;border:1px solid #26344a;border-radius:999px;padding:4px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 nav{display:flex;gap:6px}
-nav button,#toggle-rotate,#closeup-btn,#pilot3d-btn{font:inherit;font-size:12px;padding:6px 12px;border:1px solid var(--line);background:#141a1e;color:var(--muted);border-radius:7px;cursor:pointer;white-space:nowrap}
-nav button.active,#toggle-rotate.active,#closeup-btn.active{background:#2f5c4d;border-color:#3d7461;color:#e8f4ee}
-#pilot3d-btn.active{background:#7a5f28;border-color:#a88438;color:#fff}
+nav button,#toggle-rotate,#closeup-btn,#pilot3d-btn{font:inherit;font-size:12px;padding:6px 12px;border:1px solid var(--line);background:#142033;color:var(--muted);border-radius:8px;cursor:pointer;white-space:nowrap;transition:all .16s ease}
+nav button:hover,#toggle-rotate:hover,#closeup-btn:hover,#pilot3d-btn:hover{border-color:#aec8e2;color:#f4f7fb}
+nav button.active,#toggle-rotate.active,#closeup-btn.active{background:#396397;border-color:#aec8e2;color:#ffffff;box-shadow:0 0 16px rgba(116,191,232,0.28)}
+#pilot3d-btn.active{background:#1b3042;border-color:#edb76c;color:#edb76c;box-shadow:0 0 16px rgba(237,183,108,0.25)}
 main{flex:1;display:flex;min-height:0}
 #stage{position:relative;flex:1;min-width:0;overflow:hidden;cursor:grab;
-  box-shadow:inset 0 0 220px 60px rgba(0,0,0,0.55)}
-#stage::after{content:"";position:absolute;inset:0;pointer-events:none;
-  background:radial-gradient(ellipse at 50% 45%,transparent 42%,rgba(0,0,0,0.55) 100%)}
+  background:radial-gradient(ellipse at 72% 18%,rgba(37,66,104,0.24),transparent 48%),
+             radial-gradient(ellipse at 34% 78%,rgba(37,53,82,0.22),transparent 52%),#030408}
 #gl{display:block;width:100%;height:100%}
 #labels3d{position:absolute;inset:0;pointer-events:none;overflow:hidden}
-.lbl{position:absolute;left:0;top:0;font-size:12px;line-height:1;color:#cfe0d6;
-  background:#0a0e10d9;border:1px solid #2b3a33;border-radius:5px;padding:3px 7px;
-  white-space:nowrap;transform:translate(-50%,-50%)}
-.lbl.band{font-size:13px;font-weight:600;color:#8fd0b0;background:#0f1d18d9;border-color:#2f5c47}
-.lbl.sub{font-size:12px;color:#93a89c;background:#0a0e10b3;padding:2px 6px;border-color:#243029}
-.lbl.gov{font-size:12px;color:#e0cf9c;background:#1a150cd9;border-color:#4a3d22}
-.lbl.node{font-size:12px;color:#e6e2d2;background:#101613d9;border-color:#33423a}
-.lbl.seat{display:flex;align-items:center;gap:5px;font-size:12px;color:#d6e6de;
-  background:#0d1412e6;padding:2px 7px 2px 3px;border-color:#2d4a3e;border-radius:16px}
-.lbl.seat svg,.lbl.seat .seat-avatar{width:24px;height:24px;flex:0 0 24px;display:block;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1px #3a454d}
-.lbl.seat small{font-size:12px;color:#8fa69b}
-.lbl.pilot-pin{border-color:#e0a95a;box-shadow:0 0 0 1.5px #e0a95a88;background:#1c160be6;color:#f5dfa8}
+.lbl{position:absolute;left:0;top:0;font-size:12px;line-height:1;color:#d7e2ed;
+  background:rgba(11,21,33,0.88);backdrop-filter:blur(8px);border:1px solid #2b4256;border-radius:8px;padding:4px 8px;
+  white-space:nowrap;transform:translate(-50%,-50%);box-shadow:0 4px 16px rgba(3,4,8,0.55)}
+.lbl.band{font-size:13px;font-weight:700;color:#f4f7fb;background:rgba(20,32,51,0.92);border-color:#74bfe8;box-shadow:0 0 14px rgba(116,191,232,0.22)}
+.lbl.sub{font-size:12px;color:#aab8ca;background:rgba(11,21,33,0.78);padding:2px 7px;border-color:#26344a}
+.lbl.gov{font-size:12px;color:#edb76c;background:rgba(20,32,51,0.92);border-color:#edb76c88}
+.lbl.node{font-size:12px;color:#f4f7fb;background:rgba(20,32,51,0.90);border-color:#74bfe888}
+.lbl.seat{display:flex;align-items:center;gap:6px;font-size:12px;color:#f4f7fb;
+  background:rgba(11,21,33,0.90);padding:3px 9px 3px 4px;border-color:#396397;border-radius:999px;
+  box-shadow:0 4px 14px rgba(3,4,8,0.6),0 0 10px rgba(116,191,232,0.14)}
+.lbl.seat svg,.lbl.seat .seat-avatar{width:24px;height:24px;flex:0 0 24px;display:block;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1px #aec8e2}
+.lbl.seat small{font-size:12px;color:#aab8ca}
+.lbl.seat .sig-dot{width:6px;height:6px;border-radius:50%;background:#e9f4fc;
+  box-shadow:0 0 6px 1px rgba(220,239,252,0.55),0 0 14px 4px rgba(116,191,232,0.28);flex-shrink:0}
+.lbl.seat .sig-dot.partial{background:#edb76c;box-shadow:0 0 6px 1px rgba(237,183,108,0.65)}
+.lbl.pilot-pin{border-color:#edb76c;box-shadow:0 0 0 1.5px rgba(237,183,108,0.65),0 0 18px rgba(237,183,108,0.28);background:rgba(27,48,66,0.95);color:#ffffff}
 #side{width:320px;border-left:1px solid var(--line);background:var(--panel);padding:16px;overflow-y:auto;overflow-x:hidden}
-#side h2{font-size:15px;margin:0 0 4px;font-weight:600}
-#side h3{font-size:13px;margin:14px 0 6px;font-weight:600;color:#dfeae4}
+#side h2{font-size:15px;margin:0 0 4px;font-weight:700;letter-spacing:-.02em}
+#side h3{font-size:13px;margin:14px 0 6px;font-weight:700;color:#f4f7fb}
 #side p{font-size:12px;color:var(--muted);margin:6px 0}
-#side strong{color:#dfeae4}
-.tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:12px;padding:1px 8px;margin:2px 4px 2px 0;color:var(--muted)}
-.tag.warn{border-color:#4a3d22;background:#1b1810;color:#d8c99a}
+#side strong{color:#f4f7fb}
+.tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin:2px 4px 2px 0;color:var(--muted);background:#142033}
+.tag.warn{border-color:#edb76c66;background:#1c2536;color:#edb76c}
 .facts{display:grid;grid-template-columns:auto 1fr;gap:6px 10px;font-size:12px;margin-top:14px}
 .facts dt{color:var(--muted)}.facts dd{margin:0}
-.jump{cursor:pointer;color:#8fd0b0;padding:4px 0;border-top:1px solid #1c2428;font-size:12px}
-.jump:hover{color:#b6e8cf}
+.jump{cursor:pointer;color:#74bfe8;padding:4px 0;border-top:1px solid #1e2d40;font-size:12px}
+.jump:hover{color:#aec8e2}
 .statusbar{display:flex;gap:16px;align-items:center;padding:5px 16px;border-top:1px solid var(--line);
-  background:#0b0e11;font-size:12px;color:var(--muted)}
+  background:#030408;font-size:12px;color:var(--muted)}
 #legend3d{display:flex;align-items:center;gap:4px}
 .sw{display:inline-block;width:16px;height:3px;border-radius:2px;margin-left:8px}
 .sw.baseline{background:var(--cyan)}.sw.feedback{background:var(--amber)}.sw.plain{background:var(--gray)}
-.statusbar a{color:#5fa08a}
-code{font-size:12px;color:#9fb5aa}
+.statusbar a{color:#74bfe8}
+code{font-size:12px;color:#b8cce3}
 .stg-bar{display:flex;flex-wrap:wrap;gap:4px;margin:8px 0}
-.stg-btn{font:inherit;font-size:12px;padding:3px 7px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer}
-.stg-btn.active{background:#2f5c4d;border-color:#2f5c4d;color:#fff}
-.art-box{font-size:12px;background:rgba(127,169,155,0.08);border:1px solid var(--line);border-radius:6px;padding:8px;margin-top:6px;white-space:pre-wrap;word-break:break-all}
+.stg-btn{font:inherit;font-size:12px;padding:3px 7px;border:1px solid var(--line);border-radius:8px;background:#142033;color:var(--muted);cursor:pointer}
+.stg-btn.active{background:#396397;border-color:#aec8e2;color:#fff}
+.art-box{font-size:12px;background:#142033;border:1px solid var(--line);border-radius:8px;padding:8px;margin-top:6px;white-space:pre-wrap;word-break:break-all}
 
-/* ---------- 3D 深色主题 · 数字员工四维档案卡 (Dossier Card) ---------- */
+/* ---------- 3D 深空主题 · 数字员工四维档案卡 (Sagegogo Hero Dark) ---------- */
 .dossier-card{display:flex;flex-direction:column;gap:14px;font-size:12px;color:var(--dos-ink);max-width:100%}
 .dos-top-strip{font-family:var(--dos-mono);font-size:12px;color:var(--dos-brass-ink);background:var(--dos-brass-wash);
-  border:1px solid #4a3d22;border-radius:4px;padding:4px 8px;text-align:center}
+  border:1px solid #2b4256;border-radius:8px;padding:4px 8px;text-align:center}
 .dos-masthead{display:flex;flex-direction:column;gap:10px;padding-bottom:12px;border-bottom:1px solid var(--dos-line)}
 .dos-eyebrow{font-family:var(--dos-mono);font-size:12px;letter-spacing:.05em;color:var(--dos-muted);font-weight:600}
 .dos-portrait-frame{position:relative;width:236px;height:236px;margin:2px auto;padding:6px;background:var(--dos-card);
-  border:1px solid var(--dos-line);border-radius:6px;box-shadow:4px 4px 0 var(--dos-portrait-keyline)}
-.dos-portrait-img{width:100%;height:100%;object-fit:cover;border-radius:3px;display:block;background:var(--dos-accent-wash)}
+  border:1px solid var(--dos-line);border-radius:12px;box-shadow:4px 4px 0 var(--dos-portrait-keyline)}
+.dos-portrait-img{width:100%;height:100%;object-fit:cover;border-radius:8px;display:block;background:var(--dos-accent-wash)}
 .dos-tier-badge{position:absolute;right:12px;bottom:12px;font-family:var(--dos-mono);font-size:12px;font-weight:700;
-  background:var(--dos-card);color:var(--dos-brass-ink);border:1px solid var(--dos-portrait-keyline);padding:1px 7px;border-radius:4px}
+  background:var(--dos-card);color:var(--dos-brass-ink);border:1px solid var(--dos-portrait-keyline);padding:1px 7px;border-radius:6px}
 .dos-plaque-hero{display:flex;flex-direction:column;align-items:center;gap:8px;padding:14px 10px;background:var(--dos-brass-wash);
-  border:1px dashed var(--dos-brass);border-radius:6px;text-align:center}
+  border:1px dashed var(--dos-brass);border-radius:12px;text-align:center}
 .dos-plaque-caption{display:flex;flex-direction:column;gap:2px;font-size:12px;color:var(--dos-brass-ink)}
 .dos-title-block{display:flex;flex-direction:column;gap:4px}
 .dos-name-row{display:flex;align-items:center;justify-content:space-between;gap:6px;flex-wrap:wrap}
-.dos-name{font-family:var(--dos-serif);font-size:22px !important;line-height:1.2;margin:0 !important;color:var(--dos-ink)}
-.dos-stamp{font-family:var(--dos-mono);font-size:12px;padding:1px 6px;border-radius:3px;transform:rotate(-1.5deg)}
+.dos-name{font-family:var(--dos-serif);font-size:22px !important;font-weight:700 !important;letter-spacing:-.03em;line-height:1.2;margin:0 !important;color:var(--dos-ink)}
+.dos-stamp{font-family:var(--dos-mono);font-size:12px;padding:1px 6px;border-radius:6px}
 .dos-stamp.stamp-unverified{border:1px dashed var(--dos-brass);color:var(--dos-brass-ink);background:var(--dos-brass-wash)}
 .dos-stamp.stamp-partial{border:1px dotted var(--dos-accent);color:var(--dos-accent);background:var(--dos-accent-wash)}
 .dos-role-title{font-size:14px;font-weight:600;color:var(--dos-ink-2)}
 .dos-id-line{font-size:12px;color:var(--dos-muted);overflow-wrap:anywhere}
-.dos-pilot-tag{font-size:12px;color:var(--dos-accent);background:var(--dos-accent-wash);border:1px solid #2f5c47;border-radius:4px;padding:3px 7px}
+.dos-pilot-tag{font-size:12px;color:var(--dos-accent);background:var(--dos-accent-wash);border:1px solid #2b4256;border-radius:8px;padding:3px 7px}
 .dos-subnav{position:sticky;top:-16px;z-index:5;display:grid;grid-template-columns:repeat(4,1fr);gap:4px;
-  padding:6px 0;background:rgba(18,22,25,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--dos-line)}
-.dos-subnav a{font-size:12px;text-align:center;padding:4px 2px;border:1px solid var(--dos-line);border-radius:4px;
+  padding:6px 0;background:rgba(11,21,33,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--dos-line)}
+.dos-subnav a{font-size:12px;text-align:center;padding:4px 2px;border:1px solid var(--dos-line);border-radius:8px;
   color:var(--dos-ink-2);text-decoration:none;background:var(--dos-card)}
-.dos-subnav a:hover{border-color:var(--dos-accent);color:var(--dos-accent)}
+.dos-subnav a:hover{border-color:var(--dos-brass);color:#fff}
 .dos-sec{display:flex;flex-direction:column;gap:8px;padding-bottom:14px;border-bottom:1px solid var(--dos-line);scroll-margin-top:38px}
 .dos-sec-head{display:flex;align-items:baseline;gap:6px}
-.dos-sec-num{font-family:var(--dos-mono);font-size:12px;color:var(--dos-brass-ink);font-weight:700}
-.dos-sec-head h3{margin:0 !important;font-size:13px !important;letter-spacing:.03em}
+.dos-sec-num{font-family:var(--dos-mono);font-size:12px;color:var(--dos-brass);font-weight:700}
+.dos-sec-head h3{margin:0 !important;font-size:13px !important;letter-spacing:.02em}
 .dos-row-chips{display:flex;flex-wrap:wrap;align-items:center;gap:4px}
 .dos-mini-lbl{font-family:var(--dos-mono);font-size:12px;color:var(--dos-muted);margin-right:4px}
-.dos-chip{display:inline-block;font-size:12px;padding:1px 7px;background:var(--dos-card);border:1px solid var(--dos-line);border-radius:4px;color:var(--dos-ink-2)}
-.dos-quote-card{padding:8px 10px;background:var(--dos-card);border-left:3px solid var(--dos-brass);border-radius:0 4px 4px 0}
-.dos-quote{font-family:var(--dos-serif);font-size:15px;line-height:1.45;font-weight:600;margin:4px 0;color:var(--dos-ink)}
+.dos-chip{display:inline-block;font-size:12px;padding:1px 7px;background:var(--dos-card);border:1px solid var(--dos-line);border-radius:6px;color:var(--dos-ink-2)}
+.dos-quote-card{padding:8px 10px;background:var(--dos-card);border-left:3px solid var(--dos-brass);border-radius:0 8px 8px 0}
+.dos-quote{font-size:14px;line-height:1.5;font-weight:700;margin:4px 0;color:var(--dos-ink)}
 .dos-fold summary{cursor:pointer;font-size:12px;font-weight:600;color:var(--dos-ink-2);padding:3px 0}
 .dos-List{margin:4px 0 0;padding-left:16px;font-size:12px;color:var(--dos-ink-2);line-height:1.55}
 .dos-List li{margin-bottom:3px}
-.dos-subbox{padding:7px 9px;background:var(--dos-card);border:1px solid var(--dos-hairline);border-radius:4px}
+.dos-subbox{padding:7px 9px;background:var(--dos-card);border:1px solid var(--dos-hairline);border-radius:8px}
 .dos-subbox p{margin:3px 0 0 !important;color:var(--dos-ink-2) !important;font-size:12px !important;line-height:1.55}
-.dos-stop-rail{padding:8px 10px;background:var(--dos-brass-wash);border:1px dashed var(--dos-brass);border-left:3px solid var(--dos-brass);border-radius:4px}
-.dos-stop-rail p{margin:4px 0 0 !important;color:var(--dos-brass-ink) !important;font-size:12px !important;line-height:1.55}
+.dos-stop-rail{padding:8px 10px;background:#1c2536;border:1px dashed #edb76c;border-left:3px solid #edb76c;border-radius:8px}
+.dos-stop-rail p{margin:4px 0 0 !important;color:#edb76c !important;font-size:12px !important;line-height:1.55}
 .dos-slot-line{display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px}
-.dos-mission-box{padding:8px 10px;background:var(--dos-card);border-left:3px solid var(--dos-accent);border-radius:0 4px 4px 0}
-.dos-mission-box p{margin:3px 0 0 !important;color:var(--dos-ink) !important;font-size:13px !important;font-weight:500}
-.dos-specimen{position:relative;padding:9px 11px;background:var(--dos-card);border:1px solid var(--dos-portrait-keyline);border-radius:4px}
-.dos-artifact-title{font-family:var(--dos-serif);font-size:15px;font-weight:600;color:var(--dos-ink);margin-top:3px}
-.dos-rider{padding:8px 10px;background:var(--dos-brass-wash);border:1px dashed var(--dos-brass);border-left:3px solid var(--dos-brass);border-radius:4px}
+.dos-mission-box{padding:8px 10px;background:var(--dos-card);border-left:3px solid var(--dos-accent);border-radius:0 8px 8px 0}
+.dos-mission-box p{margin:3px 0 0 !important;color:var(--dos-ink) !important;font-size:13px !important;font-weight:600}
+.dos-specimen{position:relative;padding:9px 11px;background:var(--dos-card);border:1px solid var(--dos-portrait-keyline);border-radius:8px}
+.dos-artifact-title{font-size:15px;font-weight:700;color:var(--dos-ink);margin-top:3px}
+.dos-rider{padding:8px 10px;background:var(--dos-brass-wash);border:1px dashed var(--dos-brass);border-left:3px solid var(--dos-brass);border-radius:8px}
 .dos-rider-head{display:flex;justify-content:space-between;align-items:center;gap:4px;flex-wrap:wrap;font-weight:600;color:var(--dos-brass-ink)}
-.dos-stamp-req{font-style:normal;font-family:var(--dos-mono);font-size:12px;border:1px solid var(--dos-brass);padding:0 5px;border-radius:3px}
+.dos-stamp-req{font-style:normal;font-family:var(--dos-mono);font-size:12px;border:1px solid var(--dos-brass);padding:0 5px;border-radius:4px}
 .dos-rider p{margin:4px 0 !important;color:var(--dos-ink) !important;font-size:12px !important}
-.dos-rider small{display:block;font-size:12px;color:var(--dos-brass-ink)}
+.dos-rider small{display:block;font-size:12px;color:var(--dos-muted)}
 .dos-timeline{display:flex;flex-direction:column;gap:4px}
-.dos-step{padding:5px 8px;background:var(--dos-card);border:1px solid var(--dos-hairline);border-radius:4px}
+.dos-step{padding:5px 8px;background:var(--dos-card);border:1px solid var(--dos-hairline);border-radius:8px}
 .dos-step summary{cursor:pointer;display:flex;align-items:center;gap:6px;font-size:12px;list-style:none}
 .dos-step summary::-webkit-details-marker{display:none}
 .dos-step-idx{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--dos-accent-wash);
   color:var(--dos-accent);font-family:var(--dos-mono);font-size:12px;font-weight:700;flex-shrink:0}
-.dos-step[open] .dos-step-idx{background:var(--dos-accent);color:#0f1215}
+.dos-step[open] .dos-step-idx{background:var(--dos-accent);color:#030408}
 .dos-step p{margin:5px 0 2px 24px !important;font-size:12px !important;color:var(--dos-muted) !important;line-height:1.55}
 .dos-sk-bar{display:flex;height:5px;border-radius:3px;overflow:hidden;background:var(--dos-line);gap:1px}
 .dos-sk-summary{font-size:12px;color:var(--dos-muted)}
-.dos-pilot-ribbon{font-size:12px;color:var(--dos-accent);background:var(--dos-accent-wash);border:1px solid #2f5c47;border-radius:4px;padding:4px 8px;font-weight:600}
-.dos-skill-card{padding:8px 9px;background:var(--dos-card);border:1px solid var(--dos-line);border-left:3px solid var(--dos-direct);border-radius:4px;display:flex;flex-direction:column;gap:5px}
-.dos-skill-card.st-partial,.dos-skill-card.st-cand{border-left-color:var(--dos-brass)}
+.dos-pilot-ribbon{font-size:12px;color:var(--dos-accent);background:var(--dos-accent-wash);border:1px solid #2b4256;border-radius:8px;padding:4px 8px;font-weight:600}
+.dos-skill-card{padding:8px 9px;background:var(--dos-card);border:1px solid var(--dos-line);border-left:3px solid var(--dos-direct);border-radius:8px;display:flex;flex-direction:column;gap:5px}
+.dos-skill-card.st-partial,.dos-skill-card.st-cand{border-left-color:var(--dos-partial)}
 .dos-skill-card.st-gap{border-left-color:var(--dos-rust)}
 .dos-skill-top{display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap}
-.dos-sk-badge{font-family:var(--dos-mono);font-size:12px;padding:1px 6px;border-radius:3px;border:1px solid var(--dos-line)}
-.dos-sk-badge.st-direct{color:var(--dos-direct);background:var(--dos-accent-wash);border-color:#2f5c47}
-.dos-sk-badge.st-partial,.dos-sk-badge.st-cand{color:var(--dos-brass-ink);background:var(--dos-brass-wash);border-color:#4a3d22}
-.dos-sk-badge.st-gap{color:var(--dos-rust-ink);background:var(--dos-rust-wash);border-color:#4a2822}
+.dos-sk-badge{font-family:var(--dos-mono);font-size:12px;padding:1px 6px;border-radius:6px;border:1px solid var(--dos-line)}
+.dos-sk-badge.st-direct{color:var(--dos-direct);background:var(--dos-accent-wash);border-color:#2b4256}
+.dos-sk-badge.st-partial,.dos-sk-badge.st-cand{color:var(--dos-partial);background:#1c2536;border-color:#edb76c66}
+.dos-sk-badge.st-gap{color:var(--dos-rust-ink);background:var(--dos-rust-wash);border-color:#5c3438}
 .dos-skill-id{font-size:12px;color:var(--dos-muted)}
 .dos-supply-wrap{display:flex;flex-wrap:wrap;align-items:center;gap:4px}
-.dos-code-chip{font-family:var(--dos-mono);font-size:12px;padding:1px 5px;background:var(--dos-paper);border:1px solid var(--dos-line);border-radius:3px;overflow-wrap:anywhere}
-.dos-deny-chip{color:var(--dos-rust-ink);background:var(--dos-rust-wash);border-color:#4a2822}
+.dos-code-chip{font-family:var(--dos-mono);font-size:12px;padding:1px 5px;background:var(--dos-paper);border:1px solid var(--dos-line);border-radius:6px;overflow-wrap:anywhere}
+.dos-deny-chip{color:var(--dos-rust-ink);background:var(--dos-rust-wash);border-color:#5c3438}
 .dos-no-supply{font-size:12px;color:var(--dos-rust-ink)}
 .dos-sk-note{font-size:12px;color:var(--dos-muted);line-height:1.45}
 .dos-contract{border-top:1px dashed var(--dos-line);padding-top:4px;margin-top:2px}
 .dos-contract summary{cursor:pointer;font-size:12px;color:var(--dos-accent);font-weight:600}
 .dos-contract-body{display:flex;flex-direction:column;gap:4px;margin-top:5px;font-size:12px;overflow-wrap:anywhere}
-.dos-fail-code{color:var(--dos-rust-ink);background:var(--dos-rust-wash);padding:1px 4px;border-radius:3px}
+.dos-fail-code{color:var(--dos-rust-ink);background:var(--dos-rust-wash);padding:1px 4px;border-radius:4px}
 .dos-peers-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}
 .dos-peer-chip{display:flex;align-items:center;gap:5px;padding:4px 6px;background:var(--dos-card);border:1px solid var(--dos-line);
-  border-radius:4px;cursor:pointer;font:inherit;font-size:12px;color:var(--dos-ink);text-align:left;min-width:0}
+  border-radius:8px;cursor:pointer;font:inherit;font-size:12px;color:var(--dos-ink);text-align:left;min-width:0}
 .dos-peer-chip:hover{border-color:var(--dos-brass);background:var(--dos-brass-wash)}
 .dos-peer-chip .seat-avatar{width:20px;height:20px;flex:0 0 20px;border-radius:50%;object-fit:cover}
 .dos-peer-chip small{font-size:12px;color:var(--dos-muted);margin-left:auto;overflow:hidden;text-overflow:ellipsis}
@@ -161,23 +165,23 @@ code{font-size:12px;color:#9fb5aa}
 .dos-ledger dd{margin:0;display:flex;flex-wrap:wrap;gap:4px;align-items:center;min-width:0;overflow-wrap:anywhere}
 .dos-more summary{cursor:pointer;font-size:12px;color:var(--dos-accent)}
 .dos-mode-pair{display:flex;flex-direction:column;gap:5px}
-.dos-mode-pair > div{padding:6px 8px;background:var(--dos-card);border:1px solid var(--dos-hairline);border-radius:4px}
+.dos-mode-pair > div{padding:6px 8px;background:var(--dos-card);border:1px solid var(--dos-hairline);border-radius:8px}
 .dos-mode-pair p{margin:2px 0 0 !important;font-size:12px !important;color:var(--dos-ink-2) !important}
-.dos-envelope{padding:8px 9px;background:var(--dos-card);border:1px dashed var(--dos-line);border-radius:4px}
+.dos-envelope{padding:8px 9px;background:var(--dos-card);border:1px dashed var(--dos-line);border-radius:8px}
 .dos-env-grid{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
-.dos-env-grid span{font-family:var(--dos-mono);font-size:12px;padding:1px 6px;background:var(--dos-paper);border:1px solid var(--dos-line);border-radius:3px}
+.dos-env-grid span{font-family:var(--dos-mono);font-size:12px;padding:1px 6px;background:var(--dos-paper);border:1px solid var(--dos-line);border-radius:6px}
 .dos-boundary-box p{margin:4px 0 0 !important;color:var(--dos-ink) !important;font-size:12px !important;line-height:1.55}
-.dos-never-fold{padding:7px 9px;background:var(--dos-rust-wash);border:1px solid #4a2822;border-radius:4px}
+.dos-never-fold{padding:7px 9px;background:var(--dos-rust-wash);border:1px solid #5c3438;border-radius:8px}
 .dos-never-fold summary{color:var(--dos-rust-ink)}
 .dos-never-list{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--dos-ink)}
 .dos-never-list li{display:flex;gap:6px;align-items:flex-start;line-height:1.5}
 .dos-x{color:var(--dos-rust-ink);font-weight:700;flex-shrink:0}
-.dos-net-item{padding:7px 8px;background:var(--dos-card);border:1px solid var(--dos-line);border-radius:4px;cursor:pointer;display:flex;flex-direction:column;gap:3px}
-.dos-net-item:hover{background:#182420;border-color:var(--dos-accent)}
+.dos-net-item{padding:7px 8px;background:var(--dos-card);border:1px solid var(--dos-line);border-radius:8px;cursor:pointer;display:flex;flex-direction:column;gap:3px}
+.dos-net-item:hover{background:#1b3042;border-color:var(--dos-brass)}
 .dos-net-top{display:flex;justify-content:space-between;align-items:center;gap:4px;flex-wrap:wrap}
 .dos-net-note{font-size:12px;color:var(--dos-muted)}
 .dos-empty-note{font-size:12px;color:var(--dos-muted);font-style:italic}
 .dos-colophon{display:flex;flex-direction:column;gap:8px;padding-top:4px}
 .dos-colophon-dl code{font-size:12px;overflow-wrap:anywhere}
 .dos-final-stamp{font-family:var(--dos-mono);font-size:12px;text-align:center;padding:4px 8px;border:1px solid var(--dos-brass);
-  color:var(--dos-brass-ink);background:var(--dos-brass-wash);border-radius:4px;transform:rotate(-1deg)}
+  color:var(--dos-brass-ink);background:var(--dos-brass-wash);border-radius:8px}

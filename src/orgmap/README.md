@@ -122,3 +122,21 @@ python3 -m http.server 8765 --bind 127.0.0.1
   - 1440×900 视口下 2D 画布默认显示全部 50 个真实数字员工小头像且 `window.__audit()` 保持 `PASS`（0 碰撞、0 遮挡、0 截断，零 Three.js 加载）。
 - **批次 17（优化草案 §9 剩余四项缺失治理机制门禁）**：
   - 新增 `configs/pilot-governance-mechanisms.json` 与 `scripts/check-governance-mechanisms.py`（`--selftest` 4/4 机制 + 16/16 正负向用例全绿），覆盖 `Falsification Gate（证伪门禁）`、`Conflict Record（分歧记录契约）`、`Program/Incident 跨事项承接`、`预算与并发配额上限`，已接入 `check-ledger-consistency.py` 与 `build-canvas-graph.py`。
+
+## 10. 批次 18–21 · Sagegogo 全站色彩对齐、Three-Scope-Map 厚板/追光/HUD 环、Polyfork 科技工位与 Image2ThreeJS 全息投影台
+
+- **批次 18（单一主题源 `src/orgmap/theme.js` 与 `sagegogo.com` 色彩对齐）**：
+  - 建立 `src/orgmap/theme.js` 单主色 HSL 增量派生引擎（零 Three.js 依赖），2D 工作视图固定 `SAGE_LIGHT`（`#ffffff / #f4f7fb / #edf3f9 / #202b38 / #396397`），3D 展示空间固定 `SAGE_DARK`（`#030408 / #07121c / #0b1521 / #142033 / #c4d0dc / #aec8e2`）及四大部门色（`#74bfe8 / #396397 / #edb76c / #bd98e5`）；
+  - 清除全部旧墨绿/黄铜/暖黄硬编码，`carpetTexture()` 消除 `Math.random` 改为固定种子 `mulberry32(0x5A4B18)`。
+- **批次 19（借鉴 `three-scope-map-skill`：多层发光厚板、外轮廓窄带追光、底部三层旋转 HUD 环与缓动运镜）**：
+  - `createSideGradientMaterial()`：Y 轴三段 `smoothstep` 侧墙厚度渐变 + 顶部 `edgeGlow`；
+  - `buildChaseLight()`：沿主基座外框构建 160 段窄带追光（Additive 着色器，白色流光头 `#ffffff` + 冰蓝指数尾迹 `pow(1 - d/tail, 1.65)`）；
+  - `buildHudRings()`：底部 3 层同心 `RingGeometry` + 11 段弧线 + 48 刻度线（`renderOrder: -3`）；
+  - `VIEW_PRESETS` + `tweenCamera()`：支持 `800ms easeOutCubic` 缓动运镜与 `?still=1&pr=1` 确定性截图开关。
+- **批次 20（借鉴 `polyfork.dev` + `image2threejs`：科技工装分身、双联发光仪表盘工位与 3D 体素全息扫描台）**：
+  - `src/orgmap/avatars.js`：启用 `flatShading: true` + `vertexColors: true`，升级为 6 棱台科技工装夹克、AR 光学护目镜、耳麦与发光工牌（每席 1 个 `BufferGeometry`、1 draw call）；3 个 MGT 升级为 T4 钛金全息规则碑（0 人形、0 工位）；
+  - `buildWorkstations()`：升级为双联微倾自发光仪表盘曲面屏（`dashboardScreenTexture`）+ 桌前缘冰蓝导光条 + 桌下 AI 算力刀片机柜与准入状态 LED；
+  - `src/orgmap/holo.js`：改造 `image2threejs` 网格采样算法为单个 `THREE.InstancedMesh`（1 draw call，约 1,281 体素实例），点击任意 `AGT-001..050` 即在前庭全息发射台实时生成 3D 冰蓝体素全息雕像与扫描光环。
+- **批次 21（视觉契约门禁与来源合规声明）**：
+  - 新增 `scripts/check-orgmap-visual-contract.py`（`--selftest` 7/7 通过）并接入 `scripts/check-ledger-consistency.py`；
+  - 新增 `deliverables/execution/sanbao-handoff-20261104/NOTICE-three-scope-map.md` 记录四方来源与许可证边界。

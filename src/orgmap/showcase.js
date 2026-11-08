@@ -1,15 +1,25 @@
-// 三宝组织空间 3D 展示页：1 unit = 1 cm 的建筑剖切表现图。
-// 设计态展示，不是运行系统。人物完全静止；MGT 只是铜牌，不是人。
+// 三宝组织空间 3D 展示页（1 unit = 1 cm）：
+// - 色彩体系对齐 https://sagegogo.com/（Deep-Space Hero Dark + 冷银钛蓝）
+// - 空间基座借鉴 three-scope-map-skill（多层发光厚板 + 侧墙渐变 Shader + 外框单条追光带 + 底部三层旋转 HUD 环 + 预设缓动运镜）
+// - 工位与人物借鉴 polyfork.dev（Faceted Low-Poly 科技工装 + 双联自发光仪表盘 + 桌下算力刀片单元）
+// - 全息投影台借鉴 image2threejs（单 InstancedMesh 3D 体素全息数字分身）
+// 设计态展示，不是运行系统；3 个 MGT 严守 T4 规则碑，不生成人形或工位。
+
 import * as THREE from './vendor/three.module.min.js';
-import { layoutOrg, layoutNetwork } from './layout.js?v=35';
-import { createPerson, createPlaque, renderAvatarSvg } from './avatars.js?v=35';
-import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=35';
-import { buildFlowLines } from './flow.js?v=35';
+import { layoutOrg, layoutNetwork } from './layout.js?v=36';
+import { createPerson, createPlaque, renderAvatarSvg, mulberry32 } from './avatars.js?v=36';
+import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=36';
+import { buildFlowLines } from './flow.js?v=36';
+import { SAGE_DARK, hexToInt } from './theme.js?v=36';
+import { createHoloEmitterStage } from './holo.js?v=36';
 
 const G = window.SANBAO_GRAPH;
 const stage = document.querySelector('#stage');
 const side = document.querySelector('#side');
 const labelLayer = document.querySelector('#labels3d');
+const params = new URLSearchParams(location.search);
+const STILL_MODE = params.get('still') === '1';
+const FORCE_PR1 = params.get('pr') === '1';
 
 // ---------- 布局：复用工作视图算法，换厘米级尺寸 ----------
 const OFFICE = { cellW: 148, cellH: 104, pad: 20, labelH: 44, blockGap: 64,
@@ -19,10 +29,10 @@ const net = layoutNetwork(G.network);
 
 const PLANE2DEPT = { 经营管理: 'mgmt', 业务运营: 'ops', 独立控制: 'control', '数据与Agent平台': 'platform' };
 const DEPT = {
-  ops:      { fill: 0x1f2a24, edge: 0x476b56, name: '业务运营', coat: 0x6f8f7a },
-  mgmt:     { fill: 0x202730, edge: 0x4f6d85, name: '经营管理', coat: 0x6f8ea8 },
-  control:  { fill: 0x2a2519, edge: 0x8a6f3c, name: '独立控制', coat: 0xb08a52 },
-  platform: { fill: 0x26222c, edge: 0x6b6285, name: '数据与Agent平台', coat: 0x8a7fa8 },
+  ops:      { fill: hexToInt(SAGE_DARK.depts.ops.fill),      edge: hexToInt(SAGE_DARK.depts.ops.edge),      name: '业务运营',       coat: hexToInt(SAGE_DARK.depts.ops.coat) },
+  mgmt:     { fill: hexToInt(SAGE_DARK.depts.mgmt.fill),     edge: hexToInt(SAGE_DARK.depts.mgmt.edge),     name: '经营管理',       coat: hexToInt(SAGE_DARK.depts.mgmt.coat) },
+  control:  { fill: hexToInt(SAGE_DARK.depts.control.fill),  edge: hexToInt(SAGE_DARK.depts.control.edge),  name: '独立控制',       coat: hexToInt(SAGE_DARK.depts.control.coat) },
+  platform: { fill: hexToInt(SAGE_DARK.depts.platform.fill), edge: hexToInt(SAGE_DARK.depts.platform.edge), name: '数据与Agent平台', coat: hexToInt(SAGE_DARK.depts.platform.coat) },
 };
 
 // 地面边界（由 band 现算）
@@ -45,27 +55,27 @@ for (const b of org.blocks) {
 // ---------- 渲染器与场景基调 ----------
 const canvas = document.querySelector('#gl');
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
-const PR = Math.min(devicePixelRatio || 1, 1.75);
+const PR = FORCE_PR1 ? 1 : Math.min(devicePixelRatio || 1, 1.75);
 renderer.setPixelRatio(PR);
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1.0;
+renderer.toneMappingExposure = 0.96;
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x0f1215);
-scene.fog = new THREE.Fog(0x0f1215, 3600, 8200);
+scene.background = new THREE.Color(hexToInt(SAGE_DARK.fogBg));
+scene.fog = new THREE.Fog(hexToInt(SAGE_DARK.fogBg), 3600, 8400);
 
-// 程序化环境贴图：金属高光的唯一来源
+// 程序化冷银钛环境贴图（对齐 sagegogo.com 金属光泽）
 function envTexture() {
   const c = document.createElement('canvas'); c.width = 64; c.height = 32;
   const g = c.getContext('2d');
   const grd = g.createLinearGradient(0, 0, 0, 32);
-  grd.addColorStop(0.00, '#93a9bd');
-  grd.addColorStop(0.46, '#cfc8b6');
-  grd.addColorStop(0.54, '#4a4842');
-  grd.addColorStop(1.00, '#121417');
+  grd.addColorStop(0.00, '#dce5ee');
+  grd.addColorStop(0.46, '#eef3f8');
+  grd.addColorStop(0.54, '#26344a');
+  grd.addColorStop(1.00, '#030408');
   g.fillStyle = grd; g.fillRect(0, 0, 64, 32);
   const t = new THREE.CanvasTexture(c);
   t.mapping = THREE.EquirectangularReflectionMapping;
@@ -73,28 +83,61 @@ function envTexture() {
   return t;
 }
 scene.environment = envTexture();
-scene.environmentIntensity = 0.5;
+scene.environmentIntensity = 0.55;
 
-// 地毯纹理：纯色地面是廉价感的第一来源
+// 确定性深空碳纤微网格纹理（消除 Math.random，使用固定种子 mulberry32）
 function carpetTexture() {
   const S = 512, c = document.createElement('canvas'); c.width = c.height = S;
   const g = c.getContext('2d');
-  g.fillStyle = '#2b2f33'; g.fillRect(0, 0, S, S);
-  for (let i = 0; i < 24000; i++) {
-    const v = 32 + ((Math.random() * 24) | 0);
-    g.fillStyle = `rgba(${v},${v + 2},${v + 4},0.5)`;
-    g.fillRect((Math.random() * S) | 0, (Math.random() * S) | 0, 2, 2);
+  const rnd = mulberry32(0x5A4B18);
+  g.fillStyle = '#0b1521'; g.fillRect(0, 0, S, S);
+  for (let i = 0; i < 18000; i++) {
+    const v = 14 + ((rnd() * 18) | 0);
+    g.fillStyle = `rgba(${v},${v + 10},${v + 20},0.48)`;
+    g.fillRect((rnd() * S) | 0, (rnd() * S) | 0, 2, 2);
   }
-  g.strokeStyle = 'rgba(18,20,22,0.55)'; g.lineWidth = 2;
-  for (let i = 1; i < 4; i++) {
+  g.strokeStyle = 'rgba(57,99,151,0.34)'; g.lineWidth = 1.5;
+  for (let i = 1; i <= 4; i++) {
     g.beginPath(); g.moveTo(i * 128, 0); g.lineTo(i * 128, S); g.stroke();
     g.beginPath(); g.moveTo(0, i * 128); g.lineTo(S, i * 128); g.stroke();
   }
   const t = new THREE.CanvasTexture(c);
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
-  t.repeat.set(FW / 200, FD / 200);
+  t.repeat.set(FW / 220, FD / 220);
   t.colorSpace = THREE.SRGBColorSpace;
   t.anisotropy = 8;
+  return t;
+}
+
+// 科技仪表盘自发光屏幕纹理（替代旧版全黑屏幕）
+function dashboardScreenTexture() {
+  const c = document.createElement('canvas'); c.width = 256; c.height = 128;
+  const g = c.getContext('2d');
+  g.fillStyle = '#07121c'; g.fillRect(0, 0, 256, 128);
+  g.strokeStyle = '#26344a'; g.lineWidth = 2;
+  g.strokeRect(4, 4, 248, 120);
+  // 顶栏状态带
+  g.fillStyle = '#142332'; g.fillRect(10, 10, 236, 16);
+  g.fillStyle = '#74bfe8'; g.fillRect(14, 14, 46, 8);
+  g.fillStyle = '#8adac4'; g.fillRect(220, 14, 20, 8);
+  // 左侧指标柱图
+  const bars = [38, 62, 48, 76, 54, 84, 68];
+  bars.forEach((bh, i) => {
+    g.fillStyle = i === 5 ? '#74bfe8' : '#396397';
+    g.fillRect(16 + i * 16, 108 - bh, 10, bh);
+  });
+  // 右侧趋势折线与脉冲框
+  g.strokeStyle = '#aec8e2'; g.lineWidth = 2.2;
+  g.beginPath();
+  [92, 78, 84, 58, 64, 42, 48].forEach((y, i) => {
+    const x = 140 + i * 16;
+    if (i === 0) g.moveTo(x, y); else g.lineTo(x, y);
+  });
+  g.stroke();
+  g.strokeStyle = 'rgba(116,191,232,0.35)'; g.lineWidth = 1;
+  g.strokeRect(136, 34, 108, 76);
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
   return t;
 }
 
@@ -102,60 +145,307 @@ function glowTexture() {
   const S = 64, c = document.createElement('canvas'); c.width = c.height = S;
   const g = c.getContext('2d');
   const grd = g.createRadialGradient(S / 2, S / 2, 0, S / 2, S / 2, S / 2);
-  grd.addColorStop(0, 'rgba(255,242,220,0.95)');
-  grd.addColorStop(0.4, 'rgba(255,236,205,0.30)');
-  grd.addColorStop(1, 'rgba(255,230,196,0)');
+  grd.addColorStop(0, 'rgba(196,208,220,0.92)');
+  grd.addColorStop(0.4, 'rgba(116,191,232,0.28)');
+  grd.addColorStop(1, 'rgba(116,191,232,0)');
   g.fillStyle = grd; g.fillRect(0, 0, S, S);
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   return t;
 }
 
-// ---------- 材质 ----------
+// ---------- 侧墙厚度渐变 ShaderMaterial（借鉴 three-scope-map-skill vDepth 三段 smoothstep） ----------
+function createSideGradientMaterial({ bottomY = -22, topY = 0, bottomHex = 0x07121c, midHex = 0x396397, topHex = 0xaec8e2, alpha = 0.92 } = {}) {
+  return new THREE.ShaderMaterial({
+    transparent: true,
+    depthWrite: false,
+    side: THREE.DoubleSide,
+    uniforms: {
+      uBottomY: { value: bottomY },
+      uTopY: { value: topY },
+      uBottomColor: { value: new THREE.Color(bottomHex) },
+      uMidColor: { value: new THREE.Color(midHex) },
+      uTopColor: { value: new THREE.Color(topHex) },
+      uAlpha: { value: alpha },
+    },
+    vertexShader: `
+      uniform float uBottomY;
+      uniform float uTopY;
+      varying float vDepth;
+      void main() {
+        vec4 worldPos = modelMatrix * vec4(position, 1.0);
+        vDepth = clamp((worldPos.y - uBottomY) / max(0.001, uTopY - uBottomY), 0.0, 1.0);
+        gl_Position = projectionMatrix * viewMatrix * worldPos;
+      }
+    `,
+    fragmentShader: `
+      uniform vec3 uBottomColor;
+      uniform vec3 uMidColor;
+      uniform vec3 uTopColor;
+      uniform float uAlpha;
+      varying float vDepth;
+      void main() {
+        vec3 lower = mix(uBottomColor, uMidColor, smoothstep(0.0, 0.28, vDepth));
+        vec3 col = mix(lower, uTopColor, smoothstep(0.36, 1.0, vDepth));
+        float edgeGlow = smoothstep(0.52, 1.0, vDepth);
+        gl_FragColor = vec4(col + edgeGlow * uTopColor * 0.26, uAlpha * (0.46 + vDepth * 0.54));
+      }
+    `,
+  });
+}
+
+// ---------- 材质（Sagegogo 冷钛蓝体系） ----------
+const screenTex = dashboardScreenTexture();
 const MAT = {
-  desk: new THREE.MeshStandardMaterial({ color: 0x41474d, roughness: 0.50, metalness: 0.35 }),
-  metal: new THREE.MeshStandardMaterial({ color: 0x22262a, roughness: 0.38, metalness: 0.80 }),
-  screen: new THREE.MeshStandardMaterial({ color: 0x0f1316, roughness: 0.15, metalness: 0.10 }),
-  seat: new THREE.MeshStandardMaterial({ color: 0x2a3036, roughness: 0.92, metalness: 0.04 }),
-  glass: new THREE.MeshStandardMaterial({ color: 0xb9d6d4, roughness: 0.06, metalness: 0.0,
-    transparent: true, opacity: 0.24, side: THREE.DoubleSide, depthWrite: false }),
-  rail: new THREE.MeshStandardMaterial({ color: 0xb4bec7, roughness: 0.26, metalness: 0.88 }),
-  stone: new THREE.MeshStandardMaterial({ color: 0x1b1f23, roughness: 0.88, metalness: 0.04 }),
-  pedestal: new THREE.MeshStandardMaterial({ color: 0x3d4650, roughness: 0.42, metalness: 0.45 }),
-  cap: new THREE.MeshStandardMaterial({ color: 0xe8e4d4, roughness: 0.45, metalness: 0.15 }),
-  plant: new THREE.MeshStandardMaterial({ color: 0x35513f, roughness: 0.9 }),
-  pot: new THREE.MeshStandardMaterial({ color: 0x2c2f31, roughness: 0.85 }),
+  desk: new THREE.MeshStandardMaterial({ color: 0x1b3042, roughness: 0.42, metalness: 0.48, flatShading: true }),
+  deskEdge: new THREE.MeshStandardMaterial({ color: 0x74bfe8, emissive: 0x396397, emissiveIntensity: 1.1, roughness: 0.25, metalness: 0.6 }),
+  metal: new THREE.MeshStandardMaterial({ color: 0x142033, roughness: 0.34, metalness: 0.84 }),
+  screen: new THREE.MeshStandardMaterial({
+    color: 0xffffff, map: screenTex, emissive: 0x74bfe8, emissiveMap: screenTex, emissiveIntensity: 0.85,
+    roughness: 0.16, metalness: 0.15,
+  }),
+  seat: new THREE.MeshStandardMaterial({ color: 0x142332, roughness: 0.78, metalness: 0.14, flatShading: true }),
+  glass: new THREE.MeshStandardMaterial({ color: 0xaec8e2, roughness: 0.06, metalness: 0.0,
+    transparent: true, opacity: 0.20, side: THREE.DoubleSide, depthWrite: false }),
+  rail: new THREE.MeshStandardMaterial({ color: 0xc4d0dc, roughness: 0.24, metalness: 0.90 }),
+  stone: new THREE.MeshStandardMaterial({ color: 0x0b1521, roughness: 0.72, metalness: 0.22 }),
+  pedestal: new THREE.MeshStandardMaterial({ color: 0x142033, roughness: 0.36, metalness: 0.62 }),
+  cap: new THREE.MeshStandardMaterial({ color: 0xc4d0dc, roughness: 0.32, metalness: 0.45 }),
+  plant: new THREE.MeshStandardMaterial({ color: 0x2b4a56, roughness: 0.82, flatShading: true }),
+  pot: new THREE.MeshStandardMaterial({ color: 0x142033, roughness: 0.75 }),
+  led: new THREE.MeshBasicMaterial({ color: 0xffffff }),
 };
 
 // ---------- 分组 ----------
 const archGroup = new THREE.Group();
 const orgOnly = new THREE.Group();
 const netGroup = new THREE.Group();
-netGroup.position.set(FCX - 800, 0, FCZ - 800); // 网络板 1600 对齐地面中心
+netGroup.position.set(FCX - 800, 12, FCZ - 800);
 const lightGroup = new THREE.Group();
 scene.add(archGroup, orgOnly, netGroup, lightGroup);
 
-// ---------- 地面与分区地毯 ----------
-(function buildFloor() {
-  const slab = new THREE.Mesh(new THREE.BoxGeometry(FW, 18, FD),
-    new THREE.MeshStandardMaterial({ map: carpetTexture(), roughness: 0.95, metalness: 0.02 }));
-  slab.position.set(FCX, -9, FCZ);
-  slab.receiveShadow = true;
-  archGroup.add(slab);
+// ---------- 辅助：矩形边框顶点追加到批量 LineSegments ----------
+function pushRectLoop(arr, x0, z0, x1, z1, y) {
+  arr.push(
+    x0, y, z0, x1, y, z0,
+    x1, y, z0, x1, y, z1,
+    x1, y, z1, x0, y, z1,
+    x0, y, z1, x0, y, z0
+  );
+}
+
+// ---------- 8 层发光厚板基座 + 外框窄带追光 + 底部三层旋转 HUD 环 ----------
+let chaseMaterial = null;
+const hudRingGroup = new THREE.Group();
+
+(function buildFloorAndSlabs() {
+  // 1) 主基座顶面（深色碳纤微网格）
+  const topSlab = new THREE.Mesh(
+    new THREE.PlaneGeometry(FW, FD),
+    new THREE.MeshStandardMaterial({ map: carpetTexture(), roughness: 0.92, metalness: 0.06 })
+  );
+  topSlab.rotation.x = -Math.PI / 2;
+  topSlab.position.set(FCX, 0, FCZ);
+  topSlab.receiveShadow = true;
+  archGroup.add(topSlab);
+
+  // 2) 主基座四壁侧墙（Y = -24 .. 0 渐变发光厚板）
+  const sideMat = createSideGradientMaterial({
+    bottomY: -24, topY: 0, bottomHex: 0x030408, midHex: 0x396397, topHex: 0xaec8e2, alpha: 0.94,
+  });
+  const wallH = 24;
+  const nWall = new THREE.Mesh(new THREE.PlaneGeometry(FW, wallH), sideMat);
+  nWall.position.set(FCX, -wallH / 2, F.z0);
+  const sWall = new THREE.Mesh(new THREE.PlaneGeometry(FW, wallH), sideMat);
+  sWall.position.set(FCX, -wallH / 2, F.z1);
+  const wWall = new THREE.Mesh(new THREE.PlaneGeometry(FD, wallH), sideMat);
+  wWall.rotation.y = Math.PI / 2;
+  wWall.position.set(F.x0, -wallH / 2, FCZ);
+  const eWall = new THREE.Mesh(new THREE.PlaneGeometry(FD, wallH), sideMat);
+  eWall.rotation.y = Math.PI / 2;
+  eWall.position.set(F.x1, -wallH / 2, FCZ);
+  archGroup.add(nWall, sWall, wWall, eWall);
+
+  // 3) 顶外轮廓与底外轮廓（批量合成 LineSegments，避免多 LineLoop）
+  const outerTopPts = [], outerBotPts = [], zoneLinePts = [];
+  pushRectLoop(outerTopPts, F.x0, F.z0, F.x1, F.z1, 0.8);
+  pushRectLoop(outerBotPts, F.x0, F.z0, F.x1, F.z1, -24);
 
   for (const [id, z] of Object.entries(ZONE)) {
     const d = DEPT[id] || DEPT.ops;
     const w = z.x1 - z.x0, dd = z.z1 - z.z0;
-    const edge = new THREE.Mesh(new THREE.PlaneGeometry(w, dd),
-      new THREE.MeshBasicMaterial({ color: d.edge, transparent: true, opacity: 0.22, depthWrite: false }));
-    edge.rotation.x = -Math.PI / 2;
-    edge.position.set(z.x0 + w / 2, 0.3, z.z0 + dd / 2);
-    const fill = new THREE.Mesh(new THREE.PlaneGeometry(w - 16, dd - 16),
-      new THREE.MeshBasicMaterial({ color: d.fill, transparent: true, opacity: 0.92, depthWrite: false }));
+    const fill = new THREE.Mesh(
+      new THREE.PlaneGeometry(w - 12, dd - 12),
+      new THREE.MeshBasicMaterial({ color: d.fill, transparent: true, opacity: 0.90, depthWrite: false })
+    );
     fill.rotation.x = -Math.PI / 2;
     fill.position.set(z.x0 + w / 2, 0.4, z.z0 + dd / 2);
-    archGroup.add(edge, fill);
+    const glow = new THREE.Mesh(
+      new THREE.PlaneGeometry(w, dd),
+      new THREE.MeshBasicMaterial({
+        color: d.edge, transparent: true, opacity: 0.08,
+        blending: THREE.AdditiveBlending, depthWrite: false,
+      })
+    );
+    glow.rotation.x = -Math.PI / 2;
+    glow.position.set(z.x0 + w / 2, 0.7, z.z0 + dd / 2);
+    archGroup.add(fill, glow);
+    pushRectLoop(zoneLinePts, z.x0, z.z0, z.x1, z.z1, 1.1);
   }
+
+  const mkLines = (pts, color, opacity) => {
+    const geo = new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.Float32BufferAttribute(pts, 3));
+    const mat = new THREE.LineBasicMaterial({
+      color, transparent: true, opacity, blending: THREE.AdditiveBlending, depthWrite: false,
+    });
+    const ls = new THREE.LineSegments(geo, mat);
+    ls.frustumCulled = false;
+    return ls;
+  };
+  archGroup.add(
+    mkLines(outerTopPts, 0xc4d0dc, 0.86),
+    mkLines(outerBotPts, 0x396397, 0.62),
+    mkLines(zoneLinePts, 0x74bfe8, 0.52)
+  );
+})();
+
+// ---------- 外轮廓单条窄带追光（Chase Light，借鉴 three-scope-map-skill） ----------
+(function buildChaseLight() {
+  const perimeter = 2 * (FW + FD);
+  const segCount = 160;
+  const ribbonW = 14;
+  const positions = [];
+  const distances = [];
+
+  function pointAlongPerimeter(dist) {
+    let d = ((dist % perimeter) + perimeter) % perimeter;
+    if (d < FW) return [F.x0 + d, F.z0, 0, -1];
+    d -= FW;
+    if (d < FD) return [F.x1, F.z0 + d, 1, 0];
+    d -= FD;
+    if (d < FW) return [F.x1 - d, F.z1, 0, 1];
+    d -= FW;
+    return [F.x0, F.z1 - d, -1, 0];
+  }
+
+  const step = perimeter / segCount;
+  const y = 1.4;
+  for (let i = 0; i < segCount; i++) {
+    const d0 = i * step, d1 = (i + 1) * step;
+    const [x0, z0, nx0, nz0] = pointAlongPerimeter(d0);
+    const [x1, z1, nx1, nz1] = pointAlongPerimeter(d1);
+    const ox0 = x0 + nx0 * ribbonW, oz0 = z0 + nz0 * ribbonW;
+    const ox1 = x1 + nx1 * ribbonW, oz1 = z1 + nz1 * ribbonW;
+    positions.push(
+      x0, y, z0, ox0, y, oz0, x1, y, z1,
+      x1, y, z1, ox0, y, oz0, ox1, y, oz1
+    );
+    distances.push(d0, d0, d1, d1, d0, d1);
+  }
+
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
+  geo.setAttribute('aDist', new THREE.Float32BufferAttribute(distances, 1));
+
+  chaseMaterial = new THREE.ShaderMaterial({
+    transparent: true,
+    depthTest: false,
+    depthWrite: false,
+    side: THREE.DoubleSide,
+    blending: THREE.AdditiveBlending,
+    uniforms: {
+      uTime: { value: 0 },
+      uTotal: { value: perimeter },
+      uSpeed: { value: perimeter / 8.0 },
+      uTail: { value: Math.max(220, perimeter * 0.08) },
+      uHeadColor: { value: new THREE.Color(0xffffff) },
+      uTailColor: { value: new THREE.Color(0x74bfe8) },
+    },
+    vertexShader: `
+      attribute float aDist;
+      varying float vDist;
+      void main() {
+        vDist = aDist;
+        gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+      }
+    `,
+    fragmentShader: `
+      uniform float uTime;
+      uniform float uTotal;
+      uniform float uSpeed;
+      uniform float uTail;
+      uniform vec3 uHeadColor;
+      uniform vec3 uTailColor;
+      varying float vDist;
+      void main() {
+        float head = mod(uTime * uSpeed, uTotal);
+        float behind = mod(head - vDist + uTotal, uTotal);
+        if (behind > uTail) discard;
+        float t = 1.0 - behind / uTail;
+        float alpha = pow(t, 1.65);
+        vec3 col = mix(uTailColor, uHeadColor, smoothstep(0.65, 1.0, t));
+        gl_FragColor = vec4(col, alpha * 0.92);
+      }
+    `,
+  });
+  const mesh = new THREE.Mesh(geo, chaseMaterial);
+  mesh.renderOrder = 20;
+  mesh.frustumCulled = false;
+  archGroup.add(mesh);
+})();
+
+// ---------- 底部三层旋转 HUD 环（借鉴 three-scope-map-skill RingGeometry + Arc + Tick） ----------
+(function buildHudRings() {
+  hudRingGroup.position.set(FCX, -26, FCZ);
+  const baseR = Math.max(FW, FD) * 0.56;
+  const ringConfigs = [
+    { r0: baseR * 0.82, r1: baseR * 0.835, op: 0.08, col: 0x74bfe8 },
+    { r0: baseR * 0.96, r1: baseR * 0.972, op: 0.05, col: 0xaec8e2 },
+    { r0: baseR * 1.10, r1: baseR * 1.112, op: 0.035, col: 0x396397 },
+  ];
+  for (const rc of ringConfigs) {
+    const rg = new THREE.RingGeometry(rc.r0, rc.r1, 128);
+    const rm = new THREE.MeshBasicMaterial({
+      color: rc.col, transparent: true, opacity: rc.op,
+      blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide,
+    });
+    const m = new THREE.Mesh(rg, rm);
+    m.rotation.x = -Math.PI / 2;
+    m.renderOrder = -3;
+    hudRingGroup.add(m);
+  }
+  // 11 段弧线 + 48 个刻度线合成 1 个 LineSegments
+  const tickPts = [];
+  const tickR0 = baseR * 1.01, tickR1 = baseR * 1.05;
+  for (let i = 0; i < 48; i++) {
+    if (i % 4 === 0) continue;
+    const a = (i / 48) * Math.PI * 2;
+    tickPts.push(
+      Math.cos(a) * tickR0, 0, Math.sin(a) * tickR0,
+      Math.cos(a) * tickR1, 0, Math.sin(a) * tickR1
+    );
+  }
+  for (let s = 0; s < 11; s++) {
+    const aStart = (s / 11) * Math.PI * 2;
+    const aLen = 0.18;
+    const ar = baseR * (s % 2 === 0 ? 0.90 : 1.07);
+    for (let k = 0; k < 12; k++) {
+      const a0 = aStart + (k / 12) * aLen;
+      const a1 = aStart + ((k + 1) / 12) * aLen;
+      tickPts.push(Math.cos(a0) * ar, 0, Math.sin(a0) * ar, Math.cos(a1) * ar, 0, Math.sin(a1) * ar);
+    }
+  }
+  const tGeo = new THREE.BufferGeometry();
+  tGeo.setAttribute('position', new THREE.Float32BufferAttribute(tickPts, 3));
+  const tMat = new THREE.LineBasicMaterial({
+    color: 0x74bfe8, transparent: true, opacity: 0.22,
+    blending: THREE.AdditiveBlending, depthWrite: false,
+  });
+  const ticks = new THREE.LineSegments(tGeo, tMat);
+  ticks.renderOrder = -3;
+  hudRingGroup.add(ticks);
+  archGroup.add(hudRingGroup);
 })();
 
 // ---------- 玻璃隔断 ----------
@@ -164,17 +454,14 @@ scene.add(archGroup, orgOnly, netGroup, lightGroup);
   for (const [id, z] of Object.entries(ZONE)) {
     const isOps = id === 'ops';
     const h = isOps ? 48 : 120;
-    const t = isOps ? 1.4 : 2;
     const inset = isOps ? 0 : 6;
     const x0 = z.x0 + inset, x1 = z.x1 - inset, z0 = z.z0 + inset, z1 = z.z1 - inset;
-    // 北/南/东/西 四边；ops 南边留中央开口
     const segs = [
       [x0, z0, x1, z0], [x0, z1, x1, z1], [x0, z0, x0, z1], [x1, z0, x1, z1],
     ];
     for (const [ax, az, bx2, bz2] of segs) {
       const len = Math.hypot(bx2 - ax, bz2 - az);
       if (isOps && Math.abs(az - z1) < 1 && Math.abs(bz2 - z1) < 1) {
-        // 南边分两段，留 240 中央开口
         const gap = 240, half = (len - gap) / 2;
         panes.push({ ax, az, len: half, rot: 0, h, cx: ax + half / 2, cz: az });
         panes.push({ ax: ax + half + gap, az, len: half, rot: 0, h, cx: ax + half + gap + half / 2, cz: az });
@@ -190,11 +477,10 @@ scene.add(archGroup, orgOnly, netGroup, lightGroup);
   }
   const paneGeo = new THREE.PlaneGeometry(1, 1);
   const paneMesh = new THREE.InstancedMesh(paneGeo, MAT.glass, panes.length);
-  const railGeo = new THREE.BoxGeometry(1, 6, 5);
+  const railGeo = new THREE.BoxGeometry(1, 5, 5);
   const railMesh = new THREE.InstancedMesh(railGeo, MAT.rail, rails.length);
   const m = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler();
   panes.forEach((p, i) => {
-    // 高度随所属分区：业务运营矮屏 48，其余 3 个套间 120
     e.set(0, p.rot, 0); q.setFromEuler(e);
     m.compose(new THREE.Vector3(p.cx, p.h / 2, p.cz), q, new THREE.Vector3(p.len, p.h, 1));
     paneMesh.setMatrixAt(i, m);
@@ -208,14 +494,14 @@ scene.add(archGroup, orgOnly, netGroup, lightGroup);
   orgOnly.add(paneMesh, railMesh);
 })();
 
-// ---------- 部门门牌 ----------
+// ---------- 部门发光立柱门牌 ----------
 (function buildSigns() {
   const entries = Object.entries(ZONE);
   const postGeo = new THREE.BoxGeometry(12, 130, 60);
-  const stripGeo = new THREE.BoxGeometry(12, 3, 58);
+  const stripGeo = new THREE.BoxGeometry(13, 4, 60);
   const posts = new THREE.InstancedMesh(postGeo, MAT.stone, entries.length);
   const strips = new THREE.InstancedMesh(stripGeo,
-    new THREE.MeshStandardMaterial({ color: 0xfff2dc, emissive: 0xfff2dc, emissiveIntensity: 1.2 }), entries.length);
+    new THREE.MeshStandardMaterial({ color: 0xaec8e2, emissive: 0x74bfe8, emissiveIntensity: 1.5 }), entries.length);
   const m = new THREE.Matrix4(), q = new THREE.Quaternion();
   entries.forEach(([id, z], i) => {
     const x = z.x0 + 40, zz = z.z1 + 75;
@@ -229,91 +515,66 @@ scene.add(archGroup, orgOnly, netGroup, lightGroup);
   orgOnly.add(posts, strips);
 })();
 
-// ---------- 接待区（尺度参照） ----------
-(function buildReception() {
-  const g = new THREE.Group();
-  const rug = new THREE.Mesh(new THREE.PlaneGeometry(300, 180),
-    new THREE.MeshStandardMaterial({ color: 0x2a2620, roughness: 0.98 }));
-  rug.rotation.x = -Math.PI / 2; rug.position.set(FCX, 0.5, F.z1 - 120);
-  g.add(rug);
-  const sofa = new THREE.Group();
-  const base = new THREE.Mesh(new THREE.BoxGeometry(170, 45, 70), MAT.seat);
-  base.position.y = 22.5; sofa.add(base);
-  const back = new THREE.Mesh(new THREE.BoxGeometry(170, 40, 12), MAT.seat);
-  back.position.set(0, 60, 29); sofa.add(back);
-  for (const sx of [-1, 1]) {
-    const arm = new THREE.Mesh(new THREE.BoxGeometry(12, 18, 70), MAT.seat);
-    arm.position.set(sx * 79, 54, 0); sofa.add(arm);
-  }
-  sofa.position.set(FCX - 90, 0, F.z1 - 120);
-  sofa.traverse(o => { if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; } });
-  g.add(sofa);
-  const table = new THREE.Group();
-  const top = new THREE.Mesh(new THREE.BoxGeometry(90, 4, 42), MAT.desk);
-  top.position.y = 40; table.add(top);
-  for (const sx of [-1, 1]) for (const sz of [-1, 1]) {
-    const leg = new THREE.Mesh(new THREE.BoxGeometry(4, 38, 4), MAT.metal);
-    leg.position.set(sx * 40, 19, sz * 16); table.add(leg);
-  }
-  table.position.set(FCX + 40, 0, F.z1 - 120);
-  g.add(table);
-  for (const [i, sx] of [[0, -200], [1, 200]]) {
-    const pot = new THREE.Mesh(new THREE.CylinderGeometry(16, 12, 26, 10), MAT.pot);
-    pot.position.set(FCX + sx, 13, F.z1 - 130);
-    pot.castShadow = true;
-    g.add(pot);
-    for (let k = 0; k < 3; k++) {
-      const leaf = new THREE.Mesh(new THREE.ConeGeometry(16 - k * 3, 46, 7), MAT.plant);
-      leaf.position.set(FCX + sx, 44 + k * 22, F.z1 - 130);
-      leaf.castShadow = true;
-      g.add(leaf);
-    }
-  }
-  orgOnly.add(g);
-})();
+// ---------- 前庭全息投影指挥台（image2threejs 3D 体素全息分身） ----------
+const holoStage = createHoloEmitterStage(FCX, F.z1 - 120);
+orgOnly.add(holoStage.group);
 
-// ---------- 治理墙 + 3 块铜牌（MGT 不是人） ----------
+// ---------- 治理墙 + 3 座 T4 钛金规则碑（MGT 不是人、无工位） ----------
 const govMeshes = [];
 (function buildGovernance() {
   const wall = new THREE.Mesh(new THREE.BoxGeometry(1080, 180, 24), MAT.stone);
-  wall.position.set(FCX, 90, F.z0 + 289 - 380 + 0); // 置于北侧
-  wall.position.z = Math.min(...bz) - 230;
+  wall.position.set(FCX, 90, Math.min(...bz) - 230);
   wall.castShadow = true; wall.receiveShadow = true;
   archGroup.add(wall);
-  const zz = wall.position.z + 15;
+  const zz = wall.position.z + 16;
   G.org.governance.forEach((gv, i) => {
-    const plaque = createPlaque(gv, 260, 84, 6);
+    const plaque = createPlaque(gv, 260, 88, 10);
     plaque.position.set(FCX + (i - 1) * 320, 96, zz);
     archGroup.add(plaque);
     govMeshes.push(plaque);
   });
 })();
 
-// ---------- 工位家具（InstancedMesh） ----------
+// ---------- Polyfork 风格科技工位家具（双联自发光曲面屏 + 升降台 + 桌下算力刀片机柜与状态 LED） ----------
 const deskSeatMap = [];
+const plData = G.org.pilot_lens || { seats: [], context_injected_seats: [], target_nodes: [], stages: [] };
+const pilotCoreIds = new Set((plData.seats || []).map(x => x.seat_id));
+const pilotCtxIds = new Set((plData.context_injected_seats || []).map(x => x.seat_id));
+const pilotNodeIds = new Set(plData.target_nodes || []);
+
 (function buildWorkstations() {
   const seats = org.seats;
   const n = seats.length;
   const m = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler();
   const deskGeo = new THREE.BoxGeometry(132, 4, 64);
+  const edgeStripGeo = new THREE.BoxGeometry(132, 2.2, 2.2);
   const legGeo = new THREE.BoxGeometry(6, 70, 56);
-  const dividerGeo = new THREE.BoxGeometry(132, 16, 3);
-  const monGeo = new THREE.BoxGeometry(58, 32, 3);
-  const monFootGeo = new THREE.BoxGeometry(16, 8, 10);
-  const seatGeo = new THREE.BoxGeometry(42, 5, 40);
-  const backGeo = new THREE.BoxGeometry(42, 42, 5);
+  const dividerGeo = new THREE.BoxGeometry(132, 14, 2.5);
+  const monGeo = new THREE.BoxGeometry(44, 28, 2.5);
+  const monFootGeo = new THREE.BoxGeometry(18, 10, 10);
+  const bladeGeo = new THREE.BoxGeometry(22, 34, 44);
+  const ledGeo = new THREE.BoxGeometry(16, 3.2, 2);
+  const seatGeo = new THREE.BoxGeometry(44, 5, 42);
+  const backGeo = new THREE.BoxGeometry(42, 44, 5);
   const postGeo = new THREE.CylinderGeometry(3, 3, 44, 8);
-  const baseGeo = new THREE.CylinderGeometry(16, 16, 3, 10);
+  const baseGeo = new THREE.CylinderGeometry(17, 17, 3, 8);
 
   const desks = new THREE.InstancedMesh(deskGeo, MAT.desk, n);
+  const edgeStrips = new THREE.InstancedMesh(edgeStripGeo, MAT.deskEdge, n);
   const legs = new THREE.InstancedMesh(legGeo, MAT.metal, n * 2);
   const dividers = new THREE.InstancedMesh(dividerGeo, MAT.metal, n);
-  const mons = new THREE.InstancedMesh(monGeo, MAT.screen, n);
+  const mons = new THREE.InstancedMesh(monGeo, MAT.screen, n * 2);
   const monFeet = new THREE.InstancedMesh(monFootGeo, MAT.metal, n);
+  const blades = new THREE.InstancedMesh(bladeGeo, MAT.metal, n);
+  const leds = new THREE.InstancedMesh(ledGeo, MAT.led, n);
   const chairs = new THREE.InstancedMesh(seatGeo, MAT.seat, n);
   const backs = new THREE.InstancedMesh(backGeo, MAT.seat, n);
   const posts = new THREE.InstancedMesh(postGeo, MAT.metal, n);
   const bases = new THREE.InstancedMesh(baseGeo, MAT.metal, n);
+
+  const colCore = new THREE.Color(0x74bfe8);
+  const colPart = new THREE.Color(0xedb76c);
+  const colUnv = new THREE.Color(0x396397);
 
   seats.forEach((s, i) => {
     const cx = s.x + s.w / 2, cz = s.y + s.h / 2;
@@ -321,18 +582,32 @@ const deskSeatMap = [];
     e.set(0, 0, 0); q.setFromEuler(e);
     m.compose(new THREE.Vector3(cx, 72, cz - 22), q, new THREE.Vector3(1, 1, 1));
     desks.setMatrixAt(i, m);
+    m.compose(new THREE.Vector3(cx, 73.2, cz + 10), q, new THREE.Vector3(1, 1, 1));
+    edgeStrips.setMatrixAt(i, m);
     for (const [j, sx] of [[0, -54], [1, 54]]) {
       m.compose(new THREE.Vector3(cx + sx, 35, cz - 22), q, new THREE.Vector3(1, 1, 1));
       legs.setMatrixAt(i * 2 + j, m);
     }
-    m.compose(new THREE.Vector3(cx, 82, cz - 52), q, new THREE.Vector3(1, 1, 1));
+    m.compose(new THREE.Vector3(cx, 81, cz - 52), q, new THREE.Vector3(1, 1, 1));
     dividers.setMatrixAt(i, m);
-    e.set(-0.14, 0, 0); q.setFromEuler(e);
-    m.compose(new THREE.Vector3(cx, 90, cz - 38), q, new THREE.Vector3(1, 1, 1));
-    mons.setMatrixAt(i, m);
+    // 双联微倾曲面监控屏
+    e.set(-0.12, 0.16, 0); q.setFromEuler(e);
+    m.compose(new THREE.Vector3(cx - 23, 91, cz - 36), q, new THREE.Vector3(1, 1, 1));
+    mons.setMatrixAt(i * 2, m);
+    e.set(-0.12, -0.16, 0); q.setFromEuler(e);
+    m.compose(new THREE.Vector3(cx + 23, 91, cz - 36), q, new THREE.Vector3(1, 1, 1));
+    mons.setMatrixAt(i * 2 + 1, m);
+
     e.set(0, 0, 0); q.setFromEuler(e);
-    m.compose(new THREE.Vector3(cx, 78, cz - 32), q, new THREE.Vector3(1, 1, 1));
+    m.compose(new THREE.Vector3(cx, 78, cz - 38), q, new THREE.Vector3(1, 1, 1));
     monFeet.setMatrixAt(i, m);
+    // 桌下 AI 算力刀片机柜 + 准入状态 LED
+    m.compose(new THREE.Vector3(cx + 38, 17, cz - 22), q, new THREE.Vector3(1, 1, 1));
+    blades.setMatrixAt(i, m);
+    m.compose(new THREE.Vector3(cx + 38, 28, cz + 0.5), q, new THREE.Vector3(1, 1, 1));
+    leds.setMatrixAt(i, m);
+    leds.setColorAt(i, pilotCoreIds.has(s.id) ? colCore : (s.status === 'PARTIAL' ? colPart : colUnv));
+
     m.compose(new THREE.Vector3(cx, 44, cz + 30), q, new THREE.Vector3(1, 1, 1));
     chairs.setMatrixAt(i, m);
     m.compose(new THREE.Vector3(cx, 65, cz + 47), q, new THREE.Vector3(1, 1, 1));
@@ -342,7 +617,7 @@ const deskSeatMap = [];
     m.compose(new THREE.Vector3(cx, 1.5, cz + 30), q, new THREE.Vector3(1, 1, 1));
     bases.setMatrixAt(i, m);
   });
-  for (const im of [desks, legs, dividers, mons, monFeet, chairs, backs, posts, bases]) {
+  for (const im of [desks, edgeStrips, legs, dividers, mons, monFeet, blades, leds, chairs, backs, posts, bases]) {
     im.frustumCulled = false;
     im.castShadow = true; im.receiveShadow = true;
     orgOnly.add(im);
@@ -354,15 +629,11 @@ const peopleGroup = new THREE.Group();
 const pilotRingGroup = new THREE.Group();
 pilotRingGroup.visible = false;
 const personBySeat = new Map();
-const plData = G.org.pilot_lens || { seats: [], context_injected_seats: [], target_nodes: [], stages: [] };
-const pilotCoreIds = new Set((plData.seats || []).map(x => x.seat_id));
-const pilotCtxIds = new Set((plData.context_injected_seats || []).map(x => x.seat_id));
-const pilotNodeIds = new Set(plData.target_nodes || []);
 
 (function buildPeople() {
   const ringGeo = new THREE.RingGeometry(38, 48, 28);
-  const coreMat = new THREE.MeshBasicMaterial({ color: 0x64c8d8, side: THREE.DoubleSide, transparent: true, opacity: 0.92, depthWrite: false });
-  const ctxMat = new THREE.MeshBasicMaterial({ color: 0xe0a95a, side: THREE.DoubleSide, transparent: true, opacity: 0.82, depthWrite: false });
+  const coreMat = new THREE.MeshBasicMaterial({ color: 0x74bfe8, side: THREE.DoubleSide, transparent: true, opacity: 0.92, depthWrite: false });
+  const ctxMat = new THREE.MeshBasicMaterial({ color: 0xedb76c, side: THREE.DoubleSide, transparent: true, opacity: 0.82, depthWrite: false });
   for (const s of org.seats) {
     const p = createPerson({ ...s, seat_id: s.id, level1: s.level1, status: s.status, tier: s.tier });
     const cx = s.x + s.w / 2, cz = s.y + s.h / 2;
@@ -385,14 +656,14 @@ let flow = null;
 (function buildNetwork() {
   const nodes = net.nodes;
   const n = nodes.length;
-  const m = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler();
+  const m = new THREE.Matrix4(), q = new THREE.Quaternion();
   const pedGeo = new THREE.BoxGeometry(46, 1, 46);
   const capGeo = new THREE.BoxGeometry(58, 4, 58);
   const bandGeo = new THREE.BoxGeometry(48, 3, 48);
   const peds = new THREE.InstancedMesh(pedGeo, MAT.pedestal, n);
   const caps = new THREE.InstancedMesh(capGeo, MAT.cap, n);
   const bands = new THREE.InstancedMesh(bandGeo,
-    new THREE.MeshStandardMaterial({ color: 0x111111, emissive: 0x7fb8c8, emissiveIntensity: 2.2 }), n);
+    new THREE.MeshStandardMaterial({ color: 0x0b1521, emissive: 0x74bfe8, emissiveIntensity: 2.2 }), n);
   const hOf = nd => 70 + (nd.pages ? nd.pages.length : 1) * 6;
   nodes.forEach((nd, i) => {
     const cx = nd.x + nd.w / 2, cz = nd.y + nd.h / 2, h = hOf(nd);
@@ -407,7 +678,7 @@ let flow = null;
   for (const im of [peds, caps, bands]) { im.frustumCulled = false; im.castShadow = true; netGroup.add(im); }
 
   const netRingGeo = new THREE.RingGeometry(36, 48, 28);
-  const netRingMat = new THREE.MeshBasicMaterial({ color: 0xe0a95a, side: THREE.DoubleSide, transparent: true, opacity: 0.9, depthWrite: false });
+  const netRingMat = new THREE.MeshBasicMaterial({ color: 0xedb76c, side: THREE.DoubleSide, transparent: true, opacity: 0.9, depthWrite: false });
   const netPilotGroup = new THREE.Group();
   netPilotGroup.visible = false;
   nodes.forEach(nd => {
@@ -425,10 +696,10 @@ let flow = null;
   netGroup.add(flow.group);
 })();
 
-// ---------- 灯光 ----------
+// ---------- 冷银深空灯光系统（对齐 sagegogo.com） ----------
 (function buildLights() {
-  lightGroup.add(new THREE.HemisphereLight(0xc8d8e8, 0x191b1e, 0.55));
-  const key = new THREE.DirectionalLight(0xfff0da, 2.4);
+  lightGroup.add(new THREE.HemisphereLight(0xc4d0dc, 0x07121c, 0.58));
+  const key = new THREE.DirectionalLight(0xf4f7fb, 2.4);
   key.position.set(FCX - 210, 1900, FCZ - 510);
   key.target.position.set(FCX, 0, FCZ);
   key.castShadow = true;
@@ -440,22 +711,20 @@ let flow = null;
   key.shadow.normalBias = 0.8;
   lightGroup.add(key, key.target);
 
-  const fill = new THREE.DirectionalLight(0x9cc2dc, 0.6);
+  const fill = new THREE.DirectionalLight(0xaec8e2, 0.65);
   fill.position.set(FCX + 1200, 800, FCZ + 900);
   lightGroup.add(fill);
 
-  // 点光：1 unit=1cm 时必须 decay=0，否则 300 unit 外直接归零
   for (const [dx, dz] of [[-410, -610], [390, -610], [-410, 590], [390, 590]]) {
-    const pl = new THREE.PointLight(0xffe6c4, 0.8, 1800, 0);
+    const pl = new THREE.PointLight(0xc4d0dc, 0.85, 1800, 0);
     pl.position.set(FCX + dx, 300, FCZ + dz);
     lightGroup.add(pl);
   }
 
-  // 吊装灯带 + 加法光晕
   const glow = glowTexture();
   for (const dz of [-610, 590]) {
     const rail = new THREE.Mesh(new THREE.BoxGeometry(420, 4, 12),
-      new THREE.MeshStandardMaterial({ color: 0x2a2e32, emissive: 0xfff2dc, emissiveIntensity: 1.8 }));
+      new THREE.MeshStandardMaterial({ color: 0x142033, emissive: 0xaec8e2, emissiveIntensity: 1.8 }));
     rail.position.set(FCX, 280, FCZ + dz);
     orgOnly.add(rail);
     for (const dx of [-210, 210]) {
@@ -468,7 +737,7 @@ let flow = null;
   }
 })();
 
-// ---------- DOM 标签 ----------
+// ---------- DOM 标签（含 sagegogo signal-point 呼吸光点） ----------
 const labels = [];
 function addLabel(html, pos, cls, data, isHtml = false) {
   const el = document.createElement('div');
@@ -490,28 +759,85 @@ function addLabel(html, pos, cls, data, isHtml = false) {
     new THREE.Vector3(FCX + (i - 1) * 320, 152, wallZ + 15), 'lbl gov', { kind: 'gov', id: gv.seat_id }));
   addLabel('T4 决策权规则包 · 非 Agent 席位',
     new THREE.Vector3(FCX, 196, wallZ + 15), 'lbl gov', { kind: 'govnote' });
+  addLabel('全息体素投影台 · 选中席位实时扫描',
+    new THREE.Vector3(FCX, 132, F.z1 - 120), 'lbl band', { kind: 'sub' });
   const netOffX = FCX - 800, netOffZ = FCZ - 800;
   for (const nd of net.nodes) addLabel(nd.title,
-    new THREE.Vector3(netOffX + nd.x + nd.w / 2, 70 + (nd.pages ? nd.pages.length : 1) * 6 + 34, netOffZ + nd.y + nd.h / 2),
+    new THREE.Vector3(netOffX + nd.x + nd.w / 2, 82 + (nd.pages ? nd.pages.length : 1) * 6 + 34, netOffZ + nd.y + nd.h / 2),
     'lbl node', { kind: 'node', id: nd.id });
-  // 席位名片标签（含确定性 SVG 类人头像 + 姓名 + 编号）
   for (const s of org.seats) {
     const svg = renderPinAvatarHtml({ ...s, seat_id: s.id, level1: s.level1 }, 'dark', 24);
-    addLabel(`${svg}<span>${s.alias}</span><small>${s.id}</small>`,
+    const dotCls = s.status === 'PARTIAL' ? 'sig-dot partial' : 'sig-dot';
+    addLabel(`<i class="${dotCls}"></i>${svg}<span>${s.alias}</span><small>${s.id}</small>`,
       new THREE.Vector3(s.x + s.w / 2, 142, s.y + s.h / 2), 'lbl seat', { kind: 'seat', id: s.id }, true);
   }
 })();
 
-// ---------- 相机 ----------
+// ---------- 预设缓动相机控制器（借鉴 cameraPresetController.ts） ----------
+const VIEW_PRESETS = {
+  org: { fov: 35, theta: Math.PI * 0.25, phi: Math.PI * 0.33, radius: 2550, target: [FCX, 60, FCZ] },
+  'org-closeup': { fov: 35, theta: Math.PI * 0.25, phi: Math.PI * 0.36, radius: 1180, target: [FCX, 85, FCZ - 320] },
+  network: { fov: 35, theta: Math.PI * 0.25, phi: Math.PI * 0.38, radius: 2900, target: [FCX, 52, FCZ] },
+};
+
 const camera = new THREE.PerspectiveCamera(35, 1, 10, 12000);
 const orbit = {
-  theta: Math.PI * 0.25, phi: Math.PI * 0.33, radius: 2550,
-  target: new THREE.Vector3(FCX, 60, FCZ),
+  theta: VIEW_PRESETS.org.theta,
+  phi: VIEW_PRESETS.org.phi,
+  radius: VIEW_PRESETS.org.radius,
+  target: new THREE.Vector3(...VIEW_PRESETS.org.target),
 };
-let autoRotate = true;
+let camTween = null;
+let autoRotate = !STILL_MODE;
 let dragging = false, last = null, moved = 0;
 
+function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+
+function tweenCamera(presetOrTarget, durationMs = 760) {
+  if (STILL_MODE || durationMs <= 0) {
+    if (presetOrTarget.theta != null) orbit.theta = presetOrTarget.theta;
+    if (presetOrTarget.phi != null) orbit.phi = presetOrTarget.phi;
+    if (presetOrTarget.radius != null) orbit.radius = presetOrTarget.radius;
+    if (presetOrTarget.target) orbit.target.set(...presetOrTarget.target);
+    camTween = null;
+    return;
+  }
+  camTween = {
+    t0: performance.now(),
+    dur: durationMs,
+    from: {
+      theta: orbit.theta,
+      phi: orbit.phi,
+      radius: orbit.radius,
+      tx: orbit.target.x,
+      ty: orbit.target.y,
+      tz: orbit.target.z,
+    },
+    to: {
+      theta: presetOrTarget.theta ?? orbit.theta,
+      phi: presetOrTarget.phi ?? orbit.phi,
+      radius: presetOrTarget.radius ?? orbit.radius,
+      tx: presetOrTarget.target ? presetOrTarget.target[0] : orbit.target.x,
+      ty: presetOrTarget.target ? presetOrTarget.target[1] : orbit.target.y,
+      tz: presetOrTarget.target ? presetOrTarget.target[2] : orbit.target.z,
+    },
+  };
+}
+
 function applyCamera() {
+  if (camTween) {
+    const u = Math.min(1, (performance.now() - camTween.t0) / camTween.dur);
+    const k = easeOutCubic(u);
+    orbit.theta = camTween.from.theta + (camTween.to.theta - camTween.from.theta) * k;
+    orbit.phi = camTween.from.phi + (camTween.to.phi - camTween.from.phi) * k;
+    orbit.radius = camTween.from.radius + (camTween.to.radius - camTween.from.radius) * k;
+    orbit.target.set(
+      camTween.from.tx + (camTween.to.tx - camTween.from.tx) * k,
+      camTween.from.ty + (camTween.to.ty - camTween.from.ty) * k,
+      camTween.from.tz + (camTween.to.tz - camTween.from.tz) * k
+    );
+    if (u >= 1) camTween = null;
+  }
   const r = orbit.radius, sp = Math.sin(orbit.phi);
   camera.position.set(
     orbit.target.x + r * sp * Math.cos(orbit.theta),
@@ -531,7 +857,7 @@ addEventListener('resize', resize);
 resize();
 
 stage.addEventListener('pointerdown', e => {
-  dragging = true; last = { x: e.clientX, y: e.clientY }; moved = 0;
+  dragging = true; camTween = null; last = { x: e.clientX, y: e.clientY }; moved = 0;
   stage.setPointerCapture(e.pointerId);
 });
 stage.addEventListener('pointermove', e => {
@@ -548,10 +874,11 @@ stage.addEventListener('pointerup', e => {
 });
 stage.addEventListener('wheel', e => {
   e.preventDefault();
+  camTween = null;
   orbit.radius = Math.max(800, Math.min(6000, orbit.radius * Math.exp(e.deltaY * 0.0012)));
 }, { passive: false });
 
-// ---------- 拾取 ----------
+// ---------- 拾取与悬停抬升 ----------
 const ray = new THREE.Raycaster();
 const ptr = new THREE.Vector2();
 let hovered = null;
@@ -582,12 +909,15 @@ stage.addEventListener('pointermove', e => {
   if (key !== hovered) {
     if (hovered) {
       const [pk, pid] = hovered.split(':');
-      if (pk === 'seat') { const p = personBySeat.get(pid); if (p) p.scale.setScalar(1); }
+      if (pk === 'seat') { const p = personBySeat.get(pid); if (p) { p.scale.setScalar(1); p.position.y = 0; } }
       if (flow) flow.setHover(null);
     }
     hovered = key;
     if (hit) {
-      if (hit.kind === 'seat') { const p = personBySeat.get(hit.id); if (p) p.scale.setScalar(1.03); }
+      if (hit.kind === 'seat') {
+        const p = personBySeat.get(hit.id);
+        if (p) { p.scale.setScalar(1.06); p.position.y = 6; }
+      }
       if (hit.kind === 'node' && flow) flow.setHover(hit.id);
     }
     stage.style.cursor = hit ? 'pointer' : 'grab';
@@ -599,7 +929,7 @@ stage.addEventListener('click', e => {
   if (hit) showDetail(hit.kind, hit.id);
 });
 
-// ---------- 详情 ----------
+// ---------- 详情与全息联动 ----------
 const SEAT_MAP = new Map([...G.org.seats, ...G.org.governance].map(s => [s.seat_id, s]));
 
 let closeupMode = false;
@@ -608,6 +938,9 @@ let pilotStage3d = 'ALL';
 let chainId3d = 'chain-01';
 
 function showDetail(kind, id) {
+  if (kind === 'seat' || kind === 'gov') {
+    holoStage.updateSeatHologram(id);
+  }
   if (kind === 'pilot') {
     const chains = G.org.chain_lenses || [];
     const cbar = `<div class="stg-bar">
@@ -639,7 +972,7 @@ function showDetail(kind, id) {
       side.innerHTML = `${cbar}<h2>${plData.title}</h2>
       <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待签核 ${pc.awaiting_human_signoff || 0}/7</span>
       <span class="tag">Policy Gate ${pg.negative_tests_passed || 10}/10</span><span class="tag">治理机制 ${gm.cases_passed || 16}/${gm.cases_total || 16}</span></p>
-      <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待真人签核 ${pc.awaiting_human_signoff || 0}/7</span><span class="tag">${plData.active_sessions} 并发 session</span></p>
+      <p><span class="tag">${plData.active_sessions} 并发 session</span></p>
       <p>授权依据：<code>${plData.authorization_ref}</code></p>
       ${(pre.items || []).length ? `<h3>七项生效前置（P1..P7）</h3>` + pre.items.map(it => {
         const st = it.state === 'ENGINEERING_READY' ? '工程就绪' : '待真人签核';
@@ -648,7 +981,7 @@ function showDetail(kind, id) {
       <h3>核心参与席位（${plData.seats.length}）</h3>
       ${plData.seats.map(s => {
         const meta = SEAT_MAP.get(s.seat_id);
-        return `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${meta ? meta.alias : ''} · ${s.mode}<br><small style="color:#8f9d97">${s.stages.join('/')} · ${s.duty}</small></div>`;
+        return `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${meta ? meta.alias : ''} · ${s.mode}<br><small style="color:#aab8ca">${s.stages.join('/')} · ${s.duty}</small></div>`;
       }).join('')}
       <h3>T3 上下文注入/装配席位（${plData.context_injected_seats.length}）</h3>
       ${plData.context_injected_seats.map(s => {
@@ -677,7 +1010,8 @@ function showDetail(kind, id) {
         return `<p><strong>${cur.stage_id} ${cur.name}</strong> · <code>${cur.artifact_kind}</code><br>
           <small>主责：${cur.producer_seats.join(', ')}｜注入：${cur.injected_seats.join(', ') || '无'}｜sha: ${cur.artifact_sha256}</small></p>
           <div class="art-box">${JSON.stringify(cur.artifact, null, 2)}</div>`;
-      })()}`; }
+      })()}`;
+    }
   } else if (kind === 'seat' || kind === 'gov') {
     const s = SEAT_MAP.get(id);
     if (!s) return;
@@ -707,6 +1041,7 @@ function showDetail(kind, id) {
         `<p class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</p>`
       ).join('') : ''}`;
   }
+
   function apply3dChainHighlight() {
     const chains = G.org.chain_lenses || [];
     let activeSeats, activeNodes;
@@ -740,25 +1075,17 @@ function showDetail(kind, id) {
   }));
   side.querySelectorAll('[data-stg3d]').forEach(btn => btn.addEventListener('click', () => {
     pilotStage3d = btn.dataset.stg3d;
-    const cur = pilotStage3d !== 'ALL' && plData.dryrun
-      ? (plData.dryrun.stages || []).find(s => s.stage_id === pilotStage3d)
-      : null;
-    const activeSeats = cur ? new Set([...cur.producer_seats, ...cur.injected_seats]) : new Set([...pilotCoreIds, ...pilotCtxIds]);
-    const activeNodes = cur ? new Set(cur.target_nodes) : pilotNodeIds;
-    if (flow) flow.setPilotNodes(pilotMode ? activeNodes : null);
-    for (const [sid, mesh] of personBySeat.entries()) {
-      mesh.scale.setScalar(pilotMode && activeSeats.has(sid) ? 1.15 : 1);
-    }
-    for (const l of labels) {
-      const pinned = pilotMode && ((l.kind === 'seat' && activeSeats.has(l.id)) || (l.kind === 'node' && activeNodes.has(l.id)));
-      l.el.classList.toggle('pilot-pin', pinned);
-    }
+    apply3dChainHighlight();
     showDetail('pilot', 'FLOW-02-SCN-002');
   }));
   side.querySelectorAll('[data-jump3d]').forEach(el => el.addEventListener('click', () => {
     const [k, v] = el.dataset.jump3d.split(':');
     const want = k === 'node' ? 'network' : 'org';
     if (stage.dataset.view !== want) switchView(want);
+    if (k === 'seat') {
+      const seatBox = org.seats.find(x => x.id === v);
+      if (seatBox) tweenCamera({ radius: Math.min(orbit.radius, 1180), target: [seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2] });
+    }
     showDetail(k, v);
   }));
   side.querySelectorAll('[data-jump-seat]').forEach(el => el.addEventListener('click', () => {
@@ -767,8 +1094,7 @@ function showDetail(kind, id) {
     if (stage.dataset.view !== 'org') switchView('org');
     const seatBox = org.seats.find(x => x.id === sid);
     if (seatBox) {
-      orbit.target.set(seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2);
-      orbit.radius = Math.min(orbit.radius, 1180);
+      tweenCamera({ radius: Math.min(orbit.radius, 1180), target: [seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2] });
     }
     showDetail(isGov ? 'gov' : 'seat', sid);
   }));
@@ -785,14 +1111,11 @@ function switchView(v) {
   stage.dataset.view = v;
   orgOnly.visible = v === 'org';
   netGroup.visible = v === 'network';
-  orbit.target.set(FCX, v === 'org' ? 60 : 40, FCZ);
-  orbit.radius = v === 'org' ? (closeupMode ? 1180 : 2550) : 2900;
-  orbit.phi = v === 'org' ? (closeupMode ? Math.PI * 0.36 : Math.PI * 0.33) : Math.PI * 0.38;
+  const preset = v === 'org' ? (closeupMode ? VIEW_PRESETS['org-closeup'] : VIEW_PRESETS.org) : VIEW_PRESETS.network;
+  tweenCamera(preset);
   for (const l of labels) {
-    if (l.kind === 'node' || l.kind === 'sub') l.shown = v === 'network' || l.kind === 'sub';
     if (l.kind === 'node') l.shown = v === 'network';
-    if (l.kind === 'seat') l.shown = v === 'org';
-    if (l.kind === 'band' || l.kind === 'sub') l.shown = v === 'org';
+    if (l.kind === 'seat' || l.kind === 'band' || l.kind === 'sub') l.shown = v === 'org';
   }
 }
 stage.dataset.view = 'org';
@@ -803,9 +1126,7 @@ document.querySelector('#closeup-btn').addEventListener('click', e => {
   closeupMode = !closeupMode;
   e.currentTarget.classList.toggle('active', closeupMode);
   if (stage.dataset.view !== 'org') switchView('org');
-  orbit.radius = closeupMode ? 1180 : 2550;
-  orbit.phi = closeupMode ? Math.PI * 0.36 : Math.PI * 0.33;
-  orbit.target.set(FCX, closeupMode ? 85 : 60, closeupMode ? FCZ - 320 : FCZ);
+  else tweenCamera(closeupMode ? VIEW_PRESETS['org-closeup'] : VIEW_PRESETS.org);
 });
 
 document.querySelector('#pilot3d-btn').addEventListener('click', e => {
@@ -831,12 +1152,10 @@ document.querySelector('#toggle-rotate').addEventListener('click', e => {
   e.currentTarget.classList.toggle('active', autoRotate);
 });
 
-// 首屏隐藏网络标签
 for (const l of labels) if (l.kind === 'node') l.shown = false;
 
 // ---------- 标签投影 + 席位 LOD ----------
 const v3 = new THREE.Vector3();
-// 标签优先级：数字越大越先占位
 const LBL_PRIORITY = { band: 5, gov: 4, govnote: 4, node: 4, sub: 3, seat: 2 };
 const placedRects = [];
 function overlaps(a, b) {
@@ -847,7 +1166,6 @@ function projectLabels() {
   const w = stage.clientWidth, h = stage.clientHeight;
   const orgView = stage.dataset.view === 'org';
 
-  // 席位标签：试点镜头下常驻显示 9 个试点席位；近景（radius < 1750）显示视锥内最近 22 个
   const seatShown = new Set();
   if (orgView && pilotMode) {
     for (const l of labels) {
@@ -867,7 +1185,6 @@ function projectLabels() {
     for (const c of cands.slice(0, maxPins)) seatShown.add(c.l);
   }
 
-  // 收集本轮候选：先算屏幕矩形，再按优先级贪心避让
   const cands = [];
   for (const l of labels) {
     let show = l.shown;
@@ -887,7 +1204,6 @@ function projectLabels() {
 
   placedRects.length = 0;
   for (const c of cands) {
-    // 与已占位矩形冲突则隐藏，不做挤压（保持字号不变）
     if (placedRects.some(r => overlaps(c.rect, r))) { c.l.el.style.display = 'none'; continue; }
     placedRects.push(c.rect);
     c.l.el.style.display = '';
@@ -897,32 +1213,39 @@ function projectLabels() {
 
 // ---------- 主循环 ----------
 const clock = new THREE.Clock();
+let elapsed = 0;
 function tick() {
-  const dt = clock.getDelta();
-  if (autoRotate && !dragging) orbit.theta += dt * 0.06;
+  const dt = STILL_MODE ? 0 : clock.getDelta();
+  elapsed += dt;
+  if (autoRotate && !dragging && !camTween) orbit.theta += dt * 0.06;
+  if (chaseMaterial) chaseMaterial.uniforms.uTime.value = STILL_MODE ? 2.4 : elapsed;
+  hudRingGroup.rotation.y = STILL_MODE ? 0.2 : elapsed * 0.035;
+  holoStage.update(dt);
+  if (flow && netGroup.visible) flow.update(dt);
   applyCamera();
-  if (flow && stage.dataset.view === 'network') flow.update(dt);
-  projectLabels();
   renderer.render(scene, camera);
+  projectLabels();
   requestAnimationFrame(tick);
 }
 
+document.querySelector('#f-seats').textContent = `${org.seats.length} AGT + ${G.org.governance.length} MGT`;
 document.querySelector('#gv').textContent = G.graph_version;
-document.querySelector('#f-seats').textContent =
-  `${G.org.seats.length + G.org.governance.length} 个可寻址席位（${G.org.seats.length} AGT + ${G.org.governance.length} MGT）`;
-
-// 调试钩子（?audit=1 时输出渲染统计）
-window.__sc = { renderer, scene, camera, orbit, applyCamera, orgOnly, netGroup, flow, labels };
-if (location.search.includes('audit=1')) {
-  setTimeout(() => {
-    const info = renderer.info.render;
-    console.log('[3D]', JSON.stringify({ calls: info.calls, triangles: info.triangles,
-      persons: org.seats.length, flow: flow.stats, ground: [Math.round(FW), Math.round(FD)] }));
-  }, 900);
+if (params.get('view') === 'network') switchView('network');
+if (params.get('closeup') === '1') {
+  closeupMode = true;
+  document.querySelector('#closeup-btn').classList.add('active');
+  tweenCamera(VIEW_PRESETS['org-closeup'], 0);
 }
-
-// URL 直达：?view=network
-if (new URLSearchParams(location.search).get('view') === 'network') switchView('network');
-
-applyCamera();
+window.__sc = {
+  renderer, scene, camera, orbit, VIEW_PRESETS, tweenCamera, switchView, showDetail, holoStage,
+  getStats: () => ({
+    calls: renderer.info.render.calls,
+    triangles: renderer.info.render.triangles,
+    geometries: renderer.info.memory.geometries,
+    textures: renderer.info.memory.textures,
+    holoVoxels: holoStage.getActiveCount(),
+    holoSeat: holoStage.getCurrentSeatId(),
+    flow: flow ? flow.stats : null,
+  }),
+};
 tick();

@@ -1,7 +1,12 @@
 // 流动关系线：静态折线 + 沿曲线移动的彗星粒子。123 条边合成 1 个 LineSegments + 1 个 Points。
 import * as THREE from './vendor/three.module.min.js';
+import { SAGE_DARK, hexToInt } from './theme.js?v=36';
 
-const KIND_COLOR = { baseline: 0x64c8d8, feedback: 0xe0a95a, plain: 0x6f7f86 };
+const KIND_COLOR = {
+  baseline: hexToInt(SAGE_DARK.flowBaseline),
+  feedback: hexToInt(SAGE_DARK.flowFeedback),
+  plain: hexToInt(SAGE_DARK.flowPlain),
+};
 const KIND_LAYER = { baseline: 2, feedback: 1, plain: 0 };
 // 每边彗星数 / 点尺寸 / 速度 / 尾长 / 亮度
 const KIND_FLOW = {

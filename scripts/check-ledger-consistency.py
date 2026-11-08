@@ -355,6 +355,14 @@ def collect(root: Path) -> list[str]:
         if gmres.returncode != 0:
             failures.append(f"四项缺失治理机制门禁自检失败：{(gmres.stderr or gmres.stdout).strip()}")
 
+    # 7e. orgmap 视觉契约与架构边界自检门禁（批次 18-21）
+    vc_script = root / "scripts/check-orgmap-visual-contract.py"
+    if vc_script.is_file():
+        vcres = subprocess.run([sys.executable, "-I", str(vc_script), "--selftest"],
+                               cwd=root, capture_output=True, text=True)
+        if vcres.returncode != 0:
+            failures.append(f"orgmap 视觉契约门禁自检失败：{(vcres.stderr or vcres.stdout).strip()}")
+
     # 8. orgmap graph.js 新鲜度门禁
     graph_script = root / "scripts/build-canvas-graph.py"
     if graph_script.is_file():

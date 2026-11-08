@@ -1,18 +1,14 @@
 // 正交工作视图：使用 Canvas2D 绘制板面与折线（零 WebGL 依赖），DOM overlay 承载全部文字与交互。
 // three.module.min.js 仅由独立 3D 展示页 showcase.html 加载，工作视图冷启动立降 671KB。
-import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=35';
-import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=35';
+import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=36';
+import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=36';
+import { SAGE_LIGHT } from './theme.js?v=36';
 
 const G = window.SANBAO_GRAPH;
 const $ = sel => document.querySelector(sel);
 const stage = $('#stage'), canvas = $('#gl'), labels = $('#labels'), ctx = canvas.getContext('2d');
 
-const COLORS = {
-  board: '#f1f0e9', band: '#e7eee5', block: '#ffffff', pad: '#e3ebe2',
-  gov: '#f8f2e0', card: '#fffefb', shadow: 'rgba(27,42,36,0.07)',
-  baseline: '#2d6756', feedback: '#a8792c', plain: '#98a29a',
-  baselineDim: '#b9cfc7', feedbackDim: '#dfd0b4', plainDim: '#ced4cf',
-};
+const COLORS = SAGE_LIGHT;
 const REL_LABEL = {
   direct_reuse: '直接复用主站位',
   sub_contributor: '内部专业贡献',
