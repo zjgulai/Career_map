@@ -2,7 +2,9 @@
 
 本文让另一台电脑上的 Codex 从已确认的 C-224 决策断点继续。它是设计连续性与安全边界说明，不是 AgenticOS 运行手册、数据访问授权、来源仓库迁移指令、真实业务操作授权或产品验收证明。
 
-> 当前状态（2026-09-27）：用户决定暂不交接，已在唯一 `main` 上恢复继续执行。本文件保留 C-224 checkpoint 的历史交接快照；C-225 及后续实时状态以 `.codex/context-pack.md`、`.codex/sources.md`、`CONTEXT.md` 和画布为准，不再以本文件第 5 节的旧断点判断当前进度。
+> 最新入口提示（2026-11-08）：2026-11-04 交接包已归档至 [`deliverables/execution/sanbao-handoff-20261104/00-handoff-index.md`](deliverables/execution/sanbao-handoff-20261104/00-handoff-index.md)，三宝组织索引（2D 正交工作视图 + 3D 展示页 + 三主链镜头 + FLOW-02 只读干跑）见 [`src/orgmap/README.md`](src/orgmap/README.md)。
+>
+> 历史状态（2026-09-27）：用户决定暂不交接，已在唯一 `main` 上恢复继续执行。本文件保留 C-224 checkpoint 的历史交接快照；C-225 及后续实时状态以 `.codex/context-pack.md`、`.codex/sources.md`、`CONTEXT.md` 和画布为准，不再以本文件第 5 节的旧断点判断当前进度。
 
 ## 0. 先做发布边界核对
 

@@ -7,6 +7,7 @@
 - [内部连续讨论画布](./canvas/sanbao-identity-boundaries.html)：当前 C-376 叶页、六面审查和模块关系规则。
 - [公开设计地图](./canvas/sanbao-public-map.html)：与 GitHub Pages `/docs/index.html` 对应的公开版入口。
 - [画布 Playbook](./canvas/sanbao-canvas-playbook.md)
+- [三宝组织索引 · 2D 正交工作视图](../src/orgmap/index.html) 与 [3D 空间展示页](../src/orgmap/showcase.html)（说明见 [`../src/orgmap/README.md`](../src/orgmap/README.md)）
 
 ## 方案与规则
 
@@ -14,6 +15,7 @@
 - [3+50 名册](./strategy/sanbao-3plus50-roster.md)
 - [来源与研究台账](./research/sanbao-sources.md)
 - [Ticket 批次记录](./execution/sanbao-ticket-batch-2026-10-09.md)
+- [2026-11-04 交接包（11 份文档）](./execution/sanbao-handoff-20261104/00-handoff-index.md)（含 [FLOW-02 试点章程](./execution/sanbao-handoff-20261104/05-pilot-charter.md) 与 [paper_to_skills 著作权声明](./execution/sanbao-handoff-20261104/NOTICE-paper-to-skills.md)）
 
 ## 分类规则
 

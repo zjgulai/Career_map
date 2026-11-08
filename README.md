@@ -18,9 +18,13 @@
 
 这不是一套新的统一流程、数据 Schema、万能 Agent、总评分、权限模型或 Harness 结论。三条主链仍保留各自不可替代的判断和交接。
 
-## 浏览画布
+## 浏览画布与组织索引
 
-打开 [公开画布](docs/index.html)。画布支持拖动平移、滚轮缩放，以及点击节点查看边界说明。
+- **公开设计地图**：打开 [公开画布](docs/index.html)。
+- **三宝组织索引（设计态原型）**：
+  - [2D 正交工作视图](src/orgmap/index.html)（承担 C-032 实际视口可读性验收、53 席↔20 节点双向寻址、三条主链与 FLOW-02 八阶段干跑步进器）
+  - [3D 组织与网络空间展示页](src/orgmap/showcase.html)（1:1 办公空间、50 个程序化坐姿分身、3 个 MGT 治理铜牌、495 颗流光彗星）
+  - [架构说明与门禁命令](src/orgmap/README.md)
 
 ## 给其他项目的使用索引
 
@@ -34,6 +38,8 @@
 | 画布读图、卡片下钻、状态和验收 | [画布 Playbook](deliverables/canvas/sanbao-canvas-playbook.md) |
 | 来源、版本、用途和证据边界 | [来源台账](deliverables/research/sanbao-sources.md) |
 | 已完成、RETURN 和下一步 Tickets | [Ticket 批次记录](deliverables/execution/sanbao-ticket-batch-2026-10-09.md) |
+| 2026-11-04 交接包与 FLOW-02 试点章程 | [交接包总入口](deliverables/execution/sanbao-handoff-20261104/00-handoff-index.md) |
+| 53 席↔20 节点 Crosswalk 与 FLOW-02 前置/阶段契约 | [`configs/seat-node-crosswalk.json`](configs/seat-node-crosswalk.json) · [`configs/pilot-flow02-preconditions.json`](configs/pilot-flow02-preconditions.json) · [`configs/flow02-stage-contracts.json`](configs/flow02-stage-contracts.json) |
 | 所有结果文件的分类入口 | [交付总索引](deliverables/SANBAO-RESULTS.md) |
 
 ## 结果文件分类

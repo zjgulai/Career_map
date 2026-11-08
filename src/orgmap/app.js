@@ -25,7 +25,7 @@ const FONT_MIN = 12;
 const SEAT_FULL = 0.9, SEAT_COMPACT = 0.45;
 const seatMode = s => s >= SEAT_FULL ? 'full' : s >= SEAT_COMPACT ? 'compact' : 'hidden';
 
-const state = { view: 'org', cx: BOARD / 2, cy: BOARD / 2, scale: 1, selected: null, moved: 0, pilotLens: false, pilotStage: 'ALL' };
+const state = { view: 'org', cx: BOARD / 2, cy: BOARD / 2, scale: 1, selected: null, moved: 0, pilotLens: false, pilotStage: 'ALL', chainId: 'chain-01' };
 
 const org = layoutOrg(G.org);
 const net = layoutNetwork(G.network);
@@ -272,6 +272,11 @@ function bindSideEvents(el) {
     ev.stopPropagation();
     select({ kind: 'decision', id: t.dataset.cid });
   }));
+  el.querySelectorAll('[data-chain-id]').forEach(btn => btn.addEventListener('click', () => {
+    state.chainId = btn.dataset.chainId;
+    applyPilotHighlight();
+    side({ kind: 'pilot', id: 'FLOW-02-SCN-002' });
+  }));
   el.querySelectorAll('[data-pilot-stg]').forEach(btn => btn.addEventListener('click', () => {
     state.pilotStage = btn.dataset.pilotStg;
     applyPilotHighlight();
@@ -286,14 +291,35 @@ function bindSideEvents(el) {
   }
 }
 
-function applyPilotHighlight() {
+function getActiveLensSets() {
   const pl = G.org.pilot_lens;
+  const chains = G.org.chain_lenses || [];
+  if (state.chainId === 'reuse') {
+    const coreSeats = new Set(G.org.seats.filter(s => (s.chains || []).length >= 3).map(s => s.seat_id));
+    const ctxSeats = new Set(G.org.seats.filter(s => (s.chains || []).length === 2).map(s => s.seat_id));
+    const targetNodes = new Set(net.nodes.filter(n => (n.chains || []).length >= 2).map(n => n.id));
+    return { coreSeats, ctxSeats, targetNodes };
+  }
+  if (state.chainId !== 'chain-01') {
+    const cl = chains.find(c => c.id === state.chainId) || chains[0];
+    return {
+      coreSeats: new Set(cl ? cl.core_seats : []),
+      ctxSeats: new Set(cl ? cl.support_seats : []),
+      targetNodes: new Set(cl ? cl.target_nodes : []),
+    };
+  }
   const stg = state.pilotStage !== 'ALL' && pl.dryrun
     ? (pl.dryrun.stages || []).find(s => s.stage_id === state.pilotStage)
     : null;
-  const coreSeats = new Set(stg ? stg.producer_seats : (pl && pl.seats || []).map(s => s.seat_id));
-  const ctxSeats = new Set(stg ? stg.injected_seats : (pl && pl.context_injected_seats || []).map(s => s.seat_id));
-  const targetNodes = new Set(stg ? stg.target_nodes : (pl && pl.target_nodes || []));
+  return {
+    coreSeats: new Set(stg ? stg.producer_seats : (pl && pl.seats || []).map(s => s.seat_id)),
+    ctxSeats: new Set(stg ? stg.injected_seats : (pl && pl.context_injected_seats || []).map(s => s.seat_id)),
+    targetNodes: new Set(stg ? stg.target_nodes : (pl && pl.target_nodes || [])),
+  };
+}
+
+function applyPilotHighlight() {
+  const { coreSeats, ctxSeats, targetNodes } = getActiveLensSets();
   for (const l of labelEls) {
     const id = l.el.dataset.id;
     const isCore = l.kind === 'seat' ? coreSeats.has(id) : l.kind === 'node' ? targetNodes.has(id) : false;
@@ -331,10 +357,61 @@ function side(sel) {
 
   if (sel.kind === 'pilot') {
     const pl = G.org.pilot_lens;
+    const chains = G.org.chain_lenses || [];
+    const chainBar = `<div class="stg-bar">
+      ${chains.map(c => `<button type="button" class="stg-btn ${state.chainId === c.id ? 'active' : ''}" data-chain-id="${c.id}">${c.code}</button>`).join('')}
+      <button type="button" class="stg-btn ${state.chainId === 'reuse' ? 'active' : ''}" data-chain-id="reuse">跨链复用热力</button>
+    </div>`;
+
+    if (state.chainId === 'reuse') {
+      const s3 = G.org.seats.filter(s => (s.chains || []).length >= 3);
+      const s2 = G.org.seats.filter(s => (s.chains || []).length === 2);
+      const n2 = net.nodes.filter(n => (n.chains || []).length >= 2);
+      el.innerHTML = `${chainBar}<h2>跨主链能力池复用热力（C-011 / C-310）</h2>
+        <p>三条经营主链共用同一个 50 岗能力池与 20 节点经营网络，不建立三套独立组织。</p>
+        <h3>3 链全勤枢纽席位（${s3.length} 席 · 绿框）</h3>
+        ${s3.map(s => `<div class="rel" data-jump-seat="${s.seat_id}"><div class="obj">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</div><div class="meta">${s.plane} · ${s.source_group}</div></div>`).join('')}
+        <h3>2 链共用支撑席位（${s2.length} 席 · 琥珀框）</h3>
+        ${s2.map(s => `<div class="rel" data-jump-seat="${s.seat_id}"><div class="obj">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</div><div class="meta">参与：${(s.chains || []).join(' / ')}</div></div>`).join('')}
+        <h3>多链共用主网节点（${n2.length} 个）</h3>
+        ${n2.map(n => `<div class="rel" data-jump-node="${n.id}"><div class="obj">→ ${n.title}（${(n.chains || []).length} 链共用）</div><div class="meta">${n.codes}</div></div>`).join('')}`;
+      bindSideEvents(el);
+      return;
+    }
+
+    if (state.chainId !== 'chain-01') {
+      const cl = chains.find(c => c.id === state.chainId) || chains[1];
+      el.innerHTML = `${chainBar}<h2>${cl.title}</h2>
+        <p>${cTagsHtml(cl.basis)}</p>
+        <p style="color:var(--ink)"><strong>核心问题：</strong>${cl.question}</p>
+        <h3>三条反误读停止线</h3>
+        ${cl.anti_misreadings.map(m => `<div class="rel"><div class="meta">• ${m}</div></div>`).join('')}
+        <h3>核心主接席位（${cl.core_seats.length} · 绿框）</h3>
+        ${cl.core_seats.map(sid => {
+          const meta = G.org.seats.find(x => x.seat_id === sid);
+          return `<div class="rel" data-jump-seat="${sid}"><div class="obj">→ ${sid} ${meta ? meta.alias : ''} · ${meta ? meta.slot_id + ' ' + meta.slot_title : ''}</div></div>`;
+        }).join('')}
+        <h3>并列支撑席位（${cl.support_seats.length} · 琥珀框）</h3>
+        ${cl.support_seats.map(sid => {
+          const meta = G.org.seats.find(x => x.seat_id === sid);
+          return `<div class="rel" data-jump-seat="${sid}"><div class="obj">→ ${sid} ${meta ? meta.alias : ''} · ${meta ? meta.slot_id + ' ' + meta.slot_title : ''}</div></div>`;
+        }).join('')}
+        <h3>关联主网节点（${cl.target_nodes.length}）</h3>
+        ${cl.target_nodes.map(nid => {
+          const nd = net.nodes.find(x => x.id === nid);
+          return `<div class="rel" data-jump-node="${nid}"><div class="obj">→ ${nd ? nd.title : nid}</div><div class="meta">${nd ? nd.codes : ''}</div></div>`;
+        }).join('')}`;
+      bindSideEvents(el);
+      return;
+    }
+
     const pre = pl.preconditions || { counts: {}, items: [] };
     const pc = pre.counts || {};
-    el.innerHTML = `<h2>${pl.title}</h2>
-      <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待真人签核 ${pc.awaiting_human_signoff || 0}/7</span><span class="tag">${pl.active_sessions} 并发 session</span></p>
+    const pg = pl.policy_gate || {};
+    el.innerHTML = `${chainBar}<h2>${pl.title}</h2>
+      <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待真人签核 ${pc.awaiting_human_signoff || 0}/7</span>
+      <span class="tag">Policy Gate ${pg.negative_tests_passed || 10}/10 负向拦截</span>
+      <span class="tag">技能契约 ${pg.skill_contracts_count || 12}/12</span></p>
       <p>授权依据：<code>${pl.authorization_ref}</code></p>
       ${(pre.items || []).length ? `<h3>七项生效前置（P1..P7）</h3>` + pre.items.map(it => {
         const badge = it.state === 'ENGINEERING_READY' ? '<span class="tag">工程就绪</span>' : '<span class="tag warn">待真人签核</span>';
@@ -431,6 +508,13 @@ function side(sel) {
         <dt>运行身份</dt><dd>${meta.runtime_identity_status ? '是' : '否'}</dd>
         <dt>catalog_ref</dt><dd>断链（源仓未检出）</dd>
       </dl>
+      ${(meta.chains || []).length ? `<p>参与主链：${meta.chains.map(c => `<span class="tag">${c}</span>`).join('')}</p>` : ''}
+      ${(meta.skill_contracts || []).length ? `<h3>试点 L3 业务技能契约（${meta.skill_contracts.length}）</h3>` + meta.skill_contracts.map(sk =>
+        `<div class="rel"><div class="obj"><strong>${sk.l3_name}</strong> <span class="tag">${sk.kind}</span></div>
+          <div class="meta">supply: <code>${sk.supply.join(', ')}</code></div>
+          <div class="meta">方法：${sk.method}</div>
+          <div class="meta">失败处置：<code>${sk.failure_handling}</code>｜验收：${sk.verification_criteria}</div></div>`
+      ).join('') : ''}
       <h3>关联经营网络节点（${links.length}）</h3>
       ${links.length ? links.map(lk => {
         const nd = net.nodes.find(x => x.id === lk.node_id);

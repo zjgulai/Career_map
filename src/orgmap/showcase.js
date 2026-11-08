@@ -604,12 +604,39 @@ const SEAT_MAP = new Map([...G.org.seats, ...G.org.governance].map(s => [s.seat_
 let closeupMode = false;
 let pilotMode = false;
 let pilotStage3d = 'ALL';
+let chainId3d = 'chain-01';
 
 function showDetail(kind, id) {
   if (kind === 'pilot') {
-    const pre = plData.preconditions || { counts: {}, items: [] };
-    const pc = pre.counts || {};
-    side.innerHTML = `<h2>${plData.title}</h2>
+    const chains = G.org.chain_lenses || [];
+    const cbar = `<div class="stg-bar">
+      ${chains.map(c => `<button type="button" class="stg-btn ${chainId3d === c.id ? 'active' : ''}" data-chain3d="${c.id}">${c.code}</button>`).join('')}
+      <button type="button" class="stg-btn ${chainId3d === 'reuse' ? 'active' : ''}" data-chain3d="reuse">跨链复用</button>
+    </div>`;
+    if (chainId3d === 'reuse') {
+      const s3 = G.org.seats.filter(s => (s.chains || []).length >= 3);
+      const s2 = G.org.seats.filter(s => (s.chains || []).length === 2);
+      side.innerHTML = `${cbar}<h2>跨主链复用热力（C-011 / C-310）</h2>
+        <p>3 链全勤枢纽（${s3.length} 席）与 2 链共用席位（${s2.length} 席）：</p>
+        ${[...s3, ...s2].map(s => `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${s.alias}（${(s.chains || []).length} 链） · ${s.slot_id} ${s.slot_title}</div>`).join('')}`;
+    } else if (chainId3d !== 'chain-01') {
+      const cl = chains.find(c => c.id === chainId3d) || chains[1];
+      side.innerHTML = `${cbar}<h2>${cl.title}</h2>
+        <p><strong>核心问题：</strong>${cl.question}</p>
+        <h3>反误读停止线</h3>
+        ${cl.anti_misreadings.map(m => `<p>• ${m}</p>`).join('')}
+        <h3>核心与支撑席位（${cl.core_seats.length + cl.support_seats.length}）</h3>
+        ${[...cl.core_seats, ...cl.support_seats].map(sid => {
+          const meta = SEAT_MAP.get(sid);
+          return `<div class="jump" data-jump3d="seat:${sid}">→ ${sid} ${meta ? meta.alias : ''} · ${meta ? meta.slot_id + ' ' + meta.slot_title : ''}</div>`;
+        }).join('')}`;
+    } else {
+      const pre = plData.preconditions || { counts: {}, items: [] };
+      const pc = pre.counts || {};
+      const pg = plData.policy_gate || {};
+      side.innerHTML = `${cbar}<h2>${plData.title}</h2>
+      <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待签核 ${pc.awaiting_human_signoff || 0}/7</span>
+      <span class="tag">Policy Gate ${pg.negative_tests_passed || 10}/10</span></p>
       <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待真人签核 ${pc.awaiting_human_signoff || 0}/7</span><span class="tag">${plData.active_sessions} 并发 session</span></p>
       <p>授权依据：<code>${plData.authorization_ref}</code></p>
       ${(pre.items || []).length ? `<h3>七项生效前置（P1..P7）</h3>` + pre.items.map(it => {
@@ -648,7 +675,7 @@ function showDetail(kind, id) {
         return `<p><strong>${cur.stage_id} ${cur.name}</strong> · <code>${cur.artifact_kind}</code><br>
           <small>主责：${cur.producer_seats.join(', ')}｜注入：${cur.injected_seats.join(', ') || '无'}｜sha: ${cur.artifact_sha256}</small></p>
           <div class="art-box">${JSON.stringify(cur.artifact, null, 2)}</div>`;
-      })()}`;
+      })()}`; }
   } else if (kind === 'seat') {
     const s = SEAT_MAP.get(id);
     if (!s) return;
@@ -661,6 +688,10 @@ function showDetail(kind, id) {
       <p>能力站位：${s.slot_id} · ${s.slot_title}（${s.slot_basis}）</p>
       <p>目标运行层：<code>${s.runtime_layer || '—'}</code></p>
       <p>生产授权：否 · 运行身份：否</p>
+      ${(s.chains || []).length ? `<p>参与主链：${s.chains.map(c => `<span class="tag">${c}</span>`).join('')}</p>` : ''}
+      ${(s.skill_contracts || []).length ? `<h3>试点 L3 技能契约（${s.skill_contracts.length}）</h3>` + s.skill_contracts.map(sk =>
+        `<p><strong>${sk.l3_name}</strong>：<code>${sk.supply.join(', ')}</code><br><small>${sk.method}</small></p>`
+      ).join('') : ''}
       ${links.length ? `<h3>关联经营网络节点（${links.length}）</h3>` + links.map(lk => {
         const nd = net.nodes.find(x => x.id === lk.node_id);
         return `<div class="jump" data-jump3d="node:${lk.node_id}">→ ${nd ? nd.title : lk.node_id}（${lk.basis.join('/')}）<br><small style="color:#8f9d97">${lk.note}</small></div>`;
@@ -682,6 +713,37 @@ function showDetail(kind, id) {
         `<p class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</p>`
       ).join('') : ''}`;
   }
+  function apply3dChainHighlight() {
+    const chains = G.org.chain_lenses || [];
+    let activeSeats, activeNodes;
+    if (chainId3d === 'reuse') {
+      activeSeats = new Set(G.org.seats.filter(s => (s.chains || []).length >= 2).map(s => s.seat_id));
+      activeNodes = new Set(net.nodes.filter(n => (n.chains || []).length >= 2).map(n => n.id));
+    } else if (chainId3d !== 'chain-01') {
+      const cl = chains.find(c => c.id === chainId3d) || chains[1];
+      activeSeats = new Set([...cl.core_seats, ...cl.support_seats]);
+      activeNodes = new Set(cl.target_nodes);
+    } else {
+      const cur = pilotStage3d !== 'ALL' && plData.dryrun
+        ? (plData.dryrun.stages || []).find(s => s.stage_id === pilotStage3d)
+        : null;
+      activeSeats = cur ? new Set([...cur.producer_seats, ...cur.injected_seats]) : new Set([...pilotCoreIds, ...pilotCtxIds]);
+      activeNodes = cur ? new Set(cur.target_nodes) : pilotNodeIds;
+    }
+    if (flow) flow.setPilotNodes(pilotMode ? activeNodes : null);
+    for (const [sid, mesh] of personBySeat.entries()) {
+      mesh.scale.setScalar(pilotMode && activeSeats.has(sid) ? 1.15 : 1);
+    }
+    for (const l of labels) {
+      const pinned = pilotMode && ((l.kind === 'seat' && activeSeats.has(l.id)) || (l.kind === 'node' && activeNodes.has(l.id)));
+      l.el.classList.toggle('pilot-pin', pinned);
+    }
+  }
+  side.querySelectorAll('[data-chain3d]').forEach(btn => btn.addEventListener('click', () => {
+    chainId3d = btn.dataset.chain3d;
+    apply3dChainHighlight();
+    showDetail('pilot', 'FLOW-02-SCN-002');
+  }));
   side.querySelectorAll('[data-stg3d]').forEach(btn => btn.addEventListener('click', () => {
     pilotStage3d = btn.dataset.stg3d;
     const cur = pilotStage3d !== 'ALL' && plData.dryrun

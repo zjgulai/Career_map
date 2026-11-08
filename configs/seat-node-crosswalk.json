@@ -960,5 +960,166 @@
         "gate": "证据不足判 PARTIAL 而非 SUCCESS；未解项必须有 owner"
       }
     ]
-  }
+  },
+  "chain_lenses": [
+    {
+      "id": "chain-01",
+      "code": "01 新品经营",
+      "title": "01 新品经营 · FLOW-02 × SCN-002 只读试点镜头",
+      "basis": [
+        "C-011",
+        "C-012",
+        "C-018",
+        "C-021",
+        "C-023",
+        "C-041",
+        "C-042",
+        "C-380"
+      ],
+      "question": "一个新品机会是否值得继续投入，以及在什么明确范围内可以进入商业验证与后续接续？",
+      "anti_misreadings": [
+        "商业验证采用客户价值、兑现能力、经营可行性三维框架（C-012），不设统一总分或自动放量阈值",
+        "有限放量不自动等于持续经营已接收（C-041/C-042）",
+        "VOC 是验证镜头而非第四条主链；合成样本干跑不等于真实市场验证"
+      ],
+      "core_seats": [
+        "AGT-008",
+        "AGT-005",
+        "AGT-001",
+        "AGT-045"
+      ],
+      "support_seats": [
+        "AGT-006",
+        "AGT-007",
+        "AGT-009",
+        "AGT-010",
+        "AGT-011",
+        "AGT-012",
+        "AGT-013",
+        "AGT-035",
+        "AGT-048"
+      ],
+      "target_nodes": [
+        "consumer",
+        "business",
+        "definition",
+        "realization",
+        "verification",
+        "effectEvaluation",
+        "businessDefinitions",
+        "knowledgeStewardship"
+      ]
+    },
+    {
+      "id": "chain-02",
+      "code": "02 持续经营",
+      "title": "02 持续经营 · C-043 需求变化后的供给、渠道/触达与现金联合调整",
+      "basis": [
+        "C-011",
+        "C-043",
+        "C-044",
+        "C-045",
+        "C-046",
+        "C-047",
+        "C-048",
+        "C-049",
+        "C-312"
+      ],
+      "question": "需求变化后，供给兑现、渠道/触达条件、客户承诺与现金占用如何联动比较并按范围收尾？",
+      "anti_misreadings": [
+        "预测不是供给承诺：需求预测转成补货/采购动作须另行判断（C-044/C-312）",
+        "销量不自动等于真实需求：销量受断货、促销、渠道展示限制（C-043/C-044）",
+        "局部动作完成不自动结束整个事项：未成熟结果与未结承诺保留原责任方（C-049）"
+      ],
+      "core_seats": [
+        "AGT-016",
+        "AGT-017",
+        "AGT-021",
+        "AGT-026",
+        "AGT-041"
+      ],
+      "support_seats": [
+        "AGT-001",
+        "AGT-002",
+        "AGT-003",
+        "AGT-015",
+        "AGT-018",
+        "AGT-019",
+        "AGT-020",
+        "AGT-023",
+        "AGT-032",
+        "AGT-035",
+        "AGT-037",
+        "AGT-040",
+        "AGT-045",
+        "AGT-046"
+      ],
+      "target_nodes": [
+        "demandAnalysis",
+        "supplyReadiness",
+        "pricingPromotion",
+        "paidMedia",
+        "channelPublication",
+        "economics",
+        "effectEvaluation",
+        "dataSupply",
+        "businessDefinitions"
+      ]
+    },
+    {
+      "id": "chain-03",
+      "code": "03 新市场经营",
+      "title": "03 新市场经营 · C-314 多岗 E2E 与 C-315 德国 Amazon M5 Smart 范围化样本",
+      "basis": [
+        "C-011",
+        "C-232",
+        "C-294",
+        "C-314",
+        "C-315",
+        "C-320"
+      ],
+      "question": "进入一个新国家、区域、平台或宣称范围（如德国 Amazon.de × M5 Smart），需要先证明什么、如何控制范围化准入与履约风险？",
+      "anti_misreadings": [
+        "必须从 C-011 全景与 C-232 进入问题与范围说明开始，不能从单一平台或技能直接跳入",
+        "德国 Amazon M5 Smart 仅为单一范围化样本（公开证据闭合 2/5、部分闭合 3/5），不可外推为所有国家结论",
+        "待补四包（实机版本包、ASIN—SKU—批次交叉表、德语宣称包、RED DoC 原测试包）与 C-320 卖家只读回执未到齐前，不声称可售已核验"
+      ],
+      "core_seats": [
+        "AGT-024",
+        "AGT-044",
+        "AGT-013",
+        "AGT-028",
+        "AGT-030"
+      ],
+      "support_seats": [
+        "AGT-007",
+        "AGT-008",
+        "AGT-014",
+        "AGT-019",
+        "AGT-020",
+        "AGT-026",
+        "AGT-027",
+        "AGT-029",
+        "AGT-031",
+        "AGT-041",
+        "AGT-042",
+        "AGT-043",
+        "AGT-045",
+        "AGT-048"
+      ],
+      "target_nodes": [
+        "business",
+        "marketAccess",
+        "verification",
+        "launch",
+        "productInformation",
+        "brandPositioning",
+        "contentExpression",
+        "pricingPromotion",
+        "supplyReadiness",
+        "channelPublication",
+        "economics"
+      ]
+    }
+  ]
 }

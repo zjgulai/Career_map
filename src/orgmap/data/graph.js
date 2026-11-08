@@ -2,7 +2,7 @@
 // 重新生成：python3 -I scripts/build-canvas-graph.py
 window.SANBAO_GRAPH = {
  "schema_version": 1,
- "graph_version": "433e245e00287345",
+ "graph_version": "d2da753eb4655edc",
  "status": "draft_pending_owner_signoff",
  "counts": {
   "decisions": 377,
@@ -292,7 +292,97 @@ window.SANBAO_GRAPH = {
     "slot_title": "经营目标承接与取舍准备",
     "slot_basis": "C-300",
     "pilot_role": "resource_tradeoff_profile",
-    "node_links": []
+    "node_links": [],
+    "chains": [
+     "chain-01",
+     "chain-02"
+    ],
+    "skill_contracts": [
+     {
+      "seat_id": "AGT-001",
+      "l3_name": "经营目标拆解",
+      "kind": "direct",
+      "supply": [
+       "ecommerce-quarterly-strategy",
+       "p2s-business-scale-kpi-growth-achievement"
+      ],
+      "inputs": [
+       "strategic_direction",
+       "period_window",
+       "resource_ceiling",
+       "baseline_metrics"
+      ],
+      "method": "将给定经营方向拆解为范围化目标树，显式分离已有决定、目标解释、跨范围冲突与待决项",
+      "branches": [
+       "目标自洽 -> 输出对齐表",
+       "资源或口径冲突 -> 标记 conflict_items 并挂起待决"
+      ],
+      "output_fields": [
+       "target_tree",
+       "conflicts",
+       "unknowns",
+       "pending_decisions"
+      ],
+      "failure_handling": "缺基线或范围未定义 -> HOLD_MISSING_SCOPE",
+      "verification_criteria": "不自行制定企业方向、不审批资源"
+     },
+     {
+      "seat_id": "AGT-001",
+      "l3_name": "资源情景比较",
+      "kind": "direct",
+      "supply": [
+       "market-scenario-modeler",
+       "p2s-sc-whatif-scenario-analysis-engine"
+      ],
+      "inputs": [
+       "candidate_options",
+       "budget_cap",
+       "supply_constraints",
+       "scenario_assumptions"
+      ],
+      "method": "构建基准/上行/下行三情景矩阵与敏感性边界，比较各候选对预算和共享资源的占用",
+      "branches": [
+       "未超资源上限 -> 标记 FEASIBLE_UNDER_ASSUMPTION",
+       "互斥占用或超上限 -> 标记 RESOURCE_CONFLICT"
+      ],
+      "output_fields": [
+       "scenario_matrix",
+       "sensitivity_drivers",
+       "resource_conflicts",
+       "assumptions"
+      ],
+      "failure_handling": "缺关键假设来源 -> HOLD_UNSUPPORTED_ASSUMPTION",
+      "verification_criteria": "预测情景与实际承诺严格分开"
+     },
+     {
+      "seat_id": "AGT-001",
+      "l3_name": "月度经营复盘",
+      "kind": "direct",
+      "supply": [
+       "ecommerce-monthly-review",
+       "p2s-agentic-pnl-analyst"
+      ],
+      "inputs": [
+       "approved_targets",
+       "actual_observations",
+       "metric_definitions_ref",
+       "period"
+      ],
+      "method": "在固定口径下对照目标与实际偏差，区分已核事实、解释性假设与未结责任",
+      "branches": [
+       "口径一致 -> 输出偏差分解",
+       "口径漂移 -> 退回 AGT-045 重核"
+      ],
+      "output_fields": [
+       "variance_table",
+       "verified_facts",
+       "explanatory_hypotheses",
+       "leftover_owners"
+      ],
+      "failure_handling": "口径未冻结 -> RETURN_METRIC_DRIFT",
+      "verification_criteria": "相关性不写为因果，局部收尾不自动结束事项"
+     }
+    ]
    },
    {
     "seat_id": "AGT-002",
@@ -312,7 +402,11 @@ window.SANBAO_GRAPH = {
     "slot_title": "经营事项责任与例外说明",
     "slot_basis": "C-300",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-003",
@@ -332,7 +426,11 @@ window.SANBAO_GRAPH = {
     "slot_title": "经营结果对照与解释",
     "slot_basis": "C-300",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-004",
@@ -352,7 +450,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "组织能力供需研判",
     "slot_basis": "C-300",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-005",
@@ -372,7 +472,94 @@ window.SANBAO_GRAPH = {
     "slot_title": "经营证据与利益冲突独立复核",
     "slot_basis": "C-308",
     "pilot_role": "independent_assurance",
-    "node_links": []
+    "node_links": [],
+    "chains": [
+     "chain-01"
+    ],
+    "skill_contracts": [
+     {
+      "seat_id": "AGT-005",
+      "l3_name": "抽样审计",
+      "kind": "direct",
+      "supply": [
+       "p2s-compliance-ml-risk-scoring",
+       "p2s-tag-fairness-bias-audit"
+      ],
+      "inputs": [
+       "evidence_ledger",
+       "raw_fixture_manifest",
+       "double_coding_sample"
+      ],
+      "method": "抽检 claim 到原始 locator/sha256 的可追溯性与标签偏差，核对 DERIVED 源是否被误计为独立源",
+      "branches": [
+       "100% 溯源闭合 -> PASS_AUDIT",
+       "存在断链或夸大计数 -> RETURN_WITH_DEFECTS"
+      ],
+      "output_fields": [
+       "sample_coverage",
+       "traceability_defects",
+       "bias_findings"
+      ],
+      "failure_handling": "hash 不可重算 -> REJECT_HASH_MISMATCH",
+      "verification_criteria": "审计者与生产者必须为不同 session"
+     },
+     {
+      "seat_id": "AGT-005",
+      "l3_name": "证据复核",
+      "kind": "direct",
+      "supply": [
+       "p2s-explainable-review-adjudication",
+       "p2s-decision-audit-trail-ontology"
+      ],
+      "inputs": [
+       "decision_package",
+       "evidence_pack",
+       "independence_declaration"
+      ],
+      "method": "执行六查（provenance/completeness/timeliness/consistency/independence/inference），输出强制含 dissent 与 residual_risks 的复核决定",
+      "branches": [
+       "无硬缺陷但有受控样本限制 -> PARTIAL_ACCEPT_WITH_GAPS",
+       "自述当事实或缺反证 -> RETURN"
+      ],
+      "output_fields": [
+       "recommendation",
+       "dissent",
+       "residual_risks",
+       "overridden_by_proposer"
+      ],
+      "failure_handling": "发起人试图覆盖拒绝 -> REFUSE_OVERRIDE",
+      "verification_criteria": "dissent 与 residual_risks 永不为空"
+     },
+     {
+      "seat_id": "AGT-005",
+      "l3_name": "利益冲突检查",
+      "kind": "candidate_filled",
+      "supply": [
+       "conflict-of-interest-check"
+      ],
+      "inputs": [
+       "proposer",
+       "reviewer",
+       "contributors",
+       "reporting_to_proposer",
+       "financial_ties",
+       "prior_involvement"
+      ],
+      "method": "调用 coi_check.evaluate_coi 执行六项确定性规则，拦截自审、制作重叠、汇报线依附与自批豁免",
+      "branches": [
+       "0 冲突 -> ALLOW",
+       "HIGH 冲突无独立替补 -> REFUSE 且禁止出具 AssuranceReview"
+      ],
+      "output_fields": [
+       "declaration_id",
+       "conflicts",
+       "disposition",
+       "can_issue_assurance_review"
+      ],
+      "failure_handling": "proposer == reviewer 或缺身份 -> REFUSE",
+      "verification_criteria": "coi_check.py --selftest 4/4 通过"
+     }
+    ]
    },
    {
     "seat_id": "AGT-006",
@@ -403,7 +590,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接以 C-018/C-019 需求证据与问题地图为权威骨架"
      }
-    ]
+    ],
+    "chains": [
+     "chain-01"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-007",
@@ -433,7 +624,12 @@ window.SANBAO_GRAPH = {
       ],
       "note": "交市场机会证据与反证说明，不替 C-021 比较经营选项"
      }
-    ]
+    ],
+    "chains": [
+     "chain-01",
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-008",
@@ -462,6 +658,93 @@ window.SANBAO_GRAPH = {
        "C-021"
       ],
       "note": "交候选组合与验证路径说明，不替 C-021 做单项商业论证"
+     }
+    ],
+    "chains": [
+     "chain-01",
+     "chain-03"
+    ],
+    "skill_contracts": [
+     {
+      "seat_id": "AGT-008",
+      "l3_name": "组合取舍",
+      "kind": "direct",
+      "supply": [
+       "product-attribute-analyzer",
+       "p2s-contextual-bandits-rec"
+      ],
+      "inputs": [
+       "voc_evidence_pack",
+       "market_opportunity_pack",
+       "portfolio_constraints"
+      ],
+      "method": "围绕客户价值、兑现能力、经营可行性三维组织候选组合假设，显式保留反证与未覆盖人群",
+      "branches": [
+       "双独立源支持 -> 进入 STG-05 候选命题",
+       "单源或仅派生源 -> 保持 HYPOTHESIS_ONLY"
+      ],
+      "output_fields": [
+       "candidate_hypotheses",
+       "portfolio_role",
+       "counter_evidence",
+       "stop_conditions"
+      ],
+      "failure_handling": "无原始 locator 或混入创意资产 -> RETURN_EVIDENCE_INVALID",
+      "verification_criteria": "不设万能总分，不替有权方拍板立项"
+     },
+     {
+      "seat_id": "AGT-008",
+      "l3_name": "实验组合",
+      "kind": "direct",
+      "supply": [
+       "ab-test-setup",
+       "p2s-llm-experiment-hypothesis"
+      ],
+      "inputs": [
+       "falsifiable_hypothesis",
+       "baseline_metric",
+       "minimum_detectable_effect",
+       "guardrail_metrics"
+      ],
+      "method": "设计可证伪验证方案与至少一条替代解释（Falsification Gate），明确停止阈值",
+      "branches": [
+       "具备反证测试 -> 输出验证方案",
+       "不可证伪 -> 退回重写假设"
+      ],
+      "output_fields": [
+       "experiment_design",
+       "counter_explanation",
+       "guardrails",
+       "stop_rules"
+      ],
+      "failure_handling": "缺反证条件 -> RETURN_UNFALSIFIABLE",
+      "verification_criteria": "验证方案不等于已上线实验或真实投放授权"
+     },
+     {
+      "seat_id": "AGT-008",
+      "l3_name": "阶段投资建议",
+      "kind": "direct",
+      "supply": [
+       "product-launch-planner",
+       "p2s-real-options-product-launch-timing"
+      ],
+      "inputs": [
+       "validated_evidence_pack",
+       "resource_boundary",
+       "unresolved_risks"
+      ],
+      "method": "汇总 STG-05 决策包与 STG-08 关闭记录，按证据完备度给出 CONTINUE/TURN/STOP/PARTIAL 建议",
+      "branches": [
+       "存在未验证项或受控合成样本 -> 强制判 PARTIAL",
+       "证据完备且独立复核 ACCEPT -> 判 CONTINUE"
+      ],
+      "output_fields": [
+       "stage_recommendation",
+       "action_disposition",
+       "unresolved_items"
+      ],
+      "failure_handling": "试图在只读试点发出 ActionIntent -> FROZEN_ACTION_ATTEMPT",
+      "verification_criteria": "只读试点固定 action_disposition=NO_ACTION"
      }
     ]
    },
@@ -493,7 +776,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-023 当前阶段可验证的产品要求与约束"
      }
-    ]
+    ],
+    "chains": [
+     "chain-01"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-010",
@@ -523,7 +810,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "交体验与工业设计方案，不替 C-025 交完整实现物"
      }
-    ]
+    ],
+    "chains": [
+     "chain-01"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-011",
@@ -553,7 +844,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "C-025 中的硬件与材料专业贡献"
      }
-    ]
+    ],
+    "chains": [
+     "chain-01"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-012",
@@ -583,7 +878,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "C-025 中的软件与算法专业贡献"
      }
-    ]
+    ],
+    "chains": [
+     "chain-01"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-013",
@@ -613,7 +912,12 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-026 产品验证结论"
      }
-    ]
+    ],
+    "chains": [
+     "chain-01",
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-014",
@@ -652,7 +956,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "为 C-029 提供供应来源事实"
      }
-    ]
+    ],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-015",
@@ -682,7 +990,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "C-029 的采购条件与履约偏差来源专业"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-016",
@@ -724,7 +1036,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "为 C-029/C-045 提供补货候选与供需约束说明"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-017",
@@ -763,7 +1079,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "区分账面库存与 C-030 渠道实际可售"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-018",
@@ -793,7 +1113,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "交质量事件与纠正措施说明，不替 C-026 作完整产品验证"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-019",
@@ -823,7 +1147,12 @@ window.SANBAO_GRAPH = {
       ],
       "note": "提供跨境运输路线、ETA 区间与通关条件说明"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02",
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-020",
@@ -853,7 +1182,12 @@ window.SANBAO_GRAPH = {
       ],
       "note": "提供仓储履约与退货入仓事实说明"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02",
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-021",
@@ -873,7 +1207,11 @@ window.SANBAO_GRAPH = {
     "slot_title": "渠道经营目标与偏差诊断",
     "slot_basis": "C-304",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-022",
@@ -893,7 +1231,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "渠道商品可发现性与搜索表现诊断",
     "slot_basis": "C-304",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-023",
@@ -923,7 +1263,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "交购买旅程摩擦证据与候选改进，不替 C-038 判断效果"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-024",
@@ -962,7 +1306,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "为 C-030 提供渠道规则边界"
      }
-    ]
+    ],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-025",
@@ -982,7 +1330,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "零售与B2B合作机会资格核对",
     "slot_basis": "C-304",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-026",
@@ -1012,7 +1362,12 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-035 定价与促销"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02",
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-027",
@@ -1051,7 +1406,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "提供账号健康限制事实，不替 C-030 作可售判断"
      }
-    ]
+    ],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-028",
@@ -1081,7 +1440,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "C-033 中的本地化语境与术语适配专业贡献"
      }
-    ]
+    ],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-029",
@@ -1111,7 +1474,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-034 品牌定位与主张"
      }
-    ]
+    ],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-030",
@@ -1141,7 +1508,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-033 内容策划与表达"
      }
-    ]
+    ],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-031",
@@ -1171,7 +1542,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "C-033/BO-25 内部的素材制作与版本交付子位"
      }
-    ]
+    ],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-032",
@@ -1201,7 +1576,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-037 付费媒体投放与优化"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-033",
@@ -1221,7 +1600,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "达人与联盟合作适配与履约",
     "slot_basis": "C-306",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-034",
@@ -1241,7 +1622,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "客户阶段与留存复购触达",
     "slot_basis": "C-306",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-035",
@@ -1271,7 +1654,12 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-038 经营实验与效果评估"
      }
-    ]
+    ],
+    "chains": [
+     "chain-01",
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-036",
@@ -1291,7 +1679,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "售前问题核对与选购答复",
     "slot_basis": "C-307",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-037",
@@ -1311,7 +1701,11 @@ window.SANBAO_GRAPH = {
     "slot_title": "客户问题分诊与服务补救",
     "slot_basis": "C-307",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-038",
@@ -1350,7 +1744,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "向 C-026 回流质量与缺陷线索"
      }
-    ]
+    ],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-039",
@@ -1370,7 +1766,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "用户使用支持与教育反馈",
     "slot_basis": "C-307",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-040",
@@ -1390,7 +1788,11 @@ window.SANBAO_GRAPH = {
     "slot_title": "交易—资金事实对账与差异回位",
     "slot_basis": "C-307",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-041",
@@ -1420,7 +1822,12 @@ window.SANBAO_GRAPH = {
       ],
       "note": "提供资源与资金条件说明，不替 C-036/C-193 完成选项级经济性"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02",
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-042",
@@ -1440,7 +1847,11 @@ window.SANBAO_GRAPH = {
     "slot_title": "税务与跨境实体义务核对",
     "slot_basis": "C-308",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-043",
@@ -1460,7 +1871,11 @@ window.SANBAO_GRAPH = {
     "slot_title": "合同权利与知识产权风险核对",
     "slot_basis": "C-308",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-044",
@@ -1490,7 +1905,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接承接 C-028 产品市场准入主站位并补宣称与隐私边界"
      }
-    ]
+    ],
+    "chains": [
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-045",
@@ -1519,6 +1938,93 @@ window.SANBAO_GRAPH = {
        "C-040"
       ],
       "note": "直接复用 C-040 经营口径与对象关系治理"
+     }
+    ],
+    "chains": [
+     "chain-01",
+     "chain-02",
+     "chain-03"
+    ],
+    "skill_contracts": [
+     {
+      "seat_id": "AGT-045",
+      "l3_name": "指标契约",
+      "kind": "partial",
+      "supply": [
+       "ecommerce-business-insights",
+       "p2s-pvm-attribution-window-harmonization"
+      ],
+      "inputs": [
+       "metric_ids",
+       "source_schemas",
+       "window_spec",
+       "business_purpose"
+      ],
+      "method": "核对跨源指标分子/分母/时间窗/去重口径，标记 UNREGISTERED 或口径冲突项",
+      "branches": [
+       "口径一致且已注册 -> PASS",
+       "未注册或跨窗混用 -> FAIL_DEFINITION_GATE"
+      ],
+      "output_fields": [
+       "definition_gate_report",
+       "unregistered_metrics",
+       "window_conflicts"
+      ],
+      "failure_handling": "把 GMV 当财务收入或混用归因窗口 -> REJECT_METRIC_MIX",
+      "verification_criteria": "缺失值标 UNKNOWN，严禁静默填 0"
+     },
+     {
+      "seat_id": "AGT-045",
+      "l3_name": "账号商品映射",
+      "kind": "direct",
+      "supply": [
+       "multichannel-inventory-sync",
+       "p2s-entity-resolution-kg-dedup"
+      ],
+      "inputs": [
+       "channel_listings",
+       "sku_master",
+       "batch_revisions"
+      ],
+      "method": "核对 ASIN/商品 ID 到内部 SKU 与硬件 revision 的映射边界（注：02651 仅覆盖库存同步维度，不替代完整主数据）",
+      "branches": [
+       "映射唯一可查 -> LINKED",
+       "一对多或版本未绑定 -> HOLD_MAPPING_GAP"
+      ],
+      "output_fields": [
+       "entity_crosswalk",
+       "unmapped_entities",
+       "scope_limitation_note"
+      ],
+      "failure_handling": "无批次/版本锚点 -> HOLD_AMBIGUOUS_SKU",
+      "verification_criteria": "保留原系统 ID，不臆造跨平台合并"
+     },
+     {
+      "seat_id": "AGT-045",
+      "l3_name": "主数据治理",
+      "kind": "direct",
+      "supply": [
+       "terminology-standardizer",
+       "p2s-cross-platform-user-identity"
+      ],
+      "inputs": [
+       "domain_terms",
+       "object_relations",
+       "owner_registry"
+      ],
+      "method": "维护带业务责任方、适用范围和版本的术语与对象关系约定（C-040 / DA-01）",
+      "branches": [
+       "用途明确且有 owner -> 登记版本",
+       "跨用途静默混用 -> REJECT_SILENT_ALIAS"
+      ],
+      "output_fields": [
+       "term_contract",
+       "owner_role",
+       "applicable_scope",
+       "version"
+      ],
+      "failure_handling": "无业务责任方或试图锁定全企业唯一 ontology -> REJECT",
+      "verification_criteria": "平台维护约定，领域业务保留含义判断"
      }
     ]
    },
@@ -1550,7 +2056,11 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-039 经营数据供给与质量保障"
      }
-    ]
+    ],
+    "chains": [
+     "chain-02"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-047",
@@ -1570,7 +2080,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "系统集成与工具能力契约",
     "slot_basis": "C-309",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-048",
@@ -1609,7 +2121,12 @@ window.SANBAO_GRAPH = {
       ],
       "note": "归集 C-031 商品资料管理中的平台维护侧"
      }
-    ]
+    ],
+    "chains": [
+     "chain-01",
+     "chain-03"
+    ],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-049",
@@ -1629,7 +2146,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "Agent运行证据与可靠性",
     "slot_basis": "C-309",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    },
    {
     "seat_id": "AGT-050",
@@ -1649,7 +2168,9 @@ window.SANBAO_GRAPH = {
     "slot_title": "身份、权限与安全访问边界",
     "slot_basis": "C-308",
     "pilot_role": null,
-    "node_links": []
+    "node_links": [],
+    "chains": [],
+    "skill_contracts": []
    }
   ],
   "governance": [
@@ -2240,8 +2761,173 @@ window.SANBAO_GRAPH = {
       }
      }
     ]
+   },
+   "policy_gate": {
+    "negative_tests_passed": 10,
+    "skill_contracts_count": 12
    }
   },
+  "chain_lenses": [
+   {
+    "id": "chain-01",
+    "code": "01 新品经营",
+    "title": "01 新品经营 · FLOW-02 × SCN-002 只读试点镜头",
+    "basis": [
+     "C-011",
+     "C-012",
+     "C-018",
+     "C-021",
+     "C-023",
+     "C-041",
+     "C-042",
+     "C-380"
+    ],
+    "question": "一个新品机会是否值得继续投入，以及在什么明确范围内可以进入商业验证与后续接续？",
+    "anti_misreadings": [
+     "商业验证采用客户价值、兑现能力、经营可行性三维框架（C-012），不设统一总分或自动放量阈值",
+     "有限放量不自动等于持续经营已接收（C-041/C-042）",
+     "VOC 是验证镜头而非第四条主链；合成样本干跑不等于真实市场验证"
+    ],
+    "core_seats": [
+     "AGT-008",
+     "AGT-005",
+     "AGT-001",
+     "AGT-045"
+    ],
+    "support_seats": [
+     "AGT-006",
+     "AGT-007",
+     "AGT-009",
+     "AGT-010",
+     "AGT-011",
+     "AGT-012",
+     "AGT-013",
+     "AGT-035",
+     "AGT-048"
+    ],
+    "target_nodes": [
+     "consumer",
+     "business",
+     "definition",
+     "realization",
+     "verification",
+     "effectEvaluation",
+     "businessDefinitions",
+     "knowledgeStewardship"
+    ]
+   },
+   {
+    "id": "chain-02",
+    "code": "02 持续经营",
+    "title": "02 持续经营 · C-043 需求变化后的供给、渠道/触达与现金联合调整",
+    "basis": [
+     "C-011",
+     "C-043",
+     "C-044",
+     "C-045",
+     "C-046",
+     "C-047",
+     "C-048",
+     "C-049",
+     "C-312"
+    ],
+    "question": "需求变化后，供给兑现、渠道/触达条件、客户承诺与现金占用如何联动比较并按范围收尾？",
+    "anti_misreadings": [
+     "预测不是供给承诺：需求预测转成补货/采购动作须另行判断（C-044/C-312）",
+     "销量不自动等于真实需求：销量受断货、促销、渠道展示限制（C-043/C-044）",
+     "局部动作完成不自动结束整个事项：未成熟结果与未结承诺保留原责任方（C-049）"
+    ],
+    "core_seats": [
+     "AGT-016",
+     "AGT-017",
+     "AGT-021",
+     "AGT-026",
+     "AGT-041"
+    ],
+    "support_seats": [
+     "AGT-001",
+     "AGT-002",
+     "AGT-003",
+     "AGT-015",
+     "AGT-018",
+     "AGT-019",
+     "AGT-020",
+     "AGT-023",
+     "AGT-032",
+     "AGT-035",
+     "AGT-037",
+     "AGT-040",
+     "AGT-045",
+     "AGT-046"
+    ],
+    "target_nodes": [
+     "demandAnalysis",
+     "supplyReadiness",
+     "pricingPromotion",
+     "paidMedia",
+     "channelPublication",
+     "economics",
+     "effectEvaluation",
+     "dataSupply",
+     "businessDefinitions"
+    ]
+   },
+   {
+    "id": "chain-03",
+    "code": "03 新市场经营",
+    "title": "03 新市场经营 · C-314 多岗 E2E 与 C-315 德国 Amazon M5 Smart 范围化样本",
+    "basis": [
+     "C-011",
+     "C-232",
+     "C-294",
+     "C-314",
+     "C-315",
+     "C-320"
+    ],
+    "question": "进入一个新国家、区域、平台或宣称范围（如德国 Amazon.de × M5 Smart），需要先证明什么、如何控制范围化准入与履约风险？",
+    "anti_misreadings": [
+     "必须从 C-011 全景与 C-232 进入问题与范围说明开始，不能从单一平台或技能直接跳入",
+     "德国 Amazon M5 Smart 仅为单一范围化样本（公开证据闭合 2/5、部分闭合 3/5），不可外推为所有国家结论",
+     "待补四包（实机版本包、ASIN—SKU—批次交叉表、德语宣称包、RED DoC 原测试包）与 C-320 卖家只读回执未到齐前，不声称可售已核验"
+    ],
+    "core_seats": [
+     "AGT-024",
+     "AGT-044",
+     "AGT-013",
+     "AGT-028",
+     "AGT-030"
+    ],
+    "support_seats": [
+     "AGT-007",
+     "AGT-008",
+     "AGT-014",
+     "AGT-019",
+     "AGT-020",
+     "AGT-026",
+     "AGT-027",
+     "AGT-029",
+     "AGT-031",
+     "AGT-041",
+     "AGT-042",
+     "AGT-043",
+     "AGT-045",
+     "AGT-048"
+    ],
+    "target_nodes": [
+     "business",
+     "marketAccess",
+     "verification",
+     "launch",
+     "productInformation",
+     "brandPositioning",
+     "contentExpression",
+     "pricingPromotion",
+     "supplyReadiness",
+     "channelPublication",
+     "economics"
+    ]
+   }
+  ],
   "registry_meta": {
    "version": "1.0.0-draft",
    "status": "draft_pending_owner_signoff",
@@ -2324,6 +3010,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-034 品牌定位与主张"
      }
+    ],
+    "chains": [
+     "chain-03"
     ]
    },
    {
@@ -2405,6 +3094,10 @@ window.SANBAO_GRAPH = {
       ],
       "note": "交候选组合与验证路径说明，不替 C-021 做单项商业论证"
      }
+    ],
+    "chains": [
+     "chain-01",
+     "chain-03"
     ]
    },
    {
@@ -2463,6 +3156,10 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-040 经营口径与对象关系治理"
      }
+    ],
+    "chains": [
+     "chain-01",
+     "chain-02"
     ]
    },
    {
@@ -2559,6 +3256,10 @@ window.SANBAO_GRAPH = {
       ],
       "note": "提供账号健康限制事实，不替 C-030 作可售判断"
      }
+    ],
+    "chains": [
+     "chain-02",
+     "chain-03"
     ]
    },
    {
@@ -2641,6 +3342,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "向 C-018 回流体验问题簇与改进证据"
      }
+    ],
+    "chains": [
+     "chain-01"
     ]
    },
    {
@@ -2736,6 +3440,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "C-033/BO-25 内部的素材制作与版本交付子位"
      }
+    ],
+    "chains": [
+     "chain-03"
     ]
    },
    {
@@ -2795,6 +3502,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-039 经营数据供给与质量保障"
      }
+    ],
+    "chains": [
+     "chain-02"
     ]
    },
    {
@@ -2861,6 +3571,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-023 当前阶段可验证的产品要求与约束"
      }
+    ],
+    "chains": [
+     "chain-01"
     ]
    },
    {
@@ -2916,6 +3629,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "只读引用 C-044 需求情景，不另做需求预测"
      }
+    ],
+    "chains": [
+     "chain-02"
     ]
    },
    {
@@ -2978,6 +3694,10 @@ window.SANBAO_GRAPH = {
       ],
       "note": "提供资源与资金条件说明，不替 C-036/C-193 完成选项级经济性"
      }
+    ],
+    "chains": [
+     "chain-02",
+     "chain-03"
     ]
    },
    {
@@ -3053,6 +3773,10 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-038 经营实验与效果评估"
      }
+    ],
+    "chains": [
+     "chain-01",
+     "chain-02"
     ]
    },
    {
@@ -3100,6 +3824,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-051 经营知识整理与维护"
      }
+    ],
+    "chains": [
+     "chain-01"
     ]
    },
    {
@@ -3166,6 +3893,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "核对候选渠道规则与运营适配证据，不替 C-027 制定上市方案"
      }
+    ],
+    "chains": [
+     "chain-03"
     ]
    },
    {
@@ -3247,6 +3977,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接承接 C-028 产品市场准入主站位并补宣称与隐私边界"
      }
+    ],
+    "chains": [
+     "chain-03"
     ]
    },
    {
@@ -3308,6 +4041,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-037 付费媒体投放与优化"
      }
+    ],
+    "chains": [
+     "chain-02"
     ]
    },
    {
@@ -3371,6 +4107,10 @@ window.SANBAO_GRAPH = {
       ],
       "note": "直接复用 C-035 定价与促销"
      }
+    ],
+    "chains": [
+     "chain-02",
+     "chain-03"
     ]
    },
    {
@@ -3437,6 +4177,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "归集 C-031 商品资料管理中的平台维护侧"
      }
+    ],
+    "chains": [
+     "chain-03"
     ]
    },
    {
@@ -3548,6 +4291,9 @@ window.SANBAO_GRAPH = {
       ],
       "note": "为 C-025 提供 OEM 供应商能力与风险事实"
      }
+    ],
+    "chains": [
+     "chain-01"
     ]
    },
    {
@@ -3691,6 +4437,10 @@ window.SANBAO_GRAPH = {
       ],
       "note": "提供仓储履约与退货入仓事实说明"
      }
+    ],
+    "chains": [
+     "chain-02",
+     "chain-03"
     ]
    },
    {
@@ -3787,6 +4537,10 @@ window.SANBAO_GRAPH = {
       ],
       "note": "向 C-026 回流质量与缺陷线索"
      }
+    ],
+    "chains": [
+     "chain-01",
+     "chain-03"
     ]
    }
   ],

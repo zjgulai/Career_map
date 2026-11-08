@@ -34,6 +34,7 @@ TRACKED_ROSTER = ROOT / "deliverables/strategy/sanbao-3plus50-roster.md"
 CROSSWALK = ROOT / "configs/seat-node-crosswalk.json"
 PRECONDITIONS = ROOT / "configs/pilot-flow02-preconditions.json"
 STAGE_CONTRACTS = ROOT / "configs/flow02-stage-contracts.json"
+SKILL_CONTRACTS = ROOT / "configs/pilot-4seat-skill-contracts.json"
 CARDS_DIR = ROOT / ".superpowers/brainstorm/38196-1789923100/content"
 SNAPSHOT = ROOT / "src/orgmap/sources/source-snapshot.json"
 OUTPUT = ROOT / "src/orgmap/data/graph.js"
@@ -331,7 +332,18 @@ def load_or_sync_sources(write_snapshot: bool) -> tuple[list[dict], list[dict], 
         h.update(PRECONDITIONS.read_bytes())
     if STAGE_CONTRACTS.is_file():
         h.update(STAGE_CONTRACTS.read_bytes())
+    if SKILL_CONTRACTS.is_file():
+        h.update(SKILL_CONTRACTS.read_bytes())
     return decisions, cards, nodes, relations, seat_data, h.hexdigest()[:16]
+
+
+def collect_policy_and_skills() -> dict:
+    script = ROOT / "scripts/check-readonly-policy-gate.py"
+    if not script.is_file() or not SKILL_CONTRACTS.is_file():
+        return {}
+    res = subprocess.run([sys.executable, "-I", str(script), "--json"],
+                         cwd=ROOT, capture_output=True, text=True, check=True)
+    return json.loads(res.stdout)
 
 
 def collect_pilot_dryrun() -> dict:
@@ -394,8 +406,30 @@ def build(write_snapshot: bool = False) -> dict:
                 "relation": lk.get("relation", ""), "basis": lk.get("basis", []),
                 "note": lk.get("note", ""),
             })
+    chain_lenses = seat_data["crosswalk"].get("chain_lenses", [])
+    policy_skills = collect_policy_and_skills()
+    skills_by_seat: dict[str, list[dict]] = {}
+    for sk in policy_skills.get("skills", []):
+        skills_by_seat.setdefault(sk["seat_id"], []).append(sk)
+
+    seat_chains: dict[str, list[str]] = {}
+    node_chains: dict[str, list[str]] = {}
+    for cl in chain_lenses:
+        cid = cl["id"]
+        for sid in cl.get("core_seats", []) + cl.get("support_seats", []):
+            if cid not in seat_chains.setdefault(sid, []):
+                seat_chains[sid].append(cid)
+        for nid in cl.get("target_nodes", []):
+            if cid not in node_chains.setdefault(nid, []):
+                node_chains[nid].append(cid)
+
+    for s_row in seat_data["seats"]:
+        s_row["chains"] = seat_chains.get(s_row["seat_id"], [])
+        s_row["skill_contracts"] = skills_by_seat.get(s_row["seat_id"], [])
+
     for n in nodes:
         n["seat_links"] = node_seat_links.get(n["id"], [])
+        n["chains"] = node_chains.get(n["id"], [])
     counts = {"decisions": len(decisions), "cards": len(cards),
               "graph_cards": sum(1 for c in cards if c["node_count"] or c["relation_count"]),
               "nodes": len(nodes), "relations": len(resolved),
@@ -419,7 +453,8 @@ def build(write_snapshot: bool = False) -> dict:
         "counts": counts,
         "org": {"level1": level1, "level2": level2,
                 "seats": seat_data["seats"], "governance": seat_data["governance"],
-                "pilot_lens": {**(seat_data["crosswalk"].get("pilot_lens") or {}), "preconditions": collect_pilot_preconditions(), "dryrun": collect_pilot_dryrun()},
+                "pilot_lens": {**(seat_data["crosswalk"].get("pilot_lens") or {}), "preconditions": collect_pilot_preconditions(), "dryrun": collect_pilot_dryrun(), "policy_gate": {"negative_tests_passed": policy_skills.get("negative_tests_passed", 0), "skill_contracts_count": policy_skills.get("skill_contracts_count", 0)}},
+                "chain_lenses": chain_lenses,
                 "registry_meta": seat_data["meta"]},
         "network": {"nodes": nodes, "relations": resolved,
                     "unresolved_relations": unresolved},

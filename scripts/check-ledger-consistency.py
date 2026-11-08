@@ -66,6 +66,7 @@ ABS_PATH_FILES = (
     "src/orgmap/sources/source-snapshot.json",
     "configs/pilot-flow02-preconditions.json",
     "configs/flow02-stage-contracts.json",
+    "configs/pilot-4seat-skill-contracts.json",
     "CONTEXT.md",
     ".codex/context-pack.md",
     ".codex/product-responsibility-research.md",
@@ -336,6 +337,14 @@ def collect(root: Path) -> list[str]:
                               cwd=root, capture_output=True, text=True)
         if dres.returncode != 0:
             failures.append(f"FLOW-02 八阶段干跑自检失败：{(dres.stderr or dres.stdout).strip()}")
+
+    # 7c. FLOW-02 只读 Policy Gate 10 类负向测试与四席 12 技能合同门禁
+    pg_script = root / "scripts/check-readonly-policy-gate.py"
+    if pg_script.is_file():
+        pgres = subprocess.run([sys.executable, "-I", str(pg_script), "--selftest"],
+                               cwd=root, capture_output=True, text=True)
+        if pgres.returncode != 0:
+            failures.append(f"FLOW-02 只读 Policy Gate 自检失败：{(pgres.stderr or pgres.stdout).strip()}")
 
     # 8. orgmap graph.js 新鲜度门禁
     graph_script = root / "scripts/build-canvas-graph.py"

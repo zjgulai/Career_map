@@ -100,3 +100,14 @@ python3 -m http.server 8765 --bind 127.0.0.1
 - **批次 11（单 Case 离线只读 3 次重放干跑与 2D/3D 阶段步进器）**：
   - 基于受控合成样本 `b01_trial_01/02` 运行 `CASE-FLOW02-SCN002-DRYRUN-001`，3/3 重放结果逐位一致，生成 9 条 `append-only` hash 链审计事件，并在 `STG-08` 因存在未验证项诚实收口为 `decision=PARTIAL` + `action_disposition=NO_ACTION`；
   - 2D 工作视图与 3D 展示页的「FLOW-02 试点镜头」侧栏新增 `STG-01..STG-08` 阶段回放步进器，点击任一阶段实时高亮该阶段的主责席位、注入席位、目标节点并展开产物 JSON。
+
+## 8. 批次 12–14 · 三主链与跨链复用热力镜头、Policy Gate 10 类负向测试、入口挂载
+
+- **批次 12（三条主链 + 跨链复用热力镜头）**：
+  - `configs/seat-node-crosswalk.json` 新增 `chain_lenses`，完整覆盖 `01 新品经营`、`02 持续经营（C-043..C-049）`、`03 新市场经营（C-314/C-315）` 三条价值创造主链及其核心问题与反误读停止线；
+  - 2D 工作视图与 3D 展示页的「三主链 / 试点镜头」侧栏支持一键切换 **`01 新品经营 | 02 持续经营 | 03 新市场经营 | 跨链复用热力`**，直观展示 3 链全勤枢纽席位（5 席）与 2 链共用支撑席位（8 席）。
+- **批次 13（FLOW-02 只读 Policy Gate 10 类负向测试与四席 12 项技能契约）**：
+  - `configs/pilot-4seat-skill-contracts.json`：固化四席（`AGT-001/008/005/045`）12 项 L3 业务技能的输入、方法、分支、输出字段、失败处置与验收判据，并在席位详情侧栏直接展示；
+  - `scripts/check-readonly-policy-gate.py --selftest`：验证 12/12 技能契约完整性与 10/10 只读负向越界拦截测试全绿，已接入 `check-ledger-consistency.py`。
+- **批次 14（总入口索引挂载）**：
+  - `README.md`、`deliverables/SANBAO-RESULTS.md`、`deliverables/README.md`、`HANDOFF.md` 已全部挂载 `src/orgmap/` 与 `sanbao-handoff-20261104` 入口。

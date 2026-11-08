@@ -7,7 +7,7 @@
 | `canvas/` | 内部画布、公开地图副本、画布 Playbook | [SANBAO-RESULTS.md](./SANBAO-RESULTS.md) |
 | `strategy/` | 三宝完整方案、3+50 数字分身名册 | [三宝完整方案](./strategy/sanbao-canvas-complete-plan.md) |
 | `research/` | 来源台账、外部研究和证据边界 | [来源台账](./research/sanbao-sources.md) |
-| `execution/` | Tickets、批次执行和验收记录 | [Ticket 批次记录](./execution/sanbao-ticket-batch-2026-10-09.md) |
+| `execution/` | Tickets、批次执行、2026-11-04 交接包和验收记录 | [Ticket 批次记录](./execution/sanbao-ticket-batch-2026-10-09.md) · [交接包入口](./execution/sanbao-handoff-20261104/00-handoff-index.md) |
 
 ## 维护规则
 
