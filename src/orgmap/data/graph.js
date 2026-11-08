@@ -2,7 +2,7 @@
 // 重新生成：python3 -I scripts/build-canvas-graph.py
 window.SANBAO_GRAPH = {
  "schema_version": 1,
- "graph_version": "b750340e2be2ef3d",
+ "graph_version": "64a6c2b49dde3426",
  "status": "draft_pending_owner_signoff",
  "counts": {
   "decisions": 377,
@@ -1863,7 +1863,67 @@ window.SANBAO_GRAPH = {
      "artifact": "ART-CASE-CLOSURE",
      "gate": "证据不足判 PARTIAL 而非 SUCCESS；未解项必须有 owner"
     }
-   ]
+   ],
+   "preconditions": {
+    "overall": "ENGINEERING_READY_AWAITING_SIGNOFF",
+    "counts": {
+     "total": 7,
+     "engineering_ready": 4,
+     "awaiting_human_signoff": 3,
+     "failed": 0
+    },
+    "items": [
+     {
+      "id": "P1",
+      "title": "席位注册表 53 行与 runtime_layer",
+      "state": "ENGINEERING_READY",
+      "detail": "53/53 必填字段非空，46 席显式 unassigned，4 席试点层与 3 席 T4 规则包已绑定",
+      "errors": []
+     },
+     {
+      "id": "P2",
+      "title": "只读覆盖层（50 AGT preset + 3 MGT rule pack）",
+      "state": "ENGINEERING_READY",
+      "detail": "50/50 AGT preset (agt-NNN) can_emit_action_intent=false + 3/3 MGT rule pack = 53/53 覆盖",
+      "errors": []
+     },
+     {
+      "id": "P3",
+      "title": "离线证据包 manifest（sha256 + row_count + 独立源）",
+      "state": "AWAITING_HUMAN_SIGNOFF",
+      "detail": "2 个独立源（42 行 + 108 行）15 字段、sha256 与 row_count 校验全绿（受控合成样本；待指定真实品类数据 owner）",
+      "errors": []
+     },
+     {
+      "id": "P4",
+      "title": "layer_0 具名人类 owner 与替补",
+      "state": "AWAITING_HUMAN_SIGNOFF",
+      "detail": "layer_0 六个责任槽位与 SLA 已定义，6/6 待真人落名",
+      "errors": []
+     },
+     {
+      "id": "P5",
+      "title": "只读访问策略（read-policy-flow-02）",
+      "state": "ENGINEERING_READY",
+      "detail": "deny-by-default、字段白名单/全局黑名单、TTL 24h、并发=2、14 字段 hash_chain 审计已就绪",
+      "errors": []
+     },
+     {
+      "id": "P6",
+      "title": "DSH 目标基座与构建 hash 冻结",
+      "state": "AWAITING_HUMAN_SIGNOFF",
+      "detail": "目标包与 preset_schema 已锁定；desktop/harness/compiler 三个构建 hash 待宿主环境冻结",
+      "errors": []
+     },
+     {
+      "id": "P7",
+      "title": "Risk Interrupt 风险中断分级与 SLA 通道",
+      "state": "ENGINEERING_READY",
+      "detail": "SEV-1(15m)/SEV-2(2h)/SEV-3(24h) 分级、触发域与冻结动作已完备（on-call 随前置 #4 落名）",
+      "errors": []
+     }
+    ]
+   }
   },
   "registry_meta": {
    "version": "1.0.0-draft",

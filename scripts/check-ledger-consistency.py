@@ -64,6 +64,7 @@ ABS_PATH_FILES = (
     "src/orgmap/README.md",
     "src/orgmap/data/graph.js",
     "src/orgmap/sources/source-snapshot.json",
+    "configs/pilot-flow02-preconditions.json",
 )
 
 # 记录历史扫描主机的文档：里面的绝对路径是历史事实，不要求在本机存在。
@@ -282,7 +283,15 @@ def collect(root: Path) -> list[str]:
     except (OSError, subprocess.CalledProcessError) as exc:
         failures.append(f"git ls-files 失败：{exc}")
 
-    # 7. orgmap graph.js 新鲜度门禁
+    # 7. FLOW-02 试点前置工程完整性门禁
+    pilot_script = root / "scripts/check-pilot-preconditions.py"
+    if pilot_script.is_file():
+        pres = subprocess.run([sys.executable, "-I", str(pilot_script)],
+                              cwd=root, capture_output=True, text=True)
+        if pres.returncode != 0:
+            failures.append(f"FLOW-02 试点前置工程校验失败：{(pres.stderr or pres.stdout).strip()}")
+
+    # 8. orgmap graph.js 新鲜度门禁
     graph_script = root / "scripts/build-canvas-graph.py"
     if graph_script.is_file():
         res = subprocess.run([sys.executable, "-I", str(graph_script), "--check"],

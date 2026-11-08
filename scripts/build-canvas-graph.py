@@ -20,6 +20,7 @@ import argparse
 import hashlib
 import json
 import re
+import subprocess
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -31,6 +32,7 @@ SEAT_REGISTRY = ROOT / ".codex/pilot/seat-registry.json"
 ROSTER = ROOT / ".codex/3plus50-roster.md"
 TRACKED_ROSTER = ROOT / "deliverables/strategy/sanbao-3plus50-roster.md"
 CROSSWALK = ROOT / "configs/seat-node-crosswalk.json"
+PRECONDITIONS = ROOT / "configs/pilot-flow02-preconditions.json"
 CARDS_DIR = ROOT / ".superpowers/brainstorm/38196-1789923100/content"
 SNAPSHOT = ROOT / "src/orgmap/sources/source-snapshot.json"
 OUTPUT = ROOT / "src/orgmap/data/graph.js"
@@ -324,7 +326,18 @@ def load_or_sync_sources(write_snapshot: bool) -> tuple[list[dict], list[dict], 
     h = hashlib.sha256()
     h.update(raw_fp.encode())
     h.update(CROSSWALK.read_bytes())
+    if PRECONDITIONS.is_file():
+        h.update(PRECONDITIONS.read_bytes())
     return decisions, cards, nodes, relations, seat_data, h.hexdigest()[:16]
+
+
+def collect_pilot_preconditions() -> dict:
+    script = ROOT / "scripts/check-pilot-preconditions.py"
+    if not script.is_file() or not PRECONDITIONS.is_file():
+        return {}
+    res = subprocess.run([sys.executable, "-I", str(script), "--json"],
+                         cwd=ROOT, capture_output=True, text=True, check=True)
+    return json.loads(res.stdout)
 
 
 def build(write_snapshot: bool = False) -> dict:
@@ -394,7 +407,7 @@ def build(write_snapshot: bool = False) -> dict:
         "counts": counts,
         "org": {"level1": level1, "level2": level2,
                 "seats": seat_data["seats"], "governance": seat_data["governance"],
-                "pilot_lens": seat_data["crosswalk"].get("pilot_lens"),
+                "pilot_lens": {**(seat_data["crosswalk"].get("pilot_lens") or {}), "preconditions": collect_pilot_preconditions()},
                 "registry_meta": seat_data["meta"]},
         "network": {"nodes": nodes, "relations": resolved,
                     "unresolved_relations": unresolved},

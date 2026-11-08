@@ -80,3 +80,10 @@ python3 -m http.server 8765 --bind 127.0.0.1
   - `skill-library/candidates/conflict_of_interest_check/`：新增 `AGT-005` 独立复核利益冲突检查候选（`SKILL.md` + `coi_check.py`，`--selftest` 4/4 通过）；
   - `skill-library/skills/04081-product-launch-planner/SKILL.md`：修正 `disable-model-invocation: true`；
   - `.codex/pilot/seat-registry.json` 与 `.codex/pilot/read-only-overlay.json`：落实 C-01..C-04（53/53 `runtime_layer` 与 `human_owner_ref=PENDING`、50/50 `preset_id=agt-NNN`）。
+
+## 6. 批次 8 · FLOW-02 试点七项生效前置工程闭环与门禁
+
+- `configs/pilot-flow02-preconditions.json`：定义《FLOW-02 × SCN-002 只读试点限定授权决定》§4 的全部 **7 项生效前置**（`P1..P7`）：
+  - **工程已就绪（4/7）**：`P1` 席位注册表 53 行与 `runtime_layer`（46 席 `unassigned`）、`P2` 只读覆盖层（50 AGT `agt-NNN` + 3 MGT rule pack = 53/53 覆盖且 `can_emit_action_intent=false`）、`P5` 只读访问策略（`deny-by-default` + 14 字段 `hash_chain` 审计）、`P7` Risk Interrupt 风险中断通道（`SEV-1(15m)/SEV-2(2h)/SEV-3(24h)` 分级与冻结规则）；
+  - **工程结构已就绪、待真人签核/宿主冻结（3/7，严禁代填）**：`P3` 离线证据包 manifest（已对仓库内 `b01_trial_01/02` 两个独立源共 42+108 行完成 15 字段、`sha256` 与 `row_count` 确定性校验，待真人指定真实品类数据 owner）、`P4` `layer_0` 6 个具名人类 owner 与替补槽位、`P6` DSH 宿主构建三个 hash（`desktop/harness/compiler`）。
+- `scripts/check-pilot-preconditions.py`：7 项前置确定性校验器（`--selftest` 8/8 负向与正向断言通过），已接入 `scripts/check-ledger-consistency.py` 统一门禁与 `build-canvas-graph.py`，并在 2D 工作视图与 3D 展示页的「FLOW-02 试点镜头」侧栏实时展示 `P1..P7` 状态。

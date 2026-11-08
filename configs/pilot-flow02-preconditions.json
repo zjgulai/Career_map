@@ -1,0 +1,173 @@
+{
+  "artifact_kind": "sanbao_flow02_pilot_preconditions_ledger",
+  "schema_version": 1,
+  "status": "draft_engineering_ready_awaiting_human_signoff",
+  "scope": {
+    "flow": "FLOW-02",
+    "scenario": "SCN-002",
+    "business_stage": "P1_evidence_intake_and_P2_opportunity_thesis",
+    "action_surface": "READ_ONLY"
+  },
+  "authorization_ref": ".codex/sanbao-pilot-authorization-flow02-scn002-20261104.md",
+  "charter_ref": "deliverables/execution/sanbao-handoff-20261104/05-pilot-charter.md",
+  "offline_evidence_manifest": {
+    "manifest_version": "1.0.0-draft",
+    "sample_nature": "synthetic_controlled_fixture_not_live_business_data",
+    "category": "wearable_breast_pump",
+    "sources": [
+      {
+        "source_id": "SRC-OFFLINE-B01-D1-VOC",
+        "source_type": "PRIMARY",
+        "parent_source_ids": [],
+        "dataset_path": "skill-library/fixtures/b01_trial_01_wearable_pump.json",
+        "sha256": "b7cd3cb55111fba47db6daedf68388f4e2d093f4c9e237d1c29528615dbd20fb",
+        "version": "B01-TRIAL-01",
+        "collected_at": "2026-09-23",
+        "window_start": "2026-01-01",
+        "window_end": "2026-09-23",
+        "row_count": 42,
+        "field_list": [
+          "id",
+          "rating",
+          "submitted_on",
+          "language",
+          "text",
+          "query_id",
+          "month",
+          "query",
+          "volume_proxy",
+          "click_proxy"
+        ],
+        "classification": "PUBLIC",
+        "license": "internal-synthetic-fixture",
+        "owner": "PENDING_HUMAN_DATA_OWNER",
+        "freshness_days": 46
+      },
+      {
+        "source_id": "SRC-OFFLINE-B01-D5-RETEST",
+        "source_type": "PRIMARY",
+        "parent_source_ids": [],
+        "dataset_path": "skill-library/fixtures/b01_trial_02_candidate_retest.json",
+        "sha256": "1fca38171030b30828d145d8a69798fd0cf564c6f707da5041c6c058d3c9947a",
+        "version": "B01-TRIAL-02",
+        "collected_at": "2026-09-23",
+        "window_start": "2026-01-01",
+        "window_end": "2026-09-23",
+        "row_count": 108,
+        "field_list": [
+          "id",
+          "rating",
+          "submitted_on",
+          "language",
+          "text",
+          "expected_tuples",
+          "query_id",
+          "month",
+          "query",
+          "volume_proxy",
+          "click_proxy",
+          "expected_intent",
+          "expected_sentiment"
+        ],
+        "classification": "PUBLIC",
+        "license": "internal-synthetic-fixture",
+        "owner": "PENDING_HUMAN_DATA_OWNER",
+        "freshness_days": 46
+      }
+    ]
+  },
+  "layer_0_human_owners": {
+    "note": "C-383：human_owner_ref 登记在 layer_0，不生成 seat 行、不进 53 计数。必须由真人所有者填入真实姓名与替补后方可转为 READY。",
+    "slots": [
+      {
+        "slot": "MGT-001",
+        "role": "CEO 决策权规则 owner",
+        "primary": "PENDING",
+        "backup": "PENDING",
+        "escalation_sla_hours": 24
+      },
+      {
+        "slot": "MGT-002",
+        "role": "CGO 增长与资源边界 owner",
+        "primary": "PENDING",
+        "backup": "PENDING",
+        "escalation_sla_hours": 24
+      },
+      {
+        "slot": "MGT-003",
+        "role": "CGOv 治理边界与重大例外 owner",
+        "primary": "PENDING",
+        "backup": "PENDING",
+        "escalation_sla_hours": 12
+      },
+      {
+        "slot": "AGT-008-ACCEPTANCE",
+        "role": "FLOW-02 Lead 产物验收 owner",
+        "primary": "PENDING",
+        "backup": "PENDING",
+        "escalation_sla_hours": 24
+      },
+      {
+        "slot": "AGT-005-ACCEPTANCE",
+        "role": "STG-06 独立复核验收 owner",
+        "primary": "PENDING",
+        "backup": "PENDING",
+        "escalation_sla_hours": 12
+      },
+      {
+        "slot": "OFFLINE-DATA-OWNER",
+        "role": "离线证据包合规与脱敏签核 owner",
+        "primary": "PENDING",
+        "backup": "PENDING",
+        "escalation_sla_hours": 24
+      }
+    ]
+  },
+  "target_host_pin": {
+    "note": "C-381：目标基座版本已确认，但三个构建产物 commit/tree hash 须在宿主环境构建冻结时填入，严禁伪造。",
+    "target_package": "@deepseek-ai/dsh",
+    "preset_schema": "@deepseek-ai/dsh-agent-preset",
+    "desktop_hash": "PENDING_HOST_FREEZE",
+    "harness_hash": "PENDING_HOST_FREEZE",
+    "compiler_hash": "PENDING_HOST_FREEZE"
+  },
+  "risk_interrupt_channel": {
+    "note": "C-386 / 试点章程 §6 #7：STG-04 发现 safety / quality / account 风险时的中断分级与 SLA 规则已完备；具名 on-call 接收人待真人落名。",
+    "default_action_on_trigger": "FREEZE_AFFECTED_SCOPE_AND_EMIT_PROTECTIVE_RECOMMENDATION",
+    "levels": [
+      {
+        "severity": "SEV-1",
+        "domains": [
+          "safety",
+          "account_suspension"
+        ],
+        "sla_minutes": 15,
+        "on_call_primary": "PENDING",
+        "on_call_backup": "PENDING",
+        "channel": "risk-interrupt-sev1"
+      },
+      {
+        "severity": "SEV-2",
+        "domains": [
+          "quality_batch_defect",
+          "compliance_claim_violation"
+        ],
+        "sla_minutes": 120,
+        "on_call_primary": "PENDING",
+        "on_call_backup": "PENDING",
+        "channel": "risk-interrupt-sev2"
+      },
+      {
+        "severity": "SEV-3",
+        "domains": [
+          "data_drift",
+          "source_ttl_expired"
+        ],
+        "sla_minutes": 1440,
+        "on_call_primary": "PENDING",
+        "on_call_backup": "PENDING",
+        "channel": "risk-interrupt-sev3"
+      }
+    ]
+  }
+}

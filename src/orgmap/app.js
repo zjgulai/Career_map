@@ -323,9 +323,15 @@ function side(sel) {
 
   if (sel.kind === 'pilot') {
     const pl = G.org.pilot_lens;
+    const pre = pl.preconditions || { counts: {}, items: [] };
+    const pc = pre.counts || {};
     el.innerHTML = `<h2>${pl.title}</h2>
-      <p><span class="tag warn">准备态 · 尚未运行</span><span class="tag">${pl.active_sessions} 并发 session</span></p>
+      <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待真人签核 ${pc.awaiting_human_signoff || 0}/7</span><span class="tag">${pl.active_sessions} 并发 session</span></p>
       <p>授权依据：<code>${pl.authorization_ref}</code></p>
+      ${(pre.items || []).length ? `<h3>七项生效前置（P1..P7）</h3>` + pre.items.map(it => {
+        const badge = it.state === 'ENGINEERING_READY' ? '<span class="tag">工程就绪</span>' : '<span class="tag warn">待真人签核</span>';
+        return `<div class="rel"><div class="obj"><strong>${it.id} ${it.title}</strong> ${badge}</div><div class="meta">${it.detail}</div></div>`;
+      }).join('') : ''}
       <h3>核心参与席位（${pl.seats.length}）</h3>
       ${pl.seats.map(s => {
         const meta = G.org.seats.find(x => x.seat_id === s.seat_id);

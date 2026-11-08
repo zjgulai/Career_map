@@ -606,9 +606,15 @@ let pilotMode = false;
 
 function showDetail(kind, id) {
   if (kind === 'pilot') {
+    const pre = plData.preconditions || { counts: {}, items: [] };
+    const pc = pre.counts || {};
     side.innerHTML = `<h2>${plData.title}</h2>
-      <p><span class="tag warn">准备态 · 尚未运行</span><span class="tag">${plData.active_sessions} 并发 session</span></p>
+      <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待真人签核 ${pc.awaiting_human_signoff || 0}/7</span><span class="tag">${plData.active_sessions} 并发 session</span></p>
       <p>授权依据：<code>${plData.authorization_ref}</code></p>
+      ${(pre.items || []).length ? `<h3>七项生效前置（P1..P7）</h3>` + pre.items.map(it => {
+        const st = it.state === 'ENGINEERING_READY' ? '工程就绪' : '待真人签核';
+        return `<p><strong>${it.id} ${it.title}</strong> <span class="tag ${it.state === 'ENGINEERING_READY' ? '' : 'warn'}">${st}</span><br><small>${it.detail}</small></p>`;
+      }).join('') : ''}
       <h3>核心参与席位（${plData.seats.length}）</h3>
       ${plData.seats.map(s => {
         const meta = SEAT_MAP.get(s.seat_id);
