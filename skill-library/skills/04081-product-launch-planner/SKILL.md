@@ -10,7 +10,7 @@ tags: [product-launch, go-to-market, campaign-planning]
 triggers: ["launch new product", "product launch campaign", "new collection release"]
 platforms: [shopify, woocommerce, amazon, bigcommerce]
 difficulty: intermediate
-disable-model-invocation: false
+disable-model-invocation: true
 user-invocable: true
 workflow: "按硬发布与软发布标准决策选型；建立需求捕获机制（Coming Soon 页、密码保护、草稿商品）；编排分层准入（VIP、候补名单、公开发售）；配置多渠道预热与发布活动（Teaser、Launch、Post-launch）；按三阶段（预热、发布日、发布后）监控指标"
 enabled: "true"

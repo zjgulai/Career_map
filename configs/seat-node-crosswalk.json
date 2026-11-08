@@ -8,127 +8,957 @@
   ],
   "boundary_note": "本表仅记录 C-300..C-310 已确认的「来源角色只读参照 ↔ 高层能力站位 ↔ 20 个经营网络节点」对应关系。3 个 MGT 是 T4 决策权参照、不参与节点映射；未在 C-300..C-309 中点名对应到 20 个网络节点的席位保持 node_links=[]，绝不按名称相似猜测；映射成立不等于岗位任命、Skill 胜出或运行授权。",
   "seats": [
-    {"seat_id": "MGT-001", "slot_id": "MGT-01", "slot_title": "企业方向与跨域优先级决策权参照", "slot_basis": "C-300", "pilot_role": null, "node_links": []},
-    {"seat_id": "MGT-002", "slot_id": "MGT-02", "slot_title": "增长组合与需求侧取舍决策权参照", "slot_basis": "C-300", "pilot_role": null, "node_links": []},
-    {"seat_id": "MGT-003", "slot_id": "MGT-03", "slot_title": "治理边界与重大例外决策权参照", "slot_basis": "C-300", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-001", "slot_id": "OM-01", "slot_title": "经营目标承接与取舍准备", "slot_basis": "C-300", "pilot_role": "resource_tradeoff_profile", "node_links": []},
-    {"seat_id": "AGT-002", "slot_id": "OM-02", "slot_title": "经营事项责任与例外说明", "slot_basis": "C-300", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-003", "slot_id": "OM-03", "slot_title": "经营结果对照与解释", "slot_basis": "C-300", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-004", "slot_id": "OM-04", "slot_title": "组织能力供需研判", "slot_basis": "C-300", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-041", "slot_id": "OM-05", "slot_title": "经营资源与资金条件评估", "slot_basis": "C-300", "pilot_role": null, "node_links": [
-      {"node_id": "economics", "relation": "boundary_contributor", "basis": ["C-300", "C-036"], "note": "提供资源与资金条件说明，不替 C-036/C-193 完成选项级经济性"}
-    ]},
-    {"seat_id": "AGT-006", "slot_id": "BO-01", "slot_title": "消费者问题与需求证据", "slot_basis": "C-301", "pilot_role": null, "node_links": [
-      {"node_id": "consumer", "relation": "direct_reuse", "basis": ["C-301", "C-018", "C-019"], "note": "直接以 C-018/C-019 需求证据与问题地图为权威骨架"}
-    ]},
-    {"seat_id": "AGT-007", "slot_id": "BO-02", "slot_title": "市场变化与机会证据", "slot_basis": "C-301", "pilot_role": null, "node_links": [
-      {"node_id": "business", "relation": "evidence_input", "basis": ["C-301", "C-021"], "note": "交市场机会证据与反证说明，不替 C-021 比较经营选项"}
-    ]},
-    {"seat_id": "AGT-008", "slot_id": "BO-03", "slot_title": "新品组合假设与阶段建议", "slot_basis": "C-301", "pilot_role": "case_lead", "node_links": [
-      {"node_id": "business", "relation": "evidence_input", "basis": ["C-301", "C-021"], "note": "交候选组合与验证路径说明，不替 C-021 做单项商业论证"}
-    ]},
-    {"seat_id": "AGT-009", "slot_id": "BO-04", "slot_title": "产品要求与验收定义", "slot_basis": "C-301", "pilot_role": null, "node_links": [
-      {"node_id": "definition", "relation": "direct_reuse", "basis": ["C-301", "C-023"], "note": "直接复用 C-023 当前阶段可验证的产品要求与约束"}
-    ]},
-    {"seat_id": "AGT-010", "slot_id": "BO-05", "slot_title": "产品体验与工业设计方案", "slot_basis": "C-301", "pilot_role": null, "node_links": [
-      {"node_id": "realization", "relation": "sub_contributor", "basis": ["C-301", "C-025"], "note": "交体验与工业设计方案，不替 C-025 交完整实现物"}
-    ]},
-    {"seat_id": "AGT-011", "slot_id": "BO-06", "slot_title": "硬件工程可行性与风险", "slot_basis": "C-302", "pilot_role": null, "node_links": [
-      {"node_id": "realization", "relation": "sub_contributor", "basis": ["C-302", "C-025"], "note": "C-025 中的硬件与材料专业贡献"}
-    ]},
-    {"seat_id": "AGT-012", "slot_id": "BO-07", "slot_title": "软件算法方案与工程证据", "slot_basis": "C-302", "pilot_role": null, "node_links": [
-      {"node_id": "realization", "relation": "sub_contributor", "basis": ["C-302", "C-025"], "note": "C-025 中的软件与算法专业贡献"}
-    ]},
-    {"seat_id": "AGT-013", "slot_id": "BO-08", "slot_title": "产品验证与缺陷复验", "slot_basis": "C-302", "pilot_role": null, "node_links": [
-      {"node_id": "verification", "relation": "direct_reuse", "basis": ["C-302", "C-026"], "note": "直接复用 C-026 产品验证结论"}
-    ]},
-    {"seat_id": "AGT-014", "slot_id": "BO-09", "slot_title": "供应商能力与风险评估", "slot_basis": "C-302", "pilot_role": null, "node_links": [
-      {"node_id": "realization", "relation": "evidence_input", "basis": ["C-302", "C-025"], "note": "为 C-025 提供 OEM 供应商能力与风险事实"},
-      {"node_id": "supplyReadiness", "relation": "evidence_input", "basis": ["C-302", "C-029"], "note": "为 C-029 提供供应来源事实"}
-    ]},
-    {"seat_id": "AGT-015", "slot_id": "BO-10", "slot_title": "采购条件与履约事实", "slot_basis": "C-302", "pilot_role": null, "node_links": [
-      {"node_id": "supplyReadiness", "relation": "sub_contributor", "basis": ["C-302", "C-029"], "note": "C-029 的采购条件与履约偏差来源专业"}
-    ]},
-    {"seat_id": "AGT-016", "slot_id": "BO-11", "slot_title": "补货候选与供需约束", "slot_basis": "C-303", "pilot_role": null, "node_links": [
-      {"node_id": "demandAnalysis", "relation": "readonly_consumer", "basis": ["C-303", "C-312", "C-044"], "note": "只读引用 C-044 需求情景，不另做需求预测"},
-      {"node_id": "supplyReadiness", "relation": "sub_contributor", "basis": ["C-303", "C-312", "C-029", "C-045"], "note": "为 C-029/C-045 提供补货候选与供需约束说明"}
-    ]},
-    {"seat_id": "AGT-017", "slot_id": "BO-12", "slot_title": "库存可用性与生命周期风险", "slot_basis": "C-303", "pilot_role": null, "node_links": [
-      {"node_id": "supplyReadiness", "relation": "sub_contributor", "basis": ["C-303", "C-029"], "note": "提供真实可用库存与库龄风险说明"},
-      {"node_id": "channelPublication", "relation": "evidence_input", "basis": ["C-303", "C-030"], "note": "区分账面库存与 C-030 渠道实际可售"}
-    ]},
-    {"seat_id": "AGT-018", "slot_id": "BO-13", "slot_title": "生产质量异常与纠正验证", "slot_basis": "C-303", "pilot_role": null, "node_links": [
-      {"node_id": "verification", "relation": "boundary_contributor", "basis": ["C-303", "C-026"], "note": "交质量事件与纠正措施说明，不替 C-026 作完整产品验证"}
-    ]},
-    {"seat_id": "AGT-019", "slot_id": "BO-14", "slot_title": "跨境运输与通关条件", "slot_basis": "C-303", "pilot_role": null, "node_links": [
-      {"node_id": "supplyReadiness", "relation": "sub_contributor", "basis": ["C-303", "C-029"], "note": "提供跨境运输路线、ETA 区间与通关条件说明"}
-    ]},
-    {"seat_id": "AGT-020", "slot_id": "BO-15", "slot_title": "仓储履约与退货事实", "slot_basis": "C-303", "pilot_role": null, "node_links": [
-      {"node_id": "supplyReadiness", "relation": "sub_contributor", "basis": ["C-303", "C-029"], "note": "提供仓储履约与退货入仓事实说明"}
-    ]},
-    {"seat_id": "AGT-021", "slot_id": "BO-16", "slot_title": "渠道经营目标与偏差诊断", "slot_basis": "C-304", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-022", "slot_id": "BO-17", "slot_title": "渠道商品可发现性与搜索表现诊断", "slot_basis": "C-304", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-023", "slot_id": "BO-18", "slot_title": "自营站购买旅程与转化诊断", "slot_basis": "C-304", "pilot_role": null, "node_links": [
-      {"node_id": "effectEvaluation", "relation": "evidence_input", "basis": ["C-304", "C-038"], "note": "交购买旅程摩擦证据与候选改进，不替 C-038 判断效果"}
-    ]},
-    {"seat_id": "AGT-024", "slot_id": "BO-19", "slot_title": "候选渠道规则与运营适配证据", "slot_basis": "C-304", "pilot_role": null, "node_links": [
-      {"node_id": "launch", "relation": "evidence_input", "basis": ["C-304", "C-027"], "note": "核对候选渠道规则与运营适配证据，不替 C-027 制定上市方案"},
-      {"node_id": "channelPublication", "relation": "evidence_input", "basis": ["C-304", "C-030"], "note": "为 C-030 提供渠道规则边界"}
-    ]},
-    {"seat_id": "AGT-025", "slot_id": "BO-20", "slot_title": "零售与B2B合作机会资格核对", "slot_basis": "C-304", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-026", "slot_id": "BO-21", "slot_title": "范围化价格、促销与商品组合研判", "slot_basis": "C-305", "pilot_role": null, "node_links": [
-      {"node_id": "pricingPromotion", "relation": "direct_reuse", "basis": ["C-305", "C-035"], "note": "直接复用 C-035 定价与促销"}
-    ]},
-    {"seat_id": "AGT-027", "slot_id": "BO-22", "slot_title": "店铺账号健康与规则事件诊断", "slot_basis": "C-305", "pilot_role": null, "node_links": [
-      {"node_id": "marketAccess", "relation": "boundary_contributor", "basis": ["C-305", "C-028"], "note": "守账号与店铺规则事件，不替 C-028 作产品准入"},
-      {"node_id": "channelPublication", "relation": "boundary_contributor", "basis": ["C-305", "C-030"], "note": "提供账号健康限制事实，不替 C-030 作可售判断"}
-    ]},
-    {"seat_id": "AGT-028", "slot_id": "BO-23", "slot_title": "本地化语境与术语适配判断", "slot_basis": "C-305", "pilot_role": null, "node_links": [
-      {"node_id": "contentExpression", "relation": "sub_contributor", "basis": ["C-305", "C-033"], "note": "C-033 中的本地化语境与术语适配专业贡献"}
-    ]},
-    {"seat_id": "AGT-029", "slot_id": "BO-24", "slot_title": "品牌定位、主张与表达准则", "slot_basis": "C-305", "pilot_role": null, "node_links": [
-      {"node_id": "brandPositioning", "relation": "direct_reuse", "basis": ["C-305", "C-034"], "note": "直接复用 C-034 品牌定位与主张"}
-    ]},
-    {"seat_id": "AGT-030", "slot_id": "BO-25", "slot_title": "内容方案与创意表达", "slot_basis": "C-305", "pilot_role": null, "node_links": [
-      {"node_id": "contentExpression", "relation": "direct_reuse", "basis": ["C-305", "C-033"], "note": "直接复用 C-033 内容策划与表达"}
-    ]},
-    {"seat_id": "AGT-031", "slot_id": "BO-26", "slot_title": "渠道素材制作与版本交付", "slot_basis": "C-306", "pilot_role": null, "node_links": [
-      {"node_id": "contentExpression", "relation": "sub_contributor", "basis": ["C-306", "C-033"], "note": "C-033/BO-25 内部的素材制作与版本交付子位"}
-    ]},
-    {"seat_id": "AGT-032", "slot_id": "BO-27", "slot_title": "付费媒体投放与优化", "slot_basis": "C-306", "pilot_role": null, "node_links": [
-      {"node_id": "paidMedia", "relation": "direct_reuse", "basis": ["C-306", "C-037"], "note": "直接复用 C-037 付费媒体投放与优化"}
-    ]},
-    {"seat_id": "AGT-033", "slot_id": "BO-28", "slot_title": "达人与联盟合作适配与履约", "slot_basis": "C-306", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-034", "slot_id": "BO-29", "slot_title": "客户阶段与留存复购触达", "slot_basis": "C-306", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-035", "slot_id": "BO-30", "slot_title": "经营实验与效果评估", "slot_basis": "C-306", "pilot_role": null, "node_links": [
-      {"node_id": "effectEvaluation", "relation": "direct_reuse", "basis": ["C-306", "C-038"], "note": "直接复用 C-038 经营实验与效果评估"}
-    ]},
-    {"seat_id": "AGT-036", "slot_id": "BO-31", "slot_title": "售前问题核对与选购答复", "slot_basis": "C-307", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-037", "slot_id": "BO-32", "slot_title": "客户问题分诊与服务补救", "slot_basis": "C-307", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-038", "slot_id": "BO-33", "slot_title": "体验问题聚合与改进证据回流", "slot_basis": "C-307", "pilot_role": null, "node_links": [
-      {"node_id": "consumer", "relation": "evidence_input", "basis": ["C-307", "C-018"], "note": "向 C-018 回流体验问题簇与改进证据"},
-      {"node_id": "verification", "relation": "evidence_input", "basis": ["C-307", "C-026"], "note": "向 C-026 回流质量与缺陷线索"}
-    ]},
-    {"seat_id": "AGT-039", "slot_id": "BO-34", "slot_title": "用户使用支持与教育反馈", "slot_basis": "C-307", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-040", "slot_id": "BO-35", "slot_title": "交易—资金事实对账与差异回位", "slot_basis": "C-307", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-005", "slot_id": "IC-01", "slot_title": "经营证据与利益冲突独立复核", "slot_basis": "C-308", "pilot_role": "independent_assurance", "node_links": []},
-    {"seat_id": "AGT-042", "slot_id": "IC-02", "slot_title": "税务与跨境实体义务核对", "slot_basis": "C-308", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-043", "slot_id": "IC-03", "slot_title": "合同权利与知识产权风险核对", "slot_basis": "C-308", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-044", "slot_id": "IC-04", "slot_title": "产品准入、宣称与隐私控制条件", "slot_basis": "C-308", "pilot_role": null, "node_links": [
-      {"node_id": "marketAccess", "relation": "direct_reuse", "basis": ["C-308", "C-028"], "note": "直接承接 C-028 产品市场准入主站位并补宣称与隐私边界"}
-    ]},
-    {"seat_id": "AGT-050", "slot_id": "IC-05", "slot_title": "身份、权限与安全访问边界", "slot_basis": "C-308", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-045", "slot_id": "DA-01", "slot_title": "经营口径与对象关系约定", "slot_basis": "C-309", "pilot_role": "metric_contract_and_validation", "node_links": [
-      {"node_id": "businessDefinitions", "relation": "direct_reuse", "basis": ["C-309", "C-040"], "note": "直接复用 C-040 经营口径与对象关系治理"}
-    ]},
-    {"seat_id": "AGT-046", "slot_id": "DA-02", "slot_title": "经营数据供给与质量溯源", "slot_basis": "C-309", "pilot_role": null, "node_links": [
-      {"node_id": "dataSupply", "relation": "direct_reuse", "basis": ["C-309", "C-039"], "note": "直接复用 C-039 经营数据供给与质量保障"}
-    ]},
-    {"seat_id": "AGT-047", "slot_id": "DA-03", "slot_title": "系统集成与工具能力契约", "slot_basis": "C-309", "pilot_role": null, "node_links": []},
-    {"seat_id": "AGT-048", "slot_id": "DA-04", "slot_title": "知识、方法与能力证据资产治理", "slot_basis": "C-309", "pilot_role": null, "node_links": [
-      {"node_id": "knowledgeStewardship", "relation": "direct_reuse", "basis": ["C-309", "C-051"], "note": "直接复用 C-051 经营知识整理与维护"},
-      {"node_id": "productInformation", "relation": "platform_steward", "basis": ["C-309", "C-031"], "note": "归集 C-031 商品资料管理中的平台维护侧"}
-    ]},
-    {"seat_id": "AGT-049", "slot_id": "DA-05", "slot_title": "Agent运行证据与可靠性", "slot_basis": "C-309", "pilot_role": null, "node_links": []}
-  ]
+    {
+      "seat_id": "MGT-001",
+      "slot_id": "MGT-01",
+      "slot_title": "企业方向与跨域优先级决策权参照",
+      "slot_basis": "C-300",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "MGT-002",
+      "slot_id": "MGT-02",
+      "slot_title": "增长组合与需求侧取舍决策权参照",
+      "slot_basis": "C-300",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "MGT-003",
+      "slot_id": "MGT-03",
+      "slot_title": "治理边界与重大例外决策权参照",
+      "slot_basis": "C-300",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-001",
+      "slot_id": "OM-01",
+      "slot_title": "经营目标承接与取舍准备",
+      "slot_basis": "C-300",
+      "pilot_role": "resource_tradeoff_profile",
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-002",
+      "slot_id": "OM-02",
+      "slot_title": "经营事项责任与例外说明",
+      "slot_basis": "C-300",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-003",
+      "slot_id": "OM-03",
+      "slot_title": "经营结果对照与解释",
+      "slot_basis": "C-300",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-004",
+      "slot_id": "OM-04",
+      "slot_title": "组织能力供需研判",
+      "slot_basis": "C-300",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-041",
+      "slot_id": "OM-05",
+      "slot_title": "经营资源与资金条件评估",
+      "slot_basis": "C-300",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "economics",
+          "relation": "boundary_contributor",
+          "basis": [
+            "C-300",
+            "C-036"
+          ],
+          "note": "提供资源与资金条件说明，不替 C-036/C-193 完成选项级经济性"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-006",
+      "slot_id": "BO-01",
+      "slot_title": "消费者问题与需求证据",
+      "slot_basis": "C-301",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "consumer",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-301",
+            "C-018",
+            "C-019"
+          ],
+          "note": "直接以 C-018/C-019 需求证据与问题地图为权威骨架"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-007",
+      "slot_id": "BO-02",
+      "slot_title": "市场变化与机会证据",
+      "slot_basis": "C-301",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "business",
+          "relation": "evidence_input",
+          "basis": [
+            "C-301",
+            "C-021"
+          ],
+          "note": "交市场机会证据与反证说明，不替 C-021 比较经营选项"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-008",
+      "slot_id": "BO-03",
+      "slot_title": "新品组合假设与阶段建议",
+      "slot_basis": "C-301",
+      "pilot_role": "case_lead",
+      "node_links": [
+        {
+          "node_id": "business",
+          "relation": "evidence_input",
+          "basis": [
+            "C-301",
+            "C-021"
+          ],
+          "note": "交候选组合与验证路径说明，不替 C-021 做单项商业论证"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-009",
+      "slot_id": "BO-04",
+      "slot_title": "产品要求与验收定义",
+      "slot_basis": "C-301",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "definition",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-301",
+            "C-023"
+          ],
+          "note": "直接复用 C-023 当前阶段可验证的产品要求与约束"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-010",
+      "slot_id": "BO-05",
+      "slot_title": "产品体验与工业设计方案",
+      "slot_basis": "C-301",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "realization",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-301",
+            "C-025"
+          ],
+          "note": "交体验与工业设计方案，不替 C-025 交完整实现物"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-011",
+      "slot_id": "BO-06",
+      "slot_title": "硬件工程可行性与风险",
+      "slot_basis": "C-302",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "realization",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-302",
+            "C-025"
+          ],
+          "note": "C-025 中的硬件与材料专业贡献"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-012",
+      "slot_id": "BO-07",
+      "slot_title": "软件算法方案与工程证据",
+      "slot_basis": "C-302",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "realization",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-302",
+            "C-025"
+          ],
+          "note": "C-025 中的软件与算法专业贡献"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-013",
+      "slot_id": "BO-08",
+      "slot_title": "产品验证与缺陷复验",
+      "slot_basis": "C-302",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "verification",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-302",
+            "C-026"
+          ],
+          "note": "直接复用 C-026 产品验证结论"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-014",
+      "slot_id": "BO-09",
+      "slot_title": "供应商能力与风险评估",
+      "slot_basis": "C-302",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "realization",
+          "relation": "evidence_input",
+          "basis": [
+            "C-302",
+            "C-025"
+          ],
+          "note": "为 C-025 提供 OEM 供应商能力与风险事实"
+        },
+        {
+          "node_id": "supplyReadiness",
+          "relation": "evidence_input",
+          "basis": [
+            "C-302",
+            "C-029"
+          ],
+          "note": "为 C-029 提供供应来源事实"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-015",
+      "slot_id": "BO-10",
+      "slot_title": "采购条件与履约事实",
+      "slot_basis": "C-302",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "supplyReadiness",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-302",
+            "C-029"
+          ],
+          "note": "C-029 的采购条件与履约偏差来源专业"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-016",
+      "slot_id": "BO-11",
+      "slot_title": "补货候选与供需约束",
+      "slot_basis": "C-303",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "demandAnalysis",
+          "relation": "readonly_consumer",
+          "basis": [
+            "C-303",
+            "C-312",
+            "C-044"
+          ],
+          "note": "只读引用 C-044 需求情景，不另做需求预测"
+        },
+        {
+          "node_id": "supplyReadiness",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-303",
+            "C-312",
+            "C-029",
+            "C-045"
+          ],
+          "note": "为 C-029/C-045 提供补货候选与供需约束说明"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-017",
+      "slot_id": "BO-12",
+      "slot_title": "库存可用性与生命周期风险",
+      "slot_basis": "C-303",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "supplyReadiness",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-303",
+            "C-029"
+          ],
+          "note": "提供真实可用库存与库龄风险说明"
+        },
+        {
+          "node_id": "channelPublication",
+          "relation": "evidence_input",
+          "basis": [
+            "C-303",
+            "C-030"
+          ],
+          "note": "区分账面库存与 C-030 渠道实际可售"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-018",
+      "slot_id": "BO-13",
+      "slot_title": "生产质量异常与纠正验证",
+      "slot_basis": "C-303",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "verification",
+          "relation": "boundary_contributor",
+          "basis": [
+            "C-303",
+            "C-026"
+          ],
+          "note": "交质量事件与纠正措施说明，不替 C-026 作完整产品验证"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-019",
+      "slot_id": "BO-14",
+      "slot_title": "跨境运输与通关条件",
+      "slot_basis": "C-303",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "supplyReadiness",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-303",
+            "C-029"
+          ],
+          "note": "提供跨境运输路线、ETA 区间与通关条件说明"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-020",
+      "slot_id": "BO-15",
+      "slot_title": "仓储履约与退货事实",
+      "slot_basis": "C-303",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "supplyReadiness",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-303",
+            "C-029"
+          ],
+          "note": "提供仓储履约与退货入仓事实说明"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-021",
+      "slot_id": "BO-16",
+      "slot_title": "渠道经营目标与偏差诊断",
+      "slot_basis": "C-304",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-022",
+      "slot_id": "BO-17",
+      "slot_title": "渠道商品可发现性与搜索表现诊断",
+      "slot_basis": "C-304",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-023",
+      "slot_id": "BO-18",
+      "slot_title": "自营站购买旅程与转化诊断",
+      "slot_basis": "C-304",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "effectEvaluation",
+          "relation": "evidence_input",
+          "basis": [
+            "C-304",
+            "C-038"
+          ],
+          "note": "交购买旅程摩擦证据与候选改进，不替 C-038 判断效果"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-024",
+      "slot_id": "BO-19",
+      "slot_title": "候选渠道规则与运营适配证据",
+      "slot_basis": "C-304",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "launch",
+          "relation": "evidence_input",
+          "basis": [
+            "C-304",
+            "C-027"
+          ],
+          "note": "核对候选渠道规则与运营适配证据，不替 C-027 制定上市方案"
+        },
+        {
+          "node_id": "channelPublication",
+          "relation": "evidence_input",
+          "basis": [
+            "C-304",
+            "C-030"
+          ],
+          "note": "为 C-030 提供渠道规则边界"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-025",
+      "slot_id": "BO-20",
+      "slot_title": "零售与B2B合作机会资格核对",
+      "slot_basis": "C-304",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-026",
+      "slot_id": "BO-21",
+      "slot_title": "范围化价格、促销与商品组合研判",
+      "slot_basis": "C-305",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "pricingPromotion",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-305",
+            "C-035"
+          ],
+          "note": "直接复用 C-035 定价与促销"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-027",
+      "slot_id": "BO-22",
+      "slot_title": "店铺账号健康与规则事件诊断",
+      "slot_basis": "C-305",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "marketAccess",
+          "relation": "boundary_contributor",
+          "basis": [
+            "C-305",
+            "C-028"
+          ],
+          "note": "守账号与店铺规则事件，不替 C-028 作产品准入"
+        },
+        {
+          "node_id": "channelPublication",
+          "relation": "boundary_contributor",
+          "basis": [
+            "C-305",
+            "C-030"
+          ],
+          "note": "提供账号健康限制事实，不替 C-030 作可售判断"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-028",
+      "slot_id": "BO-23",
+      "slot_title": "本地化语境与术语适配判断",
+      "slot_basis": "C-305",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "contentExpression",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-305",
+            "C-033"
+          ],
+          "note": "C-033 中的本地化语境与术语适配专业贡献"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-029",
+      "slot_id": "BO-24",
+      "slot_title": "品牌定位、主张与表达准则",
+      "slot_basis": "C-305",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "brandPositioning",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-305",
+            "C-034"
+          ],
+          "note": "直接复用 C-034 品牌定位与主张"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-030",
+      "slot_id": "BO-25",
+      "slot_title": "内容方案与创意表达",
+      "slot_basis": "C-305",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "contentExpression",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-305",
+            "C-033"
+          ],
+          "note": "直接复用 C-033 内容策划与表达"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-031",
+      "slot_id": "BO-26",
+      "slot_title": "渠道素材制作与版本交付",
+      "slot_basis": "C-306",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "contentExpression",
+          "relation": "sub_contributor",
+          "basis": [
+            "C-306",
+            "C-033"
+          ],
+          "note": "C-033/BO-25 内部的素材制作与版本交付子位"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-032",
+      "slot_id": "BO-27",
+      "slot_title": "付费媒体投放与优化",
+      "slot_basis": "C-306",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "paidMedia",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-306",
+            "C-037"
+          ],
+          "note": "直接复用 C-037 付费媒体投放与优化"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-033",
+      "slot_id": "BO-28",
+      "slot_title": "达人与联盟合作适配与履约",
+      "slot_basis": "C-306",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-034",
+      "slot_id": "BO-29",
+      "slot_title": "客户阶段与留存复购触达",
+      "slot_basis": "C-306",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-035",
+      "slot_id": "BO-30",
+      "slot_title": "经营实验与效果评估",
+      "slot_basis": "C-306",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "effectEvaluation",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-306",
+            "C-038"
+          ],
+          "note": "直接复用 C-038 经营实验与效果评估"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-036",
+      "slot_id": "BO-31",
+      "slot_title": "售前问题核对与选购答复",
+      "slot_basis": "C-307",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-037",
+      "slot_id": "BO-32",
+      "slot_title": "客户问题分诊与服务补救",
+      "slot_basis": "C-307",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-038",
+      "slot_id": "BO-33",
+      "slot_title": "体验问题聚合与改进证据回流",
+      "slot_basis": "C-307",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "consumer",
+          "relation": "evidence_input",
+          "basis": [
+            "C-307",
+            "C-018"
+          ],
+          "note": "向 C-018 回流体验问题簇与改进证据"
+        },
+        {
+          "node_id": "verification",
+          "relation": "evidence_input",
+          "basis": [
+            "C-307",
+            "C-026"
+          ],
+          "note": "向 C-026 回流质量与缺陷线索"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-039",
+      "slot_id": "BO-34",
+      "slot_title": "用户使用支持与教育反馈",
+      "slot_basis": "C-307",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-040",
+      "slot_id": "BO-35",
+      "slot_title": "交易—资金事实对账与差异回位",
+      "slot_basis": "C-307",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-005",
+      "slot_id": "IC-01",
+      "slot_title": "经营证据与利益冲突独立复核",
+      "slot_basis": "C-308",
+      "pilot_role": "independent_assurance",
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-042",
+      "slot_id": "IC-02",
+      "slot_title": "税务与跨境实体义务核对",
+      "slot_basis": "C-308",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-043",
+      "slot_id": "IC-03",
+      "slot_title": "合同权利与知识产权风险核对",
+      "slot_basis": "C-308",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-044",
+      "slot_id": "IC-04",
+      "slot_title": "产品准入、宣称与隐私控制条件",
+      "slot_basis": "C-308",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "marketAccess",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-308",
+            "C-028"
+          ],
+          "note": "直接承接 C-028 产品市场准入主站位并补宣称与隐私边界"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-050",
+      "slot_id": "IC-05",
+      "slot_title": "身份、权限与安全访问边界",
+      "slot_basis": "C-308",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-045",
+      "slot_id": "DA-01",
+      "slot_title": "经营口径与对象关系约定",
+      "slot_basis": "C-309",
+      "pilot_role": "metric_contract_and_validation",
+      "node_links": [
+        {
+          "node_id": "businessDefinitions",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-309",
+            "C-040"
+          ],
+          "note": "直接复用 C-040 经营口径与对象关系治理"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-046",
+      "slot_id": "DA-02",
+      "slot_title": "经营数据供给与质量溯源",
+      "slot_basis": "C-309",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "dataSupply",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-309",
+            "C-039"
+          ],
+          "note": "直接复用 C-039 经营数据供给与质量保障"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-047",
+      "slot_id": "DA-03",
+      "slot_title": "系统集成与工具能力契约",
+      "slot_basis": "C-309",
+      "pilot_role": null,
+      "node_links": []
+    },
+    {
+      "seat_id": "AGT-048",
+      "slot_id": "DA-04",
+      "slot_title": "知识、方法与能力证据资产治理",
+      "slot_basis": "C-309",
+      "pilot_role": null,
+      "node_links": [
+        {
+          "node_id": "knowledgeStewardship",
+          "relation": "direct_reuse",
+          "basis": [
+            "C-309",
+            "C-051"
+          ],
+          "note": "直接复用 C-051 经营知识整理与维护"
+        },
+        {
+          "node_id": "productInformation",
+          "relation": "platform_steward",
+          "basis": [
+            "C-309",
+            "C-031"
+          ],
+          "note": "归集 C-031 商品资料管理中的平台维护侧"
+        }
+      ]
+    },
+    {
+      "seat_id": "AGT-049",
+      "slot_id": "DA-05",
+      "slot_title": "Agent运行证据与可靠性",
+      "slot_basis": "C-309",
+      "pilot_role": null,
+      "node_links": []
+    }
+  ],
+  "pilot_lens": {
+    "id": "FLOW-02-SCN-002",
+    "title": "FLOW-02 × SCN-002 只读试点镜头（P1 证据入池 + P2 机会命题）",
+    "status": "draft_preconditions_incomplete",
+    "authorization_ref": ".codex/sanbao-pilot-authorization-flow02-scn002-20261104.md",
+    "charter_ref": "deliverables/execution/sanbao-handoff-20261104/05-pilot-charter.md",
+    "active_sessions": 2,
+    "seats": [
+      {
+        "seat_id": "AGT-008",
+        "mode": "T2_case_lead_session",
+        "stages": [
+          "STG-02",
+          "STG-04",
+          "STG-05",
+          "STG-07",
+          "STG-08"
+        ],
+        "duty": "事项主责（Case Lead），汇总证据与机会命题，记录 STG-07 无动作回执与 STG-08 关闭"
+      },
+      {
+        "seat_id": "AGT-005",
+        "mode": "T2_assurance_session",
+        "stages": [
+          "STG-06"
+        ],
+        "duty": "独立复核（Assurance），执行利益冲突前置检查（coi_check.py）与证据可证伪性复核，发起人不得覆盖拒绝"
+      },
+      {
+        "seat_id": "AGT-001",
+        "mode": "T3_profile_injection",
+        "stages": [
+          "STG-02",
+          "STG-05"
+        ],
+        "duty": "资源约束与组合取舍输入（注入 Lead 上下文，不占独立 session）"
+      },
+      {
+        "seat_id": "AGT-045",
+        "mode": "T0_validator_plus_T3_profile",
+        "stages": [
+          "STG-02",
+          "STG-04"
+        ],
+        "duty": "指标契约、对象关系与口径冲突校验（不占独立 session）"
+      }
+    ],
+    "context_injected_seats": [
+      {
+        "seat_id": "AGT-006",
+        "stages": [
+          "STG-04"
+        ],
+        "duty": "消费者问题与需求证据 T3 注入"
+      },
+      {
+        "seat_id": "AGT-007",
+        "stages": [
+          "STG-04"
+        ],
+        "duty": "市场变化与机会证据 T3 注入"
+      },
+      {
+        "seat_id": "AGT-009",
+        "stages": [
+          "STG-05"
+        ],
+        "duty": "产品要求边界 T3 注入"
+      },
+      {
+        "seat_id": "AGT-035",
+        "stages": [
+          "STG-05"
+        ],
+        "duty": "实验与可证伪假设 T3 注入"
+      },
+      {
+        "seat_id": "AGT-048",
+        "stages": [
+          "STG-03"
+        ],
+        "duty": "上下文装配与版本哈希核对"
+      }
+    ],
+    "target_nodes": [
+      "consumer",
+      "business",
+      "definition",
+      "effectEvaluation",
+      "businessDefinitions",
+      "knowledgeStewardship"
+    ],
+    "stages": [
+      {
+        "id": "STG-01",
+        "name": "信号接收",
+        "actor": "Case Control (T0)",
+        "artifact": "信号信封",
+        "gate": "字段齐全、hash 可重算、去重键可关联"
+      },
+      {
+        "id": "STG-02",
+        "name": "范围与章程",
+        "actor": "AGT-008 + AGT-001 + AGT-045",
+        "artifact": "事项章程",
+        "gate": "恰好 1 flow + 1 scenario；出现「有限放量」立即拒绝"
+      },
+      {
+        "id": "STG-03",
+        "name": "上下文装配",
+        "actor": "Case Control + AGT-048",
+        "artifact": "上下文清单",
+        "gate": "恰好 1 主责；版本 hash 匹配；只读策略覆盖全部数据源"
+      },
+      {
+        "id": "STG-04",
+        "name": "证据与诊断",
+        "actor": "AGT-008（含 AGT-006/007/045 注入）",
+        "artifact": "证据包 + 诊断记录",
+        "gate": "每条 claim 有来源/版本/hash；派生源不计独立源；缺失标 UNKNOWN"
+      },
+      {
+        "id": "STG-05",
+        "name": "决策包",
+        "actor": "AGT-008（含 AGT-009/001/035 注入）",
+        "artifact": "机会命题决策包",
+        "gate": "含可证伪假设与停止条件；把创意当事实立即 RETURN"
+      },
+      {
+        "id": "STG-06",
+        "name": "独立复核",
+        "actor": "AGT-005（独立 session）",
+        "artifact": "IndependenceDeclaration + 复核决定",
+        "gate": "coi_check 通过（proposer != reviewer）；发起人不得覆盖拒绝"
+      },
+      {
+        "id": "STG-07",
+        "name": "只读无动作",
+        "actor": "AGT-008 + Policy Gate",
+        "artifact": "ART-NO-ACTION-RECORD",
+        "gate": "0 ActionIntent、0 外部请求、0 凭据；出现动作意图即 FROZEN"
+      },
+      {
+        "id": "STG-08",
+        "name": "事项关闭",
+        "actor": "AGT-008 + AGT-001",
+        "artifact": "ART-CASE-CLOSURE",
+        "gate": "证据不足判 PARTIAL 而非 SUCCESS；未解项必须有 owner"
+      }
+    ]
+  }
 }

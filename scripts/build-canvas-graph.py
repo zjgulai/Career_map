@@ -196,6 +196,8 @@ def collect_seats() -> dict:
                "production_authorized": bool(s.get("production_authorized")),
                "runtime_identity_status": bool(s.get("runtime_identity_status")),
                "catalog_ref": s.get("catalog_ref", ""),
+               "runtime_layer": s.get("runtime_layer", ""),
+               "human_owner_ref": s.get("human_owner_ref", ""),
                "slot_id": cw.get("slot_id", ""), "slot_title": cw.get("slot_title", ""),
                "slot_basis": cw.get("slot_basis", ""), "pilot_role": cw.get("pilot_role"),
                "node_links": cw.get("node_links", [])}
@@ -328,6 +330,7 @@ def build() -> dict:
         "counts": counts,
         "org": {"level1": level1, "level2": level2,
                 "seats": seat_data["seats"], "governance": seat_data["governance"],
+                "pilot_lens": seat_data["crosswalk"].get("pilot_lens"),
                 "registry_meta": seat_data["meta"]},
         "network": {"nodes": nodes, "relations": resolved,
                     "unresolved_relations": unresolved},

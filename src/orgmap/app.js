@@ -24,7 +24,7 @@ const FONT_MIN = 12;
 const SEAT_FULL = 0.9, SEAT_COMPACT = 0.45;
 const seatMode = s => s >= SEAT_FULL ? 'full' : s >= SEAT_COMPACT ? 'compact' : 'hidden';
 
-const state = { view: 'org', cx: BOARD / 2, cy: BOARD / 2, scale: 1, selected: null, moved: 0 };
+const state = { view: 'org', cx: BOARD / 2, cy: BOARD / 2, scale: 1, selected: null, moved: 0, pilotLens: false };
 
 const org = layoutOrg(G.org);
 const net = layoutNetwork(G.network);
@@ -193,7 +193,7 @@ function fitNet() {
 }
 
 function switchTab(view, keepFit) {
-  document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  document.querySelectorAll('.tabs button[data-view]').forEach(b => b.classList.toggle('active', b.dataset.view === view));
   state.view = view; state.selected = null;
   buildLabels();
   if (!keepFit) { view === 'org' ? fitOrg() : fitNet(); }
@@ -225,10 +225,16 @@ canvas.addEventListener('wheel', e => {
 }, { passive: false });
 canvas.addEventListener('click', () => select(null));
 
-document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => {
+document.querySelectorAll('.tabs button[data-view]').forEach(btn => btn.addEventListener('click', () => {
   switchTab(btn.dataset.view, false);
   side(null);
 }));
+$('#pilot-btn').addEventListener('click', () => {
+  state.pilotLens = !state.pilotLens;
+  $('#pilot-btn').classList.toggle('pilot-on', state.pilotLens);
+  applyPilotHighlight();
+  select(state.pilotLens ? { kind: 'pilot', id: 'FLOW-02-SCN-002' } : null);
+});
 addEventListener('resize', () => { applyView(); if (AUDIT_MODE) setTimeout(() => audit(), 120); });
 addEventListener('keydown', e => { if (e.key === 'Escape') { select(null); $('#q-results').hidden = true; } });
 
@@ -273,6 +279,23 @@ function bindSideEvents(el) {
   }
 }
 
+function applyPilotHighlight() {
+  const pl = G.org.pilot_lens;
+  const coreSeats = new Set((pl && pl.seats || []).map(s => s.seat_id));
+  const ctxSeats = new Set((pl && pl.context_injected_seats || []).map(s => s.seat_id));
+  const targetNodes = new Set(pl && pl.target_nodes || []);
+  for (const l of labelEls) {
+    const id = l.el.dataset.id;
+    const isCore = l.kind === 'seat' ? coreSeats.has(id) : l.kind === 'node' ? targetNodes.has(id) : false;
+    const isCtx = l.kind === 'seat' && ctxSeats.has(id);
+    l.el.classList.toggle('pilot-core', state.pilotLens && isCore);
+    l.el.classList.toggle('pilot-ctx', state.pilotLens && isCtx);
+    if (state.pilotLens && !state.selected && (l.kind === 'seat' || l.kind === 'node' || l.kind === 'gov')) {
+      l.el.classList.toggle('dim', !(isCore || isCtx));
+    }
+  }
+}
+
 function select(sel) {
   state.selected = sel && sel.id || null;
   for (const l of labelEls) {
@@ -283,6 +306,7 @@ function select(sel) {
       l.el.classList.remove('dim');
     }
   }
+  if (state.pilotLens) applyPilotHighlight();
   drawScene();
   side(sel);
 }
@@ -294,6 +318,39 @@ function isNeighbor(a, b) {
 function side(sel) {
   const el = $('#side');
   if (!sel) { el.innerHTML = sideEl.dataset.empty; fillFacts(); return; }
+
+  if (sel.kind === 'pilot') {
+    const pl = G.org.pilot_lens;
+    el.innerHTML = `<h2>${pl.title}</h2>
+      <p><span class="tag warn">准备态 · 尚未运行</span><span class="tag">${pl.active_sessions} 并发 session</span></p>
+      <p>授权依据：<code>${pl.authorization_ref}</code></p>
+      <h3>核心参与席位（${pl.seats.length}）</h3>
+      ${pl.seats.map(s => {
+        const meta = G.org.seats.find(x => x.seat_id === s.seat_id);
+        return `<div class="rel" data-jump-seat="${s.seat_id}">
+          <div class="obj">→ ${s.seat_id} ${meta ? meta.alias : ''} · <span class="tag">${s.mode}</span></div>
+          <div class="meta">${s.stages.join(' / ')} · ${s.duty}</div>
+        </div>`;
+      }).join('')}
+      <h3>T3 上下文注入/装配席位（${pl.context_injected_seats.length}）</h3>
+      ${pl.context_injected_seats.map(s => {
+        const meta = G.org.seats.find(x => x.seat_id === s.seat_id);
+        return `<div class="rel" data-jump-seat="${s.seat_id}">
+          <div class="obj">→ ${s.seat_id} ${meta ? meta.alias : ''}（${s.stages.join('/')}）</div>
+          <div class="meta">${s.duty}</div>
+        </div>`;
+      }).join('')}
+      <h3>关联主网节点（${pl.target_nodes.length}）</h3>
+      ${pl.target_nodes.map(nid => {
+        const nd = net.nodes.find(x => x.id === nid);
+        return `<div class="rel" data-jump-node="${nid}"><div class="obj">→ ${nd ? nd.title : nid}</div><div class="meta">${nd ? nd.codes : ''}</div></div>`;
+      }).join('')}
+      <h3>八阶段只读合同（STG-01..08）</h3>
+      ${pl.stages.map(st => `<div class="rel"><div class="obj"><strong>${st.id} ${st.name}</strong> · ${st.artifact}</div>
+        <div class="meta">${st.actor}｜门禁：${st.gate}</div></div>`).join('')}`;
+    bindSideEvents(el);
+    return;
+  }
 
   if (sel.kind === 'decision') {
     const d = decisionById.get(sel.id);
@@ -333,6 +390,7 @@ function side(sel) {
       ${meta.pilot_role ? `<span class="tag">FLOW-02: ${meta.pilot_role}</span>` : ''}</p>
       <dl class="facts">
         <dt>能力站位</dt><dd>${meta.slot_id} · ${meta.slot_title} ${cTagsHtml([meta.slot_basis])}</dd>
+        <dt>目标运行层</dt><dd><code>${meta.runtime_layer || '—'}</code>（owner: ${meta.human_owner_ref || '—'}）</dd>
         <dt>生产授权</dt><dd>${meta.production_authorized ? '是' : '否'}</dd>
         <dt>运行身份</dt><dd>${meta.runtime_identity_status ? '是' : '否'}</dd>
         <dt>catalog_ref</dt><dd>断链（源仓未检出）</dd>
@@ -521,7 +579,7 @@ buildLabels();
 fitOrg();
 if (location.search.includes('view=network')) {
   state.view = 'network';
-  document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b.dataset.view === 'network'));
+  document.querySelectorAll('.tabs button[data-view]').forEach(b => b.classList.toggle('active', b.dataset.view === 'network'));
   buildLabels(); fitNet();
 }
 const AUDIT_MODE = location.search.includes('audit=1');

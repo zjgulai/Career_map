@@ -87,3 +87,7 @@ main{flex:1;display:flex;min-height:0}
   background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:11px;white-space:pre-wrap}
 #audit.pass{border-color:#9bc4a5}
 #audit.fail{border-color:#d69a8a;background:#fdf3f0}
+
+#pilot-btn.pilot-on{background:#7a5f28;border-color:#7a5f28;color:#fff}
+.seat.pilot-core,.node.pilot-core{border-color:#2d6756;border-style:solid;box-shadow:0 0 0 2px #2d675655}
+.seat.pilot-ctx{border-color:#a8792c;border-style:solid;box-shadow:0 0 0 2px #a8792c44}

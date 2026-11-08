@@ -71,3 +71,12 @@ python3 -m http.server 8765 --bind 127.0.0.1
 - 网络空间：节点立柱高度映射被引用卡数，关系为柱顶二次贝塞尔 Tube 曲线；
 - Raycaster 拾取：支持在 3D 侧栏中直接点击实现「席位 ⇄ 网络节点」跨空间跳转；
 - 页头固定横幅标明：**展示视图 · 不参与可读性验收 · 不是运行系统**。
+
+## 5. FLOW-02 × SCN-002 只读试点镜头（批次 4）
+
+- 顶栏新增 **「FLOW-02 试点镜头」** 按钮：一键高亮核心参与席位（`AGT-008 / AGT-005 / AGT-001 / AGT-045`）、T3 上下文注入/装配席位（`AGT-006 / AGT-007 / AGT-009 / AGT-035 / AGT-048`）及 6 个目标经营网络节点。
+- 侧栏展示 `STG-01..STG-08` 八阶段只读合同、并发上限（2 个 session）、失败门禁，并支持一键跳转对应席位或网络节点。
+- 配套能力与契约修复：
+  - `skill-library/candidates/conflict_of_interest_check/`：新增 `AGT-005` 独立复核利益冲突检查候选（`SKILL.md` + `coi_check.py`，`--selftest` 4/4 通过）；
+  - `skill-library/skills/04081-product-launch-planner/SKILL.md`：修正 `disable-model-invocation: true`；
+  - `.codex/pilot/seat-registry.json` 与 `.codex/pilot/read-only-overlay.json`：落实 C-01..C-04（53/53 `runtime_layer` 与 `human_owner_ref=PENDING`、50/50 `preset_id=agt-NNN`）。
