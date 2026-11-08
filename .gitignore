@@ -19,6 +19,7 @@ __pycache__/
 *.pid
 dist/
 build/
+/tmp/
 
 # Secrets, local authentication, and session material
 .env

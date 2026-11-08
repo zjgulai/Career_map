@@ -79,6 +79,8 @@ export function layoutOrg(org) {
             level1: b.level1, level1Name: b.level1Name,
             level2: b.level2, level2Name: b.level2Name,
             tier: seat.tier, status: seat.admission_status,
+            slot_id: seat.slot_id, slot_title: seat.slot_title, slot_basis: seat.slot_basis,
+            pilot_role: seat.pilot_role, node_links: seat.node_links || [],
             x: cx, y: cy, w: CELL_W - 6, h: CELL_H - 6,
           });
         });
@@ -100,6 +102,7 @@ export function layoutOrg(org) {
     bands, blocks: blocksOut, seats,
     governance: org.governance.map((g, i) => ({
       id: g.seat_id, alias: g.alias, title: g.title,
+      slot_id: g.slot_id, slot_title: g.slot_title, slot_basis: g.slot_basis,
       x: MARGIN + i * 300, y: top - 96, w: 280, h: 46,
     })),
     bounds: { w: BOARD, h: BOARD },

@@ -39,6 +39,7 @@ HEADER_DATE_FILES = (
     ".codex/sanbao-weekly-retro-2026-11-02.md",
     "playbook.md",
     "deliverables/canvas/sanbao-canvas-playbook.md",
+    "src/orgmap/README.md",
 )
 
 # 期望逐字节相同的 canonical -> 交付副本。
@@ -60,6 +61,8 @@ ABS_PATH_FILES = (
     "HANDOFF.md",
     "deliverables/README.md",
     "deliverables/SANBAO-RESULTS.md",
+    "src/orgmap/README.md",
+    "src/orgmap/data/graph.js",
 )
 
 # 记录历史扫描主机的文档：里面的绝对路径是历史事实，不要求在本机存在。
@@ -147,6 +150,12 @@ def check_pairs(pairs, compare) -> list[str]:
         elif verdict == "differs":
             out.append(f"副本与 canonical 不一致：{canonical} != {deliverable}")
     return out
+
+
+def check_graph_freshness(rc: int, detail: str) -> list[str]:
+    if rc != 0:
+        return [f"src/orgmap/data/graph.js 过期或构建失败：{detail.strip() or f'exit {rc}'}"]
+    return []
 
 
 def check_git_buckets(lines: list[str]) -> list[str]:
@@ -272,6 +281,13 @@ def collect(root: Path) -> list[str]:
     except (OSError, subprocess.CalledProcessError) as exc:
         failures.append(f"git ls-files 失败：{exc}")
 
+    # 7. orgmap graph.js 新鲜度门禁
+    graph_script = root / "scripts/build-canvas-graph.py"
+    if graph_script.is_file():
+        res = subprocess.run([sys.executable, "-I", str(graph_script), "--check"],
+                             cwd=root, capture_output=True, text=True)
+        failures += check_graph_freshness(res.returncode, (res.stderr or res.stdout))
+
     for line in infos:
         print(line)
     return failures
@@ -321,6 +337,8 @@ def selftest() -> int:
             ("pairs/differs", check_pairs([(str(same_a), str(diff_b))], cmp_files), True),
             ("pairs/identical", check_pairs([(str(same_a), str(same_b))], cmp_files), False),
             ("pairs/missing-canonical", check_pairs([("nope", str(same_b))], cmp_files), True),
+            ("graph/stale", check_graph_freshness(1, "graph.js 已过期"), True),
+            ("graph/fresh", check_graph_freshness(0, "graph.js 最新"), False),
         ]
 
     bad = [(n, want, got) for n, got, want in ((n, f, w) for n, f, w in cases) if bool(got) != want]

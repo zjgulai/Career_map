@@ -277,21 +277,44 @@ stage.addEventListener('click', e => {
   showDetail(kind, id);
 });
 
+function bind3dJumps() {
+  side.querySelectorAll('[data-jump3d]').forEach(el => el.addEventListener('click', () => {
+    const [targetKind, targetId] = el.dataset.jump3d.split(':');
+    const needView = targetKind === 'node' ? 'network' : 'org';
+    const btn = document.querySelector(`#views button[data-view=${needView}]`);
+    if (btn && stage.dataset.view !== needView) btn.click();
+    showDetail(targetKind, targetId);
+  }));
+}
+
 function showDetail(kind, id) {
   if (kind === 'seat') {
     const s = G.org.seats.find(x => x.seat_id === id);
+    const links = s.node_links || [];
     side.innerHTML = `<h2>${s.alias} · ${s.seat_id}</h2><p>${s.title}</p>
       <p><span class="tag">${s.plane}</span><span class="tag">${s.source_group}</span>
       <span class="tag">${s.tier}</span><span class="tag warn">${s.admission_status}</span></p>
-      <p>生产授权：否 · 运行身份：否</p>`;
+      <p>能力站位：${s.slot_id} · ${s.slot_title}（${s.slot_basis}）</p>
+      <p>生产授权：否 · 运行身份：否</p>
+      ${links.length ? `<p><strong>关联经营网络节点（${links.length}）</strong></p>` + links.map(lk => {
+        const nd = net.nodes.find(x => x.id === lk.node_id);
+        return `<p style="cursor:pointer;color:#8fd0b0" data-jump3d="node:${lk.node_id}">→ ${nd ? nd.title : lk.node_id}（${lk.basis.join('/')}）</p>`;
+      }).join('') : `<p>无直接主网节点映射（跨事项按题进入）。</p>`}`;
+    bind3dJumps();
   } else if (kind === 'gov') {
     const g = G.org.governance.find(x => x.seat_id === id);
     side.innerHTML = `<h2>${g.alias} · ${g.seat_id}</h2><p>${g.title}</p>
+      <p>能力参照：${g.slot_id} · ${g.slot_title}（${g.slot_basis}）</p>
       <p>治理参照：T4 决策权规则，不是 Agent 席位，不是部门。</p>`;
   } else if (kind === 'node') {
     const n = net.nodes.find(x => x.id === id);
+    const seatLinks = n.seat_links || [];
     side.innerHTML = `<h2>${n.title}</h2><p>${n.short}</p><p><span class="tag">${n.codes}</span></p>
-      <p>${n.pages.length} 张卡引用 · 主卡 ${n.primary_page || '—'}</p>`;
+      <p>${n.pages.length} 张卡引用 · 主卡 ${n.primary_page || '—'}</p>
+      ${seatLinks.length ? `<p><strong>关联席位 / 能力站位（${seatLinks.length}）</strong></p>` + seatLinks.map(s =>
+        `<p style="cursor:pointer;color:#8fd0b0" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</p>`
+      ).join('') : ''}`;
+    bind3dJumps();
   }
 }
 

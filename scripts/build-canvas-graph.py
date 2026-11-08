@@ -29,10 +29,11 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTEXT_PACK = ROOT / ".codex/context-pack.md"
 SEAT_REGISTRY = ROOT / ".codex/pilot/seat-registry.json"
 ROSTER = ROOT / ".codex/3plus50-roster.md"
+CROSSWALK = ROOT / "configs/seat-node-crosswalk.json"
 CARDS_DIR = ROOT / ".superpowers/brainstorm/38196-1789923100/content"
 OUTPUT = ROOT / "src/orgmap/data/graph.js"
 
-EXPECTED = {"decisions": 377, "cards": 63, "graph_cards": 33, "nodes": 20, "relations": 126, "seats": 53}
+EXPECTED = {"decisions": 377, "cards": 63, "graph_cards": 33, "nodes": 20, "relations": 126, "seats": 53, "crosswalk_seats": 53, "crosswalk_links": 38}
 
 # 固定 slug，遇到未登记的名称直接失败，逼出新结构先做决定。
 LEVEL1_SLUG = {
@@ -183,20 +184,26 @@ def collect_cards() -> tuple[list[dict], list[dict], list[dict]]:
 
 def collect_seats() -> dict:
     registry = json.loads(read(SEAT_REGISTRY))
+    cw_raw = json.loads(read(CROSSWALK))
+    cw_by_seat = {item["seat_id"]: item for item in cw_raw.get("seats", [])}
     seats, governance = [], []
     for s in registry["seats"]:
         plane, group = s.get("plane"), s.get("source_group")
+        cw = cw_by_seat.get(s["seat_id"], {})
         row = {"seat_id": s["seat_id"], "alias": s.get("alias", ""), "title": s.get("title", ""),
                "namespace": s.get("namespace", ""), "plane": plane, "source_group": group,
                "tier": s.get("tier", ""), "admission_status": s.get("admission_status", ""),
                "production_authorized": bool(s.get("production_authorized")),
                "runtime_identity_status": bool(s.get("runtime_identity_status")),
-               "catalog_ref": s.get("catalog_ref", "")}
+               "catalog_ref": s.get("catalog_ref", ""),
+               "slot_id": cw.get("slot_id", ""), "slot_title": cw.get("slot_title", ""),
+               "slot_basis": cw.get("slot_basis", ""), "pilot_role": cw.get("pilot_role"),
+               "node_links": cw.get("node_links", [])}
         if plane == GOVERNANCE_PLANE:
             governance.append(row)
         else:
             seats.append(row)
-    return {"seats": seats, "governance": governance,
+    return {"seats": seats, "governance": governance, "crosswalk": cw_raw,
             "meta": {k: registry.get(k) for k in ("version", "status", "artifact_kind",
                                                    "seat_count", "tier_definitions")}}
 
@@ -269,11 +276,41 @@ def build() -> dict:
     problems += [f"关系 {r['id']} 依据无法解析：{c}" for r in resolved + unresolved
                  for c in r["codes"] if c not in decision_ids]
     problems += verify_roster(seat_data["seats"], seat_data["governance"])
+    all_seats = seat_data["seats"] + seat_data["governance"]
+    cw_seats = seat_data["crosswalk"].get("seats", [])
+    seat_ids = {s["seat_id"] for s in all_seats}
+    if {c["seat_id"] for c in cw_seats} != seat_ids:
+        problems.append("crosswalk 席位集合与 seat-registry 不一致")
+    node_seat_links: dict[str, list[dict]] = {n["id"]: [] for n in nodes}
+    total_cw_links = 0
+    for s in all_seats:
+        if not s.get("slot_id") or s.get("slot_basis") not in decision_ids:
+            problems.append(f"席位 {s['seat_id']} 缺少有效 slot_id 或 slot_basis：{s.get('slot_basis')}")
+        for lk in s.get("node_links", []):
+            total_cw_links += 1
+            nid = lk.get("node_id")
+            if nid not in node_ids:
+                problems.append(f"crosswalk {s['seat_id']} 指向未知节点 {nid}")
+                continue
+            for bc in lk.get("basis", []):
+                if bc not in decision_ids:
+                    problems.append(f"crosswalk {s['seat_id']}->{nid} 依据无法解析：{bc}")
+            node_seat_links[nid].append({
+                "seat_id": s["seat_id"], "alias": s["alias"], "title": s["title"],
+                "plane": s["plane"], "source_group": s["source_group"],
+                "slot_id": s["slot_id"], "slot_title": s["slot_title"],
+                "relation": lk.get("relation", ""), "basis": lk.get("basis", []),
+                "note": lk.get("note", ""),
+            })
+    for n in nodes:
+        n["seat_links"] = node_seat_links.get(n["id"], [])
     counts = {"decisions": len(decisions), "cards": len(cards),
               "graph_cards": sum(1 for c in cards if c["node_count"] or c["relation_count"]),
               "nodes": len(nodes), "relations": len(resolved),
               "unresolved_relations": len(unresolved),
-              "seats": len(seat_data["seats"]) + len(seat_data["governance"])}
+              "seats": len(all_seats),
+              "crosswalk_seats": len(cw_seats),
+              "crosswalk_links": total_cw_links}
     for key, want in EXPECTED.items():
         got = counts["relations"] + counts["unresolved_relations"] if key == "relations" else counts[key]
         if got != want:
@@ -285,7 +322,7 @@ def build() -> dict:
         raise SystemExit("构建失败：\n  - " + "\n  - ".join(problems))
     return {
         "schema_version": 1,
-        "graph_version": fingerprint([CONTEXT_PACK, SEAT_REGISTRY, ROSTER] +
+        "graph_version": fingerprint([CONTEXT_PACK, SEAT_REGISTRY, ROSTER, CROSSWALK] +
                                      sorted(CARDS_DIR.glob("*.html"))),
         "status": "draft_pending_owner_signoff",
         "counts": counts,
@@ -301,6 +338,7 @@ def build() -> dict:
             "3 个 MGT 是决策权参照，不是部门、不是 agent session。",
             "relations 无 status 字段；候选/已确认在关系层不可表达，统一标 unspecified。",
             "53 席是 addressable seats，不是并发进程；production_authorized 全为 false。",
+            "席位↔节点映射来自 configs/seat-node-crosswalk.json（依据 C-300..C-310），映射≠任命。",
         ],
     }
 

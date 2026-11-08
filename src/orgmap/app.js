@@ -1,126 +1,107 @@
-import * as THREE from './vendor/three.module.min.js';
-import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=4';
+// 正交工作视图：使用 Canvas2D 绘制板面与折线（零 WebGL 依赖），DOM overlay 承载全部文字与交互。
+// three.module.min.js 仅由独立 3D 展示页 showcase.html 加载，工作视图冷启动立降 671KB。
+import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=10';
 
 const G = window.SANBAO_GRAPH;
 const $ = sel => document.querySelector(sel);
-const stage = $('#stage'), canvas = $('#gl'), labels = $('#labels');
+const stage = $('#stage'), canvas = $('#gl'), labels = $('#labels'), ctx = canvas.getContext('2d');
 
 const COLORS = {
-  board: 0xf1f0e9, band: 0xe7eee5, block: 0xffffff, pad: 0xe3ebe2,
-  card: 0xfffefb, shadow: 0x1b2a24,
-  baseline: 0x2d6756, feedback: 0xa8792c, plain: 0x98a29a,
+  board: '#f1f0e9', band: '#e7eee5', block: '#ffffff', pad: '#e3ebe2',
+  gov: '#f8f2e0', card: '#fffefb', shadow: 'rgba(27,42,36,0.07)',
+  baseline: '#2d6756', feedback: '#a8792c', plain: '#98a29a',
+  baselineDim: '#b9cfc7', feedbackDim: '#dfd0b4', plainDim: '#ced4cf',
+};
+const REL_LABEL = {
+  direct_reuse: '直接复用主站位',
+  sub_contributor: '内部专业贡献',
+  evidence_input: '来源事实/证据输入',
+  boundary_contributor: '边界条件输入',
+  readonly_consumer: '只读引用',
+  platform_steward: '平台维护侧归集',
 };
 const FONT_MIN = 12;
 const SEAT_FULL = 0.9, SEAT_COMPACT = 0.45;
-function seatMode(s){ return s >= SEAT_FULL ? 'full' : s >= SEAT_COMPACT ? 'compact' : 'hidden'; }
+const seatMode = s => s >= SEAT_FULL ? 'full' : s >= SEAT_COMPACT ? 'compact' : 'hidden';
 
-let lastEdgeScale = 0;
-const state = { view: 'org', cx: BOARD / 2, cy: BOARD / 2, scale: 1,
-                selected: null, hovered: null, dragging: false, moved: 0 };
+const state = { view: 'org', cx: BOARD / 2, cy: BOARD / 2, scale: 1, selected: null, moved: 0 };
 
 const org = layoutOrg(G.org);
 const net = layoutNetwork(G.network);
+const decisionById = new Map(G.decisions.map(d => [d.id, d]));
+const cardByFile = new Map(G.cards.map(c => [c.file, c]));
 
-// ---------- three ----------
-const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
-renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
-const scene = new THREE.Scene();
-scene.background = new THREE.Color(COLORS.board);
-const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 2000);
-camera.position.z = 600;
-scene.add(camera);
-
-const orgSolid = { pos: [], col: [] }, orgShadow = { pos: [], col: [] };
-const netBase = { pos: [], col: [] };
-const netSolid = { pos: [], col: [] }, netShadow = { pos: [], col: [] };
-const edgeBatch = { pos: [], col: [] };
-
-function pushQuad(batch, x, y, w, h, z, hex) {
-  const c = new THREE.Color(hex);
-  const x1 = x + w, yt = -y, yb = -(y + h);
-  const v = [[x, yb], [x1, yb], [x1, yt], [x, yb], [x1, yt], [x, yt]];
-  for (const [vx, vy] of v) { batch.pos.push(vx, vy, z); batch.col.push(c.r, c.g, c.b); }
-}
-function pushShadow(batch, x, y, w, h, z) {
-  const c = new THREE.Color(COLORS.shadow);
-  const off = 3, x1 = x + w, yt = -y - off, yb = -(y + h) - off;
-  const v = [[x, yb], [x1, yb], [x1, yt], [x, yb], [x1, yt], [x, yt]];
-  for (const [vx, vy] of v) { batch.pos.push(vx, vy, z); batch.col.push(c.r, c.g, c.b); }
-}
-function batchMesh(batch, z, opacity) {
-  const g = new THREE.BufferGeometry();
-  g.setAttribute('position', new THREE.Float32BufferAttribute(batch.pos, 3));
-  g.setAttribute('color', new THREE.Float32BufferAttribute(batch.col, 3));
-  const m = new THREE.MeshBasicMaterial({ vertexColors: true, transparent: opacity < 1, opacity, depthTest: false });
-  const mesh = new THREE.Mesh(g, m);
-  mesh.renderOrder = z;
-  return mesh;
-}
-
-function buildOrgScene() {
-  pushQuad(orgSolid, 0, 0, BOARD, BOARD, 0, COLORS.board);
-  for (const b of org.bands) pushQuad(orgSolid, b.x, b.y, b.w, b.h, 1, COLORS.band);
-  for (const b of org.blocks) { pushShadow(orgShadow, b.x, b.y, b.w, b.h, 2); pushQuad(orgSolid, b.x, b.y, b.w, b.h, 3, COLORS.block); }
-  for (const s of org.seats) { pushShadow(orgShadow, s.x, s.y, s.w, s.h, 4); pushQuad(orgSolid, s.x, s.y, s.w, s.h, 5, COLORS.pad); }
-  for (const g of org.governance) { pushShadow(orgShadow, g.x, g.y, g.w, g.h, 4); pushQuad(orgSolid, g.x, g.y, g.w, g.h, 5, 0xf8f2e0); }
-}
-function buildNetScene() {
-  pushQuad(netBase, 0, 0, BOARD, BOARD, 0, COLORS.board);
-  for (const n of net.nodes) { pushShadow(netShadow, n.x, n.y, n.w, n.h, 4); pushQuad(netSolid, n.x, n.y, n.w, n.h, 5, COLORS.card); }
-}
-buildOrgScene();
-buildNetScene();
-const orgGroup = new THREE.Group();
-orgGroup.add(batchMesh(orgSolid, 1, 1), batchMesh(orgShadow, 2, 0.07));
-const netBaseMesh = batchMesh(netBase, 1, 1); netBaseMesh.renderOrder = 1;
-const netCardsMesh = batchMesh(netSolid, 5, 1); netCardsMesh.renderOrder = 3;
-const netShadowMesh = batchMesh(netShadow, 6, 0.07); netShadowMesh.renderOrder = 2;
-const netGroup = new THREE.Group();
-netGroup.add(netBaseMesh, netShadowMesh, netCardsMesh);
-scene.add(orgGroup, netGroup);
-const edgeMesh = batchMesh(edgeBatch, 3, 0.95);
-edgeMesh.renderOrder = 2.5;
-scene.add(edgeMesh);
-
-// ---------- edges ----------
-function rebuildEdges() {
-  edgeBatch.pos.length = 0; edgeBatch.col.length = 0;
-  if (state.view !== 'network') { edgeMesh.geometry.dispose(); edgeMesh.geometry = new THREE.BufferGeometry(); return; }
-  const width = 3.2 / state.scale;
-  const sel = state.selected;
-  for (const e of net.edges) {
-    if (!e) continue;
-    const dim = sel && e.source !== sel && e.target !== sel;
-    const base = e.kind === 'feedback' ? COLORS.feedback : e.kind === 'baseline' ? COLORS.baseline : COLORS.plain;
-    const color = new THREE.Color(base);
-    if (dim) color.multiplyScalar(1.35);
-    const pts = e.points;
-    for (let i = 0; i < pts.length - 1; i++) pushSegment(pts[i], pts[i + 1], width, color);
-    pushArrow(pts[pts.length - 2], pts[pts.length - 1], width * 2.2, color);
+// ---------- Canvas2D 绘制 ----------
+function drawBox(x, y, w, h, fill, withShadow) {
+  if (withShadow) {
+    ctx.fillStyle = COLORS.shadow;
+    ctx.fillRect(x, y + 3, w, h);
   }
-  const g = new THREE.BufferGeometry();
-  g.setAttribute('position', new THREE.Float32BufferAttribute(edgeBatch.pos, 3));
-  g.setAttribute('color', new THREE.Float32BufferAttribute(edgeBatch.col, 3));
-  edgeMesh.geometry.dispose();
-  edgeMesh.geometry = g;
-}
-function pushSegment(a, b, w, c) {
-  const dx = b.x - a.x, dy = b.y - a.y, len = Math.hypot(dx, dy) || 1;
-  const nx = -dy / len * w / 2, ny = dx / len * w / 2;
-  const quad = [[a.x + nx, -a.y + ny], [b.x + nx, -b.y + ny], [b.x - nx, -b.y + ny],
-                [a.x + nx, -a.y + ny], [b.x - nx, -b.y + ny], [a.x - nx, -a.y - ny]];
-  for (const [x, y] of quad) { edgeBatch.pos.push(x, y, 6); edgeBatch.col.push(c.r, c.g, c.b); }
-}
-function pushArrow(a, b, size, c) {
-  const dx = b.x - a.x, dy = b.y - a.y, len = Math.hypot(dx, dy) || 1;
-  const ux = dx / len, uy = dy / len, px = -uy, py = ux;
-  const tip = { x: b.x, y: b.y };
-  const back = { x: b.x - ux * size * 2.4, y: b.y - uy * size * 2.4 };
-  const tri = [[tip.x, -tip.y], [back.x + px * size, -back.y - py * size], [back.x - px * size, -back.y + py * size]];
-  for (const [x, y] of tri) { edgeBatch.pos.push(x, y, 6); edgeBatch.col.push(c.r, c.g, c.b); }
+  ctx.fillStyle = fill;
+  ctx.fillRect(x, y, w, h);
 }
 
-// ---------- labels ----------
+function drawScene() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  const dpr = Math.min(devicePixelRatio || 1, 2);
+  if (canvas.width !== Math.round(w * dpr) || canvas.height !== Math.round(h * dpr)) {
+    canvas.width = Math.round(w * dpr);
+    canvas.height = Math.round(h * dpr);
+  }
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.fillStyle = COLORS.board;
+  ctx.fillRect(0, 0, w, h);
+
+  ctx.save();
+  ctx.translate(w / 2 - state.cx * state.scale, h / 2 - state.cy * state.scale);
+  ctx.scale(state.scale, state.scale);
+
+  if (state.view === 'org') {
+    for (const b of org.bands) drawBox(b.x, b.y, b.w, b.h, COLORS.band, false);
+    for (const b of org.blocks) drawBox(b.x, b.y, b.w, b.h, COLORS.block, true);
+    for (const s of org.seats) drawBox(s.x, s.y, s.w, s.h, COLORS.pad, true);
+    for (const g of org.governance) drawBox(g.x, g.y, g.w, g.h, COLORS.gov, true);
+  } else {
+    // 关系线画在卡片下层，不遮挡卡片文字
+    const sel = state.selected;
+    const lw = 3.2 / state.scale;
+    const arrow = lw * 2.2;
+    ctx.lineWidth = lw;
+    ctx.lineJoin = 'round';
+    ctx.lineCap = 'round';
+    for (const e of net.edges) {
+      if (!e) continue;
+      const dim = sel && e.source !== sel && e.target !== sel;
+      const color = e.kind === 'feedback'
+        ? (dim ? COLORS.feedbackDim : COLORS.feedback)
+        : e.kind === 'baseline'
+          ? (dim ? COLORS.baselineDim : COLORS.baseline)
+          : (dim ? COLORS.plainDim : COLORS.plain);
+      const pts = e.points;
+      ctx.strokeStyle = color;
+      ctx.beginPath();
+      ctx.moveTo(pts[0].x, pts[0].y);
+      for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i].x, pts[i].y);
+      ctx.stroke();
+
+      const a = pts[pts.length - 2], b = pts[pts.length - 1];
+      const dx = b.x - a.x, dy = b.y - a.y, len = Math.hypot(dx, dy) || 1;
+      const ux = dx / len, uy = dy / len, px = -uy, py = ux;
+      const bx = b.x - ux * arrow * 2.4, by = b.y - uy * arrow * 2.4;
+      ctx.fillStyle = color;
+      ctx.beginPath();
+      ctx.moveTo(b.x, b.y);
+      ctx.lineTo(bx + px * arrow, by + py * arrow);
+      ctx.lineTo(bx - px * arrow, by - py * arrow);
+      ctx.closePath();
+      ctx.fill();
+    }
+    for (const n of net.nodes) drawBox(n.x, n.y, n.w, n.h, COLORS.card, true);
+  }
+  ctx.restore();
+}
+
+// ---------- DOM 标签 ----------
 const labelEls = [];
 function mk(tag, cls, html, data) {
   const el = document.createElement(tag);
@@ -137,13 +118,13 @@ function buildLabels() {
     for (const g of org.blocks) labelEls.push({ el: mk('div', 'block-label' + (g.shared ? ' shared' : ''), `${g.level2Name} · ${g.seats.length}`, { kind: 'block', id: g.level2 }), x: g.x + g.w / 2, y: g.y + 15, kind: 'block' });
     for (const s of org.seats) {
       const el = mk('div', 'seat' + (s.status === 'UNVERIFIED' ? ' unverified' : s.status === 'PARTIAL' ? ' partial' : ''), `<b>${s.alias}</b><small>${s.id}</small>`, { kind: 'seat', id: s.id });
-      el.title = `${s.id} ${s.alias} · ${s.title}`;
+      el.title = `${s.id} ${s.alias} · ${s.title}（${s.slot_id}）`;
       el.addEventListener('click', ev => { ev.stopPropagation(); select({ kind: 'seat', id: s.id }); });
       labelEls.push({ el, x: s.x + s.w / 2, y: s.y + s.h / 2, kind: 'seat' });
     }
     for (const g of org.governance) {
       const el = mk('div', 'gov', `${g.id} ${g.alias}`, { kind: 'gov', id: g.id });
-      el.title = 'T4 决策权参照，不是 Agent 席位';
+      el.title = `${g.title} · T4 决策权参照，不是 Agent 席位`;
       el.addEventListener('click', ev => { ev.stopPropagation(); select({ kind: 'gov', id: g.id }); });
       labelEls.push({ el, baseW: g.w, x: g.x + g.w / 2, y: g.y + g.h / 2, kind: 'gov' });
     }
@@ -159,21 +140,12 @@ function buildLabels() {
   }
 }
 
-// ---------- view ----------
+// ---------- 视口与缩放 ----------
 function w2s(x, y) {
   return { x: (x - state.cx) * state.scale + stage.clientWidth / 2,
            y: (y - state.cy) * state.scale + stage.clientHeight / 2 };
 }
 function applyView() {
-  orgGroup.visible = state.view === 'org';
-  netGroup.visible = state.view === 'network';
-  edgeMesh.visible = state.view === 'network';
-  const w = stage.clientWidth, h = stage.clientHeight;
-  renderer.setSize(w, h, false);
-  const hw = w / 2 / state.scale, hh = h / 2 / state.scale;
-  camera.left = -hw; camera.right = hw; camera.top = hh; camera.bottom = -hh;
-  camera.position.x = state.cx; camera.position.y = -state.cy;
-  camera.updateProjectionMatrix();
   for (const l of labelEls) {
     const p = w2s(l.x, l.y);
     l.el.style.transform = `translate(${p.x}px,${p.y}px) translate(-50%,-50%)`;
@@ -199,8 +171,7 @@ function applyView() {
     }
   }
   $('#zoom').textContent = `${Math.round(state.scale * 100)}%`;
-  if (state.scale !== lastEdgeScale) { lastEdgeScale = state.scale; rebuildEdges(); }
-  renderer.render(scene, camera);
+  drawScene();
 }
 function fit(bounds, pad = 60) {
   const w = Math.max(80, stage.clientWidth - pad), h = Math.max(80, stage.clientHeight - pad);
@@ -221,7 +192,16 @@ function fitNet() {
         h: Math.max(...net.nodes.map(n => n.y + n.h)) - Math.min(...ys) + 60 });
 }
 
-// ---------- interaction ----------
+function switchTab(view, keepFit) {
+  document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  state.view = view; state.selected = null;
+  buildLabels();
+  if (!keepFit) { view === 'org' ? fitOrg() : fitNet(); }
+  applyView();
+  if (AUDIT_MODE) setTimeout(() => audit(), 120);
+}
+
+// ---------- 交互 ----------
 let drag = null;
 canvas.addEventListener('pointerdown', e => { drag = { x: e.clientX, y: e.clientY, cx: state.cx, cy: state.cy }; state.moved = 0; canvas.setPointerCapture(e.pointerId); });
 canvas.addEventListener('pointermove', e => {
@@ -246,72 +226,215 @@ canvas.addEventListener('wheel', e => {
 canvas.addEventListener('click', () => select(null));
 
 document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => {
-  document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b === btn));
-  state.view = btn.dataset.view; state.selected = null;
-  buildLabels(); state.view === 'org' ? fitOrg() : fitNet(); lastEdgeScale = -1; applyView(); side(null);
-  if (AUDIT_MODE) setTimeout(() => audit(), 120);
+  switchTab(btn.dataset.view, false);
+  side(null);
 }));
 addEventListener('resize', () => { applyView(); if (AUDIT_MODE) setTimeout(() => audit(), 120); });
-addEventListener('keydown', e => { if (e.key === 'Escape') { select(null); } });
+addEventListener('keydown', e => { if (e.key === 'Escape') { select(null); $('#q-results').hidden = true; } });
 
-// ---------- selection & side panel ----------
+// ---------- 选中与侧栏 ----------
+const sideEl = $('#side'); sideEl.dataset.empty = sideEl.innerHTML;
+
+function cTagsHtml(codesStrOrArr) {
+  const list = Array.isArray(codesStrOrArr)
+    ? codesStrOrArr
+    : (codesStrOrArr || '').match(/C-\d{3}/g) || [];
+  return list.map(c => {
+    const d = decisionById.get(c);
+    const tip = d && d.title ? `${c} · ${d.title}` : c;
+    return `<span class="tag c-link" data-cid="${c}" title="${tip.replace(/"/g, '&quot;')}">${c}</span>`;
+  }).join('');
+}
+
+function bindSideEvents(el) {
+  el.querySelectorAll('[data-jump-node]').forEach(d => d.addEventListener('click', () => {
+    const id = d.dataset.jumpNode;
+    if (state.view !== 'network') switchTab('network', false);
+    select({ kind: 'node', id });
+  }));
+  el.querySelectorAll('[data-jump-seat]').forEach(d => d.addEventListener('click', () => {
+    const id = d.dataset.jumpSeat;
+    const isGov = id.startsWith('MGT-');
+    if (state.view !== 'org') switchTab('org', false);
+    const target = isGov ? org.governance.find(x => x.id === id) : org.seats.find(x => x.id === id);
+    if (target) { state.cx = target.x + target.w / 2; state.cy = target.y + target.h / 2; state.scale = Math.max(state.scale, 0.95); applyView(); }
+    select({ kind: isGov ? 'gov' : 'seat', id });
+  }));
+  el.querySelectorAll('[data-cid]').forEach(t => t.addEventListener('click', ev => {
+    ev.stopPropagation();
+    select({ kind: 'decision', id: t.dataset.cid });
+  }));
+  const moreBtn = el.querySelector('[data-expand-pages]');
+  if (moreBtn) {
+    moreBtn.addEventListener('click', () => {
+      el.querySelectorAll('.extra-page').forEach(p => { p.hidden = false; });
+      moreBtn.remove();
+    });
+  }
+}
+
 function select(sel) {
   state.selected = sel && sel.id || null;
   for (const l of labelEls) {
     l.el.classList.toggle('selected', !!sel && l.el.dataset.id === sel.id);
-    if (l.kind === 'node' && sel) l.el.classList.toggle('dim', !isNeighbor(sel.id, l.el.dataset.id));
+    if (l.kind === 'node' && sel && sel.kind === 'node') {
+      l.el.classList.toggle('dim', !isNeighbor(sel.id, l.el.dataset.id));
+    } else if (l.kind === 'node') {
+      l.el.classList.remove('dim');
+    }
   }
-  rebuildEdges();
-  renderer.render(scene, camera);
+  drawScene();
   side(sel);
 }
 function isNeighbor(a, b) {
   if (a === b) return true;
   return net.edges.some(e => e && ((e.source === a && e.target === b) || (e.source === b && e.target === a)));
 }
+
 function side(sel) {
   const el = $('#side');
   if (!sel) { el.innerHTML = sideEl.dataset.empty; fillFacts(); return; }
-  if (sel.kind === 'seat' || sel.kind === 'gov') {
-    const s = sel.kind === 'gov' ? org.governance.find(g => g.id === sel.id) : G.org.seats.find(x => x.seat_id === sel.id);
-    const meta = G.org.seats.find(x => x.seat_id === sel.id);
-    const sid = s.seat_id || s.id;
-    el.innerHTML = `<h2>${s.alias} · ${sid}</h2>
-      <p>${s.title}</p>
-      ${meta ? `<p><span class="tag">${meta.plane}</span><span class="tag">${meta.source_group}</span><span class="tag">${meta.tier}</span>
-      <span class="tag warn">${meta.admission_status}</span></p>
-      <dl class="facts"><dt>生产授权</dt><dd>${meta.production_authorized ? '是' : '否'}</dd><dt>运行身份</dt><dd>${meta.runtime_identity_status ? '是' : '否'}</dd>
-      <dt>catalog_ref</dt><dd>断链（目标文件不存在）</dd></dl>` : `<p>治理参照：T4 决策权规则，不是 Agent 席位。</p>`}
-      <p style="margin-top:14px">席位到卡片的映射没有权威来源，本页不提供跳转。</p>`;
+
+  if (sel.kind === 'decision') {
+    const d = decisionById.get(sel.id);
+    if (!d) { el.innerHTML = `<h2>${sel.id}</h2><p>未找到该决策记录。</p>`; return; }
+    const refNodes = net.nodes.filter(n => (n.codes || '').includes(sel.id));
+    const refSeats = [...G.org.seats, ...G.org.governance].filter(s =>
+      s.slot_basis === sel.id || (s.node_links || []).some(lk => (lk.basis || []).includes(sel.id))
+    );
+    const refRels = G.network.relations.filter(r => (r.codes || []).includes(sel.id));
+    el.innerHTML = `<h2>${d.id}</h2>
+      <p style="color:var(--ink);font-weight:500">${d.title || '（无标题摘要）'}</p>
+      <dl class="facts">
+        <dt>出处</dt><dd><code>.codex/context-pack.md</code> 第 ${d.line} 行</dd>
+        <dt>条目形态</dt><dd>${d.form}${d.level ? ` (H${d.level})` : ''}</dd>
+        <dt>关联节点</dt><dd>${refNodes.length} 个</dd>
+        <dt>关联关系</dt><dd>${refRels.length} 条</dd>
+        <dt>关联席位</dt><dd>${refSeats.length} 个</dd>
+      </dl>
+      ${refNodes.length ? `<h3>关联经营网络节点</h3>` + refNodes.map(n =>
+        `<div class="rel" data-jump-node="${n.id}"><div class="obj">→ ${n.title}</div><div class="meta">${n.short} · ${n.codes}</div></div>`
+      ).join('') : ''}
+      ${refSeats.length ? `<h3>关联席位 / 能力站位</h3>` + refSeats.map(s =>
+        `<div class="rel" data-jump-seat="${s.seat_id}"><div class="obj">→ ${s.seat_id} ${s.alias} · ${s.title}</div><div class="meta">${s.slot_id} ${s.slot_title}</div></div>`
+      ).join('') : ''}`;
+    bindSideEvents(el);
     return;
   }
+
+  if (sel.kind === 'seat' || sel.kind === 'gov') {
+    const meta = [...G.org.seats, ...G.org.governance].find(x => x.seat_id === sel.id);
+    if (!meta) return;
+    const links = meta.node_links || [];
+    el.innerHTML = `<h2>${meta.alias} · ${meta.seat_id}</h2>
+      <p>${meta.title}</p>
+      <p><span class="tag">${meta.plane}</span><span class="tag">${meta.source_group}</span><span class="tag">${meta.tier}</span>
+      <span class="tag warn">${meta.admission_status}</span>
+      ${meta.pilot_role ? `<span class="tag">FLOW-02: ${meta.pilot_role}</span>` : ''}</p>
+      <dl class="facts">
+        <dt>能力站位</dt><dd>${meta.slot_id} · ${meta.slot_title} ${cTagsHtml([meta.slot_basis])}</dd>
+        <dt>生产授权</dt><dd>${meta.production_authorized ? '是' : '否'}</dd>
+        <dt>运行身份</dt><dd>${meta.runtime_identity_status ? '是' : '否'}</dd>
+        <dt>catalog_ref</dt><dd>断链（源仓未检出）</dd>
+      </dl>
+      <h3>关联经营网络节点（${links.length}）</h3>
+      ${links.length ? links.map(lk => {
+        const nd = net.nodes.find(x => x.id === lk.node_id);
+        return `<div class="rel" data-jump-node="${lk.node_id}">
+          <div class="obj">→ ${nd ? nd.title : lk.node_id} <span class="tag">${REL_LABEL[lk.relation] || lk.relation}</span></div>
+          <div class="meta">${lk.note}</div>
+          <div>${cTagsHtml(lk.basis)}</div>
+        </div>`;
+      }).join('') : `<p>C-300..C-309 未将该站位直接映射到 20 个主网节点（属跨事项治理、专项渠道/服务或平台底层支撑，按 C-270/C-198/C-199 按题进入）。</p>`}`;
+    bindSideEvents(el);
+    return;
+  }
+
   const n = net.nodes.find(x => x.id === sel.id);
   const rels = net.edges.filter(e => e && (e.source === sel.id || e.target === sel.id));
+  const seatLinks = n.seat_links || [];
+  const allPages = [n.primary_page, ...n.pages.filter(f => f !== n.primary_page)].filter(Boolean);
   el.innerHTML = `<h2>${n.title}</h2><p>${n.short}</p>
-    <p><span class="tag">${n.codes}</span></p>
-    <p>${rels.length} 条关系 · ${n.pages.length} 张卡引用</p>
+    <p>${cTagsHtml(n.codes)}</p>
+    <p>${rels.length} 条关系 · ${seatLinks.length} 个关联席位 · ${allPages.length} 张卡引用</p>
+    <h3>关联席位 / 能力站位（${seatLinks.length}）</h3>
+    ${seatLinks.map(s => `<div class="rel" data-jump-seat="${s.seat_id}">
+      <div class="obj">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</div>
+      <div class="meta">${REL_LABEL[s.relation] || s.relation} · ${s.note}</div>
+      <div>${cTagsHtml(s.basis)}</div>
+    </div>`).join('')}
+    <h3>协作关系（${rels.length}）</h3>
     ${rels.map(e => {
       const other = e.source === sel.id ? e.target : e.source;
       const o = net.nodes.find(x => x.id === other);
       const dir = e.source === sel.id ? '→' : '←';
       const kinds = [e.baseline ? '主线' : '', e.feedback ? '反馈' : ''].filter(Boolean).join(' + ') || '未标注';
       const obj = e.object ? ` · ${e.object}` : '';
-      return `<div class="rel" data-jump="${other}"><div class="obj">${dir} ${o ? o.title : other}${obj}</div>
+      return `<div class="rel" data-jump-node="${other}"><div class="obj">${dir} ${o ? o.title : other}${obj}</div>
         <div class="meta">${kinds} · ${(e.codes || []).join(' / ')}</div></div>`;
     }).join('')}
-    <h2 style="font-size:13px;margin-top:18px">来源卡</h2>
-    <p>该节点出现在以下卡片中。链接直接打开原页，不复制正文。</p>
-    ${[n.primary_page, ...n.pages.filter(f => f !== n.primary_page)].slice(0, 4).map((f, i) =>
-      `<div class="rel"><a href="../../.superpowers/brainstorm/38196-1789923100/content/${f}" target="_blank" rel="noopener">${i === 0 ? '主卡 · ' : ''}${f.replace('.html', '')}</a></div>`).join('')}
-    ${(() => { const all = [n.primary_page, ...n.pages.filter(f => f !== n.primary_page)]; return all.length > 4 ? `<p>另有 ${all.length - 4} 张卡引用。</p>` : ''; })()}
+    <h3>来源卡（${allPages.length}）</h3>
+    <p>点击直接打开原 HTML 卡片，不复制正文。</p>
+    ${allPages.map((f, i) => {
+      const cardMeta = cardByFile.get(f);
+      const sub = cardMeta && cardMeta.title ? ` · ${cardMeta.title}` : '';
+      return `<div class="rel ${i >= 4 ? 'extra-page' : ''}" ${i >= 4 ? 'hidden' : ''}>
+        <a href="../../.superpowers/brainstorm/38196-1789923100/content/${f}" target="_blank" rel="noopener">${i === 0 ? '主卡 · ' : ''}${f.replace('.html', '')}</a>
+        <div class="meta">${sub.slice(0, 42)}</div>
+      </div>`;
+    }).join('')}
+    ${allPages.length > 4 ? `<button class="more-btn" data-expand-pages>展开其余 ${allPages.length - 4} 张来源卡</button>` : ''}
     ${net.unresolved.length ? `<p style="margin-top:12px">另有 ${net.unresolved.length} 条关系引用未声明节点，未绘制。</p>` : ''}`;
-  el.querySelectorAll('[data-jump]').forEach(d => d.addEventListener('click', () => select({ kind: 'node', id: d.dataset.jump })));
+  bindSideEvents(el);
 }
 
-// 保存空态模板，避免选择后丢失
-const sideEl = $('#side'); sideEl.dataset.empty = sideEl.innerHTML;
+// ---------- 顶栏全局搜索 ----------
+const qInput = $('#q'), qBox = $('#q-results');
+qInput.addEventListener('input', () => {
+  const q = qInput.value.trim().toLowerCase();
+  if (!q) { qBox.hidden = true; qBox.innerHTML = ''; return; }
+  const hits = [];
+  for (const s of [...G.org.seats, ...G.org.governance]) {
+    const hay = `${s.seat_id} ${s.alias} ${s.title} ${s.slot_id} ${s.slot_title} ${s.plane} ${s.source_group}`.toLowerCase();
+    if (hay.includes(q)) hits.push({ kind: s.seat_id.startsWith('MGT-') ? 'gov' : 'seat', id: s.seat_id, label: `${s.seat_id} ${s.alias} · ${s.title}`, sub: `${s.slot_id} · ${s.plane}` });
+  }
+  for (const n of net.nodes) {
+    const hay = `${n.id} ${n.title} ${n.short} ${n.codes}`.toLowerCase();
+    if (hay.includes(q)) hits.push({ kind: 'node', id: n.id, label: `节点 · ${n.title}`, sub: n.codes });
+  }
+  for (const d of G.decisions) {
+    if (d.id.toLowerCase().includes(q) || (d.title || '').toLowerCase().includes(q)) {
+      hits.push({ kind: 'decision', id: d.id, label: `${d.id} · ${(d.title || '').slice(0, 28)}`, sub: `L${d.line}` });
+      if (hits.length >= 24) break;
+    }
+  }
+  if (!hits.length) {
+    qBox.innerHTML = `<div class="q-item"><span>无匹配结果</span></div>`;
+    qBox.hidden = false;
+    return;
+  }
+  qBox.innerHTML = hits.slice(0, 20).map((h, i) =>
+    `<div class="q-item" data-idx="${i}"><span>${h.label}</span><small>${h.sub}</small></div>`
+  ).join('');
+  qBox.hidden = false;
+  qBox.querySelectorAll('.q-item').forEach((el, i) => el.addEventListener('click', () => {
+    const h = hits[i];
+    qBox.hidden = true;
+    if (h.kind === 'seat' || h.kind === 'gov') {
+      if (state.view !== 'org') switchTab('org', false);
+      const t = h.kind === 'gov' ? org.governance.find(x => x.id === h.id) : org.seats.find(x => x.id === h.id);
+      if (t) { state.cx = t.x + t.w / 2; state.cy = t.y + t.h / 2; state.scale = Math.max(state.scale, 0.95); applyView(); }
+      select({ kind: h.kind, id: h.id });
+    } else if (h.kind === 'node') {
+      if (state.view !== 'network') switchTab('network', false);
+      select({ kind: 'node', id: h.id });
+    } else {
+      select({ kind: 'decision', id: h.id });
+    }
+  }));
+});
 
-// ---------- audit ----------
+// ---------- 自检 audit ----------
 function audit() {
   const issues = [];
   const boxes = [...labels.children].filter(el => el.offsetParent !== null && getComputedStyle(el).display !== 'none')
@@ -362,7 +485,6 @@ function audit() {
       }
     }
   }
-  // 关系线画在卡片下层：即使几何穿过卡片也不遮挡文字，只记录被遮段数。
   const aggregate = state.view === 'org' && state.scale < 0.45;
   const coverage = aggregate ? 'aggregate' : boxes.length < 8 ? 'empty' : boxes.length < 20 ? 'reduced' : 'full';
   const ok = collisions === 0 && obstructed === 0 && issues.length === 0 && (coverage === 'full' || coverage === 'reduced' || coverage === 'aggregate');
@@ -370,27 +492,29 @@ function audit() {
   box.hidden = false;
   box.className = ok ? 'pass' : 'fail';
   box.textContent = `AUDIT ${ok ? 'PASS' : 'FAIL'} · ${stage.clientWidth}×${stage.clientHeight} · zoom ${Math.round(state.scale * 100)}%\n` +
-    `标签 ${boxes.length}（覆盖 ${coverage}） · 重叠 ${collisions} · 线被卡片遮住 ${obstructed}（下层绘制，不算遮挡文字） · 字号 <${FONT_MIN}px ${issues.filter(x => x.startsWith('字号')).length}\n` +
+    `标签 ${boxes.length}（覆盖 ${coverage}） · 重叠 ${collisions} · 线被卡片遮住 ${obstructed} · 字号 <${FONT_MIN}px ${issues.filter(x => x.startsWith('字号')).length}\n` +
     (issues.length ? '\n' + issues.slice(0, 8).join('\n') : '');
   return { ok, collisions, obstructed, labels: boxes.length, coverage, w: stage.clientWidth, h: stage.clientHeight };
 }
 window.__audit = audit;
-window.__proto = { state, applyView };
+window.__proto = { state, applyView, select };
 
-// ---------- bench ----------
+// ---------- 启动 ----------
 window.__clicks = 0;
 document.addEventListener('click', () => { window.__clicks++; }, true);
 
-// ---------- boot ----------
 $('#gv').textContent = G.graph_version;
 function fillFacts() {
   const seats = G.org.seats, gov = G.org.governance, all = seats.length + gov.length;
   const adm = {}; for (const s of [...seats, ...gov]) adm[s.admission_status] = (adm[s.admission_status] || 0) + 1;
   const auth = [...seats, ...gov].filter(s => s.production_authorized).length;
+  const linkedSeats = seats.filter(s => (s.node_links || []).length > 0).length;
   $('#f-seats').textContent = `${all} 个可寻址席位（${seats.length} AGT + ${gov.length} MGT）`;
   $('#f-proc').textContent = `0 · 不是 ${all} 个同时在跑的 Agent`;
   $('#f-auth').textContent = `${auth} / ${all}`;
   $('#f-adm').textContent = Object.entries(adm).map(([k, v]) => `${v} ${k}`).join(' · ');
+  const cwEl = $('#f-cw');
+  if (cwEl) cwEl.textContent = `50 岗全映射能力站位 · ${linkedSeats} 席直连 20 主网节点（${G.counts.crosswalk_links} 条）`;
 }
 fillFacts();
 buildLabels();
@@ -400,6 +524,6 @@ if (location.search.includes('view=network')) {
   document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b.dataset.view === 'network'));
   buildLabels(); fitNet();
 }
-applyView();
 const AUDIT_MODE = location.search.includes('audit=1');
+applyView();
 if (AUDIT_MODE) setTimeout(() => audit(), 200);
