@@ -5,7 +5,7 @@ module: sanbao-orgmap
 topic: canvas-graph-index
 status: draft
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-09
 owner: self
 source: human+ai
 ---
@@ -111,3 +111,14 @@ python3 -m http.server 8765 --bind 127.0.0.1
   - `scripts/check-readonly-policy-gate.py --selftest`：验证 12/12 技能契约完整性与 10/10 只读负向越界拦截测试全绿，已接入 `check-ledger-consistency.py`。
 - **批次 14（总入口索引挂载）**：
   - `README.md`、`deliverables/SANBAO-RESULTS.md`、`deliverables/README.md`、`HANDOFF.md` 已全部挂载 `src/orgmap/` 与 `sanbao-handoff-20261104` 入口。
+
+## 9. 批次 15–17 · 50 席真实数字员工头像、四维档案卡与剩余四项治理机制门禁
+
+- **批次 15（真实数字员工头像与四维档案编译器）**：
+  - 将 `WorldPilot Collection 06` 数字员工头像库中 50 个 `AGT-001..050` 的深浅两套 `64px / 256px` WebP 资产（共 200 张，1.5MB）入仓至 `src/orgmap/assets/avatars/{light,dark}/{64,256}/`；3 个 `MGT-001..003` 严守 T4 决策权规则包边界，使用纯矢量铜牌 `src/orgmap/plaque.js`（零 Three.js 依赖），不套人形头像；
+  - 扩展 `scripts/build-canvas-graph.py`，构建期抽取 53 席完整四维档案（灵魂 `soul`、岗位职责与独立 Playbook `duty`、技能与供给映射 `skills`、协作与硬红线 `collaboration` 及 `CR-AO-001` 9 席职责增补叠加层）写入 `source-snapshot.json` 与 `data/graph.js`。
+- **批次 16（四维数字员工档案卡 `src/orgmap/dossier.js`）**：
+  - 2D 浅色工作视图与 3D 深色展示视图共用 `renderDossierHtml()`，提供 `01 灵魂 · 02 职责 · 03 技能 · 04 边界` 粘性章节导航、256px 装裱肖像、灵魂原则引语与停止信号轨、标准交付物标本框、CR-AO-001 增补签条、Playbook 步骤时间轴、技能供给进度条与试点 L3 契约折叠卡、可点击跳转的协作同事头像芯片及「我绝不做什么」红线清单；
+  - 1440×900 视口下 2D 画布默认显示全部 50 个真实数字员工小头像且 `window.__audit()` 保持 `PASS`（0 碰撞、0 遮挡、0 截断，零 Three.js 加载）。
+- **批次 17（优化草案 §9 剩余四项缺失治理机制门禁）**：
+  - 新增 `configs/pilot-governance-mechanisms.json` 与 `scripts/check-governance-mechanisms.py`（`--selftest` 4/4 机制 + 16/16 正负向用例全绿），覆盖 `Falsification Gate（证伪门禁）`、`Conflict Record（分歧记录契约）`、`Program/Incident 跨事项承接`、`预算与并发配额上限`，已接入 `check-ledger-consistency.py` 与 `build-canvas-graph.py`。

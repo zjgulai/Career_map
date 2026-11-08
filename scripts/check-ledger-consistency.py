@@ -67,6 +67,7 @@ ABS_PATH_FILES = (
     "configs/pilot-flow02-preconditions.json",
     "configs/flow02-stage-contracts.json",
     "configs/pilot-4seat-skill-contracts.json",
+    "configs/pilot-governance-mechanisms.json",
     "CONTEXT.md",
     ".codex/context-pack.md",
     ".codex/product-responsibility-research.md",
@@ -345,6 +346,14 @@ def collect(root: Path) -> list[str]:
                                cwd=root, capture_output=True, text=True)
         if pgres.returncode != 0:
             failures.append(f"FLOW-02 只读 Policy Gate 自检失败：{(pgres.stderr or pgres.stdout).strip()}")
+
+    # 7d. 优化草案 §9 剩余四项缺失治理机制门禁（证伪门禁/分歧记录/Program-Incident承接/预算并发上限）
+    gm_script = root / "scripts/check-governance-mechanisms.py"
+    if gm_script.is_file():
+        gmres = subprocess.run([sys.executable, "-I", str(gm_script), "--selftest"],
+                               cwd=root, capture_output=True, text=True)
+        if gmres.returncode != 0:
+            failures.append(f"四项缺失治理机制门禁自检失败：{(gmres.stderr or gmres.stdout).strip()}")
 
     # 8. orgmap graph.js 新鲜度门禁
     graph_script = root / "scripts/build-canvas-graph.py"

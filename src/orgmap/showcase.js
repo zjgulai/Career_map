@@ -1,9 +1,10 @@
 // 三宝组织空间 3D 展示页：1 unit = 1 cm 的建筑剖切表现图。
 // 设计态展示，不是运行系统。人物完全静止；MGT 只是铜牌，不是人。
 import * as THREE from './vendor/three.module.min.js';
-import { layoutOrg, layoutNetwork } from './layout.js?v=14';
-import { createPerson, createPlaque, renderAvatarSvg } from './avatars.js?v=22';
-import { buildFlowLines } from './flow.js?v=22';
+import { layoutOrg, layoutNetwork } from './layout.js?v=35';
+import { createPerson, createPlaque, renderAvatarSvg } from './avatars.js?v=35';
+import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=35';
+import { buildFlowLines } from './flow.js?v=35';
 
 const G = window.SANBAO_GRAPH;
 const stage = document.querySelector('#stage');
@@ -495,7 +496,7 @@ function addLabel(html, pos, cls, data, isHtml = false) {
     'lbl node', { kind: 'node', id: nd.id });
   // 席位名片标签（含确定性 SVG 类人头像 + 姓名 + 编号）
   for (const s of org.seats) {
-    const svg = renderAvatarSvg({ ...s, seat_id: s.id, level1: s.level1 }, 20);
+    const svg = renderPinAvatarHtml({ ...s, seat_id: s.id, level1: s.level1 }, 'dark', 24);
     addLabel(`${svg}<span>${s.alias}</span><small>${s.id}</small>`,
       new THREE.Vector3(s.x + s.w / 2, 142, s.y + s.h / 2), 'lbl seat', { kind: 'seat', id: s.id }, true);
   }
@@ -634,9 +635,10 @@ function showDetail(kind, id) {
       const pre = plData.preconditions || { counts: {}, items: [] };
       const pc = pre.counts || {};
       const pg = plData.policy_gate || {};
+      const gm = plData.governance_mechanisms || {};
       side.innerHTML = `${cbar}<h2>${plData.title}</h2>
       <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待签核 ${pc.awaiting_human_signoff || 0}/7</span>
-      <span class="tag">Policy Gate ${pg.negative_tests_passed || 10}/10</span></p>
+      <span class="tag">Policy Gate ${pg.negative_tests_passed || 10}/10</span><span class="tag">治理机制 ${gm.cases_passed || 16}/${gm.cases_total || 16}</span></p>
       <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待真人签核 ${pc.awaiting_human_signoff || 0}/7</span><span class="tag">${plData.active_sessions} 并发 session</span></p>
       <p>授权依据：<code>${plData.authorization_ref}</code></p>
       ${(pre.items || []).length ? `<h3>七项生效前置（P1..P7）</h3>` + pre.items.map(it => {
@@ -676,33 +678,25 @@ function showDetail(kind, id) {
           <small>主责：${cur.producer_seats.join(', ')}｜注入：${cur.injected_seats.join(', ') || '无'}｜sha: ${cur.artifact_sha256}</small></p>
           <div class="art-box">${JSON.stringify(cur.artifact, null, 2)}</div>`;
       })()}`; }
-  } else if (kind === 'seat') {
+  } else if (kind === 'seat' || kind === 'gov') {
     const s = SEAT_MAP.get(id);
     if (!s) return;
-    const deptKey = PLANE2DEPT[s.plane] || 'ops';
-    const avatar = renderAvatarSvg({ ...s, level1: deptKey }, 52);
-    const links = s.node_links || [];
-    side.innerHTML = `<div class="profile-head">${avatar}<div><h2>${s.alias} · ${s.seat_id}</h2><p style="margin:0">${s.title}</p></div></div>
-      <p><span class="tag">${s.plane}</span><span class="tag">${s.source_group}</span>
-      <span class="tag">${s.tier}</span><span class="tag warn">${s.admission_status}</span></p>
-      <p>能力站位：${s.slot_id} · ${s.slot_title}（${s.slot_basis}）</p>
-      <p>目标运行层：<code>${s.runtime_layer || '—'}</code></p>
-      <p>生产授权：否 · 运行身份：否</p>
-      ${(s.chains || []).length ? `<p>参与主链：${s.chains.map(c => `<span class="tag">${c}</span>`).join('')}</p>` : ''}
-      ${(s.skill_contracts || []).length ? `<h3>试点 L3 技能契约（${s.skill_contracts.length}）</h3>` + s.skill_contracts.map(sk =>
-        `<p><strong>${sk.l3_name}</strong>：<code>${sk.supply.join(', ')}</code><br><small>${sk.method}</small></p>`
-      ).join('') : ''}
-      ${links.length ? `<h3>关联经营网络节点（${links.length}）</h3>` + links.map(lk => {
-        const nd = net.nodes.find(x => x.id === lk.node_id);
-        return `<div class="jump" data-jump3d="node:${lk.node_id}">→ ${nd ? nd.title : lk.node_id}（${lk.basis.join('/')}）<br><small style="color:#8f9d97">${lk.note}</small></div>`;
-      }).join('') : `<p>无直接主网节点映射（跨事项按题进入）。</p>`}`;
-  } else if (kind === 'gov') {
-    const g = SEAT_MAP.get(id);
-    const avatar = renderAvatarSvg(g, 48);
-    side.innerHTML = `<div class="profile-head">${avatar}<div><h2>${g.alias} · ${g.seat_id}</h2><p style="margin:0">${g.title}</p></div></div>
-      <p><span class="tag">${g.slot_id}</span><span class="tag">${g.slot_title}</span></p>
-      <p><strong>T4 决策权规则，不是 Agent 席位，不是部门。</strong></p>
-      <p>治理参照：T4 决策权规则包。不挂 session、不进事项、不发 ActionIntent。</p>`;
+    const REL_LABEL_3D = {
+      direct_reuse: '直接复用主站位',
+      sub_contributor: '内部专业贡献',
+      evidence_input: '来源事实/证据输入',
+      boundary_contributor: '边界条件输入',
+      readonly_consumer: '只读引用',
+      platform_steward: '平台维护侧归集',
+    };
+    side.innerHTML = renderDossierHtml(s, {
+      theme: 'dark',
+      allSeatsMap: SEAT_MAP,
+      netNodes: net.nodes,
+      cTagsFn: arr => (Array.isArray(arr) ? arr : []).map(c => `<span class="tag">${c}</span>`).join(''),
+      relLabelMap: REL_LABEL_3D,
+    });
+    side.scrollTop = 0;
   } else if (kind === 'node') {
     const nd = net.nodes.find(x => x.id === id);
     const seats = nd.seat_links || [];
@@ -766,6 +760,22 @@ function showDetail(kind, id) {
     const want = k === 'node' ? 'network' : 'org';
     if (stage.dataset.view !== want) switchView(want);
     showDetail(k, v);
+  }));
+  side.querySelectorAll('[data-jump-seat]').forEach(el => el.addEventListener('click', () => {
+    const sid = el.dataset.jumpSeat;
+    const isGov = sid.startsWith('MGT-');
+    if (stage.dataset.view !== 'org') switchView('org');
+    const seatBox = org.seats.find(x => x.id === sid);
+    if (seatBox) {
+      orbit.target.set(seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2);
+      orbit.radius = Math.min(orbit.radius, 1180);
+    }
+    showDetail(isGov ? 'gov' : 'seat', sid);
+  }));
+  side.querySelectorAll('[data-jump-node]').forEach(el => el.addEventListener('click', () => {
+    const nid = el.dataset.jumpNode;
+    if (stage.dataset.view !== 'network') switchView('network');
+    showDetail('node', nid);
   }));
 }
 
@@ -844,7 +854,7 @@ function projectLabels() {
       if (l.kind === 'seat' && (pilotCoreIds.has(l.id) || pilotCtxIds.has(l.id))) seatShown.add(l);
     }
   }
-  if (orgView && orbit.radius < 1750) {
+  if (orgView && orbit.radius < 2800) {
     const cands = [];
     for (const l of labels) {
       if (l.kind !== 'seat') continue;
@@ -853,7 +863,8 @@ function projectLabels() {
       cands.push({ l, d: v3.z });
     }
     cands.sort((a, b) => a.d - b.d);
-    for (const c of cands.slice(0, 22)) seatShown.add(c.l);
+    const maxPins = orbit.radius < 1750 ? 26 : 16;
+    for (const c of cands.slice(0, maxPins)) seatShown.add(c.l);
   }
 
   // 收集本轮候选：先算屏幕矩形，再按优先级贪心避让

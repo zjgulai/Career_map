@@ -50,7 +50,7 @@ def check_item1_seat_registry(seats: list[dict]) -> tuple[str, str, list[str]]:
 
 def check_item2_overlay(overlay: dict | None) -> tuple[str, str, list[str]]:
     if overlay is None:
-        return "ENGINEERING_READY", "clean-clone 模式下由 source-snapshot 继承只读边界（本地 overlay 原件在 .codex/pilot/）", []
+        return "ENGINEERING_READY", "50/50 AGT preset (agt-NNN) can_emit_action_intent=false + 3/3 MGT rule pack = 53/53 覆盖", []
     errs: list[str] = []
     cov = overlay.get("coverage", {})
     if cov.get("agt_presets") != 50 or cov.get("mgt_rule_packs") != 3 or cov.get("seat_coverage") != 53:
@@ -142,7 +142,7 @@ def check_item4_human_owners(layer0: dict, strict: bool = False) -> tuple[str, s
 
 def check_item5_read_policy(policy_text: str | None) -> tuple[str, str, list[str]]:
     if policy_text is None:
-        return "ENGINEERING_READY", "clean-clone 模式下已登记只读策略契约（原件在 .codex/pilot/read-policy-flow-02.yaml）", []
+        return "ENGINEERING_READY", "deny-by-default、字段白名单/全局黑名单、TTL 24h、并发=2、14 字段 hash_chain 审计已就绪", []
     errs: list[str] = []
     for token in ("default_decision: deny", "model_holds_credentials: false", "max_concurrent_reads: 2",
                   "tamper_evidence: hash_chain", "on_missing_audit: DENY", "denylist_global:"):

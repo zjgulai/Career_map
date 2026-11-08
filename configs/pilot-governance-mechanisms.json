@@ -1,0 +1,93 @@
+{
+  "artifact_kind": "pilot_governance_mechanisms_contract",
+  "version": "1.0.0-draft",
+  "status": "engineering_ready_readonly_pilot",
+  "source_ref": "deliverables/execution/sanbao-handoff-20261104/05-pilot-charter.md",
+  "basis": ["C-015", "C-016", "C-020", "C-049", "C-377", "C-380", "C-383"],
+  "note": "对应优化草案 §9 五项缺失机制中除 Risk Interrupt（已由 P7 覆盖）外的剩余四项：Falsification Gate、Conflict Record、Program/Incident 跨事项承接、预算与并发上限。",
+  "mechanisms": [
+    {
+      "id": "MECH-01-FALSIFICATION-GATE",
+      "name": "Falsification Gate · 证伪门禁",
+      "trigger_stage": "STG-05",
+      "owner_seat": "AGT-005",
+      "lead_seat": "AGT-008",
+      "rule": "任何进入 STG-05 的主导假设（leading_thesis）必须满足：headline 只能引用 SUPPORTED 级 E 类证据，禁止把 C 类创意计入证据数，且必须由独立席位给出至少 1 条替代解释与 1 项可执行反证测试及明确证伪阈值。",
+      "required_fields": [
+        "thesis_id",
+        "headline_claim_id",
+        "headline_support_status",
+        "headline_evidence_class",
+        "alternative_explanations",
+        "disconfirming_test",
+        "falsification_threshold"
+      ],
+      "allowed_pass_dispositions": ["PASS_FALSIFICATION_GATE"],
+      "allowed_fail_dispositions": ["RETURN_MISSING_FALSIFIER", "RETURN_UNSUPPORTED_HEADLINE", "RETURN_CREATIVE_COUNTED_AS_EVIDENCE"]
+    },
+    {
+      "id": "MECH-02-CONFLICT-RECORD",
+      "name": "Conflict Record · 跨专业分歧记录契约",
+      "trigger_stage": "STG-04..STG-07",
+      "owner_seat": "AGT-008",
+      "assurance_seat": "AGT-005",
+      "rule": "当两个专业席位对同一经营事项给出相反建议，或同一用途指标在 formula/denominator/population/window 任一维度不一致时，必须生成结构化 conflict_record 并案上交；严禁 Lead 独断抹平、严禁将两个互斥数字简单求平均，自涉治理官评估尺度的争议必须识别为 L2b 移交真人所有者。",
+      "required_fields": [
+        "conflict_id",
+        "case_id",
+        "conflict_type",
+        "party_a_seat",
+        "party_a_claim_refs",
+        "party_b_seat",
+        "party_b_claim_refs",
+        "lead_unilateral_override",
+        "silent_averaging",
+        "self_referential_l2b",
+        "routing_target"
+      ],
+      "allowed_routing_targets": ["HUMAN_OWNER_L2B", "MGT_RULE_ARBITRATION", "RETURN_FOR_RECONCILIATION"]
+    },
+    {
+      "id": "MECH-03-PROGRAM-INCIDENT-HANDOFF",
+      "name": "Program / Incident 跨事项承接契约",
+      "trigger_stage": "STG-08",
+      "owner_seat": "AGT-001",
+      "rule": "依据 C-049，跨月/跨 Case 的未结承诺、未成熟验证结果或触发风险阈值的异常事件，不新增第 21 个专业身份或部门，必须由既有席位按 Program（专项组合）或 Incident（风险事件）显式承接，具备具名 human_owner_ref、核对条件与复查窗口；原责任在有效接续成立前不自动解除，收尾不自动扩权。",
+      "required_fields": [
+        "handoff_id",
+        "source_case_id",
+        "carrier_kind",
+        "assigned_existing_seats",
+        "new_role_created",
+        "human_owner_ref",
+        "verification_conditions",
+        "review_window",
+        "prior_responsibility_released_without_signoff",
+        "auto_scope_expansion"
+      ],
+      "allowed_carrier_kinds": ["PROGRAM_CONTINUATION", "INCIDENT_RESPONSE"]
+    },
+    {
+      "id": "MECH-04-BUDGET-CONCURRENCY-CAP",
+      "name": "预算与并发配额上限门禁",
+      "trigger_stage": "STG-01..STG-08",
+      "owner_seat": "AGT-001",
+      "rule": "每次 Case 启动与每阶段调用前强制核对：并发活跃 session 数 ≤ 2（1 Lead + 1 Assurance 独立 session，禁止 composeFrom 共享上下文）、单 Case token 预算 ≤ 120000、单 Case 只读工具调用 ≤ 60、外部写操作与凭据暴露 = 0。任一指标超限立即触发 HOLD_BUDGET_OR_CONCURRENCY_EXCEEDED，严禁静默截断继续生成。",
+      "limits": {
+        "max_concurrent_sessions": 2,
+        "max_case_tokens": 120000,
+        "max_tool_calls": 60,
+        "max_write_calls": 0
+      },
+      "required_fields": [
+        "case_id",
+        "active_sessions",
+        "compose_from_shared_context",
+        "tokens_used",
+        "tool_calls_used",
+        "write_calls_attempted",
+        "silent_truncation"
+      ]
+    }
+  ]
+}

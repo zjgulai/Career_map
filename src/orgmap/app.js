@@ -1,7 +1,7 @@
 // 正交工作视图：使用 Canvas2D 绘制板面与折线（零 WebGL 依赖），DOM overlay 承载全部文字与交互。
 // three.module.min.js 仅由独立 3D 展示页 showcase.html 加载，工作视图冷启动立降 671KB。
-import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=22';
-import { renderAvatarSvg } from './avatars.js?v=22';
+import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=35';
+import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=35';
 
 const G = window.SANBAO_GRAPH;
 const $ = sel => document.querySelector(sel);
@@ -31,6 +31,7 @@ const org = layoutOrg(G.org);
 const net = layoutNetwork(G.network);
 const decisionById = new Map(G.decisions.map(d => [d.id, d]));
 const cardByFile = new Map(G.cards.map(c => [c.file, c]));
+const allSeatsMap = new Map([...G.org.seats, ...G.org.governance].map(s => [s.seat_id, s]));
 
 // ---------- Canvas2D 绘制 ----------
 function drawBox(x, y, w, h, fill, withShadow) {
@@ -118,7 +119,7 @@ function buildLabels() {
     for (const b of org.bands) labelEls.push({ el: mk('div', 'band-label', `${b.name} · ${b.seat_count} 席`, { kind: 'band', id: b.id }), x: b.x + 4, y: b.y + 12, kind: 'band' });
     for (const g of org.blocks) labelEls.push({ el: mk('div', 'block-label' + (g.shared ? ' shared' : ''), `${g.level2Name} · ${g.seats.length}`, { kind: 'block', id: g.level2 }), x: g.x + g.w / 2, y: g.y + 15, kind: 'block' });
     for (const s of org.seats) {
-      const svg = renderAvatarSvg({ ...s, seat_id: s.id, level1: s.level1 }, 20);
+      const svg = renderPinAvatarHtml({ ...s, seat_id: s.id, level1: s.level1 }, 'light', 28);
       const el = mk('div', 'seat' + (s.status === 'UNVERIFIED' ? ' unverified' : s.status === 'PARTIAL' ? ' partial' : ''), `${svg}<div class="seat-txt"><b>${s.alias}</b><small>${s.id}</small></div>`, { kind: 'seat', id: s.id });
       el.title = `${s.id} ${s.alias} · ${s.title}（${s.slot_id}）`;
       el.addEventListener('click', ev => { ev.stopPropagation(); select({ kind: 'seat', id: s.id }); });
@@ -265,7 +266,7 @@ function bindSideEvents(el) {
     const isGov = id.startsWith('MGT-');
     if (state.view !== 'org') switchTab('org', false);
     const target = isGov ? org.governance.find(x => x.id === id) : org.seats.find(x => x.id === id);
-    if (target) { state.cx = target.x + target.w / 2; state.cy = target.y + target.h / 2; state.scale = Math.max(state.scale, 0.95); applyView(); }
+    if (target) { state.cx = target.x + target.w / 2; state.cy = target.y + target.h / 2; applyView(); }
     select({ kind: isGov ? 'gov' : 'seat', id });
   }));
   el.querySelectorAll('[data-cid]').forEach(t => t.addEventListener('click', ev => {
@@ -408,10 +409,12 @@ function side(sel) {
     const pre = pl.preconditions || { counts: {}, items: [] };
     const pc = pre.counts || {};
     const pg = pl.policy_gate || {};
+    const gm = pl.governance_mechanisms || {};
     el.innerHTML = `${chainBar}<h2>${pl.title}</h2>
       <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待真人签核 ${pc.awaiting_human_signoff || 0}/7</span>
       <span class="tag">Policy Gate ${pg.negative_tests_passed || 10}/10 负向拦截</span>
-      <span class="tag">技能契约 ${pg.skill_contracts_count || 12}/12</span></p>
+      <span class="tag">技能契约 ${pg.skill_contracts_count || 12}/12</span>
+      <span class="tag">治理机制 ${gm.mechanisms_count || 4}/4 (${gm.cases_passed || 16}/${gm.cases_total || 16})</span></p>
       <p>授权依据：<code>${pl.authorization_ref}</code></p>
       ${(pre.items || []).length ? `<h3>七项生效前置（P1..P7）</h3>` + pre.items.map(it => {
         const badge = it.state === 'ENGINEERING_READY' ? '<span class="tag">工程就绪</span>' : '<span class="tag warn">待真人签核</span>';
@@ -492,38 +495,16 @@ function side(sel) {
   }
 
   if (sel.kind === 'seat' || sel.kind === 'gov') {
-    const meta = [...G.org.seats, ...G.org.governance].find(x => x.seat_id === sel.id);
+    const meta = allSeatsMap.get(sel.id);
     if (!meta) return;
-    const deptMap = { 经营管理: 'mgmt', 业务运营: 'ops', 独立控制: 'control', '数据与Agent平台': 'platform' };
-    const avatar = renderAvatarSvg({ ...meta, level1: deptMap[meta.plane] || 'ops' }, 48);
-    const links = meta.node_links || [];
-    el.innerHTML = `<div class="profile-head">${avatar}<div><h2>${meta.alias} · ${meta.seat_id}</h2><p style="margin:0">${meta.title}</p></div></div>
-      <p><span class="tag">${meta.plane}</span><span class="tag">${meta.source_group}</span><span class="tag">${meta.tier}</span>
-      <span class="tag warn">${meta.admission_status}</span>
-      ${meta.pilot_role ? `<span class="tag">FLOW-02: ${meta.pilot_role}</span>` : ''}</p>
-      <dl class="facts">
-        <dt>能力站位</dt><dd>${meta.slot_id} · ${meta.slot_title} ${cTagsHtml([meta.slot_basis])}</dd>
-        <dt>目标运行层</dt><dd><code>${meta.runtime_layer || '—'}</code>（owner: ${meta.human_owner_ref || '—'}）</dd>
-        <dt>生产授权</dt><dd>${meta.production_authorized ? '是' : '否'}</dd>
-        <dt>运行身份</dt><dd>${meta.runtime_identity_status ? '是' : '否'}</dd>
-        <dt>catalog_ref</dt><dd>断链（源仓未检出）</dd>
-      </dl>
-      ${(meta.chains || []).length ? `<p>参与主链：${meta.chains.map(c => `<span class="tag">${c}</span>`).join('')}</p>` : ''}
-      ${(meta.skill_contracts || []).length ? `<h3>试点 L3 业务技能契约（${meta.skill_contracts.length}）</h3>` + meta.skill_contracts.map(sk =>
-        `<div class="rel"><div class="obj"><strong>${sk.l3_name}</strong> <span class="tag">${sk.kind}</span></div>
-          <div class="meta">supply: <code>${sk.supply.join(', ')}</code></div>
-          <div class="meta">方法：${sk.method}</div>
-          <div class="meta">失败处置：<code>${sk.failure_handling}</code>｜验收：${sk.verification_criteria}</div></div>`
-      ).join('') : ''}
-      <h3>关联经营网络节点（${links.length}）</h3>
-      ${links.length ? links.map(lk => {
-        const nd = net.nodes.find(x => x.id === lk.node_id);
-        return `<div class="rel" data-jump-node="${lk.node_id}">
-          <div class="obj">→ ${nd ? nd.title : lk.node_id} <span class="tag">${REL_LABEL[lk.relation] || lk.relation}</span></div>
-          <div class="meta">${lk.note}</div>
-          <div>${cTagsHtml(lk.basis)}</div>
-        </div>`;
-      }).join('') : `<p>C-300..C-309 未将该站位直接映射到 20 个主网节点（属跨事项治理、专项渠道/服务或平台底层支撑，按 C-270/C-198/C-199 按题进入）。</p>`}`;
+    el.innerHTML = renderDossierHtml(meta, {
+      theme: 'light',
+      allSeatsMap,
+      netNodes: net.nodes,
+      cTagsFn: cTagsHtml,
+      relLabelMap: REL_LABEL,
+    });
+    el.scrollTop = 0;
     bindSideEvents(el);
     return;
   }
@@ -601,7 +582,7 @@ qInput.addEventListener('input', () => {
     if (h.kind === 'seat' || h.kind === 'gov') {
       if (state.view !== 'org') switchTab('org', false);
       const t = h.kind === 'gov' ? org.governance.find(x => x.id === h.id) : org.seats.find(x => x.id === h.id);
-      if (t) { state.cx = t.x + t.w / 2; state.cy = t.y + t.h / 2; state.scale = Math.max(state.scale, 0.95); applyView(); }
+      if (t) { state.cx = t.x + t.w / 2; state.cy = t.y + t.h / 2; applyView(); }
       select({ kind: h.kind, id: h.id });
     } else if (h.kind === 'node') {
       if (state.view !== 'network') switchTab('network', false);
@@ -615,8 +596,10 @@ qInput.addEventListener('input', () => {
 // ---------- 自检 audit ----------
 function audit() {
   const issues = [];
+  const sr = stage.getBoundingClientRect();
   const boxes = [...labels.children].filter(el => el.offsetParent !== null && getComputedStyle(el).display !== 'none')
-    .map(el => ({ el, r: el.getBoundingClientRect(), fs: parseFloat(getComputedStyle(el).fontSize) }));
+    .map(el => ({ el, r: el.getBoundingClientRect(), fs: parseFloat(getComputedStyle(el).fontSize) }))
+    .filter(b => b.r.right > sr.left + 2 && b.r.left < sr.right - 2 && b.r.bottom > sr.top + 2 && b.r.top < sr.bottom - 2);
   for (const b of boxes) {
     if (b.el.scrollWidth > b.el.clientWidth + 1 || b.el.scrollHeight > b.el.clientHeight + 1) {
       issues.push(`内容被截断: ${b.el.textContent.trim().slice(0, 16)}`);
