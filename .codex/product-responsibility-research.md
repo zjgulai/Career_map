@@ -32,7 +32,7 @@ Q-008 已由 C-009 确认：以端到端经营价值流为主线；C-010 至 C-0
 
 日期：2026-09-22。当前层为能力来源全景与能力域，不进入执行实现。本问确定后续拆解成果的主组织方式，不重复确认C061的原子化目标，不决定最小能力完整清单或改变原画布。
 
-依据：VOA PRD `/Users/pray/project/VOA/docs/product/voa-agent-cluster-prd-stable.md:68–75` 同时覆盖市场验证、机会判断、知识、店铺及结果反馈，`:104–110` 分列数据接入、质量检查、语义标记、证据整理、基线异常和决策等设计；门户清单第21/22/23/26项又分别提供数据采集、社媒、社区与标签线索。这证明来源存在跨域覆盖和同类能力对照的需要，不证明具体实现已可合并。官网模板 `/Users/pray/Sanbao/SanBao_web/src/index.template.html:108–111` 按业务对象和跨域关系组织经营世界，也不要求每个旧产品成为一个未来模块。
+依据：VOA PRD `<external-repo>/VOA/docs/product/voa-agent-cluster-prd-stable.md:68–75` 同时覆盖市场验证、机会判断、知识、店铺及结果反馈，`:104–110` 分列数据接入、质量检查、语义标记、证据整理、基线异常和决策等设计；门户清单第21/22/23/26项又分别提供数据采集、社媒、社区与标签线索。这证明来源存在跨域覆盖和同类能力对照的需要，不证明具体实现已可合并。官网模板 `Sanbao/SanBao_web/src/index.template.html:108–111` 按业务对象和跨域关系组织经营世界，也不要求每个旧产品成为一个未来模块。
 
 | 方式 | 收益与取舍 |
 |---|---|
@@ -132,11 +132,11 @@ C-066只确认候选边界、名称和证据状态，不确认通用ID schema、
 
 ### 来源事实与本轮新增核对
 
-- `/Users/pray/project/ai_product_select/api/services/fusion-engine.ts:56–142`：热度和市场特征分别有分项及加权总分。旧权重、基线和竞争数假设只作为原设计，不直接成为三宝规则；其中有的分项也可能继续拆。
+- `<external-repo>/ai_product_select/api/services/fusion-engine.ts:56–142`：热度和市场特征分别有分项及加权总分。旧权重、基线和竞争数假设只作为原设计，不直接成为三宝规则；其中有的分项也可能继续拆。
 - 同文件`:145–170`：机会分组合热度、市场分与趋势动量，另按热度/市场阈值分组。因此“组合分析”已有代码线索，但不是新的完整选品Agent，也不是把此批六项全部串起来的证明。
 - 同文件`:173–191, 225–252`：负面议题占比只数负面比例超过30%的议题类别，不按提及量加权，汇总字段仍为null。趋势函数形参叫7日/30日平均值，但此调用传当前分数与prevShi；本轮不据名字宣称已有7日/30日窗口，不展开修复。
-- `/Users/pray/project/ecom_ana_overview/scm/供应链成本指标全链路优化/（tactic）课题一：kp01-需求预测执行方案.md:56–58, 77–105`：不是仅有蓝图占位，已有本地重建的预测与实际比较说明。MAPE行只有单项绝对百分比误差表达，跨项平均、零实际值及聚合规则未完整定义；Bias为有方向的误差。保留这些缺口，不移植原阈值或声称算法通过。
-- `/Users/pray/project/VOA/docs/product/voa-agent-cluster-prd-stable.md:104–110, 150–154`及`/Users/pray/project/VOA/docs/architecture/voa-agent-cluster-information-architecture-stable.md:66`：以指标、范围、季节性、正常范围和版本构成基线，偏离/预警与根因假设、经营决定分开；本轮为设计证据，不是异常识别实测。
+- `<external-repo>/ecom_ana_overview/scm/供应链成本指标全链路优化/（tactic）课题一：kp01-需求预测执行方案.md:56–58, 77–105`：不是仅有蓝图占位，已有本地重建的预测与实际比较说明。MAPE行只有单项绝对百分比误差表达，跨项平均、零实际值及聚合规则未完整定义；Bias为有方向的误差。保留这些缺口，不移植原阈值或声称算法通过。
+- `<external-repo>/VOA/docs/product/voa-agent-cluster-prd-stable.md:104–110, 150–154`及`<external-repo>/VOA/docs/architecture/voa-agent-cluster-information-architecture-stable.md:66`：以指标、范围、季节性、正常范围和版本构成基线，偏离/预警与根因假设、经营决定分开；本轮为设计证据，不是异常识别实测。
 
 ### 当前只决定一件事
 
@@ -1153,7 +1153,7 @@ CAP-011机会比较信号合成保留为复合候选：它围绕当前经营问�
 
 ### C-159 · 50 个岗位四平面能力总图，8 个业务域作为第二视角 · 已确认
 
-日期：2026-09-25。依据 `/Users/lute/project/AI组织变革/docs/04-organization/AI-ORGANIZATION-MAP.md` 与 D-021、D-053、D-057，用户确认先完成岗位能力的高层归属，再继续连接三条经营主链；本轮不展开岗位卡或原子Skill。
+日期：2026-09-25。依据 `AI组织变革/docs/04-organization/AI-ORGANIZATION-MAP.md` 与 D-021、D-053、D-057，用户确认先完成岗位能力的高层归属，再继续连接三条经营主链；本轮不展开岗位卡或原子Skill。
 
 - **四个平面。**50个逻辑岗位按责任性质唯一归属为：经营管理5个（目标、优先级、资源约束、组织能力）；业务运营35个（产品到GMV、履约、客户价值）；独立控制5个（审计、税务、法务、合规、安全的独立检查）；数据与Agent平台5个（数据、工具、Skill、模型、可靠性能力）。
 - **3个管理层单独保留。**3个管理层分身是决策权平面，负责方向、取舍和边界，不计入50个岗位；四平面也不是行政上下级、运行路由、权限集合或Agent数量。
@@ -2881,9 +2881,9 @@ CAP-011机会比较信号合成保留为复合候选：它围绕当前经营问�
 - **八个外部研究面只作证据账栏目。**①市场机会与进入范围；②贸易条件与准入事实；③产品合规与适配缺口；④渠道路径与合作方；⑤本地化客户体验；⑥支付、税务与落地成本；⑦供给、物流与履约可行性；⑧受控试运行、效果判断与持续经营接续。它们分别回到C-232／235／237—249、C-294—297和BO／IC／DA／OM既有合同；不得改写为八个岗位、Skill、流程阶段、绿灯或审批Gate。
 - **目标市场证据账仍为空。**后续真实样本至少需要“国家／区域、客户范围、产品／SKU／版本、用途／宣称、渠道、期间”六类范围锚点，并分别保留机会数据来源／数据期／方法假设、HS／原产地／关税税费／手续／产品要求、渠道与合作方依据、本地化体验、支付／币种／FX／实体税务、清关／运输／仓储／退货／售后、试运行对象／暴露／基线／指标／异常／停止或回滚及接续条件。当前没有填任何国家事实、阈值、税率或法律结论。
 - **完整新市场多岗E2E仍未验收。**C-310已明确这项交付层空白。下一份检验镜头应使用既有责任地址，围绕“明确产品进入明确目标国家／区域：机会与范围 → 进入模式比较 → 最小市场经营就绪 → 首个有效订单、履约和经济证据 → 按范围接续持续经营”检查Lead边界、独立专业贡献、依赖／并行、必要前提、回C-232的变化、留在原专业的判断及C-294接续条件。箭头仅是待检验问题跨度，不预设固定流程或实际经营决定。
-- **本地Shopify资料是候选材料，不是官方现状。**`/Users/lute/project/shopify`已含市场／细分、DTC／站群／混合模式、选品与市场调研、建站／支付／物流／追踪和首单前检查等经验片段，可在后续样本中逐项接受、改造或退回；其资料也明确平台价格、支付和规则等时效信息不能替代当前官方来源。本轮不把本地SOP直接升级为三宝能力合同或Gate。
+- **本地Shopify资料是候选材料，不是官方现状。**`<external-repo>/shopify`已含市场／细分、DTC／站群／混合模式、选品与市场调研、建站／支付／物流／追踪和首单前检查等经验片段，可在后续样本中逐项接受、改造或退回；其资料也明确平台价格、支付和规则等时效信息不能替代当前官方来源。本轮不把本地SOP直接升级为三宝能力合同或Gate。
 - **五组一手锚点及边界。**ITC出口潜力方法以供给、目标市场需求和贸易便利识别机会，但模型输出不证明消费者需求、准入、经济性或进入决定；美国ITA列出的监管、物流、文化、语言、进口要求、售后和合作方尽调问题，支持多个专业并列判断，不支持市场部门包办；欧盟Access2Markets的关税、原产地、税费、手续、产品要求与贸易壁垒信息只作有版本的外部事实索引，不等于法律意见或准入批准；OECD VAT／GST指南只提供跨境协调原则，不能推出某国税率、注册门槛或本地实体要求；Shopify Markets／Rollouts可以帮助区分配置、发布、实际体验、观察、暂停／回滚和效果判断，但平台状态不能证明经营授权、可售、税务、履约、因果效果或持续经营接续。
-- **研究工具和权限边界。**当前环境没有暴露Firecrawl／Exa，故使用Deep Research技能规定的网页搜索回退路径，优先深读ITC、美国ITA、European Commission、OECD和Shopify官方页面；公开资料的事实、项目推断和不能推出项分别记录。引用项目继续只读，未访问真实业务数据、账户或凭据，未修改`/Users/lute/project/shopify`或任何来源项目。
+- **研究工具和权限边界。**当前环境没有暴露Firecrawl／Exa，故使用Deep Research技能规定的网页搜索回退路径，优先深读ITC、美国ITA、European Commission、OECD和Shopify官方页面；公开资料的事实、项目推断和不能推出项分别记录。引用项目继续只读，未访问真实业务数据、账户或凭据，未修改`<external-repo>/shopify`或任何来源项目。
 - **下一题。**C-314建议只建立一个不填真实国家数据的“新市场完整多岗E2E验收镜头”，验证既有高层骨架能否承载端到端责任和证据回位；不新增高层能力位、岗位、Skill、国家排名、Stage／Gate、自动流程、权限或真实业务动作。
 
 ### C-314 · 03新市场经营完整多岗E2E验收镜头 · 责任装配结论
@@ -3009,9 +3009,9 @@ C-318当前状态是`请求合同1／1｜内部映射实证0｜猜填字段0｜�
 
 #### 本轮实际核对范围与证据状态
 
-- 对`/Users/lute/project/Magpie-Horch`、`/Users/lute/project/shopify`、`lute-momcozy-audit`和`lute-momcozy-platform`的文本源码、文档、JSON／JSONL／CSV做了精确ASIN与Seller／Merchant SKU检索，未定位目标账号记录或可追溯listing／catalog／offer导出。
+- 对`<external-repo>/Magpie-Horch`、`<external-repo>/shopify`、`lute-momcozy-audit`和`lute-momcozy-platform`的文本源码、文档、JSON／JSONL／CSV做了精确ASIN与Seller／Merchant SKU检索，未定位目标账号记录或可追溯listing／catalog／offer导出。
 - Career当前命中仍只是C-315—C-318的公开Amazon快照、责任回位和证明请求合同；其中已知`ASIN B0GHG2W8WS＋卖家Smartlin＋Amazon履约`不包含Seller／Merchant SKU。
-- 本地`/Users/lute/project/VOA`目录当前不存在；Sanbao全根扫描超过限定时间而停止，不能宣称完成全量覆盖。XLSX、ZIP、PDF等二进制资产也未解包或解析，因此“文本未定位”不能外推成企业一定没有记录。
+- 本地`<external-repo>/VOA`目录当前不存在；Sanbao全根扫描超过限定时间而停止，不能宣称完成全量覆盖。XLSX、ZIP、PDF等二进制资产也未解包或解析，因此“文本未定位”不能外推成企业一定没有记录。
 - 本轮没有访问Seller Central，没有调用SP-API，没有取得账号授权响应、报告导出或任何真实Seller SKU，也没有确认目标ASIN在正确账号和德国Marketplace下返回0条结果。
 
 #### 三种结果必须分开
@@ -3653,7 +3653,7 @@ C-342补样后，本合同总账更新为`既有能力位1｜专业候选入场�
 
 #### 候选身份、版本与窄片段
 
-首个候选记录ID为`C341-BO02-CAND-01`，显示名“市场多源信号与反证检索片段”。项目归档为`skill-library/skills/02395-market-insight-product-selection/SKILL.md`，原始来源记录为`/Users/lute/.dsh/scratch/tree-0078/packages/capabilities/dsh-overseas-skills/backup/pre-81/market-insight-product-selection/SKILL.md`；两份内容一致，内容寻址版本为`sha256:0652b7a56304e41e801d77995bb043fbaa9bbad3e54410acc3686f2e267d9983`。候选没有独立`skill_version`，因此本轮版本边界只由来源路径、内容hash和片段行段共同固定。
+首个候选记录ID为`C341-BO02-CAND-01`，显示名“市场多源信号与反证检索片段”。项目归档为`skill-library/skills/02395-market-insight-product-selection/SKILL.md`，原始来源记录为`Sanbao/packages/capabilities/dsh-overseas-skills/backup/pre-81/market-insight-product-selection/SKILL.md`；两份内容一致，内容寻址版本为`sha256:0652b7a56304e41e801d77995bb043fbaa9bbad3e54410acc3686f2e267d9983`。候选没有独立`skill_version`，因此本轮版本边界只由来源路径、内容hash和片段行段共同固定。
 
 登记范围只含原文证据优先与缺口处理（29—35行）、多源数据与深读（54—62行）、逐层检索与矛盾核对（64—90行）、反向检索与来源质量（92—104行）、研究停止（106—124行）。完整Skill中的Trend Radar、Top Picks、Deep Dive、Scorecard、Selection Recommendation、选品排序、Go／Cautious／No-Go、供应商搜索和行动建议全部排除；完整Skill不是本候选。该窄片段只申报`BO-02@C-301`，只服务C-232形成或复核新市场进入问题与范围说明。
 
@@ -4367,7 +4367,7 @@ C-044／C-186继续拥有需求情景，C-039／C-040继续拥有数据质量与
 
 #### Inventory Demand Forecaster
 
-当前审阅快照锚定`/Users/lute/.dsh/skills/inventory-demand-forecaster/SKILL.md`，SHA-256为`976666c393c90568b3b740081f8b921eae2d979015d5ca51f0a1b6aff28d96cb`；它与Career归档`02601-inventory-demand-forecaster`字节完全一致，正文自报`v1.0.1`。但11份Career归档共形成4个精确正文hash；`11100-inventory-demand-forecaster`的另一份不同正文也自报`v1.0.1`，且两者在关键输入缺失时是先追问还是允许继续计算上给出不同规则。当前目录还在SKILL、README、CLI与旧测试之间混用`inventory-demand-forecaster`与`scm-inventory-forecaster`两个身份，没有rename／alias／migration决定。所有11份归档均标`needs_review: true`，旧PASS没有绑定当前正文hash。因此本轮只能确认“当前本地所见正文”，不能确认唯一正本、最新有效版或当前hash已经验证；其业务边界仍跨需求预测、安全库存、ROP／EOQ和补货建议，不因身份锚定而变成第02空位候选。
+当前审阅快照锚定`<dsh-home>/skills/inventory-demand-forecaster/SKILL.md`，SHA-256为`976666c393c90568b3b740081f8b921eae2d979015d5ca51f0a1b6aff28d96cb`；它与Career归档`02601-inventory-demand-forecaster`字节完全一致，正文自报`v1.0.1`。但11份Career归档共形成4个精确正文hash；`11100-inventory-demand-forecaster`的另一份不同正文也自报`v1.0.1`，且两者在关键输入缺失时是先追问还是允许继续计算上给出不同规则。当前目录还在SKILL、README、CLI与旧测试之间混用`inventory-demand-forecaster`与`scm-inventory-forecaster`两个身份，没有rename／alias／migration决定。所有11份归档均标`needs_review: true`，旧PASS没有绑定当前正文hash。因此本轮只能确认“当前本地所见正文”，不能确认唯一正本、最新有效版或当前hash已经验证；其业务边界仍跨需求预测、安全库存、ROP／EOQ和补货建议，不因身份锚定而变成第02空位候选。
 
 #### Demand–Supply Matching Gap Analysis
 
@@ -4744,7 +4744,7 @@ C-373仍是未来候选的收件尺，C-374只是一次实际材料读取，不�
 | 对象 | 业务目的及输入输出 | 证据与边界 |
 |---|---|---|
 | 三宝 | 面向跨境电商与出海品牌，以经营信号和业务事实支持方案判断、跨专业协作及结果反馈；Native AgenticOS整体定位已由用户确认 | SanBao_web/src/index.template.html:93、108表达整体平台，README.md:34明确官网未新增后端。不能把三宝降成链接门户，也不宣称完整平台已运行。 |
-| VOA | 消费品牌科学经营决策与执行闭环平台；输入五类Voice及经营信号，P0关注新品开发和在售优化，设计交付含机会卡、DecisionPackage、产品企划和验证/校准记录 | /Users/pray/project/VOA/docs/product/voa-agent-cluster-brd-stable.md:28–56、voa-agent-cluster-prd-stable.md:26–30、68–98。文件日期2026-06-17，属于本地设计定义，不是2026-09线上实测。 |
+| VOA | 消费品牌科学经营决策与执行闭环平台；输入五类Voice及经营信号，P0关注新品开发和在售优化，设计交付含机会卡、DecisionPackage、产品企划和验证/校准记录 | <external-repo>/VOA/docs/product/voa-agent-cluster-brd-stable.md:28–56、voa-agent-cluster-prd-stable.md:26–30、68–98。文件日期2026-06-17，属于本地设计定义，不是2026-09线上实测。 |
 | MAS | VOA文档中的自动化生产与审计机制，不是其顶层产品模块总纲 | 同PRD:30和BRD:28直接说明。门户将mas入口称为VOA MAS/科学经营决策系统，本地VOA与该线上入口的部署对应仍未核实，不能直接当作两个同级产品或宣称已经改名。 |
 | BOS | 门户称品牌经营操作系统/工作台，涉及品牌战略、数据洞察、策略协同与经营动作 | 目前仅有portal-product-matrix-research:29、64的入口与目录证据；本次限定本地候选目录未定位到明确BOS定义，不据其名称强行指定输入输出或淘汰。 |
 
@@ -4782,10 +4782,10 @@ Q-057未获确认。用户明确希望拆解所有旧产品为最小可复用能
 
 ## 官网设计提供的产品定义
 
-- [首页模板](/Users/pray/Sanbao/SanBao_web/src/index.template.html:93)将三宝定义为面向跨境电商与出海品牌的 AI Native 经营决策与运营执行平台，已表达从感知到验证的经营路径。
-- [知识图谱与编排](/Users/pray/Sanbao/SanBao_web/src/index.template.html:108)包含业务对象、关系、规则、SOP、目标与岗位协作；[经营链与团队](/Users/pray/Sanbao/SanBao_web/src/index.template.html:128)将场景、角色和产物联系起来。
-- [静态业务数据](/Users/pray/Sanbao/SanBao_web/src/data/business.json:1)有 7 条价值流、59 个场景、21 条经营链、50 个角色；这是静态目录数量。`roles`、`assignments`、`teams` 是可对照的设计对象，不是已运行能力数量。
-- [README](/Users/pray/Sanbao/SanBao_web/README.md:34)说明没有新增后端服务或安装包；[前端脚本](/Users/pray/Sanbao/SanBao_web/src/app.js:387)明确经营推进与自动确认属于演示，不授予实际业务权限。下载和预约也有占位/未发送边界。
+- [首页模板](Sanbao/SanBao_web/src/index.template.html:93)将三宝定义为面向跨境电商与出海品牌的 AI Native 经营决策与运营执行平台，已表达从感知到验证的经营路径。
+- [知识图谱与编排](Sanbao/SanBao_web/src/index.template.html:108)包含业务对象、关系、规则、SOP、目标与岗位协作；[经营链与团队](Sanbao/SanBao_web/src/index.template.html:128)将场景、角色和产物联系起来。
+- [静态业务数据](Sanbao/SanBao_web/src/data/business.json:1)有 7 条价值流、59 个场景、21 条经营链、50 个角色；这是静态目录数量。`roles`、`assignments`、`teams` 是可对照的设计对象，不是已运行能力数量。
+- [README](Sanbao/SanBao_web/README.md:34)说明没有新增后端服务或安装包；[前端脚本](Sanbao/SanBao_web/src/app.js:387)明确经营推进与自动确认属于演示，不授予实际业务权限。下载和预约也有占位/未发送边界。
 - 官网代码未查见对 SI、PR、Kb2Agent 等指定资产的实际接入绑定。它提供产品体验与对象映射的设计依据，不证明矩阵已连接。
 - 父目录的 Qoder 原型设计是相关项目的另一条工作线。本轮只读其入口及平台基线记录，不把其 UI 复刻或移动端决定转为本画布的新决定。
 
@@ -4825,7 +4825,7 @@ Q-057未获确认。用户明确希望拆解所有旧产品为最小可复用能
 
 ### Kb2Agent 到专业产品与运营知识
 
-- [运营知识 V2 方案](</Users/pray/project/platform-operations -wiki/docs/architecture/platform-operations-knowledge-compiler-v2-plan-and-sop.md:17>)明确参考 Kb2Agent；[行动包定义](</Users/pray/project/platform-operations -wiki/docs/architecture/platform-operations-knowledge-compiler-v2-plan-and-sop.md:156>)与[检索上下文 schema](</Users/pray/project/platform-operations -wiki/knowledge-v2/schemas/retrieval-context.schema.json:7>)给出知识交付对象。
+- [运营知识 V2 方案](<<external-repo>/platform-operations -wiki/docs/architecture/platform-operations-knowledge-compiler-v2-plan-and-sop.md:17>)明确参考 Kb2Agent；[行动包定义](<<external-repo>/platform-operations -wiki/docs/architecture/platform-operations-knowledge-compiler-v2-plan-and-sop.md:156>)与[检索上下文 schema](<<external-repo>/platform-operations -wiki/knowledge-v2/schemas/retrieval-context.schema.json:7>)给出知识交付对象。
 - [SI 知识内化方案][si-kb]明确采用证据定位、有界关系闭包、拒绝回执、双轨分离等模式，并定义 Decision、Requirement、Commitment。该文档状态存在“未动代码”与阶段完成记录的时间差，不能据它判断产品当前整体成熟度。
 - [PR 知识契约][pr-kb]明确来源和验证字段，引用 Kb2Agent 方法；[Pitch 工作链][pr-pitch]已有业务接口与交付状态定义。`pending_writeback` 不能记为已写回，当前 PR 对 SI 零读写边界继续保留。
 
@@ -4833,8 +4833,8 @@ Q-057未获确认。用户明确希望拆解所有旧产品为最小可复用能
 
 ## 知识、业务和系统真源的保留
 
-- [KB 检索实现](/Users/pray/project/kb/agents/consultant-agent/runtime/local_retrieval_api.py:563)提供 source/card/locator/证据等级/许可等字段；[输入范围](/Users/pray/project/kb/agents/consultant-agent/runtime/local_retrieval_api.py:829)限制消费方。不能用统一入口抹去许可或 Agent 范围。
-- [SCM 集成设计](/Users/pray/project/ecom_ana_overview/scm/drafts/prototypes/scm-data-governance-workbench-v0/docs/fulfillment-dashboard-aip-scm-integration-plan-draft-20260626.md:19)明确静态原型边界；[对象契约抽取](/Users/pray/project/ecom_ana_overview/scm/drafts/analysis/aip-scm-node-deepdive-optimization-draft-20260627/34-b23-t8-16-decision-loop-models-draft-20260628.md:51)包含决策回执与策略对象。
+- [KB 检索实现](<external-repo>/kb/agents/consultant-agent/runtime/local_retrieval_api.py:563)提供 source/card/locator/证据等级/许可等字段；[输入范围](<external-repo>/kb/agents/consultant-agent/runtime/local_retrieval_api.py:829)限制消费方。不能用统一入口抹去许可或 Agent 范围。
+- [SCM 集成设计](<external-repo>/ecom_ana_overview/scm/drafts/prototypes/scm-data-governance-workbench-v0/docs/fulfillment-dashboard-aip-scm-integration-plan-draft-20260626.md:19)明确静态原型边界；[对象契约抽取](<external-repo>/ecom_ana_overview/scm/drafts/analysis/aip-scm-node-deepdive-optimization-draft-20260627/34-b23-t8-16-decision-loop-models-draft-20260628.md:51)包含决策回执与策略对象。
 - [Kb2Agent ActionPackage][kb2-package]含特定广告诊断任务和公式常量，适合作为契约设计输入；[双产品成熟度账本][kb2-ledger]要求知识指南与参考运行分别计量。
 
 ## 需要对照但本轮不擅自裁定
@@ -4866,7 +4866,7 @@ Q-057未获确认。用户明确希望拆解所有旧产品为最小可复用能
 
 ### C-375 · CAP-015当前实现快照受限扫描（2026-10-07）
 
-本轮承接 C-374，仅做外部知识库单一文件的只读快照，不把实现位置当作候选注册或运行证明。核对文件为 `/Users/lute/project/AgentTools/知识库/kb/agents/consultant-agent/runtime/local_retrieval_api.py`；仓库 HEAD 为 `fcd7186e5c51922879aafcd9bc3566157fd7f0e3`，HEAD blob 为 `4e3f4d1415e0be269019abf4ce0163ac2bde1e49`，当前工作树文件 SHA-256 为 `bcf47b7cad29d87e98c0771c0ecf8d010ac11763577f27041c0ac8ad795e66d7`。`public_result`（72—101行）输出 source/card/locator、evidence grade、license、scores、source trace、hash 与无原文返回边界；当前差异仅为环境路径覆盖，未改变该投影语义。
+本轮承接 C-374，仅做外部知识库单一文件的只读快照，不把实现位置当作候选注册或运行证明。核对文件为 `<kb-repo>/kb/agents/consultant-agent/runtime/local_retrieval_api.py`；仓库 HEAD 为 `fcd7186e5c51922879aafcd9bc3566157fd7f0e3`，HEAD blob 为 `4e3f4d1415e0be269019abf4ce0163ac2bde1e49`，当前工作树文件 SHA-256 为 `bcf47b7cad29d87e98c0771c0ecf8d010ac11763577f27041c0ac8ad795e66d7`。`public_result`（72—101行）输出 source/card/locator、evidence grade、license、scores、source trace、hash 与无原文返回边界；当前差异仅为环境路径覆盖，未改变该投影语义。
 
 按 C-373 六面证据合同，结果是完整0/6、局部材料3/6、缺失3/6，状态 `RETURN／待补证`。局部材料支持代码位置、字段投影和边界声明；缺失项包括候选自身身份/版本、具名地址实际输入、两地址前后样本、逐地址交接与失败/停止规则。未产生候选注册、Skill/项目创建、运行时或真实业务动作证据；外部仓库保持只读。本记录不支持 build/buy/train/outsource 或 E2E 结论。
 
@@ -4878,8 +4878,8 @@ Q-057未获确认。用户明确希望拆解所有旧产品为最小可复用能
 
 当前实际候选提交包0、候选身份0、候选语义版本0、实际输入0、实际输出0、具名地址样本0／至少2、C-373六面已提交0／6；因此结论仍是 `RETURN／待补证`，不是失败、不适配或淘汰。C-375代码快照、FOUND-001、CAP-005、CAP-020及四个地址名称都不能被拼成候选答卷。没有候选登记、专业地址引用、适配结论、建设路径、Skill、项目、Bundle／Preset、数字员工、Workflow、Harness、Runtime、业务动作或真实 E2E 证据；外部知识库保持只读。只有未来候选一次提交独立版本化正本与至少两个真实地址样，才重新进入 C-373 六面审查。
 
-**C-376 复核（2026-10-09）：**对只读外部目录 `/Users/lute/project/AgentTools/知识库/kb/agents/consultant-agent` 做了定向复查。`README.md` 仍标记为 `status: draft`、`production_impact: production unchanged`、`provider_call_boundary: no KB provider call`，并明确没有 live KB ingestion 或 staging deployment；`playbook.md` 仍要求把结论、证据、假设、不确定性、阻断动作和下一步人工动作分开；`eval-policy.md` 的 human-gold 仍为 `pending_human_review`，`approved_decision_count` 为 0。运行目录中未检出 C-356／C-364／C-368／C-371、BO-11 或 CAP-015 的候选自身份／语义版本、真实具名地址样本、实际输入输出、逐地址交接或停止反例。`local_retrieval_api.py` 当前文件快照 SHA-256 为 `bcf47b7cad29d87e98c0771c0ecf8d010ac11763577f27041c0ac8ad795e66d7`；本次复核没有产生外部写入，读数仍为候选提交包 0、实际地址样本 0／至少 2、六面已提交 0／6，继续保持 `RETURN／待补证`。
-**相邻资产边界（同日）：**在 `/Users/lute/project/AgentTools/知识库/kb` 的更广只读扫描中，确实找到 `candidate-package-tree.md`、`claim-card-candidate.schema-20260630.json` 以及 `enhance_ai/03-skill-portfolio.md` 等模板／蓝图；它们能说明候选对象可能需要 ID、来源、hash、证据等级或 Skill 定义完成条件，但没有 CAP-015 自提交的两个具名地址实际输入／输出、逐地址交接和停止反例。`candidate-package-tree.md` 明确是 `status: template`，`03-skill-portfolio.md` 明确把候选 Skill 写成 blueprint；这些资产只能作为未来收件格式参考，不能当作候选登记、适配结论或 C-373 六面证据。
+**C-376 复核（2026-10-09）：**对只读外部目录 `<kb-repo>/kb/agents/consultant-agent` 做了定向复查。`README.md` 仍标记为 `status: draft`、`production_impact: production unchanged`、`provider_call_boundary: no KB provider call`，并明确没有 live KB ingestion 或 staging deployment；`playbook.md` 仍要求把结论、证据、假设、不确定性、阻断动作和下一步人工动作分开；`eval-policy.md` 的 human-gold 仍为 `pending_human_review`，`approved_decision_count` 为 0。运行目录中未检出 C-356／C-364／C-368／C-371、BO-11 或 CAP-015 的候选自身份／语义版本、真实具名地址样本、实际输入输出、逐地址交接或停止反例。`local_retrieval_api.py` 当前文件快照 SHA-256 为 `bcf47b7cad29d87e98c0771c0ecf8d010ac11763577f27041c0ac8ad795e66d7`；本次复核没有产生外部写入，读数仍为候选提交包 0、实际地址样本 0／至少 2、六面已提交 0／6，继续保持 `RETURN／待补证`。
+**相邻资产边界（同日）：**在 `<kb-repo>/kb` 的更广只读扫描中，确实找到 `candidate-package-tree.md`、`claim-card-candidate.schema-20260630.json` 以及 `enhance_ai/03-skill-portfolio.md` 等模板／蓝图；它们能说明候选对象可能需要 ID、来源、hash、证据等级或 Skill 定义完成条件，但没有 CAP-015 自提交的两个具名地址实际输入／输出、逐地址交接和停止反例。`candidate-package-tree.md` 明确是 `status: template`，`03-skill-portfolio.md` 明确把候选 Skill 写成 blueprint；这些资产只能作为未来收件格式参考，不能当作候选登记、适配结论或 C-373 六面证据。
 **候选入场字段差距（同日）：**把通用模板与 C-376 六面合同逐项对照后，得到一份可直接给未来候选填写的缺口清单：①`claim-card` 的 `candidate_id`、`schema_version`、来源与 hash 只能覆盖“身份线索”，还缺候选自己的语义版本、共享范围和明确不覆盖项；②`claim`、`locator`、`supporting_source_units` 不能代替每个具名地址的实际输入、实际输出、对象／范围／期间／用途／截止点和取得状态；③通用 schema 没有机械处理前后锚点、未知／冲突／过期原样保留及语义不改写证据；④没有 C-356／C-364／C-368／C-371 的双地址同源样本字段；⑤`blocked_actions` 与 QA 计数是全局边界，不能代替逐地址接收方、RETURN 条件、失败隔离和版本变化重核点；⑥没有把补值、改语义、代专业判断、派单、改资源／权限或触发业务动作写成具体停止反例。`enhance_ai/03-skill-portfolio.md` 的触发、边界、输入输出、授权、验证、维护六项只能作为未来 Skill 定义参考，仍不是候选证据。此清单只完善收件合同，不产生候选、适配或运行结论。
 **泛候选索引与本空位候选分层（同日）：**实际工件盘点发现三份 `local_draft_candidate`／组合索引：FlowUs staging 204 条、deep extraction 1,716 条、组合索引 1,920 条（组合索引包含前两类来源，不能相加作独立候选数）。这些记录只有 `card_status`、`source_version`、`source_id`、locator、evidence 和 blocked actions 等检索元数据；三份记录集合均没有 `candidate_id`、`candidate_version`、C-356／C-364／C-368／C-371／BO-11／CAP-015 地址、实际输入输出、逐地址交接或停止反例。manifest 仍标记 `production_impact: production unchanged`、`no KB provider call`、`no live KB ingestion`；其 `source_cards` 指向的本地原件也未找到，不能回查候选正本。相邻的 `canonical-target-contract` 只是写入合同，且其 source artifacts 缺失、canonical／live／provider／runtime 计数均为 0。它们都是索引／合同快照，不是 CAP-015 自提交包；C-376 的候选提交包与双地址样本仍为 0／1、0／2。
 **候选状态新鲜度（同日）：**对候选索引、`shared/distillation` 合同和 `drafts/analysis` 中候选相关文件做 mtime 复核，截止 2026-10-08 00:00（Asia/Shanghai）之后新增或更新文件为 0；现有 manifest 的最近更新时间仍为 2026-06-30。当前没有可继续读取的新候选输入，不能以“继续执行”替代缺失的外部提交。

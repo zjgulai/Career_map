@@ -33,6 +33,7 @@ ROSTER = ROOT / ".codex/3plus50-roster.md"
 TRACKED_ROSTER = ROOT / "deliverables/strategy/sanbao-3plus50-roster.md"
 CROSSWALK = ROOT / "configs/seat-node-crosswalk.json"
 PRECONDITIONS = ROOT / "configs/pilot-flow02-preconditions.json"
+STAGE_CONTRACTS = ROOT / "configs/flow02-stage-contracts.json"
 CARDS_DIR = ROOT / ".superpowers/brainstorm/38196-1789923100/content"
 SNAPSHOT = ROOT / "src/orgmap/sources/source-snapshot.json"
 OUTPUT = ROOT / "src/orgmap/data/graph.js"
@@ -328,7 +329,18 @@ def load_or_sync_sources(write_snapshot: bool) -> tuple[list[dict], list[dict], 
     h.update(CROSSWALK.read_bytes())
     if PRECONDITIONS.is_file():
         h.update(PRECONDITIONS.read_bytes())
+    if STAGE_CONTRACTS.is_file():
+        h.update(STAGE_CONTRACTS.read_bytes())
     return decisions, cards, nodes, relations, seat_data, h.hexdigest()[:16]
+
+
+def collect_pilot_dryrun() -> dict:
+    script = ROOT / "scripts/run-flow02-dryrun.py"
+    if not script.is_file() or not STAGE_CONTRACTS.is_file():
+        return {}
+    res = subprocess.run([sys.executable, "-I", str(script), "--json"],
+                         cwd=ROOT, capture_output=True, text=True, check=True)
+    return json.loads(res.stdout)
 
 
 def collect_pilot_preconditions() -> dict:
@@ -407,7 +419,7 @@ def build(write_snapshot: bool = False) -> dict:
         "counts": counts,
         "org": {"level1": level1, "level2": level2,
                 "seats": seat_data["seats"], "governance": seat_data["governance"],
-                "pilot_lens": {**(seat_data["crosswalk"].get("pilot_lens") or {}), "preconditions": collect_pilot_preconditions()},
+                "pilot_lens": {**(seat_data["crosswalk"].get("pilot_lens") or {}), "preconditions": collect_pilot_preconditions(), "dryrun": collect_pilot_dryrun()},
                 "registry_meta": seat_data["meta"]},
         "network": {"nodes": nodes, "relations": resolved,
                     "unresolved_relations": unresolved},

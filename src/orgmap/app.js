@@ -25,7 +25,7 @@ const FONT_MIN = 12;
 const SEAT_FULL = 0.9, SEAT_COMPACT = 0.45;
 const seatMode = s => s >= SEAT_FULL ? 'full' : s >= SEAT_COMPACT ? 'compact' : 'hidden';
 
-const state = { view: 'org', cx: BOARD / 2, cy: BOARD / 2, scale: 1, selected: null, moved: 0, pilotLens: false };
+const state = { view: 'org', cx: BOARD / 2, cy: BOARD / 2, scale: 1, selected: null, moved: 0, pilotLens: false, pilotStage: 'ALL' };
 
 const org = layoutOrg(G.org);
 const net = layoutNetwork(G.network);
@@ -272,6 +272,11 @@ function bindSideEvents(el) {
     ev.stopPropagation();
     select({ kind: 'decision', id: t.dataset.cid });
   }));
+  el.querySelectorAll('[data-pilot-stg]').forEach(btn => btn.addEventListener('click', () => {
+    state.pilotStage = btn.dataset.pilotStg;
+    applyPilotHighlight();
+    side({ kind: 'pilot', id: 'FLOW-02-SCN-002' });
+  }));
   const moreBtn = el.querySelector('[data-expand-pages]');
   if (moreBtn) {
     moreBtn.addEventListener('click', () => {
@@ -283,9 +288,12 @@ function bindSideEvents(el) {
 
 function applyPilotHighlight() {
   const pl = G.org.pilot_lens;
-  const coreSeats = new Set((pl && pl.seats || []).map(s => s.seat_id));
-  const ctxSeats = new Set((pl && pl.context_injected_seats || []).map(s => s.seat_id));
-  const targetNodes = new Set(pl && pl.target_nodes || []);
+  const stg = state.pilotStage !== 'ALL' && pl.dryrun
+    ? (pl.dryrun.stages || []).find(s => s.stage_id === state.pilotStage)
+    : null;
+  const coreSeats = new Set(stg ? stg.producer_seats : (pl && pl.seats || []).map(s => s.seat_id));
+  const ctxSeats = new Set(stg ? stg.injected_seats : (pl && pl.context_injected_seats || []).map(s => s.seat_id));
+  const targetNodes = new Set(stg ? stg.target_nodes : (pl && pl.target_nodes || []));
   for (const l of labelEls) {
     const id = l.el.dataset.id;
     const isCore = l.kind === 'seat' ? coreSeats.has(id) : l.kind === 'node' ? targetNodes.has(id) : false;
@@ -353,9 +361,28 @@ function side(sel) {
         const nd = net.nodes.find(x => x.id === nid);
         return `<div class="rel" data-jump-node="${nid}"><div class="obj">→ ${nd ? nd.title : nid}</div><div class="meta">${nd ? nd.codes : ''}</div></div>`;
       }).join('')}
-      <h3>八阶段只读合同（STG-01..08）</h3>
-      ${pl.stages.map(st => `<div class="rel"><div class="obj"><strong>${st.id} ${st.name}</strong> · ${st.artifact}</div>
-        <div class="meta">${st.actor}｜门禁：${st.gate}</div></div>`).join('')}`;
+      <h3>干跑回放步进器（${pl.dryrun ? `${pl.dryrun.replay_runs}/3 重放一致 · 结论 ${pl.dryrun.final_decision} / ${pl.dryrun.action_disposition}` : 'STG-01..08'}）</h3>
+      <div class="stg-bar">
+        <button type="button" class="stg-btn ${state.pilotStage === 'ALL' ? 'active' : ''}" data-pilot-stg="ALL">全链总览</button>
+        ${(pl.dryrun && pl.dryrun.stages || []).map(st =>
+          `<button type="button" class="stg-btn ${state.pilotStage === st.stage_id ? 'active' : ''}" data-pilot-stg="${st.stage_id}">${st.stage_id} ${st.name}</button>`
+        ).join('')}
+      </div>
+      ${(() => {
+        const cur = state.pilotStage !== 'ALL' && pl.dryrun
+          ? (pl.dryrun.stages || []).find(s => s.stage_id === state.pilotStage)
+          : null;
+        if (!cur) {
+          return pl.stages.map(st => `<div class="rel" data-pilot-stg="${st.id}"><div class="obj"><strong>${st.id} ${st.name}</strong> · ${st.artifact}</div>
+            <div class="meta">${st.actor}｜门禁：${st.gate}</div></div>`).join('');
+        }
+        return `<div class="rel">
+          <div class="obj"><strong>${cur.stage_id} ${cur.name}</strong> · <code>${cur.artifact_kind}</code></div>
+          <div class="meta">主责：${cur.producer_seats.join(', ')}｜T3 注入：${cur.injected_seats.join(', ') || '无'}｜节点：${cur.target_nodes.join(', ')}｜sha256: <code>${cur.artifact_sha256}</code></div>
+          <div class="meta">门禁不变量：${cur.gate_invariants.join('；')}</div>
+          <div class="art-box">${JSON.stringify(cur.artifact, null, 2)}</div>
+        </div>`;
+      })()}`;
     bindSideEvents(el);
     return;
   }

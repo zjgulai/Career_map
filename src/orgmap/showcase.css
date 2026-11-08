@@ -54,3 +54,8 @@ main{flex:1;display:flex;min-height:0}
 .sw.baseline{background:var(--cyan)}.sw.feedback{background:var(--amber)}.sw.plain{background:var(--gray)}
 .statusbar a{color:#5fa08a}
 code{font-size:11px;color:#9fb5aa}
+
+.stg-bar{display:flex;flex-wrap:wrap;gap:4px;margin:8px 0}
+.stg-btn{font:inherit;font-size:11px;padding:3px 7px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer}
+.stg-btn.active{background:#2f5c4d;border-color:#2f5c4d;color:#fff}
+.art-box{font-size:11px;background:rgba(127,169,155,0.08);border:1px solid var(--line);border-radius:6px;padding:8px;margin-top:6px;white-space:pre-wrap;word-break:break-all}

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "raw_fingerprint": "595614a589909ddf",
+ "raw_fingerprint": "547211a586575eae",
  "decisions": [
   {
    "id": "C-000",
@@ -2629,7 +2629,7 @@
   },
   {
    "id": "C-375",
-   "title": "当前断点（2026-10-07）：**承接 C-374 的 FOUND-001 单一来源线索，本轮仅对 `<repo>/project/AgentTools/知识库/kb/agents/consultant-agent/runtime/lo…",
+   "title": "当前断点（2026-10-07）：**承接 C-374 的 FOUND-001 单一来源线索，本轮仅对 `<kb-repo>/kb/agents/consultant-agent/runtime/local_retrieval_api.py…",
    "form": "bold",
    "level": 0,
    "line": 4729

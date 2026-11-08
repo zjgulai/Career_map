@@ -2,7 +2,7 @@
 // 重新生成：python3 -I scripts/build-canvas-graph.py
 window.SANBAO_GRAPH = {
  "schema_version": 1,
- "graph_version": "64a6c2b49dde3426",
+ "graph_version": "433e245e00287345",
  "status": "draft_pending_owner_signoff",
  "counts": {
   "decisions": 377,
@@ -1921,6 +1921,323 @@ window.SANBAO_GRAPH = {
       "state": "ENGINEERING_READY",
       "detail": "SEV-1(15m)/SEV-2(2h)/SEV-3(24h) 分级、触发域与冻结动作已完备（on-call 随前置 #4 落名）",
       "errors": []
+     }
+    ]
+   },
+   "dryrun": {
+    "case_id": "CASE-FLOW02-SCN002-DRYRUN-001",
+    "replay_runs": 3,
+    "deterministic_verified": true,
+    "final_decision": "PARTIAL",
+    "action_disposition": "NO_ACTION",
+    "audit_events_count": 9,
+    "audit_chain_head": "08ebf3584dc6aa86",
+    "stages": [
+     {
+      "stage_id": "STG-01",
+      "name": "信号接收",
+      "artifact_kind": "ART-SIGNAL-ENVELOPE",
+      "producer_seats": [
+       "AGT-045"
+      ],
+      "injected_seats": [],
+      "target_nodes": [
+       "dataSupply"
+      ],
+      "gate_invariants": [
+       "payload_sha256 与实际载荷一致",
+       "dedupe_key 非空且可关联"
+      ],
+      "artifact_sha256": "11bbadd883cfa206",
+      "artifact": {
+       "case_id": "CASE-FLOW02-SCN002-DRYRUN-001",
+       "signal_id": "SIG-B01-WEARABLE-PUMP",
+       "source_id": "SRC-OFFLINE-B01-D1-VOC",
+       "payload_sha256": "cb8cfaee43f6d7266fc1b0227d1b488149efdbc12b686b6dd004c6a63071ab88",
+       "dedupe_key": "FLOW02-SCN002-cb8cfaee43f6",
+       "received_at": "2026-11-08T00:00:00Z"
+      }
+     },
+     {
+      "stage_id": "STG-02",
+      "name": "范围与章程",
+      "artifact_kind": "ART-CASE-CHARTER",
+      "producer_seats": [
+       "AGT-008"
+      ],
+      "injected_seats": [
+       "AGT-001",
+       "AGT-045"
+      ],
+      "target_nodes": [
+       "business",
+       "businessDefinitions"
+      ],
+      "gate_invariants": [
+       "恰好 1 个 flow (FLOW-02) 与 1 个 scenario (SCN-002)",
+       "completion_criteria 严禁含「有限放量 / 市场回执 / 真实订单」"
+      ],
+      "artifact_sha256": "888a9b27f2e1b825",
+      "artifact": {
+       "case_id": "CASE-FLOW02-SCN002-DRYRUN-001",
+       "flow": "FLOW-02",
+       "scenario": "SCN-002",
+       "scenario_selector_override": {
+        "override": true,
+        "operator": "human_owner_layer0",
+        "reason": "C-380/C-382 只读试点固定场景"
+       },
+       "business_stage": "P1_evidence_intake_and_P2_opportunity_thesis",
+       "completion_criteria": [
+        "完成两源离线证据入池与源哈希核验",
+        "输出带反证与停止条件的机会命题决策包",
+        "通过 AGT-005 独立复核并诚实记录 PARTIAL 未解项"
+       ],
+       "resource_boundary": "0 预算投放、0 采购承诺、2 并发只读 session"
+      }
+     },
+     {
+      "stage_id": "STG-03",
+      "name": "上下文装配",
+      "artifact_kind": "ART-CONTEXT-MANIFEST",
+      "producer_seats": [
+       "AGT-048"
+      ],
+      "injected_seats": [
+       "AGT-008"
+      ],
+      "target_nodes": [
+       "knowledgeStewardship"
+      ],
+      "gate_invariants": [
+       "恰好 1 个主责角色 (AGT-008)",
+       "enabled_sources 100% 落在 read-policy 白名单内"
+      ],
+      "artifact_sha256": "6623d29fc2e6ad93",
+      "artifact": {
+       "case_id": "CASE-FLOW02-SCN002-DRYRUN-001",
+       "primary_role": "AGT-008",
+       "assurance_role": "AGT-005",
+       "bundle_hash": "f0a13b8ea47ac4ff",
+       "read_policy_ref": ".codex/pilot/read-policy-flow-02.yaml",
+       "enabled_sources": [
+        "SRC-OFFLINE-B01-D1-VOC",
+        "SRC-OFFLINE-B01-D5-RETEST"
+       ]
+      }
+     },
+     {
+      "stage_id": "STG-04",
+      "name": "证据与诊断",
+      "artifact_kind": "ART-EVIDENCE-PACK",
+      "producer_seats": [
+       "AGT-008"
+      ],
+      "injected_seats": [
+       "AGT-006",
+       "AGT-007",
+       "AGT-045"
+      ],
+      "target_nodes": [
+       "consumer",
+       "business",
+       "businessDefinitions"
+      ],
+      "gate_invariants": [
+       "独立 PRIMARY 源 >= 2（DERIVED 不计入独立源）",
+       "每条 claim 标 E/J/C 且 E 类不含 C（创意资产）",
+       "缺失项标 UNKNOWN 而非 0"
+      ],
+      "artifact_sha256": "5d0dc056a7b809a0",
+      "artifact": {
+       "case_id": "CASE-FLOW02-SCN002-DRYRUN-001",
+       "independent_primary_sources": [
+        {
+         "source_id": "SRC-OFFLINE-B01-D1-VOC",
+         "source_type": "PRIMARY",
+         "sha256": "b7cd3cb55111fba47db6daedf68388f4e2d093f4c9e237d1c29528615dbd20fb",
+         "row_count": 42
+        },
+        {
+         "source_id": "SRC-OFFLINE-B01-D5-RETEST",
+         "source_type": "PRIMARY",
+         "sha256": "1fca38171030b30828d145d8a69798fd0cf564c6f707da5041c6c058d3c9947a",
+         "row_count": 108
+        }
+       ],
+       "claims": [
+        {
+         "claim_id": "CLM-01",
+         "kind": "E",
+         "source_id": "SRC-OFFLINE-B01-D1-VOC",
+         "sha256": "b7cd3cb55111fba4",
+         "locator": "reviews[0..23]",
+         "statement": "合成样本中夜间穿戴漏奶与马达噪音在低分评论中共现"
+        },
+        {
+         "claim_id": "CLM-02",
+         "kind": "E",
+         "source_id": "SRC-OFFLINE-B01-D5-RETEST",
+         "sha256": "1fca38171030b308",
+         "locator": "search_signals[0..47]",
+         "statement": "购买前搜索信号集中于静音分贝与防漏法兰尺寸适配"
+        },
+        {
+         "claim_id": "CLM-03",
+         "kind": "J",
+         "source_id": "SRC-OFFLINE-B01-D5-RETEST",
+         "sha256": "1fca38171030b308",
+         "locator": "baseline",
+         "statement": "D01/D02 规则提取对复合反讽句存在误判风险，需保留人工复核边界"
+        }
+       ],
+       "unknown_gaps": [
+        {
+         "gap_id": "UNK-01",
+         "topic": "真实人群发生率与退货率基线",
+         "value": "UNKNOWN"
+        },
+        {
+         "gap_id": "UNK-02",
+         "topic": "结构改模 BOM 成本与目标国法规准入",
+         "value": "UNKNOWN"
+        }
+       ],
+       "risk_interrupt_triggered": false
+      }
+     },
+     {
+      "stage_id": "STG-05",
+      "name": "机会命题决策包",
+      "artifact_kind": "ART-DECISION-PACKAGE",
+      "producer_seats": [
+       "AGT-008"
+      ],
+      "injected_seats": [
+       "AGT-009",
+       "AGT-001",
+       "AGT-035"
+      ],
+      "target_nodes": [
+       "business",
+       "definition",
+       "effectEvaluation"
+      ],
+      "gate_invariants": [
+       "含可证伪假设与至少 1 条替代解释",
+       "stop_conditions 非空",
+       "execution_state 必须为 CANDIDATE_NOT_EXECUTED"
+      ],
+      "artifact_sha256": "44b42f85c2ffc2c4",
+      "artifact": {
+       "case_id": "CASE-FLOW02-SCN002-DRYRUN-001",
+       "target_segment": "职场背奶与夜间免手持吸奶场景用户（受控合成样本范围）",
+       "unmet_task": "前倾或侧卧姿态下保持密封防漏且工作噪音低于图书馆环境感知",
+       "falsifiable_hypothesis": "若在 P3 工程打样中将双唇法兰密封倾角容差扩大至 25° 且实测噪音 <=42dB，则试用样本的漏奶负向反馈占比应下降 >=40%",
+       "counter_explanation": "替代解释：漏奶主因可能是用户未选对法兰孔径（教育/尺码匹配问题）而非结构密封缺陷；若尺码指导卡即可消除差评，则无需改模",
+       "stop_conditions": [
+        "若尺码匹配对照实验即可解决 >=70% 漏奶反馈，立即停止硬件改模立项",
+        "若真实 VOC 离线包（非合成样本）未复现该痛点，立即退回 STG-04 补证"
+       ],
+       "execution_state": "CANDIDATE_NOT_EXECUTED"
+      }
+     },
+     {
+      "stage_id": "STG-06",
+      "name": "独立复核",
+      "artifact_kind": "ART-ASSURANCE-DECISION",
+      "producer_seats": [
+       "AGT-005"
+      ],
+      "injected_seats": [],
+      "target_nodes": [
+       "business"
+      ],
+      "gate_invariants": [
+       "proposer != reviewer 且 coi_check 为 ALLOW",
+       "dissent 与 residual_risks 非空",
+       "overridden_by_proposer 必须为 false"
+      ],
+      "artifact_sha256": "7e5f6bb56a03c0bb",
+      "artifact": {
+       "case_id": "CASE-FLOW02-SCN002-DRYRUN-001",
+       "proposer": "AGT-008",
+       "reviewer": "AGT-005",
+       "coi_disposition": "ALLOW",
+       "recommendation": "PARTIAL_ACCEPT_WITH_GAPS",
+       "dissent": [
+        "当前两份输入（B01-TRIAL-01/02）均为受控合成测试样本，严禁外推为 Momcozy 真实人群统计结论",
+        "尺码匹配替代解释尚未排除，不得直接进入 P3 模具投入"
+       ],
+       "residual_risks": [
+        "UNK-01 真实人群退货率缺失",
+        "UNK-02 BOM 成本与 C-028 医疗器械准入边界未核验"
+       ],
+       "overridden_by_proposer": false
+      }
+     },
+     {
+      "stage_id": "STG-07",
+      "name": "只读无动作",
+      "artifact_kind": "ART-NO-ACTION-RECORD",
+      "producer_seats": [
+       "AGT-008"
+      ],
+      "injected_seats": [],
+      "target_nodes": [
+       "business"
+      ],
+      "gate_invariants": [
+       "no_action === true",
+       "action_intents / policy_decisions 为空，external_network_calls === 0，credentials_accessed === false"
+      ],
+      "artifact_sha256": "2019f83f8c80b880",
+      "artifact": {
+       "case_id": "CASE-FLOW02-SCN002-DRYRUN-001",
+       "no_action": true,
+       "action_intents": [],
+       "policy_decisions": [],
+       "external_network_calls": 0,
+       "credentials_accessed": false
+      }
+     },
+     {
+      "stage_id": "STG-08",
+      "name": "事项关闭",
+      "artifact_kind": "ART-CASE-CLOSURE",
+      "producer_seats": [
+       "AGT-008"
+      ],
+      "injected_seats": [
+       "AGT-001"
+      ],
+      "target_nodes": [
+       "business"
+      ],
+      "gate_invariants": [
+       "decision ∈ {CONTINUE, TURN, STOP, PARTIAL}（存在未解项或受控样本时严禁判 SUCCESS）",
+       "action_disposition === NO_ACTION",
+       "每条 unresolved_items 必有 owner"
+      ],
+      "artifact_sha256": "42ff3b3b8bcb3e61",
+      "artifact": {
+       "case_id": "CASE-FLOW02-SCN002-DRYRUN-001",
+       "decision": "PARTIAL",
+       "action_disposition": "NO_ACTION",
+       "unresolved_items": [
+        {
+         "id": "LEFT-01",
+         "item": "需接入由具名 data owner 签核的真实品类离线 VOC 样本替换合成 fixture",
+         "owner": "OFFLINE-DATA-OWNER (AGT-006 接收)"
+        },
+        {
+         "id": "LEFT-02",
+         "item": "需在 P3 阶段补齐硬件密封打样与 C-028 准入核对后方可重开立项评估",
+         "owner": "AGT-008 / AGT-011 / AGT-044"
+        }
+       ],
+       "audit_chain_head": "08ebf3584dc6aa86b8cf8a58f835798d23548f2427d4c7be5332a05e4d71d96c"
+      }
      }
     ]
    }
@@ -7685,7 +8002,7 @@ window.SANBAO_GRAPH = {
   },
   {
    "id": "C-375",
-   "title": "当前断点（2026-10-07）：**承接 C-374 的 FOUND-001 单一来源线索，本轮仅对 `<repo>/project/AgentTools/知识库/kb/agents/consultant-agent/runtime/lo…",
+   "title": "当前断点（2026-10-07）：**承接 C-374 的 FOUND-001 单一来源线索，本轮仅对 `<kb-repo>/kb/agents/consultant-agent/runtime/local_retrieval_api.py…",
    "form": "bold",
    "level": 0,
    "line": 4729

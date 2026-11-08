@@ -603,6 +603,7 @@ const SEAT_MAP = new Map([...G.org.seats, ...G.org.governance].map(s => [s.seat_
 
 let closeupMode = false;
 let pilotMode = false;
+let pilotStage3d = 'ALL';
 
 function showDetail(kind, id) {
   if (kind === 'pilot') {
@@ -630,8 +631,24 @@ function showDetail(kind, id) {
         const nd = net.nodes.find(x => x.id === nid);
         return `<div class="jump" data-jump3d="node:${nid}">→ ${nd ? nd.title : nid}（${nd ? nd.codes : ''}）</div>`;
       }).join('')}
-      <h3>八阶段只读合同（STG-01..08）</h3>
-      ${plData.stages.map(st => `<p><strong>${st.id} ${st.name}</strong> · ${st.artifact}<br><small>${st.actor}｜${st.gate}</small></p>`).join('')}`;
+      <h3>干跑回放步进器（${plData.dryrun ? `${plData.dryrun.replay_runs}/3 重放一致 · ${plData.dryrun.final_decision}` : 'STG-01..08'}）</h3>
+      <div class="stg-bar">
+        <button type="button" class="stg-btn ${pilotStage3d === 'ALL' ? 'active' : ''}" data-stg3d="ALL">全链</button>
+        ${(plData.dryrun && plData.dryrun.stages || []).map(st =>
+          `<button type="button" class="stg-btn ${pilotStage3d === st.stage_id ? 'active' : ''}" data-stg3d="${st.stage_id}">${st.stage_id}</button>`
+        ).join('')}
+      </div>
+      ${(() => {
+        const cur = pilotStage3d !== 'ALL' && plData.dryrun
+          ? (plData.dryrun.stages || []).find(s => s.stage_id === pilotStage3d)
+          : null;
+        if (!cur) {
+          return plData.stages.map(st => `<p><strong>${st.id} ${st.name}</strong> · ${st.artifact}<br><small>${st.actor}｜${st.gate}</small></p>`).join('');
+        }
+        return `<p><strong>${cur.stage_id} ${cur.name}</strong> · <code>${cur.artifact_kind}</code><br>
+          <small>主责：${cur.producer_seats.join(', ')}｜注入：${cur.injected_seats.join(', ') || '无'}｜sha: ${cur.artifact_sha256}</small></p>
+          <div class="art-box">${JSON.stringify(cur.artifact, null, 2)}</div>`;
+      })()}`;
   } else if (kind === 'seat') {
     const s = SEAT_MAP.get(id);
     if (!s) return;
@@ -665,6 +682,23 @@ function showDetail(kind, id) {
         `<p class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</p>`
       ).join('') : ''}`;
   }
+  side.querySelectorAll('[data-stg3d]').forEach(btn => btn.addEventListener('click', () => {
+    pilotStage3d = btn.dataset.stg3d;
+    const cur = pilotStage3d !== 'ALL' && plData.dryrun
+      ? (plData.dryrun.stages || []).find(s => s.stage_id === pilotStage3d)
+      : null;
+    const activeSeats = cur ? new Set([...cur.producer_seats, ...cur.injected_seats]) : new Set([...pilotCoreIds, ...pilotCtxIds]);
+    const activeNodes = cur ? new Set(cur.target_nodes) : pilotNodeIds;
+    if (flow) flow.setPilotNodes(pilotMode ? activeNodes : null);
+    for (const [sid, mesh] of personBySeat.entries()) {
+      mesh.scale.setScalar(pilotMode && activeSeats.has(sid) ? 1.15 : 1);
+    }
+    for (const l of labels) {
+      const pinned = pilotMode && ((l.kind === 'seat' && activeSeats.has(l.id)) || (l.kind === 'node' && activeNodes.has(l.id)));
+      l.el.classList.toggle('pilot-pin', pinned);
+    }
+    showDetail('pilot', 'FLOW-02-SCN-002');
+  }));
   side.querySelectorAll('[data-jump3d]').forEach(el => el.addEventListener('click', () => {
     const [k, v] = el.dataset.jump3d.split(':');
     const want = k === 'node' ? 'network' : 'org';

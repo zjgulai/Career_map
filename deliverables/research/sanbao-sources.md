@@ -40,19 +40,19 @@
 
 ## 05 企业经营业务全景图资料
 
-- 实际路径：`/Users/pray/project/platform-operations -wiki/`，空格属于目录名。
+- 实际路径：`<external-repo>/platform-operations -wiki/`，空格属于目录名。
 - 已查见：README 定义为面向跨境电商 DTC 品牌、AI 可调用的运营决策知识系统，覆盖 Amazon、TikTok Shop、DTC、Meta、YouTube、Affiliate、PR；知识对象包含来源、规则/指标/能力卡、场景决策包、工作流、案例实验和监控。
 - 边界：数量、测试与 freshness 为 2026-08-25 历史快照。文档有 queue-no-send、P6 release blocked、Owner signoff 未齐等记录；未重新验证运行状态。
 - 候选用途：跨平台运营规则、知识、经营场景与决策依据。
-- 本地证据：[README 定位](</Users/pray/project/platform-operations -wiki/README.md:3>)、[对象结构](</Users/pray/project/platform-operations -wiki/README.md:32>)、[历史状态](</Users/pray/project/platform-operations -wiki/README.md:54>)。
+- 本地证据：[README 定位](<<external-repo>/platform-operations -wiki/README.md:3>)、[对象结构](<<external-repo>/platform-operations -wiki/README.md:32>)、[历史状态](<<external-repo>/platform-operations -wiki/README.md:54>)。
 
 ## 06 企业业务系统底座资料
 
-- 实际路径：`/Users/pray/project/ecom_ana_overview/scm/`。
+- 实际路径：`<external-repo>/ecom_ana_overview/scm/`。
 - 已查见：供应链专题分层蓝图已有经营结果、指标体系、节点治理、数据分析、执行方案五层；有 React/Vite、Node、SQLite 的 V0 数据治理工作台原型。
 - 边界：原型说明不接 ERP/TMS/生产数据；ChatBI 为 dry-run，不执行真实 SQL。目前不能据此认定完整企业业务底座已运行。
 - 候选用途：业务领域、数据语义、指标、诊断与行动之间关系的供应链样板。
-- 本地证据：[分层蓝图](/Users/pray/project/ecom_ana_overview/scm/00_供应链专题_项目分层蓝图.md:17)、[成熟度说明](/Users/pray/project/ecom_ana_overview/scm/00_供应链专题_项目分层蓝图.md:73)、[原型 README](/Users/pray/project/ecom_ana_overview/scm/drafts/prototypes/scm-data-governance-workbench-v0/README.md:15)。
+- 本地证据：[分层蓝图](<external-repo>/ecom_ana_overview/scm/00_供应链专题_项目分层蓝图.md:17)、[成熟度说明](<external-repo>/ecom_ana_overview/scm/00_供应链专题_项目分层蓝图.md:73)、[原型 README](<external-repo>/ecom_ana_overview/scm/drafts/prototypes/scm-data-governance-workbench-v0/README.md:15)。
 
 ## 07 企业 Agent harness 架构
 
@@ -72,11 +72,11 @@
 
 ## 09 企业战略咨询知识库
 
-- 实际路径：`/Users/pray/project/kb/`。
+- 实际路径：`<external-repo>/kb/`。
 - 已查见：定位为咨询顾问诊断与交付 Copilot；可支持问题树、诊断计划、数据需求/访谈提纲、管理摘要/方案结构、KPI 和术语查找。README 记录检索资产与 public HTTPS staging MVP。
 - 边界：没有本次公网复测；不推导正式生产可用。provider-backed chat、human-gold、来源许可仍有未满足的条件；部分子目录说明比根 README 旧。
 - 候选用途：战略问题定义、诊断方法与证据需求。
-- 本地证据：[README](/Users/pray/project/kb/README.md:15)、[Agent 角色说明](/Users/pray/project/kb/agents/consultant-agent/README.md:12)、[AGENTS](/Users/pray/project/kb/AGENTS.md:12)、[开发记录 HOLD](/Users/pray/project/kb/.kiro/plan/progress.md:1073)。
+- 本地证据：[README](<external-repo>/kb/README.md:15)、[Agent 角色说明](<external-repo>/kb/agents/consultant-agent/README.md:12)、[AGENTS](<external-repo>/kb/AGENTS.md:12)、[开发记录 HOLD](<external-repo>/kb/.kiro/plan/progress.md:1073)。
 
 ## 首轮补充来源 · 待按节点研究
 
@@ -154,7 +154,7 @@
 
 ## R-016 · 三宝官网设计与资料主线
 
-来源：用户 2026-09-21 补充 `/Users/pray/Sanbao/SanBao_web/` 并确认 AI-Native-Organization 的组织设计归属，对应 C-007。
+来源：用户 2026-09-21 补充 `Sanbao/SanBao_web/` 并确认 AI-Native-Organization 的组织设计归属，对应 C-007。
 
 本轮只读深读官网 README、模板、业务 JSON、前端交互、构建与既往验证说明。官网将三宝定义为经营决策与运营执行平台，并呈现知识图谱、目标、角色、经营链、能力调用和结果回执的设计；静态目录为 7 价值流、59 场景、21 经营链、50 角色。未运行或修改官网，不将演示计为真实业务运行。详情与来源锚点见 `product-responsibility-research.md`。
 
@@ -554,7 +554,7 @@ Q-041未确认、未加入画布或术语；没有读取实际企业销售/客�
 
 日期：2026-09-22。用户同意Q048并指定使用已配置TypeSafe技能继续，沿用已有记录C051「经营知识整理与维护」，不重复生成同一决定。原资料仍为主线，源项目只读，Harness专题暂停。新增画布及运行验收在context-pack单独记录，讨论示意不等于实际知识服务运行。
 
-读取本机 `/Users/pray/.agents/skills/typesafe-ai/SKILL.md`；通过只读HTTP实时取得TypeSafe官方索引、构建指南、citation_check和confidence文档。采用确定性定位与语义支持判断分开、窄问题分拆、保留不确定性的设计方法；未采用示例阈值、成本/性能数字、自动生效标签或新的人工门禁。已有 `.codex/typesafe/knowledge-assist.mjs` 与示例保持原样，本轮默认dry-run退出0、构造8个问题，无模型答案与API外呼；这只验证负载构造，不证明模型判断正确或业务效果。详细应用边界和官方链接见typesafe-integration-design本日补充。
+读取本机 `<agents-home>/skills/typesafe-ai/SKILL.md`；通过只读HTTP实时取得TypeSafe官方索引、构建指南、citation_check和confidence文档。采用确定性定位与语义支持判断分开、窄问题分拆、保留不确定性的设计方法；未采用示例阈值、成本/性能数字、自动生效标签或新的人工门禁。已有 `.codex/typesafe/knowledge-assist.mjs` 与示例保持原样，本轮默认dry-run退出0、构造8个问题，无模型答案与API外呼；这只验证负载构造，不证明模型判断正确或业务效果。详细应用边界和官方链接见typesafe-integration-design本日补充。
 
 下一Q049研究知识如何成为可检验的专业作业方法。固定组织799457e3的CVS02第120–122行、AGT048第7–17/51–61行及管理图第40–44/61行提供内容工程、评估、生效职责区别；本轮新读固定Kb2Agent57f8e3e7的09-skill-distillation-deep-dive第33/423–429行，提取触发、步骤、判断逻辑、例外、边界与验证。该章第481–494行保留待复核/示意边界，不引用其效果数字或宣称已验证新方法。准确链接和待决定提案见value-stream-design-research。
 
@@ -780,9 +780,9 @@ CAP-011保留为按当前经营问题组合相关结果的机会比较候选，�
 
 ## R-089 · C071 VOC闭集打标线来源核验与S6-01检验位置确认
 
-日期：2026-09-23。用户同意把首张深读来源卡限定为「VOC标签体系·闭集打标线（原件待挂载）」。当前主机找不到原`/Users/pray/project/ai_nlp_voc`或`/Users/lute/project/ai_nlp_voc`目录；Career此前CAP-003的原件定位只能继续作为历史索引，不能写成这轮重新核验的原始合同。
+日期：2026-09-23。用户同意把首张深读来源卡限定为「VOC标签体系·闭集打标线（原件待挂载）」。当前主机找不到原`<external-repo>/ai_nlp_voc`或`<external-repo>/ai_nlp_voc`目录；Career此前CAP-003的原件定位只能继续作为历史索引，不能写成这轮重新核验的原始合同。
 
-本轮只读找到了`/Users/lute/project/paper_to_skills/paper2skills-vault/07-NLP-VOC/`的相关静态材料及独立轻量VOC情感分析器。前者的L1代码静态表现为单评论在固定字典中选择`tag_id`，并伴随总体情感、Proxy NPS、JSON／schema校验、重试、批处理等；字典装载与允许标签集是独立依赖，且可见代码仍指向不存在的旧绝对路径。后者是批量评论分析报告合同，不是CAP-003的受控闭集`tag_id`合同。二者都不证明原`ai_nlp_voc`的同一性、当前API、字典可读性、模型／网络／部署、准确率或运行状态。
+本轮只读找到了`paper_to_skills/paper2skills-vault/07-NLP-VOC/`的相关静态材料及独立轻量VOC情感分析器。前者的L1代码静态表现为单评论在固定字典中选择`tag_id`，并伴随总体情感、Proxy NPS、JSON／schema校验、重试、批处理等；字典装载与允许标签集是独立依赖，且可见代码仍指向不存在的旧绝对路径。后者是批量评论分析报告合同，不是CAP-003的受控闭集`tag_id`合同。二者都不证明原`ai_nlp_voc`的同一性、当前API、字典可读性、模型／网络／部署、准确率或运行状态。
 
 因此C-071不更新CAP-003成熟度，也不把闭集标签与情感、NPS、ABSA、画像、统一出口、BI或行动合并。CAP-003继续表示已治理文本与固定标签字典版本形成闭集标签结果；CAP-004评论主题归组、CAP-019经营对象语义标记继续独立。可见结果中的有限文本片段不等于完整来源追溯、引用证据封装或判断证据包。
 
@@ -812,7 +812,7 @@ KB标签审查、知识蒸馏预检与VOA来源准入可见“候选物＋规则
 
 日期：2026-09-23。用户同意按“原件证据优先”继续，只读核对原`ai_nlp_voc`能否在当前主机重新定位。结果是：当前主机没有找到可重新挂载的原件；这只说明当前机器缺失，不能说明原项目从未存在。
 
-`/Users/pray`当前不存在，因此历史路径`/Users/pray/project/ai_nlp_voc/`无法成立；`/Users/lute/project/ai_nlp_voc`及大小写／连字符变体也未找到。当前`paper_to_skills`内的`07-NLP-VOC`、`paper2skills-code/nlp_voc`和`paper2skills-vault`材料均是论文／代码模板镜像，而非原仓库。`paper_to_skills/CLAUDE.md`第72行保留一条中等强度的历史定位：`07-NLP-VOC`曾在2026-05-17的`47b1dbf`后独立迁至`/Users/pray/project/ai_nlp_voc/`；但当前本地Git只有`paper_to_skills`远端，未找到该提交、回退ref、独立remote、worktree、submodule或符号链接，不能从现有本机Git对象反向恢复原件。
+`<user-home>`当前不存在，因此历史路径`<external-repo>/ai_nlp_voc/`无法成立；`<external-repo>/ai_nlp_voc`及大小写／连字符变体也未找到。当前`paper_to_skills`内的`07-NLP-VOC`、`paper2skills-code/nlp_voc`和`paper2skills-vault`材料均是论文／代码模板镜像，而非原仓库。`paper_to_skills/CLAUDE.md`第72行保留一条中等强度的历史定位：`07-NLP-VOC`曾在2026-05-17的`47b1dbf`后独立迁至`<external-repo>/ai_nlp_voc/`；但当前本地Git只有`paper_to_skills`远端，未找到该提交、回退ref、独立remote、worktree、submodule或符号链接，不能从现有本机Git对象反向恢复原件。
 
 VOA历史普查中有`ai_nlp_voc_discovery`这一元数据根，记录64,286个文件、约30.28GiB及混合代码／测试／缓存／数据类别，但未注册Connector、未存绝对根路径且未读取原始内容；它只能证明历史环境曾发现过同名资产，不能定位、替代或证明当前讨论的原件版本。
 
@@ -832,7 +832,7 @@ VOA历史普查中有`ai_nlp_voc_discovery`这一元数据根，记录64,286个�
 
 日期：2026-09-23。用户纠正本轮重点为“已有产品拆解能力的全景规划”，并明确两条端到端场景。`https://report.lute-tlz-dddd.top/`公开页面可见洞察报告入口、战略／产品／执行分面和由战略洞察、市场洞察、用户需求、机会、产品定义、页面／SEO、视觉与素材交付组成的报告表达；它可作为「VOC 洞察—产品化」能力来源，不能据此推断三宝已经连接报告数据、验证结论或运行流程。
 
-`https://platform.shopify.lute-tlz-dddd.top/`公开页面及只读本地来源`/Users/lute/project/shopify/`均显示 Shopify/DTC 经营知识、经营路径、工作台、SOP、RAG、技术／风险说明和 00—10 经营节点，以及数据／归因、CRO、履约与客户运营等材料；它们可作为「Shopify AI+BI 智能运营」能力来源。公开页面明确是知识／决策界面，本地项目也包含静态知识整理、检索、经营快照校验、候选任务／报告／行动包生成等不同资产；不据此宣称存在统一实时多源数据连接、自动执行、因果归因引擎或生产运营系统。
+`https://platform.shopify.lute-tlz-dddd.top/`公开页面及只读本地来源`<external-repo>/shopify/`均显示 Shopify/DTC 经营知识、经营路径、工作台、SOP、RAG、技术／风险说明和 00—10 经营节点，以及数据／归因、CRO、履约与客户运营等材料；它们可作为「Shopify AI+BI 智能运营」能力来源。公开页面明确是知识／决策界面，本地项目也包含静态知识整理、检索、经营快照校验、候选任务／报告／行动包生成等不同资产；不据此宣称存在统一实时多源数据连接、自动执行、因果归因引擎或生产运营系统。
 
 两条场景仅用于后续把来源资产依次定位为原子能力候选、小范围工作流候选、场景位置与数字员工Bundle／Preset；同名工具、页面或SOP不自动合并。未来若讨论跨场景共用能力，必须逐项比较同一业务问题、输入、输出、边界和上下游，而不是因“都使用AI”或都出现VOC／数据就直接合并。本轮未登录、写入、运行模型、读取真实业务数据或触发任何业务动作。
 
@@ -909,7 +909,7 @@ C-106没有读取新的消费者、市场、社媒、订单、客服、评论、
 
 本轮只读核对TypeSafe官方 State、Primitives与Confidence文档，将其“相关内容与支持事实分开保留、同一state上的问题彼此独立、置信度不等于事实正确”的产品方法作为C-106的边界检查参考；未调用TypeSafe、Jev或任何模型，未外发本地资料，也没有新增API、SDK、数据接入、阈值、自动路由或业务动作。C-106仍由C-018专业审阅，C-095仅在同一情境、同一开放问题且相关时按需参照，C-097不进入C-096的正式输入链。
 
-C-107没有读取新的消费者、市场、订单、客服、评论、社区或业务系统数据；它只读复用R-095、C-079—C-085、C-093—C-106的已确认来源／交接边界，并检查当前Career记录及Shopify已提交HEAD中的客户声音、Listing评价／QA、历史快照定位与证据浏览的结构性说明。`/Users/lute/project/VOA/`与`/Users/lute/project/shopify/`均存在非本任务未提交变更，因此未读取这些工作区的草稿、真实客户或经营内容；`paper_to_skills`中的NLP-VOC只被视为静态镜像线索，不能替代原`ai-nlp-voc`原件。
+C-107没有读取新的消费者、市场、订单、客服、评论、社区或业务系统数据；它只读复用R-095、C-079—C-085、C-093—C-106的已确认来源／交接边界，并检查当前Career记录及Shopify已提交HEAD中的客户声音、Listing评价／QA、历史快照定位与证据浏览的结构性说明。`<external-repo>/VOA/`与`<external-repo>/shopify/`均存在非本任务未提交变更，因此未读取这些工作区的草稿、真实客户或经营内容；`paper_to_skills`中的NLP-VOC只被视为静态镜像线索，不能替代原`ai-nlp-voc`原件。
 
 据此，C-107只支持把“VOC洞察范围与证据底稿”正向落在V1-A1范围说明、V1-B可定位状态B材料、V1-C同源限制／未知显化，并在既有条件下交出C-093待审阅的问题线索包。它不支持该产品切片直接成为C-094候选人群／使用情境、C-095候选替代观察、C-096三栏编排或C-097候选问题线索的赢家；四个位置仍只接受未来能够分别证明独立交付边界的候选。具体报告材料、`completed`原文和同一快照“来源回溯＋缺口”成对满足的历史快照仍只能带限制进C-093；Shopify客户声音／Listing方法只帮助保留已进入材料的出处／情境，战略、竞品与社媒资料继续只服务V1-A1。
 
@@ -933,7 +933,7 @@ R-095及既有来源只支持：未来C-094候选在同一C-093研究范围内�
 
 本轮实时只读复核TypeSafe官方State、Primitives与Confidence页面：state保存内容与支持事实，questions定义窄判断，同一state上的问题彼此独立，概率／置信度不等于事实正确、专业判断或业务授权。它们仅作为C-109的结构边界参考；未调用TypeSafe、Jev或其他模型，未外发本地资料，也没有新增API、SDK、state schema、Choice／Score／Noul、阈值、数据接入、自动路由或业务动作。
 
-C-110没有读取新的消费者、市场、订单、评论、社媒、客服、社区、平台或业务系统来源；它只复用R-089、R-094、R-095与C-093—C-109已确认的边界，并只读核对`/Users/lute/project/VOA`已提交`HEAD@5767a54bb860e9fa0234455915f83f770ee22f7b`的`backend/data/scenario-registry.v1.json`。该工作区存在大量非本任务未提交变更，本轮只用`git show HEAD:<path>`读取提交对象，不读取或使用工作树草稿、真实经营内容或凭据。
+C-110没有读取新的消费者、市场、订单、评论、社媒、客服、社区、平台或业务系统来源；它只复用R-089、R-094、R-095与C-093—C-109已确认的边界，并只读核对`<external-repo>/VOA`已提交`HEAD@5767a54bb860e9fa0234455915f83f770ee22f7b`的`backend/data/scenario-registry.v1.json`。该工作区存在大量非本任务未提交变更，本轮只用`git show HEAD:<path>`读取提交对象，不读取或使用工作树草稿、真实经营内容或凭据。
 
 该提交第4849—4860行把S6-01写为「用户需求与旅程洞察」，并表达“识别不同人群在不同阶段的需求、障碍和触点”；第4947—4962行列出“旅程建模、VOC聚类、机会关联”；第5013行给出“人群×任务×场景×旅程阶段×需求×障碍”，第5014行标记`readiness: registered`。这些是静态场景设计表达，且R-089已将S6-01限制为需求证据候选整理的场景检验锚点；它们不是C-093状态B材料、真实人群／任务／情境／需求／障碍／触点效果、数据接入、权限、生产E2E或运行能力。
 
@@ -1431,7 +1431,7 @@ TypeSafe只沿用“具名内容并列、独立判断不互相代写”的表达
 
 ### C-159 · 50 个岗位四平面能力总图，8 个业务域作为第二视角 · 来源与表达边界
 
-日期：2026-09-25。来源：`/Users/lute/project/AI组织变革/docs/04-organization/AI-ORGANIZATION-MAP.md`、D-021、D-053、D-057。用户确认继续先做高层岗位能力规划，不展开原子Skill细节。
+日期：2026-09-25。来源：`AI组织变革/docs/04-organization/AI-ORGANIZATION-MAP.md`、D-021、D-053、D-057。用户确认继续先做高层岗位能力规划，不展开原子Skill细节。
 
 AI-Native-Organization 的 50 个逻辑岗位按责任性质分为四个平面：经营管理5个（目标、优先级、资源约束、组织能力），业务运营35个（产品到GMV、履约、客户价值），独立控制5个（审计、税务、法务、合规、安全的独立检查），数据与Agent平台5个（数据、工具、Skill、模型、可靠性能力）。四平面是责任性质视角，不是组织上下级、Agent数量、运行路由、权限表或数据流。
 
@@ -1441,7 +1441,7 @@ AI-Native-Organization 的 50 个逻辑岗位按责任性质分为四个平面�
 
 ### C-160 · 四个能力平面接入三条经营主链，VOC 与 Shopify AI+BI 作为场景检验镜头 · 来源与表达边界
 
-日期：2026-09-25。来源：C-159 四平面确认、C-075／C-076 两个端到端场景登记，以及 `/Users/lute/project/AI组织变革/docs/04-organization/AI-ORGANIZATION-MAP.md` 的平面关系。用户确认本轮继续只做高层系统图谱。
+日期：2026-09-25。来源：C-159 四平面确认、C-075／C-076 两个端到端场景登记，以及 `AI组织变革/docs/04-organization/AI-ORGANIZATION-MAP.md` 的平面关系。用户确认本轮继续只做高层系统图谱。
 
 新品经营、持续经营、新市场经营共用四个能力平面、同一能力池和 C-014 共享经营事项，不复制三套组织。业务运营平面承接主要业务交付；经营管理平面提供目标、优先级、资源和边界；独立控制平面保持独立检查；数据与 Agent 平面提供数据、知识、工具、Skill、模型和可靠性能力。
 
@@ -1573,7 +1573,7 @@ C-162不改变C-161三条链各自的专业交接、C-014 Lead／Worker边界、
 
 日期：2026-09-25。用户确认C-173后的下一轮建议。本轮沿用C-071／C-072和R-093已经定位的来源证据，在同一「新品经营｜消费者需求洞察」入口只确认一个受控整理片段；没有重新远程访问私有原件、运行代码、模型或真实数据。
 
-- **可回查的来源片段与可见性。**R-093记录私有原件`zjgulai/ai-nlp-voc`的只读锚点`main@3a97cbac512f6c41191a22369b2b73a5841e0430`：其`CONTEXT.md`分开表达受治理输入、固定字典合同、候选选择、provider调用、结果标准化和证据线；`normalizer.py`在固定release、当前行、策略和本流程candidate set内核对候选成员性／证据位置并返回内部状态。本机可读静态镜像`/Users/lute/project/AgentTools/技能库/paper_to_skills/paper2skills-vault/07-NLP-VOC/research/02-脚本工具/07-LLM引擎/llm_labeler.py`第33—76行可见固定`tag_id`与“连续原文片段”的提示词约束，实际字典成员性校验位于第65—71行；同目录`tag_dict_loader.py`第22—24行仍指向失效旧绝对路径。可见验证器只截断`evidence`字符串，不能据此证明片段确为原文、连续、可定位或已在运行中被保真。静态镜像只能作为相关实现线索，不能证明与远程原件同一、当前字典可读性、模型／API、准确率、真实数据、部署或运行状态。
+- **可回查的来源片段与可见性。**R-093记录私有原件`zjgulai/ai-nlp-voc`的只读锚点`main@3a97cbac512f6c41191a22369b2b73a5841e0430`：其`CONTEXT.md`分开表达受治理输入、固定字典合同、候选选择、provider调用、结果标准化和证据线；`normalizer.py`在固定release、当前行、策略和本流程candidate set内核对候选成员性／证据位置并返回内部状态。本机可读静态镜像`paper_to_skills/paper2skills-vault/07-NLP-VOC/research/02-脚本工具/07-LLM引擎/llm_labeler.py`第33—76行可见固定`tag_id`与“连续原文片段”的提示词约束，实际字典成员性校验位于第65—71行；同目录`tag_dict_loader.py`第22—24行仍指向失效旧绝对路径。可见验证器只截断`evidence`字符串，不能据此证明片段确为原文、连续、可定位或已在运行中被保真。静态镜像只能作为相关实现线索，不能证明与远程原件同一、当前字典可读性、模型／API、准确率、真实数据、部署或运行状态。
 - **当前比较范围。**只对一个已明确消费者／购买或使用情境、品牌、市场、渠道账号、商品集合、时间窗和允许输入版本的候选产品问题中，已经进入研究范围且可定位的反馈文本，读取“已核对字典版本与允许集合内的`tag_id`选择、对应原文定位、未命中／待复核留痕”。它不把母婴静态镜像的领域、旧输入、字典版本、情感、Proxy NPS或运行链泛化给全部三宝场景。
 - **C-167五面读数。**职责同题和首交付可接都只在“受控整理”这个子问题局部适配，不能覆盖本站位的未满足需求识别或需求证据与问题地图；协作边界只允许它把候选整理材料交给消费者需求洞察专业判断，不替其解释、比较或经营取舍；能力依据可回查到R-093和本地静态约束，却不是当前运行证据；范围与反例明确固定字典、来源定位、未命中／待复核，并禁止从标签命中推导需求、代表性、因果、市场或商业结论。五面不评分也不互相补足。
 - **C-169／C-170结论。**它只标为「局部可拆能力片段」，不是第二个直接候选能力证据：来源片段是固定字典内`tag_id`成员性、对应原文定位与待复核边界；目标为新品经营／消费者需求洞察中的有条件候选材料整理；可贡献闭集标签、原文定位、字典版本／范围提示与未命中／待复核显性化；不可带入完整需求判断、问题地图、跨来源反证、市场／人群结论、情感／Proxy NPS／ABSA／画像／BI、字典质量判断、来源流程或经营决定。
@@ -1620,7 +1620,7 @@ C-162不改变C-161三条链各自的专业交接、C-014 Lead／Worker边界、
 
 日期：2026-09-25。用户确认 C-179 后的下一轮建议。本轮只读复查 C-174 已登记的本机静态镜像；未读取远程原件、真实评论、字典文件、模型、日志、凭据或任何外部服务，也没有改变源目录。
 
-- **可定位的静态线索。**`/Users/lute/project/AgentTools/技能库/paper_to_skills/paper2skills-vault/07-NLP-VOC/research/02-脚本工具/07-LLM引擎/llm_labeler.py` 第33—76行写出旧任务的 `tag_id`、对“连续 `evidence` 片段”的提示词要求、字典内 ID 禁止编造及第65—71行的 Pydantic 成员性校验；可见验证器只截断字符串，未验证原文连续性或出处。同目录 `tag_dict_loader.py` 第22—52行显示历史 v3.9 `DICT_PATH`、多个标签 sheet 与允许 ID 集合的只读汇集。前一来源输出还包含 `overall_sentiment`、`proxy_nps`、`confidence` 与阈值；这些不是 C-175 的交接物。
+- **可定位的静态线索。**`paper_to_skills/paper2skills-vault/07-NLP-VOC/research/02-脚本工具/07-LLM引擎/llm_labeler.py` 第33—76行写出旧任务的 `tag_id`、对“连续 `evidence` 片段”的提示词要求、字典内 ID 禁止编造及第65—71行的 Pydantic 成员性校验；可见验证器只截断字符串，未验证原文连续性或出处。同目录 `tag_dict_loader.py` 第22—52行显示历史 v3.9 `DICT_PATH`、多个标签 sheet 与允许 ID 集合的只读汇集。前一来源输出还包含 `overall_sentiment`、`proxy_nps`、`confidence` 与阈值；这些不是 C-175 的交接物。
 - **可支持与不可支持必须分开。**成员性校验与原文片段是 C-179「字典内受控整理」的局部来源证据；它们不能补成 C-177 四项资格、C-178 六项保真或 C-179 的完整竞聘证明。代码中没有当前研究范围、来源身份／位置、语境／限制／未知、明确未命中／待复核、V1-B 回流或缺件／越界退回的可读表达。`DICT_PATH` 指向旧绝对位置，静态镜像没有证明对应字典当前存在、可读、适用或已被 C-175 核对。
 - **来源身份不变。**因此 C-174 只新增「竞聘前来源对照」阅读用途，而非 Source Role、候选 Skill、测试样例、评分对象、赢家／失败者或运行实现。C-180不把情感、Proxy NPS、置信度、阈值、旧 JSON 合同、provider、母婴领域假定或旧流程带入三宝；它们只作为“不得静默继承”的反向边界。
 - **下一题候选。**若进入 C-181，只能并列阅读 C-174 与 C-176 各自已确认的局部参照，判断它们是否服务 C-179 的不同阅读面；两者不可拼成一名候选 Skill、不可互相填补缺件、不可产生登记、评分、组合、岗位、Preset、数据或运行结论。
@@ -1949,7 +1949,7 @@ C-162不改变C-161三条链各自的专业交接、C-014 Lead／Worker边界、
 - `范围尚未提供`只说明当前没有对象、版本、期间或用途可供写入，不把空白补成来源事实、候选结论或真实数据缺失。
 - `未知仍保持开放`只说明已有范围下仍存在尚未知道的事实、解释、未来情景或反证需要，不把未知写为错误、失败、自动补证、任务、评分或动作。
 - C-206至C-213和更早C-184至C-200／C-048的原内容只改变页面位置，不改变来源、证据、责任或范围边界；卡片路径不是正式关系线、数据流或运行状态。
-- `/Users/lute/project/Magpie-Horch/`本轮未被读取或修改。C-214最多为未来交接保留产品信息架构原则，不作为该项目已经采用、已经实现或已经验收的证据。
+- `<external-repo>/Magpie-Horch/`本轮未被读取或修改。C-214最多为未来交接保留产品信息架构原则，不作为该项目已经采用、已经实现或已经验收的证据。
 
 ### C-215 · C-190静态证明输入轮廓没有新增来源核对
 
@@ -2118,7 +2118,7 @@ C-162不改变C-161三条链各自的专业交接、C-014 Lead／Worker边界、
 
 ### C-230 · SRC-040I 的 AMI CI 报告方法与证据边界片段
 
-日期：2026-09-27。本轮只读打开本地来源 `/Users/lute/project/AgentTools/方案库/洞察/AMI`，固定版本为 `main@f89ad13ede97629f956b2cab15e8dca104868acc`，所选文件 `skills/ci-interactive-report/SKILL.md` 当前与该提交一致。只读取第8、19、48—56行以核对输入、原始方法披露、Evidence Boundary 和隐私停止线；没有读取该目录中的真实报告、客户内容或未跟踪交付物，也没有运行、修改或发布 AMI。
+日期：2026-09-27。本轮只读打开本地来源 `<solution-repo>/洞察/AMI`，固定版本为 `main@f89ad13ede97629f956b2cab15e8dca104868acc`，所选文件 `skills/ci-interactive-report/SKILL.md` 当前与该提交一致。只读取第8、19、48—56行以核对输入、原始方法披露、Evidence Boundary 和隐私停止线；没有读取该目录中的真实报告、客户内容或未跟踪交付物，也没有运行、修改或发布 AMI。
 
 - **直接来源事实。**完整 Skill 的输入是 `ci-strategy-synthesis` 提供的章节叙事和图表规格，职责是生产证据驱动的独立 HTML CI 报告；第19行要求渐进披露原始方法，第48—54行要求 Evidence Boundary 说明快照／报告日期差、来源能回答与不能回答什么、样本量／查询／去重限制、待审及隐私等限制，以及假设、建议实验或阻断状态。第56行禁止嵌入凭据、PII、私有原文、签名URL或超出授权的数据。
 - **当前复用结论。**C-230只抽取“怎样显式披露报告方法、样本限制和来源回答边界”这一片段，C-169 身份为「局部可拆能力片段」。固定提交和精确行号可回查，但本轮没有运行证明，也没有用真实报告样本验证该规范。
@@ -2127,7 +2127,7 @@ C-162不改变C-161三条链各自的专业交接、C-014 Lead／Worker边界、
 
 ### C-231 · SRC-040J 的 C-228 有界直接候选扫描
 
-日期：2026-09-27。本轮继续只读 Career 已登记台账与 `/Users/lute/project/AgentTools/方案库/洞察/AMI`，后者固定为 `main@f89ad13ede97629f956b2cab15e8dca104868acc`；六个被核对文件当前都与该提交一致。没有读取真实报告、客户内容、登录态、未跟踪交付物或外部网络，没有运行、修改或发布任何Skill。
+日期：2026-09-27。本轮继续只读 Career 已登记台账与 `<solution-repo>/洞察/AMI`，后者固定为 `main@f89ad13ede97629f956b2cab15e8dca104868acc`；六个被核对文件当前都与该提交一致。没有读取真实报告、客户内容、登录态、未跟踪交付物或外部网络，没有运行、修改或发布任何Skill。
 
 - **Career 登记范围。**使用 `.codex/capability-inventory.json` 的 `career-capability-inventory-v6`：首批21项候选来自九个本地项目的有界静态盘点，并明确写明不是全部产品或九组长期来源均已拆完。C-228最近邻包括CAP-005来源追溯、CAP-015引用字段投影、CAP-020判断证据包、FOUND-001稳定定位研究候选，以及C-084内容级报告证据、C-227报告实例、C-229与C-230两张局部来源卡。除本轮已打开的AMI原件外，既有台账项没有被重新打开或复验；不可读原件只记待补证，不判失败。
 - **`ci-evidence-qualification/SKILL.md` 第8、10—14、18—22、24—52行。**它在原始采集后整理研究记录，保留来源、时间、未知、隔离、冲突、反证、claim状态与最窄安全主张，交付claim ledger、mapping、quarantine和quality notes。它最接近C-228对“主张／证明／未知／使用上限”的区分，但比较单位与交付都是记录和claim，会进入具体内容判级；没有独立覆盖报告对象、研究方法、样本适用范围与报告原材料入口，因此只作最近邻排除依据，不新增第三张局部卡。
@@ -2140,10 +2140,10 @@ C-162不改变C-161三条链各自的专业交接、C-014 Lead／Worker边界、
 
 ### NM-R01 · 03新市场经营完整性 Deep Research 来源台账
 
-日期：2026-10-01。用户在确认C-313时要求同步考虑“03 新市场经营”的补全，本地没有的部分使用Deep Research。本轮先只读核对Career中C-232—249、C-294—297、C-300—309以及`/Users/lute/project/shopify`的相关静态材料，再用公开一手来源核对新市场经营所需研究面。结论只进入研究差距账，不形成新岗位、Skill、进入决定、国家排名、法律意见、业务授权或运行事实。
+日期：2026-10-01。用户在确认C-313时要求同步考虑“03 新市场经营”的补全，本地没有的部分使用Deep Research。本轮先只读核对Career中C-232—249、C-294—297、C-300—309以及`<external-repo>/shopify`的相关静态材料，再用公开一手来源核对新市场经营所需研究面。结论只进入研究差距账，不形成新岗位、Skill、进入决定、国家排名、法律意见、业务授权或运行事实。
 
 - **本地覆盖结论。**新市场经营并非空白。已有高层责任地址覆盖机会与范围、商业论证、GTM、市场准入、供给与履约、发布与实际可售、商品资料、内容／本地化、品牌、价格、经济性、付费媒体、实验、数据／口径／知识方法、交易资金、客户问题及向持续经营的范围化接续；50岗四平面也已提供高层调用地址。外部研究面逐项对照后，高层能力地址缺口为0。真正未完成的是目标市场证据账实例和完整新市场多岗E2E装配验收。
-- **本地Shopify候选材料。**`/Users/lute/project/shopify/kb/00-战略与定位/README.md`、`kb/01-选品与市场调研/README.md`和`kb/02-建站与基础设施/平台运营Wiki_独立站0到1建站SOP.md`包含市场／细分、DTC／站群／混合模式、需求／竞争／价格／经济性、主体／支付／物流／追踪和首单前检查等经验片段；`drafts/analysis/abi-shopify-product-value-report-20260630.md`另有多市场复制线索与缺口自述。这些材料只作为后续方法／E2E候选来源；其自身已提醒价格、支付、平台规则等时效信息不得替代当前官方事实，本轮没有修改来源项目。
+- **本地Shopify候选材料。**`<external-repo>/shopify/kb/00-战略与定位/README.md`、`kb/01-选品与市场调研/README.md`和`kb/02-建站与基础设施/平台运营Wiki_独立站0到1建站SOP.md`包含市场／细分、DTC／站群／混合模式、需求／竞争／价格／经济性、主体／支付／物流／追踪和首单前检查等经验片段；`drafts/analysis/abi-shopify-product-value-report-20260630.md`另有多市场复制线索与缺口自述。这些材料只作为后续方法／E2E候选来源；其自身已提醒价格、支付、平台规则等时效信息不得替代当前官方事实，本轮没有修改来源项目。
 - **[ITC · Export Potential and Diversification Assessments](https://umbraco.exportpotential.intracen.org/media/cklh2pi5/epa-methodology_230627.pdf)。**方法把供给能力、目标市场需求和贸易便利作为识别产品—市场出口机会的主要因素，并公开模型假设与局限。可作为C-232／BO-02的机会依据或反证来源；潜力值和排名不能直接成为国家优先级、消费者需求成立、准入、经济性、进入决定或经营效果。
 - **[U.S. International Trade Administration · Selecting International Markets](https://www.trade.gov/selecting-international-markets)。**官方指南把监管、物流、文化、语言、进口要求、售后、运输、未付款／争议风险及本地合作方尽调列为进入市场需要核对的问题。它支持把问题分别回到C-237／239／240、BO／IC等已有责任，不支持所有市场必须采用合作方，也不把尽调完成写成签约、批准、订单或履约。
 - **[European Commission · Access2Markets](https://policy.trade.ec.europa.eu/help-exporters-and-importers/eu-companies-accessing-world-markets_en)。**欧盟委员会列出的市场进入信息面包括关税、原产地规则、税费、进口手续、产品要求、贸易壁垒和贸易流统计。它只作带产品分类、原产地、目的地、产品版本、用途／宣称、查询时间和来源版本的外部事实索引；门户结果不等于法律意见、准入批准或产品已经合规，也不能外推到其他市场。

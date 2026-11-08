@@ -1,6 +1,6 @@
 # 三宝 · 连续讨论上下文
 
-更新：2026-10-09（Asia/Shanghai）
+更新：2026-11-03（Asia/Shanghai）
 
 最新结构修正：C-376确认后，阅读链为`C-311 → C-312 → C-372 → C-373 → C-374 → C-375 → C-376`。C-372仍是C-312直属横向页且只有C-373一个子页；C-373、C-374与C-375各自只增加一个下钻子页；C-376为当前叶页。C-312的六个直达入口和C-356／364／368／371四个原需求叶页都不变。
 
@@ -418,7 +418,7 @@ Q-006 已获得用户提供的日期背景：2026-01-03 确定年度战略；承
 来源：用户 2026-09-21 明确同意下一节点，补充官网路径并重申资料主线。
 
 - 用户同意进入“三宝与现有产品矩阵职责边界”讨论，未自动批准某一种整合方案。
-- `/Users/pray/Sanbao/SanBao_web/` 是三宝官网设计。
+- `Sanbao/SanBao_web/` 是三宝官网设计。
 - `zjgulai/AI-Native-Organization` 是用户自己的 AI 组织变革设计。
 - 首轮九组资源及新增官网是持续主线，需要深读、承接已有决策并串联，不另起一套无来源的产品/岗位框架。
 - Sanbao 仓库当前 CONTEXT 已明确 Sanbao/三宝为同一品牌的两种书写，LUTE 为内部标识；不把旧 README 名称当当前对外品牌。
@@ -2894,7 +2894,7 @@ Q-006 已获得用户提供的日期背景：2026-01-03 确定年度战略；承
 
 ## 已定事项 C-214 · 右侧抽屉的卡片下钻阅读与两个开放状态
 
-日期：2026-09-26。用户确认在当前抽屉停止继续堆叠卡片，并要求它可作为未来 Magpie-Horch 产品功能全景与功能设计范式的输入；本轮仅在 Career 画布内重排阅读结构，**不读取、修改、绑定或实现**`/Users/lute/project/Magpie-Horch/`。
+日期：2026-09-26。用户确认在当前抽屉停止继续堆叠卡片，并要求它可作为未来 Magpie-Horch 产品功能全景与功能设计范式的输入；本轮仅在 Career 画布内重排阅读结构，**不读取、修改、绑定或实现**`<external-repo>/Magpie-Horch/`。
 
 - **先导览、后下钻。**C-184当前详情的首页只呈现阅读入口；C-206协作横截面、C-207五张合同、C-208证明、C-209—C-211组合／能力位／3+50来源参照、C-212—C-214阅读样例，以及原有C-184—C-200／C-048说明，分别成为同一抽屉中的可返回阅读页。一次只显示当前页；短路径与返回只表示读者所在位置，绝不代表经营流程、数据流、审批链、组织层级、成熟度或运行状态。
 - **原内容不因重排而改变。**C-206仍说明按题协作并回原责任；C-207仍保留五张不可互替合同；C-208仍是六份证明要求；C-209、C-210、C-211仍分别是静态组合、能力位竞聘说明和来源对照；C-212、C-213仍是未填真实内容的输入轮廓与抽象写法。视觉父子框取消，不改变这些既有业务边界，也不生成候选、Skill、Bundle、Preset、岗位、数字员工、Lead、数据、模型、权限、Harness或真实动作。
@@ -4726,19 +4726,30 @@ C-049轮验证（2026-09-21）：原IAB tab7自动显示sanbao-execution-follow-
 
 Q-047经原始资料研究、NASA方法参照与独立窄审通过：经营经验候选承接当前事项向跨事项判断/方法迁移的主张，有别于C019/C038。原事实、专业解释、拟复用主张分开，候选与按用途评估后的使用及正式方法变更分开；非每事项必产、非整项结束后才提，不将未执行或未知包装为实测/规律，不新增知识岗位或自动发布。下一C050，提案未确认、未写入正式画布或术语。
 
-**C-375 当前断点（2026-10-07）：**承接 C-374 的 FOUND-001 单一来源线索，本轮仅对 `/Users/lute/project/AgentTools/知识库/kb/agents/consultant-agent/runtime/local_retrieval_api.py` 做只读、单文件实现快照扫描。当前 `public_result`（代码行72—101）确实投影 source/card/locator、evidence grade、license、scores、source trace、indexed text hash 与 “no raw source text returned” 边界；外部知识库工作树相对 HEAD 只有环境路径覆盖差异，未改变该函数语义。六面合同结果为完整0/6、局部材料3/6、缺失3/6，结论为 `RETURN／待补证`，不是失败或不适配。
+**C-375 当前断点（2026-10-07）：**承接 C-374 的 FOUND-001 单一来源线索，本轮仅对 `<kb-repo>/kb/agents/consultant-agent/runtime/local_retrieval_api.py` 做只读、单文件实现快照扫描。当前 `public_result`（代码行72—101）确实投影 source/card/locator、evidence grade、license、scores、source trace、indexed text hash 与 “no raw source text returned” 边界；外部知识库工作树相对 HEAD 只有环境路径覆盖差异，未改变该函数语义。六面合同结果为完整0/6、局部材料3/6、缺失3/6，结论为 `RETURN／待补证`，不是失败或不适配。
 
 本轮明确没有发现候选自身份/版本、两个具名支持地址的实际输入与前后样本、逐地址交接/失败/停止规则，也没有运行时、候选注册、Skill/项目创建或业务动作证据。因此 CAP-015 仍是“代码已定位、可继续补证”的候选实现线索；下一步若继续，只能先补齐独立候选自提交及两个具名地址样本，再讨论是否进入竞聘，不能把本快照直接升级为 Skill、Preset、Runtime 或 E2E。
 
 **C-376 当前断点（2026-10-08）：**承接 C-375，但不把 `local_retrieval_api.py` 或 `public_result` 直接登记成候选。本轮只在 C-375 下增加一张唯一子卡，把“未来候选必须自己交卷”的最小收件合同固定下来：候选须自报独立身份、语义版本、来源谱系和范围，并从 C-356／C-364／C-368／C-371 四个开放建设需求地址中，至少选择两个真实有据的具名地址，分别提交实际输入、实际输出、locator／hash、前后锚点、交接回位、失败隔离与停止反例。四个地址只是可申报位置，不是样本，也不表示建设需求已经填上。
 
 当前实际收到的候选提交包、候选身份／版本、实际输入、实际输出、双地址样本和六面证据均为0，正式处理仍为 `RETURN／待补证`，不是失败、不适配或淘汰。评审只记录收到、缺失、冲突和越界，不替候选补身份、拼来源或制造运行事实；FOUND-001、CAP-005、CAP-020 与 C-375 代码快照均不能代交。未发生候选登记、适配判断、Skill／项目／Bundle／Preset／数字员工／Runtime／业务动作或真实 E2E，外部知识库继续只读。下一步只有在候选提交一个独立版本化包和至少两个真实地址样后，才可重新按 C-373 六面审查。
-**C-376 复核（2026-10-09）：**只读复查 `/Users/lute/project/AgentTools/知识库/kb/agents/consultant-agent`：README 仍为 draft、production unchanged、no KB provider call，且无 live KB ingestion／staging deployment；playbook 仍要求结论、证据、假设、不确定性、阻断动作与下一步人工动作分列；eval policy 的 human-gold 仍为 pending_human_review，approved_decision_count=0。定向检索未发现 C-356／C-364／C-368／C-371、BO-11 或 CAP-015 的候选自身份／版本、真实具名地址样本、实际输入输出、逐地址交接或停止反例；外部文件快照 SHA-256 为 `bcf47b7cad29d87e98c0771c0ecf8d010ac11763577f27041c0ac8ad795e66d7`。本次无外部写入，C-376 读数保持 0／2、0／6、`RETURN／待补证`。
+**C-376 复核（2026-10-09）：**只读复查 `<kb-repo>/kb/agents/consultant-agent`：README 仍为 draft、production unchanged、no KB provider call，且无 live KB ingestion／staging deployment；playbook 仍要求结论、证据、假设、不确定性、阻断动作与下一步人工动作分列；eval policy 的 human-gold 仍为 pending_human_review，approved_decision_count=0。定向检索未发现 C-356／C-364／C-368／C-371、BO-11 或 CAP-015 的候选自身份／版本、真实具名地址样本、实际输入输出、逐地址交接或停止反例；外部文件快照 SHA-256 为 `bcf47b7cad29d87e98c0771c0ecf8d010ac11763577f27041c0ac8ad795e66d7`。本次无外部写入，C-376 读数保持 0／2、0／6、`RETURN／待补证`。
 **相邻资产边界（2026-10-09）：**更广只读扫描发现 `candidate-package-tree.md`、`claim-card-candidate.schema-20260630.json` 与 `enhance_ai/03-skill-portfolio.md` 等候选模板／Skill 蓝图，但没有 CAP-015 的两个具名地址实际输入输出、逐地址交接或停止反例；模板／schema／蓝图不算候选登记、适配结论或 C-373 六面证据，继续只作为未来收件格式参考。
 **候选入场字段差距（2026-10-09）：**通用模板目前只能提供候选ID／schema版本、来源、locator、hash、claim、支持单元和全局 blocked_actions／QA 计数；C-376 仍需候选自报语义版本／范围，逐地址实际输入输出，处理前后锚点与语义不改写，至少两个 C-356／C-364／C-368／C-371 同源样本，逐地址接收／RETURN／失败隔离／重核，以及具体停止反例。Skill portfolio 的触发、边界、输入输出、授权、验证、维护只是蓝图字段，不是候选证据；本对照只完善收件合同，不改变 0／2、0／6、`RETURN／待补证`。
 **泛候选索引分层（2026-10-09）：**实际 JSONL 工件中有三份 local draft candidate／组合索引（204、1,716、1,920 条；组合索引包含前两类来源），但记录集合没有 candidate_id、candidate_version、四个 C 地址、实际输入输出、逐地址交接或停止反例；manifest 仍是 production unchanged、no provider、no live ingestion，且 source_cards 原件未找到。相邻 canonical-target-contract 只有写入合同，source artifacts 缺失、canonical／live／provider／runtime 均为0。它们不计入 CAP-015 候选提交包，C-376 仍为 0／1、双地址 0／2、六面 0／6、`RETURN／待补证`。
 **候选状态新鲜度（2026-10-09）：**候选索引、distillation 合同和候选分析目录在 2026-10-08 之后没有新增或更新文件；现有 manifest 最近仍为 2026-06-30。没有新的外部候选输入可继续执行，C-376 保持等待独立提交包。
 **C-376本地候选入口（2026-10-09）：**在当前工作区 `skill-library/` 找到可供点名复核的候选登记入口：`sanbao_capability_candidates.json`（681条）及 CSV 镜像。分层为待复核资产池540、场景工作流候选64、原子技能组候选48、Preset/数字员工能力池候选22、原子技能候选7；记录有候选名称、层级、技能数、置信度和下一步建议，但没有 CAP-015 所需的 C-356／C-364／C-368／C-371 地址、候选语义版本、实际输入输出、逐地址交接或停止反例。VOC 可点名的示例包括 `SANBAO-ee627ba5-预测预警`（原子技能组候选，P2）与 `SANBAO-8b4aec2b-预测预警`（场景工作流候选，P2）；Shopify AI/BI 可点名的示例包括 `SANBAO-a2b41a57-优化决策` 与 `SANBAO-4a66cc08-优化决策`（Preset／数字员工能力池候选，P1）。这些是候选登记／待复核清单，不是 CAP-015 自提交包；`candidate_submission_template.md` 明确为“未提交”，B01 Trial 02 只使用合成受控样本并止于独立盲测门槛。C-376 读数保持提交包0／1、双地址样本0／2、六面0／6、`RETURN／待补证`。下一步须由用户点名一个 `candidate_id` 或具体文件路径，项目不从681条记录中擅自挑选或改写状态。
-**C-376点名复核（2026-10-09）：**用户点名 `SANBAO-a2b41a57-优化决策`。登记记录为“Shopify AI/BI 运营 Preset｜优化决策｜NLP/情感分析”，层级“Preset／数字员工能力池候选”，数字员工候选“Shopify 运营分析员”，业务价值类型“增长与收入”，优先级P1，包含37个Skill，登记平均置信度0.949；这些是聚类登记字段，不是CAP-015收件通过或运行证据。代表源Skill可在 `/Users/lute/.dsh/skills/` 回查：`p2s-aigp-llm-dynamic-pricing`、`p2s-human-ai-calibrated-trust`、`p2s-long-tail-keyword-mining` 均为 `preview`，`p2s-ltv-prediction-ziln` 为 `curated` 且有 `rebase_version=s5-b11-v1`；源目录存在 `SKILL.md` 与 `references/implementation.py`，只能证明源资产可定位，不能代替候选自己的语义版本／范围、两个 C 地址真实输入输出、逐地址交接或停止反例。结论仍为 `RETURN／待补证`；C-376候选提交包0／1、双地址0／2、六面0／6，未发生候选登记、Preset／数字员工创建、权限或Runtime变化。下一步只能由该候选补交独立版本化包和至少两个真实地址样，或由用户另行指定文件作为收件对象。
+**C-376点名复核（2026-10-09）：**用户点名 `SANBAO-a2b41a57-优化决策`。登记记录为“Shopify AI/BI 运营 Preset｜优化决策｜NLP/情感分析”，层级“Preset／数字员工能力池候选”，数字员工候选“Shopify 运营分析员”，业务价值类型“增长与收入”，优先级P1，包含37个Skill，登记平均置信度0.949；这些是聚类登记字段，不是CAP-015收件通过或运行证据。代表源Skill可在 `<dsh-home>/skills/` 回查：`p2s-aigp-llm-dynamic-pricing`、`p2s-human-ai-calibrated-trust`、`p2s-long-tail-keyword-mining` 均为 `preview`，`p2s-ltv-prediction-ziln` 为 `curated` 且有 `rebase_version=s5-b11-v1`；源目录存在 `SKILL.md` 与 `references/implementation.py`，只能证明源资产可定位，不能代替候选自己的语义版本／范围、两个 C 地址真实输入输出、逐地址交接或停止反例。结论仍为 `RETURN／待补证`；C-376候选提交包0／1、双地址0／2、六面0／6，未发生候选登记、Preset／数字员工创建、权限或Runtime变化。下一步只能由该候选补交独立版本化包和至少两个真实地址样，或由用户另行指定文件作为收件对象。
 
 **已批准 Ticket 批次回执（2026-10-09）：**本批执行 T-01—T-06。T-01 复核 `SANBAO-a2b41a57-优化决策` 后仍为 `RETURN／待补证`（提交包0／1、双地址0／2、六面0／6），没有代候选填值，也没有改动 `skill-library/`。T-02 已将 C-163、C-164、C-165 三张首接卡统一为五面阅读合同，新增“继续之前还要核对什么”，不改变三条主链或主SVG。T-03 新增 `.codex/3plus50-roster.md`，列出3个管理层姓名／岗位和50个岗位姓名／完整岗位名，状态仍为设计态。T-04 新增 VOC（E2E-VOC-001）与 Shopify AI+BI（E2E-SHOP-001）两份最小设计样本，仍无实时连接、Runtime或业务动作证据。T-06 HTML脚本编译、五面计数、名册计数和overview区域哈希静态检查通过；浏览器视口自动化仍待重试。详细回执见 `.codex/ticket-batch-2026-10-09.md`。
+
+### 2026-11-03 · 阻塞门处置
+
+用户裁决（2026-11-03）：C-376 与 C-320 标记为 `BLOCKED_NO_EXTERNAL_EVIDENCE`，主线授权转移到下一依赖问题。
+
+- **C-376**：等待点名候选 `SANBAO-a2b41a57-优化决策` 自交独立版本化提交包。读数保持原值（提交包 0／1、双地址 0／2、六面 0／6），不代填、不四舍五入。
+- **C-320**：等待一份德国卖家账号只读证据（`searchListingsItems` 原始响应，或 Inventory／All Listings Report 原文件与回执）。状态保持 `WAITING_FOR_ARTIFACT`。
+
+本记录是推进状态，不是设计决定，不产生 C 编号，不改变两条原有收件要求；材料到达后原门重开，不需重新立项。
+
+主线转移到：持续经营 C-043–C-049 的书面规格切片（见 `.codex/sanbao-spec-continuous-operation-draft-20261103.md`）。

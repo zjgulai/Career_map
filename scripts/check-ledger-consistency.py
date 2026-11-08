@@ -65,6 +65,14 @@ ABS_PATH_FILES = (
     "src/orgmap/data/graph.js",
     "src/orgmap/sources/source-snapshot.json",
     "configs/pilot-flow02-preconditions.json",
+    "configs/flow02-stage-contracts.json",
+    "CONTEXT.md",
+    ".codex/context-pack.md",
+    ".codex/product-responsibility-research.md",
+    ".codex/sources.md",
+    "deliverables/research/sanbao-sources.md",
+    "deliverables/canvas/sanbao-identity-boundaries.html",
+    ".superpowers/brainstorm/38196-1789923100/content/sanbao-identity-boundaries.html",
 )
 
 # 记录历史扫描主机的文档：里面的绝对路径是历史事实，不要求在本机存在。
@@ -152,6 +160,21 @@ def check_pairs(pairs, compare) -> list[str]:
         elif verdict == "differs":
             out.append(f"副本与 canonical 不一致：{canonical} != {deliverable}")
     return out
+
+
+
+
+def check_draft_title_conflict(name: str, text: str) -> list[str]:
+    m_status = re.search(r"^status:\s*(\S+)", text, re.M)
+    if not m_status or m_status.group(1) != "draft":
+        return []
+    m_title = re.search(r"^title:\s*(.+)$", text, re.M)
+    h1 = re.search(r"^#\s+(.+)$", text, re.M)
+    combined = (m_title.group(1) if m_title else "") + " " + (h1.group(1) if h1 else "")
+    for bad in ("锁定版", "正式版", "已上线版"):
+        if bad in combined:
+            return [f"{name}: frontmatter status=draft 但标题含「{bad}」"]
+    return []
 
 
 def check_graph_freshness(rc: int, detail: str) -> list[str]:
@@ -245,6 +268,21 @@ def collect(root: Path) -> list[str]:
         found = sorted({p.rstrip("/.,;:）)") for p in ABS_PATH_RE.findall(text)})
         infos += [f"INFO  {f}" for f in check_abs_paths(rel, found, lambda p: Path(p).exists(), True)]
 
+    # 3b. 交接包目录零绝对路径与 draft 标题状态一致性
+    handoff_dir = root / "deliverables/execution/sanbao-handoff-20261104"
+    if handoff_dir.is_dir():
+        for hp in sorted(handoff_dir.glob("*.md")):
+            rel = str(hp.relative_to(root))
+            htext = hp.read_text(encoding="utf-8", errors="ignore")
+            found = sorted({p.rstrip("/.,;:）)") for p in ABS_PATH_RE.findall(htext)})
+            if found:
+                failures += check_abs_paths(rel, found, lambda _p: False, False)
+            failures += check_draft_title_conflict(rel, htext)
+    for dfile in sorted((root / ".codex").glob("*.md")) if (root / ".codex").is_dir() else []:
+        rel = str(dfile.relative_to(root))
+        dtext = dfile.read_text(encoding="utf-8", errors="ignore")
+        failures += check_draft_title_conflict(rel, dtext)
+
     # 4. ticket 汇总表 vs 正文
     tb = read(root, TICKET_BATCH)
     if tb is None:
@@ -290,6 +328,14 @@ def collect(root: Path) -> list[str]:
                               cwd=root, capture_output=True, text=True)
         if pres.returncode != 0:
             failures.append(f"FLOW-02 试点前置工程校验失败：{(pres.stderr or pres.stdout).strip()}")
+
+    # 7b. FLOW-02 八阶段 Schema 与 3x 重放干跑门禁
+    dryrun_script = root / "scripts/run-flow02-dryrun.py"
+    if dryrun_script.is_file():
+        dres = subprocess.run([sys.executable, "-I", str(dryrun_script), "--selftest"],
+                              cwd=root, capture_output=True, text=True)
+        if dres.returncode != 0:
+            failures.append(f"FLOW-02 八阶段干跑自检失败：{(dres.stderr or dres.stdout).strip()}")
 
     # 8. orgmap graph.js 新鲜度门禁
     graph_script = root / "scripts/build-canvas-graph.py"
@@ -349,6 +395,8 @@ def selftest() -> int:
             ("pairs/missing-canonical", check_pairs([("nope", str(same_b))], cmp_files), True),
             ("graph/stale", check_graph_freshness(1, "graph.js 已过期"), True),
             ("graph/fresh", check_graph_freshness(0, "graph.js 最新"), False),
+            ("draft/title-conflict", check_draft_title_conflict("x.md", "---\ntitle: 规格（锁定版）\nstatus: draft\n---\n# 规格（锁定版）"), True),
+            ("draft/title-ok", check_draft_title_conflict("x.md", "---\ntitle: 规格（设计提案）\nstatus: draft\n---\n# 规格（设计提案）"), False),
         ]
 
     bad = [(n, want, got) for n, got, want in ((n, f, w) for n, f, w in cases) if bool(got) != want]

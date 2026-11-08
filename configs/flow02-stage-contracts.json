@@ -1,0 +1,93 @@
+{
+  "artifact_kind": "sanbao_flow02_eight_stage_contracts",
+  "schema_version": 1,
+  "flow": "FLOW-02",
+  "scenario": "SCN-002",
+  "enums": {
+    "closure_decision": ["CONTINUE", "TURN", "STOP", "PARTIAL"],
+    "action_disposition": ["NO_ACTION", "ACTION_REQUIRES_AUTHORIZATION"],
+    "claim_kind": ["E", "J", "C"]
+  },
+  "stages": [
+    {
+      "stage_id": "STG-01",
+      "name": "信号接收",
+      "artifact_kind": "ART-SIGNAL-ENVELOPE",
+      "producer_seats": ["AGT-045"],
+      "injected_seats": [],
+      "target_nodes": ["dataSupply"],
+      "required_fields": ["case_id", "signal_id", "source_id", "payload_sha256", "dedupe_key", "received_at"],
+      "gate_invariants": ["payload_sha256 与实际载荷一致", "dedupe_key 非空且可关联"]
+    },
+    {
+      "stage_id": "STG-02",
+      "name": "范围与章程",
+      "artifact_kind": "ART-CASE-CHARTER",
+      "producer_seats": ["AGT-008"],
+      "injected_seats": ["AGT-001", "AGT-045"],
+      "target_nodes": ["business", "businessDefinitions"],
+      "required_fields": ["case_id", "flow", "scenario", "scenario_selector_override", "business_stage", "completion_criteria", "resource_boundary"],
+      "gate_invariants": ["恰好 1 个 flow (FLOW-02) 与 1 个 scenario (SCN-002)", "completion_criteria 严禁含「有限放量 / 市场回执 / 真实订单」"]
+    },
+    {
+      "stage_id": "STG-03",
+      "name": "上下文装配",
+      "artifact_kind": "ART-CONTEXT-MANIFEST",
+      "producer_seats": ["AGT-048"],
+      "injected_seats": ["AGT-008"],
+      "target_nodes": ["knowledgeStewardship"],
+      "required_fields": ["case_id", "primary_role", "assurance_role", "bundle_hash", "read_policy_ref", "enabled_sources"],
+      "gate_invariants": ["恰好 1 个主责角色 (AGT-008)", "enabled_sources 100% 落在 read-policy 白名单内"]
+    },
+    {
+      "stage_id": "STG-04",
+      "name": "证据与诊断",
+      "artifact_kind": "ART-EVIDENCE-PACK",
+      "producer_seats": ["AGT-008"],
+      "injected_seats": ["AGT-006", "AGT-007", "AGT-045"],
+      "target_nodes": ["consumer", "business", "businessDefinitions"],
+      "required_fields": ["case_id", "independent_primary_sources", "claims", "unknown_gaps", "risk_interrupt_triggered"],
+      "gate_invariants": ["独立 PRIMARY 源 >= 2（DERIVED 不计入独立源）", "每条 claim 标 E/J/C 且 E 类不含 C（创意资产）", "缺失项标 UNKNOWN 而非 0"]
+    },
+    {
+      "stage_id": "STG-05",
+      "name": "机会命题决策包",
+      "artifact_kind": "ART-DECISION-PACKAGE",
+      "producer_seats": ["AGT-008"],
+      "injected_seats": ["AGT-009", "AGT-001", "AGT-035"],
+      "target_nodes": ["business", "definition", "effectEvaluation"],
+      "required_fields": ["case_id", "target_segment", "unmet_task", "falsifiable_hypothesis", "counter_explanation", "stop_conditions", "execution_state"],
+      "gate_invariants": ["含可证伪假设与至少 1 条替代解释", "stop_conditions 非空", "execution_state 必须为 CANDIDATE_NOT_EXECUTED"]
+    },
+    {
+      "stage_id": "STG-06",
+      "name": "独立复核",
+      "artifact_kind": "ART-ASSURANCE-DECISION",
+      "producer_seats": ["AGT-005"],
+      "injected_seats": [],
+      "target_nodes": ["business"],
+      "required_fields": ["case_id", "proposer", "reviewer", "coi_disposition", "recommendation", "dissent", "residual_risks", "overridden_by_proposer"],
+      "gate_invariants": ["proposer != reviewer 且 coi_check 为 ALLOW", "dissent 与 residual_risks 非空", "overridden_by_proposer 必须为 false"]
+    },
+    {
+      "stage_id": "STG-07",
+      "name": "只读无动作",
+      "artifact_kind": "ART-NO-ACTION-RECORD",
+      "producer_seats": ["AGT-008"],
+      "injected_seats": [],
+      "target_nodes": ["business"],
+      "required_fields": ["case_id", "no_action", "action_intents", "policy_decisions", "external_network_calls", "credentials_accessed"],
+      "gate_invariants": ["no_action === true", "action_intents / policy_decisions 为空，external_network_calls === 0，credentials_accessed === false"]
+    },
+    {
+      "stage_id": "STG-08",
+      "name": "事项关闭",
+      "artifact_kind": "ART-CASE-CLOSURE",
+      "producer_seats": ["AGT-008"],
+      "injected_seats": ["AGT-001"],
+      "target_nodes": ["business"],
+      "required_fields": ["case_id", "decision", "action_disposition", "unresolved_items", "audit_chain_head"],
+      "gate_invariants": ["decision ∈ {CONTINUE, TURN, STOP, PARTIAL}（存在未解项或受控样本时严禁判 SUCCESS）", "action_disposition === NO_ACTION", "每条 unresolved_items 必有 owner"]
+    }
+  ]
+}

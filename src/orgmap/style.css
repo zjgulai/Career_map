@@ -98,3 +98,8 @@ main{flex:1;display:flex;min-height:0}
 .seat.compact svg{display:none}
 .profile-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 .profile-head svg{flex-shrink:0;border-radius:50%}
+
+.stg-bar{display:flex;flex-wrap:wrap;gap:4px;margin:8px 0}
+.stg-btn{font:inherit;font-size:11px;padding:3px 7px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer}
+.stg-btn.active{background:var(--green);border-color:var(--green);color:#fff}
+.art-box{font-size:11px;background:rgba(127,169,155,0.08);border:1px solid var(--line);border-radius:6px;padding:8px;margin-top:6px;white-space:pre-wrap;word-break:break-all}

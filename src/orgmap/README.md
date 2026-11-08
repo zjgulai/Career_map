@@ -87,3 +87,16 @@ python3 -m http.server 8765 --bind 127.0.0.1
   - **工程已就绪（4/7）**：`P1` 席位注册表 53 行与 `runtime_layer`（46 席 `unassigned`）、`P2` 只读覆盖层（50 AGT `agt-NNN` + 3 MGT rule pack = 53/53 覆盖且 `can_emit_action_intent=false`）、`P5` 只读访问策略（`deny-by-default` + 14 字段 `hash_chain` 审计）、`P7` Risk Interrupt 风险中断通道（`SEV-1(15m)/SEV-2(2h)/SEV-3(24h)` 分级与冻结规则）；
   - **工程结构已就绪、待真人签核/宿主冻结（3/7，严禁代填）**：`P3` 离线证据包 manifest（已对仓库内 `b01_trial_01/02` 两个独立源共 42+108 行完成 15 字段、`sha256` 与 `row_count` 确定性校验，待真人指定真实品类数据 owner）、`P4` `layer_0` 6 个具名人类 owner 与替补槽位、`P6` DSH 宿主构建三个 hash（`desktop/harness/compiler`）。
 - `scripts/check-pilot-preconditions.py`：7 项前置确定性校验器（`--selftest` 8/8 负向与正向断言通过），已接入 `scripts/check-ledger-consistency.py` 统一门禁与 `build-canvas-graph.py`，并在 2D 工作视图与 3D 展示页的「FLOW-02 试点镜头」侧栏实时展示 `P1..P7` 状态。
+
+## 7. 批次 9–11 · 公开门面卫生、八阶段 Schema 正负向 Fixture 与单 Case 只读干跑回放
+
+- **批次 9（公开门面卫生与门禁扩展）**：
+  - 公开门面 7 个文件（`.codex/context-pack.md`、`.codex/product-responsibility-research.md`、`.codex/sources.md`、`CONTEXT.md`、`deliverables/research/sanbao-sources.md`、`deliverables/canvas/sanbao-identity-boundaries.html` 及对应 `.superpowers/` 原文件）中的本机路径已全部替换为仓别名，`/Users/` 命中数均为 `0`；
+  - 新增 `deliverables/execution/sanbao-handoff-20261104/NOTICE-paper-to-skills.md`（落实 C-385 著作权与第三方例外声明）；
+  - `scripts/check-ledger-consistency.py` 新增交接包零路径门禁与 `status=draft` 标题状态一致性门禁（`--selftest` 22/22 通过）。
+- **批次 10（FLOW-02 八阶段 Schema 与 16 个正负向 Fixture）**：
+  - `configs/flow02-stage-contracts.json`：定义 `STG-01..STG-08` 八阶段机器契约（必填字段、生产者、T3 注入席位、目标主网节点、门禁不变量）；
+  - `scripts/run-flow02-dryrun.py --selftest`：逐阶段验证 8 个正向样本 + 8 个必败负向样本（16/16 通过）。
+- **批次 11（单 Case 离线只读 3 次重放干跑与 2D/3D 阶段步进器）**：
+  - 基于受控合成样本 `b01_trial_01/02` 运行 `CASE-FLOW02-SCN002-DRYRUN-001`，3/3 重放结果逐位一致，生成 9 条 `append-only` hash 链审计事件，并在 `STG-08` 因存在未验证项诚实收口为 `decision=PARTIAL` + `action_disposition=NO_ACTION`；
+  - 2D 工作视图与 3D 展示页的「FLOW-02 试点镜头」侧栏新增 `STG-01..STG-08` 阶段回放步进器，点击任一阶段实时高亮该阶段的主责席位、注入席位、目标节点并展开产物 JSON。
