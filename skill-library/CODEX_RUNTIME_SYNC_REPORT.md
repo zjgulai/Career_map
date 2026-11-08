@@ -1,6 +1,6 @@
 # 当前 Codex Skill 运行时校准
 
-> **历史主机注记**：本报告记录的绝对路径来自扫描主机 `/Users/lute`。工作区已迁移，当前本机路径为 `/Users/pray/project/Sage_hub/Career`。报告内的 `/Users/lute/...` 是历史事实，不等于当前可访问路径；需要当前路径时以仓库内实际文件为准。
+> **历史主机注记**：本报告记录的绝对路径来自扫描主机 `<historical-host>`。工作区已迁移，当前本机路径为 `/Users/pray/project/Sage_hub/Career`。报告内的 `<historical-host>/...` 是历史事实，不等于当前可访问路径；需要当前路径时以仓库内实际文件为准。
 
 - 核验时间：2026-09-23T23:02:27+08:00
 - 历史资产总数：12871
@@ -8,7 +8,7 @@
 - 新纳入当前入口：0
 - 当前入口内容更新：0
 - 历史插件入口已替代：38
-- 当前运行时 Excel：`/Users/lute/project/Career/skill-library/codex_runtime_inventory.xlsx`
+- 当前运行时 Excel：`<historical-host>/project/Career/skill-library/codex_runtime_inventory.xlsx`
 
 ## 当前可用性
 

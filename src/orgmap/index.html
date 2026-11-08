@@ -3,23 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>三宝 · 组织索引（设计态原型）</title>
+<title>三宝 · 组织与经营网络索引</title>
 <link rel="icon" href="data:,">
-<link rel="stylesheet" href="./style.css?v=36">
+<link rel="stylesheet" href="./style.css?v=37">
 </head>
 <body>
 <header class="topbar">
   <div class="brand"><span class="mark">三</span><strong>三宝 · 组织索引</strong></div>
-  <div class="banner" role="status">设计态原型 · 非运行系统 · 无真实业务动作</div>
+  <div class="banner" role="status">设计方案预览 · 尚未接入生产系统 · 不会触发真实业务操作</div>
   <div class="search-wrap">
-    <input id="q" type="search" placeholder="搜索 AGT-xxx / 别名 / BO-xx / C-xxx / 节点名…" aria-label="全局搜索">
+    <input id="q" type="search" placeholder="搜索员工姓名、工号(AGT-001)、业务节点或决策号…" aria-label="全局搜索">
     <div id="q-results" class="q-results" hidden></div>
   </div>
   <nav class="tabs" aria-label="视图">
-    <button data-view="org" class="active">组织席位</button>
-    <button data-view="network">经营网络</button>
-    <button id="pilot-btn" type="button" title="高亮 FLOW-02 × SCN-002 四席只读试点镜头">三主链 / 试点镜头</button>
-    <a class="tab-link" href="./showcase.html">3D 展示 ↗</a>
+    <button data-view="org" class="active">53 席组织分工</button>
+    <button data-view="network">20 节点经营网络</button>
+    <button id="pilot-btn" type="button" title="查看新品、持续经营、新市场三条业务主线与新品立项 4 席只读试点">看三条业务主线 / 试点</button>
+    <a class="tab-link" href="./showcase.html">进入 3D 空间 ↗</a>
   </nav>
 </header>
 
@@ -27,19 +27,19 @@
   <section id="stage" aria-label="索引画布">
     <canvas id="gl"></canvas>
     <div id="labels"></div>
-    <div id="hint">拖拽平移 · 滚轮缩放 · 点击查看详情 · 支持顶栏全局搜索</div>
+    <div id="hint">按住拖拽平移 · 滚轮缩放 · 点击任意员工或节点查看工作档案</div>
     <div id="audit" hidden></div>
   </section>
-  <aside id="side" aria-live="polite">
+  <aside id="side">
     <div class="side-empty">
-      <h2>未选择</h2>
-      <p>点击席位或节点查看详情，或在顶栏搜索任意席位、能力站位、C 决策号。本页只读，不创建任务、不授权动作、不改变任何经营状态。</p>
+      <h2>点击员工或节点查看详情</h2>
+      <p>在左侧点任意一位数字员工，即可查看他的<strong>处事原则、岗位职责、业务技能、协作同事与不可触碰的红线</strong>；也可以在顶部搜索姓名或点击「看三条业务主线 / 试点」。</p>
       <dl class="facts">
-        <dt>席位</dt><dd id="f-seats">—</dd>
-        <dt>并发进程</dt><dd id="f-proc">—</dd>
-        <dt>生产授权</dt><dd id="f-auth">—</dd>
-        <dt>准入状态</dt><dd id="f-adm">—</dd>
-        <dt>节点映射</dt><dd id="f-cw">—</dd>
+        <dt>岗位编制</dt><dd id="f-seats">—</dd>
+        <dt>当前运行数</dt><dd id="f-proc">—</dd>
+        <dt>生产权限</dt><dd id="f-auth">—</dd>
+        <dt>核验进度</dt><dd id="f-adm">—</dd>
+        <dt>网络覆盖</dt><dd id="f-cw">—</dd>
       </dl>
     </div>
   </aside>
@@ -48,15 +48,15 @@
 <footer class="statusbar">
   <span id="zoom">100%</span>
   <span id="legend">
-    <i class="sw baseline"></i>主线
-    <i class="sw feedback"></i>反馈
-    <i class="sw plain"></i>未标注
-    <i class="sw seat"></i>席位（虚线 = 未核验）
+    <i class="sw baseline"></i>主流程传递
+    <i class="sw feedback"></i>结果与问题反馈
+    <i class="sw plain"></i>协同关联
+    <i class="sw seat"></i>员工席位（虚线框 = 待实测核验）
   </span>
-  <span>数据 <code id="gv">—</code></span>
+  <span>版本 <code id="gv">—</code></span>
 </footer>
 
-<script src="./data/graph.js?v=36"></script>
-<script type="module" src="./app.js?v=36"></script>
+<script src="./data/graph.js?v=37"></script>
+<script type="module" src="./app.js?v=37"></script>
 </body>
 </html>

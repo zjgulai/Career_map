@@ -1,13 +1,13 @@
 # Skill MECE 聚类报告
 
-> **历史主机注记**：本报告记录的绝对路径来自扫描主机 `/Users/lute`。工作区已迁移，当前本机路径为 `/Users/pray/project/Sage_hub/Career`。报告内的 `/Users/lute/...` 是历史事实，不等于当前可访问路径；需要当前路径时以仓库内实际文件为准。
+> **历史主机注记**：本报告记录的绝对路径来自扫描主机 `<historical-host>`。工作区已迁移，当前本机路径为 `/Users/pray/project/Sage_hub/Career`。报告内的 `<historical-host>/...` 是历史事实，不等于当前可访问路径；需要当前路径时以仓库内实际文件为准。
 
 - 生成时间：2026-09-23T23:02:59+08:00
 - 底表 skill 数：12871
 - 主聚类数：681
 - 三宝候选数：681
-- 聚类 Excel：`/Users/lute/project/Career/skill-library/skill_cluster_matrix.xlsx`
-- 聚类网站：`/Users/lute/project/Career/skill-library/site/clusters.html`
+- 聚类 Excel：`<historical-host>/project/Career/skill-library/skill_cluster_matrix.xlsx`
+- 聚类网站：`<historical-host>/project/Career/skill-library/site/clusters.html`
 
 ## MECE 口径
 

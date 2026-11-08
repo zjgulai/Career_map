@@ -6,12 +6,12 @@
 // 设计态展示，不是运行系统；3 个 MGT 严守 T4 规则碑，不生成人形或工位。
 
 import * as THREE from './vendor/three.module.min.js';
-import { layoutOrg, layoutNetwork } from './layout.js?v=36';
-import { createPerson, createPlaque, renderAvatarSvg, mulberry32 } from './avatars.js?v=36';
-import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=36';
-import { buildFlowLines } from './flow.js?v=36';
-import { SAGE_DARK, hexToInt } from './theme.js?v=36';
-import { createHoloEmitterStage } from './holo.js?v=36';
+import { layoutOrg, layoutNetwork } from './layout.js?v=37';
+import { createPerson, createPlaque, renderAvatarSvg, mulberry32 } from './avatars.js?v=37';
+import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=37';
+import { buildFlowLines } from './flow.js?v=37';
+import { SAGE_DARK, hexToInt } from './theme.js?v=37';
+import { createHoloEmitterStage } from './holo.js?v=37';
 
 const G = window.SANBAO_GRAPH;
 const stage = document.querySelector('#stage');
@@ -759,8 +759,9 @@ function addLabel(html, pos, cls, data, isHtml = false) {
     new THREE.Vector3(FCX + (i - 1) * 320, 152, wallZ + 15), 'lbl gov', { kind: 'gov', id: gv.seat_id }));
   addLabel('T4 决策权规则包 · 非 Agent 席位',
     new THREE.Vector3(FCX, 196, wallZ + 15), 'lbl gov', { kind: 'govnote' });
-  addLabel('全息体素投影台 · 选中席位实时扫描',
-    new THREE.Vector3(FCX, 132, F.z1 - 120), 'lbl band', { kind: 'sub' });
+  const holoBadgeEl = addLabel('★ 全息投影台：知微 AGT-008 · 产品组合与商业论证',
+    new THREE.Vector3(FCX, 132, F.z1 - 120), 'lbl band holo', { kind: 'holo', id: 'AGT-008' });
+  window.__holoBadgeEl = holoBadgeEl;
   const netOffX = FCX - 800, netOffZ = FCZ - 800;
   for (const nd of net.nodes) addLabel(nd.title,
     new THREE.Vector3(netOffX + nd.x + nd.w / 2, 82 + (nd.pages ? nd.pages.length : 1) * 6 + 34, netOffZ + nd.y + nd.h / 2),
@@ -772,6 +773,19 @@ function addLabel(html, pos, cls, data, isHtml = false) {
       new THREE.Vector3(s.x + s.w / 2, 142, s.y + s.h / 2), 'lbl seat', { kind: 'seat', id: s.id }, true);
   }
 })();
+
+labelLayer.addEventListener('click', e => {
+  const item = e.target.closest('.lbl[data-id]');
+  if (!item) return;
+  e.stopPropagation();
+  const k = item.dataset.kind === 'holo' ? (item.dataset.id.startsWith('MGT-') ? 'gov' : 'seat') : item.dataset.kind;
+  const id = item.dataset.id;
+  if (k === 'seat') {
+    const seatBox = org.seats.find(x => x.id === id);
+    if (seatBox) tweenCamera({ radius: Math.min(orbit.radius, 1180), target: [seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2] });
+  }
+  showDetail(k, id);
+});
 
 // ---------- 预设缓动相机控制器（借鉴 cameraPresetController.ts） ----------
 const VIEW_PRESETS = {
@@ -940,6 +954,11 @@ let chainId3d = 'chain-01';
 function showDetail(kind, id) {
   if (kind === 'seat' || kind === 'gov') {
     holoStage.updateSeatHologram(id);
+    const m = SEAT_MAP.get(id);
+    if (m && window.__holoBadgeEl) {
+      window.__holoBadgeEl.textContent = `★ 全息投影台：${m.alias} ${m.seat_id} · ${m.title}`;
+      window.__holoBadgeEl.dataset.id = m.seat_id;
+    }
   }
   if (kind === 'pilot') {
     const chains = G.org.chain_lenses || [];
@@ -983,7 +1002,7 @@ function showDetail(kind, id) {
         const meta = SEAT_MAP.get(s.seat_id);
         return `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${meta ? meta.alias : ''} · ${s.mode}<br><small style="color:#aab8ca">${s.stages.join('/')} · ${s.duty}</small></div>`;
       }).join('')}
-      <h3>T3 上下文注入/装配席位（${plData.context_injected_seats.length}）</h3>
+      <h3>提供资料与规则支持的岗位（${plData.context_injected_seats.length} 席）</h3>
       ${plData.context_injected_seats.map(s => {
         const meta = SEAT_MAP.get(s.seat_id);
         return `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${meta ? meta.alias : ''}（${s.stages.join('/')}） · ${s.duty}</div>`;
@@ -993,7 +1012,7 @@ function showDetail(kind, id) {
         const nd = net.nodes.find(x => x.id === nid);
         return `<div class="jump" data-jump3d="node:${nid}">→ ${nd ? nd.title : nid}（${nd ? nd.codes : ''}）</div>`;
       }).join('')}
-      <h3>干跑回放步进器（${plData.dryrun ? `${plData.dryrun.replay_runs}/3 重放一致 · ${plData.dryrun.final_decision}` : 'STG-01..08'}）</h3>
+      <h3>新品立项 8 步走查回放（${plData.dryrun ? `连续 ${plData.dryrun.replay_runs} 次结果一致 · 条件通过` : '第 1 步 → 第 8 步'}）</h3>
       <div class="stg-bar">
         <button type="button" class="stg-btn ${pilotStage3d === 'ALL' ? 'active' : ''}" data-stg3d="ALL">全链</button>
         ${(plData.dryrun && plData.dryrun.stages || []).map(st =>
@@ -1115,7 +1134,7 @@ function switchView(v) {
   tweenCamera(preset);
   for (const l of labels) {
     if (l.kind === 'node') l.shown = v === 'network';
-    if (l.kind === 'seat' || l.kind === 'band' || l.kind === 'sub') l.shown = v === 'org';
+    if (l.kind === 'seat' || l.kind === 'band' || l.kind === 'sub' || l.kind === 'holo') l.shown = v === 'org';
   }
 }
 stage.dataset.view = 'org';
@@ -1152,11 +1171,35 @@ document.querySelector('#toggle-rotate').addEventListener('click', e => {
   e.currentTarget.classList.toggle('active', autoRotate);
 });
 
+document.querySelectorAll('[data-cam-zone]').forEach(btn => btn.addEventListener('click', () => {
+  document.querySelectorAll('[data-cam-zone]').forEach(b => b.classList.toggle('active', b === btn));
+  const zKey = btn.dataset.camZone;
+  if (stage.dataset.view !== 'org') switchView('org');
+  if (zKey === 'all') {
+    closeupMode = false;
+    document.querySelector('#closeup-btn').classList.remove('active');
+    tweenCamera(VIEW_PRESETS.org);
+  } else if (zKey === 'holo') {
+    closeupMode = true;
+    document.querySelector('#closeup-btn').classList.add('active');
+    tweenCamera({ theta: 0, phi: Math.PI * 0.37, radius: 680, target: [FCX, 72, F.z1 - 120] });
+    const curId = holoStage.getCurrentSeatId() || 'AGT-008';
+    showDetail(curId.startsWith('MGT-') ? 'gov' : 'seat', curId);
+  } else if (ZONE[zKey]) {
+    const z = ZONE[zKey];
+    const zx = (z.x0 + z.x1) / 2, zz = (z.z0 + z.z1) / 2;
+    const span = Math.max(z.x1 - z.x0, z.z1 - z.z0);
+    closeupMode = true;
+    document.querySelector('#closeup-btn').classList.add('active');
+    tweenCamera({ theta: Math.PI * 0.22, phi: Math.PI * 0.35, radius: Math.max(820, Math.min(1550, span * 0.95)), target: [zx, 75, zz] });
+  }
+}));
+
 for (const l of labels) if (l.kind === 'node') l.shown = false;
 
 // ---------- 标签投影 + 席位 LOD ----------
 const v3 = new THREE.Vector3();
-const LBL_PRIORITY = { band: 5, gov: 4, govnote: 4, node: 4, sub: 3, seat: 2 };
+const LBL_PRIORITY = { holo: 6, band: 5, gov: 4, govnote: 4, node: 4, sub: 3, seat: 2 };
 const placedRects = [];
 function overlaps(a, b) {
   return a.x0 < b.x1 && b.x0 < a.x1 && a.y0 < b.y1 && b.y0 < a.y1;
@@ -1228,7 +1271,7 @@ function tick() {
   requestAnimationFrame(tick);
 }
 
-document.querySelector('#f-seats').textContent = `${org.seats.length} AGT + ${G.org.governance.length} MGT`;
+document.querySelector('#f-seats').textContent = `${org.seats.length} 位数字员工 + ${G.org.governance.length} 项管理规则包`;
 document.querySelector('#gv').textContent = G.graph_version;
 if (params.get('view') === 'network') switchView('network');
 if (params.get('closeup') === '1') {

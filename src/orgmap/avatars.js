@@ -1,8 +1,8 @@
 // Polyfork 风格 Faceted Low-Poly 科技工装数字员工与 T4 钛金规则碑生成（1 unit = 1 cm，确定性哈希播种）
 // 遵守证据纪律：全坐姿、静止无骨骼动画，3 个 MGT 仅生成规则碑不生成人形；色彩对齐 sagegogo.com。
 import * as THREE from './vendor/three.module.min.js';
-import { SAGE_DARK, hexToInt } from './theme.js?v=36';
-import { renderPlaqueSvg } from './plaque.js?v=36';
+import { SAGE_DARK, hexToInt } from './theme.js?v=37';
+import { renderPlaqueSvg } from './plaque.js?v=37';
 
 export function hash32(str) {
   let h = 2166136261 >>> 0;

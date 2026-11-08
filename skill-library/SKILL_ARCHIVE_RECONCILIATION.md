@@ -1,6 +1,6 @@
 # Skill 归档入口核对
 
-> **历史主机注记**：本报告记录的绝对路径来自扫描主机 `/Users/lute`。工作区已迁移，当前本机路径为 `/Users/pray/project/Sage_hub/Career`。报告内的 `/Users/lute/...` 是历史事实，不等于当前可访问路径；需要当前路径时以仓库内实际文件为准。
+> **历史主机注记**：本报告记录的绝对路径来自扫描主机 `<historical-host>`。工作区已迁移，当前本机路径为 `/Users/pray/project/Sage_hub/Career`。报告内的 `<historical-host>/...` 是历史事实，不等于当前可访问路径；需要当前路径时以仓库内实际文件为准。
 
 - 核对时间：2026-09-25T12:21:36+08:00
 - 对照清单：`skill_inventory_enriched.json`
@@ -22,4 +22,4 @@
 - JSONL 文件型资产：`SKILL.md` 是基于清单字段生成的可读入口，原始 JSONL 文件保留在同目录；它不被伪装成标准 Skill 规范。
 - 不透明 Markdown 文件型资产：同样保留原始文件，但 `SKILL.md` 只提供清单级入口，不声称原始内容可读。
 - 不透明标准目录型入口：原始字节移动为同目录 `SOURCE_SKILL.md`，`SKILL.md` 改为明确的待复核入口，以避免二进制伪装为可读技能说明。
-- 本操作不修改任何 `/Users/lute` 或 iCloud 的原始来源，不改变当前 Codex 可用性、竞聘状态或业务授权。
+- 本操作不修改任何 `<historical-host>` 或 iCloud 的原始来源，不改变当前 Codex 可用性、竞聘状态或业务授权。

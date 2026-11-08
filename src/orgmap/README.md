@@ -140,3 +140,15 @@ python3 -m http.server 8765 --bind 127.0.0.1
 - **批次 21（视觉契约门禁与来源合规声明）**：
   - 新增 `scripts/check-orgmap-visual-contract.py`（`--selftest` 7/7 通过）并接入 `scripts/check-ledger-consistency.py`；
   - 新增 `deliverables/execution/sanbao-handoff-20261104/NOTICE-three-scope-map.md` 记录四方来源与许可证边界。
+
+## 11. 批次 22–24 · 全站去 AI 味中文改版、3D 区域巡检与全息实时名牌、公开地图入口与历史路径收口
+
+- **批次 22（全站与档案卡去 AI 味 / 人话改版）**：
+  - 将 `dossier.js`、`index.html`、`showcase.html`、`app.js`、`showcase.js` 中的中英重复标题与内部字段名（如 `SOUL CONTRACT`、`ARTIFACT ENVELOPE`、`production_authorized=false`、`UNVERIFIED`）全面改写为自然易读的中文（`01 处事原则与停手线`、`02 岗位职责与工作步骤`、`03 业务技能与工具包`、`04 协作同事与红线`）；
+  - 为 `FLOW-01..08`、`PB-001..008`、`SCN-001..020` 补齐官方中文全称，并将底层文件路径与 `sha256` 收进页脚折叠栏。
+- **批次 23（3D 区域快捷导览栏 + 全息台实时名牌 + 悬浮名片点击直达）**：
+  - 3D 空间底部新增 `#zone-dock` 导览胶囊（`全景总览 / 业务运营 35人 / 经营管理 5人 / 独立控制 5人 / 数据与平台 5人 / ★ 前庭全息台`），一键丝滑运镜；
+  - 前庭全息台上方新增实时名牌，动态显示当前正在投影的数字员工姓名与职务；3D 悬浮名片支持直接点击切换全息投影与右侧档案。
+- **批次 24（`docs/index.html` 入口挂载与 `skill-library/` 历史路径清零）**：
+  - 在 `docs/index.html`（及同步副本 `deliverables/canvas/sanbao-public-map.html`）挂载 2D 组织索引与 3D 数字员工空间入口；
+  - 将 `skill-library/` 8 份历史报告中的旧主机路径脱敏为 `<historical-host>`，`check-ledger-consistency.py` 实现零 INFO 噪音全绿通过。

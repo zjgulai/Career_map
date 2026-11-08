@@ -1,12 +1,12 @@
 # Skill 资产库方案与执行 TODO
 
-> **历史主机注记**：本报告记录的绝对路径来自扫描主机 `/Users/lute`。工作区已迁移，当前本机路径为 `/Users/pray/project/Sage_hub/Career`。报告内的 `/Users/lute/...` 是历史事实，不等于当前可访问路径；需要当前路径时以仓库内实际文件为准。
+> **历史主机注记**：本报告记录的绝对路径来自扫描主机 `<historical-host>`。工作区已迁移，当前本机路径为 `/Users/pray/project/Sage_hub/Career`。报告内的 `<historical-host>/...` 是历史事实，不等于当前可访问路径；需要当前路径时以仓库内实际文件为准。
 
 ## MECE 扫描边界
 
-- 扫描根目录：`/Users/lute` 与 `/Users/lute/Library/Mobile Documents/com~apple~CloudDocs`。
+- 扫描根目录：`<historical-host>` 与 `<historical-host>/Library/Mobile Documents/com~apple~CloudDocs`。
 - 收录对象 A：所有可读的 `SKILL.md` / `skill.md` 标准入口文件；一个入口文件对应一个目录型 skill 记录。
-- 收录对象 B：`/Users/lute/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills` 下所有文件名以 `Skill-` 开头的 `.md/.json/.jsonl/.yml/.yaml` 文件；一个文件对应一个文件型 skill 记录。
+- 收录对象 B：`<historical-host>/Library/Mobile Documents/com~apple~CloudDocs/paper_to_skills` 下所有文件名以 `Skill-` 开头的 `.md/.json/.jsonl/.yml/.yaml` 文件；一个文件对应一个文件型 skill 记录。
 - 不收录对象：`scripts/`、`examples/`、`templates/`、`assets/`、普通 README、日志、缓存、`.env`、密钥、会话文件；这些不会作为独立 skill。
 - 去重方式：按解析后的绝对路径去重；同名不同路径不合并。
 - 来源分类：iCloud paper file skill、iCloud standard skill、Codex system、本地 user skill、本地 agent skill、bundled plugin、remote plugin、primary runtime、project skill、home skill。它描述广域扫描中的来源位置；当前 Codex 可用性另由运行时台账判断，不能混为同一分类。

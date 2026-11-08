@@ -3,48 +3,58 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>三宝 · 组织空间 3D（展示视图）</title>
+<title>三宝 · 3D 数字员工空间</title>
 <link rel="icon" href="data:,">
-<link rel="stylesheet" href="./showcase.css?v=36">
+<link rel="stylesheet" href="./showcase.css?v=37">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><span class="mark">三</span><strong>三宝 · 组织空间</strong></div>
-  <div class="banner" role="status">展示视图 · 不参与可读性验收 · 不是运行系统</div>
+  <div class="brand"><span class="mark">三</span><strong>三宝 · 3D 数字员工空间</strong></div>
+  <div class="banner" role="status">3D 空间预览 · 点击任意员工或名片可切换前庭 3D 全息投影与右侧工作档案</div>
   <nav id="views">
-    <button data-view="org" class="active">办公层</button>
-    <button data-view="network">网络层</button>
+    <button data-view="org" class="active">50 席办公空间</button>
+    <button data-view="network">20 节点经营网络</button>
   </nav>
-  <button id="closeup-btn" type="button" title="拉近镜头至工位近景（显示人物头像名片与工牌）">近景模式</button>
-  <button id="pilot3d-btn" type="button" title="在 3D 空间高亮 FLOW-02 × SCN-002 四席只读试点">三主链 / 试点镜头</button>
+  <button id="closeup-btn" type="button" title="拉近镜头查看工位细节、双联仪表盘与员工悬浮名片">拉近看工位</button>
+  <button id="pilot3d-btn" type="button" title="在 3D 空间高亮新品、持续经营、新市场三条业务主线与试点岗位">看三条业务主线 / 试点</button>
   <button id="toggle-rotate" class="active">暂停旋转</button>
 </header>
 <main>
-  <section id="stage" aria-label="三维组织空间"><canvas id="gl"></canvas><div id="labels3d"></div></section>
+  <section id="stage" aria-label="三维组织空间">
+    <canvas id="gl"></canvas>
+    <div id="labels3d"></div>
+    <div id="zone-dock" aria-label="区域快捷导览">
+      <button type="button" class="dock-btn active" data-cam-zone="all">全景总览</button>
+      <button type="button" class="dock-btn" data-cam-zone="ops">业务运营 (35人)</button>
+      <button type="button" class="dock-btn" data-cam-zone="mgmt">经营管理 (5人)</button>
+      <button type="button" class="dock-btn" data-cam-zone="control">独立控制 (5人)</button>
+      <button type="button" class="dock-btn" data-cam-zone="platform">数据与平台 (5人)</button>
+      <button type="button" class="dock-btn" data-cam-zone="holo">★ 前庭全息台</button>
+    </div>
+  </section>
   <aside id="side">
-    <h2>未选择</h2>
-    <p>拖拽旋转 · 滚轮缩放 · 点击人物或台座查看详情（或点顶栏「近景模式」查看人物肖像名片）。</p>
-    <p><strong>分身 = 能力站位符号，不是已任命员工；准入状态不是在线状态。</strong></p>
-    <p>精确阅读请回<strong>工作视图</strong>（正交、0° 倾角、文字在 DOM）。</p>
+    <h2>点击员工或下方导览切换视角</h2>
+    <p>拖拽画面可旋转视角，滚轮可远近缩放。<strong>直接点击空间里的员工、悬浮名片，或点击下方区域按钮</strong>，前庭全息台会投出他的 3D 扫描像，右侧会展开四维工作档案。</p>
+    <p>说明：这里的 3D 形象代表<strong>岗位能力分工</strong>，北侧墙上的 3 块钛金碑是<strong>管理层决策规则包（天時/地利/人和）</strong>，不是聊天机器人。需要平面阅读全部文字可随时切回工作视图。</p>
     <dl class="facts">
-      <dt>席位</dt><dd id="f-seats">—</dd>
-      <dt>生产授权</dt><dd>0 / 53</dd>
-      <dt>运行身份</dt><dd>0 / 53</dd>
-      <dt>准入状态</dt><dd>52 UNVERIFIED · 1 PARTIAL</dd>
+      <dt>岗位编制</dt><dd id="f-seats">—</dd>
+      <dt>生产权限</dt><dd>0 / 53（尚未开通）</dd>
+      <dt>系统连接</dt><dd>0 / 53（设计预览阶段）</dd>
+      <dt>核验进度</dt><dd>1 个已备齐试点样本 · 52 个待实测核验</dd>
     </dl>
   </aside>
 </main>
 <footer class="statusbar">
   <span id="legend3d">
-    <i class="sw baseline"></i>主线
-    <i class="sw feedback"></i>反馈
-    <i class="sw plain"></i>未标注
+    <i class="sw baseline"></i>主流程传递
+    <i class="sw feedback"></i>结果与问题反馈
+    <i class="sw plain"></i>协同关联
   </span>
-  <span>曲线 = 关系结构 · 粒子方向 = source→target · 非运行流量</span>
-  <span><a href="./">← 工作视图</a></span>
-  <span>数据 <code id="gv">—</code></span>
+  <span>工位机箱灯色代表核验进度（非在线状态） · 北侧规则碑代表管理规则</span>
+  <span><a href="./">← 返回平面工作视图</a></span>
+  <span>版本 <code id="gv">—</code></span>
 </footer>
-<script src="./data/graph.js?v=36"></script>
-<script type="module" src="./showcase.js?v=36"></script>
+<script src="./data/graph.js?v=37"></script>
+<script type="module" src="./showcase.js?v=37"></script>
 </body>
 </html>

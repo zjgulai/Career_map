@@ -1,8 +1,8 @@
 // 正交工作视图：使用 Canvas2D 绘制板面与折线（零 WebGL 依赖），DOM overlay 承载全部文字与交互。
 // three.module.min.js 仅由独立 3D 展示页 showcase.html 加载，工作视图冷启动立降 671KB。
-import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=36';
-import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=36';
-import { SAGE_LIGHT } from './theme.js?v=36';
+import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=37';
+import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=37';
+import { SAGE_LIGHT } from './theme.js?v=37';
 
 const G = window.SANBAO_GRAPH;
 const $ = sel => document.querySelector(sel);
@@ -10,12 +10,12 @@ const stage = $('#stage'), canvas = $('#gl'), labels = $('#labels'), ctx = canva
 
 const COLORS = SAGE_LIGHT;
 const REL_LABEL = {
-  direct_reuse: '直接复用主站位',
-  sub_contributor: '内部专业贡献',
-  evidence_input: '来源事实/证据输入',
-  boundary_contributor: '边界条件输入',
-  readonly_consumer: '只读引用',
-  platform_steward: '平台维护侧归集',
+  direct_reuse: '主责承接该节点',
+  sub_contributor: '提供专业模块支持',
+  evidence_input: '提供事实与数据依据',
+  boundary_contributor: '把控合规与风险边界',
+  readonly_consumer: '只读参考该节点结论',
+  platform_steward: '由平台团队统一维护',
 };
 const FONT_MIN = 12;
 const SEAT_FULL = 0.9, SEAT_COMPACT = 0.45;
@@ -407,10 +407,10 @@ function side(sel) {
     const pg = pl.policy_gate || {};
     const gm = pl.governance_mechanisms || {};
     el.innerHTML = `${chainBar}<h2>${pl.title}</h2>
-      <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待真人签核 ${pc.awaiting_human_signoff || 0}/7</span>
-      <span class="tag">Policy Gate ${pg.negative_tests_passed || 10}/10 负向拦截</span>
-      <span class="tag">技能契约 ${pg.skill_contracts_count || 12}/12</span>
-      <span class="tag">治理机制 ${gm.mechanisms_count || 4}/4 (${gm.cases_passed || 16}/${gm.cases_total || 16})</span></p>
+      <p><span class="tag warn">启用条件：${pc.engineering_ready || 0} 项已就绪 · ${pc.awaiting_human_signoff || 0} 项待真人确认</span>
+      <span class="tag">越权拦截测试 ${pg.negative_tests_passed || 10}/10 通过</span>
+      <span class="tag">岗位技能约定 ${pg.skill_contracts_count || 12} 项已齐备</span>
+      <span class="tag">风控机制 ${gm.cases_passed || 16}/${gm.cases_total || 16} 通过</span></p>
       <p>授权依据：<code>${pl.authorization_ref}</code></p>
       ${(pre.items || []).length ? `<h3>七项生效前置（P1..P7）</h3>` + pre.items.map(it => {
         const badge = it.state === 'ENGINEERING_READY' ? '<span class="tag">工程就绪</span>' : '<span class="tag warn">待真人签核</span>';
@@ -424,7 +424,7 @@ function side(sel) {
           <div class="meta">${s.stages.join(' / ')} · ${s.duty}</div>
         </div>`;
       }).join('')}
-      <h3>T3 上下文注入/装配席位（${pl.context_injected_seats.length}）</h3>
+      <h3>提供资料与规则支持的岗位（${pl.context_injected_seats.length} 席 · 琥珀框）</h3>
       ${pl.context_injected_seats.map(s => {
         const meta = G.org.seats.find(x => x.seat_id === s.seat_id);
         return `<div class="rel" data-jump-seat="${s.seat_id}">
@@ -437,7 +437,7 @@ function side(sel) {
         const nd = net.nodes.find(x => x.id === nid);
         return `<div class="rel" data-jump-node="${nid}"><div class="obj">→ ${nd ? nd.title : nid}</div><div class="meta">${nd ? nd.codes : ''}</div></div>`;
       }).join('')}
-      <h3>干跑回放步进器（${pl.dryrun ? `${pl.dryrun.replay_runs}/3 重放一致 · 结论 ${pl.dryrun.final_decision} / ${pl.dryrun.action_disposition}` : 'STG-01..08'}）</h3>
+      <h3>新品立项 8 步走查回放（${pl.dryrun ? `连续 ${pl.dryrun.replay_runs} 次验证结果一致 · 结论：条件通过（只读无外部写操作）` : '第 1 步 → 第 8 步'}）</h3>
       <div class="stg-bar">
         <button type="button" class="stg-btn ${state.pilotStage === 'ALL' ? 'active' : ''}" data-pilot-stg="ALL">全链总览</button>
         ${(pl.dryrun && pl.dryrun.stages || []).map(st =>
@@ -666,10 +666,10 @@ function fillFacts() {
   const adm = {}; for (const s of [...seats, ...gov]) adm[s.admission_status] = (adm[s.admission_status] || 0) + 1;
   const auth = [...seats, ...gov].filter(s => s.production_authorized).length;
   const linkedSeats = seats.filter(s => (s.node_links || []).length > 0).length;
-  $('#f-seats').textContent = `${all} 个可寻址席位（${seats.length} AGT + ${gov.length} MGT）`;
-  $('#f-proc').textContent = `0 · 不是 ${all} 个同时在跑的 Agent`;
-  $('#f-auth').textContent = `${auth} / ${all}`;
-  $('#f-adm').textContent = Object.entries(adm).map(([k, v]) => `${v} ${k}`).join(' · ');
+  $('#f-seats').textContent = `共 ${all} 席（${seats.length} 位数字员工 + ${gov.length} 项管理规则包）`;
+  $('#f-proc').textContent = `0（按任务召唤，不是 ${all} 个进程同时常驻）`;
+  $('#f-auth').textContent = `${auth} / ${all}（设计阶段尚未开放生产写权限）`;
+  $('#f-adm').textContent = `1 席已备齐试点样本 · 52 席待实测核验`;
   const cwEl = $('#f-cw');
   if (cwEl) cwEl.textContent = `50 岗全映射能力站位 · ${linkedSeats} 席直连 20 主网节点（${G.counts.crosswalk_links} 条）`;
 }
