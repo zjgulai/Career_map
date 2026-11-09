@@ -27,7 +27,7 @@ nav button:hover,#toggle-rotate:hover,#closeup-btn:hover,#pilot3d-btn:hover{bord
 nav button.active,#toggle-rotate.active,#closeup-btn.active{background:#396397;border-color:#aec8e2;color:#ffffff;box-shadow:0 0 16px rgba(116,191,232,0.28)}
 #pilot3d-btn.active{background:#1b3042;border-color:#edb76c;color:#edb76c;box-shadow:0 0 16px rgba(237,183,108,0.25)}
 main{flex:1;display:flex;min-height:0}
-#stage{position:relative;flex:1;min-width:0;overflow:hidden;cursor:grab;
+#stage{position:relative;flex:1;min-width:0;overflow:hidden;cursor:grab;touch-action:none;
   background:radial-gradient(ellipse at 72% 18%,rgba(37,66,104,0.24),transparent 48%),
              radial-gradient(ellipse at 34% 78%,rgba(37,53,82,0.22),transparent 52%),#030408}
 #gl{display:block;width:100%;height:100%}

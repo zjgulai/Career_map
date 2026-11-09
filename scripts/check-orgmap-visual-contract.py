@@ -62,6 +62,8 @@ REQUIRED_3D_FEATURES = (
     "createSelectiveBloom",
     "runIntroSweep",
     "audit3d",
+    "triggerLowPowerFallback",
+    "applyPinchDelta",
 )
 
 
@@ -134,9 +136,12 @@ def check_a11y_responsive_and_lightbox(file_map: dict[str, str]) -> list[str]:
         if ".superpowers" in code:
             errs.append(f"{fname}: 严禁硬编码字面量 .superpowers 路径（clean clone 下会导致 404）")
 
+    if "touch-action:none" not in sc_css and "touch-action: none" not in sc_css:
+        errs.append("showcase.css: #stage 缺少 touch-action:none 移动端双指手势保护")
+
     lb_js = _strip_comments(file_map.get("lightbox.js", ""))
-    if "renderCardFallback" not in lb_js or "method: 'HEAD'" not in lb_js:
-        errs.append("lightbox.js: 缺少 HEAD 探测或 renderCardFallback 离线台账摘要兜底")
+    if "renderCardFallback" not in lb_js or "method: 'HEAD'" not in lb_js or "./cards/" not in lb_js:
+        errs.append("lightbox.js: 缺少 ./cards/ 同源脱敏卡优先加载、HEAD 探测或 renderCardFallback 离线兜底")
 
     idx_html = file_map.get("index.html", "")
     if "./showcase.js" not in idx_html or "切换 2D 极简验收表" in idx_html or "进入 3D 空间" in idx_html:

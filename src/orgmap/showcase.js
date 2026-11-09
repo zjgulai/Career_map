@@ -925,21 +925,62 @@ const bloom = createSelectiveBloom(renderer, scene, camera, {
   enabled: params.get('bloom') !== '0',
 });
 
+let currentPR = PR;
 function resize() {
   const w = stage.clientWidth, h = stage.clientHeight;
   renderer.setSize(w, h, false);
-  bloom.setSize(w, h, PR);
+  bloom.setSize(w, h, currentPR);
   camera.aspect = w / h;
   camera.updateProjectionMatrix();
 }
 addEventListener('resize', resize);
 resize();
 
+// ---------- 批次 35：单指旋转 + 移动端双指捏合缩放 (Pinch-to-Zoom) ----------
+const activePointers = new Map();
+let lastPinchDist = 0;
+
+function getPinchDistance() {
+  const pts = [...activePointers.values()];
+  if (pts.length < 2) return 0;
+  return Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
+}
+
+function applyPinchDelta(prevDist, nextDist) {
+  if (prevDist > 8 && nextDist > 8) {
+    camTween = null;
+    const scale = prevDist / nextDist;
+    orbit.radius = Math.max(800, Math.min(6000, orbit.radius * scale));
+  }
+}
+
 stage.addEventListener('pointerdown', e => {
-  dragging = true; camTween = null; last = { x: e.clientX, y: e.clientY }; moved = 0;
-  stage.setPointerCapture(e.pointerId);
+  if (e.target.closest('#zone-dock') || e.target.closest('.lbl[data-id]')) return;
+  activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  camTween = null;
+  if (activePointers.size === 1) {
+    dragging = true;
+    last = { x: e.clientX, y: e.clientY };
+    moved = 0;
+  } else if (activePointers.size === 2) {
+    dragging = false;
+    last = null;
+    lastPinchDist = getPinchDistance();
+  }
+  try { stage.setPointerCapture(e.pointerId); } catch (_) {}
 });
+
 stage.addEventListener('pointermove', e => {
+  if (activePointers.has(e.pointerId)) {
+    activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  }
+  if (activePointers.size === 2) {
+    const nextDist = getPinchDistance();
+    applyPinchDelta(lastPinchDist, nextDist);
+    lastPinchDist = nextDist;
+    moved += 10;
+    return;
+  }
   if (!dragging || !last) return;
   const dx = e.clientX - last.x, dy = e.clientY - last.y;
   moved += Math.abs(dx) + Math.abs(dy);
@@ -947,10 +988,22 @@ stage.addEventListener('pointermove', e => {
   orbit.phi = Math.max(0.03, Math.min(1.48, orbit.phi - dy * 0.005));
   last = { x: e.clientX, y: e.clientY };
 });
-stage.addEventListener('pointerup', e => {
-  dragging = false; last = null;
+
+function onPointerEnd(e) {
+  activePointers.delete(e.pointerId);
+  if (activePointers.size < 2) lastPinchDist = 0;
+  if (activePointers.size === 0) {
+    dragging = false;
+    last = null;
+  } else if (activePointers.size === 1) {
+    const rem = [...activePointers.values()][0];
+    dragging = true;
+    last = { x: rem.x, y: rem.y };
+  }
   try { stage.releasePointerCapture(e.pointerId); } catch (_) {}
-});
+}
+stage.addEventListener('pointerup', onPointerEnd);
+stage.addEventListener('pointercancel', onPointerEnd);
 stage.addEventListener('wheel', e => {
   e.preventDefault();
   camTween = null;
@@ -1572,12 +1625,47 @@ function audit3d() {
 }
 window.__audit = audit3d;
 
+// ---------- 批次 35：集显与弱终端 FPS 自适应降级守护 ----------
+const fpsGuardState = {
+  samples: 0,
+  accumMs: 0,
+  avgFps: 60,
+  downgraded: false,
+};
+
+function triggerLowPowerFallback(reason = 'low-fps') {
+  if (fpsGuardState.downgraded) return fpsGuardState;
+  fpsGuardState.downgraded = true;
+  fpsGuardState.reason = reason;
+  currentPR = 1;
+  renderer.setPixelRatio(1);
+  if (flow) flow.setPixelRatio(1);
+  beams.setPixelRatio(1);
+  bloom.setEnabled(false);
+  bloom.setSize(stage.clientWidth, stage.clientHeight, 1);
+  const bBtn = document.querySelector('#bloom-btn');
+  if (bBtn) {
+    bBtn.classList.remove('active');
+    bBtn.title = '已自动切换为省电流畅模式（可点击手动重新开启辉光）';
+  }
+  return fpsGuardState;
+}
+
 // ---------- 主循环 ----------
 const clock = new THREE.Clock();
 let elapsed = 0;
 function tick() {
   const dt = STILL_MODE ? 0 : clock.getDelta();
   elapsed += dt;
+  if (!STILL_MODE && !fpsGuardState.downgraded && fpsGuardState.samples < 60 && dt > 0.001 && dt < 0.25) {
+    fpsGuardState.samples++;
+    fpsGuardState.accumMs += dt * 1000;
+    if (fpsGuardState.samples === 60) {
+      const avgMs = fpsGuardState.accumMs / 60;
+      fpsGuardState.avgFps = Math.round(1000 / avgMs);
+      if (avgMs > 28.5) triggerLowPowerFallback(`avgFrameMs=${avgMs.toFixed(1)}`);
+    }
+  }
   if (autoRotate && !dragging && !camTween && stage.dataset.view !== 'plan') orbit.theta += dt * 0.055;
   if (chaseMaterial) chaseMaterial.uniforms.uTime.value = STILL_MODE ? 2.4 : elapsed;
   hudRingGroup.rotation.y = STILL_MODE ? 0.2 : elapsed * 0.035;
@@ -1625,7 +1713,7 @@ if (sideToggleBtn) {
 }
 
 window.__sc = {
-  renderer, scene, camera, orbit, VIEW_PRESETS, tweenCamera, switchView, showDetail, apply3dTheme, holoStage, beams, bloom, audit3d,
+  renderer, scene, camera, orbit, VIEW_PRESETS, tweenCamera, switchView, showDetail, apply3dTheme, holoStage, beams, bloom, audit3d, triggerLowPowerFallback, applyPinchDelta,
   getStats: () => ({
     view: stage.dataset.view,
     theme: currentTheme3d,
@@ -1640,6 +1728,8 @@ window.__sc = {
     beams: beams.stats,
     flow: flow ? flow.stats : null,
     reducedMotion: REDUCED_MOTION,
+    pixelRatio: currentPR,
+    fpsGuard: { ...fpsGuardState },
   }),
 };
 tick();

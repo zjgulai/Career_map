@@ -199,3 +199,17 @@ docker compose -f configs/docker/docker-compose.yml up -d --build
 curl -fsS http://127.0.0.1:8080/healthz
 # 浏览器打开 http://<腾讯云公网IP>:8080/ （自动 302 进入 /src/orgmap/ 一体化 3D 空间）
 ```
+
+## 15. 批次 33–36 · 63 张画布卡脱敏入包、腾讯云 HTTPS 反代与一键发布脚本、弱网/集显 FPS 守护与双指触控、全量门禁合龙
+
+- **批次 33（63 张原始画布卡脱敏入包 + 同源预览）**：
+  - `scripts/check-docker-deploy-readiness.py --export-sanitized-cards`：自动扫描 `.superpowers/brainstorm/38196-1789923100/content/*.html`，将 55 个文件中的 375 处 `/Users/<user>` 本机路径脱敏替换为 `<workspace>` 后输出至 `src/orgmap/cards/`（共 63 张卡，0 处 `/Users/` 残留，目录由 `.gitignore` 忽略不污染 Git 历史，但随部署包打入腾讯云容器）；
+  - `src/orgmap/lightbox.js`：优先请求同源 `./cards/<file>`，使腾讯云容器内点击右侧任意来源卡均可直接在毛玻璃预览舱内查看 100% 完整的原版画布卡。
+- **批次 34（腾讯云 HTTPS 自动证书反代与一键远端发布脚本）**：
+  - 新增 `configs/docker/Caddyfile` 与 `configs/docker/docker-compose.https.yml`：支持绑定域名时自动签发 Let's Encrypt / ZeroSSL 证书并开启 HSTS 与 Zstd/Gzip 压缩；
+  - 新增 `scripts/deploy-tencent-docker.sh`：支持 `--dry-run` 预演与 `--host user@<腾讯云IP> [--port 8080] [--https domain]` 一键完成「本地门禁 + 63 卡脱敏打包 + SCP 上传 + Docker Compose 原子重建 + 远端 `/healthz` 探针核验」。
+- **批次 35（集显/弱终端 FPS 自适应降级守护 + 移动端双指捏合缩放）**：
+  - `src/orgmap/showcase.js` 新增 `triggerLowPowerFallback`：采样首 60 帧渲染耗时，若平均帧率 `< 35fps`（单帧 `> 28.5ms`），自动关闭 Selective Bloom 并将 `pixelRatio` 降至 `1.0`；
+  - 新增 `activePointers` + `applyPinchDelta` 双指捏合缩放（Pinch-to-Zoom）与 `#stage { touch-action: none }`，隔离双指缩放与单指旋转。
+- **批次 36（Docker 部署门禁并入 `check-ledger-consistency.py` 总门禁）**：
+  - `scripts/check-docker-deploy-readiness.py --selftest`（8/8 通过）已正式并入 `scripts/check-ledger-consistency.py` 总门禁。

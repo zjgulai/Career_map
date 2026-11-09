@@ -33,3 +33,4 @@ build/
 *.cer
 *.token
 *.session
+/src/orgmap/cards/
