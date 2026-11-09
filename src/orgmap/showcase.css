@@ -457,3 +457,39 @@ body[data-theme="light"] #bloom-btn.active {
     padding: 4px 10px;
   }
 }
+
+/* ---------- 批次 37-39：深链分享栏与云端三画布互联 ---------- */
+.share-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 8px;
+  margin-bottom: 10px;
+  background: var(--dos-card);
+  border: 1px solid var(--dos-line);
+  border-radius: 8px;
+}
+.share-bar code {
+  font-size: 12px;
+  color: var(--dos-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.canvas-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.canvas-links a {
+  color: #74bfe8;
+  text-decoration: none;
+  font-size: 12px;
+}
+.canvas-links a:hover {
+  text-decoration: underline;
+}
+body[data-theme="light"] .canvas-links a {
+  color: #396397;
+}

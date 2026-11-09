@@ -363,13 +363,21 @@ def collect(root: Path) -> list[str]:
         if vcres.returncode != 0:
             failures.append(f"orgmap 视觉契约门禁自检失败：{(vcres.stderr or vcres.stdout).strip()}")
 
-    # 7f. 腾讯云 Docker 容器化部署就绪度与白名单安全门禁（批次 33-36）
+    # 7f. 腾讯云 Docker 容器化部署就绪度与白名单安全门禁（批次 33-40）
     dk_script = root / "scripts/check-docker-deploy-readiness.py"
     if dk_script.is_file():
         dkres = subprocess.run([sys.executable, "-I", str(dk_script), "--selftest"],
                                cwd=root, capture_output=True, text=True)
         if dkres.returncode != 0:
             failures.append(f"腾讯云 Docker 部署就绪度门禁自检失败：{(dkres.stderr or dkres.stdout).strip()}")
+
+    # 7g. FLOW-02 试点前置真人签核 CLI 助手门禁（批次 40）
+    so_script = root / "scripts/signoff-pilot-preconditions.py"
+    if so_script.is_file():
+        sores = subprocess.run([sys.executable, "-I", str(so_script), "--selftest"],
+                               cwd=root, capture_output=True, text=True)
+        if sores.returncode != 0:
+            failures.append(f"FLOW-02 真人签核 CLI 助手自检失败：{(sores.stderr or sores.stdout).strip()}")
 
     # 8. orgmap graph.js 新鲜度门禁
     graph_script = root / "scripts/build-canvas-graph.py"

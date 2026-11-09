@@ -36,7 +36,12 @@ def sanitize_card_html(html_text: str) -> tuple[str, int]:
 def export_sanitized_cards(root: Path = ROOT) -> dict[str, int]:
     sp_dir = root / ".superpowers/brainstorm/38196-1789923100/content"
     out_dir = root / "src/orgmap/cards"
+    archive = root / "src/orgmap/sources/cards-sanitized.tar.gz"
     if not sp_dir.is_dir():
+        if archive.is_file() and (not out_dir.is_dir() or len(list(out_dir.glob("*.html"))) < 63):
+            out_dir.mkdir(parents=True, exist_ok=True)
+            with tarfile.open(archive, "r:gz") as tf:
+                tf.extractall(out_dir, filter="data")
         existing = len(list(out_dir.glob("*.html"))) if out_dir.is_dir() else 0
         return {"exported": existing, "sanitized_files": 0, "replacements": 0}
     out_dir.mkdir(parents=True, exist_ok=True)

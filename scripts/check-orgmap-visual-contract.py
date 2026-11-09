@@ -64,6 +64,8 @@ REQUIRED_3D_FEATURES = (
     "audit3d",
     "triggerLowPowerFallback",
     "applyPinchDelta",
+    "buildShareQuery",
+    "syncUrlState",
 )
 
 
@@ -146,6 +148,8 @@ def check_a11y_responsive_and_lightbox(file_map: dict[str, str]) -> list[str]:
     idx_html = file_map.get("index.html", "")
     if "./showcase.js" not in idx_html or "切换 2D 极简验收表" in idx_html or "进入 3D 空间" in idx_html:
         errs.append("index.html: 必须作为一体化 3D 空间单一主入口，且不得残留跨页互跳文案")
+    if "sanbao-identity-boundaries.html" not in idx_html:
+        errs.append("index.html: 底栏缺少 C-376 内部总画布互联入口")
     return errs
 
 

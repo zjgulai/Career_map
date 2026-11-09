@@ -213,3 +213,17 @@ curl -fsS http://127.0.0.1:8080/healthz
   - 新增 `activePointers` + `applyPinchDelta` 双指捏合缩放（Pinch-to-Zoom）与 `#stage { touch-action: none }`，隔离双指缩放与单指旋转。
 - **批次 36（Docker 部署门禁并入 `check-ledger-consistency.py` 总门禁）**：
   - `scripts/check-docker-deploy-readiness.py --selftest`（8/8 通过）已正式并入 `scripts/check-ledger-consistency.py` 总门禁。
+
+## 16. 批次 37–40 · 云端深链分享、三主链全量分步走查、63 张脱敏卡压缩归档入仓与真人签核 CLI 助手
+
+- **批次 37（URL 深链直达与一键复制分享链接）**：
+  - `src/orgmap/showcase.js` 新增 `buildShareQuery()` 与 `syncUrlState()`，支持 `?seat=AGT-008`、`?node=business`、`?c=C-018`、`?chain=chain-02&stg=S2-03`、`?card=<file>` 与 `?theme=light` 深链直达；
+  - 侧栏顶部新增 `#copy-share-btn`（`🔗 复制当前视角直达链接`），一键复制完整 URL。
+- **批次 38（补齐 `02 持续经营` 与 `03 新市场经营` 6 步走查步进器）**：
+  - `configs/seat-node-crosswalk.json` 严格依据 `C-043..C-049` 为 `chain-02` 补齐 `S2-01..S2-06` 六步走查，依据 `C-011/C-232/C-314/C-315/C-320` 为 `chain-03` 补齐 `S3-01..S3-06` 六步走查；
+  - 3D 侧栏与场景高亮支持三条主链全部分步点亮对应主责/支撑数字员工、跨层能量光柱与天幕业务节点。
+- **批次 39（云端三画布互联 + `src/orgmap/sources/cards-sanitized.tar.gz` 归档入仓）**：
+  - 将脱敏后的 63 张画布卡打包为确定性归档 `src/orgmap/sources/cards-sanitized.tar.gz`（4.36 MB，0 处 `/Users/` 路径），`configs/docker/Dockerfile` 在构建期自动解压至容器内 `/usr/share/nginx/html/src/orgmap/cards/`，彻底消除纯 `git clone` 环境缺卡问题；
+  - `src/orgmap/index.html` 底栏新增同容器 `C-376 内部总画布 ↗` 与 `C-068 公开总览图 ↗` 快捷切换入口。
+- **批次 40（FLOW-02 真人签核 CLI 助手与总门禁合龙）**：
+  - 新增 `scripts/signoff-pilot-preconditions.py`（`--selftest` 4/4 通过），拦截 `PENDING/TODO/mock` 等占位词，供真人所有者安全签核 `P3/P4/P6` 并已并入 `check-ledger-consistency.py`。

@@ -1103,6 +1103,37 @@ function cTags3dHtml(codesStrOrArr) {
   }).join('');
 }
 
+  function apply3dChainHighlight() {
+    const chains = G.org.chain_lenses || [];
+    let activeSeats, activeNodes;
+    if (chainId3d === 'reuse') {
+      activeSeats = new Set(G.org.seats.filter(s => (s.chains || []).length >= 2).map(s => s.seat_id));
+      activeNodes = new Set(net.nodes.filter(n => (n.chains || []).length >= 2).map(n => n.id));
+    } else if (chainId3d !== 'chain-01') {
+      const cl = chains.find(c => c.id === chainId3d) || chains[1];
+      const curStg = pilotStage3d !== 'ALL' ? (cl.stages || []).find(s => s.id === pilotStage3d) : null;
+      activeSeats = curStg
+        ? new Set([...curStg.producer_seats, ...(curStg.injected_seats || [])])
+        : new Set([...cl.core_seats, ...cl.support_seats]);
+      activeNodes = curStg ? new Set(curStg.target_nodes) : new Set(cl.target_nodes);
+    } else {
+      const cur = pilotStage3d !== 'ALL' && plData.dryrun
+        ? (plData.dryrun.stages || []).find(s => s.stage_id === pilotStage3d)
+        : null;
+      activeSeats = cur ? new Set([...cur.producer_seats, ...cur.injected_seats]) : new Set([...pilotCoreIds, ...pilotCtxIds]);
+      activeNodes = cur ? new Set(cur.target_nodes) : pilotNodeIds;
+    }
+    if (flow) flow.setPilotNodes(pilotMode ? activeNodes : null);
+    beams.setFocus(pilotMode ? { seatIds: activeSeats, nodeIds: activeNodes } : {});
+    for (const [sid, mesh] of personBySeat.entries()) {
+      mesh.scale.setScalar(pilotMode && activeSeats.has(sid) ? 1.15 : 1);
+    }
+    for (const l of labels) {
+      const pinned = pilotMode && ((l.kind === 'seat' && activeSeats.has(l.id)) || (l.kind === 'node' && activeNodes.has(l.id)));
+      l.el.classList.toggle('pilot-pin', pinned);
+    }
+  }
+
 function showDetail(kind, id) {
   if (window.innerWidth < 768) side.classList.add('drawer-open');
   selected3d = kind && id ? { kind, id } : null;
@@ -1157,15 +1188,33 @@ function showDetail(kind, id) {
         ${[...s3, ...s2].map(s => `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${s.alias}（${(s.chains || []).length} 链） · ${s.slot_id} ${s.slot_title}</div>`).join('')}`;
     } else if (chainId3d !== 'chain-01') {
       const cl = chains.find(c => c.id === chainId3d) || chains[1];
+      const stgs = cl.stages || [];
+      const curStg = pilotStage3d !== 'ALL' ? stgs.find(s => s.id === pilotStage3d) : null;
       side.innerHTML = `${cbar}<h2>${cl.title}</h2>
         <p>${cTags3dHtml(cl.basis)}</p>
         <p><strong>核心问题：</strong>${cl.question}</p>
         <h3>反误读停止线</h3>
         ${cl.anti_misreadings.map(m => `<p>• ${m}</p>`).join('')}
-        <h3>核心与支撑席位（${cl.core_seats.length + cl.support_seats.length}）</h3>
-        ${[...cl.core_seats, ...cl.support_seats].map(sid => {
+        ${stgs.length ? `<h3>分步走查步进器（共 ${stgs.length} 步 · 点击点亮对应员工与跨层光柱）</h3>
+        <div class="stg-bar">
+          <button type="button" class="stg-btn ${pilotStage3d === 'ALL' ? 'active' : ''}" data-stg3d="ALL">全链 (${cl.core_seats.length + cl.support_seats.length}席)</button>
+          ${stgs.map(st => `<button type="button" class="stg-btn ${pilotStage3d === st.id ? 'active' : ''}" data-stg3d="${st.id}">${st.id} ${st.name.slice(0, 6)}</button>`).join('')}
+        </div>` : ''}
+        ${curStg ? `<div class="art-box" style="white-space:normal">
+          <div><strong>${curStg.id} · ${curStg.name}</strong> ${cTags3dHtml(curStg.basis)}</div>
+          <p style="margin:6px 0"><strong>阶段核心交付：</strong>${curStg.artifact}</p>
+          <p style="margin:6px 0;color:#edb76c"><strong>阶段边界门禁：</strong>${curStg.gate}</p>
+          <p style="margin:6px 0"><strong>主责员工：</strong>${curStg.producer_seats.join(', ')}｜<strong>协同支撑：</strong>${(curStg.injected_seats || []).join(', ') || '无'}</p>
+        </div>` : stgs.map(st => `<p><strong>${st.id} ${st.name}</strong> ${cTags3dHtml(st.basis)}<br><small>${st.artifact}｜门禁：${st.gate}</small></p>`).join('')}
+        <h3>核心与支撑席位（${curStg ? curStg.producer_seats.length + (curStg.injected_seats || []).length : cl.core_seats.length + cl.support_seats.length}）</h3>
+        ${(curStg ? [...curStg.producer_seats, ...(curStg.injected_seats || [])] : [...cl.core_seats, ...cl.support_seats]).map(sid => {
           const meta = SEAT_MAP.get(sid);
           return `<div class="jump" data-jump3d="seat:${sid}">→ ${sid} ${meta ? meta.alias : ''} · ${meta ? meta.slot_id + ' ' + meta.slot_title : ''}</div>`;
+        }).join('')}
+        <h3>关联天幕业务节点（${curStg ? curStg.target_nodes.length : cl.target_nodes.length}）</h3>
+        ${(curStg ? curStg.target_nodes : cl.target_nodes).map(nid => {
+          const nd = net.nodes.find(x => x.id === nid);
+          return `<div class="jump" data-jump3d="node:${nid}">→ ${nd ? nd.title : nid}（${nd ? nd.codes : ''}）</div>`;
         }).join('')}`;
     } else {
       const pre = plData.preconditions || { counts: {}, items: [] };
@@ -1264,35 +1313,26 @@ function showDetail(kind, id) {
     side.scrollTop = 0;
   }
 
-  function apply3dChainHighlight() {
-    const chains = G.org.chain_lenses || [];
-    let activeSeats, activeNodes;
-    if (chainId3d === 'reuse') {
-      activeSeats = new Set(G.org.seats.filter(s => (s.chains || []).length >= 2).map(s => s.seat_id));
-      activeNodes = new Set(net.nodes.filter(n => (n.chains || []).length >= 2).map(n => n.id));
-    } else if (chainId3d !== 'chain-01') {
-      const cl = chains.find(c => c.id === chainId3d) || chains[1];
-      activeSeats = new Set([...cl.core_seats, ...cl.support_seats]);
-      activeNodes = new Set(cl.target_nodes);
-    } else {
-      const cur = pilotStage3d !== 'ALL' && plData.dryrun
-        ? (plData.dryrun.stages || []).find(s => s.stage_id === pilotStage3d)
-        : null;
-      activeSeats = cur ? new Set([...cur.producer_seats, ...cur.injected_seats]) : new Set([...pilotCoreIds, ...pilotCtxIds]);
-      activeNodes = cur ? new Set(cur.target_nodes) : pilotNodeIds;
-    }
-    if (flow) flow.setPilotNodes(pilotMode ? activeNodes : null);
-    beams.setFocus(pilotMode ? { seatIds: activeSeats, nodeIds: activeNodes } : {});
-    for (const [sid, mesh] of personBySeat.entries()) {
-      mesh.scale.setScalar(pilotMode && activeSeats.has(sid) ? 1.15 : 1);
-    }
-    for (const l of labels) {
-      const pinned = pilotMode && ((l.kind === 'seat' && activeSeats.has(l.id)) || (l.kind === 'node' && activeNodes.has(l.id)));
-      l.el.classList.toggle('pilot-pin', pinned);
-    }
+  apply3dChainHighlight();
+  // 注入深链分享栏
+  if (selected3d && !side.querySelector('.share-bar')) {
+    const sb = document.createElement('div');
+    sb.className = 'share-bar';
+    sb.innerHTML = `<button type="button" id="copy-share-btn" class="stg-btn">🔗 复制当前视角直达链接</button><code id="share-url-preview">${buildShareQuery()}</code>`;
+    side.prepend(sb);
+    sb.querySelector('#copy-share-btn').addEventListener('click', async e => {
+      const btn = e.currentTarget;
+      const fullUrl = new URL(buildShareQuery(), location.href).href;
+      try { await navigator.clipboard.writeText(fullUrl); } catch (_) {}
+      btn.textContent = '✓ 已复制直达链接';
+      setTimeout(() => { btn.textContent = '🔗 复制当前视角直达链接'; }, 1800);
+    });
   }
+  syncUrlState();
+
   side.querySelectorAll('[data-chain3d]').forEach(btn => btn.addEventListener('click', () => {
     chainId3d = btn.dataset.chain3d;
+    pilotStage3d = 'ALL';
     apply3dChainHighlight();
     showDetail('pilot', 'FLOW-02-SCN-002');
   }));
@@ -1680,10 +1720,35 @@ function tick() {
 
 document.querySelector('#f-seats').textContent = `${org.seats.length} 位数字员工 + ${G.org.governance.length} 项管理规则包`;
 document.querySelector('#gv').textContent = G.graph_version;
+function buildShareQuery() {
+  const q = new URLSearchParams();
+  if (stage.dataset.view && stage.dataset.view !== 'cosmos') q.set('view', stage.dataset.view);
+  if (currentTheme3d === 'light') q.set('theme', 'light');
+  if (selected3d) {
+    if (selected3d.kind === 'seat' || selected3d.kind === 'gov') q.set('seat', selected3d.id);
+    else if (selected3d.kind === 'node') q.set('node', selected3d.id);
+    else if (selected3d.kind === 'decision') q.set('c', selected3d.id);
+    else if (selected3d.kind === 'pilot') {
+      q.set('chain', chainId3d);
+      if (pilotStage3d && pilotStage3d !== 'ALL') q.set('stg', pilotStage3d);
+    }
+  }
+  const qs = q.toString();
+  return qs ? `?${qs}` : location.pathname;
+}
+
+function syncUrlState() {
+  if (STILL_MODE || params.get('audit') === '1' || params.get('clean_clone') === '1') return;
+  try {
+    history.replaceState(null, '', buildShareQuery());
+  } catch (_) {}
+}
+
+const hasDeepTarget = Boolean(params.get('seat') || params.get('node') || params.get('c') || params.get('chain') || params.get('card'));
 if (params.get('view') && VIEW_PRESETS[params.get('view')]) {
   switchView(params.get('view'));
   if (STILL_MODE) tweenCamera(VIEW_PRESETS[params.get('view')], 0);
-} else {
+} else if (!hasDeepTarget) {
   runIntroSweep();
 }
 if (params.get('theme') === 'light') apply3dTheme('light');
@@ -1691,6 +1756,40 @@ if (params.get('closeup') === '1') {
   closeupMode = true;
   document.querySelector('#closeup-btn').classList.add('active');
   tweenCamera(VIEW_PRESETS['org-closeup'], 0);
+}
+
+// 批次 37：URL 深链参数直达 (?seat= / ?node= / ?c= / ?chain= / ?stg= / ?card=)
+if (params.get('seat')) {
+  const sid = params.get('seat').toUpperCase();
+  const isGov = sid.startsWith('MGT-');
+  const seatBox = org.seats.find(x => x.id === sid);
+  if (seatBox) {
+    tweenCamera({ radius: 1120, target: [seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2] }, STILL_MODE ? 0 : 760);
+  }
+  showDetail(isGov ? 'gov' : 'seat', sid);
+} else if (params.get('node')) {
+  const nid = params.get('node');
+  const nd = net.nodes.find(x => x.id === nid);
+  if (nd) {
+    tweenCamera({ radius: 1580, target: [FCX - 800 + nd.x + nd.w / 2, SKY_Y + 40, FCZ - 800 + nd.y + nd.h / 2] }, STILL_MODE ? 0 : 760);
+    showDetail('node', nid);
+  }
+} else if (params.get('c')) {
+  showDetail('decision', params.get('c').toUpperCase());
+} else if (params.get('chain')) {
+  chainId3d = params.get('chain');
+  pilotStage3d = params.get('stg') || 'ALL';
+  pilotMode = true;
+  document.querySelector('#pilot3d-btn')?.classList.add('active');
+  pilotRingGroup.visible = true;
+  if (netGroup.userData.pilotRings) netGroup.userData.pilotRings.visible = true;
+  showDetail('pilot', 'FLOW-02-SCN-002');
+  apply3dChainHighlight();
+}
+if (params.get('card')) {
+  const cf = params.get('card');
+  const cm = CARD_MAP.get(cf);
+  openCardLightbox(cf, cm ? cm.title : '');
 }
 if (params.get('minimal') === '1') {
   document.body.classList.add('minimal-mode');

@@ -7,7 +7,7 @@ services:
     container_name: sanbao-orgmap
     restart: unless-stopped
     ports:
-      - "${SANBAO_PORT:-8080}:8080"
+      - "127.0.0.1:${SANBAO_PORT:-8088}:8080"
     read_only: true
     tmpfs:
       - /var/cache/nginx:uid=101,gid=101,mode=0755
@@ -15,3 +15,10 @@ services:
       - /tmp:uid=101,gid=101,mode=0755
     security_opt:
       - no-new-privileges:true
+    networks:
+      - sanbao-orgmap-net
+
+networks:
+  sanbao-orgmap-net:
+    name: sanbao-orgmap-net
+    driver: bridge

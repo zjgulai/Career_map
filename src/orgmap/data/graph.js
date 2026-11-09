@@ -2,7 +2,7 @@
 // 重新生成：python3 -I scripts/build-canvas-graph.py
 window.SANBAO_GRAPH = {
  "schema_version": 2,
- "graph_version": "358cf9ae5ab94619",
+ "graph_version": "c563bd71b2293407",
  "status": "draft_pending_owner_signoff",
  "counts": {
   "decisions": 377,
@@ -11876,6 +11876,151 @@ window.SANBAO_GRAPH = {
      "effectEvaluation",
      "dataSupply",
      "businessDefinitions"
+    ],
+    "stages": [
+     {
+      "id": "S2-01",
+      "name": "需求变化判断与未来情景",
+      "basis": [
+       "C-043",
+       "C-044"
+      ],
+      "producer_seats": [
+       "AGT-016",
+       "AGT-045"
+      ],
+      "injected_seats": [
+       "AGT-032",
+       "AGT-046"
+      ],
+      "target_nodes": [
+       "demandAnalysis",
+       "dataSupply",
+       "businessDefinitions"
+      ],
+      "artifact": "带范围、来源依据、关键假设与不确定性的需求变化判断及未来需求情景",
+      "gate": "区分事实/解释/预测；销量不等于真实需求，促销与断货影响不混同伪需求（C-044）"
+     },
+     {
+      "id": "S2-02",
+      "name": "存量供给与交付方案比较",
+      "basis": [
+       "C-029",
+       "C-045"
+      ],
+      "producer_seats": [
+       "AGT-017",
+       "AGT-015"
+      ],
+      "injected_seats": [
+       "AGT-018",
+       "AGT-019",
+       "AGT-020"
+      ],
+      "target_nodes": [
+       "supplyReadiness"
+      ],
+      "artifact": "对照需求情景与存量供给、占用、在途、未完承诺的维持或调整方案",
+      "gate": "拟取消/延期不自动等于承诺解除或现金释放；互斥选项不可叠加（C-045）"
+     },
+     {
+      "id": "S2-03",
+      "name": "渠道/价格/触达与现金联动选项",
+      "basis": [
+       "C-035",
+       "C-036",
+       "C-037",
+       "C-046"
+      ],
+      "producer_seats": [
+       "AGT-021",
+       "AGT-026",
+       "AGT-041"
+      ],
+      "injected_seats": [
+       "AGT-001",
+       "AGT-023",
+       "AGT-035"
+      ],
+      "target_nodes": [
+       "pricingPromotion",
+       "paidMedia",
+       "economics"
+      ],
+      "artifact": "同一事项内关联相互依赖的专业方案、共同成立条件、资源与承诺影响及未知",
+      "gate": "不直接相加局部收益或重复占用同一批库存/预算；待验证候选不冒充可执行（C-046）"
+     },
+     {
+      "id": "S2-04",
+      "name": "联动执行的业务依赖就绪核对",
+      "basis": [
+       "C-016",
+       "C-047"
+      ],
+      "producer_seats": [
+       "AGT-002",
+       "AGT-021"
+      ],
+      "injected_seats": [
+       "AGT-017",
+       "AGT-020",
+       "AGT-026"
+      ],
+      "target_nodes": [
+       "supplyReadiness",
+       "channelPublication",
+       "paidMedia"
+      ],
+      "artifact": "下游动作按所需业务条件与有效证据核对上游交付（已满足/未满足范围清单）",
+      "gate": "不同动作所需兑现程度不同，不凭总体完成全链放行；就绪不扩权（C-047）"
+     },
+     {
+      "id": "S2-05",
+      "name": "主责对照入口与偏差核对",
+      "basis": [
+       "C-038",
+       "C-048"
+      ],
+      "producer_seats": [
+       "AGT-003",
+       "AGT-040"
+      ],
+      "injected_seats": [
+       "AGT-001",
+       "AGT-037",
+       "AGT-045"
+      ],
+      "target_nodes": [
+       "effectEvaluation",
+       "economics",
+       "dataSupply"
+      ],
+      "artifact": "同一联合调整事项中对照当时选择及依据、实际发生及偏离、当前结果与未知",
+      "gate": "引用原产物/版本/责任，不新建平行报告真源或自动判整体完成（C-048）"
+     },
+     {
+      "id": "S2-06",
+      "name": "按范围执行收尾与后续经营责任",
+      "basis": [
+       "C-049",
+       "C-050"
+      ],
+      "producer_seats": [
+       "AGT-002",
+       "AGT-003"
+      ],
+      "injected_seats": [
+       "AGT-017",
+       "AGT-041"
+      ],
+      "target_nodes": [
+       "supplyReadiness",
+       "economics",
+       "effectEvaluation"
+      ],
+      "artifact": "已核验完成范围收尾回执 + 未成熟结果/未结承诺后续责任与核对条件表",
+      "gate": "不随执行完成自动结束整项；责任未有效接续不解除原责任，收尾不自动释放资源（C-049）"
+     }
     ]
    },
    {
@@ -11931,6 +12076,152 @@ window.SANBAO_GRAPH = {
      "supplyReadiness",
      "channelPublication",
      "economics"
+    ],
+    "stages": [
+     {
+      "id": "S3-01",
+      "name": "新市场进入问题与范围界定",
+      "basis": [
+       "C-011",
+       "C-232"
+      ],
+      "producer_seats": [
+       "AGT-024",
+       "AGT-007"
+      ],
+      "injected_seats": [
+       "AGT-008",
+       "AGT-045"
+      ],
+      "target_nodes": [
+       "business"
+      ],
+      "artifact": "按国家、区域、平台、产品版本与宣称范围界定的新市场进入问题说明",
+      "gate": "必须从 C-011 全景与 C-232 范围说明进入；德国 Amazon.de × M5 Smart 仅作单一范围化样本"
+     },
+     {
+      "id": "S3-02",
+      "name": "目标国法规准入与产品验证核对",
+      "basis": [
+       "C-026",
+       "C-028",
+       "C-314",
+       "C-315"
+      ],
+      "producer_seats": [
+       "AGT-044",
+       "AGT-013"
+      ],
+      "injected_seats": [
+       "AGT-042",
+       "AGT-043"
+      ],
+      "target_nodes": [
+       "marketAccess",
+       "verification"
+      ],
+      "artifact": "目标市场准入判断、RED DoC 原测试包/实机版本证据缺口清单与宣称禁用边界",
+      "gate": "准入判断绑定产品版本、市场、用途与宣称；缺口未补齐前禁止放行医疗级或绝对化宣称"
+     },
+     {
+      "id": "S3-03",
+      "name": "本地化商品资料与品牌内容表达",
+      "basis": [
+       "C-031",
+       "C-033",
+       "C-034"
+      ],
+      "producer_seats": [
+       "AGT-028",
+       "AGT-030"
+      ],
+      "injected_seats": [
+       "AGT-029",
+       "AGT-031"
+      ],
+      "target_nodes": [
+       "productInformation",
+       "brandPositioning",
+       "contentExpression"
+      ],
+      "artifact": "带版本与适用范围的多语种商品资料包（ASIN—SKU—批次交叉表）及德语合规素材",
+      "gate": "区分已验证事实与候选表达；不把品牌主张当作产品功效证明（C-031/C-034）"
+     },
+     {
+      "id": "S3-04",
+      "name": "新市场上市安排与跨境供给准备",
+      "basis": [
+       "C-027",
+       "C-029",
+       "C-035",
+       "C-036"
+      ],
+      "producer_seats": [
+       "AGT-024",
+       "AGT-019"
+      ],
+      "injected_seats": [
+       "AGT-014",
+       "AGT-020",
+       "AGT-026",
+       "AGT-041"
+      ],
+      "target_nodes": [
+       "launch",
+       "supplyReadiness",
+       "pricingPromotion",
+       "economics"
+      ],
+      "artifact": "目标国清关单证预检、跨境头程与本地仓配条件、站点定价及经济性测算",
+      "gate": "清关放行由海关决定；样品或计划库存不等于目标站点实际可售（C-029）"
+     },
+     {
+      "id": "S3-05",
+      "name": "站点渠道发布与可售核验（C-320 门禁）",
+      "basis": [
+       "C-030",
+       "C-315",
+       "C-320"
+      ],
+      "producer_seats": [
+       "AGT-028",
+       "AGT-027"
+      ],
+      "injected_seats": [
+       "AGT-044",
+       "AGT-020"
+      ],
+      "target_nodes": [
+       "channelPublication",
+       "marketAccess"
+      ],
+      "artifact": "带站点范围、版本与证据的渠道发布状态与可售核验结论",
+      "gate": "待补四包与 C-320 卖家后台只读回执未齐前，保持 BLOCKED_NO_EXTERNAL_EVIDENCE"
+     },
+     {
+      "id": "S3-06",
+      "name": "首轮范围化验证与持续经营接续",
+      "basis": [
+       "C-041",
+       "C-042",
+       "C-314"
+      ],
+      "producer_seats": [
+       "AGT-024",
+       "AGT-048"
+      ],
+      "injected_seats": [
+       "AGT-008",
+       "AGT-041"
+      ],
+      "target_nodes": [
+       "launch",
+       "channelPublication",
+       "economics"
+      ],
+      "artifact": "按明确国家/平台范围的新市场商业验证结论与持续经营分范围交接单",
+      "gate": "单一国家样本结论不外推全部市场；承接条件成立后方按范围转入持续经营（C-041/C-042）"
+     }
     ]
    }
   ],
