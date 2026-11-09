@@ -23,11 +23,10 @@ python3 -I scripts/build-canvas-graph.py          # 重建 src/orgmap/data/graph
 python3 -I scripts/build-canvas-graph.py --check  # 校验 graph.js 新鲜度（过期 exit 1）
 python3 -I scripts/check-ledger-consistency.py    # 仓库台账与 graph.js 统一门禁
 python3 -m http.server 8765 --bind 127.0.0.1
-# 工作视图（正交 Canvas2D + DOM，承担 C-032 验收）：
+# 唯一默认入口（一体化 3D 空间：cosmos / org / network / plan 四模态）：
 #   http://127.0.0.1:8765/src/orgmap/
-#   http://127.0.0.1:8765/src/orgmap/?audit=1
-# 3D 展示页（透视 WebGL，不参与 C-032 验收）：
-#   http://127.0.0.1:8765/src/orgmap/showcase.html
+#   http://127.0.0.1:8765/src/orgmap/?view=plan&audit=1
+# 旧链接 http://127.0.0.1:8765/src/orgmap/showcase.html 自动无感跳转至 ./index.html
 ```
 
 ## 1. 数据层（`scripts/build-canvas-graph.py` → `data/graph.js`）
@@ -167,3 +166,19 @@ python3 -m http.server 8765 --bind 127.0.0.1
 - **批次 28（视觉契约门禁升级与性能实测）**：
   - 天地同屏全开（50 员工 + 20 节点 + 123 飞线 + 38 跨层光柱 + 1,281 体素全息分身）实测 `calls = 122`、`triangles = 69,897`、控制台 `0 Errors`；
   - `scripts/check-orgmap-visual-contract.py --selftest`（7/7）与 `scripts/check-ledger-consistency.py`（22/22）全部通过。
+
+
+## 13. 批次 29–32 · 离线卡片预览兜底、键盘无障碍与窄屏适配、选择性辉光与入场运镜、单一入口收口與性能门禁
+
+- **批次 29（修掉三个真实缺陷）**：
+  - `src/orgmap/lightbox.js`：改为先用 `HEAD` 探测原始画布卡是否存在；在 clean clone 或缺少本地设计工作区时自动切换为「内置台账摘要卡」，消除空白 404 iframe，且源码中不再硬编码 `.superpowers` 字面量路径；
+  - `src/orgmap/showcase.js`：为全部可交互 3D 悬浮标签（50 员工、20 节点、3 座规则碑、全息台名牌）补齐 `tabindex="0"`、`role="button"`、`aria-label` 与 `Enter / Space` 键盘激活及可见焦点描边；
+  - `src/orgmap/showcase.css`：新增 `max-width: 1279px` 与 `max-width: 767px` 响应式断点，窄屏下顶栏自动换行、底部导览栏横向滚动、右侧详情栏转为底部抽屉（`#side-toggle-btn`）。
+- **批次 30（选择性辉光 Selective Bloom + 首屏 1.8s 俯冲入场镜头）**：
+  - 新增 `src/orgmap/vendor/bloom.module.js`：基于半分辨率亮度阈值提取 + 雙向 Gaussian Blur + Additive 合成，仅对天幕节点、38 条能量光柱、规则碑顶冠与全息台产生辉光（仅增加 4 个全屏 Quad draw calls），支持顶栏 `✦ 空间辉光` 实时开关与深浅主题自适应强度；
+  - 新增 `runIntroSweep()`：首屏从 60° 高空俯冲缓动至 38° 标准天地同屏视角；`?still=1` 与 `prefers-reduced-motion: reduce` 自动跳过。
+- **批次 31（收口为单一默认入口）**：
+  - `src/orgmap/index.html` 直接承载一体化 3D 组织与经营网络空间（含 `cosmos / org / network / plan` 四模态与 `?view=plan&audit=1` C-032 可读性自检）；`showcase.html` 转为保留 query/hash 的零延迟兼容跳转页，消除跨页跳转与双入口分裂。
+- **批次 32（性能、响应式与可访问性门禁）**：
+  - `scripts/check-orgmap-visual-contract.py` 新增 `@media` 响应式断点检查、3D 标签 `tabindex="0"` 与 `role="button"` 可访问性检查、`lightbox.js` 禁止硬编码 `.superpowers` 路径检查及 `createSelectiveBloom` 存在性检查（`--selftest` 11/11 通过）；
+  - 记录四模态 × 双主题 × 辉光开关性能基线至 `tmp/debug/orgmap-b32-perf.json`。

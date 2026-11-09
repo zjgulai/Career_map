@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
-"""三宝 orgmap 视觉契约与架构边界自检门禁（批次 18-21）。
+"""三宝 orgmap 视觉契约、无障碍、响应式与架构边界自检门禁（批次 18-32）。
 
 检查项：
-1. 单一主题源与 Sagegogo 色彩对齐：禁止在 src/orgmap/*.{css,js} 中残留旧墨绿/黄铜/暖黄硬编码（#2d6756 / #9fc53a / #c9a96a / #a8792c / #e0a95a / #64c8d8 / 0xfff0da / 0xffe6c4）；
+1. 单一主题源与 Sagegogo 色彩对齐：禁止在 src/orgmap/*.{css,js} 中残留旧墨绿/黄铜/暖黄硬编码；
 2. 确定性渲染：禁止在 src/orgmap/*.js（vendor 除外）中使用 Math.random()；
-3. 零构建与 2D 零 Three.js 依赖：index.html / app.js / dossier.js / plaque.js / theme.js 不得引用 three.module.min.js，且不引入外部 GLTFLoader / .glb；
-4. MGT T4 证据纪律：MGT-001..003 严禁传入 createPerson，严禁为其配置人形头像路径；
-5. C-032 字号下限与 3D 科技特性存在性：FONT_MIN >= 12，showcase.js 含 createSideGradientMaterial / buildChaseLight / buildHudRings / VIEW_PRESETS / createHoloEmitterStage。
+3. 零构建与共享纯模块零 Three.js 依赖：app.js / dossier.js / plaque.js / theme.js / layout.js / lightbox.js 不得引用 three.module.min.js；
+4. MGT T4 证据纪律：MGT-001..003 严禁传入 createPerson；
+5. C-032 字号下限与 3D 科技特性存在性：FONT_MIN >= 12，showcase.js 含 createSideGradientMaterial / buildChaseLight / buildHudRings / VIEW_PRESETS / createHoloEmitterStage / buildCrosswalkBeams / openCardLightbox / apply3dTheme / createSelectiveBloom / runIntroSweep / audit3d；
+6. 批次 29-32 新增门禁：
+   - showcase.css 必须包含至少 2 档 @media 响应式断点（1279px 与 767px）；
+   - showcase.js 的 addLabel 必须设置 tabindex="0" 与 role="button"，支持键盘 Enter/Space 激活；
+   - lightbox.js 与 app.js 严禁硬编码字面量 '.superpowers' 路径，且 lightbox.js 必须具备 HEAD 探测与 renderCardFallback 离线兜底；
+   - index.html 必须为一体化 3D 空间唯一主入口，showcase.html 仅作跳转兼容且不得残留跨页互跳文案。
 
 用法：
   python3 -I scripts/check-orgmap-visual-contract.py
@@ -37,7 +42,6 @@ BANNED_LEGACY_COLORS = (
 )
 
 TWO_D_ZERO_THREE_FILES = (
-    "index.html",
     "app.js",
     "dossier.js",
     "plaque.js",
@@ -55,6 +59,9 @@ REQUIRED_3D_FEATURES = (
     "buildCrosswalkBeams",
     "openCardLightbox",
     "apply3dTheme",
+    "createSelectiveBloom",
+    "runIntroSweep",
+    "audit3d",
 )
 
 
@@ -87,7 +94,7 @@ def check_2d_zero_three(file_map: dict[str, str]) -> list[str]:
     for name in TWO_D_ZERO_THREE_FILES:
         text = _strip_comments(file_map.get(name, ""))
         if "three.module" in text or "from './avatars.js" in text:
-            errs.append(f"{name}: 2D/共享零 Three.js 模块引用了 Three.js 或带 Three 依赖的 avatars.js")
+            errs.append(f"{name}: 共享零 Three.js 模块引用了 Three.js 或带 Three 依赖的 avatars.js")
     return errs
 
 
@@ -100,12 +107,40 @@ def check_font_min_and_3d_features(file_map: dict[str, str]) -> list[str]:
     sc_js = file_map.get("showcase.js", "")
     for feat in REQUIRED_3D_FEATURES:
         if feat not in sc_js:
-            errs.append(f"showcase.js: 缺少批次 19/20 必需的 3D 科技特性 {feat}")
+            errs.append(f"showcase.js: 缺少必需的 3D 科技特性 {feat}")
     av_js = file_map.get("avatars.js", "")
     if "flatShading: true" not in av_js:
         errs.append("avatars.js: 缺少 Polyfork 风格 flatShading: true 材质配置")
     if "startsWith('MGT-')" not in av_js:
         errs.append("avatars.js: createPerson 缺少 MGT 禁止生成人形的硬门禁断言")
+    return errs
+
+
+def check_a11y_responsive_and_lightbox(file_map: dict[str, str]) -> list[str]:
+    errs: list[str] = []
+    sc_css = _strip_comments(file_map.get("showcase.css", ""))
+    media_hits = re.findall(r"@media\s*\([^)]*max-width", sc_css)
+    if len(media_hits) < 2:
+        errs.append("showcase.css: 必须包含至少 2 档 @media (max-width: ...) 响应式断点")
+
+    sc_js = _strip_comments(file_map.get("showcase.js", ""))
+    if "setAttribute('tabindex', '0')" not in sc_js or "setAttribute('role', 'button')" not in sc_js:
+        errs.append("showcase.js: 3D 悬浮标签缺少 tabindex=\"0\" 或 role=\"button\" 键盘无障碍属性")
+    if "addEventListener('keydown'" not in sc_js:
+        errs.append("showcase.js: 3D 悬浮标签缺少 keydown 键盘激活监听")
+
+    for fname in ("lightbox.js", "app.js"):
+        code = _strip_comments(file_map.get(fname, ""))
+        if ".superpowers" in code:
+            errs.append(f"{fname}: 严禁硬编码字面量 .superpowers 路径（clean clone 下会导致 404）")
+
+    lb_js = _strip_comments(file_map.get("lightbox.js", ""))
+    if "renderCardFallback" not in lb_js or "method: 'HEAD'" not in lb_js:
+        errs.append("lightbox.js: 缺少 HEAD 探测或 renderCardFallback 离线台账摘要兜底")
+
+    idx_html = file_map.get("index.html", "")
+    if "./showcase.js" not in idx_html or "切换 2D 极简验收表" in idx_html or "进入 3D 空间" in idx_html:
+        errs.append("index.html: 必须作为一体化 3D 空间单一主入口，且不得残留跨页互跳文案")
     return errs
 
 
@@ -128,14 +163,18 @@ def evaluate_repo(orgmap_dir: Path = ORGMAP_DIR) -> list[str]:
     failures += check_no_math_random(js_files)
     failures += check_2d_zero_three(all_files)
     failures += check_font_min_and_3d_features(all_files)
+    failures += check_a11y_responsive_and_lightbox(all_files)
     notice = ROOT / "deliverables/execution/sanbao-handoff-20261104/NOTICE-three-scope-map.md"
     if not notice.is_file():
         failures.append("缺少 NOTICE-three-scope-map.md 许可证与方法论来源声明")
+    bloom_mod = orgmap_dir / "vendor/bloom.module.js"
+    if not bloom_mod.is_file():
+        failures.append("缺少 vendor/bloom.module.js 选择性辉光模块")
     return failures
 
 
 def selftest() -> int:
-    all_files, js_files = collect_orgmap_files()
+    all_files, _ = collect_orgmap_files()
     cases = [
         ("clean_repo", evaluate_repo(), False),
         ("legacy_color_detected", check_no_legacy_colors({"style.css": "color: #2d6756;"}), True),
@@ -144,6 +183,10 @@ def selftest() -> int:
         ("2d_loads_three", check_2d_zero_three({"app.js": "import * as THREE from './vendor/three.module.min.js';"}), True),
         ("font_min_violation", check_font_min_and_3d_features({**all_files, "app.js": "const FONT_MIN = 10;"}), True),
         ("missing_chase_light", check_font_min_and_3d_features({**all_files, "showcase.js": "const x = 1;"}), True),
+        ("missing_media_queries", check_a11y_responsive_and_lightbox({**all_files, "showcase.css": "body { color: #fff; }"}), True),
+        ("missing_tabindex", check_a11y_responsive_and_lightbox({**all_files, "showcase.js": "function addLabel(){}"}), True),
+        ("hardcoded_superpowers", check_a11y_responsive_and_lightbox({**all_files, "lightbox.js": "const u = '../../.superpowers/x';"}), True),
+        ("split_entry_regression", check_a11y_responsive_and_lightbox({**all_files, "index.html": "<a href='./showcase.html'>进入 3D 空间</a>"}), True),
     ]
     bad = []
     for name, errs, expect_fail in cases:

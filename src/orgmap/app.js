@@ -539,7 +539,7 @@ function side(sel) {
       const cardMeta = cardByFile.get(f);
       const sub = cardMeta && cardMeta.title ? ` · ${cardMeta.title}` : '';
       return `<div class="rel ${i >= 4 ? 'extra-page' : ''}" ${i >= 4 ? 'hidden' : ''}>
-        <a href="../../.superpowers/brainstorm/38196-1789923100/content/${f}" data-card-file="${f}" data-card-title="${(cardMeta && cardMeta.title || '').replace(/"/g, '&quot;')}">${i === 0 ? '主卡（点击页内预览） · ' : ''}${f.replace('.html', '')}</a>
+        <a href="#card-preview" data-card-file="${f}" data-card-title="${(cardMeta && cardMeta.title || '').replace(/"/g, '&quot;')}">${i === 0 ? '主卡（点击页内预览） · ' : ''}${f.replace('.html', '')}</a>
         <div class="meta">${sub.slice(0, 42)}</div>
       </div>`;
     }).join('')}

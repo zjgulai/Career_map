@@ -14,6 +14,7 @@ import { SAGE_DARK, hexToInt } from './theme.js?v=38';
 import { createHoloEmitterStage } from './holo.js?v=38';
 import { buildCrosswalkBeams } from './beams.js?v=38';
 import { openCardLightbox } from './lightbox.js?v=38';
+import { createSelectiveBloom } from './vendor/bloom.module.js?v=38';
 
 const G = window.SANBAO_GRAPH;
 const stage = document.querySelector('#stage');
@@ -768,7 +769,14 @@ function addLabel(html, pos, cls, data, isHtml = false) {
   el.className = cls;
   if (isHtml) el.innerHTML = html;
   else el.textContent = html;
-  if (data) Object.assign(el.dataset, data);
+  if (data) {
+    Object.assign(el.dataset, data);
+    if (data.id) {
+      el.setAttribute('tabindex', '0');
+      el.setAttribute('role', 'button');
+      el.setAttribute('aria-label', data.ariaLabel || el.textContent.trim());
+    }
+  }
   labelLayer.appendChild(el);
   labels.push({ el, pos: pos.clone(), kind: data ? data.kind : 'misc', id: data ? data.id : null, shown: true });
   return el;
@@ -780,35 +788,58 @@ function addLabel(html, pos, cls, data, isHtml = false) {
     new THREE.Vector3(b.x + b.w / 2, 26, b.y + 20), 'lbl sub', { kind: 'sub' });
   const wallZ = Math.min(...bz) - 230;
   G.org.governance.forEach((gv, i) => addLabel(`${gv.seat_id} ${gv.alias}`,
-    new THREE.Vector3(FCX + (i - 1) * 320, 152, wallZ + 15), 'lbl gov', { kind: 'gov', id: gv.seat_id }));
+    new THREE.Vector3(FCX + (i - 1) * 320, 152, wallZ + 15), 'lbl gov', {
+      kind: 'gov', id: gv.seat_id, ariaLabel: `管理规则碑 ${gv.seat_id} ${gv.alias}`
+    }));
   addLabel('T4 决策权规则包 · 非 Agent 席位',
     new THREE.Vector3(FCX, 196, wallZ + 15), 'lbl gov', { kind: 'govnote' });
   const holoBadgeEl = addLabel('★ 全息投影台：知微 AGT-008 · 产品组合与商业论证',
-    new THREE.Vector3(FCX, 132, F.z1 - 120), 'lbl band holo', { kind: 'holo', id: 'AGT-008' });
+    new THREE.Vector3(FCX, 132, F.z1 - 120), 'lbl band holo', {
+      kind: 'holo', id: 'AGT-008', ariaLabel: '全息投影台当前席位 知微 AGT-008'
+    });
   window.__holoBadgeEl = holoBadgeEl;
   const netOffX = FCX - 800, netOffZ = FCZ - 800;
   for (const nd of net.nodes) addLabel(nd.title,
     new THREE.Vector3(netOffX + nd.x + nd.w / 2, SKY_Y + 70 + (nd.pages ? nd.pages.length : 1) * 6 + 26, netOffZ + nd.y + nd.h / 2),
-    'lbl node', { kind: 'node', id: nd.id });
+    'lbl node', { kind: 'node', id: nd.id, ariaLabel: `业务节点 ${nd.title} (${nd.codes})` });
   for (const s of org.seats) {
     const svg = renderPinAvatarHtml({ ...s, seat_id: s.id, level1: s.level1 }, 'dark', 24);
     const dotCls = s.status === 'PARTIAL' ? 'sig-dot partial' : 'sig-dot';
     addLabel(`<i class="${dotCls}"></i>${svg}<span>${s.alias}</span><small>${s.id}</small>`,
-      new THREE.Vector3(s.x + s.w / 2, 142, s.y + s.h / 2), 'lbl seat', { kind: 'seat', id: s.id }, true);
+      new THREE.Vector3(s.x + s.w / 2, 142, s.y + s.h / 2), 'lbl seat', {
+        kind: 'seat', id: s.id, ariaLabel: `数字员工 ${s.alias} ${s.id} · ${s.slot_title || s.title || ''}`
+      }, true);
   }
 })();
 
-labelLayer.addEventListener('click', e => {
-  const item = e.target.closest('.lbl[data-id]');
+function activateLabelItem(item) {
   if (!item) return;
-  e.stopPropagation();
   const k = item.dataset.kind === 'holo' ? (item.dataset.id.startsWith('MGT-') ? 'gov' : 'seat') : item.dataset.kind;
   const id = item.dataset.id;
   if (k === 'seat') {
     const seatBox = org.seats.find(x => x.id === id);
     if (seatBox) tweenCamera({ radius: Math.min(orbit.radius, 1180), target: [seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2] });
+  } else if (k === 'node') {
+    const nd = net.nodes.find(x => x.id === id);
+    if (nd) tweenCamera({ radius: Math.min(orbit.radius, 1650), target: [FCX - 800 + nd.x + nd.w / 2, SKY_Y + 40, FCZ - 800 + nd.y + nd.h / 2] });
   }
   showDetail(k, id);
+}
+
+labelLayer.addEventListener('click', e => {
+  const item = e.target.closest('.lbl[data-id]');
+  if (!item) return;
+  e.stopPropagation();
+  activateLabelItem(item);
+});
+
+labelLayer.addEventListener('keydown', e => {
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  const item = e.target.closest('.lbl[data-id]');
+  if (!item) return;
+  e.preventDefault();
+  e.stopPropagation();
+  activateLabelItem(item);
 });
 
 // ---------- 预设缓动相机控制器（借鉴 cameraPresetController.ts） ----------
@@ -887,9 +918,17 @@ function applyCamera() {
   camera.lookAt(orbit.target);
 }
 
+const bloom = createSelectiveBloom(renderer, scene, camera, {
+  threshold: 0.68,
+  strength: 0.72,
+  radius: 0.55,
+  enabled: params.get('bloom') !== '0',
+});
+
 function resize() {
   const w = stage.clientWidth, h = stage.clientHeight;
   renderer.setSize(w, h, false);
+  bloom.setSize(w, h, PR);
   camera.aspect = w / h;
   camera.updateProjectionMatrix();
 }
@@ -1012,6 +1051,7 @@ function cTags3dHtml(codesStrOrArr) {
 }
 
 function showDetail(kind, id) {
+  if (window.innerWidth < 768) side.classList.add('drawer-open');
   selected3d = kind && id ? { kind, id } : null;
   if (kind === 'seat' || kind === 'gov') {
     holoStage.updateSeatHologram(id);
@@ -1318,6 +1358,7 @@ function apply3dTheme(mode) {
   scene.background.setHex(bgHex);
   scene.fog.color.setHex(bgHex);
   renderer.toneMappingExposure = currentTheme3d === 'light' ? 1.12 : 0.96;
+  bloom.setTheme(currentTheme3d);
   // 同步 3D 悬浮名片中的 64px 头像亮暗版本
   document.querySelectorAll('#labels3d .seat-avatar').forEach(img => {
     img.src = img.src.replace(/\/avatars\/(dark|light)\//, `/avatars/${currentTheme3d}/`);
@@ -1453,24 +1494,83 @@ function projectLabels() {
     if (!show) { l.el.style.display = 'none'; continue; }
     v3.copy(l.pos).project(camera);
     if (v3.z > 1) { l.el.style.display = 'none'; continue; }
-    if (!l.w) l.w = l.el.offsetWidth || 80;
-    if (!l.h) l.h = l.el.offsetHeight || 18;
-    const x = Math.max(30, Math.min(w - 30, (v3.x * 0.5 + 0.5) * w));
-    const y = Math.max(14, Math.min(h - 14, (-v3.y * 0.5 + 0.5) * h));
-    const hw = l.w / 2 + 3, hh = l.h / 2 + 3;
+    if (!l.w || l.w <= 80) {
+      if (l.el.style.display === 'none') {
+        l.el.style.visibility = 'hidden';
+        l.el.style.display = '';
+        l.w = l.el.offsetWidth || 132;
+        l.h = l.el.offsetHeight || 28;
+        l.el.style.visibility = '';
+      } else {
+        l.w = l.el.offsetWidth || 132;
+        l.h = l.el.offsetHeight || 28;
+      }
+    }
+    const x = Math.max(36, Math.min(w - 36, (v3.x * 0.5 + 0.5) * w));
+    const y = Math.max(16, Math.min(h - 16, (-v3.y * 0.5 + 0.5) * h));
+    const hw = l.w / 2 + 4, hh = l.h / 2 + 4;
+    const isFocused = document.activeElement === l.el;
     cands.push({ l, x, y, rect: { x0: x - hw, x1: x + hw, y0: y - hh, y1: y + hh },
-                 p: (l.el.classList.contains('pilot-pin') ? 6 : (LBL_PRIORITY[l.kind] || 1)) });
+                 p: isFocused ? 10 : (l.el.classList.contains('pilot-pin') ? 6 : (LBL_PRIORITY[l.kind] || 1)) });
   }
   cands.sort((a, b) => b.p - a.p);
 
   placedRects.length = 0;
   for (const c of cands) {
-    if (placedRects.some(r => overlaps(c.rect, r))) { c.l.el.display = 'none'; c.l.el.style.display = 'none'; continue; }
+    if (placedRects.some(r => overlaps(c.rect, r))) { c.l.el.style.display = 'none'; continue; }
     placedRects.push(c.rect);
     c.l.el.style.display = '';
     c.l.el.style.transform = `translate(${c.x}px,${c.y}px) translate(-50%,-50%)`;
   }
 }
+
+// ---------- 首屏 1.8 秒俯冲入场镜头（?still=1 与 prefers-reduced-motion 下自动跳过） ----------
+const REDUCED_MOTION = typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches;
+function runIntroSweep() {
+  if (STILL_MODE || REDUCED_MOTION || params.get('view') || params.get('closeup') === '1' || params.get('audit') === '1') {
+    return false;
+  }
+  orbit.theta = VIEW_PRESETS.cosmos.theta - 0.18;
+  orbit.phi = 0.18; // ~60° 高空俯冲入场
+  orbit.radius = 3520;
+  orbit.target.set(FCX, 210, FCZ);
+  tweenCamera(VIEW_PRESETS.cosmos, 1800);
+  return true;
+}
+
+// ---------- C-032 空间标签可读性与零重叠自检 (?audit=1) ----------
+function audit3d() {
+  const sr = stage.getBoundingClientRect();
+  const visibleEls = [...labelLayer.querySelectorAll('.lbl')].filter(el => el.style.display !== 'none' && el.offsetParent !== null);
+  const issues = [];
+  let collisions = 0;
+  const rects = visibleEls.map(el => ({ el, r: el.getBoundingClientRect() }));
+  for (const { el } of rects) {
+    const fs = parseFloat(getComputedStyle(el).fontSize);
+    if (fs < 12) issues.push(`字号 ${fs}px < 12px: ${el.textContent.trim().slice(0, 16)}`);
+  }
+  for (let i = 0; i < rects.length; i++) {
+    for (let j = i + 1; j < rects.length; j++) {
+      const a = rects[i].r, b = rects[j].r;
+      if (a.left < b.right - 1 && b.left < a.right - 1 && a.top < b.bottom - 1 && b.top < a.bottom - 1) {
+        collisions++;
+      }
+    }
+  }
+  const ok = collisions === 0 && issues.length === 0 && visibleEls.length >= 8;
+  let box = document.querySelector('#audit3d');
+  if (!box) {
+    box = document.createElement('div');
+    box.id = 'audit3d';
+    stage.appendChild(box);
+  }
+  box.className = ok ? 'audit3d pass' : 'audit3d fail';
+  box.textContent = `AUDIT ${ok ? 'PASS' : 'FAIL'} · ${ Math.round(sr.width) }×${ Math.round(sr.height) } · view=${stage.dataset.view}
+` +
+    `可见标签 ${visibleEls.length} · 碰撞 ${collisions} · 字号违规 ${issues.length}`;
+  return { ok, collisions, labels: visibleEls.length, issues, view: stage.dataset.view };
+}
+window.__audit = audit3d;
 
 // ---------- 主循环 ----------
 const clock = new THREE.Clock();
@@ -1485,25 +1585,52 @@ function tick() {
   if (flow && netGroup.visible) flow.update(dt);
   if (beamGroup.visible) beams.update(dt);
   applyCamera();
-  renderer.render(scene, camera);
+  bloom.render();
   projectLabels();
   requestAnimationFrame(tick);
 }
 
 document.querySelector('#f-seats').textContent = `${org.seats.length} 位数字员工 + ${G.org.governance.length} 项管理规则包`;
 document.querySelector('#gv').textContent = G.graph_version;
-if (params.get('view') && VIEW_PRESETS[params.get('view')]) switchView(params.get('view'));
+if (params.get('view') && VIEW_PRESETS[params.get('view')]) {
+  switchView(params.get('view'));
+  if (STILL_MODE) tweenCamera(VIEW_PRESETS[params.get('view')], 0);
+} else {
+  runIntroSweep();
+}
 if (params.get('theme') === 'light') apply3dTheme('light');
 if (params.get('closeup') === '1') {
   closeupMode = true;
   document.querySelector('#closeup-btn').classList.add('active');
   tweenCamera(VIEW_PRESETS['org-closeup'], 0);
 }
+if (params.get('minimal') === '1') {
+  document.body.classList.add('minimal-mode');
+}
+
+const bloomBtn = document.querySelector('#bloom-btn');
+if (bloomBtn) {
+  bloomBtn.classList.toggle('active', bloom.isEnabled());
+  bloomBtn.addEventListener('click', () => {
+    bloom.setEnabled(!bloom.isEnabled());
+    bloomBtn.classList.toggle('active', bloom.isEnabled());
+  });
+}
+
+const sideToggleBtn = document.querySelector('#side-toggle-btn');
+if (sideToggleBtn) {
+  sideToggleBtn.addEventListener('click', () => {
+    side.classList.toggle('drawer-open');
+  });
+}
+
 window.__sc = {
-  renderer, scene, camera, orbit, VIEW_PRESETS, tweenCamera, switchView, showDetail, apply3dTheme, holoStage, beams,
+  renderer, scene, camera, orbit, VIEW_PRESETS, tweenCamera, switchView, showDetail, apply3dTheme, holoStage, beams, bloom, audit3d,
   getStats: () => ({
     view: stage.dataset.view,
     theme: currentTheme3d,
+    bloomEnabled: bloom.isEnabled(),
+    bloomPasses: bloom.getPassCount(),
     calls: renderer.info.render.calls,
     triangles: renderer.info.render.triangles,
     geometries: renderer.info.memory.geometries,
@@ -1512,6 +1639,8 @@ window.__sc = {
     holoSeat: holoStage.getCurrentSeatId(),
     beams: beams.stats,
     flow: flow ? flow.stats : null,
+    reducedMotion: REDUCED_MOTION,
   }),
 };
 tick();
+if (params.get('audit') === '1') setTimeout(() => audit3d(), 220);

@@ -258,3 +258,202 @@ body[data-theme="light"] .dos-subnav{background:rgba(244,247,251,0.94)}
 .clb-btn:hover{border-color:#74bfe8}
 .clb-body{flex:1;background:#ffffff}
 #clb-frame{width:100%;height:100%;border:0;display:block}
+
+/* ---------- 批次 29-31：键盘无障碍焦点环 + 卡片兜底面板 + 辉光按钮 + 3 档响应式断点 ---------- */
+.lbl[tabindex="0"]:focus-visible,
+nav button:focus-visible,
+.dock-btn:focus-visible,
+#closeup-btn:focus-visible,
+#pilot3d-btn:focus-visible,
+#theme-btn:focus-visible,
+#bloom-btn:focus-visible,
+#toggle-rotate:focus-visible {
+  outline: 2px solid #8adac4;
+  outline-offset: 2px;
+  border-color: #8adac4 !important;
+  box-shadow: 0 0 0 3px rgba(138, 218, 196, 0.35), 0 0 18px rgba(116, 191, 232, 0.55) !important;
+  z-index: 30;
+}
+
+#bloom-btn, #side-toggle-btn {
+  font: inherit;
+  font-size: 12px;
+  padding: 6px 11px;
+  border: 1px solid var(--line);
+  background: #142033;
+  color: var(--muted);
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#bloom-btn.active {
+  background: #1b3042;
+  border-color: #8adac4;
+  color: #8adac4;
+  box-shadow: 0 0 14px rgba(138, 218, 196, 0.28);
+}
+body[data-theme="light"] #bloom-btn,
+body[data-theme="light"] #side-toggle-btn {
+  background: #ffffff;
+  color: #526171;
+  border-color: #dce5ef;
+}
+body[data-theme="light"] #bloom-btn.active {
+  background: #eaf5ee;
+  color: #246b50;
+  border-color: #246b50;
+}
+#side-toggle-btn { display: none; }
+
+.clb-fallback {
+  height: 100%;
+  padding: 28px;
+  background: var(--dos-paper);
+  color: var(--dos-ink);
+  overflow-y: auto;
+}
+.clb-fb-card {
+  max-width: 720px;
+  margin: 12px auto;
+  padding: 22px 24px;
+  background: var(--dos-card);
+  border: 1px solid var(--dos-line);
+  border-radius: 12px;
+}
+.clb-fb-badge {
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: var(--dos-accent-wash);
+  color: var(--dos-accent);
+  border: 1px solid var(--dos-line);
+  margin-bottom: 8px;
+}
+.clb-fb-card h3 {
+  margin: 4px 0 10px;
+  font-size: 18px;
+  color: var(--dos-ink);
+}
+.clb-fb-dl {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 8px 12px;
+  margin: 14px 0;
+  font-size: 12px;
+}
+.clb-fb-dl dt { color: var(--dos-muted); }
+.clb-fb-dl dd { margin: 0; color: var(--dos-ink); }
+.clb-fb-hint {
+  font-size: 12px;
+  color: var(--dos-muted);
+  border-top: 1px dashed var(--dos-line);
+  padding-top: 10px;
+}
+
+.audit3d {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 35;
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  white-space: pre-wrap;
+  background: rgba(11, 21, 33, 0.94);
+  border: 1px solid #246b50;
+  color: #f4f7fb;
+}
+.audit3d.fail {
+  border-color: #b44949;
+  background: rgba(53, 35, 38, 0.95);
+}
+
+/* 3 档响应式断点：≥1280 宽屏 / 768–1279 平板与小笔电 / <768 手机窄屏 */
+@media (max-width: 1279px) {
+  .topbar {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 12px;
+  }
+  .search-wrap {
+    order: 2;
+    max-width: none;
+    flex: 1 1 220px;
+  }
+  #views {
+    order: 3;
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  #side {
+    width: 288px;
+  }
+  #zone-dock {
+    max-width: calc(100% - 20px);
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .topbar {
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 8px 10px;
+  }
+  .brand strong {
+    font-size: 13px;
+  }
+  .search-wrap {
+    flex: 1 1 100%;
+    max-width: 100%;
+    order: 2;
+  }
+  #views {
+    flex: 1 1 100%;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    order: 3;
+  }
+  #closeup-btn, #toggle-rotate {
+    display: none;
+  }
+  #side-toggle-btn {
+    display: inline-block;
+  }
+  main {
+    position: relative;
+  }
+  #side {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-height: 58vh;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    border-radius: 14px 14px 0 0;
+    z-index: 25;
+    transform: translateY(calc(100% - 38px));
+    transition: transform .22s ease;
+    box-shadow: 0 -10px 28px rgba(0, 0, 0, 0.55);
+  }
+  #side.drawer-open {
+    transform: translateY(0);
+  }
+  #zone-dock {
+    bottom: 46px;
+    left: 8px;
+    right: 8px;
+    transform: none;
+    max-width: none;
+    overflow-x: auto;
+    border-radius: 12px;
+  }
+  .statusbar {
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    padding: 4px 10px;
+  }
+}

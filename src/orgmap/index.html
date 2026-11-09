@@ -3,60 +3,67 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>三宝 · 组织与经营网络索引</title>
+<title>三宝 · 一体化 3D 组织与经营网络空间</title>
 <link rel="icon" href="data:,">
-<link rel="stylesheet" href="./style.css?v=38">
+<link rel="stylesheet" href="./showcase.css?v=39">
 </head>
-<body>
+<body data-theme="dark">
 <header class="topbar">
-  <div class="brand"><span class="mark">三</span><strong>三宝 · 组织索引</strong></div>
-  <div class="banner" role="status">设计方案预览 · 尚未接入生产系统 · 不会触发真实业务操作</div>
+  <div class="brand"><span class="mark">三</span><strong>三宝 · 3D 组织与经营空间</strong></div>
   <div class="search-wrap">
-    <input id="q" type="search" placeholder="搜索员工姓名、工号(AGT-001)、业务节点或决策号…" aria-label="全局搜索">
-    <div id="q-results" class="q-results" hidden></div>
+    <input id="q3d" type="search" placeholder="搜索员工姓名、工号(AGT-001)、业务节点或 C-xxx 决策号…" aria-label="全局搜索">
+    <div id="q3d-results" class="q-results" hidden></div>
   </div>
-  <nav class="tabs" aria-label="视图">
-    <button data-view="org" class="active">53 席组织分工</button>
-    <button data-view="network">20 节点经营网络</button>
-    <button id="pilot-btn" type="button" title="查看新品、持续经营、新市场三条业务主线与新品立项 4 席只读试点">看三条业务主线 / 试点</button>
-    <a class="tab-link" href="./showcase.html">进入 3D 空间 ↗</a>
+  <nav id="views" aria-label="空间层模式">
+    <button data-view="cosmos" class="active" title="同时显示天幕 20 个业务节点、地面 50 个员工工位与 38 条跨层能量光柱">天地同屏</button>
+    <button data-view="org" title="专注查看地面 50 席员工工位与前庭全息台">办公工位层</button>
+    <button data-view="network" title="专注查看天幕 20 个经营网络节点与 123 条流光飞线">天幕网络层</button>
+    <button data-view="plan" title="在 3D 空间内垂直俯视（88° 平面读图与 C-032 验收视角）">平面俯视</button>
   </nav>
+  <button id="closeup-btn" type="button" title="拉近镜头查看工位细节、双联仪表盘与员工悬浮名片">拉近看工位</button>
+  <button id="pilot3d-btn" type="button" title="高亮新品、持续经营、新市场三条业务主线与试点岗位">三条主线 / 试点</button>
+  <button id="bloom-btn" type="button" class="active" title="开启或关闭天幕节点、跨层光柱与全息台的选择性辉光">✦ 空间辉光</button>
+  <button id="theme-btn" type="button" title="在深空钛蓝与极昼冰蓝两套 3D 主题间实时切换">☀ 极昼浅色</button>
+  <button id="toggle-rotate" class="active">暂停旋转</button>
+  <button id="side-toggle-btn" type="button" title="展开或收起右侧档案抽屉">档案抽屉</button>
 </header>
-
 <main>
-  <section id="stage" aria-label="索引画布">
+  <section id="stage" aria-label="三维组织与经营空间">
     <canvas id="gl"></canvas>
-    <div id="labels"></div>
-    <div id="hint">按住拖拽平移 · 滚轮缩放 · 点击任意员工或节点查看工作档案</div>
-    <div id="audit" hidden></div>
+    <div id="labels3d"></div>
+    <div id="zone-dock" aria-label="区域快捷导览">
+      <button type="button" class="dock-btn active" data-cam-zone="all">天地全景</button>
+      <button type="button" class="dock-btn" data-cam-zone="ops">业务运营 (35人)</button>
+      <button type="button" class="dock-btn" data-cam-zone="mgmt">经营管理 (5人)</button>
+      <button type="button" class="dock-btn" data-cam-zone="control">独立控制 (5人)</button>
+      <button type="button" class="dock-btn" data-cam-zone="platform">数据与平台 (5人)</button>
+      <button type="button" class="dock-btn" data-cam-zone="sky">▲ 天幕经营网 (20节点)</button>
+      <button type="button" class="dock-btn" data-cam-zone="holo">★ 前庭全息台</button>
+    </div>
   </section>
   <aside id="side">
-    <div class="side-empty">
-      <h2>点击员工或节点查看详情</h2>
-      <p>在左侧点任意一位数字员工，即可查看他的<strong>处事原则、岗位职责、业务技能、协作同事与不可触碰的红线</strong>；也可以在顶部搜索姓名或点击「看三条业务主线 / 试点」。</p>
-      <dl class="facts">
-        <dt>岗位编制</dt><dd id="f-seats">—</dd>
-        <dt>当前运行数</dt><dd id="f-proc">—</dd>
-        <dt>生产权限</dt><dd id="f-auth">—</dd>
-        <dt>核验进度</dt><dd id="f-adm">—</dd>
-        <dt>网络覆盖</dt><dd id="f-cw">—</dd>
-      </dl>
-    </div>
+    <h2>天地同屏 · 三层立体空间</h2>
+    <p>现在<strong>天幕 20 个业务节点（上层）</strong>与<strong>地面 50 个数字员工工位（下层）</strong>已在同一 3D 世界打通，中间由 <strong>38 条跨层能量光柱</strong>直接相连。</p>
+    <p><strong>怎么看最清楚：</strong>点击任意员工、天上节点、悬浮名片（或用 <code>Tab</code> + <code>Enter</code> 键盘聚焦），或在顶部搜索框输入姓名/编号，系统会自动点亮与他相连的跨层光柱、切换前庭 3D 全息投影，并在右侧展开工作档案。</p>
+    <dl class="facts">
+      <dt>地面办公层</dt><dd id="f-seats">—</dd>
+      <dt>天幕网络层</dt><dd>20 个业务节点 · 123 条流光飞线</dd>
+      <dt>跨层光柱</dt><dd>38 条（连接 31 位核心员工 ⇄ 20 个业务节点）</dd>
+      <dt>生产权限</dt><dd>0 / 53（设计预览阶段 · 无自动外部写操作）</dd>
+      <dt>核验进度</dt><dd>1 个已备齐试点样本 · 52 个待实测核验</dd>
+    </dl>
   </aside>
 </main>
-
 <footer class="statusbar">
-  <span id="zoom">100%</span>
-  <span id="legend">
+  <span id="legend3d">
     <i class="sw baseline"></i>主流程传递
     <i class="sw feedback"></i>结果与问题反馈
-    <i class="sw plain"></i>协同关联
-    <i class="sw seat"></i>员工席位（虚线框 = 待实测核验）
+    <i class="sw beam"></i>跨层分工光柱 (38)
   </span>
+  <span>上层天幕 = 20 个经营节点 · 下层地面 = 50 个员工工位 · 北侧规则碑 = 3 项管理规则</span>
   <span>版本 <code id="gv">—</code></span>
 </footer>
-
-<script src="./data/graph.js?v=38"></script>
-<script type="module" src="./app.js?v=38"></script>
+<script src="./data/graph.js?v=39"></script>
+<script type="module" src="./showcase.js?v=39"></script>
 </body>
 </html>
