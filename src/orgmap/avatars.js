@@ -1,7 +1,7 @@
 // Polyfork 风格 Faceted Low-Poly 科技工装数字员工与 T4 钛金规则碑生成（1 unit = 1 cm，确定性哈希播种）
 // 遵守证据纪律：全坐姿、静止无骨骼动画，3 个 MGT 仅生成规则碑不生成人形；色彩对齐 sagegogo.com。
 import * as THREE from './vendor/three.module.min.js';
-import { SAGE_DARK, hexToInt } from './theme.js?v=38';
+import { SAGE_DARK, hexToInt } from './theme.js?v=49';
 import { renderPlaqueSvg } from './plaque.js?v=38';
 
 export function hash32(str) {
@@ -216,14 +216,26 @@ export function createPerson(seat) {
 }
 
 // T4 钛金全息规则碑（MGT-001..003 专用，绝不生成坐姿人形或工位）
+// 3 座规则碑共享两种材质，主题切换只改这两份
+const plaqueBaseMat = new THREE.MeshStandardMaterial({
+  color: 0x142033, roughness: 0.28, metalness: 0.86, flatShading: true,
+});
+const plaqueRimMat = new THREE.MeshStandardMaterial({
+  color: 0xaec8e2, emissive: 0x396397, emissiveIntensity: 0.9, roughness: 0.22, metalness: 0.92,
+});
+
+export function setPersonTheme(palette) {
+  const [base, rim, rimEmissive] = palette.plaque;
+  plaqueBaseMat.color.set(base);
+  plaqueRimMat.color.set(rim);
+  plaqueRimMat.emissive.set(rimEmissive);
+  plaqueRimMat.emissiveIntensity = palette.additive ? 0.9 : 0.35;
+}
+
 export function createPlaque(gov, w = 260, h = 92, d = 10) {
   const group = new THREE.Group();
-  const baseMat = new THREE.MeshStandardMaterial({
-    color: 0x142033, roughness: 0.28, metalness: 0.86, flatShading: true,
-  });
-  const rimMat = new THREE.MeshStandardMaterial({
-    color: 0xaec8e2, emissive: 0x396397, emissiveIntensity: 0.9, roughness: 0.22, metalness: 0.92,
-  });
+  const baseMat = plaqueBaseMat;
+  const rimMat = plaqueRimMat;
   const body = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), baseMat);
   body.castShadow = true;
   body.userData = { kind: 'gov', id: gov.seat_id };

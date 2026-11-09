@@ -7,14 +7,14 @@
 
 import * as THREE from './vendor/three.module.min.js';
 import { layoutOrg, layoutNetwork } from './layout.js?v=38';
-import { createPerson, createPlaque, renderAvatarSvg, mulberry32 } from './avatars.js?v=38';
-import { renderPinAvatarHtml, renderDossierHtml, FLOW_NAME_ZH, SCN_NAME_ZH, PB_NAME_ZH } from './dossier.js?v=40';
-import { buildFlowLines } from './flow.js?v=38';
-import { SAGE_DARK, hexToInt } from './theme.js?v=38';
-import { createHoloEmitterStage } from './holo.js?v=38';
-import { buildCrosswalkBeams } from './beams.js?v=38';
-import { openCardLightbox } from './lightbox.js?v=38';
-import { createSelectiveBloom } from './vendor/bloom.module.js?v=38';
+import { createPerson, createPlaque, renderAvatarSvg, mulberry32, setPersonTheme } from './avatars.js?v=49';
+import { renderPinAvatarHtml, renderDossierHtml, FLOW_NAME_ZH, SCN_NAME_ZH, PB_NAME_ZH } from './dossier.js?v=49';
+import { buildFlowLines } from './flow.js?v=49';
+import { SAGE_DARK, hexToInt, THEME_3D, THEME_ORDER } from './theme.js?v=49';
+import { createHoloEmitterStage } from './holo.js?v=49';
+import { buildCrosswalkBeams } from './beams.js?v=49';
+import { openCardLightbox } from './lightbox.js?v=49';
+import { createSelectiveBloom } from './vendor/bloom.module.js?v=49';
 
 const G = window.SANBAO_GRAPH;
 const stage = document.querySelector('#stage');
@@ -71,14 +71,11 @@ scene.background = new THREE.Color(hexToInt(SAGE_DARK.fogBg));
 scene.fog = new THREE.Fog(hexToInt(SAGE_DARK.fogBg), 3600, 8400);
 
 // 程序化冷银钛环境贴图（对齐 sagegogo.com 金属光泽）
-function envTexture() {
+function envTexture(stops = THEME_3D.dark.env) {
   const c = document.createElement('canvas'); c.width = 64; c.height = 32;
   const g = c.getContext('2d');
   const grd = g.createLinearGradient(0, 0, 0, 32);
-  grd.addColorStop(0.00, '#dce5ee');
-  grd.addColorStop(0.46, '#eef3f8');
-  grd.addColorStop(0.54, '#26344a');
-  grd.addColorStop(1.00, '#030408');
+  [0, 0.46, 0.54, 1].forEach((at, i) => grd.addColorStop(at, stops[i]));
   g.fillStyle = grd; g.fillRect(0, 0, 64, 32);
   const t = new THREE.CanvasTexture(c);
   t.mapping = THREE.EquirectangularReflectionMapping;
@@ -89,22 +86,29 @@ scene.environment = envTexture();
 scene.environmentIntensity = 0.55;
 
 // 确定性深空碳纤微网格纹理（消除 Math.random，使用固定种子 mulberry32）
-function carpetTexture() {
-  const S = 512, c = document.createElement('canvas'); c.width = c.height = S;
-  const g = c.getContext('2d');
+function drawCarpet(g, S, floor) {
+  // 同一种子逐主题重绘：噪点分布不变，只换底色/明度/网格色
   const rnd = mulberry32(0x5A4B18);
-  g.fillStyle = '#0b1521'; g.fillRect(0, 0, S, S);
+  g.fillStyle = floor.base; g.fillRect(0, 0, S, S);
+  const v0 = floor.v0, dark = v0 < 128;
   for (let i = 0; i < 18000; i++) {
-    const v = 14 + ((rnd() * 18) | 0);
-    g.fillStyle = `rgba(${v},${v + 10},${v + 20},0.48)`;
+    const v = v0 + ((rnd() * 18) | 0) * (dark ? 1 : -1);
+    g.fillStyle = dark ? `rgba(${v},${v + 10},${v + 20},0.48)` : `rgba(${v - 14},${v - 6},${v + 4},0.30)`;
     g.fillRect((rnd() * S) | 0, (rnd() * S) | 0, 2, 2);
   }
-  g.strokeStyle = 'rgba(57,99,151,0.34)'; g.lineWidth = 1.5;
+  const gc = hexToInt(floor.grid);
+  g.strokeStyle = `rgba(${gc >> 16 & 255},${gc >> 8 & 255},${gc & 255},${floor.gridAlpha})`; g.lineWidth = 1.5;
   for (let i = 1; i <= 4; i++) {
     g.beginPath(); g.moveTo(i * 128, 0); g.lineTo(i * 128, S); g.stroke();
     g.beginPath(); g.moveTo(0, i * 128); g.lineTo(S, i * 128); g.stroke();
   }
+}
+function carpetTexture() {
+  const S = 512, c = document.createElement('canvas'); c.width = c.height = S;
+  const g = c.getContext('2d');
+  drawCarpet(g, S, THEME_3D.dark.floor);
   const t = new THREE.CanvasTexture(c);
+  t.userData.redraw = floor => { drawCarpet(g, S, floor); t.needsUpdate = true; };
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
   t.repeat.set(FW / 220, FD / 220);
   t.colorSpace = THREE.SRGBColorSpace;
@@ -219,6 +223,13 @@ const MAT = {
   led: new THREE.MeshBasicMaterial({ color: 0xffffff }),
 };
 
+// ---------- 主题可重着色对象登记表（批次 49-50）：建造时登记，apply3dTheme 统一重着色 ----------
+const THEMED = {
+  carpet: null, sideMat: null, zones: [], outlineMats: [], hudMats: [], signMat: null,
+  pilotMats: [], netBandMat: null, netRingMat: null, skyMat: null,
+  hemi: null, key: null, fill: null, points: [], ceilingMats: [], ceilingGlows: [], leds: null,
+};
+
 // ---------- 分组 ----------
 const archGroup = new THREE.Group();
 const orgOnly = new THREE.Group();
@@ -245,9 +256,10 @@ const hudRingGroup = new THREE.Group();
 
 (function buildFloorAndSlabs() {
   // 1) 主基座顶面（深色碳纤微网格）
+  THEMED.carpet = carpetTexture();
   const topSlab = new THREE.Mesh(
     new THREE.PlaneGeometry(FW, FD),
-    new THREE.MeshStandardMaterial({ map: carpetTexture(), roughness: 0.92, metalness: 0.06 })
+    new THREE.MeshStandardMaterial({ map: THEMED.carpet, roughness: 0.92, metalness: 0.06 })
   );
   topSlab.rotation.x = -Math.PI / 2;
   topSlab.position.set(FCX, 0, FCZ);
@@ -258,6 +270,7 @@ const hudRingGroup = new THREE.Group();
   const sideMat = createSideGradientMaterial({
     bottomY: -24, topY: 0, bottomHex: 0x030408, midHex: 0x396397, topHex: 0xaec8e2, alpha: 0.94,
   });
+  THEMED.sideMat = sideMat;
   const wallH = 24;
   const nWall = new THREE.Mesh(new THREE.PlaneGeometry(FW, wallH), sideMat);
   nWall.position.set(FCX, -wallH / 2, F.z0);
@@ -295,6 +308,7 @@ const hudRingGroup = new THREE.Group();
     glow.rotation.x = -Math.PI / 2;
     glow.position.set(z.x0 + w / 2, 0.7, z.z0 + dd / 2);
     archGroup.add(fill, glow);
+    THEMED.zones.push({ id, fillMat: fill.material, glowMat: glow.material });
     pushRectLoop(zoneLinePts, z.x0, z.z0, z.x1, z.z1, 1.1);
   }
 
@@ -308,11 +322,13 @@ const hudRingGroup = new THREE.Group();
     ls.frustumCulled = false;
     return ls;
   };
-  archGroup.add(
+  const outlines = [
     mkLines(outerTopPts, 0xc4d0dc, 0.86),
     mkLines(outerBotPts, 0x396397, 0.62),
-    mkLines(zoneLinePts, 0x74bfe8, 0.52)
-  );
+    mkLines(zoneLinePts, 0x74bfe8, 0.52),
+  ];
+  THEMED.outlineMats = outlines.map(l => l.material);
+  archGroup.add(...outlines);
 })();
 
 // ---------- 外轮廓单条窄带追光（Chase Light，借鉴 three-scope-map-skill） ----------
@@ -419,6 +435,7 @@ const hudRingGroup = new THREE.Group();
     m.rotation.x = -Math.PI / 2;
     m.renderOrder = -3;
     hudRingGroup.add(m);
+    THEMED.hudMats.push(rm);
   }
   // 11 段弧线 + 48 个刻度线合成 1 个 LineSegments
   const tickPts = [];
@@ -448,6 +465,7 @@ const hudRingGroup = new THREE.Group();
     blending: THREE.AdditiveBlending, depthWrite: false,
   });
   const ticks = new THREE.LineSegments(tGeo, tMat);
+  THEMED.hudMats.push(tMat);
   ticks.renderOrder = -3;
   hudRingGroup.add(ticks);
   archGroup.add(hudRingGroup);
@@ -505,8 +523,8 @@ const hudRingGroup = new THREE.Group();
   const postGeo = new THREE.BoxGeometry(12, 130, 60);
   const stripGeo = new THREE.BoxGeometry(13, 4, 60);
   const posts = new THREE.InstancedMesh(postGeo, MAT.stone, entries.length);
-  const strips = new THREE.InstancedMesh(stripGeo,
-    new THREE.MeshStandardMaterial({ color: 0xaec8e2, emissive: 0x74bfe8, emissiveIntensity: 1.5 }), entries.length);
+  THEMED.signMat = new THREE.MeshStandardMaterial({ color: 0xaec8e2, emissive: 0x74bfe8, emissiveIntensity: 1.5 });
+  const strips = new THREE.InstancedMesh(stripGeo, THEMED.signMat, entries.length);
   const m = new THREE.Matrix4(), q = new THREE.Quaternion();
   entries.forEach(([id, z], i) => {
     const x = z.x0 + 40, zz = z.z1 + 75;
@@ -580,6 +598,7 @@ const pilotNodeIds = new Set(plData.target_nodes || []);
   const colCore = new THREE.Color(0x74bfe8);
   const colPart = new THREE.Color(0xedb76c);
   const colUnv = new THREE.Color(0x396397);
+  THEMED.leds = { mesh: leds, seats };
 
   seats.forEach((s, i) => {
     const cx = s.x + s.w / 2, cz = s.y + s.h / 2;
@@ -639,6 +658,7 @@ const personBySeat = new Map();
   const ringGeo = new THREE.RingGeometry(38, 48, 28);
   const coreMat = new THREE.MeshBasicMaterial({ color: 0x74bfe8, side: THREE.DoubleSide, transparent: true, opacity: 0.92, depthWrite: false });
   const ctxMat = new THREE.MeshBasicMaterial({ color: 0xedb76c, side: THREE.DoubleSide, transparent: true, opacity: 0.82, depthWrite: false });
+  THEMED.pilotMats = [coreMat, ctxMat];
   for (const s of org.seats) {
     const p = createPerson({ ...s, seat_id: s.id, level1: s.level1, status: s.status, tier: s.tier });
     const cx = s.x + s.w / 2, cz = s.y + s.h / 2;
@@ -667,8 +687,8 @@ let flow = null;
   const bandGeo = new THREE.BoxGeometry(48, 3, 48);
   const peds = new THREE.InstancedMesh(pedGeo, MAT.pedestal, n);
   const caps = new THREE.InstancedMesh(capGeo, MAT.cap, n);
-  const bands = new THREE.InstancedMesh(bandGeo,
-    new THREE.MeshStandardMaterial({ color: 0x0b1521, emissive: 0x74bfe8, emissiveIntensity: 2.2 }), n);
+  THEMED.netBandMat = new THREE.MeshStandardMaterial({ color: 0x0b1521, emissive: 0x74bfe8, emissiveIntensity: 2.2 });
+  const bands = new THREE.InstancedMesh(bandGeo, THEMED.netBandMat, n);
   const hOf = nd => 70 + (nd.pages ? nd.pages.length : 1) * 6;
   nodes.forEach((nd, i) => {
     const cx = nd.x + nd.w / 2, cz = nd.y + nd.h / 2, h = hOf(nd);
@@ -684,6 +704,7 @@ let flow = null;
 
   const netRingGeo = new THREE.RingGeometry(36, 48, 28);
   const netRingMat = new THREE.MeshBasicMaterial({ color: 0xedb76c, side: THREE.DoubleSide, transparent: true, opacity: 0.9, depthWrite: false });
+  THEMED.netRingMat = netRingMat;
   const netPilotGroup = new THREE.Group();
   netPilotGroup.visible = false;
   nodes.forEach(nd => {
@@ -705,6 +726,7 @@ let flow = null;
     color: 0x74bfe8, transparent: true, opacity: 0.36, blending: THREE.AdditiveBlending, depthWrite: false
   }));
   skyLines.frustumCulled = false;
+  THEMED.skyMat = skyLines.material;
   netGroup.add(skyLines);
 
   flow = buildFlowLines(net.nodes, G.network.relations);
@@ -723,8 +745,10 @@ beamGroup.add(beams.group);
 
 // ---------- 冷银深空灯光系统（对齐 sagegogo.com） ----------
 (function buildLights() {
-  lightGroup.add(new THREE.HemisphereLight(0xc4d0dc, 0x07121c, 0.58));
+  THEMED.hemi = new THREE.HemisphereLight(0xc4d0dc, 0x07121c, 0.58);
+  lightGroup.add(THEMED.hemi);
   const key = new THREE.DirectionalLight(0xf4f7fb, 2.4);
+  THEMED.key = key;
   key.position.set(FCX - 210, 1900, FCZ - 510);
   key.target.position.set(FCX, 0, FCZ);
   key.castShadow = true;
@@ -737,11 +761,13 @@ beamGroup.add(beams.group);
   lightGroup.add(key, key.target);
 
   const fill = new THREE.DirectionalLight(0xaec8e2, 0.65);
+  THEMED.fill = fill;
   fill.position.set(FCX + 1200, 800, FCZ + 900);
   lightGroup.add(fill);
 
   for (const [dx, dz] of [[-410, -610], [390, -610], [-410, 590], [390, 590]]) {
     const pl = new THREE.PointLight(0xc4d0dc, 0.85, 1800, 0);
+    THEMED.points.push(pl);
     pl.position.set(FCX + dx, 300, FCZ + dz);
     lightGroup.add(pl);
   }
@@ -750,12 +776,14 @@ beamGroup.add(beams.group);
   for (const dz of [-610, 590]) {
     const rail = new THREE.Mesh(new THREE.BoxGeometry(420, 4, 12),
       new THREE.MeshStandardMaterial({ color: 0x142033, emissive: 0xaec8e2, emissiveIntensity: 1.8 }));
+    THEMED.ceilingMats.push(rail.material);
     rail.position.set(FCX, 280, FCZ + dz);
     orgOnly.add(rail);
     for (const dx of [-210, 210]) {
       const sp = new THREE.Sprite(new THREE.SpriteMaterial({
         map: glow, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false }));
       sp.scale.set(260, 90, 1);
+      THEMED.ceilingGlows.push(sp.material);
       sp.position.set(FCX + dx, 272, FCZ + dz);
       orgOnly.add(sp);
     }
@@ -1299,7 +1327,7 @@ function showDetail(kind, id) {
         ${curStg ? `<div class="art-box" style="white-space:normal">
           <div><strong>${curStg.id} · ${curStg.name}</strong> ${cTags3dHtml(curStg.basis)}</div>
           <p style="margin:6px 0"><strong>阶段核心交付：</strong>${curStg.artifact}</p>
-          <p style="margin:6px 0;color:#edb76c"><strong>阶段边界门禁：</strong>${curStg.gate}</p>
+          <p class="stage-gate-note" style="margin:6px 0"><strong>阶段边界门禁：</strong>${curStg.gate}</p>
           <p style="margin:6px 0"><strong>主责员工：</strong>${curStg.producer_seats.join(', ')}｜<strong>协同支撑：</strong>${(curStg.injected_seats || []).join(', ') || '无'}</p>
         </div>` : stgs.map(st => `<p><strong>${st.id} ${st.name}</strong> ${cTags3dHtml(st.basis)}<br><small>${st.artifact}｜门禁：${st.gate}</small></p>`).join('')}
         <h3>核心与支撑席位（${curStg ? curStg.producer_seats.length + (curStg.injected_seats || []).length : cl.core_seats.length + cl.support_seats.length}）</h3>
@@ -1369,7 +1397,7 @@ function showDetail(kind, id) {
     const s = SEAT_MAP.get(id);
     if (!s) return;
     side.innerHTML = renderDossierHtml(s, {
-      theme: currentTheme3d,
+      theme: THEME_3D[currentTheme3d].avatarTone,
       allSeatsMap: SEAT_MAP,
       netNodes: net.nodes,
       cTagsFn: cTags3dHtml,
@@ -1406,7 +1434,7 @@ function showDetail(kind, id) {
         const cardMeta = CARD_MAP.get(f);
         const sub = cardMeta && cardMeta.title ? ` · ${cardMeta.title}` : '';
         return `<div class="rel ${i >= 4 ? 'extra-page3d' : ''}" ${i >= 4 ? 'hidden' : ''} data-card3d-file="${f}" data-card3d-title="${(cardMeta && cardMeta.title || '').replace(/"/g, '&quot;')}">
-          <div class="obj" style="color:#74bfe8">${i === 0 ? '★ 主设计卡 · ' : ''}${f.replace('.html', '')}</div>
+          <div class="obj card-link-title">${i === 0 ? '★ 主设计卡 · ' : ''}${f.replace('.html', '')}</div>
           <div class="meta">${sub.slice(0, 44)}</div>
         </div>`;
       }).join('')}
@@ -1639,18 +1667,89 @@ document.querySelector('#pilot3d-btn').addEventListener('click', e => {
 
 // ---------- 深空钛蓝 ⇄ 极昼浅色 3D 实时主题切换 ----------
 function apply3dTheme(mode) {
-  currentTheme3d = mode === 'light' ? 'light' : 'dark';
+  currentTheme3d = THEME_3D[mode] ? mode : 'dark';
+  const T = THEME_3D[currentTheme3d];
+  const add = T.additive;
+  const blend = add ? THREE.AdditiveBlending : THREE.NormalBlending;
+  // CSS 侧：light 走浅色变量；emerald 走深色变量 + 青碧覆盖
   document.body.dataset.theme = currentTheme3d;
   const btn = document.querySelector('#theme-btn');
-  if (btn) btn.textContent = currentTheme3d === 'dark' ? '☀ 极昼浅色' : '☾ 深空钛蓝';
-  const bgHex = currentTheme3d === 'light' ? 0xdfe9f5 : hexToInt(SAGE_DARK.fogBg);
+  if (btn) {
+    const nx = THEME_3D[T.next];
+    btn.textContent = `${nx.icon} ${nx.label}`;
+    btn.title = `当前：${T.label}。点击切换到「${nx.label}」（三套主题循环：深空钛蓝 → 极昼冰川 → 量子青碧）`;
+  }
+  // 1) 天空、雾、环境、曝光、辉光
+  const bgHex = hexToInt(T.bg);
   scene.background.setHex(bgHex);
   scene.fog.color.setHex(bgHex);
-  renderer.toneMappingExposure = currentTheme3d === 'light' ? 1.12 : 0.96;
-  bloom.setTheme(currentTheme3d);
-  // 同步 3D 悬浮名片中的 64px 头像亮暗版本
+  // 环境反射的 PMREM 只在贴图首次使用时生成，needsUpdate 不会重建；换主题必须换新贴图并释放旧的
+  const oldEnv = scene.environment;
+  scene.environment = envTexture(T.env);
+  if (oldEnv) oldEnv.dispose();
+  renderer.toneMappingExposure = T.exposure;
+  bloom.setTheme(add ? 'dark' : 'light');
+  // 2) 灯光
+  THEMED.hemi.color.set(T.hemi[0]); THEMED.hemi.groundColor.set(T.hemi[1]);
+  THEMED.key.color.set(T.key); THEMED.fill.color.set(T.fill);
+  THEMED.points.forEach(pl => pl.color.set(T.point));
+  // 3) 地板、侧墙、部门底板、轮廓线、追光、HUD 环
+  THEMED.carpet.userData.redraw(T.floor);
+  const su = THEMED.sideMat.uniforms;
+  su.uBottomColor.value.set(T.side[0]); su.uMidColor.value.set(T.side[1]); su.uTopColor.value.set(T.side[2]);
+  for (const z of THEMED.zones) {
+    z.fillMat.color.set(T.zoneFill[z.id] || T.zoneFill.ops);
+    z.glowMat.color.set(T.zoneEdge[z.id] || T.zoneEdge.ops);
+    z.glowMat.opacity = add ? 0.08 : 0.16;
+    z.glowMat.blending = blend; z.glowMat.needsUpdate = true;
+  }
+  THEMED.outlineMats.forEach((m, i) => { m.color.set(T.outline[i]); m.blending = blend; m.needsUpdate = true; });
+  if (chaseMaterial) {
+    chaseMaterial.uniforms.uHeadColor.value.set(T.chase[0]);
+    chaseMaterial.uniforms.uTailColor.value.set(T.chase[1]);
+    chaseMaterial.blending = blend; chaseMaterial.needsUpdate = true;
+  }
+  THEMED.hudMats.forEach((m, i) => {
+    m.color.set(T.hud[i]);
+    if (m.userData.baseOpacity == null) m.userData.baseOpacity = m.opacity;
+    // 浅色常规混合下 HUD 需要更高不透明度才看得见
+    m.opacity = add ? m.userData.baseOpacity : Math.min(0.5, m.userData.baseOpacity * 3.2);
+    m.blending = blend; m.needsUpdate = true;
+  });
+  // 4) 家具与建筑材质
+  for (const [k, hex] of Object.entries(T.mat)) {
+    if (k === 'deskEdgeEmissive') continue;
+    if (MAT[k]) MAT[k].color.set(hex);
+  }
+  MAT.deskEdge.emissive.set(T.mat.deskEdgeEmissive);
+  MAT.deskEdge.emissiveIntensity = add ? 1.1 : 0.45;
+  MAT.screen.emissiveIntensity = add ? 0.85 : 0.55;
+  THEMED.signMat.color.set(T.sign[0]); THEMED.signMat.emissive.set(T.sign[1]);
+  THEMED.signMat.emissiveIntensity = add ? 1.5 : 0.5;
+  THEMED.netBandMat.color.set(T.netBand[0]); THEMED.netBandMat.emissive.set(T.netBand[1]);
+  THEMED.netBandMat.emissiveIntensity = add ? 2.2 : 0.7;
+  THEMED.skyMat.color.set(T.sky); THEMED.skyMat.blending = blend; THEMED.skyMat.needsUpdate = true;
+  THEMED.skyMat.opacity = add ? 0.36 : 0.55;
+  THEMED.ceilingMats.forEach(m => { m.color.set(T.ceiling[0]); m.emissive.set(T.ceiling[1]); m.emissiveIntensity = add ? 1.8 : 0.6; });
+  THEMED.ceilingGlows.forEach(m => { m.opacity = add ? 0.55 : 0.0; });
+  THEMED.pilotMats[0].color.set(T.pilot[0]); THEMED.pilotMats[1].color.set(T.pilot[1]);
+  THEMED.netRingMat.color.set(T.pilot[1]);
+  // 工位 LED：试点主责 / 部分可用 / 待核验 三色
+  if (THEMED.leds) {
+    const [cCore, cPart, cUnv] = T.led.map(h => new THREE.Color(h));
+    THEMED.leds.seats.forEach((st, i) => {
+      THEMED.leds.mesh.setColorAt(i, pilotCoreIds.has(st.id) ? cCore : (st.status === 'PARTIAL' ? cPart : cUnv));
+    });
+    if (THEMED.leds.mesh.instanceColor) THEMED.leds.mesh.instanceColor.needsUpdate = true;
+  }
+  setPersonTheme(T);
+  // 5) 动态图层：光柱、飞线、全息台
+  beams.setTheme(T);
+  if (flow) flow.setTheme(T);
+  holoStage.setTheme(T);
+  // 6) 悬浮名片头像亮暗版本
   document.querySelectorAll('#labels3d .seat-avatar').forEach(img => {
-    img.src = img.src.replace(/\/avatars\/(dark|light)\//, `/avatars/${currentTheme3d}/`);
+    img.src = img.src.replace(/\/avatars\/(dark|light)\//, `/avatars/${T.avatarTone}/`);
   });
   if (selected3d && (selected3d.kind === 'seat' || selected3d.kind === 'gov')) {
     showDetail(selected3d.kind, selected3d.id);
@@ -1658,7 +1757,7 @@ function apply3dTheme(mode) {
 }
 const themeBtn = document.querySelector('#theme-btn');
 if (themeBtn) {
-  themeBtn.addEventListener('click', () => apply3dTheme(currentTheme3d === 'dark' ? 'light' : 'dark'));
+  themeBtn.addEventListener('click', () => apply3dTheme(THEME_3D[currentTheme3d].next));
 }
 
 // ---------- 批次 45：3D 顶栏全索引搜索 (#q3d：员工/251项技能/20节点/8业务流/20场景/8手册/7跨仓单/63画布卡/377决策) ----------
@@ -1986,7 +2085,7 @@ document.querySelector('#gv').textContent = G.graph_version;
 function buildShareQuery() {
   const q = new URLSearchParams();
   if (stage.dataset.view && stage.dataset.view !== 'cosmos') q.set('view', stage.dataset.view);
-  if (currentTheme3d === 'light') q.set('theme', 'light');
+  if (currentTheme3d !== 'dark') q.set('theme', currentTheme3d);
   if (selected3d) {
     if (selected3d.kind === 'seat' || selected3d.kind === 'gov') q.set('seat', selected3d.id);
     else if (selected3d.kind === 'node') q.set('node', selected3d.id);
@@ -2018,7 +2117,7 @@ if (params.get('view') && VIEW_PRESETS[params.get('view')]) {
 } else if (!hasDeepTarget) {
   runIntroSweep();
 }
-if (params.get('theme') === 'light') apply3dTheme('light');
+if (params.get('theme') && params.get('theme') !== 'dark' && THEME_3D[params.get('theme')]) apply3dTheme(params.get('theme'));
 if (params.get('closeup') === '1') {
   closeupMode = true;
   document.querySelector('#closeup-btn').classList.add('active');

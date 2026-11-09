@@ -1,12 +1,13 @@
 // 流动关系线：静态折线 + 沿曲线移动的彗星粒子。123 条边合成 1 个 LineSegments + 1 个 Points。
 import * as THREE from './vendor/three.module.min.js';
-import { SAGE_DARK, hexToInt } from './theme.js?v=38';
+import { SAGE_DARK, hexToInt } from './theme.js?v=49';
 
-const KIND_COLOR = {
-  baseline: hexToInt(SAGE_DARK.flowBaseline),
-  feedback: hexToInt(SAGE_DARK.flowFeedback),
-  plain: hexToInt(SAGE_DARK.flowPlain),
+const KIND_HEX = {
+  baseline: SAGE_DARK.flowBaseline,
+  feedback: SAGE_DARK.flowFeedback,
+  plain: SAGE_DARK.flowPlain,
 };
+const KIND_COLOR = Object.fromEntries(Object.entries(KIND_HEX).map(([k, v]) => [k, hexToInt(v)]));
 const KIND_LAYER = { baseline: 2, feedback: 1, plain: 0 };
 // 每边彗星数 / 点尺寸 / 速度 / 尾长 / 亮度
 const KIND_FLOW = {
@@ -70,6 +71,8 @@ export function buildFlowLines(nodes, relations) {
   // ---- 静态折线（1 个 LineSegments） ----
   const linePos = [];
   const lineCol = [];
+  const lineAlpha = [];
+  const lineKind = [];
   const tmp = new THREE.Vector3();
   for (const e of valid) {
     const c = new THREE.Color(KIND_COLOR[e.kind]);
@@ -82,6 +85,7 @@ export function buildFlowLines(nodes, relations) {
       const a1 = baseAlpha * (0.35 + 0.65 * Math.sin(Math.PI * t1));
       linePos.push(pts[i].x, pts[i].y, pts[i].z, pts[i + 1].x, pts[i + 1].y, pts[i + 1].z);
       lineCol.push(c.r * a0, c.g * a0, c.b * a0, c.r * a1, c.g * a1, c.b * a1);
+      lineAlpha.push(a0, a1); lineKind.push(e.kind, e.kind);
     }
     // 终点箭头（两段短线）
     const tip = e.curve.getPointAt(0.995);
@@ -94,11 +98,13 @@ export function buildFlowLines(nodes, relations) {
       linePos.push(tip.x, tip.y, tip.z, w.x, w.y, w.z);
       lineCol.push(c.r * baseAlpha * 1.4, c.g * baseAlpha * 1.4, c.b * baseAlpha * 1.4,
                    c.r * baseAlpha * 1.4, c.g * baseAlpha * 1.4, c.b * baseAlpha * 1.4);
+      lineAlpha.push(baseAlpha * 1.4, baseAlpha * 1.4); lineKind.push(e.kind, e.kind);
     }
   }
   const lineGeo = new THREE.BufferGeometry();
   lineGeo.setAttribute('position', new THREE.Float32BufferAttribute(linePos, 3));
-  lineGeo.setAttribute('color', new THREE.Float32BufferAttribute(lineCol, 3));
+  const lineColAttr = new THREE.Float32BufferAttribute(lineCol, 3);
+  lineGeo.setAttribute('color', lineColAttr);
   const lineMat = new THREE.LineBasicMaterial({
     vertexColors: true, transparent: true, opacity: 1, depthWrite: false,
     blending: THREE.AdditiveBlending,
@@ -131,7 +137,8 @@ export function buildFlowLines(nodes, relations) {
   });
   const ptGeo = new THREE.BufferGeometry();
   ptGeo.setAttribute('position', new THREE.BufferAttribute(ptPos, 3));
-  ptGeo.setAttribute('aColor', new THREE.BufferAttribute(ptCol, 3));
+  const ptColAttr = new THREE.BufferAttribute(ptCol, 3);
+  ptGeo.setAttribute('aColor', ptColAttr);
   ptGeo.setAttribute('aSize', new THREE.BufferAttribute(ptSize, 1));
   ptGeo.setAttribute('aAlpha', new THREE.BufferAttribute(ptAlpha, 1));
 
@@ -222,8 +229,33 @@ export function buildFlowLines(nodes, relations) {
   }
   function setPixelRatio(pr) { ptMat.uniforms.uPR.value = pr; }
 
+  // 深色：加法发光（颜色乘亮度）；浅色：常规混合，按同一亮度向背景色淡出，保住主线/反馈/协同三档层级
+  function setTheme(palette) {
+    const additive = palette.additive;
+    const bg = new THREE.Color(palette.bg);
+    const cols = Object.fromEntries(Object.entries(palette.flow).map(([k, v]) => [k, new THREE.Color(v)]));
+    const arr = lineColAttr.array;
+    for (let i = 0; i < lineKind.length; i++) {
+      const c = cols[lineKind[i]], a = lineAlpha[i];
+      if (additive) { arr[i * 3] = c.r * a; arr[i * 3 + 1] = c.g * a; arr[i * 3 + 2] = c.b * a; continue; }
+      const t = Math.min(1, a);
+      arr[i * 3] = bg.r + (c.r - bg.r) * t; arr[i * 3 + 1] = bg.g + (c.g - bg.g) * t; arr[i * 3 + 2] = bg.b + (c.b - bg.b) * t;
+    }
+    lineColAttr.needsUpdate = true;
+    comet.forEach((cm, i) => {
+      const c = cols[cm.e.kind];
+      for (let j = 0; j < 2; j++) {
+        ptCol[(i * 2 + j) * 3] = c.r; ptCol[(i * 2 + j) * 3 + 1] = c.g; ptCol[(i * 2 + j) * 3 + 2] = c.b;
+      }
+    });
+    ptColAttr.needsUpdate = true;
+    const blend = additive ? THREE.AdditiveBlending : THREE.NormalBlending;
+    lineMat.blending = blend; ptMat.blending = blend;
+    lineMat.needsUpdate = true; ptMat.needsUpdate = true;
+  }
+
   return {
-    group, update, setHover, setPilotNodes, setPixelRatio,
+    group, update, setHover, setPilotNodes, setPixelRatio, setTheme,
     stats: { edges: valid.length, comets: comet.length, lineVerts: linePos.length / 3, pointVerts: P },
   };
 }

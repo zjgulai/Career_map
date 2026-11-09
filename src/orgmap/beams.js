@@ -56,6 +56,7 @@ export function buildCrosswalkBeams(orgSeats, netNodes, rawSeatsWithLinks, opts 
   const linePos = [];
   const lineBaseCol = [];
   const lineCol = [];
+  const lineAlpha = [];
 
   for (const b of beams) {
     const pts = b.curve.getPoints(SEGS);
@@ -68,6 +69,7 @@ export function buildCrosswalkBeams(orgSeats, netNodes, rawSeatsWithLinks, opts 
         b.color.r * a0, b.color.g * a0, b.color.b * a0,
         b.color.r * a1, b.color.g * a1, b.color.b * a1
       );
+      lineAlpha.push(a0, a1);
       lineCol.push(
         b.color.r * a0 * 0.28, b.color.g * a0 * 0.28, b.color.b * a0 * 0.28,
         b.color.r * a1 * 0.28, b.color.g * a1 * 0.28, b.color.b * a1 * 0.28
@@ -149,6 +151,8 @@ export function buildCrosswalkBeams(orgSeats, netNodes, rawSeatsWithLinks, opts 
   const group = new THREE.Group();
   group.add(lines, points);
 
+  let lineWeightsDirty = false;
+  let fadeTo = null; // 常规混合（浅色主题）时淡出目标 = 背景色；加法混合时为 null
   const beamWeights = new Float32Array(beams.length).fill(0.28);
   const beamTargets = new Float32Array(beams.length).fill(0.28);
 
@@ -168,7 +172,8 @@ export function buildCrosswalkBeams(orgSeats, netNodes, rawSeatsWithLinks, opts 
   const vTmp = new THREE.Vector3();
   function update(dt) {
     dt = Math.min(dt, 0.05);
-    let colorDirty = false;
+    let colorDirty = lineWeightsDirty;
+    lineWeightsDirty = false;
     for (let i = 0; i < beams.length; i++) {
       const diff = beamTargets[i] - beamWeights[i];
       if (Math.abs(diff) > 0.002) {
@@ -182,6 +187,16 @@ export function buildCrosswalkBeams(orgSeats, netNodes, rawSeatsWithLinks, opts 
       for (let i = 0; i < beams.length; i++) {
         const w = beamWeights[i];
         const baseOffset = i * vertsPerBeam;
+        if (fadeTo) {
+          const c = beams[i].color;
+          for (let v = 0; v < SEGS * 2; v++) {
+            const t = Math.min(1, lineAlpha[i * SEGS * 2 + v] * w), o = baseOffset + v * 3;
+            arr[o] = fadeTo.r + (c.r - fadeTo.r) * t;
+            arr[o + 1] = fadeTo.g + (c.g - fadeTo.g) * t;
+            arr[o + 2] = fadeTo.b + (c.b - fadeTo.b) * t;
+          }
+          continue;
+        }
         for (let k = 0; k < vertsPerBeam; k++) {
           arr[baseOffset + k] = lineBaseCol[baseOffset + k] * w;
         }
@@ -210,11 +225,35 @@ export function buildCrosswalkBeams(orgSeats, netNodes, rawSeatsWithLinks, opts 
     ptMat.uniforms.uPR.value = pr;
   }
 
+  // 深色：加法发光（颜色乘亮度）；浅色：常规混合 + 墨彩，按亮度向背景色淡出——乘暗在常规混合下会变成黑线
+  function setTheme(palette) {
+    const additive = palette.additive;
+    fadeTo = additive ? null : new THREE.Color(palette.bg);
+    beams.forEach((b, i) => {
+      b.color.set(palette.beam[b.relation] || palette.beam.direct_reuse);
+      const vpb = SEGS * 2;
+      for (let k = 0; k < vpb; k++) {
+        const v = i * vpb + k, a = lineAlpha[v];
+        lineBaseCol[v * 3] = b.color.r * a; lineBaseCol[v * 3 + 1] = b.color.g * a; lineBaseCol[v * 3 + 2] = b.color.b * a;
+      }
+      for (let j = 0; j < 2; j++) {
+        const idx = i * 2 + j;
+        ptCol[idx * 3] = b.color.r; ptCol[idx * 3 + 1] = b.color.g; ptCol[idx * 3 + 2] = b.color.b;
+      }
+    });
+    ptGeo.attributes.aColor.needsUpdate = true;
+    lineWeightsDirty = true;
+    const blend = additive ? THREE.AdditiveBlending : THREE.NormalBlending;
+    lineMat.blending = blend; ptMat.blending = blend;
+    lineMat.needsUpdate = true; ptMat.needsUpdate = true;
+  }
+
   return {
     group,
     update,
     setFocus,
     setPixelRatio,
+    setTheme,
     stats: { beamCount: beams.length, pulsePoints: P },
   };
 }

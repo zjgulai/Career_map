@@ -25,6 +25,7 @@ export function createHoloEmitterStage(cx, cz) {
     blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide,
   });
 
+  let avatarTone = 'dark';
   const padOuter = new THREE.Mesh(new THREE.CylinderGeometry(72, 84, 8, 8), baseMat);
   padOuter.position.y = 4;
   padOuter.receiveShadow = true;
@@ -140,7 +141,7 @@ export function createHoloEmitterStage(cx, cz) {
       voxMesh.instanceMatrix.needsUpdate = true;
       if (voxMesh.instanceColor) voxMesh.instanceColor.needsUpdate = true;
     };
-    img.src = `./assets/avatars/dark/256/${seatId}.webp`;
+    img.src = `./assets/avatars/${avatarTone}/256/${seatId}.webp`;
   }
 
   function update(dt) {
@@ -152,10 +153,27 @@ export function createHoloEmitterStage(cx, cz) {
   // 默认展示 FLOW-02 试点主责席位 AGT-008 的 3D 体素全息分身
   updateSeatHologram('AGT-008');
 
+  // 深色：加法发光体素；浅色：常规混合 + 深海蓝色阶，并改采样浅色头像（背景过滤靠四角色差，与明暗无关）
+  function setTheme(palette) {
+    const blend = palette.additive ? THREE.AdditiveBlending : THREE.NormalBlending;
+    palette.holo.palette.forEach((hex, i) => HOLO_PALETTE[i].set(hex));
+    glowRingMat.color.set(palette.holo.ring);
+    scanRing.material.color.set(palette.holo.scan);
+    baseMat.color.set(palette.holo.base);
+    for (const m of [glowRingMat, scanRing.material, cellMat]) { m.blending = blend; m.needsUpdate = true; }
+    cellMat.opacity = palette.additive ? 0.78 : 0.92;
+    const toneChanged = avatarTone !== palette.avatarTone;
+    avatarTone = palette.avatarTone;
+    const sid = currentSeatId;
+    if (sid) { currentSeatId = null; updateSeatHologram(sid); }
+    else if (!toneChanged && voxMesh.instanceColor) voxMesh.instanceColor.needsUpdate = true;
+  }
+
   return {
     group: root,
     updateSeatHologram,
     update,
+    setTheme,
     getActiveCount: () => voxMesh.count,
     getCurrentSeatId: () => currentSeatId,
   };

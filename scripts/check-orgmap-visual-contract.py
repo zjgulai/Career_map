@@ -69,7 +69,20 @@ REQUIRED_3D_FEATURES = (
     "highlightSquadIn3d",
     "searchGlobalIndex",
     "computeSkillHeatmapStats",
+    "THEMED",
+    "THEME_3D[currentTheme3d]",
+    "beams.setTheme(T)",
+    "flow.setTheme(T)",
+    "holoStage.setTheme(T)",
+    "setPersonTheme(T)",
 )
+
+THEME_KEYS = ("dark", "light", "emerald")
+DARK_SURFACE_RE = re.compile(
+    r"#142033|#1b3042|#1c2536|#0b1521|#030408|#07121c|"
+    r"rgba\(\s*(?:3,\s*4,\s*8|11,\s*21,\s*33|20,\s*32,\s*51|27,\s*48,\s*66)\s*,", re.I)
+# ?audit=1 开发自检浮层在三套主题下都保持深色，属有意例外
+DARK_SURFACE_ALLOW = (".audit3d",)
 
 
 def check_no_legacy_colors(file_map: dict[str, str]) -> list[str]:
@@ -159,6 +172,39 @@ def check_a11y_responsive_and_lightbox(file_map: dict[str, str]) -> list[str]:
     return errs
 
 
+def check_theme_system(file_map: dict[str, str]) -> list[str]:
+    """批次 49-52：三套主题都要能驱动 3D 场景，CSS 不能再残留只有深色值的硬编码表面色。"""
+    errs: list[str] = []
+    theme_js = file_map.get("theme.js", "")
+    for key in THEME_KEYS:
+        if not re.search(rf"\b{key}\s*:\s*{{|\b{key}\s*:\s*[A-Z_]+_3D\b|\b{key}\s*:\s*\{{\s*\.\.\.", theme_js):
+            errs.append(f"theme.js: THEME_3D 缺少 {key} 主题色盘")
+    if "export const THEME_3D" not in theme_js or "EMERALD_SOURCE" not in theme_js:
+        errs.append("theme.js: 缺少 THEME_3D 导出或 emerald 的 HSL 派生源色")
+    for mod in ("flow.js", "beams.js", "holo.js"):
+        code = _strip_comments(file_map.get(mod, ""))
+        if "function setTheme(" not in code or "NormalBlending" not in code:
+            errs.append(f"{mod}: 缺少 setTheme（浅色主题必须切常规混合，否则加法发光在浅底上发白）")
+    if "setPersonTheme" not in file_map.get("avatars.js", ""):
+        errs.append("avatars.js: 缺少 setPersonTheme（规则碑材质无法随主题切换）")
+    css = _strip_comments(file_map.get("showcase.css", ""))
+    for key in ("light", "emerald"):
+        if f'body[data-theme="{key}"]{{' not in css.replace(" ", ""):
+            errs.append(f'showcase.css: 缺少 body[data-theme="{key}"] 变量块')
+    for m in re.finditer(r"([^{}]+)\{([^{}]*)\}", css):
+        sel, body = m.group(1).strip(), m.group(2)
+        if sel.startswith(":root") or "data-theme" in sel or sel.startswith("@") or any(a in sel for a in DARK_SURFACE_ALLOW):
+            continue
+        hit = DARK_SURFACE_RE.search(body)
+        if hit:
+            errs.append(f"showcase.css: {sel[:48]} 硬编码深色表面色 {hit.group(0)}（改用主题变量）")
+    for fname in ("showcase.js", "dossier.js"):
+        code = file_map.get(fname, "")
+        if re.search(r'style="[^"]*\bcolor:#[0-9a-fA-F]{3,8}', code):
+            errs.append(f"{fname}: 残留内联文字颜色（无法随主题切换）")
+    return errs
+
+
 def collect_orgmap_files(orgmap_dir: Path = ORGMAP_DIR) -> tuple[dict[str, str], dict[str, str]]:
     all_files: dict[str, str] = {}
     js_files: dict[str, str] = {}
@@ -179,6 +225,7 @@ def evaluate_repo(orgmap_dir: Path = ORGMAP_DIR) -> list[str]:
     failures += check_2d_zero_three(all_files)
     failures += check_font_min_and_3d_features(all_files)
     failures += check_a11y_responsive_and_lightbox(all_files)
+    failures += check_theme_system(all_files)
     notice = ROOT / "deliverables/execution/sanbao-handoff-20261104/NOTICE-three-scope-map.md"
     if not notice.is_file():
         failures.append("缺少 NOTICE-three-scope-map.md 许可证与方法论来源声明")
@@ -202,6 +249,10 @@ def selftest() -> int:
         ("missing_tabindex", check_a11y_responsive_and_lightbox({**all_files, "showcase.js": "function addLabel(){}"}), True),
         ("hardcoded_superpowers", check_a11y_responsive_and_lightbox({**all_files, "lightbox.js": "const u = '../../.superpowers/x';"}), True),
         ("split_entry_regression", check_a11y_responsive_and_lightbox({**all_files, "index.html": "<a href='./showcase.html'>进入 3D 空间</a>"}), True),
+        ("theme_missing_emerald", check_theme_system({**all_files, "theme.js": all_files["theme.js"].replace("emerald:", "emerald_removed:")}), True),
+        ("theme_beams_no_settheme", check_theme_system({**all_files, "beams.js": "export function buildCrosswalkBeams(){}"}), True),
+        ("theme_css_dark_literal", check_theme_system({**all_files, "showcase.css": all_files["showcase.css"] + "\n.new-panel{background:#142033}"}), True),
+        ("theme_inline_color", check_theme_system({**all_files, "showcase.js": all_files["showcase.js"] + '\nconst x = `<p style="color:#edb76c">x</p>`;'}), True),
     ]
     bad = []
     for name, errs, expect_fail in cases:
