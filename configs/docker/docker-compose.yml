@@ -1,0 +1,17 @@
+services:
+  sanbao-orgmap:
+    build:
+      context: ../..
+      dockerfile: configs/docker/Dockerfile
+    image: sanbao-orgmap:latest
+    container_name: sanbao-orgmap
+    restart: unless-stopped
+    ports:
+      - "${SANBAO_PORT:-8080}:8080"
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx:uid=101,gid=101,mode=0755
+      - /var/run:uid=101,gid=101,mode=0755
+      - /tmp:uid=101,gid=101,mode=0755
+    security_opt:
+      - no-new-privileges:true

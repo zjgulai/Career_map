@@ -182,3 +182,20 @@ python3 -m http.server 8765 --bind 127.0.0.1
 - **批次 32（性能、响应式与可访问性门禁）**：
   - `scripts/check-orgmap-visual-contract.py` 新增 `@media` 响应式断点检查、3D 标签 `tabindex="0"` 与 `role="button"` 可访问性检查、`lightbox.js` 禁止硬编码 `.superpowers` 路径检查及 `createSelectiveBloom` 存在性检查（`--selftest` 11/11 通过）；
   - 记录四模态 × 双主题 × 辉光开关性能基线至 `tmp/debug/orgmap-b32-perf.json`。
+
+## 14. 腾讯云 Docker 容器化部署（`configs/docker/`）
+
+生产镜像仅打包白名单静态目录（`src/orgmap`、`docs`、`deliverables/canvas` 共 227 个文件，Gzip 传输体积 2.54 MB），排除 `.codex`、`.superpowers` 与 `skill-library`。
+
+```bash
+# 1. 部署前安全与静态资产自检（并可选导出 2.5MB 最小离线部署包）
+python3 -I scripts/check-docker-deploy-readiness.py --selftest
+python3 -I scripts/check-docker-deploy-readiness.py --bundle tmp/outputs/tmp-bundle-tencent-docker-20261109-01.tar.gz
+
+# 2. 在腾讯云服务器上启动（默认监听 8080 端口，可通过 SANBAO_PORT=80 覆盖）
+docker compose -f configs/docker/docker-compose.yml up -d --build
+
+# 3. 健康检查与访问
+curl -fsS http://127.0.0.1:8080/healthz
+# 浏览器打开 http://<腾讯云公网IP>:8080/ （自动 302 进入 /src/orgmap/ 一体化 3D 空间）
+```
