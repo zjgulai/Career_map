@@ -66,6 +66,7 @@ REQUIRED_3D_FEATURES = (
     "applyPinchDelta",
     "buildShareQuery",
     "syncUrlState",
+    "highlightSquadIn3d",
 )
 
 
@@ -150,6 +151,9 @@ def check_a11y_responsive_and_lightbox(file_map: dict[str, str]) -> list[str]:
         errs.append("index.html: 必须作为一体化 3D 空间单一主入口，且不得残留跨页互跳文案")
     if "sanbao-identity-boundaries.html" not in idx_html:
         errs.append("index.html: 底栏缺少 C-376 内部总画布互联入口")
+    dos_js = _strip_comments(file_map.get("dossier.js", ""))
+    if "data-flow3d" not in dos_js or "data-scn3d" not in dos_js or "data-cr3d" not in dos_js:
+        errs.append("dossier.js: 缺少 data-flow3d / data-scn3d / data-cr3d 可点击协同战队芯片")
     return errs
 
 

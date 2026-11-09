@@ -7,7 +7,7 @@
 - [内部连续讨论画布](./canvas/sanbao-identity-boundaries.html)：当前 C-376 叶页、六面审查和模块关系规则。
 - [公开设计地图](./canvas/sanbao-public-map.html)：与 GitHub Pages `/docs/index.html` 对应的公开版入口。
 - [画布 Playbook](./canvas/sanbao-canvas-playbook.md)
-- [三宝一体化 3D 组织与经营网络空间](../src/orgmap/index.html)（含 `cosmos/org/network/plan` 四视角，说明见 [`../src/orgmap/README.md`](../src/orgmap/README.md)）
+- [三宝一体化 3D 组织与经营网络空间](../src/orgmap/index.html)（线上生产域名：[`https://native.sagegogo.com`](https://native.sagegogo.com)，含 `cosmos/org/network/plan` 四视角，说明见 [`../src/orgmap/README.md`](../src/orgmap/README.md)）
 
 ## 方案与规则
 

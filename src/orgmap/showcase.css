@@ -493,3 +493,21 @@ body[data-theme="light"] #bloom-btn.active {
 body[data-theme="light"] .canvas-links a {
   color: #396397;
 }
+
+/* ---------- 批次 41-43：档案卡可点击 FLOW / SCN / PB / CR 芯片按钮 ---------- */
+.dos-chip-btn {
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all .14s ease;
+}
+.dos-chip-btn:hover {
+  border-color: #74bfe8 !important;
+  color: #ffffff !important;
+  background: #1b3042 !important;
+}
+body[data-theme="light"] .dos-chip-btn:hover {
+  border-color: #396397 !important;
+  color: #ffffff !important;
+  background: #396397 !important;
+}

@@ -379,6 +379,14 @@ def collect(root: Path) -> list[str]:
         if sores.returncode != 0:
             failures.append(f"FLOW-02 真人签核 CLI 助手自检失败：{(sores.stderr or sores.stdout).strip()}")
 
+    # 7h. 公网生产环境巡检探针离线自检门禁（批次 44）
+    op_script = root / "scripts/check-online-production.py"
+    if op_script.is_file():
+        opres = subprocess.run([sys.executable, "-I", str(op_script), "--selftest"],
+                               cwd=root, capture_output=True, text=True)
+        if opres.returncode != 0:
+            failures.append(f"公网生产巡检探针自检失败：{(opres.stderr or opres.stdout).strip()}")
+
     # 8. orgmap graph.js 新鲜度门禁
     graph_script = root / "scripts/build-canvas-graph.py"
     if graph_script.is_file():

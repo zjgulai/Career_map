@@ -2,7 +2,7 @@
 // 重新生成：python3 -I scripts/build-canvas-graph.py
 window.SANBAO_GRAPH = {
  "schema_version": 2,
- "graph_version": "c563bd71b2293407",
+ "graph_version": "ae582a7543c82363",
  "status": "draft_pending_owner_signoff",
  "counts": {
   "decisions": 377,
@@ -11771,7 +11771,185 @@ window.SANBAO_GRAPH = {
       "ok": true
      }
     ]
-   }
+   },
+   "cross_repo_requests": [
+    {
+     "id": "CR-AO-001",
+     "target_repo": "AI组织变革",
+     "title": "A 方案 9 席职责扩写（证据/预警/建议有据，不对外部结果背锅）",
+     "priority": "P0",
+     "depends_on": "用户逐格确认",
+     "basis": [
+      "C-378",
+      "C-389"
+     ],
+     "status": "OVERLAY_READY_AWAITING_UPSTREAM_COMMIT",
+     "affected_seats": [
+      "AGT-041",
+      "AGT-019",
+      "AGT-044",
+      "AGT-014",
+      "AGT-018",
+      "AGT-020",
+      "AGT-027",
+      "AGT-043",
+      "MGT-003"
+     ],
+     "target_files": [
+      "docs/05-agents/role-catalog.json",
+      "docs/04-organization/management/management-catalog.json"
+     ],
+     "acceptance": "9/9 席 mission 与 boundary 更新且不含对外部结果负责表述；catalog/role/soul/blueprint 四层一致性校验通过"
+    },
+    {
+     "id": "CR-AO-002",
+     "target_repo": "AI组织变革",
+     "title": "源仓工作树清理、版本冻结与不可变 Tag（C-389）",
+     "priority": "P0",
+     "depends_on": "CR-AO-001",
+     "basis": [
+      "C-389"
+     ],
+     "status": "AWAITING_REPO_OWNER_TAG",
+     "affected_seats": [
+      "MGT-001",
+      "MGT-002",
+      "MGT-003"
+     ],
+     "target_files": [
+      "README.md",
+      "playbook.md"
+     ],
+     "acceptance": "git status --short 为空；tag 名与 commit sha 写入交接快照并与 9 席 A 方案处于同一冻结点"
+    },
+    {
+     "id": "CR-SB-001",
+     "target_repo": "Sanbao",
+     "title": "0.2.0 Preset 声明行发射器迁移与 dsh-skill-subset 打包",
+     "priority": "P0",
+     "depends_on": "当前 wave 收口",
+     "basis": [
+      "C-381"
+     ],
+     "status": "QUEUED_AFTER_WAVE",
+     "affected_seats": [
+      "AGT-001",
+      "AGT-008",
+      "AGT-005",
+      "AGT-045"
+     ],
+     "target_files": [
+      "scripts/role-presets/generate.mjs",
+      "scripts/lib/app-resources.mjs",
+      "packaging/assemble.sh"
+     ],
+     "acceptance": "AGT-001 产出声明行并 mount 成功；persona 用 prefix；skills.list 白名单与 hideOthers 生效"
+    },
+    {
+     "id": "CR-SB-002",
+     "target_repo": "Sanbao",
+     "title": "会话创建显式绑定 agentPreset（选不到具名拒绝，不静默回退）",
+     "priority": "P1",
+     "depends_on": "CR-SB-001",
+     "basis": [
+      "C-381",
+      "C-386"
+     ],
+     "status": "QUEUED_AFTER_CR_SB_001",
+     "affected_seats": [
+      "AGT-001",
+      "AGT-008",
+      "AGT-005",
+      "AGT-045"
+     ],
+     "target_files": [
+      "apps/sage-shell/src/host/bridge-endpoints.ts",
+      "apps/sage-shell/src/main/session-channel.ts",
+      "apps/sage-shell/src/product/app/desktop/experts.tsx"
+     ],
+     "acceptance": "UI 选中席位后 header.agentPreset=agt-NNN；试点 4 席加载对应 persona，选不到时具名拒绝"
+    },
+    {
+     "id": "CR-SB-003",
+     "target_repo": "Sanbao",
+     "title": "修复 skill-map / role-assignments / expert-skill-bundles 三处映射漂移",
+     "priority": "P0",
+     "depends_on": "无（可立即开始）",
+     "basis": [
+      "C-377",
+      "C-380"
+     ],
+     "status": "READY_TO_EXECUTE",
+     "affected_seats": [
+      "AGT-008",
+      "AGT-005",
+      "AGT-006",
+      "AGT-007",
+      "AGT-009",
+      "AGT-035",
+      "AGT-045",
+      "AGT-048"
+     ],
+     "target_files": [
+      "scripts/role-presets/skill-map.json",
+      "scripts/role-presets/build-skill-bundles.mjs"
+     ],
+     "acceptance": "validate_assignments.py J1-J6 exit 0；supply ∩ RA = 251/251；bundle 由生成器确定性产出；MGT coreSkills 为空"
+    },
+    {
+     "id": "CR-SB-004",
+     "target_repo": "Sanbao",
+     "title": "修复 expert-registry 12 处 UI 样张手改，分离语义原文与 display_* 展示字段",
+     "priority": "P0",
+     "depends_on": "无（可立即开始）",
+     "basis": [
+      "C-384"
+     ],
+     "status": "READY_TO_EXECUTE",
+     "affected_seats": [
+      "MGT-001",
+      "MGT-002",
+      "MGT-003",
+      "AGT-001",
+      "AGT-005",
+      "AGT-008",
+      "AGT-024",
+      "AGT-045"
+     ],
+     "target_files": [
+      "assets/experts/expert-registry.json",
+      "scripts/build-expert-registry.mjs"
+     ],
+     "acceptance": "build-expert-registry.mjs --check exit 0；语义字段与 AI组织变革一致；MGT sourceRefs 12/12 路径存在"
+    },
+    {
+     "id": "CR-SB-005",
+     "target_repo": "Sanbao",
+     "title": "只读策略强制下沉至工具层（移除 bash/pwsh/web/写 fs，服务端字段级过滤）",
+     "priority": "P0",
+     "depends_on": "CR-SB-001",
+     "basis": [
+      "C-386"
+     ],
+     "status": "LOCAL_GATE_10_OF_10_READY",
+     "affected_seats": [
+      "AGT-001",
+      "AGT-008",
+      "AGT-005",
+      "AGT-045",
+      "AGT-006",
+      "AGT-007",
+      "AGT-009",
+      "AGT-035",
+      "AGT-048"
+     ],
+     "target_files": [
+      "scripts/check-readonly-policy-gate.py",
+      "configs/pilot-4seat-skill-contracts.json"
+     ],
+     "acceptance": "9/9 越界负向测试（写工具/越界读/意外字段/跨事项/过期凭据/缺审计/隐式会话/换岗/shell绕过）全部拦截"
+    }
+   ]
   },
   "chain_lenses": [
    {

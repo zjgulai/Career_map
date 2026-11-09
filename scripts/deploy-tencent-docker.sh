@@ -20,6 +20,11 @@ while [[ $# -gt 0 ]]; do
     --port) SANBAO_PORT="$2"; shift 2 ;;
     --remote-dir) REMOTE_DIR="$2"; shift 2 ;;
     --https) HTTPS_DOMAIN="$2"; shift 2 ;;
+    --verify-online)
+      ONLINE_URL="${2:-https://native.sagegogo.com}"
+      python3 -I scripts/check-online-production.py --live --base-url "$ONLINE_URL"
+      exit $?
+      ;;
     --dry-run) DRY_RUN=1; shift ;;
     *) echo "未知参数: $1" >&2; exit 2 ;;
   esac

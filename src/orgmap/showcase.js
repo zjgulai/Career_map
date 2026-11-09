@@ -8,7 +8,7 @@
 import * as THREE from './vendor/three.module.min.js';
 import { layoutOrg, layoutNetwork } from './layout.js?v=38';
 import { createPerson, createPlaque, renderAvatarSvg, mulberry32 } from './avatars.js?v=38';
-import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=38';
+import { renderPinAvatarHtml, renderDossierHtml, FLOW_NAME_ZH, SCN_NAME_ZH, PB_NAME_ZH } from './dossier.js?v=40';
 import { buildFlowLines } from './flow.js?v=38';
 import { SAGE_DARK, hexToInt } from './theme.js?v=38';
 import { createHoloEmitterStage } from './holo.js?v=38';
@@ -1103,6 +1103,22 @@ function cTags3dHtml(codesStrOrArr) {
   }).join('');
 }
 
+function highlightSquadIn3d(activeSeats, activeNodes) {
+  if (flow) flow.setPilotNodes(activeNodes && activeNodes.size ? activeNodes : null);
+  beams.setFocus({ seatIds: activeSeats, nodeIds: activeNodes });
+  for (const [sid, mesh] of personBySeat.entries()) {
+    mesh.scale.setScalar(activeSeats && activeSeats.has(sid) ? 1.15 : 1);
+  }
+  for (const l of labels) {
+    const pinned = Boolean(
+      (activeSeats && l.kind === 'seat' && activeSeats.has(l.id)) ||
+      (activeSeats && l.kind === 'gov' && activeSeats.has(l.id)) ||
+      (activeNodes && l.kind === 'node' && activeNodes.has(l.id))
+    );
+    l.el.classList.toggle('pilot-pin', pinned);
+  }
+}
+
   function apply3dChainHighlight() {
     const chains = G.org.chain_lenses || [];
     let activeSeats, activeNodes;
@@ -1262,7 +1278,12 @@ function showDetail(kind, id) {
         return `<p><strong>${cur.stage_id} ${cur.name}</strong> · <code>${cur.artifact_kind}</code><br>
           <small>主责：${cur.producer_seats.join(', ')}｜支持：${cur.injected_seats.join(', ') || '无'}｜sha: ${cur.artifact_sha256}</small></p>
           <div class="art-box">${JSON.stringify(cur.artifact, null, 2)}</div>`;
-      })()}`;
+      })()}
+      <h3>跨仓变更请求单（${(plData.cross_repo_requests || []).length} 张 · 点击点亮受影响席位）</h3>
+      ${(plData.cross_repo_requests || []).map(cr => `<div class="rel" data-cr3d="${cr.id}">
+        <div class="obj"><strong>${cr.id}</strong> · <span class="tag">${cr.target_repo}</span> <span class="tag warn">${cr.priority}</span></div>
+        <div class="meta">${cr.title}（影响 ${cr.affected_seats.length} 席 · 依赖：${cr.depends_on}）</div>
+      </div>`).join('')}`;
     }
   } else if (kind === 'seat' || kind === 'gov') {
     const s = SEAT_MAP.get(id);
@@ -1311,9 +1332,74 @@ function showDetail(kind, id) {
       }).join('')}
       ${allPages.length > 4 ? `<button class="stg-btn" style="margin-top:6px" data-expand-pages3d>展开其余 ${allPages.length - 4} 张设计卡</button>` : ''}`;
     side.scrollTop = 0;
+  } else if (kind === 'flow' || kind === 'scn' || kind === 'pb') {
+    const mapObj = kind === 'flow' ? FLOW_NAME_ZH : (kind === 'scn' ? SCN_NAME_ZH : PB_NAME_ZH);
+    const fieldKey = kind === 'flow' ? 'flows' : (kind === 'scn' ? 'scenarios' : 'shared_playbooks');
+    const attrName = kind === 'flow' ? 'data-flow3d' : (kind === 'scn' ? 'data-scn3d' : 'data-pb3d');
+    const kindTitle = kind === 'flow' ? '跨部门核心业务流' : (kind === 'scn' ? '端到端业务场景' : '共享经营作业手册');
+    const matchedSeats = G.org.seats.filter(s => (((s.dossier || {}).collaboration || {})[fieldKey] || []).includes(id));
+    const activeSeatSet = new Set(matchedSeats.map(s => s.seat_id));
+    const activeNodeSet = new Set();
+    for (const s of matchedSeats) {
+      for (const lk of (s.node_links || [])) activeNodeSet.add(lk.node_id);
+    }
+    highlightSquadIn3d(activeSeatSet, activeNodeSet);
+    const allKeys = Object.keys(mapObj);
+    const byPlane = {};
+    for (const s of matchedSeats) {
+      (byPlane[s.plane] ||= []).push(s);
+    }
+    side.innerHTML = `<div class="stg-bar">
+        ${allKeys.map(k => `<button type="button" class="stg-btn ${k === id ? 'active' : ''}" ${attrName}="${k}">${k}</button>`).join('')}
+      </div>
+      <h2>${mapObj[id] || id}</h2>
+      <p><span class="tag">${kindTitle}</span> <span class="tag warn">协同战队 ${matchedSeats.length} 位数字员工</span> <span class="tag">覆盖 ${activeNodeSet.size} 个天幕业务节点</span></p>
+      <p>已在 3D 空间点亮参与该${kind === 'flow' ? '业务流' : (kind === 'scn' ? '场景' : '手册')}的全部员工工位与跨层能量光柱。点击下方任意同事可直接飞向其工位：</p>
+      ${Object.entries(byPlane).map(([planeName, list]) => `
+        <h3>${planeName}（${list.length} 人）</h3>
+        ${list.map(s => `<div class="rel" data-jump-seat="${s.seat_id}">
+          <div class="obj">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</div>
+          <div class="meta">${s.title} · ${s.source_group}</div>
+        </div>`).join('')}
+      `).join('')}
+      ${activeNodeSet.size ? `<h3>关联的天幕业务节点（${activeNodeSet.size} 个）</h3>` + [...activeNodeSet].map(nid => {
+        const nd = net.nodes.find(x => x.id === nid);
+        return `<div class="rel" data-jump-node="${nid}"><div class="obj">→ ${nd ? nd.title : nid}</div><div class="meta">${nd ? nd.codes : ''}</div></div>`;
+      }).join('') : ''}`;
+    side.scrollTop = 0;
+  } else if (kind === 'cr') {
+    const crs = plData.cross_repo_requests || [];
+    const cr = crs.find(x => x.id === id) || crs[0];
+    if (!cr) return;
+    const activeSeatSet = new Set(cr.affected_seats || []);
+    const activeNodeSet = new Set();
+    for (const sid of activeSeatSet) {
+      const s = SEAT_MAP.get(sid);
+      if (s) for (const lk of (s.node_links || [])) activeNodeSet.add(lk.node_id);
+    }
+    highlightSquadIn3d(activeSeatSet, activeNodeSet);
+    side.innerHTML = `<div class="stg-bar">
+        ${crs.map(x => `<button type="button" class="stg-btn ${x.id === cr.id ? 'active' : ''}" data-cr3d="${x.id}">${x.id}</button>`).join('')}
+      </div>
+      <h2>${cr.id} · ${cr.title}</h2>
+      <p><span class="tag">目标仓：${cr.target_repo}</span> <span class="tag warn">优先级：${cr.priority}</span> <span class="tag">前置依赖：${cr.depends_on}</span></p>
+      <p><strong>决策依据：</strong>${cTags3dHtml(cr.basis)} ｜ <strong>当前状态：</strong><code>${cr.status}</code></p>
+      <div class="art-box" style="white-space:normal">
+        <div><strong>验收判据：</strong>${cr.acceptance}</div>
+        <div style="margin-top:6px"><strong>目标文件：</strong>${(cr.target_files || []).map(f => `<code>${f}</code>`).join(' ')}</div>
+      </div>
+      <h3>受影响席位 / 规则碑（${cr.affected_seats.length} 个 · 已在 3D 空间高亮）</h3>
+      ${cr.affected_seats.map(sid => {
+        const m = SEAT_MAP.get(sid);
+        return `<div class="rel" data-jump-seat="${sid}">
+          <div class="obj">→ ${sid} ${m ? m.alias : ''} · ${m ? m.title : ''}</div>
+          <div class="meta">${m ? m.slot_id + ' ' + m.slot_title : ''}</div>
+        </div>`;
+      }).join('')}`;
+    side.scrollTop = 0;
   }
 
-  apply3dChainHighlight();
+  if (kind === 'pilot') apply3dChainHighlight();
   // 注入深链分享栏
   if (selected3d && !side.querySelector('.share-bar')) {
     const sb = document.createElement('div');
@@ -1344,6 +1430,36 @@ function showDetail(kind, id) {
   side.querySelectorAll('[data-cid3d]').forEach(el => el.addEventListener('click', ev => {
     ev.stopPropagation();
     showDetail('decision', el.dataset.cid3d);
+  }));
+  side.querySelectorAll('[data-flow3d]').forEach(el => el.addEventListener('click', ev => {
+    ev.stopPropagation();
+    if (!orgOnly.visible) switchView('cosmos');
+    showDetail('flow', el.dataset.flow3d);
+  }));
+  side.querySelectorAll('[data-scn3d]').forEach(el => el.addEventListener('click', ev => {
+    ev.stopPropagation();
+    if (!orgOnly.visible) switchView('cosmos');
+    showDetail('scn', el.dataset.scn3d);
+  }));
+  side.querySelectorAll('[data-pb3d]').forEach(el => el.addEventListener('click', ev => {
+    ev.stopPropagation();
+    if (!orgOnly.visible) switchView('cosmos');
+    showDetail('pb', el.dataset.pb3d);
+  }));
+  side.querySelectorAll('[data-chain3d-jump]').forEach(el => el.addEventListener('click', ev => {
+    ev.stopPropagation();
+    chainId3d = el.dataset.chain3dJump;
+    pilotStage3d = 'ALL';
+    pilotMode = true;
+    document.querySelector('#pilot3d-btn')?.classList.add('active');
+    pilotRingGroup.visible = true;
+    if (netGroup.userData.pilotRings) netGroup.userData.pilotRings.visible = true;
+    showDetail('pilot', 'FLOW-02-SCN-002');
+  }));
+  side.querySelectorAll('[data-cr3d]').forEach(el => el.addEventListener('click', ev => {
+    ev.stopPropagation();
+    if (!orgOnly.visible) switchView('cosmos');
+    showDetail('cr', el.dataset.cr3d);
   }));
   side.querySelectorAll('[data-card3d-file]').forEach(el => el.addEventListener('click', () => {
     openCardLightbox(el.dataset.card3dFile, el.dataset.card3dTitle || '');
@@ -1728,6 +1844,10 @@ function buildShareQuery() {
     if (selected3d.kind === 'seat' || selected3d.kind === 'gov') q.set('seat', selected3d.id);
     else if (selected3d.kind === 'node') q.set('node', selected3d.id);
     else if (selected3d.kind === 'decision') q.set('c', selected3d.id);
+    else if (selected3d.kind === 'flow') q.set('flow', selected3d.id);
+    else if (selected3d.kind === 'scn') q.set('scn', selected3d.id);
+    else if (selected3d.kind === 'pb') q.set('pb', selected3d.id);
+    else if (selected3d.kind === 'cr') q.set('cr', selected3d.id);
     else if (selected3d.kind === 'pilot') {
       q.set('chain', chainId3d);
       if (pilotStage3d && pilotStage3d !== 'ALL') q.set('stg', pilotStage3d);
@@ -1744,7 +1864,7 @@ function syncUrlState() {
   } catch (_) {}
 }
 
-const hasDeepTarget = Boolean(params.get('seat') || params.get('node') || params.get('c') || params.get('chain') || params.get('card'));
+const hasDeepTarget = Boolean(params.get('seat') || params.get('node') || params.get('c') || params.get('chain') || params.get('flow') || params.get('scn') || params.get('pb') || params.get('cr') || params.get('card'));
 if (params.get('view') && VIEW_PRESETS[params.get('view')]) {
   switchView(params.get('view'));
   if (STILL_MODE) tweenCamera(VIEW_PRESETS[params.get('view')], 0);
@@ -1776,6 +1896,14 @@ if (params.get('seat')) {
   }
 } else if (params.get('c')) {
   showDetail('decision', params.get('c').toUpperCase());
+} else if (params.get('flow')) {
+  showDetail('flow', params.get('flow').toUpperCase());
+} else if (params.get('scn')) {
+  showDetail('scn', params.get('scn').toUpperCase());
+} else if (params.get('pb')) {
+  showDetail('pb', params.get('pb').toUpperCase());
+} else if (params.get('cr')) {
+  showDetail('cr', params.get('cr').toUpperCase());
 } else if (params.get('chain')) {
   chainId3d = params.get('chain');
   pilotStage3d = params.get('stg') || 'ALL';

@@ -227,3 +227,16 @@ curl -fsS http://127.0.0.1:8080/healthz
   - `src/orgmap/index.html` 底栏新增同容器 `C-376 内部总画布 ↗` 与 `C-068 公开总览图 ↗` 快捷切换入口。
 - **批次 40（FLOW-02 真人签核 CLI 助手与总门禁合龙）**：
   - 新增 `scripts/signoff-pilot-preconditions.py`（`--selftest` 4/4 通过），拦截 `PENDING/TODO/mock` 等占位词，供真人所有者安全签核 `P3/P4/P6` 并已并入 `check-ledger-consistency.py`。
+
+## 17. 批次 41–44 · 业务流/场景协同战队 3D 高亮、三画布双向互联、7 张跨仓请求单台账与公网生产巡检探针
+
+- **批次 41（点击档案卡 `FLOW-01..08` / `SCN-001..020` / `PB-001..008` 芯片实时点亮 3D 协同战队）**：
+  - `src/orgmap/dossier.js` 将参与流程、业务场景、参考手册与参与主线全部升级为可点击芯片按钮；
+  - `src/orgmap/showcase.js` 新增 `highlightSquadIn3d()` 与 `showDetail('flow' | 'scn' | 'pb', id)`，支持 `?flow=FLOW-02`、`?scn=SCN-002`、`?pb=PB-002` 深链直达，点击即可在 3D 空间高亮同流/同场景的全部协同数字员工与跨层光柱，并按四大部门分组展示阵容。
+- **批次 42（三画布双向互联闭环与正式生产域名登记）**：
+  - `deliverables/canvas/sanbao-identity-boundaries.html`（及 canonical 源）顶部新增 `← 返回三宝 3D 空间` 按钮；
+  - `README.md`、`deliverables/SANBAO-RESULTS.md` 正式登记已上线的生产域名 [`https://native.sagegogo.com`](https://native.sagegogo.com)。
+- **批次 43（7 张跨仓变更请求单 `CR-AO-001..002` / `CR-SB-001..005` 入 3D 治理面板）**：
+  - `scripts/build-canvas-graph.py` 编译期合入 7 张跨仓请求单结构化台账（`G.org.pilot_lens.cross_repo_requests`），支持 `?cr=CR-AO-001` 深链与受影响席位 3D 高亮跳转。
+- **批次 44（公网生产巡检探针 `scripts/check-online-production.py` 与线上容器同步更新）**：
+  - 新增 `scripts/check-online-production.py`（`--selftest` 7/7 通过，已并入 `check-ledger-consistency.py`；`--live` 或 `bash scripts/deploy-tencent-docker.sh --verify-online` 实时核验公网 TLS 证书剩余天数、HSTS/SAMEORIGIN 响应头、`/healthz`、63 张脱敏卡与零路径泄漏）。

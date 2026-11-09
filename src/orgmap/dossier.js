@@ -187,7 +187,7 @@ export function renderDossierHtml(meta, opts = {}) {
   const overlayHtml = overlay ? `<div class="dos-rider">
     <div class="dos-rider-head">
       <span>新增职责补充（${esc(overlay.gap)}）</span>
-      <em class="dos-stamp-req" title="跨仓请求单 CR-AO-001">待同步回源档案</em>
+      <button type="button" class="dos-stamp-req dos-chip-btn" data-cr3d="CR-AO-001" title="点击查看跨仓请求单 CR-AO-001 与全部 7 张跨仓契约">CR-AO-001 · 待同步回源档案</button>
     </div>
     <p>${fmtMd(overlay.added_duty)}</p>
     <small>说明：只对「证据齐不齐、预警及不及时、建议有没有依据」负责，不对外部机构决定的结果背锅。</small>
@@ -292,9 +292,11 @@ export function renderDossierHtml(meta, opts = {}) {
     </button>`;
   }).join('');
 
-  const renderNamedChips = (arr, nameMap) => {
+  const renderNamedChips = (arr, nameMap, dataAttr = '') => {
     if (!arr || !arr.length) return `<span class="dos-muted">—</span>`;
-    const fmtItem = x => `<span class="dos-chip" title="${esc(x)}">${esc(nameMap[x] || x)}</span>`;
+    const fmtItem = x => dataAttr
+      ? `<button type="button" class="dos-chip dos-chip-btn" ${dataAttr}="${esc(x)}" title="点击在 3D 空间点亮参与「${esc(nameMap[x] || x)}」的全部协同同事">${esc(nameMap[x] || x)}</button>`
+      : `<span class="dos-chip" title="${esc(x)}">${esc(nameMap[x] || x)}</span>`;
     const head = arr.slice(0, 3).map(fmtItem).join('');
     if (arr.length <= 3) return head;
     const tail = arr.slice(3).map(fmtItem).join('');
@@ -327,10 +329,10 @@ export function renderDossierHtml(meta, opts = {}) {
     <div class="dos-eyebrow">${isMgt ? '管理层规则对接方（通过合同与配额交接，不拉群闲聊）' : '平时最常配合的同事（点击头像可直接跳转）'}</div>
     <div class="dos-peers-grid">${peersHtml || '<span class="dos-muted">无固定点对点协作</span>'}</div>
     <dl class="dos-ledger">
-      <dt>${isMgt ? '管理范围' : '参与主线'}</dt><dd>${isMgt ? '<span class="dos-muted">不进入具体工单，只通过规则版本与资源配额生效</span>' : ((meta.chains || []).length ? meta.chains.map(c => `<span class="dos-chip">${esc(CHAIN_NAME_ZH[c] || c)}</span>`).join('') : '<span class="dos-muted">跨主线按任务调入</span>')}</dd>
-      <dt>参与流程</dt><dd>${renderNamedChips(collab.flows, FLOW_NAME_ZH)}</dd>
-      <dt>业务场景</dt><dd>${renderNamedChips(collab.scenarios, SCN_NAME_ZH)}</dd>
-      <dt>参考手册</dt><dd>${renderNamedChips(collab.shared_playbooks, PB_NAME_ZH)}</dd>
+      <dt>${isMgt ? '管理范围' : '参与主线'}</dt><dd>${isMgt ? '<span class="dos-muted">不进入具体工单，只通过规则版本与资源配额生效</span>' : ((meta.chains || []).length ? meta.chains.map(c => `<button type="button" class="dos-chip dos-chip-btn" data-chain3d-jump="${esc(c)}" title="点击进入 ${esc(CHAIN_NAME_ZH[c] || c)} 3D 分步走查">${esc(CHAIN_NAME_ZH[c] || c)}</button>`).join('') : '<span class="dos-muted">跨主线按任务调入</span>')}</dd>
+      <dt>参与流程</dt><dd>${renderNamedChips(collab.flows, FLOW_NAME_ZH, 'data-flow3d')}</dd>
+      <dt>业务场景</dt><dd>${renderNamedChips(collab.scenarios, SCN_NAME_ZH, 'data-scn3d')}</dd>
+      <dt>参考手册</dt><dd>${renderNamedChips(collab.shared_playbooks, PB_NAME_ZH, 'data-pb3d')}</dd>
     </dl>
     <div class="dos-mode-pair">
       <div><span class="dos-eyebrow">单独接活时怎么做</span><p>${isMgt ? '按周/月/季管理例会运行，只看汇总指标，输出决策包。' : '接收范围、截止时间和验收人明确的独立任务单，完成后交指定验收人。'}</p></div>

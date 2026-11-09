@@ -21,8 +21,8 @@
 ## 浏览画布与组织索引
 
 - **公开设计地图**：打开 [公开画布](docs/index.html)。
-- **三宝一体化 3D 组织与经营网络空间（设计态原型）**：
-  - [进入一体化 3D 组织与经营空间](src/orgmap/index.html)（默认天地同屏：天幕 20 个经营节点 + 地面 50 个员工工位 + 38 条跨层能量光柱 + 选择性辉光 + 前庭 3D 全息分身）
+- **三宝一体化 3D 组织与经营网络空间（线上生产环境已上线：[`https://native.sagegogo.com`](https://native.sagegogo.com)）**：
+  - [线上生产入口 `https://native.sagegogo.com`](https://native.sagegogo.com) ｜ [本地入口 `src/orgmap/index.html`](src/orgmap/index.html)（默认天地同屏：天幕 20 个经营节点 + 地面 50 个员工工位 + 38 条跨层能量光柱 + 选择性辉光 + 前庭 3D 全息分身）
   - [直接打开平面俯视验收视角](src/orgmap/index.html?view=plan)（88° 垂直俯视读图与 `?audit=1` C-032 可读性自检）
   - [架构说明与门禁命令](src/orgmap/README.md)
 
