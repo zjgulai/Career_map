@@ -1103,6 +1103,49 @@ function cTags3dHtml(codesStrOrArr) {
   }).join('');
 }
 
+function computeSkillHeatmapStats() {
+  let totalDirect = 0, totalPartial = 0, totalCand = 0, totalGap = 0;
+  const readySeats = [], partialSeats = [], gapSeats = [];
+  const tierBySeat = new Map();
+
+  for (const s of G.org.seats) {
+    const skills = ((s.dossier || {}).skills) || [];
+    const ctMap = new Map((s.skill_contracts || []).map(c => [c.l3_name, c]));
+    let d = 0, p = 0, c = 0, g = 0;
+    for (const sk of skills) {
+      const ct = ctMap.get(sk.name);
+      const k = ct ? ct.kind : sk.kind;
+      if (k === 'direct') { d++; totalDirect++; }
+      else if (k === 'candidate_filled') { c++; totalCand++; }
+      else if (k === 'partial') { p++; totalPartial++; }
+      else { g++; totalGap++; }
+    }
+    const row = { seat: s, d, p, c, g, total: skills.length };
+    if (p === 0 && g === 0) {
+      readySeats.push(row);
+      tierBySeat.set(s.seat_id, 'READY');
+    } else if (d > 0) {
+      partialSeats.push(row);
+      tierBySeat.set(s.seat_id, 'PARTIAL');
+    } else {
+      gapSeats.push(row);
+      tierBySeat.set(s.seat_id, 'GAP');
+    }
+  }
+  return {
+    totalSkills: totalDirect + totalPartial + totalCand + totalGap,
+    totalDirect,
+    totalPartial,
+    totalCand,
+    totalGap,
+    readySeats,
+    partialSeats,
+    gapSeats,
+    tierBySeat,
+  };
+}
+const SKILL_HEATMAP = computeSkillHeatmapStats();
+
 function highlightSquadIn3d(activeSeats, activeNodes) {
   if (flow) flow.setPilotNodes(activeNodes && activeNodes.size ? activeNodes : null);
   beams.setFocus({ seatIds: activeSeats, nodeIds: activeNodes });
@@ -1125,6 +1168,15 @@ function highlightSquadIn3d(activeSeats, activeNodes) {
     if (chainId3d === 'reuse') {
       activeSeats = new Set(G.org.seats.filter(s => (s.chains || []).length >= 2).map(s => s.seat_id));
       activeNodes = new Set(net.nodes.filter(n => (n.chains || []).length >= 2).map(n => n.id));
+    } else if (chainId3d === 'skill-heatmap') {
+      const list = pilotStage3d === 'READY'
+        ? SKILL_HEATMAP.readySeats
+        : (pilotStage3d === 'PARTIAL' ? SKILL_HEATMAP.partialSeats : (pilotStage3d === 'GAP' ? SKILL_HEATMAP.gapSeats : [...SKILL_HEATMAP.readySeats, ...SKILL_HEATMAP.partialSeats]));
+      activeSeats = new Set(list.map(r => r.seat.seat_id));
+      activeNodes = new Set();
+      for (const r of list) {
+        for (const lk of (r.seat.node_links || [])) activeNodes.add(lk.node_id);
+      }
     } else if (chainId3d !== 'chain-01') {
       const cl = chains.find(c => c.id === chainId3d) || chains[1];
       const curStg = pilotStage3d !== 'ALL' ? (cl.stages || []).find(s => s.id === pilotStage3d) : null;
@@ -1147,6 +1199,10 @@ function highlightSquadIn3d(activeSeats, activeNodes) {
     for (const l of labels) {
       const pinned = pilotMode && ((l.kind === 'seat' && activeSeats.has(l.id)) || (l.kind === 'node' && activeNodes.has(l.id)));
       l.el.classList.toggle('pilot-pin', pinned);
+      const skTier = pilotMode && chainId3d === 'skill-heatmap' && l.kind === 'seat' ? SKILL_HEATMAP.tierBySeat.get(l.id) : null;
+      l.el.classList.toggle('skill-ready', skTier === 'READY');
+      l.el.classList.toggle('skill-partial', skTier === 'PARTIAL');
+      l.el.classList.toggle('skill-gap', skTier === 'GAP');
     }
   }
 
@@ -1195,8 +1251,32 @@ function showDetail(kind, id) {
     const cbar = `<div class="stg-bar">
       ${chains.map(c => `<button type="button" class="stg-btn ${chainId3d === c.id ? 'active' : ''}" data-chain3d="${c.id}">${c.code}</button>`).join('')}
       <button type="button" class="stg-btn ${chainId3d === 'reuse' ? 'active' : ''}" data-chain3d="reuse">跨链复用</button>
+      <button type="button" class="stg-btn ${chainId3d === 'skill-heatmap' ? 'active' : ''}" data-chain3d="skill-heatmap">技能供给热力</button>
     </div>`;
-    if (chainId3d === 'reuse') {
+    if (chainId3d === 'skill-heatmap') {
+      const sh = SKILL_HEATMAP;
+      const curList = pilotStage3d === 'READY'
+        ? sh.readySeats
+        : (pilotStage3d === 'PARTIAL' ? sh.partialSeats : (pilotStage3d === 'GAP' ? sh.gapSeats : [...sh.readySeats, ...sh.partialSeats, ...sh.gapSeats]));
+      side.innerHTML = `${cbar}<h2>50 席技能供给成熟度热力（01-skill-matrix）</h2>
+        <div class="dos-sk-bar" style="height:7px;margin:8px 0">
+          <i style="flex:${sh.totalDirect};background:var(--dos-direct)"></i>
+          <i style="flex:${sh.totalCand + sh.totalPartial};background:var(--dos-brass)"></i>
+          <i style="flex:${sh.totalGap};background:var(--dos-rust)"></i>
+        </div>
+        <p>50 位数字员工共登记 <strong>${sh.totalSkills} 项业务技能</strong>：已有现成工具 <strong>${sh.totalDirect}</strong> 项 · 试点新补 <strong>${sh.totalCand}</strong> 项 · 部分可用 <strong>${sh.totalPartial}</strong> 项 · 待开发补充 <strong>${sh.totalGap}</strong> 项。</p>
+        <div class="stg-bar">
+          <button type="button" class="stg-btn ${pilotStage3d === 'ALL' ? 'active' : ''}" data-stg3d="ALL">全部 (50席)</button>
+          <button type="button" class="stg-btn ${pilotStage3d === 'READY' ? 'active' : ''}" data-stg3d="READY">● 全项就绪 (${sh.readySeats.length}席)</button>
+          <button type="button" class="stg-btn ${pilotStage3d === 'PARTIAL' ? 'active' : ''}" data-stg3d="PARTIAL">◐ 混合可用 (${sh.partialSeats.length}席)</button>
+          <button type="button" class="stg-btn ${pilotStage3d === 'GAP' ? 'active' : ''}" data-stg3d="GAP">○ 全项待补强 (${sh.gapSeats.length}席)</button>
+        </div>
+        <h3>当前筛选岗位（${curList.length} 席 · 点击飞向工位查看技能包）</h3>
+        ${curList.map(r => `<div class="rel" data-jump-seat="${r.seat.seat_id}">
+          <div class="obj">→ ${r.seat.seat_id} ${r.seat.alias} · ${r.seat.slot_id} ${r.seat.slot_title}</div>
+          <div class="meta">技能分布：现成 ${r.d}${r.c ? ` / 试点新补 ${r.c}` : ''} / 部分可用 ${r.p} / 待补充 ${r.g}</div>
+        </div>`).join('')}`;
+    } else if (chainId3d === 'reuse') {
       const s3 = G.org.seats.filter(s => (s.chains || []).length >= 3);
       const s2 = G.org.seats.filter(s => (s.chains || []).length === 2);
       side.innerHTML = `${cbar}<h2>跨主链复用热力（C-011 / C-310）</h2>
@@ -1581,40 +1661,96 @@ if (themeBtn) {
   themeBtn.addEventListener('click', () => apply3dTheme(currentTheme3d === 'dark' ? 'light' : 'dark'));
 }
 
-// ---------- 3D 顶栏全局搜索 (#q3d) ----------
+// ---------- 批次 45：3D 顶栏全索引搜索 (#q3d：员工/251项技能/20节点/8业务流/20场景/8手册/7跨仓单/63画布卡/377决策) ----------
+function searchGlobalIndex(rawQuery) {
+  const q = String(rawQuery || '').trim().toLowerCase();
+  if (!q) return [];
+  const hits = [];
+
+  for (const s of [...G.org.seats, ...G.org.governance]) {
+    const baseHay = `${s.seat_id} ${s.alias} ${s.title} ${s.slot_id} ${s.slot_title} ${s.plane} ${s.source_group}`.toLowerCase();
+    if (baseHay.includes(q)) {
+      hits.push({ kind: s.seat_id.startsWith('MGT-') ? 'gov' : 'seat', id: s.seat_id, label: `${s.seat_id} ${s.alias} · ${s.title}`, sub: `${s.slot_id} · ${s.plane}` });
+      continue;
+    }
+    const skHit = (((s.dossier || {}).skills) || []).find(sk =>
+      sk.name.toLowerCase().includes(q) || (sk.supply || []).some(sp => sp.toLowerCase().includes(q))
+    );
+    if (skHit) {
+      hits.push({ kind: s.seat_id.startsWith('MGT-') ? 'gov' : 'seat', id: s.seat_id, label: `${s.seat_id} ${s.alias} · 技能：${skHit.name}`, sub: `${s.slot_id} · ${s.plane}` });
+    }
+  }
+
+  for (const n of net.nodes) {
+    const hay = `${n.id} ${n.title} ${n.short} ${n.codes}`.toLowerCase();
+    if (hay.includes(q)) hits.push({ kind: 'node', id: n.id, label: `业务节点 · ${n.title}`, sub: n.codes });
+  }
+
+  for (const [fid, fname] of Object.entries(FLOW_NAME_ZH)) {
+    if (fid.toLowerCase().includes(q) || fname.toLowerCase().includes(q)) {
+      hits.push({ kind: 'flow', id: fid, label: `业务流 · ${fname}`, sub: '点击点亮 3D 协同战队' });
+    }
+  }
+
+  for (const [sid, sname] of Object.entries(SCN_NAME_ZH)) {
+    if (sid.toLowerCase().includes(q) || sname.toLowerCase().includes(q)) {
+      hits.push({ kind: 'scn', id: sid, label: `业务场景 · ${sname}`, sub: '点击点亮 3D 协同战队' });
+    }
+  }
+
+  for (const [pid, pname] of Object.entries(PB_NAME_ZH)) {
+    if (pid.toLowerCase().includes(q) || pname.toLowerCase().includes(q)) {
+      hits.push({ kind: 'pb', id: pid, label: `作业手册 · ${pname}`, sub: '点击点亮 3D 协同战队' });
+    }
+  }
+
+  for (const cr of (plData.cross_repo_requests || [])) {
+    const hay = `${cr.id} ${cr.target_repo} ${cr.title} ${(cr.affected_seats || []).join(' ')}`.toLowerCase();
+    if (hay.includes(q)) {
+      hits.push({ kind: 'cr', id: cr.id, label: `跨仓单 ${cr.id} · ${cr.title.slice(0, 22)}`, sub: `${cr.target_repo} · ${cr.priority}` });
+    }
+  }
+
+  for (const c of (G.cards || [])) {
+    const hay = `${c.file} ${c.title || ''}`.toLowerCase();
+    if (hay.includes(q)) {
+      hits.push({ kind: 'card', id: c.file, title: c.title || '', label: `画布卡 · ${c.file.replace('.html', '')}`, sub: (c.title || '').slice(0, 22) });
+    }
+  }
+
+  for (const d of (G.decisions || [])) {
+    if (d.id.toLowerCase().includes(q) || (d.title || '').toLowerCase().includes(q)) {
+      hits.push({ kind: 'decision', id: d.id, label: `${d.id} · ${(d.title || '').slice(0, 26)}`, sub: `L${d.line}` });
+      if (hits.length >= 28) break;
+    }
+  }
+
+  return hits;
+}
+
 const q3dInput = document.querySelector('#q3d');
 const q3dBox = document.querySelector('#q3d-results');
 if (q3dInput && q3dBox) {
   q3dInput.addEventListener('input', () => {
-    const q = q3dInput.value.trim().toLowerCase();
-    if (!q) { q3dBox.hidden = true; q3dBox.innerHTML = ''; return; }
-    const hits = [];
-    for (const s of [...G.org.seats, ...G.org.governance]) {
-      const hay = `${s.seat_id} ${s.alias} ${s.title} ${s.slot_id} ${s.slot_title} ${s.plane} ${s.source_group}`.toLowerCase();
-      if (hay.includes(q)) hits.push({ kind: s.seat_id.startsWith('MGT-') ? 'gov' : 'seat', id: s.seat_id, label: `${s.seat_id} ${s.alias} · ${s.title}`, sub: `${s.slot_id} · ${s.plane}` });
-    }
-    for (const n of net.nodes) {
-      const hay = `${n.id} ${n.title} ${n.short} ${n.codes}`.toLowerCase();
-      if (hay.includes(q)) hits.push({ kind: 'node', id: n.id, label: `业务节点 · ${n.title}`, sub: n.codes });
-    }
-    for (const d of (G.decisions || [])) {
-      if (d.id.toLowerCase().includes(q) || (d.title || '').toLowerCase().includes(q)) {
-        hits.push({ kind: 'decision', id: d.id, label: `${d.id} · ${(d.title || '').slice(0, 26)}`, sub: `L${d.line}` });
-        if (hits.length >= 24) break;
-      }
-    }
+    const hits = searchGlobalIndex(q3dInput.value);
+    if (!q3dInput.value.trim()) { q3dBox.hidden = true; q3dBox.innerHTML = ''; return; }
     if (!hits.length) {
       q3dBox.innerHTML = `<div class="q-item"><span>无匹配结果</span></div>`;
       q3dBox.hidden = false;
       return;
     }
-    q3dBox.innerHTML = hits.slice(0, 18).map((h, i) =>
+    const topHits = hits.slice(0, 20);
+    q3dBox.innerHTML = topHits.map((h, i) =>
       `<div class="q-item" data-idx="${i}"><span>${h.label}</span><small>${h.sub}</small></div>`
     ).join('');
     q3dBox.hidden = false;
     q3dBox.querySelectorAll('.q-item').forEach((el, i) => el.addEventListener('click', () => {
-      const h = hits[i];
+      const h = topHits[i];
       q3dBox.hidden = true;
+      if (h.kind === 'card') {
+        openCardLightbox(h.id, h.title || '');
+        return;
+      }
       if (h.kind === 'seat') {
         if (!orgOnly.visible) switchView('cosmos');
         const seatBox = org.seats.find(x => x.id === h.id);
@@ -1623,11 +1759,22 @@ if (q3dInput && q3dBox) {
         if (!netGroup.visible) switchView('cosmos');
         const nd = net.nodes.find(x => x.id === h.id);
         if (nd) tweenCamera({ radius: 1580, target: [FCX - 800 + nd.x + nd.w / 2, SKY_Y + 40, FCZ - 800 + nd.y + nd.h / 2] });
+      } else if (h.kind === 'flow' || h.kind === 'scn' || h.kind === 'pb' || h.kind === 'cr') {
+        if (!orgOnly.visible) switchView('cosmos');
       }
       showDetail(h.kind, h.id);
     }));
   });
 }
+
+// 批次 47：底栏三画布链接支持直接页内弹出毛玻璃预览舱
+document.querySelectorAll('[data-lightbox-url]').forEach(a => {
+  a.addEventListener('click', e => {
+    if (e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    openCardLightbox(a.dataset.lightboxUrl, a.dataset.lightboxTitle || '');
+  });
+});
 
 document.querySelector('#toggle-rotate').addEventListener('click', e => {
   autoRotate = !autoRotate;
@@ -1940,7 +2087,7 @@ if (sideToggleBtn) {
 }
 
 window.__sc = {
-  renderer, scene, camera, orbit, VIEW_PRESETS, tweenCamera, switchView, showDetail, apply3dTheme, holoStage, beams, bloom, audit3d, triggerLowPowerFallback, applyPinchDelta,
+  renderer, scene, camera, orbit, VIEW_PRESETS, tweenCamera, switchView, showDetail, apply3dTheme, holoStage, beams, bloom, audit3d, triggerLowPowerFallback, applyPinchDelta, searchGlobalIndex, SKILL_HEATMAP,
   getStats: () => ({
     view: stage.dataset.view,
     theme: currentTheme3d,

@@ -36,6 +36,9 @@ function ensureModal() {
 }
 
 function resolveCardCandidateUrls(file) {
+  if (/^(\.\.?\/|\/|https?:\/\/)/.test(file)) {
+    return [file];
+  }
   const g = typeof window !== 'undefined' ? window.SANBAO_GRAPH : null;
   const customBase = (g && g.local_card_base) || new URLSearchParams(location.search).get('card_base') || '';
   const urls = [];
@@ -78,7 +81,8 @@ function renderCardFallback(m, file, title, url) {
 export async function openCardLightbox(file, title = '') {
   const m = ensureModal();
   const candidates = resolveCardCandidateUrls(file);
-  m.querySelector('#clb-title').textContent = title ? `${file.replace('.html', '')} · ${title}` : file;
+  const shortName = file.includes('/') ? file.split('/').pop().replace('.html', '') : file.replace('.html', '');
+  m.querySelector('#clb-title').textContent = title ? `${shortName} · ${title}` : shortName;
   m.querySelector('#clb-ext').href = candidates[0];
   const fb = m.querySelector('#clb-fallback');
   const fr = m.querySelector('#clb-frame');

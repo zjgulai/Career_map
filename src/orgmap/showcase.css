@@ -511,3 +511,17 @@ body[data-theme="light"] .dos-chip-btn:hover {
   color: #ffffff !important;
   background: #396397 !important;
 }
+
+/* ---------- 批次 46：3D 技能供给成熟度三档热力描边 ---------- */
+.lbl.seat.skill-ready {
+  border-color: #8adac4 !important;
+  box-shadow: 0 0 0 1.5px rgba(138, 218, 196, 0.72), 0 0 16px rgba(138, 218, 196, 0.32) !important;
+}
+.lbl.seat.skill-partial {
+  border-color: #edb76c !important;
+  box-shadow: 0 0 0 1.5px rgba(237, 183, 108, 0.68), 0 0 16px rgba(237, 183, 108, 0.28) !important;
+}
+.lbl.seat.skill-gap {
+  border-color: #f19b9b !important;
+  box-shadow: 0 0 0 1.5px rgba(241, 155, 155, 0.65), 0 0 14px rgba(241, 155, 155, 0.24) !important;
+}

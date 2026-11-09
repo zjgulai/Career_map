@@ -240,3 +240,16 @@ curl -fsS http://127.0.0.1:8080/healthz
   - `scripts/build-canvas-graph.py` 编译期合入 7 张跨仓请求单结构化台账（`G.org.pilot_lens.cross_repo_requests`），支持 `?cr=CR-AO-001` 深链与受影响席位 3D 高亮跳转。
 - **批次 44（公网生产巡检探针 `scripts/check-online-production.py` 与线上容器同步更新）**：
   - 新增 `scripts/check-online-production.py`（`--selftest` 7/7 通过，已并入 `check-ledger-consistency.py`；`--live` 或 `bash scripts/deploy-tencent-docker.sh --verify-online` 实时核验公网 TLS 证书剩余天数、HSTS/SAMEORIGIN 响应头、`/healthz`、63 张脱敏卡与零路径泄漏）。
+
+## 18. 批次 45–48 · 全索引全局搜索、50 席技能供给成熟度 3D 热力镜头、底栏三画布页内全屏舱与生产同步
+
+- **批次 45（`#q3d` 全索引全局搜索 `searchGlobalIndex`）**：
+  - 搜索范围从「员工/节点/C决策」扩展为 **8 类全索引**：53 席员工与规则碑、**251 项岗位业务技能名称与底层技能包 ID**、20 个天幕节点、8 条业务流（`FLOW-01..08`）、20 个业务场景（`SCN-001..020`）、8 本作业手册（`PB-001..008`）、7 张跨仓请求单（`CR-AO/SB`）、63 张画布卡与 377 条 C 决策；
+  - 点击搜索结果可一键触发 3D 协同战队高亮、工位飞跃或画布卡页内预览舱。
+- **批次 46（50 席技能供给成熟度 3D 热力镜头 `?chain=skill-heatmap`）**：
+  - `src/orgmap/showcase.js` 新增 `computeSkillHeatmapStats()` 与 `skill-heatmap` 镜头，对齐交接包 `01-skill-matrix.md` 汇总全站 251 项技能（已有现成工具 / 试点新补 / 部分可用 / 待开发补充）；
+  - 支持按 `全部 / ● 工具就绪 / ◐ 主力可用 / ○ 待补缺口` 四档筛选并在 3D 空间为员工名片渲染三色热力描边（`.skill-ready / .skill-partial / .skill-gap`）。
+- **批次 47（底栏 C-376 内部总画布与 C-068 公开总览图页内毛玻璃预览舱）**：
+  - `src/orgmap/lightbox.js` 支持相对/绝对 URL 直接预览；点击底栏 `C-376 内部总画布 ↗` 或 `C-068 公开总览图 ↗` 直接在 3D 空间上方弹出全屏毛玻璃预览舱，`ESC` 一键返回 3D 现场。
+- **批次 48（视觉契约门禁升级与 `https://native.sagegogo.com` 生产环境同步热更新）**：
+  - `check-orgmap-visual-contract.py --selftest`（11/11）、`check-ledger-consistency.py`（22/22）与 `check-online-production.py --live` 全绿通过。
