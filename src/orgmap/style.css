@@ -227,3 +227,17 @@ main{flex:1;display:flex;min-height:0}
 .dos-colophon-dl code{font-size:12px;overflow-wrap:anywhere}
 .dos-final-stamp{font-family:var(--dos-mono);font-size:12px;text-align:center;padding:4px 8px;border:1px solid var(--dos-accent);
   color:var(--dos-brass-ink);background:var(--dos-brass-wash);border-radius:8px}
+
+/* 页内毛玻璃卡片预览舱 */
+.card-lightbox{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:24px}
+.card-lightbox[hidden]{display:none !important}
+.clb-backdrop{position:absolute;inset:0;background:rgba(20,36,58,0.52);backdrop-filter:blur(6px)}
+.clb-dialog{position:relative;z-index:1;width:min(1260px,94vw);height:min(840px,90vh);display:flex;flex-direction:column;
+  background:#ffffff;border:1px solid var(--line);border-radius:14px;box-shadow:0 24px 64px rgba(20,36,58,0.28);overflow:hidden}
+.clb-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 16px;background:#f4f7fb;border-bottom:1px solid var(--line);font-size:13px;color:var(--ink)}
+.clb-badge{font-size:12px;padding:2px 8px;border-radius:999px;background:#eef5fc;color:var(--accent);margin-right:8px;border:1px solid #c2d8ec}
+.clb-actions{display:flex;gap:8px;align-items:center}
+.clb-btn{font:inherit;font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:8px;background:#ffffff;color:var(--ink);cursor:pointer;text-decoration:none}
+.clb-btn:hover{border-color:var(--accent);color:var(--accent)}
+.clb-body{flex:1;background:#ffffff}
+#clb-frame{width:100%;height:100%;border:0;display:block}

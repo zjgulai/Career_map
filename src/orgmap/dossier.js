@@ -2,7 +2,7 @@
 // 同时服务 2D 浅色工作视图（theme='light'）与 3D 深色展示视图（theme='dark'）。
 // 零 Three.js 依赖：通过 plaque.js 渲染 MGT T4 规则碑，确保 2D 工作视图不加载 three.module.min.js。
 
-import { renderPlaqueSvg } from './plaque.js?v=37';
+import { renderPlaqueSvg } from './plaque.js?v=38';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'

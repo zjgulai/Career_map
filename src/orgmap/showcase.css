@@ -196,3 +196,65 @@ code{font-size:12px;color:#b8cce3}
   background:transparent;color:#aab8ca;cursor:pointer;white-space:nowrap;transition:all .15s ease}
 .dock-btn:hover{color:#f4f7fb;background:rgba(57,99,151,0.28);border-color:#396397}
 .dock-btn.active{background:#396397;color:#ffffff;border-color:#aec8e2;box-shadow:0 0 12px rgba(116,191,232,0.32)}
+
+/* ---------- 批次 25-27：极昼冰蓝 3D 主题切换 + 全局搜索 + 页内卡片预览舱 ---------- */
+body[data-theme="light"]{
+  --ink:#202b38;--muted:#526171;--bg:#eef3f9;--panel:#f4f7fb;--line:#dce5ef;
+  --cyan:#396397;--amber:#935011;--gray:#63758a;--titanium:#396397;--action:#396397;
+  --dos-paper:#edf3f9;--dos-card:#ffffff;--dos-card-2:#f4f7fb;
+  --dos-ink:#202b38;--dos-ink-2:#26384d;--dos-muted:#526171;
+  --dos-line:#dce5ef;--dos-hairline:#e4e9ef;
+  --dos-accent:#246b50;--dos-accent-wash:#eaf5ee;
+  --dos-brass:#396397;--dos-brass-ink:#14243a;--dos-brass-wash:#e7f1fb;
+  --dos-rust:#b44949;--dos-rust-ink:#8f3232;--dos-rust-wash:#fbeded;
+  --dos-direct:#246b50;--dos-partial:#935011;--dos-gap:#b44949;--dos-candidate:#396397;
+  --dos-portrait-ring:#aec8e2;--dos-portrait-keyline:#396397;
+}
+body[data-theme="light"] .topbar{background:rgba(255,255,255,0.94);border-bottom-color:#dce5ef}
+body[data-theme="light"] .brand strong{color:#202b38}
+body[data-theme="light"] nav button,body[data-theme="light"] #toggle-rotate,body[data-theme="light"] #closeup-btn,body[data-theme="light"] #pilot3d-btn,body[data-theme="light"] #theme-btn{background:#ffffff;color:#526171;border-color:#dce5ef}
+body[data-theme="light"] nav button.active,body[data-theme="light"] #toggle-rotate.active,body[data-theme="light"] #closeup-btn.active{background:#396397;color:#ffffff;border-color:#396397}
+body[data-theme="light"] #stage{background:radial-gradient(ellipse at 70% 20%,rgba(174,200,226,0.45),transparent 55%),#dfe9f5}
+body[data-theme="light"] .lbl{background:rgba(255,255,255,0.92);color:#202b38;border-color:#c2d8ec;box-shadow:0 4px 14px rgba(20,36,58,0.12)}
+body[data-theme="light"] .lbl.band{background:#e7f1fb;color:#14243a;border-color:#396397}
+body[data-theme="light"] .lbl.seat{background:rgba(255,255,255,0.95);color:#202b38;border-color:#396397}
+body[data-theme="light"] .lbl.seat small{color:#526171}
+body[data-theme="light"] #zone-dock{background:rgba(255,255,255,0.90);border-color:#dce5ef;box-shadow:0 8px 24px rgba(20,36,58,0.12)}
+body[data-theme="light"] .dock-btn{color:#526171}
+body[data-theme="light"] .dock-btn.active{background:#396397;color:#ffffff}
+body[data-theme="light"] .statusbar{background:#ffffff;border-top-color:#dce5ef}
+body[data-theme="light"] #side h3,body[data-theme="light"] #side strong{color:#202b38}
+body[data-theme="light"] .dos-subnav{background:rgba(244,247,251,0.94)}
+
+#theme-btn{font:inherit;font-size:12px;padding:6px 11px;border:1px solid var(--line);background:#142033;color:var(--muted);border-radius:8px;cursor:pointer;white-space:nowrap}
+#theme-btn:hover{border-color:#aec8e2;color:#f4f7fb}
+.search-wrap{position:relative;flex:1;max-width:310px;min-width:180px}
+#q3d{width:100%;font:inherit;font-size:12px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--dos-card);color:var(--ink)}
+#q3d:focus{outline:2px solid rgba(116,191,232,0.35);border-color:#74bfe8}
+.q-results{position:absolute;left:0;right:0;top:calc(100% + 4px);max-height:320px;overflow:auto;
+  background:var(--dos-card);border:1px solid var(--line);border-radius:8px;box-shadow:0 12px 32px rgba(0,0,0,0.45);z-index:40}
+.q-item{padding:7px 10px;font-size:12px;border-bottom:1px solid var(--dos-hairline);cursor:pointer;display:flex;justify-content:space-between;gap:8px;color:var(--ink)}
+.q-item:last-child{border-bottom:0}
+.q-item:hover{background:var(--dos-accent-wash)}
+.q-item small{color:var(--muted);white-space:nowrap}
+.tag.c-link{cursor:pointer;color:#74bfe8;border-color:#396397}
+.tag.c-link:hover{background:#1b3042;color:#fff}
+.sw.beam{background:linear-gradient(90deg,#74bfe8,#8adac4)}
+.rel{font-size:12px;border-top:1px solid var(--dos-hairline);padding:7px 4px;cursor:pointer}
+.rel:hover{background:var(--dos-accent-wash)}
+.rel .obj{color:var(--ink)}
+.rel .meta{color:var(--muted);font-size:12px}
+
+/* 页内毛玻璃卡片预览舱 */
+.card-lightbox{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:24px}
+.card-lightbox[hidden]{display:none !important}
+.clb-backdrop{position:absolute;inset:0;background:rgba(3,4,8,0.72);backdrop-filter:blur(8px)}
+.clb-dialog{position:relative;z-index:1;width:min(1260px,94vw);height:min(840px,90vh);display:flex;flex-direction:column;
+  background:var(--dos-card);border:1px solid var(--line);border-radius:14px;box-shadow:0 24px 64px rgba(0,0,0,0.65);overflow:hidden}
+.clb-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 16px;background:var(--panel);border-bottom:1px solid var(--line);font-size:13px;color:var(--ink)}
+.clb-badge{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--dos-accent-wash);color:var(--dos-accent);margin-right:8px;border:1px solid var(--line)}
+.clb-actions{display:flex;gap:8px;align-items:center}
+.clb-btn{font:inherit;font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:8px;background:var(--dos-card);color:var(--ink);cursor:pointer;text-decoration:none}
+.clb-btn:hover{border-color:#74bfe8}
+.clb-body{flex:1;background:#ffffff}
+#clb-frame{width:100%;height:100%;border:0;display:block}

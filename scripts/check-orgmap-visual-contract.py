@@ -43,6 +43,7 @@ TWO_D_ZERO_THREE_FILES = (
     "plaque.js",
     "theme.js",
     "layout.js",
+    "lightbox.js",
 )
 
 REQUIRED_3D_FEATURES = (
@@ -51,6 +52,9 @@ REQUIRED_3D_FEATURES = (
     "buildHudRings",
     "VIEW_PRESETS",
     "createHoloEmitterStage",
+    "buildCrosswalkBeams",
+    "openCardLightbox",
+    "apply3dTheme",
 )
 
 

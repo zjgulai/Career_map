@@ -1,8 +1,9 @@
 // 正交工作视图：使用 Canvas2D 绘制板面与折线（零 WebGL 依赖），DOM overlay 承载全部文字与交互。
 // three.module.min.js 仅由独立 3D 展示页 showcase.html 加载，工作视图冷启动立降 671KB。
-import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=37';
-import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=37';
-import { SAGE_LIGHT } from './theme.js?v=37';
+import { BOARD, layoutOrg, layoutNetwork } from './layout.js?v=38';
+import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=38';
+import { SAGE_LIGHT } from './theme.js?v=38';
+import { openCardLightbox } from './lightbox.js?v=38';
 
 const G = window.SANBAO_GRAPH;
 const $ = sel => document.querySelector(sel);
@@ -279,6 +280,10 @@ function bindSideEvents(el) {
     applyPilotHighlight();
     side({ kind: 'pilot', id: 'FLOW-02-SCN-002' });
   }));
+  el.querySelectorAll('[data-card-file]').forEach(a => a.addEventListener('click', ev => {
+    ev.preventDefault();
+    openCardLightbox(a.dataset.cardFile, a.dataset.cardTitle || '');
+  }));
   const moreBtn = el.querySelector('[data-expand-pages]');
   if (moreBtn) {
     moreBtn.addEventListener('click', () => {
@@ -534,7 +539,7 @@ function side(sel) {
       const cardMeta = cardByFile.get(f);
       const sub = cardMeta && cardMeta.title ? ` · ${cardMeta.title}` : '';
       return `<div class="rel ${i >= 4 ? 'extra-page' : ''}" ${i >= 4 ? 'hidden' : ''}>
-        <a href="../../.superpowers/brainstorm/38196-1789923100/content/${f}" target="_blank" rel="noopener">${i === 0 ? '主卡 · ' : ''}${f.replace('.html', '')}</a>
+        <a href="../../.superpowers/brainstorm/38196-1789923100/content/${f}" data-card-file="${f}" data-card-title="${(cardMeta && cardMeta.title || '').replace(/"/g, '&quot;')}">${i === 0 ? '主卡（点击页内预览） · ' : ''}${f.replace('.html', '')}</a>
         <div class="meta">${sub.slice(0, 42)}</div>
       </div>`;
     }).join('')}

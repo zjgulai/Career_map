@@ -152,3 +152,18 @@ python3 -m http.server 8765 --bind 127.0.0.1
 - **批次 24（`docs/index.html` 入口挂载与 `skill-library/` 历史路径清零）**：
   - 在 `docs/index.html`（及同步副本 `deliverables/canvas/sanbao-public-map.html`）挂载 2D 组织索引与 3D 数字员工空间入口；
   - 将 `skill-library/` 8 份历史报告中的旧主机路径脱敏为 `<historical-host>`，`check-ledger-consistency.py` 实现零 INFO 噪音全绿通过。
+
+## 12. 批次 25–28 · 一体化 3D 组织与经营网络空间（天地同屏 + 38 条跨层能量光柱 + 页内卡片预览舱 + 双主题热切换）
+
+- **批次 25（天地同屏三层 3D 架构 + 38 条跨层能量光柱 `src/orgmap/beams.js`）**：
+  - 消除原本「办公空间」与「经营网络」互斥隐藏的两张皮设计：将 20 个经营网络节点与 123 条流光飞线抬升至办公区正上方的天幕层（`Y = +320cm`），与地面 50 个数字员工工位（`Y = 0cm`）及北侧 3 座 T4 管理规则碑同屏呈现；
+  - 新增 `src/orgmap/beams.js`：依据 `configs/seat-node-crosswalk.json` 的 38 条真实映射，用单个 `LineSegments` + 单个 `Points`（76 颗流动脉冲粒子，仅 2 个 draw calls）将天幕 20 个业务节点与地面 31 个核心员工工位直接相连，悬停或点击任意员工/节点即点亮其关联跨层光柱。
+- **批次 26（单画布四模态无缝运镜 + 顶栏全局搜索与 C 决策抽屉入 3D）**：
+  - 3D 空间支持一键切换 **`天地同屏` / `办公工位层` / `天幕网络层` / `平面俯视（88° 垂直俯视读图）`** 四种模式；
+  - 顶栏合入全局搜索框（`#q3d`）与完整 `C-xxx` 决策详情抽屉，在 3D 站内即可直接搜索员工、工号、业务节点和 377 条决策记录并自动飞向目标。
+- **批次 27（63 张原始画布卡片页内毛玻璃预览舱 `src/orgmap/lightbox.js` + 深空/极昼 3D 主题热切换）**：
+  - 新增 `src/orgmap/lightbox.js`：点击右侧任意来源画布卡直接在当前页面弹出毛玻璃预览舱（支持 `ESC` 关闭与新标签页打开），无需跳出 3D 现场；
+  - 顶栏新增 `☀ 极昼浅色 / ☾ 深空钛蓝` 实时主题切换按钮（`apply3dTheme`），零刷新同步切换 Three.js 场景背景、雾、曝光、UI 变量与员工深/浅色真实头像。
+- **批次 28（视觉契约门禁升级与性能实测）**：
+  - 天地同屏全开（50 员工 + 20 节点 + 123 飞线 + 38 跨层光柱 + 1,281 体素全息分身）实测 `calls = 122`、`triangles = 69,897`、控制台 `0 Errors`；
+  - `scripts/check-orgmap-visual-contract.py --selftest`（7/7）与 `scripts/check-ledger-consistency.py`（22/22）全部通过。

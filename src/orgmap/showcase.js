@@ -6,12 +6,14 @@
 // 设计态展示，不是运行系统；3 个 MGT 严守 T4 规则碑，不生成人形或工位。
 
 import * as THREE from './vendor/three.module.min.js';
-import { layoutOrg, layoutNetwork } from './layout.js?v=37';
-import { createPerson, createPlaque, renderAvatarSvg, mulberry32 } from './avatars.js?v=37';
-import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=37';
-import { buildFlowLines } from './flow.js?v=37';
-import { SAGE_DARK, hexToInt } from './theme.js?v=37';
-import { createHoloEmitterStage } from './holo.js?v=37';
+import { layoutOrg, layoutNetwork } from './layout.js?v=38';
+import { createPerson, createPlaque, renderAvatarSvg, mulberry32 } from './avatars.js?v=38';
+import { renderPinAvatarHtml, renderDossierHtml } from './dossier.js?v=38';
+import { buildFlowLines } from './flow.js?v=38';
+import { SAGE_DARK, hexToInt } from './theme.js?v=38';
+import { createHoloEmitterStage } from './holo.js?v=38';
+import { buildCrosswalkBeams } from './beams.js?v=38';
+import { openCardLightbox } from './lightbox.js?v=38';
 
 const G = window.SANBAO_GRAPH;
 const stage = document.querySelector('#stage');
@@ -219,10 +221,12 @@ const MAT = {
 // ---------- 分组 ----------
 const archGroup = new THREE.Group();
 const orgOnly = new THREE.Group();
+const SKY_Y = 320;
 const netGroup = new THREE.Group();
-netGroup.position.set(FCX - 800, 12, FCZ - 800);
+netGroup.position.set(FCX - 800, SKY_Y, FCZ - 800);
+const beamGroup = new THREE.Group();
 const lightGroup = new THREE.Group();
-scene.add(archGroup, orgOnly, netGroup, lightGroup);
+scene.add(archGroup, orgOnly, netGroup, beamGroup, lightGroup);
 
 // ---------- 辅助：矩形边框顶点追加到批量 LineSegments ----------
 function pushRectLoop(arr, x0, z0, x1, z1, y) {
@@ -691,10 +695,30 @@ let flow = null;
   netGroup.add(netPilotGroup);
   netGroup.userData.pilotRings = netPilotGroup;
 
+  // 天幕悬浮星图边框
+  const skyBorderPts = [];
+  pushRectLoop(skyBorderPts, 40, 40, 1560, 1560, 0);
+  const skyGeo = new THREE.BufferGeometry();
+  skyGeo.setAttribute('position', new THREE.Float32BufferAttribute(skyBorderPts, 3));
+  const skyLines = new THREE.LineSegments(skyGeo, new THREE.LineBasicMaterial({
+    color: 0x74bfe8, transparent: true, opacity: 0.36, blending: THREE.AdditiveBlending, depthWrite: false
+  }));
+  skyLines.frustumCulled = false;
+  netGroup.add(skyLines);
+
   flow = buildFlowLines(net.nodes, G.network.relations);
   flow.setPixelRatio(PR);
   netGroup.add(flow.group);
 })();
+
+// ---------- 38 条跨层垂直能量光柱（连接 Y=84 地面员工工位 ⇄ Y=320 天幕经营网络节点） ----------
+const beams = buildCrosswalkBeams(org.seats, net.nodes, G.org.seats, {
+  netOffX: FCX - 800,
+  netOffZ: FCZ - 800,
+  skyY: SKY_Y,
+});
+beams.setPixelRatio(PR);
+beamGroup.add(beams.group);
 
 // ---------- 冷银深空灯光系统（对齐 sagegogo.com） ----------
 (function buildLights() {
@@ -764,7 +788,7 @@ function addLabel(html, pos, cls, data, isHtml = false) {
   window.__holoBadgeEl = holoBadgeEl;
   const netOffX = FCX - 800, netOffZ = FCZ - 800;
   for (const nd of net.nodes) addLabel(nd.title,
-    new THREE.Vector3(netOffX + nd.x + nd.w / 2, 82 + (nd.pages ? nd.pages.length : 1) * 6 + 34, netOffZ + nd.y + nd.h / 2),
+    new THREE.Vector3(netOffX + nd.x + nd.w / 2, SKY_Y + 70 + (nd.pages ? nd.pages.length : 1) * 6 + 26, netOffZ + nd.y + nd.h / 2),
     'lbl node', { kind: 'node', id: nd.id });
   for (const s of org.seats) {
     const svg = renderPinAvatarHtml({ ...s, seat_id: s.id, level1: s.level1 }, 'dark', 24);
@@ -789,17 +813,19 @@ labelLayer.addEventListener('click', e => {
 
 // ---------- 预设缓动相机控制器（借鉴 cameraPresetController.ts） ----------
 const VIEW_PRESETS = {
-  org: { fov: 35, theta: Math.PI * 0.25, phi: Math.PI * 0.33, radius: 2550, target: [FCX, 60, FCZ] },
+  cosmos: { fov: 35, theta: Math.PI * 0.24, phi: Math.PI * 0.34, radius: 2780, target: [FCX, 145, FCZ] },
+  org: { fov: 35, theta: Math.PI * 0.25, phi: Math.PI * 0.33, radius: 2480, target: [FCX, 55, FCZ] },
   'org-closeup': { fov: 35, theta: Math.PI * 0.25, phi: Math.PI * 0.36, radius: 1180, target: [FCX, 85, FCZ - 320] },
-  network: { fov: 35, theta: Math.PI * 0.25, phi: Math.PI * 0.38, radius: 2900, target: [FCX, 52, FCZ] },
+  network: { fov: 35, theta: Math.PI * 0.25, phi: Math.PI * 0.36, radius: 2650, target: [FCX, SKY_Y + 40, FCZ] },
+  plan: { fov: 30, theta: 0, phi: 0.04, radius: 3950, target: [FCX, 0, FCZ] },
 };
 
 const camera = new THREE.PerspectiveCamera(35, 1, 10, 12000);
 const orbit = {
-  theta: VIEW_PRESETS.org.theta,
-  phi: VIEW_PRESETS.org.phi,
-  radius: VIEW_PRESETS.org.radius,
-  target: new THREE.Vector3(...VIEW_PRESETS.org.target),
+  theta: VIEW_PRESETS.cosmos.theta,
+  phi: VIEW_PRESETS.cosmos.phi,
+  radius: VIEW_PRESETS.cosmos.radius,
+  target: new THREE.Vector3(...VIEW_PRESETS.cosmos.target),
 };
 let camTween = null;
 let autoRotate = !STILL_MODE;
@@ -879,7 +905,7 @@ stage.addEventListener('pointermove', e => {
   const dx = e.clientX - last.x, dy = e.clientY - last.y;
   moved += Math.abs(dx) + Math.abs(dy);
   orbit.theta -= dx * 0.006;
-  orbit.phi = Math.max(0.12, Math.min(1.48, orbit.phi - dy * 0.005));
+  orbit.phi = Math.max(0.03, Math.min(1.48, orbit.phi - dy * 0.005));
   last = { x: e.clientX, y: e.clientY };
 });
 stage.addEventListener('pointerup', e => {
@@ -902,16 +928,22 @@ function pickAt(clientX, clientY) {
   ptr.x = ((clientX - r.left) / r.width) * 2 - 1;
   ptr.y = -((clientY - r.top) / r.height) * 2 + 1;
   ray.setFromCamera(ptr, camera);
-  const active = stage.dataset.view === 'network' ? netGroup : orgOnly;
-  const hits = ray.intersectObjects(active.children, true);
+  const targets = [];
+  if (netGroup.visible) targets.push(...netGroup.children);
+  if (orgOnly.visible) targets.push(...orgOnly.children);
+  targets.push(...govMeshes);
+  const hits = ray.intersectObjects(targets, true);
   for (const h of hits) {
     const o = h.object;
     if (o.userData && o.userData.kind === 'person') return { kind: 'seat', id: o.userData.seatId };
     if (o.userData && o.userData.kind === 'gov') return { kind: 'gov', id: o.userData.id };
     if (o.isInstancedMesh && o.instanceId != null) {
-      const map = stage.dataset.view === 'network' ? pedestalSeatMap : deskSeatMap;
+      let p = o;
+      let inNet = false;
+      while (p) { if (p === netGroup) { inNet = true; break; } p = p.parent; }
+      const map = inNet ? pedestalSeatMap : deskSeatMap;
       const id = map[o.instanceId];
-      if (id) return stage.dataset.view === 'network' ? { kind: 'node', id } : { kind: 'seat', id };
+      if (id) return inNet ? { kind: 'node', id } : { kind: 'seat', id };
     }
   }
   return null;
@@ -925,14 +957,19 @@ stage.addEventListener('pointermove', e => {
       const [pk, pid] = hovered.split(':');
       if (pk === 'seat') { const p = personBySeat.get(pid); if (p) { p.scale.setScalar(1); p.position.y = 0; } }
       if (flow) flow.setHover(null);
+      if (!selected3d) beams.setFocus({});
     }
     hovered = key;
     if (hit) {
       if (hit.kind === 'seat') {
         const p = personBySeat.get(hit.id);
         if (p) { p.scale.setScalar(1.06); p.position.y = 6; }
+        beams.setFocus({ seatIds: new Set([hit.id]) });
       }
-      if (hit.kind === 'node' && flow) flow.setHover(hit.id);
+      if (hit.kind === 'node') {
+        if (flow) flow.setHover(hit.id);
+        beams.setFocus({ nodeIds: new Set([hit.id]) });
+      }
     }
     stage.style.cursor = hit ? 'pointer' : 'grab';
   }
@@ -945,22 +982,75 @@ stage.addEventListener('click', e => {
 
 // ---------- 详情与全息联动 ----------
 const SEAT_MAP = new Map([...G.org.seats, ...G.org.governance].map(s => [s.seat_id, s]));
+const DECISION_MAP = new Map((G.decisions || []).map(d => [d.id, d]));
+const CARD_MAP = new Map((G.cards || []).map(c => [c.file, c]));
+const REL_LABEL_3D = {
+  direct_reuse: '主责承接该节点',
+  sub_contributor: '提供专业模块支持',
+  evidence_input: '提供事实与数据依据',
+  boundary_contributor: '把控合规与风险边界',
+  readonly_consumer: '只读参考该节点结论',
+  platform_steward: '由平台团队统一维护',
+};
 
 let closeupMode = false;
 let pilotMode = false;
 let pilotStage3d = 'ALL';
 let chainId3d = 'chain-01';
+let currentTheme3d = 'dark';
+let selected3d = null;
+
+function cTags3dHtml(codesStrOrArr) {
+  const list = Array.isArray(codesStrOrArr)
+    ? codesStrOrArr
+    : (codesStrOrArr || '').match(/C-\d{3}/g) || [];
+  return list.map(c => {
+    const d = DECISION_MAP.get(c);
+    const tip = d && d.title ? `${c} · ${d.title}` : c;
+    return `<span class="tag c-link" data-cid3d="${c}" title="${tip.replace(/"/g, '&quot;')}">${c}</span>`;
+  }).join('');
+}
 
 function showDetail(kind, id) {
+  selected3d = kind && id ? { kind, id } : null;
   if (kind === 'seat' || kind === 'gov') {
     holoStage.updateSeatHologram(id);
+    beams.setFocus({ seatIds: new Set([id]) });
     const m = SEAT_MAP.get(id);
     if (m && window.__holoBadgeEl) {
       window.__holoBadgeEl.textContent = `★ 全息投影台：${m.alias} ${m.seat_id} · ${m.title}`;
       window.__holoBadgeEl.dataset.id = m.seat_id;
     }
+  } else if (kind === 'node') {
+    beams.setFocus({ nodeIds: new Set([id]) });
+    if (flow) flow.setHover(id);
+  } else if (kind !== 'pilot') {
+    beams.setFocus({});
   }
-  if (kind === 'pilot') {
+
+  if (kind === 'decision') {
+    const d = DECISION_MAP.get(id);
+    if (!d) { side.innerHTML = `<h2>${id}</h2><p>未找到该决策记录。</p>`; return; }
+    const refNodes = net.nodes.filter(n => (n.codes || '').includes(id));
+    const refSeats = [...G.org.seats, ...G.org.governance].filter(s =>
+      s.slot_basis === id || (s.node_links || []).some(lk => (lk.basis || []).includes(id))
+    );
+    const refRels = G.network.relations.filter(r => (r.codes || []).includes(id));
+    side.innerHTML = `<h2>${d.id} 决策详情</h2>
+      <p style="color:var(--ink);font-weight:600">${d.title || '（无标题摘要）'}</p>
+      <dl class="facts">
+        <dt>台账行号</dt><dd><code>.codex/context-pack.md</code> 第 ${d.line} 行</dd>
+        <dt>关联节点</dt><dd>${refNodes.length} 个业务节点</dd>
+        <dt>关联飞线</dt><dd>${refRels.length} 条协作关系</dd>
+        <dt>关联席位</dt><dd>${refSeats.length} 位数字员工</dd>
+      </dl>
+      ${refNodes.length ? `<h3>关联的经营网络节点</h3>` + refNodes.map(n =>
+        `<div class="rel" data-jump-node="${n.id}"><div class="obj">→ ${n.title}</div><div class="meta">${n.short} · ${n.codes}</div></div>`
+      ).join('') : ''}
+      ${refSeats.length ? `<h3>关联的数字员工席位</h3>` + refSeats.map(s =>
+        `<div class="rel" data-jump-seat="${s.seat_id}"><div class="obj">→ ${s.seat_id} ${s.alias} · ${s.title}</div><div class="meta">${s.slot_id} ${s.slot_title}</div></div>`
+      ).join('') : ''}`;
+  } else if (kind === 'pilot') {
     const chains = G.org.chain_lenses || [];
     const cbar = `<div class="stg-bar">
       ${chains.map(c => `<button type="button" class="stg-btn ${chainId3d === c.id ? 'active' : ''}" data-chain3d="${c.id}">${c.code}</button>`).join('')}
@@ -975,6 +1065,7 @@ function showDetail(kind, id) {
     } else if (chainId3d !== 'chain-01') {
       const cl = chains.find(c => c.id === chainId3d) || chains[1];
       side.innerHTML = `${cbar}<h2>${cl.title}</h2>
+        <p>${cTags3dHtml(cl.basis)}</p>
         <p><strong>核心问题：</strong>${cl.question}</p>
         <h3>反误读停止线</h3>
         ${cl.anti_misreadings.map(m => `<p>• ${m}</p>`).join('')}
@@ -989,18 +1080,18 @@ function showDetail(kind, id) {
       const pg = plData.policy_gate || {};
       const gm = plData.governance_mechanisms || {};
       side.innerHTML = `${cbar}<h2>${plData.title}</h2>
-      <p><span class="tag warn">工程就绪 ${pc.engineering_ready || 0}/7 · 待签核 ${pc.awaiting_human_signoff || 0}/7</span>
-      <span class="tag">Policy Gate ${pg.negative_tests_passed || 10}/10</span><span class="tag">治理机制 ${gm.cases_passed || 16}/${gm.cases_total || 16}</span></p>
-      <p><span class="tag">${plData.active_sessions} 并发 session</span></p>
+      <p><span class="tag warn">启用条件：${pc.engineering_ready || 0} 项已就绪 · ${pc.awaiting_human_signoff || 0} 项待真人确认</span>
+      <span class="tag">越权拦截 ${pg.negative_tests_passed || 10}/10</span><span class="tag">风控机制 ${gm.cases_passed || 16}/${gm.cases_total || 16}</span></p>
+      <p><span class="tag">最多 ${plData.active_sessions} 个并发会话</span></p>
       <p>授权依据：<code>${plData.authorization_ref}</code></p>
-      ${(pre.items || []).length ? `<h3>七项生效前置（P1..P7）</h3>` + pre.items.map(it => {
-        const st = it.state === 'ENGINEERING_READY' ? '工程就绪' : '待真人签核';
+      ${(pre.items || []).length ? `<h3>七项启用条件（P1..P7）</h3>` + pre.items.map(it => {
+        const st = it.state === 'ENGINEERING_READY' ? '已就绪' : '待真人确认';
         return `<p><strong>${it.id} ${it.title}</strong> <span class="tag ${it.state === 'ENGINEERING_READY' ? '' : 'warn'}">${st}</span><br><small>${it.detail}</small></p>`;
       }).join('') : ''}
-      <h3>核心参与席位（${plData.seats.length}）</h3>
+      <h3>核心主责席位（${plData.seats.length}）</h3>
       ${plData.seats.map(s => {
         const meta = SEAT_MAP.get(s.seat_id);
-        return `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${meta ? meta.alias : ''} · ${s.mode}<br><small style="color:#aab8ca">${s.stages.join('/')} · ${s.duty}</small></div>`;
+        return `<div class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${meta ? meta.alias : ''} · ${s.mode}<br><small style="color:var(--muted)">${s.stages.join('/')} · ${s.duty}</small></div>`;
       }).join('')}
       <h3>提供资料与规则支持的岗位（${plData.context_injected_seats.length} 席）</h3>
       ${plData.context_injected_seats.map(s => {
@@ -1027,38 +1118,57 @@ function showDetail(kind, id) {
           return plData.stages.map(st => `<p><strong>${st.id} ${st.name}</strong> · ${st.artifact}<br><small>${st.actor}｜${st.gate}</small></p>`).join('');
         }
         return `<p><strong>${cur.stage_id} ${cur.name}</strong> · <code>${cur.artifact_kind}</code><br>
-          <small>主责：${cur.producer_seats.join(', ')}｜注入：${cur.injected_seats.join(', ') || '无'}｜sha: ${cur.artifact_sha256}</small></p>
+          <small>主责：${cur.producer_seats.join(', ')}｜支持：${cur.injected_seats.join(', ') || '无'}｜sha: ${cur.artifact_sha256}</small></p>
           <div class="art-box">${JSON.stringify(cur.artifact, null, 2)}</div>`;
       })()}`;
     }
   } else if (kind === 'seat' || kind === 'gov') {
     const s = SEAT_MAP.get(id);
     if (!s) return;
-    const REL_LABEL_3D = {
-      direct_reuse: '直接复用主站位',
-      sub_contributor: '内部专业贡献',
-      evidence_input: '来源事实/证据输入',
-      boundary_contributor: '边界条件输入',
-      readonly_consumer: '只读引用',
-      platform_steward: '平台维护侧归集',
-    };
     side.innerHTML = renderDossierHtml(s, {
-      theme: 'dark',
+      theme: currentTheme3d,
       allSeatsMap: SEAT_MAP,
       netNodes: net.nodes,
-      cTagsFn: arr => (Array.isArray(arr) ? arr : []).map(c => `<span class="tag">${c}</span>`).join(''),
+      cTagsFn: cTags3dHtml,
       relLabelMap: REL_LABEL_3D,
     });
     side.scrollTop = 0;
   } else if (kind === 'node') {
     const nd = net.nodes.find(x => x.id === id);
+    if (!nd) return;
+    const rels = net.edges.filter(e => e && (e.source === id || e.target === id));
     const seats = nd.seat_links || [];
+    const allPages = [nd.primary_page, ...(nd.pages || []).filter(f => f !== nd.primary_page)].filter(Boolean);
     side.innerHTML = `<h2>${nd.title}</h2><p>${nd.short}</p>
-      <p><span class="tag">${nd.codes}</span></p>
-      <p>${nd.pages.length} 张卡引用 · 主卡 ${nd.primary_page || '—'}</p>
-      ${seats.length ? `<p><strong>关联席位 / 能力站位（${seats.length}）</strong></p>` + seats.map(s =>
-        `<p class="jump" data-jump3d="seat:${s.seat_id}">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</p>`
-      ).join('') : ''}`;
+      <p>${cTags3dHtml(nd.codes)}</p>
+      <p>${rels.length} 条协作飞线 · ${seats.length} 位关联数字员工 · ${allPages.length} 张画布设计卡</p>
+      <h3>支撑该节点的数字员工（${seats.length} 位 · 已点亮跨层光柱）</h3>
+      ${seats.map(s => `<div class="rel" data-jump-seat="${s.seat_id}">
+        <div class="obj">→ ${s.seat_id} ${s.alias} · ${s.slot_id} ${s.slot_title}</div>
+        <div class="meta">${REL_LABEL_3D[s.relation] || s.relation} · ${s.note}</div>
+        <div>${cTags3dHtml(s.basis)}</div>
+      </div>`).join('')}
+      <h3>上下游协作关系（${rels.length} 条）</h3>
+      ${rels.map(e => {
+        const other = e.source === id ? e.target : e.source;
+        const o = net.nodes.find(x => x.id === other);
+        const dir = e.source === id ? '→' : '←';
+        const kinds = [e.baseline ? '主流程' : '', e.feedback ? '反馈' : ''].filter(Boolean).join(' + ') || '协同';
+        const obj = e.object ? ` · ${e.object}` : '';
+        return `<div class="rel" data-jump-node="${other}"><div class="obj">${dir} ${o ? o.title : other}${obj}</div>
+          <div class="meta">${kinds} · ${(e.codes || []).join(' / ')}</div></div>`;
+      }).join('')}
+      <h3>原始画布设计卡（${allPages.length} 张 · 点击直接在页内预览舱打开）</h3>
+      ${allPages.map((f, i) => {
+        const cardMeta = CARD_MAP.get(f);
+        const sub = cardMeta && cardMeta.title ? ` · ${cardMeta.title}` : '';
+        return `<div class="rel ${i >= 4 ? 'extra-page3d' : ''}" ${i >= 4 ? 'hidden' : ''} data-card3d-file="${f}" data-card3d-title="${(cardMeta && cardMeta.title || '').replace(/"/g, '&quot;')}">
+          <div class="obj" style="color:#74bfe8">${i === 0 ? '★ 主设计卡 · ' : ''}${f.replace('.html', '')}</div>
+          <div class="meta">${sub.slice(0, 44)}</div>
+        </div>`;
+      }).join('')}
+      ${allPages.length > 4 ? `<button class="stg-btn" style="margin-top:6px" data-expand-pages3d>展开其余 ${allPages.length - 4} 张设计卡</button>` : ''}`;
+    side.scrollTop = 0;
   }
 
   function apply3dChainHighlight() {
@@ -1079,6 +1189,7 @@ function showDetail(kind, id) {
       activeNodes = cur ? new Set(cur.target_nodes) : pilotNodeIds;
     }
     if (flow) flow.setPilotNodes(pilotMode ? activeNodes : null);
+    beams.setFocus(pilotMode ? { seatIds: activeSeats, nodeIds: activeNodes } : {});
     for (const [sid, mesh] of personBySeat.entries()) {
       mesh.scale.setScalar(pilotMode && activeSeats.has(sid) ? 1.15 : 1);
     }
@@ -1097,20 +1208,37 @@ function showDetail(kind, id) {
     apply3dChainHighlight();
     showDetail('pilot', 'FLOW-02-SCN-002');
   }));
+  side.querySelectorAll('[data-cid3d]').forEach(el => el.addEventListener('click', ev => {
+    ev.stopPropagation();
+    showDetail('decision', el.dataset.cid3d);
+  }));
+  side.querySelectorAll('[data-card3d-file]').forEach(el => el.addEventListener('click', () => {
+    openCardLightbox(el.dataset.card3dFile, el.dataset.card3dTitle || '');
+  }));
+  const expBtn = side.querySelector('[data-expand-pages3d]');
+  if (expBtn) {
+    expBtn.addEventListener('click', () => {
+      side.querySelectorAll('.extra-page3d').forEach(p => { p.hidden = false; });
+      expBtn.remove();
+    });
+  }
   side.querySelectorAll('[data-jump3d]').forEach(el => el.addEventListener('click', () => {
     const [k, v] = el.dataset.jump3d.split(':');
-    const want = k === 'node' ? 'network' : 'org';
-    if (stage.dataset.view !== want) switchView(want);
     if (k === 'seat') {
+      if (!orgOnly.visible) switchView('cosmos');
       const seatBox = org.seats.find(x => x.id === v);
       if (seatBox) tweenCamera({ radius: Math.min(orbit.radius, 1180), target: [seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2] });
+    } else if (k === 'node') {
+      if (!netGroup.visible) switchView('cosmos');
+      const nd = net.nodes.find(x => x.id === v);
+      if (nd) tweenCamera({ radius: Math.min(orbit.radius, 1650), target: [FCX - 800 + nd.x + nd.w / 2, SKY_Y + 40, FCZ - 800 + nd.y + nd.h / 2] });
     }
     showDetail(k, v);
   }));
   side.querySelectorAll('[data-jump-seat]').forEach(el => el.addEventListener('click', () => {
     const sid = el.dataset.jumpSeat;
     const isGov = sid.startsWith('MGT-');
-    if (stage.dataset.view !== 'org') switchView('org');
+    if (!orgOnly.visible) switchView('cosmos');
     const seatBox = org.seats.find(x => x.id === sid);
     if (seatBox) {
       tweenCamera({ radius: Math.min(orbit.radius, 1180), target: [seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2] });
@@ -1119,33 +1247,47 @@ function showDetail(kind, id) {
   }));
   side.querySelectorAll('[data-jump-node]').forEach(el => el.addEventListener('click', () => {
     const nid = el.dataset.jumpNode;
-    if (stage.dataset.view !== 'network') switchView('network');
+    if (!netGroup.visible) switchView('cosmos');
+    const nd = net.nodes.find(x => x.id === nid);
+    if (nd) tweenCamera({ radius: Math.min(orbit.radius, 1650), target: [FCX - 800 + nd.x + nd.w / 2, SKY_Y + 40, FCZ - 800 + nd.y + nd.h / 2] });
     showDetail('node', nid);
   }));
 }
 
-// ---------- 视图切换 ----------
+// ---------- 四模态空间视图切换（cosmos 天地同屏 / org 办公层 / network 天幕层 / plan 平面俯视） ----------
 function switchView(v) {
   document.querySelectorAll('#views button').forEach(b => b.classList.toggle('active', b.dataset.view === v));
   stage.dataset.view = v;
-  orgOnly.visible = v === 'org';
-  netGroup.visible = v === 'network';
-  const preset = v === 'org' ? (closeupMode ? VIEW_PRESETS['org-closeup'] : VIEW_PRESETS.org) : VIEW_PRESETS.network;
+  const showOrg = v === 'cosmos' || v === 'org' || v === 'plan';
+  const showNet = v === 'cosmos' || v === 'network';
+  const showBeams = v === 'cosmos';
+  orgOnly.visible = showOrg;
+  netGroup.visible = showNet;
+  beamGroup.visible = showBeams;
+  if (v === 'plan') autoRotate = false;
+  const preset = v === 'org'
+    ? (closeupMode ? VIEW_PRESETS['org-closeup'] : VIEW_PRESETS.org)
+    : (VIEW_PRESETS[v] || VIEW_PRESETS.cosmos);
   tweenCamera(preset);
   for (const l of labels) {
-    if (l.kind === 'node') l.shown = v === 'network';
-    if (l.kind === 'seat' || l.kind === 'band' || l.kind === 'sub' || l.kind === 'holo') l.shown = v === 'org';
+    if (l.kind === 'node') l.shown = showNet;
+    if (l.kind === 'seat' || l.kind === 'band' || l.kind === 'sub' || l.kind === 'holo') l.shown = showOrg;
   }
 }
-stage.dataset.view = 'org';
-netGroup.visible = false;
+stage.dataset.view = 'cosmos';
+orgOnly.visible = true;
+netGroup.visible = true;
+beamGroup.visible = true;
+for (const l of labels) {
+  if (l.kind === 'node') l.shown = true;
+}
 document.querySelectorAll('#views button').forEach(btn => btn.addEventListener('click', () => switchView(btn.dataset.view)));
 
 document.querySelector('#closeup-btn').addEventListener('click', e => {
   closeupMode = !closeupMode;
   e.currentTarget.classList.toggle('active', closeupMode);
-  if (stage.dataset.view !== 'org') switchView('org');
-  else tweenCamera(closeupMode ? VIEW_PRESETS['org-closeup'] : VIEW_PRESETS.org);
+  if (stage.dataset.view === 'network') switchView('cosmos');
+  tweenCamera(closeupMode ? VIEW_PRESETS['org-closeup'] : VIEW_PRESETS[stage.dataset.view] || VIEW_PRESETS.cosmos);
 });
 
 document.querySelector('#pilot3d-btn').addEventListener('click', e => {
@@ -1154,6 +1296,7 @@ document.querySelector('#pilot3d-btn').addEventListener('click', e => {
   pilotRingGroup.visible = pilotMode;
   if (netGroup.userData.pilotRings) netGroup.userData.pilotRings.visible = pilotMode;
   if (flow) flow.setPilotNodes(pilotMode ? pilotNodeIds : null);
+  beams.setFocus(pilotMode ? { seatIds: new Set([...pilotCoreIds, ...pilotCtxIds]), nodeIds: pilotNodeIds } : {});
   for (const [sid, mesh] of personBySeat.entries()) {
     const inPilot = pilotCoreIds.has(sid) || pilotCtxIds.has(sid);
     mesh.scale.setScalar(pilotMode && inPilot ? 1.12 : 1);
@@ -1165,6 +1308,77 @@ document.querySelector('#pilot3d-btn').addEventListener('click', e => {
   if (pilotMode) showDetail('pilot', 'FLOW-02-SCN-002');
 });
 
+// ---------- 深空钛蓝 ⇄ 极昼浅色 3D 实时主题切换 ----------
+function apply3dTheme(mode) {
+  currentTheme3d = mode === 'light' ? 'light' : 'dark';
+  document.body.dataset.theme = currentTheme3d;
+  const btn = document.querySelector('#theme-btn');
+  if (btn) btn.textContent = currentTheme3d === 'dark' ? '☀ 极昼浅色' : '☾ 深空钛蓝';
+  const bgHex = currentTheme3d === 'light' ? 0xdfe9f5 : hexToInt(SAGE_DARK.fogBg);
+  scene.background.setHex(bgHex);
+  scene.fog.color.setHex(bgHex);
+  renderer.toneMappingExposure = currentTheme3d === 'light' ? 1.12 : 0.96;
+  // 同步 3D 悬浮名片中的 64px 头像亮暗版本
+  document.querySelectorAll('#labels3d .seat-avatar').forEach(img => {
+    img.src = img.src.replace(/\/avatars\/(dark|light)\//, `/avatars/${currentTheme3d}/`);
+  });
+  if (selected3d && (selected3d.kind === 'seat' || selected3d.kind === 'gov')) {
+    showDetail(selected3d.kind, selected3d.id);
+  }
+}
+const themeBtn = document.querySelector('#theme-btn');
+if (themeBtn) {
+  themeBtn.addEventListener('click', () => apply3dTheme(currentTheme3d === 'dark' ? 'light' : 'dark'));
+}
+
+// ---------- 3D 顶栏全局搜索 (#q3d) ----------
+const q3dInput = document.querySelector('#q3d');
+const q3dBox = document.querySelector('#q3d-results');
+if (q3dInput && q3dBox) {
+  q3dInput.addEventListener('input', () => {
+    const q = q3dInput.value.trim().toLowerCase();
+    if (!q) { q3dBox.hidden = true; q3dBox.innerHTML = ''; return; }
+    const hits = [];
+    for (const s of [...G.org.seats, ...G.org.governance]) {
+      const hay = `${s.seat_id} ${s.alias} ${s.title} ${s.slot_id} ${s.slot_title} ${s.plane} ${s.source_group}`.toLowerCase();
+      if (hay.includes(q)) hits.push({ kind: s.seat_id.startsWith('MGT-') ? 'gov' : 'seat', id: s.seat_id, label: `${s.seat_id} ${s.alias} · ${s.title}`, sub: `${s.slot_id} · ${s.plane}` });
+    }
+    for (const n of net.nodes) {
+      const hay = `${n.id} ${n.title} ${n.short} ${n.codes}`.toLowerCase();
+      if (hay.includes(q)) hits.push({ kind: 'node', id: n.id, label: `业务节点 · ${n.title}`, sub: n.codes });
+    }
+    for (const d of (G.decisions || [])) {
+      if (d.id.toLowerCase().includes(q) || (d.title || '').toLowerCase().includes(q)) {
+        hits.push({ kind: 'decision', id: d.id, label: `${d.id} · ${(d.title || '').slice(0, 26)}`, sub: `L${d.line}` });
+        if (hits.length >= 24) break;
+      }
+    }
+    if (!hits.length) {
+      q3dBox.innerHTML = `<div class="q-item"><span>无匹配结果</span></div>`;
+      q3dBox.hidden = false;
+      return;
+    }
+    q3dBox.innerHTML = hits.slice(0, 18).map((h, i) =>
+      `<div class="q-item" data-idx="${i}"><span>${h.label}</span><small>${h.sub}</small></div>`
+    ).join('');
+    q3dBox.hidden = false;
+    q3dBox.querySelectorAll('.q-item').forEach((el, i) => el.addEventListener('click', () => {
+      const h = hits[i];
+      q3dBox.hidden = true;
+      if (h.kind === 'seat') {
+        if (!orgOnly.visible) switchView('cosmos');
+        const seatBox = org.seats.find(x => x.id === h.id);
+        if (seatBox) tweenCamera({ radius: 1080, target: [seatBox.x + seatBox.w / 2, 90, seatBox.y + seatBox.h / 2] });
+      } else if (h.kind === 'node') {
+        if (!netGroup.visible) switchView('cosmos');
+        const nd = net.nodes.find(x => x.id === h.id);
+        if (nd) tweenCamera({ radius: 1580, target: [FCX - 800 + nd.x + nd.w / 2, SKY_Y + 40, FCZ - 800 + nd.y + nd.h / 2] });
+      }
+      showDetail(h.kind, h.id);
+    }));
+  });
+}
+
 document.querySelector('#toggle-rotate').addEventListener('click', e => {
   autoRotate = !autoRotate;
   e.currentTarget.textContent = autoRotate ? '暂停旋转' : '继续旋转';
@@ -1174,18 +1388,23 @@ document.querySelector('#toggle-rotate').addEventListener('click', e => {
 document.querySelectorAll('[data-cam-zone]').forEach(btn => btn.addEventListener('click', () => {
   document.querySelectorAll('[data-cam-zone]').forEach(b => b.classList.toggle('active', b === btn));
   const zKey = btn.dataset.camZone;
-  if (stage.dataset.view !== 'org') switchView('org');
   if (zKey === 'all') {
     closeupMode = false;
     document.querySelector('#closeup-btn').classList.remove('active');
-    tweenCamera(VIEW_PRESETS.org);
+    switchView('cosmos');
+  } else if (zKey === 'sky') {
+    closeupMode = false;
+    document.querySelector('#closeup-btn').classList.remove('active');
+    switchView('network');
   } else if (zKey === 'holo') {
+    if (!orgOnly.visible) switchView('cosmos');
     closeupMode = true;
     document.querySelector('#closeup-btn').classList.add('active');
     tweenCamera({ theta: 0, phi: Math.PI * 0.37, radius: 680, target: [FCX, 72, F.z1 - 120] });
     const curId = holoStage.getCurrentSeatId() || 'AGT-008';
     showDetail(curId.startsWith('MGT-') ? 'gov' : 'seat', curId);
   } else if (ZONE[zKey]) {
+    if (!orgOnly.visible) switchView('cosmos');
     const z = ZONE[zKey];
     const zx = (z.x0 + z.x1) / 2, zz = (z.z0 + z.z1) / 2;
     const span = Math.max(z.x1 - z.x0, z.z1 - z.z0);
@@ -1194,8 +1413,6 @@ document.querySelectorAll('[data-cam-zone]').forEach(btn => btn.addEventListener
     tweenCamera({ theta: Math.PI * 0.22, phi: Math.PI * 0.35, radius: Math.max(820, Math.min(1550, span * 0.95)), target: [zx, 75, zz] });
   }
 }));
-
-for (const l of labels) if (l.kind === 'node') l.shown = false;
 
 // ---------- 标签投影 + 席位 LOD ----------
 const v3 = new THREE.Vector3();
@@ -1207,15 +1424,16 @@ function overlaps(a, b) {
 
 function projectLabels() {
   const w = stage.clientWidth, h = stage.clientHeight;
-  const orgView = stage.dataset.view === 'org';
+  const curView = stage.dataset.view;
+  const orgVisible = orgOnly.visible;
 
   const seatShown = new Set();
-  if (orgView && pilotMode) {
+  if (orgVisible && pilotMode) {
     for (const l of labels) {
       if (l.kind === 'seat' && (pilotCoreIds.has(l.id) || pilotCtxIds.has(l.id))) seatShown.add(l);
     }
   }
-  if (orgView && orbit.radius < 2800) {
+  if (orgVisible && (orbit.radius < 2900 || curView === 'plan')) {
     const cands = [];
     for (const l of labels) {
       if (l.kind !== 'seat') continue;
@@ -1224,7 +1442,7 @@ function projectLabels() {
       cands.push({ l, d: v3.z });
     }
     cands.sort((a, b) => a.d - b.d);
-    const maxPins = orbit.radius < 1750 ? 26 : 16;
+    const maxPins = curView === 'plan' ? 50 : (orbit.radius < 1750 ? 26 : 16);
     for (const c of cands.slice(0, maxPins)) seatShown.add(c.l);
   }
 
@@ -1247,7 +1465,7 @@ function projectLabels() {
 
   placedRects.length = 0;
   for (const c of cands) {
-    if (placedRects.some(r => overlaps(c.rect, r))) { c.l.el.style.display = 'none'; continue; }
+    if (placedRects.some(r => overlaps(c.rect, r))) { c.l.el.display = 'none'; c.l.el.style.display = 'none'; continue; }
     placedRects.push(c.rect);
     c.l.el.style.display = '';
     c.l.el.style.transform = `translate(${c.x}px,${c.y}px) translate(-50%,-50%)`;
@@ -1260,11 +1478,12 @@ let elapsed = 0;
 function tick() {
   const dt = STILL_MODE ? 0 : clock.getDelta();
   elapsed += dt;
-  if (autoRotate && !dragging && !camTween) orbit.theta += dt * 0.06;
+  if (autoRotate && !dragging && !camTween && stage.dataset.view !== 'plan') orbit.theta += dt * 0.055;
   if (chaseMaterial) chaseMaterial.uniforms.uTime.value = STILL_MODE ? 2.4 : elapsed;
   hudRingGroup.rotation.y = STILL_MODE ? 0.2 : elapsed * 0.035;
   holoStage.update(dt);
   if (flow && netGroup.visible) flow.update(dt);
+  if (beamGroup.visible) beams.update(dt);
   applyCamera();
   renderer.render(scene, camera);
   projectLabels();
@@ -1273,21 +1492,25 @@ function tick() {
 
 document.querySelector('#f-seats').textContent = `${org.seats.length} 位数字员工 + ${G.org.governance.length} 项管理规则包`;
 document.querySelector('#gv').textContent = G.graph_version;
-if (params.get('view') === 'network') switchView('network');
+if (params.get('view') && VIEW_PRESETS[params.get('view')]) switchView(params.get('view'));
+if (params.get('theme') === 'light') apply3dTheme('light');
 if (params.get('closeup') === '1') {
   closeupMode = true;
   document.querySelector('#closeup-btn').classList.add('active');
   tweenCamera(VIEW_PRESETS['org-closeup'], 0);
 }
 window.__sc = {
-  renderer, scene, camera, orbit, VIEW_PRESETS, tweenCamera, switchView, showDetail, holoStage,
+  renderer, scene, camera, orbit, VIEW_PRESETS, tweenCamera, switchView, showDetail, apply3dTheme, holoStage, beams,
   getStats: () => ({
+    view: stage.dataset.view,
+    theme: currentTheme3d,
     calls: renderer.info.render.calls,
     triangles: renderer.info.render.triangles,
     geometries: renderer.info.memory.geometries,
     textures: renderer.info.memory.textures,
     holoVoxels: holoStage.getActiveCount(),
     holoSeat: holoStage.getCurrentSeatId(),
+    beams: beams.stats,
     flow: flow ? flow.stats : null,
   }),
 };
