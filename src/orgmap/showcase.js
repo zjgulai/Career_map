@@ -887,8 +887,15 @@ const orbit = {
   target: new THREE.Vector3(...VIEW_PRESETS.cosmos.target),
 };
 let camTween = null;
-let autoRotate = !STILL_MODE;
+// 门面默认不做无限匀速旋转：入场落定后缓慢巡览一段即静止（一次考究运镜 + 定帧海报）。
+let autoRotate = false;
+let settleDrift = null;
 let dragging = false, last = null, moved = 0;
+
+function startSettleDrift(durationMs = 8500) {
+  if (STILL_MODE || REDUCED_MOTION) { settleDrift = null; return; }
+  settleDrift = { t0: performance.now(), dur: durationMs };
+}
 
 function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
 
@@ -1877,7 +1884,8 @@ document.querySelectorAll('[data-lightbox-url]').forEach(a => {
 
 document.querySelector('#toggle-rotate').addEventListener('click', e => {
   autoRotate = !autoRotate;
-  e.currentTarget.textContent = autoRotate ? '暂停旋转' : '继续旋转';
+  if (autoRotate) settleDrift = null;
+  e.currentTarget.textContent = autoRotate ? '停止巡览' : '缓慢巡览';
   e.currentTarget.classList.toggle('active', autoRotate);
 });
 
@@ -1990,6 +1998,7 @@ function runIntroSweep() {
   orbit.radius = 3520;
   orbit.target.set(FCX, 210, FCZ);
   tweenCamera(VIEW_PRESETS.cosmos, 1800);
+  setTimeout(() => { if (!dragging && !autoRotate) startSettleDrift(); }, 1850);
   return true;
 }
 
@@ -2068,7 +2077,16 @@ function tick() {
       if (avgMs > 28.5) triggerLowPowerFallback(`avgFrameMs=${avgMs.toFixed(1)}`);
     }
   }
-  if (autoRotate && !dragging && !camTween && stage.dataset.view !== 'plan') orbit.theta += dt * 0.055;
+  const canDrift = !dragging && !camTween && stage.dataset.view !== 'plan';
+  if (settleDrift && canDrift) {
+    const u = Math.min(1, (performance.now() - settleDrift.t0) / settleDrift.dur);
+    const speed = 0.14 * (1 - u) * (1 - u);
+    orbit.theta += dt * speed;
+    if (u >= 1) settleDrift = null;
+  } else if (settleDrift) {
+    settleDrift = null;
+  }
+  if (autoRotate && canDrift) orbit.theta += dt * 0.055;
   if (chaseMaterial) chaseMaterial.uniforms.uTime.value = STILL_MODE ? 2.4 : elapsed;
   hudRingGroup.rotation.y = STILL_MODE ? 0.2 : elapsed * 0.035;
   holoStage.update(dt);

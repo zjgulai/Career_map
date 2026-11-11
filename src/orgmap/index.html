@@ -24,13 +24,17 @@
   <button id="pilot3d-btn" type="button" title="高亮新品、持续经营、新市场三条业务主线与试点岗位">三条主线 / 试点</button>
   <button id="bloom-btn" type="button" class="active" title="开启或关闭天幕节点、跨层光柱与全息台的选择性辉光">✦ 空间辉光</button>
   <button id="theme-btn" type="button" title="三套 3D 主题循环切换：深空钛蓝 → 极昼冰川 → 量子青碧">☀ 极昼冰川</button>
-  <button id="toggle-rotate" class="active">暂停旋转</button>
+  <button id="toggle-rotate" title="开启或停止缓慢环绕巡览（默认静止）">缓慢巡览</button>
   <button id="side-toggle-btn" type="button" title="展开或收起右侧档案抽屉">档案抽屉</button>
 </header>
 <main>
   <section id="stage" aria-label="三维组织与经营空间">
     <canvas id="gl"></canvas>
     <div id="labels3d"></div>
+    <div id="design-chip" role="note" aria-label="项目性质说明">
+      <span class="chip-dot"></span>
+      <span class="chip-text">设计态原型 · 非运行系统　生产权限 <strong>0 / 53</strong></span>
+    </div>
     <div id="zone-dock" aria-label="区域快捷导览">
       <button type="button" class="dock-btn active" data-cam-zone="all">天地全景</button>
       <button type="button" class="dock-btn" data-cam-zone="ops">业务运营 (35人)</button>

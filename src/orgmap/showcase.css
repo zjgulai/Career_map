@@ -218,6 +218,18 @@ code{font-size:12px;color:var(--code-ink)}
 .dock-btn:hover{color:var(--ink);background:var(--dock-hover-bg);border-color:var(--active-bg)}
 .dock-btn.active{background:var(--active-bg);color:var(--on-accent);border-color:var(--active-line);box-shadow:var(--dock-active-glow)}
 
+#design-chip{position:absolute;right:16px;top:14px;z-index:12;display:flex;align-items:center;gap:8px;
+  padding:6px 13px;font-size:12px;line-height:1;letter-spacing:.2px;color:var(--muted);
+  background:var(--dock-bg);backdrop-filter:blur(14px);border:1px solid var(--line);border-radius:999px;
+  box-shadow:var(--dock-shadow);pointer-events:none;user-select:none;max-width:min(62vw,420px)}
+#design-chip .chip-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#design-chip strong{color:var(--warn-ink);font-weight:600}
+#design-chip .chip-dot{flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:var(--warn-ink);
+  box-shadow:var(--good-glow);animation:chip-breathe 3.2s ease-in-out infinite}
+@keyframes chip-breathe{0%,100%{opacity:.55}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){#design-chip .chip-dot{animation:none;opacity:.9}}
+@media (max-width:1279px){#design-chip{top:10px;right:12px;font-size:11px;padding:5px 10px;max-width:68vw}}
+
 /* ---------- 批次 25-27：极昼冰蓝 3D 主题切换 + 全局搜索 + 页内卡片预览舱 ---------- */
 body[data-theme="light"]{
   --ink:#202b38;--muted:#46576a;--bg:#eef3f9;--panel:#f4f7fb;--line:#dce5ef;
